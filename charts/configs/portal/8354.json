@@ -362,7 +362,6 @@
                 }
     },
     "type": "column",
-    "inverted": false,
     "renderTo": "container-8354",
     "spacingBottom": 40
   },
@@ -375,7 +374,7 @@
         }
       },
       "stacking": "percent",
-      "pointPadding": 0.1,
+      "pointPadding": 0.2,
       "groupPadding": 0
     }
   },
@@ -389,7 +388,7 @@
     "text": "Anteile Wertschöpfung nach Branche"
   },
   "subtitle": {
-    "text": "Anteile an der Gesamtwertschöpfung, 2018",
+    "text": "Anteile an der Gesamtwertschöpfung, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -424,8 +423,8 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "align": "right",
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -446,14 +445,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2022"
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><b>'
+      }
   },
   "exporting": {
-    "filename": 8354
+    "filename": "8354"
   }
 }

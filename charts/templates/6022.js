@@ -23,7 +23,7 @@
 				[0.25, 'rgb(230,230,230)'],
 				[0.9, 'rgb(0,135,135)']//103,39,115
 			],*/
-			stops:	[
+			stops: [
 				[0, "#662673"],
 				[0.4999999999, "#E7CEE2"],
 				[0.5, "#ffffff"],
@@ -81,18 +81,17 @@
 					headerFormat: '',
 					useHTML: true,
 					pointFormatter: function () {
-						var columnSeriesIndex = this.index + 6; // 6 series statically defined in this chart incl. afterSeries (rhein and massstab)
+						console.log(this);
+						var columnSeriesIndex = this.index + 6; //+ 6 offset for extras series in the object (4 data cols, rhein, massstab)
 						var columnSeries = this.series.chart.series[columnSeriesIndex];
+						console.log(columnSeries);
 						//put together html for tooltip
-						var tooltipText =
-							this.properties.LIBGEO + ': <br/><br/>' +
-							'<table>'
-							+ '<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value), 2) + '</b></td></tr><br/>';
+						var tooltipText = '<span style="font-size: 8pt">' + this.properties.LIBGEO + ': </span>';
 						//add a tooltip row for each column
-						columnSeries.points || [].forEach(function (element, index, array) {
-							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y), 2) + '</b></td></tr><br/>') : undefined;
+						!columnSeries.points || columnSeries.points.forEach(function (element, index, array) {
+							(columnSeries.visible) ? tooltipText += ('<br><span style="color:' + element.color + '">●</span> ' + element.name + ': <b>' + Highcharts.numberFormat((element.y), 2) + '</b>') : undefined;
 						});
-						tooltipText += '</table>';
+						tooltipText += '<br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': ' + '<b>' + Highcharts.numberFormat((this.value), 2) + '</b>';
 						return tooltipText;
 					}
 				}
@@ -134,13 +133,13 @@
 						return {
 							enableMouseTracking: false,
 							/*
-	                        tooltip: {
-	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-	                            }
-	                        },
-	                        */
+							tooltip: {
+								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+								}
+							},
+							*/
 						};
 					};
 
@@ -173,6 +172,7 @@
 					//Add manually drawn legend	
 					var legendTop = 235;
 					var legendLeft = 365;
+					fn.addLegendRectangle(chart, legendLeft - 100, legendTop, 210, 145, '#fbfbfb');
 					fn.addLegendTitle(chart, legendLeft - 100, legendTop + 0, 'Wanderung/Umzug');
 
 					//     fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
@@ -200,4 +200,4 @@
 			}
 		}
 	};
-}()); 
+}());

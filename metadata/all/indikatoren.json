@@ -12151,45 +12151,43 @@
 		"id": 6011
 	},
 	{
+		"template": "template001",
+		"data-id": 6012,
+		"chart-id": 6012,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6761"
+			6761
 		],
-		"template": "template001",
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "",
-		"kuerzelKunde": "2-2",
-		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "2021 ergibt sich für den Kanton ein Wanderungsverlust von total 1 000 Personen. Dieser kommt vor allem dadurch zustande, dass mehr Schweizer den Kanton verlassen als zuziehen (-1 427). Bei den ausländischen Staatsangehörigen wird ein Plus von 427 Personen registriert. Im Vorjahr (2020) wurde ein Wanderungsgewinn von 956 Personen verzeichnet.",
+		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:41.4141",
+		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06012",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-2",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 ergibt sich für den Kanton ein Wanderungsgewinn von 956 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 037). 2019 war der Wanderungsgewinn mit 1 214 höher ausgefallen.",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6012,
-		"chart-id": 6012,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:20",
 		"id": 6012
 	},
 	{
@@ -12434,46 +12432,44 @@
 		"id": 6021
 	},
 	{
+		"template": "mapcolumn002",
+		"data-id": 6022,
+		"chart-id": 6022,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6771"
+			6771
 		],
-		"template": "mapcolumn002",
 		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.06022",
-		"kuerzelKunde": "2-12",
-		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2021 verbuchten die Wohnviertel Clara und Vorstädte die grössten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Kleinhüningen und Breite. Betrachtet man die innerkantonalen Umzüge, wiesen Bettingen und das Wohnviertel Clara deutlich die grössten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner verzeichneten unter anderem die Wohnviertel Vorstädte und Wettstein. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen Clara und Bettingen auf. Die höchsten Bevölkerungsverluste verzeichneten die Wohnviertel Vorstädte und Klybeck.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-02T09:03:12.1212",
+		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06022",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-12",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2020 verbuchten die Wohnviertel Altstadt Grossbasel, Vorstädte, Am Ring, Altstadt Kleinbasel und Wettstein die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für das Hirzbrunnenquartier und die Gemeinde Bettingen. Betrachtet man die innerkantonalen Umzüge, wiesen die Altstadt Grossbasel, das St. Alban- und das Bruderholzquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Wohnvierteln Gotthelf, Altstadt Kleinbasel, Clara, Rosental und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Altstadt Grossbasel, Am Ring, St.Alban und Wettstein sowie die Gemeinde Riehen auf. Die höchsten Bevölkerungsverluste infolge sämtlicher räumlicher Bevölkerungsbewegungen verzeichneten die Wohnviertel Gotthelf, Hirzbrunnen und Klybeck.",
-		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"orderKey": "01_00_00_00_00_012",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_012",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6022,
-		"chart-id": 6022,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:18",
 		"id": 6022
 	},
 	{
@@ -12557,46 +12553,44 @@
 		"id": 6024
 	},
 	{
+		"template": "mappie002",
+		"data-id": 6025,
+		"chart-id": 6025,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6774"
+			6774
 		],
-		"template": "mappie002",
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.6025",
-		"kuerzelKunde": "2-10",
-		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger in Basel-Stadt kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. In der Gemeinde Bettingen ist der Anteil der Neuzuziehenden aus der Schweiz (62%) am höchsten. In den Wohnvierteln Breite, Gundeldingen, Bachletten und Iselin liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland gibt es beispielsweise in den Wohnvierteln Rosental, Clara und Wettstein. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Wohnviertel Hirzbrunnen und die Gemeinde Riehen mit jeweils 3 Personen.",
+		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-27T09:08:08.088",
+		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.6025",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-10",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz ist der Anteil der Neuzuziehenden aus der Schweiz (61%) am höchsten. In den Wohnvierteln Gundeldingen, Bachletten und Altstadt Kleinbasel sowie in der Gemeinde Bettingen liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Clara, Wettstein, Rosental und Klybeck mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Hirzbrunnenquartier und die Gemeinde Bettingen mit jeweils 3 Personen.",
-		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
+		"orderKey": "01_00_00_00_00_010",
 		"darstellungsart": "Karte",
 		"printformat": "map",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_010",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6025,
-		"chart-id": 6025,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:15",
 		"id": 6025
 	},
 	{
@@ -35363,8 +35357,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Altstadt Kleinbasel",
-		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Spaniern. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher etwas höher, der Anteil Türken und Portugiesen niedriger.<br>Der Ausländeranteil im Wohnviertel beträgt 38,8%.<br>Zu berücksichtigen ist, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr niedrige Einwohnerzahl hat.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Spaniern. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher etwas höher, der Anteil Türken und Portugiesen niedriger. Der Ausländeranteil im Wohnviertel beträgt 38,4%. Zu berücksichtigen ist, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr niedrige Einwohnerzahl hat.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35389,7 +35383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:34",
+		"aktualisierungsdatum": "2022-06-30T08:51:22",
 		"id": 6945
 	},
 	{
@@ -35477,8 +35471,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Hirzbrunnen",
-		"lesehilfe": "Im Wohnviertel Hirzbrunnen stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher, Italiener und Türken etwas höher, der Anteil Portugiesen und Briten geringer.<br>Der Ausländeranteil im Wohnviertel beträgt 25,9%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Hirzbrunnen bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher, Italiener und Türken etwas höher, der Anteil Portugiesen und Briten geringer. Der Ausländeranteil im Wohnviertel beträgt 26,0%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35503,7 +35497,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:35",
+		"aktualisierungsdatum": "2022-06-30T08:51:25",
 		"id": 6948
 	},
 	{
@@ -35591,8 +35585,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Klybeck",
-		"lesehilfe": "Im Wohnviertel Klybeck stellen Italiener die grösste ausländische Bevölkerungsgruppe, gefolgt von Türken und  Deutschen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher deutlich geringer, der Anteil Italiener, Portugiesen und Personen aus den Balkanländern deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 51,9%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Klybeck bilden Italiener die grösste ausländische Bevölkerungsgruppe, gefolgt von Türken und  Deutschen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher deutlich geringer, der Anteil Italiener, Portugiesen und Personen aus den Balkanländern deutlich höher. Der Ausländeranteil im Wohnviertel beträgt 52,4%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35617,7 +35611,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:36",
+		"aktualisierungsdatum": "2022-06-30T08:51:28",
 		"id": 6952
 	},
 	{
@@ -35629,8 +35623,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen stellen Italiener die grösste ausländische Bevölkerungsgruppe, gefolgt von Deutschen und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher geringer, der Anteil von Personen aus den Balkanländern deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 48,7%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen bilden Italiener die grösste ausländische Bevölkerungsgruppe, gefolgt von Deutschen und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher geringer, der Anteil von Personen aus den Balkanländern deutlich höher. Der Ausländeranteil im Wohnviertel beträgt 48,0%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35655,7 +35649,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:36",
+		"aktualisierungsdatum": "2022-06-30T08:51:30",
 		"id": 6953
 	},
 	{
@@ -35667,8 +35661,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gemeinde Riehen",
-		"lesehilfe": "In der Gemeinde Riehen stellen Deutsche die mit Abstand grösste ausländische Bevölkerungsgruppe. Im Vergleich zum kantonalen Durchschnitt ist der Anteil aller anderen Staatsangehörigkeiten geringer mit Ausnahme der Briten.<br>Der Ausländeranteil der Gemeinde beträgt 27,7%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "In der Gemeinde Riehen bilden Deutsche die mit Abstand grösste ausländische Bevölkerungsgruppe. Im Vergleich zum kantonalen Durchschnitt ist der Anteil aller anderen Staatsangehörigkeiten mit Ausnahme der Briten geringer. Der Ausländeranteil der Gemeinde beträgt 27,7%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35694,7 +35688,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:37",
+		"aktualisierungsdatum": "2022-06-30T08:51:33",
 		"id": 6954
 	},
 	{
@@ -35706,8 +35700,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gemeinde Bettingen",
-		"lesehilfe": "In der Gemeinde Bettingen stellen Deutsche die mit Abstand grösste ausländische Bevölkerungsgruppe. Im Vergleich zum kantonalen Durchschnitt ist der Anteil aller anderen Staatsangehörigkeiten geringer mit Ausnahme der Briten.<br>Der Ausländeranteil der Gemeinde beträgt 25,2%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "In der Gemeinde Bettingen bilden Deutsche die mit Abstand grösste ausländische Bevölkerungsgruppe. Im Vergleich zum kantonalen Durchschnitt ist der Anteil aller anderen Staatsangehörigkeiten mit Ausnahme der Briten geringer. Der Ausländeranteil der Gemeinde beträgt 25,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35733,7 +35727,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:37",
+		"aktualisierungsdatum": "2022-06-30T08:51:35",
 		"id": 6955
 	},
 	{
@@ -36821,8 +36815,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe im Kanton Basel-Stadt bildeten Ende 2020 die Deutschen, gefolgt von den Italienern und Türken.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Kanton. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Kantons. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe im Kanton Basel-Stadt bildeten Ende 2021 Deutsche, gefolgt von Italienern und Türken.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Kanton. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Kantons. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36847,7 +36841,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:37",
+		"aktualisierungsdatum": "2022-06-30T08:51:37",
 		"id": 6990
 	},
 	{
@@ -36889,43 +36883,41 @@
 		"id": 6991
 	},
 	{
+		"template": "line001",
+		"data-id": 6992,
+		"chart-id": 6992,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2020",
-		"kennzahlenset": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 lagen Frauen im Alter von 12 Jahren mit 10,1 Tagen im Durchschnitt am längsten in einem baselstädtischen Spital.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-23T08:11:59.5959",
+		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer von in Basler Spitälern behandelten Frauen lag 2020 mit 6,7 Tagen leicht unter derjenigen der Männer (7,0 Tage). Der Kurvenverlauf der mittleren Aufenthaltsdauer von Frauen und Männern verläuft ähnlich. Im Alter zwischen 20 und 60 Jahren liegen Männer durchschnittlich etwas länger in Basler Spitälern als Frauen. Die Höchstwerte werden von beiden Geschlechtern im jugendlichen Alter von 15 Jahren (Frauen) resp. 12 Jahren (Männer) sowie im Alter zwischen 70 und 90 Jahren erreicht.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6992,
-		"chart-id": 6992,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:02",
 		"id": 6992
 	},
 	{
@@ -55555,45 +55547,43 @@
 		"id": 8353
 	},
 	{
+		"template": "template001",
+		"data-id": 8354,
+		"chart-id": 8354,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8471
+		],
 		"title": "Anteile Wertschöpfung nach Branche",
-		"subtitle": "Anteile an der Gesamtwertschöpfung, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.2-1",
-		"description": "Anteile Wertschöpfung nach Branche",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2020",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2020 die Branchen Chemie und Pharma rund 44% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 19% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (33% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31%). An zweiter Stelle folgt der Handel (11%).",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Anteile Wertschöpfung nach Branche",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08354",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt erwirtschaften 2018 die Branchen Chemie und Pharma 43,7% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 18,2% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (32,6% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie 8,8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,3%). An zweiter Stelle folgt der Handel (10,1%).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
-		"template": "template001",
+		"orderKey": "01_02_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8471"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8354,
-		"chart-id": 8354,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:05",
 		"id": 8354
 	},
 	{
@@ -55604,11 +55594,13 @@
 		"parentId": null,
 		"children": [
 			8472,
-			9361
+			9361,
+			9420,
+			9586
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -55634,7 +55626,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:33",
+		"aktualisierungsdatum": "2022-06-30T08:51:07",
 		"id": 8355
 	},
 	{
@@ -55680,45 +55672,43 @@
 		"id": 8356
 	},
 	{
+		"template": "line001",
+		"data-id": 8357,
+		"chart-id": 8357,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8474
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08357",
-		"kuerzelKunde": "1.2-4",
-		"description": "Entwicklung Wertschöpfung nach Branche, Jura",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken, aber am stärksten ist auch hier das Gastgewerbe betroffen. Deutlich zugenommen hat die realen Wertschöpfung im Baugewerbe sowie in den Finanz- und Versicherungsdienstleistungen.",
+		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:24.2424",
+		"description": "Entwicklung Wertschöpfung nach Branche, Jura",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08357",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-4",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Jura hat das Branchenaggregat Freiberufliche, wissenschaftliche und technische Dienstleistungen das höchste Wachstum der realen Wertschöpfung (+27%) zwischen 2014 und 2018 erreicht. Rückläufig war die Wertschöpfung im Fahrzeugbau (-26%) und im Bereich Elektro/Optik/Maschinenindustrie (-13%).",
-		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8474"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8357,
-		"chart-id": 8357,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:10",
 		"id": 8357
 	},
 	{
@@ -77301,7 +77291,7 @@
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -77327,7 +77317,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:23",
+		"aktualisierungsdatum": "2022-06-30T08:51:13",
 		"id": 9361
 	},
 	{
