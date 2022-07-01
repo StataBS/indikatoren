@@ -54433,43 +54433,41 @@
 		"id": 8317
 	},
 	{
+		"template": "line001",
+		"data-id": 6905,
+		"chart-id": 6905,
+		"filter": "",
+		"parentId": "6905",
+		"children": [],
 		"title": "Median des Reinvermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
-		"kuerzel": "I.18.2.08318",
-		"kuerzelKunde": "3-04",
-		"description": "Median des Reinvermögens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2019 wird mit rund 92 200 Franken in der Einwohnergemeinde Bettingen verzeichnet. Auch 2010 wurde der höchste Wert dort registriert.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-04T13:04:39.3939",
+		"description": "Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.08318",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3-04",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2017 wird mit rund 109 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt 20 000 Franken.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
-		"template": "line001",
+		"orderKey": "03_02_00_00_00_304",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_02_00_00_00_304",
-		"parentId": 6905,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6905,
-		"chart-id": 6905,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-01T12:07:22",
 		"id": 8318
 	},
 	{
@@ -77317,7 +77315,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:13",
+		"aktualisierungsdatum": "2022-07-01T12:07:21",
 		"id": 9361
 	},
 	{
