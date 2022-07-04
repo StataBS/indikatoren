@@ -1,0 +1,624 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "1964",
+          3524.699
+        ],
+        [
+          "1965",
+          4021.125
+        ],
+        [
+          "1966",
+          3633.22
+        ],
+        [
+          "1967",
+          3578.809
+        ],
+        [
+          "1968",
+          3758.252
+        ],
+        [
+          "1969",
+          3913.129
+        ],
+        [
+          "1970",
+          4241.726
+        ],
+        [
+          "1971",
+          4078.664
+        ],
+        [
+          "1972",
+          4054.992
+        ],
+        [
+          "1973",
+          4155.089
+        ],
+        [
+          "1974",
+          4583.382
+        ],
+        [
+          "1975",
+          4116.444
+        ],
+        [
+          "1976",
+          4060.375
+        ],
+        [
+          "1977",
+          4328.928
+        ],
+        [
+          "1978",
+          4193.867
+        ],
+        [
+          "1979",
+          4523.146
+        ],
+        [
+          "1980",
+          4513.587
+        ],
+        [
+          "1981",
+          4151.587
+        ],
+        [
+          "1982",
+          3852.479
+        ],
+        [
+          "1983",
+          4303.074
+        ],
+        [
+          "1984",
+          4443.443
+        ],
+        [
+          "1985",
+          3993.798
+        ],
+        [
+          "1986",
+          3974.239
+        ],
+        [
+          "1987",
+          3437.045
+        ],
+        [
+          "1988",
+          3371.885
+        ],
+        [
+          "1989",
+          2922.291
+        ],
+        [
+          "1990",
+          2715.026
+        ],
+        [
+          "1991",
+          2617.165
+        ],
+        [
+          "1992",
+          2329.829
+        ],
+        [
+          "1993",
+          2299.805
+        ],
+        [
+          "1994",
+          2407.479
+        ],
+        [
+          "1995",
+          2133.692
+        ],
+        [
+          "1996",
+          1914.039
+        ],
+        [
+          "1997",
+          1776.926
+        ],
+        [
+          "1998",
+          2032.591
+        ],
+        [
+          "1999",
+          1843.992
+        ],
+        [
+          "2000",
+          2161.898
+        ],
+        [
+          "2001",
+          1990.275
+        ],
+        [
+          "2002",
+          1587.17
+        ],
+        [
+          "2003",
+          1306.108
+        ],
+        [
+          "2004",
+          1253.682
+        ],
+        [
+          "2005",
+          1245.752
+        ],
+        [
+          "2006",
+          1173.067
+        ],
+        [
+          "2007",
+          1223.82
+        ],
+        [
+          "2008",
+          1270.147
+        ],
+        [
+          "2009",
+          1327.29
+        ],
+        [
+          "2010",
+          1221.119
+        ],
+        [
+          "2011",
+          877.702
+        ],
+        [
+          "2012",
+          1641.557
+        ],
+        [
+          "2013",
+          1425.985
+        ],
+        [
+          "2014",
+          1349.063
+        ],
+        [
+          "2015",
+          1173.367
+        ],
+        [
+          "2016",
+          1009.903
+        ],
+        [
+          "2017",
+          919.503
+        ],
+        [
+          "2018",
+          752.623
+        ],
+        [
+          "2019",
+          781.205
+        ]
+      ],
+      "name": "Schweizer Flagge",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "1964",
+          4005.271
+        ],
+        [
+          "1965",
+          4594.125
+        ],
+        [
+          "1966",
+          4773.936
+        ],
+        [
+          "1967",
+          4333.211
+        ],
+        [
+          "1968",
+          4050.361
+        ],
+        [
+          "1969",
+          4103.479
+        ],
+        [
+          "1970",
+          4683.1
+        ],
+        [
+          "1971",
+          4123.6
+        ],
+        [
+          "1972",
+          3870.594
+        ],
+        [
+          "1973",
+          4292.954
+        ],
+        [
+          "1974",
+          4756.81
+        ],
+        [
+          "1975",
+          4072.817
+        ],
+        [
+          "1976",
+          4231.563
+        ],
+        [
+          "1977",
+          4679.573
+        ],
+        [
+          "1978",
+          4492.482
+        ],
+        [
+          "1979",
+          4058.522
+        ],
+        [
+          "1980",
+          4505.92
+        ],
+        [
+          "1981",
+          4384.529
+        ],
+        [
+          "1982",
+          3518.713
+        ],
+        [
+          "1983",
+          3859.757
+        ],
+        [
+          "1984",
+          4327.842
+        ],
+        [
+          "1985",
+          4107.412
+        ],
+        [
+          "1986",
+          5013.1
+        ],
+        [
+          "1987",
+          4770.887
+        ],
+        [
+          "1988",
+          5080.907
+        ],
+        [
+          "1989",
+          5922.871
+        ],
+        [
+          "1990",
+          6479.512
+        ],
+        [
+          "1991",
+          5736.236
+        ],
+        [
+          "1992",
+          6201.081
+        ],
+        [
+          "1993",
+          5983.577
+        ],
+        [
+          "1994",
+          5799.295
+        ],
+        [
+          "1995",
+          5891.402
+        ],
+        [
+          "1996",
+          5246.244
+        ],
+        [
+          "1997",
+          6063.003
+        ],
+        [
+          "1998",
+          6076.156
+        ],
+        [
+          "1999",
+          5603.858
+        ],
+        [
+          "2000",
+          6383.835
+        ],
+        [
+          "2001",
+          6643.873
+        ],
+        [
+          "2002",
+          6667.463
+        ],
+        [
+          "2003",
+          5864.68
+        ],
+        [
+          "2004",
+          5991.947
+        ],
+        [
+          "2005",
+          6015.11
+        ],
+        [
+          "2006",
+          5576.66
+        ],
+        [
+          "2007",
+          5884.41
+        ],
+        [
+          "2008",
+          5942.115
+        ],
+        [
+          "2009",
+          5116.398
+        ],
+        [
+          "2010",
+          5297.157
+        ],
+        [
+          "2011",
+          4800.286
+        ],
+        [
+          "2012",
+          5568.991
+        ],
+        [
+          "2013",
+          5403.699
+        ],
+        [
+          "2014",
+          4633.027
+        ],
+        [
+          "2015",
+          5160.471
+        ],
+        [
+          "2016",
+          4886.6
+        ],
+        [
+          "2017",
+          4870.651
+        ],
+        [
+          "2018",
+          3945.358
+        ],
+        [
+          "2019",
+          5284.029
+        ]
+      ],
+      "name": "Ausländische Flagge",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickPositioner": function () {
+          var maxlabels = 11,
+            ext = this.getExtremes(),
+            i = Math.round(ext.max),
+            interval = Math.round((i - ext.min)/maxlabels),
+            pos = [i];
+          while (i >= ext.min) pos.unshift(i = i - interval);
+          return pos;
+          
+        }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginRight": 20,
+    "renderTo": "container-9611",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Umschlag nach Schiffsflagge"
+  },
+  "subtitle": {
+    "text": "in Tausend Tonnen, Schweizerische Rheinhäfen",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9611"
+  }
+}

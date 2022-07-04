@@ -1,0 +1,692 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "type": "column",
+      "data": [
+        [
+          "1980",
+          119
+        ],
+        [
+          "1981",
+          136
+        ],
+        [
+          "1982",
+          475
+        ],
+        [
+          "1983",
+          1589
+        ],
+        [
+          "1984",
+          3162
+        ],
+        [
+          "1985",
+          5441
+        ],
+        [
+          "1986",
+          10073
+        ],
+        [
+          "1987",
+          8807
+        ],
+        [
+          "1988",
+          9665
+        ],
+        [
+          "1989",
+          10681
+        ],
+        [
+          "1990",
+          12182
+        ],
+        [
+          "1991",
+          11032
+        ],
+        [
+          "1992",
+          14119
+        ],
+        [
+          "1993",
+          18149
+        ],
+        [
+          "1994",
+          19552
+        ],
+        [
+          "1995",
+          23010
+        ],
+        [
+          "1996",
+          25520
+        ],
+        [
+          "1997",
+          31674
+        ],
+        [
+          "1998",
+          33321
+        ],
+        [
+          "1999",
+          33110
+        ],
+        [
+          "2000",
+          37774
+        ],
+        [
+          "2001",
+          35695
+        ],
+        [
+          "2002",
+          36367
+        ],
+        [
+          "2003",
+          36082
+        ],
+        [
+          "2004",
+          37840
+        ],
+        [
+          "2005",
+          39748
+        ],
+        [
+          "2006",
+          42596
+        ],
+        [
+          "2007",
+          47955
+        ],
+        [
+          "2008",
+          45326
+        ],
+        [
+          "2009",
+          35347
+        ],
+        [
+          "2010",
+          45347
+        ],
+        [
+          "2011",
+          46342
+        ],
+        [
+          "2012",
+          50291
+        ],
+        [
+          "2013",
+          56929
+        ],
+        [
+          "2014",
+          57226
+        ],
+        [
+          "2015",
+          56262
+        ],
+        [
+          "2016",
+          57226
+        ],
+        [
+          "2017",
+          62196
+        ],
+        [
+          "2018",
+          61623
+        ],
+        [
+          "2019",
+          64719
+        ],
+        [
+          "2020",
+          62157
+        ],
+        [
+          "2021",
+          68999
+        ]
+      ],
+      "name": "Zufuhr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "type": "column",
+      "data": [
+        [
+          "1980",
+          703
+        ],
+        [
+          "1981",
+          545
+        ],
+        [
+          "1982",
+          456
+        ],
+        [
+          "1983",
+          1453
+        ],
+        [
+          "1984",
+          1196
+        ],
+        [
+          "1985",
+          2323
+        ],
+        [
+          "1986",
+          5244
+        ],
+        [
+          "1987",
+          5759
+        ],
+        [
+          "1988",
+          7669
+        ],
+        [
+          "1989",
+          8395
+        ],
+        [
+          "1990",
+          10012
+        ],
+        [
+          "1991",
+          13386
+        ],
+        [
+          "1992",
+          13750
+        ],
+        [
+          "1993",
+          17382
+        ],
+        [
+          "1994",
+          18332
+        ],
+        [
+          "1995",
+          22012
+        ],
+        [
+          "1996",
+          27548
+        ],
+        [
+          "1997",
+          32348
+        ],
+        [
+          "1998",
+          35339
+        ],
+        [
+          "1999",
+          33672
+        ],
+        [
+          "2000",
+          36414
+        ],
+        [
+          "2001",
+          33023
+        ],
+        [
+          "2002",
+          36064
+        ],
+        [
+          "2003",
+          41905
+        ],
+        [
+          "2004",
+          47414
+        ],
+        [
+          "2005",
+          45183
+        ],
+        [
+          "2006",
+          45434
+        ],
+        [
+          "2007",
+          56411
+        ],
+        [
+          "2008",
+          47138
+        ],
+        [
+          "2009",
+          42938
+        ],
+        [
+          "2010",
+          53701
+        ],
+        [
+          "2011",
+          47029
+        ],
+        [
+          "2012",
+          51949
+        ],
+        [
+          "2013",
+          48016
+        ],
+        [
+          "2014",
+          47256
+        ],
+        [
+          "2015",
+          46654
+        ],
+        [
+          "2016",
+          57272
+        ],
+        [
+          "2017",
+          57035
+        ],
+        [
+          "2018",
+          57510
+        ],
+        [
+          "2019",
+          56647
+        ],
+        [
+          "2020",
+          51918
+        ],
+        [
+          "2021",
+          57043
+        ]
+      ],
+      "name": "Abfuhr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3c3c3c",
+      "data": [
+        [
+          "1980",
+          822
+        ],
+        [
+          "1981",
+          681
+        ],
+        [
+          "1982",
+          931
+        ],
+        [
+          "1983",
+          3042
+        ],
+        [
+          "1984",
+          4358
+        ],
+        [
+          "1985",
+          7764
+        ],
+        [
+          "1986",
+          15317
+        ],
+        [
+          "1987",
+          14566
+        ],
+        [
+          "1988",
+          17334
+        ],
+        [
+          "1989",
+          19076
+        ],
+        [
+          "1990",
+          22194
+        ],
+        [
+          "1991",
+          24418
+        ],
+        [
+          "1992",
+          27869
+        ],
+        [
+          "1993",
+          35531
+        ],
+        [
+          "1994",
+          37884
+        ],
+        [
+          "1995",
+          45022
+        ],
+        [
+          "1996",
+          53068
+        ],
+        [
+          "1997",
+          64022
+        ],
+        [
+          "1998",
+          68660
+        ],
+        [
+          "1999",
+          66782
+        ],
+        [
+          "2000",
+          74188
+        ],
+        [
+          "2001",
+          68718
+        ],
+        [
+          "2002",
+          72431
+        ],
+        [
+          "2003",
+          77987
+        ],
+        [
+          "2004",
+          85254
+        ],
+        [
+          "2005",
+          84931
+        ],
+        [
+          "2006",
+          88030
+        ],
+        [
+          "2007",
+          104366
+        ],
+        [
+          "2008",
+          92464
+        ],
+        [
+          "2009",
+          78285
+        ],
+        [
+          "2010",
+          99048
+        ],
+        [
+          "2011",
+          93371
+        ],
+        [
+          "2012",
+          102240
+        ],
+        [
+          "2013",
+          104945
+        ],
+        [
+          "2014",
+          104482
+        ],
+        [
+          "2015",
+          102916
+        ],
+        [
+          "2016",
+          114498
+        ],
+        [
+          "2017",
+          119231
+        ],
+        [
+          "2018",
+          119133
+        ],
+        [
+          "2019",
+          121366
+        ],
+        [
+          "2020",
+          114075
+        ],
+        [
+          "2021",
+          126042
+        ]
+      ],
+      "name": "Gesamt",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickPositioner": function () {
+          var maxlabels = 11,
+            ext = this.getExtremes(),
+            i = Math.round(ext.max),
+            interval = Math.round((i - ext.min)/maxlabels),
+            pos = [i];
+          while (i >= ext.min) pos.unshift(i = i - interval);
+          return pos;
+          
+        }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginRight": 20,
+    "renderTo": "container-9608",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "column": {
+      "pointPadding": 0.2,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wasserseitiger Containerumschlag"
+  },
+  "subtitle": {
+    "text": "in TEU, Schweizerische Rheinhäfen",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20000
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E TEU\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9608"
+  }
+}

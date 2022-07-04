@@ -1,0 +1,209 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          "Zufuhr",
+          4951289.723
+        ],
+        [
+          "Abfuhr",
+          1009790.315
+        ]
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": -57,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "showInLegend": false,
+      "type": "pie",
+      "size": "100%",
+      "innerSize": "40%",
+      "center": [
+        180,
+        120
+      ],
+      "borderWidth": 2,
+      "colors": [
+        "#A0BEC8",
+        "#FFBB58"
+      ],
+      "name": "Mittel 2011-2020",
+      "turboThreshold": 0
+    },
+    {
+      "data": [
+        [
+          "Zufuhr",
+          4484631.073
+        ],
+        [
+          "Abfuhr",
+          922635.175
+        ]
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": -20,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "showInLegend": true,
+      "type": "pie",
+      "innerSize": "70%",
+      "center": [
+        180,
+        120
+      ],
+      "borderWidth": 2,
+      "colors": [
+        "#008ac3",
+        "#FF8028"
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-9605"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      }
+    },
+    "series": {
+      "allowPointSelect": false,
+      "point": {
+        "events": {
+          "legendItemClick": function (event) {
+              event.preventDefault();
+              /*
+              var id = this.id,
+                  data = this.series.chart.series[0].data;
+              $.each(data, function (i, point) {
+                 
+                  if (point.parentId == id) {
+                      if(point.visible)
+                          point.setVisible(false);
+                      else
+                          point.setVisible(true);
+                  }
+              });
+              */
+            }
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteile von Zu- und Abfuhr am Gesamtumschlag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Schweizerische Rheinhäfen, 2021 und Mittelwert 2011-2020",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E",
+    "useHTML": false
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "itemDistance": 10,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "labels": {
+    "items": [
+      {
+        "html": "Aussen: 2021\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;2011-2020",
+        "style": {
+          "left": "300px",
+          "top": "250px"
+        }
+      }
+    ]
+  },
+  "exporting": {
+    "filename": "9605"
+  }
+}

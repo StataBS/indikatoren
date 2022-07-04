@@ -1,0 +1,671 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          2011,
+          337922
+        ],
+        [
+          2012,
+          306095
+        ],
+        [
+          2013,
+          317372
+        ],
+        [
+          2014,
+          302404
+        ],
+        [
+          2015,
+          268837
+        ],
+        [
+          2016,
+          309109
+        ],
+        [
+          2017,
+          234137
+        ],
+        [
+          2018,
+          220121
+        ],
+        [
+          2019,
+          197564
+        ],
+        [
+          2020,
+          183996.719
+        ],
+        [
+          2021,
+          207691.334
+        ]
+      ],
+      "name": "Landwirtschaftl. Erzeugnisse"
+    },
+    {
+      "color": "#73B97C",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          2011,
+          415357
+        ],
+        [
+          2012,
+          454242
+        ],
+        [
+          2013,
+          492052
+        ],
+        [
+          2014,
+          460027
+        ],
+        [
+          2015,
+          450466
+        ],
+        [
+          2016,
+          428565
+        ],
+        [
+          2017,
+          409937
+        ],
+        [
+          2018,
+          384245
+        ],
+        [
+          2019,
+          392180
+        ],
+        [
+          2020,
+          364428.789
+        ],
+        [
+          2021,
+          385382.345
+        ]
+      ],
+      "name": "Nahrungs- und Futtermittel"
+    },
+    {
+      "color": "#008AC3",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          2011,
+          83534
+        ],
+        [
+          2012,
+          104066
+        ],
+        [
+          2013,
+          111711
+        ],
+        [
+          2014,
+          28462
+        ],
+        [
+          2015,
+          65035
+        ],
+        [
+          2016,
+          31175
+        ],
+        [
+          2017,
+          37815
+        ],
+        [
+          2018,
+          795
+        ],
+        [
+          2019,
+          18452
+        ],
+        [
+          2020,
+          2314.709
+        ],
+        [
+          2021,
+          18600.613
+        ]
+      ],
+      "name": "Feste mineralische Brennstoffe"
+    },
+    {
+      "color": "#FABD24",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          2011,
+          2215518
+        ],
+        [
+          2012,
+          3436420
+        ],
+        [
+          2013,
+          2992663
+        ],
+        [
+          2014,
+          2069340
+        ],
+        [
+          2015,
+          2764242
+        ],
+        [
+          2016,
+          2438441
+        ],
+        [
+          2017,
+          2457975
+        ],
+        [
+          2018,
+          1736805
+        ],
+        [
+          2019,
+          2756555
+        ],
+        [
+          2020,
+          2252751.212
+        ],
+        [
+          2021,
+          2332819.372
+        ]
+      ],
+      "name": "Erdöl, Mineralölerzeugnisse"
+    },
+    {
+      "color": "#FF8028",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          2011,
+          31689
+        ],
+        [
+          2012,
+          20629
+        ],
+        [
+          2013,
+          43061
+        ],
+        [
+          2014,
+          60801
+        ],
+        [
+          2015,
+          69309
+        ],
+        [
+          2016,
+          31717
+        ],
+        [
+          2017,
+          12627
+        ],
+        [
+          2018,
+          19126
+        ],
+        [
+          2019,
+          25143
+        ],
+        [
+          2020,
+          37139.507
+        ],
+        [
+          2021,
+          69829.413
+        ]
+      ],
+      "name": "Erzeugnisse Metallbau"
+    },
+    {
+      "color": "#9E7C59",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          2011,
+          438210
+        ],
+        [
+          2012,
+          405859
+        ],
+        [
+          2013,
+          349418
+        ],
+        [
+          2014,
+          354737
+        ],
+        [
+          2015,
+          332869
+        ],
+        [
+          2016,
+          289068
+        ],
+        [
+          2017,
+          314483
+        ],
+        [
+          2018,
+          185614
+        ],
+        [
+          2019,
+          227203
+        ],
+        [
+          2020,
+          190844.67
+        ],
+        [
+          2021,
+          246818.459
+        ]
+      ],
+      "name": "Eisen, Stahl, Nichteisen-Metalle"
+    },
+    {
+      "color": "#DC440E",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          2011,
+          530701
+        ],
+        [
+          2012,
+          863320
+        ],
+        [
+          2013,
+          818317
+        ],
+        [
+          2014,
+          1002562
+        ],
+        [
+          2015,
+          806832
+        ],
+        [
+          2016,
+          784550
+        ],
+        [
+          2017,
+          704561
+        ],
+        [
+          2018,
+          727678
+        ],
+        [
+          2019,
+          789171
+        ],
+        [
+          2020,
+          737676.594
+        ],
+        [
+          2021,
+          697152.177
+        ]
+      ],
+      "name": "Steine, Erden, Baustoffe"
+    },
+    {
+      "color": "#67401E",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          2011,
+          124136
+        ],
+        [
+          2012,
+          143338
+        ],
+        [
+          2013,
+          125326
+        ],
+        [
+          2014,
+          129234
+        ],
+        [
+          2015,
+          116680
+        ],
+        [
+          2016,
+          124993
+        ],
+        [
+          2017,
+          124696
+        ],
+        [
+          2018,
+          102737
+        ],
+        [
+          2019,
+          145487
+        ],
+        [
+          2020,
+          124206.948
+        ],
+        [
+          2021,
+          124208.45
+        ]
+      ],
+      "name": "Düngemittel"
+    },
+    {
+      "color": "#CD9C00",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          2011,
+          373550
+        ],
+        [
+          2012,
+          262012
+        ],
+        [
+          2013,
+          261132
+        ],
+        [
+          2014,
+          235929
+        ],
+        [
+          2015,
+          199129
+        ],
+        [
+          2016,
+          201327
+        ],
+        [
+          2017,
+          184895
+        ],
+        [
+          2018,
+          150995
+        ],
+        [
+          2019,
+          258530
+        ],
+        [
+          2020,
+          150259.771
+        ],
+        [
+          2021,
+          135019.212
+        ]
+      ],
+      "name": "Chemische Erzeugnisse"
+    },
+    {
+      "color": "#689199",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          2011,
+          163135
+        ],
+        [
+          2012,
+          203814
+        ],
+        [
+          2013,
+          221549
+        ],
+        [
+          2014,
+          234016
+        ],
+        [
+          2015,
+          221185
+        ],
+        [
+          2016,
+          223873
+        ],
+        [
+          2017,
+          248005
+        ],
+        [
+          2018,
+          240329
+        ],
+        [
+          2019,
+          243774
+        ],
+        [
+          2020,
+          236581.309
+        ],
+        [
+          2021,
+          267109.698
+        ]
+      ],
+      "name": "Fahrzeuge, Maschinen, Übrige"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "inverted": true,
+    "type": "column",
+    "renderTo": "container-9606",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Umschlag nach Warengattung"
+  },
+  "subtitle": {
+    "text": "Zufuhr, Schweizerische Rheinhäfen",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1,
+    "reversed": false
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemDistance": 15,
+    "symbolPadding": 2,
+    "Width": 450,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
+  },
+  "exporting": {
+    "filename": "9606"
+  }
+}
