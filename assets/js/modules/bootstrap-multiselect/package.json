@@ -28,4 +28,8 @@
     "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
   },
   "homepage": "https://github.com/davidstutz/bootstrap-multiselect"
+
+,"_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
+,"_integrity": "sha1-LFfO4mCxjX8BpO3Z1l8l3wQl/So="
+,"_from": "bootstrap-multiselect@0.9.13-1"
 }

@@ -28,4 +28,8 @@
     "istanbul": "~0.1.46",
     "mocha": "~1.15.1"
   }
+
+,"_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz"
+,"_integrity": "sha1-+5FYjnjJACVnI5XLQLJffNatGCk="
+,"_from": "mgrs@1.0.0"
 }

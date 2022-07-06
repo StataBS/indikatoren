@@ -71562,7 +71562,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:13",
+		"aktualisierungsdatum": "2022-07-06T03:19:11",
 		"id": 9000
 	},
 	{
@@ -71605,7 +71605,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:16",
+		"aktualisierungsdatum": "2022-07-06T03:19:13",
 		"id": 9006
 	},
 	{
@@ -81368,7 +81368,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:11",
+		"aktualisierungsdatum": "2022-07-06T03:19:09",
 		"id": 9615
 	},
 	{
@@ -81408,7 +81408,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:15",
+		"aktualisierungsdatum": "2022-07-06T03:19:12",
 		"id": 9617
 	},
 	{
@@ -81422,8 +81422,8 @@ var indikatoren = [
 		],
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,2%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,7% auf 37,2% ab Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
-		"erlaeuterungen": "Es handelt sich hierbei um das Fernwärmenetz der IWB sowie weitere Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
+		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,2%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,7% auf 37,2% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
+		"erlaeuterungen": "Verbrauch basierend auf dem Fernwärmenetz der IWB sowie weiterer Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81448,7 +81448,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:17",
+		"aktualisierungsdatum": "2022-07-06T03:19:13",
 		"id": 9618
 	},
 	{
@@ -81500,10 +81500,10 @@ var indikatoren = [
 		"children": [
 			9651
 		],
-		"title": "CO<sub>2 </sub> Emissionen nach Energieträger",
+		"title": "CO₂-Emissionen nach Energieträger",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die Menge CO<sub>2 </sub> pro Einwohner hat zwischen 2010 und 2020 von 4,7 Tonnen auf 3,1 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-54%), Treibstoffe (-34%), Erdgas (-23%), Industrie- und Sonderabfall sowie den nicht erneuerbaren Teil von Kehricht (-2%) zurück. 2020 sind die Emissionen aus Erdgas mit 41% für den grössten Teil aller CO<sub>2 </sub>-Emission verantwortlich.",
-		"erlaeuterungen": "Es sind CO<sub>2 </sub>-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO<sub>2 </sub>-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Auch Klärschlamm wird als biogen taxiert und verursacht keine CO<sub>2 </sub>-Emissionen. Ebenso nicht berücksichtigt sind CO<sub>2 </sub>-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). Der Treibstoffverbrauch 2020 wurde aufgrund des aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
+		"lesehilfe": "Die CO₂-Emissionen pro Einwohner haben zwischen 2010 und 2020 von 4,7 Tonnen auf 3,1 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-54%), Treibstoffe (-34%), Erdgas (-23%), Industrie- und Sonderabfall sowie den nicht erneuerbaren Teil von Kehricht (-2%) zurück. 2020 sind die Emissionen aus Erdgas mit 41% für den grössten Teil aller CO₂-Emissionen verantwortlich.",
+		"erlaeuterungen": "Es sind CO₂-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO₂-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Auch Klärschlamm wird als biogen taxiert und verursacht keine CO₂-Emissionen. Ebenso nicht berücksichtigt sind CO₂-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). Der Treibstoffverbrauch 2020 wurde aufgrund des aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81512,7 +81512,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "CO<sub>2 </sub> Emissionen nach Energieträger",
+		"description": "CO₂-Emissionen nach Energieträger",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.09620",
@@ -81528,7 +81528,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:19",
+		"aktualisierungsdatum": "2022-07-06T03:19:15",
 		"id": 9620
 	},
 	{
@@ -81609,7 +81609,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:12",
+		"aktualisierungsdatum": "2022-07-06T03:19:11",
 		"id": 9623
 	},
 	{
@@ -81728,7 +81728,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:13",
+		"aktualisierungsdatum": "2022-07-06T03:19:11",
 		"id": 9636
 	},
 	{
@@ -81769,7 +81769,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:16",
+		"aktualisierungsdatum": "2022-07-06T03:19:13",
 		"id": 9641
 	},
 	{
@@ -81883,7 +81883,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:12",
+		"aktualisierungsdatum": "2022-07-06T03:19:10",
 		"id": 9647
 	},
 	{
@@ -81921,7 +81921,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:15",
+		"aktualisierungsdatum": "2022-07-06T03:19:12",
 		"id": 9648
 	},
 	{
@@ -81933,8 +81933,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,2%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,7% auf 37,2% ab Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
-		"erlaeuterungen": "Es handelt sich hierbei um das Fernwärmenetz der IWB sowie weitere Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
+		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,2%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,7% auf 37,2% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
+		"erlaeuterungen": "Verbrauch basierend auf dem Fernwärmenetz der IWB sowie weiterer Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81959,7 +81959,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:17",
+		"aktualisierungsdatum": "2022-07-06T03:19:14",
 		"id": 9649
 	},
 	{
@@ -82007,10 +82007,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "9620",
 		"children": [],
-		"title": "CO<sub>2 </sub> Emissionen nach Energieträger",
+		"title": "CO₂-Emissionen nach Energieträger",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die Menge CO<sub>2 </sub> pro Einwohner hat zwischen 2010 und 2020 von 4,7 Tonnen auf 3,1 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-54%), Treibstoffe (-34%), Erdgas (-23%), Industrie- und Sonderabfall sowie den nicht erneuerbaren Teil von Kehricht (-2%) zurück. 2020 sind die Emissionen aus Erdgas mit 41% für den grössten Teil aller CO<sub>2 </sub>-Emission verantwortlich.",
-		"erlaeuterungen": "Es sind CO<sub>2 </sub>-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO<sub>2 </sub>-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Auch Klärschlamm wird als biogen taxiert und verursacht keine CO<sub>2 </sub>-Emissionen. Ebenso nicht berücksichtigt sind CO<sub>2 </sub>-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). Der Treibstoffverbrauch 2020 wurde aufgrund des aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
+		"lesehilfe": "Die CO₂-Emissionen pro Einwohner haben zwischen 2010 und 2020 von 4,7 Tonnen auf 3,1 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-54%), Treibstoffe (-34%), Erdgas (-23%), Industrie- und Sonderabfall sowie den nicht erneuerbaren Teil von Kehricht (-2%) zurück. 2020 sind die Emissionen aus Erdgas mit 41% für den grössten Teil aller CO₂-Emissionen verantwortlich.",
+		"erlaeuterungen": "Es sind CO₂-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO₂-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Auch Klärschlamm wird als biogen taxiert und verursacht keine CO₂-Emissionen. Ebenso nicht berücksichtigt sind CO₂-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). Der Treibstoffverbrauch 2020 wurde aufgrund des aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -82019,7 +82019,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "CO<sub>2 </sub> Emissionen nach Energieträger",
+		"description": "CO₂-Emissionen nach Energieträger",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.09651",
@@ -82035,7 +82035,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:19",
+		"aktualisierungsdatum": "2022-07-06T03:19:14",
 		"id": 9651
 	},
 	{
@@ -82112,7 +82112,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:12",
+		"aktualisierungsdatum": "2022-07-06T03:19:10",
 		"id": 9654
 	},
 	{
