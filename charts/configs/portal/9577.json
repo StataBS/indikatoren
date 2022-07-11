@@ -1,0 +1,898 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "legendIndex": 0,
+      "data": [
+        [
+          2009,
+          33
+        ],
+        [
+          2010,
+          28
+        ],
+        [
+          2011,
+          35
+        ],
+        [
+          2012,
+          37
+        ],
+        [
+          2013,
+          40
+        ],
+        [
+          2014,
+          37
+        ],
+        [
+          2015,
+          41
+        ],
+        [
+          2016,
+          51
+        ],
+        [
+          2017,
+          35
+        ],
+        [
+          2018,
+          38
+        ],
+        [
+          2019,
+          47
+        ],
+        [
+          2020,
+          5
+        ],
+        [
+          2021,
+          16
+        ]
+      ],
+      "name": "Barfüsserplatz (inkl. Theaterplatz)"
+    },
+    {
+      "color": "#672773",
+      "legendIndex": 2,
+      "data": [
+        [
+          2009,
+          14
+        ],
+        [
+          2010,
+          15
+        ],
+        [
+          2011,
+          12
+        ],
+        [
+          2012,
+          3
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          16
+        ],
+        [
+          2015,
+          15
+        ],
+        [
+          2016,
+          23
+        ],
+        [
+          2017,
+          18
+        ],
+        [
+          2018,
+          10
+        ],
+        [
+          2019,
+          17
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Marktplatz"
+    },
+    {
+      "color": "#007a2f",
+      "legendIndex": 4,
+      "data": [
+        [
+          2009,
+          19
+        ],
+        [
+          2010,
+          43
+        ],
+        [
+          2011,
+          45
+        ],
+        [
+          2012,
+          42
+        ],
+        [
+          2013,
+          54
+        ],
+        [
+          2014,
+          60
+        ],
+        [
+          2015,
+          53
+        ],
+        [
+          2016,
+          54
+        ],
+        [
+          2017,
+          48
+        ],
+        [
+          2018,
+          48
+        ],
+        [
+          2019,
+          55
+        ],
+        [
+          2020,
+          38
+        ],
+        [
+          2021,
+          20
+        ]
+      ],
+      "name": "Münsterplatz"
+    },
+    {
+      "color": "#fabd24",
+      "legendIndex": 6,
+      "data": [
+        [
+          2009,
+          21
+        ],
+        [
+          2010,
+          24
+        ],
+        [
+          2011,
+          20
+        ],
+        [
+          2012,
+          21
+        ],
+        [
+          2013,
+          23
+        ],
+        [
+          2014,
+          23
+        ],
+        [
+          2015,
+          28
+        ],
+        [
+          2016,
+          24
+        ],
+        [
+          2017,
+          21
+        ],
+        [
+          2018,
+          3
+        ],
+        [
+          2019,
+          19
+        ],
+        [
+          2020,
+          17
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Oberer Rheinweg"
+    },
+    {
+      "color": "#b475ab",
+      "legendIndex": 8,
+      "data": [
+        [
+          2009,
+          8
+        ],
+        [
+          2010,
+          10
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          15
+        ],
+        [
+          2013,
+          10
+        ],
+        [
+          2014,
+          6
+        ],
+        [
+          2015,
+          8
+        ],
+        [
+          2016,
+          5
+        ],
+        [
+          2017,
+          8
+        ],
+        [
+          2018,
+          11
+        ],
+        [
+          2019,
+          5
+        ],
+        [
+          2020,
+          3
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Unterer Rheinweg"
+    },
+    {
+      "color": "#b9cfd7",
+      "legendIndex": 10,
+      "data": [
+        [
+          2009,
+          29
+        ],
+        [
+          2010,
+          33
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          43
+        ],
+        [
+          2016,
+          40
+        ],
+        [
+          2017,
+          41
+        ],
+        [
+          2018,
+          41
+        ],
+        [
+          2019,
+          52
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          21
+        ]
+      ],
+      "name": "Kaserne (Belegungstage)"
+    },
+    {
+      "color": "#b00000",
+      "legendIndex": 1,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          70
+        ],
+        [
+          2010,
+          70
+        ],
+        [
+          2011,
+          70
+        ],
+        [
+          2012,
+          70
+        ],
+        [
+          2013,
+          70
+        ],
+        [
+          2014,
+          70
+        ],
+        [
+          2015,
+          70
+        ],
+        [
+          2016,
+          70
+        ],
+        [
+          2017,
+          70
+        ],
+        [
+          2018,
+          70
+        ],
+        [
+          2019,
+          70
+        ],
+        [
+          2020,
+          70
+        ],
+        [
+          2021,
+          70
+        ]
+      ],
+      "name": "Kontingent Barfüsserplatz (inkl. Theaterplatz)"
+    },
+    {
+      "color": "#672773",
+      "legendIndex": 3,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          40
+        ],
+        [
+          2010,
+          40
+        ],
+        [
+          2011,
+          40
+        ],
+        [
+          2012,
+          40
+        ],
+        [
+          2013,
+          40
+        ],
+        [
+          2014,
+          40
+        ],
+        [
+          2015,
+          40
+        ],
+        [
+          2016,
+          40
+        ],
+        [
+          2017,
+          40
+        ],
+        [
+          2018,
+          40
+        ],
+        [
+          2019,
+          40
+        ],
+        [
+          2020,
+          40
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Kontingent Marktplatz"
+    },
+    {
+      "color": "#007a2f",
+      "legendIndex": 5,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          60
+        ],
+        [
+          2010,
+          60
+        ],
+        [
+          2011,
+          60
+        ],
+        [
+          2012,
+          60
+        ],
+        [
+          2013,
+          60
+        ],
+        [
+          2014,
+          60
+        ],
+        [
+          2015,
+          60
+        ],
+        [
+          2016,
+          60
+        ],
+        [
+          2017,
+          60
+        ],
+        [
+          2018,
+          60
+        ],
+        [
+          2019,
+          60
+        ],
+        [
+          2020,
+          60
+        ],
+        [
+          2021,
+          60
+        ]
+      ],
+      "name": "Kontingent Münsterplatz"
+    },
+    {
+      "color": "#fabd24",
+      "legendIndex": 7,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          30
+        ],
+        [
+          2010,
+          30
+        ],
+        [
+          2011,
+          30
+        ],
+        [
+          2012,
+          30
+        ],
+        [
+          2013,
+          30
+        ],
+        [
+          2014,
+          30
+        ],
+        [
+          2015,
+          30
+        ],
+        [
+          2016,
+          30
+        ],
+        [
+          2017,
+          30
+        ],
+        [
+          2018,
+          30
+        ],
+        [
+          2019,
+          30
+        ],
+        [
+          2020,
+          30
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Kontingent Oberer Rheinweg"
+    },
+    {
+      "color": "#b475ab",
+      "legendIndex": 9,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          50
+        ],
+        [
+          2010,
+          50
+        ],
+        [
+          2011,
+          50
+        ],
+        [
+          2012,
+          50
+        ],
+        [
+          2013,
+          50
+        ],
+        [
+          2014,
+          50
+        ],
+        [
+          2015,
+          50
+        ],
+        [
+          2016,
+          50
+        ],
+        [
+          2017,
+          40
+        ],
+        [
+          2018,
+          50
+        ],
+        [
+          2019,
+          50
+        ],
+        [
+          2020,
+          50
+        ],
+        [
+          2021,
+          0
+        ]
+      ],
+      "name": "Kontingent Unterer Rheinweg"
+    },
+    {
+      "color": "#b9cfd7",
+      "legendIndex": 11,
+      "dashStyle": "ShortDot",
+      "visible": false,
+      "data": [
+        [
+          2009,
+          80
+        ],
+        [
+          2010,
+          80
+        ],
+        [
+          2011,
+          160
+        ],
+        [
+          2012,
+          160
+        ],
+        [
+          2013,
+          160
+        ],
+        [
+          2014,
+          160
+        ],
+        [
+          2015,
+          160
+        ],
+        [
+          2016,
+          160
+        ],
+        [
+          2017,
+          160
+        ],
+        [
+          2018,
+          160
+        ],
+        [
+          2019,
+          160
+        ],
+        [
+          2020,
+          160
+        ],
+        [
+          2021,
+          160
+        ]
+      ],
+      "name": "Kontingent Kaserne (Belegungstage)"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text: ""
+            })
+            .translate(250, -10); //move -140 to the left and 8 down
+        }
+    },
+    "marginRight": 20,
+    "renderTo": "container-9577"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Belegungsdauer der Allmend in der Innenstadt"
+  },
+  "subtitle": {
+    "text": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min) / maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "x": 20,
+    "itemWidth": 210,
+    "title": {
+      "text": " ",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function () {
+        //if (this.name.includes("Kontingent")) return this.name.split(" ").slice(0, 1).toString();
+        if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //else (this.name.translate(0, -10));
+        return this.name;
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Allmendverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "9577"
+  }
+}

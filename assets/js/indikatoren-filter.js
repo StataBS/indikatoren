@@ -293,7 +293,7 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(["Schweiz", "Grossregion", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite", "Agglomeration"], '', '#raeumlicheGliederung_filter', false);
+  renderMultiselectDropdownFromJson(["Schweiz", "Grossregion", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite", "Agglomeration", "Wahlkreis", "Innenstadt", "Stadt Basel"], '', '#raeumlicheGliederung_filter', false);
   renderMultiselectDropdownFromJson(indikatoren, 'darstellungsart', '#darstellungsart_filter', false);
 
   //prepare query String object for filtering thema and unterthema

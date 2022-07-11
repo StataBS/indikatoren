@@ -1,0 +1,879 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "index": 1,
+      "legendIndex": 0,
+      "data": [
+        [
+          "1936",
+          126627
+        ],
+        [
+          "1937",
+          126444
+        ],
+        [
+          "1938",
+          132286
+        ],
+        [
+          "1939",
+          119853
+        ],
+        [
+          "1940",
+          108408
+        ],
+        [
+          "1941",
+          128598
+        ],
+        [
+          "1942",
+          137575
+        ],
+        [
+          "1943",
+          167800
+        ],
+        [
+          "1944",
+          199119
+        ],
+        [
+          "1945",
+          245185
+        ],
+        [
+          "1946",
+          262531
+        ],
+        [
+          "1947",
+          256566
+        ],
+        [
+          "1948",
+          247675
+        ],
+        [
+          "1949",
+          215866
+        ],
+        [
+          "1950",
+          199173
+        ],
+        [
+          "1951",
+          202517
+        ],
+        [
+          "1952",
+          208809
+        ],
+        [
+          "1953",
+          195539
+        ],
+        [
+          "1954",
+          181608
+        ],
+        [
+          "1955",
+          178448
+        ],
+        [
+          "1956",
+          187856
+        ],
+        [
+          "1957",
+          184982
+        ],
+        [
+          "1958",
+          189665
+        ],
+        [
+          "1959",
+          199831
+        ],
+        [
+          "1960",
+          216490
+        ],
+        [
+          "1961",
+          222484
+        ],
+        [
+          "1962",
+          232004
+        ],
+        [
+          "1963",
+          236026
+        ],
+        [
+          "1964",
+          235263
+        ],
+        [
+          "1965",
+          229431
+        ],
+        [
+          "1966",
+          223542
+        ],
+        [
+          "1967",
+          217767
+        ],
+        [
+          "1968",
+          224786
+        ],
+        [
+          "1969",
+          235478
+        ],
+        [
+          "1970",
+          239309
+        ],
+        [
+          "1971",
+          249488
+        ],
+        [
+          "1972",
+          232436
+        ],
+        [
+          "1973",
+          215356
+        ],
+        [
+          "1974",
+          212121
+        ],
+        [
+          "1975",
+          194202
+        ],
+        [
+          "1976",
+          178718
+        ],
+        [
+          "1977",
+          205916
+        ],
+        [
+          "1978",
+          191039
+        ],
+        [
+          "1979",
+          214724
+        ],
+        [
+          "1980",
+          234830
+        ],
+        [
+          "1981",
+          214002
+        ],
+        [
+          "1982",
+          192171
+        ],
+        [
+          "1983",
+          214162
+        ],
+        [
+          "1984",
+          189431
+        ],
+        [
+          "1985",
+          208129
+        ],
+        [
+          "1986",
+          204542
+        ],
+        [
+          "1987",
+          217934
+        ],
+        [
+          "1988",
+          200755
+        ],
+        [
+          "1989",
+          225884
+        ],
+        [
+          "1990",
+          205458
+        ],
+        [
+          "1991",
+          212927
+        ],
+        [
+          "1992",
+          185108
+        ],
+        [
+          "1993",
+          177899
+        ],
+        [
+          "1994",
+          160319
+        ],
+        [
+          "1995",
+          200027
+        ],
+        [
+          "1996",
+          187563
+        ],
+        [
+          "1997",
+          192256
+        ],
+        [
+          "1998",
+          185406
+        ],
+        [
+          "1999",
+          213981
+        ],
+        [
+          "2000",
+          205029
+        ],
+        [
+          "2001",
+          215439
+        ],
+        [
+          "2002",
+          189567
+        ],
+        [
+          "2003",
+          198527
+        ],
+        [
+          "2004",
+          243980
+        ],
+        [
+          "2005",
+          239555
+        ],
+        [
+          "2006",
+          227512
+        ],
+        [
+          "2007",
+          259884
+        ],
+        [
+          "2008",
+          298886
+        ],
+        [
+          "2009",
+          314033
+        ],
+        [
+          "2010",
+          303631
+        ],
+        [
+          "2011",
+          306478
+        ],
+        [
+          "2012",
+          313411
+        ],
+        [
+          "2013",
+          322772
+        ],
+        [
+          "2014",
+          363756
+        ],
+        [
+          "2015",
+          398179
+        ],
+        [
+          "2016",
+          406196
+        ],
+        [
+          "2017",
+          424254
+        ],
+        [
+          "2018",
+          458003
+        ],
+        [
+          "2019",
+          476777
+        ],
+        [
+          "2020",
+          279513
+        ],
+        [
+          "2021",
+          401814
+        ]
+      ],
+      "name": "Logiernächte Inland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(168, 196, 203)",
+      "index": 0,
+      "legendIndex": 1,
+      "data": [
+        [
+          "1936",
+          155330
+        ],
+        [
+          "1937",
+          208288
+        ],
+        [
+          "1938",
+          206560
+        ],
+        [
+          "1939",
+          143927
+        ],
+        [
+          "1940",
+          22006
+        ],
+        [
+          "1941",
+          23387
+        ],
+        [
+          "1942",
+          22063
+        ],
+        [
+          "1943",
+          12488
+        ],
+        [
+          "1944",
+          10429
+        ],
+        [
+          "1945",
+          112363
+        ],
+        [
+          "1946",
+          220594
+        ],
+        [
+          "1947",
+          263129
+        ],
+        [
+          "1948",
+          284395
+        ],
+        [
+          "1949",
+          247185
+        ],
+        [
+          "1950",
+          255686
+        ],
+        [
+          "1951",
+          274094
+        ],
+        [
+          "1952",
+          289105
+        ],
+        [
+          "1953",
+          308307
+        ],
+        [
+          "1954",
+          307449
+        ],
+        [
+          "1955",
+          319262
+        ],
+        [
+          "1956",
+          323607
+        ],
+        [
+          "1957",
+          331893
+        ],
+        [
+          "1958",
+          349797
+        ],
+        [
+          "1959",
+          377690
+        ],
+        [
+          "1960",
+          411171
+        ],
+        [
+          "1961",
+          419419
+        ],
+        [
+          "1962",
+          450531
+        ],
+        [
+          "1963",
+          438379
+        ],
+        [
+          "1964",
+          457656
+        ],
+        [
+          "1965",
+          449207
+        ],
+        [
+          "1966",
+          473009
+        ],
+        [
+          "1967",
+          464123
+        ],
+        [
+          "1968",
+          454131
+        ],
+        [
+          "1969",
+          493017
+        ],
+        [
+          "1970",
+          501765
+        ],
+        [
+          "1971",
+          503214
+        ],
+        [
+          "1972",
+          505318
+        ],
+        [
+          "1973",
+          465277
+        ],
+        [
+          "1974",
+          435214
+        ],
+        [
+          "1975",
+          413803
+        ],
+        [
+          "1976",
+          438118
+        ],
+        [
+          "1977",
+          458937
+        ],
+        [
+          "1978",
+          459542
+        ],
+        [
+          "1979",
+          445778
+        ],
+        [
+          "1980",
+          489953
+        ],
+        [
+          "1981",
+          500015
+        ],
+        [
+          "1982",
+          484955
+        ],
+        [
+          "1983",
+          467652
+        ],
+        [
+          "1984",
+          499721
+        ],
+        [
+          "1985",
+          461759
+        ],
+        [
+          "1986",
+          455887
+        ],
+        [
+          "1987",
+          435346
+        ],
+        [
+          "1988",
+          466612
+        ],
+        [
+          "1989",
+          485673
+        ],
+        [
+          "1990",
+          486870
+        ],
+        [
+          "1991",
+          438926
+        ],
+        [
+          "1992",
+          449488
+        ],
+        [
+          "1993",
+          419933
+        ],
+        [
+          "1994",
+          428758
+        ],
+        [
+          "1995",
+          416764
+        ],
+        [
+          "1996",
+          420472
+        ],
+        [
+          "1997",
+          432013
+        ],
+        [
+          "1998",
+          428649
+        ],
+        [
+          "1999",
+          428392
+        ],
+        [
+          "2000",
+          453717
+        ],
+        [
+          "2001",
+          431951
+        ],
+        [
+          "2002",
+          436711
+        ],
+        [
+          "2003",
+          462509
+        ],
+        [
+          "2004",
+          559169
+        ],
+        [
+          "2005",
+          545833
+        ],
+        [
+          "2006",
+          659265
+        ],
+        [
+          "2007",
+          684308
+        ],
+        [
+          "2008",
+          710027
+        ],
+        [
+          "2009",
+          716309
+        ],
+        [
+          "2010",
+          767450
+        ],
+        [
+          "2011",
+          772825
+        ],
+        [
+          "2012",
+          768496
+        ],
+        [
+          "2013",
+          783090
+        ],
+        [
+          "2014",
+          799182
+        ],
+        [
+          "2015",
+          803617
+        ],
+        [
+          "2016",
+          811481
+        ],
+        [
+          "2017",
+          903793
+        ],
+        [
+          "2018",
+          928496
+        ],
+        [
+          "2019",
+          946709
+        ],
+        [
+          "2020",
+          266393
+        ],
+        [
+          "2021",
+          382793
+        ]
+      ],
+      "name": "Logiernächte Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 17
+  },
+  "chart": {
+    "type": "area",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9600"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Logiernächte nach Herkunft der Gäste"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 100,
+    "labelFormatter": function(){
+      //only return last word
+      return this.name.split(" ").slice(-1);
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9600"
+  }
+}

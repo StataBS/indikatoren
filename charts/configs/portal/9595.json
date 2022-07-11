@@ -1,0 +1,465 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "0-1h",
+          14.357013
+        ],
+        [
+          "1-2h",
+          14.006621
+        ],
+        [
+          "2-3h",
+          13.00441
+        ],
+        [
+          "3-4h",
+          13.270297
+        ],
+        [
+          "4-5h",
+          14.131828
+        ],
+        [
+          "5-6h",
+          20.139699
+        ],
+        [
+          "6-7h",
+          32.263509
+        ],
+        [
+          "7-8h",
+          47.085489
+        ],
+        [
+          "8-9h",
+          59.57689
+        ],
+        [
+          "9-10h",
+          67.444095
+        ],
+        [
+          "10-11h",
+          70.837881
+        ],
+        [
+          "11-12h",
+          72.357354
+        ],
+        [
+          "12-13h",
+          73.463595
+        ],
+        [
+          "13-14h",
+          74.339676
+        ],
+        [
+          "14-15h",
+          70.881866
+        ],
+        [
+          "15-16h",
+          61.626853
+        ],
+        [
+          "16-17h",
+          51.351878
+        ],
+        [
+          "17-18h",
+          46.031871
+        ],
+        [
+          "18-19h",
+          43.604666
+        ],
+        [
+          "19-20h",
+          39.949009
+        ],
+        [
+          "20-21h",
+          33.875851
+        ],
+        [
+          "21-22h",
+          27.739177
+        ],
+        [
+          "22-23h",
+          21.400248
+        ],
+        [
+          "23-24h",
+          17.753584
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          "0-1h",
+          10.872134
+        ],
+        [
+          "1-2h",
+          10.57378
+        ],
+        [
+          "2-3h",
+          10.601204
+        ],
+        [
+          "3-4h",
+          11.043474
+        ],
+        [
+          "4-5h",
+          15.444723
+        ],
+        [
+          "5-6h",
+          25.057022
+        ],
+        [
+          "6-7h",
+          39.313719
+        ],
+        [
+          "7-8h",
+          51.652936
+        ],
+        [
+          "8-9h",
+          60.398679
+        ],
+        [
+          "9-10h",
+          64.91511
+        ],
+        [
+          "10-11h",
+          65.764084
+        ],
+        [
+          "11-12h",
+          65.897405
+        ],
+        [
+          "12-13h",
+          66.55192
+        ],
+        [
+          "13-14h",
+          65.20159
+        ],
+        [
+          "14-15h",
+          58.217532
+        ],
+        [
+          "15-16h",
+          47.050742
+        ],
+        [
+          "16-17h",
+          36.9692
+        ],
+        [
+          "17-18h",
+          30.835756
+        ],
+        [
+          "18-19h",
+          27.057599
+        ],
+        [
+          "19-20h",
+          23.73443
+        ],
+        [
+          "20-21h",
+          20.701682
+        ],
+        [
+          "21-22h",
+          17.447658
+        ],
+        [
+          "22-23h",
+          13.793398
+        ],
+        [
+          "23-24h",
+          12.200866
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "0-1h",
+          13.170203
+        ],
+        [
+          "1-2h",
+          13.078802
+        ],
+        [
+          "2-3h",
+          13.042787
+        ],
+        [
+          "3-4h",
+          13.475156
+        ],
+        [
+          "4-5h",
+          18.849575
+        ],
+        [
+          "5-6h",
+          30.141354
+        ],
+        [
+          "6-7h",
+          44.063195
+        ],
+        [
+          "7-8h",
+          55.871216
+        ],
+        [
+          "8-9h",
+          63.662213
+        ],
+        [
+          "9-10h",
+          66.825192
+        ],
+        [
+          "10-11h",
+          68.067449
+        ],
+        [
+          "11-12h",
+          67.583931
+        ],
+        [
+          "12-13h",
+          70.037017
+        ],
+        [
+          "13-14h",
+          67.120979
+        ],
+        [
+          "14-15h",
+          59.789625
+        ],
+        [
+          "15-16h",
+          46.136348
+        ],
+        [
+          "16-17h",
+          37.256005
+        ],
+        [
+          "17-18h",
+          32.729176
+        ],
+        [
+          "18-19h",
+          28.52219
+        ],
+        [
+          "19-20h",
+          25.439186
+        ],
+        [
+          "20-21h",
+          21.182495
+        ],
+        [
+          "21-22h",
+          18.000608
+        ],
+        [
+          "22-23h",
+          15.218685
+        ],
+        [
+          "23-24h",
+          13.960012
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickPositioner": function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "renderTo": "container-9595",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt"
+  },
+  "subtitle": {
+    "text": "nach Stunden",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Parkhäuser Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9595"
+  }
+}

@@ -1,0 +1,1209 @@
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 12,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2011: Innenstadt",
+          140
+        ],
+        [
+          "2011: Stadt Basel",
+          641
+        ],
+        [
+          "2012: Innenstadt",
+          145
+        ],
+        [
+          "2012: Stadt Basel",
+          637
+        ],
+        [
+          "2013: Innenstadt",
+          142
+        ],
+        [
+          "2013: Stadt Basel",
+          627
+        ],
+        [
+          "2014: Innenstadt",
+          147
+        ],
+        [
+          "2014: Stadt Basel",
+          646
+        ],
+        [
+          "2015: Innenstadt",
+          150
+        ],
+        [
+          "2015: Stadt Basel",
+          648
+        ],
+        [
+          "2016: Innenstadt",
+          142
+        ],
+        [
+          "2016: Stadt Basel",
+          634
+        ],
+        [
+          "2017: Innenstadt",
+          149
+        ],
+        [
+          "2017: Stadt Basel",
+          638
+        ],
+        [
+          "2018: Innenstadt",
+          152
+        ],
+        [
+          "2018: Stadt Basel",
+          628
+        ],
+        [
+          "2019: Innenstadt",
+          150
+        ],
+        [
+          "2019: Stadt Basel",
+          636
+        ]
+      ],
+      "name": "Primärer Sektor, verarbeit. Gewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 11,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2011: Innenstadt",
+          135
+        ],
+        [
+          "2011: Stadt Basel",
+          1544
+        ],
+        [
+          "2012: Innenstadt",
+          142
+        ],
+        [
+          "2012: Stadt Basel",
+          1560
+        ],
+        [
+          "2013: Innenstadt",
+          142
+        ],
+        [
+          "2013: Stadt Basel",
+          1558
+        ],
+        [
+          "2014: Innenstadt",
+          147
+        ],
+        [
+          "2014: Stadt Basel",
+          1552
+        ],
+        [
+          "2015: Innenstadt",
+          141
+        ],
+        [
+          "2015: Stadt Basel",
+          1530
+        ],
+        [
+          "2016: Innenstadt",
+          120
+        ],
+        [
+          "2016: Stadt Basel",
+          1497
+        ],
+        [
+          "2017: Innenstadt",
+          115
+        ],
+        [
+          "2017: Stadt Basel",
+          1447
+        ],
+        [
+          "2018: Innenstadt",
+          115
+        ],
+        [
+          "2018: Stadt Basel",
+          1418
+        ],
+        [
+          "2019: Innenstadt",
+          103
+        ],
+        [
+          "2019: Stadt Basel",
+          1400
+        ]
+      ],
+      "name": "Bau und Verkehr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 10,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2011: Innenstadt",
+          115
+        ],
+        [
+          "2011: Stadt Basel",
+          501
+        ],
+        [
+          "2012: Innenstadt",
+          120
+        ],
+        [
+          "2012: Stadt Basel",
+          503
+        ],
+        [
+          "2013: Innenstadt",
+          120
+        ],
+        [
+          "2013: Stadt Basel",
+          480
+        ],
+        [
+          "2014: Innenstadt",
+          121
+        ],
+        [
+          "2014: Stadt Basel",
+          483
+        ],
+        [
+          "2015: Innenstadt",
+          120
+        ],
+        [
+          "2015: Stadt Basel",
+          475
+        ],
+        [
+          "2016: Innenstadt",
+          114
+        ],
+        [
+          "2016: Stadt Basel",
+          440
+        ],
+        [
+          "2017: Innenstadt",
+          111
+        ],
+        [
+          "2017: Stadt Basel",
+          412
+        ],
+        [
+          "2018: Innenstadt",
+          92
+        ],
+        [
+          "2018: Stadt Basel",
+          362
+        ],
+        [
+          "2019: Innenstadt",
+          92
+        ],
+        [
+          "2019: Stadt Basel",
+          348
+        ]
+      ],
+      "name": "Grosshandel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 9,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2011: Innenstadt",
+          691
+        ],
+        [
+          "2011: Stadt Basel",
+          1531
+        ],
+        [
+          "2012: Innenstadt",
+          675
+        ],
+        [
+          "2012: Stadt Basel",
+          1502
+        ],
+        [
+          "2013: Innenstadt",
+          673
+        ],
+        [
+          "2013: Stadt Basel",
+          1473
+        ],
+        [
+          "2014: Innenstadt",
+          654
+        ],
+        [
+          "2014: Stadt Basel",
+          1447
+        ],
+        [
+          "2015: Innenstadt",
+          648
+        ],
+        [
+          "2015: Stadt Basel",
+          1428
+        ],
+        [
+          "2016: Innenstadt",
+          628
+        ],
+        [
+          "2016: Stadt Basel",
+          1391
+        ],
+        [
+          "2017: Innenstadt",
+          615
+        ],
+        [
+          "2017: Stadt Basel",
+          1375
+        ],
+        [
+          "2018: Innenstadt",
+          600
+        ],
+        [
+          "2018: Stadt Basel",
+          1316
+        ],
+        [
+          "2019: Innenstadt",
+          592
+        ],
+        [
+          "2019: Stadt Basel",
+          1282
+        ]
+      ],
+      "name": "Detailhandel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 8,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2011: Innenstadt",
+          205
+        ],
+        [
+          "2011: Stadt Basel",
+          812
+        ],
+        [
+          "2012: Innenstadt",
+          207
+        ],
+        [
+          "2012: Stadt Basel",
+          842
+        ],
+        [
+          "2013: Innenstadt",
+          215
+        ],
+        [
+          "2013: Stadt Basel",
+          842
+        ],
+        [
+          "2014: Innenstadt",
+          224
+        ],
+        [
+          "2014: Stadt Basel",
+          883
+        ],
+        [
+          "2015: Innenstadt",
+          224
+        ],
+        [
+          "2015: Stadt Basel",
+          878
+        ],
+        [
+          "2016: Innenstadt",
+          210
+        ],
+        [
+          "2016: Stadt Basel",
+          870
+        ],
+        [
+          "2017: Innenstadt",
+          211
+        ],
+        [
+          "2017: Stadt Basel",
+          860
+        ],
+        [
+          "2018: Innenstadt",
+          198
+        ],
+        [
+          "2018: Stadt Basel",
+          852
+        ],
+        [
+          "2019: Innenstadt",
+          214
+        ],
+        [
+          "2019: Stadt Basel",
+          908
+        ]
+      ],
+      "name": "Information, Kommunikation",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 7,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2011: Innenstadt",
+          316
+        ],
+        [
+          "2011: Stadt Basel",
+          768
+        ],
+        [
+          "2012: Innenstadt",
+          307
+        ],
+        [
+          "2012: Stadt Basel",
+          771
+        ],
+        [
+          "2013: Innenstadt",
+          306
+        ],
+        [
+          "2013: Stadt Basel",
+          782
+        ],
+        [
+          "2014: Innenstadt",
+          298
+        ],
+        [
+          "2014: Stadt Basel",
+          801
+        ],
+        [
+          "2015: Innenstadt",
+          299
+        ],
+        [
+          "2015: Stadt Basel",
+          799
+        ],
+        [
+          "2016: Innenstadt",
+          297
+        ],
+        [
+          "2016: Stadt Basel",
+          791
+        ],
+        [
+          "2017: Innenstadt",
+          303
+        ],
+        [
+          "2017: Stadt Basel",
+          807
+        ],
+        [
+          "2018: Innenstadt",
+          296
+        ],
+        [
+          "2018: Stadt Basel",
+          786
+        ],
+        [
+          "2019: Innenstadt",
+          296
+        ],
+        [
+          "2019: Stadt Basel",
+          789
+        ]
+      ],
+      "name": "Gastronomie, Hotellerie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 6,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2011: Innenstadt",
+          309
+        ],
+        [
+          "2011: Stadt Basel",
+          959
+        ],
+        [
+          "2012: Innenstadt",
+          312
+        ],
+        [
+          "2012: Stadt Basel",
+          983
+        ],
+        [
+          "2013: Innenstadt",
+          293
+        ],
+        [
+          "2013: Stadt Basel",
+          958
+        ],
+        [
+          "2014: Innenstadt",
+          310
+        ],
+        [
+          "2014: Stadt Basel",
+          990
+        ],
+        [
+          "2015: Innenstadt",
+          314
+        ],
+        [
+          "2015: Stadt Basel",
+          964
+        ],
+        [
+          "2016: Innenstadt",
+          298
+        ],
+        [
+          "2016: Stadt Basel",
+          933
+        ],
+        [
+          "2017: Innenstadt",
+          287
+        ],
+        [
+          "2017: Stadt Basel",
+          919
+        ],
+        [
+          "2018: Innenstadt",
+          276
+        ],
+        [
+          "2018: Stadt Basel",
+          890
+        ],
+        [
+          "2019: Innenstadt",
+          284
+        ],
+        [
+          "2019: Stadt Basel",
+          906
+        ]
+      ],
+      "name": "Finanzen, Versicherung, Immobilien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 5,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2011: Innenstadt",
+          796
+        ],
+        [
+          "2011: Stadt Basel",
+          2702
+        ],
+        [
+          "2012: Innenstadt",
+          849
+        ],
+        [
+          "2012: Stadt Basel",
+          2801
+        ],
+        [
+          "2013: Innenstadt",
+          854
+        ],
+        [
+          "2013: Stadt Basel",
+          2866
+        ],
+        [
+          "2014: Innenstadt",
+          905
+        ],
+        [
+          "2014: Stadt Basel",
+          3096
+        ],
+        [
+          "2015: Innenstadt",
+          915
+        ],
+        [
+          "2015: Stadt Basel",
+          3156
+        ],
+        [
+          "2016: Innenstadt",
+          915
+        ],
+        [
+          "2016: Stadt Basel",
+          3155
+        ],
+        [
+          "2017: Innenstadt",
+          930
+        ],
+        [
+          "2017: Stadt Basel",
+          3176
+        ],
+        [
+          "2018: Innenstadt",
+          935
+        ],
+        [
+          "2018: Stadt Basel",
+          3232
+        ],
+        [
+          "2019: Innenstadt",
+          946
+        ],
+        [
+          "2019: Stadt Basel",
+          3252
+        ]
+      ],
+      "name": "Unternehmens-DL, Freiberufe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 4,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2011: Innenstadt",
+          327
+        ],
+        [
+          "2011: Stadt Basel",
+          1063
+        ],
+        [
+          "2012: Innenstadt",
+          312
+        ],
+        [
+          "2012: Stadt Basel",
+          1041
+        ],
+        [
+          "2013: Innenstadt",
+          330
+        ],
+        [
+          "2013: Stadt Basel",
+          1078
+        ],
+        [
+          "2014: Innenstadt",
+          315
+        ],
+        [
+          "2014: Stadt Basel",
+          1090
+        ],
+        [
+          "2015: Innenstadt",
+          305
+        ],
+        [
+          "2015: Stadt Basel",
+          1061
+        ],
+        [
+          "2016: Innenstadt",
+          299
+        ],
+        [
+          "2016: Stadt Basel",
+          1065
+        ],
+        [
+          "2017: Innenstadt",
+          295
+        ],
+        [
+          "2017: Stadt Basel",
+          1084
+        ],
+        [
+          "2018: Innenstadt",
+          309
+        ],
+        [
+          "2018: Stadt Basel",
+          1101
+        ],
+        [
+          "2019: Innenstadt",
+          296
+        ],
+        [
+          "2019: Stadt Basel",
+          1107
+        ]
+      ],
+      "name": "Sonstige DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2011: Innenstadt",
+          229
+        ],
+        [
+          "2011: Stadt Basel",
+          857
+        ],
+        [
+          "2012: Innenstadt",
+          226
+        ],
+        [
+          "2012: Stadt Basel",
+          870
+        ],
+        [
+          "2013: Innenstadt",
+          231
+        ],
+        [
+          "2013: Stadt Basel",
+          875
+        ],
+        [
+          "2014: Innenstadt",
+          233
+        ],
+        [
+          "2014: Stadt Basel",
+          896
+        ],
+        [
+          "2015: Innenstadt",
+          240
+        ],
+        [
+          "2015: Stadt Basel",
+          921
+        ],
+        [
+          "2016: Innenstadt",
+          246
+        ],
+        [
+          "2016: Stadt Basel",
+          917
+        ],
+        [
+          "2017: Innenstadt",
+          245
+        ],
+        [
+          "2017: Stadt Basel",
+          920
+        ],
+        [
+          "2018: Innenstadt",
+          244
+        ],
+        [
+          "2018: Stadt Basel",
+          924
+        ],
+        [
+          "2019: Innenstadt",
+          253
+        ],
+        [
+          "2019: Stadt Basel",
+          982
+        ]
+      ],
+      "name": "Öff. Verwaltung, Bildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 2,
+      "legendIndex": 10,
+      "data": [
+        [
+          "2011: Innenstadt",
+          597
+        ],
+        [
+          "2011: Stadt Basel",
+          2071
+        ],
+        [
+          "2012: Innenstadt",
+          610
+        ],
+        [
+          "2012: Stadt Basel",
+          2116
+        ],
+        [
+          "2013: Innenstadt",
+          609
+        ],
+        [
+          "2013: Stadt Basel",
+          2149
+        ],
+        [
+          "2014: Innenstadt",
+          626
+        ],
+        [
+          "2014: Stadt Basel",
+          2247
+        ],
+        [
+          "2015: Innenstadt",
+          657
+        ],
+        [
+          "2015: Stadt Basel",
+          2316
+        ],
+        [
+          "2016: Innenstadt",
+          683
+        ],
+        [
+          "2016: Stadt Basel",
+          2345
+        ],
+        [
+          "2017: Innenstadt",
+          698
+        ],
+        [
+          "2017: Stadt Basel",
+          2362
+        ],
+        [
+          "2018: Innenstadt",
+          714
+        ],
+        [
+          "2018: Stadt Basel",
+          2362
+        ],
+        [
+          "2019: Innenstadt",
+          710
+        ],
+        [
+          "2019: Stadt Basel",
+          2423
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 1,
+      "legendIndex": 11,
+      "data": [
+        [
+          "2011: Innenstadt",
+          183
+        ],
+        [
+          "2011: Stadt Basel",
+          993
+        ],
+        [
+          "2012: Innenstadt",
+          195
+        ],
+        [
+          "2012: Stadt Basel",
+          1050
+        ],
+        [
+          "2013: Innenstadt",
+          205
+        ],
+        [
+          "2013: Stadt Basel",
+          1090
+        ],
+        [
+          "2014: Innenstadt",
+          210
+        ],
+        [
+          "2014: Stadt Basel",
+          1221
+        ],
+        [
+          "2015: Innenstadt",
+          217
+        ],
+        [
+          "2015: Stadt Basel",
+          1288
+        ],
+        [
+          "2016: Innenstadt",
+          207
+        ],
+        [
+          "2016: Stadt Basel",
+          1270
+        ],
+        [
+          "2017: Innenstadt",
+          213
+        ],
+        [
+          "2017: Stadt Basel",
+          1246
+        ],
+        [
+          "2018: Innenstadt",
+          205
+        ],
+        [
+          "2018: Stadt Basel",
+          1241
+        ],
+        [
+          "2019: Innenstadt",
+          203
+        ],
+        [
+          "2019: Stadt Basel",
+          1256
+        ]
+      ],
+      "name": "Kunst, Unterhaltung, Sport",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 0,
+      "legendIndex": 12,
+      "data": [
+        [
+          "2011: Innenstadt",
+          288
+        ],
+        [
+          "2011: Stadt Basel",
+          824
+        ],
+        [
+          "2012: Innenstadt",
+          305
+        ],
+        [
+          "2012: Stadt Basel",
+          831
+        ],
+        [
+          "2013: Innenstadt",
+          323
+        ],
+        [
+          "2013: Stadt Basel",
+          865
+        ],
+        [
+          "2014: Innenstadt",
+          319
+        ],
+        [
+          "2014: Stadt Basel",
+          884
+        ],
+        [
+          "2015: Innenstadt",
+          328
+        ],
+        [
+          "2015: Stadt Basel",
+          888
+        ],
+        [
+          "2016: Innenstadt",
+          335
+        ],
+        [
+          "2016: Stadt Basel",
+          893
+        ],
+        [
+          "2017: Innenstadt",
+          335
+        ],
+        [
+          "2017: Stadt Basel",
+          891
+        ],
+        [
+          "2018: Innenstadt",
+          332
+        ],
+        [
+          "2018: Stadt Basel",
+          879
+        ],
+        [
+          "2019: Innenstadt",
+          340
+        ],
+        [
+          "2019: Stadt Basel",
+          914
+        ]
+      ],
+      "name": "Schönheitspflege, sonst. pers. DL",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "11px"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9575",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitsstätten nach Branche"
+  },
+  "subtitle": {
+    "text": "Innenstadt und Stadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 2000
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "padding": 0,
+    "itemDistance": 2,
+    "width": 500,
+    "itemWidth": 230,
+    "itemMarginBottom": 1
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "9575"
+  }
+}

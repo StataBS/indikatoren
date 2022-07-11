@@ -1,0 +1,599 @@
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "index": 12,
+      "data": [
+        [
+          "2011",
+          29
+        ],
+        [
+          "2012",
+          28
+        ],
+        [
+          "2013",
+          28
+        ],
+        [
+          "2014",
+          29
+        ],
+        [
+          "2015",
+          29
+        ],
+        [
+          "2016",
+          32
+        ],
+        [
+          "2017",
+          37
+        ],
+        [
+          "2018",
+          38
+        ],
+        [
+          "2019",
+          35
+        ]
+      ],
+      "name": "Waren verschiedener Art",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B6CFD7",
+      "index": 11,
+      "data": [
+        [
+          "2011",
+          58
+        ],
+        [
+          "2012",
+          61
+        ],
+        [
+          "2013",
+          63
+        ],
+        [
+          "2014",
+          65
+        ],
+        [
+          "2015",
+          63
+        ],
+        [
+          "2016",
+          65
+        ],
+        [
+          "2017",
+          61
+        ],
+        [
+          "2018",
+          64
+        ],
+        [
+          "2019",
+          60
+        ]
+      ],
+      "name": "Nahrungs-, Genussmitel, Tabak",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 10,
+      "data": [
+        [
+          "2011",
+          13
+        ],
+        [
+          "2012",
+          15
+        ],
+        [
+          "2013",
+          16
+        ],
+        [
+          "2014",
+          18
+        ],
+        [
+          "2015",
+          19
+        ],
+        [
+          "2016",
+          20
+        ],
+        [
+          "2017",
+          16
+        ],
+        [
+          "2018",
+          15
+        ],
+        [
+          "2019",
+          16
+        ]
+      ],
+      "name": "Informatik und Elektronik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 9,
+      "data": [
+        [
+          "2011",
+          73
+        ],
+        [
+          "2012",
+          70
+        ],
+        [
+          "2013",
+          66
+        ],
+        [
+          "2014",
+          60
+        ],
+        [
+          "2015",
+          61
+        ],
+        [
+          "2016",
+          55
+        ],
+        [
+          "2017",
+          54
+        ],
+        [
+          "2018",
+          51
+        ],
+        [
+          "2019",
+          47
+        ]
+      ],
+      "name": "Haushaltsgeräte, Textilien, Möbel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 8,
+      "data": [
+        [
+          "2011",
+          79
+        ],
+        [
+          "2012",
+          75
+        ],
+        [
+          "2013",
+          70
+        ],
+        [
+          "2014",
+          64
+        ],
+        [
+          "2015",
+          72
+        ],
+        [
+          "2016",
+          66
+        ],
+        [
+          "2017",
+          68
+        ],
+        [
+          "2018",
+          67
+        ],
+        [
+          "2019",
+          66
+        ]
+      ],
+      "name": "Verlagsprod., Sport- und Spielwaren",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 6,
+      "data": [
+        [
+          "2011",
+          205
+        ],
+        [
+          "2012",
+          206
+        ],
+        [
+          "2013",
+          214
+        ],
+        [
+          "2014",
+          203
+        ],
+        [
+          "2015",
+          197
+        ],
+        [
+          "2016",
+          188
+        ],
+        [
+          "2017",
+          178
+        ],
+        [
+          "2018",
+          169
+        ],
+        [
+          "2019",
+          166
+        ]
+      ],
+      "name": "Bekleidung, Lederwaren",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "data": [
+        [
+          "2011",
+          46
+        ],
+        [
+          "2012",
+          43
+        ],
+        [
+          "2013",
+          44
+        ],
+        [
+          "2014",
+          44
+        ],
+        [
+          "2015",
+          45
+        ],
+        [
+          "2016",
+          46
+        ],
+        [
+          "2017",
+          49
+        ],
+        [
+          "2018",
+          50
+        ],
+        [
+          "2019",
+          52
+        ]
+      ],
+      "name": "Apotheken, Körperpflege",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "data": [
+        [
+          "2011",
+          44
+        ],
+        [
+          "2012",
+          43
+        ],
+        [
+          "2013",
+          39
+        ],
+        [
+          "2014",
+          37
+        ],
+        [
+          "2015",
+          36
+        ],
+        [
+          "2016",
+          36
+        ],
+        [
+          "2017",
+          41
+        ],
+        [
+          "2018",
+          38
+        ],
+        [
+          "2019",
+          39
+        ]
+      ],
+      "name": "Uhren, Schmuck",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 1,
+      "data": [
+        [
+          "2011",
+          29
+        ],
+        [
+          "2012",
+          25
+        ],
+        [
+          "2013",
+          26
+        ],
+        [
+          "2014",
+          23
+        ],
+        [
+          "2015",
+          21
+        ],
+        [
+          "2016",
+          21
+        ],
+        [
+          "2017",
+          19
+        ],
+        [
+          "2018",
+          16
+        ],
+        [
+          "2019",
+          18
+        ]
+      ],
+      "name": "Antiquitäten, Gebrauchtwaren",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "data": [
+        [
+          "2011",
+          115
+        ],
+        [
+          "2012",
+          109
+        ],
+        [
+          "2013",
+          107
+        ],
+        [
+          "2014",
+          111
+        ],
+        [
+          "2015",
+          105
+        ],
+        [
+          "2016",
+          99
+        ],
+        [
+          "2017",
+          92
+        ],
+        [
+          "2018",
+          92
+        ],
+        [
+          "2019",
+          93
+        ]
+      ],
+      "name": "Sonstiger Detailhandel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-9588",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche"
+  },
+  "subtitle": {
+    "text": "Innenstadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      }
+    },
+    "tickAmount": 8
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "padding": 0,
+    "itemDistance": 2,
+    "width": 500,
+    "itemWidth": 235,
+    "reversed": true
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/>' 
+    },
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9588"
+  }
+}

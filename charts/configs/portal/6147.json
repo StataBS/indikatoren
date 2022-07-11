@@ -265,9 +265,7 @@
       },
       "min": 0,
       "opposite": true,
-      "tickInterval": 0.25,
-      "tickAmount": 5,
-      "max": 1
+      "max": 0.4
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -318,7 +316,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

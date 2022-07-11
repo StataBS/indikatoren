@@ -14,42 +14,46 @@
       "data": [
         [
           "2002",
-          0.792556742323097
+          0.207443258
         ],
         [
           "2004",
-          0.799902072792558
+          0.200097927
         ],
         [
           "2006",
-          0.812689303363622
+          0.187310697
         ],
         [
           "2008",
-          0.815384615384615
+          0.184615385
         ],
         [
           "2010",
-          0.8228631833283
+          0.177136817
         ],
         [
           "2012",
-          0.827756764620308
+          0.172243235
         ],
         [
           "2014",
-          0.855968286595214
+          0.144031713
         ],
         [
           "2016",
-          0.864194
+          0.135806075
         ],
         [
           "2018",
-          0.863516
+          0.13648371
+        ],
+        [
+          "2020",
+          0.117638484
         ]
       ],
-      "name": "Verhältnis der Löhne von Frauen und Männern (rechte Achse)",
+      "name": "Lohnunterschied zwischen Frauen und Männern (rechte Achse)",
       "turboThreshold": 0
     },
     {
@@ -98,6 +102,10 @@
         [
           "2018",
           5884
+        ],
+        [
+          "2020",
+          6053
         ]
       ],
       "name": "Bruttolohn der Frauen",
@@ -149,6 +157,10 @@
         [
           "2018",
           6814
+        ],
+        [
+          "2020",
+          6860
         ]
       ],
       "name": "Bruttolohn der Männer",
@@ -233,7 +245,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Verhältnis der Löhne von Frauen und Männern"
+    "text": "Lohnunterschied zwischen Frauen und Männern"
   },
   "subtitle": {
     "text": "im privaten Sektor in der Nordwestschweiz",
@@ -265,9 +277,7 @@
       },
       "min": 0,
       "opposite": true,
-      "tickInterval": 0.25,
-      "tickAmount": 5,
-      "max": 1
+      "max": 0.4
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -318,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

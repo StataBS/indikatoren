@@ -435,8 +435,8 @@ var indikatorensetData = [
 		"unterthema": "Wanderungen",
 		"kuerzel": "I.01.5.06774",
 		"kennzahlenset": "Wanderungen (Print)",
-		"kuerzelKunde": "Abb. 2.10",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"kuerzelKunde": "2.10",
+		"stufe1": "3 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -445,7 +445,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-24T04:29:12",
+		"aktualisierungsdatum": "2022-07-11T11:19:57",
 		"id": 6774
 	}
 ];
