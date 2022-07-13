@@ -245,44 +245,42 @@ var indikatorensetData = [
 		"id": 8355
 	},
 	{
+		"template": "line001",
+		"data-id": 8356,
+		"chart-id": 8356,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8473
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08356",
-		"kuerzelKunde": "1.2-3",
-		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Zwischen 2014 und 2020 hat sich in Basel-Landschaft die Wertschöpfung der Pharmaindustrie fast verdoppelt. Auch die Wertschöpfung in der Chemischen Industrie hat stark zugenommen (+43%). Im Jahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:24.2424",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08356",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-3",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2014 und 2018 hat in Basel-Landschaft die Wertschöpfung der Pharmaindustrie (+62%) und in der Chemischen Industrie (+23%) am stärksten zugenommen. Negativ hat sich vor allem die Wertschöpfung im Fahrzeugbau entwickelt (-13%), aber auch im Bereich Handel, Reparatur (-4,7%).",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8473"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8356,
-		"chart-id": 8356,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-13T10:06:14",
 		"id": 8356
 	},
 	{
@@ -325,85 +323,81 @@ var indikatorensetData = [
 		"id": 8357
 	},
 	{
-		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
-		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08358",
-		"kuerzelKunde": "1.2-5",
-		"description": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:25.2525",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.2 Wertschöpfung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der Gesamtregion BS/BL/JU hat zwischen 2014 und 2018 die Wertschöpfung in der Pharmaindustrie am stärksten zugenommen (+70%), während diejenige im Fahrzeugbau den deutlichsten Rückgang hinnehmen musste (-31%).",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_02_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8475"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8358,
 		"chart-id": 8358,
 		"filter": "",
-		"id": 8358
-	},
-	{
-		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
+		"parentId": null,
+		"children": [
+			8475
+		],
+		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08359",
-		"kuerzelKunde": "1.2-6",
-		"description": "Entwicklung Wertschöpfung nach Branche, Schweiz",
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2020 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+24%) und im Gesundheits- und Sozialwesen (+16%). Stark rückläufig war die Wertschöpfung 2020 vor allem im Gastgewerbe.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08358",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:25.2525",
+		"kuerzelKunde": "1.2-5",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auch in der Gesamtschweiz war das Wachstum in der Pharmabranche am stärksten: die reale Wertschöpfung ist zwischen 2014 und 2018 um 74% gestiegen. Rückläufig war die Wertschöpfung im Bereich Elektro/Optik/Maschinen, im Fahrzeugbau sowie im 1. Sektor.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8476"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-07-13T10:06:15",
+		"id": 8358
+	},
+	{
+		"template": "line001",
 		"data-id": 8359,
 		"chart-id": 8359,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8476
+		],
+		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
+		"subtitle": "real, indexiert (2014 = 100)",
+		"lesehilfe": "In der Schweiz hat sich die reale Wertschöpfung in der Pharmabranche zwischen 2014 und 2020 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um rund 30% gewachsen. Stark rückläufig war sie 2020 vor allem im Gastgewerbe.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Entwicklung Wertschöpfung nach Branche, Schweiz",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08359",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-6",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-13T10:06:15",
 		"id": 8359
 	},
 	{
