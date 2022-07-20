@@ -2,12 +2,15 @@
     global $
 */
 
+var disableContextMenu = window.decodeURIComponent($.url('?disableContextMenu')) === 'true';
+
 Highcharts.setOptions({
 	"exporting": {
         "sourceWidth": null,
         "scale": 5,
         "buttons": {
             "contextButton": {
+              enabled: !disableContextMenu,
                 /*
                 "text": "",
                 "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8),

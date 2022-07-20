@@ -205,6 +205,8 @@
       var hideErlaeuterungenTitle = window.decodeURIComponent($.url('?hideErlaeuterungenTitle')) === 'true';
       var hideLinks = window.decodeURIComponent($.url('?hideLinks')) === 'true';
       var hideLinksTitle = window.decodeURIComponent($.url('?hideLinksTitle')) === 'true';
+
+      var disableAnimations = window.decodeURIComponent($.url('?disableAnimations')) === 'true';
       
       //unhide header
       if (!hideHeader) { 
@@ -222,7 +224,7 @@
             var container = $('body');
             container.append(templateFunction(chartMetadata));
             //render chart. if header is hidden, remove left margin in callback
-            lazyRenderChartById(id, chartMetadata, view, true, (hideHeader ? removeLeftMargin : undefined));
+            lazyRenderChartById(id, chartMetadata, view, true, disableAnimations, (hideHeader ? removeLeftMargin : undefined));
         });
       }
       else {

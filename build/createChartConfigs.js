@@ -136,7 +136,7 @@ function saveChartConfig(indikator, view, console){
     
         var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console}).context;
         
-        ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
+        ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
             //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';

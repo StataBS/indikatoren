@@ -30,7 +30,7 @@ function parseData(chartOptions, data, completeHandler) {
 }
 
 //merge series with all options
-function createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){  
+function createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, disableAnimations, callbackFn){  
   //add custom filter to chart options if present in metadata
   if (chartMetaData["filter"]){
     //ensure customFunctions is in template
@@ -49,7 +49,14 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
         });
     }
     //merge all highcharts configs
-    var options = Highcharts.merge(true, dataOptions, template, chartOptions);
+    var options = Highcharts.merge(
+      true, 
+      dataOptions, 
+      template, 
+      chartOptions, 
+      (disableAnimations ? { chart: { animation: false } } : {})
+    );
+
     //inject metadata to highcharts options 
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, view, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
@@ -64,6 +71,13 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
     if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = beforeSeriesOptions.series.concat(beforeSeriesOptions.afterSeries)} 
     delete afterSeriesOptions.afterSeries;
 
+      
+    if (disableAnimations && afterSeriesOptions.series) {
+      for (let series of afterSeriesOptions.series) {
+        series.animation = false;
+      }
+    }
+
     callbackFn(afterSeriesOptions);
   });        
 }
@@ -71,8 +85,8 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
 
 
 //merge series with all options and draw chart
-function drawChartFromData(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){
-  createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, function(options){
+function drawChartFromData(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, disableAnimations, callbackFn){
+  createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, disableAnimations, function(options){
     //decide if stockchart, map, or chart
     var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
     return new Highcharts[constr](options, callbackFn);
@@ -182,7 +196,7 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, disableAnimations, callbackFn){
   //Umwelt data are rendered directly from json, not from csv + json files
   if (chartMetaData.datenInChartIntegriert == false || (chartMetaData.datenInChartIntegriert === undefined && chartMetaData.kennzahlenset != "Umwelt")){
     //load scripts one after the other, then load csv and draw the chart
@@ -203,7 +217,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         $.get(csvUrl, function(data){
           //remove quotes from data
           var dataWithoutQuotes = data.replace(/"/g, "");
-          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, disableAnimations, callbackFn);
         });
       }
     ).fail(function(jqXHR, textStatus, errorThrown){
@@ -272,7 +286,7 @@ function getChartUrls(id, chartMetaData){
 }
 
 //construct urls by chart id and render to designated div
-function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
+function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, disableAnimations, callbackFn){
   //fire GTM event
   dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
 
@@ -289,7 +303,7 @@ function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, cal
     //destroy and redraw in order to get nice animation. Lazy loading no longer performed, because of problems with mappie tooltips starting with Highcharts 6.1.1. 
     Highcharts.charts[chartIndex].destroy();
   }
-  renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
+  renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, disableAnimations, callbackFn);
 }
 
 
