@@ -1086,43 +1086,43 @@ var indikatoren = [
 		"id": 2547
 	},
 	{
-		"parentId": 6173,
-		"children": [],
 		"template": "line001",
+		"data-id": 2917,
+		"chart-id": 2917,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8879
+		],
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.13.2.02917",
-		"kuerzelKunde": "GW6",
-		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Mit 52 919 Beziehenden erhalten Ende 2021 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst alle Beziehenden von Sozialhilfe und Ergänzungsleistungen mit ein.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:28.2828",
+		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.02917",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW6",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 53 309 Beziehenden erhalten Ende 2020 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst alle Beziehenden von Sozialhilfe und Ergänzungsleistungen mit ein.",
+		"orderKey": "03_02_00_00_00_307",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_02_00_00_00_307",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 2917,
-		"chart-id": 2917,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:39",
 		"id": 2917
 	},
 	{
@@ -10274,11 +10274,13 @@ var indikatoren = [
 		"data-id": 5162,
 		"chart-id": 5162,
 		"filter": "",
-		"parentId": "6132",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8892
+		],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2020 betrug deren Ertrag 637&nbsp;Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2020 über 2,0&nbsp;Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2021 beträgt deren Ertrag 588 Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen beläuft sich 2021 auf über 2,0 Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -10302,9 +10304,9 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_203",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:58",
+		"aktualisierungsdatum": "2022-07-26T08:26:41",
 		"id": 5162
 	},
 	{
@@ -11733,47 +11735,43 @@ var indikatoren = [
 		"id": 5817
 	},
 	{
-		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in Quadratmetern, 2015",
-		"kuerzel": "I.09.1.5818",
-		"kuerzelKunde": "ST 4-10",
-		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T12:11:45.4545",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_410",
-		"parentId": null,
-		"children": [
-			"6250"
-		],
-		"renderLink": [
-			"6250"
-		],
-		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5818,
 		"chart-id": 5818,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6250
+		],
+		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
+		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2020 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5818",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-10",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:41",
 		"id": 5818
 	},
 	{
@@ -11942,47 +11940,43 @@ var indikatoren = [
 		"id": 5823
 	},
 	{
-		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in Quadratmetern, 2015",
-		"kuerzel": "I.09.1.5825",
-		"kuerzelKunde": "ST 7-3",
-		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T12:12:22.2222",
-		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_073",
-		"parentId": null,
-		"children": [
-			"6255"
-		],
-		"renderLink": [
-			"6255"
-		],
-		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5825,
 		"chart-id": 5825,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6255
+		],
+		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2020 in den Wohnvierteln St. Alban und St. Johann.  Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF betrachtet sind es die Wohnviertel Altstadt Grossbasel und Kleinhüningen mit den höchsten Werten.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5825",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-3",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_003",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:42",
 		"id": 5825
 	},
 	{
@@ -12594,45 +12588,43 @@ var indikatoren = [
 		"id": 6025
 	},
 	{
+		"template": "template001",
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8918
+		],
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.1.06026",
-		"kuerzelKunde": "NL5",
-		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2021: 51,2%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,7% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-13T13:30:33.3333",
+		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.06026",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL5",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2020: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
+		"orderKey": "04_01_00_00_00_405",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_00_00_00_405",
-		"parentId": null,
-		"children": [
-			"8918"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6026,
-		"chart-id": 6026,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:40",
 		"id": 6026
 	},
 	{
@@ -12996,7 +12988,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:12",
+		"aktualisierungsdatum": "2022-07-26T08:26:40",
 		"id": 6036
 	},
 	{
@@ -13531,8 +13523,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbstätigenquote nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2019 insgesamt bei 72,5%. Bei den Männern lag sie mit 76,1% über derjenigen der Frauen (69,0%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2020 insgesamt bei 71,9%. Bei den Männern lag sie mit 75,2% über derjenigen der Frauen (68,7%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -13558,7 +13550,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-31T09:34:38",
+		"aktualisierungsdatum": "2022-07-26T08:26:43",
 		"id": 6052
 	},
 	{
@@ -13602,7 +13594,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 6054,
-		"chart-id": 6054,
+		"chart-id": 6150,
 		"filter": "",
 		"parentId": "6150",
 		"children": [],
@@ -13634,7 +13626,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:21",
+		"aktualisierungsdatum": "2022-07-26T08:26:42",
 		"id": 6054
 	},
 	{
@@ -14727,91 +14719,87 @@ var indikatoren = [
 		"id": 6081
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6667"
-		],
 		"template": "line001",
-		"title": "Hochschulquote nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.15.4.6082",
-		"kuerzelKunde": "B2-1",
-		"description": "Hochschulquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Hochschulen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-07T08:30:43.4343",
-		"stufe1": "Kapitel B Schule und Bildung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit zwei Jahren wieder steigende Tendenz auf. Eine auffällige Steigerung in den letzten beiden Jahren verzeichnet zudem die Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
-		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_201",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)",
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6082,
 		"chart-id": 6082,
 		"filter": "",
-		"id": 6082
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6668"
+			6667
 		],
-		"template": "line001",
-		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.15.4.6083",
-		"kuerzelKunde": "B2-2",
-		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Hochschulen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-07T08:30:44.4444",
-		"stufe1": "Kapitel B Schule und Bildung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach vorübergehendem leichtem Rückgang, seit zwei Jahren wieder steigende Tendenz auf. Bei der ausländischen Wohnbevölkerung ist 2020 ebenfalls eine geringfügige Zunahme der Hochschulquote zu beobachten.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit drei Jahren wieder steigende Tendenz auf. In den letzten beiden Jahren stieg zudem die Hochschulquote der Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_202",
-		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
+		"description": "Hochschulquote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Hochschulen",
+		"kuerzel": "I.15.4.6082",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "B2-1",
+		"stufe1": "Kapitel B Schule und Bildung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_201",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:33",
+		"id": 6082
+	},
+	{
+		"template": "line001",
 		"data-id": 6083,
 		"chart-id": 6083,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6668
+		],
+		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach vorübergehendem leichtem Rückgang, seit drei Jahren wieder steigende Tendenz auf. Bei der ausländischen Wohnbevölkerung ist die Quote 2021 mit 8,0% so hoch wie noch nie in der Beobachtungsreihe. Unterschiede nach Geschlecht sind unabhängig von der Staatsangehörigkeit aktuell kaum messbar.",
+		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)",
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Hochschulen",
+		"kuerzel": "I.15.4.6083",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "B2-2",
+		"stufe1": "Kapitel B Schule und Bildung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_202",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:33",
 		"id": 6083
 	},
 	{
@@ -15897,7 +15885,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:35",
+		"aktualisierungsdatum": "2022-07-26T08:26:30",
 		"id": 6150
 	},
 	{
@@ -25030,7 +25018,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 500 Veranlagungen) im Steuerjahr 2018 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 129 000 Franken. Den kleinsten Mittelwert weisen mit rund 37 300 Franken (ca. 700 Veranlagungen) die Veranlagungen von Personen aus afrikanischen Ländern auf.",
+		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 600 Veranlagungen) im Steuerjahr 2019 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 146 000 Franken. Den kleinsten Mittelwert weisen mit rund 36 800 Franken (ca. 3 300 Veranlagungen) die Veranlagungen von Personen aus der Türkei auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -25056,7 +25044,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-28T08:27:20",
+		"aktualisierungsdatum": "2022-07-26T08:26:34",
 		"id": 6468
 	},
 	{
@@ -25070,7 +25058,7 @@ var indikatoren = [
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2018 liegt bei Veranlagungen von Personen aus den übrigen Ländern vor. Er beträgt ca. 75 900 Franken. Den kleinsten Median verzeichnet 2018 die Gruppe Arabische Länder mit rund 26 900 Franken.",
+		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2019 liegt bei Veranlagungen von Personen aus den übrigen Ländern vor. Er beträgt ca. 79 000 Franken. Den kleinsten Median verzeichnet 2019 die Gruppe Arabische Länder mit rund 30 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -25096,7 +25084,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-28T08:27:22",
+		"aktualisierungsdatum": "2022-07-26T08:26:34",
 		"id": 6469
 	},
 	{
@@ -25109,8 +25097,8 @@ var indikatoren = [
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2018",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2018 Personen aus den USA auf, der Wert beträgt rund 267 000 Franken. Von ihnen liegen für dieses Steuerjahr 561 Veranlagungen vor. Es folgen Australien (198 000 Franken, 63 Veranlagungen) und Dänemark (192 000 Franken, 86 Veranlagungen).",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2019 Personen aus den USA auf, der Wert beträgt rund 292 000 Franken. Von ihnen liegen für dieses Steuerjahr 586 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -25136,7 +25124,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-28T08:27:22",
+		"aktualisierungsdatum": "2022-07-26T08:26:35",
 		"id": 6470
 	},
 	{
@@ -25150,7 +25138,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2009 wie auch 2018 für die Gruppe der Schweizer vor. 2009 beträgt dieser rund 481 000 Franken, im Jahr 2018 etwa 532 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6 900 Franken im Jahr 2009 resp. 15 700 Franken pro Veranlagung im Jahr 2018. Die Ländergruppe EU-Ost verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2010 als auch 2019 für die Gruppe der Schweizer vor. 2019 beträgt er rund 659 000 Franken pro Veranlagung. Den kleinsten Wert 2019 verzeichnen Personen aus den Balkanländern, rund 16 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -25176,7 +25164,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-28T08:27:22",
+		"aktualisierungsdatum": "2022-07-26T08:26:36",
 		"id": 6471
 	},
 	{
@@ -25677,132 +25665,126 @@ var indikatoren = [
 		"id": 6483
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6725"
-		],
 		"template": "template001",
-		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.19.1.6484",
-		"kuerzelKunde": "D4-3",
-		"description": "Beschuldigte Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-01T08:33:03.033",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 ergab sich die höchste Beschuldigtenrate mit 58,2 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 40,1.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_403",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6484,
 		"chart-id": 6484,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6725
+		],
+		"title": "Beschuldigte Erwachsene",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wiesen die ausländischen jungen Männer zwischen 18 und 24 Jahren mit 48,3 die höchste Beschuldigtenrate auf. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 31,5.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschuldigte Erwachsene",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.6484",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D4-3",
+		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_403",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:36",
 		"id": 6484
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6726"
-		],
 		"template": "line001",
-		"title": "Beschuldigte ausländische Erwachsene",
-		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.19.1.6485",
-		"kuerzelKunde": "D4-4",
-		"description": "Beschuldigte ausländische Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-01T08:33:03.033",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2019 von 475 auf 463. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg hingegen von 267 auf 286 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_404",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6485,
 		"chart-id": 6485,
 		"filter": "",
-		"id": 6485
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6727"
+			6726
 		],
-		"template": "line001",
-		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "D5-1",
-		"description": "Beschuldigte Jugendliche",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"title": "Beschuldigte ausländische Erwachsene",
+		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2020 von 463 auf 371.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:04.044",
+		"description": "Beschuldigte ausländische Erwachsene",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.6485",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D4-4",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 23,9 einer Straftat beschuldigt.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"orderKey": "04_00_00_00_00_404",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_501",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:37",
+		"id": 6485
+	},
+	{
+		"template": "line001",
+		"data-id": 6487,
+		"chart-id": 6487,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6727
+		],
+		"title": "Beschuldigte Jugendliche",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 12,5 einer Straftat beschuldigt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 6487,
-		"chart-id": 6487,
-		"filter": "",
+		"description": "Beschuldigte Jugendliche",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D5-1",
+		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_501",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:37",
 		"id": 6487
 	},
 	{
@@ -25849,46 +25831,44 @@ var indikatoren = [
 		"id": 6488
 	},
 	{
+		"template": "template001",
+		"data-id": 6489,
+		"chart-id": 6489,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6729"
+			6729
 		],
-		"template": "template001",
 		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.19.1.6489",
-		"kuerzelKunde": "D5-3",
-		"description": "Beschuldigte Jugendliche",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:05.055",
+		"description": "Beschuldigte Jugendliche",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.6489",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D5-3",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden männliche Schweizer Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige ausländische Jugendliche.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"orderKey": "04_00_00_00_00_503",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_503",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6489,
-		"chart-id": 6489,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:38",
 		"id": 6489
 	},
 	{
@@ -25934,45 +25914,43 @@ var indikatoren = [
 		"id": 6490
 	},
 	{
+		"template": "template001",
+		"data-id": 6491,
+		"chart-id": 6491,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6731"
+			6731
 		],
-		"template": "template001",
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "D5-5",
-		"description": "Beschuldigte Jugendliche nach Straftatbestand",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 30,8% resp. 35,9% das häufigste Delikt.",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:06.066",
+		"description": "Beschuldigte Jugendliche nach Straftatbestand",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D5-5",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 ist sowohl bei den Schweizer Jugendlichen wie auch bei den ausländischen Jugendlichen Diebstahl mit 16,6% resp. 28,6% das häufigste Delikt.",
-		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"orderKey": "04_00_00_00_00_505",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_505",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6491,
-		"chart-id": 6491,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:38",
 		"id": 6491
 	},
 	{
@@ -26553,45 +26531,43 @@ var indikatoren = [
 		"id": 6510
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 6511,
+		"chart-id": 6511,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6743"
+			6743
 		],
-		"template": "befragungen001",
 		"title": "Sprachen im Freundeskreis",
 		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.50.3.6511",
-		"kuerzelKunde": "D11-1",
-		"description": "Sprachen im Freundeskreis",
-		"thema": "50 Befragungen",
-		"unterthema": "Jugendbefragung",
+		"lesehilfe": "Beim überwiegenden Teil der Jugendlichen wird im Freundeskreis am häufigsten Deutsch gesprochen. 2021 sind es 90% bzw. 83%, wenn man den Anteil «Keine Angabe» einbezieht. Der Anteil der Jugendlichen, der im Freundeskreis am häufigsten Deutsch spricht, bleibt seit Befragungsbeginn auf ähnlichem Niveau.",
+		"erlaeuterungen": "Die kantonale Jugendbefragung wird seit 2009 alle vier Jahre durchgeführt. Die Befragung ermöglicht Aussagen über die im Kanton Basel-Stadt wohnhaften Jugendlichen im Alter von 12 bis 17 Jahren, die eine öffentliche Schule besuchen. Die Werte aus den Befragungen bis 2017 wurden aufgrund methodischer Neuerungen revidiert. Berücksichtigt werden nur Antworten von Jugendlichen, die angeben, überhaupt einen Freundeskreis zu haben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-15T08:01:50.5050",
+		"description": "Sprachen im Freundeskreis",
+		"thema": "50 Befragungen",
+		"unterthema": "Jugendbefragung",
+		"kuerzel": "I.50.3.6511",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D11-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
+		"orderKey": "04_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_101",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6511,
-		"chart-id": 6511,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:36",
 		"id": 6511
 	},
 	{
@@ -36767,43 +36743,41 @@ var indikatoren = [
 		"id": 6988
 	},
 	{
-		"parentId": 5142,
-		"children": [],
 		"template": "populationPyramid001",
+		"data-id": 6989,
+		"chart-id": 5142,
+		"filter": "",
+		"parentId": "5142",
+		"children": [],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.1.06989",
-		"kuerzelKunde": "GS-99.D",
-		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-23T08:12:17.1717",
+		"description": "Bevölkerungspyramide am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06989",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-99.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"orderKey": "03_01_01_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_01_01_00_00_022",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6989,
-		"chart-id": 5142,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:39",
 		"id": 6989
 	},
 	{
@@ -41432,7 +41406,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:25",
+		"aktualisierungsdatum": "2022-07-26T08:26:28",
 		"id": 7515
 	},
 	{
@@ -45776,8 +45750,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Im Mai 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln und in Bettingen. In acht Wohnvierteln und in Riehen sank sie.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in Riehen und in Bettingen. In acht Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -45804,7 +45778,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:26",
+		"aktualisierungsdatum": "2022-07-26T08:26:29",
 		"id": 7763
 	},
 	{
@@ -56112,87 +56086,83 @@ var indikatoren = [
 		"id": 8367
 	},
 	{
-		"title": "Entwicklung Tertiärquote",
-		"subtitle": "",
-		"kuerzel": "I.15.6.08368",
-		"kuerzelKunde": "2.2-1",
-		"description": "Entwicklung Tertiärquote",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:29.2929",
-		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.2 Bildung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2018: 44,7%). Basel-Landschaft liegt bei 32,5%, Jura bei 25,7%. Der Wert für die ganze Schweiz beträgt 35,0%. Fast überall ist der Anteil in den letzten Jahren von Jahr zu Jahr gestiegen.",
-		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8485"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8368,
 		"chart-id": 8368,
 		"filter": "",
-		"id": 8368
-	},
-	{
-		"title": "Entwicklung Abschlussquote der Hochschulen",
+		"parentId": null,
+		"children": [
+			8485
+		],
+		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "2.2-2",
-		"description": "Entwicklung Abschlussquote der Hochschulen",
-		"thema": "15 Bildung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2020: 50,9%). Basel-Landschaft liegt bei 40,7%, Jura bei 23,9%. Der Wert für die ganze Schweiz beträgt 40,1%.",
+		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:29.2929",
+		"description": "Entwicklung Tertiärquote",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.08368",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.2-1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile der neuen Absolventen weist der Kanton Jura auf. 2018 liegt er bei 34,1%. In Basel-Stadt beträgt der Wert 26,1%, im Kanton Basel-Landschaft 31,6%. Im Schweizer Durchschnitt gibt es 29,8% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"template": "template001",
+		"orderKey": "02_02_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8486"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-07-26T08:26:31",
+		"id": 8368
+	},
+	{
+		"template": "template001",
 		"data-id": 8369,
 		"chart-id": 8369,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8486
+		],
+		"title": "Entwicklung Abschlussquote der Hochschulen",
+		"subtitle": "",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2019 mit 34,0% der Kanton Basel-Landschaft auf. In Basel-Stadt beträgt der Wert 24,9%, im Kanton Jura 29,2%. Im Schweizer Durchschnitt gibt es 30,2% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Abschlussquote der Hochschulen",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.08369",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.2-2",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.2 Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_02_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:32",
 		"id": 8369
 	},
 	{
@@ -58646,46 +58616,44 @@ var indikatoren = [
 		"id": 8441
 	},
 	{
+		"template": "line001",
+		"data-id": 8442,
+		"chart-id": 8442,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8502
+		],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "2.1-4",
-		"description": "Entwicklung monatliche Arbeitslosenquoten",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren tendentiell ähnlich entwickelt: Nach einem Rückgang 2017 bis 2019 ist die Arbeitslosigkeit im Jahr 2020 aufgrund der COVID-19-Pandemie markant angestiegen. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2020 lagen die Arbeitslosenquoten bei 2,8% (BL), 4,3% (BS) und 5,6% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:36.3636",
+		"description": "Entwicklung monatliche Arbeitslosenquoten",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.08442",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die durchschnittlichen Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich seit 2014 ähnlich entwickelt: Nach einem Anstieg bis 2016 hat sich die Arbeitslosigkeit im Jahr 2017 und insbesondere 2018 wieder reduziert. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Zuletzt im Dezember 2019 lagen die Arbeitslosenquoten bei 2,0% (BL), 3,1% (BS) und 4,0% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun; siehe auch die Erläuterungen und methodischen Hinweise. Die Kurven sind deshalb nicht direkt vergleichbar.",
-		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8502"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8442,
-		"chart-id": 8442,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:30",
 		"id": 8442
 	},
 	{
@@ -59315,7 +59283,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -59341,7 +59309,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:13",
+		"aktualisierungsdatum": "2022-07-26T08:26:43",
 		"id": 8459
 	},
 	{
@@ -77518,7 +77486,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -77544,7 +77512,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:44",
+		"aktualisierungsdatum": "2022-07-26T08:26:31",
 		"id": 9370
 	},
 	{
@@ -77582,7 +77550,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:47",
+		"aktualisierungsdatum": "2022-07-26T08:26:33",
 		"id": 9371
 	},
 	{

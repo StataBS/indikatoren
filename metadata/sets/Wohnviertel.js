@@ -3869,42 +3869,40 @@ var indikatorensetData = [
 		"id": 6988
 	},
 	{
-		"parentId": 5142,
-		"children": [],
 		"template": "populationPyramid001",
+		"data-id": 6989,
+		"chart-id": 5142,
+		"filter": "",
+		"parentId": "5142",
+		"children": [],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.1.06989",
-		"kuerzelKunde": "GS-99.D",
-		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-23T08:12:17.1717",
+		"description": "Bevölkerungspyramide am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06989",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-99.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"orderKey": "03_01_01_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_01_01_00_00_022",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6989,
-		"chart-id": 5142,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:39",
 		"id": 6989
 	},
 	{

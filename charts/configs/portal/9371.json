@@ -117,6 +117,10 @@
         [
           2018,
           0.516
+        ],
+        [
+          2019,
+          0.53
         ]
       ],
       "name": "Reineinkommen"
@@ -239,6 +243,10 @@
         [
           2018,
           0.909
+        ],
+        [
+          2019,
+          0.923
         ]
       ],
       "name": "Reinvermögen"
@@ -323,7 +331,16 @@
       },
       "x": -10
     },
-    "tickInterval": 2
+    "tickInterval": 2,
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min) / maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "yAxis": {
     "min": 0,
@@ -369,7 +386,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

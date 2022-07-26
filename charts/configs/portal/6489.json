@@ -5,11 +5,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          15.5
+          8.9
         ],
         [
           "15 bis 17 Jahre",
-          67.7
+          30.6
         ]
       ],
       "name": "Schweizer",
@@ -20,11 +20,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          8.6
+          5.1
         ],
         [
           "15 bis 17 Jahre",
-          16
+          11.6
         ]
       ],
       "name": "Schweizerinnen",
@@ -35,11 +35,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          23.4
+          16.7
         ],
         [
           "15 bis 17 Jahre",
-          47.4
+          47
         ]
       ],
       "name": "Ausländer",
@@ -50,11 +50,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          9.2
+          9.1
         ],
         [
           "15 bis 17 Jahre",
-          14.8
+          20.5
         ]
       ],
       "name": "Ausländerinnen",
@@ -137,7 +137,7 @@
     "text": "Beschuldigte Jugendliche"
   },
   "subtitle": {
-    "text": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
+    "text": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -193,7 +193,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

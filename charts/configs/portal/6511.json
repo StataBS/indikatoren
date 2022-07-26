@@ -3,19 +3,23 @@
     {
       "color": "#B00000",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 0,
       "data": [
         [
           "2009",
-          724
+          600
         ],
         [
           "2013",
-          852
+          674
         ],
         [
           "2017",
-          908
+          725
+        ],
+        [
+          "2021",
+          688
         ]
       ],
       "name": "Deutsch",
@@ -24,19 +28,23 @@
     {
       "color": "#FABD24",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           "2009",
-          84
+          75
         ],
         [
           "2013",
-          79
+          61
         ],
         [
           "2017",
-          86
+          68
+        ],
+        [
+          "2021",
+          80
         ]
       ],
       "name": "Andere Sprache",
@@ -45,19 +53,23 @@
     {
       "color": "#999999",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 2,
       "data": [
         [
           "2009",
-          61
+          52
         ],
         [
           "2013",
-          99
+          77
         ],
         [
           "2017",
-          136
+          103
+        ],
+        [
+          "2021",
+          61
         ]
       ],
       "name": "Keine Angabe",
@@ -213,13 +225,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",

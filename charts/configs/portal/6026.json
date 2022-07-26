@@ -79,6 +79,10 @@
         [
           2020,
           1673.72
+        ],
+        [
+          2021,
+          1662.85
         ]
       ],
       "name": "Befestigte Fläche und Gebäude"
@@ -162,6 +166,10 @@
         [
           2020,
           133.88
+        ],
+        [
+          2021,
+          138.15
         ]
       ],
       "name": "Gewässer"
@@ -245,6 +253,10 @@
         [
           2020,
           1886.67
+        ],
+        [
+          2021,
+          1888.97
         ]
       ],
       "name": "Grünfläche"
@@ -382,7 +394,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-13"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "tooltip": {
     "shared": false,

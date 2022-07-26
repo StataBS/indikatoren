@@ -317,46 +317,42 @@ var indikatorensetData = [
 		"id": 5817
 	},
 	{
-		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in Quadratmetern, 2015",
-		"kuerzel": "I.09.1.5818",
-		"kuerzelKunde": "ST 4-10",
-		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T12:11:45.4545",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "02_04_00_00_00_410",
-		"parentId": null,
-		"children": [
-			"6250"
-		],
-		"renderLink": [
-			"6250"
-		],
-		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5818,
 		"chart-id": 5818,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6250
+		],
+		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
+		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2020 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5818",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-10",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:41",
 		"id": 5818
 	},
 	{
@@ -521,46 +517,42 @@ var indikatorensetData = [
 		"id": 5823
 	},
 	{
-		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in Quadratmetern, 2015",
-		"kuerzel": "I.09.1.5825",
-		"kuerzelKunde": "ST 7-3",
-		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T12:12:22.2222",
-		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "03_07_00_00_00_073",
-		"parentId": null,
-		"children": [
-			"6255"
-		],
-		"renderLink": [
-			"6255"
-		],
-		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5825,
 		"chart-id": 5825,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6255
+		],
+		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2020 in den Wohnvierteln St. Alban und St. Johann.  Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF betrachtet sind es die Wohnviertel Altstadt Grossbasel und Kleinhüningen mit den höchsten Werten.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5825",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-3",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_003",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:42",
 		"id": 5825
 	},
 	{

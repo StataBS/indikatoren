@@ -1,41 +1,41 @@
 var indikatorensetData = [
 	{
-		"parentId": 6173,
-		"children": [],
 		"template": "line001",
+		"data-id": 2917,
+		"chart-id": 2917,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8879
+		],
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.13.2.02917",
-		"kuerzelKunde": "GW6",
-		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Mit 52 919 Beziehenden erhalten Ende 2021 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst alle Beziehenden von Sozialhilfe und Ergänzungsleistungen mit ein.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:28.2828",
+		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.02917",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW6",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 53 309 Beziehenden erhalten Ende 2020 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst alle Beziehenden von Sozialhilfe und Ergänzungsleistungen mit ein.",
+		"orderKey": "03_02_00_00_00_307",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_307",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 2917,
-		"chart-id": 2917,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:39",
 		"id": 2917
 	},
 	{
@@ -432,11 +432,13 @@ var indikatorensetData = [
 		"data-id": 5162,
 		"chart-id": 5162,
 		"filter": "",
-		"parentId": "6132",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8892
+		],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2020 betrug deren Ertrag 637&nbsp;Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2020 über 2,0&nbsp;Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2021 beträgt deren Ertrag 588 Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen beläuft sich 2021 auf über 2,0 Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -461,7 +463,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:58",
+		"aktualisierungsdatum": "2022-07-26T08:26:41",
 		"id": 5162
 	},
 	{
@@ -1295,44 +1297,42 @@ var indikatorensetData = [
 		"id": 5796
 	},
 	{
+		"template": "template001",
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8918
+		],
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.1.06026",
-		"kuerzelKunde": "NL5",
-		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2021: 51,2%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,7% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-13T13:30:33.3333",
+		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.06026",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL5",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2020: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
+		"orderKey": "04_01_00_00_00_405",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_405",
-		"parentId": null,
-		"children": [
-			"8918"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6026,
-		"chart-id": 6026,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:40",
 		"id": 6026
 	},
 	{
@@ -1687,7 +1687,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:12",
+		"aktualisierungsdatum": "2022-07-26T08:26:40",
 		"id": 6036
 	},
 	{
@@ -2170,8 +2170,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettoerwerbstätigenquote nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2019 insgesamt bei 72,5%. Bei den Männern lag sie mit 76,1% über derjenigen der Frauen (69,0%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2020 insgesamt bei 71,9%. Bei den Männern lag sie mit 75,2% über derjenigen der Frauen (68,7%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -2196,7 +2196,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-31T09:34:38",
+		"aktualisierungsdatum": "2022-07-26T08:26:43",
 		"id": 6052
 	},
 	{
@@ -2239,7 +2239,7 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 6054,
-		"chart-id": 6054,
+		"chart-id": 6150,
 		"filter": "",
 		"parentId": "6150",
 		"children": [],
@@ -2270,7 +2270,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:21",
+		"aktualisierungsdatum": "2022-07-26T08:26:42",
 		"id": 6054
 	},
 	{
@@ -2952,7 +2952,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -2977,7 +2977,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:13",
+		"aktualisierungsdatum": "2022-07-26T08:26:43",
 		"id": 8459
 	},
 	{

@@ -41,16 +41,16 @@
   	}
   },
   "series": [
-    { "color": "#B00000", index: 3, legendIndex: 3}, // 
-    { "color": "#FABD24", index: 2, legendIndex: 2}, // 
-    { "color": "#999999", index: 0, legendIndex: 0}, // 
+    { "color": "#B00000", index: 3, legendIndex: 0}, // 
+    { "color": "#FABD24", index: 2, legendIndex: 1}, // 
+    { "color": "#999999", index: 0, legendIndex: 2}, // 
   ],
   legend: {
-    enabled:true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5, // space between legend boxes
-    "align": "right",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
