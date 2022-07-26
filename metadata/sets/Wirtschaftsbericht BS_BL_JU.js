@@ -717,85 +717,81 @@ var indikatorensetData = [
 		"id": 8367
 	},
 	{
-		"title": "Entwicklung Tertiärquote",
-		"subtitle": "",
-		"kuerzel": "I.15.6.08368",
-		"kuerzelKunde": "2.2-1",
-		"description": "Entwicklung Tertiärquote",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:29.2929",
-		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.2 Bildung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2018: 44,7%). Basel-Landschaft liegt bei 32,5%, Jura bei 25,7%. Der Wert für die ganze Schweiz beträgt 35,0%. Fast überall ist der Anteil in den letzten Jahren von Jahr zu Jahr gestiegen.",
-		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_02_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8485"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8368,
 		"chart-id": 8368,
 		"filter": "",
-		"id": 8368
-	},
-	{
-		"title": "Entwicklung Abschlussquote der Hochschulen",
+		"parentId": null,
+		"children": [
+			8485
+		],
+		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "2.2-2",
-		"description": "Entwicklung Abschlussquote der Hochschulen",
-		"thema": "15 Bildung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2020: 50,9%). Basel-Landschaft liegt bei 40,7%, Jura bei 23,9%. Der Wert für die ganze Schweiz beträgt 40,1%.",
+		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:29.2929",
+		"description": "Entwicklung Tertiärquote",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.08368",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.2-1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile der neuen Absolventen weist der Kanton Jura auf. 2018 liegt er bei 34,1%. In Basel-Stadt beträgt der Wert 26,1%, im Kanton Basel-Landschaft 31,6%. Im Schweizer Durchschnitt gibt es 29,8% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"template": "template001",
+		"orderKey": "02_02_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8486"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-07-26T08:26:31",
+		"id": 8368
+	},
+	{
+		"template": "template001",
 		"data-id": 8369,
 		"chart-id": 8369,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8486
+		],
+		"title": "Entwicklung Abschlussquote der Hochschulen",
+		"subtitle": "",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2019 mit 34,0% der Kanton Basel-Landschaft auf. In Basel-Stadt beträgt der Wert 24,9%, im Kanton Jura 29,2%. Im Schweizer Durchschnitt gibt es 30,2% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Abschlussquote der Hochschulen",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.08369",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.2-2",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.2 Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_02_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-26T08:26:32",
 		"id": 8369
 	},
 	{
@@ -1394,45 +1390,43 @@ var indikatorensetData = [
 		"id": 8441
 	},
 	{
+		"template": "line001",
+		"data-id": 8442,
+		"chart-id": 8442,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8502
+		],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "2.1-4",
-		"description": "Entwicklung monatliche Arbeitslosenquoten",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren tendentiell ähnlich entwickelt: Nach einem Rückgang 2017 bis 2019 ist die Arbeitslosigkeit im Jahr 2020 aufgrund der COVID-19-Pandemie markant angestiegen. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2020 lagen die Arbeitslosenquoten bei 2,8% (BL), 4,3% (BS) und 5,6% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:36.3636",
+		"description": "Entwicklung monatliche Arbeitslosenquoten",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.08442",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die durchschnittlichen Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich seit 2014 ähnlich entwickelt: Nach einem Anstieg bis 2016 hat sich die Arbeitslosigkeit im Jahr 2017 und insbesondere 2018 wieder reduziert. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Zuletzt im Dezember 2019 lagen die Arbeitslosenquoten bei 2,0% (BL), 3,1% (BS) und 4,0% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun; siehe auch die Erläuterungen und methodischen Hinweise. Die Kurven sind deshalb nicht direkt vergleichbar.",
-		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8502"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8442,
-		"chart-id": 8442,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-26T08:26:30",
 		"id": 8442
 	},
 	{

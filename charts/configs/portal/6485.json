@@ -55,6 +55,10 @@
         [
           2020,
           463
+        ],
+        [
+          2021,
+          371
         ]
       ],
       "name": "C-Bew."
@@ -114,6 +118,10 @@
         [
           2020,
           286
+        ],
+        [
+          2021,
+          287
         ]
       ],
       "name": "B-Bew."
@@ -173,6 +181,10 @@
         [
           2020,
           118
+        ],
+        [
+          2021,
+          132
         ]
       ],
       "name": "Übrige"
@@ -302,7 +314,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

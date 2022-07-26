@@ -42,6 +42,10 @@
         [
           2020,
           23.9
+        ],
+        [
+          2021,
+          12.5
         ]
       ],
       "name": "Schweiz"
@@ -88,6 +92,10 @@
         [
           2020,
           9.9
+        ],
+        [
+          2021,
+          11
         ]
       ],
       "name": "Deutschland"
@@ -134,6 +142,10 @@
         [
           2020,
           19.2
+        ],
+        [
+          2021,
+          21.6
         ]
       ],
       "name": "Italien"
@@ -180,6 +192,10 @@
         [
           2020,
           23.3
+        ],
+        [
+          2021,
+          30.6
         ]
       ],
       "name": "Türkei"
@@ -226,6 +242,10 @@
         [
           2020,
           21.1
+        ],
+        [
+          2021,
+          9.8
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -272,6 +292,10 @@
         [
           2020,
           24.5
+        ],
+        [
+          2021,
+          20.5
         ]
       ],
       "name": "Balkan"
@@ -318,6 +342,10 @@
         [
           2020,
           26.9
+        ],
+        [
+          2021,
+          28.4
         ]
       ],
       "name": "Übrige Länder"
@@ -448,7 +476,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2015",
+      "name": "Wohnanteil",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,185 +6563,187 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + ' m² </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b>%<br/>';
 					}
       },
       "data": [
         [
           1,
-          234073
+          22.78
         ],
         [
           2,
-          419021
+          26.77
         ],
         [
           3,
-          717612
+          55.77
         ],
         [
           4,
-          497145
+          82.37
         ],
         [
           5,
-          844677
+          40.42
         ],
         [
           6,
-          1034556
+          64.48
         ],
         [
           7,
-          662320
+          87.86
         ],
         [
           8,
-          906037
+          85.4
         ],
         [
           9,
-          431363
+          77.89
         ],
         [
           10,
-          893071
+          80.12
         ],
         [
           11,
-          1027520
+          44.85
         ],
         [
           12,
-          168605
+          35.01
         ],
         [
           13,
-          228425
+          53.43
         ],
         [
           14,
-          374234
+          42.3
         ],
         [
           15,
-          469136
+          68.01
         ],
         [
           16,
-          327950
+          39.12
         ],
         [
           17,
-          818470
+          79.67
         ],
         [
           18,
-          329535
+          33.7
         ],
         [
           19,
-          138015
+          23.28
         ],
         [
           20,
-          1376956
+          81.26
         ],
         [
           30,
-          98676
+          65.54
         ]
       ]
     },
     {
-      "visible": true,
+      "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           "Altstadt GB",
-          11454
+          171201
         ],
         [
           "Vorstädte",
-          13440
+          356982
         ],
         [
           "Am Ring",
-          29810
+          688618
         ],
         [
           "Breite",
-          17230
+          501367
         ],
         [
           "St. Alban",
-          103327
+          820185
         ],
         [
           "Gundeldingen",
-          70752
+          1023897
         ],
         [
           "Bruderholz",
-          25065
+          645077
         ],
         [
           "Bachletten",
-          20430
+          885688
         ],
         [
           "Gotthelf",
-          13462
+          409580
         ],
         [
           "Iselin",
-          23587
+          876226
         ],
         [
           "St. Johann",
-          98336
+          927642
         ],
         [
           "Altstadt KB",
-          2791
+          147813
         ],
         [
           "Clara",
-          9541
+          197691
         ],
         [
           "Wettstein",
-          40351
+          363815
         ],
         [
           "Hirzbrunnen",
-          17540
+          478345
         ],
         [
           "Rosental",
-          107543
+          371422
         ],
         [
           "Matthäus",
-          38339
+          768258
         ],
         [
           "Klybeck",
-          3465
+          323345
         ],
         [
           "Kleinhüningen",
-          34525
+          131108
         ],
         [
           "Riehen",
-          122343
+          1385292
         ],
         [
           "Bettingen",
-          15318
+          85458
         ]
       ],
-      "name": "Veränderung 1995 bis 2015"
+      "name": "2020"
     },
     {
       "name": "Rhein",
@@ -7196,13 +7198,13 @@
 					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
+
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#007A2F' : '#007A2F';
 	                };					
 					
 					//define chart-specific details
@@ -7210,12 +7212,13 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b> m²<br/>';
 	                            }
 	                        }
 	                    };
@@ -7225,25 +7228,60 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 500; 
-	                var maxValueInLegend = 20000; 
+	                var minValueInLegend = 15000; 
+	                var maxValueInLegend = 1500000; 
 	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
-	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);
+                	//Add manually drawn legend		
+                	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 85, '#fbfbfb');
 
-					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Bruttogeschossfläche in 1000 m²', 265, 300);
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
+	                
+					var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend),0,","," "), 
+	                	x: 355, 
+	                	y: 245, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 1, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 270,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                	                
+	                
+					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche Wohnen in m²', 265, 220, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Anteil Wohnen an der<br>Gesamtbruttogeschossfläche in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});
+					
 	            }
     },
     "renderTo": "container-5818"
@@ -7274,8 +7312,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Quadratmetern, 2015",
-    "align": "left"
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2020",
+    "align": "left",
+    "useHTML": true
   },
   "credits": {
     "enabled": true,
@@ -7290,7 +7329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-23"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
   },
   "colorAxis": {
     "min": 0,
@@ -7304,14 +7343,14 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#4b7b1f"
+    "minColor": "#FFDA80",
+    "maxColor": "#7F5F1A"
   },
   "mapNavigation": {
     "enabled": true,
@@ -7339,7 +7378,9 @@
         "fontSize": "12px"
       },
       "text": ""
-    }
+    },
+    "x": 0,
+    "y": 15
   },
   "xAxis": {
     "events": {
