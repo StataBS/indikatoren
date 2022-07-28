@@ -6569,11 +6569,11 @@
       "data": [
         [
           1,
-          31.1
+          29.4
         ],
         [
           2,
-          29.1
+          29.4
         ],
         [
           3,
@@ -6581,7 +6581,7 @@
         ],
         [
           4,
-          36.3
+          35.8
         ],
         [
           5,
@@ -6589,67 +6589,67 @@
         ],
         [
           6,
-          32.5
+          32.2
         ],
         [
           7,
-          56.4
+          56.5
         ],
         [
           8,
-          45.9
+          45.4
         ],
         [
           9,
-          34.6
+          34.4
         ],
         [
           10,
-          36.4
+          35.9
         ],
         [
           11,
-          38.7
+          38.4
         ],
         [
           12,
-          23.9
+          23.2
         ],
         [
           13,
-          33
+          30.7
         ],
         [
           14,
-          35.5
+          34.4
         ],
         [
           15,
-          51.8
+          51.5
         ],
         [
           16,
-          40.1
+          39.7
         ],
         [
           17,
-          33.4
+          32.6
         ],
         [
           18,
-          40.6
+          40
         ],
         [
           19,
-          49
+          47.3
         ],
         [
           20,
-          56.6
+          56.5
         ],
         [
           30,
-          62.1
+          62.4
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          -0.22
+          -1.83
         ],
         [
           "Vorstädte",
-          1.68
+          1.97
         ],
         [
           "Am Ring",
-          1.1
+          1.15
         ],
         [
           "Breite",
-          -1.86
+          -2.42
         ],
         [
           "St. Alban",
-          0.27
+          0.33
         ],
         [
           "Gundeldingen",
-          -2.29
+          -2.63
         ],
         [
           "Bruderholz",
-          1.36
+          1.47
         ],
         [
           "Bachletten",
-          0.51
+          0
         ],
         [
           "Gotthelf",
-          -0.9
+          -1.07
         ],
         [
           "Iselin",
-          -1.26
+          -1.75
         ],
         [
           "St. Johann",
-          -1.14
+          -1.42
         ],
         [
           "Altstadt Kleinbasel",
-          -1.23
+          -1.91
         ],
         [
           "Clara",
-          -1.43
+          -3.76
         ],
         [
           "Wettstein",
-          -0.88
+          -1.99
         ],
         [
           "Hirzbrunnen",
-          0.59
+          0.27
         ],
         [
           "Rosental",
-          -1.97
+          -2.37
         ],
         [
           "Matthäus",
-          -4.08
+          -4.86
         ],
         [
           "Klybeck",
-          -3.23
+          -3.79
         ],
         [
           "Kleinhüningen",
-          0.03
+          -1.76
         ],
         [
           "Riehen",
-          -1.62
+          -1.68
         ],
         [
           "Bettingen",
-          -1.11
+          -0.79
         ]
       ],
-      "name": "Differenz 2020 zu 2011 (pp)"
+      "name": "Differenz 2021 zu 2011 (pp)"
     },
     {
       "name": "Rhein",
@@ -7323,7 +7323,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2021",
     "align": "left"
   },
   "credits": {
@@ -7339,7 +7339,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "colorAxis": {
     "min": 0,

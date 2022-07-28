@@ -5,14 +5,6 @@
       "index": 1,
       "data": [
         [
-          2010,
-          6955
-        ],
-        [
-          2011,
-          7075
-        ],
-        [
           2012,
           7197
         ],
@@ -47,6 +39,10 @@
         [
           2020,
           6615
+        ],
+        [
+          2021,
+          6770
         ]
       ],
       "name": "EL zur IV"
@@ -55,14 +51,6 @@
       "color": "#FFDA80",
       "index": 2,
       "data": [
-        [
-          2010,
-          5167
-        ],
-        [
-          2011,
-          5323
-        ],
         [
           2012,
           5351
@@ -98,6 +86,10 @@
         [
           2020,
           5051
+        ],
+        [
+          2021,
+          4029
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -106,14 +98,6 @@
       "color": "#923F8D",
       "index": 3,
       "data": [
-        [
-          2010,
-          6684
-        ],
-        [
-          2011,
-          6675
-        ],
         [
           2012,
           6960
@@ -149,6 +133,10 @@
         [
           2020,
           8488
+        ],
+        [
+          2021,
+          8722
         ]
       ],
       "name": "EL zur AHV"
@@ -157,14 +145,6 @@
       "color": "#CD9C00",
       "index": 4,
       "data": [
-        [
-          2010,
-          4389
-        ],
-        [
-          2011,
-          4567
-        ],
         [
           2012,
           4706
@@ -200,6 +180,10 @@
         [
           2020,
           6205
+        ],
+        [
+          2021,
+          5290
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -283,7 +267,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -331,7 +315,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-14"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

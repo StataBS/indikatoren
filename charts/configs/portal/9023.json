@@ -4911,23 +4911,23 @@
         ],
         [
           22,
-          -1
-        ],
-        [
-          23,
-          1
-        ],
-        [
-          24,
-          2
-        ],
-        [
-          25,
           0
         ],
         [
+          23,
+          2
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          25,
+          2
+        ],
+        [
           26,
-          null
+          2
         ],
         [
           27,
@@ -5131,7 +5131,7 @@
         ],
         [
           22,
-          -3
+          -2
         ],
         [
           23,
@@ -5143,11 +5143,11 @@
         ],
         [
           25,
-          -2
+          -1
         ],
         [
           26,
-          null
+          0
         ],
         [
           27,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

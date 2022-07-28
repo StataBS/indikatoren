@@ -10,6 +10,14 @@
         [
           "2017",
           185.15
+        ],
+        [
+          "2019",
+          191.66
+        ],
+        [
+          "2021",
+          183.05
         ]
       ],
       "name": "Plätze \u002F 1000 Kinder (0-3 Jahre)",
@@ -144,7 +152,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EErziehungsdepartement, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EErziehungsdepartement, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "exporting": {
     "filename": "4374"

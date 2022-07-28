@@ -78,42 +78,40 @@ var indikatorensetData = [
 		"id": 7603
 	},
 	{
+		"template": "line001",
+		"data-id": 9289,
+		"chart-id": 9289,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-03",
-		"description": "Sozialhilfequote nach Gemeinde",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2021 liegt sie bei 5,9%. Die Stadt Basel weist 2020 eine Quote von 6,3% aus. In Riehen liegt sie bei 3,1% und in Bettingen bei 1,1%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:21.2121",
+		"description": "Sozialhilfequote nach Gemeinde",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-03",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2020 liegt sie bei 6,3%. Die Stadt Basel weist 2020 eine Quote von 6,7% aus. In Riehen liegt sie bei 3,3% und in Bettingen bei 1,5%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9289,
-		"chart-id": 9289,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:43",
 		"id": 9289
 	},
 	{
@@ -156,42 +154,40 @@ var indikatorensetData = [
 		"id": 9290
 	},
 	{
+		"template": "template001",
+		"data-id": 9291,
+		"chart-id": 9291,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Tagesbetreuung - Anzahl subventionierte Kinder",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "I.13.2.09291",
-		"kuerzelKunde": "1-08",
-		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Nach erstmaligem Rückgang seit 2012 im Jahr 2020 nimmt die Anzahl betreuter Kinder mit Subventionen in Tagesheimen 2021 wieder zu. Am Ende des Stichmonats werden 2021 insgesamt 3 699 Kinder gezählt (2020: 3 597). In Tagesfamilien sind es insgesamt 208 Kinder.",
+		"erlaeuterungen": "Die Anzahl subventionierter Kinder wird per 31. Oktober ausgewiesen. Eltern von noch nicht schulpflichtigen Kindern erhielten bis Ende 2015 Betreuungsbeiträge, wenn sie ihre Berufstätigkeit vorübergehend zugunsten der Betreuung ihrer Kinder reduziert hatten und auf eine finanzielle Unterstützung angewiesen waren.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:24.2424",
+		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09291",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-08",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl betreuter Kinder mit Subventionen in Tagesheimen nimmt 2020 gegenüber dem Vorjahr erstmals seit 2011 ab. 2020 werden am Ende des Stichmonats 3 597 Kinder gezählt (2019: 3 644). In Tagesfamilien sind es insgesamt 203 Kinder.",
-		"erlaeuterungen": "Die Anzahl subventionierter Kinder wird per 31. Oktober ausgewiesen. Eltern von noch nicht schulpflichtigen Kindern erhielten bis Ende 2015 Betreuungsbeiträge, wenn sie ihre Berufstätigkeit vorübergehend zugunsten der Betreuung ihrer Kinder reduziert hatten und auf eine finanzielle Unterstützung angewiesen waren.",
+		"orderKey": "01_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_008",
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9291,
-		"chart-id": 9291,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:45",
 		"id": 9291
 	},
 	{
@@ -270,42 +266,40 @@ var indikatorensetData = [
 		"id": 9295
 	},
 	{
-		"parentId": 8250,
-		"children": [],
 		"template": "line001",
+		"data-id": 9298,
+		"chart-id": 9298,
+		"filter": "",
+		"parentId": "8250",
+		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-05",
-		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
+		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV nimmt mit Ausnahme des Jahres 2020 kontinuierlich zu, Der Bezug von Beihilfen zur AHV nimmt erstmals ab. 2021 liegt die Anzahl Personen mit EL zur AHV bei 8 722. EL zur IV werden von 6 770 Personen in Anspruch genommen. Beihilfen werden an 5 290 (AHV) respektive 4 029 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:22.2222",
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.09298",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-05",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV geht nach kontinuierlichem Anstieg seit 2010 erstmals zurück, während jener der Beihilfen zu AHV weiter steigt. 2020 liegt die Anzahl Personen mit EL zur AHV bei 8 488. EL zur IV werden von 6 615 Personen in Anspruch genommen. Beihilfen werden an  6 205 (AHV) respektive 5 051 (IV) Personen ausbezahlt.",
-		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_005",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9298,
-		"chart-id": 9298,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:45",
 		"id": 9298
 	}
 ];

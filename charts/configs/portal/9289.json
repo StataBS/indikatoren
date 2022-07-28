@@ -46,6 +46,10 @@
         [
           2020,
           6.7
+        ],
+        [
+          2021,
+          6.3
         ]
       ],
       "name": "Basel"
@@ -96,6 +100,10 @@
         [
           2020,
           3.3
+        ],
+        [
+          2021,
+          3.1
         ]
       ],
       "name": "Riehen"
@@ -146,6 +154,10 @@
         [
           2020,
           1.5
+        ],
+        [
+          2021,
+          1.1
         ]
       ],
       "name": "Bettingen"
@@ -196,6 +208,10 @@
         [
           2020,
           6.3
+        ],
+        [
+          2021,
+          5.9
         ]
       ],
       "name": "Kanton Basel-Stadt"
@@ -325,7 +341,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
