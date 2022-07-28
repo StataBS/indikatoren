@@ -38,6 +38,10 @@
         [
           2020,
           1.29
+        ],
+        [
+          2021,
+          1.23
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2020,
           4.11
+        ],
+        [
+          2021,
+          3.83
         ]
       ],
       "name": "Gemischte Haushalte"
@@ -122,6 +130,10 @@
         [
           2020,
           3.62
+        ],
+        [
+          2021,
+          3.72
         ]
       ],
       "name": "Ausland"
@@ -164,6 +176,10 @@
         [
           2020,
           2.29
+        ],
+        [
+          2021,
+          2.26
         ]
       ],
       "name": "Total"
@@ -246,7 +262,8 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -293,7 +310,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

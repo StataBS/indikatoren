@@ -6876,8 +6876,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
 		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren in der Stadt Basel",
-		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel ist gegenüber 2015 gestiegen. 2017 lag sie bei 185,15 pro 1000 Kindern im Vorschulalter.",
-		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht-institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel liegt 2021 bei 183,05 pro 1000 Kinder im Vorschulalter. 2019 erreichte die Anzahl Plätze pro 1000 Kinder mit 191,66 den höchsten Wert im beobachteten Zeitraum.",
+		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0 bis 3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht-institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
 			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
@@ -6905,7 +6905,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-22T07:25:10",
+		"aktualisierungsdatum": "2022-07-28T08:49:41",
 		"id": 4374
 	},
 	{
@@ -25622,46 +25622,44 @@ var indikatoren = [
 		"id": 6482
 	},
 	{
+		"template": "template001",
+		"data-id": 6483,
+		"chart-id": 6483,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6724
+		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
-		"kuerzel": "I.19.1.6483",
-		"kuerzelKunde": "D4-2",
-		"description": "Beschuldigte Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T15:31:47.4747",
+		"description": "Beschuldigte Erwachsene",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.6483",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D4-2",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1 000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_402",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_402",
-		"parentId": null,
-		"children": [
-			"6724"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6483,
-		"chart-id": 6483,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:47",
 		"id": 6483
 	},
 	{
@@ -44077,7 +44075,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "3,5% der Haushalte im Wohnviertel Rosental erhalten Ende 2020 Familienmietzinsbeiträge (Kanton: 2,3%). In 19,5% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 16,8%).",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2021 Familienmietzinsbeiträge (Kanton: 2,3%). In 20,2% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 17,0%).",
 		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -44104,7 +44102,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:28",
+		"aktualisierungsdatum": "2022-07-28T08:49:47",
 		"id": 7698
 	},
 	{
@@ -52100,8 +52098,8 @@ var indikatoren = [
 		"parentId": "6392",
 		"children": [],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,3% auf. In Bettingen (1,5%) und im Wohnviertel Bruderholz (1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,6% respektive 11,5% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist Bettingen mit 1,1% auf. Auf dem Bruderholz liegt sie mit 1,6% ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,8% respektive 11,7% die Wohnviertel mit der höchsten Sozialhilfequote.",
 		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -52127,7 +52125,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:37",
+		"aktualisierungsdatum": "2022-07-28T08:49:44",
 		"id": 8241
 	},
 	{
@@ -52465,46 +52463,44 @@ var indikatoren = [
 		"id": 8249
 	},
 	{
+		"template": "line001",
+		"data-id": 8250,
+		"chart-id": 8250,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8521",
-			"9298"
+			8521,
+			9298
 		],
-		"template": "line001",
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-05",
-		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
+		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV nimmt mit Ausnahme des Jahres 2020 kontinuierlich zu, Der Bezug von Beihilfen zur AHV nimmt erstmals ab. 2021 liegt die Anzahl Personen mit EL zur AHV bei 8 722. EL zur IV werden von 6 770 Personen in Anspruch genommen. Beihilfen werden an 5 290 (AHV) respektive 4 029 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-14T09:24:02.022",
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-05",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV geht nach kontinuierlichem Anstieg seit 2010 erstmals zurück, während jener der Beihilfen zu AHV weiter steigt. 2020 liegt die Anzahl Personen mit EL zur AHV bei 8 488. EL zur IV werden von 6 615 Personen in Anspruch genommen. Beihilfen werden an  6 205 (AHV) respektive 5 051 (IV) Personen ausbezahlt.",
-		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"orderKey": "01_01_00_00_00_105",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_105",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8250,
-		"chart-id": 8250,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:44",
 		"id": 8250
 	},
 	{
@@ -53496,45 +53492,43 @@ var indikatoren = [
 		"id": 8276
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8277,
+		"chart-id": 8277,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8548"
+			8548
 		],
-		"template": "mappie001",
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.2.08277",
-		"kuerzelKunde": "2-02",
-		"description": "Anteil Familienhaushalte",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2021 mit 62% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:18.1818",
+		"description": "Anteil Familienhaushalte",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.08277",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-02",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2020 mit 62% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (24%).",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
+		"orderKey": "01_05_00_00_00_202",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_05_00_00_00_202",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8277,
-		"chart-id": 8277,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:46",
 		"id": 8277
 	},
 	{
@@ -53620,45 +53614,43 @@ var indikatoren = [
 		"id": 8279
 	},
 	{
+		"template": "line001",
+		"data-id": 8280,
+		"chart-id": 8280,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8551"
+			8551
 		],
-		"template": "line001",
 		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-06",
-		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Die Zahl der 5- bis 12-Jährigen hat zwischen 2012 und 2021 zugenommen, ebenso diejenige der 13- bis 17-Jährigen. Die Zahl der 18- bis 24-Jährigen ist gesunken.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:06.066",
+		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-06",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2011 und 2020 um 19,7% zugenommen, die Zahl der 13- bis 17-Jährigen um 0,6%. Die Zahl der 18- bis 25-Jährigen ist hingegen um 7,7% zurückgegangen.",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_206",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_206",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8280,
-		"chart-id": 8280,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:47",
 		"id": 8280
 	},
 	{
@@ -55151,43 +55143,43 @@ var indikatoren = [
 		"id": 8337
 	},
 	{
-		"parentId": 6203,
-		"children": [],
 		"template": "mappie001",
+		"data-id": 8338,
+		"chart-id": 8338,
+		"filter": "",
+		"parentId": "6203",
+		"children": [],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.13.2.08338",
-		"kuerzelKunde": "1-16",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Ende 2021 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2016 lag die FAMI-Quote bei 2,2%. Kleinhüningen weist mit 4,5% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2016 ist in Riehen sowie den Wohnvierteln Hirzbrunnen und Iselin mit je +0,5 Prozentpunkten zu beobachten.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=13_fami.fami_quote_f' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-05T08:34:12.1212",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.08338",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-16",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2020 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2015 lag die FAMI-Quote noch bei 2,0%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2015 ist in Bettingen sowie im Wohnviertel Hirzbrunnen mit je +0,8 Prozentpunkten zu beobachten.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"orderKey": "01_02_00_00_00_116",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_02_00_00_00_116",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=13_fami.fami_quote_f' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 8338,
-		"chart-id": 8338,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:45",
 		"id": 8338
 	},
 	{
@@ -55199,8 +55191,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach kontinuierlichem Anstieg stagniert die Familienmietzinsbeitragsquote seit 2017 bei 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2020 eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst seit dem Jahr 2012 zur Verfügung.",
+		"lesehilfe": "Nach kontinuierlichem Anstieg stagniert die Familienmietzinsbeitragsquote seit 2017 bei 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2021 eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,2% liegt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst seit dem Jahr 2012 zur Verfügung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -55225,7 +55217,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:38",
+		"aktualisierungsdatum": "2022-07-28T08:49:46",
 		"id": 8339
 	},
 	{
@@ -71399,7 +71391,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-21T08:37:11",
+		"aktualisierungsdatum": "2022-07-28T08:49:42",
 		"id": 8995
 	},
 	{
@@ -71771,7 +71763,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-21T08:37:12",
+		"aktualisierungsdatum": "2022-07-28T08:49:42",
 		"id": 9022
 	},
 	{
@@ -71809,7 +71801,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-21T08:37:13",
+		"aktualisierungsdatum": "2022-07-28T08:49:43",
 		"id": 9023
 	},
 	{
@@ -75978,43 +75970,41 @@ var indikatoren = [
 		"id": 9287
 	},
 	{
+		"template": "line001",
+		"data-id": 9289,
+		"chart-id": 9289,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-03",
-		"description": "Sozialhilfequote nach Gemeinde",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2021 liegt sie bei 5,9%. Die Stadt Basel weist 2020 eine Quote von 6,3% aus. In Riehen liegt sie bei 3,1% und in Bettingen bei 1,1%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:21.2121",
+		"description": "Sozialhilfequote nach Gemeinde",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-03",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2020 liegt sie bei 6,3%. Die Stadt Basel weist 2020 eine Quote von 6,7% aus. In Riehen liegt sie bei 3,3% und in Bettingen bei 1,5%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9289,
-		"chart-id": 9289,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:43",
 		"id": 9289
 	},
 	{
@@ -76058,43 +76048,41 @@ var indikatoren = [
 		"id": 9290
 	},
 	{
+		"template": "template001",
+		"data-id": 9291,
+		"chart-id": 9291,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Tagesbetreuung - Anzahl subventionierte Kinder",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "I.13.2.09291",
-		"kuerzelKunde": "1-08",
-		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Nach erstmaligem Rückgang seit 2012 im Jahr 2020 nimmt die Anzahl betreuter Kinder mit Subventionen in Tagesheimen 2021 wieder zu. Am Ende des Stichmonats werden 2021 insgesamt 3 699 Kinder gezählt (2020: 3 597). In Tagesfamilien sind es insgesamt 208 Kinder.",
+		"erlaeuterungen": "Die Anzahl subventionierter Kinder wird per 31. Oktober ausgewiesen. Eltern von noch nicht schulpflichtigen Kindern erhielten bis Ende 2015 Betreuungsbeiträge, wenn sie ihre Berufstätigkeit vorübergehend zugunsten der Betreuung ihrer Kinder reduziert hatten und auf eine finanzielle Unterstützung angewiesen waren.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:24.2424",
+		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09291",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-08",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl betreuter Kinder mit Subventionen in Tagesheimen nimmt 2020 gegenüber dem Vorjahr erstmals seit 2011 ab. 2020 werden am Ende des Stichmonats 3 597 Kinder gezählt (2019: 3 644). In Tagesfamilien sind es insgesamt 203 Kinder.",
-		"erlaeuterungen": "Die Anzahl subventionierter Kinder wird per 31. Oktober ausgewiesen. Eltern von noch nicht schulpflichtigen Kindern erhielten bis Ende 2015 Betreuungsbeiträge, wenn sie ihre Berufstätigkeit vorübergehend zugunsten der Betreuung ihrer Kinder reduziert hatten und auf eine finanzielle Unterstützung angewiesen waren.",
+		"orderKey": "01_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_008",
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9291,
-		"chart-id": 9291,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:45",
 		"id": 9291
 	},
 	{
@@ -76253,43 +76241,41 @@ var indikatoren = [
 		"id": 9295
 	},
 	{
-		"parentId": 8250,
-		"children": [],
 		"template": "line001",
+		"data-id": 9298,
+		"chart-id": 9298,
+		"filter": "",
+		"parentId": "8250",
+		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-05",
-		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
+		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV nimmt mit Ausnahme des Jahres 2020 kontinuierlich zu, Der Bezug von Beihilfen zur AHV nimmt erstmals ab. 2021 liegt die Anzahl Personen mit EL zur AHV bei 8 722. EL zur IV werden von 6 770 Personen in Anspruch genommen. Beihilfen werden an 5 290 (AHV) respektive 4 029 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:22.2222",
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.09298",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "1-05",
 		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV geht nach kontinuierlichem Anstieg seit 2010 erstmals zurück, während jener der Beihilfen zu AHV weiter steigt. 2020 liegt die Anzahl Personen mit EL zur AHV bei 8 488. EL zur IV werden von 6 615 Personen in Anspruch genommen. Beihilfen werden an  6 205 (AHV) respektive 5 051 (IV) Personen ausbezahlt.",
-		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_005",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9298,
-		"chart-id": 9298,
-		"filter": "",
+		"aktualisierungsdatum": "2022-07-28T08:49:45",
 		"id": 9298
 	},
 	{

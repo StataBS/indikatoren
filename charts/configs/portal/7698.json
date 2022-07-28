@@ -42,6 +42,10 @@
         [
           2020,
           3.5403203147
+        ],
+        [
+          2021,
+          3.3006993007
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -89,6 +93,10 @@
         [
           2020,
           19.499859511
+        ],
+        [
+          2021,
+          20.223776224
         ]
       ],
       "name": "Prämienverbilligung"
@@ -218,7 +226,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

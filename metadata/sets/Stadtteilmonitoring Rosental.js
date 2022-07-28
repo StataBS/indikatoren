@@ -1361,7 +1361,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "3,5% der Haushalte im Wohnviertel Rosental erhalten Ende 2020 Familienmietzinsbeiträge (Kanton: 2,3%). In 19,5% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 16,8%).",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2021 Familienmietzinsbeiträge (Kanton: 2,3%). In 20,2% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 17,0%).",
 		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1387,7 +1387,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:28",
+		"aktualisierungsdatum": "2022-07-28T08:49:47",
 		"id": 7698
 	},
 	{
