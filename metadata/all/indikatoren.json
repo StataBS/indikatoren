@@ -2834,8 +2834,8 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:32",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-29T08:48:44",
 		"id": 4221
 	},
 	{
@@ -2876,7 +2876,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:32",
+		"aktualisierungsdatum": "2022-07-29T08:48:40",
 		"id": 4222
 	},
 	{
@@ -2917,7 +2917,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:32",
+		"aktualisierungsdatum": "2022-07-29T08:48:46",
 		"id": 4223
 	},
 	{
@@ -2958,7 +2958,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:33",
+		"aktualisierungsdatum": "2022-07-29T08:48:49",
 		"id": 4224
 	},
 	{
@@ -2999,7 +2999,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:33",
+		"aktualisierungsdatum": "2022-07-29T08:48:51",
 		"id": 4225
 	},
 	{
@@ -3041,7 +3041,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:33",
+		"aktualisierungsdatum": "2022-07-29T08:48:58",
 		"id": 4226
 	},
 	{
@@ -3082,7 +3082,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:34",
+		"aktualisierungsdatum": "2022-07-29T08:49:00",
 		"id": 4227
 	},
 	{
@@ -3120,7 +3120,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:34",
+		"aktualisierungsdatum": "2022-07-29T08:49:02",
 		"id": 4228
 	},
 	{
@@ -3161,7 +3161,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:34",
+		"aktualisierungsdatum": "2022-07-29T08:49:04",
 		"id": 4229
 	},
 	{
@@ -3202,7 +3202,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:35",
+		"aktualisierungsdatum": "2022-07-29T08:48:42",
 		"id": 4230
 	},
 	{
@@ -3243,7 +3243,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:35",
+		"aktualisierungsdatum": "2022-07-29T08:50:48",
 		"id": 4231
 	},
 	{
@@ -3285,7 +3285,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:36",
+		"aktualisierungsdatum": "2022-07-29T08:50:46",
 		"id": 4232
 	},
 	{
@@ -3325,7 +3325,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:36",
+		"aktualisierungsdatum": "2022-07-29T08:50:51",
 		"id": 4233
 	},
 	{
@@ -3365,7 +3365,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:36",
+		"aktualisierungsdatum": "2022-07-29T08:50:53",
 		"id": 4234
 	},
 	{
@@ -3406,7 +3406,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:37",
+		"aktualisierungsdatum": "2022-07-29T08:50:55",
 		"id": 4236
 	},
 	{
@@ -3447,7 +3447,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:37",
+		"aktualisierungsdatum": "2022-07-29T08:51:03",
 		"id": 4237
 	},
 	{
@@ -3485,7 +3485,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:37",
+		"aktualisierungsdatum": "2022-07-29T08:51:05",
 		"id": 4238
 	},
 	{
@@ -3527,7 +3527,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:38",
+		"aktualisierungsdatum": "2022-07-29T08:51:00",
 		"id": 4240
 	},
 	{
@@ -3569,7 +3569,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:38",
+		"aktualisierungsdatum": "2022-07-29T08:51:15",
 		"id": 4241
 	},
 	{
@@ -3611,7 +3611,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:38",
+		"aktualisierungsdatum": "2022-07-29T08:51:10",
 		"id": 4243
 	},
 	{
@@ -3651,7 +3651,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:39",
+		"aktualisierungsdatum": "2022-07-29T08:51:07",
 		"id": 4244
 	},
 	{
@@ -3692,7 +3692,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:39",
+		"aktualisierungsdatum": "2022-07-29T08:51:12",
 		"id": 4245
 	},
 	{
@@ -3733,7 +3733,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:40",
+		"aktualisierungsdatum": "2022-07-29T08:50:18",
 		"id": 4246
 	},
 	{
@@ -3815,7 +3815,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:40",
+		"aktualisierungsdatum": "2022-07-29T08:48:33",
 		"id": 4249
 	},
 	{
@@ -3856,7 +3856,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:40",
+		"aktualisierungsdatum": "2022-07-29T08:48:35",
 		"id": 4250
 	},
 	{
@@ -3897,7 +3897,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:41",
+		"aktualisierungsdatum": "2022-07-29T08:48:31",
 		"id": 4252
 	},
 	{
@@ -3939,7 +3939,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:41",
+		"aktualisierungsdatum": "2022-07-29T08:48:27",
 		"id": 4253
 	},
 	{
@@ -3980,7 +3980,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:41",
+		"aktualisierungsdatum": "2022-07-29T08:48:29",
 		"id": 4254
 	},
 	{
@@ -4022,7 +4022,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:42",
+		"aktualisierungsdatum": "2022-07-29T08:48:25",
 		"id": 4255
 	},
 	{
@@ -4063,7 +4063,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:42",
+		"aktualisierungsdatum": "2022-07-29T08:48:04",
 		"id": 4257
 	},
 	{
@@ -4104,7 +4104,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:43",
+		"aktualisierungsdatum": "2022-07-29T08:48:00",
 		"id": 4258
 	},
 	{
@@ -4145,7 +4145,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:43",
+		"aktualisierungsdatum": "2022-07-29T08:48:02",
 		"id": 4259
 	},
 	{
@@ -4186,7 +4186,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:43",
+		"aktualisierungsdatum": "2022-07-29T08:47:57",
 		"id": 4260
 	},
 	{
@@ -4227,7 +4227,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:44",
+		"aktualisierungsdatum": "2022-07-29T08:48:07",
 		"id": 4261
 	},
 	{
@@ -4268,7 +4268,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:44",
+		"aktualisierungsdatum": "2022-07-29T08:48:22",
 		"id": 4262
 	},
 	{
@@ -4310,7 +4310,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:45",
+		"aktualisierungsdatum": "2022-07-29T08:48:18",
 		"id": 4263
 	},
 	{
@@ -4393,7 +4393,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:45",
+		"aktualisierungsdatum": "2022-07-29T08:48:20",
 		"id": 4265
 	},
 	{
@@ -4434,7 +4434,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:45",
+		"aktualisierungsdatum": "2022-07-29T08:49:41",
 		"id": 4266
 	},
 	{
@@ -4475,7 +4475,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:46",
+		"aktualisierungsdatum": "2022-07-29T08:49:37",
 		"id": 4267
 	},
 	{
@@ -4516,7 +4516,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:46",
+		"aktualisierungsdatum": "2022-07-29T08:49:39",
 		"id": 4268
 	},
 	{
@@ -4558,7 +4558,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:46",
+		"aktualisierungsdatum": "2022-07-29T08:49:34",
 		"id": 4269
 	},
 	{
@@ -4599,7 +4599,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:47",
+		"aktualisierungsdatum": "2022-07-29T08:49:43",
 		"id": 4270
 	},
 	{
@@ -4641,7 +4641,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:47",
+		"aktualisierungsdatum": "2022-07-29T08:49:45",
 		"id": 4272
 	},
 	{
@@ -4683,7 +4683,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:47",
+		"aktualisierungsdatum": "2022-07-29T08:49:48",
 		"id": 4273
 	},
 	{
@@ -4725,7 +4725,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:48",
+		"aktualisierungsdatum": "2022-07-29T08:49:50",
 		"id": 4274
 	},
 	{
@@ -4766,7 +4766,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:48",
+		"aktualisierungsdatum": "2022-07-29T08:49:52",
 		"id": 4275
 	},
 	{
@@ -4808,7 +4808,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:49",
+		"aktualisierungsdatum": "2022-07-29T08:49:54",
 		"id": 4276
 	},
 	{
@@ -4849,7 +4849,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:49",
+		"aktualisierungsdatum": "2022-07-29T08:49:59",
 		"id": 4277
 	},
 	{
@@ -4891,7 +4891,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:49",
+		"aktualisierungsdatum": "2022-07-29T08:50:01",
 		"id": 4278
 	},
 	{
@@ -4933,7 +4933,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:50",
+		"aktualisierungsdatum": "2022-07-29T08:50:04",
 		"id": 4279
 	},
 	{
@@ -4975,7 +4975,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:50",
+		"aktualisierungsdatum": "2022-07-29T08:49:57",
 		"id": 4280
 	},
 	{
@@ -5017,7 +5017,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:50",
+		"aktualisierungsdatum": "2022-07-29T08:50:06",
 		"id": 4281
 	},
 	{
@@ -5055,7 +5055,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:51",
+		"aktualisierungsdatum": "2022-07-29T08:50:32",
 		"id": 4283
 	},
 	{
@@ -5096,7 +5096,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:51",
+		"aktualisierungsdatum": "2022-07-29T08:50:34",
 		"id": 4284
 	},
 	{
@@ -5137,7 +5137,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:51",
+		"aktualisierungsdatum": "2022-07-29T08:50:27",
 		"id": 4285
 	},
 	{
@@ -5178,7 +5178,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:52",
+		"aktualisierungsdatum": "2022-07-29T08:50:29",
 		"id": 4287
 	},
 	{
@@ -5219,7 +5219,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:52",
+		"aktualisierungsdatum": "2022-07-29T08:50:39",
 		"id": 4288
 	},
 	{
@@ -5260,7 +5260,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:53",
+		"aktualisierungsdatum": "2022-07-29T08:50:44",
 		"id": 4290
 	},
 	{
@@ -5298,7 +5298,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:53",
+		"aktualisierungsdatum": "2022-07-29T08:50:41",
 		"id": 4291
 	},
 	{
@@ -5339,7 +5339,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:53",
+		"aktualisierungsdatum": "2022-07-29T08:50:10",
 		"id": 4292
 	},
 	{
@@ -5380,7 +5380,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:54",
+		"aktualisierungsdatum": "2022-07-29T08:50:13",
 		"id": 4293
 	},
 	{
@@ -5421,7 +5421,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:54",
+		"aktualisierungsdatum": "2022-07-29T08:50:15",
 		"id": 4294
 	},
 	{
@@ -5462,7 +5462,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:54",
+		"aktualisierungsdatum": "2022-07-29T08:49:21",
 		"id": 4298
 	},
 	{
@@ -5504,7 +5504,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:55",
+		"aktualisierungsdatum": "2022-07-29T08:49:25",
 		"id": 4299
 	},
 	{
@@ -5545,7 +5545,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:55",
+		"aktualisierungsdatum": "2022-07-29T08:49:17",
 		"id": 4300
 	},
 	{
@@ -5587,7 +5587,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:56",
+		"aktualisierungsdatum": "2022-07-29T08:49:19",
 		"id": 4301
 	},
 	{
@@ -5629,7 +5629,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:56",
+		"aktualisierungsdatum": "2022-07-29T08:49:23",
 		"id": 4302
 	},
 	{
@@ -5671,7 +5671,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:56",
+		"aktualisierungsdatum": "2022-07-29T08:50:58",
 		"id": 4303
 	},
 	{
@@ -5712,7 +5712,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:57",
+		"aktualisierungsdatum": "2022-07-29T08:48:09",
 		"id": 4305
 	},
 	{
@@ -5754,7 +5754,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:57",
+		"aktualisierungsdatum": "2022-07-29T08:48:11",
 		"id": 4306
 	},
 	{
@@ -5794,7 +5794,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:57",
+		"aktualisierungsdatum": "2022-07-29T08:48:16",
 		"id": 4307
 	},
 	{
@@ -5836,7 +5836,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:58",
+		"aktualisierungsdatum": "2022-07-29T08:48:14",
 		"id": 4308
 	},
 	{
@@ -5877,7 +5877,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:58",
+		"aktualisierungsdatum": "2022-07-29T08:49:30",
 		"id": 4309
 	},
 	{
@@ -5918,7 +5918,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:59",
+		"aktualisierungsdatum": "2022-07-29T08:49:32",
 		"id": 4310
 	},
 	{
@@ -5959,7 +5959,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:59",
+		"aktualisierungsdatum": "2022-07-29T08:49:27",
 		"id": 4312
 	},
 	{
@@ -6001,7 +6001,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:28:59",
+		"aktualisierungsdatum": "2022-07-29T08:49:08",
 		"id": 4314
 	},
 	{
@@ -6041,7 +6041,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:00",
+		"aktualisierungsdatum": "2022-07-29T08:49:12",
 		"id": 4315
 	},
 	{
@@ -6083,7 +6083,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:00",
+		"aktualisierungsdatum": "2022-07-29T08:49:14",
 		"id": 4316
 	},
 	{
@@ -6124,7 +6124,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:00",
+		"aktualisierungsdatum": "2022-07-29T08:51:19",
 		"id": 4318
 	},
 	{
@@ -6165,7 +6165,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:01",
+		"aktualisierungsdatum": "2022-07-29T08:51:26",
 		"id": 4319
 	},
 	{
@@ -6207,7 +6207,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:01",
+		"aktualisierungsdatum": "2022-07-29T08:51:22",
 		"id": 4320
 	},
 	{
@@ -6248,7 +6248,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:02",
+		"aktualisierungsdatum": "2022-07-29T08:48:55",
 		"id": 4321
 	},
 	{
@@ -6289,7 +6289,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:02",
+		"aktualisierungsdatum": "2022-07-29T08:49:06",
 		"id": 4322
 	},
 	{
@@ -6330,7 +6330,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:02",
+		"aktualisierungsdatum": "2022-07-29T08:51:17",
 		"id": 4323
 	},
 	{
@@ -6371,7 +6371,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:03",
+		"aktualisierungsdatum": "2022-07-29T08:51:24",
 		"id": 4325
 	},
 	{
@@ -6412,7 +6412,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:03",
+		"aktualisierungsdatum": "2022-07-29T08:49:10",
 		"id": 4329
 	},
 	{
@@ -6452,7 +6452,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:03",
+		"aktualisierungsdatum": "2022-07-29T08:47:48",
 		"id": 4330
 	},
 	{
@@ -6494,7 +6494,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:04",
+		"aktualisierungsdatum": "2022-07-29T08:47:40",
 		"id": 4331
 	},
 	{
@@ -6536,7 +6536,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:04",
+		"aktualisierungsdatum": "2022-07-29T08:47:53",
 		"id": 4332
 	},
 	{
@@ -6578,7 +6578,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:04",
+		"aktualisierungsdatum": "2022-07-29T08:47:55",
 		"id": 4333
 	},
 	{
@@ -6620,7 +6620,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:05",
+		"aktualisierungsdatum": "2022-07-29T08:47:44",
 		"id": 4334
 	},
 	{
@@ -6658,7 +6658,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:05",
+		"aktualisierungsdatum": "2022-07-29T08:47:50",
 		"id": 4335
 	},
 	{
@@ -6699,7 +6699,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:06",
+		"aktualisierungsdatum": "2022-07-29T08:47:46",
 		"id": 4336
 	},
 	{
@@ -6741,7 +6741,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:06",
+		"aktualisierungsdatum": "2022-07-29T08:47:37",
 		"id": 4337
 	},
 	{
@@ -6782,7 +6782,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:06",
+		"aktualisierungsdatum": "2022-07-29T08:47:42",
 		"id": 4338
 	},
 	{
@@ -11407,7 +11407,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:07",
+		"aktualisierungsdatum": "2022-07-29T08:50:24",
 		"id": 5797
 	},
 	{
@@ -11449,7 +11449,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:07",
+		"aktualisierungsdatum": "2022-07-29T08:50:20",
 		"id": 5798
 	},
 	{
@@ -11491,7 +11491,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:07",
+		"aktualisierungsdatum": "2022-07-29T08:48:37",
 		"id": 5799
 	},
 	{
@@ -11533,7 +11533,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:08",
+		"aktualisierungsdatum": "2022-07-29T08:50:22",
 		"id": 5800
 	},
 	{
@@ -80729,17 +80729,17 @@
 		"kuerzel": "I.02.5.09507",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1112",
-		"stufe1": "",
+		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "11_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-06-24T04:29:12",
+		"aktualisierungsdatum": "2022-07-29T08:50:08",
 		"id": 9507
 	},
 	{

@@ -67,7 +67,9 @@ npm run build
 ```
 - run local-server, [check everything](http://127.0.0.1:8084/?Indikatorenset=Umwelt)
 - add, commit, push
-- merge branch back to master (ask a git admin)
+- add branch/issue-nr to all indicators in the umwelt-set via StatApp
+- set all indicators to status "bereit für Live" in Indikatoren-App
+- (inform git-admin about update)
 
 ## URL Parameters
 
