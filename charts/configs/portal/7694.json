@@ -87,6 +87,10 @@
         [
           2020,
           582
+        ],
+        [
+          2021,
+          529
         ]
       ],
       "name": "Bezüger Messe"
@@ -178,6 +182,10 @@
         [
           2020,
           12
+        ],
+        [
+          2021,
+          10
         ]
       ],
       "name": "Bezüger Erlenmatt"
@@ -269,6 +277,10 @@
         [
           2020,
           12.398806988
+        ],
+        [
+          2021,
+          11.383688401
         ]
       ],
       "name": "Sozialhilfequote Messe"
@@ -360,6 +372,10 @@
         [
           2020,
           0.406504065
+        ],
+        [
+          2021,
+          0.3384094755
         ]
       ],
       "name": "Sozialhilfequote Erlenmatt"
@@ -451,6 +467,10 @@
         [
           2020,
           6.7353491359
+        ],
+        [
+          2021,
+          6.2768273369
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -599,7 +619,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

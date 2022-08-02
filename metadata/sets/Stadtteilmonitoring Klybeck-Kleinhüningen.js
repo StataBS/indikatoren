@@ -1222,7 +1222,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Klybeck 12,6% und in Kleinhüningen 11,5%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,7%).",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Klybeck 12,8% und in Kleinhüningen 11,7%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,3%).",
 		"erlaeuterungen": "Sozialhilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1247,7 +1247,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 8075
 	},
 	{
@@ -1384,7 +1384,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "27,8% der Haushalte des Klybeck und 25,8% der Haushalte im Wohnviertel Kleinhüningen beziehen Ende 2020 reine Prämienverbilligungen (PV) und 4,3% resp. 5,1% Familienmietzinsbeiträge. Die PV-Quote des Kantons Basel-Stadt liegt bei 16,8%, die FAMI-Quote bei 2,3%.",
+		"lesehilfe": "28,7% der Haushalte des Klybeck und 27,0% der Haushalte im Wohnviertel Kleinhüningen beziehen Ende 2021 reine Prämienverbilligungen (PV) und 4,2% resp. 4,5% Familienmietzinsbeiträge. Die PV-Quote des Kantons Basel-Stadt liegt bei 17,0%, die FAMI-Quote bei 2,3%.",
 		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1410,7 +1410,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:08",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 8079
 	},
 	{

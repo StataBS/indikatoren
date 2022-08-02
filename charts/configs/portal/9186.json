@@ -71,6 +71,10 @@
         [
           2020,
           73.9
+        ],
+        [
+          2021,
+          75.5
         ]
       ],
       "name": "5-Jährige"
@@ -146,12 +150,95 @@
         [
           2020,
           66.7
+        ],
+        [
+          2021,
+          69.7
         ]
       ],
       "name": "6-Jährige"
     },
     {
-      "index": 1,
+      "index": 2,
+      "color": "#B475AB",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          47.2
+        ],
+        [
+          2017,
+          49.2
+        ],
+        [
+          2018,
+          56.8
+        ],
+        [
+          2019,
+          57.9
+        ],
+        [
+          2020,
+          57.5
+        ],
+        [
+          2021,
+          61.8
+        ]
+      ],
+      "name": "12-Jährige"
+    },
+    {
+      "index": 3,
       "color": "orange",
       "data": [
         [
@@ -221,6 +308,10 @@
         [
           2020,
           52.9
+        ],
+        [
+          2021,
+          52.2
         ]
       ],
       "name": "16-Jährige"
@@ -351,7 +442,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 2.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

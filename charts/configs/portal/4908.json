@@ -39,6 +39,10 @@
         [
           "2018",
           5
+        ],
+        [
+          "2019",
+          5
         ]
       ],
       "name": "Landwirtschaft etc.",
@@ -82,7 +86,11 @@
         ],
         [
           "2018",
-          18951
+          18402
+        ],
+        [
+          "2019",
+          18502
         ]
       ],
       "name": "Bau, Herstellung von Waren",
@@ -126,7 +134,11 @@
         ],
         [
           "2018",
-          2109
+          2074
+        ],
+        [
+          "2019",
+          2135
         ]
       ],
       "name": "Versorgung und Bildung",
@@ -170,7 +182,11 @@
         ],
         [
           "2018",
-          5240
+          5319
+        ],
+        [
+          "2019",
+          5506
         ]
       ],
       "name": "Fahrzeuge, Transport, IT, Gastronomie",
@@ -206,7 +222,7 @@
         ],
         [
           "2016",
-          3042
+          3045
         ],
         [
           "2017",
@@ -214,7 +230,11 @@
         ],
         [
           "2018",
-          3558
+          3563
+        ],
+        [
+          "2019",
+          3159
         ]
       ],
       "name": "Finanzen und Versicherungen",
@@ -258,7 +278,11 @@
         ],
         [
           "2018",
-          6150
+          6101
+        ],
+        [
+          "2019",
+          6248
         ]
       ],
       "name": "Wirtsch. Dienstl. u. Unterhaltung",
@@ -302,7 +326,11 @@
         ],
         [
           "2018",
-          2173
+          2178
+        ],
+        [
+          "2019",
+          2238
         ]
       ],
       "name": "Öffentliche Verwaltung",
@@ -347,6 +375,10 @@
         [
           "2018",
           54
+        ],
+        [
+          "2019",
+          55
         ]
       ],
       "name": "Private Haushalte",
@@ -488,7 +520,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2.8.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

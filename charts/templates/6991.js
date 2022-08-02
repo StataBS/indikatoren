@@ -27,8 +27,8 @@
       { "color": "#e7cee2", "visible": false },
       { "color": "#b375ab", "visible": false},
       { "color": "#923f8d", "visible": false},
-      {"color": "#662673", "visible": true},
-      //{"color": "#2e1435", "visible": false},
+      {"color": "#662673", "visible": false},
+      {"color": "#B00000", "visible": true},
     ],
     "legend": {
       "enabled": true,
