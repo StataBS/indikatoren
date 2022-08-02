@@ -1205,7 +1205,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Bezirk Messe 12,4%. 582 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,4% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 12.",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Bezirk Messe 11,4%. 529 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,3% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 10.",
 		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1230,7 +1230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 7694
 	},
 	{

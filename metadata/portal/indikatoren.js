@@ -7070,47 +7070,45 @@ var indikatoren = [
 		"id": 4721
 	},
 	{
+		"template": "template001",
+		"data-id": 4722,
+		"chart-id": 4722,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6043,
+			8385,
+			8933
+		],
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.6.4722",
-		"kuerzelKunde": "3.3.02",
-		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2015 mit 1 209, 2017 mit 1 316 und 2019 mit 1386 eingebürgerten Ausländerinnen und Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2011 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2020 bei 15,5.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 Ausländer am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:17.1717",
+		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"kuerzel": "I.01.6.4722",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.3.02",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2015 mit 1 209, 2017 mit 1 316 und 2019 mit 1386 eingebürgerten Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2011 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2019 bei 18,9.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 Ausländer am Jahresende.",
-		"template": "template001",
+		"orderKey": "03_03_00_00_00_061",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_061",
-		"parentId": null,
-		"children": [
-			"6043",
-			"8385",
-			"8933"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4722,
-		"chart-id": 4722,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-02T08:23:12",
 		"id": 4722
 	},
 	{
@@ -8649,50 +8647,48 @@ var indikatoren = [
 		"id": 4865
 	},
 	{
+		"template": "template001",
+		"data-id": 4866,
+		"chart-id": 4866,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5188",
-			"6176",
-			"6323",
-			"8405",
-			"8904"
+			5188,
+			6176,
+			6323,
+			8405,
+			8904
 		],
-		"template": "template001",
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzel": "I.19.1.4866",
-		"kuerzelKunde": "3.2.01",
-		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Jahr 2021 wurden pro 1000 Einwohner 111,9 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:25.2525",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.4866",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.2.01",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 100,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"orderKey": "03_02_00_00_00_055",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_055",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4866,
-		"chart-id": 4866,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-02T08:23:12",
 		"id": 4866
 	},
 	{
@@ -9037,43 +9033,41 @@ var indikatoren = [
 		"id": 4875
 	},
 	{
+		"template": "template001",
+		"data-id": 4908,
+		"chart-id": 4908,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Bruttowertschöpfung nach Branchengruppe",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"kennzahlenset": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Bruttowertschöpfung nach Branchengruppe",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit fast 19 Mrd. Franken im Jahr 2019 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2019 provisorisch. Die Bezeichnung der Branchengruppen ist in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie folgende Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:17.1717",
+		"description": "Bruttowertschöpfung nach Branchengruppe",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.04908",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit fast 19 Mrd. Franken im Jahr 2018 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "2018 provisorisch. Die Bezeichnung der Branchengruppen ist in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie folgende Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4908,
-		"chart-id": 4908,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-02T08:23:10",
 		"id": 4908
 	},
 	{
@@ -9163,7 +9157,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Betreibungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 90er-Jahren stark erhöht. 2020 beträgt der Wert rund 63 800.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 90er-Jahren stark erhöht, mit einem Höchststand 2014. Im Jahr 2021 beträgt der Wert rund 61 300.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Beitreibungs- und Konkursamt Basel-Stadt"
@@ -9189,7 +9183,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:04",
+		"aktualisierungsdatum": "2022-08-02T08:23:11",
 		"id": 4912
 	},
 	{
@@ -19615,46 +19609,44 @@ var indikatoren = [
 		"id": 6481
 	},
 	{
+		"template": "template001",
+		"data-id": 6482,
+		"chart-id": 6482,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6723"
+			6723
 		],
-		"template": "template001",
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "D4-1",
-		"description": "Beschuldigte Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Jahr 2021 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,8 mindestens einer Straftat beschuldigt.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:02.022",
+		"description": "Beschuldigte Erwachsene",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D4-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 mindestens einer Straftat beschuldigt.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"orderKey": "04_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6482,
-		"chart-id": 6482,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-02T08:23:14",
 		"id": 6482
 	},
 	{
@@ -25946,7 +25938,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
 		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern lag im Jahr 2020 bei 6,8 Tagen. Der Verlauf der Aufenthaltsdauer nach Alter in den dargestellten Jahren ähnelt sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht, von einzelnen Ausreissern abgesehen, in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
+		"lesehilfe": "Der Verlauf der Aufenthaltsdauer nach Alter in den dargestellten Jahren ähnelt sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht, von einzelnen Ausreissern abgesehen, in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -25972,7 +25964,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-06T08:46:27",
+		"aktualisierungsdatum": "2022-08-02T08:23:08",
 		"id": 6991
 	},
 	{
@@ -26178,8 +26170,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2020",
-		"lesehilfe": "Insgesamt wurden im Jahr 2020 in Basler Spitälern mit gut 32&nbsp;918 Personen mehr Patientinnen als Patienten (27&nbsp;847) stationär behandelt. Nach Alter aufgeschlüsselt ergeben sich für die beiden Geschlechter unterschiedliche Verteilungen: Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 51 und 77 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
+		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2021",
+		"lesehilfe": "Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 50 und 76 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -26205,7 +26197,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"aktualisierungsdatum": "2022-08-02T08:23:09",
 		"id": 6997
 	},
 	{
@@ -26216,8 +26208,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Neugeborene nach Alter der Mutter",
-		"subtitle": "in baselstädtischen Spitälern, 2020",
-		"lesehilfe": "Im Jahr 2020 haben die 32-jährigen Mütter die meisten Babys zur Welt gebracht (385), gefolgt von den 34-jährigen Müttern (373). Der Altersdurchschnitt lag bei 32,5 Jahren.",
+		"subtitle": "in baselstädtischen Spitälern, 2021",
+		"lesehilfe": "Im Jahr 2021 haben die 33-jährigen Mütter die meisten Babys zur Welt gebracht (405), gefolgt von den 31-jährigen Müttern (381). Der Altersdurchschnitt lag bei 32,7 Jahren.",
 		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -26243,7 +26235,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"aktualisierungsdatum": "2022-08-02T08:23:09",
 		"id": 6998
 	},
 	{
@@ -26254,8 +26246,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Patienten nach Liege- und Altersklasse",
-		"subtitle": "in baselstädtischen Spitälern, 2020",
-		"lesehilfe": "Im Jahr 2020 wurden insgesamt 11 169 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
+		"subtitle": "in baselstädtischen Spitälern, 2021",
+		"lesehilfe": "Im Jahr 2021 wurden insgesamt 11 718 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -26282,7 +26274,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"aktualisierungsdatum": "2022-08-02T08:23:09",
 		"id": 6999
 	},
 	{
@@ -26293,8 +26285,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Aufenthaltsorte nach dem Spitalaustritt",
-		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2020",
-		"lesehilfe": "Knapp 79% aller Patienten, die sich im Jahr 2020 einer stationären Behandlung in einem baselstädtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 51% am tiefsten. Über 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2021",
+		"lesehilfe": "Knapp 52% der Personen im Alter von mindestens 80 Jahren konnten im Jahr 2021 nach einer stationären Behandlung in einem baselstädtischen Spital wieder nach Hause. 16% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
 		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -26321,7 +26313,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:15",
+		"aktualisierungsdatum": "2022-08-02T08:23:10",
 		"id": 7000
 	},
 	{
@@ -28870,7 +28862,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Bezirk Messe 12,4%. 582 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,4% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 12.",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Bezirk Messe 11,4%. 529 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,3% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 10.",
 		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -28896,7 +28888,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 7694
 	},
 	{
@@ -32711,7 +32703,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Klybeck 12,6% und in Kleinhüningen 11,5%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,7%).",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Klybeck 12,8% und in Kleinhüningen 11,7%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,3%).",
 		"erlaeuterungen": "Sozialhilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -32737,7 +32729,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 8075
 	},
 	{
@@ -32877,7 +32869,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "27,8% der Haushalte des Klybeck und 25,8% der Haushalte im Wohnviertel Kleinhüningen beziehen Ende 2020 reine Prämienverbilligungen (PV) und 4,3% resp. 5,1% Familienmietzinsbeiträge. Die PV-Quote des Kantons Basel-Stadt liegt bei 16,8%, die FAMI-Quote bei 2,3%.",
+		"lesehilfe": "28,7% der Haushalte des Klybeck und 27,0% der Haushalte im Wohnviertel Kleinhüningen beziehen Ende 2021 reine Prämienverbilligungen (PV) und 4,2% resp. 4,5% Familienmietzinsbeiträge. Die PV-Quote des Kantons Basel-Stadt liegt bei 17,0%, die FAMI-Quote bei 2,3%.",
 		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -32904,7 +32896,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:08",
+		"aktualisierungsdatum": "2022-08-02T08:23:13",
 		"id": 8079
 	},
 	{
@@ -40003,8 +39995,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Kariesfreiheit der Kinder und Jugendlichen",
 		"subtitle": "Anteil der jeweiligen Altersgruppe, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 waren 73,9% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
-		"erlaeuterungen": "Erhebung des Universitären Zentrums für Zahnmedizin (UZB) des Kantons Basel-Stadt im Rahmen der jährlichen zahnmedizinischen Schuluntersuchungen.",
+		"lesehilfe": "Im Jahr 2021 waren 75,5% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
+		"erlaeuterungen": "Erhebung des Universitären Zentrums für Zahnmedizin (UZB) des Kantons Basel-Stadt im Rahmen der jährlichen zahnmedizinischen Schuluntersuchungen.<br>Die Daten der 12-Jährigen werden seit 2016 statistisch ausgewertet.",
 		"quellenangabe": [
 			"Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"
 		],
@@ -40029,7 +40021,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:22",
+		"aktualisierungsdatum": "2022-08-02T08:23:11",
 		"id": 9186
 	},
 	{

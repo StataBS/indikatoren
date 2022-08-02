@@ -33,7 +33,11 @@
       "color": "#990300"
     },
     {
-      "index": 1,
+      "index": 2,
+      "color": "#B475AB"
+    },
+    {
+      "index": 3,
       "color": "orange"
     }
   ],
