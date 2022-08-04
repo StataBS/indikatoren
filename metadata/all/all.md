@@ -1183,7 +1183,7 @@ id | visible | visibleInPortal | indikatorenset
 7598 | true | false | Wohnbaustatistik
 7599 | true | true | Wohnbaustatistik
 7601 | true | true | Wohnbaustatistik
-7603 | true | true | Soziales
+7603 | false |  | Soziales
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
 7666 | true | true | Stadtteilmonitoring Rosental
@@ -2032,7 +2032,7 @@ id | visible | visibleInPortal | indikatorenset
 9283 | true | true | 
 9287 | true | true | 
 9289 | true | true | Soziales
-9290 | true | true | Soziales
+9290 | false |  | Soziales
 9291 | true | true | Soziales
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 

@@ -39,45 +39,6 @@ var indikatorensetData = [
 		"id": 4152
 	},
 	{
-		"parentId": null,
-		"children": [],
-		"template": "template001",
-		"title": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
-		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-01",
-		"description": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-14T08:12:19.1919",
-		"stufe1": "Kernindikatoren",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 verursachen die Prämienverbilligungen mit 186,7 Mio. Franken die höchsten kantonalen Ausgaben bei den bedarfsabhängigen Sozialleistungen. Ebenfalls im dreistelligen Millionenbereich befinden sich die Ausgaben für die Sozialhilfe mit 137,9 Mio. Franken, die Ergänzungsleistungen zur AHV mit 136,0 Mio. Franken, die Ergänzungsleistungen zur IV mit 103,1 Mio. Franken sowie die Behindertenhilfe mit 103,9 Mio. Franken. Für die Subventionierung der Tagesbetreuungsplätze fallen Kosten von 42,3 Mio. Franken an. Die ausserfamiliäre Unterbringung von Jugendlichen schlägt mit 41,8 Mio. Franken zu Buche. Stipendien werden im Umfang von 12,0 Mio. Franken vergeben. 11,8 Mio. Franken werden für Familienmietzinsbeiträge zur Verfügung gestellt. Für die Beihilfen zur AHV und IV werden 5,7 Mio. Franken respektive 4,3 Mio. Franken aufgewendet. Alimente werden mit einem Betrag von 3,1 Mio. Franken (netto, nach Abzug des Alimenteninkassos) bezuschusst, für die Arbeitslosenhilfe werden 2020 insgesamt 1,4 Mio. Franken benötigt. Somit ergeben sich 2020 für die erwähnten Leistungen Gesamtausgaben in der Höhe von 789,9 Mio. Franken. 2019 lagen diese Ausgaben noch bei 781,7 Mio. Franken, was einer Zunahme um 1,1% entspricht.",
-		"erlaeuterungen": "Die abgebildeten Leistungen stellen eine Auflistung der kantonalen Ausgaben für die wichtigsten bedarfsabhängigen Sozialleistungen dar. Der Kanton richtet weitere bedarfsabhängige Leistungen aus, die hier nicht aufgelistet sind.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialberichterstattung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7603,
-		"chart-id": 7603,
-		"filter": "",
-		"id": 7603
-	},
-	{
 		"template": "line001",
 		"data-id": 9289,
 		"chart-id": 9289,
@@ -113,45 +74,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-28T08:49:43",
 		"id": 9289
-	},
-	{
-		"parentId": null,
-		"children": [],
-		"template": "line001",
-		"title": "Übersicht Sozialleistungen: Personen/Fälle pro Leistung",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Soziales",
-		"kuerzel": "I.13.2.09290",
-		"kuerzelKunde": "1-02",
-		"description": "Übersicht Sozialleistungen: Personen/Fälle pro Leistung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-14T08:12:20.2020",
-		"stufe1": "Kernindikatoren",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von reinen Prämienverbilligungen (ohne Beziehende von Ergänzungsleistungen und Sozialhilfe) profitieren Ende 2020 insgesamt 30 133 Personen. 10 943 Personen erhalten im Verlaufe des Jahres 2020 Sozialhilfe.",
-		"erlaeuterungen": "Bei folgenden Leistungen handelt es sich um die Anzahl Personen per Jahresende: Prämienverbilligungen, Ergänzungsleistungen (EL) und Beihilfen zu AHV/IV, Behindertenhilfe, stationäre Jugendhilfe sowie Arbeitslosenhilfe. Bei der Sozialhilfe handelt es sich bei der kumulierten Jahreszahl um alle Personen, die im Verlaufe eines Jahres mindestens einmal mit Dossierttyp «Sozialhilfe» finanzielle Unterstützung erhalten haben. Die Tagesbetreuung weist die Anzahl subventionierter Kinder per 31. Oktober aus.  Die Anzahl Stipendien beschreibt die im jeweiligen Jahr bewilligte Anzahl an Stipendien. Bei den Familienmietzinsbeiträgen und der Alimentenbevorschussung handelt es sich um die Anzahl Fälle Ende Jahr.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialberichterstattung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9290,
-		"chart-id": 9290,
-		"filter": "",
-		"id": 9290
 	},
 	{
 		"template": "template001",
