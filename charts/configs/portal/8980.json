@@ -846,6 +846,10 @@
         [
           "2022-06",
           3004
+        ],
+        [
+          "2022-07",
+          2926
         ]
       ],
       "name": "Arbeitslose",
@@ -1697,6 +1701,10 @@
         [
           "2022-06",
           767
+        ],
+        [
+          "2022-07",
+          707
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2551,6 +2559,10 @@
         [
           "2022-06",
           0.25533
+        ],
+        [
+          "2022-07",
+          0.24163
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -2696,7 +2708,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.7.2022"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 8.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
