@@ -9517,7 +9517,7 @@
 		"children": [],
 		"title": "Hospitalisierungen in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Im Jahr 2020 wurden 69 888 Fälle aus einer akutsomatischen Station entlassen.",
+		"lesehilfe": "Im Jahr 2021 wurden 74 592 Fälle aus einer akutsomatischen Station entlassen.",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte aus einem baselstädtischen Spital innerhalb eines Jahres.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -9544,7 +9544,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"aktualisierungsdatum": "2022-08-10T08:01:58",
 		"id": 4947
 	},
 	{
@@ -26133,7 +26133,7 @@
 		],
 		"title": "Stationär behandelte Patienten",
 		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
-		"lesehilfe": "Im Jahr 2020 wurden insgesamt 62&nbsp;306 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten 27&nbsp;905 Personen im Kanton Basel-Stadt und 20&nbsp;614 in Basel-Landschaft.",
+		"lesehilfe": "Im Jahr 2021 wurden insgesamt 66 195 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 221 Personen im Kanton Basel-Stadt und 21 807 in Basel-Landschaft.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -26159,7 +26159,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:59",
+		"aktualisierungsdatum": "2022-08-10T08:01:58",
 		"id": 6996
 	},
 	{

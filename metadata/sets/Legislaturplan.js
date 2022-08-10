@@ -689,7 +689,7 @@ var indikatorensetData = [
 		],
 		"title": "Stationär behandelte Patienten",
 		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
-		"lesehilfe": "Im Jahr 2020 wurden insgesamt 62&nbsp;306 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten 27&nbsp;905 Personen im Kanton Basel-Stadt und 20&nbsp;614 in Basel-Landschaft.",
+		"lesehilfe": "Im Jahr 2021 wurden insgesamt 66 195 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 221 Personen im Kanton Basel-Stadt und 21 807 in Basel-Landschaft.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -714,7 +714,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:59",
+		"aktualisierungsdatum": "2022-08-10T08:01:58",
 		"id": 6996
 	},
 	{
