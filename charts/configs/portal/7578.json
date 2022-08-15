@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          60
+          41
         ],
         [
           "renoviert",
-          178
+          229
         ],
         [
           "unverändert",
-          997
+          1058
         ]
       ],
       "name": "Anzahl",
@@ -104,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "tooltip": {
@@ -125,7 +125,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "legend": {
     "layout": "vertical",

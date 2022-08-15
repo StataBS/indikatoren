@@ -9,10 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2011",
-          813
-        ],
-        [
           "2012",
           906
         ],
@@ -22,7 +18,7 @@
         ],
         [
           "2014",
-          751
+          735
         ],
         [
           "2015",
@@ -51,9 +47,13 @@
         [
           "2021",
           956
+        ],
+        [
+          "2022",
+          902
         ]
       ],
-      "name": "1 Zimmer",
+      "name": "1 Zimmer Mittelwert",
       "turboThreshold": 0
     },
     {
@@ -65,10 +65,6 @@
       "color": "#933F8D",
       "data": [
         [
-          "2011",
-          1165
-        ],
-        [
           "2012",
           1150
         ],
@@ -78,7 +74,7 @@
         ],
         [
           "2014",
-          1157
+          1133
         ],
         [
           "2015",
@@ -107,9 +103,13 @@
         [
           "2021",
           1266
+        ],
+        [
+          "2022",
+          1318
         ]
       ],
-      "name": "2 Zimmer",
+      "name": "2 Zimmer Mittelwert",
       "turboThreshold": 0
     },
     {
@@ -121,10 +121,6 @@
       "color": "#68AB2B",
       "data": [
         [
-          "2011",
-          1560
-        ],
-        [
           "2012",
           1667
         ],
@@ -134,7 +130,7 @@
         ],
         [
           "2014",
-          1699
+          1632
         ],
         [
           "2015",
@@ -163,9 +159,13 @@
         [
           "2021",
           1595
+        ],
+        [
+          "2022",
+          1576
         ]
       ],
-      "name": "3 Zimmer",
+      "name": "3 Zimmer Mittelwert",
       "turboThreshold": 0
     },
     {
@@ -177,10 +177,6 @@
       "color": "#689199",
       "data": [
         [
-          "2011",
-          2063
-        ],
-        [
           "2012",
           2148
         ],
@@ -190,7 +186,7 @@
         ],
         [
           "2014",
-          2272
+          2147
         ],
         [
           "2015",
@@ -219,9 +215,13 @@
         [
           "2021",
           2178
+        ],
+        [
+          "2022",
+          1953
         ]
       ],
-      "name": "4 Zimmer",
+      "name": "4 Zimmer Mittelwert",
       "turboThreshold": 0
     },
     {
@@ -232,10 +232,6 @@
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2011",
-          2484
-        ],
         [
           "2012",
           2691
@@ -275,9 +271,13 @@
         [
           "2021",
           3448
+        ],
+        [
+          "2022",
+          3180
         ]
       ],
-      "name": "5 Zimmer",
+      "name": "5 Zimmer Mittelwert",
       "turboThreshold": 0
     }
   ],
@@ -410,7 +410,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

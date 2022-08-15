@@ -256,6 +256,10 @@
         [
           2021,
           111454
+        ],
+        [
+          2022,
+          112584
         ]
       ],
       "name": "Belegte Wohnungen"
@@ -516,6 +520,10 @@
         [
           2021,
           201766
+        ],
+        [
+          2022,
+          203955
         ]
       ],
       "name": "Wohnbevölkerung"
@@ -773,6 +781,10 @@
         [
           2021,
           1235
+        ],
+        [
+          2022,
+          1328
         ]
       ],
       "name": "Leerstehende Wohnungen (rechte Skala)"
@@ -929,7 +941,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "tooltip": {
     "shared": true

@@ -6,10 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2012,
-          14456
-        ],
-        [
           2013,
           15849
         ],
@@ -44,6 +40,10 @@
         [
           2021,
           10295
+        ],
+        [
+          2022,
+          10572
         ]
       ],
       "name": "Laden"
@@ -53,10 +53,6 @@
       "index": 4,
       "legendIndex": 2,
       "data": [
-        [
-          2012,
-          71002
-        ],
         [
           2013,
           65094
@@ -92,6 +88,10 @@
         [
           2021,
           87848
+        ],
+        [
+          2022,
+          70712
         ]
       ],
       "name": "Büro"
@@ -101,10 +101,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          2012,
-          53826
-        ],
         [
           2013,
           32806
@@ -140,6 +136,10 @@
         [
           2021,
           46148
+        ],
+        [
+          2022,
+          50434
         ]
       ],
       "name": "Gewerbe"
@@ -149,10 +149,6 @@
       "index": 2,
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          10258
-        ],
         [
           2013,
           11653
@@ -188,6 +184,10 @@
         [
           2021,
           9682
+        ],
+        [
+          2022,
+          11293
         ]
       ],
       "name": "Produktion"
@@ -197,10 +197,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2012,
-          58318
-        ],
         [
           2013,
           62627
@@ -236,6 +232,10 @@
         [
           2021,
           36540
+        ],
+        [
+          2022,
+          19851
         ]
       ],
       "name": "Lager"
@@ -293,7 +293,7 @@
     "text": "Geschäftsleerstandsfläche nach Nutzung"
   },
   "subtitle": {
-    "text": "Basel-Landschaft",
+    "text": "in m², Basel-Landschaft",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -365,7 +365,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -404,7 +404,7 @@
   "tooltip": {
     "useHTML": true,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "\u003Cspan style=\"color:black\"\u003E●\u003C\u002Fspan\u003ETotal: \u003Cb\u003E{point.total:,.0f}  m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E"
+    "footerFormat": "\u003Cspan style=\"color:black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}  m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "7589"

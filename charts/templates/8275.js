@@ -25,28 +25,28 @@
 			dataClassColor: 'category',
 			dataClasses: [{
 				from: 0,
-				to: 0.49,
+				to: 0.69999,
 				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,50"
+				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,70"
 			}, {
-				from: 0.50,
-				to: 0.79,
+				from: 0.7,
+				to: 1.09999,
 				color: '#73B97C',
-				name: "0,50 −  0,79"
+				name: "0,70 −  1,09"
 			}, {
-				from: 0.8,
-				to: 1.29,
+				from: 1.1,
+				to: 1.34999,
 				color: '#68AB2B',
-				name: "0,80 − 1,29"
+				name: "1,10 − 1,34"
 			}, {
-				from: 1.3,
-				to: 1.59,
+				from: 1.35,
+				to: 1.49999,
 				color: '#007A2F',
-				name: "1,30 − 1,59"
+				name: "1,35 − 1,49"
 			}, {
-				from: 1.6,
+				from: 1.5,
 				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,60"
+				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,50"
 			}],
 		},
 		"data": {
@@ -146,20 +146,20 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35,0",
 								from: 0,
-								to: 29.999,
+								to: 34.999,
 								diameter: 5
 							},
 							{
-								name: ' 30,0 − 59,9',
-								from: 30,
-								to: 59.999,
+								name: ' 35,0 − 79,9',
+								from: 35,
+								to: 79.9999,
 								diameter: 10
 							},
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
-								from: 60,
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80,0",
+								from: 80,
 								to: 1000000000,
 								diameter: 20
 							}

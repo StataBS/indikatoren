@@ -41,6 +41,7 @@
 			],
 			dataLabels: {
 				enabled: true,
+				useHTML: true,
 				formatter: function () {
 					return this.point.name.replace(".", ",").replace("4 Zimmer (", "4 Zimmer<br>(");
 

@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          756
+          766
         ],
         [
           "Kleinbasel",
-          402
+          459
         ],
         [
           "Riehen\u002FBettingen",
-          77
+          103
         ],
         [
           "Arlesheim",
@@ -68,11 +68,11 @@
         ],
         [
           "Kleinbasel",
-          0.0099
+          0.0111
         ],
         [
           "Riehen\u002FBettingen",
-          0.007
+          0.0093
         ],
         [
           "Arlesheim",
@@ -119,23 +119,23 @@
         ],
         [
           "Arlesheim",
-          689
+          671
         ],
         [
           "Laufen",
-          117
+          120
         ],
         [
           "Liestal",
-          408
+          373
         ],
         [
           "Sissach",
-          126
+          117
         ],
         [
           "Waldenburg",
-          64
+          72
         ]
       ],
       "name": "Anzahl Leerwohnungen",
@@ -174,23 +174,23 @@
         ],
         [
           "Arlesheim",
-          0.0087
+          0.0084
         ],
         [
           "Laufen",
-          0.0115
+          0.0117
         ],
         [
           "Liestal",
-          0.0135
+          0.0122
         ],
         [
           "Sissach",
-          0.0073
+          0.0067
         ],
         [
           "Waldenburg",
-          0.0083
+          0.0092
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)",
@@ -273,7 +273,7 @@
     "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Basel-Landschaft, 2021",
+    "text": "Basel-Stadt und Basel-Landschaft, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "tooltip": {
     "shared": true

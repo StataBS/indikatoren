@@ -8,10 +8,6 @@
       },
       "data": [
         [
-          2002,
-          4415
-        ],
-        [
           2003,
           4122
         ],
@@ -86,6 +82,10 @@
         [
           2021,
           16033
+        ],
+        [
+          2022,
+          16317
         ]
       ],
       "name": "Laden"
@@ -97,10 +97,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2002,
-          23722
-        ],
         [
           2003,
           34053
@@ -176,6 +172,10 @@
         [
           2021,
           122422
+        ],
+        [
+          2022,
+          110692
         ]
       ],
       "name": "Büro"
@@ -187,10 +187,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2002,
-          1713
-        ],
         [
           2003,
           3387
@@ -266,6 +262,10 @@
         [
           2021,
           23556
+        ],
+        [
+          2022,
+          47038
         ]
       ],
       "name": "Gewerbe"
@@ -277,10 +277,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2002,
-          11547
-        ],
         [
           2003,
           11562
@@ -356,6 +352,10 @@
         [
           2021,
           410
+        ],
+        [
+          2022,
+          3000
         ]
       ],
       "name": "Produktion"
@@ -367,10 +367,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2002,
-          8057
-        ],
         [
           2003,
           10782
@@ -446,6 +442,10 @@
         [
           2021,
           22258
+        ],
+        [
+          2022,
+          24543
         ]
       ],
       "name": "Lager"
@@ -503,7 +503,7 @@
     "text": "Leerstehende Geschäftsflächen"
   },
   "subtitle": {
-    "text": "in Quadratmetern, Basel-Stadt",
+    "text": "in m², Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -573,7 +573,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: SVIT beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

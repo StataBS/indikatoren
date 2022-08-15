@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Leerstandsquote 2021",
+      "name": "Leerstandsquote 2022",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          2.1753
+          2.2138
         ],
         [
           2,
-          1.9409
+          2.4023
         ],
         [
           3,
-          1.3474
+          1.4814
         ],
         [
           4,
-          0.7961
+          1.4867
         ],
         [
           5,
-          1.514
+          1.2486
         ],
         [
           6,
-          1.5929
+          1.188
         ],
         [
           7,
-          0.7146
+          0.8688
         ],
         [
           8,
-          0.6541
+          0.582
         ],
         [
           9,
-          1.1644
+          1.3856
         ],
         [
           10,
-          1.116
+          1.0616
         ],
         [
           11,
-          1.0047
+          1.1803
         ],
         [
           12,
-          1.8845
+          1.3872
         ],
         [
           13,
-          1.6618
+          1.3007
         ],
         [
           14,
-          0.327
+          0.5344
         ],
         [
           15,
-          0.3378
+          0.6445
         ],
         [
           16,
-          1.5472
+          1.2717
         ],
         [
           17,
-          1.2925
+          1.2761
         ],
         [
           18,
-          0.418
+          1.1722
         ],
         [
           19,
-          0.5
+          1.2912
         ],
         [
           20,
-          0.7299
+          0.9637
         ],
         [
           30,
-          0
+          0.1825
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1.8047
+          1.3953
         ],
         [
           "Vorstädte",
-          1.1473
+          0.3699
         ],
         [
           "Am Ring",
-          0.5354
+          0.6093
         ],
         [
           "Breite",
-          0.387
+          1.1779
         ],
         [
           "St. Alban",
-          0.8811
+          0.4937
         ],
         [
           "Gundeldingen",
-          1.0222
+          0.8002
         ],
         [
           "Bruderholz",
-          0.488
+          0.688
         ],
         [
           "Bachletten",
-          0.2625
+          0.3863
         ],
         [
           "Gotthelf",
-          0.97
+          0.8996
         ],
         [
           "Iselin",
-          0.6605
+          0.7234
         ],
         [
           "St. Johann",
-          0.3844
+          0.8201
         ],
         [
           "Altstadt Kleinbasel",
-          1.3557
+          0.9912
         ],
         [
           "Clara",
-          1.0382
+          0.9443
         ],
         [
           "Wettstein",
-          0.0683
+          0.0205
         ],
         [
           "Hirzbrunnen",
-          0.0038
+          0.5999
         ],
         [
           "Rosental",
-          0.8893
+          0.1004
         ],
         [
           "Matthäus",
-          0.862
+          0.9532
         ],
         [
           "Klybeck",
-          0.098
+          0.7722
         ],
         [
           "Kleinhüningen",
-          -0.1102
+          0.9349
         ],
         [
           "Riehen",
-          0.2538
+          0.5104
         ],
         [
           "Bettingen",
-          -1.4894
+          -0.6579
         ]
       ],
-      "name": "Differenz 2021 zu 2011"
+      "name": "Differenz 2022 zu 2012"
     },
     {
       "name": "Rhein",
@@ -7281,7 +7281,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "credits": {
@@ -7297,7 +7297,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "colorAxis": {
     "min": 0,
