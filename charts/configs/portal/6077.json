@@ -1,23 +1,23 @@
 {
   "series": [
     {
-      "name": "Arithmetisches Mittel der Jahre 2011-2020",
+      "name": "Arithmetisches Mittel der Jahre 2012-2021",
       "data": [
         [
           "Schweiz",
-          1.16
+          1.15
         ],
         [
           "Deutschland",
-          1.18
+          1.2
         ],
         [
           "Italien",
-          1.14
+          1.17
         ],
         [
           "Türkei",
-          1.95
+          1.89
         ],
         [
           "EU-West + EFTA + UK",
@@ -25,27 +25,27 @@
         ],
         [
           "EU-Ost",
-          1.15
+          1.18
         ],
         [
           "Balkan",
-          2.17
+          2.19
         ],
         [
           "Mittel- und Südamerika",
-          1.53
+          1.57
         ],
         [
           "Arabische Länder",
-          3.41
+          3.22
         ],
         [
           "Afrikanische Länder",
-          2.69
+          2.79
         ],
         [
           "Übrige Länder",
-          1.56
+          1.52
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Zusammengefasste Geburtenziffer"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2011 bis 2020",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2012 bis 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "colors": [
     "#b00000",

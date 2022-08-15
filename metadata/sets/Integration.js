@@ -758,7 +758,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Schweizer Staatsangehörige machen 2020 mit 1190 etwas über die Hälfte der exakt 2000 Geborenen aus. 2016 betrug das Total noch 2172.",
+		"lesehilfe": "Die 1 182 Schweizer Staatsangehörigen machen 57% der total 2 066 im Jahr 2021 Geborenen aus. 2016 betrug das Total noch 2 172.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:01",
+		"aktualisierungsdatum": "2022-08-15T08:12:25",
 		"id": 6076
 	},
 	{
@@ -796,8 +796,8 @@ var indikatorensetData = [
 			6662
 		],
 		"title": "Zusammengefasste Geburtenziffer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2011 bis 2020",
-		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2011 bis 2020 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2012 bis 2021",
+		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2012 bis 2021 die höchsten zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen und Italienerinnen.",
 		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -822,7 +822,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-19T09:07:52",
+		"aktualisierungsdatum": "2022-08-15T08:12:26",
 		"id": 6077
 	},
 	{
@@ -3130,8 +3130,8 @@ var indikatorensetData = [
 			6721
 		],
 		"title": "Anzahl Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2010 bis 2020",
-		"lesehilfe": "In dieser Abbildung sind die eingebürgerten Ausländerinnen und Ausländer der Jahre 2010 bis 2020 zusammengefasst dargestellt. Am höchsten sind die Einbürgerungszahlen in den Altersgruppen der 10- bis 14-Jährigen, der 15- bis 19-Jährigen, der 35- bis 39-Jährigen, der 40- bis 44-Jährigen und der 45-bis 49-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten weiblich (53%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (61%) und die 25- bis 29-Jährigen (62%) auf.",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2011 bis 2021",
+		"lesehilfe": "In der Summe der Jahre 2011 bis 2021 wurden mit Total 1 429 am meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert. 646 davon waren männlich, 783 weiblich.",
 		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3156,7 +3156,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-26T08:26:04",
+		"aktualisierungsdatum": "2022-08-15T08:12:27",
 		"id": 6480
 	},
 	{

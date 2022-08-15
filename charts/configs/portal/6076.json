@@ -63,6 +63,10 @@
         [
           2020,
           1190
+        ],
+        [
+          2021,
+          1182
         ]
       ],
       "name": "Schweiz"
@@ -130,6 +134,10 @@
         [
           2020,
           184
+        ],
+        [
+          2021,
+          225
         ]
       ],
       "name": "Deutschland"
@@ -197,6 +205,10 @@
         [
           2020,
           82
+        ],
+        [
+          2021,
+          73
         ]
       ],
       "name": "Italien"
@@ -264,6 +276,10 @@
         [
           2020,
           46
+        ],
+        [
+          2021,
+          40
         ]
       ],
       "name": "Türkei"
@@ -331,6 +347,10 @@
         [
           2020,
           190
+        ],
+        [
+          2021,
+          204
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -398,6 +418,10 @@
         [
           2020,
           76
+        ],
+        [
+          2021,
+          84
         ]
       ],
       "name": "EU-Ost"
@@ -464,6 +488,10 @@
         ],
         [
           2020,
+          71
+        ],
+        [
+          2021,
           71
         ]
       ],
@@ -532,6 +560,10 @@
         [
           2020,
           9
+        ],
+        [
+          2021,
+          17
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -599,6 +631,10 @@
         [
           2020,
           24
+        ],
+        [
+          2021,
+          31
         ]
       ],
       "name": "Arabische Länder"
@@ -666,6 +702,10 @@
         [
           2020,
           31
+        ],
+        [
+          2021,
+          41
         ]
       ],
       "name": "Afrikanische Länder"
@@ -733,6 +773,10 @@
         [
           2020,
           97
+        ],
+        [
+          2021,
+          98
         ]
       ],
       "name": "Übrige Länder"
@@ -864,7 +908,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -3,14 +3,8 @@
     {
       "color": "#7F5F1A",
       "index": 0,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 7,
       "data": [
-        [
-          2012,
-          11
-        ],
         [
           2013,
           7
@@ -46,6 +40,10 @@
         [
           2021,
           10
+        ],
+        [
+          2022,
+          22
         ]
       ],
       "name": "6 u.m. Zi"
@@ -53,14 +51,8 @@
     {
       "color": "#CD9C00",
       "index": 1,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 6,
       "data": [
-        [
-          2012,
-          23
-        ],
         [
           2013,
           14
@@ -96,6 +88,10 @@
         [
           2021,
           35
+        ],
+        [
+          2022,
+          26
         ]
       ],
       "name": "5 Zi"
@@ -103,14 +99,8 @@
     {
       "color": "#FABD24",
       "index": 1,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 5,
       "data": [
-        [
-          2012,
-          86
-        ],
         [
           2013,
           55
@@ -146,6 +136,10 @@
         [
           2021,
           94
+        ],
+        [
+          2022,
+          106
         ]
       ],
       "name": "4 Zi"
@@ -153,14 +147,8 @@
     {
       "color": "#FFDA80",
       "index": 1,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          159
-        ],
         [
           2013,
           136
@@ -196,6 +184,10 @@
         [
           2021,
           447
+        ],
+        [
+          2022,
+          489
         ]
       ],
       "name": "3 Zi"
@@ -203,14 +195,8 @@
     {
       "color": "#246370",
       "index": 1,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 3,
       "data": [
-        [
-          2012,
-          102
-        ],
         [
           2013,
           91
@@ -246,6 +232,10 @@
         [
           2021,
           377
+        ],
+        [
+          2022,
+          417
         ]
       ],
       "name": "2 Zi"
@@ -253,14 +243,8 @@
     {
       "color": "#A8C3CA",
       "index": 1,
-      "type": "column",
-      "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2012,
-          119
-        ],
         [
           2013,
           58
@@ -296,6 +280,10 @@
         [
           2021,
           272
+        ],
+        [
+          2022,
+          268
         ]
       ],
       "name": "1 Zi"
@@ -311,15 +299,11 @@
       "legendIndex": 8,
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
           }
       },
       "data": [
-        [
-          2012,
-          0.0047
-        ],
         [
           2013,
           0.0034
@@ -355,6 +339,10 @@
         [
           2021,
           0.011
+        ],
+        [
+          2022,
+          0.0117
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)"
@@ -393,6 +381,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-7574",
     "spacingBottom": 40
   },
@@ -406,6 +395,7 @@
       },
       "stacking": "normal",
       "pointPadding": 0,
+      "pointWidth": "15",
       "groupPadding": 0.5
     }
   },
@@ -478,8 +468,8 @@
         "text": null
       },
       "labels": {
-        "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";
+        "formatter": function () {
+            return Highcharts.numberFormat(this.value * 100, 1) + "%";
           },
         "style": {
           "color": "#000000"
@@ -497,7 +487,7 @@
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
-    "itemDistance": 2,
+    "itemDistance": 15,
     "padding": 1,
     "alignColumns": false
   },
@@ -520,7 +510,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "tooltip": {
     "shared": true

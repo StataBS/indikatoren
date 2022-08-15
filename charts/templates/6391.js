@@ -20,34 +20,34 @@
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 		},
-         colorAxis: {
-            dataClassColor: 'category',
-        	dataClasses: [{
-        		from: 0,
-                to:0.59,
-                color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,60"
-            }, {
-                from: 0.6,
-                to: 0.79,
-                color: '#73B97C',
-                name: "0,60 −  0,79"
-            },{
-                from: 0.8,
-                to: 0.99,
-                 color: '#68AB2B',
-                 name: "0,80 − 0,99"
-            },{
-				from: 1.0,
-                to: 1.29,
-                 color: '#007A2F',
-                 name: "1,00 − 1,29"
-            },{
-                from: 1.3,
-                color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,30"
-            }], 
-        },
+		colorAxis: {
+			dataClassColor: 'category',
+			dataClasses: [{
+				from: 0,
+				to: 0.69999,
+				color: '#D7E8D2',
+				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,70"
+			}, {
+				from: 0.7,
+				to: 1.09999,
+				color: '#73B97C',
+				name: "0,70 −  1,09"
+			}, {
+				from: 1.1,
+				to: 1.34999,
+				color: '#68AB2B',
+				name: "1,10 − 1,34"
+			}, {
+				from: 1.35,
+				to: 1.49999,
+				color: '#007A2F',
+				name: "1,35 − 1,49"
+			}, {
+				from: 1.5,
+				color: '#0A3B19',
+				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,50"
+			}],
+		},
         "data": {
 		    "seriesMapping": [
 		      {
@@ -103,27 +103,27 @@
 					var maxPieDiameter = 20;
 					
 					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
-					[
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
-							from: 0,
-							to: 29.999, 
-							diameter: 5
-						},
-						{
-							name: ' 30,0 − 59,9',
-							from: 30,
-							to: 59.999,
-							diameter: 10
-						},
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
-							from: 60,							
-							to: 1000000000,
-							diameter: 20
-						}
-					];
+					var pieSizeCatConfig =
+						[
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35,0",
+								from: 0,
+								to: 34.999,
+								diameter: 5
+							},
+							{
+								name: ' 35,0 − 79,9',
+								from: 35,
+								to: 79.9999,
+								diameter: 10
+							},
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80,0",
+								from: 80,
+								to: 1000000000,
+								diameter: 20
+							}
+						];
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
