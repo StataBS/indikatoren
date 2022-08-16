@@ -2044,42 +2044,42 @@ var indikatorensetData = [
 		"id": 6047
 	},
 	{
+		"template": "template001",
+		"data-id": 6049,
+		"chart-id": 6049,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8938
+		],
 		"title": "Aufwendungen für Forschung und Entwicklung",
 		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
-		"kuerzel": "I.04.2.06049",
-		"kuerzelKunde": "WE4",
-		"description": "Aufwendungen für Forschung und Entwicklung",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2019 6,1% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen.",
+		"erlaeuterungen": "Die Grossregionen umfassen: Nordwestschweiz: Kantone Basel-Stadt, Basel-Landschaft und Aargau; Genferseeregion: Kantone Waadt, Wallis und Genf; Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die Angaben für 2019 basieren auf provisorischen BIP-Daten. Die Werte können rückwirkend ändern wenn Unternehmen ihre Antworten für vergangene Erhebungen berichtigen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-09T18:43:18.1818",
+		"description": "Aufwendungen für Forschung und Entwicklung",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.06049",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE4",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2017 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen, jedoch tiefer als 2015.",
-		"erlaeuterungen": "Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die BIP-Daten für 2017 sind provisorische Werte.",
-		"template": "template001",
+		"orderKey": "06_01_00_00_00_604",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_01_00_00_00_604",
-		"parentId": 6140,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6049,
-		"chart-id": 6049,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-16T09:07:06",
 		"id": 6049
 	},
 	{
