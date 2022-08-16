@@ -1204,47 +1204,6 @@ var indikatorensetData = [
 		"id": 4869
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8409"
-		],
-		"template": "befragungen001",
-		"title": "Engagement in Organisationen und Vereinen",
-		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?», Basel-Stadt",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzel": "I.50.3.4870",
-		"kuerzelKunde": "3.3.01",
-		"description": "Engagement in Organisationen und Vereinen",
-		"thema": "50 Befragungen",
-		"unterthema": "Jugendbefragung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-15T08:01:49.4949",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_03_00_00_00_060",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4870,
-		"chart-id": 4870,
-		"filter": "",
-		"id": 4870
-	},
-	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.17.3.4871",
