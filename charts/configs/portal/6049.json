@@ -6,19 +6,23 @@
       "data": [
         [
           "2008",
-          1.784
+          1.7
         ],
         [
           "2012",
-          1.54
+          1.4
         ],
         [
           "2015",
-          1.66
+          1.6
         ],
         [
           "2017",
-          1.586
+          1.4
+        ],
+        [
+          "2019",
+          1.6
         ]
       ],
       "name": "Genferseeregion",
@@ -30,19 +34,23 @@
       "data": [
         [
           "2008",
-          6.572
+          6.4
         ],
         [
           "2012",
-          7.163
+          5.6
         ],
         [
           "2015",
-          7.894
+          6
         ],
         [
           "2017",
-          7.301
+          6
+        ],
+        [
+          "2019",
+          6.1
         ]
       ],
       "name": "Nordwestschweiz",
@@ -54,19 +62,23 @@
       "data": [
         [
           "2008",
-          0.774
+          0.7
         ],
         [
           "2012",
-          1.08
+          1
         ],
         [
           "2015",
-          1.219
+          1.2
         ],
         [
           "2017",
-          1.294
+          1.1
+        ],
+        [
+          "2019",
+          1.2
         ]
       ],
       "name": "Zürich",
@@ -206,13 +218,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E).\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6049
+    "filename": "6049"
   }
 }
