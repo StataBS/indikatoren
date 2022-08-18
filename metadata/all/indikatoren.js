@@ -71678,7 +71678,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-11T08:16:28",
+		"aktualisierungsdatum": "2022-08-18T10:12:12",
 		"id": 9022
 	},
 	{
@@ -71716,7 +71716,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-11T08:16:28",
+		"aktualisierungsdatum": "2022-08-18T10:12:13",
 		"id": 9023
 	},
 	{
