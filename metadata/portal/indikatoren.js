@@ -26638,7 +26638,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "132 876 Logiernächte wurden im Juni 2022 in den Basler Hotelbetrieben gebucht, 13 782 bzw. 11,6% mehr als im Mai. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 146,4% bzw. 78 957 Übernachtungen. Die inländischen Gäste buchten 49 236 Logiernächte (+60,8%), die Gäste aus dem Ausland 83 640 Übernachtungen (+258,9%).",
+		"lesehilfe": "139 505 Logiernächte wurden im Juli 2022 in den Basler Hotelbetrieben gebucht, 6 629 bzw. 12,3% mehr als im Juni. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 70,4% bzw. 57 648 Übernachtungen. Die inländischen Gäste buchten 55 306 Logiernächte (+48,3%), die Gäste aus dem Ausland 84 199 Übernachtungen (+88,9%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26664,7 +26664,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-27T09:22:49",
+		"aktualisierungsdatum": "2022-08-19T08:01:28",
 		"id": 7516
 	},
 	{
@@ -26675,8 +26675,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 55%.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26702,7 +26702,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-27T09:22:52",
+		"aktualisierungsdatum": "2022-08-19T08:01:29",
 		"id": 7517
 	},
 	{
