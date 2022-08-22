@@ -444,44 +444,42 @@ var indikatorensetData = [
 		"id": 8250
 	},
 	{
+		"template": "line001",
+		"data-id": 8251,
+		"chart-id": 8251,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8522"
+			8522
 		],
-		"template": "line001",
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "1-19",
-		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt blieb im Jahresdurchschnitt 2021 unverändert bei 3,9%. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% im Jahr 2021 zurück, während die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren weiter gestiegen sind, wobei sie nach wie vor unterhalb des Durchschnitts liegen.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-05T08:34:13.1313",
+		"description": "Arbeitslosenquote nach Alter",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.08251",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-19",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,0% im Jahresdurchschnitt 2019 auf 3,8% im Jahr 2020 gestiegen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) erhöhte sich von 3,2% im Jahr 2019 auf 4,1% im Jahr 2020. Am höchsten war im Jahr 2020 die Arbeitslosenquote der Personen zwischen 30 und 39 Jahren (4,4%). Die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren nahmen ebenfalls zu, lagen jedoch nach wie vor deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
+		"orderKey": "01_02_00_00_00_119",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_119",
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8251,
-		"chart-id": 8251,
-		"filter": "",
+		"aktualisierungsdatum": "2022-08-22T08:24:08",
 		"id": 8251
 	},
 	{
@@ -493,8 +491,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. 2020 war aber eine Ausnahme: Die Arbeitslosenquote der ausländischen Männer ging im Sommer nur leicht zurück. Ende 2020 beträgt die Arbeitslosenquote dieser Gruppe 7,1%. Bei den ausländischen Frauen beträgt sie 4,8%.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,0% im Januar auf 4,7% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,6%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -518,7 +516,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:38",
+		"aktualisierungsdatum": "2022-08-22T08:24:08",
 		"id": 8252
 	},
 	{

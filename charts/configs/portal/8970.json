@@ -5,22 +5,22 @@
       "data": [
         [
           "BS",
-          191574
+          190333
         ],
         [
           "BL",
-          147401
+          148266
         ],
         [
           "JU",
-          42435
+          42034
         ],
         [
           "BS\u002FBL\u002FJU",
-          381410
+          380633
         ]
       ],
-      "name": "2014",
+      "name": "2015",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "BS",
-          190753
+          190301
         ],
         [
           "BL",
-          147868
+          148163
         ],
         [
           "JU",
-          42071
+          42032
         ],
         [
           "BS\u002FBL\u002FJU",
-          380692
+          380496
         ]
       ],
-      "name": "2015",
+      "name": "2016",
       "turboThreshold": 0
     },
     {
@@ -51,22 +51,22 @@
       "data": [
         [
           "BS",
-          190681
+          190523
         ],
         [
           "BL",
-          148151
+          149276
         ],
         [
           "JU",
-          42019
+          42855
         ],
         [
           "BS\u002FBL\u002FJU",
-          380851
+          382654
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -74,22 +74,22 @@
       "data": [
         [
           "BS",
-          190966
+          190462
         ],
         [
           "BL",
-          149179
+          150886
         ],
         [
           "JU",
-          42886
+          43959
         ],
         [
           "BS\u002FBL\u002FJU",
-          383031
+          385307
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -97,22 +97,22 @@
       "data": [
         [
           "BS",
-          190756
+          192450
         ],
         [
           "BL",
-          150816
+          152274
         ],
         [
           "JU",
-          44030
+          44714
         ],
         [
           "BS\u002FBL\u002FJU",
-          385602
+          389438
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -242,7 +242,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

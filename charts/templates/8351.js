@@ -46,7 +46,7 @@
     }
   },
   "tooltip": {
-        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Fr.</b><br/>', 
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Fr.</b><br/>', 
     "shared": false
   },  
   "chart": {      

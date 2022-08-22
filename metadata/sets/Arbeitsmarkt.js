@@ -441,8 +441,8 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 5,0% einen Höchstwert erreicht. Im zweiten Halbjahr 2020 und im Jahresverlauf 2021 ging sie deutlich zurück. Am Jahresende 2021 lag sie mit 2,4% so tief wie noch nie in den letzten zehn Jahren. Sie lag damit unter der durchschnittlichen Quote aller Altersgruppen und auch unter der Quote der Personen ab 50 Jahre, die nur langsam zurückgeht (von 3,6% Ende 2020 auf 3,2% Ende 2021).",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.Abgebildet sind Monatswerte.",
+		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Im zweiten Halbjahr 2020 und im Jahresverlauf 2021 ging sie deutlich zurück. Am Jahresende 2021 lag sie mit 3,0% leicht unter der durchschnittlichen Quote und auch unter der Quote der Personen ab 50 Jahre, die nur langsam zurückgeht (von 3,7% Ende 2020 auf 3,3% Ende 2021).",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -456,7 +456,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.02423",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.3-02",
+		"kuerzelKunde": "3.3.2",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:09",
+		"aktualisierungsdatum": "2022-08-22T08:24:10",
 		"id": 2423
 	},
 	{
@@ -482,7 +482,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,1% im Januar auf 4,8% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,7%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,0% im Januar auf 4,7% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,6%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -497,7 +497,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.2424",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.3-03",
+		"kuerzelKunde": "3.3.3",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
@@ -507,7 +507,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:09",
+		"aktualisierungsdatum": "2022-08-22T08:24:10",
 		"id": 2424
 	},
 	{
@@ -638,7 +638,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt verlief im zweiten Jahr der COVID-19-Pandemie rückläufig, nachdem sie im ersten Jahr deutlich gestiegen war (4,3% Ende 2020). Von Februar bis Oktober 2021 ist die Quote stetig gesunken. Ende Dezember 2021 lag sie bei 3,3%. Im Jahresdurchschnitt blieb die Quote unverändert bei 3,8%. Auch in den Vergleichskantonen sowie in der Gesamtschweiz wurde im Jahresverlauf 2021 ein Rückgang der Arbeitslosenquote registriert.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt verlief im zweiten Jahr der COVID-19-Pandemie rückläufig, nachdem sie im ersten Jahr deutlich gestiegen war (4,4% Ende 2020). Zwischen Januar und Oktober 2021 ist die Quote stetig gesunken. Ende Dezember 2021 lag sie bei 3,4%. Im Jahresdurchschnitt blieb die Quote unverändert bei 3,9%. Auch in den Vergleichskantonen sowie in der Gesamtschweiz wurde im Jahresverlauf 2021 ein Rückgang der Arbeitslosenquote registriert.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -654,7 +654,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.2459",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.3-01",
+		"kuerzelKunde": "3.3.1",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
@@ -664,7 +664,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:08",
+		"aktualisierungsdatum": "2022-08-22T08:24:09",
 		"id": 2459
 	},
 	{
