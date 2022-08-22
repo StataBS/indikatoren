@@ -5,7 +5,7 @@
       "data": [
         [
           "2010",
-          1647.5
+          1424.0047062
         ],
         [
           "2012",
@@ -21,7 +21,11 @@
         ],
         [
           "2018",
-          1294.5
+          1294.5116399
+        ],
+        [
+          "2020",
+          1381.7911863
         ]
       ],
       "name": "Wohnen",
@@ -32,7 +36,7 @@
       "data": [
         [
           "2010",
-          2801.8
+          3061.3654952
         ],
         [
           "2012",
@@ -40,18 +44,22 @@
         ],
         [
           "2014",
-          2309.4
+          2309.4022297
         ],
         [
           "2016",
-          2045.3
+          2044.8963
         ],
         [
           "2018",
-          1933.5
+          1922.8656253
+        ],
+        [
+          "2020",
+          1953.3865473
         ]
       ],
-      "name": "Nichtwohnen (ohne Verkehr)",
+      "name": "Nichtwohnen",
       "turboThreshold": 0
     },
     {
@@ -59,23 +67,27 @@
       "data": [
         [
           "2010",
-          898.4
+          903.97442297
         ],
         [
           "2012",
-          835.7
+          835.6
         ],
         [
           "2014",
-          841.2
+          841.2186
         ],
         [
           "2016",
-          853.3
+          853.2817688
         ],
         [
           "2018",
-          830.9
+          830.026761
+        ],
+        [
+          "2020",
+          593.1855645
         ]
       ],
       "name": "Verkehr",
@@ -215,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
