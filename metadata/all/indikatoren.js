@@ -41250,8 +41250,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im Juli erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 3,1%, der Landesindex eine von 3,4%. Zuletzt so hoch war das lokale und nationale Preisniveau während der Finanzkrise im Herbst 2008",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juni 2022 und Juni 2021.",
+		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im August erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 3,0%. Zuletzt so hoch war das Preisniveau während der Finanzkrise im Herbst 2008.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen August 2022 und August 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -41278,7 +41278,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-03T08:32:37",
+		"aktualisierungsdatum": "2022-09-01T10:24:26",
 		"id": 7512
 	},
 	{
@@ -41317,7 +41317,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-03T08:32:38",
+		"aktualisierungsdatum": "2022-09-01T10:24:30",
 		"id": 7513
 	},
 	{
