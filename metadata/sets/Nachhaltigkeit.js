@@ -2203,14 +2203,17 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6137,
-		"chart-id": 6137,
+		"data-id": 6053,
+		"chart-id": 6053,
 		"filter": "",
-		"parentId": "6137",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8942,
+			9677
+		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,0% im Jahresdurchschnitt 2019 auf 3,8% im Jahr 2020 gestiegen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) erhöhte sich von 3,2% 2019 auf 4,1% 2020. Die Arbeitslosenquote der Personen über 50 Jahre nahm 2020 auf 3,1% zu und lag damit weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2235,7 +2238,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-11T08:35:38",
+		"aktualisierungsdatum": "2022-09-02T08:12:39",
 		"id": 6053
 	},
 	{

@@ -1,0 +1,243 @@
+{
+  "series": [
+    {
+      "upColor": "#68AB2B",
+      "color": "#B00000",
+      "data": [
+        {
+          "name": "2012",
+          "y": 7210.5,
+          "isSum": null,
+          "color": "#FABD24"
+        },
+        {
+          "name": "2013\u002F2012",
+          "y": -380.9,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2014\u002F2013",
+          "y": -847.6,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2015\u002F2014",
+          "y": 351.7,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2016\u002F2015",
+          "y": -437.3,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2017\u002F2016",
+          "y": -106.3,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2018\u002F2017",
+          "y": -1092.2,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2019\u002F2018",
+          "y": 1367.3,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2020\u002F2019",
+          "y": -938.5,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2021\u002F2020",
+          "y": 280.5,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2021",
+          "y": 5407.3,
+          "isSum": true,
+          "color": "#FABD24"
+        }
+      ],
+      "name": "Gesamtumschlag",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+                    if (this.value.length == 4) {
+                        return this.value
+                    }
+                    else {
+                        return this.value
+                            .replace("/20", "/")
+                            .replace("20", "");
+                    }
+                }
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "waterfall",
+    "renderTo": "container-9603",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "waterfall": {
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Güterumschlag auf dem Rhein"
+  },
+  "subtitle": {
+    "text": "Vorjahresvergleich, in Tausend Tonnen",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 9
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2022"
+  },
+  "tooltip": {
+    "useHTML": true,
+    "headerFormat": "",
+    "pointFormatter": function () {
+                if (this.name.length == 4) {
+                   return '<span style="font-size: 10px">' + this.name + '</span><br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+                }
+                else if (this.y < 0) {
+                    return '<span style="font-size: 10px">\u0394 ' + this.name + '</span><br/><span style="color: #B00000">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+                }
+                else {
+                    return '<span style="font-size: 10px">\u0394 ' + this.name + '</span><br/><span style="color:' + this.color + '">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+                }
+            }
+  },
+  "exporting": {
+    "filename": "9603"
+  }
+}

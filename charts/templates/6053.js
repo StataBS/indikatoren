@@ -21,7 +21,7 @@
   },
   "series": [
     {"color": "#3C3C3C",
-    legendIndex: 1,
+    legendIndex: 2,
       "marker": {
         "enabled": false
       }    
@@ -34,7 +34,7 @@
       }    
     }, /* blau */
     	{"color": "#008AC3",
-	legendIndex: 2,
+	legendIndex: 1,
 	visible:true,
       "marker": {
         "enabled": false
