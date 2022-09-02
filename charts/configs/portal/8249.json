@@ -11,38 +11,38 @@
       "data": [
         [
           "Genferseeregion",
-          9.6
+          10.5877636463649
         ],
         [
-          "Mittelland",
-          6.9
+          "Espace Mittelland",
+          6.07410843112424
         ],
         [
           "Nordwestschweiz",
-          5.4
+          3.77185113230154
         ],
         [
           "Zürich",
-          4.7
+          2.60074741809209
         ],
         [
           "Ostschweiz",
-          2.6
+          2.72380384205846
         ],
         [
           "Zentralschweiz",
-          2.1
+          2.54739283839152
         ],
         [
           "Tessin",
-          4.8
+          4.23698976141759
         ],
         [
           "Schweiz",
-          5.7
+          5.12021861415708
         ]
       ],
-      "name": "Anteil in %",
+      "name": "Anteil",
       "turboThreshold": 0
     },
     {
@@ -56,43 +56,43 @@
       "data": [
         {
           "name": "Genferseeregion",
-          "low": 7.7,
-          "high": 11.6
+          "low": 8.23105964636492,
+          "high": 12.9444676463649
         },
         {
-          "name": "Mittelland",
-          "low": 5.3,
-          "high": 8.5
+          "name": "Espace Mittelland",
+          "low": 4.32931643112424,
+          "high": 7.81890043112424
         },
         {
           "name": "Nordwestschweiz",
-          "low": 3.5,
-          "high": 7.3
+          "low": 2.33399513230154,
+          "high": 5.20970713230154
         },
         {
           "name": "Zürich",
-          "low": 3.3,
-          "high": 6.1
+          "low": 1.75892741809209,
+          "high": 3.44256741809209
         },
         {
           "name": "Ostschweiz",
-          "low": 1.4,
-          "high": 3.7
+          "low": 1.44960784205846,
+          "high": 3.99799984205846
         },
         {
           "name": "Zentralschweiz",
-          "low": 1,
-          "high": 3.2
+          "low": 0.716556838391518,
+          "high": 4.37822883839152
         },
         {
           "name": "Tessin",
-          "low": 1.9,
-          "high": 7.8
+          "low": 1.59196976141759,
+          "high": 6.88200976141759
         },
         {
           "name": "Schweiz",
-          "low": 5.1,
-          "high": 6.3
+          "low": 4.43637461415708,
+          "high": 5.80406261415708
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -176,7 +176,7 @@
     "text": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten"
   },
   "subtitle": {
-    "text": "nach Grossregion, 2017",
+    "text": "nach Grossregion, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -236,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2022"
   },
   "tooltip": {
     "shared": true

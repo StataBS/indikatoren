@@ -408,7 +408,7 @@ id | visible | visibleInPortal | indikatorenset
 6050 | true | false | Nachhaltigkeit
 6051 | true | true | Nachhaltigkeit
 6052 | true | true | Nachhaltigkeit
-6053 | true | false | Nachhaltigkeit
+6053 | true | true | Nachhaltigkeit
 6054 | true | false | Nachhaltigkeit
 6055 | true | true | Nachhaltigkeit
 6056 | true | true | Nachhaltigkeit
@@ -2159,6 +2159,7 @@ id | visible | visibleInPortal | indikatorenset
 9510 | true | false | Arbeitsmarkt (Print)
 9511 | true | false | Arbeitsmarkt (Print)
 9602 | true | true | 
+9603 | true | true | 
 9604 | true | true | 
 9605 | true | true | 
 9606 | true | true | 

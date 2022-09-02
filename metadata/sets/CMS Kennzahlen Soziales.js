@@ -322,85 +322,81 @@ var indikatorensetData = [
 		"id": 8247
 	},
 	{
-		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"subtitle": "nach Grossregion, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-06",
-		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 lebten in der Nordwestschweiz 10,1% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 20,3% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_106",
-		"parentId": null,
-		"children": [
-			"8519"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8248,
 		"chart-id": 8248,
 		"filter": "",
-		"id": 8248
-	},
-	{
-		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
-		"subtitle": "nach Grossregion, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-07",
-		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"parentId": null,
+		"children": [
+			8519
+		],
+		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"subtitle": "nach Grossregion, 2020",
+		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 5,9% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 16,6% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
+		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-06",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 lebten in der Nordwestschweiz 5,4% der Bevölkerung in einem Haushalt, in dem mindestens eine Person mindestens eine Betreibung in den letzten 12 Monaten hatte.",
-		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_106",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"8520"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-09-02T08:12:40",
+		"id": 8248
+	},
+	{
+		"template": "template001",
 		"data-id": 8249,
 		"chart-id": 8249,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8520
+		],
+		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"subtitle": "nach Grossregion, 2020",
+		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 3,8% der Bevölkerung in einem Haushalt, in dem mindestens eine Person in den letzten 12 Monaten mit mindestens einer Betreibung konfrontiert war.",
+		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-07",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_107",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-09-02T08:12:40",
 		"id": 8249
 	},
 	{

@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#3C3C3C",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "marker": {
         "enabled": false
       },
@@ -117,7 +117,11 @@
         ],
         [
           "2020",
-          0.038331
+          0.039236
+        ],
+        [
+          "2021",
+          0.038613
         ]
       ],
       "name": "Total",
@@ -241,7 +245,11 @@
         ],
         [
           "2020",
-          0.040616
+          0.049769
+        ],
+        [
+          "2021",
+          0.040401
         ]
       ],
       "name": "15-24 Jahre",
@@ -249,7 +257,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "visible": true,
       "marker": {
         "enabled": false
@@ -365,7 +373,11 @@
         ],
         [
           "2020",
-          0.031179
+          0.032028
+        ],
+        [
+          "2021",
+          0.035372
         ]
       ],
       "name": "50 Jahre und mehr",
@@ -471,9 +483,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
       "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }
     }
   },
@@ -501,7 +512,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-11"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

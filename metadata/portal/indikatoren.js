@@ -11223,46 +11223,46 @@ var indikatoren = [
 		"id": 5821
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 5822,
+		"chart-id": 5822,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6253"
+			6253
 		],
-		"template": "befragungen001",
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "",
-		"kuerzelKunde": "ST 6-1",
-		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"thema": "11 Verkehr",
-		"unterthema": "Öffentlicher Verkehr",
+		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-25T08:16:33.3333",
+		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 6-1",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Die Siedlungsentwicklung und stadtgerechte Mobilität aufeinander abstimmen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich zwischen 2019 und 2020 kaum verändert.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
+		"orderKey": "02_06_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_06_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
-		],
-		"data-id": 5822,
-		"chart-id": 5822,
-		"filter": "",
+		"aktualisierungsdatum": "2022-09-02T08:12:38",
 		"id": 5822
 	},
 	{
@@ -12531,6 +12531,47 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-26T08:26:43",
 		"id": 6052
+	},
+	{
+		"template": "line001",
+		"data-id": 6053,
+		"chart-id": 6053,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8942,
+			9677
+		],
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.06053",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE8",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_608",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-09-02T08:12:39",
+		"id": 6053
 	},
 	{
 		"template": "line001",
@@ -29444,14 +29485,15 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			7948
+			7948,
+			9679
 		],
 		"title": "Verlorene potentielle Lebensjahre",
 		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit 1995 sinken die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt. 2019 waren es bei den Männern 4&nbsp;245 VPL und bei den Frauen 2&nbsp;663.",
-		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100&nbsp;000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
+		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder leicht steigen. 2021 waren es bei den Männern 4 518 VPL und bei den Frauen 2 014.",
+		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -29474,7 +29516,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:32",
+		"aktualisierungsdatum": "2022-09-02T08:12:40",
 		"id": 7710
 	},
 	{
@@ -33741,87 +33783,83 @@ var indikatoren = [
 		"id": 8247
 	},
 	{
-		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"subtitle": "nach Grossregion, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-06",
-		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 lebten in der Nordwestschweiz 10,1% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 20,3% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_106",
-		"parentId": null,
-		"children": [
-			"8519"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8248,
 		"chart-id": 8248,
 		"filter": "",
-		"id": 8248
-	},
-	{
-		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
-		"subtitle": "nach Grossregion, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-07",
-		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"parentId": null,
+		"children": [
+			8519
+		],
+		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"subtitle": "nach Grossregion, 2020",
+		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 5,9% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 16,6% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
+		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-06",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 lebten in der Nordwestschweiz 5,4% der Bevölkerung in einem Haushalt, in dem mindestens eine Person mindestens eine Betreibung in den letzten 12 Monaten hatte.",
-		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_106",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"8520"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-09-02T08:12:40",
+		"id": 8248
+	},
+	{
+		"template": "template001",
 		"data-id": 8249,
 		"chart-id": 8249,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8520
+		],
+		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"subtitle": "nach Grossregion, 2020",
+		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 3,8% der Bevölkerung in einem Haushalt, in dem mindestens eine Person in den letzten 12 Monaten mit mindestens einer Betreibung konfrontiert war.",
+		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-07",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_107",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-09-02T08:12:40",
 		"id": 8249
 	},
 	{
@@ -38073,8 +38111,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2019/2020 waren 22% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
+		"lesehilfe": "Im Schuljahr 2020/2021 waren 19% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).<br>Per Schuljahr 2020/21 wechselte die schulärztliche Untersuchung der 5. in die 6. Stufe. Da die 6. Stufe bereits 2019/20 in der 5. Stufe untersucht worden war, fand 2020/21 keine neue Untersuchung statt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
 		],
@@ -38099,7 +38137,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:33",
+		"aktualisierungsdatum": "2022-09-02T08:12:41",
 		"id": 8451
 	},
 	{
@@ -38953,7 +38991,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-29T08:03:38",
+		"aktualisierungsdatum": "2022-09-02T08:12:41",
 		"id": 8995
 	},
 	{
@@ -39123,7 +39161,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-25T10:04:14",
+		"aktualisierungsdatum": "2022-09-02T08:12:42",
 		"id": 9022
 	},
 	{
@@ -39161,7 +39199,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-25T10:04:15",
+		"aktualisierungsdatum": "2022-09-02T08:12:42",
 		"id": 9023
 	},
 	{
@@ -40858,11 +40896,12 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9429
+			9429,
+			9681
 		],
 		"title": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2020 liegt sie bei 6,3%. Im Verlaufe des Jahres 2020 wurden insgesamt 12 793 Personen finanziell durch die Sozialhilfe unterstützt.",
+		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2021 liegt sie bei 5,9%. Im Verlaufe des Jahres 2021 wurden insgesamt 11 911 Personen finanziell durch die Sozialhilfe unterstützt.",
 		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -40888,7 +40927,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:49",
+		"aktualisierungsdatum": "2022-09-02T08:12:42",
 		"id": 9372
 	},
 	{
@@ -42143,6 +42182,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-04T08:35:36",
 		"id": 9602
+	},
+	{
+		"template": "template001",
+		"data-id": 9603,
+		"chart-id": 9603,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Güterumschlag auf dem Rhein",
+		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
+		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Der zweitgrösste Rückgang des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2021 trat eine leichte Erholung ein: Verglichen mit dem Vorjahr wurde ein Plus von 5,5% auf 5,4&nbspMio. Tonnen registriert.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2012-2021 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2021 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Güterumschlag auf dem Rhein",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09603",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-09-02T08:12:43",
+		"id": 9603
 	},
 	{
 		"template": "line001",

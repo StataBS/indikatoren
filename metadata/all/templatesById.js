@@ -2022,6 +2022,7 @@ var templatesById = {
 	"9510": "line001_print",
 	"9511": "template001_print",
 	"9602": "template001",
+	"9603": "template001",
 	"9604": "line001",
 	"9605": "pie001",
 	"9606": "template001",

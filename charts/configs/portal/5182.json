@@ -112,6 +112,10 @@
         [
           "2019\u002F20",
           null
+        ],
+        [
+          "2020\u002F21",
+          null
         ]
       ],
       "name": "Knaben",
@@ -226,6 +230,10 @@
         [
           "2019\u002F20",
           null
+        ],
+        [
+          "2020\u002F21",
+          null
         ]
       ],
       "name": "Mädchen",
@@ -338,6 +346,10 @@
         [
           "2019\u002F20",
           22
+        ],
+        [
+          "2020\u002F21",
+          24
         ]
       ],
       "name": "11. Stufe CH Knaben",
@@ -450,6 +462,10 @@
         [
           "2019\u002F20",
           22
+        ],
+        [
+          "2020\u002F21",
+          19
         ]
       ],
       "name": "11. Stufe CH Mädchen",
@@ -562,6 +578,10 @@
         [
           "2019\u002F20",
           36
+        ],
+        [
+          "2020\u002F21",
+          32
         ]
       ],
       "name": "11. Stufe Ausland Knaben",
@@ -674,6 +694,10 @@
         [
           "2019\u002F20",
           26
+        ],
+        [
+          "2020\u002F21",
+          32
         ]
       ],
       "name": "11. Stufe Ausland Mädchen",
@@ -845,7 +869,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-31"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 31.8.2021"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
