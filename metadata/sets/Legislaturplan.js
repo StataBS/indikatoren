@@ -351,7 +351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:39",
+		"aktualisierungsdatum": "2022-09-08T08:25:32",
 		"id": 6147
 	},
 	{
@@ -410,7 +410,7 @@ var indikatorensetData = [
 		],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 - abgesehen vom Velovekehr - erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -435,7 +435,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:22",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 6154
 	},
 	{
@@ -1057,7 +1057,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:42",
+		"aktualisierungsdatum": "2022-09-08T08:25:32",
 		"id": 9372
 	},
 	{

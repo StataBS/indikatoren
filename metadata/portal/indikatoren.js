@@ -11240,7 +11240,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz_OEV&tree_group_layers_Liniennetz_OEV=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -11249,7 +11249,7 @@ var indikatoren = [
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kuerzel": "",
+		"kuerzel": "I.11.2.05822",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-1",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -11262,7 +11262,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:38",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 5822
 	},
 	{
@@ -14731,7 +14731,7 @@ var indikatoren = [
 		],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 - abgesehen vom Velovekehr - erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -14757,7 +14757,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:22",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 6154
 	},
 	{
@@ -26484,7 +26484,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote ist von 3,8% im Julii 2021 auf 2,9% im Juli 2022 gesunken. Die Jugendarbeitslosenquote liegt im Juli 2022 bei 3,0%, diejenige der Personen ab 50 Jahren bei 2,7%.",
+		"lesehilfe": "Die Arbeitslosenquote ist von 3,7% im August 2021 auf 2,9% im August 2022 gesunken. Die Jugendarbeitslosenquote liegt im August 2022 bei 3,2%, diejenige der Personen ab 50 Jahren bei 2,7%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -26510,7 +26510,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:12",
+		"aktualisierungsdatum": "2022-09-08T08:25:28",
 		"id": 7510
 	},
 	{
@@ -26522,7 +26522,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Juli 2022 sind fast 2 600 offene Stellen in Basel-Stadt gemeldet. Rund drei Viertel davon sind meldepflichtig.",
+		"lesehilfe": "Ende August 2022 sind fast 2 400 offene Stellen in Basel-Stadt gemeldet. Rund drei Viertel davon sind meldepflichtig.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -26548,7 +26548,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:13",
+		"aktualisierungsdatum": "2022-09-08T08:25:29",
 		"id": 7511
 	},
 	{
@@ -29516,7 +29516,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:40",
+		"aktualisierungsdatum": "2022-09-08T08:25:29",
 		"id": 7710
 	},
 	{
@@ -32237,45 +32237,43 @@ var indikatoren = [
 		"id": 8062
 	},
 	{
+		"template": "line001",
+		"data-id": 8063,
+		"chart-id": 8063,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8633
+		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07682",
-		"kuerzelKunde": "4.05",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 liegt sie dagegen fast immer darunter.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-09-21T15:27:58.5858",
+		"description": "Leerwohnungsquote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07682",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.05",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 lag sie dagegen fast immer darunter.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8633"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8063,
-		"chart-id": 8063,
-		"filter": "",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 8063
 	},
 	{
@@ -38137,7 +38135,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:41",
+		"aktualisierungsdatum": "2022-09-08T08:25:30",
 		"id": 8451
 	},
 	{
@@ -38808,7 +38806,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt Ende Juli 2022 unter 3 000 und damit wieder etwa auf dem gleichen Niveau wie im Sommer 2019, vor der Pandemie. Die Arbeitslosenzahl erreichte im Januar 2021 einen Höchststand von rund 4 500. Die Zahl der Langzeitarbeitslosen geht seit Juni 2021 auch allmählich zurück. Trotzdem ist der Anteil der Langzeitarbeitslosen mit rund 25% immer noch deutlich höher als vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt Ende August 2022 unter 3 000 und damit wieder etwa auf dem gleichen Niveau wie im Sommer 2019, vor der Pandemie. Die Arbeitslosenzahl erreichte im Januar 2021 einen Höchststand von rund 4 500. Die Zahl der Langzeitarbeitslosen geht seit Juni 2021 auch allmählich zurück. Trotzdem ist der Anteil der Langzeitarbeitslosen mit rund 23% immer noch deutlich höher als vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38834,7 +38832,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:13",
+		"aktualisierungsdatum": "2022-09-08T08:25:30",
 		"id": 8980
 	},
 	{
@@ -38846,7 +38844,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende Juli 2022 sind 891 Personen weniger arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende Juli 2022 sind 775 Personen weniger arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38872,7 +38870,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:14",
+		"aktualisierungsdatum": "2022-09-08T08:25:30",
 		"id": 8981
 	},
 	{
@@ -38924,7 +38922,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert nur ein bisschen tiefer (rund 75 000). Von September bis Dezember betrug die Anzahl der Angestellten, für die Kurzarbeit beantragt wurde, zwischen 20 000 und 30 000. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Im Mai 2021 war ein deutlicher Rückgang zu beobachten und im Dezember 2021 lag der Wert zum ersten Mal seit Beginn der Pandemie unter 10 000. Im Juli 2022 liegt der Wert bei rund 3 500 (provisorische Zahlen). Rund 90% davon wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, im Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März 2021 geht die Zahl zurück. Im April 2022 liegt sie bei 300.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Seit Mai 2021 gehen die Zahlen deutlich zurück. Im Dezember 2021 lag der Wert zum ersten Mal seit Beginn der Pandemie unter 10 000. Im August 2022 liegt der Wert bei rund 1 100 (provisorische Zahlen). Rund 90% davon wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, im Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März 2021 geht die Zahl zurück. Im Mai 2022 liegt sie bei 285.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit drei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38950,7 +38948,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:14",
+		"aktualisierungsdatum": "2022-09-08T08:25:31",
 		"id": 8992
 	},
 	{
@@ -39161,7 +39159,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:42",
+		"aktualisierungsdatum": "2022-09-08T08:25:31",
 		"id": 9022
 	},
 	{
@@ -39199,7 +39197,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:42",
+		"aktualisierungsdatum": "2022-09-08T08:25:31",
 		"id": 9023
 	},
 	{
@@ -40927,7 +40925,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:42",
+		"aktualisierungsdatum": "2022-09-08T08:25:32",
 		"id": 9372
 	},
 	{
@@ -42218,7 +42216,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:43",
+		"aktualisierungsdatum": "2022-09-08T08:25:32",
 		"id": 9603
 	},
 	{

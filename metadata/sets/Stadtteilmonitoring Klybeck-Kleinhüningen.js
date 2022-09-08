@@ -724,44 +724,42 @@ var indikatorensetData = [
 		"id": 8062
 	},
 	{
+		"template": "line001",
+		"data-id": 8063,
+		"chart-id": 8063,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8633
+		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07682",
-		"kuerzelKunde": "4.05",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 liegt sie dagegen fast immer darunter.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-09-21T15:27:58.5858",
+		"description": "Leerwohnungsquote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07682",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.05",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 lag sie dagegen fast immer darunter.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8633"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8063,
-		"chart-id": 8063,
-		"filter": "",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 8063
 	},
 	{

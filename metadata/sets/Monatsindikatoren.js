@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote ist von 3,8% im Julii 2021 auf 2,9% im Juli 2022 gesunken. Die Jugendarbeitslosenquote liegt im Juli 2022 bei 3,0%, diejenige der Personen ab 50 Jahren bei 2,7%.",
+		"lesehilfe": "Die Arbeitslosenquote ist von 3,7% im August 2021 auf 2,9% im August 2022 gesunken. Die Jugendarbeitslosenquote liegt im August 2022 bei 3,2%, diejenige der Personen ab 50 Jahren bei 2,7%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:12",
+		"aktualisierungsdatum": "2022-09-08T08:25:28",
 		"id": 7510
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Juli 2022 sind fast 2 600 offene Stellen in Basel-Stadt gemeldet. Rund drei Viertel davon sind meldepflichtig.",
+		"lesehilfe": "Ende August 2022 sind fast 2 400 offene Stellen in Basel-Stadt gemeldet. Rund drei Viertel davon sind meldepflichtig.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:13",
+		"aktualisierungsdatum": "2022-09-08T08:25:29",
 		"id": 7511
 	},
 	{
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt Ende Juli 2022 unter 3 000 und damit wieder etwa auf dem gleichen Niveau wie im Sommer 2019, vor der Pandemie. Die Arbeitslosenzahl erreichte im Januar 2021 einen Höchststand von rund 4 500. Die Zahl der Langzeitarbeitslosen geht seit Juni 2021 auch allmählich zurück. Trotzdem ist der Anteil der Langzeitarbeitslosen mit rund 25% immer noch deutlich höher als vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt Ende August 2022 unter 3 000 und damit wieder etwa auf dem gleichen Niveau wie im Sommer 2019, vor der Pandemie. Die Arbeitslosenzahl erreichte im Januar 2021 einen Höchststand von rund 4 500. Die Zahl der Langzeitarbeitslosen geht seit Juni 2021 auch allmählich zurück. Trotzdem ist der Anteil der Langzeitarbeitslosen mit rund 23% immer noch deutlich höher als vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:13",
+		"aktualisierungsdatum": "2022-09-08T08:25:30",
 		"id": 8980
 	},
 	{
@@ -345,7 +345,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende Juli 2022 sind 891 Personen weniger arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende Juli 2022 sind 775 Personen weniger arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:14",
+		"aktualisierungsdatum": "2022-09-08T08:25:30",
 		"id": 8981
 	},
 	{
@@ -382,7 +382,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert nur ein bisschen tiefer (rund 75 000). Von September bis Dezember betrug die Anzahl der Angestellten, für die Kurzarbeit beantragt wurde, zwischen 20 000 und 30 000. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Im Mai 2021 war ein deutlicher Rückgang zu beobachten und im Dezember 2021 lag der Wert zum ersten Mal seit Beginn der Pandemie unter 10 000. Im Juli 2022 liegt der Wert bei rund 3 500 (provisorische Zahlen). Rund 90% davon wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, im Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März 2021 geht die Zahl zurück. Im April 2022 liegt sie bei 300.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Seit Mai 2021 gehen die Zahlen deutlich zurück. Im Dezember 2021 lag der Wert zum ersten Mal seit Beginn der Pandemie unter 10 000. Im August 2022 liegt der Wert bei rund 1 100 (provisorische Zahlen). Rund 90% davon wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, im Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März 2021 geht die Zahl zurück. Im Mai 2022 liegt sie bei 285.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit drei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-08T08:32:14",
+		"aktualisierungsdatum": "2022-09-08T08:25:31",
 		"id": 8992
 	}
 ];

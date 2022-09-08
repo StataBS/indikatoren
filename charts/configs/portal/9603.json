@@ -11,55 +11,55 @@
           "color": "#FABD24"
         },
         {
-          "name": "2013\u002F2012",
+          "name": "2012\u002F2013",
           "y": -380.9,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2014\u002F2013",
+          "name": "2013\u002F2014",
           "y": -847.6,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2015\u002F2014",
+          "name": "2014\u002F2015",
           "y": 351.7,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2016\u002F2015",
+          "name": "2015\u002F2016",
           "y": -437.3,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2017\u002F2016",
+          "name": "2016\u002F2017",
           "y": -106.3,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2018\u002F2017",
+          "name": "2017\u002F2018",
           "y": -1092.2,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2019\u002F2018",
+          "name": "2018\u002F2019",
           "y": 1367.3,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2020\u002F2019",
+          "name": "2019\u002F2020",
           "y": -938.5,
           "isSum": null,
           "color": null
         },
         {
-          "name": "2021\u002F2020",
+          "name": "2020\u002F2021",
           "y": 280.5,
           "isSum": null,
           "color": null
@@ -220,7 +220,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2022"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2022"
   },
   "tooltip": {
     "useHTML": true,

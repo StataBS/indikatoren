@@ -91,6 +91,14 @@
         [
           2020,
           0.96
+        ],
+        [
+          2021,
+          1.13
+        ],
+        [
+          2022,
+          1.19
         ]
       ],
       "name": "Stadt Basel"
@@ -182,6 +190,14 @@
         [
           2020,
           0.78
+        ],
+        [
+          2021,
+          0.41
+        ],
+        [
+          2022,
+          1.17
         ]
       ],
       "name": "Klybeck"
@@ -273,6 +289,14 @@
         [
           2020,
           1.62
+        ],
+        [
+          2021,
+          0.5
+        ],
+        [
+          2022,
+          1.29
         ]
       ],
       "name": "Kleinhüningen"
@@ -395,7 +419,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -435,6 +459,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8063
+    "filename": "8063"
   }
 }
