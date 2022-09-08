@@ -280,6 +280,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-8454"
   },
   "plotOptions": {
@@ -385,7 +386,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

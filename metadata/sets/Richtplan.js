@@ -454,7 +454,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz_OEV&tree_group_layers_Liniennetz_OEV=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -463,7 +463,7 @@ var indikatorensetData = [
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kuerzel": "",
+		"kuerzel": "I.11.2.05822",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-1",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:38",
+		"aktualisierungsdatum": "2022-09-08T08:25:33",
 		"id": 5822
 	},
 	{
