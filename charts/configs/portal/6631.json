@@ -30,7 +30,7 @@
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
           "y": 15,
-          "Wert": 0.357009926
+          "Wert": 0.3570099256
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
   },
   "legend": {
     "enabled": false,
