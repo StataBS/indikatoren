@@ -30,7 +30,7 @@
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
           "y": 12,
-          "Wert": 0.319022063
+          "Wert": 0.3190220632
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
   },
   "legend": {
     "enabled": false,

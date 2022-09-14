@@ -30,7 +30,7 @@
           "name": "Altersquotient",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.22439759
+          "Wert": 0.2243975904
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
   },
   "legend": {
     "enabled": false,

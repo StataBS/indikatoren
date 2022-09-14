@@ -30,7 +30,7 @@
           "name": "Altersquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.477522306
+          "Wert": 0.4775223061
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
   },
   "legend": {
     "enabled": false,
