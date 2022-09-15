@@ -7,11 +7,11 @@
       "data": [
         [
           "Wegpendler",
-          6419
+          6113
         ],
         [
           "Zupendler",
-          13213
+          13077
         ]
       ],
       "name": "Solothurn",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Wegpendler",
-          9354
+          9181
         ],
         [
           "Zupendler",
-          16008
+          15547
         ]
       ],
       "name": "Aargau",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Wegpendler",
-          5482
+          5456
         ],
         [
           "Zupendler",
-          3693
+          3609
         ]
       ],
       "name": "Bern",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Wegpendler",
-          4652
+          4248
         ],
         [
           "Zupendler",
-          2921
+          2694
         ]
       ],
       "name": "Zürich",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Wegpendler",
-          3153
+          2933
         ],
         [
           "Zupendler",
-          3571
+          3227
         ]
       ],
       "name": "Andere",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Wegpendler",
-          767
+          883
         ],
         [
           "Zupendler",
-          64468
+          65121
         ]
       ],
       "name": "Ausland",
@@ -182,7 +182,7 @@
     "text": "Arbeitspendler BS\u002FBL\u002FJU"
   },
   "subtitle": {
-    "text": "Pooling 2015-2019",
+    "text": "Pooling 2016-2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"

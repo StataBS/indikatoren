@@ -7,19 +7,19 @@
       "data": [
         [
           "Basel-Stadt",
-          -24427
+          -23824
         ],
         [
           "Basel-Landschaft",
-          -58223
+          -56122
         ],
         [
           "Jura",
-          -5157
+          -5129
         ],
         [
           "BS\u002FBL\u002FJU",
-          -29060
+          -27931
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -32,11 +32,11 @@
       "data": [
         [
           "Basel-Stadt",
-          -476
+          -589
         ],
         [
           "Basel-Landschaft",
-          -276
+          -278
         ],
         [
           "Jura",
@@ -44,7 +44,7 @@
         ],
         [
           "BS\u002FBL\u002FJU",
-          -767
+          -883
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -57,19 +57,19 @@
       "data": [
         [
           "Basel-Stadt",
-          62404
+          60353
         ],
         [
           "Basel-Landschaft",
-          33451
+          32609
         ],
         [
           "Jura",
-          2299
+          2335
         ],
         [
           "BS\u002FBL\u002FJU",
-          39406
+          38154
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -82,19 +82,19 @@
       "data": [
         [
           "Basel-Stadt",
-          35014
+          34972
         ],
         [
           "Basel-Landschaft",
-          21440
+          21857
         ],
         [
           "Jura",
-          8015
+          8291
         ],
         [
           "BS\u002FBL\u002FJU",
-          64468
+          65121
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -102,29 +102,35 @@
     },
     {
       "color": "#000000",
-      "type": "scatter",
+      "type": "line",
       "marker": {
         "enabled": true,
         "symbol": "diamond",
         "radius": 6
       },
-      "legendIndex": 4,
+      "legendIndex": 5,
+      "states": {
+        "hover": {
+          "enabled": "true",
+          "lineWidthPlus": 0
+        }
+      },
       "data": [
         [
           "Basel-Stadt",
-          72515
+          70913
         ],
         [
           "Basel-Landschaft",
-          -3608
+          -1934
         ],
         [
           "Jura",
-          5142
+          5482
         ],
         [
           "BS\u002FBL\u002FJU",
-          74047
+          74461
         ]
       ],
       "name": "Pendlersaldo",
@@ -195,6 +201,7 @@
           "fontSize": "10px"
         }
       },
+      "lineWidth": 0,
       "stacking": "normal"
     }
   },
@@ -208,7 +215,7 @@
     "text": "Arbeitspendler"
   },
   "subtitle": {
-    "text": "Pooling 2015-2019",
+    "text": "Pooling 2016-2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -270,16 +277,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
   },
   "tooltip": {
-    "pointFormatter": function () {
-        if (this.series.name == "Pendlersaldo") {
-          return '<b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
-        }
-        else return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y, 0), 0) + '</b><br/><b>'
-      },
-    "shared": true
+    "shared": true,
+    "useHTML": true,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003C\u002Ftable\u003E"
   },
   "exporting": {
     "filename": "8367"
