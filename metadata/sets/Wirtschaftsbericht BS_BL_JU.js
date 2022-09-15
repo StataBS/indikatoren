@@ -407,7 +407,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
-		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2019 rund 138 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 95 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 267 000 Personen erwerbstätig.",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2020 rund 138 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 94 000 Erwerbstätige. Zusammen mit den rund 33 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 265 000 Personen erwerbstätig.",
 		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -432,7 +432,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:47",
+		"aktualisierungsdatum": "2022-09-15T09:04:42",
 		"id": 8360
 	},
 	{
@@ -525,9 +525,9 @@ var indikatorensetData = [
 			8480
 		],
 		"title": "Arbeitspendler Basel-Stadt",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 pendelten fast 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 42 600) oder aus dem Ausland (rund 35 000), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Fast 25 000 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, rund 15 300 von ihnen in Basel-Landschaft.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 pendelten rund 95 300 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 41 200) oder aus dem Ausland (fast 35 000), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Rund 24 400 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, fast 15 100 von ihnen in Basel-Landschaft.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -551,7 +551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:48",
+		"aktualisierungsdatum": "2022-09-15T09:04:43",
 		"id": 8363
 	},
 	{
@@ -564,9 +564,9 @@ var indikatorensetData = [
 			8481
 		],
 		"title": "Arbeitspendler Basel-Landschaft",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2015 bis 2019 etwas mehr Weg- als Zupendler (rund 58 500 gegenüber 54 900). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 42 600. Die meisten Zupendler kommen mit rund 21 400 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit fast 15 300 Arbeitskräften.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2016 bis 2020 etwas mehr Weg- als Zupendler (56 400 gegenüber rund 54 500). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 41 200. Die meisten Zupendler kommen mit fast 21 900 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit etwa 15 100 Arbeitskräften.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -590,7 +590,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-04T08:59:29",
+		"aktualisierungsdatum": "2022-09-15T09:04:41",
 		"id": 8364
 	},
 	{
@@ -603,9 +603,9 @@ var indikatorensetData = [
 			8482
 		],
 		"title": "Arbeitspendler Jura",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2015 bis 2019 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 200 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit fast 2 800 in den Kanton Bern, gefolgt von Neuenburg mit etwa 800 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 300 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit über 8 000 Personen aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2016 bis 2020 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 100 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit rund 2 800 in den Kanton Bern, gefolgt von Neuenburg mit etwa 900 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 600 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit etwa 8 600 Personen aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -629,7 +629,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-04T08:59:29",
+		"aktualisierungsdatum": "2022-09-15T09:04:41",
 		"id": 8365
 	},
 	{
@@ -642,9 +642,9 @@ var indikatorensetData = [
 			8483
 		],
 		"title": "Arbeitspendler BS/BL/JU",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2015 bis 2019 insgesamt rund 29 800 Personen zur Arbeit aus diesem Gebiet weg, fast 103 900 kommen von auswärts an ihren Arbeitsplatz. Mit über 9 400 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendlern kommt die grosse Mehrheit mit rund 64 500 Arbeitskräften aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2016 bis 2020 insgesamt rund 28 800 Personen zur Arbeit aus diesem Gebiet weg, fast 103 300 kommen von auswärts an ihren Arbeitsplatz. Mit fast 9 200 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendlern kommt die grosse Mehrheit mit rund 65 100 Arbeitskräften aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -668,7 +668,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:47",
+		"aktualisierungsdatum": "2022-09-15T09:04:42",
 		"id": 8366
 	},
 	{
@@ -681,9 +681,9 @@ var indikatorensetData = [
 			8484
 		],
 		"title": "Arbeitspendler",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2015 bis 2019 ist für Basel-Stadt (+72 500) und Jura (+5 100) positiv, für Basel-Landschaft (-3 600) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 000 mehr Zu- als Wegpendler.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2016 bis 2020 ist für Basel-Stadt (+70 900) und Jura (+5 500) positiv, für Basel-Landschaft (-1 900) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 500 mehr Zu- als Wegpendler.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -707,7 +707,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:47",
+		"aktualisierungsdatum": "2022-09-15T09:04:43",
 		"id": 8367
 	},
 	{
@@ -1561,7 +1561,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2019 bei 67,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 64,9% und 70,6%. Im Kanton Basel-Landschaft liegt die Quote bei 74,1% und im Kanton Jura bei 69,3%. Der Wert für die Schweiz beträgt 75,4%.",
+		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2020 bei 68,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,0% und 71,4%. Im Kanton Basel-Landschaft liegt die Quote bei 72,9% und im Kanton Jura bei 75,0%. Der Wert für die Schweiz beträgt 74,8%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1587,7 +1587,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:38",
+		"aktualisierungsdatum": "2022-09-15T09:04:40",
 		"id": 8446
 	},
 	{
@@ -1601,7 +1601,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,0%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,8% und 71,2%. Im Kanton Basel-Landschaft liegt die Quote bei 70,3% und im Kanton Jura bei 64,7%. Der Wert für die Schweiz beträgt 71,3%.",
+		"lesehilfe": "Im Jahr 2020 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 68,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,5% und 70,9%. Im Kanton Basel-Landschaft liegt die Quote bei 69,4% und im Kanton Jura bei 66,6%. Der Wert für die Schweiz beträgt 70,6%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1627,7 +1627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:39",
+		"aktualisierungsdatum": "2022-09-15T09:04:42",
 		"id": 8447
 	},
 	{
@@ -1679,8 +1679,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2020, 4. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 20 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2021, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 21 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2019). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -1706,7 +1706,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:39",
+		"aktualisierungsdatum": "2022-09-15T09:04:43",
 		"id": 8863
 	},
 	{

@@ -11,77 +11,6 @@
       "data": [
         [
           "Basel-Stadt",
-          66.4025
-        ],
-        [
-          "Basel-Landschaft",
-          74.9178
-        ],
-        [
-          "Jura",
-          68.8233
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          71.2795
-        ],
-        [
-          "Schweiz",
-          75.3794
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "index": 1,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
-          }
-      },
-      "data": [
-        {
-          "name": "Basel-Stadt",
-          "low": 63.6039,
-          "high": 69.2011
-        },
-        {
-          "name": "Basel-Landschaft",
-          "low": 72.9863,
-          "high": 76.8492
-        },
-        {
-          "name": "Jura",
-          "low": 64.5354,
-          "high": 73.1112
-        },
-        {
-          "name": "BS\u002FBL\u002FJU",
-          "low": 69.7765,
-          "high": 72.7826
-        },
-        {
-          "name": "Schweiz",
-          "low": 75.0399,
-          "high": 75.7188
-        }
-      ],
-      "name": "95% Konfidenzintervall Untergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#0F7399",
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-          }
-      },
-      "data": [
-        [
-          "Basel-Stadt",
           72.7308
         ],
         [
@@ -105,11 +34,11 @@
       "turboThreshold": 0
     },
     {
-      "index": 3,
+      "index": 1,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -143,8 +72,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 4,
-      "color": "#689199",
+      "index": 2,
+      "color": "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -176,11 +105,11 @@
       "turboThreshold": 0
     },
     {
-      "index": 5,
+      "index": 3,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -214,8 +143,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 6,
-      "color": "#A8C3CA",
+      "index": 4,
+      "color": "#689199",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -247,11 +176,11 @@
       "turboThreshold": 0
     },
     {
-      "index": 7,
+      "index": 5,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -285,12 +214,12 @@
       "turboThreshold": 0
     },
     {
-      "index": 8,
-      "color": "#D3E2E4",
+      "index": 6,
+      "color": "#A8C3CA",
       "tooltip": {
         "pointFormatter": function () {
-              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-            }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -318,12 +247,12 @@
       "turboThreshold": 0
     },
     {
-      "index": 9,
+      "index": 7,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
-            }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+          }
       },
       "data": [
         {
@@ -350,6 +279,77 @@
           "name": "Schweiz",
           "low": 75.1028,
           "high": 75.7791
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#D3E2E4",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          68.7455
+        ],
+        [
+          "Basel-Landschaft",
+          72.9321
+        ],
+        [
+          "Jura",
+          75.0305
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.855
+        ],
+        [
+          "Schweiz",
+          74.8357
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+            }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 66.0455,
+          "high": 71.4455
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 70.9564,
+          "high": 74.9078
+        },
+        {
+          "name": "Jura",
+          "low": 71.2177,
+          "high": 78.8433
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 70.3804,
+          "high": 73.3296
+        },
+        {
+          "name": "Schweiz",
+          "low": 74.5135,
+          "high": 75.1578
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -492,7 +492,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
   },
   "tooltip": {
     "shared": true

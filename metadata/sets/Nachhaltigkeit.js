@@ -640,7 +640,7 @@ var indikatorensetData = [
 		],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "11. Schulstufe, nach Nationalität und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2018/2019 waren auf der 11. Schulstufe 22% der Schweizer Mädchen übergewichtig, d.  h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"lesehilfe": "Im Schuljahr 2020/2021 waren auf der 11. Schulstufe 19% der Schweizer Mädchen übergewichtig, d.  h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen auf den Schulstufen 1, 5 und 11 erhoben (gemäss HarmoS-Definition: 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium)). Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J. Cole (BMJ Vol. 320, 5/2000).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-31T09:34:37",
+		"aktualisierungsdatum": "2022-09-15T09:04:44",
 		"id": 5182
 	},
 	{

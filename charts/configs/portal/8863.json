@@ -1,35 +1,30 @@
 {
   "series": [
     {
-      "index": 1,
       "data": [
         [
           "BS",
-          0.180473484
+          0.181440894
         ],
         [
           "BL",
-          0.153281482
+          0.153810894
         ],
         [
           "JU",
-          0.200118101
+          0.208317306
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.172081317
+          0.17372316
         ],
         [
           "CH",
-          0.065487895
+          0.067607479
         ]
       ],
-      "name": "2020 Q4",
+      "name": "2021 Q4",
       "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "yAxis": 1
     }
   ],
   "xAxis": {
@@ -49,7 +44,6 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "x": -12,
       "rotation": 0,
       "formatter": function () {
             //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
@@ -93,11 +87,9 @@
       "marker": {
         "enabled": false
       },
-      "pointPadding": -0.5,
+      "colorByPoint": true,
+      "pointPadding": 0,
       "borderWidth": 0
-    },
-    "column": {
-      "colorByPoint": true
     }
   },
   "title": {
@@ -110,7 +102,7 @@
     "text": "Anteil Grenzgänger an der Beschäftigung"
   },
   "subtitle": {
-    "text": "2020, 4. Quartal",
+    "text": "2021, 4. Quartal",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -118,40 +110,22 @@
       "color": "#000000"
     }
   },
-  "yAxis": [
-    {
-      "labels": {
-        "formatter": function(){
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": "",
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
                 return Highcharts.numberFormat((this.value*100),0)+'%'; 
-              },
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "title": ""
+              }
     },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "gridLineWidth": 0,
-      "opposite": true
-    }
-  ],
+    "max": undefined
+  },
   "legend": {
     "enabled": false,
     "layout": "horizontal",
@@ -175,7 +149,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -220,9 +194,8 @@
   ],
   "tooltip": {
     "pointFormatter": function(){
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-          },
-    "shared": false
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>' 
+          }
   },
   "exporting": {
     "filename": "8863"

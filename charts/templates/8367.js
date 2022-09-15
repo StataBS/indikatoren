@@ -2,8 +2,7 @@
   return {
     "plotOptions": {
       "series": {
-        // pointPadding: 100,
-        // "pointWidth": 15,
+        lineWidth: 0,
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -17,8 +16,6 @@
       "tickInterval": 1
     },
     "yAxis": {
-      //tickInterval: 40000,
-      //tickAmount: 6,
       "labels": {
         "format": "{value:,.0f}",
       },
@@ -39,13 +36,12 @@
       }
     },
     "tooltip": {
-      "pointFormatter": function () {
-        if (this.series.name == "Pendlersaldo") {
-          return '<b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
-        }
-        else return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y, 0), 0) + '</b><br/><b>'
-      },
-      "shared": true,
+      shared: true,
+      useHTML: true,
+      headerFormat: "<table>",
+      pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}:</td>'
+        + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td></tr>',
+      footerFormat: '</table>',
     },
     "series": [
       { "color": "#246370", "index": 1, legendIndex: 1 }, /*rot */
@@ -54,20 +50,23 @@
       { "color": "#8AB77D", "index": 4, legendIndex: 4 }, /*hellblau */
       {
         "color": "#000000",
-        //"index": 1,
-        "type": "scatter",
+        "type": "line",
         "marker": {
           "enabled": true,
           symbol: "diamond",
           radius: 6,
         },
-        legendIndex: 4,
+        legendIndex: 5,
+        "states": {
+          "hover": {
+            "enabled": "true",
+            "lineWidthPlus": 0
+          }
+        }
       },
     ],
     "chart": {
-      // width: 665,
       "marginBottom": 75,
-      //"marginTop": 75,
       "type": "column",
     },
     "data": {
