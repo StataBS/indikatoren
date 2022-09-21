@@ -9514,7 +9514,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Pflegetage in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2020 betrug im Hauptbereich Akutsomatik 475 820.",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2021 betrug im Hauptbereich Akutsomatik 492 631.",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -9541,7 +9541,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"aktualisierungsdatum": "2022-09-21T08:15:43",
 		"id": 4948
 	},
 	{
@@ -9941,6 +9941,46 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-08-15T08:12:27",
 		"id": 5157
+	},
+	{
+		"template": "line001",
+		"data-id": 5160,
+		"chart-id": 5160,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9663
+		],
+		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.05160",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "SH1",
+		"stufe1": "Bereich Staatliches Handeln",
+		"stufe2": "Finanzhaushalt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_201",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-09-21T08:15:44",
+		"id": 5160
 	},
 	{
 		"template": "template001",
@@ -25743,7 +25783,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Einbruchdiebstähle",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 wurden auf 1 000 Einwohner im Kanton Basel-Stadt 3,9 Einbruchdiebstähle polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2021 wurden auf 1000 Einwohner im Kanton Basel-Stadt 6,3 Einbruchdiebstähle polizeilich registriert.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -25769,7 +25809,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:32",
+		"aktualisierungsdatum": "2022-09-21T08:15:45",
 		"id": 6979
 	},
 	{
@@ -26172,7 +26212,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Alters- und Pflegeheime",
 		"subtitle": "Anzahl Institutionen und zur Verfügung stehende Plätze, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 gab es insgesamt 39 Institutionen für Betagte in Basel-Stadt, welche 3&nbsp;225 Plätze zur Verfügung stellten.",
+		"lesehilfe": "Im Jahr 2021 gab es 39 Institutionen für Betagte in Basel-Stadt, welche  insgesamt 3&nbsp;209 Plätze zur Verfügung stellten.",
 		"erlaeuterungen": "Gezählt werden alle Institutionen, welche den Fragebogen A der obligatorischen Statistik der sozialmedizinischen Institutionen (SOMED) ausfüllen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -26198,7 +26238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:13",
+		"aktualisierungsdatum": "2022-09-21T08:15:46",
 		"id": 6995
 	},
 	{
@@ -26675,7 +26715,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "139 505 Logiernächte wurden im Juli 2022 in den Basler Hotelbetrieben gebucht, 6 629 bzw. 12,3% mehr als im Juni. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 70,4% bzw. 57 648 Übernachtungen. Die inländischen Gäste buchten 55 306 Logiernächte (+48,3%), die Gäste aus dem Ausland 84 199 Übernachtungen (+88,9%).",
+		"lesehilfe": "137 185 Logiernächte wurden im August 2022 in den Basler Hotelbetrieben gebucht, 1 320 bzw. 1,7% weniger als im Juli. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 31,5% bzw. 32 828 Übernachtungen. Die inländischen Gäste buchten 57 726 Logiernächte (+25,4%), die Gäste aus dem Ausland 79 459 Übernachtungen (+36,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26701,7 +26741,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-19T08:01:28",
+		"aktualisierungsdatum": "2022-09-21T08:15:46",
 		"id": 7516
 	},
 	{
@@ -26712,8 +26752,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
+		"subtitle": "Basel-Stadt, August",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26739,7 +26779,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-19T08:01:29",
+		"aktualisierungsdatum": "2022-09-21T08:15:46",
 		"id": 7517
 	},
 	{

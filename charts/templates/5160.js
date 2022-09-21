@@ -7,8 +7,9 @@
         "color": "#000000"
       }
     },
-    "min": 0,
-    "max": undefined,
+    "min": -2.5,
+    "max": 10,
+    tickAmount: 6,
     "title": ""
   },
   {
@@ -25,8 +26,9 @@
         "color": "#000000"
       }
     },
-    "min": 0,
-    "max": undefined,
+    "min": -6000,
+    "max": 24000,
+    tickAmount: 6,
     "gridLineWidth": 0,
     "opposite": true
   }
