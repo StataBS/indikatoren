@@ -45,6 +45,10 @@
         [
           2020,
           3.9
+        ],
+        [
+          2021,
+          6.3
         ]
       ],
       "name": "Anzahl Einbrüche"
@@ -175,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
