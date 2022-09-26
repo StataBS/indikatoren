@@ -39027,7 +39027,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:39",
+		"aktualisierungsdatum": "2022-09-26T08:22:33",
 		"id": 8995
 	},
 	{
@@ -41138,7 +41138,7 @@
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2020 bei total 26 300. Den grössten Anteil macht mit 6 293 Personen (23,9%) die Kategorie «Übrige Schweiz» aus. Besonders stark war das Wachstum zwischen 2011 und 2020 bei den Studierenden aus dem Aargau (+39,7%).",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2021 bei total 26 443. Den grössten Anteil macht mit 6 384 Personen (24,1%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus dem Aargau zugenommen; dieses Wachstum ist allerdings fast ausschliesslich auf die FHNW zurückzuführen.",
 		"erlaeuterungen": "Studierende der Universität Basel und der Fachhochschule Nordwestschweiz FHNW nach Wohnort vor Studienbeginn. Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -41165,7 +41165,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:57",
+		"aktualisierungsdatum": "2022-09-26T08:22:34",
 		"id": 9379
 	},
 	{
@@ -41302,7 +41302,7 @@
 		],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 21,8 km, jene der Fussgängerzonen 4,7 km.",
+		"lesehilfe": "Im Jahr 2021 betrug die Länge der Begegnungszonen in der Stadt Basel 22,8 km, jene der Fussgängerzonen 4,7 km.",
 		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -41330,7 +41330,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:15",
+		"aktualisierungsdatum": "2022-09-26T08:22:34",
 		"id": 9387
 	},
 	{
@@ -41577,7 +41577,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:37",
+		"aktualisierungsdatum": "2022-09-26T08:22:34",
 		"id": 9395
 	},
 	{
