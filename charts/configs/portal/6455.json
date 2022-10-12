@@ -38,6 +38,10 @@
         [
           2019,
           0.8689941
+        ],
+        [
+          2020,
+          0.8639405
         ]
       ],
       "name": "Männer"
@@ -80,6 +84,10 @@
         [
           2019,
           0.7078079
+        ],
+        [
+          2020,
+          0.7039574
         ]
       ],
       "name": "Frauen"
@@ -122,6 +130,10 @@
         [
           2019,
           0.7922211
+        ],
+        [
+          2020,
+          0.7873447
         ]
       ],
       "name": "Total"
@@ -255,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -293,7 +305,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b>'
       }
   },
   "exporting": {

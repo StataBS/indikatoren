@@ -51,7 +51,6 @@
             }
         },
         "legend": {
-            itemDistance: 5,
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
@@ -62,7 +61,6 @@
         },
         "chart": {
             "marginBottom": 65,
-            //"marginTop": 75,
             "type": "column",
             "inverted": false
         }

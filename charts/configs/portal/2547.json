@@ -38,6 +38,10 @@
         [
           "2019",
           152463
+        ],
+        [
+          "2020",
+          148633
         ]
       ],
       "name": "BS",
@@ -81,6 +85,10 @@
         [
           "2019",
           119702
+        ],
+        [
+          "2020",
+          119125
         ]
       ],
       "name": "BL",
@@ -124,6 +132,10 @@
         [
           "2019",
           269855
+        ],
+        [
+          "2020",
+          266889
         ]
       ],
       "name": "AG",
@@ -167,6 +179,10 @@
         [
           "2019",
           818968
+        ],
+        [
+          "2020",
+          821032
         ]
       ],
       "name": "ZH",
@@ -295,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -38,6 +38,10 @@
         [
           "2019",
           11772
+        ],
+        [
+          "2020",
+          11362
         ]
       ],
       "name": "Handel, Reparatur",
@@ -81,6 +85,10 @@
         [
           "2019",
           9808
+        ],
+        [
+          "2020",
+          9317
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -124,6 +132,10 @@
         [
           "2019",
           7956
+        ],
+        [
+          "2020",
+          5678
         ]
       ],
       "name": "Gastgewerbe",
@@ -167,6 +179,10 @@
         [
           "2019",
           4297
+        ],
+        [
+          "2020",
+          4406
         ]
       ],
       "name": "Information, Kommunikation",
@@ -295,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
