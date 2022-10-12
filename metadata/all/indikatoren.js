@@ -975,8 +975,8 @@ var indikatoren = [
 			7026
 		],
 		"title": "Beschäftigung in Industrie und Baugewerbe",
-		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 sind in der Chemischen und Pharmazeutischen Industrie 17 730 Beschäftigte (in VZÄ) tätig, was einem Rückgang um 2,0% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 2,4% und im Baugewerbe um 3,2% reduziert.",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 sind in der chemischen und pharmazeutischen Industrie 17 638 Beschäftigte (in VZÄ) tätig, was einem Rückgang um 0,5% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 4,0% reduziert und im Baugewerbe um 0,6% erhöht.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -991,7 +991,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.2528",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-05",
+		"kuerzelKunde": "3.2.5",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -1002,7 +1002,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:06",
+		"aktualisierungsdatum": "2022-10-12T01:26:30",
 		"id": 2528
 	},
 	{
@@ -1016,7 +1016,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2018 und 2019 eine Zunahme der Beschäftigung (in VZÄ) um 0,7%. Das Gastgewerbe (+7,2%) und die Branchen Verkehr und Lagerei (+7,0%) sowie Information und Kommunikation (+8,6%) verzeichnen einen deutlichen Anstieg.",
+		"lesehilfe": "Das Gastgewerbe ist zwischen 2019 und 2020 mit einer Abnahme der Beschäftigung (in VZÄ) um 28,6% besonders stark rückläufig. Die Branchen Verkehr und Lagerei (-5,0%) sowie Handel und Reparatur (-3,5%) verzeichnen ebenfalls einen Rückgang, die Branche Information und Kommunikation eine Zunahme (+2,5%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1031,7 +1031,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.02529",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-06",
+		"kuerzelKunde": "3.2.6",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -1042,7 +1042,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:07",
+		"aktualisierungsdatum": "2022-10-12T01:26:32",
 		"id": 2529
 	},
 	{
@@ -1056,7 +1056,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
-		"lesehilfe": "Im Jahr 2019 sind im Kanton Basel-Stadt 152 463 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Zunahme um 1,8% gegenüber dem Vorjahr entspricht. Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 1,2%, die Kantone Zürich und Aargau um 1,5% bzw. 1,0%.",
+		"lesehilfe": "Im Jahr 2020 sind im Kanton Basel-Stadt 148 633 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Abnahme um 2,5% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft und Aargau verzeichnen einen Rückgang der VZÄ um 0,5% bzw. 1,1%, der Kanton Zürich ein leichtes Plus von 0,3%",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1071,7 +1071,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.2547",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-01",
+		"kuerzelKunde": "3.2.1",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -1082,7 +1082,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:03",
+		"aktualisierungsdatum": "2022-10-12T01:26:21",
 		"id": 2547
 	},
 	{
@@ -7931,7 +7931,7 @@ var indikatoren = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
 		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
@@ -7960,7 +7960,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:11",
+		"aktualisierungsdatum": "2022-10-12T01:27:00",
 		"id": 4838
 	},
 	{
@@ -10028,13 +10028,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 5155,
-		"chart-id": 5155,
+		"chart-id": 6011,
 		"filter": "",
 		"parentId": "6011",
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 zogen 13 480 Personen neu in den Kanton Basel-Stadt. Dies ist der niedrigste Wert der letzten zehn Jahre. 12 524 Personen verliessen den Kanton im Jahr 2020. Letztmals weniger Weggezogene wurden 2012 - nämlich 12 441 - registriert. Der Wanderungssaldo fiel zwischen 2011 und 2020 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück. Im Vergleich zum Jahr 2019 hat die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und der Nordwestschweiz sowie der übrigen Schweiz zugenommen, während die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und dem Ausland zurückgegangen ist.",
+		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -10047,7 +10047,7 @@ var indikatoren = [
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.5.05155",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE8.1",
 		"stufe1": "Bereich Bevölkerung",
@@ -10060,7 +10060,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:56:01",
+		"aktualisierungsdatum": "2022-10-12T01:26:44",
 		"id": 5155
 	},
 	{
@@ -11865,7 +11865,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 152 462 Beschäftigte. Das entspricht einer Beschäftigtendichte von 42,5 Beschäftigten (VZÄ) pro Hektar.",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 148 633 Beschäftigte. Das entspricht einer Beschäftigtendichte von 41,4 Beschäftigten (VZÄ) pro Hektar.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -11891,7 +11891,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-07T08:04:16",
+		"aktualisierungsdatum": "2022-10-12T01:26:58",
 		"id": 5823
 	},
 	{
@@ -11984,11 +11984,12 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			6257
+			6257,
+			9676
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2019 von 192 076 auf 200 407 gestiegen, was einem Anstieg von etwa 4,3% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 5,1% von 183 183 auf 192 450.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2020 von 192 076 auf 201 971 gestiegen, was einem Anstieg von etwa 5,2% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 3,1% von 183 183 auf 188 778.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -12015,7 +12016,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:10",
+		"aktualisierungsdatum": "2022-10-12T01:26:55",
 		"id": 5901
 	},
 	{
@@ -22239,8 +22240,8 @@ var indikatoren = [
 			6395
 		],
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 60 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 57 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -22268,7 +22269,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:09",
+		"aktualisierungsdatum": "2022-10-12T01:26:49",
 		"id": 6383
 	},
 	{
@@ -22281,8 +22282,8 @@ var indikatoren = [
 			6396
 		],
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 580 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 590 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -22310,7 +22311,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:09",
+		"aktualisierungsdatum": "2022-10-12T01:26:47",
 		"id": 6384
 	},
 	{
@@ -22672,8 +22673,8 @@ var indikatoren = [
 		"parentId": "6383",
 		"children": [],
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 60 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 57 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -22701,7 +22702,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:35",
+		"aktualisierungsdatum": "2022-10-12T01:26:53",
 		"id": 6395
 	},
 	{
@@ -22712,8 +22713,8 @@ var indikatoren = [
 		"parentId": "6384",
 		"children": [],
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 580 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 590 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -22741,7 +22742,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:35",
+		"aktualisierungsdatum": "2022-10-12T01:26:51",
 		"id": 6396
 	},
 	{
@@ -24530,7 +24531,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 beträgt die Beschäftigung bei den Frauen 64 881 Vollzeitäquivalente (VZÄ) bzw. 91 664 Beschäftigte, was einem Zuwachs um 1 296 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 1 381 VZÄ auf 87 582 VZÄ (100 786 Beschäftigte) gestiegen.",
+		"lesehilfe": "Im Jahr 2020 beträgt die Beschäftigung bei den Frauen 63 625 Vollzeitäquivalente (VZÄ) bzw. 90 382 Beschäftigte, was einem Rückgang um 1 256 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 2 574 VZÄ auf 85 008 VZÄ (98 396 Beschäftigte) zurückgegangen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24545,7 +24546,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6454",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-03",
+		"kuerzelKunde": "3.2.3",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -24556,7 +24557,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:04",
+		"aktualisierungsdatum": "2022-10-12T01:26:26",
 		"id": 6454
 	},
 	{
@@ -24570,7 +24571,7 @@ var indikatoren = [
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 192 450 Beschäftigten im Jahr 2019 entsprechen umgerechnet 152 463 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"lesehilfe": "Die 188 778 Beschäftigten im Jahr 2020 entsprechen umgerechnet 148 633 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 86%, bei den Frauen bei 70%.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24585,7 +24586,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6455",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-04",
+		"kuerzelKunde": "3.2.4",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -24596,7 +24597,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:05",
+		"aktualisierungsdatum": "2022-10-12T01:26:28",
 		"id": 6455
 	},
 	{
@@ -24610,7 +24611,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet zwischen 2018 und 2019 einen Anstieg der Beschäftigung (in VZÄ) um 3,1%. Auch die Branchen  Finanz- und Versicherungsdienstleistungen sowie Personalvermittlung und -überlassung sind im gleichen Zeitraum um 0,2% bzw. 8,8% gewachsen. Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weist einen Rückgang um 0,7% auf.",
+		"lesehilfe": "Die Branche Finanz- und Versicherungsdienstleistungen verzeichnet zwischen 2019 und 2020 einen Anstieg der Beschäftigung (in VZÄ) um 3,4%. Die Branchen Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (-9,3%), Personalvermittlung und -überlassung (-3,8%) sowie Beratung, Planung, Forschung und Immobilien (-0,2%) sind allesamt rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24625,7 +24626,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6456",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-07",
+		"kuerzelKunde": "3.2.7",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -24636,7 +24637,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:07",
+		"aktualisierungsdatum": "2022-10-12T01:26:34",
 		"id": 6456
 	},
 	{
@@ -24650,7 +24651,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2019 bei 22 880 Vollzeitäquivalenten (VZÄ) und damit 2,8% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 2,2% bzw. 0,7% zugenommen, in der Branche Öffentliche Verwaltung und Sozialversicherungen um 2,1% abgenommen.",
+		"lesehilfe": "In der Branche Öffentliche Verwaltung und Sozialversicherungen liegt die Beschäftigung im Jahr 2020 bei 5 408 Vollzeitäquivalenten (VZÄ) und damit 3,5% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Gesundheits- und Sozialwesen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 0,6% bzw. 0,5% zugenommen, in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen um 3,9% abgenommen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24665,7 +24666,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6457",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-08",
+		"kuerzelKunde": "3.2.8",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -24676,7 +24677,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:08",
+		"aktualisierungsdatum": "2022-10-12T01:26:36",
 		"id": 6457
 	},
 	{
@@ -27183,8 +27184,8 @@ var indikatoren = [
 			7064
 		],
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2019",
-		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt rund 35% der 152 463 Beschäftigten in Vollzeitäquivalenten (VZÄ) in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2020",
+		"lesehilfe": "Im Jahr 2020 sind in Basel-Stadt rund 35% der 148 633 Beschäftigten in Vollzeitäquivalenten (VZÄ) in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -27199,7 +27200,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6531",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-02",
+		"kuerzelKunde": "3.2.2",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -27210,7 +27211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:04",
+		"aktualisierungsdatum": "2022-10-12T01:26:24",
 		"id": 6531
 	},
 	{
@@ -71292,7 +71293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-06T02:04:57",
+		"aktualisierungsdatum": "2022-10-12T01:26:14",
 		"id": 8995
 	},
 	{
@@ -71664,7 +71665,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-29T07:57:44",
+		"aktualisierungsdatum": "2022-10-12T01:26:16",
 		"id": 9022
 	},
 	{
@@ -71702,7 +71703,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-29T07:57:44",
+		"aktualisierungsdatum": "2022-10-12T01:26:19",
 		"id": 9023
 	},
 	{
@@ -78085,7 +78086,7 @@ var indikatoren = [
 		],
 		"title": "Hitzetage und Tropennächte",
 		"subtitle": "Anzahl Tage, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage und 3 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage und 1 Tropennacht verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
 		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel",
@@ -78114,7 +78115,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:19",
+		"aktualisierungsdatum": "2022-10-12T01:26:38",
 		"id": 9390
 	},
 	{
@@ -78332,7 +78333,7 @@ var indikatoren = [
 		],
 		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 36% gestiegen; konstant 77% aller Frauen haben beim Kanton Basel-Stadt in den vergangenen fünf Jahren Teilzeit gearbeitet.",
+		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 33% auf 37% gestiegen und bei den Frauen von 76% auf 78%.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -78358,7 +78359,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:39",
+		"aktualisierungsdatum": "2022-10-12T01:26:40",
 		"id": 9396
 	},
 	{
@@ -78372,7 +78373,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 35,7%. Im Beobachtungszeitraum ist er stärker gestiegen als der Frauenanteil in der gesamten kantonalen Verwaltung.",
+		"lesehilfe": "Im Jahr 2021 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 36,4%.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -78398,7 +78399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:40",
+		"aktualisierungsdatum": "2022-10-12T01:26:42",
 		"id": 9397
 	},
 	{

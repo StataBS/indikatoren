@@ -5,10 +5,6 @@
       "index": 1,
       "data": [
         [
-          2011,
-          0.292741935
-        ],
-        [
           2012,
           0.327034884
         ],
@@ -43,6 +39,10 @@
         [
           2020,
           0.357182168
+        ],
+        [
+          2021,
+          0.363586659
         ]
       ],
       "name": "Anteil Frauen Kader"
@@ -51,10 +51,6 @@
       "color": "#661200 ",
       "index": 2,
       "data": [
-        [
-          2011,
-          0.517197700477443
-        ],
         [
           2012,
           0.526020217147136
@@ -90,6 +86,10 @@
         [
           2020,
           0.543791189732917
+        ],
+        [
+          2021,
+          0.5445628998
         ]
       ],
       "name": "Anteil Frauen Total"
@@ -233,7 +233,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "tooltip": {
     "pointFormatter": function () {

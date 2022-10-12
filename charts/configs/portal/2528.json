@@ -38,6 +38,10 @@
         [
           "2019",
           7602
+        ],
+        [
+          "2020",
+          7301
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -81,6 +85,10 @@
         [
           "2019",
           17730
+        ],
+        [
+          "2020",
+          17638
         ]
       ],
       "name": "Chemie, Pharma",
@@ -124,6 +132,10 @@
         [
           "2019",
           7089
+        ],
+        [
+          "2020",
+          7134
         ]
       ],
       "name": "Baugewerbe",
@@ -200,7 +212,7 @@
     "text": "Beschäftigung in Industrie und Baugewerbe"
   },
   "subtitle": {
-    "text": "",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -253,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

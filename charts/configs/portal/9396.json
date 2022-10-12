@@ -10,10 +10,6 @@
       },
       "data": [
         [
-          "2011",
-          0.32
-        ],
-        [
           "2012",
           0.33
         ],
@@ -48,6 +44,10 @@
         [
           "2020",
           0.36
+        ],
+        [
+          "2021",
+          0.37
         ]
       ],
       "name": "Männer",
@@ -62,10 +62,6 @@
                     }
       },
       "data": [
-        [
-          "2011",
-          0.75
-        ],
         [
           "2012",
           0.76
@@ -101,6 +97,10 @@
         [
           "2020",
           0.77
+        ],
+        [
+          "2021",
+          0.78
         ]
       ],
       "name": "Frauen",
@@ -115,10 +115,6 @@
                     }
       },
       "data": [
-        [
-          "2011",
-          0.54
-        ],
         [
           "2012",
           0.56
@@ -154,6 +150,10 @@
         [
           "2020",
           0.58
+        ],
+        [
+          "2021",
+          0.59
         ]
       ],
       "name": "Total",
@@ -270,7 +270,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -295,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
   },
   "tooltip": {
     "shared": true

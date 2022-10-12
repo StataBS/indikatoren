@@ -108,13 +108,13 @@
 						{
 							name: " < \u00A0\u00A0 400",
 							from: 0,
-							to: 399, 
+							to: 399.9, 
 							diameter: 5
 						},
 						{
 							name: "400 − \u00A0\u00A0 999",
 							from: 400,
-							to: 999,
+							to: 999.9,
 							diameter: 10
 						},
 						{

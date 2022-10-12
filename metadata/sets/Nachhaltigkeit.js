@@ -239,13 +239,13 @@ var indikatorensetData = [
 	{
 		"template": "template001",
 		"data-id": 5155,
-		"chart-id": 5155,
+		"chart-id": 6011,
 		"filter": "",
 		"parentId": "6011",
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 zogen 13 480 Personen neu in den Kanton Basel-Stadt. Dies ist der niedrigste Wert der letzten zehn Jahre. 12 524 Personen verliessen den Kanton im Jahr 2020. Letztmals weniger Weggezogene wurden 2012 - nämlich 12 441 - registriert. Der Wanderungssaldo fiel zwischen 2011 und 2020 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück. Im Vergleich zum Jahr 2019 hat die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und der Nordwestschweiz sowie der übrigen Schweiz zugenommen, während die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und dem Ausland zurückgegangen ist.",
+		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.5.05155",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE8.1",
 		"stufe1": "Bereich Bevölkerung",
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:56:01",
+		"aktualisierungsdatum": "2022-10-12T01:26:44",
 		"id": 5155
 	},
 	{
