@@ -1808,7 +1808,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
 		"subtitle": "Anteil am Bruttoenergieverbrauch aller Heizungen, Basel-Stadt",
-		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2018 einen Anteil von 7,3% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,7%, so dass die Erneuerbaren zusammen auf 24,0% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 39,0% im Jahr 2014 auf 52,8% im Jahr 2018 gestiegen, während die anderen nicht Erneuerbaren von 40,1% auf 23,2% gesunken sind.",
+		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2020 einen Anteil von 37,8% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,6%, so dass die Erneuerbaren zusammen auf 54,4% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 14,1% im Jahr 2014 auf 22,4% im Jahr 2020 gestiegen, während die anderen nicht Erneuerbaren von 39,7% auf 23,2% gesunken sind.",
 		"erlaeuterungen": "Elektrische Heizungen sind nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1833,7 +1833,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:31",
+		"aktualisierungsdatum": "2022-10-19T08:03:04",
 		"id": 9393
 	},
 	{
