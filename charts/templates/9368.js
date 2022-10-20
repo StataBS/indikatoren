@@ -1,13 +1,16 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      marginRight: 150,
+      marginLeft: 50
     },
     "plotOptions": {
       "series": {
         borderWidth: 0,
-        pointPadding: 0,
+        pointPadding: 0.1,
         groupPadding: 0.1,
+        minPointLength: 1,
         //"pointWidth": 30,
         "stacking": "normal"
       }
@@ -29,7 +32,7 @@
       layout: "vertical",
       verticalAlign: "middle",
       align: "right",
-      width: 150,
+      width: 130,
       itemMarginBottom: 5,
       itemStyle: {
         textOverflow: null,

@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-22T08:54:22",
+		"aktualisierungsdatum": "2022-10-20T08:32:20",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Riehen und Betttingen. In elf Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in vierzehn Wohnvierteln sowie in Betttingen. In fünf Wohnvierteln sowie in Riehen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-22T08:54:23",
+		"aktualisierungsdatum": "2022-10-20T08:32:20",
 		"id": 7763
 	},
 	{

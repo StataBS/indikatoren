@@ -5,18 +5,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "1990",
-          -281
-        ],
-        [
-          "2000",
-          -235
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2010",
           -269
         ],
@@ -49,12 +37,20 @@
           -573
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           -429
         ],
         [
           "2019",
           -587
+        ],
+        [
+          "2020",
+          -901
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -64,18 +60,6 @@
       "color": "#689199",
       "legendIndex": 3,
       "data": [
-        [
-          "1990",
-          -1959
-        ],
-        [
-          "2000",
-          -2856
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           -5129
@@ -109,12 +93,20 @@
           -6623
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           -5192
         ],
         [
           "2019",
           -5098
+        ],
+        [
+          "2020",
+          -4436
         ]
       ],
       "name": "Wegpendler in die restliche CH",
@@ -124,18 +116,6 @@
       "color": "#A8C3CA",
       "legendIndex": 1,
       "data": [
-        [
-          "1990",
-          -12729
-        ],
-        [
-          "2000",
-          -14294
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           -17321
@@ -169,12 +149,20 @@
           -19773
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           -19192
         ],
         [
           "2019",
           -18106
+        ],
+        [
+          "2020",
+          -16621
         ]
       ],
       "name": "Wegpendler in die NWCH",
@@ -184,18 +172,6 @@
       "color": "#0A3B19",
       "legendIndex": 0,
       "data": [
-        [
-          "1990",
-          28767
-        ],
-        [
-          "2000",
-          29785
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           30482
@@ -229,12 +205,20 @@
           35661
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           34299
         ],
         [
           "2019",
-          34380
+          34546
+        ],
+        [
+          "2020",
+          34614
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -244,18 +228,6 @@
       "color": "#007A2F",
       "legendIndex": 2,
       "data": [
-        [
-          "1990",
-          5685
-        ],
-        [
-          "2000",
-          7520
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           10598
@@ -289,12 +261,20 @@
           12383
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           9494
         ],
         [
           "2019",
           9571
+        ],
+        [
+          "2020",
+          9604
         ]
       ],
       "name": "Zupendler aus der restlichen CH",
@@ -304,18 +284,6 @@
       "color": "#68AB2B",
       "legendIndex": 4,
       "data": [
-        [
-          "1990",
-          51609
-        ],
-        [
-          "2000",
-          47005
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           50213
@@ -349,12 +317,20 @@
           53869
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           49254
         ],
         [
           "2019",
           47226
+        ],
+        [
+          "2020",
+          44435
         ]
       ],
       "name": "Zupendler aus der NWCH",
@@ -368,18 +344,6 @@
         "enabled": false
       },
       "data": [
-        [
-          "1990",
-          71092
-        ],
-        [
-          "2000",
-          66925
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2010",
           68574
@@ -413,12 +377,20 @@
           74944
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2018",
           68234
         ],
         [
           "2019",
-          67386
+          67552
+        ],
+        [
+          "2020",
+          66695
         ]
       ],
       "name": "Saldo",
@@ -568,7 +540,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
   },
   "tooltip": {
     "shared": true,
