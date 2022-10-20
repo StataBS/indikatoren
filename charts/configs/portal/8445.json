@@ -5,29 +5,6 @@
       "data": [
         [
           "Basel-Stadt",
-          87.2
-        ],
-        [
-          "Basel-Landschaft",
-          92.6
-        ],
-        [
-          "Jura",
-          93.7
-        ],
-        [
-          "Schweiz",
-          91.5
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Basel-Stadt",
           85.4
         ],
         [
@@ -47,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -67,6 +44,29 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          85
+        ],
+        [
+          "Basel-Landschaft",
+          89.7
+        ],
+        [
+          "Jura",
+          90.8
+        ],
+        [
+          "Schweiz",
+          90.9
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -201,10 +201,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

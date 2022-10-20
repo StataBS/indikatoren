@@ -840,7 +840,7 @@ var indikatorensetData = [
 		],
 		"title": "Angebotsquote bei Büroflächen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen und lag 2020 bei 5,7%.",
+		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2021 waren 5,4% aller Büroflächen auf dem Markt verfügbar.",
 		"erlaeuterungen": "Die Angebotsquote drückt das Angebot leerstehender und angebotener Büroflächen gemessen an der Gesamtfläche der Büroflächen aus.",
 		"quellenangabe": [
 			"JLL Büromarkt Schweiz"
@@ -865,7 +865,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:14",
+		"aktualisierungsdatum": "2022-10-20T08:32:21",
 		"id": 9366
 	},
 	{
@@ -879,7 +879,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2019 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 700 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -904,7 +904,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:18",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 9368
 	},
 	{
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2018 lag der Index (Basis 2010) der Medianprämien bei 135,2. Der Index für den Median des Reinkommens bei 103,3.",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2. Der Index für den Median des Reinkommens bei 103,8.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -1173,7 +1173,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:48",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 9375
 	},
 	{
@@ -1342,7 +1342,7 @@ var indikatorensetData = [
 		],
 		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
 		"subtitle": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 pendeln rund 8 300 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 700 zupendelnde Erwerbstätige arbeiten im Bereich Bildung und Kultur.",
+		"lesehilfe": "Im Jahr 2020 pendelten rund 8 900 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 300 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Agglomeration Basel: gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1369,7 +1369,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:01",
+		"aktualisierungsdatum": "2022-10-20T08:32:23",
 		"id": 9380
 	},
 	{
@@ -1383,8 +1383,8 @@ var indikatorensetData = [
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 24 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Jahr 2020 pendelten fast 89 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 22 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1409,7 +1409,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:03",
+		"aktualisierungsdatum": "2022-10-20T08:32:23",
 		"id": 9381
 	},
 	{
@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,9% auf 28,9% zugenommen.",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,8% auf 31,0% (2021) zugenommen.",
 		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -1755,7 +1755,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:24",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9391
 	},
 	{
@@ -1769,7 +1769,7 @@ var indikatorensetData = [
 		],
 		"title": "Solarenergie",
 		"subtitle": "Produktion in GWh, Basel-Stadt",
-		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 20,8 GWh im Jahr 2018. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2018 bei 20,1 GWh.",
+		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 25,1 GWh im Jahr 2020. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2020 bei 20,9 GWh.",
 		"erlaeuterungen": "Daten zur solarthermischen Energie werden seit 2010 im Rahmen der kantonalen Energiestatistik jedes zweite Jahr erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1794,7 +1794,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:28",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9392
 	},
 	{

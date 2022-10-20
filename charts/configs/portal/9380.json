@@ -53,6 +53,10 @@
         [
           "2019",
           2697
+        ],
+        [
+          "2020",
+          2347
         ]
       ],
       "name": "Bildung, Kultur",
@@ -110,6 +114,10 @@
         [
           "2019",
           8335
+        ],
+        [
+          "2020",
+          8905
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -168,6 +176,10 @@
         [
           "2019",
           36301
+        ],
+        [
+          "2020",
+          33900
         ]
       ],
       "name": "Alle anderen Branchen",
@@ -310,7 +322,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
   },
   "tooltip": {
     "shared": true

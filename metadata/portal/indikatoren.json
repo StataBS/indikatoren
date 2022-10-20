@@ -9153,7 +9153,7 @@
 		"children": [],
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
 		"subtitle": "in 1000 Franken",
-		"lesehilfe": "In Basel-Stadt ist seit 2016  bei den Ausfuhren eine stetige Zunahme zu beobachten. Dagegen ist 2020 bei den Einfuhren eine Abnahme gegenüber dem Vorjahr erkennbar. Die Ausfuhren sind 2020 mit 66,8 Mrd. Franken mehr als doppelt so hoch wie die Einfuhren.",
+		"lesehilfe": "In Basel-Stadt nehmen die Ausfuhren seit 2016 stetig zu. Die Einfuhren haben 2020 leicht abgenommen. 2021 haben sie im Vergleich zum Vorjahr leicht zugenommen.  Die Ausfuhren sind 2021 mit 76,8 Mrd. Franken mehr als doppelt so hoch wie die Einfuhren.",
 		"erlaeuterungen": "2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -9179,7 +9179,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:53",
+		"aktualisierungsdatum": "2022-10-20T08:32:21",
 		"id": 4913
 	},
 	{
@@ -10114,11 +10114,12 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8897
+			8897,
+			9679
 		],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2020 liegen bei 84,5 Jahren (Frauen) und 80,7 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2021 liegen bei 85,0 Jahren (Frauen) und 80,7 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -10144,7 +10145,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:37",
+		"aktualisierungsdatum": "2022-10-20T08:32:25",
 		"id": 5180
 	},
 	{
@@ -26174,7 +26175,7 @@
 		"children": [],
 		"title": "Hospitalisierungsrate",
 		"subtitle": "der baselstädtischen Bevölkerung nach Alter",
-		"lesehilfe": "Im Jahr 2019 betrug die Hospitalisierungsrate für Kinder und Jugendliche im Alter zwischen 10 und 19 Jahren 63 Fälle pro 1000 Einwohner der gleichen Altersgruppe. Dies ist der tiefste Wert aller ausgewiesenen Altersklassen.<br>Die höchste Rate erreicht mit über 900 pro 1000 Einwohner die Altersgruppe ab 90 Jahren.",
+		"lesehilfe": "Im Jahr 2021 betrug die Hospitalisierungsrate für Kinder und Jugendliche im Alter zwischen 10 und 19 Jahren 65,9 Fälle pro 1000 Einwohner der gleichen Altersgruppe. Dies ist der tiefste Wert aller ausgewiesenen Altersklassen.<br>Die höchste Rate erreicht mit über 957 pro 1000 Einwohner die Altersgruppe ab 90 Jahren.",
 		"erlaeuterungen": "Die Hospitalisierungsrate wird berechnet als Verhältnis von stationären Austritten pro 1000 Personen der jeweiligen Altersgruppe der kantonalen Wohnbevölkerung. Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Schweizer Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt) und im Kanton Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -26201,7 +26202,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:54",
+		"aktualisierungsdatum": "2022-10-20T08:32:19",
 		"id": 6994
 	},
 	{
@@ -26704,7 +26705,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-22T08:54:22",
+		"aktualisierungsdatum": "2022-10-20T08:32:20",
 		"id": 7515
 	},
 	{
@@ -30618,8 +30619,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Riehen und Betttingen. In elf Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in vierzehn Wohnvierteln sowie in Betttingen. In fünf Wohnvierteln sowie in Riehen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30646,7 +30647,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-22T08:54:23",
+		"aktualisierungsdatum": "2022-10-20T08:32:20",
 		"id": 7763
 	},
 	{
@@ -36354,7 +36355,7 @@
 		"children": [],
 		"title": "Durchimpfungsraten ausgewählter Krankheiten",
 		"subtitle": "nach Schuljahr für die 13- und 14-Jährigen, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2019/2020 waren 97,1% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"lesehilfe": "Im Schuljahr 2020/2021 waren 97% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
 		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -36382,7 +36383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:32",
+		"aktualisierungsdatum": "2022-10-20T08:32:20",
 		"id": 8348
 	},
 	{
@@ -37979,12 +37980,13 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8505
+			8505,
+			9682
 		],
 		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2018 im Jura mit 91,9% am höchsten. Die Baselbieter Quote lag mit 90,0% leicht unter dem Schweizer Schnitt von 90,4%. Den tiefsten Wert wies mit 85,3% der Kanton Basel-Stadt auf. Generell liegen die Quoten 2018 etwas tiefer als 2017.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt:\n• berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG);\n• Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2019 im Jura mit 90,8% am höchsten und entsprach damit nahezu dem Schweizer Schnitt von 90,9%. Die basellandschaftliche Quote lag mit 89,7% nur unwesentlich darunter. Den tiefsten Wert aller Kantone wies mit 85,0% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -37999,7 +38001,7 @@
 		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "I.15.7.08445",
+		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.2-3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -38012,7 +38014,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:21",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 8445
 	},
 	{
@@ -39028,7 +39030,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:14",
+		"aktualisierungsdatum": "2022-10-20T08:32:18",
 		"id": 8995
 	},
 	{
@@ -39198,7 +39200,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:16",
+		"aktualisierungsdatum": "2022-10-20T08:32:18",
 		"id": 9022
 	},
 	{
@@ -39236,7 +39238,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:19",
+		"aktualisierungsdatum": "2022-10-20T08:32:19",
 		"id": 9023
 	},
 	{
@@ -40817,7 +40819,7 @@
 		],
 		"title": "Angebotsquote bei Büroflächen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen und lag 2020 bei 5,7%.",
+		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2021 waren 5,4% aller Büroflächen auf dem Markt verfügbar.",
 		"erlaeuterungen": "Die Angebotsquote drückt das Angebot leerstehender und angebotener Büroflächen gemessen an der Gesamtfläche der Büroflächen aus.",
 		"quellenangabe": [
 			"JLL Büromarkt Schweiz"
@@ -40843,7 +40845,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:14",
+		"aktualisierungsdatum": "2022-10-20T08:32:21",
 		"id": 9366
 	},
 	{
@@ -40857,7 +40859,7 @@
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2019 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 700 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -40883,7 +40885,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:18",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 9368
 	},
 	{
@@ -41018,7 +41020,7 @@
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2018 lag der Index (Basis 2010) der Medianprämien bei 135,2. Der Index für den Median des Reinkommens bei 103,3.",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2. Der Index für den Median des Reinkommens bei 103,8.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -41045,7 +41047,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:48",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 9375
 	},
 	{
@@ -41180,7 +41182,7 @@
 		],
 		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
 		"subtitle": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 pendeln rund 8 300 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 700 zupendelnde Erwerbstätige arbeiten im Bereich Bildung und Kultur.",
+		"lesehilfe": "Im Jahr 2020 pendelten rund 8 900 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 300 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Agglomeration Basel: gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -41208,7 +41210,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:01",
+		"aktualisierungsdatum": "2022-10-20T08:32:23",
 		"id": 9380
 	},
 	{
@@ -41222,8 +41224,8 @@
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 24 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Jahr 2020 pendelten fast 89 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 22 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -41249,7 +41251,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:03",
+		"aktualisierungsdatum": "2022-10-20T08:32:23",
 		"id": 9381
 	},
 	{
@@ -41388,7 +41390,7 @@
 		],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,9% auf 28,9% zugenommen.",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,8% auf 31,0% (2021) zugenommen.",
 		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -41414,7 +41416,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:24",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9391
 	},
 	{
@@ -41428,7 +41430,7 @@
 		],
 		"title": "Solarenergie",
 		"subtitle": "Produktion in GWh, Basel-Stadt",
-		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 20,8 GWh im Jahr 2018. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2018 bei 20,1 GWh.",
+		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 25,1 GWh im Jahr 2020. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2020 bei 20,9 GWh.",
 		"erlaeuterungen": "Daten zur solarthermischen Energie werden seit 2010 im Rahmen der kantonalen Energiestatistik jedes zweite Jahr erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -41454,7 +41456,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:28",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9392
 	},
 	{

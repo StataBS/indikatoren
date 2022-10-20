@@ -6,102 +6,6 @@
       "data": [
         [
           "0 bis 9 Jahre",
-          212.6
-        ],
-        [
-          "10 bis 19 Jahre",
-          67.7
-        ],
-        [
-          "20 bis 29 Jahre",
-          88.1
-        ],
-        [
-          "30 bis 39 Jahre",
-          117.3
-        ],
-        [
-          "40 bis 49 Jahre",
-          122.6
-        ],
-        [
-          "50 bis 59 Jahre",
-          171.5
-        ],
-        [
-          "60 bis 69 Jahre",
-          264
-        ],
-        [
-          "70 bis 79 Jahre",
-          432.2
-        ],
-        [
-          "80 bis 89 Jahre",
-          640
-        ],
-        [
-          "90 Jahre u.m.",
-          767.6
-        ]
-      ],
-      "name": "2008",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007a2f",
-      "visible": false,
-      "data": [
-        [
-          "0 bis 9 Jahre",
-          211.3
-        ],
-        [
-          "10 bis 19 Jahre",
-          70
-        ],
-        [
-          "20 bis 29 Jahre",
-          86.9
-        ],
-        [
-          "30 bis 39 Jahre",
-          119.8
-        ],
-        [
-          "40 bis 49 Jahre",
-          119.4
-        ],
-        [
-          "50 bis 59 Jahre",
-          171.1
-        ],
-        [
-          "60 bis 69 Jahre",
-          266.5
-        ],
-        [
-          "70 bis 79 Jahre",
-          432.4
-        ],
-        [
-          "80 bis 89 Jahre",
-          649.7
-        ],
-        [
-          "90 Jahre u.m.",
-          749.4
-        ]
-      ],
-      "name": "2009",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68ab2b",
-      "visible": false,
-      "data": [
-        [
-          "0 bis 9 Jahre",
           224
         ],
         [
@@ -145,7 +49,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73b97c",
+      "color": "#007a2f",
       "visible": false,
       "data": [
         [
@@ -193,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#45381d",
+      "color": "#68ab2b",
       "visible": false,
       "data": [
         [
@@ -241,7 +145,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
+      "color": "#73b97c",
       "visible": false,
       "data": [
         [
@@ -289,7 +193,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#cd9c00",
+      "color": "#45381d",
       "visible": false,
       "data": [
         [
@@ -337,7 +241,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "#7f5f1a",
       "visible": false,
       "data": [
         [
@@ -385,7 +289,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffda80",
+      "color": "#cd9c00",
       "visible": false,
       "data": [
         [
@@ -433,7 +337,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#e7cee2",
+      "color": "#fabd24",
       "visible": false,
       "data": [
         [
@@ -481,7 +385,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#ffda80",
       "visible": false,
       "data": [
         [
@@ -529,8 +433,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
-      "visible": true,
+      "color": "#e7cee2",
+      "visible": false,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -574,6 +478,102 @@
         ]
       ],
       "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          173
+        ],
+        [
+          "10 bis 19 Jahre",
+          59
+        ],
+        [
+          "20 bis 29 Jahre",
+          81.9
+        ],
+        [
+          "30 bis 39 Jahre",
+          120.8
+        ],
+        [
+          "40 bis 49 Jahre",
+          114.7
+        ],
+        [
+          "50 bis 59 Jahre",
+          164.9
+        ],
+        [
+          "60 bis 69 Jahre",
+          240.6
+        ],
+        [
+          "70 bis 79 Jahre",
+          439.7
+        ],
+        [
+          "80 bis 89 Jahre",
+          700.7
+        ],
+        [
+          "90 Jahre u.m.",
+          915
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "visible": true,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          181.2
+        ],
+        [
+          "10 bis 19 Jahre",
+          65.9
+        ],
+        [
+          "20 bis 29 Jahre",
+          89.6
+        ],
+        [
+          "30 bis 39 Jahre",
+          125.2
+        ],
+        [
+          "40 bis 49 Jahre",
+          116.9
+        ],
+        [
+          "50 bis 59 Jahre",
+          172.8
+        ],
+        [
+          "60 bis 69 Jahre",
+          256.5
+        ],
+        [
+          "70 bis 79 Jahre",
+          454.7
+        ],
+        [
+          "80 bis 89 Jahre",
+          752.2
+        ],
+        [
+          "90 Jahre u.m.",
+          957.3
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -703,7 +703,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

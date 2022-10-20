@@ -38,6 +38,10 @@
         [
           "2019",
           1909
+        ],
+        [
+          "2020",
+          1854
         ]
       ],
       "name": "Darstellende Kunst",
@@ -81,6 +85,10 @@
         [
           "2019",
           349
+        ],
+        [
+          "2020",
+          372
         ]
       ],
       "name": "Kunst, Schriftstellerei",
@@ -124,6 +132,10 @@
         [
           "2019",
           146
+        ],
+        [
+          "2020",
+          122
         ]
       ],
       "name": "Kultur-, Unterhaltungseinrichtungen",
@@ -167,6 +179,10 @@
         [
           "2019",
           250
+        ],
+        [
+          "2020",
+          244
         ]
       ],
       "name": "Bibliotheken und Archive",
@@ -210,6 +226,10 @@
         [
           "2019",
           759
+        ],
+        [
+          "2020",
+          721
         ]
       ],
       "name": "Museen",
@@ -253,6 +273,10 @@
         [
           "2019",
           5
+        ],
+        [
+          "2020",
+          7
         ]
       ],
       "name": "Historische Stätten, Gebäude u.ä",
@@ -296,6 +320,10 @@
         [
           "2019",
           226
+        ],
+        [
+          "2020",
+          222
         ]
       ],
       "name": "Botanische Gärten, Zoos, Naturparks",
@@ -355,6 +383,8 @@
                 }
     },
     "type": "column",
+    "marginRight": 150,
+    "marginLeft": 50,
     "renderTo": "container-9368",
     "spacingBottom": 40
   },
@@ -366,8 +396,9 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
+      "pointPadding": 0.1,
       "groupPadding": 0.1,
+      "minPointLength": 1,
       "stacking": "normal"
     }
   },
@@ -417,7 +448,7 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "width": 150,
+    "width": 130,
     "itemMarginBottom": 5,
     "labelFormatter": function () {
         return this.name.replace("Unterhaltungseinrichtungen", "Unterhaltungs-einrichtungen")
@@ -442,7 +473,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
   },
   "tooltip": {
     "shared": true,
