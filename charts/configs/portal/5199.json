@@ -73,7 +73,11 @@
         ],
         [
           2020,
-          933323
+          849968
+        ],
+        [
+          2021,
+          854231
         ]
       ],
       "name": "Umbau- und Unterhaltsarbeiten (UuU)"
@@ -151,7 +155,11 @@
         ],
         [
           2020,
-          1878600
+          1738900
+        ],
+        [
+          2021,
+          1680409
         ]
       ],
       "name": "Total der Bauausgaben (BA)"
@@ -231,7 +239,11 @@
         ],
         [
           2020,
-          49.7
+          48.9
+        ],
+        [
+          2021,
+          50.3
         ]
       ],
       "name": "Anteil UuU am Total der BA (rechte Skala)"
@@ -387,7 +399,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.10.2022"
   },
   "tooltip": {},
   "exporting": {
