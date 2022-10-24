@@ -955,8 +955,8 @@ var indikatorensetData = [
 			8491
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2016 und 2020 nur im Kanton Basel-Stadt zugenommen (+1,6%). In den Kantonen Basel-Landschaft und Jura ist die Zahl der 15- bis 64-Jährigen um 0,1% bzw. um 0,9% zurückgegangen.",
+		"subtitle": "indexiert (2017 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2017 und 2021 in den Kantonen Basel-Stadt (+0,6%) und Basel-Landschaft zugenommen (+0,1%). Im Kanton Jura ist die Zahl der 15- bis 64-Jährigen hingegen um -1,1% zurückgegangen.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -981,7 +981,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-08T08:04:17",
+		"aktualisierungsdatum": "2022-10-24T08:00:49",
 		"id": 8431
 	},
 	{
@@ -994,8 +994,8 @@ var indikatorensetData = [
 			8492
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Die gesamtschweizerische Zunahme der 15- bis 64-Jährigen betrug zwischen 2016 und 2020 +1,6%. In der Region BS/BL/JU ist das Wachstum mit +0,4% moderater ausgefallen und ist fast ausschliesslich auf den Anstieg im Jahr 2020 zurückzuführen. In den Jahren 2017 und 2018 wuchs die Zahl der 15- bis 64-Jährigen in der Region BS/BL/JU nur moderat, im Jahr 2018 ging sie leicht zurück. Dies ist auf die entsprechende Entwicklung in den Kantonen Basel-Landschaft und Jura zurückzuführen.",
+		"subtitle": "indexiert (2017 = 100)",
+		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der 15- bis 64-Jährigen zwischen 2017 und 2021 um 1,6% zu. In der Region BS/BL/JU fiel das Wachstum moderater aus (+0,1%). Dies liegt u. a. daran, dass dort die Zahl der 15- bis 64-Jährigen in den Jahren 2018 und 2021 abnahm.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1021,7 +1021,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-08T08:04:17",
+		"aktualisierungsdatum": "2022-10-24T08:00:49",
 		"id": 8432
 	},
 	{
@@ -1034,8 +1034,8 @@ var indikatorensetData = [
 			8493
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2020",
-		"lesehilfe": "Die Altersklassen von 15 bis 64 Jahren haben regional sehr unterschiedliche Anteile an der Gesamtbevölkerung – insbesondere der Kanton Basel-Stadt hebt sich ab. In Basel-Stadt leben vergleichsweise wenige Jugendliche und junge Erwachsene, während die Altersklassen der 25- bis 44-Jährigen ein überdurchschnittlich hohes Gewicht aufweisen. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile und damit eine ältere Erwerbsbevölkerung aufweist.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
+		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional sehr unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich gut vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile und damit eine ältere Erwerbsbevölkerung aufweist.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1060,7 +1060,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-11T10:39:14",
+		"aktualisierungsdatum": "2022-10-24T08:00:50",
 		"id": 8433
 	},
 	{

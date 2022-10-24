@@ -4,24 +4,24 @@
       "color": "#B375AB",
       "data": [
         [
-          2016,
+          2017,
           100
         ],
         [
-          2017,
-          100.067115583018
+          2018,
+          99.9523300093677
         ],
         [
           2018,
-          100.019413598394
-        ],
-        [
-          2019,
-          100.147820684912
+          99.9523300093677
         ],
         [
           2020,
-          100.402970835228
+          100.335629992184
+        ],
+        [
+          2021,
+          100.111969047764
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -30,24 +30,24 @@
       "color": "#990300",
       "data": [
         [
-          2016,
+          2017,
           100
         ],
         [
-          2017,
-          100.411415403705
+          2018,
+          100.331349707222
         ],
         [
           2018,
-          100.744128334663
-        ],
-        [
-          2019,
-          101.131170787911
+          100.331349707222
         ],
         [
           2020,
-          101.64599840468
+          101.229524547594
+        ],
+        [
+          2021,
+          101.643861733434
         ]
       ],
       "name": "Schweiz"
@@ -109,7 +109,7 @@
     "text": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
-    "text": "indexiert (2016 = 100)",
+    "text": "indexiert (2017 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -179,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-8"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 24.10.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
