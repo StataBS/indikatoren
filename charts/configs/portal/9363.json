@@ -24,10 +24,6 @@
           0.037
         ],
         [
-          "Gastgewerbe",
-          0.059
-        ],
-        [
           "Information, Kommunikation",
           0.035
         ],
@@ -40,10 +36,6 @@
           0.024
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.052
-        ],
-        [
           "Personalvermittlung, -überlassung",
           0.027
         ],
@@ -54,14 +46,6 @@
         [
           "Erziehung, Unterricht",
           0.012
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.022
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.022
         ],
         [
           "Total",
@@ -95,10 +79,6 @@
           0.046
         ],
         [
-          "Gastgewerbe",
-          0.09
-        ],
-        [
           "Information, Kommunikation",
           0.039
         ],
@@ -111,10 +91,6 @@
           0.036
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.07
-        ],
-        [
           "Personalvermittlung, -überlassung",
           0.039
         ],
@@ -125,14 +101,6 @@
         [
           "Erziehung, Unterricht",
           0.017
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.028
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.031
         ],
         [
           "Total",
@@ -166,10 +134,6 @@
           0.051
         ],
         [
-          "Gastgewerbe",
-          0.096
-        ],
-        [
           "Information, Kommunikation",
           0.038
         ],
@@ -182,10 +146,6 @@
           0.035
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.078
-        ],
-        [
           "Personalvermittlung, -überlassung",
           0.026
         ],
@@ -196,14 +156,6 @@
         [
           "Erziehung, Unterricht",
           0.015
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.026
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.029
         ],
         [
           "Total",
@@ -359,7 +311,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.6.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2022"
   },
   "tooltip": {
     "pointFormatter": function(){
