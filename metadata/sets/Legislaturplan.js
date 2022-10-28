@@ -789,7 +789,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-26T08:43:03",
+		"aktualisierungsdatum": "2022-10-28T08:01:24",
 		"id": 9363
 	},
 	{
