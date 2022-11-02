@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 8,
-      "legendIndex": 8,
+      "index": 9,
+      "legendIndex": 9,
       "data": [
         [
           "2005",
@@ -59,8 +59,8 @@
     },
     {
       "color": "#44ab2b",
-      "index": 7,
-      "legendIndex": 7,
+      "index": 8,
+      "legendIndex": 8,
       "data": [
         [
           "2005",
@@ -116,8 +116,8 @@
     },
     {
       "color": "#73ba7c",
-      "index": 6,
-      "legendIndex": 6,
+      "index": 7,
+      "legendIndex": 7,
       "data": [
         [
           "2005",
@@ -173,8 +173,8 @@
     },
     {
       "color": "#d7e9d2",
-      "index": 5,
-      "legendIndex": 5,
+      "index": 6,
+      "legendIndex": 6,
       "data": [
         [
           "2005",
@@ -230,8 +230,8 @@
     },
     {
       "color": "#b9cfd7",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2005",
@@ -287,8 +287,8 @@
     },
     {
       "color": "#71a3b5",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2005",
@@ -344,8 +344,8 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2005",
@@ -401,8 +401,8 @@
     },
     {
       "color": "#ff8028",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2005",
@@ -458,8 +458,8 @@
     },
     {
       "color": "#b00000",
-      "index": 0,
-      "legendIndex": 0,
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2005",
@@ -512,6 +512,11 @@
       ],
       "name": "Übrige Branchen",
       "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 0,
+      "legendIndex": 0
     }
   ],
   "xAxis": {
@@ -651,7 +656,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",
