@@ -82,8 +82,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im September erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,9%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen August 2022 und August 2021.",
+		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im Oktober erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,9%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Oktober 2022 und Oktober 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-03T08:39:10",
+		"aktualisierungsdatum": "2022-11-03T08:34:26",
 		"id": 7512
 	},
 	{
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-03T08:39:11",
+		"aktualisierungsdatum": "2022-11-03T08:34:27",
 		"id": 7513
 	},
 	{
