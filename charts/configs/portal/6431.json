@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2001,
-          8.1
-        ],
-        [
           2002,
           8.5
         ],
@@ -82,6 +78,10 @@
         [
           2020,
           7.6
+        ],
+        [
+          2021,
+          7.6
         ]
       ],
       "name": "Schweiz"
@@ -89,10 +89,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          2001,
-          15.8
-        ],
         [
           2002,
           16.5
@@ -168,6 +164,10 @@
         [
           2020,
           7.4
+        ],
+        [
+          2021,
+          7
         ]
       ],
       "name": "Italien"
@@ -175,10 +175,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          2001,
-          4.3
-        ],
         [
           2002,
           4.3
@@ -254,6 +250,10 @@
         [
           2020,
           2.8
+        ],
+        [
+          2021,
+          3.1
         ]
       ],
       "name": "Portugal"
@@ -261,10 +261,6 @@
     {
       "color": "#E7CEE2",
       "data": [
-        [
-          2001,
-          10.5
-        ],
         [
           2002,
           11.4
@@ -340,6 +336,10 @@
         [
           2020,
           5.3
+        ],
+        [
+          2021,
+          4.9
         ]
       ],
       "name": "Spanien"
@@ -347,10 +347,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          2001,
-          10
-        ],
         [
           2002,
           12.3
@@ -426,6 +422,10 @@
         [
           2020,
           11.7
+        ],
+        [
+          2021,
+          11.7
         ]
       ],
       "name": "Türkei"
@@ -433,10 +433,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2001,
-          9.6
-        ],
         [
           2002,
           11.1
@@ -512,6 +508,10 @@
         [
           2020,
           9.3
+        ],
+        [
+          2021,
+          9.5
         ]
       ],
       "name": "Ehemaliges Jugoslawien"
@@ -595,7 +595,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": {
     "min": 0,
@@ -640,7 +647,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -678,7 +685,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6431"

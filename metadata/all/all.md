@@ -38,7 +38,7 @@ id | visible | visibleInPortal | indikatorenset
 3031 | true | true | Arbeitsmarkt
 3032 | true | true | Arbeitsmarkt
 3051 | true | true | Legislaturplan-2017-2021
-3086 | true | true | Legislaturplan-2017-2021
+3086 | true | true | 
 3104 | true | true | Legislaturplan
 4127 | true | true | Wohnraumentwicklung
 4128 | true | true | Wohnraumentwicklung
