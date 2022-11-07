@@ -1,8 +1,15 @@
 (function(){
     return {
-  "xAxis": {
-    "tickInterval": 1,
-  },
+      xAxis: {
+        tickPositioner: function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
+      },
   "yAxis": {
     "min": 0, 
     //tickInterval: 10,
@@ -12,7 +19,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
   },
  "series": [
  {"color":  "#b00000"}, /**/

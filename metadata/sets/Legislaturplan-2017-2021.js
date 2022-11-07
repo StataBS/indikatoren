@@ -157,45 +157,6 @@ var indikatorensetData = [
 		"id": 3051
 	},
 	{
-		"template": "line001",
-		"data-id": 3086,
-		"chart-id": 3086,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6368
-		],
-		"title": "Ansiedlungen von Firmen aus dem Ausland",
-		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"lesehilfe": "Trotz COVID-19-Pandemie ist die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland im Jahr 2020 mit 22 Firmen relativ stabil geblieben. Im Jahr 2019 siedelten sich 26 Firmen aus dem Ausland an. Dazu gab es im Jahr 2020 fünf Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2019 waren es vier).",
-		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
-		"quellenangabe": [
-			"BaselArea"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Ansiedlungen von Firmen aus dem Ausland",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kuerzel": "I.04.1.03086",
-		"kennzahlenset": "Legislaturplan-2017-2021",
-		"kuerzelKunde": "2.4",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_004",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:47",
-		"id": 3086
-	},
-	{
 		"template": "template001",
 		"data-id": 5066,
 		"chart-id": 5066,

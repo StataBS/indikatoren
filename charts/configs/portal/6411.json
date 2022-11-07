@@ -7,47 +7,47 @@
       "data": [
         [
           "Baugewerbe",
-          21.3
+          19.7
         ],
         [
           "Sonst. wirtschaftl. DL",
-          31.5
+          32.2
         ],
         [
           "Gastgewerbe",
+          32.8
+        ],
+        [
+          "Verkehr, Lagerei",
           34.5
         ],
         [
           "Freib., tech., wissens. DL",
-          40.5
-        ],
-        [
-          "Industrie und Energie",
-          42.6
-        ],
-        [
-          "Verkehr, Lagerei",
-          42.8
+          42.9
         ],
         [
           "Handel, Reparatur",
-          49.4
+          46.5
         ],
         [
-          "Kultur, Unterhaltung, pers. DL",
-          52.7
+          "Industrie und Energie",
+          46.6
         ],
         [
           "Banken, Versicherungen",
-          53.9
+          52.5
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          53.1
         ],
         [
           "Information, Kommunikation",
-          59.3
+          56.4
         ],
         [
           "Bildung, Gesundheitswesen",
-          60.8
+          61.6
         ]
       ],
       "name": "Schweiz",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Baugewerbe",
-          78.7
+          80.3
         ],
         [
           "Sonst. wirtschaftl. DL",
-          68.5
+          67.8
         ],
         [
           "Gastgewerbe",
+          67.2
+        ],
+        [
+          "Verkehr, Lagerei",
           65.5
         ],
         [
           "Freib., tech., wissens. DL",
-          59.5
-        ],
-        [
-          "Industrie und Energie",
-          57.4
-        ],
-        [
-          "Verkehr, Lagerei",
-          57.2
+          57.1
         ],
         [
           "Handel, Reparatur",
-          50.6
+          53.5
         ],
         [
-          "Kultur, Unterhaltung, pers. DL",
-          47.3
+          "Industrie und Energie",
+          53.4
         ],
         [
           "Banken, Versicherungen",
-          46.1
+          47.5
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          46.9
         ],
         [
           "Information, Kommunikation",
-          40.7
+          43.6
         ],
         [
           "Bildung, Gesundheitswesen",
-          39.2
+          38.4
         ]
       ],
       "name": "Ausland",
@@ -187,7 +187,7 @@
     "text": "Anteil Arbeitslose in ausgewählten Branchen"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -246,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
