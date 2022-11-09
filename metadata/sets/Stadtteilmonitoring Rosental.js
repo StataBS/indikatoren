@@ -1724,44 +1724,42 @@ var indikatorensetData = [
 		"id": 7708
 	},
 	{
+		"template": "line001",
+		"data-id": 7709,
+		"chart-id": 7709,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7947"
+			7947
 		],
-		"template": "line001",
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07709",
-		"kuerzelKunde": "7.03",
-		"description": "Freiraumfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2021 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,9%).",
+		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:10.1010",
+		"description": "Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07709",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.03",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2020 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,85%).",
-		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7709,
-		"chart-id": 7709,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-09T08:15:32",
 		"id": 7709
 	},
 	{
