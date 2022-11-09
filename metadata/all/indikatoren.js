@@ -44363,45 +44363,43 @@ var indikatoren = [
 		"id": 7708
 	},
 	{
+		"template": "line001",
+		"data-id": 7709,
+		"chart-id": 7709,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7947"
+			7947
 		],
-		"template": "line001",
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07709",
-		"kuerzelKunde": "7.03",
-		"description": "Freiraumfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2021 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,9%).",
+		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:10.1010",
+		"description": "Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07709",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.03",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2020 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,85%).",
-		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7709,
-		"chart-id": 7709,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-09T08:15:32",
 		"id": 7709
 	},
 	{
@@ -50771,45 +50769,45 @@ var indikatoren = [
 		"id": 8079
 	},
 	{
+		"template": "template001",
+		"data-id": 8080,
+		"chart-id": 8080,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8650"
+			8650
 		],
-		"template": "template001",
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.02.1.07699",
-		"kuerzelKunde": "7.01",
-		"description": "Bodenbedeckung nach Nutzungsart",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2021 16,6% (22,44 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 27,1% (24,98 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2021: 22,5% zu 12,4%).",
+		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:26.2626",
+		"description": "Bodenbedeckung nach Nutzungsart",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07699",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.01",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2020 16,5% (22,28 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 27,2% (25,03 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2020: 22,3% zu 12,3%).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
-		],
-		"data-id": 8080,
-		"chart-id": 8080,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-09T08:15:31",
 		"id": 8080
 	},
 	{
