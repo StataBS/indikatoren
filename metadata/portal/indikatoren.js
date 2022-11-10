@@ -17464,46 +17464,44 @@ var indikatoren = [
 		"id": 6407
 	},
 	{
-		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-		"kuerzel": "I.03.4.6408",
-		"kuerzelKunde": "C1-5",
-		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration",
+		"template": "populationPyramid001",
+		"data-id": 6408,
+		"chart-id": 6408,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6684
+		],
+		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2001 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T16:00:55.5555",
+		"description": "Arbeitslosenquote der Schweizer Staatsangehörigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.6408",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C1-5",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
-		"template": "populationPyramid001",
+		"orderKey": "03_00_00_00_00_105",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_105",
-		"parentId": null,
-		"children": [
-			"6684"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6408,
-		"chart-id": 6408,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-10T09:03:16",
 		"id": 6408
 	},
 	{
@@ -17557,9 +17555,9 @@ var indikatoren = [
 			6686
 		],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2020",
-		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2020 Männer zwischen 20 und 29 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen ergeben sich für die Altersgruppen zwischen 25 und 34 Jahren die höchsten Quoten.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2020 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2015-2019 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
+		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2021 Männer zwischen 20 und 29 Jahren am stärksten von Arbeitslosigkeit betroffen. An dritter Stelle kommt die Gruppe der Männer über 60 Jahren. Bei den Schweizerinnen ergebt sich für die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -17585,7 +17583,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:42",
+		"aktualisierungsdatum": "2022-11-10T09:03:16",
 		"id": 6410
 	},
 	{
@@ -39028,7 +39026,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:27",
+		"aktualisierungsdatum": "2022-11-10T09:03:14",
 		"id": 8995
 	},
 	{
@@ -39198,7 +39196,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:28",
+		"aktualisierungsdatum": "2022-11-10T09:03:15",
 		"id": 9022
 	},
 	{
@@ -39236,7 +39234,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:28",
+		"aktualisierungsdatum": "2022-11-10T09:03:15",
 		"id": 9023
 	},
 	{

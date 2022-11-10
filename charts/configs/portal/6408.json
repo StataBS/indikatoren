@@ -5,15 +5,15 @@
       "data": [
         [
           "15-19",
-          -1.1
+          -1.3
         ],
         [
           "20-24",
-          -2.1
+          -2.3
         ],
         [
           "25-29",
-          -2.1
+          -2
         ],
         [
           "30-34",
@@ -21,19 +21,19 @@
         ],
         [
           "35-39",
-          -1.9
+          -2.1
         ],
         [
           "40-44",
-          -1.3
+          -1.7
         ],
         [
           "45-49",
-          -1.6
+          -1.7
         ],
         [
           "50-54",
-          -1.5
+          -1.6
         ],
         [
           "55-59",
@@ -41,7 +41,7 @@
         ],
         [
           "60-64",
-          -2.1
+          -1.9
         ]
       ],
       "name": "Männer",
@@ -52,15 +52,15 @@
       "data": [
         [
           "15-19",
-          1.9
+          1.8
         ],
         [
           "20-24",
-          1.5
+          1.6
         ],
         [
           "25-29",
-          1.9
+          1.5
         ],
         [
           "30-34",
@@ -68,19 +68,19 @@
         ],
         [
           "35-39",
-          1.7
+          1.8
         ],
         [
           "40-44",
-          1.5
+          1.4
         ],
         [
           "45-49",
-          1.3
+          1.5
         ],
         [
           "50-54",
-          1.2
+          1.4
         ],
         [
           "55-59",
@@ -88,7 +88,7 @@
         ],
         [
           "60-64",
-          1.4
+          1.5
         ]
       ],
       "name": "Frauen",
@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslosenquote der Schweizer"
+    "text": "Arbeitslosenquote der Schweizer Staatsangehörigen"
   },
   "subtitle": {
     "style": {
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2000",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2001",
     "align": "left"
   },
   "yAxis": [
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.11.2022"
   },
   "legend": {
     "symbolRadius": 0,
