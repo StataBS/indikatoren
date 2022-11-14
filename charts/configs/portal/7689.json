@@ -5,46 +5,46 @@
       "data": [
         [
           "Forschung und Entwicklung",
-          1673
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          593
+          1494
         ],
         [
           "Erziehung, Unterricht",
-          528
+          517
         ],
         [
-          "Personalvermittlung, -überlassung",
-          391
+          "Sonst. wirtsch. DL",
+          572
         ],
         [
           "Baunebengewerbe",
-          361
-        ],
-        [
-          "Pharmazeutische Industrie",
-          297
+          326
         ],
         [
           "Grosshandel",
-          230
+          202
+        ],
+        [
+          "Gesundheitswesen",
+          48
+        ],
+        [
+          "Pharmazeutische Industrie",
+          212
         ],
         [
           "Gastronomie",
-          195
-        ],
-        [
-          "Unternehmensverwaltung, -führung, -beratung",
-          287
+          181
         ],
         [
           "Heime",
-          62
+          127
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          118
         ]
       ],
-      "name": "2016",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -52,46 +52,46 @@
       "data": [
         [
           "Forschung und Entwicklung",
-          1608
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          599
+          1457
         ],
         [
           "Erziehung, Unterricht",
-          492
+          649
         ],
         [
-          "Personalvermittlung, -überlassung",
-          437
+          "Sonst. wirtsch. DL",
+          490
         ],
         [
           "Baunebengewerbe",
-          355
-        ],
-        [
-          "Pharmazeutische Industrie",
-          224
+          341
         ],
         [
           "Grosshandel",
-          202
+          325
+        ],
+        [
+          "Gesundheitswesen",
+          224
+        ],
+        [
+          "Pharmazeutische Industrie",
+          217
         ],
         [
           "Gastronomie",
-          180
-        ],
-        [
-          "Unternehmensverwaltung, -führung, -beratung",
-          159
+          172
         ],
         [
           "Heime",
+          149
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
           118
         ]
       ],
-      "name": "2017",
+      "name": "2019",
       "turboThreshold": 0
     },
     {
@@ -99,46 +99,46 @@
       "data": [
         [
           "Forschung und Entwicklung",
-          1496
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          591
+          1530
         ],
         [
           "Erziehung, Unterricht",
-          517
+          702
         ],
         [
-          "Personalvermittlung, -überlassung",
-          488
+          "Sonst. wirtsch. DL",
+          420
         ],
         [
           "Baunebengewerbe",
-          326
+          304
+        ],
+        [
+          "Grosshandel",
+          288
+        ],
+        [
+          "Gesundheitswesen",
+          243
         ],
         [
           "Pharmazeutische Industrie",
           212
         ],
         [
-          "Grosshandel",
-          202
-        ],
-        [
           "Gastronomie",
-          160
-        ],
-        [
-          "Unternehmensverwaltung, -führung, -beratung",
-          139
+          165
         ],
         [
           "Heime",
-          127
+          150
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          131
         ]
       ],
-      "name": "2018",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -270,7 +270,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -18,8 +18,8 @@
           0.71323
         ],
         [
-          "2015-2019",
-          0.72046
+          "2016-2020",
+          0.70686
         ]
       ],
       "name": "Rosental",
@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -45,9 +45,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.68497,
-          "high": 0.75594
+          "name": "2016-2020",
+          "low": 0.67194,
+          "high": 0.74179
         }
       ],
       "name": "Rosental 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.72945
         ],
         [
-          "2015-2019",
-          0.73027
+          "2016-2020",
+          0.7282
         ]
       ],
       "name": "Basel",
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -98,9 +98,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.72344,
-          "high": 0.73709
+          "name": "2016-2020",
+          "low": 0.72135,
+          "high": 0.73505
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

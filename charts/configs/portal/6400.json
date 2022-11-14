@@ -4,47 +4,47 @@
       "data": [
         [
           "Spanien",
-          4047
+          4176
         ],
         [
           "Portugal",
-          3418
+          3390
         ],
         [
           "Frankreich",
-          2414
+          2393
         ],
         [
           "Vereinigtes Königreich",
-          2268
+          2132
         ],
         [
           "Österreich",
-          1259
+          1273
         ],
         [
           "Niederlande",
-          800
+          833
         ],
         [
           "Griechenland",
-          643
-        ],
-        [
-          "Schweden",
-          338
+          676
         ],
         [
           "Irland",
-          344
+          354
         ],
         [
           "Belgien",
-          326
+          332
+        ],
+        [
+          "Schweden",
+          330
         ],
         [
           "Übrige",
-          644
+          631
         ]
       ],
       "name": "Anzahl",
@@ -109,7 +109,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»"
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»"
   },
   "subtitle": {
     "style": {
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {
@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "legend": {
     "layout": "vertical",

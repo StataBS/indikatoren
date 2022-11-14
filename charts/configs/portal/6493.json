@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweiz",
-          25.1
+          23.6
         ],
         [
           "Deutschland",
-          15.9
+          13.3
         ],
         [
           "Italien",
@@ -22,12 +22,12 @@
           0.1
         ],
         [
-          "EU-17 + EFTA",
-          1.9
+          "EU-West + EFTA + UK",
+          1.7
         ],
         [
           "EU-Ost",
-          2.6
+          1.9
         ],
         [
           "Balkan",
@@ -35,19 +35,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.6
+          2.4
         ],
         [
           "Arabische Länder",
-          0.6
+          0.8
         ],
         [
           "Afrikanische Länder",
-          5
+          4.8
         ],
         [
           "Übrige Länder",
-          1.2
+          0.8
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -60,35 +60,35 @@
       "data": [
         [
           "Schweiz",
-          17.9
+          17.1
         ],
         [
           "Deutschland",
-          19.6
+          18.1
         ],
         [
           "Italien",
-          24.9
+          23.5
         ],
         [
           "Türkei",
           0
         ],
         [
-          "EU-17 + EFTA",
-          16.1
+          "EU-West + EFTA + UK",
+          13.1
         ],
         [
           "EU-Ost",
-          27.5
+          28
         ],
         [
           "Balkan",
-          6.5
+          1.2
         ],
         [
           "Mittel- und Südamerika",
-          26.2
+          22.1
         ],
         [
           "Arabische Länder",
@@ -96,11 +96,11 @@
         ],
         [
           "Afrikanische Länder",
-          15.6
+          13.6
         ],
         [
           "Übrige Länder",
-          5.8
+          5
         ]
       ],
       "name": "Römisch-katholisch",
@@ -113,27 +113,27 @@
       "data": [
         [
           "Schweiz",
-          0.3
+          0.4
         ],
         [
           "Deutschland",
-          0.1
+          0.4
         ],
         [
           "Italien",
-          0.1
+          1.3
         ],
         [
           "Türkei",
           0
         ],
         [
-          "EU-17 + EFTA",
-          0.2
+          "EU-West + EFTA + UK",
+          1.2
         ],
         [
           "EU-Ost",
-          0.7
+          1.7
         ],
         [
           "Balkan",
@@ -141,19 +141,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          0.1
+          1.6
         ],
         [
           "Arabische Länder",
-          0
+          0.2
         ],
         [
           "Afrikanische Länder",
-          1.4
+          1.5
         ],
         [
           "Übrige Länder",
-          0.2
+          0.3
         ]
       ],
       "name": "Christkatholisch",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Schweiz",
-          0.7
+          0.6
         ],
         [
           "Deutschland",
@@ -174,19 +174,19 @@
         ],
         [
           "Italien",
-          0
+          0.1
         ],
         [
           "Türkei",
           0
         ],
         [
-          "EU-17 + EFTA",
+          "EU-West + EFTA + UK",
           0.4
         ],
         [
           "EU-Ost",
-          0.1
+          0
         ],
         [
           "Balkan",
@@ -194,7 +194,7 @@
         ],
         [
           "Mittel- und Südamerika",
-          0.2
+          0.1
         ],
         [
           "Arabische Länder",
@@ -206,7 +206,7 @@
         ],
         [
           "Übrige Länder",
-          1.2
+          1.1
         ]
       ],
       "name": "Israelitisch",
@@ -219,47 +219,47 @@
       "data": [
         [
           "Schweiz",
-          56
+          58.2
         ],
         [
           "Deutschland",
-          64.1
+          68
         ],
         [
           "Italien",
-          74.4
+          74.8
         ],
         [
           "Türkei",
-          99.8
+          99.9
         ],
         [
-          "EU-17 + EFTA",
-          81.4
+          "EU-West + EFTA + UK",
+          83.7
         ],
         [
           "EU-Ost",
-          69.1
+          68.4
         ],
         [
           "Balkan",
-          93.3
+          98.6
         ],
         [
           "Mittel- und Südamerika",
-          70.9
+          73.8
         ],
         [
           "Arabische Länder",
-          98.7
+          98.3
         ],
         [
           "Afrikanische Länder",
-          78
+          80
         ],
         [
           "Übrige Länder",
-          91.6
+          92.7
         ]
       ],
       "name": "Andere\u002Fohne\u002Funbekannt",
@@ -346,7 +346,7 @@
     "text": "Anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2010",
+    "text": "Basel-Stadt, 2011",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -406,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

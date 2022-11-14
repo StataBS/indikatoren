@@ -46,6 +46,10 @@
         [
           2020,
           16.67
+        ],
+        [
+          2021,
+          25
         ]
       ],
       "name": "Schweiz"
@@ -96,6 +100,10 @@
         [
           2020,
           29.79
+        ],
+        [
+          2021,
+          33.33
         ]
       ],
       "name": "Ausland"
@@ -146,6 +154,10 @@
         [
           2020,
           23.16
+        ],
+        [
+          2021,
+          29.51
         ]
       ],
       "name": "Total"
@@ -275,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

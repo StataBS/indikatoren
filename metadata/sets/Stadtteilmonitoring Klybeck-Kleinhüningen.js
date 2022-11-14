@@ -1453,44 +1453,44 @@ var indikatorensetData = [
 		"id": 8080
 	},
 	{
+		"template": "template001",
+		"data-id": 8081,
+		"chart-id": 8081,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8651"
+			8651
 		],
-		"template": "template001",
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.02.1.07700",
-		"kuerzelKunde": "7.02",
-		"description": "Grünflächen nach Kategorie",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2021 ein Grossteil (rund 234 000 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 900 m<sup>2</sup> auf die Kategorie «Parkanlage/Spielplatz». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (72 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:27.2727",
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07700",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.02",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2020 ein Grossteil (rund 233 000 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 885 m<sup>2</sup> auf die Kategorie «Parkanlage/Spielplatz». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (74 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
-		],
-		"data-id": 8081,
-		"chart-id": 8081,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:10",
 		"id": 8081
 	},
 	{
@@ -1535,44 +1535,42 @@ var indikatorensetData = [
 		"id": 8082
 	},
 	{
+		"template": "template001",
+		"data-id": 8085,
+		"chart-id": 8085,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8654"
+			8654
 		],
-		"template": "template001",
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.08.1.07704",
-		"kuerzelKunde": "7.07",
-		"description": "Heizsysteme nach Energieträger",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
+		"lesehilfe": "Während der Anteil fernwärmebeheizter Gebäude in Klybeck und Kleinhüningen seit 2010 zugenommen hat, ist der Anteil mit Heizöl versorgter Bauten zurückgegangen.",
+		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:36.3636",
+		"description": "Heizsysteme nach Energieträger",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.07704",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.07",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während der Anteil fernwärmebeheizter Gebäude in Klybeck seit 2010 leicht zugenommen hat, ist der Anteil mit Heizöl versorgter Bauten zurückgegangen. In Kleinhüningen ist ein leichter Anstieg beim Erdgas zu verzeichnen, während der Anteil Heizöl auch hier seit 2010 rückläufig ist.",
-		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
+		"orderKey": "07_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8085,
-		"chart-id": 8085,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:10",
 		"id": 8085
 	},
 	{
@@ -1747,44 +1745,42 @@ var indikatorensetData = [
 		"id": 8089
 	},
 	{
+		"template": "line001",
+		"data-id": 8090,
+		"chart-id": 8090,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8659"
+			8659
 		],
-		"template": "line001",
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.02.1.07709",
-		"kuerzelKunde": "7.03",
-		"description": "Freiraumfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2021 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,5% (Stadt Basel: 2,9%).",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:28.2828",
+		"description": "Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07709",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.03",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2020 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,5% (Stadt Basel: 2,9%).",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8090,
-		"chart-id": 8090,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:10",
 		"id": 8090
 	},
 	{
@@ -1829,44 +1825,42 @@ var indikatorensetData = [
 		"id": 8092
 	},
 	{
+		"template": "line001",
+		"data-id": 8093,
+		"chart-id": 8093,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8662"
+			8662
 		],
-		"template": "line001",
 		"title": "Einbruch- und Einschleichdiebstähle",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.19.1.07712",
-		"kuerzelKunde": "6.02",
-		"description": "Einbruch- und Einschleichdiebstähle",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es im Jahr 2021 insgesamt 58 Einbruch- oder Einschleichdiebstähle, in Kleinhüningen 35. In der Stadt Basel wurden insgesamt 1 743 Einbruch- oder Einschleichdiebstähle gemeldet.",
+		"erlaeuterungen": "Anzahl Einbruch- und Einschleichdiebstähle.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:29.2929",
+		"description": "Einbruch- und Einschleichdiebstähle",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.07712",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "6.02",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es im Jahr 2020 insgesamt 36 Einbruch- oder Einschleichdiebstähle, in Kleinhüningen 19. In der Stadt Basel waren es 2020 insgesamt 995 Einbruch- oder Einschleichdiebstähle.",
-		"erlaeuterungen": "Anzahl Einbruch- und Einschleichdiebstähle.",
+		"orderKey": "06_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8093,
-		"chart-id": 8093,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:11",
 		"id": 8093
 	},
 	{
@@ -1880,7 +1874,7 @@ var indikatorensetData = [
 		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2020 zusammen, ergibt sich ein Umzugsverlust von 351; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 249 Personen.",
+		"lesehilfe": "Im Jahr 2021 weist das Wohnviertel Klybeck einen negativen Umzugssaldo auf (-117).  D. h, es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. Der Umzugssaldo Kleinhüningens ist 2021 ebenfalls negativ (-13).",
 		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1905,7 +1899,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:21",
+		"aktualisierungsdatum": "2022-11-14T08:45:11",
 		"id": 8094
 	},
 	{
@@ -1948,44 +1942,42 @@ var indikatorensetData = [
 		"id": 8375
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 8614,
+		"chart-id": 8614,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8665"
+			8665
 		],
-		"template": "populationPyramid001",
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2020",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.01.1.08614",
-		"kuerzelKunde": "2.02b",
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "Wohnviertel Kleinhüningen, 2021",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 25- bis 29-Jährigen, die 30- bis 34-Jährigen, die 35- bis 39-Jährigen, die 40- bis 44-Jährigen sowie die 55- bis 59-Jährigen zu den grössten Gruppen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:19.1919",
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08614",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.02b",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 25- bis 29-Jährigen, die 30- bis 34-Jährigen, die 35- bis 39-Jährigen, die 40- bis 44-Jährigen sowie die 55- bis 59-Jährigen zu den grössten Gruppen.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"orderKey": "02_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8614,
-		"chart-id": 8614,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:11",
 		"id": 8614
 	}
 ];

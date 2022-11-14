@@ -35,6 +35,10 @@
         [
           2020,
           34.252215
+        ],
+        [
+          2021,
+          34.681738
         ]
       ],
       "name": "Wohnviertel Rosental"
@@ -73,6 +77,10 @@
         [
           2020,
           33.733725
+        ],
+        [
+          2021,
+          34.237917
         ]
       ],
       "name": "Bezirk Messe"
@@ -111,6 +119,10 @@
         [
           2020,
           35.085754
+        ],
+        [
+          2021,
+          35.394356
         ]
       ],
       "name": "Bezirk Erlenmatt"
@@ -241,7 +253,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

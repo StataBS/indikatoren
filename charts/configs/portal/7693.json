@@ -18,8 +18,8 @@
           0.72466
         ],
         [
-          "2015-2019",
-          0.73694
+          "2016-2020",
+          0.69845
         ]
       ],
       "name": "Rosental",
@@ -30,24 +30,24 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
         {
           "name": "1990",
-          "low": ".",
-          "high": "."
+          "low": null,
+          "high": null
         },
         {
           "name": "2000",
-          "low": ".",
-          "high": "."
+          "low": null,
+          "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.686,
-          "high": 0.78788
+          "name": "2016-2020",
+          "low": 0.64677,
+          "high": 0.75014
         }
       ],
       "name": "Rosental 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.72436
         ],
         [
-          "2015-2019",
-          0.75398
+          "2016-2020",
+          0.7506
         ]
       ],
       "name": "Basel",
@@ -83,24 +83,24 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
         {
           "name": "1990",
-          "low": ".",
-          "high": "."
+          "low": null,
+          "high": null
         },
         {
           "name": "2000",
-          "low": ".",
-          "high": "."
+          "low": null,
+          "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.74474,
-          "high": 0.76322
+          "name": "2016-2020",
+          "low": 0.74134,
+          "high": 0.75987
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

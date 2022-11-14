@@ -6,43 +6,43 @@
       "data": [
         [
           "Deutschland",
-          5.6
+          5.7
         ],
         [
           "Italien",
-          10.5
+          10.2
         ],
         [
           "Türkei",
-          18.3
+          19.1
         ],
         [
           "EU-West + EFTA + UK",
-          5.8
+          6.1
         ],
         [
           "EU-Ost",
-          4.3
+          4.6
         ],
         [
           "Balkan",
-          16.6
+          17.2
         ],
         [
           "Mittel- und Südamerika",
-          5.6
+          5.7
         ],
         [
           "Arabische Länder",
-          5.5
+          6.1
         ],
         [
           "Afrikanische Länder",
-          7.6
+          8.2
         ],
         [
           "Übrige Länder",
-          4.6
+          4.7
         ]
       ],
       "name": "Basel-Stadt",
@@ -54,43 +54,43 @@
       "data": [
         [
           "Deutschland",
-          11.5
+          8.6
         ],
         [
           "Italien",
-          27.5
+          18.8
         ],
         [
           "Türkei",
-          24.4
+          23
         ],
         [
           "EU-West + EFTA + UK",
-          11.5
+          8.4
         ],
         [
           "EU-Ost",
-          10
+          6.8
         ],
         [
           "Balkan",
-          21.4
+          20
         ],
         [
           "Mittel- und Südamerika",
-          12.7
+          7.6
         ],
         [
           "Arabische Länder",
-          12.6
+          8.8
         ],
         [
           "Afrikanische Länder",
-          11.7
+          10.1
         ],
         [
           "Übrige Länder",
-          11.2
+          6.1
         ]
       ],
       "name": "Schweiz",
@@ -172,10 +172,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Median der Aufenthaltsdauer der Ausländer"
+    "text": "Aufenthaltsdauer der ausländischen Bevölkerung"
   },
   "subtitle": {
-    "text": " in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2020",
+    "text": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -230,7 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

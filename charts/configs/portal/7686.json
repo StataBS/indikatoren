@@ -74,6 +74,10 @@
         [
           2020,
           0
+        ],
+        [
+          2021,
+          0
         ]
       ],
       "name": "Neubau"
@@ -152,6 +156,10 @@
         [
           2020,
           0
+        ],
+        [
+          2021,
+          0
         ]
       ],
       "name": "Abbruch"
@@ -229,6 +237,10 @@
         ],
         [
           2020,
+          2
+        ],
+        [
+          2021,
           2
         ]
       ],
@@ -312,6 +324,10 @@
         ],
         [
           2020,
+          2
+        ],
+        [
+          2021,
           2
         ]
       ],
@@ -468,7 +484,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "tooltip": {
     "shared": true

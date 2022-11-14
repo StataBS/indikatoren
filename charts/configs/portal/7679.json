@@ -47,6 +47,10 @@
         [
           "2020",
           436
+        ],
+        [
+          "2021",
+          442
         ]
       ],
       "name": "1 Zimmer",
@@ -99,6 +103,10 @@
         [
           "2020",
           1412
+        ],
+        [
+          "2021",
+          1424
         ]
       ],
       "name": "2 Zimmer",
@@ -151,6 +159,10 @@
         [
           "2020",
           1507
+        ],
+        [
+          "2021",
+          1504
         ]
       ],
       "name": "3 Zimmer",
@@ -203,6 +215,10 @@
         [
           "2020",
           576
+        ],
+        [
+          "2021",
+          578
         ]
       ],
       "name": "4 Zimmer",
@@ -255,6 +271,10 @@
         [
           "2020",
           101
+        ],
+        [
+          "2021",
+          100
         ]
       ],
       "name": "5 Zimmer",
@@ -306,6 +326,10 @@
         ],
         [
           "2020",
+          30
+        ],
+        [
+          "2021",
           30
         ]
       ],
@@ -444,7 +468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

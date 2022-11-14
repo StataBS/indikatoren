@@ -86,9 +86,9 @@ var indikatorensetData = [
 		"children": [
 			7904
 		],
-		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2020",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2020 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
+		"title": "Alterspyramide nach Geschlecht",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2021",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sowie im Gesamtkanton sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen. Im Bezirk Erlenmatt zählt auch die Gruppe der unter 5-Jährigen dazu.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -98,7 +98,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"description": "Alterspyramide nach Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.07666",
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-29T08:02:53",
+		"aktualisierungsdatum": "2022-11-14T08:45:00",
 		"id": 7666
 	},
 	{
@@ -127,7 +127,7 @@ var indikatorensetData = [
 		],
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2001 und 2020 von 28,8 auf 23,8 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,8 auf 26,5. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und lag 2020 bei 32,4.",
+		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2002 und 2021 von 30,2 auf 23,9 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,6 auf 26,9. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und liegt 2021 bei 33,0.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -153,7 +153,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:05",
+		"aktualisierungsdatum": "2022-11-14T08:45:01",
 		"id": 7667
 	},
 	{
@@ -167,7 +167,7 @@ var indikatorensetData = [
 		],
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2020 bei 14,2, im Bezirk Erlenmatt bei 8,9. Während er im Messe-Bezirk im Vergleich zum Jahr 2001 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient im selben Zeitraum von 33,8 auf 30,1 gesunken.",
+		"lesehilfe": "Im Bezirk Messe liegt der Altersquotient 2021 bei 15,0, im Bezirk Erlenmatt bei 9,9. Während er im Messe-Bezirk im Vergleich zum Jahr 2002 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient im selben Zeitraum von 33,3 auf 30,3 gesunken.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:05",
+		"aktualisierungsdatum": "2022-11-14T08:45:01",
 		"id": 7668
 	},
 	{
@@ -279,44 +279,42 @@ var indikatorensetData = [
 		"id": 7670
 	},
 	{
+		"template": "line001",
+		"data-id": 7671,
+		"chart-id": 7671,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7909"
+			7909
 		],
-		"template": "line001",
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.01.1.07671",
-		"kuerzelKunde": "2.08",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2021 bei 18,8 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:08.088",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07671",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.08",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2020 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
-		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
+		"orderKey": "02_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7671,
-		"chart-id": 7671,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:01",
 		"id": 7671
 	},
 	{
@@ -409,7 +407,7 @@ var indikatorensetData = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2020 wiesen Personen aus der Türkei und aus afrikanischen Ländern die weitaus höchsten Segregationsindices auf (32,4 und 30,4). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert waren. Ebenfalls relativ hohe Segregationsindices wiesen Personen aus Mittel- und Südamerika (25,7) sowie aus arabischen Ländern (23,9) auf. Die niedrigsten Indices ergaben sich 2020 für Schweizerinnen und Schweizer (10,6) und für Personen aus der Gruppe EU-West + EFTA + UK (12,2). Im Vergleich zum Jahr 2000 haben die Segregationsindices aller Ländergruppen mit Ausnahme desjenigen der Türkinnen und Türken abgenommen.",
+		"lesehilfe": "2021 weisen Personen aus der Türkei den höchsten Segregationsindex auf (31,5). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert sind. Im Vergleich zum Jahr 2002 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Wohnviertel Rosental von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Wohnviertel Rosental verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -434,7 +432,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:06",
+		"aktualisierungsdatum": "2022-11-14T08:45:02",
 		"id": 7674
 	},
 	{
@@ -489,7 +487,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2018 bei rund 78 300 Franken, der Median bei 61 900 Franken. Es liegen dort aktuell 1 044 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 44 900 Franken, der Median 38 100 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 441 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2019 bei rund 79 100 Franken, der Median bei 59 100 Franken. Es liegen dort aktuell 1 331 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 46 400 Franken, der Median 39 300 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 505 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -514,7 +512,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:34",
+		"aktualisierungsdatum": "2022-11-14T08:45:02",
 		"id": 7676
 	},
 	{
@@ -528,7 +526,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2018 bei rund 134 400 Franken, der Median bei 21 600 Franken. Es liegen dort akutell 1 044 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert rund 65 500 Franken, der Median ca. 2 100 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 441 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2019 bei rund 130 800 Franken, der Median bei 17 700 Franken. Es liegen dort akutell 1 331 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert rund 67 600 Franken, der Median ca. 2 400 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2019 insgesamt 2 505 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -553,7 +551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:34",
+		"aktualisierungsdatum": "2022-11-14T08:45:02",
 		"id": 7677
 	},
 	{
@@ -567,7 +565,7 @@ var indikatorensetData = [
 		],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verloren gingen. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind in fast allen Jahren durch Zuzüger mehr Steuereinnahmen erzielt worden, als durch Wegzüger verloren gingen. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -592,7 +590,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:35",
+		"aktualisierungsdatum": "2022-11-14T08:45:03",
 		"id": 7678
 	},
 	{
@@ -631,7 +629,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:25",
+		"aktualisierungsdatum": "2022-11-14T08:45:03",
 		"id": 7679
 	},
 	{
@@ -645,7 +643,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2020 sind im Wohnviertel Rosental 3 231\t Mietwohnungen, 167 selbstbewohnte Eigentümerwohnungen und 107 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 272\t Mietwohnungen, 166 selbstbewohnte Eigentümerwohnungen und 103 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -670,7 +668,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:25",
+		"aktualisierungsdatum": "2022-11-14T08:45:03",
 		"id": 7680
 	},
 	{
@@ -684,7 +682,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2020 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,7 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2021 beträgt sie 35,4 m<sup>2</sup> (Erlenmatt) respektive 34,2 m<sup>2</sup>.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -709,7 +707,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:24",
+		"aktualisierungsdatum": "2022-11-14T08:45:04",
 		"id": 7681
 	},
 	{
@@ -723,7 +721,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote. In den letzten Jahren stieg sie wieder. Die hohe Quote im Jahr 2019 war durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
+		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote wieder und erreichte mit 0,3% ihren Tiefstwert. Danach stieg sie überwiegend wieder leicht an, ausser im Jahr 2019, in welchem die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag entgegen dem Trend eine sehr hohe Quote bewirkte.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -748,48 +746,46 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:25",
+		"aktualisierungsdatum": "2022-11-14T08:45:04",
 		"id": 7682
 	},
 	{
+		"template": "line001",
+		"data-id": 7683,
+		"chart-id": 7683,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7921
+		],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2015-2017",
-		"kuerzel": "I.09.3.07683",
-		"kuerzelKunde": "4.06",
-		"description": "Nettomietpreise nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2016-2020",
+		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,2 Franken.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet.Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"description": "Nettomietpreise nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.07683",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.06",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,5 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"7921"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7683,
-		"chart-id": 7683,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:05",
 		"id": 7683
 	},
 	{
@@ -828,7 +824,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"aktualisierungsdatum": "2022-11-14T08:45:05",
 		"id": 7684
 	},
 	{
@@ -867,7 +863,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"aktualisierungsdatum": "2022-11-14T08:45:05",
 		"id": 7685
 	},
 	{
@@ -906,7 +902,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"aktualisierungsdatum": "2022-11-14T08:45:06",
 		"id": 7686
 	},
 	{
@@ -920,7 +916,7 @@ var indikatorensetData = [
 		],
 		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen gut 10% beträgt, sind es im Wohnviertel Rosental zwischen 2,0% und 3,4%.",
+		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen rund 11% beträgt, sind es im Wohnviertel Rosental zwischen 2,0% und 3,4%.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -945,89 +941,85 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"aktualisierungsdatum": "2022-11-14T08:45:06",
 		"id": 7687
 	},
 	{
-		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.03.2.07688",
-		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-10-23T18:46:09.099",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 3 725 im Bezirk Messe und 1 421 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,0% bzw. 0,8%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7926"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7688,
 		"chart-id": 7688,
 		"filter": "",
-		"id": 7688
-	},
-	{
-		"title": "Beschäftigung nach ausgewählten Branchen",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.03.2.07689",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7926
+		],
+		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 893 im Bezirk Messe und 1 119 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,6%. Insgesamt entfallen somit 2,7% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-10-23T18:48:02.022",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07688",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.01",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 496 Beschäftigten im Jahr 2018, gefolgt von den Sonstigen wirtschaftlichen Dienstleistungen (591) und der Branche Erziehung und Unterricht (517). Personalvermittlung und -überlassung (488), Baunebengewerbe (326) sowie die Pharmazeutische Industrie (212) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7927"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"id": 7688
+	},
+	{
+		"template": "line001",
 		"data-id": 7689,
 		"chart-id": 7689,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7927
+		],
+		"title": "Beschäftigung nach ausgewählten Branchen",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 530 Beschäftigten im Jahr 2020, gefolgt von der Branche Erziehung und Unterricht (702) und den sonstigen wirtschaftlichen Dienstleistungen (420). Das Baunebengewerbe (304), der Grosshandel (288) sowie das Gesundheitswesen (243) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07689",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.03",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-11-14T08:45:07",
 		"id": 7689
 	},
 	{
@@ -1082,8 +1074,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 72,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,0%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental liegt die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 70,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 72,8%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1108,7 +1100,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:24",
+		"aktualisierungsdatum": "2022-11-14T08:45:07",
 		"id": 7691
 	},
 	{
@@ -1153,45 +1145,43 @@ var indikatorensetData = [
 		"id": 7692
 	},
 	{
+		"template": "line001",
+		"data-id": 7693,
+		"chart-id": 7693,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7931"
+			7931
 		],
-		"template": "line001",
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Rosental",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.03.1.07693",
-		"kuerzelKunde": "3.05",
-		"description": "Nettoerwerbsquote der Frauen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2016 bis 2020 bei 69,8%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,1%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:22.2222",
+		"description": "Nettoerwerbsquote der Frauen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07693",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.05",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2015 bis 2019 bei 73,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,4%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"orderKey": "03_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_005",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7693,
-		"chart-id": 7693,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:07",
 		"id": 7693
 	},
 	{
@@ -1244,7 +1234,7 @@ var indikatorensetData = [
 		],
 		"title": "Gymnasialquote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer liegt 2020, nach drei aufeinanderfolgenden Jahren mit rückläufiger Quote, exakt gleich hoch wie 2010. Gegenüber 2019 ist die Quote bei den ausländischen Schülerinnen und Schülern stark gestiegen. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
+		"lesehilfe": "Die Gymnasialquote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2021 mit 33,3% bereits zum zweiten Mal in Folge höher als jene der Schweizerinnen und Schweizer (25,0%). Für die Stadt Basel beträgt der Wert 2021 36,1%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1269,7 +1259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-11-14T08:45:08",
 		"id": 7695
 	},
 	{
@@ -1283,7 +1273,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1308,7 +1298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"aktualisierungsdatum": "2022-11-14T08:45:08",
 		"id": 7696
 	},
 	{
@@ -1321,9 +1311,9 @@ var indikatorensetData = [
 			7935
 		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2019",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2015 bis 2019 im Mittel 35,5 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016-2020",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2016 bis 2020 im Mittel 37,9 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1347,7 +1337,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:20",
+		"aktualisierungsdatum": "2022-11-14T08:45:08",
 		"id": 7697
 	},
 	{
@@ -1514,85 +1504,81 @@ var indikatorensetData = [
 		"id": 7701
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7942"
-		],
 		"template": "template001",
-		"title": "Heizsysteme nach Energieträger",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "",
-		"kuerzelKunde": "7.07",
-		"description": "Heizsysteme nach Energieträger",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-05-05T08:34:14.1414",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit dem Ausbau des Basler Fernwärmenetzes nimmt auch in den Bezirken Messe und Erlenmatt der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeit ist der Einsatz von Heizöl rückläufig.",
-		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7704,
 		"chart-id": 7704,
 		"filter": "",
-		"id": 7704
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7943"
+			7942
 		],
-		"template": "line001",
-		"title": "Stromverbrauch",
-		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.08.1.07705",
-		"kuerzelKunde": "7.06",
-		"description": "Stromverbrauch",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
+		"title": "Heizsysteme nach Energieträger",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Mit dem Ausbau des baselstädtischen Fernwärmenetzes nimmt auch in den Bezirken Messe und Erlenmatt der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeitig ist der Einsatz von Heizöl rückläufig.",
+		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:22.2222",
+		"description": "Heizsysteme nach Energieträger",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.07",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2016 und 2018 ist der Stromverbrauch im Bezirk Messe stabil geblieben. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
-		"erlaeuterungen": "Die kantonale Energiestatistik basiert seit 2010 auf einer neuen methodischen Grundlage und erscheint im Zweijahresrhythmus. Abgebildet ist der jeweilige Endverbrauch.",
+		"orderKey": "07_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_006",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"id": 7704
+	},
+	{
+		"template": "line001",
 		"data-id": 7705,
 		"chart-id": 7705,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7943
+		],
+		"title": "Stromverbrauch",
+		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Zwischen 2016 und 2018 ist der Stromverbrauch im Bezirk Messe stabil geblieben. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
+		"erlaeuterungen": "Die kantonale Energiestatistik basiert seit 2010 auf einer neuen methodischen Grundlage und erscheint im Zweijahresrhythmus. Abgebildet ist der jeweilige Endverbrauch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stromverbrauch",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.07705",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.06",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-11-14T08:45:09",
 		"id": 7705
 	},
 	{
@@ -1804,44 +1790,42 @@ var indikatorensetData = [
 		"id": 7711
 	},
 	{
+		"template": "line001",
+		"data-id": 7712,
+		"chart-id": 7712,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7950"
+			7950
 		],
-		"template": "line001",
 		"title": "Einbruch- und Einschleichdiebstähle",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.19.1.07712",
-		"kuerzelKunde": "6.02",
-		"description": "Einbruch- und Einschleichdiebstähle",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2021 insgesamt 48 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 20.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:32.3232",
+		"description": "Einbruch- und Einschleichdiebstähle",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.07712",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "6.02",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 35 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
+		"orderKey": "06_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7712,
-		"chart-id": 7712,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-14T08:45:09",
 		"id": 7712
 	},
 	{
@@ -1855,7 +1839,7 @@ var indikatorensetData = [
 		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2020 für jedes Jahr negative Umzugssaldi auf; d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt waren die Umzugssaldi zwischen 2015 und 2019 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies war auf die Fertigstellung neuer Wohngebäude zurückzuführen. Für 2020 ergibt sich ein leicht negativer Umzugssaldo (-12).",
+		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2021 einen negativen Umzugssaldo auf, d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt ist der Umzugssaldo 2021 ebenfalls negativ (-39). Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1880,7 +1864,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:20",
+		"aktualisierungsdatum": "2022-11-14T08:45:09",
 		"id": 7764
 	}
 ];

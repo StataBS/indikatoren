@@ -5,27 +5,27 @@
       "data": [
         [
           "Polen",
-          1067
-        ],
-        [
-          "Kroatien",
-          850
+          1097
         ],
         [
           "Ungarn",
-          894
+          908
         ],
         [
           "Rumänien",
-          855
+          882
+        ],
+        [
+          "Kroatien",
+          835
         ],
         [
           "Slowakei",
-          568
+          576
         ],
         [
           "Bulgarien",
-          431
+          476
         ],
         [
           "Tschechien",
@@ -33,15 +33,15 @@
         ],
         [
           "Slowenien",
-          258
+          264
         ],
         [
           "Litauen",
-          173
+          178
         ],
         [
           "Lettland",
-          91
+          89
         ],
         [
           "Estland",
@@ -109,7 +109,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»"
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»"
   },
   "subtitle": {
     "style": {
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {
@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "legend": {
     "layout": "vertical",
