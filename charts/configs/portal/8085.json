@@ -6,18 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2013: Klybeck",
-          126
-        ],
-        [
-          "2013: Kleinhüningen",
-          46
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2014: Klybeck",
           145
         ],
@@ -26,7 +14,7 @@
           52
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -38,7 +26,7 @@
           52
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -50,7 +38,7 @@
           57
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -62,7 +50,7 @@
           57
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -74,7 +62,7 @@
           59
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -86,7 +74,7 @@
           60
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -96,6 +84,18 @@
         [
           "2020: Kleinhüningen",
           59
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          115
+        ],
+        [
+          "2021: Kleinhüningen",
+          55
         ]
       ],
       "name": "Erdgas",
@@ -107,18 +107,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2013: Klybeck",
-          70
-        ],
-        [
-          "2013: Kleinhüningen",
-          55
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2014: Klybeck",
           59
         ],
@@ -127,7 +115,7 @@
           51
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -139,7 +127,7 @@
           52
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -151,7 +139,7 @@
           39
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -163,7 +151,7 @@
           39
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -175,7 +163,7 @@
           40
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -187,7 +175,7 @@
           36
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -197,6 +185,18 @@
         [
           "2020: Kleinhüningen",
           36
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          27
+        ],
+        [
+          "2021: Kleinhüningen",
+          38
         ]
       ],
       "name": "Heizöl",
@@ -208,18 +208,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2013: Klybeck",
-          315
-        ],
-        [
-          "2013: Kleinhüningen",
-          142
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2014: Klybeck",
           315
         ],
@@ -228,7 +216,7 @@
           141
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -240,7 +228,7 @@
           140
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -252,7 +240,7 @@
           143
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -264,7 +252,7 @@
           140
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -276,7 +264,7 @@
           138
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -288,7 +276,7 @@
           144
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -297,6 +285,18 @@
         ],
         [
           "2020: Kleinhüningen",
+          146
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          384
+        ],
+        [
+          "2021: Kleinhüningen",
           146
         ]
       ],
@@ -309,18 +309,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2013: Klybeck",
-          201
-        ],
-        [
-          "2013: Kleinhüningen",
-          96
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2014: Klybeck",
           196
         ],
@@ -329,7 +317,7 @@
           142
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -341,7 +329,7 @@
           141
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -353,7 +341,7 @@
           148
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -365,7 +353,7 @@
           141
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -377,7 +365,7 @@
           130
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -389,7 +377,7 @@
           161
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -398,6 +386,18 @@
         ],
         [
           "2020: Kleinhüningen",
+          165
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          163
+        ],
+        [
+          "2021: Kleinhüningen",
           165
         ]
       ],
@@ -543,7 +543,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -17,6 +17,9 @@
   {"color": "#b375ab",
     visible:true,
   }, 
+  {"color": "#3C3C3C",
+  visible:true,
+}, 
 ],
 "legend": {
   "enabled": true,
