@@ -23,6 +23,10 @@
         [
           "2018",
           189586.64121
+        ],
+        [
+          "2020",
+          194777.57184
         ]
       ],
       "name": "Haushalte",
@@ -51,6 +55,10 @@
         [
           "2018",
           303332.98213
+        ],
+        [
+          "2020",
+          280337.48479
         ]
       ],
       "name": "Nicht-Wohnen (ohne Verkehr)",
@@ -79,6 +87,10 @@
         [
           "2018",
           201597.45844
+        ],
+        [
+          "2020",
+          143013.01412
         ]
       ],
       "name": "Verkehr",
@@ -110,6 +122,10 @@
         [
           "2018",
           3.4748426667
+        ],
+        [
+          "2020",
+          3.0672271857
         ]
       ],
       "name": "Tonnen pro Kopf (rechte Skala)",
@@ -265,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.11.2022"
   },
   "tooltip": {
     "useHTML": true,

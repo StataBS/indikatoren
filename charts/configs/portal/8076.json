@@ -4,6 +4,14 @@
       "color": "#cd9c00",
       "data": [
         [
+          2012,
+          19.8
+        ],
+        [
+          2013,
+          21.9
+        ],
+        [
           2014,
           18.4
         ],
@@ -21,7 +29,7 @@
         ],
         [
           2018,
-          16.5
+          16.4
         ],
         [
           2019,
@@ -30,6 +38,10 @@
         [
           2020,
           20
+        ],
+        [
+          2021,
+          14.2
         ]
       ],
       "name": "Klybeck"
@@ -39,16 +51,24 @@
       "visible": true,
       "data": [
         [
+          2012,
+          6.1
+        ],
+        [
+          2013,
+          14.6
+        ],
+        [
           2014,
           17
         ],
         [
           2015,
-          12.8
+          12.5
         ],
         [
           2016,
-          20.9
+          22.2
         ],
         [
           2017,
@@ -65,6 +85,10 @@
         [
           2020,
           21.7
+        ],
+        [
+          2021,
+          22
         ]
       ],
       "name": "Kleinhüningen"
@@ -195,7 +219,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
