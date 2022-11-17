@@ -17088,7 +17088,7 @@
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat, in den  letzten Jahren war es wieder etwas stärker. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker; 2017 und 2018 gingen sie wieder etwas zurück.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark. Danach war das Wachstum moderat und in den Jahren vor der COVID-19-Pandemie schliesslich wieder dynamischer. Die Staatsausgaben des Kantons Basel-Stadt erhöhten sich 2020 wieder etwas, nachdem sie seit 2017 leicht zurückgegangen waren.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -17103,8 +17103,8 @@
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatsrechnung",
 		"kuerzel": "I.18.1.6205",
-		"kennzahlenset": "Legislaturplan-2017-2021",
-		"kuerzelKunde": "2.9",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
@@ -17115,7 +17115,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:56",
+		"aktualisierungsdatum": "2022-11-17T08:54:22",
 		"id": 6205
 	},
 	{
@@ -71262,7 +71262,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-10T09:03:14",
+		"aktualisierungsdatum": "2022-11-17T08:54:22",
 		"id": 8995
 	},
 	{
@@ -71634,7 +71634,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-10T09:03:15",
+		"aktualisierungsdatum": "2022-11-17T08:54:23",
 		"id": 9022
 	},
 	{
@@ -71672,7 +71672,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-10T09:03:15",
+		"aktualisierungsdatum": "2022-11-17T08:54:23",
 		"id": 9023
 	},
 	{
