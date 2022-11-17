@@ -498,7 +498,7 @@ id | visible | visibleInPortal | indikatorenset
 6202 | true | true | Legislaturplan-2017-2021
 6203 | true | true | 
 6204 | true | true | 
-6205 | true | true | Legislaturplan-2017-2021
+6205 | true | true | 
 6206 | true | true | Legislaturplan
 6209 | true | true | Legislaturplan-2017-2021
 6210 | true | true | Legislaturplan-2017-2021

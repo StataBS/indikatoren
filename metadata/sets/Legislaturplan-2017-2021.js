@@ -1771,46 +1771,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6205,
-		"chart-id": 6205,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6335
-		],
-		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat, in den  letzten Jahren war es wieder etwas stärker. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker; 2017 und 2018 gingen sie wieder etwas zurück.",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
-		"quellenangabe": [
-			"BAK Economics",
-			"Eidgenössische Finanzverwaltung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatsrechnung",
-		"kuerzel": "I.18.1.6205",
-		"kennzahlenset": "Legislaturplan-2017-2021",
-		"kuerzelKunde": "2.9",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_009",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:56",
-		"id": 6205
-	},
-	{
-		"template": "line001",
 		"data-id": 6209,
 		"chart-id": 6209,
 		"filter": "",
