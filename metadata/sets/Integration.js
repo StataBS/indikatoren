@@ -1614,45 +1614,43 @@ var indikatorensetData = [
 		"id": 6406
 	},
 	{
-		"title": "Arbeitslosenquote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-		"kuerzel": "I.03.4.6407",
-		"kuerzelKunde": "C1-7",
-		"description": "Arbeitslosenquote der Ausländer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration",
+		"template": "populationPyramid001",
+		"data-id": 6407,
+		"chart-id": 6407,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6683
+		],
+		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
+		"lesehilfe": "Im Jahr 2001 war die Arbeitslosenquote der ausländischen Frauen ab 25 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) waren im Jahr 2001 Frauen und Männer gleich stark von Arbeitslosigkeit betroffen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T16:11:09.099",
+		"description": "Arbeitslosenquote der ausländischen Staatsangehörigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.06407",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C1-7",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen waren im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
-		"template": "populationPyramid001",
+		"orderKey": "03_00_00_00_00_107",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"6683"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6407,
-		"chart-id": 6407,
-		"filter": "",
+		"aktualisierungsdatum": "2022-11-22T09:12:36",
 		"id": 6407
 	},
 	{
