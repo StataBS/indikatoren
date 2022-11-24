@@ -1746,8 +1746,8 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2019/20, Basel-Stadt",
-		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
+		"subtitle": "im Schuljahr 2021/22, Basel-Stadt",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt"
@@ -1772,7 +1772,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:57",
+		"aktualisierungsdatum": "2022-11-24T08:58:33",
 		"id": 6039
 	},
 	{

@@ -7,7 +7,7 @@
       "data": [
         [
           "Alle",
-          37.05
+          33.27
         ],
         [
           " ",
@@ -15,11 +15,11 @@
         ],
         [
           "Männl.",
-          32.19
+          27.75
         ],
         [
           "Weibl.",
-          42.39
+          38.95
         ],
         [
           "  ",
@@ -27,11 +27,11 @@
         ],
         [
           "Deutsch",
-          50.07
+          46.05
         ],
         [
           "Fremdsp.",
-          23.83
+          21.39
         ],
         [
           "   ",
@@ -39,11 +39,11 @@
         ],
         [
           "Schweiz",
-          29.19
+          38.84
         ],
         [
           "Ausland",
-          41.5
+          24.1
         ]
       ],
       "name": "Gymnasium",
@@ -56,7 +56,7 @@
       "data": [
         [
           "Alle",
-          14.22
+          15.71
         ],
         [
           " ",
@@ -64,11 +64,11 @@
         ],
         [
           "Männl.",
-          11.87
+          12.6
         ],
         [
           "Weibl.",
-          16.8
+          18.92
         ],
         [
           "  ",
@@ -76,11 +76,11 @@
         ],
         [
           "Deutsch",
-          16.94
+          16.81
         ],
         [
           "Fremdsp.",
-          11.46
+          14.7
         ],
         [
           "   ",
@@ -88,11 +88,11 @@
         ],
         [
           "Schweiz",
-          10.97
+          17.29
         ],
         [
           "Ausland",
-          16.06
+          13.13
         ]
       ],
       "name": "FMS",
@@ -105,7 +105,7 @@
       "data": [
         [
           "Alle",
-          20.13
+          20.54
         ],
         [
           " ",
@@ -113,11 +113,11 @@
         ],
         [
           "Männl.",
-          22.89
+          23.59
         ],
         [
           "Weibl.",
-          17.11
+          17.4
         ],
         [
           "  ",
@@ -125,11 +125,11 @@
         ],
         [
           "Deutsch",
-          9.81
+          9.46
         ],
         [
           "Fremdsp.",
-          30.62
+          30.84
         ],
         [
           "   ",
@@ -137,11 +137,11 @@
         ],
         [
           "Schweiz",
-          31.68
+          14.99
         ],
         [
           "Ausland",
-          13.6
+          29.68
         ]
       ],
       "name": "Brückenangebote\u002F12. Schuljahr",
@@ -154,7 +154,7 @@
       "data": [
         [
           "Alle",
-          18.04
+          21.09
         ],
         [
           " ",
@@ -162,11 +162,11 @@
         ],
         [
           "Männl.",
-          23.03
+          27.75
         ],
         [
           "Weibl.",
-          12.56
+          14.23
         ],
         [
           "  ",
@@ -174,11 +174,11 @@
         ],
         [
           "Deutsch",
-          15.3
+          18.64
         ],
         [
           "Fremdsp.",
-          20.81
+          23.36
         ],
         [
           "   ",
@@ -186,11 +186,11 @@
         ],
         [
           "Schweiz",
-          16.15
+          21.23
         ],
         [
           "Ausland",
-          19.11
+          20.86
         ]
       ],
       "name": "Berufliche Grundbildung",
@@ -203,7 +203,7 @@
       "data": [
         [
           "Alle",
-          9.96
+          8.3
         ],
         [
           " ",
@@ -211,11 +211,11 @@
         ],
         [
           "Männl.",
-          9.3
+          7.64
         ],
         [
           "Weibl.",
-          10.68
+          8.98
         ],
         [
           "  ",
@@ -223,11 +223,11 @@
         ],
         [
           "Deutsch",
-          7.28
+          8.19
         ],
         [
           "Fremdsp.",
-          12.67
+          8.4
         ],
         [
           "   ",
@@ -235,11 +235,11 @@
         ],
         [
           "Schweiz",
-          11.18
+          7.11
         ],
         [
           "Ausland",
-          9.26
+          10.25
         ]
       ],
       "name": "Andere Lösung\u002FUnbekannt",
@@ -252,7 +252,7 @@
       "data": [
         [
           "Alle",
-          0.6
+          1.09
         ],
         [
           " ",
@@ -260,11 +260,11 @@
         ],
         [
           "Männl.",
-          0.72
+          0.67
         ],
         [
           "Weibl.",
-          0.47
+          1.52
         ],
         [
           "  ",
@@ -272,11 +272,11 @@
         ],
         [
           "Deutsch",
-          0.59
+          0.85
         ],
         [
           "Fremdsp.",
-          0.6
+          1.31
         ],
         [
           "   ",
@@ -284,11 +284,11 @@
         ],
         [
           "Schweiz",
-          0.83
+          0.55
         ],
         [
           "Ausland",
-          0.47
+          1.98
         ]
       ],
       "name": "Keine Lösung",
@@ -377,7 +377,7 @@
     "text": "Übertritte nach der obligatorischen Schulzeit"
   },
   "subtitle": {
-    "text": "im Schuljahr 2019\u002F20, Basel-Stadt",
+    "text": "im Schuljahr 2021\u002F22, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -436,7 +436,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
