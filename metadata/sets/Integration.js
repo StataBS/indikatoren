@@ -1703,9 +1703,9 @@ var indikatorensetData = [
 			6685
 		],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen deutlich höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von jener der 20- bis 24-Jährigen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2020 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2015-2019 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen deutlich höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von jener der 20- bis 24-Jährigen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuelles 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:42",
+		"aktualisierungsdatum": "2022-11-24T08:58:33",
 		"id": 6409
 	},
 	{

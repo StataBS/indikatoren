@@ -24,6 +24,10 @@
         [
           "2015",
           329535
+        ],
+        [
+          "2020",
+          323345
         ]
       ],
       "name": "Wohnen Klybeck",
@@ -53,6 +57,10 @@
         [
           "2015",
           138015
+        ],
+        [
+          "2020",
+          131108
         ]
       ],
       "name": "Wohnen Kleinhüningen",
@@ -83,6 +91,10 @@
         [
           "2015",
           10521765
+        ],
+        [
+          "2020",
+          10088260
         ]
       ],
       "name": "Wohnen Basel",
@@ -112,6 +124,10 @@
         [
           "2015",
           824751
+        ],
+        [
+          "2020",
+          635995
         ]
       ],
       "name": "Arbeiten Klybeck",
@@ -141,6 +157,10 @@
         [
           "2015",
           275637
+        ],
+        [
+          "2020",
+          432010
         ]
       ],
       "name": "Arbeiten Kleinhüningen",
@@ -171,6 +191,10 @@
         [
           "2015",
           8409706
+        ],
+        [
+          "2020",
+          8706729
         ]
       ],
       "name": "Arbeiten Basel",
@@ -298,7 +322,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -340,6 +364,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8073
+    "filename": "8073"
   }
 }

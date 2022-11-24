@@ -61,6 +61,10 @@
         [
           2018,
           768852
+        ],
+        [
+          2019,
+          721124
         ]
       ],
       "name": "Zugezogene Klybeck"
@@ -126,6 +130,10 @@
         [
           2018,
           -524255
+        ],
+        [
+          2019,
+          -860283
         ]
       ],
       "name": "Weggezogene Klybeck"
@@ -191,6 +199,10 @@
         [
           2018,
           229876
+        ],
+        [
+          2019,
+          191006
         ]
       ],
       "name": "Zugezogene Kleinhüningen"
@@ -256,6 +268,10 @@
         [
           2018,
           -257764
+        ],
+        [
+          2019,
+          -311525
         ]
       ],
       "name": "Weggezogene Kleinhüningen"
@@ -330,6 +346,10 @@
         [
           2018,
           244597
+        ],
+        [
+          2019,
+          -139159
         ]
       ],
       "name": "Saldo Klybeck"
@@ -408,6 +428,10 @@
         [
           2018,
           -27888
+        ],
+        [
+          2019,
+          -120519
         ]
       ],
       "name": "Saldo Kleinhüningen"
@@ -543,7 +567,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

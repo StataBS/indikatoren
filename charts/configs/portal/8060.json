@@ -94,6 +94,18 @@
         [
           "2020: Kleinhüningen",
           96
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          417
+        ],
+        [
+          "2021: Kleinhüningen",
+          105
         ]
       ],
       "name": "1 Zimmer",
@@ -193,6 +205,18 @@
         [
           "2020: Kleinhüningen",
           374
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          1356
+        ],
+        [
+          "2021: Kleinhüningen",
+          375
         ]
       ],
       "name": "2 Zimmer",
@@ -292,6 +316,18 @@
         [
           "2020: Kleinhüningen",
           668
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          1419
+        ],
+        [
+          "2021: Kleinhüningen",
+          667
         ]
       ],
       "name": "3 Zimmer",
@@ -391,6 +427,18 @@
         [
           "2020: Kleinhüningen",
           211
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          503
+        ],
+        [
+          "2021: Kleinhüningen",
+          214
         ]
       ],
       "name": "4 Zimmer",
@@ -490,6 +538,18 @@
         [
           "2020: Kleinhüningen",
           31
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          110
+        ],
+        [
+          "2021: Kleinhüningen",
+          31
         ]
       ],
       "name": "5 Zimmer",
@@ -588,6 +648,18 @@
         ],
         [
           "2020: Kleinhüningen",
+          19
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2021: Klybeck",
+          29
+        ],
+        [
+          "2021: Kleinhüningen",
           19
         ]
       ],
@@ -740,7 +812,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
