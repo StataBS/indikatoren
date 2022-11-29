@@ -34,7 +34,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:34",
+		"aktualisierungsdatum": "2022-11-29T11:53:55",
 		"id": 9575
 	},
 	{
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:34",
+		"aktualisierungsdatum": "2022-11-29T11:53:56",
 		"id": 9576
 	},
 	{
@@ -98,8 +98,8 @@ var indikatorensetData = [
 		],
 		"description": "Veranstaltungen auf der Allmend",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Lärm",
+		"kuerzel": "I.02.14.09577",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:35",
+		"aktualisierungsdatum": "2022-11-29T11:53:56",
 		"id": 9577
 	},
 	{
@@ -137,8 +137,8 @@ var indikatorensetData = [
 		],
 		"description": "Lärmintensive Veranstaltungen auf der Allmend",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Lärm",
+		"kuerzel": "I.02.14.09578",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
@@ -150,7 +150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:35",
+		"aktualisierungsdatum": "2022-11-29T11:53:57",
 		"id": 9578
 	},
 	{
@@ -189,7 +189,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:36",
+		"aktualisierungsdatum": "2022-11-29T11:53:57",
 		"id": 9579
 	},
 	{
@@ -226,7 +226,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:36",
+		"aktualisierungsdatum": "2022-11-29T11:53:58",
 		"id": 9580
 	},
 	{
@@ -264,7 +264,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:37",
+		"aktualisierungsdatum": "2022-11-29T11:53:58",
 		"id": 9581
 	},
 	{
@@ -302,7 +302,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:37",
+		"aktualisierungsdatum": "2022-11-29T11:53:59",
 		"id": 9582
 	},
 	{
@@ -340,7 +340,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:37",
+		"aktualisierungsdatum": "2022-11-29T11:53:59",
 		"id": 9583
 	},
 	{
@@ -365,8 +365,8 @@ var indikatorensetData = [
 		],
 		"description": "Reineinkommen pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.09584",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.3-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -378,7 +378,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:38",
+		"aktualisierungsdatum": "2022-11-29T11:53:59",
 		"id": 9584
 	},
 	{
@@ -403,8 +403,8 @@ var indikatorensetData = [
 		],
 		"description": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
 		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.09585",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.4-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -416,7 +416,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:38",
+		"aktualisierungsdatum": "2022-11-29T11:54:00",
 		"id": 9585
 	},
 	{
@@ -453,7 +453,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:39",
+		"aktualisierungsdatum": "2022-11-29T11:54:01",
 		"id": 9586
 	},
 	{
@@ -494,7 +494,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:39",
+		"aktualisierungsdatum": "2022-11-29T11:54:01",
 		"id": 9587
 	},
 	{
@@ -531,7 +531,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:40",
+		"aktualisierungsdatum": "2022-11-29T11:54:01",
 		"id": 9588
 	},
 	{
@@ -568,7 +568,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:40",
+		"aktualisierungsdatum": "2022-11-29T11:54:02",
 		"id": 9589
 	},
 	{
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:41",
+		"aktualisierungsdatum": "2022-11-29T11:54:02",
 		"id": 9590
 	},
 	{
@@ -629,8 +629,8 @@ var indikatorensetData = [
 		],
 		"description": "Zu Fuss Gehende in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.09592",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -642,7 +642,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:41",
+		"aktualisierungsdatum": "2022-11-29T11:54:02",
 		"id": 9592
 	},
 	{
@@ -666,8 +666,8 @@ var indikatorensetData = [
 		],
 		"description": "Velofahrende in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.09593",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -679,7 +679,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:42",
+		"aktualisierungsdatum": "2022-11-29T11:54:03",
 		"id": 9593
 	},
 	{
@@ -703,8 +703,8 @@ var indikatorensetData = [
 		],
 		"description": "Einfahrten in Parkhäuser in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.09594",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.4-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -716,7 +716,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:42",
+		"aktualisierungsdatum": "2022-11-29T11:54:04",
 		"id": 9594
 	},
 	{
@@ -753,7 +753,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:43",
+		"aktualisierungsdatum": "2022-11-29T11:54:04",
 		"id": 9595
 	},
 	{
@@ -777,8 +777,8 @@ var indikatorensetData = [
 		],
 		"description": "Parkhausauslastung an Samstagen in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.09596",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.5-2",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -790,7 +790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:43",
+		"aktualisierungsdatum": "2022-11-29T11:54:05",
 		"id": 9596
 	},
 	{
@@ -814,8 +814,8 @@ var indikatorensetData = [
 		],
 		"description": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Öffentlicher Verkehr",
+		"kuerzel": "I.11.2.09597",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.3-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -827,7 +827,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:42",
+		"aktualisierungsdatum": "2022-11-29T11:54:03",
 		"id": 9597
 	},
 	{
@@ -864,7 +864,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:43",
+		"aktualisierungsdatum": "2022-11-29T11:54:05",
 		"id": 9598
 	},
 	{
@@ -901,7 +901,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:44",
+		"aktualisierungsdatum": "2022-11-29T11:54:05",
 		"id": 9599
 	},
 	{
@@ -938,7 +938,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:44",
+		"aktualisierungsdatum": "2022-11-29T11:54:06",
 		"id": 9600
 	},
 	{
@@ -975,7 +975,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:45",
+		"aktualisierungsdatum": "2022-11-29T11:54:06",
 		"id": 9601
 	},
 	{
@@ -1013,7 +1013,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T08:29:39",
+		"aktualisierungsdatum": "2022-11-29T11:54:00",
 		"id": 9691
 	}
 ];
