@@ -1,0 +1,585 @@
+{
+  "series": [
+    {
+      "id": "dummy0",
+      "color": "#0F7399",
+      "grouping": false,
+      "data": [
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          undefined
+        ],
+        [
+          2019,
+          undefined
+        ],
+        [
+          2020,
+          undefined
+        ],
+        [
+          2021,
+          undefined
+        ]
+      ],
+      "name": "Johanniterbrücke: Mo-Fr"
+    },
+    {
+      "linkedTo": "dummy0",
+      "colors": [
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "rgba(15,115,153,0.5)",
+        "#0F7399",
+        "#0F7399",
+        "#0F7399"
+      ],
+      "colorByPoint": true,
+      "data": [
+        [
+          2011,
+          3061
+        ],
+        [
+          2012,
+          3117
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          3273
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          3651
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          4476
+        ],
+        [
+          2020,
+          4336
+        ],
+        [
+          2021,
+          3709
+        ]
+      ],
+      "name": "Johanniterbrücke: Mo-Fr"
+    },
+    {
+      "id": "dummy1",
+      "color": "#008AC3",
+      "grouping": false,
+      "visible": false,
+      "data": [
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          undefined
+        ],
+        [
+          2019,
+          undefined
+        ],
+        [
+          2020,
+          undefined
+        ],
+        [
+          2021,
+          undefined
+        ]
+      ],
+      "name": "Johanniterbrücke: Sa"
+    },
+    {
+      "linkedTo": "dummy1",
+      "colors": [
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)3",
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)",
+        "rgba(0,138,195,0.5)",
+        "#008AC3",
+        "#008AC3",
+        "#008AC3"
+      ],
+      "colorByPoint": true,
+      "visible": false,
+      "data": [
+        [
+          2011,
+          2132
+        ],
+        [
+          2012,
+          2102
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          2220
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          2408
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          3057
+        ],
+        [
+          2020,
+          3128
+        ],
+        [
+          2021,
+          2634
+        ]
+      ],
+      "name": "Johanniterbrücke: Sa"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2011,
+          7156
+        ],
+        [
+          2012,
+          7065
+        ],
+        [
+          2013,
+          6972
+        ],
+        [
+          2014,
+          7630
+        ],
+        [
+          2015,
+          8148
+        ],
+        [
+          2016,
+          8138
+        ],
+        [
+          2017,
+          8765
+        ],
+        [
+          2018,
+          9296
+        ],
+        [
+          2019,
+          9307
+        ],
+        [
+          2020,
+          8325
+        ],
+        [
+          2021,
+          7839
+        ]
+      ],
+      "name": "Wettsteinbrücke: Mo-Fr"
+    },
+    {
+      "color": "#FF8028",
+      "visible": false,
+      "data": [
+        [
+          2011,
+          3967
+        ],
+        [
+          2012,
+          3641
+        ],
+        [
+          2013,
+          3463
+        ],
+        [
+          2014,
+          3878
+        ],
+        [
+          2015,
+          3962
+        ],
+        [
+          2016,
+          4066
+        ],
+        [
+          2017,
+          4434
+        ],
+        [
+          2018,
+          4839
+        ],
+        [
+          2019,
+          4823
+        ],
+        [
+          2020,
+          4735
+        ],
+        [
+          2021,
+          4868
+        ]
+      ],
+      "name": "Wettsteinbrücke: Sa"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2011,
+          2503
+        ],
+        [
+          2012,
+          2314
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          2729
+        ],
+        [
+          2016,
+          2790
+        ],
+        [
+          2017,
+          2972
+        ],
+        [
+          2018,
+          3181
+        ],
+        [
+          2019,
+          3310
+        ],
+        [
+          2020,
+          2835
+        ],
+        [
+          2021,
+          2888
+        ]
+      ],
+      "name": "Heuwaage-Viadukt: Mo-Fr"
+    },
+    {
+      "color": "#68AB2B",
+      "visible": false,
+      "data": [
+        [
+          2011,
+          1260
+        ],
+        [
+          2012,
+          1094
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          1228
+        ],
+        [
+          2016,
+          1245
+        ],
+        [
+          2017,
+          1310
+        ],
+        [
+          2018,
+          1401
+        ],
+        [
+          2019,
+          1456
+        ],
+        [
+          2020,
+          1415
+        ],
+        [
+          2021,
+          1449
+        ]
+      ],
+      "name": "Heuwaage-Viadukt: Sa"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "animation": false,
+    "inverted": false,
+    "renderTo": "container-9593",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0.1,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Velofahrende in der Innenstadt"
+  },
+  "subtitle": {
+    "text": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 210,
+    "width": 450,
+    "itemDistance": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9593"
+  }
+}
