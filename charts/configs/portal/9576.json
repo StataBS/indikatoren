@@ -1,0 +1,295 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          "Verarbeitendes Gewerbe",
+          0.0071428571
+        ],
+        [
+          "Bau, Energie und Wasser",
+          0.0508474576
+        ],
+        [
+          "Grosshandel",
+          -0.2631578947
+        ],
+        [
+          "Detailhandel",
+          -0.0939490446
+        ],
+        [
+          "Verkehr und Lagerei",
+          -0.25
+        ],
+        [
+          "Information, Kommunikation",
+          0.0523809524
+        ],
+        [
+          "Gastronomie, Hotellerie",
+          0.0235690236
+        ],
+        [
+          "Finanzen, Versicherung, Immobilien",
+          -0.0906040268
+        ],
+        [
+          "Unternehmens-DL, Freiberufe",
+          0.0295081967
+        ],
+        [
+          "Sonstige DL",
+          0.0334448161
+        ],
+        [
+          "Öff. Verwaltung, Bildung",
+          -0.0081300813
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.0322108346
+        ],
+        [
+          "Kunst, Unterhaltung, Sport",
+          -0.0144927536
+        ],
+        [
+          "Schönheitspflege, sonst. pers. DL",
+          -0.0208955224
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Total",
+          -0.0144637294
+        ]
+      ],
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Verarbeitendes Gewerbe",
+          -0.0288924559
+        ],
+        [
+          "Bau, Energie und Wasser",
+          -0.0179487179
+        ],
+        [
+          "Grosshandel",
+          -0.2159090909
+        ],
+        [
+          "Detailhandel",
+          -0.1006470165
+        ],
+        [
+          "Verkehr und Lagerei",
+          -0.147766323
+        ],
+        [
+          "Information, Kommunikation",
+          0.0609195402
+        ],
+        [
+          "Gastronomie, Hotellerie",
+          0.0063211125
+        ],
+        [
+          "Finanzen, Versicherung, Immobilien",
+          -0.0418006431
+        ],
+        [
+          "Unternehmens-DL, Freiberufe",
+          0.0348652932
+        ],
+        [
+          "Sonstige DL",
+          0.0741784038
+        ],
+        [
+          "Öff. Verwaltung, Bildung",
+          0.0687022901
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.0149253731
+        ],
+        [
+          "Kunst, Unterhaltung, Sport",
+          -0.0047244094
+        ],
+        [
+          "Schönheitspflege, sonst. pers. DL",
+          0.0425531915
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Total",
+          -0.001790013
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": -190,
+      "align": "leftt"
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginLeft": 200,
+    "marginRight": 30,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-9576",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0.13
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitsstättenentwicklung nach Branche"
+  },
+  "subtitle": {
+    "text": "Innenstadt und Stadt Basel, 2020 gegenüber 2016",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+            return Highcharts.numberFormat((this.value*100),0)+'%'; 
+          }
+    },
+    "min": null
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'; 
+      },
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9576"
+  }
+}

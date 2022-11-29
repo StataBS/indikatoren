@@ -1,0 +1,622 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "zIndex": 5,
+      "data": [
+        [
+          2012,
+          215
+        ],
+        [
+          2013,
+          99
+        ],
+        [
+          2014,
+          17
+        ],
+        [
+          2015,
+          44
+        ],
+        [
+          2016,
+          31
+        ],
+        [
+          2017,
+          25
+        ],
+        [
+          2018,
+          80
+        ],
+        [
+          2019,
+          115
+        ],
+        [
+          2020,
+          65
+        ],
+        [
+          2021,
+          71
+        ]
+      ],
+      "name": "Zuzugsort: unbekannt"
+    },
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2012,
+          7994
+        ],
+        [
+          2013,
+          8953
+        ],
+        [
+          2014,
+          7872
+        ],
+        [
+          2015,
+          8027
+        ],
+        [
+          2016,
+          8291
+        ],
+        [
+          2017,
+          7697
+        ],
+        [
+          2018,
+          7756
+        ],
+        [
+          2019,
+          7973
+        ],
+        [
+          2020,
+          7056
+        ],
+        [
+          2021,
+          6776
+        ]
+      ],
+      "name": "Zuzugsort: Ausland"
+    },
+    {
+      "color": "#689199",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2012,
+          2854
+        ],
+        [
+          2013,
+          3062
+        ],
+        [
+          2014,
+          2776
+        ],
+        [
+          2015,
+          3031
+        ],
+        [
+          2016,
+          3259
+        ],
+        [
+          2017,
+          3018
+        ],
+        [
+          2018,
+          3068
+        ],
+        [
+          2019,
+          2795
+        ],
+        [
+          2020,
+          3141
+        ],
+        [
+          2021,
+          3042
+        ]
+      ],
+      "name": "Zuzugsort: übrige Schweiz"
+    },
+    {
+      "color": "#A8C3CA",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2012,
+          3116
+        ],
+        [
+          2013,
+          3122
+        ],
+        [
+          2014,
+          2855
+        ],
+        [
+          2015,
+          3177
+        ],
+        [
+          2016,
+          3268
+        ],
+        [
+          2017,
+          2996
+        ],
+        [
+          2018,
+          3165
+        ],
+        [
+          2019,
+          3130
+        ],
+        [
+          2020,
+          3218
+        ],
+        [
+          2021,
+          2925
+        ]
+      ],
+      "name": "Zuzugsort: Nordwestschweiz"
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          2012,
+          -1525
+        ],
+        [
+          2013,
+          -1600
+        ],
+        [
+          2014,
+          -1215
+        ],
+        [
+          2015,
+          -1372
+        ],
+        [
+          2016,
+          -1425
+        ],
+        [
+          2017,
+          -1252
+        ],
+        [
+          2018,
+          -1294
+        ],
+        [
+          2019,
+          -714
+        ],
+        [
+          2020,
+          -736
+        ],
+        [
+          2021,
+          -1231
+        ]
+      ],
+      "name": "Wegzugsort: unbekannt"
+    },
+    {
+      "color": "#68AB2B",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2012,
+          -4286
+        ],
+        [
+          2013,
+          -4687
+        ],
+        [
+          2014,
+          -4604
+        ],
+        [
+          2015,
+          -4933
+        ],
+        [
+          2016,
+          -5004
+        ],
+        [
+          2017,
+          -4885
+        ],
+        [
+          2018,
+          -4700
+        ],
+        [
+          2019,
+          -4842
+        ],
+        [
+          2020,
+          -3984
+        ],
+        [
+          2021,
+          -4326
+        ]
+      ],
+      "name": "Wegzugsort: Ausland"
+    },
+    {
+      "color": "#73B97C",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2012,
+          -2606
+        ],
+        [
+          2013,
+          -2760
+        ],
+        [
+          2014,
+          -2692
+        ],
+        [
+          2015,
+          -2838
+        ],
+        [
+          2016,
+          -2903
+        ],
+        [
+          2017,
+          -2773
+        ],
+        [
+          2018,
+          -3205
+        ],
+        [
+          2019,
+          -2878
+        ],
+        [
+          2020,
+          -3063
+        ],
+        [
+          2021,
+          -3070
+        ]
+      ],
+      "name": "Wegzugsort: übrige Schweiz"
+    },
+    {
+      "color": "#D7E8D2",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2012,
+          -4024
+        ],
+        [
+          2013,
+          -4290
+        ],
+        [
+          2014,
+          -4216
+        ],
+        [
+          2015,
+          -4424
+        ],
+        [
+          2016,
+          -4615
+        ],
+        [
+          2017,
+          -4248
+        ],
+        [
+          2018,
+          -4337
+        ],
+        [
+          2019,
+          -4365
+        ],
+        [
+          2020,
+          -4741
+        ],
+        [
+          2021,
+          -5187
+        ]
+      ],
+      "name": "Wegzugsort: Nordwestschweiz"
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          2012,
+          1738
+        ],
+        [
+          2013,
+          1899
+        ],
+        [
+          2014,
+          793
+        ],
+        [
+          2015,
+          712
+        ],
+        [
+          2016,
+          902
+        ],
+        [
+          2017,
+          578
+        ],
+        [
+          2018,
+          688
+        ],
+        [
+          2019,
+          1214
+        ],
+        [
+          2020,
+          956
+        ],
+        [
+          2021,
+          -1000
+        ]
+      ],
+      "name": "Saldo"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                },
+      "render": function (args) {
+          //Add functionality to define plotLines' zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
+          Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
+            var chart = this.axis.chart;
+
+            proceed.call(this);
+
+            if (!chart.seriesGroup) {
+              chart.seriesGroup = chart.renderer.g('series-group')
+                .attr({ zIndex: 3 })
+                .add();
+            }
+
+            if (this.svgElem.parentGroup !== chart.seriesGroup) {
+              this.svgElem
+                .attr({ zIndex: this.options.zIndex })
+                .add(chart.seriesGroup);
+            }
+            return this;
+          });
+
+
+        }
+    },
+    "renderTo": "container-9599",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 1.5
+      }
+    ]
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5,
+    "itemWidth": 200
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9599"
+  }
+}
