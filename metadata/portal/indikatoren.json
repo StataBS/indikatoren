@@ -10555,45 +10555,46 @@
 		"id": 5193
 	},
 	{
+		"template": "line001",
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7782,
+			8423,
+			8910,
+			9686
+		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.5196",
-		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex Basel-Stadt",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Nachhaltigkeit",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-04T15:05:48.4848",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.5196",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW17",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_318",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_06_00_00_00_318",
-		"parentId": null,
-		"children": [
-			"7782"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5196,
-		"chart-id": 5196,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-01T08:33:44",
 		"id": 5196
 	},
 	{
@@ -26597,8 +26598,8 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im Oktober erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,9%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Oktober 2022 und Oktober 2021.",
+		"lesehilfe": "Nach den spürbaren Teuerungszuwächsen in der ersten Jahreshälfte 2022 hat sich das Preisniveau seit Juli stabilisiert. Im November erreicht der Basler Index der Konsumentenpreise wie schon im September und Oktober eine Jahresteuerung von 2,9%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen November 2022 und November 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -26625,7 +26626,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:26",
+		"aktualisierungsdatum": "2022-12-01T08:33:42",
 		"id": 7512
 	},
 	{
@@ -26664,7 +26665,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:27",
+		"aktualisierungsdatum": "2022-12-01T08:33:42",
 		"id": 7513
 	},
 	{
@@ -39157,7 +39158,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:29",
+		"aktualisierungsdatum": "2022-12-01T08:33:43",
 		"id": 9022
 	},
 	{
@@ -39195,7 +39196,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:29",
+		"aktualisierungsdatum": "2022-12-01T08:33:43",
 		"id": 9023
 	},
 	{

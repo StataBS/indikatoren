@@ -2216,6 +2216,7 @@ id | visible | visibleInPortal | indikatorenset
 9653 | true | false | Energiestatistik (Print)
 9654 | true | false | Energiestatistik (Print)
 9655 | true | false | Energiestatistik (Print)
+9686 | true | false | RR_KPI
 9691 | true | true | Innenstadt-QuiZ
 9995 | true | false | 
 9996 | true | false | 

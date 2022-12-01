@@ -5,103 +5,115 @@
       "data": [
         [
           1995,
-          80.4
-        ],
-        [
-          1996,
-          81.9
-        ],
-        [
-          1997,
-          81.8
-        ],
-        [
-          1998,
-          81.9
-        ],
-        [
-          1999,
-          82.3
-        ],
-        [
-          2000,
-          83.7
-        ],
-        [
-          2001,
-          85.1
-        ],
-        [
-          2002,
-          85.9
-        ],
-        [
-          2003,
-          86.3
-        ],
-        [
-          2004,
-          87.1
-        ],
-        [
-          2005,
-          87.9
-        ],
-        [
-          2006,
-          89
-        ],
-        [
-          2007,
-          91.1
-        ],
-        [
-          2008,
-          93.1
-        ],
-        [
-          2009,
-          94.9
-        ],
-        [
-          2010,
-          95.8
-        ],
-        [
-          2011,
-          96.8
-        ],
-        [
-          2012,
           97.2
         ],
         [
+          1996,
+          99
+        ],
+        [
+          1997,
+          98.8
+        ],
+        [
+          1998,
+          99
+        ],
+        [
+          1999,
+          99.5
+        ],
+        [
+          2000,
+          101.2
+        ],
+        [
+          2001,
+          102.9
+        ],
+        [
+          2002,
+          103.8
+        ],
+        [
+          2003,
+          104.3
+        ],
+        [
+          2004,
+          105.3
+        ],
+        [
+          2005,
+          106.3
+        ],
+        [
+          2006,
+          107.6
+        ],
+        [
+          2007,
+          110.1
+        ],
+        [
+          2008,
+          112.6
+        ],
+        [
+          2009,
+          114.7
+        ],
+        [
+          2010,
+          115.8
+        ],
+        [
+          2011,
+          117
+        ],
+        [
+          2012,
+          117.5
+        ],
+        [
           2013,
-          98.3
+          118.8
         ],
         [
           2014,
-          98.9
+          119.5
         ],
         [
           2015,
-          100
+          120.9
         ],
         [
           2016,
-          101.6
+          122.8
         ],
         [
           2017,
-          102.8
+          124.3
         ],
         [
           2018,
-          104
+          125.7
         ],
         [
           2019,
-          105.4
+          127.4
+        ],
+        [
+          2020,
+          128.8
+        ],
+        [
+          2021,
+          129.8
+        ],
+        [
+          2022,
+          131.4
         ]
       ],
       "name": "Index"
@@ -155,7 +167,7 @@
     "text": "Mietpreisindex Basel-Stadt"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2015 = 100)",
+    "text": "Indexwert (Basis 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -179,7 +191,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 3
+    "tickPositioner": function () {
+      var interval = 3,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
   },
   "yAxis": {
     "min": 50,
@@ -223,7 +242,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -264,6 +283,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7782
+    "filename": "7782"
   }
 }

@@ -1146,7 +1146,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 100,8 im November 2021.",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -1171,7 +1171,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:42",
+		"aktualisierungsdatum": "2022-12-01T08:33:45",
 		"id": 8423
 	},
 	{
