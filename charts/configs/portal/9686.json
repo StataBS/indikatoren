@@ -1,195 +1,125 @@
 {
   "series": [
     {
-      "color": "#FFBB58",
+      "color": "#8b2223",
       "data": [
         [
-          "Jan",
-          100.4
+          1995,
+          97.2
         ],
         [
-          "Feb",
-          100.5
+          1996,
+          99
         ],
         [
-          "Mrz",
-          100.6
+          1997,
+          98.8
         ],
         [
-          "Apr",
-          100.2
+          1998,
+          99
         ],
         [
-          "Mai",
-          100.4
+          1999,
+          99.5
         ],
         [
-          "Jun",
-          100.4
-        ],
-        [
-          "Jul",
-          100.2
-        ],
-        [
-          "Aug",
-          100.3
-        ],
-        [
-          "Sep",
-          100.3
-        ],
-        [
-          "Okt",
-          100.3
-        ],
-        [
-          "Nov",
-          100.1
-        ],
-        [
-          "Dez",
-          100
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Jan",
-          100.1
-        ],
-        [
-          "Feb",
-          100.2
-        ],
-        [
-          "Mrz",
-          100.5
-        ],
-        [
-          "Apr",
-          100.8
-        ],
-        [
-          "Mai",
-          101
-        ],
-        [
-          "Jun",
-          101.1
-        ],
-        [
-          "Jul",
-          100.9
-        ],
-        [
-          "Aug",
+          2000,
           101.2
         ],
         [
-          "Sep",
-          101.1
+          2001,
+          102.9
         ],
         [
-          "Okt",
-          101.4
+          2002,
+          103.8
         ],
         [
-          "Nov",
-          101.4
-        ],
-        [
-          "Dez",
-          101.3
-        ]
-      ],
-      "name": "2021",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Jan",
-          101.5
-        ],
-        [
-          "Feb",
-          102
-        ],
-        [
-          "Mrz",
-          102.6
-        ],
-        [
-          "Apr",
-          103
-        ],
-        [
-          "Mai",
-          103.7
-        ],
-        [
-          "Jun",
-          104.1
-        ],
-        [
-          "Jul",
-          104
-        ],
-        [
-          "Aug",
-          104.2
-        ],
-        [
-          "Sep",
-          104
-        ],
-        [
-          "Okt",
+          2003,
           104.3
         ],
         [
-          "Nov",
-          104.4
+          2004,
+          105.3
         ],
         [
-          "Dez",
-          undefined
+          2005,
+          106.3
+        ],
+        [
+          2006,
+          107.6
+        ],
+        [
+          2007,
+          110.1
+        ],
+        [
+          2008,
+          112.6
+        ],
+        [
+          2009,
+          114.7
+        ],
+        [
+          2010,
+          115.8
+        ],
+        [
+          2011,
+          117
+        ],
+        [
+          2012,
+          117.5
+        ],
+        [
+          2013,
+          118.8
+        ],
+        [
+          2014,
+          119.5
+        ],
+        [
+          2015,
+          120.9
+        ],
+        [
+          2016,
+          122.8
+        ],
+        [
+          2017,
+          124.3
+        ],
+        [
+          2018,
+          125.7
+        ],
+        [
+          2019,
+          127.4
+        ],
+        [
+          2020,
+          128.8
+        ],
+        [
+          2021,
+          129.8
         ]
       ],
-      "name": "2022",
-      "turboThreshold": 0
+      "name": "Index"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -214,20 +144,12 @@
 					}
 				}
     },
-    "renderTo": "container-7513"
+    "renderTo": "container-9686"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
       }
     }
   },
@@ -238,10 +160,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Basler Index"
+    "text": "Mietpreisindex Basel-Stadt"
   },
   "subtitle": {
-    "text": "Basis Dezember 2020 = 100",
+    "text": "Indexwert (Basis 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -249,8 +171,33 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+      var interval = 3,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
+  },
   "yAxis": {
-    "min": undefined,
+    "min": 50,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -265,19 +212,18 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.1f}"
+      "format": "{value:,.0f}"
     }
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -290,9 +236,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -329,10 +275,10 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "7513"
+    "filename": "9686"
   }
 }

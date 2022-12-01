@@ -45,5 +45,6 @@ var indikatorensetNames = [
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
 	"Energiestatistik (Print)",
+	"RR_KPI",
 	"Test"
 ];

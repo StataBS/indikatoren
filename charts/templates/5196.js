@@ -7,8 +7,18 @@
     }
   },
   "xAxis": {
-	"tickInterval": 3,
-  },
+    labels: {
+      //rotation: -45
+    },
+    tickPositioner: function () {
+      var interval = 3,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
+    },
   "series": [
     {
       "color": "#8b2223"

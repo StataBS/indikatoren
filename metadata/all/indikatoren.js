@@ -10873,45 +10873,46 @@ var indikatoren = [
 		"id": 5195
 	},
 	{
+		"template": "line001",
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7782,
+			8423,
+			8910,
+			9686
+		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.5196",
-		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex Basel-Stadt",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Nachhaltigkeit",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-04T15:05:48.4848",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.5196",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW17",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_318",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_06_00_00_00_318",
-		"parentId": null,
-		"children": [
-			"7782"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5196,
-		"chart-id": 5196,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-01T08:33:44",
 		"id": 5196
 	},
 	{
@@ -41250,8 +41251,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im Oktober erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,9%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Oktober 2022 und Oktober 2021.",
+		"lesehilfe": "Nach den spürbaren Teuerungszuwächsen in der ersten Jahreshälfte 2022 hat sich das Preisniveau seit Juli stabilisiert. Im November erreicht der Basler Index der Konsumentenpreise wie schon im September und Oktober eine Jahresteuerung von 2,9%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen November 2022 und November 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -41278,7 +41279,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:26",
+		"aktualisierungsdatum": "2022-12-01T08:33:42",
 		"id": 7512
 	},
 	{
@@ -41317,7 +41318,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-03T08:34:27",
+		"aktualisierungsdatum": "2022-12-01T08:33:42",
 		"id": 7513
 	},
 	{
@@ -45966,43 +45967,41 @@ var indikatoren = [
 		"id": 7779
 	},
 	{
+		"template": "line001",
+		"data-id": 7782,
+		"chart-id": 5196,
+		"filter": "",
+		"parentId": "5196",
+		"children": [],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.07782",
-		"kuerzelKunde": "ST 5-5",
-		"description": "Mietpreisindex Basel-Stadt",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Richtplan",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-19T09:42:37.3737",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.07782",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 5-5",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
-		"template": "line001",
+		"orderKey": "02_05_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_05_00_00_00_006",
-		"parentId": 5196,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7782,
-		"chart-id": 5196,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-01T08:33:45",
 		"id": 7782
 	},
 	{
@@ -57991,7 +57990,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 100,8 im November 2021.",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -58017,7 +58016,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:42",
+		"aktualisierungsdatum": "2022-12-01T08:33:45",
 		"id": 8423
 	},
 	{
@@ -68343,43 +68342,41 @@ var indikatoren = [
 		"id": 8909
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8910,
+		"chart-id": 8910,
+		"filter": "",
+		"parentId": "5196",
+		"children": [],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.08910",
-		"kuerzelKunde": "GW17",
-		"description": "Mietpreisindex Basel-Stadt",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:44.4444",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.08910",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "GW17",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
-		"template": "line001_print",
+		"orderKey": "03_07_00_00_00_318",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_07_00_00_00_318",
-		"parentId": 5196,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8910,
-		"chart-id": 8910,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-01T08:33:44",
 		"id": 8910
 	},
 	{
@@ -71624,7 +71621,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:29",
+		"aktualisierungsdatum": "2022-12-01T08:33:43",
 		"id": 9022
 	},
 	{
@@ -71662,7 +71659,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:29",
+		"aktualisierungsdatum": "2022-12-01T08:33:43",
 		"id": 9023
 	},
 	{
@@ -82965,6 +82962,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-06-29T09:50:21",
 		"id": 9655
+	},
+	{
+		"template": "line001",
+		"data-id": 9686,
+		"chart-id": 5196,
+		"filter": "",
+		"parentId": "5196",
+		"children": [],
+		"title": "Mietpreisindex Basel-Stadt",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.09686",
+		"kennzahlenset": "RR_KPI",
+		"kuerzelKunde": "14",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_017",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-12-01T08:33:44",
+		"id": 9686
 	},
 	{
 		"template": "line001",
