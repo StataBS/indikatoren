@@ -78,11 +78,11 @@ var indikatorensetData = [
 		"data-id": 6644,
 		"chart-id": 6644,
 		"filter": "",
-		"parentId": "6599",
+		"parentId": "6059",
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 bildeten die Deutschen mit 16 648 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2001 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2021 bildeten die Deutschen mit 16 564 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen, hat im letzten Jahr jedoch leicht abgenommen (-84). Die Anzahl Italiener, Türken und Personen aus dem Balkan hat gegenüber 2002 abgenommen, wobei die Anzahl Italiener seit 2013 wieder etwas gestiegen ist.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:11",
+		"aktualisierungsdatum": "2022-12-02T08:54:06",
 		"id": 6644
 	},
 	{

@@ -38988,7 +38988,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:28",
+		"aktualisierungsdatum": "2022-12-02T08:54:02",
 		"id": 8995
 	},
 	{
