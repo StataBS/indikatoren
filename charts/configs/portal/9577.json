@@ -219,11 +219,11 @@
         ],
         [
           2018,
-          3
+          20
         ],
         [
           2019,
-          19
+          20
         ],
         [
           2020,
@@ -859,7 +859,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Allmendverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Allmendverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
