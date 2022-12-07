@@ -97,7 +97,7 @@ var indikatorensetData = [
 			"Innenstadt"
 		],
 		"description": "Veranstaltungen auf der Allmend",
-		"thema": "02_Raum_Umwelt",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09577",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:07",
 		"id": 9577
 	},
 	{
@@ -136,7 +136,7 @@ var indikatorensetData = [
 			"Innenstadt"
 		],
 		"description": "Lärmintensive Veranstaltungen auf der Allmend",
-		"thema": "02_Raum_Umwelt",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09578",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -150,7 +150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:53",
+		"aktualisierungsdatum": "2022-12-07T12:41:07",
 		"id": 9578
 	},
 	{
@@ -468,8 +468,8 @@ var indikatorensetData = [
 		],
 		"title": "Besuche in Theater, Kinos und Museen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 594 000 im Jahr 2019. Bei den übrigen Institutionen blieben die Zahlen vergleichsweise konstant.",
-		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19.",
+		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 593 000 im Jahr 2019. Bei den übrigen Institutionen sind die Zahlen bis 2019 vergleichsweise konstant geblieben. Seit Beginn der COVID-19-Pandemie Ende Winter 2020 haben sich die Zahlen stark verändert.",
+		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19. Bei der Stadtbibliothek sind nicht die Besuche, sondern die Ausleihen von Medien dargestellt.",
 		"quellenangabe": [
 			"Jeweilige Institutionen",
 			"Bundesamt für Statistik (BFS), Film- und Kinostatistik"
@@ -494,7 +494,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:01",
+		"aktualisierungsdatum": "2022-12-07T12:41:08",
 		"id": 9587
 	},
 	{

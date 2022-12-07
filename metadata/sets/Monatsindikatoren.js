@@ -19,7 +19,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "",
 		"kennzahlenset": "Monatsindikatoren",
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:51",
+		"aktualisierungsdatum": "2022-12-07T12:41:03",
 		"id": 7510
 	},
 	{
@@ -56,7 +56,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Gemeldete offene Stellen",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.07511",
 		"kennzahlenset": "Monatsindikatoren",
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:51",
+		"aktualisierungsdatum": "2022-12-07T12:41:04",
 		"id": 7511
 	},
 	{
@@ -319,7 +319,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08980",
 		"kennzahlenset": "Monatsindikatoren",
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:04",
 		"id": 8980
 	},
 	{
@@ -356,7 +356,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08981",
 		"kennzahlenset": "Monatsindikatoren",
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:05",
 		"id": 8981
 	},
 	{
@@ -393,7 +393,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08992",
 		"kennzahlenset": "Monatsindikatoren",
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:05",
 		"id": 8992
 	}
 ];
