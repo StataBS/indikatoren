@@ -23295,7 +23295,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Anteil Arbeitslose in ausgewählten Branchen",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.6411",
 		"kennzahlenset": "Integration",
@@ -23310,7 +23310,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:53",
+		"aktualisierungsdatum": "2022-12-07T12:41:02",
 		"id": 6411
 	},
 	{
@@ -39527,7 +39527,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Privatschulquote",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 werden 10,0% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Dies entspricht dem höchsten Wert im gesamten Beobachtungszeitraum. Bei Schweizern liegt der Anteil bei 7,1%, bei den Ausländern bei 14,3%.",
+		"lesehilfe": "2020 werden 9,2% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,5%, bei den Ausländern bei 13,4%.",
 		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
@@ -39553,7 +39553,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:15",
+		"aktualisierungsdatum": "2022-12-07T12:41:03",
 		"id": 7432
 	},
 	{
@@ -41186,7 +41186,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "",
 		"kennzahlenset": "Monatsindikatoren",
@@ -41201,7 +41201,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:51",
+		"aktualisierungsdatum": "2022-12-07T12:41:03",
 		"id": 7510
 	},
 	{
@@ -41224,7 +41224,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Gemeldete offene Stellen",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.07511",
 		"kennzahlenset": "Monatsindikatoren",
@@ -41239,7 +41239,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:51",
+		"aktualisierungsdatum": "2022-12-07T12:41:04",
 		"id": 7511
 	},
 	{
@@ -70839,7 +70839,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08980",
 		"kennzahlenset": "Monatsindikatoren",
@@ -70854,7 +70854,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:04",
 		"id": 8980
 	},
 	{
@@ -70877,7 +70877,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08981",
 		"kennzahlenset": "Monatsindikatoren",
@@ -70892,7 +70892,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:05",
 		"id": 8981
 	},
 	{
@@ -71193,7 +71193,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08992",
 		"kennzahlenset": "Monatsindikatoren",
@@ -71208,7 +71208,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:05",
 		"id": 8992
 	},
 	{
@@ -71621,7 +71621,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:43",
+		"aktualisierungsdatum": "2022-12-07T12:41:06",
 		"id": 9022
 	},
 	{
@@ -71659,7 +71659,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:43",
+		"aktualisierungsdatum": "2022-12-07T12:41:06",
 		"id": 9023
 	},
 	{
@@ -80815,7 +80815,7 @@ var indikatoren = [
 			"Innenstadt"
 		],
 		"description": "Veranstaltungen auf der Allmend",
-		"thema": "02_Raum_Umwelt",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09577",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -80830,7 +80830,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:52",
+		"aktualisierungsdatum": "2022-12-07T12:41:07",
 		"id": 9577
 	},
 	{
@@ -80855,7 +80855,7 @@ var indikatoren = [
 			"Innenstadt"
 		],
 		"description": "Lärmintensive Veranstaltungen auf der Allmend",
-		"thema": "02_Raum_Umwelt",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09578",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -80870,7 +80870,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:53",
+		"aktualisierungsdatum": "2022-12-07T12:41:07",
 		"id": 9578
 	},
 	{
@@ -81196,8 +81196,8 @@ var indikatoren = [
 		],
 		"title": "Besuche in Theater, Kinos und Museen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 594 000 im Jahr 2019. Bei den übrigen Institutionen blieben die Zahlen vergleichsweise konstant.",
-		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19.",
+		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 593 000 im Jahr 2019. Bei den übrigen Institutionen sind die Zahlen bis 2019 vergleichsweise konstant geblieben. Seit Beginn der COVID-19-Pandemie Ende Winter 2020 haben sich die Zahlen stark verändert.",
+		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19. Bei der Stadtbibliothek sind nicht die Besuche, sondern die Ausleihen von Medien dargestellt.",
 		"quellenangabe": [
 			"Jeweilige Institutionen",
 			"Bundesamt für Statistik (BFS), Film- und Kinostatistik"
@@ -81223,7 +81223,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:01",
+		"aktualisierungsdatum": "2022-12-07T12:41:08",
 		"id": 9587
 	},
 	{

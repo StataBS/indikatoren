@@ -1795,7 +1795,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil Arbeitslose in ausgewählten Branchen",
-		"thema": "03_arbeit_Erwerb",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.6411",
 		"kennzahlenset": "Integration",
@@ -1809,7 +1809,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-07T07:15:53",
+		"aktualisierungsdatum": "2022-12-07T12:41:02",
 		"id": 6411
 	},
 	{
