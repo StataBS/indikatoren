@@ -97,7 +97,7 @@ var indikatorensetData = [
 			"Innenstadt"
 		],
 		"description": "Veranstaltungen auf der Allmend",
-		"thema": "02 Raum, Umwelt",
+		"thema": "02_Raum_Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09577",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-05T08:32:27",
+		"aktualisierungsdatum": "2022-12-07T07:15:52",
 		"id": 9577
 	},
 	{
@@ -136,7 +136,7 @@ var indikatorensetData = [
 			"Innenstadt"
 		],
 		"description": "Lärmintensive Veranstaltungen auf der Allmend",
-		"thema": "02 Raum, Umwelt",
+		"thema": "02_Raum_Umwelt",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.09578",
 		"kennzahlenset": "Innenstadt-QuiZ",
@@ -150,7 +150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-05T08:32:28",
+		"aktualisierungsdatum": "2022-12-07T07:15:53",
 		"id": 9578
 	},
 	{

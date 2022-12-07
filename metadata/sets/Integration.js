@@ -1784,7 +1784,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Arbeitslose in ausgewählten Branchen",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Rund 80% der Arbeitslosen im Baugewerbe sind im Jahr 2021 ausländische Staatsangehörige. Auch bei den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung), im Gastgewerbe und im Bereich Verkehr und Lagerei liegt der Anteil der ausländischen Arbeitslosen über 65%. Den tiefsten Ausländeranteil weisen die Arbeitslosen im Bereich Bildung, Gesund-heitswesen (38%) auf.",
+		"lesehilfe": "Rund 80% der Arbeitslosen im Baugewerbe sind im Jahr 2021 ausländische Staatsangehörige. Auch bei den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung), im Gastgewerbe und im Bereich Verkehr und Lagerei liegt der Anteil der ausländischen Arbeitslosen über 65%. Den tiefsten Ausländeranteil weisen die Arbeitslosen im Bereich Bildung, Gesundheitswesen (38%) auf.",
 		"erlaeuterungen": "Die Branchen basieren auf der Nomenklatur NOGA 2008. Rund 5% der Arbeitslosen können keiner Branche zugeteilt werden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1795,7 +1795,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil Arbeitslose in ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.6411",
 		"kennzahlenset": "Integration",
@@ -1809,7 +1809,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-07T07:52:34",
+		"aktualisierungsdatum": "2022-12-07T07:15:53",
 		"id": 6411
 	},
 	{
