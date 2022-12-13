@@ -55383,8 +55383,8 @@ var indikatoren = [
 			8471
 		],
 		"title": "Anteile Wertschöpfung nach Branche",
-		"subtitle": "Anteile an der Gesamtwertschöpfung, 2020",
-		"lesehilfe": "In Basel-Stadt erwirtschaften 2020 die Branchen Chemie und Pharma rund 44% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 19% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (33% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31%). An zweiter Stelle folgt der Handel (11%).",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2021",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2021 die Branchen Chemie und Pharma 39% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 20% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (36% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 9%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (27%). An zweiter Stelle folgt der Handel (12%).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -55410,7 +55410,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:05",
+		"aktualisierungsdatum": "2022-12-13T09:15:55",
 		"id": 8354
 	},
 	{
@@ -55427,7 +55427,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist im gleichen Zeitraum um rund 16% gestiegen. Das Gastgewerbe sowie der Bereich Verkehr und Lagerei haben im ersten Pandemiejahr 2020 die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2021 konnten sie sich leicht erholen.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -55453,7 +55453,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:29",
+		"aktualisierungsdatum": "2022-12-13T09:15:55",
 		"id": 8355
 	},
 	{
@@ -81155,7 +81155,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist im gleichen Zeitraum um rund 16% gestiegen. Das Gastgewerbe sowie der Bereich Verkehr und Lagerei haben im ersten Pandemiejahr 2020 die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2021 konnten sie sich leicht erholen.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -81181,7 +81181,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:01",
+		"aktualisierungsdatum": "2022-12-13T09:15:56",
 		"id": 9586
 	},
 	{
