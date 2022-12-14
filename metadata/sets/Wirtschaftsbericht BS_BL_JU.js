@@ -49,7 +49,7 @@ var indikatorensetData = [
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
 		"subtitle": "in Franken, 2018",
-		"lesehilfe": "Mit fast 191 000 Franken pro Kopf im Jahr 2018 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 73 000 Franken, Jura auf rund 64 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
+		"lesehilfe": "Mit über 196 000 Franken pro Kopf im Jahr 2020 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 71 000 Franken, Jura auf rund 67 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 82 000 Franken.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:07",
+		"aktualisierungsdatum": "2022-12-14T08:05:26",
 		"id": 8351
 	},
 	{
@@ -251,7 +251,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Zwischen 2014 und 2020 hat sich in Basel-Landschaft die Wertschöpfung der Pharmaindustrie fast verdoppelt. Auch die Wertschöpfung in der Chemischen Industrie hat stark zugenommen (+43%). Im Jahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
+		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdoppelt und die Wertschöpfung in der Chemischen Industrie hat um fast 60% zugenommen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -276,7 +276,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-13T10:06:14",
+		"aktualisierungsdatum": "2022-12-14T08:05:27",
 		"id": 8356
 	},
 	{
@@ -436,44 +436,42 @@ var indikatorensetData = [
 		"id": 8360
 	},
 	{
+		"template": "line001",
+		"data-id": 8361,
+		"chart-id": 8361,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8478
+		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "2.1-7",
-		"description": "Entwicklung Grenzgänger",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 46%, der Bestand im dritten Quartal 2022 liegt bei 10 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+24% auf rund 24 100) und Basel-Stadt (+3% auf 34 800). In der gesamten Schweiz arbeiten im 3. Quartal 2022 rund 374 300 Grenzgänger, 31% mehr als im 1. Quartal 2014.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:26.2626",
+		"description": "Entwicklung Grenzgänger",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg 25,0%, der Bestand im vierten Quartal 2019 liegt bei 8 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+16,0% auf rund 22 300) und Basel-Stadt (+0,8% auf 33 900). In der gesamten Schweiz arbeiten im 4. Quartal 2019 rund 328 900 Grenzgänger, 16,2% mehr als im 1. Quartal 2014.",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8478"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8361,
-		"chart-id": 8361,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-14T08:05:27",
 		"id": 8361
 	},
 	{
@@ -486,8 +484,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2019, 4. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
+		"subtitle": "2022, 3. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2022 beträgt rund 34 800. In Basel-Landschaft sind es 24 100, im Jura 10 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 374 300.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -512,7 +510,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:08",
+		"aktualisierungsdatum": "2022-12-14T08:05:27",
 		"id": 8362
 	},
 	{
