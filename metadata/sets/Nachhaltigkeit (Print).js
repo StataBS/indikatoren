@@ -39,42 +39,42 @@ var indikatorensetData = [
 		"id": 8879
 	},
 	{
+		"template": "template001_print",
+		"data-id": 8880,
+		"chart-id": 8880,
+		"filter": "",
+		"parentId": "4355",
+		"children": [],
 		"title": "Brutvogelindex",
 		"subtitle": "Stadt Basel",
-		"kuerzel": "I.02.8.4355",
-		"kuerzelKunde": "NL14",
-		"description": "Brutvogelindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Biodiversität",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "Der Brutvogelindex für die Stadt Basel ist von 56 im Jahr 2015 auf 48 fünf Jahre später gesunken.",
+		"erlaeuterungen": "Der Brutvogelindex entspricht dem Verhältnis zwischen der Anzahl der tatsächlich gemessenen Arten und einer vordefinierten Bezugsgrösse. Der Index wird nur im urbanen Raum erhoben. Grössere, zusammenhängende Wälder und Landwirtschaftszonen eines Gemeindegebietes werden ausgeklammert (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:57.5757",
+		"description": "Brutvogelindex",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Biodiversität",
+		"kuerzel": "I.02.8.08880",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL14",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Funktionsfähigkeit der Ökosysteme",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Brutvogelindex für die Stadt Basel wurde 2015 zum ersten Mal erhoben und lag bei einem Wert von 56.",
-		"erlaeuterungen": "Der Brutvogel-Index entspricht dem Verhältnis zwischen der Anzahl der tatsächlich gemessenen Arten und einer vordefinierten Bezugsgrösse. Der Index wird nur im urbanen Raum erhoben. Grössere, zusammenhängende Wälder und Landwirtschaftszonen eines Gemeindegebietes werden ausgeklammert (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
-		"template": "template001_print",
+		"orderKey": "04_03_00_00_00_415",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_00_00_00_415",
-		"parentId": 4355,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8880,
-		"chart-id": 8880,
-		"filter": "",
+		"aktualisierungsdatum": "2022-12-14T08:05:28",
 		"id": 8880
 	},
 	{
