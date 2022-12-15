@@ -47,7 +47,7 @@
       "name": "Basel-Stadt"
     },
     {
-      "color": "#FF8028",
+      "color": "#990300",
       "data": [
         [
           2012,
@@ -139,7 +139,7 @@
       "name": "Aargau"
     },
     {
-      "color": "#FABD24",
+      "color": "#CD9C00",
       "data": [
         [
           2012,
@@ -185,7 +185,7 @@
       "name": "Solothurn"
     },
     {
-      "color": "#B00000",
+      "color": "#68AB2B",
       "data": [
         [
           2012,
@@ -231,7 +231,7 @@
       "name": "Übrige Schweiz"
     },
     {
-      "color": "#68AB2B",
+      "color": "#246370",
       "data": [
         [
           2012,
@@ -421,7 +421,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2022"
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 15.12.2022"
   },
   "tooltip": {
     "shared": true,
