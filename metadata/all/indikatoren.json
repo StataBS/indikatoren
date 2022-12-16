@@ -41368,7 +41368,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "125 468 Logiernächte wurden im Oktober 2022 in den Basler Hotelbetrieben gebucht, 14 925 bzw. 10,6% weniger als im September. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 25,2% bzw. 25 241 Übernachtungen. Die inländischen Gäste buchten 51 743 Logiernächte (+5,9%), die Gäste aus dem Ausland 73 725 Übernachtungen (+43,5%).",
+		"lesehilfe": "110 495 Logiernächte wurden im November 2022 in den Basler Hotelbetrieben gebucht, 14 973 bzw. 11,9% weniger als im Oktober. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 34,8% bzw. 28 515 Übernachtungen. Die inländischen Gäste buchten 43 806 Logiernächte (+13,8%), die Gäste aus dem Ausland 66 689 Übernachtungen (+53,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41394,7 +41394,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-21T08:47:39",
+		"aktualisierungsdatum": "2022-12-16T08:30:32",
 		"id": 7516
 	},
 	{
@@ -41405,8 +41405,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41432,7 +41432,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-21T08:47:42",
+		"aktualisierungsdatum": "2022-12-16T08:30:32",
 		"id": 7517
 	},
 	{
