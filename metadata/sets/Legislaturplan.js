@@ -351,7 +351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:54",
 		"id": 6147
 	},
 	{
@@ -880,7 +880,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3 500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -905,7 +905,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2022-12-20T08:53:52",
 		"id": 9368
 	},
 	{
@@ -1058,7 +1058,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9372
 	},
 	{
@@ -1073,7 +1073,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
 		"subtitle": "Nordwestschweiz",
 		"lesehilfe": "2020 lebten von der Bevölkerung in der Nordwestschweiz: 12,4% in einem Haushalt mit mindestens einer Art von Zahlungsrückstand; 5,5% in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte; 5,9% in einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
-		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d.h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
+		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d. h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
 		],
@@ -1097,7 +1097,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:50",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9373
 	},
 	{
@@ -1148,7 +1148,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2. Der Index für den Median des Reinkommens bei 103,8.",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -1174,7 +1174,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2022-12-20T08:53:56",
 		"id": 9375
 	},
 	{
@@ -1410,7 +1410,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:23",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9381
 	},
 	{
@@ -1689,7 +1689,7 @@ var indikatorensetData = [
 		],
 		"title": "Hitzetage und Tropennächte",
 		"subtitle": "Anzahl Tage, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage und 1 Tropennacht verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage und 5 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
 		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel",
@@ -1717,7 +1717,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:38",
+		"aktualisierungsdatum": "2022-12-20T08:53:58",
 		"id": 9390
 	},
 	{

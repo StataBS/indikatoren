@@ -118,7 +118,7 @@
           5.902232353
         ]
       ],
-      "name": "Sozialhilfequote"
+      "name": "Sozialhilfequote (rechte Skala)"
     }
   ],
   "chart": {
@@ -252,7 +252,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

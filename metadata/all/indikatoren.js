@@ -12992,7 +12992,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-13T10:06:19",
+		"aktualisierungsdatum": "2022-12-20T08:53:58",
 		"id": 6037
 	},
 	{
@@ -15726,7 +15726,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:54",
 		"id": 6147
 	},
 	{
@@ -17539,9 +17539,9 @@ var indikatoren = [
 			6264
 		],
 		"title": "Haushalte in Begegnungszonen",
-		"subtitle": "indexiert (2011 = 100), Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2019 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2019 gibt es 8 080 Privathaushalte in Begegnungszonen.",
-		"erlaeuterungen": "",
+		"subtitle": "indexiert (2011 = 100), Stadt Basel",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2020 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2020 gibt es knapp 8 400 Privathaushalte in Begegnungszonen. Insgesamt gibt es in der Stadt Basel rund 89 000 Privathaushalte.",
+		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
@@ -17567,7 +17567,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:37",
+		"aktualisierungsdatum": "2022-12-20T08:53:59",
 		"id": 6220
 	},
 	{
@@ -41358,7 +41358,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-22T09:12:35",
+		"aktualisierungsdatum": "2022-12-20T08:53:51",
 		"id": 7515
 	},
 	{
@@ -45647,8 +45647,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Im Oktober 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in fünfzehn Wohnvierteln sowie in Betttingen. In vier Wohnvierteln sowie in Riehen sank sie.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Im November 2022 sank die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln. In zehn Wohnvierteln sowie in den Gemeinden Riehen und Bettingen stieg sie. Das Wohnviertel Klybeck verzeichnete keine Veränderung der Bevölkerungszahl.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -45675,7 +45675,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-22T09:12:35",
+		"aktualisierungsdatum": "2022-12-20T08:53:52",
 		"id": 7763
 	},
 	{
@@ -55989,8 +55989,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
-		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2019 mit 34,0% der Kanton Basel-Landschaft auf. In Basel-Stadt beträgt der Wert 24,9%, im Kanton Jura 29,2%. Im Schweizer Durchschnitt gibt es 30,2% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2021 mit 34,2% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,2%, im Kanton Basel-Landschaft 31,4%. Im Schweizer Durchschnitt gibt es 32,7% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
 		],
@@ -56015,7 +56015,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:55",
 		"id": 8369
 	},
 	{
@@ -58150,8 +58150,8 @@ var indikatoren = [
 			8494
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2020",
-		"lesehilfe": "Die Altersklassen der 15- bis 64-Jährigen weisen in der Region BS/BL/JU leicht niedrigere Anteile an der Gesamtbevölkerung auf als in der Gesamtschweiz. Dabei sind die Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz in den Klassen der 15- bis 29-Jährigen am grössten.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
+		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz. Am grössten sind Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz bei den 20- bis 24-Jährigen und den 25- bis 29-Jährigen.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -58178,7 +58178,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-15T08:23:16",
+		"aktualisierungsdatum": "2022-12-20T08:53:55",
 		"id": 8434
 	},
 	{
@@ -58232,7 +58232,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Die Region BS/BL/JU weist mit 35,6 einen höheren Altersquotienten auf als die Gesamtschweiz (30,7). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,2 Punkte gestiegen, jener der Schweiz um 1,4 Punkte.",
+		"lesehilfe": "Die Region BS/BL/JU weist mit 36,1 einen höheren Altersquotienten auf als die Gesamtschweiz (31,1). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,8 Punkte gestiegen, jener der Schweiz um 1,9 Punkte.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -58259,7 +58259,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-11T10:39:14",
+		"aktualisierungsdatum": "2022-12-20T08:53:56",
 		"id": 8436
 	},
 	{
@@ -58314,7 +58314,7 @@ var indikatoren = [
 			8498
 		],
 		"title": "Beschäftigte nach Branche",
-		"subtitle": "2019",
+		"subtitle": "2020",
 		"lesehilfe": "In Basel-Stadt sind rund 82% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (56%). Im Industriesektor ist für Basel-Stadt die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 26% in BL bzw. 18% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
@@ -58342,7 +58342,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8438
 	},
 	{
@@ -58355,7 +58355,7 @@ var indikatoren = [
 			8499
 		],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "2019",
+		"subtitle": "2020",
 		"lesehilfe": "Rund 91% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 65%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in Basel-Stadt die Landwirtschaft grössenmässig keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
@@ -58383,7 +58383,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8439
 	},
 	{
@@ -58396,8 +58396,8 @@ var indikatoren = [
 			8500
 		],
 		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"subtitle": "2019",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,7 Personen beschäftigt. Dies entspricht fast dem gesamtschweizerischen Durchschnitt, der bei 7,6 liegt. Im Jura liegt der Wert etwas tiefer bei 6,9 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,2 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"subtitle": "2020",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,8 Personen beschäftigt. Dieser Wert liegt nahe am gesamtschweizerischen Durchschnitt voni 7,6. Im Jura liegt der Wert etwas tiefer bei 6,8 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,0 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -58424,7 +58424,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8440
 	},
 	{
@@ -70554,7 +70554,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Beschäftigung",
 		"subtitle": "",
-		"lesehilfe": "Basel-Stadt zählt rund 192 000 Beschäftigte und damit etwa gleich viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2019 gegenüber dem Vorjahr um 1,1% zugenommen.",
+		"lesehilfe": "Basel-Stadt zählt rund 189 000 Beschäftigte und damit fast so viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2020 gegenüber dem Vorjahr um 1,1% abgenommen.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -70580,7 +70580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:07",
+		"aktualisierungsdatum": "2022-12-20T08:53:54",
 		"id": 8970
 	},
 	{
@@ -77212,7 +77212,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3 500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -77238,7 +77238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2022-12-20T08:53:52",
 		"id": 9368
 	},
 	{
@@ -77395,7 +77395,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9372
 	},
 	{
@@ -77410,7 +77410,7 @@ var indikatoren = [
 		"title": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
 		"subtitle": "Nordwestschweiz",
 		"lesehilfe": "2020 lebten von der Bevölkerung in der Nordwestschweiz: 12,4% in einem Haushalt mit mindestens einer Art von Zahlungsrückstand; 5,5% in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte; 5,9% in einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
-		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d.h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
+		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d. h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
 		],
@@ -77435,7 +77435,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:50",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9373
 	},
 	{
@@ -77487,7 +77487,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2. Der Index für den Median des Reinkommens bei 103,8.",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -77514,7 +77514,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2022-12-20T08:53:56",
 		"id": 9375
 	},
 	{
@@ -77756,7 +77756,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:23",
+		"aktualisierungsdatum": "2022-12-20T08:53:57",
 		"id": 9381
 	},
 	{
@@ -78042,7 +78042,7 @@ var indikatoren = [
 		],
 		"title": "Hitzetage und Tropennächte",
 		"subtitle": "Anzahl Tage, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage und 1 Tropennacht verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage und 5 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
 		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel",
@@ -78071,7 +78071,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:38",
+		"aktualisierungsdatum": "2022-12-20T08:53:58",
 		"id": 9390
 	},
 	{
