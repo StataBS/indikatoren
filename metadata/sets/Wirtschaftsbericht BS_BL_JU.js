@@ -758,8 +758,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
-		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2019 mit 34,0% der Kanton Basel-Landschaft auf. In Basel-Stadt beträgt der Wert 24,9%, im Kanton Jura 29,2%. Im Schweizer Durchschnitt gibt es 30,2% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2021 mit 34,2% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,2%, im Kanton Basel-Landschaft 31,4%. Im Schweizer Durchschnitt gibt es 32,7% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
 		],
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:32",
+		"aktualisierungsdatum": "2022-12-20T08:53:55",
 		"id": 8369
 	},
 	{
@@ -1071,8 +1071,8 @@ var indikatorensetData = [
 			8494
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2020",
-		"lesehilfe": "Die Altersklassen der 15- bis 64-Jährigen weisen in der Region BS/BL/JU leicht niedrigere Anteile an der Gesamtbevölkerung auf als in der Gesamtschweiz. Dabei sind die Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz in den Klassen der 15- bis 29-Jährigen am grössten.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
+		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz. Am grössten sind Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz bei den 20- bis 24-Jährigen und den 25- bis 29-Jährigen.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1098,7 +1098,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-15T08:23:16",
+		"aktualisierungsdatum": "2022-12-20T08:53:55",
 		"id": 8434
 	},
 	{
@@ -1151,7 +1151,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Die Region BS/BL/JU weist mit 35,6 einen höheren Altersquotienten auf als die Gesamtschweiz (30,7). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,2 Punkte gestiegen, jener der Schweiz um 1,4 Punkte.",
+		"lesehilfe": "Die Region BS/BL/JU weist mit 36,1 einen höheren Altersquotienten auf als die Gesamtschweiz (31,1). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,8 Punkte gestiegen, jener der Schweiz um 1,9 Punkte.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1177,7 +1177,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-11T10:39:14",
+		"aktualisierungsdatum": "2022-12-20T08:53:56",
 		"id": 8436
 	},
 	{
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 			8498
 		],
 		"title": "Beschäftigte nach Branche",
-		"subtitle": "2019",
+		"subtitle": "2020",
 		"lesehilfe": "In Basel-Stadt sind rund 82% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (56%). Im Industriesektor ist für Basel-Stadt die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 26% in BL bzw. 18% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
@@ -1258,7 +1258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8438
 	},
 	{
@@ -1271,7 +1271,7 @@ var indikatorensetData = [
 			8499
 		],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "2019",
+		"subtitle": "2020",
 		"lesehilfe": "Rund 91% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 65%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in Basel-Stadt die Landwirtschaft grössenmässig keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
@@ -1298,7 +1298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8439
 	},
 	{
@@ -1311,8 +1311,8 @@ var indikatorensetData = [
 			8500
 		],
 		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"subtitle": "2019",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,7 Personen beschäftigt. Dies entspricht fast dem gesamtschweizerischen Durchschnitt, der bei 7,6 liegt. Im Jura liegt der Wert etwas tiefer bei 6,9 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,2 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"subtitle": "2020",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,8 Personen beschäftigt. Dieser Wert liegt nahe am gesamtschweizerischen Durchschnitt voni 7,6. Im Jura liegt der Wert etwas tiefer bei 6,8 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,0 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1338,7 +1338,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:06",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8440
 	},
 	{
@@ -1838,7 +1838,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Beschäftigung",
 		"subtitle": "",
-		"lesehilfe": "Basel-Stadt zählt rund 192 000 Beschäftigte und damit etwa gleich viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2019 gegenüber dem Vorjahr um 1,1% zugenommen.",
+		"lesehilfe": "Basel-Stadt zählt rund 189 000 Beschäftigte und damit fast so viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2020 gegenüber dem Vorjahr um 1,1% abgenommen.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1863,7 +1863,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:07",
+		"aktualisierungsdatum": "2022-12-20T08:53:54",
 		"id": 8970
 	}
 ];

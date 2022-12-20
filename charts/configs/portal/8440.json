@@ -5,19 +5,19 @@
       "data": [
         [
           "Landwirtschaft",
-          4.3
+          3.3
         ],
         [
           "Industrie",
-          23.2
+          23.1
         ],
         [
           "Dienstleistungen",
-          10.1
+          9.8
         ],
         [
           "Total",
-          11.2
+          11
         ]
       ],
       "name": "Basel-Stadt",
@@ -40,7 +40,7 @@
         ],
         [
           "Total",
-          7.7
+          7.8
         ]
       ],
       "name": "Basel-Landschaft",
@@ -55,7 +55,7 @@
         ],
         [
           "Industrie",
-          13.8
+          13.2
         ],
         [
           "Dienstleistungen",
@@ -63,7 +63,7 @@
         ],
         [
           "Total",
-          6.9
+          6.8
         ]
       ],
       "name": "Jura",
@@ -78,7 +78,7 @@
         ],
         [
           "Industrie",
-          15.6
+          15.5
         ],
         [
           "Dienstleistungen",
@@ -97,11 +97,11 @@
       "data": [
         [
           "Landwirtschaft",
-          3
+          3.1
         ],
         [
           "Industrie",
-          11.4
+          11.2
         ],
         [
           "Dienstleistungen",
@@ -193,7 +193,7 @@
     "text": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte"
   },
   "subtitle": {
-    "text": "2019",
+    "text": "2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -249,7 +249,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

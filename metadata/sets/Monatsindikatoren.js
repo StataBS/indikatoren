@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-22T09:12:35",
+		"aktualisierungsdatum": "2022-12-20T08:53:51",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Im Oktober 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in fünfzehn Wohnvierteln sowie in Betttingen. In vier Wohnvierteln sowie in Riehen sank sie.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Im November 2022 sank die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln. In zehn Wohnvierteln sowie in den Gemeinden Riehen und Bettingen stieg sie. Das Wohnviertel Klybeck verzeichnete keine Veränderung der Bevölkerungszahl.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-22T09:12:35",
+		"aktualisierungsdatum": "2022-12-20T08:53:52",
 		"id": 7763
 	},
 	{

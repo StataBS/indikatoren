@@ -109,7 +109,7 @@
           -4436
         ]
       ],
-      "name": "Wegpendler in die restliche CH",
+      "name": "Wegpendler in die übrige CH",
       "turboThreshold": 0
     },
     {
@@ -277,7 +277,7 @@
           9604
         ]
       ],
-      "name": "Zupendler aus der restlichen CH",
+      "name": "Zupendler aus der übrigen CH",
       "turboThreshold": 0
     },
     {
@@ -540,7 +540,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "tooltip": {
     "shared": true,

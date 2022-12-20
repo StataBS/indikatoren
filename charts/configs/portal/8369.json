@@ -5,53 +5,7 @@
       "data": [
         [
           "Basel-Stadt",
-          22.4
-        ],
-        [
-          "Basel-Landschaft",
-          29.4
-        ],
-        [
-          "Jura",
-          32.8
-        ],
-        [
-          "Schweiz",
-          28.2
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "Basel-Stadt",
-          24.2
-        ],
-        [
-          "Basel-Landschaft",
-          30.6
-        ],
-        [
-          "Jura",
-          28
-        ],
-        [
-          "Schweiz",
-          28.6
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "Basel-Stadt",
-          22.7
+          22.8
         ],
         [
           "Basel-Landschaft",
@@ -59,22 +13,22 @@
         ],
         [
           "Jura",
-          32.6
+          32
         ],
         [
           "Schweiz",
-          28.7
+          28.6
         ]
       ],
       "name": "2016",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
-          26.4
+          26.3
         ],
         [
           "Basel-Landschaft",
@@ -93,30 +47,53 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
-          26.1
+          26
         ],
         [
           "Basel-Landschaft",
-          31.6
+          31.8
         ],
         [
           "Jura",
-          34.1
+          34.3
         ],
         [
           "Schweiz",
-          29.8
+          30.1
         ]
       ],
       "name": "2018",
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#689199",
+      "data": [
+        [
+          "Basel-Stadt",
+          25
+        ],
+        [
+          "Basel-Landschaft",
+          34.3
+        ],
+        [
+          "Jura",
+          29.6
+        ],
+        [
+          "Schweiz",
+          30.8
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel-Stadt",
@@ -124,18 +101,41 @@
         ],
         [
           "Basel-Landschaft",
-          34
+          33.7
         ],
         [
           "Jura",
-          29.2
+          36.1
         ],
         [
           "Schweiz",
-          30.2
+          31.3
         ]
       ],
-      "name": "2019",
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "Basel-Stadt",
+          25.2
+        ],
+        [
+          "Basel-Landschaft",
+          31.4
+        ],
+        [
+          "Jura",
+          34.2
+        ],
+        [
+          "Schweiz",
+          32.7
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

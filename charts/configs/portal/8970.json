@@ -5,29 +5,6 @@
       "data": [
         [
           "BS",
-          190333
-        ],
-        [
-          "BL",
-          148266
-        ],
-        [
-          "JU",
-          42034
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          380633
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "BS",
           190301
         ],
         [
@@ -47,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "BS",
@@ -70,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "BS",
@@ -93,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#A8C3CA",
       "data": [
         [
           "BS",
@@ -113,6 +90,29 @@
         ]
       ],
       "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "BS",
+          188778
+        ],
+        [
+          "BL",
+          152441
+        ],
+        [
+          "JU",
+          43845
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          385064
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -242,7 +242,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
