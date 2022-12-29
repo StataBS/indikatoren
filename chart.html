@@ -108,7 +108,7 @@ if (idByKuerzel[kuerzel] || kuerzelById[id] || templatesById[id]){
       //check if the chart's svg should be saved into a 2nd hidden div for casperjs
       var hiddenSVG = (window.decodeURIComponent($.url('?hiddenSVG')) === 'true') ? true : false;
   
-      lazyRenderChartById(id, chartMetadata, view, suppressNumberInTitle, function(){
+      lazyRenderChartById(id, chartMetadata, view, suppressNumberInTitle, false, function(){
         
         //make sure we have the complete chart with the renderTo object, which contains the kuerzel
         if (this.renderTo){                        
