@@ -17,7 +17,12 @@
       min: -1500,
     "labels": {
       "format": "{value:,.0f}"
-    }    
+    },
+   /* plotLines: [{
+      color: '#B9CFD7',
+      value: 0, 
+      width: 1
+    }] */   
   },
   "series": [
   {"color": "#990300", "visible": true}, /* rot*/

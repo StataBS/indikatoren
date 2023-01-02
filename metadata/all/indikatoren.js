@@ -32886,43 +32886,41 @@ var indikatoren = [
 		"id": 6760
 	},
 	{
+		"template": "template001_print",
+		"data-id": 6761,
+		"chart-id": 6761,
+		"filter": "",
+		"parentId": "6012",
+		"children": [],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.5.06761",
-		"kuerzelKunde": "2-2",
-		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen (Print)",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "2021 ergibt sich für den Kanton ein Wanderungsverlust von total 1 000 Personen. Er kommt vor allem dadurch zustande, dass mehr Schweizer den Kanton verlassen als zuziehen (-1 427). Bei den ausländischen Staatsangehörigen wird ein Plus von 427 Personen registriert. Im Vorjahr (2020) wurde ein Wanderungsgewinn von 956 Personen verzeichnet.",
+		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06761",
+		"kennzahlenset": "Wanderungen (Print)",
+		"kuerzelKunde": "2.2",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 168).",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
-		"template": "template001_print",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_002",
-		"parentId": 6012,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6761,
-		"chart-id": 6761,
-		"filter": "",
+		"aktualisierungsdatum": "2023-01-02T04:01:00",
 		"id": 6761
 	},
 	{
