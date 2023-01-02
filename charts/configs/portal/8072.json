@@ -18,8 +18,8 @@
           0.69492
         ],
         [
-          "2015-2019",
-          0.64352
+          "2016-2020",
+          0.64468
         ]
       ],
       "name": "Klybeck",
@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -45,9 +45,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.60744,
-          "high": 0.67961
+          "name": "2016-2020",
+          "low": 0.60792,
+          "high": 0.68143
         }
       ],
       "name": "Klybeck 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.70078
         ],
         [
-          "2015-2019",
-          0.61695
+          "2016-2020",
+          0.58251
         ]
       ],
       "name": "Kleinhüningen",
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -98,9 +98,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.55703,
-          "high": 0.67687
+          "name": "2016-2020",
+          "low": 0.52113,
+          "high": 0.64389
         }
       ],
       "name": "Kleinhüningen 95% Konfidenzintervall Untergrenze",
@@ -124,8 +124,8 @@
           0.72945
         ],
         [
-          "2015-2019",
-          0.73027
+          "2016-2020",
+          0.7282
         ]
       ],
       "name": "Basel",
@@ -136,7 +136,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
       },
       "data": [
@@ -151,9 +151,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.72344,
-          "high": 0.73709
+          "name": "2016-2020",
+          "low": 0.72135,
+          "high": 0.73505
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

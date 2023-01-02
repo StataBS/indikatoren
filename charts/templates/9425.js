@@ -16,7 +16,8 @@
       "type": "category",
       "tickInterval": 1,
       "labels": {
-        rotation: -45
+        rotation: -45,
+        step: 1
       }
     },
     "yAxis": {

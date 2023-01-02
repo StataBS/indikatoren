@@ -6,7 +6,7 @@
       endOnTick: false,
       "labels": {
         step: 1,
-        "rotation": 0,
+        "rotation": -45,
       }
     },
     "yAxis": [{
@@ -107,7 +107,7 @@
       "verticalAlign": "top",
       "align": "left",
       labelFormatter: function () {
-        return this.name.replace("der Löhne von Frauen und Männern", "Löhne Frauen/Männer");
+        return this.name.replace("zwischen Frauen und Männern", "Frauen/Männer");
       },
       "itemStyle": {
         "fontWeight": "normal"

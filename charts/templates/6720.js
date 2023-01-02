@@ -11,8 +11,8 @@
     },
     "yAxis": {
       "min": 0,
-      max: 60,
-      tickInterval: 20,
+      max: 40,
+      tickInterval: 10,
     },
     "series": [
       { "color": "#672773" }, /*Deutschland*/

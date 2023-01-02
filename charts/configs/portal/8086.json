@@ -4,24 +4,24 @@
       "color": "#cd9c00",
       "data": [
         [
-          "2010",
-          135.521281
-        ],
-        [
           "2012",
-          124.389035
+          124.307536
         ],
         [
           "2014",
-          100.038977
+          106.034733
         ],
         [
           "2016",
-          96.921504
+          102.175747
         ],
         [
           "2018",
-          87.1821750000001
+          92.700366
+        ],
+        [
+          "2020",
+          92.646046
         ]
       ],
       "name": "Stromverbrauch Klybeck",
@@ -31,24 +31,24 @@
       "color": "#b375ab",
       "data": [
         [
-          "2010",
-          54.720635
-        ],
-        [
           "2012",
-          51.841674
+          35.312384
         ],
         [
           "2014",
-          48.059304
+          31.070322
         ],
         [
           "2016",
-          48.391548
+          31.13857
         ],
         [
           "2018",
-          46.315824
+          29.586254
+        ],
+        [
+          "2020",
+          29.586254
         ]
       ],
       "name": "Stromverbrauch Kleinhüningen",
@@ -59,24 +59,24 @@
       "visible": false,
       "data": [
         [
-          "2010",
-          1211.012948
-        ],
-        [
           "2012",
-          1271.574697
+          1545.361385
         ],
         [
           "2014",
-          1131.005707
+          1444.927936
         ],
         [
           "2016",
-          1180.640203
+          1465.614313
         ],
         [
           "2018",
-          1090.794383
+          1343.464532
+        ],
+        [
+          "2020",
+          1351.913934
         ]
       ],
       "name": "Stromverbrauch Basel",
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

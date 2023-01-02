@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:09",
+		"aktualisierungsdatum": "2023-01-02T08:14:15",
 		"id": 9038
 	},
 	{
@@ -47,8 +47,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnflächenverbrauch pro Person",
 		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Der Wohnflächenverbrauch pro Kopf steigt im Mittleren Szenario von 41,7 auf 42,9 m².",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständige Bevölkerung Basel-Stadts.",
+		"lesehilfe": "Der Wohnflächenverbrauch steigt im Mittleren Szenario von 41,7 m² auf 42,9 m² pro Kopf .",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständigen Bevölkerung Basel-Stadts.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:10",
+		"aktualisierungsdatum": "2023-01-02T08:14:15",
 		"id": 9039
 	},
 	{
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:11",
+		"aktualisierungsdatum": "2023-01-02T08:14:15",
 		"id": 9040
 	},
 	{
@@ -126,7 +126,7 @@ var indikatorensetData = [
 		"title": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 84,5 auf 86,1 Jahre im Jahr 2045. Die Lebenserwartung von Schweizern (M) steigt von 79,9 auf 83,4 Jahre im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen, startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:11",
+		"aktualisierungsdatum": "2023-01-02T08:14:16",
 		"id": 9041
 	},
 	{
@@ -187,11 +187,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_025",
+		"orderKey": "99_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:12",
+		"aktualisierungsdatum": "2023-01-02T08:14:16",
 		"id": 9042
 	},
 	{
@@ -203,7 +203,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zusammengefasste Geburtenziffer nach Herkunft",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) steigt im Mittleren Szenario auf 1,18 im Jahr 2045. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) bleibt im selben Szenario relativ kontstant bei 1,50 im Jahr 2045.",
+		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) steigt im Mittleren Szenario auf 1,18 im Jahr 2045. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) bleibt im selben Szenario relativ konstant um 1,50.",
 		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:13",
+		"aktualisierungsdatum": "2023-01-02T08:14:16",
 		"id": 9043
 	},
 	{
@@ -269,7 +269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:13",
+		"aktualisierungsdatum": "2023-01-02T08:14:16",
 		"id": 9044
 	},
 	{
@@ -282,7 +282,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung Grossbasel-Ost",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Die Bevölkerung von Grossbasel-Ost wächst gemäss Mittlerem Szenario von unter 55 000 im Jahr 2021 auf 60 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:45",
+		"aktualisierungsdatum": "2023-01-02T08:14:19",
 		"id": 9045
 	},
 	{
@@ -321,7 +321,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung Grossbasel-West",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Die Bevölkerung von Grossbasel-West wächst gemäss Mittlerem Szenario von 69 000 im Jahr 2021 auf knapp 72 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -347,7 +347,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:45",
+		"aktualisierungsdatum": "2023-01-02T08:14:19",
 		"id": 9046
 	},
 	{
@@ -360,7 +360,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung Kleinbasel",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 54 000 auf 65 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -386,7 +386,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:46",
+		"aktualisierungsdatum": "2023-01-02T08:14:20",
 		"id": 9047
 	},
 	{
@@ -398,8 +398,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerung Riehen und Bettingen",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von 23 000 Einwohner Ende 2020 um knapp 2 000 Einwohner bis im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
+		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von 23 000 Einwohner Ende 2021 um knapp 2 000 Einwohner bis im Jahr 2045.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -425,7 +425,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:46",
+		"aktualisierungsdatum": "2023-01-02T08:14:20",
 		"id": 9048
 	},
 	{
@@ -464,7 +464,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:03",
+		"aktualisierungsdatum": "2023-01-02T08:14:25",
 		"id": 9049
 	},
 	{
@@ -503,7 +503,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:03",
+		"aktualisierungsdatum": "2023-01-02T08:14:25",
 		"id": 9050
 	},
 	{
@@ -542,7 +542,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:04",
+		"aktualisierungsdatum": "2023-01-02T08:14:25",
 		"id": 9051
 	},
 	{
@@ -581,7 +581,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:05",
+		"aktualisierungsdatum": "2023-01-02T08:14:26",
 		"id": 9052
 	},
 	{
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jugendquotient",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Der Jugendquotient wächst gemäss Mittlerem Szenario von 26,9 im Jahr 2020 auf 27,9 im Jahr 2045.",
+		"lesehilfe": "Der Jugendquotient wächst gemäss Mittlerem Szenario von 26,9 im Jahr 2021 auf 27,9 im Jahr 2045.",
 		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -621,7 +621,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:05",
+		"aktualisierungsdatum": "2023-01-02T08:14:26",
 		"id": 9053
 	},
 	{
@@ -633,7 +633,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Altersquotient",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,3 im Jahr 2021 auf 33,0 im Jahr 2045.",
+		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,3 im Jahr 2021 auf 33,3 im Jahr 2045.",
 		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -661,7 +661,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:06",
+		"aktualisierungsdatum": "2023-01-02T08:14:26",
 		"id": 9054
 	},
 	{
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:06",
+		"aktualisierungsdatum": "2023-01-02T08:14:30",
 		"id": 9055
 	},
 	{
@@ -739,7 +739,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:07",
+		"aktualisierungsdatum": "2023-01-02T08:14:30",
 		"id": 9056
 	},
 	{
@@ -778,7 +778,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:07",
+		"aktualisierungsdatum": "2023-01-02T08:14:30",
 		"id": 9057
 	},
 	{
@@ -817,7 +817,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:08",
+		"aktualisierungsdatum": "2023-01-02T08:14:31",
 		"id": 9058
 	},
 	{
@@ -830,7 +830,7 @@ var indikatorensetData = [
 		"title": "Wanderungssaldo interkantonal",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2045 rund 1 300 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogenen Personen in einem bestimmten Jahr.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -856,7 +856,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:08",
+		"aktualisierungsdatum": "2023-01-02T08:14:31",
 		"id": 9059
 	},
 	{
@@ -895,7 +895,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:09",
+		"aktualisierungsdatum": "2023-01-02T08:14:31",
 		"id": 9060
 	},
 	{
@@ -908,7 +908,7 @@ var indikatorensetData = [
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2021 um 10% auf rund 222 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -934,7 +934,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:44",
+		"aktualisierungsdatum": "2023-01-02T08:14:19",
 		"id": 9061
 	}
 ];

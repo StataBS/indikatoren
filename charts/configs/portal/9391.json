@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "index": 1,
+      "index": 4,
       "color": "#2F656B",
       "legendIndex": 1,
       "type": "column",
@@ -10,88 +10,6 @@
         "shared": true
       },
       "data": [
-        [
-          "2006",
-          21
-        ],
-        [
-          "2007",
-          56
-        ],
-        [
-          "2008",
-          56
-        ],
-        [
-          "2009",
-          71
-        ],
-        [
-          "2010",
-          69
-        ],
-        [
-          "2011",
-          93
-        ],
-        [
-          "2012",
-          102
-        ],
-        [
-          "2013",
-          133
-        ],
-        [
-          "2014",
-          87
-        ],
-        [
-          "2015",
-          112
-        ],
-        [
-          "2016",
-          100
-        ],
-        [
-          "2017",
-          112
-        ],
-        [
-          "2018",
-          152
-        ],
-        [
-          "2019",
-          346
-        ],
-        [
-          "2020",
-          404
-        ],
-        [
-          "2021",
-          754
-        ]
-      ],
-      "name": "Benzin-elektrisch: Normal-Hybrid",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#8B2223",
-      "legendIndex": 2,
-      "type": "column",
-      "data": [
-        [
-          "2006",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
         [
           "2008",
           1
@@ -149,97 +67,15 @@
           339
         ]
       ],
-      "name": "Benzin-elektrisch: Plug-in-Hybrid",
+      "name": "Benzin-elektrisch (Plug-in-Hybrid)",
       "turboThreshold": 0
     },
     {
       "index": 3,
-      "color": "#83522E",
+      "color": "#8B2223",
       "legendIndex": 3,
       "type": "column",
       "data": [
-        [
-          "2006",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
-        [
-          "2008",
-          0
-        ],
-        [
-          "2009",
-          0
-        ],
-        [
-          "2010",
-          0
-        ],
-        [
-          "2011",
-          0
-        ],
-        [
-          "2012",
-          10
-        ],
-        [
-          "2013",
-          5
-        ],
-        [
-          "2014",
-          3
-        ],
-        [
-          "2015",
-          24
-        ],
-        [
-          "2016",
-          13
-        ],
-        [
-          "2017",
-          2
-        ],
-        [
-          "2018",
-          21
-        ],
-        [
-          "2019",
-          117
-        ],
-        [
-          "2020",
-          204
-        ],
-        [
-          "2021",
-          286
-        ]
-      ],
-      "name": "Diesel-elektrisch: Normal-Hybrid",
-      "turboThreshold": 0
-    },
-    {
-      "index": 4,
-      "color": "#9A86A6",
-      "legendIndex": 4,
-      "type": "column",
-      "data": [
-        [
-          "2006",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
         [
           "2008",
           0
@@ -297,23 +133,15 @@
           8
         ]
       ],
-      "name": "Diesel-elektrisch: Plug-in-Hybrid",
+      "name": "Diesel-elektrisch (Plug-in-Hybrid)",
       "turboThreshold": 0
     },
     {
-      "index": 5,
-      "color": "#BAA85A",
-      "legendIndex": 5,
+      "index": 2,
+      "color": "#83522E",
+      "legendIndex": 2,
       "type": "column",
       "data": [
-        [
-          "2006",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
         [
           "2008",
           0
@@ -375,9 +203,147 @@
       "turboThreshold": 0
     },
     {
+      "index": 1,
+      "color": "#9A86A6",
+      "legendIndex": 4,
+      "type": "column",
+      "data": [
+        [
+          "2008",
+          0
+        ],
+        [
+          "2009",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          0
+        ],
+        [
+          "2013",
+          0
+        ],
+        [
+          "2014",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2016",
+          10
+        ],
+        [
+          "2017",
+          0
+        ],
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2021",
+          2
+        ]
+      ],
+      "name": "Wasserstoff",
+      "turboThreshold": 0
+    },
+    {
+      "index": 0,
+      "color": "#BAA85A",
+      "legendIndex": 5,
+      "type": "column",
+      "stacking": false,
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2008",
+          8059
+        ],
+        [
+          "2009",
+          7007
+        ],
+        [
+          "2010",
+          8220
+        ],
+        [
+          "2011",
+          8141
+        ],
+        [
+          "2012",
+          8506
+        ],
+        [
+          "2013",
+          8487
+        ],
+        [
+          "2014",
+          8139
+        ],
+        [
+          "2015",
+          7431
+        ],
+        [
+          "2016",
+          7426
+        ],
+        [
+          "2017",
+          7656
+        ],
+        [
+          "2018",
+          7733
+        ],
+        [
+          "2019",
+          7814
+        ],
+        [
+          "2020",
+          5116
+        ],
+        [
+          "2021",
+          4991
+        ]
+      ],
+      "name": "Total neue Inverkehrsetzungen",
+      "turboThreshold": 0
+    },
+    {
       "index": 6,
       "color": "#000000",
       "type": "line",
+      "stacking": false,
       "legendIndex": 6,
       "yAxis": 1,
       "marker": {
@@ -389,68 +355,60 @@
       },
       "data": [
         [
-          "2006",
-          0.3076472312
-        ],
-        [
-          "2007",
-          0.7172131148
-        ],
-        [
           "2008",
-          0.7071951524
+          0.01
         ],
         [
           "2009",
-          1.0132724418
+          0
         ],
         [
           "2010",
-          0.8514768867
+          0.01
         ],
         [
           "2011",
-          1.2999499642
+          0.16
         ],
         [
           "2012",
-          1.5019613503
+          0.19
         ],
         [
           "2013",
-          1.9379116594
+          0.32
         ],
         [
           "2014",
-          1.6854776558
+          0.59
         ],
         [
           "2015",
-          2.5511771479
+          0.74
         ],
         [
           "2016",
-          2.4896387095
+          1.13
         ],
         [
           "2017",
-          2.7837455038
+          1.33
         ],
         [
           "2018",
-          3.8037663648
+          1.63
         ],
         [
           "2019",
-          9.7543020153
+          4.25
         ],
         [
           "2020",
-          24.658428321
+          17.06
         ],
         [
           "2021",
-          30.991789437
+          14.91
         ]
       ],
       "name": "Anteil (rechte Skala)",
@@ -519,7 +477,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "true"
+      "stacking": "true",
+      "minPointLength": 2
     }
   },
   "title": {
@@ -565,7 +524,6 @@
         }
       },
       "min": 0,
-      "tickInterval": 2,
       "opposite": true
     }
   ],
@@ -579,7 +537,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "labelFormatter": function(){
+    "labelFormatter": function () {
         return this.name.replace("-elektrisch", "-elektr.");
       }
   },
@@ -602,13 +560,42 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total neue Inverkehrsetzungen von Elektroautos: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true,
-    "useHTML": true
+    "useHTML": true,
+    "outside": true,
+    "formatter": function () {
+        if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = "";
+          let s = 0;
+          series.forEach(series => {
+            if (series.userOptions.stacking != false) { //nur für series mit stacking: true
+              series.setState('hover'); //"aktiviere" alle series
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
+                  s += point.y;
+                }
+              })
+            }
+          },
+          )
+          return '<span style="font-size: 10px">' + this.key +
+            '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+        } else {
+          if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
+            return '<span style="font-size: 10px">' + this.key +
+              '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+              + Highcharts.numberFormat(this.y, 1, ",", " ") + '</b>%<br/>';
+          } else {
+            return '<span style="font-size: 10px">' + this.key +
+              '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+              + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+          }
+        }
+      }
   },
   "exporting": {
     "filename": "9391"

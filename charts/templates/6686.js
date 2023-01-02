@@ -22,8 +22,8 @@
             }
         },
         yAxis: {
-            max: 8,
-            tickInterval: 2,
+            max: 15,
+            tickInterval: 3,
             min: 0,
             title: {
                 text: null

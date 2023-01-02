@@ -1,23 +1,23 @@
-﻿"WohnviertelId"	"Wohnviertel_Name"	"Ausländeranteil 2020 in %"	"Zunahme seit 2001 in Prozentpunkten"
-1	"Altstadt GB"	29.5567	12.190
-2	"Vorstädte"	40.1862	19.073
-3	"Am Ring"	37.7503	14.387
-4	"Breite"	35.6314	11.147
-5	"St. Alban"	35.4160	16.879
-6	"Gundeldingen"	40.0265	1.849
-7	"Bruderholz"	25.0450	12.218
-8	"Bachletten"	22.4846	8.733
-9	"Gotthelf"	28.2911	9.436
-10	"Iselin"	38.3274	9.671
-11	"St. Johann"	43.1681	2.413
-12	"Altstadt KB"	38.8152	13.698
-13	"Clara"	46.7011	5.050
-14	"Wettstein"	33.4142	12.791
-15	"Hirzbrunnen"	25.8682	8.535
-16	"Rosental"	55.8200	6.304
-17	"Matthäus"	50.6850	1.825
-18	"Klybeck"	51.8565	3.176
-19	"Kleinhüningen"	48.7362	7.941
-20	"Riehen"	27.6577	13.512
-30	"Bettingen"	25.2321	7.144
+﻿"WohnviertelId"	"Wohnviertel_Name"	"Ausländeranteil 2021 in %"	"Veränderung seit 2002 in Prozentpunkten"
+1	"Altstadt GB"	31.1469	12.036
+2	"Vorstädte"	40.3009	18.470
+3	"Am Ring"	38.3810	13.892
+4	"Breite"	35.5556	11.025
+5	"St. Alban"	36.0565	17.028
+6	"Gundeldingen"	39.6273	0.645
+7	"Bruderholz"	24.7166	11.090
+8	"Bachletten"	22.3123	7.861
+9	"Gotthelf"	28.5588	9.490
+10	"Iselin"	38.4154	9.114
+11	"St. Johann"	42.0506	0.492
+12	"Altstadt KB"	38.3736	12.623
+13	"Clara"	48.6070	6.238
+14	"Wettstein"	33.0380	11.245
+15	"Hirzbrunnen"	25.9976	8.661
+16	"Rosental"	56.1563	4.336
+17	"Matthäus"	49.8565	-0.043
+18	"Klybeck"	52.3734	2.901
+19	"Kleinhüningen"	47.9811	4.348
+20	"Riehen"	27.6929	12.952
+30	"Bettingen"	25.5627	6.807
 

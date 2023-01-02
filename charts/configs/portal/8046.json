@@ -86,6 +86,10 @@
         [
           2020,
           7110
+        ],
+        [
+          2021,
+          6952
         ]
       ],
       "name": "Klybeck"
@@ -177,6 +181,10 @@
         [
           2020,
           2809
+        ],
+        [
+          2021,
+          2749
         ]
       ],
       "name": "Kleinhüningen"
@@ -306,7 +314,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

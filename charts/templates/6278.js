@@ -10,7 +10,7 @@
       }
     },
     "yAxis": {
-      min: 100,
+      min: 90,
       max: 150,
       tickInterval: 10,
       "labels": {
