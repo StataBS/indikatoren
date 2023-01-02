@@ -5,18 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2016: Klybeck",
-          -63
-        ],
-        [
-          "2016: Kleinhüningen",
-          -39
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2017: Klybeck",
           -36
         ],
@@ -25,7 +13,7 @@
           -39
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -37,7 +25,7 @@
           -22
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -49,7 +37,7 @@
           -37
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -59,6 +47,18 @@
         [
           "2020: Kleinhüningen",
           -43
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          -80
+        ],
+        [
+          "2021: Kleinhüningen",
+          -48
         ],
         [
           "    ",
@@ -73,18 +73,6 @@
       "visible": true,
       "data": [
         [
-          "2016: Klybeck",
-          -24
-        ],
-        [
-          "2016: Kleinhüningen",
-          -8
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2017: Klybeck",
           32
         ],
@@ -93,7 +81,7 @@
           0
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -105,7 +93,7 @@
           -4
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -117,7 +105,7 @@
           -15
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -127,6 +115,18 @@
         [
           "2020: Kleinhüningen",
           -16
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          -12
+        ],
+        [
+          "2021: Kleinhüningen",
+          -9
         ],
         [
           "    ",
@@ -141,18 +141,6 @@
       "visible": true,
       "data": [
         [
-          "2016: Klybeck",
-          115
-        ],
-        [
-          "2016: Kleinhüningen",
-          56
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2017: Klybeck",
           82
         ],
@@ -161,7 +149,7 @@
           24
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -173,7 +161,7 @@
           30
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -185,7 +173,7 @@
           21
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -195,6 +183,18 @@
         [
           "2020: Kleinhüningen",
           55
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          75
+        ],
+        [
+          "2021: Kleinhüningen",
+          13
         ],
         [
           "    ",
@@ -209,18 +209,6 @@
       "visible": true,
       "data": [
         [
-          "2016: Klybeck",
-          -60
-        ],
-        [
-          "2016: Kleinhüningen",
-          -16
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2017: Klybeck",
           -51
         ],
@@ -229,7 +217,7 @@
           -15
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -241,7 +229,7 @@
           -19
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -253,7 +241,7 @@
           -12
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -262,6 +250,18 @@
         ],
         [
           "2020: Kleinhüningen",
+          -16
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          -58
+        ],
+        [
+          "2021: Kleinhüningen",
           -16
         ],
         [
@@ -277,18 +277,6 @@
       "visible": true,
       "data": [
         [
-          "2016: Klybeck",
-          -32
-        ],
-        [
-          "2016: Kleinhüningen",
-          -7
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2017: Klybeck",
           27
         ],
@@ -297,7 +285,7 @@
           -30
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -309,7 +297,7 @@
           -15
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -321,7 +309,7 @@
           -43
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -331,6 +319,18 @@
         [
           "2020: Kleinhüningen",
           -20
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          -75
+        ],
+        [
+          "2021: Kleinhüningen",
+          -60
         ],
         [
           "    ",
@@ -475,7 +475,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

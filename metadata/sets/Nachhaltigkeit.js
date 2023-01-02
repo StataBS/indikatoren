@@ -2486,7 +2486,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 lebten im Kanton Basel-Stadt 127 371 Schweizerinnen und Schweizer und 74 434 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2002 um 20 148 gestiegen ist, ist die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 6 428 gesunken.",
+		"lesehilfe": "Ende 2021 lebten im Kanton Basel­Stadt 127 371 Schweizerinnen und Schweizer und 74 434 Ausländerinnen und Ausländer.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2511,7 +2511,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-28T08:01:24",
+		"aktualisierungsdatum": "2023-01-02T08:15:04",
 		"id": 6592
 	},
 	{
@@ -2588,7 +2588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-07T08:08:38",
+		"aktualisierungsdatum": "2023-01-02T08:15:03",
 		"id": 8377
 	},
 	{

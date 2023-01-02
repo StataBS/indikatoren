@@ -10,13 +10,20 @@
       }
     },
     "xAxis": {
-      min: 0,
       "type": "category",
-      "tickInterval": 1
+      tickPositioner: function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     "yAxis": {
       min: 0,
-      "tickAmount": 5
+      //"tickAmount": 5,
+      tickInterval: 10000
     },
     "legend": {
       "layout": "horizontal",

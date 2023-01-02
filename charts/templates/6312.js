@@ -30,7 +30,7 @@
       verticalAlign: "top",
       align: "left",
       itemWidth: 90,
-      width: 220,
+      //width: 220,
       itemStyle: {
         textOverflow: "none",
         whiteSpace: "nowrap"
@@ -39,6 +39,15 @@
       //itemWidth: 300,
     },
     series: [
+        {
+          color:  "#FFDA80"
+        },
+        {
+          color:  "#FABD24"
+        },
+        {
+          color: "#CD9C00"
+        }/*,
       {
         color: "#A8C3CA",
         legendIndex: 0
@@ -54,7 +63,7 @@
       {
         color: "#083038",
         legendIndex: 3
-      }
+      }*/
     ],
     chart: {
       /*marginBottom: 75,

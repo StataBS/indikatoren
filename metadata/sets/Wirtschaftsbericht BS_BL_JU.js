@@ -1351,8 +1351,8 @@ var indikatorensetData = [
 			8501
 		],
 		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2019 gegenüber 2014",
-		"lesehilfe": "Zwischen 2014 und 2019 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 2,3% gewachsen und damit weniger stark als in der Gesamtschweiz (+5,4%). Das Beschäftigungswachstum liegt im Jura (6,4%) über dem Schweizer Wert, in Basel-Landschaft (2,3%) und Basel-Stadt (0,7%) hingegen darunter.",
+		"subtitle": "2020 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2020 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,8%). Das Beschäftigungswachstum liegt im Jura (+4,4%), in Basel-Landschaft (+3,2%) und in Basel-Stadt (-1,2%) unter dem Schweizer Wert.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1378,7 +1378,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:07",
+		"aktualisierungsdatum": "2023-01-02T08:14:06",
 		"id": 8441
 	},
 	{

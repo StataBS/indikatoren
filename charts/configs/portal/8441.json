@@ -5,26 +5,26 @@
       "data": [
         [
           "Basel-Stadt",
-          0.006775
+          -0.012435
         ],
         [
           "Basel-Landschaft",
-          0.031338
+          0.032469
         ],
         [
           "Jura",
-          0.064391
+          0.043705
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.022654
+          0.011168
         ],
         [
           "Schweiz",
-          0.054329
+          0.04777
         ]
       ],
-      "name": "Veränderung 2019 gegenüber 2014",
+      "name": "Veränderung 2020 gegenüber 2014",
       "turboThreshold": 0
     }
   ],
@@ -105,7 +105,7 @@
     "text": "Veränderung der Beschäftigtenzahl"
   },
   "subtitle": {
-    "text": "2019 gegenüber 2014",
+    "text": "2020 gegenüber 2014",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,11 +162,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "tooltip": {
     "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'; 
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'; 
       },
     "shared": false
   },

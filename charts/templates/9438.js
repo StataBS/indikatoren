@@ -34,10 +34,10 @@
       labelFormatter: function(){
         return this.name
         .replace("aus dem Ausland", "Ausland")
-        .replace("aus der restlichen CH", "restl. CH")
+        .replace("aus der übrigen CH", "übrige CH")
         .replace("aus der NWCH", "NWCH")
         .replace("ins Ausland", "Ausland")
-        .replace("in die restliche CH", "restl. CH")
+        .replace("in die übrige CH", "übrige CH")
         .replace("in die NWCH", "NWCH")
         ;
     }, 

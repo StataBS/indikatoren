@@ -648,7 +648,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 25.4.2022"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -21,14 +21,14 @@
     },
     legend: {
         reversed: false,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "left",
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "align": "right",
         itemMarginBottom: 2,
         //itemWidth: 220,
         //width: 450,
         labelFormatter: function(){
-            return this.name.replace("/", " /<br/>")
+            return this.name.replace(" seniorenfreundlich", "")
             //.replace("seniorenfreundlich", "")
             ;
         }

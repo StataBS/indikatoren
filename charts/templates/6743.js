@@ -5,7 +5,7 @@
     },
     plotOptions: {
       series: {
-        pointWidth: 40
+        pointWidth: 20
       }
     },
     xAxis: {

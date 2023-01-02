@@ -5,7 +5,7 @@
       endOnTick: true,
       //tickAmount: 5,
       tickInterval: 1000,
-      min: -2000,
+      min: -3000,
       labels: {
         format: "{value:,.0f}",
       },

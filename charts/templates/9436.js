@@ -40,12 +40,20 @@
       },
     },
     "series": [
-      { "color": "#6F6F6F" }, /*BS*/
-      { "color": "#FF8028" }, /*BL*/
+     // { "color": "#6F6F6F" }, /*BS*/
+      //{ "color": "#FF8028" }, /*BL*/
+      //{ "color": "#008AC3" }, /*AG*/
+      //{ "color": "#FABD24" }, /*SO*/
+      //{ "color": "#B00000" }, /*übrige CH*/
+      //{ "color": "#68AB2B" },
+
+      { "color": "#6F6F6F"},
+      { "color": "#990300"},
       { "color": "#008AC3" }, /*AG*/
-      { "color": "#FABD24" }, /*SO*/
-      { "color": "#B00000" }, /*übrige CH*/
-      { "color": "#68AB2B" },
+      { "color": "#CD9C00"},
+      { "color": "#68AB2B"},
+      { "color": "#246370"}
+
     ],
     "legend": {
       "enabled": true,

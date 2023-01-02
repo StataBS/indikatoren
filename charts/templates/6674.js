@@ -156,20 +156,20 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name.replace(" in", "<br/>in"), 510, 315);
+	                fn.addLegendTitle(chart, choroplethSeries.name.replace(" in", "<br/>in"), 505, 315);
 	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" in", "<br/>in"), 720, 315);
 	                
-	             	fn.addLegendCircle(chart, 735, 382, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 750, 370, true);
-	                fn.addLegendCircle(chart, 735, 402, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 750, 390, true);
-	                fn.addLegendCircle(chart, 735, 428, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 750, 414, true);
+	             	fn.addLegendCircle(chart, 735, 382+25, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 750, 370+25, true);
+	                fn.addLegendCircle(chart, 735, 402+25, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 750, 390+25, true);
+	                fn.addLegendCircle(chart, 735, 428+25, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 750, 414+25, true);
 					
-					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+					fn.addLegendSquare(chart, 730, 360, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 745, 354);
+					fn.addLegendSquare(chart, 730, 380, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 745, 374);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

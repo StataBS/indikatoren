@@ -3,7 +3,7 @@
     "yAxis": {
       //tickAmount: 6,
       tickInterval: 1000,
-      min: -2000,
+      min: -3000,
       max: 3000,
       labels: {
         format: "{value:,.0f}",
