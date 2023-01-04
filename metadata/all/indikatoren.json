@@ -9162,7 +9162,7 @@
 		"children": [],
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dezember 1982 = 100",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2021 gestiegen. Seit mittlerweile 14 Jahren bewegt sich dessen Jahresmittel in der vergleichsweise engen Bandbreite zwischen 160,0 und 163,8 Punkten.",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2022 stark gestiegen. Das Jahresmittel ist dadurch nach 14 Jahren, als es sich stets in der vergleichsweise engen Bandbreite zwischen 160,0 und 163,8 Punkten bewegt hatte, auf neu 168,0 Punkte zu liegen gekommen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -9189,7 +9189,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-08T08:27:16",
+		"aktualisierungsdatum": "2023-01-04T08:40:10",
 		"id": 4909
 	},
 	{
@@ -9201,7 +9201,7 @@
 		"children": [],
 		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"subtitle": "",
-		"lesehilfe": "Zum vierten Mal seit 2000 ist die mittlere Jahresteuerung des Basler Index und des Landesindex der Konsumentenpreise gleich hoch ausgefallen; der entsprechende Wert 2021 beträgt für Basel-Stadt und die Schweiz je 0,6%.",
+		"lesehilfe": "Nach Jahren mit niedrigen und teils gar rückläufigen Inflationsraten ist die Teuerung 2022 zurückgekehrt: Die mittlere Jahresteuerung bewegt sich mit 2,6% für Basel-Stadt und 2,8% für die Schweiz auf dem gleichen (bzw. im Fall der Schweiz leicht höheren) Niveau von 2008, dem Jahr der Weltfinanzkrise.",
 		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -9228,7 +9228,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-08T08:27:16",
+		"aktualisierungsdatum": "2023-01-04T08:40:11",
 		"id": 4911
 	},
 	{
@@ -41222,8 +41222,8 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nach den spürbaren Teuerungszuwächsen in der ersten Jahreshälfte 2022 hat sich das Preisniveau seit Juli stabilisiert. Im November erreicht der Basler Index der Konsumentenpreise wie schon im September und Oktober eine Jahresteuerung von 2,9%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen November 2022 und November 2021.",
+		"lesehilfe": "Nach den spürbaren Teuerungszuwächsen in der ersten Jahreshälfte 2022 hat sich das Preisniveau seit Juli stabilisiert. Im Dezember erreichte der Basler Index der Konsumentenpreise wie schon im September, im Oktober und im November eine Jahresteuerung von 2,9%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Dezember 2022 und Dezember 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -41250,7 +41250,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:42",
+		"aktualisierungsdatum": "2023-01-04T08:40:11",
 		"id": 7512
 	},
 	{
@@ -41262,7 +41262,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2021 auf +0,6%.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -41289,7 +41289,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:42",
+		"aktualisierungsdatum": "2023-01-04T08:40:12",
 		"id": 7513
 	},
 	{
