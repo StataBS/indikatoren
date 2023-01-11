@@ -32,6 +32,10 @@
         [
           "2020",
           8
+        ],
+        [
+          "2021",
+          9
         ]
       ],
       "name": "Asylsuchende",
@@ -69,6 +73,10 @@
         [
           "2020",
           271
+        ],
+        [
+          "2021",
+          241
         ]
       ],
       "name": "Vorläufig Aufgenommene",
@@ -106,6 +114,10 @@
         [
           "2020",
           198
+        ],
+        [
+          "2021",
+          225
         ]
       ],
       "name": "Anerkannte Flüchtlinge",
@@ -244,7 +256,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-4"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

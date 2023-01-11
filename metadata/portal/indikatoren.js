@@ -2451,7 +2451,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat zwischen 2011 und 2019 jedes Jahr leicht zugenommen. Im Jahr 2020 ist sie leicht gesunken. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel auch in Basel-Stadt.",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat zwischen 2011 und 2019 jährlich zugenommen. 2020 und 2021 ist sie leicht gesunken. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel auch in Basel-Stadt.",
 		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -2477,7 +2477,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:17",
+		"aktualisierungsdatum": "2023-01-11T08:48:40",
 		"id": 4148
 	},
 	{
@@ -9597,7 +9597,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2019 wurden in Basel-Stadt 1 013 neue Unternehmen gegründet, 98 bzw. 9,7% mehr als im Jahr 2018. Fast ein Viertel (272 im Jahr 2019) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (133) sowie Kunst, Unterhaltung, Erholung (132).",
+		"lesehilfe": "Im Jahr 2020 wurden in Basel-Stadt 1 124 neue Unternehmen gegründet,11 mehr als im Jahr 2019. Rund ein Viertel (295 im Jahr 2020) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Kunst, Unterhaltung, Erholung (121) sowie Gesundheits- und Sozialwesen (112).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -9623,7 +9623,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-26T08:43:03",
+		"aktualisierungsdatum": "2023-01-11T08:48:39",
 		"id": 5041
 	},
 	{
@@ -35099,7 +35099,7 @@ var indikatoren = [
 		],
 		"title": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"subtitle": "Anzahl Polizeieinsätze und Anzahl Kinder, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 221 Fällen insgesamt 348 Kinder als direkt oder unmittelbar Betroffene anwesend. Der Anstieg fällt zeitlich zusammen mit Einschränkungen des öffentlichen Lebens aufgrund der COVID-19-Pandemie.",
+		"lesehilfe": "Im Jahr 2021 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 226 Fällen insgesamt 355 Kinder als direkt oder unmittelbar Betroffene anwesend.",
 		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -35125,7 +35125,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:17",
+		"aktualisierungsdatum": "2023-01-11T08:48:41",
 		"id": 8288
 	},
 	{
@@ -38099,7 +38099,7 @@ var indikatoren = [
 		],
 		"title": "Erwerbstätige Flüchtlinge",
 		"subtitle": "nach Bewilligungsart, Basel-Stadt",
-		"lesehilfe": "Zwischen 2014 und 2019 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge insgesamt von 190 auf 481 erhöht. Ende 2020 gab es weniger Asylsuchende und vorläufig Aufgenommene als im Vorjahr. Die Zahl der anerkannten Flüchtlinge ist geringfügig gestiegen.",
+		"lesehilfe": "Zwischen 2014 und 2019 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge von 190 auf 481 erhöht. 2020 und 2021 hat sich diese Zahl kaum verändert. Ende 2021 gab es weniger Asylsuchende und vorläufig Aufgenommene als Ende 2019, während die Zahl der anerkannten Flüchtlinge weiter gestiegen ist.",
 		"erlaeuterungen": "Bestand der erwerbstätigen Personen mit Ausweis N (Asylsuchende), F (vorläufig Aufgenommene) oder B (anerkannte Flüchtlinge), per Jahresende.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38125,7 +38125,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-04T08:59:28",
+		"aktualisierungsdatum": "2023-01-11T08:48:40",
 		"id": 8452
 	},
 	{
@@ -39107,7 +39107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-22T10:09:14",
+		"aktualisierungsdatum": "2023-01-11T08:48:37",
 		"id": 9022
 	},
 	{
@@ -39145,7 +39145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-22T10:09:15",
+		"aktualisierungsdatum": "2023-01-11T08:48:38",
 		"id": 9023
 	},
 	{
