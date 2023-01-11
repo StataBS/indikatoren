@@ -47,6 +47,10 @@
         [
           2020,
           167632
+        ],
+        [
+          2021,
+          166934
         ]
       ],
       "name": "Einwohner mit Hauptwohnsitz ab 18 Jahren"
@@ -169,7 +173,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

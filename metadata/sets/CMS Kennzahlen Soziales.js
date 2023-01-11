@@ -1848,7 +1848,7 @@ var indikatorensetData = [
 		],
 		"title": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"subtitle": "Anzahl Polizeieinsätze und Anzahl Kinder, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 221 Fällen insgesamt 348 Kinder als direkt oder unmittelbar Betroffene anwesend. Der Anstieg fällt zeitlich zusammen mit Einschränkungen des öffentlichen Lebens aufgrund der COVID-19-Pandemie.",
+		"lesehilfe": "Im Jahr 2021 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 226 Fällen insgesamt 355 Kinder als direkt oder unmittelbar Betroffene anwesend.",
 		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -1873,7 +1873,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:17",
+		"aktualisierungsdatum": "2023-01-11T08:48:41",
 		"id": 8288
 	},
 	{
@@ -3179,7 +3179,7 @@ var indikatorensetData = [
 		],
 		"title": "Erwerbstätige Flüchtlinge",
 		"subtitle": "nach Bewilligungsart, Basel-Stadt",
-		"lesehilfe": "Zwischen 2014 und 2019 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge insgesamt von 190 auf 481 erhöht. Ende 2020 gab es weniger Asylsuchende und vorläufig Aufgenommene als im Vorjahr. Die Zahl der anerkannten Flüchtlinge ist geringfügig gestiegen.",
+		"lesehilfe": "Zwischen 2014 und 2019 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge von 190 auf 481 erhöht. 2020 und 2021 hat sich diese Zahl kaum verändert. Ende 2021 gab es weniger Asylsuchende und vorläufig Aufgenommene als Ende 2019, während die Zahl der anerkannten Flüchtlinge weiter gestiegen ist.",
 		"erlaeuterungen": "Bestand der erwerbstätigen Personen mit Ausweis N (Asylsuchende), F (vorläufig Aufgenommene) oder B (anerkannte Flüchtlinge), per Jahresende.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -3204,7 +3204,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-04T08:59:28",
+		"aktualisierungsdatum": "2023-01-11T08:48:40",
 		"id": 8452
 	},
 	{
