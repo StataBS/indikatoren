@@ -7,10 +7,6 @@
       },
       "data": [
         [
-          2007,
-          9.3
-        ],
-        [
           2008,
           10.8
         ],
@@ -61,6 +57,10 @@
         [
           2020,
           10.3
+        ],
+        [
+          2021,
+          12.7
         ]
       ],
       "name": "Schweizer"
@@ -71,10 +71,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2007,
-          7.9
-        ],
         [
           2008,
           10.1
@@ -126,6 +122,10 @@
         [
           2020,
           9.1
+        ],
+        [
+          2021,
+          11.7
         ]
       ],
       "name": "Schweizerinnen"
@@ -136,10 +136,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2007,
-          10.6
-        ],
         [
           2008,
           11.9
@@ -191,6 +187,10 @@
         [
           2020,
           14.3
+        ],
+        [
+          2021,
+          15.7
         ]
       ],
       "name": "Ausländer"
@@ -201,10 +201,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2007,
-          8.6
-        ],
         [
           2008,
           9.8
@@ -256,6 +252,10 @@
         [
           2020,
           12.4
+        ],
+        [
+          2021,
+          13.1
         ]
       ],
       "name": "Ausländerinnen"
@@ -266,10 +266,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2007,
-          8.9
-        ],
         [
           2008,
           10.6
@@ -321,6 +317,10 @@
         [
           2020,
           10.9
+        ],
+        [
+          2021,
+          13
         ]
       ],
       "name": "Total"
@@ -406,7 +406,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": {
     "min": 0,
@@ -452,7 +459,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

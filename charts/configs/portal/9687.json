@@ -1,0 +1,342 @@
+{
+  "series": [
+    {
+      "color": "#0091f7",
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          99.2
+        ],
+        [
+          2012,
+          98.2
+        ],
+        [
+          2013,
+          98.5
+        ],
+        [
+          2014,
+          98.2
+        ],
+        [
+          2015,
+          97.1
+        ],
+        [
+          2016,
+          97.2
+        ],
+        [
+          2017,
+          95.2
+        ],
+        [
+          2018,
+          93.9
+        ],
+        [
+          2019,
+          92.3
+        ],
+        [
+          2020,
+          77
+        ],
+        [
+          2021,
+          81.4
+        ]
+      ],
+      "name": "MIV Stadtstrassennetz"
+    },
+    {
+      "dashStyle": "ShortDash",
+      "color": "#999999",
+      "data": [
+        [
+          2010,
+          92.3
+        ],
+        [
+          2011,
+          92.3
+        ],
+        [
+          2012,
+          92.3
+        ],
+        [
+          2013,
+          92.3
+        ],
+        [
+          2014,
+          92.3
+        ],
+        [
+          2015,
+          92.3
+        ],
+        [
+          2016,
+          92.3
+        ],
+        [
+          2017,
+          92.3
+        ],
+        [
+          2018,
+          92.3
+        ],
+        [
+          2019,
+          92.3
+        ],
+        [
+          2020,
+          92.3
+        ],
+        [
+          2021,
+          92.3
+        ]
+      ],
+      "name": "Referenzwert"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          2
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          1
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          1
+        ]
+      ],
+      "name": "Bewertung"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              y: 0,
+              x: -350,
+              format: 'Referenzwert: {y:,.0f} (Wert 2019)',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            }
+          });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+            data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
+    },
+    "renderTo": "container-9687",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Verkehrsleistungsindex MIV Stadtstrassennetz"
+  },
+  "subtitle": {
+    "text": "Indexwert (Basis 2010 = 100)",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": null
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+  },
+  "tooltip": {
+    "valueDecimals": 1,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9687"
+  }
+}

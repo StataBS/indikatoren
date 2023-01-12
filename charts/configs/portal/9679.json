@@ -1,0 +1,481 @@
+{
+  "series": [
+    {
+      "color": "#0091f7",
+      "zIndex": 2,
+      "data": [
+        [
+          1998,
+          78.2
+        ],
+        [
+          1999,
+          78.2
+        ],
+        [
+          2000,
+          79
+        ],
+        [
+          2001,
+          79.2
+        ],
+        [
+          2002,
+          79.7
+        ],
+        [
+          2003,
+          79.1
+        ],
+        [
+          2004,
+          80.3
+        ],
+        [
+          2005,
+          80.3
+        ],
+        [
+          2006,
+          81
+        ],
+        [
+          2007,
+          81.3
+        ],
+        [
+          2008,
+          80.7
+        ],
+        [
+          2009,
+          81.1
+        ],
+        [
+          2010,
+          81.3
+        ],
+        [
+          2011,
+          81.4
+        ],
+        [
+          2012,
+          81.6
+        ],
+        [
+          2013,
+          81.8
+        ],
+        [
+          2014,
+          81.5
+        ],
+        [
+          2015,
+          82.1
+        ],
+        [
+          2016,
+          82.8
+        ],
+        [
+          2017,
+          82.5
+        ],
+        [
+          2018,
+          82.8
+        ],
+        [
+          2019,
+          82.7
+        ],
+        [
+          2020,
+          82.5
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          1998,
+          79.4
+        ],
+        [
+          1999,
+          79.7
+        ],
+        [
+          2000,
+          79.8
+        ],
+        [
+          2001,
+          80.3
+        ],
+        [
+          2002,
+          80.5
+        ],
+        [
+          2003,
+          80.6
+        ],
+        [
+          2004,
+          81.1
+        ],
+        [
+          2005,
+          81.3
+        ],
+        [
+          2006,
+          81.6
+        ],
+        [
+          2007,
+          81.8
+        ],
+        [
+          2008,
+          82.1
+        ],
+        [
+          2009,
+          82.1
+        ],
+        [
+          2010,
+          82.3
+        ],
+        [
+          2011,
+          82.5
+        ],
+        [
+          2012,
+          82.6
+        ],
+        [
+          2013,
+          82.6
+        ],
+        [
+          2014,
+          83
+        ],
+        [
+          2015,
+          82.8
+        ],
+        [
+          2016,
+          83.4
+        ],
+        [
+          2017,
+          83.4
+        ],
+        [
+          2018,
+          83.5
+        ],
+        [
+          2019,
+          83.7
+        ],
+        [
+          2020,
+          83
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          1
+        ],
+        [
+          2000,
+          0
+        ],
+        [
+          2001,
+          1
+        ],
+        [
+          2002,
+          0
+        ],
+        [
+          2003,
+          2
+        ],
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          1
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          2
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          2
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          2
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          2
+        ],
+        [
+          2020,
+          2
+        ]
+      ],
+      "name": "Bewertung"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
+    },
+    "renderTo": "container-9679"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Lebenserwartung bei Geburt"
+  },
+  "subtitle": {
+    "text": "in Jahren, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": null,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9679"
+  }
+}

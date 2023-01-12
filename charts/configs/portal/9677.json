@@ -1,0 +1,743 @@
+{
+  "series": [
+    {
+      "color": "#0091f7",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          -1.2718
+        ],
+        [
+          "2000",
+          -0.3682
+        ],
+        [
+          "2001",
+          0.0601
+        ],
+        [
+          "2002",
+          0.8409
+        ],
+        [
+          "2003",
+          1.259
+        ],
+        [
+          "2004",
+          0.3142
+        ],
+        [
+          "2005",
+          -0.5134
+        ],
+        [
+          "2006",
+          -0.3302
+        ],
+        [
+          "2007",
+          -0.4937
+        ],
+        [
+          "2008",
+          -0.2425
+        ],
+        [
+          "2009",
+          0.8013
+        ],
+        [
+          "2010",
+          0.379
+        ],
+        [
+          "2011",
+          -0.524
+        ],
+        [
+          "2012",
+          0.0004
+        ],
+        [
+          "2013",
+          0.0733
+        ],
+        [
+          "2014",
+          -0.3331
+        ],
+        [
+          "2015",
+          0.26
+        ],
+        [
+          "2016",
+          0.2141
+        ],
+        [
+          "2017",
+          -0.263
+        ],
+        [
+          "2018",
+          -0.3522
+        ],
+        [
+          "2019",
+          -0.2733
+        ],
+        [
+          "2020",
+          0.9453
+        ],
+        [
+          "2021",
+          -0.0623
+        ],
+        [
+          "2022",
+          -0.8126
+        ]
+      ],
+      "name": "Veränderung Arbeitslosenquote Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          -1.203359224
+        ],
+        [
+          "2000",
+          -0.872790454
+        ],
+        [
+          "2001",
+          -0.121362838
+        ],
+        [
+          "2002",
+          0.843857392
+        ],
+        [
+          "2003",
+          1.144739905
+        ],
+        [
+          "2004",
+          0.187604405
+        ],
+        [
+          "2005",
+          -0.115681037
+        ],
+        [
+          "2006",
+          -0.430847776
+        ],
+        [
+          "2007",
+          -0.566049859
+        ],
+        [
+          "2008",
+          -0.188339818
+        ],
+        [
+          "2009",
+          1.123732831
+        ],
+        [
+          "2010",
+          -0.186240853
+        ],
+        [
+          "2011",
+          -0.67274537
+        ],
+        [
+          "2012",
+          0.062105783
+        ],
+        [
+          "2013",
+          0.252559476
+        ],
+        [
+          "2014",
+          -0.114195049
+        ],
+        [
+          "2015",
+          0.134464696
+        ],
+        [
+          "2016",
+          0.145688943
+        ],
+        [
+          "2017",
+          -0.137422838
+        ],
+        [
+          "2018",
+          -0.555355403
+        ],
+        [
+          "2019",
+          -0.323853241
+        ],
+        [
+          "2020",
+          0.833505982
+        ],
+        [
+          "2021",
+          -0.171692461
+        ],
+        [
+          "2022",
+          -0.802322434
+        ]
+      ],
+      "name": "Veränderung Arbeitslosenquote Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          1
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2001",
+          0
+        ],
+        [
+          "2002",
+          1
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          "2005",
+          2
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          1
+        ],
+        [
+          "2009",
+          2
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          1
+        ],
+        [
+          "2013",
+          1
+        ],
+        [
+          "2014",
+          1
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2016",
+          0
+        ],
+        [
+          "2017",
+          1
+        ],
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2021",
+          0
+        ],
+        [
+          "2022",
+          1
+        ]
+      ],
+      "name": "Bewertung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0091f7",
+      "type": "line",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1998",
+          3.7414
+        ],
+        [
+          "1999",
+          2.4696
+        ],
+        [
+          "2000",
+          2.1014
+        ],
+        [
+          "2001",
+          2.1615
+        ],
+        [
+          "2002",
+          3.0024
+        ],
+        [
+          "2003",
+          4.2614
+        ],
+        [
+          "2004",
+          4.5756
+        ],
+        [
+          "2005",
+          4.0622
+        ],
+        [
+          "2006",
+          3.732
+        ],
+        [
+          "2007",
+          3.2383
+        ],
+        [
+          "2008",
+          2.9958
+        ],
+        [
+          "2009",
+          3.7971
+        ],
+        [
+          "2010",
+          4.1761
+        ],
+        [
+          "2011",
+          3.6521
+        ],
+        [
+          "2012",
+          3.6525
+        ],
+        [
+          "2013",
+          3.7258
+        ],
+        [
+          "2014",
+          3.3927
+        ],
+        [
+          "2015",
+          3.6527
+        ],
+        [
+          "2016",
+          3.8668
+        ],
+        [
+          "2017",
+          3.6038
+        ],
+        [
+          "2018",
+          3.2516
+        ],
+        [
+          "2019",
+          2.9783
+        ],
+        [
+          "2020",
+          3.9236
+        ],
+        [
+          "2021",
+          3.8613
+        ],
+        [
+          "2022",
+          3.0487
+        ]
+      ],
+      "name": "Arbeitslosenquote Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "type": "line",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1998",
+          3.9
+        ],
+        [
+          "1999",
+          2.696640776
+        ],
+        [
+          "2000",
+          1.823850322
+        ],
+        [
+          "2001",
+          1.702487483
+        ],
+        [
+          "2002",
+          2.546344875
+        ],
+        [
+          "2003",
+          3.69108478
+        ],
+        [
+          "2004",
+          3.878689184
+        ],
+        [
+          "2005",
+          3.763008147
+        ],
+        [
+          "2006",
+          3.332160371
+        ],
+        [
+          "2007",
+          2.766110513
+        ],
+        [
+          "2008",
+          2.577770695
+        ],
+        [
+          "2009",
+          3.701503526
+        ],
+        [
+          "2010",
+          3.515262673
+        ],
+        [
+          "2011",
+          2.842517304
+        ],
+        [
+          "2012",
+          2.904623086
+        ],
+        [
+          "2013",
+          3.157182563
+        ],
+        [
+          "2014",
+          3.042987514
+        ],
+        [
+          "2015",
+          3.177452209
+        ],
+        [
+          "2016",
+          3.323141152
+        ],
+        [
+          "2017",
+          3.185718315
+        ],
+        [
+          "2018",
+          2.630362911
+        ],
+        [
+          "2019",
+          2.30650967
+        ],
+        [
+          "2020",
+          3.140015652
+        ],
+        [
+          "2021",
+          2.968323191
+        ],
+        [
+          "2022",
+          2.166000757
+        ]
+      ],
+      "name": "Arbeitslosenquote  Schweiz",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[3].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7",
+                  radius: 3
+                }
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+
+              }
+            }
+          });
+        }
+    },
+    "renderTo": "container-9677"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitslosenquote"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt und Schweiz",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": null,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1) + '%';
+        }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+      }
+  },
+  "exporting": {
+    "filename": "9677"
+  }
+}
