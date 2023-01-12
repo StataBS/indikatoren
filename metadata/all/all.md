@@ -1924,8 +1924,8 @@ id | visible | visibleInPortal | indikatorenset
 9013 | true | false | 
 9022 | true | true | 
 9023 | true | true | 
-9027 | true | true | Gesellschaftlicher-Zusammenhalt
-9029 | true | true | Gesellschaftlicher-Zusammenhalt
+9027 | false |  | Gesellschaftlicher-Zusammenhalt
+9029 | false |  | Gesellschaftlicher-Zusammenhalt
 9030 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
 9033 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
