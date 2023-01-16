@@ -1267,7 +1267,7 @@ id | visible | visibleInPortal | indikatorenset
 7777 | true | false | Richtplan
 7778 | true | false | Richtplan
 7779 | true | true | Richtplan
-7782 | true | false | Richtplan
+7782 | true | true | Richtplan
 7901 | true | true | 
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)

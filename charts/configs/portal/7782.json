@@ -191,14 +191,7 @@
         "textOverflow": "none"
       }
     },
-    "tickPositioner": function () {
-      var interval = 3,
-        ext = this.getExtremes(),
-        i = ext.dataMax,
-        pos = [i];
-      while (i >= ext.dataMin) pos.unshift(i = i - interval);
-      return pos;
-    }
+    "tickInterval": 3
   },
   "yAxis": {
     "min": 50,
@@ -242,7 +235,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

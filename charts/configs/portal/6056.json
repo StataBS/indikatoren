@@ -30,8 +30,8 @@
           17.2
         ],
         [
-          "2019",
-          20.8
+          "2020",
+          21.5
         ]
       ],
       "name": "Männer",
@@ -72,12 +72,12 @@
           "high": 19.1
         },
         {
-          "name": "2019",
-          "low": 18.6,
-          "high": 23
+          "name": "2020",
+          "low": 19.4,
+          "high": 23.7
         }
       ],
-      "name": "Männer 95% Vertrauensintervall Untergrenze",
+      "name": "Männer 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -110,8 +110,8 @@
           49.4
         ],
         [
-          "2019",
-          48.7
+          "2020",
+          49.8
         ]
       ],
       "name": "Frauen",
@@ -152,12 +152,12 @@
           "high": 52
         },
         {
-          "name": "2019",
-          "low": 46,
-          "high": 51.5
+          "name": "2020",
+          "low": 47.1,
+          "high": 52.5
         }
       ],
-      "name": "Frauen 95% Vertrauensintervall Untergrenze",
+      "name": "Frauen 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -190,8 +190,8 @@
           32.6
         ],
         [
-          "2019",
-          34.1
+          "2020",
+          35.1
         ]
       ],
       "name": "Total",
@@ -232,12 +232,12 @@
           "high": 34.3
         },
         {
-          "name": "2019",
-          "low": 32.2,
-          "high": 35.9
+          "name": "2020",
+          "low": 33.3,
+          "high": 36.8
         }
       ],
-      "name": "Total 95% Vertrauensintervall Untergrenze",
+      "name": "Total 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -315,7 +315,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Teilzeiterwerbstätige nach Geschlecht"
+    "text": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -376,7 +376,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2023"
   },
   "tooltip": {
     "shared": true

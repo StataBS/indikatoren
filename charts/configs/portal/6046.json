@@ -40,6 +40,10 @@
         [
           "2019",
           17802
+        ],
+        [
+          "2020",
+          17977
         ]
       ],
       "name": "Pharmaindustrie",
@@ -85,6 +89,10 @@
         [
           "2019",
           7955
+        ],
+        [
+          "2020",
+          7470
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -130,6 +138,10 @@
         [
           "2019",
           8775
+        ],
+        [
+          "2020",
+          8881
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -175,6 +187,10 @@
         [
           "2019",
           26295
+        ],
+        [
+          "2020",
+          25351
         ]
       ],
       "name": "Handel und Verkehr",
@@ -184,6 +200,55 @@
       "color": "#b9cfd7",
       "index": 5,
       "legendIndex": 5,
+      "data": [
+        [
+          "2011",
+          9131
+        ],
+        [
+          "2012",
+          9372
+        ],
+        [
+          "2013",
+          10050
+        ],
+        [
+          "2014",
+          10485
+        ],
+        [
+          "2015",
+          10627
+        ],
+        [
+          "2016",
+          10320
+        ],
+        [
+          "2017",
+          10423
+        ],
+        [
+          "2018",
+          10606
+        ],
+        [
+          "2019",
+          10961
+        ],
+        [
+          "2020",
+          7784
+        ]
+      ],
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2011",
@@ -220,15 +285,19 @@
         [
           "2019",
           11029
+        ],
+        [
+          "2020",
+          11411
         ]
       ],
       "name": "Finanzen, Versicherung",
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2011",
@@ -265,15 +334,19 @@
         [
           "2019",
           37931
+        ],
+        [
+          "2020",
+          37353
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#ff8028",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2011",
@@ -310,15 +383,19 @@
         [
           "2019",
           19904
+        ],
+        [
+          "2020",
+          20165
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#b00000",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2011",
@@ -355,54 +432,13 @@
         [
           "2019",
           31879
+        ],
+        [
+          "2020",
+          32653
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b00000",
-      "index": 1,
-      "legendIndex": 1,
-      "data": [
-        [
-          "2011",
-          27430
-        ],
-        [
-          "2012",
-          28510
-        ],
-        [
-          "2013",
-          29335
-        ],
-        [
-          "2014",
-          29919
-        ],
-        [
-          "2015",
-          29825
-        ],
-        [
-          "2016",
-          29584
-        ],
-        [
-          "2017",
-          29609
-        ],
-        [
-          "2018",
-          29886
-        ],
-        [
-          "2019",
-          30880
-        ]
-      ],
-      "name": "Übrige Branchen",
       "turboThreshold": 0
     },
     {
@@ -412,41 +448,46 @@
       "data": [
         [
           "2011",
-          undefined
+          18299
         ],
         [
           "2012",
-          undefined
+          19138
         ],
         [
           "2013",
-          undefined
+          19285
         ],
         [
           "2014",
-          undefined
+          19434
         ],
         [
           "2015",
-          undefined
+          19198
         ],
         [
           "2016",
-          undefined
+          19264
         ],
         [
           "2017",
-          undefined
+          19186
         ],
         [
           "2018",
-          undefined
+          19280
         ],
         [
           "2019",
-          undefined
+          19919
+        ],
+        [
+          "2020",
+          19733
         ]
       ],
+      "name": "Übrige Branchen",
       "turboThreshold": 0
     }
   ],
@@ -587,7 +628,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",
