@@ -1142,7 +1142,7 @@ var indikatorensetData = [
 		"data-id": 8423,
 		"chart-id": 8423,
 		"filter": "",
-		"parentId": "5196",
+		"parentId": "7782",
 		"children": [],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
@@ -1171,7 +1171,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:45",
+		"aktualisierungsdatum": "2023-01-16T08:19:38",
 		"id": 8423
 	},
 	{

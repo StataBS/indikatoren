@@ -1978,8 +1978,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1 988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"lesehilfe": "Im Jahr 2020 sind in Basel-Stadt 188 778 Personen beschäftigt. Das sind 3 672 Personen weniger als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gesundheits- und Sozialwesen mit 774 Personen, während im Gastgewerbe mit 3 177 Beschäftigten die grösste Abnahme zu beobachten ist.",
+		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -1993,7 +1993,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.06046",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE2",
+		"kuerzelKunde": "WE6",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2003,7 +2003,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:11",
+		"aktualisierungsdatum": "2023-01-16T08:19:46",
 		"id": 6046
 	},
 	{
@@ -2329,10 +2329,10 @@ var indikatorensetData = [
 		"children": [
 			8945
 		],
-		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
+		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "20,8% der erwerbstätigen Männer gingen 2019 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2019 bei 48,7%.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse von 2019 nur bedingt mit denen von 2010 verglichen werden.",
+		"lesehilfe": "21,5% der erwerbstätigen Männer gingen 2020 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2020 bei 49,8%.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -2342,12 +2342,12 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht",
+		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6056",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE15",
+		"kuerzelKunde": "WE14",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -2357,7 +2357,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-07T08:03:29",
+		"aktualisierungsdatum": "2023-01-16T08:19:42",
 		"id": 6056
 	},
 	{

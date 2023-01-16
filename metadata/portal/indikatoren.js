@@ -12668,10 +12668,10 @@ var indikatoren = [
 		"children": [
 			8945
 		],
-		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
+		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "20,8% der erwerbstätigen Männer gingen 2019 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2019 bei 48,7%.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse von 2019 nur bedingt mit denen von 2010 verglichen werden.",
+		"lesehilfe": "21,5% der erwerbstätigen Männer gingen 2020 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2020 bei 49,8%.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -12681,12 +12681,12 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht",
+		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6056",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE15",
+		"kuerzelKunde": "WE14",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -12697,7 +12697,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-07T08:03:29",
+		"aktualisierungsdatum": "2023-01-16T08:19:42",
 		"id": 6056
 	},
 	{
@@ -30768,6 +30768,46 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-28T08:18:45",
 		"id": 7779
+	},
+	{
+		"template": "line001",
+		"data-id": 7782,
+		"chart-id": 7782,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8423
+		],
+		"title": "Mietpreisindex Basel-Stadt",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.07782",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 5-5",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-01-16T08:19:34",
+		"id": 7782
 	},
 	{
 		"template": "line001",

@@ -1209,10 +1209,12 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 7782,
-		"chart-id": 5196,
+		"chart-id": 7782,
 		"filter": "",
-		"parentId": "5196",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8423
+		],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
 		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
@@ -1240,7 +1242,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:45",
+		"aktualisierungsdatum": "2023-01-16T08:19:34",
 		"id": 7782
 	},
 	{
