@@ -1265,7 +1265,7 @@ id | visible | visibleInPortal | indikatorenset
 7774 | true | true | Richtplan
 7775 | true | true | Richtplan
 7777 | true | false | Richtplan
-7778 | true | false | Richtplan
+7778 | true | true | Richtplan
 7779 | true | true | Richtplan
 7782 | true | true | Richtplan
 7901 | true | true | 
