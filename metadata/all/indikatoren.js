@@ -45856,43 +45856,43 @@ var indikatoren = [
 		"id": 7777
 	},
 	{
+		"template": "line001",
+		"data-id": 7778,
+		"chart-id": 7778,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8421
+		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"kuerzel": "I.06.4.07778",
-		"kuerzelKunde": "ST 11-3",
-		"description": "Warentransit durch die Schweiz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T16:17:19.1919",
+		"description": "Warentransit durch die Schweiz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.07778",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 11-3",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
-		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
-		"template": "line001",
+		"orderKey": "05_11_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "05_11_00_00_00_003",
-		"parentId": 6155,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7778,
-		"chart-id": 7778,
-		"filter": "",
+		"aktualisierungsdatum": "2023-01-24T08:15:50",
 		"id": 7778
 	},
 	{
