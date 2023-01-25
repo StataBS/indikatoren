@@ -667,48 +667,6 @@ var indikatorensetData = [
 		"id": 4838
 	},
 	{
-		"parentId": null,
-		"children": [
-			"5126"
-		],
-		"template": "dotplot",
-		"title": "Arbeitslosenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
-		"kuerzelKunde": "WA-5.A",
-		"description": "Arbeitslosenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-03-18T11:56:38.3838",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Wirtschaft und Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
-		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent,Ende Jahr 2016. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet. Aktuellere Arbeitslosendaten auf Ebene Wohnviertel sind nicht verfügbar.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_03_00_00_00_018",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4839,
-		"chart-id": 4839,
-		"filter": "",
-		"id": 4839
-	},
-	{
 		"template": "spider001",
 		"data-id": 6630,
 		"chart-id": 6630,

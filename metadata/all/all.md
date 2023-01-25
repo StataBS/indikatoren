@@ -235,7 +235,7 @@ id | visible | visibleInPortal | indikatorenset
 4836 | true | true | Wohnviertel
 4837 | true | true | Wohnviertel
 4838 | true | true | Wohnviertel
-4839 | true | true | Wohnviertel
+4839 | false |  | Wohnviertel
 4848 | true | true | Gesellschaftlicher-Zusammenhalt
 4849 | true | true | Gesellschaftlicher-Zusammenhalt
 4850 | true | true | Gesellschaftlicher-Zusammenhalt
