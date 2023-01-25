@@ -21,7 +21,7 @@
 "erlaeuterungen":"Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent,Ende Jahr 2016. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet. Aktuellere Arbeitslosendaten auf Ebene Wohnviertel sind nicht verfügbar.",
 "darstellungsart":"Diagramm",
 "printformat":"", 
-"visible":true,
+"visible":false,
 "visibleInPortal":true,
 "orderKey":"02_03_00_00_00_018",
 "renderLink":[],
