@@ -30721,7 +30721,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-24T08:15:50",
+		"aktualisierungsdatum": "2023-01-25T09:53:07",
 		"id": 7778
 	},
 	{
@@ -43372,7 +43372,7 @@ var indikatoren = [
 			9650
 		],
 		"title": "Endenergieverbrauch nach Energieträger und Verbrauchergruppe",
-		"subtitle": "in GWh, 2022, Basel-Stadt",
+		"subtitle": "in GWh, 2020, Basel-Stadt",
 		"lesehilfe": "Der Bereich Nichtwohnen stellte mit insgesamt 1 953 GWh im Jahr 2020 die grösste Verbrauchergruppe dar, gefolgt vom Wohnen mit total 1 382 GWh und dem Verkehr mit 593 GWh. Bei den Verbrauchergruppen Wohnen und Nichtwohnen stellen Fernwärme, Elektrizität und Erdgas die Energieträger mit den grössten Anteilen dar. Beim Verkehr sind es nach wie vor Benzin und Diesel; Elektrizität macht hier einen sehr geringen Teil aus.",
 		"erlaeuterungen": "Unter Erdgas ist Biogas mit aufgeführt. Der Treibstoffverbrauch 2020 wurde aufgrund des aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt. Die Elektrizität beim Verkehr umfasst sowohl den Verbrauch des motorisierten Individualverkehrs wie auch des öffentlichen Verkehrs.",
 		"quellenangabe": [
@@ -43399,7 +43399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:18",
+		"aktualisierungsdatum": "2023-01-25T09:53:06",
 		"id": 9619
 	},
 	{
