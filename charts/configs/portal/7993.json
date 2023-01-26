@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          185139
+          187181
         ],
         [
           "Bern",
-          189629
+          191856
         ],
         [
           "Genf",
-          186456
+          188639
         ],
         [
           "Lausanne",
-          123531
+          125287
         ],
         [
           "Zürich",
-          491835
+          499346
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          184214
+          186334
         ],
         [
           "Bern",
-          133299
+          134328
         ],
         [
           "Genf",
-          217868
+          224823
         ],
         [
           "Lausanne",
-          148005
+          151837
         ],
         [
           "Zürich",
-          490688
+          500693
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          74804
+          73431
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          27007
+          27317
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          77236
+          78191
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": "2019",
+    "text": "2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -213,8 +213,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
-    "max": 1000000,
+    "tickInterval": 200000,
+    "max": 1200000,
     "reversedStacks": false
   },
   "legend": {
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

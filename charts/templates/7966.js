@@ -14,8 +14,8 @@
     type: "category"    
   },  
   yAxis: {
-    tickAmount: 7,
-    max: 700000,
+    tickAmount: 5,
+    max: 800000,
       labels: {
       format: "{value:,.0f}"
     },

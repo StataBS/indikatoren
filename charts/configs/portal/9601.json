@@ -239,8 +239,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7
+    }
   },
   "legend": {
     "symbolRadius": 0,

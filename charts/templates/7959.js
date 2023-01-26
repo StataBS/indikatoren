@@ -26,8 +26,9 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
-        pointWidth: 14
-      }
+        pointWidth: 14,
+        minPointLength: 2,
+      },
     },
     yAxis: {
       tickAmount: 6,
@@ -54,7 +55,7 @@
       }
     },
     tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
     }
   }
 }());

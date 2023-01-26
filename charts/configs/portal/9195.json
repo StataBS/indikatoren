@@ -6,71 +6,71 @@
       "data": [
         [
           "Basel",
-          68752.4724483418
+          68623.6280596469
         ],
         [
           "Bern",
-          25379.5017671494
+          24129.9188878539
         ],
         [
           "Genf",
-          89756.276508053
+          89870.7747091148
         ],
         [
           "Lausanne",
-          48027.4561278659
+          46355.4684455795
         ],
         [
           "Zürich",
-          102885.725395207
+          99072.4546431339
         ],
         [
           "Frankfurt a. M.",
-          254274
+          268069
         ],
         [
           "Freiburg i. Br.",
-          41412
+          40967
         ],
         [
           "Karlsruhe",
-          49987
+          57608
         ],
         [
           "München",
-          164823
+          179725
         ],
         [
           "Stuttgart",
-          219881
+          228437
         ],
         [
           "Lille",
-          153922
+          145760
         ],
         [
           "Lyon",
-          174336
+          180995
         ],
         [
           "Metz",
-          32965
+          31644
         ],
         [
           "Paris",
-          1285780
+          1252718
         ],
         [
           "Strassburg",
-          68152
+          69111
         ],
         [
           "Mailand",
-          971625
+          749186
         ],
         [
           "Bologna",
-          123857
+          107423
         ],
         [
           "Lissabon",
@@ -82,11 +82,11 @@
         ],
         [
           "Barcelona",
-          880389
+          865755
         ],
         [
           "Madrid",
-          1144824
+          1133158
         ],
         [
           "London",
@@ -102,71 +102,71 @@
       "data": [
         [
           "Basel",
-          216245.032306838
+          214584.282838882
         ],
         [
           "Bern",
-          100607.692329041
+          96457.3687087306
         ],
         [
           "Genf",
-          170928.222524466
+          168953.11371581
         ],
         [
           "Lausanne",
-          80795.2711626014
+          79480.1395296734
         ],
         [
           "Zürich",
-          311814.187127061
+          303347.064947005
         ],
         [
           "Frankfurt a. M.",
-          740449
+          738303
         ],
         [
           "Freiburg i. Br.",
-          182829
+          169353
         ],
         [
           "Karlsruhe",
-          209280
+          192540
         ],
         [
           "München",
-          722342
+          694814
         ],
         [
           "Stuttgart",
-          755751
+          733538
         ],
         [
           "Lille",
-          290750
+          288148
         ],
         [
           "Lyon",
-          383419
+          420709
         ],
         [
           "Metz",
-          84764
+          84354
         ],
         [
           "Paris",
-          2222279
+          2258825
         ],
         [
           "Strassburg",
-          175486
+          182092
         ],
         [
           "Mailand",
-          1226927
+          1231737
         ],
         [
           "Bologna",
-          175744
+          184730
         ],
         [
           "Lissabon",
@@ -178,11 +178,11 @@
         ],
         [
           "Barcelona",
-          683007
+          690508
         ],
         [
           "Madrid",
-          931138
+          938520
         ],
         [
           "London",
@@ -198,71 +198,71 @@
       "data": [
         [
           "Basel",
-          177007.333936387
+          182428.91998541
         ],
         [
           "Bern",
-          106217.975073133
+          107377.733884593
         ],
         [
           "Genf",
-          230416.82423232
+          240036.502925935
         ],
         [
           "Lausanne",
-          109327.968914999
+          112920.181842448
         ],
         [
           "Zürich",
-          383381.528374199
+          403862.187383335
         ],
         [
           "Frankfurt a. M.",
-          538937
+          523069
         ],
         [
           "Freiburg i. Br.",
-          128771
+          145103
         ],
         [
           "Karlsruhe",
-          157490
+          159718
         ],
         [
           "München",
-          764270
+          789351
         ],
         [
           "Stuttgart",
-          571440
+          581380
         ],
         [
           "Lille",
-          300146
+          307071
         ],
         [
           "Lyon",
-          467311
+          513629
         ],
         [
           "Metz",
-          71481
+          73907
         ],
         [
           "Paris",
-          3118664
+          3220657
         ],
         [
           "Strassburg",
-          166951
+          176501
         ],
         [
           "Mailand",
-          540532
+          720841
         ],
         [
           "Bologna",
-          104584
+          135832
         ],
         [
           "Lissabon",
@@ -274,11 +274,11 @@
         ],
         [
           "Barcelona",
-          1261482
+          1309155
         ],
         [
           "Madrid",
-          1857413
+          1928042
         ],
         [
           "London",
@@ -365,7 +365,7 @@
     "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2019",
+    "text": "nach höchster abgeschlossener Ausbildung, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -423,7 +423,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
