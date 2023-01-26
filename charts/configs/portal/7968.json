@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel: Agglomeration",
-          4980
+          5019
         ],
         [
           "Basel: Kernstadt",
-          34
+          44
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          3874
+          3836
         ],
         [
           "Basel: Agglomeration D",
-          447
+          508
         ],
         [
           "Basel: Agglomeration F",
-          625
+          631
         ],
         [
           "      ",
@@ -29,15 +29,15 @@
         ],
         [
           "Bern: Agglomeration",
-          7563
+          7438
         ],
         [
           "Bern: Kernstadt",
-          314
+          307
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          7249
+          7131
         ],
         [
           "         ",
@@ -45,19 +45,19 @@
         ],
         [
           "Genf: Agglomeration",
-          5011
+          5118
         ],
         [
           "Genf: Kernstadt",
-          38
+          40
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          3339
+          3418
         ],
         [
           "Genf: Agglomeration F",
-          1634
+          1660
         ],
         [
           "             ",
@@ -65,15 +65,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          5044
+          5069
         ],
         [
           "Lausanne: Kernstadt",
-          122
+          117
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          4922
+          4952
         ],
         [
           "                ",
@@ -81,15 +81,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          9027
+          8981
         ],
         [
           "Zürich: Kernstadt",
-          186
+          166
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          8841
+          8815
         ]
       ],
       "name": "1. Sektor",
@@ -100,23 +100,23 @@
       "data": [
         [
           "Basel: Agglomeration",
-          118575
+          117238
         ],
         [
           "Basel: Kernstadt",
-          34913
+          33990
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          48943
+          49303
         ],
         [
           "Basel: Agglomeration D",
-          27359
+          26521
         ],
         [
           "Basel: Agglomeration F",
-          7360
+          7424
         ],
         [
           "      ",
@@ -124,15 +124,15 @@
         ],
         [
           "Bern: Agglomeration",
-          42201
+          42017
         ],
         [
           "Bern: Kernstadt",
-          15358
+          15030
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          26843
+          26987
         ],
         [
           "         ",
@@ -140,19 +140,19 @@
         ],
         [
           "Genf: Agglomeration",
-          67214
+          69294
         ],
         [
           "Genf: Kernstadt",
-          10146
+          10559
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          44145
+          45650
         ],
         [
           "Genf: Agglomeration F",
-          12923
+          13085
         ],
         [
           "             ",
@@ -160,15 +160,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          37960
+          38365
         ],
         [
           "Lausanne: Kernstadt",
-          6252
+          6348
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          31708
+          32017
         ],
         [
           "                ",
@@ -176,15 +176,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          128201
+          128213
         ],
         [
           "Zürich: Kernstadt",
-          28413
+          27964
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          99788
+          100249
         ]
       ],
       "name": "2. Sektor",
@@ -195,23 +195,23 @@
       "data": [
         [
           "Basel: Agglomeration",
-          347607
+          351998
         ],
         [
           "Basel: Kernstadt",
-          150192
+          153147
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          131397
+          133195
         ],
         [
           "Basel: Agglomeration D",
-          46998
+          46402
         ],
         [
           "Basel: Agglomeration F",
-          19020
+          19254
         ],
         [
           "      ",
@@ -219,15 +219,15 @@
         ],
         [
           "Bern: Agglomeration",
-          273164
+          276729
         ],
         [
           "Bern: Kernstadt",
-          173957
+          176519
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          99207
+          100210
         ],
         [
           "         ",
@@ -235,19 +235,19 @@
         ],
         [
           "Genf: Agglomeration",
-          409338
+          417228
         ],
         [
           "Genf: Kernstadt",
-          176272
+          178040
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          170384
+          175755
         ],
         [
           "Genf: Agglomeration F",
-          62682
+          63433
         ],
         [
           "             ",
@@ -255,15 +255,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          228532
+          233690
         ],
         [
           "Lausanne: Kernstadt",
-          117157
+          118822
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          111375
+          114868
         ],
         [
           "                ",
@@ -271,15 +271,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          845295
+          862845
         ],
         [
           "Zürich: Kernstadt",
-          463236
+          471216
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          382059
+          391629
         ]
       ],
       "name": "3. Sektor",
@@ -358,7 +358,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "2019"
+    "text": "2020"
   },
   "navigation": {
     "menuItemStyle": {
@@ -419,7 +419,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "legend": {
     "layout": "horizontal",

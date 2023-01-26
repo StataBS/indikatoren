@@ -6,63 +6,63 @@
       "data": [
         [
           "Basel",
-          0.548
+          0.549
         ],
         [
           "Bern",
-          0.768
+          0.773
         ],
         [
           "Genf",
-          0.521
+          0.526
         ],
         [
           "Lausanne",
-          0.639
+          0.648
         ],
         [
           "Zürich",
-          0.71
+          0.714
         ],
         [
           "Frankfurt a. M.",
-          0.556
+          0.548
         ],
         [
           "Freiburg i. Br.",
-          0.504
+          0.494
         ],
         [
           "Karlsruhe",
-          0.54
+          0.528
         ],
         [
           "München",
-          0.595
+          0.585
         ],
         [
           "Stuttgart",
-          0.539
+          0.525
         ],
         [
           "Lille",
-          0.403
+          0.408
         ],
         [
           "Lyon",
-          0.457
+          0.454
         ],
         [
           "Metz",
-          0.429
+          0.43
         ],
         [
           "Paris",
-          0.461
+          0.459
         ],
         [
           "Strassburg",
-          0.438
+          0.435
         ],
         [
           "Mailand",
@@ -74,19 +74,19 @@
         ],
         [
           "Lissabon",
-          0.437
+          0.444
         ],
         [
           "Porto",
-          0.423
+          0.434
         ],
         [
           "Barcelona",
-          0.468
+          0.446
         ],
         [
           "Madrid",
-          0.525
+          0.508
         ],
         [
           "London",
@@ -173,7 +173,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "Beschäftigte pro Einwohner, 2019",
+    "text": "2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -229,7 +229,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

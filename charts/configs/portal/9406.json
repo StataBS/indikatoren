@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          0.68
+          0.59
         ],
         [
           "Bern",
-          0.83
+          0.72
         ],
         [
           "Genf",
-          1.53
+          1.36
         ],
         [
           "Lausanne",
-          1.33
+          1.21
         ],
         [
           "Zürich",
-          1.32
+          1.27
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          0.58
+          0.54
         ],
         [
           "Bern",
-          0.77
+          0.69
         ],
         [
           "Genf",
-          1.05
+          0.95
         ],
         [
           "Lausanne",
-          0.93
+          0.81
         ],
         [
           "Zürich",
-          1.54
+          1.43
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.71
+          0.6
         ],
         [
           "Bern",
-          0.87
+          0.73
         ],
         [
           "Genf",
-          1.41
+          1.23
         ],
         [
           "Lausanne",
-          1.52
+          1.41
         ],
         [
           "Zürich",
-          1.23
+          1.2
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          0.6
+          0.46
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          0.91
+          0.95
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          1.98
+          1.77
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Entwicklung der Gesamtbevölkerung"
   },
   "subtitle": {
-    "text": "durchschnittliche jährliche Veränderungsrate, 2014 bis 2019",
+    "text": "durchschnittliche jährliche Veränderungsrate, 2015 bis 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

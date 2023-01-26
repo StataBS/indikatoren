@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          0.201
+          -0.699
         ],
         [
           "Bern",
-          1.235
+          0.982
         ],
         [
           "Genf",
-          5.409
+          3.484
         ],
         [
           "Lausanne",
-          4.712
+          3.038
         ],
         [
           "Zürich",
-          3.62
+          3.049
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          0.604
+          -0.179
         ],
         [
           "Bern",
-          2.517
+          2.809
         ],
         [
           "Genf",
-          4.905
+          2.432
         ],
         [
           "Lausanne",
-          5.355
+          3.336
         ],
         [
           "Zürich",
-          4.343
+          3.746
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0
+          -0.809
         ],
         [
           "Bern",
-          0.636
+          0.125
         ],
         [
           "Genf",
-          3.811
+          1.868
         ],
         [
           "Lausanne",
-          4.399
+          2.895
         ],
         [
           "Zürich",
-          3.31
+          2.751
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          -0.315
+          -1.26
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          1.408
+          0.02
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          7.649
+          6.07
         ],
         [
           "Lausanne",
@@ -202,7 +202,8 @@
         }
       },
       "pointPadding": 0,
-      "pointWidth": 14
+      "pointWidth": 14,
+      "minPointLength": 2
     }
   },
   "title": {
@@ -215,7 +216,7 @@
     "text": "Geburten und Sterbefälle"
   },
   "subtitle": {
-    "text": "Saldo (pro 1000 Einwohner), 2019",
+    "text": "Saldo (pro 1000 Einwohner), 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -273,10 +274,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "7959"
