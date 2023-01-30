@@ -82876,7 +82876,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 204 550 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -82902,7 +82902,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:50",
+		"aktualisierungsdatum": "2023-01-30T09:06:26",
 		"id": 9673
 	},
 	{
