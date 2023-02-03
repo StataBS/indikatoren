@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "<b>Zielwert:</b> Arbeitslosenquote BS entwickelt sich gleich oder besser als Ar-beitslosenquote CH<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote BS entwickelt sich  gleich oder besser als Quote CH<br>Gelb: \tQuote BS entwickelt sich leicht schlechter (0 > x > -0,3%) als Quote CH<br>Rot: \tQuote BS entwickelt sich klar schlechter (x ≤ -0,3%) als Quote CH",
+		"lesehilfe": "<b>Zielwert:</b> Arbeitslosenquote BS entwickelt sich gleich oder besser als Ar-beitslosenquote CH<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote BS entwickelt sich gleich oder besser als Quote CH<br>Gelb: \tQuote BS entwickelt sich um max. 0,3 Prozentpunkte schlechter als Quote CH<br>Rot: \tQuote BS entwickelt sich um mehr als 0,3 Prozentpunkte schlechter als Quote CH",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:56",
+		"aktualisierungsdatum": "2023-02-03T08:59:52",
 		"id": 9677
 	},
 	{
@@ -521,7 +521,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:56",
+		"aktualisierungsdatum": "2023-02-03T08:59:53",
 		"id": 9693
 	}
 ];
