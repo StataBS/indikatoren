@@ -226,99 +226,99 @@
         ],
         [
           "1999",
-          1
+          0
         ],
         [
           "2000",
-          0
+          2
         ],
         [
           "2001",
-          0
+          1
         ],
         [
           "2002",
-          1
+          0
         ],
         [
           "2003",
-          0
+          1
         ],
         [
           "2004",
-          0
+          1
         ],
         [
           "2005",
-          2
+          0
         ],
         [
           "2006",
-          0
+          1
         ],
         [
           "2007",
-          0
+          1
         ],
         [
           "2008",
-          1
+          0
         ],
         [
           "2009",
-          2
+          0
         ],
         [
           "2010",
-          0
+          2
         ],
         [
           "2011",
-          0
+          1
         ],
         [
           "2012",
-          1
+          0
         ],
         [
           "2013",
-          1
+          0
         ],
         [
           "2014",
-          1
+          0
         ],
         [
           "2015",
-          0
+          1
         ],
         [
           "2016",
-          0
+          1
         ],
         [
           "2017",
-          1
+          0
         ],
         [
           "2018",
-          0
+          1
         ],
         [
           "2019",
-          0
+          1
         ],
         [
           "2020",
-          0
+          1
         ],
         [
           "2021",
-          0
+          1
         ],
         [
           "2022",
-          1
+          0
         ]
       ],
       "name": "Bewertung",
@@ -696,7 +696,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

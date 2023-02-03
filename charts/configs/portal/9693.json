@@ -107,39 +107,39 @@
         ],
         [
           "2013",
-          1
+          0
         ],
         [
           "2014",
-          1
+          0
         ],
         [
           "2015",
-          1
+          0
         ],
         [
           "2016",
-          0
+          1
         ],
         [
           "2017",
-          1
-        ],
-        [
-          "2018",
           0
         ],
         [
-          "2019",
+          "2018",
           1
+        ],
+        [
+          "2019",
+          0
         ],
         [
           "2020",
-          1
+          0
         ],
         [
           "2021",
-          1
+          0
         ]
       ],
       "name": "Bewertung",
@@ -582,7 +582,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
