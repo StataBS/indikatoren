@@ -916,44 +916,42 @@ var indikatorensetData = [
 		"id": 8264
 	},
 	{
+		"template": "template001",
+		"data-id": 8265,
+		"chart-id": 8265,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8536
+		],
 		"title": "Anteil Personen mit Einsamkeitsgefühlen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-32",
-		"description": "Anteil Personen mit Einsamkeitsgefühlen",
-		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"description": "Anteil Personen mit Einsamkeitsgefühlen",
+		"thema": "14 Gesundheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-32",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
-		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
-		"template": "template001",
+		"orderKey": "01_04_00_00_00_132",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_04_00_00_00_132",
-		"parentId": null,
-		"children": [
-			"8536"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8265,
-		"chart-id": 8265,
-		"filter": "",
+		"aktualisierungsdatum": "2023-02-06T08:35:59",
 		"id": 8265
 	},
 	{
