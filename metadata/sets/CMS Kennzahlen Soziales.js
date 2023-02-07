@@ -834,85 +834,81 @@ var indikatorensetData = [
 		"id": 8262
 	},
 	{
-		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1-33",
-		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
-		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_04_00_00_00_133",
-		"parentId": null,
-		"children": [
-			"8534"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8263,
 		"chart-id": 8263,
 		"filter": "",
-		"id": 8263
-	},
-	{
-		"title": "Anteil Personen mit depressiven Symptomen",
+		"parentId": null,
+		"children": [
+			8534
+		],
+		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"kuerzel": "I.14.4.08264",
-		"kuerzelKunde": "1-34",
-		"description": "Anteil Personen mit depressiven Symptomen",
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
+		"thema": "14 Gesundheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-33",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
-		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
-		"template": "template001",
+		"orderKey": "01_04_00_00_00_133",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_04_00_00_00_134",
-		"parentId": null,
-		"children": [
-			"8535"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-02-07T09:12:57",
+		"id": 8263
+	},
+	{
+		"template": "template001",
 		"data-id": 8264,
 		"chart-id": 8264,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8535
+		],
+		"title": "Anteil Personen mit depressiven Symptomen",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
+		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Anteil Personen mit depressiven Symptomen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.08264",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-34",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.3 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_134",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-02-07T09:12:58",
 		"id": 8264
 	},
 	{
