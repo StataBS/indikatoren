@@ -272,13 +272,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 7.2.2023"
   },
   "tooltip": {
     "shared": true
   },
   "exporting": {
     "allowHTML": true,
-    "filename": 8263
+    "filename": "8263"
   }
 }
