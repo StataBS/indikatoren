@@ -67,8 +67,8 @@ xAxis: {
 yAxis: [
     {
       tickAmount: 6,
-      max: 2000,
-      tickInterval: 400,
+      max: 2500,
+      //*tickInterval: 350,
       gridLineColor: '#B6CFD7', 
       gridLineWidth: 0.35,
       lineColor: '#B6CFD7', 
