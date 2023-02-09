@@ -23,7 +23,7 @@
       },
       "yAxis": {
         "min": 0,
-        "max": 120000,
+        "max": 150000,
             reversedStacks: false, 
           tickAmount: 5
       },

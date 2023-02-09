@@ -4,19 +4,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          40934
+          56038
         ],
         [
           "3-Sterne",
-          157779
+          179726
         ],
         [
           "4- und 5-Sterne",
-          157083
+          226243
         ],
         [
           "Nicht klassiert",
-          46018
+          74623
         ]
       ],
       "showInLegend": false,
@@ -41,19 +41,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          48193
+          98147
         ],
         [
           "3-Sterne",
-          149170
+          248653
         ],
         [
           "4- und 5-Sterne",
-          158365
+          350971
         ],
         [
           "Nicht klassiert",
-          27065
+          66706
         ]
       ],
       "showInLegend": true,
@@ -151,12 +151,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -172,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
   },
   "legend": {
     "layout": "horizontal",

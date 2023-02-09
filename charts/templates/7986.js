@@ -73,8 +73,8 @@
   yAxis: [
       {
         tickAmount: 6,
-        max: 450000,
-        tickInterval: 90000,
+        max: 550000,
+        tickInterval: 110000,
         gridLineColor: '#B6CFD7', 
         gridLineWidth: 0.35,
         lineColor: '#B6CFD7', 

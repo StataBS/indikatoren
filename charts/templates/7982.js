@@ -10,7 +10,7 @@
     yAxis: 
       {
         //min: 25,
-        max: 160,
+        max: 180,
         tickAmount: 9,
         labels: {
           style: {

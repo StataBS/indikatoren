@@ -805,7 +805,7 @@ var indikatorensetData = [
 		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
 		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
+			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -817,7 +817,7 @@ var indikatorensetData = [
 		"unterthema": "Strassenverkehrsunfälle",
 		"kuerzel": "I.11.7.5186",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW10",
+		"kuerzelKunde": "GW8",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -827,7 +827,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-28T08:10:12",
+		"aktualisierungsdatum": "2023-02-09T10:52:41",
 		"id": 5186
 	},
 	{
