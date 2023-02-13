@@ -164,6 +164,71 @@
       ],
       "name": "2022",
       "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "radius": 3
+      },
+      "tooltip": {
+        "shared": false,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Jan",
+          104.6
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "2023",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -292,7 +357,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
