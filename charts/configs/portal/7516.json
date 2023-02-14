@@ -158,11 +158,11 @@
         ],
         [
           "Nov",
-          43806
+          43812
         ],
         [
           "Dez",
-          undefined
+          44797
         ]
       ],
       "name": "Inland 2022",
@@ -218,7 +218,7 @@
         ],
         [
           "Dez",
-          undefined
+          82200
         ]
       ],
       "name": "Ausland 2022",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
