@@ -71517,7 +71517,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:58",
+		"aktualisierungsdatum": "2023-02-16T08:29:34",
 		"id": 9022
 	},
 	{
@@ -71528,7 +71528,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"subtitle": "vs",
+		"subtitle": "Personen unter 65 Jahre, Basel-Stadt, nach Kalenderwoche",
 		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 24 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"quellenangabe": [
@@ -71555,7 +71555,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:58",
+		"aktualisierungsdatum": "2023-02-16T08:29:35",
 		"id": 9023
 	},
 	{
@@ -83196,7 +83196,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:52",
+		"aktualisierungsdatum": "2023-02-16T08:29:35",
 		"id": 9684
 	},
 	{
