@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2011,
-          337922
-        ],
-        [
           2012,
           306095
         ],
@@ -48,6 +44,10 @@
         [
           2021,
           207691.334
+        ],
+        [
+          2022,
+          262040.356
         ]
       ],
       "name": "Landwirtschaftl. Erzeugnisse"
@@ -57,10 +57,6 @@
       "index": 8,
       "legendIndex": 1,
       "data": [
-        [
-          2011,
-          415357
-        ],
         [
           2012,
           454242
@@ -100,6 +96,10 @@
         [
           2021,
           385382.345
+        ],
+        [
+          2022,
+          344157.781
         ]
       ],
       "name": "Nahrungs- und Futtermittel"
@@ -109,10 +109,6 @@
       "index": 7,
       "legendIndex": 2,
       "data": [
-        [
-          2011,
-          83534
-        ],
         [
           2012,
           104066
@@ -152,6 +148,10 @@
         [
           2021,
           18600.613
+        ],
+        [
+          2022,
+          16321.09
         ]
       ],
       "name": "Feste mineralische Brennstoffe"
@@ -161,10 +161,6 @@
       "index": 6,
       "legendIndex": 3,
       "data": [
-        [
-          2011,
-          2215518
-        ],
         [
           2012,
           3436420
@@ -204,6 +200,10 @@
         [
           2021,
           2332819.372
+        ],
+        [
+          2022,
+          1660115.214
         ]
       ],
       "name": "Erdöl, Mineralölerzeugnisse"
@@ -213,10 +213,6 @@
       "index": 5,
       "legendIndex": 4,
       "data": [
-        [
-          2011,
-          31689
-        ],
         [
           2012,
           20629
@@ -256,19 +252,19 @@
         [
           2021,
           69829.413
+        ],
+        [
+          2022,
+          57735.58
         ]
       ],
-      "name": "Erzeugnisse Metallbau"
+      "name": "Erze und Metallabfälle"
     },
     {
       "color": "#9E7C59",
       "index": 4,
       "legendIndex": 5,
       "data": [
-        [
-          2011,
-          438210
-        ],
         [
           2012,
           405859
@@ -308,6 +304,10 @@
         [
           2021,
           246818.459
+        ],
+        [
+          2022,
+          258664.396
         ]
       ],
       "name": "Eisen, Stahl, Nichteisen-Metalle"
@@ -317,10 +317,6 @@
       "index": 3,
       "legendIndex": 6,
       "data": [
-        [
-          2011,
-          530701
-        ],
         [
           2012,
           863320
@@ -360,6 +356,10 @@
         [
           2021,
           697152.177
+        ],
+        [
+          2022,
+          592730.756
         ]
       ],
       "name": "Steine, Erden, Baustoffe"
@@ -369,10 +369,6 @@
       "index": 2,
       "legendIndex": 7,
       "data": [
-        [
-          2011,
-          124136
-        ],
         [
           2012,
           143338
@@ -412,6 +408,10 @@
         [
           2021,
           124208.45
+        ],
+        [
+          2022,
+          83620.184
         ]
       ],
       "name": "Düngemittel"
@@ -421,10 +421,6 @@
       "index": 1,
       "legendIndex": 8,
       "data": [
-        [
-          2011,
-          373550
-        ],
         [
           2012,
           262012
@@ -464,6 +460,10 @@
         [
           2021,
           135019.212
+        ],
+        [
+          2022,
+          153727.402
         ]
       ],
       "name": "Chemische Erzeugnisse"
@@ -473,10 +473,6 @@
       "index": 0,
       "legendIndex": 9,
       "data": [
-        [
-          2011,
-          163135
-        ],
         [
           2012,
           203814
@@ -516,6 +512,10 @@
         [
           2021,
           267109.698
+        ],
+        [
+          2022,
+          296452.655
         ]
       ],
       "name": "Fahrzeuge, Maschinen, Übrige"
@@ -658,7 +658,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "tooltip": {
     "shared": false,

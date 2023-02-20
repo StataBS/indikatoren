@@ -6,20 +6,20 @@
       "legendIndex": 0,
       "data": [
         [
-          "2012: Vorläufig Aufgenommene",
-          101
+          "2013: Vorläufig Aufgenommene",
+          109
         ],
         [
-          "2021: Vorläufig Aufgenommene",
-          268
+          "2022: Vorläufig Aufgenommene",
+          280
         ],
         [
-          "2012: Asylsuchende",
-          130
+          "2013: Asylsuchende",
+          123
         ],
         [
-          "2021: Asylsuchende",
-          43
+          "2022: Asylsuchende",
+          56
         ]
       ],
       "name": "0-17 J.",
@@ -31,20 +31,20 @@
       "legendIndex": 1,
       "data": [
         [
-          "2012: Vorläufig Aufgenommene",
-          68
+          "2013: Vorläufig Aufgenommene",
+          77
         ],
         [
-          "2021: Vorläufig Aufgenommene",
-          155
+          "2022: Vorläufig Aufgenommene",
+          135
         ],
         [
-          "2012: Asylsuchende",
-          146
+          "2013: Asylsuchende",
+          140
         ],
         [
-          "2021: Asylsuchende",
-          33
+          "2022: Asylsuchende",
+          35
         ]
       ],
       "name": "18-25 J.",
@@ -56,20 +56,20 @@
       "legendIndex": 2,
       "data": [
         [
-          "2012: Vorläufig Aufgenommene",
-          193
+          "2013: Vorläufig Aufgenommene",
+          201
         ],
         [
-          "2021: Vorläufig Aufgenommene",
-          368
+          "2022: Vorläufig Aufgenommene",
+          383
         ],
         [
-          "2012: Asylsuchende",
-          236
+          "2013: Asylsuchende",
+          263
         ],
         [
-          "2021: Asylsuchende",
-          112
+          "2022: Asylsuchende",
+          123
         ]
       ],
       "name": "26-64 J.",
@@ -81,20 +81,20 @@
       "legendIndex": 3,
       "data": [
         [
-          "2012: Vorläufig Aufgenommene",
-          2
+          "2013: Vorläufig Aufgenommene",
+          4
         ],
         [
-          "2021: Vorläufig Aufgenommene",
-          30
+          "2022: Vorläufig Aufgenommene",
+          27
         ],
         [
-          "2012: Asylsuchende",
-          5
+          "2013: Asylsuchende",
+          8
         ],
         [
-          "2021: Asylsuchende",
-          1
+          "2022: Asylsuchende",
+          3
         ]
       ],
       "name": "65 J. u.m.",
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

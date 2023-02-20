@@ -7295,9 +7295,9 @@
 			5113
 		],
 		"title": "Gymnasialquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2021/22 mit 61,4% (2020/21 69,0%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2020/21 ebenfalls unverändert - das Wohnviertel Klybeck mit 14,2% (2020/21 20,0%). Im Vorjahresvergleich ist die Quote in Riehen sowie 9 städtischen Vierteln gesunken, in Bettingen sowie 10 Wohnvierteln der Stadt Basel dagegen gestiegen.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2022/23 mit 58,2% (2021/22 61,4%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2021/22 ebenfalls unverändert - das Wohnviertel Klybeck mit 11,5% (2021/22 14,2%). Im Vorjahresvergleich ist die Quote in Riehen sowie 12 städtischen Vierteln gesunken, in Bettingen sowie 6 Wohnvierteln der Stadt Basel dagegen gestiegen; stabil geblieben ist die Quote in der Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -7324,7 +7324,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:10",
+		"aktualisierungsdatum": "2023-02-20T08:32:10",
 		"id": 4826
 	},
 	{
@@ -7382,8 +7382,8 @@
 			6373
 		],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Am grössten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,3%) und Bachletten (42,0%) sowie in den Gemeinden Riehen (42,0%) und Bettingen (41,4%). Die kleinsten Anteile sesshafter Personen gibt es hingegen in den Wohnvierteln Vorstädte (28,4%), Altstadt Kleinbasel (28,0%) und Rosental (18,8%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "In den Wohnvierteln Bruderholz (43,1%) und Bachletten (41,2%) sowie den Gemeinden Riehen (41,1%) und Bettingen (40,5%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Altstadt Kleinbasel (28,0%), Vorstädte (27,4%) und Rosental (19,2%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -7411,7 +7411,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-17T07:58:00",
+		"aktualisierungsdatum": "2023-02-20T08:32:10",
 		"id": 4828
 	},
 	{
@@ -7426,8 +7426,8 @@
 			8547
 		],
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -7455,7 +7455,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-14T08:07:00",
+		"aktualisierungsdatum": "2023-02-20T08:32:11",
 		"id": 4829
 	},
 	{
@@ -13194,9 +13194,9 @@
 			6657
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (81,5%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (31,6%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (16,7%).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (79,8%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,0%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (14,6%).",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -13221,7 +13221,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:46",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6072
 	},
 	{
@@ -13235,7 +13235,7 @@
 		],
 		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2021 die Türken mit 81,5%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (80,1%) und Italien (72,2%). Im Vergleich zum Jahr 2002 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2022 die Türken mit 79,8%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (79,3%) und Italien (71,1%). Im Vergleich zum Jahr 2003 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13261,7 +13261,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:47",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6073
 	},
 	{
@@ -16659,8 +16659,8 @@
 			6387
 		],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16686,7 +16686,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-07T08:08:39",
+		"aktualisierungsdatum": "2023-02-20T08:32:09",
 		"id": 6375
 	},
 	{
@@ -16699,8 +16699,8 @@
 			6388
 		],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9,3%), Matthäus (13,9%) und Klybeck (15,0%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (23,7%) sowie die Gemeinden Riehen (25,5%) und Bettingen (23,8%) auf.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Den höchsten Anteil 65-Jähriger und Älterer an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten das Wohnviertel Rosental (9,4%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16726,7 +16726,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-14T08:07:00",
+		"aktualisierungsdatum": "2023-02-20T08:32:09",
 		"id": 6376
 	},
 	{
@@ -21666,9 +21666,9 @@
 			6750
 		],
 		"title": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (94,7%), bei den 25- bis 39-Jährigen am tiefsten (36,0%).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (91,8%), bei den 25- bis 39-Jährigen am tiefsten (33,8%).",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -21693,7 +21693,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:48",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6570
 	},
 	{
@@ -34022,7 +34022,7 @@
 		],
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2021 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von über 48% aus. 2012 waren rund 53% der Asylsuchenden bis 25 Jahre alt. 2021 liegt dieser Anteil noch bei 40%.",
+		"lesehilfe": "Über ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2022 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von fast 50% aus. 2013 waren rund 49% der Asylsuchenden bis 25 Jahre alt. 2022 liegt dieser Anteil noch bei 42%.",
 		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34048,7 +34048,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:38:58",
+		"aktualisierungsdatum": "2023-02-20T08:32:05",
 		"id": 8256
 	},
 	{
@@ -37147,9 +37147,9 @@
 			8487
 		],
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2020",
-		"lesehilfe": "Die Exporte aus dem Kanton Basel-Stadt haben mit 66,6 Mrd. Franken im Jahr 2020 einen um fast 70% höheren Wert als das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (der Wert entspricht 79,8% des BIP). Die Exporte aus dem Kanton Basel-Landschaft entsprechen mit knapp 6  Mrd. Franken 28,1% des BIP; diejenige aus dem Jura betragen 2  Mrd. Franken bzw. 41,1% des BIP. In der Gesamtschweiz werden 2020 Waren im Wert von 225,3 Mrd. exportiert (31,9% des BIP).",
-		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"subtitle": "Anteil am nominalen BIP, 2021",
+		"lesehilfe": "2021 betragen die Exporte aus Basel-Stadt 204,4% und die Importe 91,9% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 49,9% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -37175,7 +37175,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:07",
+		"aktualisierungsdatum": "2023-02-20T08:32:06",
 		"id": 8370
 	},
 	{
@@ -37189,8 +37189,8 @@
 		],
 		"title": "Entwicklung Exporte",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "In der Zeit zwischen 2016 und 2020 haben die nominalen Warenexporte aus Basel-Stadt um über 27% zugelegt. Dagegen gab es 2020 sowohl im Kanton Basel-Landschaft wie im Kanton Jura einen Exportrückgang gegenüber 2019. In Basel-Landschaft sanken die Exporte um über 14%, im Jura um 19% - sie liegen im Jura somit um 8,4% tiefer als 2016. Dank des Exportwachstums in Basel-Stadt ergibt sich im Zeitraum 2016-2020 für die gesamte Region BS/BL/JU ein Wachstum von über 23%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"lesehilfe": "Von 2016 bis 2021 haben die nominalen Warenexporte aus Basel-Stadt um über 46% zugenommen. Von 2020 bis 2021 betrug der Zuwachs knapp 15%. Auch im Kanton Basel-Landschaft sowie im Kanton Jura gab es nach dem Exportrückgang im 2020 im letzten Jahr wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte leicht um 0,7%, im Jura um 29%. Somit liegen die nominalen Warenexporte aller drei Kantone höher als 2016. Für die gesamte Region BS/BL/Ju ergibt sich im Zeitraum 2016-2021 ein Wachstum von fast 41%, für die gesamte Schweiz von über 23%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
 		],
@@ -37215,7 +37215,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:07",
+		"aktualisierungsdatum": "2023-02-20T08:32:07",
 		"id": 8371
 	},
 	{
@@ -38424,8 +38424,8 @@
 		],
 		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2020 um  über 19% gestiegen. Gegenüber 2019 ist er um fast 10% gesunken. Im Kanton Basel-Landschaft liegt der Wert 20% höher als 2016. Im Jura ist der Wert, nachdem er bis 2019 gestiegen war, um 24,4% gesunken und liegt nun über 10% tiefer als 2016. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 19% seit 2016, für die gesamte Schweiz von ca. 5%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2021 um über 30% gestiegen. Im Kanton Basel-Landschaft liegt der Wert über 24% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 wieder gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 29% seit 2016, für die gesamte Schweiz von ca. 16%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
 		],
@@ -38450,7 +38450,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:08",
+		"aktualisierungsdatum": "2023-02-20T08:32:07",
 		"id": 8462
 	},
 	{
@@ -42285,7 +42285,7 @@
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt leben im Jahr 2021 14 290 Menschen. Dies sind 10,6% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 6,6% auf 201 805.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2022 14 645 Menschen. Dies sind 13,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 8,1% auf 204 550.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42312,7 +42312,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:58",
+		"aktualisierungsdatum": "2023-02-20T08:32:06",
 		"id": 9581
 	},
 	{
@@ -42324,7 +42324,7 @@
 		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2021 bei 29,4%. Im Kanton Basel-Stadt liegt die Sesshaftigkeit Ende 2021 bei 34,4%.",
+		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 28,6%. Im Kanton Basel-Stadt liegt die Sesshaftigkeit Ende 2022 bei 33,7%.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung eines Gebietes in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42351,7 +42351,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:59",
+		"aktualisierungsdatum": "2023-02-20T08:32:06",
 		"id": 9582
 	},
 	{
@@ -42826,7 +42826,7 @@
 		"children": [],
 		"title": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an die Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,5%. Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
+		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an die Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,5%; 2022 bei 6,7%.",
 		"erlaeuterungen": "Die Schweiz gehört zu den Ländern mit den höchsten Anteilen des Aussenhandels am Bruttoinlandprodukt. Ein Teil des Güteraussenhandels wird per Schiff über die Schweizer Grenze transportiert. Der Indikator zeigt die Bedeutung des Schiffverkehrs für den gesamten Aussenhandel der Schweiz.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen",
@@ -42853,7 +42853,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:36",
+		"aktualisierungsdatum": "2023-02-20T08:32:02",
 		"id": 9602
 	},
 	{
@@ -42865,8 +42865,8 @@
 		"children": [],
 		"title": "Güterumschlag auf dem Rhein",
 		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
-		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Der zweitgrösste Rückgang des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2021 trat eine leichte Erholung ein: Verglichen mit dem Vorjahr wurde ein Plus von 5,5% auf 5,4&nbspMio. Tonnen registriert.",
-		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2012-2021 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2021 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
+		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Die zweitgrösste Abnahme des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2022 folgte der nächste Rückgang: Verglichen mit dem Vorjahr wurde ein Minus von 14,9% auf 4,6&nbspMio. Tonnen registriert. Die Ursache dafür dürfte in erster Linie im massiven Preisanstieg für Mineralölprodukte liegen. Der Rohölpreis reagiert sehr sensibel auf geopolitische Krisensituationen. Ein zweiter preisbestimmender Faktor sind die Frachtkosten, die stark vom Pegelstand des Rheins abhängen: Durch die anhaltende Trockenheit und das daraus resultierende Niedrigwasser konnten die Schiffe im Sommer nur zu rund einem Viertel bis einem Drittel beladen werden, was zu höheren Preisen für die transportierten Güter führte.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2013-2022 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2022 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42891,7 +42891,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2023-02-20T08:32:03",
 		"id": 9603
 	},
 	{
@@ -42903,7 +42903,7 @@
 		"children": [],
 		"title": "Güterumschlag seit 1911",
 		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
-		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagsvolumen 9,3 Mio. Tonnen. Seither hat die Gütermenge abgenommen. Hauptursache ist die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene. 2021 betrug der Umschlag der Schweizerischen Rheinhäfen 5,4 Mio. Tonnen; ein Plus von 5,5% bzw. 280 000 Tonnen gegenüber dem Vorjahr. Der aktuelle Wert liegt 9,3% unter dem Mittelwert der letzten zehn Jahre.",
+		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagsvolumen 9,3&nbspMio. Tonnen. Seither hat die Gütermenge abgenommen. Hauptursache ist die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene. 2022 wurden in den Schweizerischen Rheinhäfen 4,6&nbspMio. Tonnen umgeschlagen; ein Minus von 14,9% bzw. 806&nbsp745 Tonnen gegenüber dem Vorjahr. Der Ukraine-Krieg mit seinen globalen Marktverwerfungen im Energiebereich und der ungünstige Umstand der ausgeprägten Niedrigwasserperiode im Sommer brachten die Rheinschifffahrt an ihre Grenzen – so niedrig lag der Wert zuletzt vor knapp 70 Jahren.",
 		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 stillgelegt wurde, aber gelegentlich weiterhin für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 war die Schifffahrt auf dem Rhein eingestellt.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -42929,7 +42929,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:36",
+		"aktualisierungsdatum": "2023-02-20T08:32:03",
 		"id": 9604
 	},
 	{
@@ -42940,9 +42940,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
-		"subtitle": "Schweizerische Rheinhäfen, 2021 und Mittelwert 2011-2020",
-		"lesehilfe": "Die Abfuhr macht mengenmässig rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Deren Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
-		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2011 bis 2021. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
+		"subtitle": "Schweizerische Rheinhäfen, 2022 und Mittelwert 2012-2021",
+		"lesehilfe": "Die Menge der Abfuhr macht rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Deren Anteil 2022 weist gegenüber dem Mittel der letzten zehn Jahre eine Abnahme um 2,1 Prozentpunkte auf.",
+		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2012 bis 2022. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie, Ukraine-Krieg etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42967,7 +42967,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:37",
+		"aktualisierungsdatum": "2023-02-20T08:32:03",
 		"id": 9605
 	},
 	{
@@ -42979,7 +42979,7 @@
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Zufuhr, Schweizerische Rheinhäfen",
-		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte gliedern: Zum einen gibt es den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen der per Schiff importierten Güter auf die Sparte Erdöl und Mineralölerzeugnisse. Das zweitwichtigste Importgüter-Segment sind Steine, Erden und Baustoffe. Dessen Anteil lag 2021 bei 15,5%.",
+		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte gliedern: Zum einen gibt es den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2022 entfiel knapp die Hälfte (44,6%) der rund 3,7&nbspMio. Tonnen per Schiff importierten Güter auf die Sparte Erdöl und Mineralölerzeugnisse (Vorjahr: 52,0%). Das zweitwichtigste Importgüter-Segment sind Steine, Erden und Baustoffe. Dessen Anteil lag 2022 bei 15,9%.",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -43005,7 +43005,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:38",
+		"aktualisierungsdatum": "2023-02-20T08:32:04",
 		"id": 9606
 	},
 	{
@@ -43017,7 +43017,7 @@
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Abfuhr, Schweizerische Rheinhäfen",
-		"lesehilfe": "Mit einem Anteil von 32,9% im vergangenen Jahr am grössten war der Exportanteil der Sparte Steine, Erden, Baustoffe. Hier wurde gegenüber dem Vorjahr ein Wachstum von 16,8% verzeichnet; verglichen mit dem Mittel der letzten zehn Jahre betrug die Zunahme gar 53,2%. Das zweitwichtigste Exportgüter-Segment waren auch letztes Jahr Fahrzeuge, Maschinen, Übrige Güter (Anteil 2021: 28,1%).",
+		"lesehilfe": "Mit 32,0% am höchsten war im vergangenen Jahr der Exportanteil der Sparte Fahrzeuge, Maschinen, Übrige Güter. Im Mittel der letzten zehn Jahre lag ihr Anteil bei 25,9%. Das zweitwichtigste Exportgüter-Segment waren Steine, Erden, Baustoffe (Anteil 2022: 27,7%).",
 		"erlaeuterungen": "Über den Rhein wird ein vielfältiger Mix von Waren exportiert. Der Indikator veranschaulicht den Exportanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -43043,7 +43043,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:39",
+		"aktualisierungsdatum": "2023-02-20T08:32:04",
 		"id": 9607
 	},
 	{
@@ -43055,7 +43055,7 @@
 		"children": [],
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU, Schweizerische Rheinhäfen",
-		"lesehilfe": "Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU. Dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%. Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet.",
+		"lesehilfe": "Das Transportvolumen des Containerschiffverkehrs belief sich 2022 auf rund 125 000 TEU. Dies bedeutet gegenüber dem Vorjahr ein marginales Minus von 0,5%. Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2022 wurden Wachstumsraten um 3,1% p.a. verzeichnet.",
 		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU (Twenty-foot Equivalent Unit/Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen sowie zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -43081,7 +43081,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-04T08:35:40",
+		"aktualisierungsdatum": "2023-02-20T08:32:05",
 		"id": 9608
 	},
 	{

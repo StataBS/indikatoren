@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          10.04
+          10.47
         ],
         [
           2,
-          11.04
+          12.41
         ],
         [
           3,
-          14.42
+          14.73
         ],
         [
           4,
-          14.34
+          14.05
         ],
         [
           5,
-          18.14
+          18.56
         ],
         [
           6,
-          14.15
+          14.36
         ],
         [
           7,
-          22.25
+          22.43
         ],
         [
           8,
-          18.75
+          19.02
         ],
         [
           9,
-          16.19
+          16.75
         ],
         [
           10,
-          17.18
+          17.15
         ],
         [
           11,
-          17.25
+          17.43
         ],
         [
           12,
-          9.83
+          9.28
         ],
         [
           13,
-          12.73
+          12.63
         ],
         [
           14,
-          14.33
+          14.84
         ],
         [
           15,
-          21.09
+          21.23
         ],
         [
           16,
-          19.52
+          19.89
         ],
         [
           17,
-          14.85
+          14.55
         ],
         [
           18,
-          18.14
+          17.92
         ],
         [
           19,
-          19.53
+          18.83
         ],
         [
           20,
-          21.26
+          21.54
         ],
         [
           30,
-          21.62
+          21.02
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          268
+          287
         ],
         [
           "Vorstädte",
-          543
+          625
         ],
         [
           "Am Ring",
-          1625
+          1682
         ],
         [
           "Breite",
-          1271
+          1270
         ],
         [
           "St. Alban",
-          2169
+          2290
         ],
         [
           "Gundeldingen",
-          2681
+          2726
         ],
         [
           "Bruderholz",
-          2100
+          2125
         ],
         [
           "Bachletten",
-          2567
+          2632
         ],
         [
           "Gotthelf",
-          1100
+          1179
         ],
         [
           "Iselin",
-          2892
+          2910
         ],
         [
           "St. Johann",
-          3254
+          3367
         ],
         [
           "Altstadt Kleinbasel",
-          232
+          225
         ],
         [
           "Clara",
-          553
+          561
         ],
         [
           "Wettstein",
-          825
+          859
         ],
         [
           "Hirzbrunnen",
-          1971
+          1961
         ],
         [
           "Rosental",
-          1484
+          1532
         ],
         [
           "Matthäus",
-          2277
+          2238
         ],
         [
           "Klybeck",
-          1261
+          1256
         ],
         [
           "Kleinhüningen",
-          537
+          526
         ],
         [
           "Riehen",
-          4650
+          4793
         ],
         [
           "Bettingen",
-          269
+          277
         ]
       ],
       "name": "Anzahl Personen unter 20 Jahren"
@@ -7296,7 +7296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "credits": {
@@ -7312,7 +7312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "colorAxis": {
     "min": 0,
@@ -7333,32 +7333,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 13,
+        "to": 13.999,
         "color": "#ECE1D0",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E13,00\u003C\u002Fspan\u003E \u003C 13,00"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E14,00\u003C\u002Fspan\u003E \u003C 14,00"
       },
       {
-        "from": 13,
-        "to": 14.99,
+        "from": 14,
+        "to": 14.799,
         "color": "#C4AB91",
-        "name": "13,00 − 14,99"
+        "name": "14,00 − 14,79"
       },
       {
-        "from": 15,
-        "to": 16.99,
+        "from": 14.8,
+        "to": 17.899,
         "color": "#9E7C59",
-        "name": "15,00 − 16,99"
+        "name": "14,80 − 17,89"
       },
       {
-        "from": 17,
-        "to": 19.49,
+        "from": 17.9,
+        "to": 19.899,
         "color": "#67401E",
-        "name": "17,00 − 19,49"
+        "name": "17,90 − 19,89"
       },
       {
-        "from": 19.5,
+        "from": 19.9,
         "color": "#3A2012",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,00\u003C\u002Fspan\u003E ≥ 19,50"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,00\u003C\u002Fspan\u003E ≥ 19,90"
       }
     ]
   },

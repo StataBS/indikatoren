@@ -643,7 +643,7 @@ var indikatorensetData = [
 		],
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2021 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von über 48% aus. 2012 waren rund 53% der Asylsuchenden bis 25 Jahre alt. 2021 liegt dieser Anteil noch bei 40%.",
+		"lesehilfe": "Über ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2022 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von fast 50% aus. 2013 waren rund 49% der Asylsuchenden bis 25 Jahre alt. 2022 liegt dieser Anteil noch bei 42%.",
 		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -668,7 +668,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:38:58",
+		"aktualisierungsdatum": "2023-02-20T08:32:05",
 		"id": 8256
 	},
 	{

@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          20.43
+          20.33
         ],
         [
           2,
-          23.4
+          22.59
         ],
         [
           3,
-          20.26
+          20
         ],
         [
           4,
-          21.03
+          20.67
         ],
         [
           5,
-          23.66
+          23.1
         ],
         [
           6,
-          15.96
+          16.07
         ],
         [
           7,
-          22.99
+          22.51
         ],
         [
           8,
-          21.82
+          21.67
         ],
         [
           9,
-          21.77
+          21.81
         ],
         [
           10,
-          16.36
+          16.38
         ],
         [
           11,
-          15.62
+          15.52
         ],
         [
           12,
-          19.91
+          20.12
         ],
         [
           13,
-          20.42
+          20.17
         ],
         [
           14,
-          18.76
+          18.67
         ],
         [
           15,
-          23.38
+          23.17
         ],
         [
           16,
-          9.27
+          9.36
         ],
         [
           17,
-          13.94
+          14.11
         ],
         [
           18,
-          15
+          14.72
         ],
         [
           19,
-          19.46
+          18.98
         ],
         [
           20,
-          25.45
+          25.27
         ],
         [
           30,
-          23.79
+          23.67
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          545
+          557
         ],
         [
           "Vorstädte",
-          1151
+          1138
         ],
         [
           "Am Ring",
-          2282
+          2284
         ],
         [
           "Breite",
-          1864
+          1869
         ],
         [
           "St. Alban",
-          2830
+          2851
         ],
         [
           "Gundeldingen",
-          3023
+          3051
         ],
         [
           "Bruderholz",
-          2170
+          2133
         ],
         [
           "Bachletten",
-          2988
+          2998
         ],
         [
           "Gotthelf",
-          1479
+          1535
         ],
         [
           "Iselin",
-          2754
+          2779
         ],
         [
           "St. Johann",
-          2946
+          2998
         ],
         [
           "Altstadt Kleinbasel",
-          470
+          488
         ],
         [
           "Clara",
-          887
+          896
         ],
         [
           "Wettstein",
-          1080
+          1081
         ],
         [
           "Hirzbrunnen",
-          2185
+          2140
         ],
         [
           "Rosental",
-          705
+          721
         ],
         [
           "Matthäus",
-          2138
+          2171
         ],
         [
           "Klybeck",
-          1043
+          1032
         ],
         [
           "Kleinhüningen",
-          535
+          530
         ],
         [
           "Riehen",
-          5566
+          5623
         ],
         [
           "Bettingen",
-          296
+          312
         ]
       ],
       "name": "Anzahl Personen über 64 Jahre"
@@ -7309,7 +7309,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "credits": {
@@ -7325,7 +7325,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "colorAxis": {
     "min": 0,

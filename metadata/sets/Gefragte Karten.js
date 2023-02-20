@@ -90,8 +90,8 @@ var indikatorensetData = [
 			6387
 		],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-07T08:08:39",
+		"aktualisierungsdatum": "2023-02-20T08:32:09",
 		"id": 6375
 	},
 	{
@@ -129,8 +129,8 @@ var indikatorensetData = [
 			6388
 		],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9,3%), Matthäus (13,9%) und Klybeck (15,0%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (23,7%) sowie die Gemeinden Riehen (25,5%) und Bettingen (23,8%) auf.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Den höchsten Anteil 65-Jähriger und Älterer an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten das Wohnviertel Rosental (9,4%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-14T08:07:00",
+		"aktualisierungsdatum": "2023-02-20T08:32:09",
 		"id": 6376
 	},
 	{
@@ -567,8 +567,8 @@ var indikatorensetData = [
 		"parentId": "6375",
 		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"aktualisierungsdatum": "2023-02-20T08:32:11",
 		"id": 6387
 	},
 	{
@@ -604,8 +604,8 @@ var indikatorensetData = [
 		"parentId": "6376",
 		"children": [],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9,3%), Matthäus (13,9%) und Klybeck (15,0%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (23,7%) sowie die Gemeinden Riehen (25,5%) und Bettingen (23,8%) auf.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Den höchsten Anteil 65-Jähriger und Älterer an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten das Wohnviertel Rosental (9,4%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -630,7 +630,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-14T08:14:42",
+		"aktualisierungsdatum": "2023-02-20T08:32:11",
 		"id": 6388
 	},
 	{

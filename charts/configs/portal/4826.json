@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.1417
-        ],
-        [
-          "Kleinhüningen",
-          0.2203
-        ],
-        [
-          "Gundeldingen",
-          0.2432
+          0.1148
         ],
         [
           "Clara",
-          0.25
+          0.1556
         ],
         [
-          "Breite",
-          0.2524
+          "Kleinhüningen",
+          0.1923
         ],
         [
           "Iselin",
-          0.2614
+          0.2191
         ],
         [
-          "Matthäus",
-          0.2714
+          "Gundeldingen",
+          0.2639
         ],
         [
           "Altstadt Kleinbasel",
           0.2778
         ],
         [
-          "Rosental",
-          0.2951
+          "Matthäus",
+          0.2816
         ],
         [
-          "St. Johann",
-          0.3169
+          "Rosental",
+          0.2901
         ],
         [
           "Hirzbrunnen",
-          0.3631
+          0.3237
         ],
         [
-          "Bettingen",
-          0.3889
+          "Breite",
+          0.3238
         ],
         [
-          "Vorstädte",
-          0.4167
-        ],
-        [
-          "St. Alban",
-          0.4351
-        ],
-        [
-          "Am Ring",
-          0.4727
-        ],
-        [
-          "Riehen",
-          0.4802
+          "St. Johann",
+          0.3376
         ],
         [
           "Gotthelf",
-          0.4865
+          0.4324
+        ],
+        [
+          "Riehen",
+          0.4646
+        ],
+        [
+          "Vorstädte",
+          0.4667
+        ],
+        [
+          "Bettingen",
+          0.4667
         ],
         [
           "Altstadt Grossbasel",
-          0.5294
+          0.4737
+        ],
+        [
+          "St. Alban",
+          0.4785
         ],
         [
           "Wettstein",
-          0.549
+          0.4921
         ],
         [
           "Bachletten",
-          0.589
+          0.5277
+        ],
+        [
+          "Am Ring",
+          0.541
         ],
         [
           "Bruderholz",
-          0.6139
+          0.5818
         ]
       ],
       "name": "Gymnasialquote",
@@ -99,72 +99,68 @@
           1
         ],
         [
-          "Kleinhüningen",
-          2
-        ],
-        [
-          "Gundeldingen",
-          3
-        ],
-        [
           "Clara",
           4
         ],
         [
-          "Breite",
-          5
+          "Kleinhüningen",
+          2
         ],
         [
           "Iselin",
           6
         ],
         [
-          "Matthäus",
-          7
+          "Gundeldingen",
+          3
         ],
         [
           "Altstadt Kleinbasel",
           8
         ],
         [
-          "Rosental",
-          9
+          "Matthäus",
+          7
         ],
         [
-          "St. Johann",
-          10
+          "Rosental",
+          9
         ],
         [
           "Hirzbrunnen",
           11
         ],
         [
-          "Bettingen",
-          12
+          "Breite",
+          5
         ],
         [
-          "Vorstädte",
-          13
-        ],
-        [
-          "St. Alban",
-          14
-        ],
-        [
-          "Am Ring",
-          15
-        ],
-        [
-          "Riehen",
-          16
+          "St. Johann",
+          10
         ],
         [
           "Gotthelf",
           17
         ],
         [
+          "Riehen",
+          16
+        ],
+        [
+          "Vorstädte",
+          13
+        ],
+        [
+          "Bettingen",
+          12
+        ],
+        [
           "Altstadt Grossbasel",
           18
+        ],
+        [
+          "St. Alban",
+          14
         ],
         [
           "Wettstein",
@@ -173,6 +169,10 @@
         [
           "Bachletten",
           20
+        ],
+        [
+          "Am Ring",
+          15
         ],
         [
           "Bruderholz",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "legend": {
     "enabled": false,
