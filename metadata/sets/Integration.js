@@ -601,9 +601,9 @@ var indikatorensetData = [
 			6657
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (81,5%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (31,6%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (16,7%).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (79,8%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,0%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (14,6%).",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:46",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6072
 	},
 	{
@@ -641,7 +641,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2021 die Türken mit 81,5%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (80,1%) und Italien (72,2%). Im Vergleich zum Jahr 2002 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2022 die Türken mit 79,8%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (79,3%) und Italien (71,1%). Im Vergleich zum Jahr 2003 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -666,7 +666,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:47",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6073
 	},
 	{
@@ -4264,9 +4264,9 @@ var indikatorensetData = [
 			6750
 		],
 		"title": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (94,7%), bei den 25- bis 39-Jährigen am tiefsten (36,0%).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (91,8%), bei den 25- bis 39-Jährigen am tiefsten (33,8%).",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -4290,7 +4290,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:48",
+		"aktualisierungsdatum": "2023-02-20T08:32:08",
 		"id": 6570
 	}
 ];

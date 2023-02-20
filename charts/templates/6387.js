@@ -27,28 +27,28 @@
             dataClassColor: 'category',
                dataClasses: [{
                 from: 0,
-                to:13.00,
+                to:13.999,
                 color: '#ECE1D0',
-                name:  "<span style='color: rgba(0,0,0,0)'>13,00</span> < 13,00"
+                name:  "<span style='color: rgba(0,0,0,0)'>14,00</span> < 14,00"
             }, {
-                from: 13.0,
-                to: 14.99,
+                from: 14.0,
+                to: 14.799,
                 color: '#C4AB91',
-                name: "13,00 − 14,99"
+                name: "14,00 − 14,79"
             }, {
-                from: 15.0,
-                to: 16.99,
+                from: 14.80,
+                to: 17.899,
                  color: '#9E7C59',
-                 name: "15,00 − 16,99"
+                 name: "14,80 − 17,89"
             },{
-                from: 17.0,
-                to: 19.49,
+                from: 17.9,
+                to: 19.899,
                  color: '#67401E',
-                 name: "17,00 − 19,49"
+                 name: "17,90 − 19,89"
             },{
-                from: 19.5,
+                from: 19.9,
                 color: '#3A2012',
-                name:  "<span style='color: rgba(0,0,0,0)'>20,00</span> ≥ 19,50"
+                name:  "<span style='color: rgba(0,0,0,0)'>20,00</span> ≥ 19,90"
             }], 
         },
         "data": {

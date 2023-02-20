@@ -276,9 +276,13 @@
         [
           "2021",
           68084.35155
+        ],
+        [
+          "2022",
+          68709.235896
         ]
       ],
-      "name": "Total Importe und Exporte Schweiz  (in Tausend Tonnen)",
+      "name": "Gesamtimporte und -exporte Schweiz  (in Tausend Tonnen)",
       "turboThreshold": 0
     },
     {
@@ -557,6 +561,10 @@
         [
           "2021",
           5407.266248
+        ],
+        [
+          "2022",
+          4600.521112
         ]
       ],
       "name": "Importe und Exporte über den Rhein  (in Tausend Tonnen)",
@@ -842,6 +850,10 @@
         [
           "2021",
           7.942010352
+        ],
+        [
+          "2022",
+          6.69563713234049
         ]
       ],
       "name": "Anteil der Import und Exporte über den Rhein (rechte Skala)",
@@ -1009,7 +1021,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Schweizerische Rheinhäfen;\u003Cbr\u002F\u003EBundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+    "text": "Quelle: Schweizerische Rheinhäfen;\u003Cbr\u002F\u003EBundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
   },
   "tooltip": {},
   "exporting": {
