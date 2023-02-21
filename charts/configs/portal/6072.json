@@ -6,20 +6,24 @@
       "legendIndex": 0,
       "data": [
         [
+          "Schweiz",
+          0
+        ],
+        [
           "Deutschland",
-          61.4
+          60.2
         ],
         [
           "Italien",
-          71.1
+          71
         ],
         [
           "Türkei",
-          79.8
+          79.7
         ],
         [
           "EU-West + EFTA + UK",
-          57.9
+          57.7
         ],
         [
           "EU-Ost",
@@ -35,15 +39,15 @@
         ],
         [
           "Arabische Länder",
-          27
+          26.9
         ],
         [
           "Afrikanische Länder",
-          35.5
+          35.3
         ],
         [
           "Übrige Länder",
-          34.9
+          29.4
         ]
       ],
       "name": "C",
@@ -55,8 +59,12 @@
       "legendIndex": 1,
       "data": [
         [
+          "Schweiz",
+          0
+        ],
+        [
           "Deutschland",
-          35.7
+          35.1
         ],
         [
           "Italien",
@@ -68,7 +76,7 @@
         ],
         [
           "EU-West + EFTA + UK",
-          37.5
+          37.4
         ],
         [
           "EU-Ost",
@@ -80,19 +88,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          55.5
+          55.4
         ],
         [
           "Arabische Länder",
-          54
+          53.9
         ],
         [
           "Afrikanische Länder",
-          49.1
+          48.9
         ],
         [
           "Übrige Länder",
-          52.1
+          43.9
         ]
       ],
       "name": "B",
@@ -103,6 +111,10 @@
       "index": 7,
       "legendIndex": 2,
       "data": [
+        [
+          "Schweiz",
+          0
+        ],
         [
           "Deutschland",
           0
@@ -133,7 +145,7 @@
         ],
         [
           "Arabische Länder",
-          14.6
+          14.5
         ],
         [
           "Afrikanische Länder",
@@ -141,7 +153,7 @@
         ],
         [
           "Übrige Länder",
-          3.1
+          2.6
         ]
       ],
       "name": "F",
@@ -152,6 +164,10 @@
       "index": 6,
       "legendIndex": 3,
       "data": [
+        [
+          "Schweiz",
+          0
+        ],
         [
           "Deutschland",
           2.5
@@ -190,7 +206,7 @@
         ],
         [
           "Übrige Länder",
-          6.8
+          5.7
         ]
       ],
       "name": "L",
@@ -201,6 +217,10 @@
       "index": 5,
       "legendIndex": 4,
       "data": [
+        [
+          "Schweiz",
+          0
+        ],
         [
           "Deutschland",
           0
@@ -239,7 +259,7 @@
         ],
         [
           "Übrige Länder",
-          0.9
+          0.7
         ]
       ],
       "name": "N",
@@ -251,8 +271,12 @@
       "legendIndex": 5,
       "data": [
         [
+          "Schweiz",
+          0
+        ],
+        [
           "Deutschland",
-          0.4
+          2.2
         ],
         [
           "Italien",
@@ -260,11 +284,11 @@
         ],
         [
           "Türkei",
-          0.1
+          0.3
         ],
         [
           "EU-West + EFTA + UK",
-          1.3
+          1.7
         ],
         [
           "EU-Ost",
@@ -280,15 +304,15 @@
         ],
         [
           "Arabische Länder",
-          0.3
+          0.5
         ],
         [
           "Afrikanische Länder",
-          1.2
+          1.6
         ],
         [
           "Übrige Länder",
-          2.2
+          17.6
         ]
       ],
       "name": "Übrige",
@@ -433,7 +457,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
