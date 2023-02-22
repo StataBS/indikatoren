@@ -277,6 +277,10 @@
         [
           1640908800000,
           178689
+        ],
+        [
+          1672444800000,
+          180976
         ]
       ],
       "name": "Bevölkerung Stadt Basel"
@@ -404,7 +408,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2023"
   },
   "legend": {
     "symbolRadius": 0,
