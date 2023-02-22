@@ -17,7 +17,7 @@
   {"color": "#B375AB"},
   {"color": "#68AB2B"},
   {"color": "#8B2223"},
-  {"color": "#474747"}
+ /* {"color": "#474747"}*/
 	  ],
   "legend": {
     "enabled": true,

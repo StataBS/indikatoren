@@ -2835,7 +2835,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-19T10:37:42",
+		"aktualisierungsdatum": "2023-02-22T08:32:14",
 		"id": 4221
 	},
 	{
@@ -2876,7 +2876,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:41",
+		"aktualisierungsdatum": "2023-02-22T08:32:13",
 		"id": 4222
 	},
 	{
@@ -2917,7 +2917,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:43",
+		"aktualisierungsdatum": "2023-02-22T08:32:15",
 		"id": 4223
 	},
 	{
@@ -2958,7 +2958,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:43",
+		"aktualisierungsdatum": "2023-02-22T08:32:16",
 		"id": 4224
 	},
 	{
@@ -2999,7 +2999,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:44",
+		"aktualisierungsdatum": "2023-02-22T08:32:17",
 		"id": 4225
 	},
 	{
@@ -3041,7 +3041,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:44",
+		"aktualisierungsdatum": "2023-02-22T08:32:18",
 		"id": 4226
 	},
 	{
@@ -3082,7 +3082,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:45",
+		"aktualisierungsdatum": "2023-02-22T08:32:18",
 		"id": 4227
 	},
 	{
@@ -3120,7 +3120,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:46",
+		"aktualisierungsdatum": "2023-02-22T08:32:19",
 		"id": 4228
 	},
 	{
@@ -3161,7 +3161,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:46",
+		"aktualisierungsdatum": "2023-02-22T08:32:19",
 		"id": 4229
 	},
 	{
@@ -3202,7 +3202,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:42",
+		"aktualisierungsdatum": "2023-02-22T08:32:14",
 		"id": 4230
 	},
 	{
@@ -3243,7 +3243,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:20",
+		"aktualisierungsdatum": "2023-02-22T08:32:47",
 		"id": 4231
 	},
 	{
@@ -3285,7 +3285,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:19",
+		"aktualisierungsdatum": "2023-02-22T08:32:46",
 		"id": 4232
 	},
 	{
@@ -3325,7 +3325,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:21",
+		"aktualisierungsdatum": "2023-02-22T08:32:47",
 		"id": 4233
 	},
 	{
@@ -3365,7 +3365,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:21",
+		"aktualisierungsdatum": "2023-02-22T08:32:47",
 		"id": 4234
 	},
 	{
@@ -3406,7 +3406,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:22",
+		"aktualisierungsdatum": "2023-02-22T08:32:48",
 		"id": 4236
 	},
 	{
@@ -3447,7 +3447,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:24",
+		"aktualisierungsdatum": "2023-02-22T08:32:49",
 		"id": 4237
 	},
 	{
@@ -3485,7 +3485,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:25",
+		"aktualisierungsdatum": "2023-02-22T08:32:50",
 		"id": 4238
 	},
 	{
@@ -3527,7 +3527,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:24",
+		"aktualisierungsdatum": "2023-02-22T08:32:49",
 		"id": 4240
 	},
 	{
@@ -3569,7 +3569,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:35",
+		"aktualisierungsdatum": "2023-02-22T08:32:53",
 		"id": 4241
 	},
 	{
@@ -3611,7 +3611,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:27",
+		"aktualisierungsdatum": "2023-02-22T08:32:51",
 		"id": 4243
 	},
 	{
@@ -3651,7 +3651,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:25",
+		"aktualisierungsdatum": "2023-02-22T08:32:50",
 		"id": 4244
 	},
 	{
@@ -3692,7 +3692,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:31",
+		"aktualisierungsdatum": "2023-02-22T08:32:52",
 		"id": 4245
 	},
 	{
@@ -3733,7 +3733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:13",
+		"aktualisierungsdatum": "2023-02-22T08:32:39",
 		"id": 4246
 	},
 	{
@@ -3815,7 +3815,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:39",
+		"aktualisierungsdatum": "2023-02-22T08:32:12",
 		"id": 4249
 	},
 	{
@@ -3856,7 +3856,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:40",
+		"aktualisierungsdatum": "2023-02-22T08:32:13",
 		"id": 4250
 	},
 	{
@@ -3897,7 +3897,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:38",
+		"aktualisierungsdatum": "2023-02-22T08:32:11",
 		"id": 4252
 	},
 	{
@@ -3939,7 +3939,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:34",
+		"aktualisierungsdatum": "2023-02-22T08:32:10",
 		"id": 4253
 	},
 	{
@@ -3980,7 +3980,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:36",
+		"aktualisierungsdatum": "2023-02-22T08:32:11",
 		"id": 4254
 	},
 	{
@@ -4022,7 +4022,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:32",
+		"aktualisierungsdatum": "2023-02-22T08:32:10",
 		"id": 4255
 	},
 	{
@@ -4063,7 +4063,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:27",
+		"aktualisierungsdatum": "2023-02-22T08:32:04",
 		"id": 4257
 	},
 	{
@@ -4104,7 +4104,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:26",
+		"aktualisierungsdatum": "2023-02-22T08:32:03",
 		"id": 4258
 	},
 	{
@@ -4145,7 +4145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:27",
+		"aktualisierungsdatum": "2023-02-22T08:32:04",
 		"id": 4259
 	},
 	{
@@ -4186,7 +4186,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:26",
+		"aktualisierungsdatum": "2023-02-22T08:32:02",
 		"id": 4260
 	},
 	{
@@ -4227,7 +4227,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:28",
+		"aktualisierungsdatum": "2023-02-22T08:32:05",
 		"id": 4261
 	},
 	{
@@ -4268,7 +4268,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:31",
+		"aktualisierungsdatum": "2023-02-22T08:32:09",
 		"id": 4262
 	},
 	{
@@ -4310,7 +4310,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:30",
+		"aktualisierungsdatum": "2023-02-22T08:32:08",
 		"id": 4263
 	},
 	{
@@ -4393,7 +4393,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:31",
+		"aktualisierungsdatum": "2023-02-22T08:32:08",
 		"id": 4265
 	},
 	{
@@ -4434,7 +4434,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:04",
+		"aktualisierungsdatum": "2023-02-22T08:32:30",
 		"id": 4266
 	},
 	{
@@ -4475,7 +4475,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:03",
+		"aktualisierungsdatum": "2023-02-22T08:32:29",
 		"id": 4267
 	},
 	{
@@ -4516,7 +4516,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:03",
+		"aktualisierungsdatum": "2023-02-22T08:32:29",
 		"id": 4268
 	},
 	{
@@ -4558,7 +4558,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:02",
+		"aktualisierungsdatum": "2023-02-22T08:32:29",
 		"id": 4269
 	},
 	{
@@ -4599,7 +4599,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:05",
+		"aktualisierungsdatum": "2023-02-22T08:32:30",
 		"id": 4270
 	},
 	{
@@ -4641,7 +4641,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:05",
+		"aktualisierungsdatum": "2023-02-22T08:32:31",
 		"id": 4272
 	},
 	{
@@ -4683,7 +4683,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:06",
+		"aktualisierungsdatum": "2023-02-22T08:32:32",
 		"id": 4273
 	},
 	{
@@ -4725,7 +4725,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:06",
+		"aktualisierungsdatum": "2023-02-22T08:32:33",
 		"id": 4274
 	},
 	{
@@ -4766,7 +4766,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:07",
+		"aktualisierungsdatum": "2023-02-22T08:32:33",
 		"id": 4275
 	},
 	{
@@ -4808,7 +4808,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:08",
+		"aktualisierungsdatum": "2023-02-22T08:32:34",
 		"id": 4276
 	},
 	{
@@ -4849,7 +4849,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:09",
+		"aktualisierungsdatum": "2023-02-22T08:32:35",
 		"id": 4277
 	},
 	{
@@ -4891,7 +4891,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:09",
+		"aktualisierungsdatum": "2023-02-22T08:32:36",
 		"id": 4278
 	},
 	{
@@ -4933,7 +4933,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:10",
+		"aktualisierungsdatum": "2023-02-22T08:32:36",
 		"id": 4279
 	},
 	{
@@ -4975,7 +4975,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:08",
+		"aktualisierungsdatum": "2023-02-22T08:32:35",
 		"id": 4280
 	},
 	{
@@ -5017,7 +5017,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:10",
+		"aktualisierungsdatum": "2023-02-22T08:32:37",
 		"id": 4281
 	},
 	{
@@ -5055,7 +5055,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:17",
+		"aktualisierungsdatum": "2023-02-22T08:32:42",
 		"id": 4283
 	},
 	{
@@ -5096,7 +5096,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:17",
+		"aktualisierungsdatum": "2023-02-22T08:32:43",
 		"id": 4284
 	},
 	{
@@ -5137,7 +5137,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:15",
+		"aktualisierungsdatum": "2023-02-22T08:32:41",
 		"id": 4285
 	},
 	{
@@ -5178,7 +5178,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:16",
+		"aktualisierungsdatum": "2023-02-22T08:32:42",
 		"id": 4287
 	},
 	{
@@ -5219,7 +5219,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:18",
+		"aktualisierungsdatum": "2023-02-22T08:32:44",
 		"id": 4288
 	},
 	{
@@ -5260,7 +5260,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:19",
+		"aktualisierungsdatum": "2023-02-22T08:32:45",
 		"id": 4290
 	},
 	{
@@ -5298,7 +5298,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:18",
+		"aktualisierungsdatum": "2023-02-22T08:32:45",
 		"id": 4291
 	},
 	{
@@ -5339,7 +5339,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:11",
+		"aktualisierungsdatum": "2023-02-22T08:32:38",
 		"id": 4292
 	},
 	{
@@ -5380,7 +5380,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:12",
+		"aktualisierungsdatum": "2023-02-22T08:32:38",
 		"id": 4293
 	},
 	{
@@ -5421,7 +5421,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:13",
+		"aktualisierungsdatum": "2023-02-22T08:32:39",
 		"id": 4294
 	},
 	{
@@ -5462,7 +5462,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:57",
+		"aktualisierungsdatum": "2023-02-22T08:32:25",
 		"id": 4298
 	},
 	{
@@ -5504,7 +5504,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:00",
+		"aktualisierungsdatum": "2023-02-22T08:32:26",
 		"id": 4299
 	},
 	{
@@ -5545,7 +5545,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:53",
+		"aktualisierungsdatum": "2023-02-22T08:32:23",
 		"id": 4300
 	},
 	{
@@ -5587,7 +5587,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:55",
+		"aktualisierungsdatum": "2023-02-22T08:32:24",
 		"id": 4301
 	},
 	{
@@ -5629,7 +5629,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:59",
+		"aktualisierungsdatum": "2023-02-22T08:32:25",
 		"id": 4302
 	},
 	{
@@ -5671,7 +5671,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:23",
+		"aktualisierungsdatum": "2023-02-22T08:32:48",
 		"id": 4303
 	},
 	{
@@ -5712,7 +5712,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:28",
+		"aktualisierungsdatum": "2023-02-22T08:32:06",
 		"id": 4305
 	},
 	{
@@ -5754,7 +5754,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:29",
+		"aktualisierungsdatum": "2023-02-22T08:32:06",
 		"id": 4306
 	},
 	{
@@ -5794,7 +5794,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:30",
+		"aktualisierungsdatum": "2023-02-22T08:32:07",
 		"id": 4307
 	},
 	{
@@ -5836,7 +5836,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:29",
+		"aktualisierungsdatum": "2023-02-22T08:32:07",
 		"id": 4308
 	},
 	{
@@ -5877,7 +5877,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:01",
+		"aktualisierungsdatum": "2023-02-22T08:32:27",
 		"id": 4309
 	},
 	{
@@ -5918,7 +5918,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:02",
+		"aktualisierungsdatum": "2023-02-22T08:32:28",
 		"id": 4310
 	},
 	{
@@ -5959,7 +5959,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:01",
+		"aktualisierungsdatum": "2023-02-22T08:32:27",
 		"id": 4312
 	},
 	{
@@ -6001,7 +6001,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:47",
+		"aktualisierungsdatum": "2023-02-22T08:32:21",
 		"id": 4314
 	},
 	{
@@ -6041,7 +6041,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:50",
+		"aktualisierungsdatum": "2023-02-22T08:32:22",
 		"id": 4315
 	},
 	{
@@ -6083,7 +6083,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:51",
+		"aktualisierungsdatum": "2023-02-22T08:32:23",
 		"id": 4316
 	},
 	{
@@ -6124,7 +6124,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:36",
+		"aktualisierungsdatum": "2023-02-22T08:32:54",
 		"id": 4318
 	},
 	{
@@ -6133,9 +6133,7 @@ var indikatoren = [
 		"chart-id": 4319,
 		"filter": "",
 		"parentId": null,
-		"children": [
-			9687
-		],
+		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "in Indexwert (Basis 2010 = 100)",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
@@ -6167,7 +6165,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:42",
+		"aktualisierungsdatum": "2023-02-22T08:32:56",
 		"id": 4319
 	},
 	{
@@ -6209,7 +6207,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:37",
+		"aktualisierungsdatum": "2023-02-22T08:32:54",
 		"id": 4320
 	},
 	{
@@ -6250,7 +6248,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:44",
+		"aktualisierungsdatum": "2023-02-22T08:32:17",
 		"id": 4321
 	},
 	{
@@ -6291,7 +6289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:46",
+		"aktualisierungsdatum": "2023-02-22T08:32:20",
 		"id": 4322
 	},
 	{
@@ -6332,7 +6330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:35",
+		"aktualisierungsdatum": "2023-02-22T08:32:53",
 		"id": 4323
 	},
 	{
@@ -6373,7 +6371,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:39",
+		"aktualisierungsdatum": "2023-02-22T08:32:55",
 		"id": 4325
 	},
 	{
@@ -6414,7 +6412,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:48",
+		"aktualisierungsdatum": "2023-02-22T08:32:21",
 		"id": 4329
 	},
 	{
@@ -6454,7 +6452,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:21",
+		"aktualisierungsdatum": "2023-02-22T08:32:00",
 		"id": 4330
 	},
 	{
@@ -6496,7 +6494,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:15",
+		"aktualisierungsdatum": "2023-02-22T08:31:58",
 		"id": 4331
 	},
 	{
@@ -6538,7 +6536,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:24",
+		"aktualisierungsdatum": "2023-02-22T08:32:01",
 		"id": 4332
 	},
 	{
@@ -6580,7 +6578,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:25",
+		"aktualisierungsdatum": "2023-02-22T08:32:02",
 		"id": 4333
 	},
 	{
@@ -6622,7 +6620,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:18",
+		"aktualisierungsdatum": "2023-02-22T08:31:59",
 		"id": 4334
 	},
 	{
@@ -6660,7 +6658,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:23",
+		"aktualisierungsdatum": "2023-02-22T08:32:01",
 		"id": 4335
 	},
 	{
@@ -6701,7 +6699,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:19",
+		"aktualisierungsdatum": "2023-02-22T08:31:59",
 		"id": 4336
 	},
 	{
@@ -6743,7 +6741,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:14",
+		"aktualisierungsdatum": "2023-02-22T08:31:57",
 		"id": 4337
 	},
 	{
@@ -6784,7 +6782,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:17",
+		"aktualisierungsdatum": "2023-02-22T08:31:58",
 		"id": 4338
 	},
 	{
@@ -9419,7 +9417,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-08T08:27:17",
+		"aktualisierungsdatum": "2023-02-22T08:31:56",
 		"id": 4919
 	},
 	{
@@ -10764,7 +10762,7 @@ var indikatoren = [
 		],
 		"title": "Staatsausgaben für Kultur",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kulturerbe liegen 2019 bei 480 Fr. pro Kopf, im Bereich übrige Kultur bei 482 Fr. pro Kopf.",
+		"lesehilfe": "Die Ausgaben des Kantons betragen 2020 im Bereich Kulturerbe 477 und im Bereich übrige Kultur 663 Franken pro Kopf.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -10790,7 +10788,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:16",
+		"aktualisierungsdatum": "2023-02-22T08:32:28",
 		"id": 5193
 	},
 	{
@@ -11322,7 +11320,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:15",
+		"aktualisierungsdatum": "2023-02-22T08:32:41",
 		"id": 5797
 	},
 	{
@@ -11364,7 +11362,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:14",
+		"aktualisierungsdatum": "2023-02-22T08:32:40",
 		"id": 5798
 	},
 	{
@@ -11406,7 +11404,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:37:41",
+		"aktualisierungsdatum": "2023-02-22T08:32:13",
 		"id": 5799
 	},
 	{
@@ -11448,7 +11446,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:14",
+		"aktualisierungsdatum": "2023-02-22T08:32:40",
 		"id": 5800
 	},
 	{
@@ -26109,8 +26107,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Am Jahresende 2021 wiesen die Wohnviertel Bruderholz und Hirzbrunnen sowie die Gemeinden Riehen und Bettingen die höchsten Anteile an Kindern und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Seniorinnen und Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist mit 22,4% den höchsten Anteil Kinder und Jugendlicher unter 20 Jahren auf, das Wohnviertel Rosental den höchsten Anteil jüngerer Erwachsener zwischen 20 und 39 Jahren (40,6%) und das Wohnviertel St. Alban den höchsten Anteil 80- bis 99-Jähriger (10,5%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26137,7 +26135,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-14T08:06:58",
+		"aktualisierungsdatum": "2023-02-22T08:31:54",
 		"id": 6502
 	},
 	{
@@ -27795,7 +27793,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Stadt Basel",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist diese überwiegend gestiegen und lag am Jahresende 2021 bei 178 689.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2022 bei 180 976.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -27821,7 +27819,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-17T07:57:57",
+		"aktualisierungsdatum": "2023-02-22T08:31:55",
 		"id": 6623
 	},
 	{
@@ -36774,43 +36772,41 @@ var indikatoren = [
 		"id": 6992
 	},
 	{
+		"template": "line001",
+		"data-id": 6993,
+		"chart-id": 6993,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern",
 		"subtitle": "nach Hauptbereich in Tagen, Basel-Stadt",
-		"kuerzel": "I.14.1.06993",
-		"kuerzelKunde": "",
-		"description": "Mittlere Aufenthaltsdauer in Spitälern",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2021: 38,6 Tage), während ein akutsomatischer Patient das Spital deutlich schneller verlässt (2021: 6,6 Tage).",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).<br>Seit 2020 werden aufgrund einer geänderten Kodierungsvorgabe die Fälle der Akutgeriatrie der Inneren Medizin, und somit der Akutsomatik zugeordnet. Die Geriatrie wird daher nicht ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:31:01.011",
+		"description": "Mittlere Aufenthaltsdauer in Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06993",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über den gesamten Beobachtungszeitraum wiesen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2019: 38,7 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen konnte (2019: 6,5 Tage). Den deutlichsten Rückgang zwischen 2012 und 2019 verzeichnet der Hauptbereich Geriatrie. Hier lag der durchschnittliche Spitalaufenthalt 2019 bei 14,4 Tagen; 2012 betrug er noch 22,1 Tage.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6993,
-		"chart-id": 6993,
-		"filter": "",
+		"aktualisierungsdatum": "2023-02-22T08:31:57",
 		"id": 6993
 	},
 	{
@@ -41285,7 +41281,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-18T08:23:03",
+		"aktualisierungsdatum": "2023-02-22T08:31:55",
 		"id": 7515
 	},
 	{
@@ -45574,8 +45570,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Dezember",
-		"lesehilfe": "Im Dezemberr 2022 sank die Einwohnerzahl gegenüber dem Vormonat in dreizehn Wohnvierteln und in Bettingen. In sechs Wohnvierteln sowie in der Gemeinde Riehen stieg sie.",
+		"subtitle": "Basel-Stadt, Januar",
+		"lesehilfe": "Im Januar 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in siebzehn Wohnvierteln und in Bettingen. In zwei Wohnvierteln sowie in der Gemeinde Riehen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -45602,7 +45598,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-18T08:23:04",
+		"aktualisierungsdatum": "2023-02-22T08:31:55",
 		"id": 7763
 	},
 	{
@@ -80373,7 +80369,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2022-12-19T10:38:11",
+		"aktualisierungsdatum": "2023-02-22T08:32:37",
 		"id": 9507
 	},
 	{
