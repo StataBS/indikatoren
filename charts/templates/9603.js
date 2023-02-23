@@ -4,6 +4,7 @@
             tickInterval: 1,
             type: "category",
             labels: {
+                rotation: 0,
                 formatter: function () {
                     if (this.value.length == 4) {
                         return this.value
