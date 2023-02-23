@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energien (ohne Mobilität)",
 		"subtitle": "in Prozent",
-		"lesehilfe": "Der Anteil erneuerbarer Energien (ohne Mobilität) am Bruttoverbrauch ist von 40,9% im Jahr 2010 auf 48,6% im Jahr 2018 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energien (ohne Mobilität) am Bruttoverbrauch ist von 40,9% im Jahr 2010 auf 50,6% im Jahr 2020 gestiegen.",
 		"erlaeuterungen": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch. Als erneuerbare Energien werden Energieträger bezeichnet, welche kontinuierlich oder in Zyklen auf natürliche Weise anfallen. Zu den erneuerbaren Energien gehören einerseits die klassischen Energieträger Wasserkraft und Holz, andererseits die neuen erneuerbaren Energieträger Wind, Sonne, Biotreibstoffe, Biogas und Umweltwärme.<br><br>Summe der Verbräuche erneuerbarer Energien dividiert durch den gesamten Energieverbrauch.<br>Folgende Energieträger werden als erneuerbar berücksichtigt:<br>Sonnenenergie, Windenergie, Wasserkraft, Deponie-/Klär-/Biogas, Holzenergie und Umweltenergie. Im Kanton Basel-Stadt werden zudem 50% der Energieproduktion aus der Kehrichtverbrennung als erneuerbar berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:32:14",
+		"aktualisierungsdatum": "2023-02-23T09:03:50",
 		"id": 4221
 	},
 	{
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:13",
+		"aktualisierungsdatum": "2023-02-23T09:03:49",
 		"id": 4222
 	},
 	{
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:15",
+		"aktualisierungsdatum": "2023-02-23T09:03:50",
 		"id": 4223
 	},
 	{
@@ -125,7 +125,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Eigenproduktion Strom",
 		"subtitle": "in Gigawattstunden",
-		"lesehilfe": "Die Eigenproduktion von Elektrizität hat von 2010 bis 2018 von 374 auf 431 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
+		"lesehilfe": "Die Eigenproduktion von Elektrizität hat von 2010 bis 2020 von 374 auf 477 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
 		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -153,7 +153,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:16",
+		"aktualisierungsdatum": "2023-02-23T09:03:51",
 		"id": 4224
 	},
 	{
@@ -165,7 +165,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Energieimportabhängigkeit",
 		"subtitle": "in Prozent",
-		"lesehilfe": "Die Energieimportabhängigkeit hat seit 1995 kontinuiertlich von 86,5%  auf 75,0% abgenommen.",
+		"lesehilfe": "Die Energieimportabhängigkeit hat seit 1995 kontinuiertlich von 86,4%  auf 66,4% abgenommen.",
 		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:17",
+		"aktualisierungsdatum": "2023-02-23T09:03:52",
 		"id": 4225
 	},
 	{
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:18",
+		"aktualisierungsdatum": "2023-02-23T09:03:53",
 		"id": 4226
 	},
 	{
@@ -274,7 +274,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:18",
+		"aktualisierungsdatum": "2023-02-23T09:03:53",
 		"id": 4227
 	},
 	{
@@ -311,7 +311,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:19",
+		"aktualisierungsdatum": "2023-02-23T09:03:54",
 		"id": 4228
 	},
 	{
@@ -351,7 +351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:19",
+		"aktualisierungsdatum": "2023-02-23T09:03:55",
 		"id": 4229
 	},
 	{
@@ -363,7 +363,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "in Gigawattstunden",
-		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 um gut 28,4% zurück auf 4 645 GWh im Jahr 2018. Neben dem Rückgang beim Heizöl von über 83% ist auch der Erdgasverbrauch in diesem Zeitraum um über 31% zurückgegangen.",
+		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 zurück auf 4 420 GWh im Jahr 2020. Am markantesten ist der Rückgang mit über 84% beim Heizöl.",
 		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -391,7 +391,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:14",
+		"aktualisierungsdatum": "2023-02-23T09:03:49",
 		"id": 4230
 	},
 	{
@@ -431,7 +431,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:47",
+		"aktualisierungsdatum": "2023-02-23T09:04:19",
 		"id": 4231
 	},
 	{
@@ -472,7 +472,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:46",
+		"aktualisierungsdatum": "2023-02-23T09:04:19",
 		"id": 4232
 	},
 	{
@@ -511,7 +511,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:47",
+		"aktualisierungsdatum": "2023-02-23T09:04:20",
 		"id": 4233
 	},
 	{
@@ -550,7 +550,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:47",
+		"aktualisierungsdatum": "2023-02-23T09:04:20",
 		"id": 4234
 	},
 	{
@@ -590,7 +590,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:48",
+		"aktualisierungsdatum": "2023-02-23T09:04:21",
 		"id": 4236
 	},
 	{
@@ -630,7 +630,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:49",
+		"aktualisierungsdatum": "2023-02-23T09:04:22",
 		"id": 4237
 	},
 	{
@@ -667,7 +667,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:50",
+		"aktualisierungsdatum": "2023-02-23T09:04:22",
 		"id": 4238
 	},
 	{
@@ -708,7 +708,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:49",
+		"aktualisierungsdatum": "2023-02-23T09:04:22",
 		"id": 4240
 	},
 	{
@@ -749,7 +749,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:53",
+		"aktualisierungsdatum": "2023-02-23T09:04:24",
 		"id": 4241
 	},
 	{
@@ -790,7 +790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:51",
+		"aktualisierungsdatum": "2023-02-23T09:04:23",
 		"id": 4243
 	},
 	{
@@ -829,7 +829,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:50",
+		"aktualisierungsdatum": "2023-02-23T09:04:23",
 		"id": 4244
 	},
 	{
@@ -869,7 +869,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:52",
+		"aktualisierungsdatum": "2023-02-23T09:04:24",
 		"id": 4245
 	},
 	{
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:39",
+		"aktualisierungsdatum": "2023-02-23T09:04:12",
 		"id": 4246
 	},
 	{
@@ -989,7 +989,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:12",
+		"aktualisierungsdatum": "2023-02-23T09:03:47",
 		"id": 4249
 	},
 	{
@@ -1029,7 +1029,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:13",
+		"aktualisierungsdatum": "2023-02-23T09:03:48",
 		"id": 4250
 	},
 	{
@@ -1069,7 +1069,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:11",
+		"aktualisierungsdatum": "2023-02-23T09:03:47",
 		"id": 4252
 	},
 	{
@@ -1110,7 +1110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:10",
+		"aktualisierungsdatum": "2023-02-23T09:03:45",
 		"id": 4253
 	},
 	{
@@ -1150,7 +1150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:11",
+		"aktualisierungsdatum": "2023-02-23T09:03:46",
 		"id": 4254
 	},
 	{
@@ -1191,7 +1191,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:10",
+		"aktualisierungsdatum": "2023-02-23T09:03:45",
 		"id": 4255
 	},
 	{
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:04",
+		"aktualisierungsdatum": "2023-02-23T09:03:39",
 		"id": 4257
 	},
 	{
@@ -1271,7 +1271,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:03",
+		"aktualisierungsdatum": "2023-02-23T09:03:38",
 		"id": 4258
 	},
 	{
@@ -1311,7 +1311,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:04",
+		"aktualisierungsdatum": "2023-02-23T09:03:39",
 		"id": 4259
 	},
 	{
@@ -1351,7 +1351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:02",
+		"aktualisierungsdatum": "2023-02-23T09:03:38",
 		"id": 4260
 	},
 	{
@@ -1391,7 +1391,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:05",
+		"aktualisierungsdatum": "2023-02-23T09:03:40",
 		"id": 4261
 	},
 	{
@@ -1431,7 +1431,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:09",
+		"aktualisierungsdatum": "2023-02-23T09:03:44",
 		"id": 4262
 	},
 	{
@@ -1472,7 +1472,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:08",
+		"aktualisierungsdatum": "2023-02-23T09:03:43",
 		"id": 4263
 	},
 	{
@@ -1553,7 +1553,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:08",
+		"aktualisierungsdatum": "2023-02-23T09:03:44",
 		"id": 4265
 	},
 	{
@@ -1593,7 +1593,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:30",
+		"aktualisierungsdatum": "2023-02-23T09:04:03",
 		"id": 4266
 	},
 	{
@@ -1633,7 +1633,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:29",
+		"aktualisierungsdatum": "2023-02-23T09:04:02",
 		"id": 4267
 	},
 	{
@@ -1673,7 +1673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:29",
+		"aktualisierungsdatum": "2023-02-23T09:04:03",
 		"id": 4268
 	},
 	{
@@ -1714,7 +1714,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:29",
+		"aktualisierungsdatum": "2023-02-23T09:04:02",
 		"id": 4269
 	},
 	{
@@ -1754,7 +1754,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:30",
+		"aktualisierungsdatum": "2023-02-23T09:04:04",
 		"id": 4270
 	},
 	{
@@ -1795,7 +1795,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:31",
+		"aktualisierungsdatum": "2023-02-23T09:04:05",
 		"id": 4272
 	},
 	{
@@ -1836,7 +1836,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:32",
+		"aktualisierungsdatum": "2023-02-23T09:04:05",
 		"id": 4273
 	},
 	{
@@ -1877,7 +1877,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:33",
+		"aktualisierungsdatum": "2023-02-23T09:04:06",
 		"id": 4274
 	},
 	{
@@ -1917,7 +1917,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:33",
+		"aktualisierungsdatum": "2023-02-23T09:04:06",
 		"id": 4275
 	},
 	{
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:34",
+		"aktualisierungsdatum": "2023-02-23T09:04:07",
 		"id": 4276
 	},
 	{
@@ -1998,7 +1998,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:35",
+		"aktualisierungsdatum": "2023-02-23T09:04:08",
 		"id": 4277
 	},
 	{
@@ -2039,7 +2039,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:36",
+		"aktualisierungsdatum": "2023-02-23T09:04:09",
 		"id": 4278
 	},
 	{
@@ -2080,7 +2080,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:36",
+		"aktualisierungsdatum": "2023-02-23T09:04:09",
 		"id": 4279
 	},
 	{
@@ -2121,7 +2121,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:35",
+		"aktualisierungsdatum": "2023-02-23T09:04:07",
 		"id": 4280
 	},
 	{
@@ -2162,7 +2162,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:37",
+		"aktualisierungsdatum": "2023-02-23T09:04:09",
 		"id": 4281
 	},
 	{
@@ -2199,7 +2199,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:42",
+		"aktualisierungsdatum": "2023-02-23T09:04:16",
 		"id": 4283
 	},
 	{
@@ -2239,7 +2239,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:43",
+		"aktualisierungsdatum": "2023-02-23T09:04:16",
 		"id": 4284
 	},
 	{
@@ -2279,7 +2279,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:41",
+		"aktualisierungsdatum": "2023-02-23T09:04:15",
 		"id": 4285
 	},
 	{
@@ -2319,7 +2319,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:42",
+		"aktualisierungsdatum": "2023-02-23T09:04:15",
 		"id": 4287
 	},
 	{
@@ -2359,7 +2359,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:44",
+		"aktualisierungsdatum": "2023-02-23T09:04:17",
 		"id": 4288
 	},
 	{
@@ -2399,7 +2399,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:45",
+		"aktualisierungsdatum": "2023-02-23T09:04:18",
 		"id": 4290
 	},
 	{
@@ -2436,7 +2436,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:45",
+		"aktualisierungsdatum": "2023-02-23T09:04:17",
 		"id": 4291
 	},
 	{
@@ -2476,7 +2476,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:38",
+		"aktualisierungsdatum": "2023-02-23T09:04:11",
 		"id": 4292
 	},
 	{
@@ -2516,7 +2516,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:38",
+		"aktualisierungsdatum": "2023-02-23T09:04:11",
 		"id": 4293
 	},
 	{
@@ -2556,7 +2556,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:39",
+		"aktualisierungsdatum": "2023-02-23T09:04:12",
 		"id": 4294
 	},
 	{
@@ -2596,7 +2596,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:25",
+		"aktualisierungsdatum": "2023-02-23T09:03:59",
 		"id": 4298
 	},
 	{
@@ -2637,7 +2637,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:26",
+		"aktualisierungsdatum": "2023-02-23T09:04:00",
 		"id": 4299
 	},
 	{
@@ -2677,7 +2677,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:23",
+		"aktualisierungsdatum": "2023-02-23T09:03:57",
 		"id": 4300
 	},
 	{
@@ -2718,7 +2718,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:24",
+		"aktualisierungsdatum": "2023-02-23T09:03:58",
 		"id": 4301
 	},
 	{
@@ -2759,7 +2759,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:25",
+		"aktualisierungsdatum": "2023-02-23T09:03:59",
 		"id": 4302
 	},
 	{
@@ -2800,7 +2800,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:48",
+		"aktualisierungsdatum": "2023-02-23T09:04:21",
 		"id": 4303
 	},
 	{
@@ -2840,7 +2840,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:06",
+		"aktualisierungsdatum": "2023-02-23T09:03:41",
 		"id": 4305
 	},
 	{
@@ -2881,7 +2881,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:06",
+		"aktualisierungsdatum": "2023-02-23T09:03:41",
 		"id": 4306
 	},
 	{
@@ -2920,7 +2920,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:07",
+		"aktualisierungsdatum": "2023-02-23T09:03:43",
 		"id": 4307
 	},
 	{
@@ -2961,7 +2961,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:07",
+		"aktualisierungsdatum": "2023-02-23T09:03:42",
 		"id": 4308
 	},
 	{
@@ -3001,7 +3001,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:27",
+		"aktualisierungsdatum": "2023-02-23T09:04:01",
 		"id": 4309
 	},
 	{
@@ -3041,7 +3041,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:28",
+		"aktualisierungsdatum": "2023-02-23T09:04:01",
 		"id": 4310
 	},
 	{
@@ -3081,7 +3081,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:27",
+		"aktualisierungsdatum": "2023-02-23T09:04:00",
 		"id": 4312
 	},
 	{
@@ -3122,7 +3122,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:21",
+		"aktualisierungsdatum": "2023-02-23T09:03:56",
 		"id": 4314
 	},
 	{
@@ -3161,7 +3161,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:22",
+		"aktualisierungsdatum": "2023-02-23T09:03:57",
 		"id": 4315
 	},
 	{
@@ -3202,7 +3202,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:23",
+		"aktualisierungsdatum": "2023-02-23T09:03:57",
 		"id": 4316
 	},
 	{
@@ -3242,7 +3242,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:54",
+		"aktualisierungsdatum": "2023-02-23T09:04:25",
 		"id": 4318
 	},
 	{
@@ -3282,7 +3282,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:56",
+		"aktualisierungsdatum": "2023-02-23T09:04:26",
 		"id": 4319
 	},
 	{
@@ -3323,7 +3323,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:54",
+		"aktualisierungsdatum": "2023-02-23T09:04:26",
 		"id": 4320
 	},
 	{
@@ -3335,7 +3335,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Stromverbrauch pro Einwohner",
 		"subtitle": "in Megawattstunden",
-		"lesehilfe": "Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sinkt er bis 2018 kontinuierlich auf 6,7 MWh pro Einwohner.",
+		"lesehilfe": "Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sank er bis 2020 auf 6,7 MWh pro Einwohner.",
 		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -3363,7 +3363,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:17",
+		"aktualisierungsdatum": "2023-02-23T09:03:52",
 		"id": 4321
 	},
 	{
@@ -3375,7 +3375,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Stromverbrauch nach Produktionsart",
 		"subtitle": "in Gigawattstunden",
-		"lesehilfe": "Der totale Elektrizitätsverbrauch hat zwischen 1995 und 2010 von 1 470 auf 1 628 Gigawattstunden zugenommen und sank danach bis 2018 kontinuierlich auf 1 344 Gigawattstunden.",
+		"lesehilfe": "Der Elektrizitätsverbrauch liegt 2020 bei 1 352 Gigawattstunden (GWh). Davon wurde mit 875 GWh der grösste Teil ausserkantonal bezogen.",
 		"erlaeuterungen": "Jährlicher Stromverbrauch nach Produktionsart.<br><br>Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -3403,7 +3403,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:20",
+		"aktualisierungsdatum": "2023-02-23T09:03:55",
 		"id": 4322
 	},
 	{
@@ -3443,7 +3443,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:53",
+		"aktualisierungsdatum": "2023-02-23T09:04:25",
 		"id": 4323
 	},
 	{
@@ -3483,7 +3483,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:55",
+		"aktualisierungsdatum": "2023-02-23T09:04:26",
 		"id": 4325
 	},
 	{
@@ -3523,7 +3523,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:21",
+		"aktualisierungsdatum": "2023-02-23T09:03:56",
 		"id": 4329
 	},
 	{
@@ -3562,7 +3562,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:00",
+		"aktualisierungsdatum": "2023-02-23T09:03:36",
 		"id": 4330
 	},
 	{
@@ -3603,7 +3603,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:31:58",
+		"aktualisierungsdatum": "2023-02-23T09:03:34",
 		"id": 4331
 	},
 	{
@@ -3644,7 +3644,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:01",
+		"aktualisierungsdatum": "2023-02-23T09:03:37",
 		"id": 4332
 	},
 	{
@@ -3685,7 +3685,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:02",
+		"aktualisierungsdatum": "2023-02-23T09:03:37",
 		"id": 4333
 	},
 	{
@@ -3726,7 +3726,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:31:59",
+		"aktualisierungsdatum": "2023-02-23T09:03:35",
 		"id": 4334
 	},
 	{
@@ -3763,7 +3763,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:01",
+		"aktualisierungsdatum": "2023-02-23T09:03:36",
 		"id": 4335
 	},
 	{
@@ -3803,7 +3803,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:31:59",
+		"aktualisierungsdatum": "2023-02-23T09:03:35",
 		"id": 4336
 	},
 	{
@@ -3844,7 +3844,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:31:57",
+		"aktualisierungsdatum": "2023-02-23T09:03:33",
 		"id": 4337
 	},
 	{
@@ -3884,7 +3884,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:31:58",
+		"aktualisierungsdatum": "2023-02-23T09:03:34",
 		"id": 4338
 	},
 	{
@@ -3925,7 +3925,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:41",
+		"aktualisierungsdatum": "2023-02-23T09:04:14",
 		"id": 5797
 	},
 	{
@@ -3966,7 +3966,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:40",
+		"aktualisierungsdatum": "2023-02-23T09:04:13",
 		"id": 5798
 	},
 	{
@@ -4007,7 +4007,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:13",
+		"aktualisierungsdatum": "2023-02-23T09:03:48",
 		"id": 5799
 	},
 	{
@@ -4048,7 +4048,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:40",
+		"aktualisierungsdatum": "2023-02-23T09:04:13",
 		"id": 5800
 	},
 	{
@@ -4089,7 +4089,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-22T08:32:37",
+		"aktualisierungsdatum": "2023-02-23T09:04:10",
 		"id": 9507
 	}
 ];
