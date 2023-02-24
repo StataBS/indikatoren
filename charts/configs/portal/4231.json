@@ -176,10 +176,11 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021
     ],
     "floor": 0,
-    "ceiling": 16,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -371,7 +372,8 @@
         0.035,
         0.033,
         0.033,
-        0.035
+        0.035,
+        0.036
       ],
       "visible": true
     },
@@ -396,6 +398,7 @@
       "id": "BS&BL1604_4",
       "valueSuffix": "Milligramm pro Liter",
       "data": [
+        0.08,
         0.08,
         0.08,
         0.08,
