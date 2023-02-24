@@ -6,118 +6,6 @@
       "data": [
         [
           "Jan",
-          11401
-        ],
-        [
-          "Feb",
-          12028
-        ],
-        [
-          "Mrz",
-          17617
-        ],
-        [
-          "Apr",
-          41444
-        ],
-        [
-          "Mai",
-          42744
-        ],
-        [
-          "Jun",
-          30615
-        ],
-        [
-          "Jul",
-          37286
-        ],
-        [
-          "Aug",
-          46034
-        ],
-        [
-          "Sep",
-          42854
-        ],
-        [
-          "Okt",
-          48845
-        ],
-        [
-          "Nov",
-          38491
-        ],
-        [
-          "Dez",
-          32455
-        ]
-      ],
-      "name": "Inland 2021",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
-      "data": [
-        [
-          "Jan",
-          7457
-        ],
-        [
-          "Feb",
-          8720
-        ],
-        [
-          "Mrz",
-          13289
-        ],
-        [
-          "Apr",
-          17234
-        ],
-        [
-          "Mai",
-          17555
-        ],
-        [
-          "Jun",
-          23304
-        ],
-        [
-          "Jul",
-          44571
-        ],
-        [
-          "Aug",
-          58323
-        ],
-        [
-          "Sep",
-          62763
-        ],
-        [
-          "Okt",
-          51382
-        ],
-        [
-          "Nov",
-          43489
-        ],
-        [
-          "Dez",
-          34706
-        ]
-      ],
-      "name": "Ausland 2021",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
           20856
         ],
         [
@@ -126,7 +14,7 @@
         ],
         [
           "Mrz",
-          37724
+          7724
         ],
         [
           "Apr",
@@ -169,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Jan",
@@ -222,6 +110,118 @@
         ]
       ],
       "name": "Ausland 2022",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          30060
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Inland 2023",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          46209
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Ausland 2023",
       "turboThreshold": 0
     }
   ],
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
