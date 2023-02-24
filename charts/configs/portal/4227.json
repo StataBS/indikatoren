@@ -111,7 +111,7 @@
     }
   },
   "title": {
-    "text": "Spezifischer Heizenergieverbrauch von neuen Bauten",
+    "text": "Spezifischer Heizwärmebedarf von neuen Bauten",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Liter Heizöläquivalente pro Quadratmeter, Basel-Stadt",
+    "text": "Kilowattstunden pro Quadratmeter, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E l Heizöläquivalente\u002Fm\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E KWh\u002Fm\u003Csup\u003E2\u003C\u002Fsup\u003E",
     "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
@@ -163,10 +163,12 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020,
+      2021
     ],
     "floor": 0,
-    "ceiling": 3,
+    "ceiling": 5,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -338,15 +340,17 @@
       "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Spezifischer Heizenergieverbrauch von neuen Bauten",
+      "name": "Spezifischer Heizwärmebedarf von neuen Bauten",
       "color": "#FF8028",
       "id": "BS0610_1",
-      "valueSuffix": "Liter Heizöläquivalente pro Quadratmeter",
+      "valueSuffix": "Kilowattstunden pro Quadratmeter",
       "data": [
-        2.73,
-        2.38,
-        2.25,
-        2.61
+        27.3,
+        23.8,
+        22.5,
+        26.1,
+        21,
+        26.7
       ],
       "visible": true
     }

@@ -35,9 +35,10 @@ records.forEach(row => {
 
     //checkout js and overwrite tsv for each chart with a branch number other than null
     if (row.Branch) {
-        console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
+        console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv and ' + row.Indikator + '.json from branch ' + row.Branch + '...');
         var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
         var gitTsvCommand = 'git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv';
+        var gitConfigCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/configs/portal/' + row.Indikator + '.json';
         console.log(gitJsCommand);
         try {
             child_process.execSync(gitJsCommand);
@@ -52,7 +53,13 @@ records.forEach(row => {
         catch (error) {
             handleError(error);
         }        
-    }
+        console.log(gitConfigCommand);
+        try{
+            child_process.execSync(gitConfigCommand);
+        }
+        catch(error){
+        }
+}
     else {
         try {
             //fs.copyFileSync(tempDir + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
