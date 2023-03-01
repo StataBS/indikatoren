@@ -681,10 +681,10 @@ var indikatorensetData = [
 			8900,
 			8901
 		],
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. In 17,0% der Haushalte bezieht mindestens eine Person Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
+		"lesehilfe": "In 17,0% der Haushalte bezieht Ende 2021 mindestens eine Person reine Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -694,12 +694,12 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.05183",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW7",
+		"kuerzelKunde": "GW5",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -709,7 +709,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:48",
+		"aktualisierungsdatum": "2023-03-01T09:02:44",
 		"id": 5183
 	},
 	{
@@ -2826,42 +2826,40 @@ var indikatorensetData = [
 		"id": 8455
 	},
 	{
+		"template": "befragungenGrundauswertung001",
+		"data-id": 8456,
+		"chart-id": 8456,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt",
-		"kuerzel": "I.50.1.08456",
-		"kuerzelKunde": "GZ2",
-		"description": "Sicherheitsgefühl nachts im Quartier",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher. Das Sicherheitsgefühl nimmt mit zunehmendem Alter ab. Frauen fühlen sich weniger sicher als Männer. Befragte mit hohem Einkommen fühlen sich sicherer als jene mit tieferem Einkommen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:19:02.022",
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.08456",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ3",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"orderKey": "05_01_00_00_00_502",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_01_00_00_00_502",
-		"parentId": 4854,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4854,
-		"chart-id": 4854,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:47",
 		"id": 8456
 	},
 	{
@@ -3111,5 +3109,43 @@ var indikatorensetData = [
 		"chart-id": 8852,
 		"filter": "",
 		"id": 8852
+	},
+	{
+		"template": "line001",
+		"data-id": 9734,
+		"chart-id": 9734,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. Nach kontinuierlichem Anstieg seit 2011 bleibt diese Quote seit 2017 stabil.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09734",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW17",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:42",
+		"id": 9734
 	}
 ];

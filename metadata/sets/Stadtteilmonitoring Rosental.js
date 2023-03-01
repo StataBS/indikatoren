@@ -1023,44 +1023,42 @@ var indikatorensetData = [
 		"id": 7689
 	},
 	{
+		"template": "template001",
+		"data-id": 7690,
+		"chart-id": 7690,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7928"
+			7928
 		],
-		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.03.1.07690",
-		"kuerzelKunde": "3.09",
-		"description": "Anzahl Rotlichtsalons",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2022 insgesamt 15 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2022 im Kanton Basel-Stadt 119 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:05.055",
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07690",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.09",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 13 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2020 im Kanton Basel-Stadt 153 Rotlichtsalons registriert.",
-		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"orderKey": "03_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_009",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7690,
-		"chart-id": 7690,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:32",
 		"id": 7690
 	},
 	{
@@ -1104,44 +1102,42 @@ var indikatorensetData = [
 		"id": 7691
 	},
 	{
+		"template": "line001",
+		"data-id": 7692,
+		"chart-id": 7692,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7930
+		],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.09.1.07692",
-		"kuerzelKunde": "3.02",
-		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Die Bruttogeschossflächen Wohnen und Arbeiten haben im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 deutlich zugenommen.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet, sie sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07692",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.02",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche Wohnen hat im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 stärker zugenommen als die Bruttogeschossfläche Arbeiten.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summe der ober- und unterirdischen Grundflächen von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7930"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bau- und Verkehrsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7692,
-		"chart-id": 7692,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:29",
 		"id": 7692
 	},
 	{
@@ -1381,85 +1377,85 @@ var indikatorensetData = [
 		"id": 7698
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7937"
-		],
 		"template": "template001",
-		"title": "Bodenbedeckung nach Nutzungsart",
-		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07699",
-		"kuerzelKunde": "7.01",
-		"description": "Bodenbedeckung nach Nutzungsart",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2020: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2008: 59,3%; 2020: 24,8%) und die Grünflächen haben zugenommen (2008: 2,8%; 2020: 25,6%).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
-		],
 		"data-id": 7699,
 		"chart-id": 7699,
 		"filter": "",
-		"id": 7699
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7938"
+			7937
 		],
-		"template": "template001",
-		"title": "Grünflächen nach Kategorie",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07700",
-		"kuerzelKunde": "7.02",
-		"description": "Grünflächen nach Kategorie",
+		"title": "Bodenbedeckung nach Nutzungsart",
+		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2021: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2009: 56,7%; 2021: 24,8%) und die Grünflächen haben zugenommen (2009: 2,8%; 2021: 25,6%).",
+		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
+		"kuerzel": "I.02.1.07699",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.01",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2020 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
-		],
+		"aktualisierungsdatum": "2023-03-01T09:02:34",
+		"id": 7699
+	},
+	{
+		"template": "template001",
 		"data-id": 7700,
 		"chart-id": 7700,
 		"filter": "16",
+		"parentId": null,
+		"children": [
+			7938
+		],
+		"title": "Grünflächen nach Kategorie",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2021: 26 355 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07700",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.02",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:37",
 		"id": 7700
 	},
 	{

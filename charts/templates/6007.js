@@ -43,6 +43,9 @@
         "radius": 3
       }
     }
+  },
+  chart: {
+    marginRight: 20
   }
 };
 }());

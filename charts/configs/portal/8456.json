@@ -2,26 +2,92 @@
   "series": [
     {
       "color": "#246370",
+      "index": 0,
+      "legendIndex": 6,
       "data": [
         [
-          "2003",
-          504
+          "*Alter",
+          null
         ],
         [
-          "2007",
-          449
+          "18-29 Jahre (n=155)",
+          36.8
         ],
         [
-          "2011",
-          436
+          "30-39 Jahre (n=322)",
+          37
         ],
         [
-          "2015",
-          369
+          "40-49 Jahre (n=305)",
+          33.1
         ],
         [
-          "2019",
-          498
+          "50-59 Jahre (n=364)",
+          27.2
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          17.1
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          9.5
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          29.8
+        ],
+        [
+          "Weiblich (n=1 161)",
+          19.3
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          18.3
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          19.9
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          33.7
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          33.7
+        ],
+        [
+          "2005 (N=1 510)",
+          34.2
+        ],
+        [
+          "2007 (N=1 509)",
+          29.8
+        ],
+        [
+          "2011 (N=1 516)",
+          28.8
+        ],
+        [
+          "2015 (N=1 506)",
+          24.5
+        ],
+        [
+          "2019 (N=2 108)",
+          23.6
         ]
       ],
       "name": "Sehr sicher",
@@ -29,26 +95,92 @@
     },
     {
       "color": "#A8C3CA",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
-          "2003",
-          542
+          "*Alter",
+          null
         ],
         [
-          "2007",
-          565
+          "18-29 Jahre (n=155)",
+          43.2
         ],
         [
-          "2011",
-          527
+          "30-39 Jahre (n=322)",
+          43.2
         ],
         [
-          "2015",
-          571
+          "40-49 Jahre (n=305)",
+          47.5
         ],
         [
-          "2019",
-          926
+          "50-59 Jahre (n=364)",
+          47
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          47.1
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          38.7
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          42.9
+        ],
+        [
+          "Weiblich (n=1 161)",
+          44.6
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          43.7
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          44.2
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          45.2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          36.2
+        ],
+        [
+          "2005 (N=1 510)",
+          35.5
+        ],
+        [
+          "2007 (N=1 509)",
+          37.4
+        ],
+        [
+          "2011 (N=1 516)",
+          34.8
+        ],
+        [
+          "2015 (N=1 506)",
+          37.9
+        ],
+        [
+          "2019 (N=2 108)",
+          43.9
         ]
       ],
       "name": "Eher sicher",
@@ -56,26 +188,92 @@
     },
     {
       "color": "#FFBB58",
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
-          "2003",
-          248
+          "*Alter",
+          null
         ],
         [
-          "2007",
-          285
+          "18-29 Jahre (n=155)",
+          12.9
         ],
         [
-          "2011",
-          353
+          "30-39 Jahre (n=322)",
+          14.9
         ],
         [
-          "2015",
-          335
+          "40-49 Jahre (n=305)",
+          13.1
         ],
         [
-          "2019",
-          442
+          "50-59 Jahre (n=364)",
+          19
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          23.7
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          30.3
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          17.8
+        ],
+        [
+          "Weiblich (n=1 161)",
+          23.3
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          22.2
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          23.1
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          15.4
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          16.6
+        ],
+        [
+          "2005 (N=1 510)",
+          16.9
+        ],
+        [
+          "2007 (N=1 509)",
+          18.9
+        ],
+        [
+          "2011 (N=1 516)",
+          23.3
+        ],
+        [
+          "2015 (N=1 506)",
+          22.2
+        ],
+        [
+          "2019 (N=2 108)",
+          21
         ]
       ],
       "name": "Eher unsicher",
@@ -83,26 +281,92 @@
     },
     {
       "color": "#DC440E",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
-          "2003",
-          87
+          "*Alter",
+          null
         ],
         [
-          "2007",
-          91
+          "18-29 Jahre (n=155)",
+          4.5
         ],
         [
-          "2011",
-          107
+          "30-39 Jahre (n=322)",
+          4
         ],
         [
-          "2015",
-          111
+          "40-49 Jahre (n=305)",
+          4.9
         ],
         [
-          "2019",
-          164
+          "50-59 Jahre (n=364)",
+          4.7
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          9.4
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          12.8
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          7.1
+        ],
+        [
+          "Weiblich (n=1 161)",
+          8.2
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          9.9
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          8.8
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          4.2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          5.8
+        ],
+        [
+          "2005 (N=1 510)",
+          6
+        ],
+        [
+          "2007 (N=1 509)",
+          6
+        ],
+        [
+          "2011 (N=1 516)",
+          7.1
+        ],
+        [
+          "2015 (N=1 506)",
+          7.4
+        ],
+        [
+          "2019 (N=2 108)",
+          7.8
         ]
       ],
       "name": "Ganz unsicher",
@@ -110,26 +374,92 @@
     },
     {
       "color": "#D3E2E4",
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
-          "2003",
-          116
+          "*Alter",
+          null
         ],
         [
-          "2007",
-          118
+          "18-29 Jahre (n=155)",
+          0
         ],
         [
-          "2011",
-          92
+          "30-39 Jahre (n=322)",
+          0
         ],
         [
-          "2015",
-          119
+          "40-49 Jahre (n=305)",
+          0.7
         ],
         [
-          "2019",
-          32
+          "50-59 Jahre (n=364)",
+          0.8
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          0.8
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          4.5
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          1.1
+        ],
+        [
+          "Weiblich (n=1 161)",
+          1.9
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          2.8
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          1.9
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          0.3
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          7.7
+        ],
+        [
+          "2005 (N=1 510)",
+          7.3
+        ],
+        [
+          "2007 (N=1 509)",
+          7.8
+        ],
+        [
+          "2011 (N=1 516)",
+          6.1
+        ],
+        [
+          "2015 (N=1 506)",
+          7.9
+        ],
+        [
+          "2019 (N=2 108)",
+          1.5
         ]
       ],
       "name": "Geht nachts nie raus",
@@ -137,26 +467,92 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
-          "2003",
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=155)",
+          1.3
+        ],
+        [
+          "30-39 Jahre (n=322)",
+          0.6
+        ],
+        [
+          "40-49 Jahre (n=305)",
           0
         ],
         [
-          "2007",
-          1
+          "50-59 Jahre (n=364)",
+          0.3
         ],
         [
-          "2011",
-          1
+          "60-69 Jahre (n=363)",
+          0
         ],
         [
-          "2015",
-          1
+          "\u003E69 Jahre (n=538)",
+          0.4
         ],
         [
-          "2019",
-          7
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=903)",
+          0.3
+        ],
+        [
+          "Weiblich (n=1 161)",
+          0.3
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          0
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          0.4
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          0.3
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003 (N=1 497)",
+          0
+        ],
+        [
+          "2005 (N=1 510)",
+          0.1
+        ],
+        [
+          "2007 (N=1 509)",
+          0.1
+        ],
+        [
+          "2011 (N=1 516)",
+          0.1
+        ],
+        [
+          "2015 (N=1 506)",
+          0.1
+        ],
+        [
+          "2019 (N=2 108)",
+          0.3
         ]
       ],
       "name": "Weiss nicht",
@@ -164,26 +560,92 @@
     },
     {
       "color": "#6F6F6F",
+      "index": 6,
+      "legendIndex": 0,
       "data": [
         [
-          "2003",
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=155)",
+          1.3
+        ],
+        [
+          "30-39 Jahre (n=322)",
+          0.3
+        ],
+        [
+          "40-49 Jahre (n=305)",
+          0.7
+        ],
+        [
+          "50-59 Jahre (n=364)",
+          1.1
+        ],
+        [
+          "60-69 Jahre (n=363)",
+          1.9
+        ],
+        [
+          "\u003E69 Jahre (n=538)",
+          3.9
+        ],
+        [
+          "*Geschlecht",
+          undefined
+        ],
+        [
+          "Männlich (n=903)",
+          1
+        ],
+        [
+          "Weiblich (n=1 161)",
+          2.3
+        ],
+        [
+          "*Haushaltseinkommen",
+          undefined
+        ],
+        [
+          "\u003C3 000 Fr. (n=252)",
+          3.2
+        ],
+        [
+          "3 000-7 499 Fr. (n=853)",
+          1.8
+        ],
+        [
+          "\u003E7 499 Fr. (n=688)",
+          0.9
+        ],
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2003 (N=1 497)",
           0
         ],
         [
-          "2007",
+          "2005 (N=1 510)",
           0
         ],
         [
-          "2011",
+          "2007 (N=1 509)",
           0
         ],
         [
-          "2015",
+          "2011 (N=1 516)",
           0
         ],
         [
-          "2019",
-          39
+          "2015 (N=1 506)",
+          0
+        ],
+        [
+          "2019 (N=2 108)",
+          1.9
         ]
       ],
       "name": "Keine Angabe",
@@ -203,78 +665,51 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
       "style": {
         "color": "#000000",
-        "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            }
+      "formatter": function () {
+                    //indentation of labels, except category-titles
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "height": 713,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "renderTo": "container-8456",
-    "spacingBottom": 40
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Sicherheitsgefühl nachts im Quartier"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt"
+    "renderTo": "container-8456"
   },
   "navigation": {
     "menuItemStyle": {
@@ -284,40 +719,76 @@
   },
   "plotOptions": {
     "series": {
+      "stacking": "percent",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "color": "#000000"
         }
-      },
-      "stacking": "percent"
+      }
     }
   },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Sicherheitsgefühl nachts im Quartier"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt"
+  },
   "yAxis": {
-    "tickInterval": 10,
+    "max": 100,
+    "tickInterval": 20,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
       "text": null
     },
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "color": "#000000"
       }
-    },
-    "reversedStacks": false
+    }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": true,
+    "useHTML": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "credits": {
     "enabled": true,
@@ -332,26 +803,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
-  },
-  "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 4,
-    "align": "left",
-    "useHTML": false,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-    
-          },
-    "reversed": false
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 1.3.2023"
   },
   "exporting": {
+    "allowHTML": true,
     "filename": "8456"
   }
 }

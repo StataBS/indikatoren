@@ -1513,12 +1513,11 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8505,
-			9682
+			8505
 		],
 		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2019 im Jura mit 90,8% am höchsten und entsprach damit nahezu dem Schweizer Schnitt von 90,9%. Die basellandschaftliche Quote lag mit 89,7% nur unwesentlich darunter. Den tiefsten Wert aller Kantone wies mit 85,0% der Kanton Basel-Stadt auf.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2020 im Kanton Basel-Landschaft mit 89,0% am höchsten. Er lag damit unter dem Schweizer Schnitt von 90,2%. Den tiefsten Wert aller Kantone wies mit 84,0% der Kanton Basel-Stadt auf.",
 		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -1546,7 +1545,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2023-03-01T09:02:26",
 		"id": 8445
 	},
 	{
@@ -1678,8 +1677,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2021, 4. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 21 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2019). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2022, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 24 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2020). Auch der Anteil in den Kantonen Basel-Stadt (19%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -1705,7 +1704,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:43",
+		"aktualisierungsdatum": "2023-03-01T09:02:24",
 		"id": 8863
 	},
 	{
