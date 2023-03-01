@@ -26,7 +26,7 @@
       labels: {
         format: "{value:,.0f}",
       },
-      max: 60000
+      //max: 60000
     },
     legend: {
       enabled: true,

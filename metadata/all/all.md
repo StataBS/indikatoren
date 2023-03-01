@@ -1264,7 +1264,7 @@ id | visible | visibleInPortal | indikatorenset
 7773 | true | false | Richtplan
 7774 | true | true | Richtplan
 7775 | true | true | Richtplan
-7777 | true | false | Richtplan
+7777 | true | true | Richtplan
 7778 | true | true | Richtplan
 7779 | true | true | Richtplan
 7782 | true | true | Richtplan
@@ -1591,7 +1591,7 @@ id | visible | visibleInPortal | indikatorenset
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
 8455 | true | false | Nachhaltigkeit
-8456 | true | false | Nachhaltigkeit
+8456 | true | true | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
 8458 | true | true | Nachhaltigkeit
 8459 | true | true | Nachhaltigkeit
@@ -2231,6 +2231,7 @@ id | visible | visibleInPortal | indikatorenset
 9687 | true | false | RR_KPI
 9691 | true | true | Innenstadt-QuiZ
 9693 | true | false | RR_KPI
+9734 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

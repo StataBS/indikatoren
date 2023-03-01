@@ -1,11 +1,13 @@
 (function () {
   return {
     "yAxis": {
+      tickInterval: 1,
       "labels": {
         "format": "{value:,.0f}",
       },
     },
     "xAxis": {
+      tickInterval: 1
       //"type": "category",
     },
     "legend": {

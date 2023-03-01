@@ -648,8 +648,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 – abgesehen vom Velovekehr – erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -673,7 +673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:21",
+		"aktualisierungsdatum": "2023-03-01T09:02:49",
 		"id": 6007
 	},
 	{
@@ -1084,36 +1084,21 @@ var indikatorensetData = [
 		"id": 7775
 	},
 	{
+		"template": "line001",
+		"data-id": 7777,
+		"chart-id": 7777,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8420
+		],
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"kuerzel": "I.11.6.07777",
-		"kuerzelKunde": "ST 11-2",
-		"description": "Jährlich durch Stau generierte Verzögerungszeit",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-04T16:56:52.5252",
-		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2019 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2021 rund 24%. Das bedeutet, dass eine durchschnittliche Reise 24% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. Nach dem deutlichen Rückgang zwischen 2019 und 2020, ist im Jahr 2021 in allen betrachteten Städten wieder ein Anstieg zu beobachten.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "05_11_00_00_00_002",
-		"parentId": 6156,
-		"children": [],
-		"renderLink": [],
 		"quellenangabe": [
 			"TomTom International"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
 			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
@@ -1121,9 +1106,26 @@ var indikatorensetData = [
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
-		"data-id": 7777,
-		"chart-id": 7777,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Jährlich durch Stau generierte Verzögerungszeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.07777",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 11-2",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_11_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:52",
 		"id": 7777
 	},
 	{

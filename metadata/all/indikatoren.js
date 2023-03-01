@@ -10438,10 +10438,10 @@ var indikatoren = [
 			8900,
 			8901
 		],
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. In 17,0% der Haushalte bezieht mindestens eine Person Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
+		"lesehilfe": "In 17,0% der Haushalte bezieht Ende 2021 mindestens eine Person reine Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -10451,12 +10451,12 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.05183",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW7",
+		"kuerzelKunde": "GW5",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10467,7 +10467,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:48",
+		"aktualisierungsdatum": "2023-03-01T09:02:44",
 		"id": 5183
 	},
 	{
@@ -11987,8 +11987,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 – abgesehen vom Velovekehr – erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -12013,7 +12013,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:21",
+		"aktualisierungsdatum": "2023-03-01T09:02:49",
 		"id": 6007
 	},
 	{
@@ -14201,14 +14201,13 @@ var indikatoren = [
 		"children": [
 			6656,
 			8255,
-			8377,
 			8526,
 			8952
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2021: 43 067) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2021: 27 219). Von 2002 (1 026) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -14233,7 +14232,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:45",
+		"aktualisierungsdatum": "2023-03-01T09:02:40",
 		"id": 6071
 	},
 	{
@@ -43568,45 +43567,43 @@ var indikatoren = [
 		"id": 7689
 	},
 	{
+		"template": "template001",
+		"data-id": 7690,
+		"chart-id": 7690,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7928"
+			7928
 		],
-		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.03.1.07690",
-		"kuerzelKunde": "3.09",
-		"description": "Anzahl Rotlichtsalons",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2022 insgesamt 15 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2022 im Kanton Basel-Stadt 119 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:05.055",
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07690",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.09",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 13 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2020 im Kanton Basel-Stadt 153 Rotlichtsalons registriert.",
-		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"orderKey": "03_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_009",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7690,
-		"chart-id": 7690,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:32",
 		"id": 7690
 	},
 	{
@@ -43651,45 +43648,43 @@ var indikatoren = [
 		"id": 7691
 	},
 	{
+		"template": "line001",
+		"data-id": 7692,
+		"chart-id": 7692,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7930
+		],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.09.1.07692",
-		"kuerzelKunde": "3.02",
-		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Die Bruttogeschossflächen Wohnen und Arbeiten haben im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 deutlich zugenommen.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet, sie sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07692",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.02",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche Wohnen hat im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 stärker zugenommen als die Bruttogeschossfläche Arbeiten.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summe der ober- und unterirdischen Grundflächen von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7930"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bau- und Verkehrsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7692,
-		"chart-id": 7692,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:29",
 		"id": 7692
 	},
 	{
@@ -43935,87 +43930,87 @@ var indikatoren = [
 		"id": 7698
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7937"
-		],
 		"template": "template001",
-		"title": "Bodenbedeckung nach Nutzungsart",
-		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07699",
-		"kuerzelKunde": "7.01",
-		"description": "Bodenbedeckung nach Nutzungsart",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2020: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2008: 59,3%; 2020: 24,8%) und die Grünflächen haben zugenommen (2008: 2,8%; 2020: 25,6%).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
-		],
 		"data-id": 7699,
 		"chart-id": 7699,
 		"filter": "",
-		"id": 7699
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7938"
+			7937
 		],
-		"template": "template001",
-		"title": "Grünflächen nach Kategorie",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07700",
-		"kuerzelKunde": "7.02",
-		"description": "Grünflächen nach Kategorie",
+		"title": "Bodenbedeckung nach Nutzungsart",
+		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2021: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2009: 56,7%; 2021: 24,8%) und die Grünflächen haben zugenommen (2009: 2,8%; 2021: 25,6%).",
+		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
+		"kuerzel": "I.02.1.07699",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.01",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2020 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
-		],
+		"aktualisierungsdatum": "2023-03-01T09:02:34",
+		"id": 7699
+	},
+	{
+		"template": "template001",
 		"data-id": 7700,
 		"chart-id": 7700,
 		"filter": "16",
+		"parentId": null,
+		"children": [
+			7938
+		],
+		"title": "Grünflächen nach Kategorie",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2021: 26 355 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07700",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.02",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:37",
 		"id": 7700
 	},
 	{
@@ -45766,37 +45761,21 @@ var indikatoren = [
 		"id": 7775
 	},
 	{
+		"template": "line001",
+		"data-id": 7777,
+		"chart-id": 7777,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8420
+		],
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"kuerzel": "I.11.6.07777",
-		"kuerzelKunde": "ST 11-2",
-		"description": "Jährlich durch Stau generierte Verzögerungszeit",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-04T16:56:52.5252",
-		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2019 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2021 rund 24%. Das bedeutet, dass eine durchschnittliche Reise 24% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. Nach dem deutlichen Rückgang zwischen 2019 und 2020, ist im Jahr 2021 in allen betrachteten Städten wieder ein Anstieg zu beobachten.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "05_11_00_00_00_002",
-		"parentId": 6156,
-		"children": [],
-		"renderLink": [],
 		"quellenangabe": [
 			"TomTom International"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
 			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
@@ -45804,9 +45783,27 @@ var indikatoren = [
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
-		"data-id": 7777,
-		"chart-id": 7777,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Jährlich durch Stau generierte Verzögerungszeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.07777",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 11-2",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_11_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:52",
 		"id": 7777
 	},
 	{
@@ -52437,43 +52434,41 @@ var indikatoren = [
 		"id": 8254
 	},
 	{
-		"parentId": 6071,
-		"children": [],
 		"template": "template001",
+		"data-id": 8255,
+		"chart-id": 8255,
+		"filter": "",
+		"parentId": "6071",
+		"children": [],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08255",
-		"kuerzelKunde": "1-25",
-		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:56.5656",
+		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08255",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-25",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2020: 43 322) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2020: 27 173). Von 2001 (864) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"orderKey": "01_02_00_00_00_125",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_02_00_00_00_125",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8255,
-		"chart-id": 8255,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:20",
 		"id": 8255
 	},
 	{
@@ -58501,12 +58496,11 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8505,
-			9682
+			8505
 		],
 		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2019 im Jura mit 90,8% am höchsten und entsprach damit nahezu dem Schweizer Schnitt von 90,9%. Die basellandschaftliche Quote lag mit 89,7% nur unwesentlich darunter. Den tiefsten Wert aller Kantone wies mit 85,0% der Kanton Basel-Stadt auf.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2020 im Kanton Basel-Landschaft mit 89,0% am höchsten. Er lag damit unter dem Schweizer Schnitt von 90,2%. Den tiefsten Wert aller Kantone wies mit 84,0% der Kanton Basel-Stadt auf.",
 		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -58535,7 +58529,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:22",
+		"aktualisierungsdatum": "2023-03-01T09:02:26",
 		"id": 8445
 	},
 	{
@@ -58899,43 +58893,41 @@ var indikatoren = [
 		"id": 8455
 	},
 	{
+		"template": "befragungenGrundauswertung001",
+		"data-id": 8456,
+		"chart-id": 8456,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt",
-		"kuerzel": "I.50.1.08456",
-		"kuerzelKunde": "GZ2",
-		"description": "Sicherheitsgefühl nachts im Quartier",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher. Das Sicherheitsgefühl nimmt mit zunehmendem Alter ab. Frauen fühlen sich weniger sicher als Männer. Befragte mit hohem Einkommen fühlen sich sicherer als jene mit tieferem Einkommen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:19:02.022",
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.08456",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ3",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"orderKey": "05_01_00_00_00_502",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "05_01_00_00_00_502",
-		"parentId": 4854,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4854,
-		"chart-id": 4854,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-01T09:02:47",
 		"id": 8456
 	},
 	{
@@ -66957,8 +66949,8 @@ var indikatoren = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2021, 4. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 21 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2019). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2022, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 24 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2020). Auch der Anteil in den Kantonen Basel-Stadt (19%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -66985,7 +66977,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:43",
+		"aktualisierungsdatum": "2023-03-01T09:02:24",
 		"id": 8863
 	},
 	{
@@ -83351,6 +83343,45 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-02-03T08:59:53",
 		"id": 9693
+	},
+	{
+		"template": "line001",
+		"data-id": 9734,
+		"chart-id": 9734,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. Nach kontinuierlichem Anstieg seit 2011 bleibt diese Quote seit 2017 stabil.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09734",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW17",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-01T09:02:42",
+		"id": 9734
 	},
 	{
 		"title": "Test Daten",

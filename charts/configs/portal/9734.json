@@ -1,54 +1,55 @@
 {
   "series": [
     {
-      "color": "#008AC3",
+      "color": "#007A2F",
+      "visible": true,
       "data": [
         [
           2011,
-          14.1
+          1.2
         ],
         [
           2012,
-          14.2
+          1.5
         ],
         [
           2013,
-          14.2
+          1.7
         ],
         [
           2014,
-          14.2
+          1.9
         ],
         [
           2015,
-          14
+          2
         ],
         [
           2016,
-          14.5
+          2.2
         ],
         [
           2017,
-          14.7
+          2.3
         ],
         [
           2018,
-          15
+          2.3
         ],
         [
           2019,
-          16.4
+          2.3
         ],
         [
           2020,
-          16.8
+          2.3
         ],
         [
           2021,
-          17
+          2.3
         ]
       ],
-      "name": "Prämienverbilligungen"
+      "name": "Familienmietzinsbeiträge"
     }
   ],
   "chart": {
@@ -80,7 +81,7 @@
 					}
 				}
     },
-    "renderTo": "container-5183"
+    "renderTo": "container-9734"
   },
   "plotOptions": {
     "series": {
@@ -103,7 +104,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Prämienverbilligungen"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -216,6 +217,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "5183"
+    "filename": "9734"
   }
 }

@@ -14,8 +14,9 @@
     },
     "series": [
       {
-        "color": "#008AC3",
-      }, /* dunkelrot */
+        "color": "#007A2F",
+        visible: true,
+      }, /* dunkelgrün */
     ],
     "legend": {
       "enabled": false,
