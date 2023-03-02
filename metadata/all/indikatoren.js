@@ -71133,7 +71133,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-23T09:03:33",
+		"aktualisierungsdatum": "2023-03-02T08:03:42",
 		"id": 8995
 	},
 	{
