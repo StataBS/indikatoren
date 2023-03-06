@@ -41175,8 +41175,8 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nach den spürbaren Teuerungszuwächsen in der ersten Jahreshälfte 2022 hat sich das Preisniveau seit Juli stabilisiert. Im Dezember erreichte der Basler Index der Konsumentenpreise wie schon im September, im Oktober und im November eine Jahresteuerung von 2,9%. Im Januar 2023 haben namentlich gestiegene IWB-Stromtarife sowie höhere Preise für Hotelübernachtungen gegenüber dem Vorjahr zu einer Teuerung von 3,0% geführt.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Dezember 2022 und Dezember 2021.",
+		"lesehilfe": "Im Lauf des Jahres 2022 hat sich die Jahresteuerung auf relativ hohem Niveau stabilisiert. Im neuen Jahr stieg der Wert nochmals etwas, auf zuletzt 3,4% im Februar 2023. Für die höhere Jahresteuerung sind in erster Linie gestiegene Preise für Flug- und Pauschalreisen sowie für die Parahotellerie verantwortlich.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Februar 2023 und Februar 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -41203,7 +41203,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-13T08:37:20",
+		"aktualisierungsdatum": "2023-03-06T08:44:56",
 		"id": 7512
 	},
 	{
@@ -41242,7 +41242,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-06T08:25:54",
+		"aktualisierungsdatum": "2023-03-06T08:44:57",
 		"id": 7513
 	},
 	{
