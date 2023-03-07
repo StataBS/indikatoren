@@ -1094,42 +1094,40 @@ var indikatorensetData = [
 		"id": 8408
 	},
 	{
+		"template": "befragungen001_print",
+		"data-id": 8409,
+		"chart-id": 8409,
+		"filter": "",
+		"parentId": "4870",
+		"children": [],
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?», Basel-Stadt",
-		"kuerzel": "I.50.3.08409",
-		"kuerzelKunde": "3.3.01",
-		"description": "Engagement in Organisationen und Vereinen",
-		"thema": "50 Befragungen",
-		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T11:18:56.5656",
+		"description": "Engagement in Organisationen und Vereinen",
+		"thema": "50 Befragungen",
+		"unterthema": "Jugendbefragung",
+		"kuerzel": "I.50.3.08409",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"kuerzelKunde": "3.3.01",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001_print",
+		"orderKey": "03_03_00_00_00_061",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_061",
-		"parentId": 4870,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8409,
-		"chart-id": 8409,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:20:01",
 		"id": 8409
 	},
 	{
