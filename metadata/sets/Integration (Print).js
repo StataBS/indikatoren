@@ -526,8 +526,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2021: 43 067) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2021: 27 219). Von 2002 (1 026) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -551,7 +551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:46",
+		"aktualisierungsdatum": "2023-03-07T08:20:20",
 		"id": 6656
 	},
 	{
@@ -562,9 +562,9 @@ var indikatorensetData = [
 		"parentId": "6072",
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (81,5%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (31,6%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (16,7%).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (79,8%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,0%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (14,6%).",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -588,7 +588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:46",
+		"aktualisierungsdatum": "2023-03-07T08:20:21",
 		"id": 6657
 	},
 	{

@@ -1,379 +1,337 @@
-﻿Publikationsjahr	Indikator_Nr	jahr_num	jahr_char	Wert	Indikator_Label	Indikator_Name	Wohnviertel_id	Wohnviertel	Rang
-2019	1	2018	2018	0.0115429011	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	1	Altstadt Grossbasel	1
-2019	1	2018	2018	0.0357071614	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	2	Vorstädte	7
-2019	1	2018	2018	0.0322580645	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	3	Am Ring	5
-2019	1	2018	2018	0.0569521691	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	4	Breite	12
-2019	1	2018	2018	0.0382347841	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	5	St. Alban	9
-2019	1	2018	2018	0.0738590979	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	6	Gundeldingen	14
-2019	1	2018	2018	0.0189163193	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	7	Bruderholz	3
-2019	1	2018	2018	0.0259136213	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	8	Bachletten	4
-2019	1	2018	2018	0.0442618224	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	9	Gotthelf	10
-2019	1	2018	2018	0.0956025196	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	10	Iselin	17
-2019	1	2018	2018	0.0866516806	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	11	St. Johann	15
-2019	1	2018	2018	0.0678936605	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	12	Altstadt Kleinbasel	13
-2019	1	2018	2018	0.0877021068	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	13	Clara	16
-2019	1	2018	2018	0.0330935252	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	14	Wettstein	6
-2019	1	2018	2018	0.0496960648	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	15	Hirzbrunnen	11
-2019	1	2018	2018	0.1030701754	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	16	Rosental	18
-2019	1	2018	2018	0.1157151041	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	17	Matthäus	19
-2019	1	2018	2018	0.1373920197	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	18	Klybeck	21
-2019	1	2018	2018	0.1263121064	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	19	Kleinhüningen	20
-2019	1	2018	2018	0.0370197687	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	20	Riehen	8
-2019	1	2018	2018	0.0148392415	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	30	Bettingen	2
-2019	2	2018	2018	0.2808772605	Anteil&nbsp;Ausländer	Auslaenderanteil	1	Altstadt Grossbasel	6
-2019	2	2018	2018	0.3810093756	Anteil&nbsp;Ausländer	Auslaenderanteil	2	Vorstädte	13
-2019	2	2018	2018	0.3687414811	Anteil&nbsp;Ausländer	Auslaenderanteil	3	Am Ring	11
-2019	2	2018	2018	0.3380422692	Anteil&nbsp;Ausländer	Auslaenderanteil	4	Breite	9
-2019	2	2018	2018	0.344980059	Anteil&nbsp;Ausländer	Auslaenderanteil	5	St. Alban	10
-2019	2	2018	2018	0.3955482188	Anteil&nbsp;Ausländer	Auslaenderanteil	6	Gundeldingen	15
-2019	2	2018	2018	0.2469808699	Anteil&nbsp;Ausländer	Auslaenderanteil	7	Bruderholz	3
-2019	2	2018	2018	0.2174234035	Anteil&nbsp;Ausländer	Auslaenderanteil	8	Bachletten	1
-2019	2	2018	2018	0.283160323	Anteil&nbsp;Ausländer	Auslaenderanteil	9	Gotthelf	7
-2019	2	2018	2018	0.3839995291	Anteil&nbsp;Ausländer	Auslaenderanteil	10	Iselin	14
-2019	2	2018	2018	0.434435881	Anteil&nbsp;Ausländer	Auslaenderanteil	11	St. Johann	16
-2019	2	2018	2018	0.3762781186	Anteil&nbsp;Ausländer	Auslaenderanteil	12	Altstadt Kleinbasel	12
-2019	2	2018	2018	0.4706026458	Anteil&nbsp;Ausländer	Auslaenderanteil	13	Clara	17
-2019	2	2018	2018	0.3188848921	Anteil&nbsp;Ausländer	Auslaenderanteil	14	Wettstein	8
-2019	2	2018	2018	0.2492268316	Anteil&nbsp;Ausländer	Auslaenderanteil	15	Hirzbrunnen	4
-2019	2	2018	2018	0.556871345	Anteil&nbsp;Ausländer	Auslaenderanteil	16	Rosental	21
-2019	2	2018	2018	0.5079880339	Anteil&nbsp;Ausländer	Auslaenderanteil	17	Matthäus	19
-2019	2	2018	2018	0.5220074044	Anteil&nbsp;Ausländer	Auslaenderanteil	18	Klybeck	20
-2019	2	2018	2018	0.4797060882	Anteil&nbsp;Ausländer	Auslaenderanteil	19	Kleinhüningen	18
-2019	2	2018	2018	0.2661786647	Anteil&nbsp;Ausländer	Auslaenderanteil	20	Riehen	5
-2019	2	2018	2018	0.2464962902	Anteil&nbsp;Ausländer	Auslaenderanteil	30	Bettingen	2
-2019	3	2018	2018	0.5225086572	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	1	Altstadt Grossbasel	18
-2019	3	2018	2018	0.5487731897	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	2	Vorstädte	19
-2019	3	2018	2018	0.5197637438	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	3	Am Ring	17
-2019	3	2018	2018	0.4952169077	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	4	Breite	13
-2019	3	2018	2018	0.5086700191	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	5	St. Alban	16
-2019	3	2018	2018	0.4617924277	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	6	Gundeldingen	6
-2019	3	2018	2018	0.4916105589	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	7	Bruderholz	11
-2019	3	2018	2018	0.4939091916	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	8	Bachletten	12
-2019	3	2018	2018	0.5082179931	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	9	Gotthelf	15
-2019	3	2018	2018	0.4605286395	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	10	Iselin	5
-2019	3	2018	2018	0.4767180475	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	11	St. Johann	9
-2019	3	2018	2018	0.5713701431	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	12	Altstadt Kleinbasel	21
-2019	3	2018	2018	0.4728074473	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	13	Clara	8
-2019	3	2018	2018	0.554676259	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	14	Wettstein	20
-2019	3	2018	2018	0.4995201024	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	15	Hirzbrunnen	14
-2019	3	2018	2018	0.4308479532	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	16	Rosental	3
-2019	3	2018	2018	0.4695436319	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	17	Matthäus	7
-2019	3	2018	2018	0.4179350062	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	18	Klybeck	2
-2019	3	2018	2018	0.3960811756	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	19	Kleinhüningen	1
-2019	3	2018	2018	0.4874114137	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	20	Riehen	10
-2019	3	2018	2018	0.4460016488	Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit	Anteilkonfessionslose	30	Bettingen	4
-2019	4	2018	2018	0.2977608385	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	1	Altstadt Grossbasel	19
-2019	4	2018	2018	0.3196893367	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	2	Vorstädte	20
-2019	4	2018	2018	0.2763740045	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	3	Am Ring	16
-2019	4	2018	2018	0.2770660923	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	4	Breite	17
-2019	4	2018	2018	0.2372775244	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	5	St. Alban	10
-2019	4	2018	2018	0.2723180388	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	6	Gundeldingen	15
-2019	4	2018	2018	0.1524556245	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	7	Bruderholz	2
-2019	4	2018	2018	0.2106009705	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	8	Bachletten	6
-2019	4	2018	2018	0.2808791209	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	9	Gotthelf	18
-2019	4	2018	2018	0.2655370579	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	10	Iselin	14
-2019	4	2018	2018	0.2306659205	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	11	St. Johann	9
-2019	4	2018	2018	0.3347845015	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	12	Altstadt Kleinbasel	21
-2019	4	2018	2018	0.2634854772	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	13	Clara	13
-2019	4	2018	2018	0.2585888437	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	14	Wettstein	12
-2019	4	2018	2018	0.1870076616	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	15	Hirzbrunnen	4
-2019	4	2018	2018	0.2162282657	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	16	Rosental	7
-2019	4	2018	2018	0.2474408294	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	17	Matthäus	11
-2019	4	2018	2018	0.2196580008	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	18	Klybeck	8
-2019	4	2018	2018	0.1893939394	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	19	Kleinhüningen	5
-2019	4	2018	2018	0.1649818806	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	20	Riehen	3
-2019	4	2018	2018	0.1357798165	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	30	Bettingen	1
-2019	5	2018	2018	0.6153846154	Gymnasialquote	Gymnasialquote	1	Altstadt Grossbasel	18
-2019	5	2018	2018	0.2916666667	Gymnasialquote	Gymnasialquote	2	Vorstädte	7
-2019	5	2018	2018	0.5346534653	Gymnasialquote	Gymnasialquote	3	Am Ring	15
-2019	5	2018	2018	0.2631578947	Gymnasialquote	Gymnasialquote	4	Breite	4
-2019	5	2018	2018	0.4888888889	Gymnasialquote	Gymnasialquote	5	St. Alban	13
-2019	5	2018	2018	0.2602040816	Gymnasialquote	Gymnasialquote	6	Gundeldingen	3
-2019	5	2018	2018	0.6585365854	Gymnasialquote	Gymnasialquote	7	Bruderholz	20
-2019	5	2018	2018	0.6262135922	Gymnasialquote	Gymnasialquote	8	Bachletten	19
-2019	5	2018	2018	0.5161290323	Gymnasialquote	Gymnasialquote	9	Gotthelf	14
-2019	5	2018	2018	0.3347107438	Gymnasialquote	Gymnasialquote	10	Iselin	10
-2019	5	2018	2018	0.3632478632	Gymnasialquote	Gymnasialquote	11	St. Johann	11
-2019	5	2018	2018	0.3333333333	Gymnasialquote	Gymnasialquote	12	Altstadt Kleinbasel	9
-2019	5	2018	2018	0.2954545455	Gymnasialquote	Gymnasialquote	13	Clara	8
-2019	5	2018	2018	0.6612903226	Gymnasialquote	Gymnasialquote	14	Wettstein	21
-2019	5	2018	2018	0.3656716418	Gymnasialquote	Gymnasialquote	15	Hirzbrunnen	12
-2019	5	2018	2018	0.2164948454	Gymnasialquote	Gymnasialquote	16	Rosental	2
-2019	5	2018	2018	0.2648648649	Gymnasialquote	Gymnasialquote	17	Matthäus	5
-2019	5	2018	2018	0.1640625	Gymnasialquote	Gymnasialquote	18	Klybeck	1
-2019	5	2018	2018	0.2708333333	Gymnasialquote	Gymnasialquote	19	Kleinhüningen	6
-2019	5	2018	2018	0.5482233503	Gymnasialquote	Gymnasialquote	20	Riehen	17
-2019	5	2018	2018	0.5416666667	Gymnasialquote	Gymnasialquote	30	Bettingen	16
-2019	6	2018	2018	0.2898389783	Altersquotient	Altersquotient	1	Altstadt Grossbasel	8
-2019	6	2018	2018	0.3728395062	Altersquotient	Altersquotient	2	Vorstädte	16
-2019	6	2018	2018	0.332059448	Altersquotient	Altersquotient	3	Am Ring	11
-2019	6	2018	2018	0.3336211362	Altersquotient	Altersquotient	4	Breite	12
-2019	6	2018	2018	0.438564752	Altersquotient	Altersquotient	5	St. Alban	20
-2019	6	2018	2018	0.2208146856	Altersquotient	Altersquotient	6	Gundeldingen	4
-2019	6	2018	2018	0.410793163	Altersquotient	Altersquotient	7	Bruderholz	17
-2019	6	2018	2018	0.3619339045	Altersquotient	Altersquotient	8	Bachletten	15
-2019	6	2018	2018	0.3460736623	Altersquotient	Altersquotient	9	Gotthelf	14
-2019	6	2018	2018	0.2501557355	Altersquotient	Altersquotient	10	Iselin	6
-2019	6	2018	2018	0.2311418136	Altersquotient	Altersquotient	11	St. Johann	5
-2019	6	2018	2018	0.2828520919	Altersquotient	Altersquotient	12	Altstadt Kleinbasel	7
-2019	6	2018	2018	0.338606403	Altersquotient	Altersquotient	13	Clara	13
-2019	6	2018	2018	0.2913961039	Altersquotient	Altersquotient	14	Wettstein	9
-2019	6	2018	2018	0.4215000945	Altersquotient	Altersquotient	15	Hirzbrunnen	18
-2019	6	2018	2018	0.1240057108	Altersquotient	Altersquotient	16	Rosental	1
-2019	6	2018	2018	0.181429716	Altersquotient	Altersquotient	17	Matthäus	2
-2019	6	2018	2018	0.2086920869	Altersquotient	Altersquotient	18	Klybeck	3
-2019	6	2018	2018	0.293951385	Altersquotient	Altersquotient	19	Kleinhüningen	10
-2019	6	2018	2018	0.4799064611	Altersquotient	Altersquotient	20	Riehen	21
-2019	6	2018	2018	0.4244186047	Altersquotient	Altersquotient	30	Bettingen	19
-2019	7	2018	2018	0.3150434385	Anteil&nbsp;Sesshafte	Anteilsesshafte	1	Altstadt Grossbasel	6
-2019	7	2018	2018	0.2802712946	Anteil&nbsp;Sesshafte	Anteilsesshafte	2	Vorstädte	2
-2019	7	2018	2018	0.3015496809	Anteil&nbsp;Sesshafte	Anteilsesshafte	3	Am Ring	4
-2019	7	2018	2018	0.346051168	Anteil&nbsp;Sesshafte	Anteilsesshafte	4	Breite	13
-2019	7	2018	2018	0.3256459164	Anteil&nbsp;Sesshafte	Anteilsesshafte	5	St. Alban	10
-2019	7	2018	2018	0.3186005645	Anteil&nbsp;Sesshafte	Anteilsesshafte	6	Gundeldingen	8
-2019	7	2018	2018	0.4236400556	Anteil&nbsp;Sesshafte	Anteilsesshafte	7	Bruderholz	20
-2019	7	2018	2018	0.4174972315	Anteil&nbsp;Sesshafte	Anteilsesshafte	8	Bachletten	19
-2019	7	2018	2018	0.35683391	Anteil&nbsp;Sesshafte	Anteilsesshafte	9	Gotthelf	15
-2019	7	2018	2018	0.3337257903	Anteil&nbsp;Sesshafte	Anteilsesshafte	10	Iselin	11
-2019	7	2018	2018	0.3235693712	Anteil&nbsp;Sesshafte	Anteilsesshafte	11	St. Johann	9
-2019	7	2018	2018	0.2862985685	Anteil&nbsp;Sesshafte	Anteilsesshafte	12	Altstadt Kleinbasel	3
-2019	7	2018	2018	0.3155435317	Anteil&nbsp;Sesshafte	Anteilsesshafte	13	Clara	7
-2019	7	2018	2018	0.3606115108	Anteil&nbsp;Sesshafte	Anteilsesshafte	14	Wettstein	16
-2019	7	2018	2018	0.4000213288	Anteil&nbsp;Sesshafte	Anteilsesshafte	15	Hirzbrunnen	17
-2019	7	2018	2018	0.2043859649	Anteil&nbsp;Sesshafte	Anteilsesshafte	16	Rosental	1
-2019	7	2018	2018	0.3063362289	Anteil&nbsp;Sesshafte	Anteilsesshafte	17	Matthäus	5
-2019	7	2018	2018	0.3448512272	Anteil&nbsp;Sesshafte	Anteilsesshafte	18	Klybeck	12
-2019	7	2018	2018	0.355143457	Anteil&nbsp;Sesshafte	Anteilsesshafte	19	Kleinhüningen	14
-2019	7	2018	2018	0.4254942186	Anteil&nbsp;Sesshafte	Anteilsesshafte	20	Riehen	21
-2019	7	2018	2018	0.4089035449	Anteil&nbsp;Sesshafte	Anteilsesshafte	30	Bettingen	18
-2019	8	2018	2018	0.1532481954	Jugendquotient	Jugendquotient	1	Altstadt Grossbasel	1
-2019	8	2018	2018	0.174382716	Jugendquotient	Jugendquotient	2	Vorstädte	3
-2019	8	2018	2018	0.2256192498	Jugendquotient	Jugendquotient	3	Am Ring	9
-2019	8	2018	2018	0.2187877741	Jugendquotient	Jugendquotient	4	Breite	8
-2019	8	2018	2018	0.3003165988	Jugendquotient	Jugendquotient	5	St. Alban	16
-2019	8	2018	2018	0.203671395	Jugendquotient	Jugendquotient	6	Gundeldingen	5
-2019	8	2018	2018	0.38621087	Jugendquotient	Jugendquotient	7	Bruderholz	21
-2019	8	2018	2018	0.2959608323	Jugendquotient	Jugendquotient	8	Bachletten	15
-2019	8	2018	2018	0.2605976372	Jugendquotient	Jugendquotient	9	Gotthelf	11
-2019	8	2018	2018	0.2615466762	Jugendquotient	Jugendquotient	10	Iselin	12
-2019	8	2018	2018	0.2524217882	Jugendquotient	Jugendquotient	11	St. Johann	10
-2019	8	2018	2018	0.1579257513	Jugendquotient	Jugendquotient	12	Altstadt Kleinbasel	2
-2019	8	2018	2018	0.1988700565	Jugendquotient	Jugendquotient	13	Clara	4
-2019	8	2018	2018	0.2129329004	Jugendquotient	Jugendquotient	14	Wettstein	6
-2019	8	2018	2018	0.3500850179	Jugendquotient	Jugendquotient	15	Hirzbrunnen	19
-2019	8	2018	2018	0.2710585356	Jugendquotient	Jugendquotient	16	Rosental	13
-2019	8	2018	2018	0.2172171281	Jugendquotient	Jugendquotient	17	Matthäus	7
-2019	8	2018	2018	0.2863878639	Jugendquotient	Jugendquotient	18	Klybeck	14
-2019	8	2018	2018	0.3216506501	Jugendquotient	Jugendquotient	19	Kleinhüningen	17
-2019	8	2018	2018	0.377706565	Jugendquotient	Jugendquotient	20	Riehen	20
-2019	8	2018	2018	0.3386627907	Jugendquotient	Jugendquotient	30	Bettingen	18
-2019	9	2018	2018	1823.16	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	1	Altstadt Grossbasel	1
-2019	9	2018	2018	1899.0847145	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	2	Vorstädte	3
-2019	9	2018	2018	1919.0706383	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	3	Am Ring	4
-2019	9	2018	2018	1941.2268657	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	4	Breite	15
-2019	9	2018	2018	1939.0912898	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	5	St. Alban	14
-2019	9	2018	2018	1932.3062937	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	6	Gundeldingen	8
-2019	9	2018	2018	1949.2155832	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	7	Bruderholz	18
-2019	9	2018	2018	1934.3406462	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	8	Bachletten	11
-2019	9	2018	2018	1924.7160368	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	9	Gotthelf	5
-2019	9	2018	2018	1937.385989	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	10	Iselin	13
-2019	9	2018	2018	1933.2118421	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	11	St. Johann	9
-2019	9	2018	2018	1880.7092199	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	12	Altstadt Kleinbasel	2
-2019	9	2018	2018	1929.2055336	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	13	Clara	7
-2019	9	2018	2018	1933.3366337	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	14	Wettstein	10
-2019	9	2018	2018	1942.1621622	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	15	Hirzbrunnen	16
-2019	9	2018	2018	1950.2	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	16	Rosental	19
-2019	9	2018	2018	1925.2362205	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	17	Matthäus	6
-2019	9	2018	2018	1937.3478261	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	18	Klybeck	12
-2019	9	2018	2018	1946.3493976	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	19	Kleinhüningen	17
-2019	9	2018	2018	1957.7917973	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	20	Riehen	20
-2019	9	2018	2018	1962.1282051	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	30	Bettingen	21
-2019	10	2018	2018	0.102	Anteil Einfamilienhäuser	Anteileinfhaeuser	1	Altstadt Grossbasel	8
-2019	10	2018	2018	0.0773480663	Anteil Einfamilienhäuser	Anteileinfhaeuser	2	Vorstädte	6
-2019	10	2018	2018	0.1957446809	Anteil Einfamilienhäuser	Anteileinfhaeuser	3	Am Ring	12
-2019	10	2018	2018	0.1343283582	Anteil Einfamilienhäuser	Anteileinfhaeuser	4	Breite	9
-2019	10	2018	2018	0.3358458961	Anteil Einfamilienhäuser	Anteileinfhaeuser	5	St. Alban	15
-2019	10	2018	2018	0.0293706294	Anteil Einfamilienhäuser	Anteileinfhaeuser	6	Gundeldingen	2
-2019	10	2018	2018	0.7323135755	Anteil Einfamilienhäuser	Anteileinfhaeuser	7	Bruderholz	20
-2019	10	2018	2018	0.5592341444	Anteil Einfamilienhäuser	Anteileinfhaeuser	8	Bachletten	17
-2019	10	2018	2018	0.3697650664	Anteil Einfamilienhäuser	Anteileinfhaeuser	9	Gotthelf	16
-2019	10	2018	2018	0.1662087912	Anteil Einfamilienhäuser	Anteileinfhaeuser	10	Iselin	11
-2019	10	2018	2018	0.2480263158	Anteil Einfamilienhäuser	Anteileinfhaeuser	11	St. Johann	13
-2019	10	2018	2018	0.0992907801	Anteil Einfamilienhäuser	Anteileinfhaeuser	12	Altstadt Kleinbasel	7
-2019	10	2018	2018	0.023715415	Anteil Einfamilienhäuser	Anteileinfhaeuser	13	Clara	1
-2019	10	2018	2018	0.3338048091	Anteil Einfamilienhäuser	Anteileinfhaeuser	14	Wettstein	14
-2019	10	2018	2018	0.69327467	Anteil Einfamilienhäuser	Anteileinfhaeuser	15	Hirzbrunnen	19
-2019	10	2018	2018	0.068852459	Anteil Einfamilienhäuser	Anteileinfhaeuser	16	Rosental	3
-2019	10	2018	2018	0.0708661417	Anteil Einfamilienhäuser	Anteileinfhaeuser	17	Matthäus	4
-2019	10	2018	2018	0.0709382151	Anteil Einfamilienhäuser	Anteileinfhaeuser	18	Klybeck	5
-2019	10	2018	2018	0.156626506	Anteil Einfamilienhäuser	Anteileinfhaeuser	19	Kleinhüningen	10
-2019	10	2018	2018	0.656212304	Anteil Einfamilienhäuser	Anteileinfhaeuser	20	Riehen	18
-2019	10	2018	2018	0.7916666667	Anteil Einfamilienhäuser	Anteileinfhaeuser	30	Bettingen	21
-2019	11	2018	2018	0.067259476	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	1	Altstadt Grossbasel	1
-2019	11	2018	2018	0.1947071744	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	2	Vorstädte	8
-2019	11	2018	2018	0.2415029502	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	3	Am Ring	10
-2019	11	2018	2018	0.3599290089	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	4	Breite	15
-2019	11	2018	2018	0.3251612185	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	5	St. Alban	14
-2019	11	2018	2018	0.1759519674	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	6	Gundeldingen	7
-2019	11	2018	2018	0.7130779141	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	7	Bruderholz	19
-2019	11	2018	2018	0.4134473173	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	8	Bachletten	17
-2019	11	2018	2018	0.322336817	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	9	Gotthelf	13
-2019	11	2018	2018	0.3676661667	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	10	Iselin	16
-2019	11	2018	2018	0.2842565586	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	11	St. Johann	12
-2019	11	2018	2018	0.0809475552	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	12	Altstadt Kleinbasel	2
-2019	11	2018	2018	0.1596210671	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	13	Clara	5
-2019	11	2018	2018	0.2792035016	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	14	Wettstein	11
-2019	11	2018	2018	0.5926365548	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	15	Hirzbrunnen	18
-2019	11	2018	2018	0.1400398587	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	16	Rosental	4
-2019	11	2018	2018	0.1653432841	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	17	Matthäus	6
-2019	11	2018	2018	0.1199746955	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	18	Klybeck	3
-2019	11	2018	2018	0.2255022919	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	19	Kleinhüningen	9
-2019	11	2018	2018	0.7962272279	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	20	Riehen	20
-2019	11	2018	2018	0.9017231209	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	30	Bettingen	21
-2019	12	2018	2018	89.764261168	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	1	Altstadt Grossbasel	16
-2019	12	2018	2018	82.107153371	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	2	Vorstädte	14
-2019	12	2018	2018	81.975544336	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	3	Am Ring	13
-2019	12	2018	2018	70.169032499	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	4	Breite	6
-2019	12	2018	2018	93.409726538	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	5	St. Alban	18
-2019	12	2018	2018	70.318120925	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	6	Gundeldingen	7
-2019	12	2018	2018	109.46916648	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	7	Bruderholz	20
-2019	12	2018	2018	92.818792867	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	8	Bachletten	17
-2019	12	2018	2018	74.558432132	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	9	Gotthelf	11
-2019	12	2018	2018	68.644185571	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	10	Iselin	4
-2019	12	2018	2018	71.702207331	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	11	St. Johann	10
-2019	12	2018	2018	71.346925972	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	12	Altstadt Kleinbasel	9
-2019	12	2018	2018	66.433217693	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	13	Clara	2
-2019	12	2018	2018	83.103856666	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	14	Wettstein	15
-2019	12	2018	2018	81.079755892	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	15	Hirzbrunnen	12
-2019	12	2018	2018	69.496442255	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	16	Rosental	5
-2019	12	2018	2018	67.260189147	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	17	Matthäus	3
-2019	12	2018	2018	65.501328374	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	18	Klybeck	1
-2019	12	2018	2018	70.376193975	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	19	Kleinhüningen	8
-2019	12	2018	2018	102.7498071	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	20	Riehen	19
-2019	12	2018	2018	121.21188119	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	30	Bettingen	21
-2019	13	2018	2018	53.158121706	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	1	Altstadt Grossbasel	21
-2019	13	2018	2018	49.837307449	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	2	Vorstädte	19
-2019	13	2018	2018	45.35195972	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	3	Am Ring	14
-2019	13	2018	2018	38.580147476	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	4	Breite	9
-2019	13	2018	2018	48.422274199	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	5	St. Alban	17
-2019	13	2018	2018	38.334746684	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	6	Gundeldingen	8
-2019	13	2018	2018	48.463106267	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	7	Bruderholz	18
-2019	13	2018	2018	46.271230827	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	8	Bachletten	15
-2019	13	2018	2018	40.865903756	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	9	Gotthelf	11
-2019	13	2018	2018	36.415617577	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	10	Iselin	7
-2019	13	2018	2018	36.361505244	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	11	St. Johann	6
-2019	13	2018	2018	42.766153846	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	12	Altstadt Kleinbasel	12
-2019	13	2018	2018	36.286571056	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	13	Clara	5
-2019	13	2018	2018	45.328020756	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	14	Wettstein	13
-2019	13	2018	2018	38.913104491	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	15	Hirzbrunnen	10
-2019	13	2018	2018	33.602657907	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	16	Rosental	3
-2019	13	2018	2018	34.932337722	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	17	Matthäus	4
-2019	13	2018	2018	31.766005032	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	18	Klybeck	1
-2019	13	2018	2018	32.244484629	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	19	Kleinhüningen	2
-2019	13	2018	2018	47.529964691	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	20	Riehen	16
-2019	13	2018	2018	52.784728611	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	30	Bettingen	20
-2019	14	2016	Steuerjahr 2016	5639.5632458	Vermögenssteuer	Vermoegenssteuer	1	Altstadt Grossbasel	17
-2019	14	2016	Steuerjahr 2016	6521.1233466	Vermögenssteuer	Vermoegenssteuer	2	Vorstädte	19
-2019	14	2016	Steuerjahr 2016	2158.1149239	Vermögenssteuer	Vermoegenssteuer	3	Am Ring	13
-2019	14	2016	Steuerjahr 2016	563.2334935	Vermögenssteuer	Vermoegenssteuer	4	Breite	7
-2019	14	2016	Steuerjahr 2016	5697.8093081	Vermögenssteuer	Vermoegenssteuer	5	St. Alban	18
-2019	14	2016	Steuerjahr 2016	561.93371932	Vermögenssteuer	Vermoegenssteuer	6	Gundeldingen	6
-2019	14	2016	Steuerjahr 2016	18285.117337	Vermögenssteuer	Vermoegenssteuer	7	Bruderholz	21
-2019	14	2016	Steuerjahr 2016	2190.337709	Vermögenssteuer	Vermoegenssteuer	8	Bachletten	14
-2019	14	2016	Steuerjahr 2016	3957.3872421	Vermögenssteuer	Vermoegenssteuer	9	Gotthelf	16
-2019	14	2016	Steuerjahr 2016	430.87557936	Vermögenssteuer	Vermoegenssteuer	10	Iselin	4
-2019	14	2016	Steuerjahr 2016	575.16967243	Vermögenssteuer	Vermoegenssteuer	11	St. Johann	9
-2019	14	2016	Steuerjahr 2016	1406.173482	Vermögenssteuer	Vermoegenssteuer	12	Altstadt Kleinbasel	11
-2019	14	2016	Steuerjahr 2016	534.14120083	Vermögenssteuer	Vermoegenssteuer	13	Clara	5
-2019	14	2016	Steuerjahr 2016	1568.4051447	Vermögenssteuer	Vermoegenssteuer	14	Wettstein	12
-2019	14	2016	Steuerjahr 2016	771.02751952	Vermögenssteuer	Vermoegenssteuer	15	Hirzbrunnen	10
-2019	14	2016	Steuerjahr 2016	318.34641689	Vermögenssteuer	Vermoegenssteuer	16	Rosental	3
-2019	14	2016	Steuerjahr 2016	568.75968476	Vermögenssteuer	Vermoegenssteuer	17	Matthäus	8
-2019	14	2016	Steuerjahr 2016	182.96207936	Vermögenssteuer	Vermoegenssteuer	18	Klybeck	1
-2019	14	2016	Steuerjahr 2016	195.16423589	Vermögenssteuer	Vermoegenssteuer	19	Kleinhüningen	2
-2019	14	2016	Steuerjahr 2016	3716.3038432	Vermögenssteuer	Vermoegenssteuer	20	Riehen	15
-2019	14	2016	Steuerjahr 2016	14657.565978	Vermögenssteuer	Vermoegenssteuer	30	Bettingen	20
-2019	15	2016	Steuerjahr 2016	16990.146778	Einkommenssteuer	Einkommenssteuer	1	Altstadt Grossbasel	18
-2019	15	2016	Steuerjahr 2016	17096.20668	Einkommenssteuer	Einkommenssteuer	2	Vorstädte	19
-2019	15	2016	Steuerjahr 2016	11445.527517	Einkommenssteuer	Einkommenssteuer	3	Am Ring	14
-2019	15	2016	Steuerjahr 2016	7393.6547428	Einkommenssteuer	Einkommenssteuer	4	Breite	9
-2019	15	2016	Steuerjahr 2016	16688.864751	Einkommenssteuer	Einkommenssteuer	5	St. Alban	17
-2019	15	2016	Steuerjahr 2016	7375.8589699	Einkommenssteuer	Einkommenssteuer	6	Gundeldingen	8
-2019	15	2016	Steuerjahr 2016	22172.442991	Einkommenssteuer	Einkommenssteuer	7	Bruderholz	20
-2019	15	2016	Steuerjahr 2016	11819.752941	Einkommenssteuer	Einkommenssteuer	8	Bachletten	15
-2019	15	2016	Steuerjahr 2016	8627.8316339	Einkommenssteuer	Einkommenssteuer	9	Gotthelf	11
-2019	15	2016	Steuerjahr 2016	6251.5611288	Einkommenssteuer	Einkommenssteuer	10	Iselin	3
-2019	15	2016	Steuerjahr 2016	6657.9447	Einkommenssteuer	Einkommenssteuer	11	St. Johann	6
-2019	15	2016	Steuerjahr 2016	9082.149938	Einkommenssteuer	Einkommenssteuer	12	Altstadt Kleinbasel	12
-2019	15	2016	Steuerjahr 2016	6362.7900621	Einkommenssteuer	Einkommenssteuer	13	Clara	4
-2019	15	2016	Steuerjahr 2016	11237.065478	Einkommenssteuer	Einkommenssteuer	14	Wettstein	13
-2019	15	2016	Steuerjahr 2016	7795.1969134	Einkommenssteuer	Einkommenssteuer	15	Hirzbrunnen	10
-2019	15	2016	Steuerjahr 2016	6933.7445733	Einkommenssteuer	Einkommenssteuer	16	Rosental	7
-2019	15	2016	Steuerjahr 2016	6536.4357864	Einkommenssteuer	Einkommenssteuer	17	Matthäus	5
-2019	15	2016	Steuerjahr 2016	4335.4490206	Einkommenssteuer	Einkommenssteuer	18	Klybeck	1
-2019	15	2016	Steuerjahr 2016	5027.181357	Einkommenssteuer	Einkommenssteuer	19	Kleinhüningen	2
-2019	15	2016	Steuerjahr 2016	13499.917164	Einkommenssteuer	Einkommenssteuer	20	Riehen	16
-2019	15	2016	Steuerjahr 2016	22686.809221	Einkommenssteuer	Einkommenssteuer	30	Bettingen	21
-2019	16		2012-2016	0.8563773753	Erwerbstätigenquote	Erwerbstaetigenquote	1	Altstadt Grossbasel	21
-2019	16		2012-2016	0.7730196667	Erwerbstätigenquote	Erwerbstaetigenquote	2	Vorstädte	17
-2019	16		2012-2016	0.8011045547	Erwerbstätigenquote	Erwerbstaetigenquote	3	Am Ring	20
-2019	16		2012-2016	0.7402545444	Erwerbstätigenquote	Erwerbstaetigenquote	4	Breite	12
-2019	16		2012-2016	0.7285669841	Erwerbstätigenquote	Erwerbstaetigenquote	5	St. Alban	10
-2019	16		2012-2016	0.7611023509	Erwerbstätigenquote	Erwerbstaetigenquote	6	Gundeldingen	16
-2019	16		2012-2016	0.7357069134	Erwerbstätigenquote	Erwerbstaetigenquote	7	Bruderholz	11
-2019	16		2012-2016	0.780542957	Erwerbstätigenquote	Erwerbstaetigenquote	8	Bachletten	18
-2019	16		2012-2016	0.7497290566	Erwerbstätigenquote	Erwerbstaetigenquote	9	Gotthelf	15
-2019	16		2012-2016	0.705780116	Erwerbstätigenquote	Erwerbstaetigenquote	10	Iselin	7
-2019	16		2012-2016	0.7033538377	Erwerbstätigenquote	Erwerbstaetigenquote	11	St. Johann	5
-2019	16		2012-2016	0.7043903035	Erwerbstätigenquote	Erwerbstaetigenquote	12	Altstadt Kleinbasel	6
-2019	16		2012-2016	0.6647432124	Erwerbstätigenquote	Erwerbstaetigenquote	13	Clara	3
-2019	16		2012-2016	0.8001764749	Erwerbstätigenquote	Erwerbstaetigenquote	14	Wettstein	19
-2019	16		2012-2016	0.7095861405	Erwerbstätigenquote	Erwerbstaetigenquote	15	Hirzbrunnen	8
-2019	16		2012-2016	0.727021636	Erwerbstätigenquote	Erwerbstaetigenquote	16	Rosental	9
-2019	16		2012-2016	0.6812807264	Erwerbstätigenquote	Erwerbstaetigenquote	17	Matthäus	4
-2019	16		2012-2016	0.6147351268	Erwerbstätigenquote	Erwerbstaetigenquote	18	Klybeck	1
-2019	16		2012-2016	0.6593773305	Erwerbstätigenquote	Erwerbstaetigenquote	19	Kleinhüningen	2
-2019	16		2012-2016	0.74117237	Erwerbstätigenquote	Erwerbstaetigenquote	20	Riehen	13
-2019	16		2012-2016	0.74117237	Erwerbstätigenquote	Erwerbstaetigenquote	30	Bettingen	13
-2019	17	2016	2016	4.1077454555	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	1	Altstadt Grossbasel	20
-2019	17	2016	2016	4.3439132243	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	2	Vorstädte	21
-2019	17	2016	2016	1.042821145	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	3	Am Ring	14
-2019	17	2016	2016	0.1306987677	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	4	Breite	1
-2019	17	2016	2016	2.2766626224	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	5	St. Alban	19
-2019	17	2016	2016	0.572146893	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	6	Gundeldingen	11
-2019	17	2016	2016	0.1384419676	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	7	Bruderholz	2
-2019	17	2016	2016	0.1992794451	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	8	Bachletten	6
-2019	17	2016	2016	0.2985506691	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	9	Gotthelf	7
-2019	17	2016	2016	0.1597338161	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	10	Iselin	3
-2019	17	2016	2016	1.1019534325	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	11	St. Johann	15
-2019	17	2016	2016	1.6002980016	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	12	Altstadt Kleinbasel	16
-2019	17	2016	2016	0.6431100458	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	13	Clara	12
-2019	17	2016	2016	1.9410736405	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	14	Wettstein	17
-2019	17	2016	2016	0.3260985038	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	15	Hirzbrunnen	9
-2019	17	2016	2016	0.730837811	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	16	Rosental	13
-2019	17	2016	2016	0.1872287699	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	17	Matthäus	5
-2019	17	2016	2016	0.4792851255	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	18	Klybeck	10
-2019	17	2016	2016	2.1176331577	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	19	Kleinhüningen	18
-2019	17	2016	2016	0.1670433402	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	20	Riehen	4
-2019	17	2016	2016	0.2992305528	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	30	Bettingen	8
-2019	18	2016	2016	0.0257474605	Arbeitslosenquote	Arbeitslosenquote	1	Altstadt Grossbasel	6
-2019	18	2016	2016	0.0242808282	Arbeitslosenquote	Arbeitslosenquote	2	Vorstädte	4
-2019	18	2016	2016	0.0313845067	Arbeitslosenquote	Arbeitslosenquote	3	Am Ring	8
-2019	18	2016	2016	0.0492950163	Arbeitslosenquote	Arbeitslosenquote	4	Breite	13
-2019	18	2016	2016	0.0295674895	Arbeitslosenquote	Arbeitslosenquote	5	St. Alban	7
-2019	18	2016	2016	0.0418457558	Arbeitslosenquote	Arbeitslosenquote	6	Gundeldingen	12
-2019	18	2016	2016	0.0251482114	Arbeitslosenquote	Arbeitslosenquote	7	Bruderholz	5
-2019	18	2016	2016	0.0241987109	Arbeitslosenquote	Arbeitslosenquote	8	Bachletten	3
-2019	18	2016	2016	0.0344512819	Arbeitslosenquote	Arbeitslosenquote	9	Gotthelf	9
-2019	18	2016	2016	0.0501539147	Arbeitslosenquote	Arbeitslosenquote	10	Iselin	14
-2019	18	2016	2016	0.050458782	Arbeitslosenquote	Arbeitslosenquote	11	St. Johann	15
-2019	18	2016	2016	0.0542989532	Arbeitslosenquote	Arbeitslosenquote	12	Altstadt Kleinbasel	17
-2019	18	2016	2016	0.0539961926	Arbeitslosenquote	Arbeitslosenquote	13	Clara	16
-2019	18	2016	2016	0.038280833	Arbeitslosenquote	Arbeitslosenquote	14	Wettstein	10
-2019	18	2016	2016	0.0404742079	Arbeitslosenquote	Arbeitslosenquote	15	Hirzbrunnen	11
-2019	18	2016	2016	0.0654724892	Arbeitslosenquote	Arbeitslosenquote	16	Rosental	20
-2019	18	2016	2016	0.0555946177	Arbeitslosenquote	Arbeitslosenquote	17	Matthäus	18
-2019	18	2016	2016	0.0719648949	Arbeitslosenquote	Arbeitslosenquote	18	Klybeck	21
-2019	18	2016	2016	0.0631074121	Arbeitslosenquote	Arbeitslosenquote	19	Kleinhüningen	19
-2019	18	2016	2016	0.0193855888	Arbeitslosenquote	Arbeitslosenquote	20	Riehen	1
-2019	18	2016	2016	0.0193855888	Arbeitslosenquote	Arbeitslosenquote	30	Bettingen	1
+Publikationsjahr	Indikator_Nr	jahr_num	jahr_char	Wert	Indikator_Label	Indikator_Name	Wohnviertel_id	Wohnviertel	Rang
+2022	1	2021	2021	0.0206146927	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	1	Altstadt Grossbasel	4
+2022	1	2021	2021	0.0331435543	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	2	Vorstädte	8
+2022	1	2021	2021	0.0290253861	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	3	Am Ring	5
+2022	1	2021	2021	0.0461364918	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	4	Breite	11
+2022	1	2021	2021	0.0335312317	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	5	St. Alban	9
+2022	1	2021	2021	0.0578019426	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	6	Gundeldingen	13
+2022	1	2021	2021	0.0164212311	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	7	Bruderholz	2
+2022	1	2021	2021	0.0197925796	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	8	Bachletten	3
+2022	1	2021	2021	0.0410716914	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	9	Gotthelf	10
+2022	1	2021	2021	0.0916434044	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	10	Iselin	18
+2022	1	2021	2021	0.0714626518	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	11	St. Johann	16
+2022	1	2021	2021	0.0635324015	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	12	Altstadt Kleinbasel	14
+2022	1	2021	2021	0.0736817868	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	13	Clara	17
+2022	1	2021	2021	0.0295292687	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	14	Wettstein	6
+2022	1	2021	2021	0.0476088585	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	15	Hirzbrunnen	12
+2022	1	2021	2021	0.0709023941	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	16	Rosental	15
+2022	1	2021	2021	0.0969088301	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	17	Matthäus	19
+2022	1	2021	2021	0.1280207135	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	18	Klybeck	21
+2022	1	2021	2021	0.1171335031	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	19	Kleinhüningen	20
+2022	1	2021	2021	0.0311356986	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	20	Riehen	7
+2022	1	2021	2021	0.0112540193	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfequote	30	Bettingen	1
+2022	2	2021	2021	0.3114692654	Anteil&nbsp;Ausländer	Auslaenderanteil	1	Altstadt Grossbasel	7
+2022	2	2021	2021	0.4030093534	Anteil&nbsp;Ausländer	Auslaenderanteil	2	Vorstädte	15
+2022	2	2021	2021	0.3838096929	Anteil&nbsp;Ausländer	Auslaenderanteil	3	Am Ring	12
+2022	2	2021	2021	0.3555555556	Anteil&nbsp;Ausländer	Auslaenderanteil	4	Breite	9
+2022	2	2021	2021	0.3605652647	Anteil&nbsp;Ausländer	Auslaenderanteil	5	St. Alban	10
+2022	2	2021	2021	0.3962732264	Anteil&nbsp;Ausländer	Auslaenderanteil	6	Gundeldingen	14
+2022	2	2021	2021	0.2471660133	Anteil&nbsp;Ausländer	Auslaenderanteil	7	Bruderholz	2
+2022	2	2021	2021	0.2231229915	Anteil&nbsp;Ausländer	Auslaenderanteil	8	Bachletten	1
+2022	2	2021	2021	0.2855881054	Anteil&nbsp;Ausländer	Auslaenderanteil	9	Gotthelf	6
+2022	2	2021	2021	0.3841539467	Anteil&nbsp;Ausländer	Auslaenderanteil	10	Iselin	13
+2022	2	2021	2021	0.420505752	Anteil&nbsp;Ausländer	Auslaenderanteil	11	St. Johann	16
+2022	2	2021	2021	0.3837357052	Anteil&nbsp;Ausländer	Auslaenderanteil	12	Altstadt Kleinbasel	11
+2022	2	2021	2021	0.4860695372	Anteil&nbsp;Ausländer	Auslaenderanteil	13	Clara	18
+2022	2	2021	2021	0.3303804065	Anteil&nbsp;Ausländer	Auslaenderanteil	14	Wettstein	8
+2022	2	2021	2021	0.259976463	Anteil&nbsp;Ausländer	Auslaenderanteil	15	Hirzbrunnen	4
+2022	2	2021	2021	0.5615627466	Anteil&nbsp;Ausländer	Auslaenderanteil	16	Rosental	21
+2022	2	2021	2021	0.4985652798	Anteil&nbsp;Ausländer	Auslaenderanteil	17	Matthäus	19
+2022	2	2021	2021	0.5237341772	Anteil&nbsp;Ausländer	Auslaenderanteil	18	Klybeck	20
+2022	2	2021	2021	0.4798108403	Anteil&nbsp;Ausländer	Auslaenderanteil	19	Kleinhüningen	17
+2022	2	2021	2021	0.2769294075	Anteil&nbsp;Ausländer	Auslaenderanteil	20	Riehen	5
+2022	2	2021	2021	0.2556270096	Anteil&nbsp;Ausländer	Auslaenderanteil	30	Bettingen	3
+2022	4	2021	2021	0.3275212064	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	1	Altstadt Grossbasel	20
+2022	4	2021	2021	0.3197761997	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	2	Vorstädte	19
+2022	4	2021	2021	0.2725616189	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	3	Am Ring	12
+2022	4	2021	2021	0.2863914903	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	4	Breite	15
+2022	4	2021	2021	0.2387309293	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	5	St. Alban	9
+2022	4	2021	2021	0.2916576264	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	6	Gundeldingen	16
+2022	4	2021	2021	0.1458693772	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	7	Bruderholz	2
+2022	4	2021	2021	0.2148515585	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	8	Bachletten	6
+2022	4	2021	2021	0.2981115108	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	9	Gotthelf	17
+2022	4	2021	2021	0.2840915957	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	10	Iselin	14
+2022	4	2021	2021	0.2364071456	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	11	St. Johann	8
+2022	4	2021	2021	0.3753943218	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	12	Altstadt Kleinbasel	21
+2022	4	2021	2021	0.300024432	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	13	Clara	18
+2022	4	2021	2021	0.2731046931	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	14	Wettstein	13
+2022	4	2021	2021	0.1848263851	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	15	Hirzbrunnen	4
+2022	4	2021	2021	0.2210640314	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	16	Rosental	7
+2022	4	2021	2021	0.2714449619	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	17	Matthäus	11
+2022	4	2021	2021	0.2388235294	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	18	Klybeck	10
+2022	4	2021	2021	0.2008242788	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	19	Kleinhüningen	5
+2022	4	2021	2021	0.1657440573	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	20	Riehen	3
+2022	4	2021	2021	0.117545376	Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten	Anteileinpersonenhh	30	Bettingen	1
+2022	5	2021	2021	0.5294	Gymnasialquote	Gymnasialquote	1	Altstadt Grossbasel	18
+2022	5	2021	2021	0.4167	Gymnasialquote	Gymnasialquote	2	Vorstädte	13
+2022	5	2021	2021	0.4727	Gymnasialquote	Gymnasialquote	3	Am Ring	15
+2022	5	2021	2021	0.2524	Gymnasialquote	Gymnasialquote	4	Breite	5
+2022	5	2021	2021	0.4351	Gymnasialquote	Gymnasialquote	5	St. Alban	14
+2022	5	2021	2021	0.2432	Gymnasialquote	Gymnasialquote	6	Gundeldingen	3
+2022	5	2021	2021	0.6139	Gymnasialquote	Gymnasialquote	7	Bruderholz	21
+2022	5	2021	2021	0.589	Gymnasialquote	Gymnasialquote	8	Bachletten	20
+2022	5	2021	2021	0.4865	Gymnasialquote	Gymnasialquote	9	Gotthelf	17
+2022	5	2021	2021	0.2614	Gymnasialquote	Gymnasialquote	10	Iselin	6
+2022	5	2021	2021	0.3169	Gymnasialquote	Gymnasialquote	11	St. Johann	10
+2022	5	2021	2021	0.2778	Gymnasialquote	Gymnasialquote	12	Altstadt Kleinbasel	8
+2022	5	2021	2021	0.25	Gymnasialquote	Gymnasialquote	13	Clara	4
+2022	5	2021	2021	0.549	Gymnasialquote	Gymnasialquote	14	Wettstein	19
+2022	5	2021	2021	0.3631	Gymnasialquote	Gymnasialquote	15	Hirzbrunnen	11
+2022	5	2021	2021	0.2951	Gymnasialquote	Gymnasialquote	16	Rosental	9
+2022	5	2021	2021	0.2714	Gymnasialquote	Gymnasialquote	17	Matthäus	7
+2022	5	2021	2021	0.1417	Gymnasialquote	Gymnasialquote	18	Klybeck	1
+2022	5	2021	2021	0.2203	Gymnasialquote	Gymnasialquote	19	Kleinhüningen	2
+2022	5	2021	2021	0.4802	Gymnasialquote	Gymnasialquote	20	Riehen	16
+2022	5	2021	2021	0.3889	Gymnasialquote	Gymnasialquote	30	Bettingen	12
+2022	6	2021	2021	0.2938005391	Altersquotient	Altersquotient	1	Altstadt Grossbasel	9
+2022	6	2021	2021	0.3570099256	Altersquotient	Altersquotient	2	Vorstädte	15
+2022	6	2021	2021	0.3100964805	Altersquotient	Altersquotient	3	Am Ring	11
+2022	6	2021	2021	0.3253054101	Altersquotient	Altersquotient	4	Breite	13
+2022	6	2021	2021	0.4066091954	Altersquotient	Altersquotient	5	St. Alban	17
+2022	6	2021	2021	0.2283232628	Altersquotient	Altersquotient	6	Gundeldingen	4
+2022	6	2021	2021	0.4198104082	Altersquotient	Altersquotient	7	Bruderholz	18
+2022	6	2021	2021	0.367211503	Altersquotient	Altersquotient	8	Bachletten	16
+2022	6	2021	2021	0.3509729473	Altersquotient	Altersquotient	9	Gotthelf	14
+2022	6	2021	2021	0.2460906085	Altersquotient	Altersquotient	10	Iselin	6
+2022	6	2021	2021	0.2326462923	Altersquotient	Altersquotient	11	St. Johann	5
+2022	6	2021	2021	0.2833031947	Altersquotient	Altersquotient	12	Altstadt Kleinbasel	8
+2022	6	2021	2021	0.3055459869	Altersquotient	Altersquotient	13	Clara	10
+2022	6	2021	2021	0.2803738318	Altersquotient	Altersquotient	14	Wettstein	7
+2022	6	2021	2021	0.4209208245	Altersquotient	Altersquotient	15	Hirzbrunnen	19
+2022	6	2021	2021	0.13024201	Altersquotient	Altersquotient	16	Rosental	1
+2022	6	2021	2021	0.1958054767	Altersquotient	Altersquotient	17	Matthäus	2
+2022	6	2021	2021	0.2243975904	Altersquotient	Altersquotient	18	Klybeck	3
+2022	6	2021	2021	0.3190220632	Altersquotient	Altersquotient	19	Kleinhüningen	12
+2022	6	2021	2021	0.4775223061	Altersquotient	Altersquotient	20	Riehen	21
+2022	6	2021	2021	0.4359351988	Altersquotient	Altersquotient	30	Bettingen	20
+2022	7	2021	2021	0.2972122302	Anteil&nbsp;Sesshafte	Anteilsesshafte	1	Altstadt Grossbasel	5
+2022	7	2021	2021	0.2840585604	Anteil&nbsp;Sesshafte	Anteilsesshafte	2	Vorstädte	3
+2022	7	2021	2021	0.2936726884	Anteil&nbsp;Sesshafte	Anteilsesshafte	3	Am Ring	4
+2022	7	2021	2021	0.3426959955	Anteil&nbsp;Sesshafte	Anteilsesshafte	4	Breite	12
+2022	7	2021	2021	0.3169161301	Anteil&nbsp;Sesshafte	Anteilsesshafte	5	St. Alban	10
+2022	7	2021	2021	0.3137141047	Anteil&nbsp;Sesshafte	Anteilsesshafte	6	Gundeldingen	9
+2022	7	2021	2021	0.4327788961	Anteil&nbsp;Sesshafte	Anteilsesshafte	7	Bruderholz	21
+2022	7	2021	2021	0.4195150453	Anteil&nbsp;Sesshafte	Anteilsesshafte	8	Bachletten	19
+2022	7	2021	2021	0.3714117474	Anteil&nbsp;Sesshafte	Anteilsesshafte	9	Gotthelf	15
+2022	7	2021	2021	0.338302548	Anteil&nbsp;Sesshafte	Anteilsesshafte	10	Iselin	11
+2022	7	2021	2021	0.3126440478	Anteil&nbsp;Sesshafte	Anteilsesshafte	11	St. Johann	8
+2022	7	2021	2021	0.2799661161	Anteil&nbsp;Sesshafte	Anteilsesshafte	12	Altstadt Kleinbasel	2
+2022	7	2021	2021	0.3122265715	Anteil&nbsp;Sesshafte	Anteilsesshafte	13	Clara	7
+2022	7	2021	2021	0.3540038214	Anteil&nbsp;Sesshafte	Anteilsesshafte	14	Wettstein	14
+2022	7	2021	2021	0.3975607147	Anteil&nbsp;Sesshafte	Anteilsesshafte	15	Hirzbrunnen	17
+2022	7	2021	2021	0.1883714812	Anteil&nbsp;Sesshafte	Anteilsesshafte	16	Rosental	1
+2022	7	2021	2021	0.3115022245	Anteil&nbsp;Sesshafte	Anteilsesshafte	17	Matthäus	6
+2022	7	2021	2021	0.3455120829	Anteil&nbsp;Sesshafte	Anteilsesshafte	18	Klybeck	13
+2022	7	2021	2021	0.3826846126	Anteil&nbsp;Sesshafte	Anteilsesshafte	19	Kleinhüningen	16
+2022	7	2021	2021	0.4201115786	Anteil&nbsp;Sesshafte	Anteilsesshafte	20	Riehen	20
+2022	7	2021	2021	0.4140435835	Anteil&nbsp;Sesshafte	Anteilsesshafte	30	Bettingen	18
+2022	8	2021	2021	0.1444743935	Jugendquotient	Jugendquotient	1	Altstadt Grossbasel	2
+2022	8	2021	2021	0.1684243176	Jugendquotient	Jugendquotient	2	Vorstädte	3
+2022	8	2021	2021	0.2208180459	Jugendquotient	Jugendquotient	3	Am Ring	8
+2022	8	2021	2021	0.2218150087	Jugendquotient	Jugendquotient	4	Breite	9
+2022	8	2021	2021	0.311637931	Jugendquotient	Jugendquotient	5	St. Alban	15
+2022	8	2021	2021	0.2024924471	Jugendquotient	Jugendquotient	6	Gundeldingen	5
+2022	8	2021	2021	0.406268137	Jugendquotient	Jugendquotient	7	Bruderholz	21
+2022	8	2021	2021	0.3154725329	Jugendquotient	Jugendquotient	8	Bachletten	16
+2022	8	2021	2021	0.2610346464	Jugendquotient	Jugendquotient	9	Gotthelf	12
+2022	8	2021	2021	0.2584219462	Jugendquotient	Jugendquotient	10	Iselin	11
+2022	8	2021	2021	0.2569691226	Jugendquotient	Jugendquotient	11	St. Johann	10
+2022	8	2021	2021	0.1398432791	Jugendquotient	Jugendquotient	12	Altstadt Kleinbasel	1
+2022	8	2021	2021	0.1904925939	Jugendquotient	Jugendquotient	13	Clara	4
+2022	8	2021	2021	0.2141744548	Jugendquotient	Jugendquotient	14	Wettstein	7
+2022	8	2021	2021	0.379695627	Jugendquotient	Jugendquotient	15	Hirzbrunnen	18
+2022	8	2021	2021	0.2741548125	Jugendquotient	Jugendquotient	16	Rosental	14
+2022	8	2021	2021	0.2085355802	Jugendquotient	Jugendquotient	17	Matthäus	6
+2022	8	2021	2021	0.2712994836	Jugendquotient	Jugendquotient	18	Klybeck	13
+2022	8	2021	2021	0.3202146691	Jugendquotient	Jugendquotient	19	Kleinhüningen	17
+2022	8	2021	2021	0.3989361702	Jugendquotient	Jugendquotient	20	Riehen	20
+2022	8	2021	2021	0.3961708395	Jugendquotient	Jugendquotient	30	Bettingen	19
+2022	9	2021	2021	1822.777120315581	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	1	Altstadt Grossbasel	1
+2022	9	2021	2021	1899.307129798903	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	2	Vorstädte	3
+2022	9	2021	2021	1921.043771043771	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	3	Am Ring	4
+2022	9	2021	2021	1941.696240601503	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	4	Breite	15
+2022	9	2021	2021	1939.887123745819	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	5	St. Alban	14
+2022	9	2021	2021	1933.022980501392	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	6	Gundeldingen	8
+2022	9	2021	2021	1949.545064377682	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	7	Bruderholz	18
+2022	9	2021	2021	1934.53250897487	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	8	Bachletten	11
+2022	9	2021	2021	1925.378461538461	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	9	Gotthelf	5
+2022	9	2021	2021	1937.937284631288	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	10	Iselin	13
+2022	9	2021	2021	1933.761811023622	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	11	St. Johann	10
+2022	9	2021	2021	1881.597902097902	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	12	Altstadt Kleinbasel	2
+2022	9	2021	2021	1929.541832669322	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	13	Clara	7
+2022	9	2021	2021	1933.523272214386	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	14	Wettstein	9
+2022	9	2021	2021	1942.689265536723	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	15	Hirzbrunnen	16
+2022	9	2021	2021	1951.102564102564	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	16	Rosental	19
+2022	9	2021	2021	1925.528745644599	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	17	Matthäus	6
+2022	9	2021	2021	1937.290993071593	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	18	Klybeck	12
+2022	9	2021	2021	1948.082352941176	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	19	Kleinhüningen	17
+2022	9	2021	2021	1958.95951417004	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	20	Riehen	20
+2022	9	2021	2021	1965.137931034482	Baujahr&nbsp;Wohngebäude	Baujahrwohngebaeude	30	Bettingen	21
+2022	10	2021	2021	0.102564102564	Anteil Einfamilienhäuser	Anteileinfhaeuser	1	Altstadt Grossbasel	8
+2022	10	2021	2021	0.07495429616	Anteil Einfamilienhäuser	Anteileinfhaeuser	2	Vorstädte	6
+2022	10	2021	2021	0.194444444444	Anteil Einfamilienhäuser	Anteileinfhaeuser	3	Am Ring	12
+2022	10	2021	2021	0.130827067669	Anteil Einfamilienhäuser	Anteileinfhaeuser	4	Breite	9
+2022	10	2021	2021	0.335284280936	Anteil Einfamilienhäuser	Anteileinfhaeuser	5	St. Alban	15
+2022	10	2021	2021	0.028551532033	Anteil Einfamilienhäuser	Anteileinfhaeuser	6	Gundeldingen	2
+2022	10	2021	2021	0.728659990462	Anteil Einfamilienhäuser	Anteileinfhaeuser	7	Bruderholz	20
+2022	10	2021	2021	0.557239728759	Anteil Einfamilienhäuser	Anteileinfhaeuser	8	Bachletten	17
+2022	10	2021	2021	0.368205128205	Anteil Einfamilienhäuser	Anteileinfhaeuser	9	Gotthelf	16
+2022	10	2021	2021	0.165403170227	Anteil Einfamilienhäuser	Anteileinfhaeuser	10	Iselin	11
+2022	10	2021	2021	0.246719160104	Anteil Einfamilienhäuser	Anteileinfhaeuser	11	St. Johann	13
+2022	10	2021	2021	0.097902097902	Anteil Einfamilienhäuser	Anteileinfhaeuser	12	Altstadt Kleinbasel	7
+2022	10	2021	2021	0.019920318725	Anteil Einfamilienhäuser	Anteileinfhaeuser	13	Clara	1
+2022	10	2021	2021	0.332863187588	Anteil Einfamilienhäuser	Anteileinfhaeuser	14	Wettstein	14
+2022	10	2021	2021	0.692404268675	Anteil Einfamilienhäuser	Anteileinfhaeuser	15	Hirzbrunnen	19
+2022	10	2021	2021	0.067307692307	Anteil Einfamilienhäuser	Anteileinfhaeuser	16	Rosental	3
+2022	10	2021	2021	0.067944250871	Anteil Einfamilienhäuser	Anteileinfhaeuser	17	Matthäus	4
+2022	10	2021	2021	0.071593533487	Anteil Einfamilienhäuser	Anteileinfhaeuser	18	Klybeck	5
+2022	10	2021	2021	0.15294117647	Anteil Einfamilienhäuser	Anteileinfhaeuser	19	Kleinhüningen	10
+2022	10	2021	2021	0.656823053107	Anteil Einfamilienhäuser	Anteileinfhaeuser	20	Riehen	18
+2022	10	2021	2021	0.783699059561	Anteil Einfamilienhäuser	Anteileinfhaeuser	30	Bettingen	21
+2022	11	2021	2021	0.067	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	1	Altstadt Grossbasel	1
+2022	11	2021	2021	0.196	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	2	Vorstädte	8
+2022	11	2021	2021	0.246	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	3	Am Ring	10
+2022	11	2021	2021	0.362	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	4	Breite	15
+2022	11	2021	2021	0.324	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	5	St. Alban	13
+2022	11	2021	2021	0.178	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	6	Gundeldingen	7
+2022	11	2021	2021	0.711	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	7	Bruderholz	19
+2022	11	2021	2021	0.421	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	8	Bachletten	17
+2022	11	2021	2021	0.324	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	9	Gotthelf	14
+2022	11	2021	2021	0.365	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	10	Iselin	16
+2022	11	2021	2021	0.287	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	11	St. Johann	12
+2022	11	2021	2021	0.08	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	12	Altstadt Kleinbasel	2
+2022	11	2021	2021	0.161	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	13	Clara	5
+2022	11	2021	2021	0.282	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	14	Wettstein	11
+2022	11	2021	2021	0.598	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	15	Hirzbrunnen	18
+2022	11	2021	2021	0.157	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	16	Rosental	4
+2022	11	2021	2021	0.171	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	17	Matthäus	6
+2022	11	2021	2021	0.124	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	18	Klybeck	3
+2022	11	2021	2021	0.225	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	19	Kleinhüningen	9
+2022	11	2021	2021	0.792	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	20	Riehen	20
+2022	11	2021	2021	0.902	Anteil&nbsp;Grünfläche	Gruenflaechenanteil	30	Bettingen	21
+2022	12	2021	2021	87.574062	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	1	Altstadt Grossbasel	16
+2022	12	2021	2021	82.364532	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	2	Vorstädte	14
+2022	12	2021	2021	81.898351	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	3	Am Ring	13
+2022	12	2021	2021	70.289537	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	4	Breite	7
+2022	12	2021	2021	90.787373	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	5	St. Alban	17
+2022	12	2021	2021	70.142191	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	6	Gundeldingen	6
+2022	12	2021	2021	109.416592	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	7	Bruderholz	20
+2022	12	2021	2021	92.607904	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	8	Bachletten	18
+2022	12	2021	2021	74.358962	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	9	Gotthelf	11
+2022	12	2021	2021	68.689253	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	10	Iselin	4
+2022	12	2021	2021	72.069619	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	11	St. Johann	10
+2022	12	2021	2021	70.800242	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	12	Altstadt Kleinbasel	9
+2022	12	2021	2021	66.476753	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	13	Clara	2
+2022	12	2021	2021	82.938168	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	14	Wettstein	15
+2022	12	2021	2021	81.69519	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	15	Hirzbrunnen	12
+2022	12	2021	2021	70.538499	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	16	Rosental	8
+2022	12	2021	2021	67.359025	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	17	Matthäus	3
+2022	12	2021	2021	65.233176	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	18	Klybeck	1
+2022	12	2021	2021	69.783132	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	19	Kleinhüningen	5
+2022	12	2021	2021	102.556069	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	20	Riehen	19
+2022	12	2021	2021	121.346441	Fläche&nbsp;pro&nbsp;Wohnung	Flaecheprowohnung	30	Bettingen	21
+2022	13	2021	2021	53.23327	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	1	Altstadt Grossbasel	21
+2022	13	2021	2021	50.609808	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	2	Vorstädte	19
+2022	13	2021	2021	45.038361	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	3	Am Ring	13
+2022	13	2021	2021	39.268261	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	4	Breite	9
+2022	13	2021	2021	47.712836	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	5	St. Alban	17
+2022	13	2021	2021	39.333333	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	6	Gundeldingen	10
+2022	13	2021	2021	48.437175	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	7	Bruderholz	18
+2022	13	2021	2021	46.279114	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	8	Bachletten	15
+2022	13	2021	2021	41.908723	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	9	Gotthelf	11
+2022	13	2021	2021	37.379916	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	10	Iselin	6
+2022	13	2021	2021	36.873281	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	11	St. Johann	5
+2022	13	2021	2021	44.343848	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	12	Altstadt Kleinbasel	12
+2022	13	2021	2021	37.607867	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	13	Clara	7
+2022	13	2021	2021	45.806859	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	14	Wettstein	14
+2022	13	2021	2021	39.005769	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	15	Hirzbrunnen	8
+2022	13	2021	2021	34.681738	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	16	Rosental	3
+2022	13	2021	2021	36.416751	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	17	Matthäus	4
+2022	13	2021	2021	32.689705	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	18	Klybeck	1
+2022	13	2021	2021	33.034844	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	19	Kleinhüningen	2
+2022	13	2021	2021	47.348309	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	20	Riehen	16
+2022	13	2021	2021	51.850475	Wohnfläche&nbsp;pro&nbsp;Kopf	Wohnflaecheprokopf	30	Bettingen	20
+2022	14	2019	2019	5768.8	Vermögenssteuer	Vermoegenssteuer	1	Altstadt Grossbasel	17
+2022	14	2019	2019	17513.1	Vermögenssteuer	Vermoegenssteuer	2	Vorstädte	20
+2022	14	2019	2019	2376.6	Vermögenssteuer	Vermoegenssteuer	3	Am Ring	14
+2022	14	2019	2019	607.3	Vermögenssteuer	Vermoegenssteuer	4	Breite	5
+2022	14	2019	2019	6100.5	Vermögenssteuer	Vermoegenssteuer	5	St. Alban	18
+2022	14	2019	2019	641.6	Vermögenssteuer	Vermoegenssteuer	6	Gundeldingen	7
+2022	14	2019	2019	16656.1	Vermögenssteuer	Vermoegenssteuer	7	Bruderholz	19
+2022	14	2019	2019	2359.1	Vermögenssteuer	Vermoegenssteuer	8	Bachletten	13
+2022	14	2019	2019	3596.8	Vermögenssteuer	Vermoegenssteuer	9	Gotthelf	15
+2022	14	2019	2019	512.1	Vermögenssteuer	Vermoegenssteuer	10	Iselin	4
+2022	14	2019	2019	630.8	Vermögenssteuer	Vermoegenssteuer	11	St. Johann	6
+2022	14	2019	2019	2095.8	Vermögenssteuer	Vermoegenssteuer	12	Altstadt Kleinbasel	12
+2022	14	2019	2019	822.0	Vermögenssteuer	Vermoegenssteuer	13	Clara	10
+2022	14	2019	2019	1534.6	Vermögenssteuer	Vermoegenssteuer	14	Wettstein	11
+2022	14	2019	2019	715.6	Vermögenssteuer	Vermoegenssteuer	15	Hirzbrunnen	9
+2022	14	2019	2019	289.9	Vermögenssteuer	Vermoegenssteuer	16	Rosental	3
+2022	14	2019	2019	671.9	Vermögenssteuer	Vermoegenssteuer	17	Matthäus	8
+2022	14	2019	2019	194.2	Vermögenssteuer	Vermoegenssteuer	18	Klybeck	1
+2022	14	2019	2019	248.4	Vermögenssteuer	Vermoegenssteuer	19	Kleinhüningen	2
+2022	14	2019	2019	3642.6	Vermögenssteuer	Vermoegenssteuer	20	Riehen	16
+2022	14	2019	2019	20515.4	Vermögenssteuer	Vermoegenssteuer	30	Bettingen	21
+2022	15	2019	2019	17646.9	Einkommenssteuer	Einkommenssteuer	1	Altstadt Grossbasel	18
+2022	15	2019	2019	22365.0	Einkommenssteuer	Einkommenssteuer	2	Vorstädte	20
+2022	15	2019	2019	12601.5	Einkommenssteuer	Einkommenssteuer	3	Am Ring	15
+2022	15	2019	2019	7554.3	Einkommenssteuer	Einkommenssteuer	4	Breite	8
+2022	15	2019	2019	17111.7	Einkommenssteuer	Einkommenssteuer	5	St. Alban	17
+2022	15	2019	2019	7882.8	Einkommenssteuer	Einkommenssteuer	6	Gundeldingen	9
+2022	15	2019	2019	19997.7	Einkommenssteuer	Einkommenssteuer	7	Bruderholz	19
+2022	15	2019	2019	11864.2	Einkommenssteuer	Einkommenssteuer	8	Bachletten	13
+2022	15	2019	2019	9451.9	Einkommenssteuer	Einkommenssteuer	9	Gotthelf	11
+2022	15	2019	2019	6448.6	Einkommenssteuer	Einkommenssteuer	10	Iselin	3
+2022	15	2019	2019	7078.3	Einkommenssteuer	Einkommenssteuer	11	St. Johann	6
+2022	15	2019	2019	9851.1	Einkommenssteuer	Einkommenssteuer	12	Altstadt Kleinbasel	12
+2022	15	2019	2019	6669.6	Einkommenssteuer	Einkommenssteuer	13	Clara	4
+2022	15	2019	2019	12386.6	Einkommenssteuer	Einkommenssteuer	14	Wettstein	14
+2022	15	2019	2019	8059.7	Einkommenssteuer	Einkommenssteuer	15	Hirzbrunnen	10
+2022	15	2019	2019	7507.1	Einkommenssteuer	Einkommenssteuer	16	Rosental	7
+2022	15	2019	2019	7048.4	Einkommenssteuer	Einkommenssteuer	17	Matthäus	5
+2022	15	2019	2019	4393.5	Einkommenssteuer	Einkommenssteuer	18	Klybeck	1
+2022	15	2019	2019	4793.9	Einkommenssteuer	Einkommenssteuer	19	Kleinhüningen	2
+2022	15	2019	2019	13384.8	Einkommenssteuer	Einkommenssteuer	20	Riehen	16
+2022	15	2019	2019	32565.5	Einkommenssteuer	Einkommenssteuer	30	Bettingen	21
+2022	16	2016-2020	2016-2020	0.8057185	Erwerbstätigenquote	Erwerbstaetigenquote	1	Altstadt Grossbasel	21
+2022	16	2016-2020	2016-2020	0.7530226	Erwerbstätigenquote	Erwerbstaetigenquote	2	Vorstädte	15
+2022	16	2016-2020	2016-2020	0.776574	Erwerbstätigenquote	Erwerbstaetigenquote	3	Am Ring	19
+2022	16	2016-2020	2016-2020	0.7530277	Erwerbstätigenquote	Erwerbstaetigenquote	4	Breite	16
+2022	16	2016-2020	2016-2020	0.717248	Erwerbstätigenquote	Erwerbstaetigenquote	5	St. Alban	8
+2022	16	2016-2020	2016-2020	0.7560823	Erwerbstätigenquote	Erwerbstaetigenquote	6	Gundeldingen	17
+2022	16	2016-2020	2016-2020	0.7356224	Erwerbstätigenquote	Erwerbstaetigenquote	7	Bruderholz	13
+2022	16	2016-2020	2016-2020	0.7526574	Erwerbstätigenquote	Erwerbstaetigenquote	8	Bachletten	14
+2022	16	2016-2020	2016-2020	0.7255677	Erwerbstätigenquote	Erwerbstaetigenquote	9	Gotthelf	10
+2022	16	2016-2020	2016-2020	0.7117031	Erwerbstätigenquote	Erwerbstaetigenquote	10	Iselin	7
+2022	16	2016-2020	2016-2020	0.7097482	Erwerbstätigenquote	Erwerbstaetigenquote	11	St. Johann	5
+2022	16	2016-2020	2016-2020	0.7584403	Erwerbstätigenquote	Erwerbstaetigenquote	12	Altstadt Kleinbasel	18
+2022	16	2016-2020	2016-2020	0.6882928	Erwerbstätigenquote	Erwerbstaetigenquote	13	Clara	3
+2022	16	2016-2020	2016-2020	0.7896758	Erwerbstätigenquote	Erwerbstaetigenquote	14	Wettstein	20
+2022	16	2016-2020	2016-2020	0.7112519	Erwerbstätigenquote	Erwerbstaetigenquote	15	Hirzbrunnen	6
+2022	16	2016-2020	2016-2020	0.7068611	Erwerbstätigenquote	Erwerbstaetigenquote	16	Rosental	4
+2022	16	2016-2020	2016-2020	0.7191912	Erwerbstätigenquote	Erwerbstaetigenquote	17	Matthäus	9
+2022	16	2016-2020	2016-2020	0.6446787	Erwerbstätigenquote	Erwerbstaetigenquote	18	Klybeck	2
+2022	16	2016-2020	2016-2020	0.5825095	Erwerbstätigenquote	Erwerbstaetigenquote	19	Kleinhüningen	1
+2022	16	2016-2020	2016-2020	0.7283179	Erwerbstätigenquote	Erwerbstaetigenquote	20	Riehen	11
+2022	16	2016-2020	2016-2020	0.7283179	Erwerbstätigenquote	Erwerbstaetigenquote	30	Bettingen	11
+2022	17			3.9449128	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	1	Altstadt Grossbasel	20
+2022	17			4.4620011	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	2	Vorstädte	21
+2022	17			0.9907	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	3	Am Ring	14
+2022	17			0.1273465	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	4	Breite	2
+2022	17			2.3529418	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	5	St. Alban	18
+2022	17			0.5900194	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	6	Gundeldingen	12
+2022	17			0.1205582	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	7	Bruderholz	1
+2022	17			0.2284203	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	8	Bachletten	7
+2022	17			0.2953332	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	9	Gotthelf	8
+2022	17			0.1687591	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	10	Iselin	4
+2022	17			1.0672492	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	11	St. Johann	15
+2022	17			1.5055148	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	12	Altstadt Kleinbasel	16
+2022	17			0.5787908	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	13	Clara	11
+2022	17			1.874501	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	14	Wettstein	17
+2022	17			0.3114407	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	15	Hirzbrunnen	9
+2022	17			0.602277	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	16	Rosental	13
+2022	17			0.184834	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	17	Matthäus	6
+2022	17			0.4844005	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	18	Klybeck	10
+2022	17			2.3719933	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	19	Kleinhüningen	19
+2022	17			0.1612785	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	20	Riehen	3
+2022	17			0.1781847	Arbeitsplätze&nbsp;pro&nbsp;Kopf	Arbeitsplaetzeprokopf	30	Bettingen	5

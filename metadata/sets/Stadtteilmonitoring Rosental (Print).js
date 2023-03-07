@@ -1,80 +1,76 @@
 var indikatorensetData = [
 	{
+		"template": "spider001_print",
+		"data-id": 7902,
+		"chart-id": 7902,
+		"filter": "",
+		"parentId": "6754",
+		"children": [],
 		"title": "Rosental - Quartierradar",
-		"subtitle": "Ausgabe 2019",
-		"kuerzel": "I.02.1.07902",
-		"kuerzelKunde": "1.01",
-		"description": "Rosental - Quartierradar",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"subtitle": "Ausgabe 2022",
+		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
+		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Rosental - Quartierradar",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07902",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "1.02",
 		"stufe1": "1 Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser aus und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten. Die Steuererträge sind vergleichsweise gering.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
-		"template": "",
+		"orderKey": "01_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_001",
-		"parentId": 6754,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7902,
-		"chart-id": 7902,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:18:49",
 		"id": 7902
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7903,
+		"chart-id": 7903,
+		"filter": "",
+		"parentId": "7665",
+		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07903",
-		"kuerzelKunde": "2.01",
-		"description": "Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Im Bezirk Messe hat die Bevölkerung seit 2002 leicht zugenommen (+6,3%). Im Gesamtkanton hat die Bevölkerungszahl etwas stärker zugenommen (+7,3%). Ein drastischer Anstieg zeigt sich im Bezirk Erlenmatt: Mit dem Bau von Wohnungen auf dem ehemaligen Areal der Deutschen Bahn stieg die Einwohnerzahl von unter 200 bis zum Jahr 2008 auf 2 955 (2021).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07903",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "2.01",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2018 4 730 Einwohner. Dies sind 13,0% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2018 weniger stark zugenommen (+6,2%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Erst mit der Fertigstellung der ersten Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen die Einwohnerzahlen auch dort markant. Ende 2018 wurden in diesem neuen Stadtteil 2 110 Einwohner registriert.",
-		"erlaeuterungen": "",
-		"template": "line001_print",
+		"orderKey": "02_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_001",
-		"parentId": 7665,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7903,
-		"chart-id": 7903,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:19:20",
 		"id": 7903
 	},
 	{
@@ -354,42 +350,40 @@ var indikatorensetData = [
 		"id": 7910
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7911,
+		"chart-id": 7911,
+		"filter": "",
+		"parentId": "7673",
+		"children": [],
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.5.07911",
-		"kuerzelKunde": "2.09",
-		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "In den Jahren 2014 bis 2020 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste mit leichten Gewinnen ab.",
+		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.07911",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2014 bis 2018 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste (Jahre 2014, 2017, 2018) mit leichten Gewinnen ab (Jahre 2016 und 2017).",
-		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
-		"template": "template001_print",
+		"orderKey": "02_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_009",
-		"parentId": 7673,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7911,
-		"chart-id": 7911,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:19:23",
 		"id": 7911
 	},
 	{
@@ -1017,42 +1011,40 @@ var indikatorensetData = [
 		"id": 7927
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7928,
+		"chart-id": 7928,
+		"filter": "",
+		"parentId": "7690",
+		"children": [],
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.03.1.07928",
-		"kuerzelKunde": "3.09",
-		"description": "Anzahl Rotlichtsalons",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2022 insgesamt 15 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2022 im Kanton Basel-Stadt 119 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07928",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "3.09",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es 2018 insgesamt 15 Rotlichtsalons, 2006 waren es 20 Salons. Im Bezirk Erlenmatt wurden keine Salons verzeichnet. Insgesamt waren 2018 im Kanton Basel-Stadt 159 Rotlichtsalons registriert.",
-		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001_print",
+		"orderKey": "03_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_009",
-		"parentId": 7690,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7928,
-		"chart-id": 7928,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:19:55",
 		"id": 7928
 	},
 	{
@@ -1096,42 +1088,40 @@ var indikatorensetData = [
 		"id": 7929
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7930,
+		"chart-id": 7930,
+		"filter": "",
+		"parentId": "7692",
+		"children": [],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.09.1.07930",
-		"kuerzelKunde": "3.02",
-		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Die Bruttogeschossflächen Wohnen und Arbeiten haben im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 deutlich zugenommen.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet, sie sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07930",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "3.02",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche Wohnen hat im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 stärker zugenommen als die Bruttogeschossfläche Arbeiten.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summe der ober- und unterirdischen Grundflächen von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
-		"template": "line001_print",
+		"orderKey": "03_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_002",
-		"parentId": 7692,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bau- und Verkehrsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7930,
-		"chart-id": 7930,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:19:49",
 		"id": 7930
 	},
 	{
@@ -1175,42 +1165,40 @@ var indikatorensetData = [
 		"id": 7931
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7932,
+		"chart-id": 7932,
+		"filter": "",
+		"parentId": "7694",
+		"children": [],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.13.3.07932",
-		"kuerzelKunde": "5.04",
-		"description": "Sozialhilfebezüger und -quote",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Bezirk Messe 11,4%. 529 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,3% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 10.",
+		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"description": "Sozialhilfebezüger und -quote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.07932",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.04",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 beträgt die Sozialhilfequote im Bezirk Messe 14,2%. 670 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,7% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 35.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_004",
-		"parentId": 7694,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7932,
-		"chart-id": 7932,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:20:11",
 		"id": 7932
 	},
 	{
@@ -1331,121 +1319,119 @@ var indikatorensetData = [
 		"id": 7935
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
+		"template": "line001_print",
+		"data-id": 7936,
+		"chart-id": 7936,
+		"filter": "",
+		"parentId": "7698",
+		"children": [],
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.13.2.07936",
-		"kuerzelKunde": "5.05",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2021 Familienmietzinsbeiträge (Kanton: 2,3%). In 20,2% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 17,0%).",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.07936",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.05",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2018 Familienmietzinsbeiträge (Kanton: 2,3%). In 17,4% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung (Kanton: 15,0%).",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_005",
-		"parentId": 7698,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Basler Informationssystem Sozialleistungen (BISS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7936,
-		"chart-id": 7936,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:20:11",
 		"id": 7936
 	},
 	{
-		"title": "Bodenbedeckung nach Nutzungsarten",
-		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.02.1.07937",
-		"kuerzelKunde": "7.01",
-		"description": "Bodenbedeckung nach Nutzungsarten",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2018: 45,8%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: die «übrigen befestigen Flächen» haben sich verringert (2008: 59,3%; 2018: 34,2%) und die Grünflächen zugenommen (2008: 2,8%; 2018: 21,6%).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_001",
-		"parentId": 7699,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
-		],
 		"data-id": 7937,
 		"chart-id": 7937,
 		"filter": "",
-		"id": 7937
-	},
-	{
-		"title": "Grünflächen nach Kategorie",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.02.1.07938",
-		"kuerzelKunde": "7.02",
-		"description": "Grünflächen nach Kategorie",
+		"parentId": "7699",
+		"children": [],
+		"title": "Bodenbedeckung nach Nutzungsart",
+		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2021: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2009: 56,7%; 2021: 24,8%) und die Grünflächen haben zugenommen (2009: 2,8%; 2021: 25,6%).",
+		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07937",
 		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"kuerzelKunde": "7.01",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2018 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001_print",
+		"orderKey": "07_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_002",
-		"parentId": 7700,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
-		],
+		"aktualisierungsdatum": "2023-03-07T08:20:16",
+		"id": 7937
+	},
+	{
+		"template": "template001_print",
 		"data-id": 7938,
 		"chart-id": 7938,
 		"filter": "",
+		"parentId": "7700",
+		"children": [],
+		"title": "Grünflächen nach Kategorie",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2021: 26 355 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07938",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "7.02",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-07T08:20:18",
 		"id": 7938
 	},
 	{
@@ -1688,42 +1674,40 @@ var indikatorensetData = [
 		"id": 7946
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7947,
+		"chart-id": 7947,
+		"filter": "",
+		"parentId": "7709",
+		"children": [],
 		"title": "Freiraumfläche",
-		"subtitle": "in m<sup>2</sup> und Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.02.1.07947",
-		"kuerzelKunde": "7.03",
-		"description": "Freiraumfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2021 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,9%).",
+		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"description": "Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07947",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "7.03",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2018 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6%.",
-		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "line001_print",
+		"orderKey": "07_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_003",
-		"parentId": 7709,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7947,
-		"chart-id": 7947,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:20:18",
 		"id": 7947
 	},
 	{

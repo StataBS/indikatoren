@@ -156,8 +156,8 @@ var indikatorensetData = [
 		"parentId": "5814",
 		"children": [],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2021 in der Grossbasler Altstadt verzeichnet (2,2%). Die Zunahme gegenüber der Quote von vor zehn Jahren war ebenfalls im Wohnviertel Altstadt am grössten (von 0,4% auf 2,2%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2022 im Wohnviertel Vorstädte verzeichnet (2,4%). Die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,8% auf 2,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -182,7 +182,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:37",
+		"aktualisierungsdatum": "2023-03-07T08:21:15",
 		"id": 6246
 	},
 	{
@@ -307,7 +307,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
 		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2020 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -331,7 +331,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:33",
+		"aktualisierungsdatum": "2023-03-07T08:21:14",
 		"id": 6250
 	},
 	{
@@ -417,14 +417,14 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich zwischen 2019 und 2020 kaum verändert.",
+		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz_OEV&tree_group_layers_Liniennetz_OEV=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -445,7 +445,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:42",
+		"aktualisierungsdatum": "2023-03-07T08:21:17",
 		"id": 6253
 	},
 	{
@@ -457,7 +457,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 152 462 Beschäftigte. Das entspricht einer Beschäftigtendichte von 42,5 Beschäftigten (VZÄ) pro Hektar.",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 148 633 Beschäftigte. Das entspricht einer Beschäftigtendichte von 41,4 Beschäftigten (VZÄ) pro Hektar.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -482,7 +482,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:43",
+		"aktualisierungsdatum": "2023-03-07T08:21:19",
 		"id": 6254
 	},
 	{
@@ -494,8 +494,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2020 in den Wohnvierteln St. Alban und St. Johann.  Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF betrachtet sind es die Wohnviertel Altstadt Grossbasel und Kleinhüningen mit den höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2020 in den Wohnvierteln St. Alban und St. Johann.  Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF betrachtet sind es die Wohnviertel Altstadt Grossbasel und Kleinhüningen mit den höchsten Werten.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -519,7 +519,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:44",
+		"aktualisierungsdatum": "2023-03-07T08:21:20",
 		"id": 6255
 	},
 	{
@@ -571,7 +571,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2019 von 192 076 auf 200 407 gestiegen, was einem Anstieg von etwa 4,3% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 5,1% von 183 183 auf 192 450.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2020 von 192 076 auf 201 971 gestiegen, was einem Anstieg von etwa 5,2% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 3,1% von 183 183 auf 188 778.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -597,7 +597,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:34",
+		"aktualisierungsdatum": "2023-03-07T08:21:14",
 		"id": 6257
 	},
 	{
@@ -759,8 +759,8 @@ var indikatorensetData = [
 		"parentId": "6217",
 		"children": [],
 		"title": "Leerstehende Geschäftsflächen",
-		"subtitle": "in Quadratmetern, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 beträgt die leerstehende Fläche insgesamt rund 185 000 m², was einem neuen Höchtsstand entspricht. Die Büroflächen machen mit rund 121 000 m² fast zwei Drittel der leerstehenden Geschäftsflächen aus.",
+		"subtitle": "in m², Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 beträgt die leerstehende Fläche insgesamt über 201 500 m², was einem neuen Höchststand entspricht. Die Büroflächen machen mit rund 110 700 m² über die Hälfte der leerstehenden Geschäftsflächen aus.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -785,7 +785,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:44",
+		"aktualisierungsdatum": "2023-03-07T08:21:21",
 		"id": 6262
 	},
 	{
@@ -834,9 +834,9 @@ var indikatorensetData = [
 		"parentId": "6220",
 		"children": [],
 		"title": "Haushalte in Begegnungszonen",
-		"subtitle": "indexiert (2011 = 100), Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2019 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2019 gibt es 8 080 Privathaushalte in Begegnungszonen.",
-		"erlaeuterungen": "",
+		"subtitle": "indexiert (2011 = 100), Stadt Basel",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2020 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2020 gibt es knapp 8 400 Privathaushalte in Begegnungszonen. Insgesamt gibt es in der Stadt Basel rund 89 000 Privathaushalte.",
+		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:41",
+		"aktualisierungsdatum": "2023-03-07T08:21:16",
 		"id": 6264
 	},
 	{
@@ -873,8 +873,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1 988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"lesehilfe": "Im Jahr 2020 sind in Basel-Stadt 188 778 Personen beschäftigt. Das sind 3 672 Personen weniger als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gesundheits- und Sozialwesen mit 774 Personen, während im Gastgewerbe mit 3 177 Beschäftigten die grösste Abnahme zu beobachten ist.",
+		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -898,7 +898,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:43",
+		"aktualisierungsdatum": "2023-03-07T08:21:18",
 		"id": 6265
 	},
 	{
@@ -1027,7 +1027,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2020 rund 22%. Das bedeutet, dass eine durchschnittliche Reise 22% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. In allen betrachteten Städten ist ein Rückgang gegenüber 2019 zu beobachten. Dies dürfte zumindest teilweise mit der verringerten Mobilität aufgrund der Pandemie zusammenhängen.",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2021 rund 24%. Das bedeutet, dass eine durchschnittliche Reise 24% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. Nach dem deutlichen Rückgang zwischen 2019 und 2020, ist im Jahr 2021 in allen betrachteten Städten wieder ein Anstieg zu beobachten.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"quellenangabe": [
 			"TomTom International"
@@ -1058,7 +1058,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:30",
+		"aktualisierungsdatum": "2023-03-07T08:21:11",
 		"id": 8420
 	},
 	{
@@ -1095,7 +1095,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:31",
+		"aktualisierungsdatum": "2023-03-07T08:21:13",
 		"id": 8421
 	},
 	{

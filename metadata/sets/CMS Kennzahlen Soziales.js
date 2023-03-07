@@ -1353,44 +1353,42 @@ var indikatorensetData = [
 		"id": 8275
 	},
 	{
-		"parentId": 4829,
-		"children": [],
 		"template": "mappie001",
+		"data-id": 8276,
+		"chart-id": 8276,
+		"filter": "",
+		"parentId": "4829",
+		"children": [],
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08276",
-		"kuerzelKunde": "2-01",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-27T08:52:05.055",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08276",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-01",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"orderKey": "02_01_00_00_00_201",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_201",
-		"renderLink": [
-			"4829"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 8276,
-		"chart-id": 8276,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:19:42",
 		"id": 8276
 	},
 	{
@@ -2316,44 +2314,42 @@ var indikatorensetData = [
 		"id": 8318
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8320,
+		"chart-id": 8320,
+		"filter": "",
+		"parentId": "4827",
+		"children": [],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.08320",
-		"kuerzelKunde": "3-18",
-		"description": "Altersquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.altersquotient&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08320",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3-18",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.4 Altersarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "mappie001",
+		"orderKey": "03_04_00_00_00_339",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "03_04_00_00_00_339",
-		"parentId": 5114,
-		"children": [],
-		"renderLink": [
-			"5114"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8320,
-		"chart-id": 8320,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-07T08:20:03",
 		"id": 8320
 	},
 	{

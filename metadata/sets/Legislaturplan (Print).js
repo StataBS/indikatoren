@@ -2030,7 +2030,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Staatsausgaben für Kultur",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kulturerbe liegen 2019 bei 480 Fr. pro Kopf, im Bereich übrige Kultur bei 482 Fr. pro Kopf.",
+		"lesehilfe": "Die Ausgaben des Kantons betragen 2020 im Bereich Kulturerbe 477 und im Bereich übrige Kultur 663 Franken pro Kopf.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -2055,7 +2055,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:04",
+		"aktualisierungsdatum": "2023-03-07T08:18:55",
 		"id": 9461
 	}
 ];
