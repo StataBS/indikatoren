@@ -130,7 +130,7 @@
     "text": "Mittlere Anzahl Personen pro Haushalt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -186,7 +186,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
   },
   "colors": [
     "#b00000",

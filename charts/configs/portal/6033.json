@@ -246,6 +246,10 @@
         [
           1609459200000,
           6
+        ],
+        [
+          1640995200000,
+          37
         ]
       ],
       "name": "Hitzetage"
@@ -305,7 +309,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Tage",
+    "text": "Anzahl Tage, Meteorologische Station Basel-Binningen",
     "align": "left"
   },
   "xAxis": {
@@ -372,7 +376,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-3"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
   },
   "legend": {
     "symbolRadius": 0,

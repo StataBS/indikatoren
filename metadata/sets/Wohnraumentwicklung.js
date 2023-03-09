@@ -560,8 +560,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2021 47% aus, 40% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2022 47% aus, 40% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Kategorie Andere Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -585,7 +585,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-19T08:47:00",
+		"aktualisierungsdatum": "2023-03-09T08:19:56",
 		"id": 4141
 	},
 	{
@@ -597,7 +597,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Familienhaushalte nach Zusammensetzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 41% im Jahr 2011 auf 37% im Jahr 2021. Demgegenüber nahm der Anteil an Paaren mit minderjährigen Kindern in den betrachteten Jahren zu (von 32% auf 36%). Die Anteile der weiteren Familienhaushaltstypen sind seit 2011 gleichgeblieben.",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 40% im Jahr 2013 auf 36% im Jahr 2022.",
 		"erlaeuterungen": "Personen, die in derselben Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -622,7 +622,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-19T08:47:01",
+		"aktualisierungsdatum": "2023-03-09T08:19:57",
 		"id": 4142
 	},
 	{

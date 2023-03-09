@@ -879,7 +879,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -894,17 +894,17 @@ var indikatorensetData = [
 		"unterthema": "Störfälle",
 		"kuerzel": "I.02.18.05189",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW12",
+		"kuerzelKunde": "GW10",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_313",
+		"orderKey": "03_03_00_00_00_310",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:30",
+		"aktualisierungsdatum": "2023-03-09T08:20:14",
 		"id": 5189
 	},
 	{
@@ -1546,8 +1546,8 @@ var indikatorensetData = [
 			8924
 		],
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1564,7 +1564,7 @@ var indikatorensetData = [
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.06033",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL11",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1574,7 +1574,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-03T08:35:01",
+		"aktualisierungsdatum": "2023-03-09T08:20:18",
 		"id": 6033
 	},
 	{
@@ -2210,12 +2210,11 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8942,
-			9677
+			8942
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 4,0% im Jahr 2021 auf 3,1% 2022 ähnlich stark zurück. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,9% im Jahr 2022 knapp unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2230,17 +2229,17 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06053",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE8",
+		"kuerzelKunde": "WE12",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_608",
+		"orderKey": "06_02_00_00_00_612",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:39",
+		"aktualisierungsdatum": "2023-03-09T08:20:20",
 		"id": 6053
 	},
 	{
@@ -2370,8 +2369,8 @@ var indikatorensetData = [
 			8946
 		],
 		"title": "Jahresmitteltemperatur",
-		"subtitle": "in °C",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2021 10,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -2386,17 +2385,17 @@ var indikatorensetData = [
 		"unterthema": "Witterung",
 		"kuerzel": "I.02.3.06434",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL12",
+		"kuerzelKunde": "NL14",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_413",
+		"orderKey": "04_02_00_00_00_414",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-03T08:35:01",
+		"aktualisierungsdatum": "2023-03-09T08:20:19",
 		"id": 6434
 	},
 	{
@@ -3109,6 +3108,46 @@ var indikatorensetData = [
 		"chart-id": 8852,
 		"filter": "",
 		"id": 8852
+	},
+	{
+		"template": "line001",
+		"data-id": 9733,
+		"chart-id": 9733,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Abschlussquote auf Sekundarstufe II",
+		"subtitle": "nach Migrationskategorie, Basel-Stadt",
+		"lesehilfe": "In der Schweiz und im Ausland geborene Schweizerinnen und Schweizer sowie in der Schweiz geborene Ausländerinnen und Ausländer weisen allesamt stabil höhere Abschlussquoten auf Sekundarstufe II auf als im Ausland geborene Ausländerinnen und Ausländer.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Der einzelne Punkt in der Grafik rührt daher, dass das BFS für im Ausland geborene Schweizerinnen und Schweizer aktuell nur den Wert 2015 ausweist.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Abschlussquote auf Sekundarstufe II",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.09733",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW12",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_04_00_00_00_312",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-09T08:20:16",
+		"id": 9733
 	},
 	{
 		"template": "line001",
