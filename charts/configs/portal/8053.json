@@ -4,18 +4,6 @@
       "color": "#2f656b",
       "data": [
         [
-          "2012: Klybeck",
-          1545
-        ],
-        [
-          "2012: Kleinhüningen",
-          546
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2013: Klybeck",
           1553
         ],
@@ -24,7 +12,7 @@
           539
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -36,7 +24,7 @@
           524
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -48,7 +36,7 @@
           519
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,7 +48,7 @@
           521
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -72,7 +60,7 @@
           538
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
@@ -84,7 +72,7 @@
           525
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
@@ -96,7 +84,7 @@
           534
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
@@ -108,7 +96,7 @@
           522
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -118,6 +106,22 @@
         [
           "2021: Kleinhüningen",
           536
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          1690
+        ],
+        [
+          "2022: Kleinhüningen",
+          540
+        ],
+        [
+          "          ",
+          null
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -127,18 +131,6 @@
       "color": "#73b97c",
       "data": [
         [
-          "2012: Klybeck",
-          1538
-        ],
-        [
-          "2012: Kleinhüningen",
-          626
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2013: Klybeck",
           1548
         ],
@@ -147,7 +139,7 @@
           633
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -159,7 +151,7 @@
           646
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -171,7 +163,7 @@
           642
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -183,7 +175,7 @@
           640
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -195,43 +187,43 @@
           625
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
           "2018: Klybeck",
-          1467
+          1468
         ],
         [
           "2018: Kleinhüningen",
           632
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
           "2019: Klybeck",
-          1455
+          1456
         ],
         [
           "2019: Kleinhüningen",
           621
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
           "2020: Klybeck",
-          1397
+          1399
         ],
         [
           "2020: Kleinhüningen",
-          613
+          612
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -241,6 +233,22 @@
         [
           "2021: Kleinhüningen",
           594
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          1333
+        ],
+        [
+          "2022: Kleinhüningen",
+          603
+        ],
+        [
+          "          ",
+          null
         ]
       ],
       "name": "Familienhaushalte",
@@ -250,18 +258,6 @@
       "color": "#d7e8d2",
       "data": [
         [
-          "2012: Klybeck",
-          372
-        ],
-        [
-          "2012: Kleinhüningen",
-          125
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2013: Klybeck",
           378
         ],
@@ -270,7 +266,7 @@
           127
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -282,7 +278,7 @@
           121
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -294,7 +290,7 @@
           130
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -306,7 +302,7 @@
           126
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -318,43 +314,43 @@
           115
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
           "2018: Klybeck",
-          414
+          413
         ],
         [
           "2018: Kleinhüningen",
           114
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
           "2019: Klybeck",
-          408
+          407
         ],
         [
           "2019: Kleinhüningen",
           105
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
           "2020: Klybeck",
-          384
+          382
         ],
         [
           "2020: Kleinhüningen",
-          115
+          116
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -364,6 +360,22 @@
         [
           "2021: Kleinhüningen",
           125
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          408
+        ],
+        [
+          "2022: Kleinhüningen",
+          126
+        ],
+        [
+          "          ",
+          null
         ]
       ],
       "name": "Andere Haushalte",
@@ -509,7 +521,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

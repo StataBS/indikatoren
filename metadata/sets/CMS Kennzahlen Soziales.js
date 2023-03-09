@@ -1401,8 +1401,8 @@ var indikatorensetData = [
 			8548
 		],
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2021 mit 62% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2022 mit 62% am höchsten, gefolgt vom Wohnviertel Bruderholz (57%) und der Gemeinde Riehen (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1427,7 +1427,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:46",
+		"aktualisierungsdatum": "2023-03-09T08:19:58",
 		"id": 8277
 	},
 	{
@@ -1441,7 +1441,7 @@ var indikatorensetData = [
 		],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen höhere Quoten auf als ihre Kolleginnen. 2021 sind gegenüber 2020 generell höhere Lehrabbruchquoten zu verzeichnen.",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
 		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
@@ -1466,7 +1466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:53",
+		"aktualisierungsdatum": "2023-03-09T08:20:00",
 		"id": 8278
 	},
 	{

@@ -326,7 +326,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2020 machen Einpersonenhaushalte 47% aus, 38% sind Familienhaushalte. 15% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur.",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grossen Veränderungen auf. 2022 machen Einpersonenhaushalte 48% aus, 44% sind Familienhaushalte. 14% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es in den letzten drei Jahren ebenfalls keine grossen Veränderungen.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -352,7 +352,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:07",
+		"aktualisierungsdatum": "2023-03-09T08:20:02",
 		"id": 7672
 	},
 	{

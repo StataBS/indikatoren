@@ -90,9 +90,9 @@ var indikatorensetData = [
 		"children": [
 			5112
 		],
-		"title": "Anteil Personen an der Bevölkerung, die in Einpersonenhaushalten leben",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2021 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
+		"title": "Anteil Personen in Einpersonenhaushalten",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2022 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -104,7 +104,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Anteil Personen an der Bevölkerung, die in Einpersonenhaushalten leben",
+		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kuerzel": "I.01.2.04825",
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:47",
+		"aktualisierungsdatum": "2023-03-09T08:20:13",
 		"id": 4825
 	},
 	{

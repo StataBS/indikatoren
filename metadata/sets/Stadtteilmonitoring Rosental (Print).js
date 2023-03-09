@@ -310,43 +310,41 @@ var indikatorensetData = [
 		"id": 7909
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7910,
+		"chart-id": 7910,
+		"filter": "",
+		"parentId": "7672",
+		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.2.07910",
-		"kuerzelKunde": "4.01",
-		"description": "Haushalte nach Art des Haushalts",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grossen Veränderungen auf. 2022 machen Einpersonenhaushalte 48% aus, 44% sind Familienhaushalte. 14% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es in den letzten drei Jahren ebenfalls keine grossen Veränderungen.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
+		"description": "Haushalte nach Art des Haushalts",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.07910",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2018 machen Einpersonenhaushalte 46% aus, 38% sind Familienhaushalte. 16% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur, beispielsweise war der Anteil Einpersonenhaushalte 2010 mit 50% besonders hoch.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001_print",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 7672,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7910,
-		"chart-id": 7910,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:02",
 		"id": 7910
 	},
 	{

@@ -5,30 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2011: Messe",
-          971
-        ],
-        [
-          "2011: Erlenmatt",
-          115
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2012: Messe",
-          1017
-        ],
-        [
-          "2012: Erlenmatt",
-          106
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
           "2013: Messe",
           1022
         ],
@@ -37,7 +13,7 @@
           109
         ],
         [
-          "   ",
+          " ",
           null
         ],
         [
@@ -49,7 +25,7 @@
           115
         ],
         [
-          "    ",
+          "  ",
           null
         ],
         [
@@ -61,7 +37,7 @@
           322
         ],
         [
-          "     ",
+          "   ",
           null
         ],
         [
@@ -73,7 +49,7 @@
           364
         ],
         [
-          "      ",
+          "    ",
           null
         ],
         [
@@ -85,7 +61,7 @@
           375
         ],
         [
-          "       ",
+          "     ",
           null
         ],
         [
@@ -97,19 +73,19 @@
           389
         ],
         [
-          "        ",
+          "      ",
           null
         ],
         [
           "2019: Messe",
-          1085
+          1087
         ],
         [
           "2019: Erlenmatt",
-          549
+          552
         ],
         [
-          "         ",
+          "       ",
           null
         ],
         [
@@ -119,6 +95,30 @@
         [
           "2020: Erlenmatt",
           526
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Messe",
+          1089
+        ],
+        [
+          "2021: Erlenmatt",
+          544
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2022: Messe",
+          1115
+        ],
+        [
+          "2022: Erlenmatt",
+          541
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -129,30 +129,6 @@
       "index": 1,
       "data": [
         [
-          "2011: Messe",
-          912
-        ],
-        [
-          "2011: Erlenmatt",
-          115
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2012: Messe",
-          923
-        ],
-        [
-          "2012: Erlenmatt",
-          122
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
           "2013: Messe",
           932
         ],
@@ -161,7 +137,7 @@
           129
         ],
         [
-          "   ",
+          " ",
           null
         ],
         [
@@ -173,7 +149,7 @@
           119
         ],
         [
-          "    ",
+          "  ",
           null
         ],
         [
@@ -185,7 +161,7 @@
           266
         ],
         [
-          "     ",
+          "   ",
           null
         ],
         [
@@ -197,7 +173,7 @@
           330
         ],
         [
-          "      ",
+          "    ",
           null
         ],
         [
@@ -209,19 +185,19 @@
           370
         ],
         [
-          "       ",
+          "     ",
           null
         ],
         [
           "2018: Messe",
-          874
+          873
         ],
         [
           "2018: Erlenmatt",
           411
         ],
         [
-          "        ",
+          "      ",
           null
         ],
         [
@@ -230,19 +206,43 @@
         ],
         [
           "2019: Erlenmatt",
-          515
+          516
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2020: Messe",
+          878
+        ],
+        [
+          "2020: Erlenmatt",
+          556
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Messe",
+          872
+        ],
+        [
+          "2021: Erlenmatt",
+          557
         ],
         [
           "         ",
           null
         ],
         [
-          "2020: Messe",
-          879
+          "2022: Messe",
+          865
         ],
         [
-          "2020: Erlenmatt",
-          555
+          "2022: Erlenmatt",
+          566
         ]
       ],
       "name": "Familienhaushalte",
@@ -253,30 +253,6 @@
       "index": 2,
       "data": [
         [
-          "2011: Messe",
-          286
-        ],
-        [
-          "2011: Erlenmatt",
-          44
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2012: Messe",
-          295
-        ],
-        [
-          "2012: Erlenmatt",
-          40
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
           "2013: Messe",
           324
         ],
@@ -285,7 +261,7 @@
           33
         ],
         [
-          "   ",
+          " ",
           null
         ],
         [
@@ -297,7 +273,7 @@
           36
         ],
         [
-          "    ",
+          "  ",
           null
         ],
         [
@@ -309,7 +285,7 @@
           113
         ],
         [
-          "     ",
+          "   ",
           null
         ],
         [
@@ -321,7 +297,7 @@
           143
         ],
         [
-          "      ",
+          "    ",
           null
         ],
         [
@@ -333,40 +309,64 @@
           123
         ],
         [
-          "       ",
+          "     ",
           null
         ],
         [
           "2018: Messe",
-          356
+          357
         ],
         [
           "2018: Erlenmatt",
           139
         ],
         [
-          "        ",
+          "      ",
           null
         ],
         [
           "2019: Messe",
-          365
+          364
         ],
         [
           "2019: Erlenmatt",
-          182
+          180
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2020: Messe",
+          351
+        ],
+        [
+          "2020: Erlenmatt",
+          199
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2021: Messe",
+          351
+        ],
+        [
+          "2021: Erlenmatt",
+          183
         ],
         [
           "         ",
           null
         ],
         [
-          "2020: Messe",
-          350
+          "2022: Messe",
+          359
         ],
         [
-          "2020: Erlenmatt",
-          200
+          "2022: Erlenmatt",
+          176
         ]
       ],
       "name": "Andere Haushalte",
@@ -510,7 +510,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

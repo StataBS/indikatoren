@@ -1,258 +1,127 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#4f81bd",
       "data": [
         [
-          1961,
-          10.5
-        ],
-        [
-          1962,
-          8.7
-        ],
-        [
-          1963,
-          8.6
-        ],
-        [
-          1964,
-          9.9
-        ],
-        [
-          1965,
-          9.2
-        ],
-        [
-          1966,
-          10
-        ],
-        [
-          1967,
-          10
-        ],
-        [
-          1968,
-          9.5
-        ],
-        [
-          1969,
-          9.1
-        ],
-        [
-          1970,
-          9.4
-        ],
-        [
-          1971,
-          9.6
-        ],
-        [
-          1972,
-          9.1
-        ],
-        [
-          1973,
-          9.5
-        ],
-        [
-          1974,
-          10.2
-        ],
-        [
-          1975,
-          9.9
-        ],
-        [
-          1976,
-          10.2
-        ],
-        [
-          1977,
-          10.1
-        ],
-        [
-          1978,
-          9.3
-        ],
-        [
-          1979,
-          9.8
-        ],
-        [
-          1980,
-          9.1
-        ],
-        [
-          1981,
-          9.9
-        ],
-        [
-          1982,
-          10.5
-        ],
-        [
-          1983,
-          10.5
-        ],
-        [
-          1984,
-          9.7
-        ],
-        [
-          1985,
-          9.3
-        ],
-        [
-          1986,
-          9.4
-        ],
-        [
-          1987,
-          9.5
-        ],
-        [
-          1988,
-          10.7
-        ],
-        [
-          1989,
-          10.6
-        ],
-        [
-          1990,
-          10.8
-        ],
-        [
-          1991,
-          10
-        ],
-        [
-          1992,
-          10.7
-        ],
-        [
-          1993,
-          10.3
-        ],
-        [
-          1994,
-          11.7
-        ],
-        [
-          1995,
-          10.6
-        ],
-        [
-          1996,
-          9.4
-        ],
-        [
-          1997,
-          10.6
-        ],
-        [
-          1998,
-          10.6
-        ],
-        [
-          1999,
-          10.6
-        ],
-        [
-          2000,
-          11.4
-        ],
-        [
-          2001,
-          10.7
-        ],
-        [
-          2002,
-          11.2
-        ],
-        [
-          2003,
-          11.3
-        ],
-        [
-          2004,
-          10.5583333333333
-        ],
-        [
-          2005,
-          10.4916666666667
-        ],
-        [
-          2006,
-          10.9
-        ],
-        [
-          2007,
-          11.3166666666667
-        ],
-        [
-          2008,
-          10.8
-        ],
-        [
-          2009,
-          11
-        ],
-        [
-          2010,
-          9.9
-        ],
-        [
-          2011,
-          11.7
-        ],
-        [
-          2012,
-          10.8
-        ],
-        [
-          2013,
-          10.4
-        ],
-        [
-          2014,
-          11.9
-        ],
-        [
           2015,
-          11.8
+          88.27
         ],
         [
           2016,
-          11
+          90.888
         ],
         [
           2017,
-          11.5
+          88.959
         ],
         [
           2018,
-          12.26
+          90.501
         ],
         [
           2019,
-          11.7
+          89.2
         ],
         [
           2020,
-          12.2
-        ],
-        [
-          2021,
-          10.7
-        ],
-        [
-          2022,
-          12.6
+          88.101
         ]
       ],
-      "name": "Jahresmitteltemperatur"
+      "name": "in der Schweiz geborene Schweizer\u002Finnen"
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          2015,
+          85.542
+        ],
+        [
+          2016,
+          85.667
+        ],
+        [
+          2017,
+          87.381
+        ],
+        [
+          2018,
+          81.864
+        ],
+        [
+          2019,
+          84.837
+        ],
+        [
+          2020,
+          80.835
+        ]
+      ],
+      "name": "in der Schweiz geborene Ausländer\u002Finnen"
+    },
+    {
+      "color": "#7F5F1A",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2015,
+          85.43
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ]
+      ],
+      "name": "im Ausland geborene Schweizer\u002Finnen"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2015,
+          74.418
+        ],
+        [
+          2016,
+          75.316
+        ],
+        [
+          2017,
+          70.585
+        ],
+        [
+          2018,
+          71.301
+        ],
+        [
+          2019,
+          71.867
+        ],
+        [
+          2020,
+          73.465
+        ]
+      ],
+      "name": "im Ausland geborene Ausländer\u002Finnen"
     }
   ],
   "chart": {
@@ -284,12 +153,18 @@
 					}
 				}
     },
-    "renderTo": "container-6434"
+    "renderTo": "container-9733"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -300,10 +175,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Jahresmitteltemperatur"
+    "text": "Abschlussquote auf Sekundarstufe II"
   },
   "subtitle": {
-    "text": "in °C, Meteorologische Station Basel-Binningen",
+    "text": "nach Migrationskategorie, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -326,8 +201,7 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 5
+    }
   },
   "yAxis": {
     "min": 0,
@@ -345,19 +219,20 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
-    },
-    "tickInterval": 2
+      "format": "{value:,.0f}%"
+    }
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 5,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -372,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -409,10 +284,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "6434"
+    "filename": "9733"
   }
 }

@@ -837,42 +837,40 @@ var indikatorensetData = [
 		"id": 8904
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8905,
+		"chart-id": 8905,
+		"filter": "",
+		"parentId": "5189",
+		"children": [],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.18.08905",
-		"kuerzelKunde": "GW12",
-		"description": "Anzahl Störfälle und Ereignisse",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Störfälle",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
+		"quellenangabe": [
+			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:49.4949",
+		"description": "Anzahl Störfälle und Ereignisse",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Störfälle",
+		"kuerzel": "I.02.18.08905",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "GW12",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
-		"template": "line001_print",
+		"orderKey": "03_03_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_04_00_00_00_313",
-		"parentId": 6179,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8905,
-		"chart-id": 8905,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:15",
 		"id": 8905
 	},
 	{
@@ -1482,42 +1480,42 @@ var indikatorensetData = [
 		"id": 8923
 	},
 	{
+		"template": "stock001_print",
+		"data-id": 8924,
+		"chart-id": 8924,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.12.08924",
-		"kuerzelKunde": "NL11",
-		"description": "Hitzetage",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-29T14:48:49.4949",
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08924",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL11",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 25 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
-		"template": "stock001_print",
+		"orderKey": "04_02_00_00_00_412",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_412",
-		"parentId": 6033,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"data-id": 8924,
-		"chart-id": 8924,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:16",
 		"id": 8924
 	},
 	{
@@ -2137,42 +2135,40 @@ var indikatorensetData = [
 		"id": 8941
 	},
 	{
-		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.08942",
-		"kuerzelKunde": "WE8",
-		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-16T12:07:29.2929",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% 2018 auf 3,2% 2019. Die Arbeitslosenquote der Personen über 50 Jahre lag 2019 unverändert bei 2,5% und damit weiterhin unterhalb der Durchschnittsquote.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "06_02_00_00_00_608",
-		"parentId": 6137,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8942,
 		"chart-id": 8942,
 		"filter": "",
+		"parentId": "6053",
+		"children": [],
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 4,0% im Jahr 2021 auf 3,1% 2022 ähnlich stark zurück. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,9% im Jahr 2022 knapp unterhalb der Durchschnittsquote.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.08942",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "WE8",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_608",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-09T08:20:20",
 		"id": 8942
 	},
 	{
@@ -2293,42 +2289,40 @@ var indikatorensetData = [
 		"id": 8945
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8946,
+		"chart-id": 8946,
+		"filter": "",
+		"parentId": "6434",
+		"children": [],
 		"title": "Jahresmitteltemperatur",
-		"subtitle": "in °C",
-		"kuerzel": "I.02.3.08946",
-		"kuerzelKunde": "NL12",
-		"description": "Jahresmitteltemperatur",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:32.3232",
+		"description": "Jahresmitteltemperatur",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Witterung",
+		"kuerzel": "I.02.3.08946",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2019 11,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
-		"template": "line001_print",
+		"orderKey": "04_02_00_00_00_413",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_413",
-		"parentId": 6434,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8946,
-		"chart-id": 8946,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:17",
 		"id": 8946
 	},
 	{

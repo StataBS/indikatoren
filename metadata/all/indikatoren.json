@@ -2183,8 +2183,8 @@
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2021 47% aus, 40% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2022 47% aus, 40% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Kategorie Andere Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2209,7 +2209,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-19T08:47:00",
+		"aktualisierungsdatum": "2023-03-09T08:19:56",
 		"id": 4141
 	},
 	{
@@ -2221,7 +2221,7 @@
 		"children": [],
 		"title": "Familienhaushalte nach Zusammensetzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 41% im Jahr 2011 auf 37% im Jahr 2021. Demgegenüber nahm der Anteil an Paaren mit minderjährigen Kindern in den betrachteten Jahren zu (von 32% auf 36%). Die Anteile der weiteren Familienhaushaltstypen sind seit 2011 gleichgeblieben.",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 40% im Jahr 2013 auf 36% im Jahr 2022.",
 		"erlaeuterungen": "Personen, die in derselben Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2247,7 +2247,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-19T08:47:01",
+		"aktualisierungsdatum": "2023-03-09T08:19:57",
 		"id": 4142
 	},
 	{
@@ -7373,9 +7373,9 @@
 		"children": [
 			5112
 		],
-		"title": "Anteil Personen an der Bevölkerung, die in Einpersonenhaushalten leben",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2021 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
+		"title": "Anteil Personen in Einpersonenhaushalten",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2022 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -7387,7 +7387,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Anteil Personen an der Bevölkerung, die in Einpersonenhaushalten leben",
+		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kuerzel": "I.01.2.04825",
@@ -7403,7 +7403,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:47",
+		"aktualisierungsdatum": "2023-03-09T08:20:13",
 		"id": 4825
 	},
 	{
@@ -10639,7 +10639,7 @@
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -10654,18 +10654,18 @@
 		"unterthema": "Störfälle",
 		"kuerzel": "I.02.18.05189",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW12",
+		"kuerzelKunde": "GW10",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_313",
+		"orderKey": "03_03_00_00_00_310",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:30",
+		"aktualisierungsdatum": "2023-03-09T08:20:14",
 		"id": 5189
 	},
 	{
@@ -12752,8 +12752,8 @@
 			8924
 		],
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -12770,7 +12770,7 @@
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.06033",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL11",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -12781,7 +12781,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-03T08:35:01",
+		"aktualisierungsdatum": "2023-03-09T08:20:18",
 		"id": 6033
 	},
 	{
@@ -13473,12 +13473,11 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8942,
-			9677
+			8942
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 4,0% im Jahr 2021 auf 3,1% 2022 ähnlich stark zurück. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,9% im Jahr 2022 knapp unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -13493,18 +13492,18 @@
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06053",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE8",
+		"kuerzelKunde": "WE12",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_608",
+		"orderKey": "06_02_00_00_00_612",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:39",
+		"aktualisierungsdatum": "2023-03-09T08:20:20",
 		"id": 6053
 	},
 	{
@@ -14563,10 +14562,10 @@
 		"children": [
 			6665
 		],
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen im Schuljahr 2021/22 Schülerinnen und Schüler mit deutscher Staats-bürgerschaft (52,0%).",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2021 in der Grafik entspricht Schuljahr 2021/22.",
+		"lesehilfe": "Die höchste Quote erreichen im gesamten Beobachtungszeitraum Schülerinnen und Schüler mit deutscher Staatsbürgerschaft.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -14575,7 +14574,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.06080",
@@ -14591,7 +14590,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:55",
+		"aktualisierungsdatum": "2023-03-09T08:20:05",
 		"id": 6080
 	},
 	{
@@ -14603,10 +14602,10 @@
 		"children": [
 			6666
 		],
-		"title": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Schweizerinnen und Schweizer weisen in allen Jahren die höchste Gymnasial- bzw. Sek  P-Quote auf. Die Quote der Schülerinnen ist durchwegs höher als jene der Schüler.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2021 in der Grafik entspricht Schuljahr 2021/22.",
+		"lesehilfe": "Schweizer Schülerinnen und Schüler weisen auch nach fünf Jahren mit rückläufigen Werten im gesamten Beobachtungszeitraum höhere Quoten auf. Ungeachtet der Staatsangehörigkeit ist die Quote der Schülerinnen durchwegs höher als jene der Schüler.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -14615,7 +14614,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
+		"description": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.6081",
@@ -14631,7 +14630,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:56",
+		"aktualisierungsdatum": "2023-03-09T08:20:07",
 		"id": 6081
 	},
 	{
@@ -14729,7 +14728,7 @@
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Die Quote stieg – bei geringen Gesamtzahlen - nochmals bei Lernenden aus Mittel- und Südamerika sowie afrikanischen Staaten.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Umgekehrt verläuft der Trend bei Jugendlichen aus der Türkei sowie aus Mittel- und Südamerika. Bei Lernenden mit deutschem Pass stagniert die Quote auf tiefem Nievau.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -14756,7 +14755,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:57",
+		"aktualisierungsdatum": "2023-03-09T08:20:08",
 		"id": 6084
 	},
 	{
@@ -14770,7 +14769,7 @@
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist seit 2014 höher als jene ihrer Schweizer Kollegen. Die Differenz nach Geschlecht ist bei ausländischen geringer als bei Schweizern Lernenden.",
+		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist seit 2014 höher als jene ihrer Schweizer Kolleginnen und Kollegen. Zudem ist die Differenz der Quoten nach Geschlecht bei ausländischen Lernenden geringer als bei Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -14797,7 +14796,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:58",
+		"aktualisierungsdatum": "2023-03-09T08:20:11",
 		"id": 6085
 	},
 	{
@@ -24084,8 +24083,8 @@
 			8946
 		],
 		"title": "Jahresmitteltemperatur",
-		"subtitle": "in °C",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2021 10,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -24100,18 +24099,18 @@
 		"unterthema": "Witterung",
 		"kuerzel": "I.02.3.06434",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL12",
+		"kuerzelKunde": "NL14",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_413",
+		"orderKey": "04_02_00_00_00_414",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-03T08:35:01",
+		"aktualisierungsdatum": "2023-03-09T08:20:19",
 		"id": 6434
 	},
 	{
@@ -25295,9 +25294,9 @@
 			6718
 		],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8), Personen aus den Balkanländern mit der höchsten Anzahl (2,8).",
-		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z.&nbsp;B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,82), Personen aus den Balkanländern mit der höchsten Anzahl (2,71).",
+		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z. B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -25323,7 +25322,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:29",
+		"aktualisierungsdatum": "2023-03-09T08:20:12",
 		"id": 6477
 	},
 	{
@@ -29157,10 +29156,10 @@
 		"filter": "",
 		"parentId": "6080",
 		"children": [],
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen im Schuljahr 2021/22 Schülerinnen und Schüler mit deutscher Staats-bürgerschaft (52,0%).",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2021 in der Grafik entspricht Schuljahr 2021/22.",
+		"lesehilfe": "Die höchste Quote erreichen im gesamten Beobachtungszeitraum Schülerinnen und Schüler mit deutscher Staatsbürgerschaft.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -29169,7 +29168,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.06665",
@@ -29185,7 +29184,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:55",
+		"aktualisierungsdatum": "2023-03-09T08:20:06",
 		"id": 6665
 	},
 	{
@@ -29195,10 +29194,10 @@
 		"filter": "",
 		"parentId": "6081",
 		"children": [],
-		"title": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Schweizerinnen und Schweizer weisen in allen Jahren die höchste Gymnasial- bzw. Sek  P-Quote auf. Die Quote der Schülerinnen ist durchwegs höher als jene der Schüler.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2021 in der Grafik entspricht Schuljahr 2021/22.",
+		"lesehilfe": "Schweizer Schülerinnen und Schüler weisen auch nach fünf Jahren mit rückläufigen Werten im gesamten Beobachtungszeitraum höhere Quoten auf. Ungeachtet der Staatsangehörigkeit ist die Quote der Schülerinnen durchwegs höher als jene der Schüler.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -29207,7 +29206,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
+		"description": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.06666",
@@ -29223,7 +29222,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:56",
+		"aktualisierungsdatum": "2023-03-09T08:20:07",
 		"id": 6666
 	},
 	{
@@ -29315,7 +29314,7 @@
 		"children": [],
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Die Quote stieg – bei geringen Gesamtzahlen - nochmals bei Lernenden aus Mittel- und Südamerika sowie afrikanischen Staaten.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Umgekehrt verläuft der Trend bei Jugendlichen aus der Türkei sowie aus Mittel- und Südamerika. Bei Lernenden mit deutschem Pass stagniert die Quote auf tiefem Nievau.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -29342,7 +29341,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:58",
+		"aktualisierungsdatum": "2023-03-09T08:20:09",
 		"id": 6669
 	},
 	{
@@ -29354,7 +29353,7 @@
 		"children": [],
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist seit 2014 höher als jene ihrer Schweizer Kollegen. Die Differenz nach Geschlecht ist bei ausländischen geringer als bei Schweizern Lernenden.",
+		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist seit 2014 höher als jene ihrer Schweizer Kolleginnen und Kollegen. Zudem ist die Differenz der Quoten nach Geschlecht bei ausländischen Lernenden geringer als bei Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -29381,7 +29380,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:58",
+		"aktualisierungsdatum": "2023-03-09T08:20:10",
 		"id": 6670
 	},
 	{
@@ -31193,9 +31192,9 @@
 		"parentId": "6477",
 		"children": [],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8), Personen aus den Balkanländern mit der höchsten Anzahl (2,8).",
-		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z.&nbsp;B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,82), Personen aus den Balkanländern mit der höchsten Anzahl (2,71).",
+		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z. B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -31221,7 +31220,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:30",
+		"aktualisierungsdatum": "2023-03-09T08:20:12",
 		"id": 6718
 	},
 	{
@@ -42850,7 +42849,7 @@
 		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2020 machen Einpersonenhaushalte 47% aus, 38% sind Familienhaushalte. 15% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur.",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grossen Veränderungen auf. 2022 machen Einpersonenhaushalte 48% aus, 44% sind Familienhaushalte. 14% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es in den letzten drei Jahren ebenfalls keine grossen Veränderungen.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42877,7 +42876,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:07",
+		"aktualisierungsdatum": "2023-03-09T08:20:02",
 		"id": 7672
 	},
 	{
@@ -46281,44 +46280,42 @@
 		"id": 7909
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7910,
+		"chart-id": 7910,
+		"filter": "",
+		"parentId": "7672",
+		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.2.07910",
-		"kuerzelKunde": "4.01",
-		"description": "Haushalte nach Art des Haushalts",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grossen Veränderungen auf. 2022 machen Einpersonenhaushalte 48% aus, 44% sind Familienhaushalte. 14% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es in den letzten drei Jahren ebenfalls keine grossen Veränderungen.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
+		"description": "Haushalte nach Art des Haushalts",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.07910",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2018 machen Einpersonenhaushalte 46% aus, 38% sind Familienhaushalte. 16% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur, beispielsweise war der Anteil Einpersonenhaushalte 2010 mit 50% besonders hoch.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001_print",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 7672,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7910,
-		"chart-id": 7910,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:02",
 		"id": 7910
 	},
 	{
@@ -49541,7 +49538,7 @@
 		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2021: 48% gegenüber 43%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2021: 47% gegenüber 40%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2021 bei 49%, Familienhaushalte machen 38% aus. Andere Haushaltsformen sind mit 13% vertreten.",
+		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2022: 49% gegenüber 43%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -49567,7 +49564,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:20",
+		"aktualisierungsdatum": "2023-03-09T08:20:03",
 		"id": 8053
 	},
 	{
@@ -53239,8 +53236,8 @@
 			8548
 		],
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2021 mit 62% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2022 mit 62% am höchsten, gefolgt vom Wohnviertel Bruderholz (57%) und der Gemeinde Riehen (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -53266,7 +53263,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:46",
+		"aktualisierungsdatum": "2023-03-09T08:19:58",
 		"id": 8277
 	},
 	{
@@ -53280,7 +53277,7 @@
 		],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen höhere Quoten auf als ihre Kolleginnen. 2021 sind gegenüber 2020 generell höhere Lehrabbruchquoten zu verzeichnen.",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
 		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
@@ -53306,7 +53303,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:53",
+		"aktualisierungsdatum": "2023-03-09T08:20:00",
 		"id": 8278
 	},
 	{
@@ -62158,85 +62155,81 @@
 		"id": 8547
 	},
 	{
+		"template": "mappie001_print",
+		"data-id": 8548,
+		"chart-id": 8548,
+		"filter": "",
+		"parentId": "8277",
+		"children": [
+			8812
+		],
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"kuerzel": "I.01.2.08548",
-		"kuerzelKunde": "2-02",
-		"description": "Anteil Familienhaushalte",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2022 mit 62% am höchsten, gefolgt vom Wohnviertel Bruderholz (57%) und der Gemeinde Riehen (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"description": "Anteil Familienhaushalte",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.08548",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "2-02",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
-		"template": "mappie001_print",
+		"orderKey": "02_01_00_00_00_202",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_01_00_00_00_202",
-		"parentId": 8277,
-		"children": [
-			"8812"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8548,
-		"chart-id": 8548,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:19:59",
 		"id": 8548
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8549,
+		"chart-id": 8549,
+		"filter": "",
+		"parentId": "8278",
+		"children": [],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"kuerzel": "I.15.3.08549",
-		"kuerzelKunde": "2-07",
-		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.08549",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "2-07",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass meistens über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden höhere Quoten auf als ihre Kolleginnen.",
-		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
-		"template": "line001_print",
+		"orderKey": "02_02_00_00_00_207",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_02_00_00_00_207",
-		"parentId": 8278,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8549,
-		"chart-id": 8549,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:01",
 		"id": 8549
 	},
 	{
@@ -64301,43 +64294,41 @@
 		"id": 8622
 	},
 	{
+		"template": "template001_print",
+		"data-id": 8623,
+		"chart-id": 8623,
+		"filter": "",
+		"parentId": "8053",
+		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.2.08623",
-		"kuerzelKunde": "4.01",
-		"description": "Haushalte nach Art des Haushalts",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2022: 49% gegenüber 43%).",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
+		"description": "Haushalte nach Art des Haushalts",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.08623",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2018: 46% gegenüber 41%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2018: 50% gegenüber 42%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2018 bei 48%, Familienhaushalte machen 39% aus. Andere Haushaltsformen sind mit 13% vertreten.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001_print",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 8053,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8623,
-		"chart-id": 8623,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:04",
 		"id": 8623
 	},
 	{
@@ -67903,43 +67894,41 @@
 		"id": 8904
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8905,
+		"chart-id": 8905,
+		"filter": "",
+		"parentId": "5189",
+		"children": [],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.18.08905",
-		"kuerzelKunde": "GW12",
-		"description": "Anzahl Störfälle und Ereignisse",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Störfälle",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
+		"quellenangabe": [
+			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:49.4949",
+		"description": "Anzahl Störfälle und Ereignisse",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Störfälle",
+		"kuerzel": "I.02.18.08905",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "GW12",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
-		"template": "line001_print",
+		"orderKey": "03_03_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_04_00_00_00_313",
-		"parentId": 6179,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8905,
-		"chart-id": 8905,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:15",
 		"id": 8905
 	},
 	{
@@ -68565,43 +68554,43 @@
 		"id": 8923
 	},
 	{
+		"template": "stock001_print",
+		"data-id": 8924,
+		"chart-id": 8924,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.12.08924",
-		"kuerzelKunde": "NL11",
-		"description": "Hitzetage",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-29T14:48:49.4949",
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08924",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL11",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 25 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
-		"template": "stock001_print",
+		"orderKey": "04_02_00_00_00_412",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_02_00_00_00_412",
-		"parentId": 6033,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"data-id": 8924,
-		"chart-id": 8924,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:16",
 		"id": 8924
 	},
 	{
@@ -69237,43 +69226,41 @@
 		"id": 8941
 	},
 	{
-		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.08942",
-		"kuerzelKunde": "WE8",
-		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-16T12:07:29.2929",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% 2018 auf 3,2% 2019. Die Arbeitslosenquote der Personen über 50 Jahre lag 2019 unverändert bei 2,5% und damit weiterhin unterhalb der Durchschnittsquote.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "06_02_00_00_00_608",
-		"parentId": 6137,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8942,
 		"chart-id": 8942,
 		"filter": "",
+		"parentId": "6053",
+		"children": [],
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 4,0% im Jahr 2021 auf 3,1% 2022 ähnlich stark zurück. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,9% im Jahr 2022 knapp unterhalb der Durchschnittsquote.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.08942",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "WE8",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_608",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-09T08:20:20",
 		"id": 8942
 	},
 	{
@@ -69397,43 +69384,41 @@
 		"id": 8945
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8946,
+		"chart-id": 8946,
+		"filter": "",
+		"parentId": "6434",
+		"children": [],
 		"title": "Jahresmitteltemperatur",
-		"subtitle": "in °C",
-		"kuerzel": "I.02.3.08946",
-		"kuerzelKunde": "NL12",
-		"description": "Jahresmitteltemperatur",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:32.3232",
+		"description": "Jahresmitteltemperatur",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Witterung",
+		"kuerzel": "I.02.3.08946",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2019 11,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
-		"template": "line001_print",
+		"orderKey": "04_02_00_00_00_413",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_02_00_00_00_413",
-		"parentId": 6434,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8946,
-		"chart-id": 8946,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:17",
 		"id": 8946
 	},
 	{
@@ -70890,7 +70875,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-02T08:03:42",
+		"aktualisierungsdatum": "2023-03-09T08:19:55",
 		"id": 8995
 	},
 	{
@@ -71262,7 +71247,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-06T08:25:55",
+		"aktualisierungsdatum": "2023-03-09T08:19:53",
 		"id": 9022
 	},
 	{
@@ -71300,7 +71285,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-06T08:25:55",
+		"aktualisierungsdatum": "2023-03-09T08:19:54",
 		"id": 9023
 	},
 	{
@@ -83100,6 +83085,47 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-02-03T08:59:53",
 		"id": 9693
+	},
+	{
+		"template": "line001",
+		"data-id": 9733,
+		"chart-id": 9733,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Abschlussquote auf Sekundarstufe II",
+		"subtitle": "nach Migrationskategorie, Basel-Stadt",
+		"lesehilfe": "In der Schweiz und im Ausland geborene Schweizerinnen und Schweizer sowie in der Schweiz geborene Ausländerinnen und Ausländer weisen allesamt stabil höhere Abschlussquoten auf Sekundarstufe II auf als im Ausland geborene Ausländerinnen und Ausländer.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Der einzelne Punkt in der Grafik rührt daher, dass das BFS für im Ausland geborene Schweizerinnen und Schweizer aktuell nur den Wert 2015 ausweist.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Abschlussquote auf Sekundarstufe II",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.09733",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW12",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_04_00_00_00_312",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-09T08:20:16",
+		"id": 9733
 	},
 	{
 		"template": "line001",

@@ -1335,83 +1335,79 @@ var indikatorensetData = [
 		"id": 8547
 	},
 	{
+		"template": "mappie001_print",
+		"data-id": 8548,
+		"chart-id": 8548,
+		"filter": "",
+		"parentId": "8277",
+		"children": [
+			8812
+		],
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"kuerzel": "I.01.2.08548",
-		"kuerzelKunde": "2-02",
-		"description": "Anteil Familienhaushalte",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2022 mit 62% am höchsten, gefolgt vom Wohnviertel Bruderholz (57%) und der Gemeinde Riehen (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (23%).",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"description": "Anteil Familienhaushalte",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.08548",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "2-02",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
-		"template": "mappie001_print",
+		"orderKey": "02_01_00_00_00_202",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_202",
-		"parentId": 8277,
-		"children": [
-			"8812"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8548,
-		"chart-id": 8548,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:19:59",
 		"id": 8548
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8549,
+		"chart-id": 8549,
+		"filter": "",
+		"parentId": "8278",
+		"children": [],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"kuerzel": "I.15.3.08549",
-		"kuerzelKunde": "2-07",
-		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.08549",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "2-07",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass meistens über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden höhere Quoten auf als ihre Kolleginnen.",
-		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
-		"template": "line001_print",
+		"orderKey": "02_02_00_00_00_207",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_207",
-		"parentId": 8278,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8549,
-		"chart-id": 8549,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-09T08:20:01",
 		"id": 8549
 	},
 	{
