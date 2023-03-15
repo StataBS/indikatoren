@@ -12,12 +12,13 @@
 "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
 },
 "series": [
-  {"color": "#cd9c00"
+  {"color": "#cd9c00",
+   visible:true,
   }, 
   {"color": "#b375ab",
     visible:true,
   }, 
-  {"color": "#3C3C3C",
+  {"color": "#999999",
   visible:true,
 }, 
 ],

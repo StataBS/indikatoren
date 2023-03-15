@@ -16,6 +16,10 @@
           3
         ],
         [
+          2008,
+          null
+        ],
+        [
           2009,
           3
         ],
@@ -26,6 +30,10 @@
         [
           2011,
           3
+        ],
+        [
+          2012,
+          null
         ],
         [
           2013,
@@ -62,6 +70,10 @@
         [
           2021,
           1
+        ],
+        [
+          2022,
+          1
         ]
       ],
       "name": "Wohnviertel Klybeck"
@@ -82,6 +94,10 @@
           1
         ],
         [
+          2008,
+          null
+        ],
+        [
           2009,
           null
         ],
@@ -91,6 +107,10 @@
         ],
         [
           2011,
+          null
+        ],
+        [
+          2012,
           null
         ],
         [
@@ -127,6 +147,10 @@
         ],
         [
           2021,
+          null
+        ],
+        [
+          2022,
           null
         ]
       ],
@@ -264,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
   },
   "exporting": {
     "filename": "8071"

@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#cd9c00",
+      "visible": true,
       "data": [
         [
           2014,
@@ -34,6 +35,10 @@
         [
           2021,
           23.263888889
+        ],
+        [
+          2022,
+          21.153846154
         ]
       ],
       "name": "Messe"
@@ -73,45 +78,53 @@
         [
           2021,
           35.094339623
+        ],
+        [
+          2022,
+          31.081081081
         ]
       ],
       "name": "Erlenmatt"
     },
     {
-      "color": "#3C3C3C",
+      "color": "#999999",
       "visible": true,
       "data": [
         [
           2014,
-          45.680559908
+          45.68055991
         ],
         [
           2015,
-          45.591202583
+          45.59120258
         ],
         [
           2016,
-          46.125607699
+          46.1256077
         ],
         [
           2017,
-          46.255080317
+          46.25508032
         ],
         [
           2018,
-          46.232779097
+          46.2327791
         ],
         [
           2019,
-          46.569220743
+          46.56922074
         ],
         [
           2020,
-          47.447199265
+          47.44766801
         ],
         [
           2021,
           47.24537876
+        ],
+        [
+          2022,
+          46.60442174
         ]
       ],
       "name": "Stadt Basel"
@@ -241,7 +254,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

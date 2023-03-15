@@ -1656,7 +1656,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2012 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 193 459 auf 204 550 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1684,7 +1684,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:05",
+		"aktualisierungsdatum": "2023-03-15T08:14:02",
 		"id": 4132
 	},
 	{
@@ -40513,7 +40513,7 @@ var indikatoren = [
 		],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2021 bei 18,8 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 19,2 Prozent. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren daher stets Quoten unter 10% aufweist.",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -40539,7 +40539,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:01",
+		"aktualisierungsdatum": "2023-03-15T08:14:04",
 		"id": 7671
 	},
 	{
@@ -41476,10 +41476,10 @@ var indikatoren = [
 		"children": [
 			7933
 		],
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die Gymnasialquote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2021 mit 33,3% bereits zum zweiten Mal in Folge höher als jene der Schweizerinnen und Schweizer (25,0%). Für die Stadt Basel beträgt der Wert 2021 36,1%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2022 im Wohnviertel Rosental mit 34,2% bereits zum dritten Mal in Folge höher als jene der Schweizerinnen und Schweizer (21,2%). Für die Stadt Basel beträgt der Wert 2022 35,8%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -41488,7 +41488,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.07695",
@@ -41504,7 +41504,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2023-03-15T08:14:09",
 		"id": 7695
 	},
 	{
@@ -41518,7 +41518,7 @@ var indikatoren = [
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2022 liegen die Quoten für beide Bezirke tiefer als im Vorjahr.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -41544,7 +41544,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2023-03-15T08:14:07",
 		"id": 7696
 	},
 	{
@@ -43344,7 +43344,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2012 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 193 459 auf 204 550 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -43372,7 +43372,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:22",
+		"aktualisierungsdatum": "2023-03-15T08:14:10",
 		"id": 7773
 	},
 	{
@@ -43944,43 +43944,41 @@ var indikatoren = [
 		"id": 7908
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7909,
+		"chart-id": 7909,
+		"filter": "",
+		"parentId": "7671",
+		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07909",
-		"kuerzelKunde": "2.08",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 19,2 Prozent. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren daher stets Quoten unter 10% aufweist.",
+		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07909",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "2.08",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2018 bei 20,4 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
-		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
-		"template": "line001_print",
+		"orderKey": "02_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_008",
-		"parentId": 7671,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7909,
-		"chart-id": 7909,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:04",
 		"id": 7909
 	},
 	{
@@ -44897,83 +44895,79 @@ var indikatoren = [
 		"id": 7932
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.15.1.07933",
-		"kuerzelKunde": "5.02",
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
-		"stufe1": "5 Bildung und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00_002",
-		"parentId": 7695,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7933,
 		"chart-id": 7933,
 		"filter": "",
-		"id": 7933
-	},
-	{
-		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.15.1.07934",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"parentId": "7695",
+		"children": [],
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2022 im Wohnviertel Rosental mit 34,2% bereits zum dritten Mal in Folge höher als jene der Schweizerinnen und Schweizer (21,2%). Für die Stadt Basel beträgt der Wert 2022 35,8%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07933",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.02",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": 7696,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-03-15T08:14:09",
+		"id": 7933
+	},
+	{
+		"template": "line001_print",
 		"data-id": 7934,
 		"chart-id": 7934,
 		"filter": "",
+		"parentId": "7696",
+		"children": [],
+		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2022 liegen die Quoten für beide Bezirke tiefer als im Vorjahr.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07934",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.01",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-15T08:14:08",
 		"id": 7934
 	},
 	{
@@ -47914,45 +47908,43 @@ var indikatoren = [
 		"id": 8069
 	},
 	{
+		"template": "line001",
+		"data-id": 8070,
+		"chart-id": 8070,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8640"
+			8640
 		],
-		"template": "line001",
 		"title": "Beschäftigung nach ausgewählten Branchen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.03.2.07689",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 052 Beschäftigten im Jahr 2020. Davon entfallen 1 857 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Schifffahrt und Luftfahrt (1 012), Landverkehr (595) sowie Architektur- und Ingenieurbüros (544).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann, und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:27.2727",
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07689",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.03",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 290 Beschäftigten im Jahr 2018. Davon entfallen 2 115 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Gastronomie (1 069) Schifffahrt und Luftfahrt (994), Chemie (632) und Landverkehr (600).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"orderKey": "03_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8070,
-		"chart-id": 8070,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:05",
 		"id": 8070
 	},
 	{
@@ -47966,7 +47958,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2021 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2021 in der Stadt Basel 139 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2022 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2022 in der Stadt Basel 119 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -47992,7 +47984,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:32",
+		"aktualisierungsdatum": "2023-03-15T08:14:06",
 		"id": 8071
 	},
 	{
@@ -48208,7 +48200,7 @@ var indikatoren = [
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2021 in den Wohnvierteln Klybeck (21,2%) und Kleinhüningen (22,7%) weiterhin tief. Im Klybeck ist diese Quote seit 2018 kontinuierlich gestiegen, in Kleinhüningen stagniert sie, wenn auch auf leicht höherem Niveau. Für die gesamte Stadt Basel beträgt der Vergleichswert 47,2%.",
+		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2022 in den Wohnvierteln Klybeck (19,4%) und Kleinhüningen (19,1%) weiterhin tief. Im Beobachtungszeitraum ist in beiden Wohnvierteln kein eindeutiger Trend feststellbar. Für die gesamte Stadt Basel beträgt der Vergleichswert 46,6%.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -48234,7 +48226,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-15T08:48:35",
+		"aktualisierungsdatum": "2023-03-15T08:14:07",
 		"id": 8077
 	},
 	{
@@ -55310,7 +55302,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2012 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 193 459 auf 204 550 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -55338,7 +55330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:29",
+		"aktualisierungsdatum": "2023-03-15T08:14:10",
 		"id": 8417
 	},
 	{
@@ -61651,8 +61643,8 @@ var indikatoren = [
 			8665
 		],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2021",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 25- bis 29-Jährigen, die 30- bis 34-Jährigen, die 35- bis 39-Jährigen, die 40- bis 44-Jährigen sowie die 55- bis 59-Jährigen zu den grössten Gruppen.",
+		"subtitle": "Wohnviertel Kleinhüningen, 2022",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 30- bis 34-Jährigen, die 35- bis 39-Jährigen und die 60- bis 64-Jährigen zu den grössten Gruppen. In der Stadt Basel bilden die 25- bis 29-Jährigen, die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -61678,7 +61670,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:11",
+		"aktualisierungsdatum": "2023-03-15T08:14:03",
 		"id": 8614
 	},
 	{
@@ -62668,83 +62660,79 @@ var indikatoren = [
 		"id": 8639
 	},
 	{
-		"title": "Beschäftigung nach ausgewählten Branchen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.2.08640",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 139 Beschäftigten im Jahr 2017. Davon entfallen 2 112 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Gastronomie (970) Schifffahrt und Luftfahrt (928), Chemie (744) und Landverkehr (587).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_00_00_00_00_003",
-		"parentId": 8070,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8640,
 		"chart-id": 8640,
 		"filter": "",
-		"id": 8640
-	},
-	{
-		"title": "Anzahl Rotlichtsalons",
+		"parentId": "8070",
+		"children": [],
+		"title": "Beschäftigung nach ausgewählten Branchen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.1.08641",
-		"kuerzelKunde": "3.09",
-		"description": "Anzahl Rotlichtsalons",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 052 Beschäftigten im Jahr 2020. Davon entfallen 1 857 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Schifffahrt und Luftfahrt (1 012), Landverkehr (595) sowie Architektur- und Ingenieurbüros (544).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann, und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08640",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "3.03",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2019 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren 2019 in der Stadt Basel 158 Rotlichtsalons registriert.",
-		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001_print",
+		"orderKey": "03_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_00_00_00_00_009",
-		"parentId": 8071,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-03-15T08:14:05",
+		"id": 8640
+	},
+	{
+		"template": "template001_print",
 		"data-id": 8641,
 		"chart-id": 8641,
 		"filter": "",
+		"parentId": "8071",
+		"children": [],
+		"title": "Anzahl Rotlichtsalons",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2022 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2022 in der Stadt Basel 119 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.08641",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "3.09",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-15T08:14:06",
 		"id": 8641
 	},
 	{
@@ -62944,43 +62932,41 @@ var indikatoren = [
 		"id": 8646
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8647,
+		"chart-id": 8647,
+		"filter": "",
+		"parentId": "8077",
+		"children": [],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.15.1.08647",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2022 in den Wohnvierteln Klybeck (19,4%) und Kleinhüningen (19,1%) weiterhin tief. Im Beobachtungszeitraum ist in beiden Wohnvierteln kein eindeutiger Trend feststellbar. Für die gesamte Stadt Basel beträgt der Vergleichswert 46,6%.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.08647",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "5.01",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2019 in den Wohnvierteln Kleinhüningen (23,0%) und Klybeck (18,2%) weiterhin tief. Im Vergleich zur Situation 2014 stagnieren diese Werte in beiden Wohnvierteln. Für die Stadt Basel beträgt der Vergleichswert 46,6% und ist damit rund doppelt so hoch wie in Kleinhüningen und zweieinhalb Mal höher als im Wohnviertel Klybeck.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": 8077,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8647,
-		"chart-id": 8647,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:07",
 		"id": 8647
 	},
 	{
@@ -63578,43 +63564,41 @@ var indikatoren = [
 		"id": 8664
 	},
 	{
+		"template": "populationPyramid001_print",
+		"data-id": 8665,
+		"chart-id": 8665,
+		"filter": "",
+		"parentId": "8614",
+		"children": [],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2019",
-		"kuerzel": "I.01.1.08614",
-		"kuerzelKunde": "2.02b",
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"subtitle": "Wohnviertel Kleinhüningen, 2022",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 30- bis 34-Jährigen, die 35- bis 39-Jährigen und die 60- bis 64-Jährigen zu den grössten Gruppen. In der Stadt Basel bilden die 25- bis 29-Jährigen, die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:25.2525",
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08665",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "2.02b",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen neben den 25- bis 29-Jährigen und den 30- bis 34-Jährigen noch die 40- bis 44-Jährigen und die 55- bis 59-Jährigen zu den grössten Gruppen.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001_print",
+		"orderKey": "02_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_003",
-		"parentId": 8614,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8665,
-		"chart-id": 8665,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:03",
 		"id": 8665
 	},
 	{

@@ -961,81 +961,77 @@ var indikatorensetData = [
 		"id": 8639
 	},
 	{
-		"title": "Beschäftigung nach ausgewählten Branchen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.2.08640",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 139 Beschäftigten im Jahr 2017. Davon entfallen 2 112 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Gastronomie (970) Schifffahrt und Luftfahrt (928), Chemie (744) und Landverkehr (587).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_003",
-		"parentId": 8070,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8640,
 		"chart-id": 8640,
 		"filter": "",
-		"id": 8640
-	},
-	{
-		"title": "Anzahl Rotlichtsalons",
+		"parentId": "8070",
+		"children": [],
+		"title": "Beschäftigung nach ausgewählten Branchen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.1.08641",
-		"kuerzelKunde": "3.09",
-		"description": "Anzahl Rotlichtsalons",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 052 Beschäftigten im Jahr 2020. Davon entfallen 1 857 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Schifffahrt und Luftfahrt (1 012), Landverkehr (595) sowie Architektur- und Ingenieurbüros (544).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann, und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08640",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "3.03",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2019 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren 2019 in der Stadt Basel 158 Rotlichtsalons registriert.",
-		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001_print",
+		"orderKey": "03_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_009",
-		"parentId": 8071,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-03-15T08:14:05",
+		"id": 8640
+	},
+	{
+		"template": "template001_print",
 		"data-id": 8641,
 		"chart-id": 8641,
 		"filter": "",
+		"parentId": "8071",
+		"children": [],
+		"title": "Anzahl Rotlichtsalons",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2022 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2022 in der Stadt Basel 119 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.08641",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "3.09",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-15T08:14:06",
 		"id": 8641
 	},
 	{
@@ -1230,42 +1226,40 @@ var indikatorensetData = [
 		"id": 8646
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8647,
+		"chart-id": 8647,
+		"filter": "",
+		"parentId": "8077",
+		"children": [],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.15.1.08647",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2022 in den Wohnvierteln Klybeck (19,4%) und Kleinhüningen (19,1%) weiterhin tief. Im Beobachtungszeitraum ist in beiden Wohnvierteln kein eindeutiger Trend feststellbar. Für die gesamte Stadt Basel beträgt der Vergleichswert 46,6%.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.08647",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "5.01",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2019 in den Wohnvierteln Kleinhüningen (23,0%) und Klybeck (18,2%) weiterhin tief. Im Vergleich zur Situation 2014 stagnieren diese Werte in beiden Wohnvierteln. Für die Stadt Basel beträgt der Vergleichswert 46,6% und ist damit rund doppelt so hoch wie in Kleinhüningen und zweieinhalb Mal höher als im Wohnviertel Klybeck.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": 8077,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8647,
-		"chart-id": 8647,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:07",
 		"id": 8647
 	},
 	{
@@ -1848,42 +1842,40 @@ var indikatorensetData = [
 		"id": 8664
 	},
 	{
+		"template": "populationPyramid001_print",
+		"data-id": 8665,
+		"chart-id": 8665,
+		"filter": "",
+		"parentId": "8614",
+		"children": [],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2019",
-		"kuerzel": "I.01.1.08614",
-		"kuerzelKunde": "2.02b",
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"subtitle": "Wohnviertel Kleinhüningen, 2022",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 30- bis 34-Jährigen, die 35- bis 39-Jährigen und die 60- bis 64-Jährigen zu den grössten Gruppen. In der Stadt Basel bilden die 25- bis 29-Jährigen, die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:25.2525",
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08665",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "2.02b",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen neben den 25- bis 29-Jährigen und den 30- bis 34-Jährigen noch die 40- bis 44-Jährigen und die 55- bis 59-Jährigen zu den grössten Gruppen.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001_print",
+		"orderKey": "02_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_003",
-		"parentId": 8614,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8665,
-		"chart-id": 8665,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:03",
 		"id": 8665
 	},
 	{
