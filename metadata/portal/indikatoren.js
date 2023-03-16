@@ -10183,7 +10183,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:45:41",
+		"aktualisierungsdatum": "2023-03-16T09:59:12",
 		"id": 5186
 	},
 	{
