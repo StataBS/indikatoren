@@ -1461,7 +1461,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 113 620 im Jahr 2021 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,5% auf 7 081 bzw. +9,6% auf 19 664), am geringsten bei den Einzimmerwohnungen (+4,7% auf 11 986).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 115 004 im Jahr 2022 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+12,3% auf 7 136 bzw. +11,4% auf 27 557), am geringsten bei den Einzimmerwohnungen (+4,7% auf 12 267).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1486,7 +1486,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:25",
+		"aktualisierungsdatum": "2023-03-16T08:20:29",
 		"id": 9383
 	},
 	{
@@ -1498,7 +1498,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1523,7 +1523,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:25",
+		"aktualisierungsdatum": "2023-03-16T08:20:29",
 		"id": 9384
 	},
 	{

@@ -106,6 +106,18 @@
         [
           "2021: Kleinhüningen",
           916
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2022: Klybeck",
+          2862
+        ],
+        [
+          "2022: Kleinhüningen",
+          910
         ]
       ],
       "name": "Mietwohnungen",
@@ -217,6 +229,18 @@
         [
           "2021: Kleinhüningen",
           279
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2022: Klybeck",
+          465
+        ],
+        [
+          "2022: Kleinhüningen",
+          284
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -328,6 +352,18 @@
         [
           "2021: Kleinhüningen",
           37
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2022: Klybeck",
+          82
+        ],
+        [
+          "2022: Kleinhüningen",
+          40
         ]
       ],
       "name": "Selbstbewohnte Eigentümerwohnungen",
@@ -439,6 +475,18 @@
         [
           "2021: Kleinhüningen",
           23
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2022: Klybeck",
+          22
+        ],
+        [
+          "2022: Kleinhüningen",
+          35
         ]
       ],
       "name": "Sonstige Wohnungen",
@@ -596,7 +644,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

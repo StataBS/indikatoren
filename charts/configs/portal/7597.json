@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt GB",
-          112
+          106
         ],
         [
           "Vorstädte",
-          79
+          71
         ],
         [
           "Am Ring",
-          240
+          218
         ],
         [
           "Breite",
-          149
+          313
         ],
         [
           "St. Alban",
-          740
+          788
         ],
         [
           "Gundeldingen",
-          592
+          439
         ],
         [
           "Bruderholz",
-          116
+          102
         ],
         [
           "Bachletten",
-          99
+          104
         ],
         [
           "Gotthelf",
-          60
+          102
         ],
         [
           "Iselin",
-          238
+          416
         ],
         [
           "St. Johann",
-          330
+          488
         ],
         [
           "Altstadt KB",
-          36
+          51
         ],
         [
           "Clara",
-          290
+          307
         ],
         [
           "Wettstein",
-          178
+          182
         ],
         [
           "Hirzbrunnen",
-          348
+          356
         ],
         [
           "Rosental",
-          1242
+          1284
         ],
         [
           "Matthäus",
-          86
+          95
         ],
         [
           "Klybeck",
-          75
+          139
         ],
         [
           "Kleinhüningen",
-          36
+          193
         ],
         [
           "Riehen",
-          545
+          710
         ],
         [
           "Bettingen",
-          34
+          60
         ]
       ],
-      "name": "Nettoproduktion 2012 bis 2021",
+      "name": "Nettoproduktion 2013 bis 2022",
       "turboThreshold": 0
     }
   ],
@@ -169,7 +169,7 @@
     "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
-    "text": "nach Wohnviertel, Basel-Stadt, 2012-2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2013-2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -225,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

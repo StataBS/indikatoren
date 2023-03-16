@@ -58,6 +58,10 @@
         [
           2021,
           156
+        ],
+        [
+          2022,
+          21
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -120,6 +124,10 @@
         [
           2021,
           32
+        ],
+        [
+          2022,
+          66
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -182,6 +190,10 @@
         [
           2021,
           26
+        ],
+        [
+          2022,
+          10
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -244,6 +256,10 @@
         [
           2021,
           11
+        ],
+        [
+          2022,
+          311
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -305,6 +321,10 @@
         ],
         [
           2021,
+          -3
+        ],
+        [
+          2022,
           -3
         ]
       ],
@@ -376,6 +396,10 @@
         [
           2021,
           222
+        ],
+        [
+          2022,
+          405
         ]
       ],
       "name": "Umbausaldo"
@@ -482,8 +506,7 @@
       "format": "{value:,.0f}"
     },
     "min": -100,
-    "max": 250,
-    "tickInterval": 50
+    "tickInterval": 100
   },
   "legend": {
     "symbolRadius": 0,
@@ -516,7 +539,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

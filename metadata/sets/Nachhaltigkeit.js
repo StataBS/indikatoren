@@ -802,10 +802,10 @@ var indikatorensetData = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -823,11 +823,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_311",
+		"orderKey": "03_03_00_00_00_308",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:41",
+		"aktualisierungsdatum": "2023-03-16T08:20:30",
 		"id": 5186
 	},
 	{
@@ -1348,7 +1348,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1374,7 +1374,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:21",
+		"aktualisierungsdatum": "2023-03-16T08:20:31",
 		"id": 6027
 	},
 	{

@@ -6,11 +6,11 @@
       "data": [
         [
           "1 Zimmer",
-          3387
+          3570
         ],
         [
           "2 Zimmer",
-          1
+          2
         ],
         [
           "3 Zimmer",
@@ -30,7 +30,7 @@
         ],
         [
           "Alle",
-          3388
+          3572
         ]
       ],
       "name": "bis 29 m²",
@@ -42,15 +42,15 @@
       "data": [
         [
           "1 Zimmer",
-          7854
+          7933
         ],
         [
           "2 Zimmer",
-          6565
+          6661
         ],
         [
           "3 Zimmer",
-          148
+          155
         ],
         [
           "4 Zimmer",
@@ -66,7 +66,7 @@
         ],
         [
           "Alle",
-          14571
+          14753
         ]
       ],
       "name": "30-49 m²",
@@ -78,23 +78,23 @@
       "data": [
         [
           "1 Zimmer",
-          481
+          486
         ],
         [
           "2 Zimmer",
-          18456
+          18819
         ],
         [
           "3 Zimmer",
-          13515
+          13560
         ],
         [
           "4 Zimmer",
-          316
+          310
         ],
         [
           "5 Zimmer",
-          24
+          25
         ],
         [
           "6 Zimmer und mehr",
@@ -102,7 +102,7 @@
         ],
         [
           "Alle",
-          32793
+          33201
         ]
       ],
       "name": "50-69 m²",
@@ -114,23 +114,23 @@
       "data": [
         [
           "1 Zimmer",
-          154
+          168
         ],
         [
           "2 Zimmer",
-          1838
+          1869
         ],
         [
           "3 Zimmer",
-          26098
+          26352
         ],
         [
           "4 Zimmer",
-          10338
+          10351
         ],
         [
           "5 Zimmer",
-          608
+          610
         ],
         [
           "6 Zimmer und mehr",
@@ -138,7 +138,7 @@
         ],
         [
           "Alle",
-          39145
+          39459
         ]
       ],
       "name": "70-99 m²",
@@ -150,31 +150,31 @@
       "data": [
         [
           "1 Zimmer",
-          90
+          91
         ],
         [
           "2 Zimmer",
-          178
+          183
         ],
         [
           "3 Zimmer",
-          2024
+          2062
         ],
         [
           "4 Zimmer",
-          8394
+          8570
         ],
         [
           "5 Zimmer",
-          4888
+          4914
         ],
         [
           "6 Zimmer und mehr",
-          1811
+          1817
         ],
         [
           "Alle",
-          17385
+          17637
         ]
       ],
       "name": "100-149 m²",
@@ -186,7 +186,7 @@
       "data": [
         [
           "1 Zimmer",
-          20
+          19
         ],
         [
           "2 Zimmer",
@@ -194,23 +194,23 @@
         ],
         [
           "3 Zimmer",
-          119
+          120
         ],
         [
           "4 Zimmer",
-          612
+          626
         ],
         [
           "5 Zimmer",
-          1561
+          1587
         ],
         [
           "6 Zimmer und mehr",
-          4002
+          4007
         ],
         [
           "Alle",
-          6337
+          6382
         ]
       ],
       "name": "150 m² u.m.",
@@ -292,7 +292,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

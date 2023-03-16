@@ -626,7 +626,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:32",
+		"aktualisierungsdatum": "2023-03-16T08:20:23",
 		"id": 8060
 	},
 	{
@@ -640,7 +640,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2021: Klybeck 83,0%, Kleinhüningen 73,0%). Der Anteil an Genossenschaftswohnungen betrug 2021 14,0% (Klybeck) und 22,2% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,6%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
+		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2022: Klybeck 83,4%, Kleinhüningen 71,7%). Der Anteil an Genossenschaftswohnungen betrug 2022 13,6% (Klybeck) und 22,4% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,6%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:33",
+		"aktualisierungsdatum": "2023-03-16T08:20:24",
 		"id": 8061
 	},
 	{
@@ -704,7 +704,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:32",
+		"aktualisierungsdatum": "2023-03-16T08:20:21",
 		"id": 8062
 	},
 	{
@@ -821,7 +821,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:21",
+		"aktualisierungsdatum": "2023-03-16T08:20:25",
 		"id": 8065
 	},
 	{
@@ -835,7 +835,7 @@ var indikatorensetData = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. In den anderen Jahren hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
+		"lesehilfe": "2022 enstanden 157 zusätzliche Wohnungen durch die Umnutzung eines Hotels und von Schulungsräumen. 2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. In den anderen Jahren hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -860,7 +860,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:21",
+		"aktualisierungsdatum": "2023-03-16T08:20:25",
 		"id": 8066
 	},
 	{
@@ -874,7 +874,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Bürogebäude ein Wohngebäude mit 80 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 und 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -899,7 +899,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:22",
+		"aktualisierungsdatum": "2023-03-16T08:20:28",
 		"id": 8067
 	},
 	{

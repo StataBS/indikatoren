@@ -602,7 +602,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Ihr gesamtkantonaler Anteil beträgt 24%.",
+		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Deren gesamtkantonaler Anteil beträgt 24%.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:03",
+		"aktualisierungsdatum": "2023-03-16T08:20:23",
 		"id": 7679
 	},
 	{
@@ -680,7 +680,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2021 beträgt sie 35,4 m<sup>2</sup> (Erlenmatt) respektive 34,2 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2022 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,9 m<sup>2</sup> (Messe).",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:22",
 		"id": 7681
 	},
 	{
@@ -797,7 +797,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Weil es im Bezirk Erlenmatt nur wenige grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf fast 20%.",
+		"lesehilfe": "Weil es im Bezirk Erlenmatt fast ausschliesslich grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf knapp 20%.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -822,7 +822,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:24",
 		"id": 7684
 	},
 	{
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:26",
 		"id": 7685
 	},
 	{
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:27",
 		"id": 7686
 	},
 	{
@@ -939,7 +939,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:28",
 		"id": 7687
 	},
 	{

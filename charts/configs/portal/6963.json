@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1054929193180718,
-          "Anzahl": 11986
+          "y": 0.10666585510069215,
+          "Anzahl": 12267
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2381731928638696,
-          "Anzahl": 27061
+          "y": 0.23961775242600258,
+          "Anzahl": 27557
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36881155440551316,
-          "Anzahl": 41904
+          "y": 0.36736983061458733,
+          "Anzahl": 42249
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1730696450417624,
-          "Anzahl": 19664
+          "y": 0.1726983409272721,
+          "Anzahl": 19861
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06232232285093162,
-          "Anzahl": 7081
+          "y": 0.06205001565162951,
+          "Anzahl": 7136
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05213036551985143,
-          "Anzahl": 5923
+          "y": 0.05159820527981635,
+          "Anzahl": 5934
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.05500475349721581,
-          "Anzahl": 405
+          "y": 0.0550520762883809,
+          "Anzahl": 407
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.14966725519489338,
-          "Anzahl": 1102
+          "y": 0.14987150006763153,
+          "Anzahl": 1108
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.40459052016840963,
-          "Anzahl": 2979
+          "y": 0.4049776815906939,
+          "Anzahl": 2994
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.16677984517180497,
-          "Anzahl": 1228
+          "y": 0.16704991207899364,
+          "Anzahl": 1235
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.10321879668613337,
-          "Anzahl": 760
+          "y": 0.10266468280806168,
+          "Anzahl": 759
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.12073882928154285,
-          "Anzahl": 889
+          "y": 0.12038414716623834,
+          "Anzahl": 890
         }
       ],
       "name": "Bachletten",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Bachletten, 2021",
+    "text": "Bachletten, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormatter": function(){

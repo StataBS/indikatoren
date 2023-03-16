@@ -247,8 +247,8 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittsalter der Wohnbevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 2002 und 2021 um 3,9 Jahre auf 37,7 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 1,3 Jahre auf 45,5 Jahre gesunken.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2022 45,5 Jahre, jenes der ausländischen Staatsangehörigen 37,8 Jahre.",
+		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -272,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:40",
+		"aktualisierungsdatum": "2023-03-16T08:20:30",
 		"id": 6063
 	},
 	{

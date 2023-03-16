@@ -5,27 +5,27 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1822.777120315581
+          1822.147637795275
         ],
         [
           "Altstadt Kleinbasel",
-          1881.597902097902
+          1881.56993006993
         ],
         [
           "Vorstädte",
-          1899.307129798903
+          1899.4
         ],
         [
           "Am Ring",
-          1921.043771043771
-        ],
-        [
-          "Gotthelf",
-          1925.378461538461
+          1921.079764903442
         ],
         [
           "Matthäus",
-          1925.528745644599
+          1925.566086956521
+        ],
+        [
+          "Gotthelf",
+          1925.939795918367
         ],
         [
           "Clara",
@@ -33,7 +33,7 @@
         ],
         [
           "Gundeldingen",
-          1933.022980501392
+          1933.007654836464
         ],
         [
           "Wettstein",
@@ -41,31 +41,31 @@
         ],
         [
           "St. Johann",
-          1933.761811023622
+          1934.437051532941
         ],
         [
           "Bachletten",
-          1934.53250897487
+          1934.637051792828
         ],
         [
           "Klybeck",
-          1937.290993071593
+          1938.123853211009
         ],
         [
           "Iselin",
-          1937.937284631288
+          1938.240358126721
         ],
         [
           "St. Alban",
-          1939.887123745819
+          1940.573688592839
         ],
         [
           "Breite",
-          1941.696240601503
+          1942.208083832335
         ],
         [
           "Hirzbrunnen",
-          1942.689265536723
+          1942.72789968652
         ],
         [
           "Kleinhüningen",
@@ -73,19 +73,19 @@
         ],
         [
           "Bruderholz",
-          1949.545064377682
+          1949.642652671755
         ],
         [
           "Rosental",
-          1951.102564102564
+          1952.484076433121
         ],
         [
           "Riehen",
-          1958.95951417004
+          1959.790044821891
         ],
         [
           "Bettingen",
-          1965.137931034482
+          1965.667701863354
         ]
       ],
       "name": "Baujahr Wohngebäude",
@@ -111,11 +111,11 @@
           4
         ],
         [
-          "Gotthelf",
+          "Matthäus",
           5
         ],
         [
-          "Matthäus",
+          "Gotthelf",
           6
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "legend": {
     "enabled": false,

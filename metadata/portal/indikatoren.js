@@ -1639,7 +1639,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:08",
 		"id": 4131
 	},
 	{
@@ -1699,7 +1699,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 113 620 im Jahr 2021 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,5% auf 7 081 bzw. +9,6% auf 19 664), am geringsten bei den Einzimmerwohnungen (+4,7% auf 11 986).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 115 004 im Jahr 2022 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+12,3% auf 7 136 bzw. +11,4% auf 27 557), am geringsten bei den Einzimmerwohnungen (+4,7% auf 12 267).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1725,7 +1725,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:01",
+		"aktualisierungsdatum": "2023-03-16T08:20:13",
 		"id": 4133
 	},
 	{
@@ -1736,8 +1736,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am zahlreichsten sind 2021 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (34%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 sind Wohnungen zwischen 70 und 99 Quadratmetern (34%) am zahlreichsten. Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1763,7 +1763,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:14",
 		"id": 4134
 	},
 	{
@@ -1781,7 +1781,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1807,7 +1807,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:14",
 		"id": 4135
 	},
 	{
@@ -1821,7 +1821,7 @@ var indikatoren = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 und 2021 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2020 trug unter anderem der Dachstockausbau wesentlich zum positiven Umbausaldo bei.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014 und 2019 bis 2022 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019 und 2021 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1847,7 +1847,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:30",
+		"aktualisierungsdatum": "2023-03-16T08:20:16",
 		"id": 4136
 	},
 	{
@@ -1861,7 +1861,7 @@ var indikatoren = [
 		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 851 Einheiten war die Neubauproduktion 2021 wiederum überdurchschnittlich hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter.",
+		"lesehilfe": "Mit 902 Einheiten war die Neubauproduktion 2022 wiederum sehr hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
 		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1887,7 +1887,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:16",
 		"id": 4137
 	},
 	{
@@ -1983,7 +1983,7 @@ var indikatoren = [
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2010,7 +2010,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:14",
+		"aktualisierungsdatum": "2023-03-16T08:20:17",
 		"id": 4140
 	},
 	{
@@ -2098,7 +2098,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 10 997 Genossenschaftswohnungen welche 2021 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
+		"lesehilfe": "Die 11 104 Genossenschaftswohnungen welche 2022 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
 		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2124,7 +2124,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:18",
 		"id": 4143
 	},
 	{
@@ -2202,7 +2202,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-11T08:00:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:19",
 		"id": 4145
 	},
 	{
@@ -2240,7 +2240,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-08T08:27:17",
+		"aktualisierungsdatum": "2023-03-16T08:20:20",
 		"id": 4146
 	},
 	{
@@ -7345,7 +7345,7 @@ var indikatoren = [
 			5117
 		],
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die jüngste.",
 		"erlaeuterungen": "Ausgewiesen ist das mittlere Baujahr der Wohngebäude des Wohnviertels (<a href=\" https://www.statistik.bs.ch/grundlagen/glossar/?c96db598=true&item=true\"target=\"_blank\">ungewichtetes arithmetisches Mittel</a>).",
 		"quellenangabe": [
@@ -7374,7 +7374,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-21T08:41:12",
+		"aktualisierungsdatum": "2023-03-16T08:20:37",
 		"id": 4830
 	},
 	{
@@ -7387,7 +7387,7 @@ var indikatoren = [
 			5118
 		],
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"quellenangabe": [
@@ -7416,7 +7416,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-09T08:05:37",
+		"aktualisierungsdatum": "2023-03-16T08:20:44",
 		"id": 4831
 	},
 	{
@@ -7473,7 +7473,7 @@ var indikatoren = [
 			5120
 		],
 		"title": "Fläche pro Wohnung",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"quellenangabe": [
@@ -7502,7 +7502,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:26",
+		"aktualisierungsdatum": "2023-03-16T08:20:46",
 		"id": 4833
 	},
 	{
@@ -7518,7 +7518,7 @@ var indikatoren = [
 			8554
 		],
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"quellenangabe": [
@@ -7548,7 +7548,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:49",
+		"aktualisierungsdatum": "2023-03-16T08:20:47",
 		"id": 4834
 	},
 	{
@@ -10157,10 +10157,10 @@ var indikatoren = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -10178,12 +10178,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_311",
+		"orderKey": "03_03_00_00_00_308",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:41",
+		"aktualisierungsdatum": "2023-03-16T08:20:30",
 		"id": 5186
 	},
 	{
@@ -10943,8 +10943,8 @@ var indikatoren = [
 			7597
 		],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2012-2021",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 22% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2022",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 20% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -10970,7 +10970,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:12",
+		"aktualisierungsdatum": "2023-03-16T08:20:50",
 		"id": 5817
 	},
 	{
@@ -12744,8 +12744,8 @@ var indikatoren = [
 		],
 		"title": "Durchschnittsalter der Wohnbevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 2002 und 2021 um 3,9 Jahre auf 37,7 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 1,3 Jahre auf 45,5 Jahre gesunken.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2022 45,5 Jahre, jenes der ausländischen Staatsangehörigen 37,8 Jahre.",
+		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -12770,7 +12770,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:40",
+		"aktualisierungsdatum": "2023-03-16T08:20:30",
 		"id": 6063
 	},
 	{
@@ -14217,8 +14217,8 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2021 mit rund 202 000 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 113 500 Wohnungen (+35 000) über denselben Zeitraum. Die Bevölkerungszahl erreichte 1970 einen Höchststand von 236 219 Personen und sank bis 2001 auf 187 489. Seither wird bis 2020 eine kontinuierliche Zunahme registriert.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Von 1960 bis 1970 wuchs sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab und der Wohnungsbestand nahm weiterhin leicht zu. Ab 1975 wurden deshalb eine hohe Anzahl Leerwohnungen verzeichnet. Mit der leichten Bevölkerungszunahme und stagnierendem Wohnungsbestand in der ersten Hälfte der Neunzigerjahre nahm die Anzahl der Leerwohnungen ab. Wegen des folgenden Bevölkerungsrückgangs bis 2007 wuchs die Zahl der Leerwohnungen wieder an. Danach erfolgte eine bis heute anhaltende Bevölkerungszunahme. Sie führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber seit 2015 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -14244,7 +14244,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-28T08:04:55",
+		"aktualisierungsdatum": "2023-03-16T08:20:48",
 		"id": 6214
 	},
 	{
@@ -14542,44 +14542,42 @@ var indikatoren = [
 		"id": 6364
 	},
 	{
+		"template": "template001",
+		"data-id": 6365,
+		"chart-id": 6365,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2020",
-		"kennzahlenset": "",
-		"kuerzel": "I.09.1.6365",
-		"kuerzelKunde": "",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2021",
+		"lesehilfe": "Schweizer weisen pro Kopf einen rund 10&nbsp;m² höheren Wohnflächenverbrauch auf als ausländische Staatsangehörige. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person ist bei Schweizer (Männer: 43,35&nbsp;m², Frauen: 47,1&nbsp;m²), jedoch nicht bei ausländischen Staatsangehörigen zu finden.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche einer Wohnung  durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Sie wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:03.033",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.6365",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um gut 10&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,0&nbsp;m², Frauen: 46,8&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche einer Wohnung  durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Sie wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6365,
-		"chart-id": 6365,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-16T08:20:03",
 		"id": 6365
 	},
 	{
@@ -22922,7 +22920,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2021",
+		"subtitle": "Altstadt Grossbasel, 2022",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton ist im Wohnviertel Altstadt Grossbasel insbesondere der Anteil der Einzimmerwohnungen grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -22949,7 +22947,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:32",
 		"id": 6956
 	},
 	{
@@ -22960,7 +22958,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2021",
+		"subtitle": "Vorstädte, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -22987,7 +22985,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:32",
 		"id": 6957
 	},
 	{
@@ -22998,7 +22996,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2021",
+		"subtitle": "Am Ring, 2022",
 		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton, ausser bei den Einzimmerwohnungen, deren Anteil höher ist und bei den Dreizimmerwohnungen, deren Anteil tiefer ausfällt. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23025,7 +23023,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:33",
 		"id": 6958
 	},
 	{
@@ -23036,7 +23034,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2021",
+		"subtitle": "Breite, 2022",
 		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Einzimmerwohnungen sowie Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23063,7 +23061,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:34",
 		"id": 6959
 	},
 	{
@@ -23074,7 +23072,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2021",
+		"subtitle": "St. Alban, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23101,7 +23099,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:34",
 		"id": 6960
 	},
 	{
@@ -23112,7 +23110,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2021",
+		"subtitle": "Gundeldingen, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23139,7 +23137,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:35",
 		"id": 6961
 	},
 	{
@@ -23150,7 +23148,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2021",
+		"subtitle": "Bruderholz, 2022",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen markant höheren Anteil an Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Ein-, Zwei- und Dreizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23177,7 +23175,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:35",
 		"id": 6962
 	},
 	{
@@ -23188,7 +23186,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2021",
+		"subtitle": "Bachletten, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Bachletten am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton häufiger Wohnungen mit fünf und mehr Zimmern. Dafür gibt es seltener Wohnungen mit ein und zwei Zimmern.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23215,7 +23213,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:36",
 		"id": 6963
 	},
 	{
@@ -23226,8 +23224,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2021",
-		"lesehilfe": "Der Anteil an Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht exakt dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
+		"subtitle": "Gotthelf, 2022",
+		"lesehilfe": "Im Wohnviertel Gotthelf gibt es wie im gesamten Kanton am meisten Drei- und Zweizimmerwohnungen. Die Verteilung nach Zimmerzahl ist derjenigen im Kantonsbestand sehr ähnlich.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23253,7 +23251,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:36",
 		"id": 6964
 	},
 	{
@@ -23264,7 +23262,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2021",
+		"subtitle": "Iselin, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23291,7 +23289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:38",
 		"id": 6965
 	},
 	{
@@ -23302,7 +23300,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2021",
+		"subtitle": "St. Johann, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit vier und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23329,7 +23327,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:38",
 		"id": 6966
 	},
 	{
@@ -23340,8 +23338,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Ein- und Zweizimmerwohnungen.",
+		"subtitle": "Altstadt Kleinbasel, 2022",
+		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel sind Zweizimmerwohnungen am häufigsten. Auch der Anteil an Einzimmerwohnungen ist im Vergleich zum Gesamtkanton deutlich grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23367,7 +23365,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:39",
 		"id": 6967
 	},
 	{
@@ -23378,7 +23376,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2021",
+		"subtitle": "Clara, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Clara am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen. Wohnungen mit sechs und mehr Zimmern sind kaum vertreten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23405,7 +23403,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:39",
 		"id": 6968
 	},
 	{
@@ -23416,7 +23414,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2021",
+		"subtitle": "Wettstein, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Wettstein am häufigsten Dreizimmerwohnungen. Deren Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen dagegen ist niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23443,7 +23441,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:40",
 		"id": 6969
 	},
 	{
@@ -23454,7 +23452,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2021",
+		"subtitle": "Hirzbrunnen, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Deren Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt, bei den Ein- und Zweizimmerwohnungen dagegen klar darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23481,7 +23479,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:41",
 		"id": 6970
 	},
 	{
@@ -23492,8 +23490,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2021",
-		"lesehilfe": "Der Anteil der Dreizimmerwohnungen ist im Wohnviertel Rosental exakt so hoch wie im Gesamtkanton. Der Anteil der Zweizimmerwohnungen hingegen liegt deutlich über dem kantonalen Vergleichswert.",
+		"subtitle": "Rosental, 2022",
+		"lesehilfe": "Der Anteil der Dreizimmerwohnungen ist im Wohnviertel Rosental etwa gleich hoch wie im Gesamtkanton. Der Anteil der Zweizimmerwohnungen hingegen liegt deutlich über dem kantonalen Vergleichswert, während die Anteile von Wohnungen ab fünf Zimmern deutlich darunter liegen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23519,7 +23517,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:09",
+		"aktualisierungsdatum": "2023-03-16T08:20:41",
 		"id": 6971
 	},
 	{
@@ -23530,7 +23528,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Matthäus, 2021",
+		"subtitle": "Matthäus, 2022",
 		"lesehilfe": "Der Anteil an Ein- und Zweizimmerwohnungen liegt über dem kantonalen Durchschnitt, derjenige von Wohnungen mit drei und mehr Zimmern darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23557,7 +23555,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:09",
+		"aktualisierungsdatum": "2023-03-16T08:20:42",
 		"id": 6972
 	},
 	{
@@ -23568,8 +23566,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Klybeck, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton. Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen im Kanton auf.",
+		"subtitle": "Klybeck, 2022",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich als der ganze Kanton.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23595,7 +23593,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:42",
 		"id": 6973
 	},
 	{
@@ -23606,7 +23604,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kleinhüningen, 2021",
+		"subtitle": "Kleinhüningen, 2022",
 		"lesehilfe": "Rund die Hälfte aller Wohnungen im Wohnviertel Kleinhüningen sind Dreizimmerwohnungen. Damit liegt deren Anteil deutlich höher als im Gesamtkanton. Der Anteil an Wohnungen mit fünf und mehr Zimmern dagegen ist deutlich niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -23633,7 +23631,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:43",
 		"id": 6974
 	},
 	{
@@ -23644,8 +23642,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Riehen, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlich häufiger Wohnungen mit vier und mehr Zimmern. Ein- und Zweizimmerwohnungen sind dagegen markant seltener vertreten.",
+		"subtitle": "Gemeinde Riehen, 2022",
+		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlich häufiger Wohnungen mit vier und mehr Zimmern. Ein- und Zweizimmerwohnungen sind dagegen markant seltener vorhanden.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23672,7 +23670,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:45",
 		"id": 6975
 	},
 	{
@@ -23683,8 +23681,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Bettingen, 2021",
-		"lesehilfe": "In der Gemeinde Bettingen sind Fünfzimmerwohnungen am häufigsten (25,8%), gefolgt von den Wohnungen mit sechs und mehr Zimmern (22,5%). Im kantonalen Vergleich weist Bettingen in diesen Kategorien die höchsten Anteile auf. Dagegen sind die Anteile an Zwei- und Dreizimmerwohnungen kantonsweit am geringsten.",
+		"subtitle": "Gemeinde Bettingen, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen sind die meisten Wohnungen (rund ein Viertel aller Wohnungen) Fünfzimmerwohnungen, gefolgt von den Wohnungen mit sechs und mehr Zimmern. Im kantonalen Vergleich weist Bettingen in diesen Kategorien die höchsten Anteile auf. Dagegen gibt es im Vergleich zum Gesamtkanton am wenigsten Zwei- und Dreizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23711,7 +23709,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:11",
+		"aktualisierungsdatum": "2023-03-16T08:20:45",
 		"id": 6976
 	},
 	{
@@ -23920,8 +23918,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen (36,9%), am seltensten Wohnungen mit sechs und mehr Zimmern (5,2%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen (36,7%), am seltensten Wohnungen mit sechs und mehr Zimmern (5,2%).",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -23947,7 +23945,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:11",
+		"aktualisierungsdatum": "2023-03-16T08:20:47",
 		"id": 6988
 	},
 	{
@@ -25618,7 +25616,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Fläche neuerstellter Wohnungen",
 		"subtitle": "in Quadratmeter nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2021 in allen Zimmerzahlkategorien ausser bei den Wohnungen mit 6 und mehr Zimmern grösser als die Werte im Gesamtbestand.",
+		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2022 in allen Zimmerzahlkategorien grösser als die Werte im Gesamtbestand.",
 		"erlaeuterungen": "Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -25644,7 +25642,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:51",
+		"aktualisierungsdatum": "2023-03-16T08:20:11",
 		"id": 7599
 	},
 	{
@@ -25682,7 +25680,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:51",
+		"aktualisierungsdatum": "2023-03-16T08:20:11",
 		"id": 7601
 	},
 	{
@@ -26265,7 +26263,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Ihr gesamtkantonaler Anteil beträgt 24%.",
+		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Deren gesamtkantonaler Anteil beträgt 24%.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26291,7 +26289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:03",
+		"aktualisierungsdatum": "2023-03-16T08:20:23",
 		"id": 7679
 	},
 	{
@@ -26345,7 +26343,7 @@ var indikatoren = [
 		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2021 beträgt sie 35,4 m<sup>2</sup> (Erlenmatt) respektive 34,2 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2022 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,9 m<sup>2</sup> (Messe).",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26371,7 +26369,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:22",
 		"id": 7681
 	},
 	{
@@ -26465,7 +26463,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Weil es im Bezirk Erlenmatt nur wenige grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf fast 20%.",
+		"lesehilfe": "Weil es im Bezirk Erlenmatt fast ausschliesslich grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf knapp 20%.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26491,7 +26489,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:24",
 		"id": 7684
 	},
 	{
@@ -26531,7 +26529,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:26",
 		"id": 7685
 	},
 	{
@@ -26571,7 +26569,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:27",
 		"id": 7686
 	},
 	{
@@ -26611,7 +26609,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:28",
 		"id": 7687
 	},
 	{
@@ -30220,7 +30218,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:32",
+		"aktualisierungsdatum": "2023-03-16T08:20:23",
 		"id": 8060
 	},
 	{
@@ -30234,7 +30232,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2021: Klybeck 83,0%, Kleinhüningen 73,0%). Der Anteil an Genossenschaftswohnungen betrug 2021 14,0% (Klybeck) und 22,2% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,6%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
+		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2022: Klybeck 83,4%, Kleinhüningen 71,7%). Der Anteil an Genossenschaftswohnungen betrug 2022 13,6% (Klybeck) und 22,4% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,6%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -30260,7 +30258,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:33",
+		"aktualisierungsdatum": "2023-03-16T08:20:24",
 		"id": 8061
 	},
 	{
@@ -30300,7 +30298,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:32",
+		"aktualisierungsdatum": "2023-03-16T08:20:21",
 		"id": 8062
 	},
 	{
@@ -30420,7 +30418,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:21",
+		"aktualisierungsdatum": "2023-03-16T08:20:25",
 		"id": 8065
 	},
 	{
@@ -30434,7 +30432,7 @@ var indikatoren = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. In den anderen Jahren hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
+		"lesehilfe": "2022 enstanden 157 zusätzliche Wohnungen durch die Umnutzung eines Hotels und von Schulungsräumen. 2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. In den anderen Jahren hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -30460,7 +30458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:21",
+		"aktualisierungsdatum": "2023-03-16T08:20:25",
 		"id": 8066
 	},
 	{
@@ -30474,7 +30472,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Bürogebäude ein Wohngebäude mit 80 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 und 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -30500,7 +30498,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:22",
+		"aktualisierungsdatum": "2023-03-16T08:20:28",
 		"id": 8067
 	},
 	{
@@ -36970,7 +36968,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:55",
+		"aktualisierungsdatum": "2023-03-16T08:20:04",
 		"id": 8995
 	},
 	{
@@ -37140,7 +37138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:53",
+		"aktualisierungsdatum": "2023-03-16T08:20:04",
 		"id": 9022
 	},
 	{
@@ -37178,7 +37176,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:54",
+		"aktualisierungsdatum": "2023-03-16T08:20:05",
 		"id": 9023
 	},
 	{
@@ -38369,10 +38367,10 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Strassenverkehrsunfälle",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, davon 305 Unfälle mit Personenschaden.",
-		"erlaeuterungen": "Ab 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Ab 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Ab 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2011 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
+		"lesehilfe": "2022 wurden auf den baselstädtischen Strassen 502 Unfälle durch die Polizei rapportiert, davon 296 Unfälle mit Personenschaden.",
+		"erlaeuterungen": "Ab 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Ab 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Ab 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -38395,7 +38393,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:59",
+		"aktualisierungsdatum": "2023-03-16T08:20:05",
 		"id": 9274
 	},
 	{
@@ -38407,10 +38405,10 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Verletzte und Verkehrstote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind auf den baselstädtischen Strassen insgesamt 377 Personen verunfallt. Davon wurden 372 verletzt, 5 verloren dabei ihr Leben.",
+		"lesehilfe": "Im Jahr 2022 sind auf den baselstädtischen Strassen insgesamt 344 Personen verunfallt. Davon wurden 248 leicht- und 94 schwerverletzt; 2 verloren dabei ihr Leben.",
 		"erlaeuterungen": "Verkehrstote: Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -38433,7 +38431,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:59",
+		"aktualisierungsdatum": "2023-03-16T08:20:06",
 		"id": 9283
 	},
 	{
@@ -38443,19 +38441,19 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"title": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt 19 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (82 Beteiligte), Missachtung der Vortrittsregelungen (141 Beteiligte) sowie Missachten von Signalen und Zeichengebung (50 Beteiligte).",
+		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt 22 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (91 Verkehrsteilnehmende), Missachtung der Vortrittsregelungen (136) sowie Missachten von Signalen und Zeichengebung (21).",
 		"erlaeuterungen": "Am Verkehrsunfall beteiligte Fussgänger oder Fahrzeuglenkende (ohne Mitfahrende), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.), Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro Beteiligten) können mehrere mutmassliche Ursachen gemeldet werden.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"description": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
 		"kuerzel": "I.11.7.09287",
@@ -38471,7 +38469,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:53:00",
+		"aktualisierungsdatum": "2023-03-16T08:20:07",
 		"id": 9287
 	},
 	{
@@ -39769,7 +39767,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteile von Genossenschaftswohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen an allen Wohnungen betrug von 2013 bis 2021 durchschnittlich knapp 11%. Bei den in diesem Zeitraum neuerstellten Logis lag er mit 13% leicht höher. 2017, 2018 und 2021 waren überdurchschnittlich ergiebige Jahre für den genossenschaftlichen Wohnungsbau. Dagegen waren die Anteile 2013 bis 2016 gering.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen an allen Wohnungen betrug von 2013 bis 2022 durchschnittlich knapp 11%. Die Anteile der neuerstellten Genossenschaftswohnungenwar 2017, 2018 und 2021 überdurchschnittlich. Dagegen waren die Anteile 2013 bis 2016  und 2022 gering. Dennoch stieg 2022 der Anteil gesamthaft im Vergleich zum Vorjahr leicht, weil 2022 viele Genossenschaftswohnungen durch Umbau entstanden.",
 		"erlaeuterungen": "Es werden beim Bestand nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -39795,7 +39793,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:51",
+		"aktualisierungsdatum": "2023-03-16T08:20:12",
 		"id": 9465
 	},
 	{

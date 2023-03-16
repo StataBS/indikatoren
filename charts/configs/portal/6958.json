@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1054929193180718,
-          "Anzahl": 11986
+          "y": 0.10666585510069215,
+          "Anzahl": 12267
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2381731928638696,
-          "Anzahl": 27061
+          "y": 0.23961775242600258,
+          "Anzahl": 27557
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36881155440551316,
-          "Anzahl": 41904
+          "y": 0.36736983061458733,
+          "Anzahl": 42249
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1730696450417624,
-          "Anzahl": 19664
+          "y": 0.1726983409272721,
+          "Anzahl": 19861
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06232232285093162,
-          "Anzahl": 7081
+          "y": 0.06205001565162951,
+          "Anzahl": 7136
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05213036551985143,
-          "Anzahl": 5923
+          "y": 0.05159820527981635,
+          "Anzahl": 5934
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.17399267399267399,
-          "Anzahl": 1140
+          "y": 0.17397239496435613,
+          "Anzahl": 1147
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.21596459096459097,
-          "Anzahl": 1415
+          "y": 0.2162900045502806,
+          "Anzahl": 1426
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.30158730158730157,
-          "Anzahl": 1976
+          "y": 0.30320036402244804,
+          "Anzahl": 1999
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.18635531135531136,
-          "Anzahl": 1221
+          "y": 0.18595480054603367,
+          "Anzahl": 1226
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.06028693528693529,
-          "Anzahl": 395
+          "y": 0.05915364780828151,
+          "Anzahl": 390
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Am Ring",
-          "y": 0.061813186813186816,
+          "y": 0.06142878810860003,
           "Anzahl": 405
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Am Ring, 2021",
+    "text": "Am Ring, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormatter": function(){
