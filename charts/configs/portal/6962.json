@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1054929193180718,
-          "Anzahl": 11986
+          "y": 0.10666585510069215,
+          "Anzahl": 12267
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2381731928638696,
-          "Anzahl": 27061
+          "y": 0.23961775242600258,
+          "Anzahl": 27557
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36881155440551316,
-          "Anzahl": 41904
+          "y": 0.36736983061458733,
+          "Anzahl": 42249
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1730696450417624,
-          "Anzahl": 19664
+          "y": 0.1726983409272721,
+          "Anzahl": 19861
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06232232285093162,
-          "Anzahl": 7081
+          "y": 0.06205001565162951,
+          "Anzahl": 7136
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05213036551985143,
-          "Anzahl": 5923
+          "y": 0.05159820527981635,
+          "Anzahl": 5934
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.025869759143621766,
-          "Anzahl": 116
+          "y": 0.026690391459074734,
+          "Anzahl": 120
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.10860838537020517,
-          "Anzahl": 487
+          "y": 0.10809608540925267,
+          "Anzahl": 486
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.262042818911686,
-          "Anzahl": 1175
+          "y": 0.26312277580071175,
+          "Anzahl": 1183
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.25044603033006246,
-          "Anzahl": 1123
+          "y": 0.24955516014234874,
+          "Anzahl": 1122
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.14562890276538804,
-          "Anzahl": 653
+          "y": 0.14612989323843417,
+          "Anzahl": 657
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Bruderholz",
-          "y": 0.20740410347903657,
-          "Anzahl": 930
+          "y": 0.20640569395017794,
+          "Anzahl": 928
         }
       ],
       "name": "Bruderholz",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Bruderholz, 2021",
+    "text": "Bruderholz, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormatter": function(){

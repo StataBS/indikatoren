@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          65.233176
-        ],
-        [
-          "Clara",
-          66.476753
-        ],
-        [
-          "Matthäus",
-          67.359025
-        ],
-        [
-          "Iselin",
-          68.689253
+          65.04818
         ],
         [
           "Kleinhüningen",
-          69.783132
+          66.203236
+        ],
+        [
+          "Clara",
+          66.596731
+        ],
+        [
+          "Matthäus",
+          67.168456
+        ],
+        [
+          "Iselin",
+          68.852039
         ],
         [
           "Gundeldingen",
-          70.142191
-        ],
-        [
-          "Breite",
-          70.289537
+          70.196171
         ],
         [
           "Rosental",
-          70.538499
+          70.286506
+        ],
+        [
+          "Breite",
+          70.779978
         ],
         [
           "Altstadt Kleinbasel",
-          70.800242
+          70.83144
         ],
         [
           "St. Johann",
-          72.069619
+          72.060166
         ],
         [
           "Gotthelf",
-          74.358962
+          74.542309
         ],
         [
           "Hirzbrunnen",
-          81.69519
+          81.650602
         ],
         [
           "Am Ring",
-          81.898351
+          81.812376
         ],
         [
           "Vorstädte",
-          82.364532
+          82.334487
         ],
         [
           "Wettstein",
-          82.938168
+          82.927132
         ],
         [
           "Altstadt Grossbasel",
-          87.574062
+          87.866917
         ],
         [
           "St. Alban",
-          90.787373
+          90.830332
         ],
         [
           "Bachletten",
-          92.607904
+          92.548627
         ],
         [
           "Riehen",
-          102.556069
+          102.449166
         ],
         [
           "Bruderholz",
-          109.416592
+          109.315836
         ],
         [
           "Bettingen",
-          121.346441
+          119.873665
         ]
       ],
       "name": "Fläche pro Wohnung",
@@ -99,19 +99,19 @@
           1
         ],
         [
-          "Clara",
+          "Kleinhüningen",
           2
         ],
         [
-          "Matthäus",
+          "Clara",
           3
         ],
         [
-          "Iselin",
+          "Matthäus",
           4
         ],
         [
-          "Kleinhüningen",
+          "Iselin",
           5
         ],
         [
@@ -119,11 +119,11 @@
           6
         ],
         [
-          "Breite",
+          "Rosental",
           7
         ],
         [
-          "Rosental",
+          "Breite",
           8
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-4-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "legend": {
     "enabled": false,

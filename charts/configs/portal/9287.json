@@ -362,6 +362,10 @@
         [
           2021,
           19
+        ],
+        [
+          2022,
+          22
         ]
       ],
       "name": "Geschwindigkeit"
@@ -728,6 +732,10 @@
         [
           2021,
           82
+        ],
+        [
+          2022,
+          91
         ]
       ],
       "name": "Alkohol"
@@ -1094,6 +1102,10 @@
         [
           2021,
           141
+        ],
+        [
+          2022,
+          136
         ]
       ],
       "name": "Vortrittsregelung"
@@ -1460,6 +1472,10 @@
         [
           2021,
           27
+        ],
+        [
+          2022,
+          21
         ]
       ],
       "name": "Signale, Zeichengebung"
@@ -1517,7 +1533,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen"
+    "text": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählten Unfallursachen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -1595,7 +1611,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

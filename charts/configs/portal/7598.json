@@ -75,6 +75,10 @@
         ],
         [
           2022,
+          902
+        ],
+        [
+          2023,
           null
         ]
       ],
@@ -155,7 +159,11 @@
         ],
         [
           2022,
-          650
+          null
+        ],
+        [
+          2023,
+          800
         ]
       ],
       "name": "Neubauprognose"
@@ -238,7 +246,11 @@
         ],
         [
           2022,
-          null
+          652
+        ],
+        [
+          2023,
+          undefined
         ]
       ],
       "name": "Durchschnitt der letzten 10 Jahre"
@@ -373,7 +385,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

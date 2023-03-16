@@ -1,4 +1,4 @@
-﻿jahr	Belegte Wohnungen	Leerstehende Wohnungen	Wohnbevölkerung (rechte Skala)
+﻿jahr	Wohnungsbestand (ohne Leerwohnungen)	Leerwohnungen	Wohnbevölkerung (rechte Skala)
 1960	78361	75	222489
 1961	79889	78	225111
 1962	82286	12	228195
@@ -61,3 +61,4 @@
 2019	109944	1124	200407
 2020	110572	1073	201971
 2021	111454	1235	201805
+2022	112584	1328	204517

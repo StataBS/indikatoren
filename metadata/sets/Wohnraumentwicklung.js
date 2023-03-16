@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:08",
 		"id": 4131
 	},
 	{
@@ -203,7 +203,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2012 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 193 459 auf 204 550 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:05",
+		"aktualisierungsdatum": "2023-03-15T08:14:02",
 		"id": 4132
 	},
 	{
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 113 620 im Jahr 2021 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,5% auf 7 081 bzw. +9,6% auf 19 664), am geringsten bei den Einzimmerwohnungen (+4,7% auf 11 986).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 115 004 im Jahr 2022 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+12,3% auf 7 136 bzw. +11,4% auf 27 557), am geringsten bei den Einzimmerwohnungen (+4,7% auf 12 267).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:01",
+		"aktualisierungsdatum": "2023-03-16T08:20:13",
 		"id": 4133
 	},
 	{
@@ -281,8 +281,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am zahlreichsten sind 2021 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (34%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 sind Wohnungen zwischen 70 und 99 Quadratmetern (34%) am zahlreichsten. Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -307,7 +307,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:14",
 		"id": 4134
 	},
 	{
@@ -325,7 +325,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:14",
 		"id": 4135
 	},
 	{
@@ -364,7 +364,7 @@ var indikatorensetData = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 und 2021 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2020 trug unter anderem der Dachstockausbau wesentlich zum positiven Umbausaldo bei.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014 und 2019 bis 2022 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019 und 2021 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -389,7 +389,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:30",
+		"aktualisierungsdatum": "2023-03-16T08:20:16",
 		"id": 4136
 	},
 	{
@@ -403,7 +403,7 @@ var indikatorensetData = [
 		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 851 Einheiten war die Neubauproduktion 2021 wiederum überdurchschnittlich hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter.",
+		"lesehilfe": "Mit 902 Einheiten war die Neubauproduktion 2022 wiederum sehr hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
 		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -428,7 +428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:02",
+		"aktualisierungsdatum": "2023-03-16T08:20:16",
 		"id": 4137
 	},
 	{
@@ -522,7 +522,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -548,7 +548,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:14",
+		"aktualisierungsdatum": "2023-03-16T08:20:17",
 		"id": 4140
 	},
 	{
@@ -634,7 +634,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 10 997 Genossenschaftswohnungen welche 2021 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
+		"lesehilfe": "Die 11 104 Genossenschaftswohnungen welche 2022 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
 		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -659,7 +659,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:18",
 		"id": 4143
 	},
 	{
@@ -735,7 +735,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-11T08:00:27",
+		"aktualisierungsdatum": "2023-03-16T08:20:19",
 		"id": 4145
 	},
 	{
@@ -772,7 +772,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-08T08:27:17",
+		"aktualisierungsdatum": "2023-03-16T08:20:20",
 		"id": 4146
 	},
 	{

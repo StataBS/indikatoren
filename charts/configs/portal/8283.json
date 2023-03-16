@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          32.264901599886734
+          32.882404
         ],
         [
           "Kleinhüningen",
-          32.69
+          33.380239
         ],
         [
           "Rosental",
-          34.59343365253078
+          34.339864
         ],
         [
           "Matthäus",
-          35.82688404816669
-        ],
-        [
-          "Clara",
-          36.65934065934066
-        ],
-        [
-          "Iselin",
-          36.72023453392366
+          36.448492
         ],
         [
           "St. Johann",
-          36.762402682275386
+          36.878279
         ],
         [
-          "Breite",
-          38.856169826313995
+          "Iselin",
+          37.311167
+        ],
+        [
+          "Clara",
+          37.86673
         ],
         [
           "Hirzbrunnen",
-          38.97925040738729
+          39.106132
         ],
         [
           "Gundeldingen",
-          39.043906956474366
+          39.30123
+        ],
+        [
+          "Breite",
+          39.747979
         ],
         [
           "Gotthelf",
-          41.47321033210332
+          41.551969
         ],
         [
           "Altstadt Kleinbasel",
-          43.391752577319586
+          44.584415
         ],
         [
           "Am Ring",
-          45.56212032137958
+          45.033416
         ],
         [
           "Wettstein",
-          46.11344065892924
+          45.386322
         ],
         [
           "Bachletten",
-          46.23795381988269
-        ],
-        [
-          "Riehen",
-          47.50106599706258
-        ],
-        [
-          "Bruderholz",
-          48.39978354978355
+          45.936084
         ],
         [
           "St. Alban",
-          48.50627015406664
+          47.010868
+        ],
+        [
+          "Riehen",
+          47.114794
+        ],
+        [
+          "Bruderholz",
+          48.274273
         ],
         [
           "Vorstädte",
-          50.563448566610454
-        ],
-        [
-          "Altstadt Grossbasel",
-          52.887750122010736
+          50.058836
         ],
         [
           "Bettingen",
-          53.011926605504584
+          51.158279
+        ],
+        [
+          "Altstadt Grossbasel",
+          52.6
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -111,7 +111,7 @@
           4
         ],
         [
-          "Clara",
+          "St. Johann",
           5
         ],
         [
@@ -119,19 +119,19 @@
           6
         ],
         [
-          "St. Johann",
+          "Clara",
           7
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           8
         ],
         [
-          "Hirzbrunnen",
+          "Gundeldingen",
           9
         ],
         [
-          "Gundeldingen",
+          "Breite",
           10
         ],
         [
@@ -155,15 +155,15 @@
           15
         ],
         [
-          "Riehen",
+          "St. Alban",
           16
         ],
         [
-          "Bruderholz",
+          "Riehen",
           17
         ],
         [
-          "St. Alban",
+          "Bruderholz",
           18
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Altstadt Grossbasel",
+          "Bettingen",
           20
         ],
         [
-          "Bettingen",
+          "Altstadt Grossbasel",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "legend": {
     "enabled": false,

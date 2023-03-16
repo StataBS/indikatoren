@@ -26,7 +26,7 @@
         ],
         [
           2018,
-          15168
+          15153
         ],
         [
           2019,
@@ -34,11 +34,15 @@
         ],
         [
           2020,
-          15209
+          15208
         ],
         [
           2021,
           15205
+        ],
+        [
+          2022,
+          15340
         ]
       ],
       "name": "Eigentümerwohungen"
@@ -82,6 +86,10 @@
         [
           2021,
           10997
+        ],
+        [
+          2022,
+          11104
         ]
       ],
       "name": "Genossenschaftswohnungen"
@@ -116,15 +124,19 @@
         ],
         [
           2019,
-          72913
+          72764
         ],
         [
           2020,
-          73120
+          72971
         ],
         [
           2021,
           73424
+        ],
+        [
+          2022,
+          73994
         ]
       ],
       "name": "Mietwohnungen"
@@ -135,39 +147,43 @@
       "data": [
         [
           2013,
-          607
+          835
         ],
         [
           2014,
-          589
+          792
         ],
         [
           2015,
-          606
+          776
         ],
         [
           2016,
-          612
-        ],
-        [
-          2017,
-          621
-        ],
-        [
-          2018,
-          719
-        ],
-        [
-          2019,
           765
         ],
         [
+          2017,
+          764
+        ],
+        [
+          2018,
+          863
+        ],
+        [
+          2019,
+          918
+        ],
+        [
           2020,
-          729
+          874
         ],
         [
           2021,
           720
+        ],
+        [
+          2022,
+          744
         ]
       ],
       "name": "Sonstige Wohnungen"
@@ -303,7 +319,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",

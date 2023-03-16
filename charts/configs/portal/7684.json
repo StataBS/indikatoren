@@ -47,6 +47,10 @@
         [
           2021,
           6.730769230769
+        ],
+        [
+          2022,
+          6.369426751592
         ]
       ],
       "name": "Rosental"
@@ -97,6 +101,10 @@
         [
           2021,
           5.576208178438
+        ],
+        [
+          2022,
+          5.243445692883
         ]
       ],
       "name": "Messe"
@@ -147,6 +155,10 @@
         [
           2021,
           13.953488372093
+        ],
+        [
+          2022,
+          12.765957446808
         ]
       ],
       "name": "Erlenmatt"
@@ -276,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

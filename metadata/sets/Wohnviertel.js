@@ -301,7 +301,7 @@ var indikatorensetData = [
 			5117
 		],
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die jüngste.",
 		"erlaeuterungen": "Ausgewiesen ist das mittlere Baujahr der Wohngebäude des Wohnviertels (<a href=\" https://www.statistik.bs.ch/grundlagen/glossar/?c96db598=true&item=true\"target=\"_blank\">ungewichtetes arithmetisches Mittel</a>).",
 		"quellenangabe": [
@@ -329,7 +329,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-21T08:41:12",
+		"aktualisierungsdatum": "2023-03-16T08:20:37",
 		"id": 4830
 	},
 	{
@@ -342,7 +342,7 @@ var indikatorensetData = [
 			5118
 		],
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"quellenangabe": [
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-09T08:05:37",
+		"aktualisierungsdatum": "2023-03-16T08:20:44",
 		"id": 4831
 	},
 	{
@@ -426,7 +426,7 @@ var indikatorensetData = [
 			5120
 		],
 		"title": "Fläche pro Wohnung",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"quellenangabe": [
@@ -454,7 +454,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:26",
+		"aktualisierungsdatum": "2023-03-16T08:20:46",
 		"id": 4833
 	},
 	{
@@ -470,7 +470,7 @@ var indikatorensetData = [
 			8554
 		],
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"quellenangabe": [
@@ -499,7 +499,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:49",
+		"aktualisierungsdatum": "2023-03-16T08:20:47",
 		"id": 4834
 	},
 	{
@@ -3018,7 +3018,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2021",
+		"subtitle": "Altstadt Grossbasel, 2022",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton ist im Wohnviertel Altstadt Grossbasel insbesondere der Anteil der Einzimmerwohnungen grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3044,7 +3044,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:32",
 		"id": 6956
 	},
 	{
@@ -3055,7 +3055,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2021",
+		"subtitle": "Vorstädte, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3081,7 +3081,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:32",
 		"id": 6957
 	},
 	{
@@ -3092,7 +3092,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2021",
+		"subtitle": "Am Ring, 2022",
 		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton, ausser bei den Einzimmerwohnungen, deren Anteil höher ist und bei den Dreizimmerwohnungen, deren Anteil tiefer ausfällt. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3118,7 +3118,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:33",
 		"id": 6958
 	},
 	{
@@ -3129,7 +3129,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2021",
+		"subtitle": "Breite, 2022",
 		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Einzimmerwohnungen sowie Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3155,7 +3155,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:34",
 		"id": 6959
 	},
 	{
@@ -3166,7 +3166,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2021",
+		"subtitle": "St. Alban, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3192,7 +3192,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:34",
 		"id": 6960
 	},
 	{
@@ -3203,7 +3203,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2021",
+		"subtitle": "Gundeldingen, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3229,7 +3229,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:35",
 		"id": 6961
 	},
 	{
@@ -3240,7 +3240,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2021",
+		"subtitle": "Bruderholz, 2022",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen markant höheren Anteil an Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Ein-, Zwei- und Dreizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3266,7 +3266,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:35",
 		"id": 6962
 	},
 	{
@@ -3277,7 +3277,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2021",
+		"subtitle": "Bachletten, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Bachletten am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton häufiger Wohnungen mit fünf und mehr Zimmern. Dafür gibt es seltener Wohnungen mit ein und zwei Zimmern.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3303,7 +3303,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:36",
 		"id": 6963
 	},
 	{
@@ -3314,8 +3314,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2021",
-		"lesehilfe": "Der Anteil an Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht exakt dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
+		"subtitle": "Gotthelf, 2022",
+		"lesehilfe": "Im Wohnviertel Gotthelf gibt es wie im gesamten Kanton am meisten Drei- und Zweizimmerwohnungen. Die Verteilung nach Zimmerzahl ist derjenigen im Kantonsbestand sehr ähnlich.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3340,7 +3340,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:36",
 		"id": 6964
 	},
 	{
@@ -3351,7 +3351,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2021",
+		"subtitle": "Iselin, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3377,7 +3377,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:38",
 		"id": 6965
 	},
 	{
@@ -3388,7 +3388,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2021",
+		"subtitle": "St. Johann, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit vier und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3414,7 +3414,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:38",
 		"id": 6966
 	},
 	{
@@ -3425,8 +3425,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Ein- und Zweizimmerwohnungen.",
+		"subtitle": "Altstadt Kleinbasel, 2022",
+		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel sind Zweizimmerwohnungen am häufigsten. Auch der Anteil an Einzimmerwohnungen ist im Vergleich zum Gesamtkanton deutlich grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3451,7 +3451,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:07",
+		"aktualisierungsdatum": "2023-03-16T08:20:39",
 		"id": 6967
 	},
 	{
@@ -3462,7 +3462,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2021",
+		"subtitle": "Clara, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Clara am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen. Wohnungen mit sechs und mehr Zimmern sind kaum vertreten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3488,7 +3488,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:39",
 		"id": 6968
 	},
 	{
@@ -3499,7 +3499,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2021",
+		"subtitle": "Wettstein, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Wettstein am häufigsten Dreizimmerwohnungen. Deren Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen dagegen ist niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3525,7 +3525,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:40",
 		"id": 6969
 	},
 	{
@@ -3536,7 +3536,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2021",
+		"subtitle": "Hirzbrunnen, 2022",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Deren Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt, bei den Ein- und Zweizimmerwohnungen dagegen klar darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3562,7 +3562,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:08",
+		"aktualisierungsdatum": "2023-03-16T08:20:41",
 		"id": 6970
 	},
 	{
@@ -3573,8 +3573,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2021",
-		"lesehilfe": "Der Anteil der Dreizimmerwohnungen ist im Wohnviertel Rosental exakt so hoch wie im Gesamtkanton. Der Anteil der Zweizimmerwohnungen hingegen liegt deutlich über dem kantonalen Vergleichswert.",
+		"subtitle": "Rosental, 2022",
+		"lesehilfe": "Der Anteil der Dreizimmerwohnungen ist im Wohnviertel Rosental etwa gleich hoch wie im Gesamtkanton. Der Anteil der Zweizimmerwohnungen hingegen liegt deutlich über dem kantonalen Vergleichswert, während die Anteile von Wohnungen ab fünf Zimmern deutlich darunter liegen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3599,7 +3599,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:09",
+		"aktualisierungsdatum": "2023-03-16T08:20:41",
 		"id": 6971
 	},
 	{
@@ -3610,7 +3610,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Matthäus, 2021",
+		"subtitle": "Matthäus, 2022",
 		"lesehilfe": "Der Anteil an Ein- und Zweizimmerwohnungen liegt über dem kantonalen Durchschnitt, derjenige von Wohnungen mit drei und mehr Zimmern darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3636,7 +3636,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:09",
+		"aktualisierungsdatum": "2023-03-16T08:20:42",
 		"id": 6972
 	},
 	{
@@ -3647,8 +3647,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Klybeck, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton. Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen im Kanton auf.",
+		"subtitle": "Klybeck, 2022",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich als der ganze Kanton.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3673,7 +3673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:42",
 		"id": 6973
 	},
 	{
@@ -3684,7 +3684,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kleinhüningen, 2021",
+		"subtitle": "Kleinhüningen, 2022",
 		"lesehilfe": "Rund die Hälfte aller Wohnungen im Wohnviertel Kleinhüningen sind Dreizimmerwohnungen. Damit liegt deren Anteil deutlich höher als im Gesamtkanton. Der Anteil an Wohnungen mit fünf und mehr Zimmern dagegen ist deutlich niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -3710,7 +3710,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:43",
 		"id": 6974
 	},
 	{
@@ -3721,8 +3721,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Riehen, 2021",
-		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlich häufiger Wohnungen mit vier und mehr Zimmern. Ein- und Zweizimmerwohnungen sind dagegen markant seltener vertreten.",
+		"subtitle": "Gemeinde Riehen, 2022",
+		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlich häufiger Wohnungen mit vier und mehr Zimmern. Ein- und Zweizimmerwohnungen sind dagegen markant seltener vorhanden.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3748,7 +3748,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:10",
+		"aktualisierungsdatum": "2023-03-16T08:20:45",
 		"id": 6975
 	},
 	{
@@ -3759,8 +3759,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Bettingen, 2021",
-		"lesehilfe": "In der Gemeinde Bettingen sind Fünfzimmerwohnungen am häufigsten (25,8%), gefolgt von den Wohnungen mit sechs und mehr Zimmern (22,5%). Im kantonalen Vergleich weist Bettingen in diesen Kategorien die höchsten Anteile auf. Dagegen sind die Anteile an Zwei- und Dreizimmerwohnungen kantonsweit am geringsten.",
+		"subtitle": "Gemeinde Bettingen, 2022",
+		"lesehilfe": "In der Gemeinde Bettingen sind die meisten Wohnungen (rund ein Viertel aller Wohnungen) Fünfzimmerwohnungen, gefolgt von den Wohnungen mit sechs und mehr Zimmern. Im kantonalen Vergleich weist Bettingen in diesen Kategorien die höchsten Anteile auf. Dagegen gibt es im Vergleich zum Gesamtkanton am wenigsten Zwei- und Dreizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3786,7 +3786,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:11",
+		"aktualisierungsdatum": "2023-03-16T08:20:45",
 		"id": 6976
 	},
 	{
@@ -3797,8 +3797,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen (36,9%), am seltensten Wohnungen mit sechs und mehr Zimmern (5,2%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen (36,7%), am seltensten Wohnungen mit sechs und mehr Zimmern (5,2%).",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3823,7 +3823,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:11",
+		"aktualisierungsdatum": "2023-03-16T08:20:47",
 		"id": 6988
 	},
 	{

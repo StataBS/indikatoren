@@ -9,23 +9,23 @@
         ],
         [
           "Gundeldingen",
-          0.028551532033
+          0.028531663187
         ],
         [
           "Rosental",
-          0.067307692307
+          0.063694267515
         ],
         [
           "Matthäus",
-          0.067944250871
+          0.068695652173
         ],
         [
           "Klybeck",
-          0.071593533487
+          0.071100917431
         ],
         [
           "Vorstädte",
-          0.07495429616
+          0.073394495412
         ],
         [
           "Altstadt Kleinbasel",
@@ -33,11 +33,11 @@
         ],
         [
           "Altstadt Grossbasel",
-          0.102564102564
+          0.104330708661
         ],
         [
           "Breite",
-          0.130827067669
+          0.130239520958
         ],
         [
           "Kleinhüningen",
@@ -45,15 +45,15 @@
         ],
         [
           "Iselin",
-          0.165403170227
+          0.165289256198
         ],
         [
           "Am Ring",
-          0.194444444444
+          0.193115029387
         ],
         [
           "St. Johann",
-          0.246719160104
+          0.245270711024
         ],
         [
           "Wettstein",
@@ -61,31 +61,31 @@
         ],
         [
           "St. Alban",
-          0.335284280936
+          0.333888426311
         ],
         [
           "Gotthelf",
-          0.368205128205
+          0.364285714285
         ],
         [
           "Bachletten",
-          0.557239728759
+          0.557370517928
         ],
         [
           "Riehen",
-          0.656823053107
+          0.65534324133
         ],
         [
           "Hirzbrunnen",
-          0.692404268675
+          0.691536050156
         ],
         [
           "Bruderholz",
-          0.728659990462
+          0.727099236641
         ],
         [
           "Bettingen",
-          0.783699059561
+          0.776397515527
         ]
       ],
       "name": "Anteil Einfamilienhäuser",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
   },
   "legend": {
     "enabled": false,

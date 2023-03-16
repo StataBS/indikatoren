@@ -271,42 +271,40 @@ var indikatorensetData = [
 		"id": 7908
 	},
 	{
+		"template": "line001_print",
+		"data-id": 7909,
+		"chart-id": 7909,
+		"filter": "",
+		"parentId": "7671",
+		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07909",
-		"kuerzelKunde": "2.08",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 19,2 Prozent. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren daher stets Quoten unter 10% aufweist.",
+		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07909",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "2.08",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2018 bei 20,4 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
-		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
-		"template": "line001_print",
+		"orderKey": "02_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
-		"parentId": 7671,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7909,
-		"chart-id": 7909,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-15T08:14:04",
 		"id": 7909
 	},
 	{
@@ -1200,81 +1198,77 @@ var indikatorensetData = [
 		"id": 7932
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.15.1.07933",
-		"kuerzelKunde": "5.02",
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
-		"stufe1": "5 Bildung und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "05_00_00_00_00_002",
-		"parentId": 7695,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7933,
 		"chart-id": 7933,
 		"filter": "",
-		"id": 7933
-	},
-	{
-		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.15.1.07934",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"parentId": "7695",
+		"children": [],
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2022 im Wohnviertel Rosental mit 34,2% bereits zum dritten Mal in Folge höher als jene der Schweizerinnen und Schweizer (21,2%). Für die Stadt Basel beträgt der Wert 2022 35,8%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07933",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.02",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001_print",
+		"orderKey": "05_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": 7696,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-03-15T08:14:09",
+		"id": 7933
+	},
+	{
+		"template": "line001_print",
 		"data-id": 7934,
 		"chart-id": 7934,
 		"filter": "",
+		"parentId": "7696",
+		"children": [],
+		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2022 liegen die Quoten für beide Bezirke tiefer als im Vorjahr.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07934",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "5.01",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-15T08:14:08",
 		"id": 7934
 	},
 	{

@@ -5,133 +5,39 @@
       "data": [
         [
           "Sonst. wirtsch. DL",
-          2075
+          2260
         ],
         [
-          "Gastronomie",
-          1074
-        ],
-        [
-          "Schiffahrt, Luftfahrt",
-          876
-        ],
-        [
-          "Chemie",
-          826
-        ],
-        [
-          "Landverkehr",
-          537
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          371
-        ],
-        [
-          "Öff. Verwaltung",
-          501
-        ],
-        [
-          "Baunebengewerbe",
-          424
-        ],
-        [
-          "Lagerei",
-          484
-        ],
-        [
-          "Energieversorgung",
-          287
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Sonst. wirtsch. DL",
-          2139
-        ],
-        [
-          "Gastronomie",
-          970
-        ],
-        [
-          "Schiffahrt, Luftfahrt",
-          928
-        ],
-        [
-          "Chemie",
-          744
-        ],
-        [
-          "Landverkehr",
-          587
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          499
-        ],
-        [
-          "Öff. Verwaltung",
-          364
-        ],
-        [
-          "Baunebengewerbe",
-          447
-        ],
-        [
-          "Lagerei",
-          404
-        ],
-        [
-          "Energieversorgung",
-          341
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "Sonst. wirtsch. DL",
-          2290
-        ],
-        [
-          "Gastronomie",
-          1069
-        ],
-        [
-          "Schiffahrt, Luftfahrt",
+          "Schifffahrt, Luftfahrt",
           994
+        ],
+        [
+          "Landverkehr",
+          603
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          529
         ],
         [
           "Chemie",
           632
         ],
         [
-          "Landverkehr",
-          600
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          528
-        ],
-        [
-          "Öff. Verwaltung",
-          525
-        ],
-        [
           "Baunebengewerbe",
           513
         ],
         [
+          "Öff. Verwaltung",
+          389
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          274
+        ],
+        [
           "Lagerei",
-          439
+          471
         ],
         [
           "Energieversorgung",
@@ -139,6 +45,100 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2196
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1110
+        ],
+        [
+          "Landverkehr",
+          613
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          569
+        ],
+        [
+          "Chemie",
+          585
+        ],
+        [
+          "Baunebengewerbe",
+          489
+        ],
+        [
+          "Öff. Verwaltung",
+          411
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          269
+        ],
+        [
+          "Lagerei",
+          461
+        ],
+        [
+          "Energieversorgung",
+          335
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2052
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1012
+        ],
+        [
+          "Landverkehr",
+          595
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          544
+        ],
+        [
+          "Chemie",
+          509
+        ],
+        [
+          "Baunebengewerbe",
+          499
+        ],
+        [
+          "Öff. Verwaltung",
+          493
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          457
+        ],
+        [
+          "Lagerei",
+          422
+        ],
+        [
+          "Energieversorgung",
+          345
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -246,8 +246,7 @@
         "textOverflow": "none"
       },
       "format": "{value:,.0f}"
-    },
-    "tickInterval": 250
+    }
   },
   "legend": {
     "enabled": true,
@@ -272,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

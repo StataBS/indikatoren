@@ -287,7 +287,7 @@ var indikatorensetData = [
 		],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2021 bei 18,8 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 19,2 Prozent. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren daher stets Quoten unter 10% aufweist.",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -312,7 +312,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:01",
+		"aktualisierungsdatum": "2023-03-15T08:14:04",
 		"id": 7671
 	},
 	{
@@ -602,7 +602,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Ihr gesamtkantonaler Anteil beträgt 24%.",
+		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Deren gesamtkantonaler Anteil beträgt 24%.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:03",
+		"aktualisierungsdatum": "2023-03-16T08:20:23",
 		"id": 7679
 	},
 	{
@@ -680,7 +680,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2021 beträgt sie 35,4 m<sup>2</sup> (Erlenmatt) respektive 34,2 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2022 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,9 m<sup>2</sup> (Messe).",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:04",
+		"aktualisierungsdatum": "2023-03-16T08:20:22",
 		"id": 7681
 	},
 	{
@@ -797,7 +797,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Weil es im Bezirk Erlenmatt nur wenige grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf fast 20%.",
+		"lesehilfe": "Weil es im Bezirk Erlenmatt fast ausschliesslich grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf knapp 20%.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -822,7 +822,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:24",
 		"id": 7684
 	},
 	{
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2023-03-16T08:20:26",
 		"id": 7685
 	},
 	{
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:27",
 		"id": 7686
 	},
 	{
@@ -939,7 +939,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2023-03-16T08:20:28",
 		"id": 7687
 	},
 	{
@@ -1226,10 +1226,10 @@ var indikatorensetData = [
 		"children": [
 			7933
 		],
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die Gymnasialquote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2021 mit 33,3% bereits zum zweiten Mal in Folge höher als jene der Schweizerinnen und Schweizer (25,0%). Für die Stadt Basel beträgt der Wert 2021 36,1%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2022 im Wohnviertel Rosental mit 34,2% bereits zum dritten Mal in Folge höher als jene der Schweizerinnen und Schweizer (21,2%). Für die Stadt Basel beträgt der Wert 2022 35,8%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -1238,7 +1238,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.07695",
@@ -1253,7 +1253,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2023-03-15T08:14:09",
 		"id": 7695
 	},
 	{
@@ -1267,7 +1267,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2022 liegen die Quoten für beide Bezirke tiefer als im Vorjahr.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1292,7 +1292,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2023-03-15T08:14:07",
 		"id": 7696
 	},
 	{
