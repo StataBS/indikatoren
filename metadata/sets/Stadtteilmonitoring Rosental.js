@@ -641,7 +641,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 272\t Mietwohnungen, 166 selbstbewohnte Eigentümerwohnungen und 103 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 279 Mietwohnungen, 168 selbstbewohnte Eigentümerwohnungen und 104 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -666,7 +666,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:03",
+		"aktualisierungsdatum": "2023-03-21T08:22:07",
 		"id": 7680
 	},
 	{
