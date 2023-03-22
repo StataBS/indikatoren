@@ -768,10 +768,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -789,11 +789,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_311",
+		"orderKey": "03_03_00_00_00_311",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:27",
+		"aktualisierungsdatum": "2023-03-22T08:09:09",
 		"id": 8903
 	},
 	{
@@ -1287,43 +1287,41 @@ var indikatorensetData = [
 		"id": 8918
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8919,
+		"chart-id": 8919,
+		"filter": "",
+		"parentId": "4140",
+		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"kuerzel": "I.09.1.08919",
-		"kuerzelKunde": "NL6",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:17.1717",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08919",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL6",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
-		"template": "line001_print",
+		"orderKey": "04_01_00_00_00_406",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_406",
-		"parentId": 4140,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8919,
-		"chart-id": 8919,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-22T08:09:10",
 		"id": 8919
 	},
 	{

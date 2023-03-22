@@ -194,7 +194,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -220,7 +220,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:21",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6247
 	},
 	{
@@ -232,7 +232,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -257,7 +257,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:38",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6248
 	},
 	{
@@ -268,8 +268,8 @@ var indikatorensetData = [
 		"parentId": "5817",
 		"children": [],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2012-2021",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 22% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2022",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 20% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -294,7 +294,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:38",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6249
 	},
 	{
@@ -646,8 +646,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2021 mit rund 202 000 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 113 500 Wohnungen (+35 000) über denselben Zeitraum. Die Bevölkerungszahl erreichte 1970 einen Höchststand von 236 219 Personen und sank bis 2001 auf 187 489. Seither wird bis 2020 eine kontinuierliche Zunahme registriert.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Von 1960 bis 1970 wuchs sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab und der Wohnungsbestand nahm weiterhin leicht zu. Ab 1975 wurden deshalb eine hohe Anzahl Leerwohnungen verzeichnet. Mit der leichten Bevölkerungszunahme und stagnierendem Wohnungsbestand in der ersten Hälfte der Neunzigerjahre nahm die Anzahl der Leerwohnungen ab. Wegen des folgenden Bevölkerungsrückgangs bis 2007 wuchs die Zahl der Leerwohnungen wieder an. Danach erfolgte eine bis heute anhaltende Bevölkerungszunahme. Sie führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber seit 2015 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -672,7 +672,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:33",
+		"aktualisierungsdatum": "2023-03-22T08:09:10",
 		"id": 6259
 	},
 	{

@@ -15791,7 +15791,7 @@
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -15818,7 +15818,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-29T09:50:21",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6247
 	},
 	{
@@ -15830,7 +15830,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -15856,7 +15856,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:38",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6248
 	},
 	{
@@ -15867,8 +15867,8 @@
 		"parentId": "5817",
 		"children": [],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2012-2021",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 22% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2022",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 20% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -15894,7 +15894,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:38",
+		"aktualisierungsdatum": "2023-03-22T08:09:11",
 		"id": 6249
 	},
 	{
@@ -16255,8 +16255,8 @@
 		"children": [],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2021 mit rund 202 000 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 113 500 Wohnungen (+35 000) über denselben Zeitraum. Die Bevölkerungszahl erreichte 1970 einen Höchststand von 236 219 Personen und sank bis 2001 auf 187 489. Seither wird bis 2020 eine kontinuierliche Zunahme registriert.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Von 1960 bis 1970 wuchs sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab und der Wohnungsbestand nahm weiterhin leicht zu. Ab 1975 wurden deshalb eine hohe Anzahl Leerwohnungen verzeichnet. Mit der leichten Bevölkerungszunahme und stagnierendem Wohnungsbestand in der ersten Hälfte der Neunzigerjahre nahm die Anzahl der Leerwohnungen ab. Wegen des folgenden Bevölkerungsrückgangs bis 2007 wuchs die Zahl der Leerwohnungen wieder an. Danach erfolgte eine bis heute anhaltende Bevölkerungszunahme. Sie führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber seit 2015 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -16282,7 +16282,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:33",
+		"aktualisierungsdatum": "2023-03-22T08:09:10",
 		"id": 6259
 	},
 	{
@@ -26213,8 +26213,8 @@
 		"children": [],
 		"title": "Durchschnittsalter der Wohnbevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 2002 und 2021 um 3,9 Jahre auf 37,7 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 1,3 Jahre auf 45,5 Jahre gesunken.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2022 45,5 Jahre, jenes der ausländischen Staatsangehörigen 37,8 Jahre.",
+		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -26239,7 +26239,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:41",
+		"aktualisierungsdatum": "2023-03-22T08:09:09",
 		"id": 6648
 	},
 	{
@@ -38991,7 +38991,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "76 269 Logiernächte wurden im Januar 2023 in den Basler Hotelbetrieben gebucht, 50 728 bzw. 39,9% weniger als im Dezember. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 92,7% bzw. 36 694 Übernachtungen. Die inländischen Gäste buchten 30 060 Logiernächte (+44,1%), die Gäste aus dem Ausland 46 209 Übernachtungen (+146,9%).",
+		"lesehilfe": "85 906 Logiernächte wurden im Februar 2023 in den Basler Hotelbetrieben gebucht, 9 637 bzw. 12,6% mehr als im Januar. Im Vergleich zum Februar 2022 entspricht dies einer Zunahme um 74,0% bzw. 36 530 Übernachtungen. Die inländischen Gäste buchten 35 509 Logiernächte (+45,0%), die Gäste aus dem Ausland 50 397 Übernachtungen (+102,5%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -39017,7 +39017,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-24T08:08:07",
+		"aktualisierungsdatum": "2023-03-22T08:09:01",
 		"id": 7516
 	},
 	{
@@ -39028,8 +39028,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei rund 30%.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 35%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -39055,7 +39055,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-24T08:08:07",
+		"aktualisierungsdatum": "2023-03-22T08:09:02",
 		"id": 7517
 	},
 	{
@@ -40900,7 +40900,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-21T08:22:07",
+		"aktualisierungsdatum": "2023-03-22T08:09:05",
 		"id": 7680
 	},
 	{
@@ -44297,43 +44297,41 @@
 		"id": 7917
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7918,
+		"chart-id": 7918,
+		"filter": "",
+		"parentId": "7680",
+		"children": [],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07918",
-		"kuerzelKunde": "4.04",
-		"description": "Wohnungen nach Belegungsart",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 279 Mietwohnungen, 168 selbstbewohnte Eigentümerwohnungen und 104 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
+		"description": "Wohnungen nach Belegungsart",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07918",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "4.04",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
-		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
-		"template": "template001_print",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_004",
-		"parentId": 7680,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7918,
-		"chart-id": 7918,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-22T08:09:06",
 		"id": 7918
 	},
 	{
@@ -60085,44 +60083,44 @@
 		"id": 8553
 	},
 	{
+		"template": "dotplot_print",
+		"data-id": 8554,
+		"chart-id": 8554,
+		"filter": "",
+		"parentId": "4834",
+		"children": [],
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
-		"kuerzel": "I.09.1.08554",
-		"kuerzelKunde": "2-08",
-		"description": "Wohnfläche pro Kopf",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"description": "Wohnfläche pro Kopf",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08554",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "2-08",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
-		"template": "dotplot_print",
+		"orderKey": "02_02_00_00_00_208",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_02_00_00_00_208",
-		"parentId": 4834,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8554,
-		"chart-id": 8554,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-22T08:09:03",
 		"id": 8554
 	},
 	{
@@ -62260,123 +62258,117 @@
 		"id": 8629
 	},
 	{
-		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08630",
-		"kuerzelKunde": "4.03",
-		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:27.2727",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In den beiden Wohnviertel Klybeck und Kleinhüningen sind die Dreizimmerwohnungen am häufigsten. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In diesem Wohnviertel sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
-		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_003",
-		"parentId": 8060,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8630,
 		"chart-id": 8630,
 		"filter": "",
+		"parentId": "8060",
+		"children": [],
+		"title": "Wohnungen nach Zimmerzahl",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "In den beiden Wohnvierteln Klybeck und Kleinhüningen kommen Dreizimmerwohnungen am häufigsten vor. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In Klybeck sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08630",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.03",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:04",
 		"id": 8630
 	},
 	{
-		"title": "Wohnungen nach Belegungsart",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08631",
-		"kuerzelKunde": "4.04",
-		"description": "Wohnungen nach Belegungsart",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2018: Klybeck 83,3%, Kleinhüningen 70,7%). Der Anteil an Genossenschaftswohnungen betrug 2018 13,8% (Klybeck) und 24,0% (Kleinh.), was über dem Wert für die Stadt Basel (10,5%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
-		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_004",
-		"parentId": 8061,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8631,
 		"chart-id": 8631,
 		"filter": "",
-		"id": 8631
-	},
-	{
-		"title": "Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08632",
-		"kuerzelKunde": "4.02",
-		"description": "Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"parentId": "8061",
+		"children": [],
+		"title": "Wohnungen nach Belegungsart",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2022: Klybeck 83,4%, Kleinhüningen 71,7%). Der Anteil an Genossenschaftswohnungen betrug 2022 13,6% (Klybeck) und 22,4% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,6%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
+		"description": "Wohnungen nach Belegungsart",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08631",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.04",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen ist die beanspruchte Wohnfläche pro Person deutlich geringer als im städtischen Durchschnitt.",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
-		"template": "line001_print",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_002",
-		"parentId": 8062,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-03-22T08:09:05",
+		"id": 8631
+	},
+	{
+		"template": "line001_print",
 		"data-id": 8632,
 		"chart-id": 8632,
 		"filter": "",
+		"parentId": "8062",
+		"children": [],
+		"title": "Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen ist die beanspruchte Wohnfläche pro Person deutlich geringer als im städtischen Durchschnitt.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08632",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.02",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:04",
 		"id": 8632
 	},
 	{
@@ -62458,163 +62450,155 @@
 		"id": 8634
 	},
 	{
-		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08635",
-		"kuerzelKunde": "4.07",
-		"description": "Anteil Einfamilienhäuser",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Einfamilienhausanteil liegt unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering.",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Werte von 2011 und 2012 beruhen auf der jährlichen Fortschreibung der Volkszählung 2000. Ab 2013 stammen die Daten aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"template": "line001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 8065,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8635,
 		"chart-id": 8635,
 		"filter": "",
-		"id": 8635
-	},
-	{
-		"title": "Umgebaute Wohnungen",
-		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08636",
-		"kuerzelKunde": "4.08",
-		"description": "Umgebaute Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. Vorher hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
-		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
-		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_008",
-		"parentId": 8066,
+		"parentId": "8065",
 		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8636,
-		"chart-id": 8636,
-		"filter": "",
-		"id": 8636
-	},
-	{
-		"title": "Nettowohnungsproduktion",
+		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08637",
-		"kuerzelKunde": "4.09",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:28.2828",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005 und 2011 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Bürogebäude ein Wohngebäude mit 80 Wohnungen.",
-		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
-		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_009",
-		"parentId": 8067,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8637,
-		"chart-id": 8637,
-		"filter": "",
-		"id": 8637
-	},
-	{
-		"title": "Genossenschaftswohnungen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.08638",
-		"kuerzelKunde": "4.10",
-		"description": "Genossenschaftswohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen signifikant höher als im Wohnviertel Klybeck.",
-		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
-		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_010",
-		"parentId": 8068,
-		"children": [],
-		"renderLink": [],
+		"lesehilfe": "Der Einfamilienhausanteil liegt unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering.",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Werte von 2011 und 2012 beruhen auf der jährlichen Fortschreibung der Volkszählung 2000. Ab 2013 stammen die Daten aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"description": "Anteil Einfamilienhäuser",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08635",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.07",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:06",
+		"id": 8635
+	},
+	{
+		"template": "template001_print",
+		"data-id": 8636,
+		"chart-id": 8636,
+		"filter": "",
+		"parentId": "8066",
+		"children": [],
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "2022 enstanden 157 zusätzliche Wohnungen durch die Umnutzung eines Hotels und von Schulungsräumen. 2019 enstanden 80 zusätzliche Wohnungen durch die Umnutzung eines Bürogebäudes. In den anderen Jahren hat sich der Wohnungsbestand durch Umbauten relativ wenig verändert.",
+		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Umgebaute Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08636",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.08",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:07",
+		"id": 8636
+	},
+	{
+		"template": "template001_print",
+		"data-id": 8637,
+		"chart-id": 8637,
+		"filter": "",
+		"parentId": "8067",
+		"children": [],
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 und 157 Wohnungen.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08637",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "0",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:03",
+		"id": 8637
+	},
+	{
+		"template": "template001_print",
 		"data-id": 8638,
 		"chart-id": 8638,
 		"filter": "",
+		"parentId": "8068",
+		"children": [],
+		"title": "Genossenschaftswohnungen",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen signifikant höher als im Wohnviertel Klybeck.",
+		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Genossenschaftswohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08638",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+		"kuerzelKunde": "4.10",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_010",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-22T08:09:07",
 		"id": 8638
 	},
 	{
@@ -65509,10 +65493,10 @@
 		"children": [],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -65530,12 +65514,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_311",
+		"orderKey": "03_03_00_00_00_311",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:27",
+		"aktualisierungsdatum": "2023-03-22T08:09:09",
 		"id": 8903
 	},
 	{
@@ -66042,44 +66026,42 @@
 		"id": 8918
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8919,
+		"chart-id": 8919,
+		"filter": "",
+		"parentId": "4140",
+		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"kuerzel": "I.09.1.08919",
-		"kuerzelKunde": "NL6",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:17.1717",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.08919",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL6",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
-		"template": "line001_print",
+		"orderKey": "04_01_00_00_00_406",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_01_00_00_00_406",
-		"parentId": 4140,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8919,
-		"chart-id": 8919,
-		"filter": "",
+		"aktualisierungsdatum": "2023-03-22T08:09:10",
 		"id": 8919
 	},
 	{
@@ -76638,7 +76620,7 @@
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 113 620 im Jahr 2021 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,5% auf 7 081 bzw. +9,6% auf 19 664), am geringsten bei den Einzimmerwohnungen (+4,7% auf 11 986).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 115 004 im Jahr 2022 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+12,3% auf 7 136 bzw. +11,4% auf 27 557), am geringsten bei den Einzimmerwohnungen (+4,7% auf 12 267).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -76664,7 +76646,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:23",
+		"aktualisierungsdatum": "2023-03-22T08:09:08",
 		"id": 9440
 	},
 	{
@@ -76676,7 +76658,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -76702,7 +76684,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:23",
+		"aktualisierungsdatum": "2023-03-22T08:09:08",
 		"id": 9441
 	},
 	{
