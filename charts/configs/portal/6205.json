@@ -73,11 +73,11 @@
         ],
         [
           "2012",
-          164
+          162
         ],
         [
           "2013",
-          165
+          164
         ],
         [
           "2014",
@@ -85,27 +85,27 @@
         ],
         [
           "2015",
-          171
+          172
         ],
         [
           "2016",
-          183
+          185
         ],
         [
           "2017",
-          194
+          193
         ],
         [
           "2018",
-          198
+          200
         ],
         [
           "2019",
-          199
+          201
         ],
         [
           "2020",
-          189
+          195
         ]
       ],
       "name": "Nominales BIP BS",
@@ -351,7 +351,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 17.11.2022"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 23.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

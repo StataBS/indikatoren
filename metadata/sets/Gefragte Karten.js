@@ -168,8 +168,8 @@ var indikatorensetData = [
 			6389
 		],
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"aktualisierungsdatum": "2023-03-23T08:27:47",
 		"id": 6377
 	},
 	{
@@ -641,8 +641,8 @@ var indikatorensetData = [
 		"parentId": "6377",
 		"children": [],
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -668,7 +668,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:36",
+		"aktualisierungsdatum": "2023-03-23T08:27:52",
 		"id": 6389
 	},
 	{
