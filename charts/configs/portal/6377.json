@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Gebäude pro Hektar",
+      "name": "Gebäude pro Hektare",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,47 +6569,47 @@
       "data": [
         [
           1,
-          13.44
+          13.47
         ],
         [
           2,
-          6.07
+          6.04
         ],
         [
           3,
-          13
+          13.03
         ],
         [
           4,
-          9.69
+          9.74
         ],
         [
           5,
-          4.01
+          4.03
         ],
         [
           6,
-          12.33
+          12.34
         ],
         [
           7,
-          8.1
+          8.09
         ],
         [
           8,
-          16.39
+          16.41
         ],
         [
           9,
-          20.01
+          20.11
         ],
         [
           10,
-          13.29
+          13.3
         ],
         [
           11,
-          6.76
+          6.8
         ],
         [
           12,
@@ -6625,31 +6625,31 @@
         ],
         [
           15,
-          5.14
+          5.15
         ],
         [
           16,
-          4.92
+          4.96
         ],
         [
           17,
-          19.28
+          19.31
         ],
         [
           18,
-          4.71
+          4.74
         ],
         [
           19,
-          1.26
+          1.29
         ],
         [
           20,
-          3.87
+          3.9
         ],
         [
           30,
-          1.43
+          1.45
         ]
       ]
     },
@@ -6660,47 +6660,47 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          507
+          508
         ],
         [
           "Vorstädte",
-          547
+          545
         ],
         [
           "Am Ring",
-          1188
+          1191
         ],
         [
           "Breite",
-          665
+          668
         ],
         [
           "St. Alban",
-          1196
+          1201
         ],
         [
           "Gundeldingen",
-          1436
+          1437
         ],
         [
           "Bruderholz",
-          2097
+          2096
         ],
         [
           "Bachletten",
-          2507
+          2510
         ],
         [
           "Gotthelf",
-          975
+          980
         ],
         [
           "Iselin",
-          1451
+          1452
         ],
         [
           "St. Johann",
-          1524
+          1533
         ],
         [
           "Altstadt Kleinbasel",
@@ -6716,19 +6716,19 @@
         ],
         [
           "Hirzbrunnen",
-          1593
+          1595
         ],
         [
           "Rosental",
-          312
+          314
         ],
         [
           "Matthäus",
-          1148
+          1150
         ],
         [
           "Klybeck",
-          433
+          436
         ],
         [
           "Kleinhüningen",
@@ -6736,11 +6736,11 @@
         ],
         [
           "Riehen",
-          4199
+          4239
         ],
         [
           "Bettingen",
-          319
+          322
         ]
       ],
       "name": "Anzahl Gebäude"
@@ -7312,7 +7312,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "credits": {
@@ -7328,7 +7328,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 23.3.2023"
   },
   "colorAxis": {
     "min": 0,

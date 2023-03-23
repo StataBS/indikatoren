@@ -14136,7 +14136,7 @@ var indikatoren = [
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark. Danach war das Wachstum moderat und in den Jahren vor der COVID-19-Pandemie schliesslich wieder dynamischer. Die Staatsausgaben des Kantons Basel-Stadt erhöhten sich 2020 wieder etwas, nachdem sie seit 2017 leicht zurückgegangen waren.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg seit 1995 recht kontinuierlich, teilweise stark, insgesamt um rund 95%. Die Staatsausgaben liegen 2020 ca. 49% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -14163,7 +14163,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-17T08:54:22",
+		"aktualisierungsdatum": "2023-03-23T08:27:41",
 		"id": 6205
 	},
 	{
@@ -14750,8 +14750,8 @@ var indikatoren = [
 			6389
 		],
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -14778,7 +14778,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"aktualisierungsdatum": "2023-03-23T08:27:47",
 		"id": 6377
 	},
 	{
@@ -24639,7 +24639,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:55",
+		"aktualisierungsdatum": "2023-03-23T08:27:11",
 		"id": 7515
 	},
 	{
@@ -28531,8 +28531,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Im Januar 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in siebzehn Wohnvierteln und in Bettingen. In zwei Wohnvierteln sowie in der Gemeinde Riehen sank sie.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Im Februar 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln und in den Gemeinden Riehen und Bettingen. In 13 Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -28559,7 +28559,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:55",
+		"aktualisierungsdatum": "2023-03-23T08:27:19",
 		"id": 7763
 	},
 	{
@@ -36968,7 +36968,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:04",
+		"aktualisierungsdatum": "2023-03-23T08:27:25",
 		"id": 8995
 	},
 	{
@@ -37138,7 +37138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:04",
+		"aktualisierungsdatum": "2023-03-23T08:27:30",
 		"id": 9022
 	},
 	{
@@ -37176,7 +37176,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:05",
+		"aktualisierungsdatum": "2023-03-23T08:27:36",
 		"id": 9023
 	},
 	{
