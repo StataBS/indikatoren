@@ -5,73 +5,6 @@
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
-          0.008
-        ],
-        [
-          "Baugewerbe",
-          0.055
-        ],
-        [
-          "Handel, Reparatur",
-          0.006
-        ],
-        [
-          "Verkehr, Lagerei, Kommunikation",
-          0.004
-        ],
-        [
-          "Gastgewerbe",
-          0.013
-        ],
-        [
-          "IT-Dienstleistungen",
-          0.02
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.001
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.004
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.01
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.057
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.003
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.002
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.004
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.03
-        ],
-        [
-          "Total",
-          0.012
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "data": [
-        [
-          "Industrie (inkl. Chemie, Pharma)",
           0.005
         ],
         [
@@ -88,11 +21,11 @@
         ],
         [
           "Gastgewerbe",
-          0.006
+          0.008
         ],
         [
           "IT-Dienstleistungen",
-          0.016
+          0.015
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -108,7 +41,7 @@
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.058
+          0.06
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -124,18 +57,18 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.019
+          0.02
         ],
         [
           "Total",
-          0.008
+          0.009
         ]
       ],
       "name": "2020",
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
@@ -147,7 +80,7 @@
         ],
         [
           "Handel, Reparatur",
-          0.004
+          0.005
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
@@ -155,11 +88,11 @@
         ],
         [
           "Gastgewerbe",
-          0.012
+          0.017
         ],
         [
           "IT-Dienstleistungen",
-          0.011
+          0.01
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -171,11 +104,11 @@
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.01
+          0.011
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.059
+          0.061
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -191,14 +124,81 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.018
+          0.019
         ],
         [
           "Total",
-          0.008
+          0.009
         ]
       ],
       "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "Industrie (inkl. Chemie, Pharma)",
+          0.005
+        ],
+        [
+          "Baugewerbe",
+          0.029
+        ],
+        [
+          "Handel, Reparatur",
+          0.007
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.003
+        ],
+        [
+          "Gastgewerbe",
+          0.022
+        ],
+        [
+          "IT-Dienstleistungen",
+          0.009
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.003
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.017
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.068
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.003
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.002
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.005
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.026
+        ],
+        [
+          "Total",
+          0.01
+        ]
+      ],
+      "name": "2022",
       "turboThreshold": 0
     }
   ],
@@ -345,7 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2023"
   },
   "tooltip": {
     "pointFormatter": function(){

@@ -328,6 +328,10 @@
         [
           "2021",
           278
+        ],
+        [
+          "2022",
+          281
         ]
       ],
       "name": "Güterschiffe",
@@ -661,6 +665,10 @@
         [
           "2021",
           163.771929
+        ],
+        [
+          "2022",
+          159.325
         ]
       ],
       "name": "Tragfähigkeit in Tausend Tonnen (rechte Skala)",
@@ -757,7 +765,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Güterschiffe"
+    "text": "Güterschiffe Rheinschifffahrt"
   },
   "subtitle": {
     "text": "unter Schweizer Flagge",
@@ -833,7 +841,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2022"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2023"
   },
   "tooltip": {
     "shared": false,
