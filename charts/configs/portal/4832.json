@@ -9,15 +9,15 @@
         ],
         [
           "Altstadt Kleinbasel",
-          0.08
+          0.079
         ],
         [
           "Klybeck",
-          0.124
+          0.125
         ],
         [
           "Rosental",
-          0.157
+          0.156
         ],
         [
           "Clara",
@@ -33,7 +33,7 @@
         ],
         [
           "Vorstädte",
-          0.196
+          0.197
         ],
         [
           "Kleinhüningen",
@@ -53,15 +53,15 @@
         ],
         [
           "St. Alban",
-          0.324
+          0.317
         ],
         [
           "Gotthelf",
-          0.324
+          0.327
         ],
         [
           "Breite",
-          0.362
+          0.361
         ],
         [
           "Iselin",
@@ -77,7 +77,7 @@
         ],
         [
           "Bruderholz",
-          0.711
+          0.71
         ],
         [
           "Riehen",
@@ -85,7 +85,7 @@
         ],
         [
           "Bettingen",
-          0.902
+          0.9
         ]
       ],
       "name": "Anteil Grünflächen",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2022"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2023"
   },
   "legend": {
     "enabled": false,

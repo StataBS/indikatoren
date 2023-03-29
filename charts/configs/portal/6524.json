@@ -18,6 +18,10 @@
         [
           "2018",
           5124
+        ],
+        [
+          "2020",
+          5261
         ]
       ],
       "name": "Bis 29 Jahre",
@@ -41,6 +45,10 @@
         [
           "2018",
           6981
+        ],
+        [
+          "2020",
+          7030
         ]
       ],
       "name": "30-49 Jahre",
@@ -64,6 +72,10 @@
         [
           "2018",
           7529
+        ],
+        [
+          "2020",
+          7564
         ]
       ],
       "name": "50 Jahre u.m.",
@@ -201,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

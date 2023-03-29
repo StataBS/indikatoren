@@ -4,22 +4,6 @@
       "color": "#FF8028",
       "data": [
         [
-          "2012-01",
-          12
-        ],
-        [
-          "2012-02",
-          12
-        ],
-        [
-          "2012-03",
-          16
-        ],
-        [
-          "2012-04",
-          18
-        ],
-        [
           "2013-01",
           15
         ],
@@ -162,6 +146,22 @@
         [
           "2021-04",
           12
+        ],
+        [
+          "2022-01",
+          21
+        ],
+        [
+          "2022-02",
+          9
+        ],
+        [
+          "2022-03",
+          17
+        ],
+        [
+          "2022-04",
+          12
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,22 +170,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2012-01",
-          704
-        ],
-        [
-          "2012-02",
-          620
-        ],
-        [
-          "2012-03",
-          670
-        ],
-        [
-          "2012-04",
-          609
-        ],
         [
           "2013-01",
           700
@@ -329,6 +313,22 @@
         [
           "2021-04",
           677
+        ],
+        [
+          "2022-01",
+          935
+        ],
+        [
+          "2022-02",
+          774
+        ],
+        [
+          "2022-03",
+          757
+        ],
+        [
+          "2022-04",
+          893
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien, IT, sonst. DL",
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
