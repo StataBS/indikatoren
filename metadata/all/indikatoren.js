@@ -36,7 +36,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:55",
+		"aktualisierungsdatum": "2023-03-30T08:32:31",
 		"id": 2151
 	},
 	{
@@ -76,7 +76,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:52",
+		"aktualisierungsdatum": "2023-03-30T08:32:28",
 		"id": 2152
 	},
 	{
@@ -116,7 +116,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:55",
+		"aktualisierungsdatum": "2023-03-30T08:32:31",
 		"id": 2153
 	},
 	{
@@ -156,7 +156,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:56",
+		"aktualisierungsdatum": "2023-03-30T08:32:31",
 		"id": 2161
 	},
 	{
@@ -196,7 +196,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:56",
+		"aktualisierungsdatum": "2023-03-30T08:32:32",
 		"id": 2163
 	},
 	{
@@ -236,7 +236,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:47",
+		"aktualisierungsdatum": "2023-03-30T08:32:23",
 		"id": 2173
 	},
 	{
@@ -276,7 +276,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:35",
+		"aktualisierungsdatum": "2023-03-30T08:32:12",
 		"id": 2400
 	},
 	{
@@ -317,7 +317,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:36",
+		"aktualisierungsdatum": "2023-03-30T08:32:13",
 		"id": 2401
 	},
 	{
@@ -358,7 +358,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:37",
+		"aktualisierungsdatum": "2023-03-30T08:32:13",
 		"id": 2402
 	},
 	{
@@ -398,7 +398,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:37",
+		"aktualisierungsdatum": "2023-03-30T08:32:14",
 		"id": 2404
 	},
 	{
@@ -438,7 +438,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:38",
+		"aktualisierungsdatum": "2023-03-30T08:32:14",
 		"id": 2405
 	},
 	{
@@ -478,7 +478,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:43",
+		"aktualisierungsdatum": "2023-03-30T08:32:19",
 		"id": 2423
 	},
 	{
@@ -520,7 +520,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:44",
+		"aktualisierungsdatum": "2023-03-30T08:32:20",
 		"id": 2424
 	},
 	{
@@ -560,7 +560,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:44",
+		"aktualisierungsdatum": "2023-03-30T08:32:20",
 		"id": 2426
 	},
 	{
@@ -600,7 +600,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:45",
+		"aktualisierungsdatum": "2023-03-30T08:32:21",
 		"id": 2428
 	},
 	{
@@ -640,7 +640,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:45",
+		"aktualisierungsdatum": "2023-03-30T08:32:21",
 		"id": 2429
 	},
 	{
@@ -681,7 +681,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:43",
+		"aktualisierungsdatum": "2023-03-30T08:32:18",
 		"id": 2459
 	},
 	{
@@ -721,7 +721,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:58",
+		"aktualisierungsdatum": "2023-03-30T08:32:33",
 		"id": 2461
 	},
 	{
@@ -761,7 +761,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:47",
+		"aktualisierungsdatum": "2023-03-30T08:32:23",
 		"id": 2462
 	},
 	{
@@ -801,7 +801,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:48",
+		"aktualisierungsdatum": "2023-03-30T08:32:24",
 		"id": 2463
 	},
 	{
@@ -841,7 +841,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:48",
+		"aktualisierungsdatum": "2023-03-30T08:32:24",
 		"id": 2464
 	},
 	{
@@ -881,7 +881,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:49",
+		"aktualisierungsdatum": "2023-03-30T08:32:25",
 		"id": 2465
 	},
 	{
@@ -921,7 +921,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:49",
+		"aktualisierungsdatum": "2023-03-30T08:32:25",
 		"id": 2466
 	},
 	{
@@ -1041,7 +1041,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:39",
+		"aktualisierungsdatum": "2023-03-30T08:32:16",
 		"id": 2547
 	},
 	{
@@ -1161,7 +1161,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:51",
+		"aktualisierungsdatum": "2023-03-30T08:32:26",
 		"id": 3027
 	},
 	{
@@ -1201,7 +1201,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:51",
+		"aktualisierungsdatum": "2023-03-30T08:32:27",
 		"id": 3028
 	},
 	{
@@ -1241,7 +1241,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:52",
+		"aktualisierungsdatum": "2023-03-30T08:32:27",
 		"id": 3029
 	},
 	{
@@ -1281,7 +1281,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:52",
+		"aktualisierungsdatum": "2023-03-30T08:32:28",
 		"id": 3030
 	},
 	{
@@ -1321,7 +1321,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:53",
+		"aktualisierungsdatum": "2023-03-30T08:32:29",
 		"id": 3031
 	},
 	{
@@ -1361,7 +1361,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:53",
+		"aktualisierungsdatum": "2023-03-30T08:32:29",
 		"id": 3032
 	},
 	{
@@ -7543,7 +7543,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:10",
+		"aktualisierungsdatum": "2023-03-30T08:32:45",
 		"id": 4832
 	},
 	{
@@ -21972,7 +21972,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:38",
+		"aktualisierungsdatum": "2023-03-30T08:32:15",
 		"id": 6448
 	},
 	{
@@ -22012,7 +22012,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:39",
+		"aktualisierungsdatum": "2023-03-30T08:32:15",
 		"id": 6449
 	},
 	{
@@ -22052,7 +22052,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:57",
+		"aktualisierungsdatum": "2023-03-30T08:32:32",
 		"id": 6450
 	},
 	{
@@ -22092,7 +22092,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:57",
+		"aktualisierungsdatum": "2023-03-30T08:32:33",
 		"id": 6451
 	},
 	{
@@ -22132,7 +22132,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:54",
+		"aktualisierungsdatum": "2023-03-30T08:32:30",
 		"id": 6452
 	},
 	{
@@ -22172,7 +22172,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:54",
+		"aktualisierungsdatum": "2023-03-30T08:32:30",
 		"id": 6453
 	},
 	{
@@ -22212,7 +22212,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:41",
+		"aktualisierungsdatum": "2023-03-30T08:32:17",
 		"id": 6454
 	},
 	{
@@ -22252,7 +22252,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:42",
+		"aktualisierungsdatum": "2023-03-30T08:32:18",
 		"id": 6455
 	},
 	{
@@ -22417,7 +22417,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:32",
+		"aktualisierungsdatum": "2023-03-30T08:32:10",
 		"id": 6460
 	},
 	{
@@ -22458,7 +22458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:33",
+		"aktualisierungsdatum": "2023-03-30T08:32:11",
 		"id": 6461
 	},
 	{
@@ -22498,7 +22498,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:34",
+		"aktualisierungsdatum": "2023-03-30T08:32:11",
 		"id": 6462
 	},
 	{
@@ -22538,7 +22538,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:34",
+		"aktualisierungsdatum": "2023-03-30T08:32:12",
 		"id": 6463
 	},
 	{
@@ -23913,7 +23913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:46",
+		"aktualisierungsdatum": "2023-03-30T08:32:22",
 		"id": 6505
 	},
 	{
@@ -23953,7 +23953,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:46",
+		"aktualisierungsdatum": "2023-03-30T08:32:22",
 		"id": 6506
 	},
 	{
@@ -24434,7 +24434,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:50",
+		"aktualisierungsdatum": "2023-03-30T08:32:25",
 		"id": 6520
 	},
 	{
@@ -24474,7 +24474,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:50",
+		"aktualisierungsdatum": "2023-03-30T08:32:26",
 		"id": 6521
 	},
 	{
@@ -24594,7 +24594,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:58",
+		"aktualisierungsdatum": "2023-03-30T08:32:34",
 		"id": 6524
 	},
 	{
@@ -24754,7 +24754,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:59",
+		"aktualisierungsdatum": "2023-03-30T08:32:34",
 		"id": 6528
 	},
 	{
@@ -24834,7 +24834,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:40",
+		"aktualisierungsdatum": "2023-03-30T08:32:16",
 		"id": 6531
 	},
 	{
@@ -31032,7 +31032,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:59",
+		"aktualisierungsdatum": "2023-03-30T08:32:35",
 		"id": 6893
 	},
 	{
@@ -31070,7 +31070,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:00",
+		"aktualisierungsdatum": "2023-03-30T08:32:35",
 		"id": 6894
 	},
 	{
@@ -31108,7 +31108,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:00",
+		"aktualisierungsdatum": "2023-03-30T08:32:36",
 		"id": 6895
 	},
 	{
@@ -31828,7 +31828,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:01",
+		"aktualisierungsdatum": "2023-03-30T08:32:36",
 		"id": 6915
 	},
 	{
@@ -31866,7 +31866,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:01",
+		"aktualisierungsdatum": "2023-03-30T08:32:36",
 		"id": 6916
 	},
 	{
@@ -31904,7 +31904,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:01",
+		"aktualisierungsdatum": "2023-03-30T08:32:37",
 		"id": 6917
 	},
 	{
@@ -31942,7 +31942,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:02",
+		"aktualisierungsdatum": "2023-03-30T08:32:37",
 		"id": 6918
 	},
 	{
@@ -31980,7 +31980,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:03",
+		"aktualisierungsdatum": "2023-03-30T08:32:38",
 		"id": 6919
 	},
 	{
@@ -32018,7 +32018,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:03",
+		"aktualisierungsdatum": "2023-03-30T08:32:38",
 		"id": 6920
 	},
 	{
@@ -32056,7 +32056,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:04",
+		"aktualisierungsdatum": "2023-03-30T08:32:39",
 		"id": 6921
 	},
 	{
@@ -32094,7 +32094,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:04",
+		"aktualisierungsdatum": "2023-03-30T08:32:39",
 		"id": 6922
 	},
 	{
@@ -32132,7 +32132,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:05",
+		"aktualisierungsdatum": "2023-03-30T08:32:40",
 		"id": 6923
 	},
 	{
@@ -32170,7 +32170,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:05",
+		"aktualisierungsdatum": "2023-03-30T08:32:40",
 		"id": 6924
 	},
 	{
@@ -32208,7 +32208,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:06",
+		"aktualisierungsdatum": "2023-03-30T08:32:41",
 		"id": 6925
 	},
 	{
@@ -32246,7 +32246,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:06",
+		"aktualisierungsdatum": "2023-03-30T08:32:41",
 		"id": 6926
 	},
 	{
@@ -32284,7 +32284,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:07",
+		"aktualisierungsdatum": "2023-03-30T08:32:42",
 		"id": 6927
 	},
 	{
@@ -32322,7 +32322,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:07",
+		"aktualisierungsdatum": "2023-03-30T08:32:42",
 		"id": 6928
 	},
 	{
@@ -32360,7 +32360,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:08",
+		"aktualisierungsdatum": "2023-03-30T08:32:43",
 		"id": 6929
 	},
 	{
@@ -32398,7 +32398,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:08",
+		"aktualisierungsdatum": "2023-03-30T08:32:43",
 		"id": 6930
 	},
 	{
@@ -32437,7 +32437,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:09",
+		"aktualisierungsdatum": "2023-03-30T08:32:44",
 		"id": 6931
 	},
 	{
@@ -32476,7 +32476,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:04:09",
+		"aktualisierungsdatum": "2023-03-30T08:32:44",
 		"id": 6932
 	},
 	{
@@ -68559,7 +68559,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:25",
+		"aktualisierungsdatum": "2023-03-30T08:32:08",
 		"id": 8995
 	},
 	{
@@ -68931,7 +68931,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:30",
+		"aktualisierungsdatum": "2023-03-30T08:32:09",
 		"id": 9022
 	},
 	{
@@ -68969,7 +68969,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:36",
+		"aktualisierungsdatum": "2023-03-30T08:32:10",
 		"id": 9023
 	},
 	{
@@ -79251,7 +79251,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-29T10:03:31",
+		"aktualisierungsdatum": "2023-03-30T08:32:10",
 		"id": 9609
 	},
 	{
