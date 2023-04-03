@@ -38872,7 +38872,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Im Lauf des Jahres 2022 hat sich die Jahresteuerung des Basler Index der Konsumentenpreise auf relativ hohem Niveau stabilisiert. Im neuen Jahr stieg der Wert nochmals etwas, auf zuletzt 3,2% im Februar 2023. Für die höhere Jahresteuerung sind in erster Linie gestiegene Preise in den Bereichen Energie, Nahrungsmittel und Verkehr verantwortlich.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie im März wieder auf 2,8% gesunken.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Februar 2023 und Februar 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -38900,7 +38900,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-06T09:25:02",
+		"aktualisierungsdatum": "2023-04-03T08:40:35",
 		"id": 7512
 	},
 	{
@@ -38939,7 +38939,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-06T09:25:02",
+		"aktualisierungsdatum": "2023-04-03T08:40:35",
 		"id": 7513
 	},
 	{
