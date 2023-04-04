@@ -5,19 +5,19 @@
       "data": [
         [
           "18-24 Jahre",
-          31.5
+          25.1
         ],
         [
           "25-34 Jahre",
-          12.7
+          13.3
         ],
         [
           "35-44 Jahre",
-          18.9
+          16.3
         ],
         [
           "45-59 Jahre",
-          13.5
+          13.1
         ],
         [
           "60 Jahre u.m.",
@@ -32,23 +32,23 @@
       "data": [
         [
           "18-24 Jahre",
-          6.5
+          6.1
         ],
         [
           "25-34 Jahre",
-          4
-        ],
-        [
-          "35-44 Jahre",
-          5.8
-        ],
-        [
-          "45-59 Jahre",
           5.4
         ],
         [
+          "35-44 Jahre",
+          7.6
+        ],
+        [
+          "45-59 Jahre",
+          5.5
+        ],
+        [
           "60 Jahre u.m.",
-          1.6
+          2.2
         ]
       ],
       "name": "Schweizerinnen",
@@ -59,23 +59,23 @@
       "data": [
         [
           "18-24 Jahre",
-          48.3
+          51.2
         ],
         [
           "25-34 Jahre",
-          23.5
+          23.2
         ],
         [
           "35-44 Jahre",
-          20.7
+          19.4
         ],
         [
           "45-59 Jahre",
-          14.5
+          16
         ],
         [
           "60 Jahre u.m.",
-          5.4
+          8.5
         ]
       ],
       "name": "Ausländer",
@@ -86,23 +86,23 @@
       "data": [
         [
           "18-24 Jahre",
-          12.2
+          10.3
         ],
         [
           "25-34 Jahre",
-          6.2
+          5.8
         ],
         [
           "35-44 Jahre",
-          7
+          7.6
         ],
         [
           "45-59 Jahre",
-          4.6
+          5.8
         ],
         [
           "60 Jahre u.m.",
-          1.8
+          2.1
         ]
       ],
       "name": "Ausländerinnen",
@@ -185,7 +185,7 @@
     "text": "Beschuldigte Erwachsene"
   },
   "subtitle": {
-    "text": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
+    "text": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
