@@ -54,6 +54,10 @@
         [
           2021,
           7.8
+        ],
+        [
+          2022,
+          7.7
         ]
       ],
       "name": "Schweiz"
@@ -112,6 +116,10 @@
         [
           2021,
           6.9
+        ],
+        [
+          2022,
+          4.7
         ]
       ],
       "name": "Deutschland"
@@ -170,6 +178,10 @@
         [
           2021,
           9.2
+        ],
+        [
+          2022,
+          11.1
         ]
       ],
       "name": "Italien"
@@ -228,6 +240,10 @@
         [
           2021,
           19.3
+        ],
+        [
+          2022,
+          19.8
         ]
       ],
       "name": "Türkei"
@@ -286,6 +302,10 @@
         [
           2021,
           7
+        ],
+        [
+          2022,
+          8.4
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -344,6 +364,10 @@
         [
           2021,
           13.2
+        ],
+        [
+          2022,
+          11.2
         ]
       ],
       "name": "EU-Ost"
@@ -402,6 +426,10 @@
         [
           2021,
           17.3
+        ],
+        [
+          2022,
+          16.7
         ]
       ],
       "name": "Balkan"
@@ -460,6 +488,10 @@
         [
           2021,
           20
+        ],
+        [
+          2022,
+          26.8
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -518,6 +550,10 @@
         [
           2021,
           82.1
+        ],
+        [
+          2022,
+          95.8
         ]
       ],
       "name": "Arabische Länder"
@@ -576,6 +612,10 @@
         [
           2021,
           40.3
+        ],
+        [
+          2022,
+          35
         ]
       ],
       "name": "Afrikanische Länder"
@@ -634,6 +674,10 @@
         [
           2021,
           10.6
+        ],
+        [
+          2022,
+          12.1
         ]
       ],
       "name": "Übrige Länder"
@@ -783,7 +827,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
   },
   "tooltip": {
     "shared": false,
