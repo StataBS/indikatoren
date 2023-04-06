@@ -24456,7 +24456,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Februar 2023 bei 3,1% und damit tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im März 2023 bei 3,0% und damit tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -24482,7 +24482,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:45",
+		"aktualisierungsdatum": "2023-04-06T08:06:22",
 		"id": 7510
 	},
 	{
@@ -24494,7 +24494,7 @@
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Februar 2023 liegt in Basel-Stadt die Zahl der gemeldeten offenen Stellen bei knapp über 2 000. Gut zwei Drittel davon sind meldepflichtig.",
+		"lesehilfe": "Ende März 2023 beträgt die Zahl der offenen Stellen 1840. Gut zwei Drittel davon sind meldepflichtig.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -24520,7 +24520,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:45",
+		"aktualisierungsdatum": "2023-04-06T08:06:23",
 		"id": 7511
 	},
 	{
@@ -36783,7 +36783,7 @@
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Februar 2023 bei rund 3 100 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 16% wieder im Bereich der Jahre vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im März 2023 bei rund 3 000 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 15% wieder im Bereich der Jahre vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -36809,7 +36809,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:46",
+		"aktualisierungsdatum": "2023-04-06T08:06:24",
 		"id": 8980
 	},
 	{
@@ -36821,7 +36821,7 @@
 		"children": [],
 		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende Februar 2023 sind 338 Personen weniger arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Seit Mai 2021 liegt der Wert jeweils wieder tiefer als im Vorjahresmonat. Ende März 2023 sind 247 Personen weniger arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -36847,7 +36847,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:47",
+		"aktualisierungsdatum": "2023-04-06T08:06:24",
 		"id": 8981
 	},
 	{
@@ -36925,7 +36925,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:48",
+		"aktualisierungsdatum": "2023-04-06T08:06:25",
 		"id": 8992
 	},
 	{
@@ -36966,7 +36966,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:08",
+		"aktualisierungsdatum": "2023-04-06T08:06:25",
 		"id": 8995
 	},
 	{
@@ -37136,7 +37136,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:09",
+		"aktualisierungsdatum": "2023-04-06T08:06:25",
 		"id": 9022
 	},
 	{
@@ -37174,7 +37174,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:10",
+		"aktualisierungsdatum": "2023-04-06T08:06:26",
 		"id": 9023
 	},
 	{
