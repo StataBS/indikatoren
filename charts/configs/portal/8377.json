@@ -1,568 +1,101 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "index": 9,
-      "legendIndex": 0,
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#73B97C",
       "data": [
         [
-          "2003",
-          37121
+          2003,
+          29.4
         ],
         [
-          "2004",
-          37122
+          2004,
+          29.9
         ],
         [
-          "2005",
-          36874
+          2005,
+          30.4
         ],
         [
-          "2006",
-          36596
+          2006,
+          31.1
         ],
         [
-          "2007",
-          35821
+          2007,
+          31.3
         ],
         [
-          "2008",
-          35595
+          2008,
+          31.7
         ],
         [
-          "2009",
-          35876
+          2009,
+          32.5
         ],
         [
-          "2010",
-          36421
+          2010,
+          32.6
         ],
         [
-          "2011",
-          37378
+          2011,
+          33.4
         ],
         [
-          "2012",
-          38470
+          2012,
+          33.9
         ],
         [
-          "2013",
-          39659
+          2013,
+          34.6
         ],
         [
-          "2014",
-          39952
+          2014,
+          35
         ],
         [
-          "2015",
-          40481
+          2015,
+          35.3
         ],
         [
-          "2016",
-          41416
+          2016,
+          35.7
         ],
         [
-          "2017",
-          41830
+          2017,
+          36
         ],
         [
-          "2018",
-          43039
+          2018,
+          36.4
         ],
         [
-          "2019",
-          43102
+          2019,
+          36.6
         ],
         [
-          "2020",
-          43322
+          2020,
+          37
         ],
         [
-          "2021",
-          43067
+          2021,
+          36.9
         ],
         [
-          "2022",
-          42940
+          2022,
+          37.9
         ]
       ],
-      "name": "C",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#923F8D",
-      "index": 8,
-      "legendIndex": 1,
-      "data": [
-        [
-          "2003",
-          15204
-        ],
-        [
-          "2004",
-          15811
-        ],
-        [
-          "2005",
-          16117
-        ],
-        [
-          "2006",
-          16520
-        ],
-        [
-          "2007",
-          18142
-        ],
-        [
-          "2008",
-          19619
-        ],
-        [
-          "2009",
-          20532
-        ],
-        [
-          "2010",
-          21838
-        ],
-        [
-          "2011",
-          22527
-        ],
-        [
-          "2012",
-          22447
-        ],
-        [
-          "2013",
-          22818
-        ],
-        [
-          "2014",
-          23844
-        ],
-        [
-          "2015",
-          24490
-        ],
-        [
-          "2016",
-          25049
-        ],
-        [
-          "2017",
-          25309
-        ],
-        [
-          "2018",
-          25416
-        ],
-        [
-          "2019",
-          26218
-        ],
-        [
-          "2020",
-          27173
-        ],
-        [
-          "2021",
-          27219
-        ],
-        [
-          "2022",
-          28650
-        ]
-      ],
-      "name": "B",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#7F5F1A",
-      "index": 7,
-      "legendIndex": 2,
-      "data": [
-        [
-          "2003",
-          414
-        ],
-        [
-          "2004",
-          414
-        ],
-        [
-          "2005",
-          433
-        ],
-        [
-          "2006",
-          418
-        ],
-        [
-          "2007",
-          348
-        ],
-        [
-          "2008",
-          302
-        ],
-        [
-          "2009",
-          293
-        ],
-        [
-          "2010",
-          327
-        ],
-        [
-          "2011",
-          348
-        ],
-        [
-          "2012",
-          364
-        ],
-        [
-          "2013",
-          391
-        ],
-        [
-          "2014",
-          568
-        ],
-        [
-          "2015",
-          659
-        ],
-        [
-          "2016",
-          734
-        ],
-        [
-          "2017",
-          818
-        ],
-        [
-          "2018",
-          870
-        ],
-        [
-          "2019",
-          875
-        ],
-        [
-          "2020",
-          855
-        ],
-        [
-          "2021",
-          821
-        ],
-        [
-          "2022",
-          825
-        ]
-      ],
-      "name": "F",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#CD9C00",
-      "index": 6,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003",
-          1510
-        ],
-        [
-          "2004",
-          2078
-        ],
-        [
-          "2005",
-          2806
-        ],
-        [
-          "2006",
-          4022
-        ],
-        [
-          "2007",
-          3599
-        ],
-        [
-          "2008",
-          3545
-        ],
-        [
-          "2009",
-          3851
-        ],
-        [
-          "2010",
-          2434
-        ],
-        [
-          "2011",
-          2564
-        ],
-        [
-          "2012",
-          2753
-        ],
-        [
-          "2013",
-          3153
-        ],
-        [
-          "2014",
-          2984
-        ],
-        [
-          "2015",
-          2445
-        ],
-        [
-          "2016",
-          2007
-        ],
-        [
-          "2017",
-          2096
-        ],
-        [
-          "2018",
-          2069
-        ],
-        [
-          "2019",
-          2187
-        ],
-        [
-          "2020",
-          2181
-        ],
-        [
-          "2021",
-          2142
-        ],
-        [
-          "2022",
-          2210
-        ]
-      ],
-      "name": "L",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "index": 5,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2003",
-          490
-        ],
-        [
-          "2004",
-          386
-        ],
-        [
-          "2005",
-          258
-        ],
-        [
-          "2006",
-          204
-        ],
-        [
-          "2007",
-          175
-        ],
-        [
-          "2008",
-          262
-        ],
-        [
-          "2009",
-          295
-        ],
-        [
-          "2010",
-          281
-        ],
-        [
-          "2011",
-          388
-        ],
-        [
-          "2012",
-          517
-        ],
-        [
-          "2013",
-          534
-        ],
-        [
-          "2014",
-          356
-        ],
-        [
-          "2015",
-          425
-        ],
-        [
-          "2016",
-          448
-        ],
-        [
-          "2017",
-          399
-        ],
-        [
-          "2018",
-          333
-        ],
-        [
-          "2019",
-          272
-        ],
-        [
-          "2020",
-          214
-        ],
-        [
-          "2021",
-          189
-        ],
-        [
-          "2022",
-          217
-        ]
-      ],
-      "name": "N",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "index": 4,
-      "legendIndex": 5,
-      "data": [
-        [
-          "2003",
-          614
-        ],
-        [
-          "2004",
-          608
-        ],
-        [
-          "2005",
-          552
-        ],
-        [
-          "2006",
-          582
-        ],
-        [
-          "2007",
-          588
-        ],
-        [
-          "2008",
-          723
-        ],
-        [
-          "2009",
-          830
-        ],
-        [
-          "2010",
-          831
-        ],
-        [
-          "2011",
-          890
-        ],
-        [
-          "2012",
-          976
-        ],
-        [
-          "2013",
-          997
-        ],
-        [
-          "2014",
-          1075
-        ],
-        [
-          "2015",
-          1087
-        ],
-        [
-          "2016",
-          1154
-        ],
-        [
-          "2017",
-          1158
-        ],
-        [
-          "2018",
-          1204
-        ],
-        [
-          "2019",
-          661
-        ],
-        [
-          "2020",
-          950
-        ],
-        [
-          "2021",
-          996
-        ],
-        [
-          "2022",
-          2783
-        ]
-      ],
-      "name": "Übrige",
-      "turboThreshold": 0
+      "name": "Anteil Ausländer"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-    "tickInterval": 1
-  },
   "chart": {
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -573,37 +106,29 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+					this.credits.element.onclick = function () { };
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
-    "renderTo": "container-8377",
-    "marginBottom": 75,
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
+    "marginRight": 20,
+    "marginTop": 60,
+    "renderTo": "container-8377"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointPadding": 100,
-      "pointWidth": 10,
-      "stacking": "normal"
+      "marker": {
+        "enabled": false
+      }
     }
   },
   "title": {
@@ -613,7 +138,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Ausländische Bevölkerung nach Art der Bewilligung"
+    "text": "Anteil ausländische Bevölkerung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -624,7 +149,26 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 2
+  },
   "yAxis": {
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -639,24 +183,18 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     },
-    "tickAmount": 5
+    "max": 100
   },
   "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
     }
   },
   "credits": {
@@ -672,11 +210,44 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "8377"

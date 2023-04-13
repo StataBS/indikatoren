@@ -1,0 +1,289 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "visible": true,
+      "data": [
+        [
+          "1995",
+          36.9
+        ],
+        [
+          "1996",
+          37.3
+        ],
+        [
+          "1997",
+          37.4
+        ],
+        [
+          "1998",
+          37.8
+        ],
+        [
+          "1999",
+          38.3
+        ],
+        [
+          "2000",
+          38.9
+        ],
+        [
+          "2001",
+          39
+        ],
+        [
+          "2002",
+          39.7
+        ],
+        [
+          "2003",
+          40.4
+        ],
+        [
+          "2004",
+          41.3
+        ],
+        [
+          "2005",
+          41.8
+        ],
+        [
+          "2006",
+          42.1
+        ],
+        [
+          "2007",
+          42.5
+        ],
+        [
+          "2008",
+          42.9
+        ],
+        [
+          "2009",
+          43.5
+        ],
+        [
+          "2010",
+          43.9
+        ],
+        [
+          "2011",
+          44
+        ],
+        [
+          "2012",
+          44.9
+        ],
+        [
+          "2013",
+          45.4
+        ],
+        [
+          "2014",
+          44.6
+        ],
+        [
+          "2015",
+          46
+        ],
+        [
+          "2016",
+          46.2
+        ],
+        [
+          "2017",
+          46.6
+        ],
+        [
+          "2018",
+          47.2
+        ],
+        [
+          "2019",
+          47.4
+        ],
+        [
+          "2020",
+          47.7
+        ],
+        [
+          "2021",
+          48
+        ],
+        [
+          "2022",
+          48.7
+        ]
+      ],
+      "name": "Anteil Nicht-Stimmberechtigte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": -90
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "inverted": false,
+    "renderTo": "container-9740"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 10
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9740"
+  }
+}

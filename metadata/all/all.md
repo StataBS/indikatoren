@@ -1522,7 +1522,7 @@ id | visible | visibleInPortal | indikatorenset
 8372 | true | true | Wirtschaftsbericht BS_BL_JU
 8373 | true | true | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
-8377 | true | false | Nachhaltigkeit
+8377 | true | true | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
 8380 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 8381 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
@@ -2216,23 +2216,25 @@ id | visible | visibleInPortal | indikatorenset
 9653 | true | false | Energiestatistik (Print)
 9654 | true | false | Energiestatistik (Print)
 9655 | true | false | Energiestatistik (Print)
-9663 | true | false | RR_KPI
-9672 | true | false | RR_KPI
-9673 | true | false | RR_KPI
-9674 | true | false | RR_KPI
-9675 | true | false | RR_KPI
-9676 | true | false | RR_KPI
-9677 | true | false | RR_KPI
-9679 | true | false | RR_KPI
-9680 | true | false | RR_KPI
-9682 | true | false | RR_KPI
-9684 | true | false | RR_KPI
-9686 | true | false | RR_KPI
-9687 | true | false | RR_KPI
+9663 | true | false | Schluesselindikatoren
+9672 | true | false | Schluesselindikatoren
+9673 | true | false | Schluesselindikatoren
+9674 | true | false | Schluesselindikatoren
+9675 | true | false | Schluesselindikatoren
+9676 | true | false | Schluesselindikatoren
+9677 | true | false | Schluesselindikatoren
+9679 | true | false | Schluesselindikatoren
+9680 | true | false | Schluesselindikatoren
+9682 | true | false | Schluesselindikatoren
+9684 | true | false | Schluesselindikatoren
+9686 | true | false | Schluesselindikatoren
+9687 | true | false | Schluesselindikatoren
 9691 | true | true | Innenstadt-QuiZ
-9693 | true | false | RR_KPI
+9693 | true | false | Schluesselindikatoren
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
+9736 | true | true | Nachhaltigkeit
+9740 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

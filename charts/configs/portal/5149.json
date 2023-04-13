@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#3C3C3C",
-      "legendIndex": 2,
+      "color": "#8AB77D",
+      "zIndex": 1,
       "data": [
         [
           2008,
@@ -61,7 +61,70 @@
           10.2
         ]
       ],
-      "name": "Total"
+      "name": "Geburtenziffer"
+    },
+    {
+      "color": "#83522E",
+      "zIndex": 0,
+      "data": [
+        [
+          2008,
+          11.5
+        ],
+        [
+          2009,
+          11.4
+        ],
+        [
+          2010,
+          11.4
+        ],
+        [
+          2011,
+          10.6
+        ],
+        [
+          2012,
+          11.2
+        ],
+        [
+          2013,
+          10.7
+        ],
+        [
+          2014,
+          10.9
+        ],
+        [
+          2015,
+          11.1
+        ],
+        [
+          2016,
+          10.2
+        ],
+        [
+          2017,
+          10.8
+        ],
+        [
+          2018,
+          10.5
+        ],
+        [
+          2019,
+          10.4
+        ],
+        [
+          2020,
+          10.7
+        ],
+        [
+          2021,
+          10.2
+        ]
+      ],
+      "name": "Sterbeziffer"
     }
   ],
   "chart": {
@@ -109,7 +172,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Geburtenziffer"
+    "text": "Geburten- und Sterbeziffer"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -159,10 +222,10 @@
     "tickInterval": 2
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -181,7 +244,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
