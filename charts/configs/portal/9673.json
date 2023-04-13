@@ -533,7 +533,7 @@
         ],
         [
           1672444800000,
-          204550
+          null
         ],
         [
           1703980800000,
@@ -1704,11 +1704,11 @@
         ],
         [
           1577750400000,
-          0
+          1
         ],
         [
           1609372800000,
-          0
+          1
         ],
         [
           1640908800000,
@@ -1716,7 +1716,7 @@
         ],
         [
           1672444800000,
-          0
+          null
         ],
         [
           1703980800000,
@@ -1778,7 +1778,8 @@
     "type": "datetime",
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "ordinal": false,
+    "tickLength": 0,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -1786,25 +1787,28 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
-    "tickLength": 0,
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,
     "showLastLabel": true
   },
-  "isStock": true,
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function () {
           this.credits.element.onclick = function () { };
@@ -1866,16 +1870,10 @@
           });
         }
     },
-    "type": "line",
     "renderTo": "container-9673"
   },
   "plotOptions": {
     "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "marker": {
         "enabled": false,
         "radius": 4
@@ -1883,27 +1881,27 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Bevölkerungsbestand"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
+    "min": 0,
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -1922,10 +1920,14 @@
     "endOnTick": true,
     "opposite": false
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "credits": {
@@ -1941,21 +1943,46 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "xDateFormat": "%A, %e. %b. %Y"
   },
   "rangeSelector": {
-    "verticalAlign": "bottom",
-    "buttonPosition": {},
     "buttons": [
       {
         "count": 20,
@@ -1983,24 +2010,7 @@
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
   },
-  "navigator": {
-    "margin": 10,
-    "height": 30,
-    "series": {
-      "includeInCSVExport": false
-    },
-    "outlineColor": "#B9CFD7"
-  },
-  "tooltip": {
-    "dateTimeLabelFormats": {
-      "day": "%A, %e. %b. %Y"
-    },
-    "xDateFormat": "%A, %e. %b. %Y"
-  },
   "exporting": {
-    "csv": {
-      "dateFormat": "%d.%m.%Y"
-    },
     "filename": "9673"
   }
 }

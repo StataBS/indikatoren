@@ -285,8 +285,8 @@ var indikatorensetData = [
 			6649
 		],
 		"title": "Alterspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2002",
-		"lesehilfe": "Bei den älteren Personen gibt es 2002 deutlich mehr Frauen als Männer. Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist kleiner als bei der ausländischen Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2003",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2003 deutlich mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -311,7 +311,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:43",
+		"aktualisierungsdatum": "2023-04-13T08:21:49",
 		"id": 6064
 	},
 	{
@@ -324,8 +324,8 @@ var indikatorensetData = [
 			6650
 		],
 		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2002",
-		"lesehilfe": "Die grössten Altersgruppen sind 2002 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen die 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2003",
+		"lesehilfe": "2003 bilden bei den ausländischen Männern die 35- bis 39-Jährigen und bei den ausländischen Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:44",
+		"aktualisierungsdatum": "2023-04-13T08:21:50",
 		"id": 6065
 	},
 	{
@@ -402,8 +402,8 @@ var indikatorensetData = [
 			6652
 		],
 		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Bei Männern und Frauen bilden 2021 die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen innerhalb der ausländischen Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 bilden bei ausländischen Männern und Frauen die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -428,7 +428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:44",
+		"aktualisierungsdatum": "2023-04-13T08:21:50",
 		"id": 6067
 	},
 	{
@@ -442,7 +442,7 @@ var indikatorensetData = [
 		],
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 liegt der Jugendquotient der Schweizerinnen und Schweizer bei 29,3. Deutlich höhere Jugendquotienten ergeben sich 2021 für Personen aus afrikanischen (43,9) und arabischen Ländern (42,0) sowie für Personen aus dem Balkan (31,9). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie Italien auf. Im Vergleich zu 2002 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei am stärksten gesunken.",
+		"lesehilfe": "2022 weisen Personen aus afrikanischen den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2003 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus der Türkei am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -467,7 +467,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:41",
+		"aktualisierungsdatum": "2023-04-13T08:21:48",
 		"id": 6068
 	},
 	{
@@ -481,7 +481,7 @@ var indikatorensetData = [
 		],
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 weisen Schweizerinnen und Schweizer (44,9) sowie Italienerinnen und Italiener (31,0) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,3). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2002.",
+		"lesehilfe": "2022 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2003 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -506,7 +506,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:42",
+		"aktualisierungsdatum": "2023-04-13T08:21:49",
 		"id": 6069
 	},
 	{
@@ -520,7 +520,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ist der Anteil der ausländischen Staatsangehörigen bei den 40- und 41-Jährigen mit je 55% am höchsten. 2011 wurden die höchsten Ausländeranteile bei den 33-Jährigen (57,2%) erreicht. 2001 lag das Maximum bei den 4-Jährigen (45,9%), während im Altersbereich der erwerbstätigen Bevölkerung der höchste Wert bei den 27-Jährigen lag (43,9%).",
+		"lesehilfe": "2022 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,3% am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:45",
+		"aktualisierungsdatum": "2023-04-13T08:21:51",
 		"id": 6070
 	},
 	{
@@ -836,7 +836,7 @@ var indikatorensetData = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 weisen Personen aus dem Balkan (31,3) und der Türkei (27,4) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
+		"lesehilfe": "2022 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:51",
 		"id": 6078
 	},
 	{
@@ -874,8 +874,8 @@ var indikatorensetData = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021 gegenüber 2002",
-		"lesehilfe": "Zwischen 2002 und 2021 sind die Segregationsindices fast aller Gruppen gesunken, d. h., diese Gruppen sind 2021 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer (-12,0 Punkte) und italienischen Staatsangehörigen (-11,2 Punkte).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022 gegenüber 2003",
+		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:52",
 		"id": 6079
 	},
 	{

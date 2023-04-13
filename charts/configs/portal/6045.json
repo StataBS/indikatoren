@@ -766,10 +766,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bruttoinlandprodukt in Franken pro Einwohner"
+    "text": "Bruttoinlandprodukt pro Kopf"
   },
   "subtitle": {
-    "text": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
+    "text": "in Franken pro Einwohner, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -837,7 +837,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-25"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

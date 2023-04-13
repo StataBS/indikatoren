@@ -18,7 +18,7 @@
         ],
         [
           2022,
-          2818
+          2449
         ],
         [
           2023,
@@ -323,7 +323,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoproduktion an Wohnungen"
+    "text": "Nettowohnungsproduktion seit 2019"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -400,7 +400,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "tooltip": {
     "valueDecimals": 0,

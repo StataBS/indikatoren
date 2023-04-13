@@ -226,99 +226,99 @@
         ],
         [
           "1999",
-          0
+          1
         ],
         [
           "2000",
-          2
+          0
         ],
         [
           "2001",
-          1
+          0
         ],
         [
           "2002",
-          0
+          1
         ],
         [
           "2003",
-          1
+          0
         ],
         [
           "2004",
-          1
+          0
         ],
         [
           "2005",
-          0
-        ],
-        [
-          "2006",
-          1
-        ],
-        [
-          "2007",
-          1
-        ],
-        [
-          "2008",
-          0
-        ],
-        [
-          "2009",
-          0
-        ],
-        [
-          "2010",
           2
         ],
         [
-          "2011",
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
           1
+        ],
+        [
+          "2009",
+          2
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
         ],
         [
           "2012",
-          0
+          1
         ],
         [
           "2013",
-          0
+          1
         ],
         [
           "2014",
-          0
+          1
         ],
         [
           "2015",
-          1
+          0
         ],
         [
           "2016",
-          1
+          0
         ],
         [
           "2017",
-          0
+          1
         ],
         [
           "2018",
-          1
+          0
         ],
         [
           "2019",
-          1
+          0
         ],
         [
           "2020",
-          1
+          0
         ],
         [
           "2021",
-          1
+          0
         ],
         [
           "2022",
-          0
+          1
         ]
       ],
       "name": "Bewertung",
@@ -696,7 +696,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -734,7 +734,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + '% </b>'
       }
   },
   "exporting": {

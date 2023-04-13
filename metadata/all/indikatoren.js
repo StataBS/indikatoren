@@ -9747,10 +9747,10 @@ var indikatoren = [
 		"children": [
 			8886
 		],
-		"title": "Geburtenziffer",
+		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Geburtenziffer liegt 2021 bei 10,2  Lebendgeborenen je 1 000 Einwohnern der mittleren Wohnbevölkerung.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Geburtenziffer liegt 2021 bei 10,2 Lebendgeborenen und die Sterbeziffer bei 10,2 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"erlaeuterungen": "Die Geburtenziffer bezeichnet die Anzahl Lebendgeborene pro 1000 Einwohner der mittleren Wohnbevölkerung, die Sterbeziffer die Anzahl Gestorbene pro 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -9759,23 +9759,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Geburtenziffer",
+		"description": "Geburten- und Sterbeziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kuerzel": "I.01.3.05149",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "BE7",
+		"kuerzelKunde": "BE5",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_107",
+		"orderKey": "01_01_00_00_00_105",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:12",
+		"aktualisierungsdatum": "2023-04-13T08:21:53",
 		"id": 5149
 	},
 	{
@@ -9902,13 +9902,11 @@ var indikatoren = [
 		"chart-id": 5160,
 		"filter": "",
 		"parentId": null,
-		"children": [
-			9663
-		],
-		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
-		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"children": [],
+		"title": "Nettoschuldenquote",
+		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
+		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2021 liegt sie mit -0,1 Promille des Schweizer Bruttoinlandprodukts erstmals im negativen Bereich. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton hat seine Nettoschulden 2021 also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -9917,7 +9915,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"description": "Nettoschuldenquote",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.05160",
@@ -9933,13 +9931,13 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-21T08:15:44",
+		"aktualisierungsdatum": "2023-04-13T08:21:54",
 		"id": 5160
 	},
 	{
 		"template": "template001",
 		"data-id": 5161,
-		"chart-id": 6131,
+		"chart-id": 5161,
 		"filter": "",
 		"parentId": null,
 		"children": [
@@ -9947,8 +9945,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2010 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2019 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -9973,7 +9971,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:20",
+		"aktualisierungsdatum": "2023-04-13T08:21:55",
 		"id": 5161
 	},
 	{
@@ -12993,10 +12991,10 @@ var indikatoren = [
 		"children": [
 			8934
 		],
-		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2019 beträgt es rund 204 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
-		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"title": "Bruttoinlandprodukt pro Kopf",
+		"subtitle": "in Franken pro Einwohner, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2020 beträgt es fast 190 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"erlaeuterungen": "Berechnet aus verschiedenen Quellen durch BAK Economics AG. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -13005,14 +13003,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"description": "Bruttoinlandprodukt pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.06045",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE1",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -13021,7 +13019,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:56:01",
+		"aktualisierungsdatum": "2023-04-13T08:21:55",
 		"id": 6045
 	},
 	{
@@ -13073,7 +13071,7 @@ var indikatoren = [
 		],
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2020 bei 44% (im Jahr 2000 lag er bei 24%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2020). Fast unverändert blieb der Anteil der Wertschöpfung der Bereiche Unternehmens- und freiberufliche Dienstleistungen, öffentliche Verwaltung sowie Gesundheits- und Sozialwesen.",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2021 bei 39% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2021).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -13088,18 +13086,18 @@ var indikatoren = [
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.6047",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE3",
+		"kuerzelKunde": "WE6",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_603",
+		"orderKey": "06_01_00_00_00_606",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-29T10:27:21",
+		"aktualisierungsdatum": "2023-04-13T08:21:56",
 		"id": 6047
 	},
 	{
@@ -13717,8 +13715,8 @@ var indikatoren = [
 			6649
 		],
 		"title": "Alterspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2002",
-		"lesehilfe": "Bei den älteren Personen gibt es 2002 deutlich mehr Frauen als Männer. Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist kleiner als bei der ausländischen Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2003",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2003 deutlich mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13744,7 +13742,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:43",
+		"aktualisierungsdatum": "2023-04-13T08:21:49",
 		"id": 6064
 	},
 	{
@@ -13757,8 +13755,8 @@ var indikatoren = [
 			6650
 		],
 		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2002",
-		"lesehilfe": "Die grössten Altersgruppen sind 2002 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen die 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2003",
+		"lesehilfe": "2003 bilden bei den ausländischen Männern die 35- bis 39-Jährigen und bei den ausländischen Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13784,7 +13782,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:44",
+		"aktualisierungsdatum": "2023-04-13T08:21:50",
 		"id": 6065
 	},
 	{
@@ -13837,8 +13835,8 @@ var indikatoren = [
 			6652
 		],
 		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Bei Männern und Frauen bilden 2021 die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen innerhalb der ausländischen Bevölkerung.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 bilden bei ausländischen Männern und Frauen die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13864,7 +13862,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:44",
+		"aktualisierungsdatum": "2023-04-13T08:21:50",
 		"id": 6067
 	},
 	{
@@ -13878,7 +13876,7 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 liegt der Jugendquotient der Schweizerinnen und Schweizer bei 29,3. Deutlich höhere Jugendquotienten ergeben sich 2021 für Personen aus afrikanischen (43,9) und arabischen Ländern (42,0) sowie für Personen aus dem Balkan (31,9). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie Italien auf. Im Vergleich zu 2002 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei am stärksten gesunken.",
+		"lesehilfe": "2022 weisen Personen aus afrikanischen den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2003 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus der Türkei am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13904,7 +13902,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:41",
+		"aktualisierungsdatum": "2023-04-13T08:21:48",
 		"id": 6068
 	},
 	{
@@ -13918,7 +13916,7 @@ var indikatoren = [
 		],
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 weisen Schweizerinnen und Schweizer (44,9) sowie Italienerinnen und Italiener (31,0) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,3). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2002.",
+		"lesehilfe": "2022 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2003 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13944,7 +13942,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:42",
+		"aktualisierungsdatum": "2023-04-13T08:21:49",
 		"id": 6069
 	},
 	{
@@ -13958,7 +13956,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ist der Anteil der ausländischen Staatsangehörigen bei den 40- und 41-Jährigen mit je 55% am höchsten. 2011 wurden die höchsten Ausländeranteile bei den 33-Jährigen (57,2%) erreicht. 2001 lag das Maximum bei den 4-Jährigen (45,9%), während im Altersbereich der erwerbstätigen Bevölkerung der höchste Wert bei den 27-Jährigen lag (43,9%).",
+		"lesehilfe": "2022 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,3% am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13984,7 +13982,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:45",
+		"aktualisierungsdatum": "2023-04-13T08:21:51",
 		"id": 6070
 	},
 	{
@@ -14282,7 +14280,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 weisen Personen aus dem Balkan (31,3) und der Türkei (27,4) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
+		"lesehilfe": "2022 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14308,7 +14306,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:51",
 		"id": 6078
 	},
 	{
@@ -14321,8 +14319,8 @@ var indikatoren = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021 gegenüber 2002",
-		"lesehilfe": "Zwischen 2002 und 2021 sind die Segregationsindices fast aller Gruppen gesunken, d. h., diese Gruppen sind 2021 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer (-12,0 Punkte) und italienischen Staatsangehörigen (-11,2 Punkte).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022 gegenüber 2003",
+		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14348,7 +14346,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:52",
 		"id": 6079
 	},
 	{
@@ -53774,16 +53772,16 @@ var indikatoren = [
 		"id": 8375
 	},
 	{
-		"template": "template001",
-		"data-id": 6071,
-		"chart-id": 6071,
+		"template": "line001",
+		"data-id": 8377,
+		"chart-id": 8377,
 		"filter": "",
-		"parentId": "6071",
+		"parentId": null,
 		"children": [],
-		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2021: 43 067) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2021: 27 219). Von 2002 (1 026) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2022 bei 37,9%.",
+		"erlaeuterungen": "Anteil der ausländischen Bevölkerung im Kanton Basel-Stadt pro Jahr in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -53792,7 +53790,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"description": "Anteil ausländische Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08377",
@@ -53806,9 +53804,9 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_103",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:03",
+		"aktualisierungsdatum": "2023-04-13T08:21:52",
 		"id": 8377
 	},
 	{
@@ -68559,7 +68557,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-06T08:06:25",
+		"aktualisierungsdatum": "2023-04-13T08:21:40",
 		"id": 8995
 	},
 	{
@@ -68931,7 +68929,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-06T08:06:25",
+		"aktualisierungsdatum": "2023-04-13T08:21:41",
 		"id": 9022
 	},
 	{
@@ -68969,7 +68967,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-06T08:06:26",
+		"aktualisierungsdatum": "2023-04-13T08:21:41",
 		"id": 9023
 	},
 	{
@@ -80201,8 +80199,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><br><b>Zielwert:</b> 6,5 Promille<br><i>(Grundlage: FHG §4 Abs. 1)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen \tPlanjahren<br>Gelb: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem \tder Planjahre über 6,5 Promille<br>Rot: \tQuote > 6,5 Promille im letzten Rechnungsjahr",
-		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"lesehilfe": "2021 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><br><b>Zielwert:</b> 6,5 Promille<br><i>(Grundlage: FHG §4 Abs. 1)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen \tPlanjahren<br>Gelb: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem \tder Planjahre über 6,5 Promille<br>Rot: \tQuote > 6,5 Promille im letzten Rechnungsjahr",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -80215,19 +80213,19 @@ var indikatoren = [
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.09663",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "2",
-		"stufe1": "Staatliches Handeln",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_002",
+		"orderKey": "_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:53",
+		"aktualisierungsdatum": "2023-04-13T08:21:44",
 		"id": 9663
 	},
 	{
@@ -80253,31 +80251,33 @@ var indikatoren = [
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kuerzel": "I.08.3.09672",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "4",
-		"stufe1": "Staatliches Handeln",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_004",
+		"orderKey": "_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:54",
+		"aktualisierungsdatum": "2023-04-13T08:21:45",
 		"id": 9672
 	},
 	{
-		"template": "stock001",
+		"template": "line001",
 		"data-id": 9673,
 		"chart-id": 9673,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9784
+		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 204 550 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -80291,19 +80291,19 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09673",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "1",
-		"stufe1": "Bevölkerung",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_001",
+		"orderKey": "_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-30T09:06:26",
+		"aktualisierungsdatum": "2023-04-13T08:21:42",
 		"id": 9673
 	},
 	{
@@ -80315,7 +80315,7 @@ var indikatoren = [
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf ab.<br><br><b>Zielwert:</b> Netto-Null bis 2037<br><b>\tZielpfad:</b> lineare Reduktion (jährlich ca. 0,2 Tonnen/ Person)<br><i>(Grundlage: Gegenvorschlag des Grossen Rates vom 14.9.2022 zur Klimagerechtigkeitsinitiative, angenommen an Volksabstimmung vom 27. November 2022)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Gelb: \tWert auf/unter Zielpfad und Reduktion geringer als Zielpfad oder Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Rot: \tWert über Zielpfad und Reduktion geringer als Zielpfad",
+		"lesehilfe": "Die energiebedingten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,32 Tonnen auf 3,11 Tonnen CO<sub>2</sub> pro Kopf ab.<br><br><b>Zielwert:</b> Netto-Null bis 2037<br><b>\tZielpfad:</b> lineare Reduktion (jährlich ca. 0,2 Tonnen/ Person)<br><i>(Grundlage: Gegenvorschlag des Grossen Rates vom 14.9.2022 zur Klimagerechtigkeitsinitiative, angenommen an Volksabstimmung vom 27. November 2022)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Gelb: \tWert auf/unter Zielpfad und Reduktion geringer als Zielpfad oder Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Rot: \tWert über Zielpfad und Reduktion geringer als Zielpfad",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -80329,19 +80329,19 @@ var indikatoren = [
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kuerzel": "I.02.5.09674",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "3",
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_003",
+		"orderKey": "_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:54",
+		"aktualisierungsdatum": "2023-04-13T08:21:45",
 		"id": 9674
 	},
 	{
@@ -80350,7 +80350,9 @@ var indikatoren = [
 		"chart-id": 9675,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9786
+		],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
 		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><br><b>Zielwert:</b> Mindestens zweiter Platz im Kantonsvergleich<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \t1. und 2. Platz<br>Gelb: \t3. Platz<br>Rot: \t4. Platz oder schlechter",
@@ -80367,19 +80369,19 @@ var indikatoren = [
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.09675",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "5",
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_005",
+		"orderKey": "_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:55",
+		"aktualisierungsdatum": "2023-04-13T08:21:46",
 		"id": 9675
 	},
 	{
@@ -80388,10 +80390,12 @@ var indikatoren = [
 		"chart-id": 9676,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9787
+		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg von 2011 bis 2020 um 3,1% von 183 183 auf 188 778.<br><br><b>Zielwert:</b> 220 000 Beschäftige bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><b>Zielpfad:</b> lineares Wachstum (ca. 1 700 Beschäftigte / Jahr)<br><br><b>Ampelwerte:</b><br>\tGrün: \tZahl auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tZahl auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tZahl unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><br><b>Zielwert:</b> 220 000 Beschäftige bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><b>Zielpfad:</b> lineares Wachstum (ca. 1 700 Beschäftigte / Jahr)<br><br><b>Ampelwerte:</b><br>\tGrün: \tZahl auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tZahl auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tZahl unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -80405,19 +80409,19 @@ var indikatoren = [
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09676",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "6",
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_006",
+		"orderKey": "_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:55",
+		"aktualisierungsdatum": "2023-04-13T08:21:46",
 		"id": 9676
 	},
 	{
@@ -80443,19 +80447,19 @@ var indikatoren = [
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.09677",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "7",
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_007",
+		"orderKey": "_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-03T08:59:52",
+		"aktualisierungsdatum": "2023-04-13T08:21:47",
 		"id": 9677
 	},
 	{
@@ -80481,19 +80485,19 @@ var indikatoren = [
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kuerzel": "I.14.3.09679",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "8",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_008",
+		"orderKey": "_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:56",
+		"aktualisierungsdatum": "2023-04-13T08:21:47",
 		"id": 9679
 	},
 	{
@@ -80502,11 +80506,13 @@ var indikatoren = [
 		"chart-id": 9680,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9785
+		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
 		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><br><b>Zielwert:</b> Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» und/oder «eher sicher»<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert > 90%<br>Gelb: \tWert = 80 bis 90%<br>Rot: \tWert < 80%",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -80519,19 +80525,19 @@ var indikatoren = [
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09680",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "10",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_010",
+		"orderKey": "_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:42",
 		"id": 9680
 	},
 	{
@@ -80560,19 +80566,19 @@ var indikatoren = [
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kuerzel": "I.15.7.09682",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "11",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_011",
+		"orderKey": "_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:51",
+		"aktualisierungsdatum": "2023-04-13T08:21:43",
 		"id": 9682
 	},
 	{
@@ -80582,7 +80588,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Nettoproduktion an Wohnungen",
+		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "<b>Zielwert:</b> 10 000 Wohnungen bis 2035<br><i>(Grundlage: gekoppelt an Richtplanziel 220 000 Einwohnende bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tZahl auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tZahl auf/über Zielpfad und Wachstum geringer als Zielpfad \tbzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tZahl unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "",
@@ -80594,23 +80600,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nettoproduktion an Wohnungen",
+		"description": "Nettowohnungsproduktion seit 2019",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kuerzel": "I.09.2.09684",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "12",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_012",
+		"orderKey": "_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-16T08:29:35",
+		"aktualisierungsdatum": "2023-04-13T08:21:43",
 		"id": 9684
 	},
 	{
@@ -80637,19 +80643,19 @@ var indikatoren = [
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09686",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "13",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_013",
+		"orderKey": "_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:52",
+		"aktualisierungsdatum": "2023-04-13T08:21:43",
 		"id": 9686
 	},
 	{
@@ -80659,7 +80665,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Verkehrsleistungsindex MIV Stadtstrassennetz",
+		"title": "Verkehrsleistungsindex MIV im Stadtstrassennetz",
 		"subtitle": "Indexwert (Basis 2010 = 100)",
 		"lesehilfe": "<b>Zielwert:</b> nicht grösser als Indexwert 2019<br><b>Zielpfad:</b> lineares Wachstum (ca. 1 200 Einwohnende / Jahr)<br><br><i>(Grundlage: USG §13 bzw. VuV §5)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert steigt nicht und liegt tiefer/gleich Indexwert 2019<br>Gelb: \tWert steigt und liegt tiefer/gleich Indexwert 2019 oder Wert steigt nicht und liegt über Indexwert 2019<br>Rot: \tWert steigt und liegt über Indexwert 2019",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br><br>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Stadtstrassennetz entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets ohne die Autobahnen.",
@@ -80674,23 +80680,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Verkehrsleistungsindex MIV Stadtstrassennetz",
+		"description": "Verkehrsleistungsindex MIV im Stadtstrassennetz",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09687",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "14",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_014",
+		"orderKey": "_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:52",
+		"aktualisierungsdatum": "2023-04-13T08:21:44",
 		"id": 9687
 	},
 	{
@@ -80755,19 +80761,19 @@ var indikatoren = [
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09693",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "9",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_009",
+		"orderKey": "_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-03T08:59:53",
+		"aktualisierungsdatum": "2023-04-13T08:21:48",
 		"id": 9693
 	},
 	{
@@ -80849,6 +80855,86 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-03-01T09:02:42",
 		"id": 9734
+	},
+	{
+		"template": "line001",
+		"data-id": 9736,
+		"chart-id": 9736,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Energieeffizienz",
+		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandprodukts (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>",
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/umweltindikatoren/alle-indikatoren/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Energieeffizienz",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09736",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL3",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_403",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-13T08:21:54",
+		"id": 9736
+	},
+	{
+		"template": "line001",
+		"data-id": 9740,
+		"chart-id": 9740,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2022 bei 48,7%.",
+		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Der Anteil der stimm- und wahlberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch die mittlere Wohnbevölkerung des jeweiligen Jahres; ohne Bürgergemeinderatswahlen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
+		"thema": "17 Politik",
+		"unterthema": "Abstimmungen",
+		"kuerzel": "I.17.2.09740",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ12",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Gesellschaftliche Teilhabe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_03_00_00_00_512",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-13T08:21:53",
+		"id": 9740
 	},
 	{
 		"title": "Test Daten",
