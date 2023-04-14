@@ -80,7 +80,7 @@
       labels: {
         step: 1,
         rotation: -45
-      }
+      },
     },
     legend: {
       enabled: true,

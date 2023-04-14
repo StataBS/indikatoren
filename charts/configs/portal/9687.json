@@ -115,43 +115,43 @@
       "data": [
         [
           2010,
-          1
+          null
         ],
         [
           2011,
-          1
+          null
         ],
         [
           2012,
-          1
+          null
         ],
         [
           2013,
-          2
+          null
         ],
         [
           2014,
-          1
+          null
         ],
         [
           2015,
-          1
+          null
         ],
         [
           2016,
-          2
+          null
         ],
         [
           2017,
-          1
+          null
         ],
         [
           2018,
-          1
+          null
         ],
         [
           2019,
-          0
+          null
         ],
         [
           2020,
@@ -202,7 +202,7 @@
               enabled: true,
               y: 0,
               x: -350,
-              format: 'Referenzwert: {y:,.0f} (Wert 2019)',
+              format: 'Referenzwert: {y:,.1f} (Wert 2019)',
               style: {
                 textOutline: false,
                 color: "#999999",
