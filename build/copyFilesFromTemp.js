@@ -20,6 +20,7 @@ const records = parse(fs.readFileSync(verzeichnisTxtPath), {
 });
 
 //load json and tsv for each row
+var fetchedIssueBranches = [];
 records.forEach(row => {
     //for each line: download and save json / tsv
     console.log('downloading files for ' + row.Indikator + '...');
@@ -39,22 +40,40 @@ records.forEach(row => {
         var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
         var gitTsvCommand = 'git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv';
         var gitConfigCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/configs/portal/' + row.Indikator + '.json';
-        console.log(gitJsCommand);
+        var gitFetchCommand = 'git fetch origin issue-' + row.Branch;
+        // Fetch the issue branch first if this was not done before.
         try {
+            if(!fetchedIssueBranches.includes(row.Branch)) {
+                console.log(gitFetchCommand);
+                child_process.execSync(gitFetchCommand);
+                fetchedIssueBranches.push(row.Branch);
+            }
+        }
+        catch (error) {
+            handleError(error);
+        }   
+
+        // Checkout the tempalte from the issue branch.
+        try {
+            console.log(gitJsCommand);
             child_process.execSync(gitJsCommand);
         }
         catch (error) {
             handleError(error);
-        }        
-        console.log(gitTsvCommand);
+        }
+
+        // Checkou the TSV file from the issue branch.
         try {
+            console.log(gitTsvCommand);
             child_process.execSync(gitTsvCommand);
         }
         catch (error) {
             handleError(error);
-        }        
-        console.log(gitConfigCommand);
+        }
+
+        // Checkout the config file from the issue branch.
         try{
+            console.log(gitConfigCommand);
             child_process.execSync(gitConfigCommand);
         }
         catch(error){
