@@ -207,91 +207,91 @@
         ],
         [
           1999,
-          1
+          null
         ],
         [
           2000,
-          0
+          null
         ],
         [
           2001,
-          1
+          null
         ],
         [
           2002,
-          0
+          null
         ],
         [
           2003,
-          2
+          null
         ],
         [
           2004,
-          0
+          null
         ],
         [
           2005,
-          1
+          null
         ],
         [
           2006,
-          0
+          null
         ],
         [
           2007,
-          0
+          null
         ],
         [
           2008,
-          2
+          null
         ],
         [
           2009,
-          0
+          null
         ],
         [
           2010,
-          0
+          null
         ],
         [
           2011,
-          1
+          null
         ],
         [
           2012,
-          0
+          null
         ],
         [
           2013,
-          0
+          null
         ],
         [
           2014,
-          2
+          null
         ],
         [
           2015,
-          0
+          null
         ],
         [
           2016,
-          0
+          null
         ],
         [
           2017,
-          2
+          null
         ],
         [
           2018,
-          0
+          null
         ],
         [
           2019,
-          2
+          null
         ],
         [
           2020,
-          2
+          1
         ]
       ],
       "name": "Bewertung"
@@ -391,7 +391,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": -45
     },
     "tickInterval": 1
   },

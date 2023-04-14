@@ -20,9 +20,9 @@
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
-              //y: -80,
+              y: 20,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: mind. {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",

@@ -22,7 +22,7 @@
               enabled: true,
               //y: -80,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: mind. {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",

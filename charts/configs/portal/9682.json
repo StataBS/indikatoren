@@ -45,15 +45,15 @@
       "data": [
         [
           2017,
-          2
+          null
         ],
         [
           2018,
-          2
+          null
         ],
         [
           2019,
-          2
+          null
         ]
       ],
       "name": "Bewertung"
@@ -92,7 +92,7 @@
               enabled: true,
               //y: -80,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: mind. {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",

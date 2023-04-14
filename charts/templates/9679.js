@@ -47,6 +47,9 @@
     },
     "xAxis": {
       "tickInterval": 1,
+      labels:{
+        rotation: -45
+      }
     },
     yAxis: {
       min: null

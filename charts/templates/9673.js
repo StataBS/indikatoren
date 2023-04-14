@@ -38,7 +38,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
+          data.forEach(function (element, i) {
             if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
@@ -73,18 +73,13 @@
       }
     },
     xAxis: {
-      endOnTick: true,
-      startOnTick: true,
-      showFirstLabel: true,
-      showLastLabel: true,
+      min: 2010,
     },
     yAxis: {
-      showLastLabel: true,
-      endOnTick: true,
+      min: null,
       labels: {
         format: '{value:,.0f}'
       },
-      opposite: false,
     },
     legend: {
       enabled: true,
@@ -92,53 +87,42 @@
       verticalAlign: "top",
       align: "left",
     },
-    tooltip: {
-      xDateFormat: '%A, %e. %b. %Y',
-    },
-
     "series": [
       {
         "color": "#0091f7",
+        showInNavigator: true,
+        zIndex: 2
       },
       {
         type: "line",
         dashStyle: 'ShortDash',
         "color": "#999999",
+        showInNavigator: true,
+        zIndex: 1
       },
       {
         visible: false,
-        showInLegend: false
+        showInLegend: false,
+        showInNavigator: false
       },
     ],
-    rangeSelector: {
-      buttons:
-        [
-          {
-            count: 20,
-            type: 'year',
-            text: '20 J'
-          },
-          {
-            count: 50,
-            type: 'year',
-            text: '50 J'
-          },
-          {
-            count: 100,
-            type: 'year',
-            text: '100 J'
-          },
-          {
-            type: 'all',
-            text: 'Alle J'
+    navigator: {
+      enabled: true,
+      series: {
+        marker: {
+          enabled: false,
+          symbol: 'circle',
+          radius: 0
+        },
+      },
+      xAxis: {
+        labels: {
+          formatter: function () {
+            return this.value;
           }
-        ],
-      buttonSpacing: 15,
-      inputEnabled: false,
-      selected: 0,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
-    }
+        },
+      }
+    },
   };
 }());
 
