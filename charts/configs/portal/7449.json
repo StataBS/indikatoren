@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2012-01",
-          10
-        ],
-        [
-          "2012-02",
-          24
-        ],
-        [
-          "2012-03",
-          15
-        ],
-        [
-          "2012-04",
-          23
-        ],
-        [
           "2013-01",
           42
         ],
@@ -165,6 +149,22 @@
         [
           "2021-04",
           29
+        ],
+        [
+          "2022-01",
+          14
+        ],
+        [
+          "2022-02",
+          18
+        ],
+        [
+          "2022-03",
+          10
+        ],
+        [
+          "2022-04",
+          22
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -179,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2012-01",
-          719
-        ],
-        [
-          "2012-02",
-          778
-        ],
-        [
-          "2012-03",
-          764
-        ],
-        [
-          "2012-04",
-          747
-        ],
         [
           "2013-01",
           701
@@ -309,35 +293,51 @@
         ],
         [
           "2020-01",
-          573
+          574
         ],
         [
           "2020-02",
-          567
+          565
         ],
         [
           "2020-03",
-          576
+          575
         ],
         [
           "2020-04",
-          563
+          559
         ],
         [
           "2021-01",
-          560
+          558
         ],
         [
           "2021-02",
-          563
+          560
         ],
         [
           "2021-03",
-          567
+          565
         ],
         [
           "2021-04",
-          567
+          565
+        ],
+        [
+          "2022-01",
+          553
+        ],
+        [
+          "2022-02",
+          543
+        ],
+        [
+          "2022-03",
+          541
+        ],
+        [
+          "2022-04",
+          525
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -352,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2012-01",
-          37
-        ],
-        [
-          "2012-02",
-          22
-        ],
-        [
-          "2012-03",
-          8
-        ],
-        [
-          "2012-04",
-          7
-        ],
         [
           "2013-01",
           17
@@ -511,6 +495,22 @@
         [
           "2021-04",
           37
+        ],
+        [
+          "2022-01",
+          13
+        ],
+        [
+          "2022-02",
+          48
+        ],
+        [
+          "2022-03",
+          61
+        ],
+        [
+          "2022-04",
+          21
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Verkehr",
@@ -675,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "shared": true,

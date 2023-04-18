@@ -949,8 +949,8 @@ var indikatorensetData = [
 		"parentId": "7971",
 		"children": [],
 		"title": "Hotelübernachtungen",
-		"subtitle": "pro Einwohner, 2019",
-		"lesehilfe": "Die Kernstädte weisen die höchste Übernachtungskonzentration in Hotelbetrieben auf. Am meisten Hotelübernachtungen pro Einwohner werden 2019 in der Stadt Genf (10,8) registriert, gefolgt von den Städten Zürich (8,7) und Basel (8,2). In der Agglomeration Basel zeigen auch die deutschen Gemeinden eine relativ hohe touristische Attraktivität (4,5 Hotelübernachtungen pro Einwohner).",
+		"subtitle": "pro Einwohner, 2020",
+		"lesehilfe": "Im Pandemiejahr 2020 sind die Übernachtungszahlen in allen Agglomerationen deutlich tiefer ausgefallen als im Vorjahr. Am meisten Hotelübernachtungen pro Einwohner werden 2020 in den Kernstädten Genf (3,5), Lausanne (3,2) und Basel (3,1) registriert. In der Agglomeration Basel zeigen auch die deutschen Gemeinden (2,7 Hotelübernachtungen pro Einwohner) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -975,7 +975,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:06",
+		"aktualisierungsdatum": "2023-04-18T08:01:45",
 		"id": 9601
 	},
 	{

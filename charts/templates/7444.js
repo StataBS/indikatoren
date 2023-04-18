@@ -52,13 +52,13 @@
     {"color": "#B00000", "index": 0, //"yAxis": 0,
         "tooltip": {
 				"pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'  
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'  
 		}
 		},
     },
         {"color": "#FF8028", "index": 1, "yAxis": 1,
         "tooltip": {
-				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b>',
 		},
     }
   ],

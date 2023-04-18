@@ -5,10 +5,6 @@
       "legendIndex": 6,
       "data": [
         [
-          "2011",
-          1366.3
-        ],
-        [
           "2012",
           1378.2
         ],
@@ -39,6 +35,10 @@
         [
           "2019",
           1250
+        ],
+        [
+          "2020",
+          1209.3
         ]
       ],
       "name": "Schlachten, Fleischverarbeitung",
@@ -48,10 +48,6 @@
       "color": "#B00000",
       "legendIndex": 5,
       "data": [
-        [
-          "2011",
-          99.4
-        ],
         [
           "2012",
           111.1
@@ -83,6 +79,10 @@
         [
           "2019",
           128.3
+        ],
+        [
+          "2020",
+          123.9
         ]
       ],
       "name": "Fischverarbeitung",
@@ -92,10 +92,6 @@
       "color": "#FF8028",
       "legendIndex": 4,
       "data": [
-        [
-          "2011",
-          313.7
-        ],
         [
           "2012",
           320.6
@@ -127,6 +123,10 @@
         [
           "2019",
           341
+        ],
+        [
+          "2020",
+          327.1
         ]
       ],
       "name": "Herstellung Back- und Teigwaren",
@@ -136,10 +136,6 @@
       "color": "#FFBB58",
       "legendIndex": 3,
       "data": [
-        [
-          "2011",
-          218
-        ],
         [
           "2012",
           196
@@ -171,6 +167,10 @@
         [
           "2019",
           235
+        ],
+        [
+          "2020",
+          226.7
         ]
       ],
       "name": "Sonstige Nahrungsmittelindustrie",
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

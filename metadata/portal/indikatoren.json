@@ -12821,8 +12821,8 @@
 			6651
 		],
 		"title": "Alterspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Bei den älteren Personen gibt es 2021 deutlich mehr Frauen als Männer. Die beiden grössten Fünfjahresklassen bilden sowohl bei den Männern als auch bei den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 gibt es deutlich mehr ältere Frauen als Männer. Die grössten Fünfjahresklassen bilden bei Männern und Frauen die 25- bis 29- sowie die 55- bis 59-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12848,7 +12848,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:43",
+		"aktualisierungsdatum": "2023-04-18T08:01:46",
 		"id": 6066
 	},
 	{
@@ -15889,7 +15889,7 @@
 		],
 		"title": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
-		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel­Stadt fallen in die Kategorie «Ohne Kaderfunktion».",
+		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion».",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -15915,7 +15915,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:12",
+		"aktualisierungsdatum": "2023-04-18T08:01:47",
 		"id": 6420
 	},
 	{
@@ -29540,7 +29540,7 @@
 		],
 		"title": "Hotelübernachtungen",
 		"subtitle": "pro Einwohner, 2020",
-		"lesehilfe": "Im Pandemiejahr 2020 sind die Übernachtungszahlen in allen Agglomerationen deutlich tiefer ausgefallen als im Vorjahr. Am meisten Hotelübernachtungen pro Einwohner werden 2020 in den Kernstädten Genf (3,5), Lausanne (3,2) und Basel (3,1) registriert. In der Agglomeration Basel zeigen auch die deutschen Gemeinden (2,7 Hotelübernachtungen pro Einwohner) eine relativ höhere touristische Attraktivität im Vergleich zur übrigen Agglomeration.",
+		"lesehilfe": "Im Pandemiejahr 2020 sind die Übernachtungszahlen in allen Agglomerationen deutlich tiefer ausgefallen als im Vorjahr. Am meisten Hotelübernachtungen pro Einwohner werden 2020 in den Kernstädten Genf (3,5), Lausanne (3,2) und Basel (3,1) registriert. In der Agglomeration Basel zeigen auch die deutschen Gemeinden (2,7 Hotelübernachtungen pro Einwohner) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -29566,7 +29566,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:34",
+		"aktualisierungsdatum": "2023-04-18T08:01:43",
 		"id": 7971
 	},
 	{
@@ -38282,7 +38282,7 @@
 		],
 		"title": "Medianlohn in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 liegt der Medianlohn in der Nahrungsmittelindustrie bei rund 5 200 Franken brutto und bleibt damit im Vergleich zum Jahr 2016 nahezu unverändert.",
+		"lesehilfe": "Im Jahr 2020 liegt der Medianlohn in der Nahrungsmittelindustrie bei rund 5 200 Franken brutto und bleibt damit im Vergleich zum Jahr 2018 nahezu unverändert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -38297,7 +38297,7 @@
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.09222",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.1-04",
+		"kuerzelKunde": "4.1.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
@@ -38308,7 +38308,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:32",
+		"aktualisierungsdatum": "2023-04-18T08:01:19",
 		"id": 9222
 	},
 	{
@@ -38322,7 +38322,7 @@
 		],
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 128 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 124 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -38338,7 +38338,7 @@
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.09225",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-03",
+		"kuerzelKunde": "4.2.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -38349,7 +38349,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:35",
+		"aktualisierungsdatum": "2023-04-18T08:01:22",
 		"id": 9225
 	},
 	{
@@ -38363,7 +38363,7 @@
 		],
 		"title": "Medianlohn im Schreinereigewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 lag der Medianlohn im Schreinereigewerbe in der Nordwestschweiz bei 5 700 Franken brutto und damit etwas tiefer als 2016 mit 5800 Franken brutto.",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn im Schreinereigewerbe in der Nordwestschweiz bei 6 100 Franken brutto und damit höher als 2018 mit 5700 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -38378,7 +38378,7 @@
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.09226",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-04",
+		"kuerzelKunde": "4.2.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -38389,7 +38389,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:36",
+		"aktualisierungsdatum": "2023-04-18T08:01:23",
 		"id": 9226
 	},
 	{

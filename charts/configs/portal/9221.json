@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2012-01",
-          7
-        ],
-        [
-          "2012-02",
-          1
-        ],
-        [
-          "2012-03",
-          5
-        ],
-        [
-          "2012-04",
-          5
-        ],
-        [
           "2013-01",
           3
         ],
@@ -165,6 +149,22 @@
         [
           "2021-04",
           4
+        ],
+        [
+          "2022-01",
+          9
+        ],
+        [
+          "2022-02",
+          5
+        ],
+        [
+          "2022-03",
+          6
+        ],
+        [
+          "2022-04",
+          9
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -179,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2012-01",
-          963
-        ],
-        [
-          "2012-02",
-          978
-        ],
-        [
-          "2012-03",
-          1002
-        ],
-        [
-          "2012-04",
-          1064
-        ],
         [
           "2013-01",
           1115
@@ -309,35 +293,51 @@
         ],
         [
           "2020-01",
-          1111
+          1194
         ],
         [
           "2020-02",
-          1102
+          1196
         ],
         [
           "2020-03",
-          1106
+          1185
         ],
         [
           "2020-04",
-          1083
+          1172
         ],
         [
           "2021-01",
-          1078
+          1091
         ],
         [
           "2021-02",
-          1076
+          1089
         ],
         [
           "2021-03",
-          1079
+          1091
         ],
         [
           "2021-04",
+          1091
+        ],
+        [
+          "2022-01",
+          1090
+        ],
+        [
+          "2022-02",
           1079
+        ],
+        [
+          "2022-03",
+          1046
+        ],
+        [
+          "2022-04",
+          1035
         ]
       ],
       "name": "Bestand Grenzgänger Nahrungs- u. Genussmittel, Getränke und Tabakerz.",
@@ -352,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2012-01",
-          59
-        ],
-        [
-          "2012-02",
-          65
-        ],
-        [
-          "2012-03",
-          341
-        ],
-        [
-          "2012-04",
-          60
-        ],
         [
           "2013-01",
           96
@@ -511,6 +495,22 @@
         [
           "2021-04",
           75
+        ],
+        [
+          "2022-01",
+          34
+        ],
+        [
+          "2022-02",
+          38
+        ],
+        [
+          "2022-03",
+          157
+        ],
+        [
+          "2022-04",
+          56
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
@@ -675,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "shared": true,
