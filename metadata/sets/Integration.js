@@ -363,8 +363,8 @@ var indikatorensetData = [
 			6651
 		],
 		"title": "Alterspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Bei den älteren Personen gibt es 2021 deutlich mehr Frauen als Männer. Die beiden grössten Fünfjahresklassen bilden sowohl bei den Männern als auch bei den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 gibt es deutlich mehr ältere Frauen als Männer. Die grössten Fünfjahresklassen bilden bei Männern und Frauen die 25- bis 29- sowie die 55- bis 59-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -389,7 +389,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:43",
+		"aktualisierungsdatum": "2023-04-18T08:01:46",
 		"id": 6066
 	},
 	{
@@ -2099,7 +2099,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
-		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel­Stadt fallen in die Kategorie «Ohne Kaderfunktion».",
+		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion».",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2124,7 +2124,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:12",
+		"aktualisierungsdatum": "2023-04-18T08:01:47",
 		"id": 6420
 	},
 	{

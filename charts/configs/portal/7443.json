@@ -5,10 +5,6 @@
       "legendIndex": 9,
       "data": [
         [
-          "2011",
-          2256.8
-        ],
-        [
           "2012",
           2195.5
         ],
@@ -39,6 +35,10 @@
         [
           "2019",
           1973
+        ],
+        [
+          "2020",
+          1939.3
         ]
       ],
       "name": "Waren verschiedener Art",
@@ -48,10 +48,6 @@
       "color": "#B00000",
       "legendIndex": 8,
       "data": [
-        [
-          "2011",
-          546
-        ],
         [
           "2012",
           550.8
@@ -83,6 +79,10 @@
         [
           "2019",
           537.2
+        ],
+        [
+          "2020",
+          490.3
         ]
       ],
       "name": "Nahrung, Getränke, Tabak",
@@ -92,10 +92,6 @@
       "color": "#DC440E",
       "legendIndex": 7,
       "data": [
-        [
-          "2011",
-          101
-        ],
         [
           "2012",
           95.4
@@ -127,6 +123,10 @@
         [
           "2019",
           97.4
+        ],
+        [
+          "2020",
+          87.5
         ]
       ],
       "name": "Tankstellen",
@@ -136,10 +136,6 @@
       "color": "#FF8028",
       "legendIndex": 6,
       "data": [
-        [
-          "2011",
-          283.3
-        ],
         [
           "2012",
           323.7
@@ -171,6 +167,10 @@
         [
           "2019",
           300.9
+        ],
+        [
+          "2020",
+          287.8
         ]
       ],
       "name": "Elektronikgeräte",
@@ -180,10 +180,6 @@
       "color": "#2E1435",
       "legendIndex": 5,
       "data": [
-        [
-          "2011",
-          565.4
-        ],
         [
           "2012",
           564.5
@@ -215,6 +211,10 @@
         [
           "2019",
           383.8
+        ],
+        [
+          "2020",
+          387.5
         ]
       ],
       "name": "Haushalt, Textil, Einrichtung",
@@ -224,10 +224,6 @@
       "color": "#662673",
       "legendIndex": 4,
       "data": [
-        [
-          "2011",
-          821.2
-        ],
         [
           "2012",
           772.4
@@ -259,6 +255,10 @@
         [
           "2019",
           620.1
+        ],
+        [
+          "2020",
+          586.5
         ]
       ],
       "name": "Bücher, Sport, Spielwaren",
@@ -268,10 +268,6 @@
       "color": "#923F8D",
       "legendIndex": 3,
       "data": [
-        [
-          "2011",
-          1324.4
-        ],
         [
           "2012",
           1307.7
@@ -303,6 +299,10 @@
         [
           "2019",
           885.2
+        ],
+        [
+          "2020",
+          819.9
         ]
       ],
       "name": "Kleider, Schuhe, Lederwaren",
@@ -312,10 +312,6 @@
       "color": "#B375AB",
       "legendIndex": 2,
       "data": [
-        [
-          "2011",
-          866.3
-        ],
         [
           "2012",
           848.6
@@ -347,6 +343,10 @@
         [
           "2019",
           794.3
+        ],
+        [
+          "2020",
+          788.9
         ]
       ],
       "name": "Apotheken, Kosmetik",
@@ -356,10 +356,6 @@
       "color": "#E7CEE2",
       "legendIndex": 1,
       "data": [
-        [
-          "2011",
-          267.1
-        ],
         [
           "2012",
           256
@@ -391,6 +387,10 @@
         [
           "2019",
           178.2
+        ],
+        [
+          "2020",
+          167.9
         ]
       ],
       "name": "Uhren und Schmuck",
@@ -400,10 +400,6 @@
       "color": "#C9D6DB",
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          780.3
-        ],
         [
           "2012",
           756.3
@@ -435,6 +431,10 @@
         [
           "2019",
           684.4
+        ],
+        [
+          "2020",
+          675.1
         ]
       ],
       "name": "Sonstiger Detailhandel",
@@ -583,7 +583,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

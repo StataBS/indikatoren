@@ -5,10 +5,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2011",
-          103.9
-        ],
-        [
           "2012",
           107
         ],
@@ -39,6 +35,10 @@
         [
           "2019",
           40.7
+        ],
+        [
+          "2020",
+          37.3
         ]
       ],
       "name": "Bauschreinerei, Fenster und Türen",
@@ -48,10 +48,6 @@
       "color": "#FABD24",
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          204.4
-        ],
         [
           "2012",
           200.5
@@ -83,6 +79,10 @@
         [
           "2019",
           271.3
+        ],
+        [
+          "2020",
+          258
         ]
       ],
       "name": "Schreinerarbeiten im Innenausbau und sonstiges Schreinereigewerbe",
@@ -226,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

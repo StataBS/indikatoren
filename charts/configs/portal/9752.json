@@ -1,0 +1,690 @@
+{
+  "series": [
+    {
+      "color": "#73b97c",
+      "index": 0,
+      "type": "column",
+      "yAxis": 1,
+      "data": [
+        [
+          "2013-01",
+          24
+        ],
+        [
+          "2013-02",
+          42
+        ],
+        [
+          "2013-03",
+          53
+        ],
+        [
+          "2013-04",
+          27
+        ],
+        [
+          "2014-01",
+          20
+        ],
+        [
+          "2014-02",
+          22
+        ],
+        [
+          "2014-03",
+          39
+        ],
+        [
+          "2014-04",
+          20
+        ],
+        [
+          "2015-01",
+          114
+        ],
+        [
+          "2015-02",
+          46
+        ],
+        [
+          "2015-03",
+          92
+        ],
+        [
+          "2015-04",
+          23
+        ],
+        [
+          "2016-01",
+          27
+        ],
+        [
+          "2016-02",
+          33
+        ],
+        [
+          "2016-03",
+          45
+        ],
+        [
+          "2016-04",
+          31
+        ],
+        [
+          "2017-01",
+          19
+        ],
+        [
+          "2017-02",
+          33
+        ],
+        [
+          "2017-03",
+          40
+        ],
+        [
+          "2017-04",
+          25
+        ],
+        [
+          "2018-01",
+          9
+        ],
+        [
+          "2018-02",
+          29
+        ],
+        [
+          "2018-03",
+          46
+        ],
+        [
+          "2018-04",
+          18
+        ],
+        [
+          "2019-01",
+          21
+        ],
+        [
+          "2019-02",
+          26
+        ],
+        [
+          "2019-03",
+          48
+        ],
+        [
+          "2019-04",
+          18
+        ],
+        [
+          "2020-01",
+          24
+        ],
+        [
+          "2020-02",
+          17
+        ],
+        [
+          "2020-03",
+          49
+        ],
+        [
+          "2020-04",
+          10
+        ],
+        [
+          "2021-01",
+          18
+        ],
+        [
+          "2021-02",
+          19
+        ],
+        [
+          "2021-03",
+          35
+        ],
+        [
+          "2021-04",
+          25
+        ],
+        [
+          "2022-01",
+          28
+        ],
+        [
+          "2022-02",
+          32
+        ],
+        [
+          "2022-03",
+          52
+        ],
+        [
+          "2022-04",
+          31
+        ]
+      ],
+      "name": "Zuwanderung Erwerbstätige Freizeit und Unterhaltung (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2013-01",
+          328
+        ],
+        [
+          "2013-02",
+          320
+        ],
+        [
+          "2013-03",
+          305
+        ],
+        [
+          "2013-04",
+          306
+        ],
+        [
+          "2014-01",
+          318
+        ],
+        [
+          "2014-02",
+          295
+        ],
+        [
+          "2014-03",
+          269
+        ],
+        [
+          "2014-04",
+          280
+        ],
+        [
+          "2015-01",
+          289
+        ],
+        [
+          "2015-02",
+          302
+        ],
+        [
+          "2015-03",
+          308
+        ],
+        [
+          "2015-04",
+          308
+        ],
+        [
+          "2016-01",
+          332
+        ],
+        [
+          "2016-02",
+          288
+        ],
+        [
+          "2016-03",
+          299
+        ],
+        [
+          "2016-04",
+          297
+        ],
+        [
+          "2017-01",
+          301
+        ],
+        [
+          "2017-02",
+          309
+        ],
+        [
+          "2017-03",
+          309
+        ],
+        [
+          "2017-04",
+          296
+        ],
+        [
+          "2018-01",
+          282
+        ],
+        [
+          "2018-02",
+          284
+        ],
+        [
+          "2018-03",
+          295
+        ],
+        [
+          "2018-04",
+          289
+        ],
+        [
+          "2019-01",
+          266
+        ],
+        [
+          "2019-02",
+          278
+        ],
+        [
+          "2019-03",
+          297
+        ],
+        [
+          "2019-04",
+          305
+        ],
+        [
+          "2020-01",
+          311
+        ],
+        [
+          "2020-02",
+          303
+        ],
+        [
+          "2020-03",
+          326
+        ],
+        [
+          "2020-04",
+          340
+        ],
+        [
+          "2021-01",
+          305
+        ],
+        [
+          "2021-02",
+          321
+        ],
+        [
+          "2021-03",
+          336
+        ],
+        [
+          "2021-04",
+          337
+        ],
+        [
+          "2022-01",
+          349
+        ],
+        [
+          "2022-02",
+          350
+        ],
+        [
+          "2022-03",
+          369
+        ],
+        [
+          "2022-04",
+          374
+        ]
+      ],
+      "name": "Bestand Grenzgänger Kunst, Unterhaltung und Erholung",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          "2013-01",
+          131
+        ],
+        [
+          "2013-02",
+          54
+        ],
+        [
+          "2013-03",
+          41
+        ],
+        [
+          "2013-04",
+          90
+        ],
+        [
+          "2014-01",
+          42
+        ],
+        [
+          "2014-02",
+          90
+        ],
+        [
+          "2014-03",
+          52
+        ],
+        [
+          "2014-04",
+          88
+        ],
+        [
+          "2015-01",
+          55
+        ],
+        [
+          "2015-02",
+          55
+        ],
+        [
+          "2015-03",
+          39
+        ],
+        [
+          "2015-04",
+          119
+        ],
+        [
+          "2016-01",
+          72
+        ],
+        [
+          "2016-02",
+          93
+        ],
+        [
+          "2016-03",
+          39
+        ],
+        [
+          "2016-04",
+          85
+        ],
+        [
+          "2017-01",
+          70
+        ],
+        [
+          "2017-02",
+          56
+        ],
+        [
+          "2017-03",
+          51
+        ],
+        [
+          "2017-04",
+          103
+        ],
+        [
+          "2018-01",
+          53
+        ],
+        [
+          "2018-02",
+          59
+        ],
+        [
+          "2018-03",
+          62
+        ],
+        [
+          "2018-04",
+          121
+        ],
+        [
+          "2019-01",
+          66
+        ],
+        [
+          "2019-02",
+          69
+        ],
+        [
+          "2019-03",
+          45
+        ],
+        [
+          "2019-04",
+          120
+        ],
+        [
+          "2020-01",
+          63
+        ],
+        [
+          "2020-02",
+          24
+        ],
+        [
+          "2020-03",
+          31
+        ],
+        [
+          "2020-04",
+          60
+        ],
+        [
+          "2021-01",
+          30
+        ],
+        [
+          "2021-02",
+          47
+        ],
+        [
+          "2021-03",
+          52
+        ],
+        [
+          "2021-04",
+          70
+        ],
+        [
+          "2022-01",
+          59
+        ],
+        [
+          "2022-02",
+          64
+        ],
+        [
+          "2022-03",
+          44
+        ],
+        [
+          "2022-04",
+          105
+        ]
+      ],
+      "name": "Bestand Meldepflichtige in VZÄ Kirche, Kultur, Sport, Unterhaltung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": 17,
+      "formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickInterval": 4
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "renderTo": "container-9752",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Ausländische Erwerbstätige in der Branche Sport und Erholung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 7
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "tickAmount": 7,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 0
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": "9752"
+  }
+}

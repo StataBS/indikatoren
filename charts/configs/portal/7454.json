@@ -10,22 +10,6 @@
       "type": "line",
       "data": [
         [
-          "2012-01",
-          622
-        ],
-        [
-          "2012-02",
-          676
-        ],
-        [
-          "2012-03",
-          798
-        ],
-        [
-          "2012-04",
-          784
-        ],
-        [
           "2013-01",
           805
         ],
@@ -139,35 +123,51 @@
         ],
         [
           "2020-01",
-          1342
+          1332
         ],
         [
           "2020-02",
-          1381
+          1374
         ],
         [
           "2020-03",
-          1343
+          1344
         ],
         [
           "2020-04",
-          1310
+          1290
         ],
         [
           "2021-01",
-          1395
+          1423
         ],
         [
           "2021-02",
-          1311
+          1339
         ],
         [
           "2021-03",
-          1306
+          1332
         ],
         [
           "2021-04",
-          1350
+          1376
+        ],
+        [
+          "2022-01",
+          1465
+        ],
+        [
+          "2022-02",
+          1480
+        ],
+        [
+          "2022-03",
+          1518
+        ],
+        [
+          "2022-04",
+          1500
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -182,22 +182,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2012-01",
-          41
-        ],
-        [
-          "2012-02",
-          36
-        ],
-        [
-          "2012-03",
-          27
-        ],
-        [
-          "2012-04",
-          37
-        ],
         [
           "2013-01",
           54
@@ -341,6 +325,22 @@
         [
           "2021-04",
           26
+        ],
+        [
+          "2022-01",
+          22
+        ],
+        [
+          "2022-02",
+          24
+        ],
+        [
+          "2022-03",
+          28
+        ],
+        [
+          "2022-04",
+          27
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -484,7 +484,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
   },
   "tooltip": {
     "shared": true,

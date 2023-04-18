@@ -2565,7 +2565,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Detailhandel",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2019 lag sie bei rund 6 500 Vollzeitäquivalenten (2011: 7 800). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (900 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ). Absolut betrachtet, ist der stärkste Rückgang im Vergleich zu 2011 im Bereich Kleider, Schuhe, Lederwaren zu beobachten (400 VZÄ bzw. 33%).",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2020 lag sie bei rund 6 200 Vollzeitäquivalenten (2011: 7 800). Rund 1 900 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (800 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2580,7 +2580,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.07443",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.4-01",
+		"kuerzelKunde": "4.4.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.4 Detailhandel",
 		"stufe3": "",
@@ -2590,7 +2590,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:39",
+		"aktualisierungsdatum": "2023-04-18T08:01:27",
 		"id": 7443
 	},
 	{
@@ -2604,7 +2604,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote im Detailhandel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Detailhandel liegt im Dezember 2021 bei 223 Personen und damit fast gleich hoch wie im Vorjahresmonat. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei rund 4,4%.",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Detailhandel liegt im Dezember 2022 bei 147 Personen und damit tiefer als im gleichen Vorjahresmonat. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,5%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2619,7 +2619,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.07444",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.4-02",
+		"kuerzelKunde": "4.4.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.4 Detailhandel",
 		"stufe3": "",
@@ -2629,7 +2629,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:39",
+		"aktualisierungsdatum": "2023-04-18T08:01:28",
 		"id": 7444
 	},
 	{
@@ -2643,7 +2643,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige im Detailhandel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger im Detailhandel bei 1 517 Personen und ist damit wie schon in den Jahren zuvor weiter rückläufig. Die Zuwanderung von Kurz- und Daueraufenthaltern liegt bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 90 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger im Detailhandel bei 1 467 Personen und ist damit wie schon in den Jahren zuvor weiter rückläufig. Die Zuwanderung von Kurz- und Daueraufenthaltern liegt bei 20 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 113 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2659,7 +2659,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.07445",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.4-03",
+		"kuerzelKunde": "4.4.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.4 Detailhandel",
 		"stufe3": "",
@@ -2669,7 +2669,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:40",
+		"aktualisierungsdatum": "2023-04-18T08:01:29",
 		"id": 7445
 	},
 	{
@@ -2683,7 +2683,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2018 bei 4 800 Franken brutto und damit etwa gleich hoch wie im Jahr 2016.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei 4 900 Franken brutto und damit leicht höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2698,7 +2698,7 @@ var indikatorensetData = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.07446",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.4-04",
+		"kuerzelKunde": "4.4.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.4 Detailhandel",
 		"stufe3": "",
@@ -2708,7 +2708,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:41",
+		"aktualisierungsdatum": "2023-04-18T08:01:30",
 		"id": 7446
 	},
 	{
@@ -2722,7 +2722,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Landverkehr",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Rund 3 700 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2019 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 600 weniger als 2014, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind die Personenbeförderung auf der Schiene mit rund 1 200 VZÄ, die Personenbeförderung im Nahverkehr (ohne Taxis) mit 1 000 VZÄ sowie die Güterbeförderung im Strassenverkehr mit rund 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"lesehilfe": "Rund 3 600 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2020 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 700 weniger als 2014, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind die Personenbeförderung auf der Schiene mit rund 1 200 VZÄ, die Personenbeförderung im Nahverkehr (ohne Taxis) mit 1 000 VZÄ sowie die Güterbeförderung im Strassenverkehr mit rund 800 VZÄ. Der Betrieb von Taxis macht rund 300 VZÄ aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2737,7 +2737,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.07447",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.5-01",
+		"kuerzelKunde": "4.5.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Landverkehr",
 		"stufe3": "",
@@ -2747,7 +2747,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:41",
+		"aktualisierungsdatum": "2023-04-18T08:01:31",
 		"id": 7447
 	},
 	{
@@ -2761,7 +2761,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 sind in der Branche Landverkehr 67 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2021 beträgt 4,8%.",
+		"lesehilfe": "Ende 2022 sind in der Branche Landverkehr 49 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2022 beträgt 3,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2776,7 +2776,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.07448",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.5-02",
+		"kuerzelKunde": "4.5.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Landverkehr",
 		"stufe3": "",
@@ -2786,7 +2786,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:42",
+		"aktualisierungsdatum": "2023-04-18T08:01:32",
 		"id": 7448
 	},
 	{
@@ -2800,7 +2800,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Landverkehr bei 567 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt 29 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen umgerechnet 37 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger in der Branche Landverkehr bei 525 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt 22 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen umgerechnet 21 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2816,7 +2816,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.07449",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.5-03",
+		"kuerzelKunde": "4.5.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Landverkehr",
 		"stufe3": "",
@@ -2826,7 +2826,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:42",
+		"aktualisierungsdatum": "2023-04-18T08:01:33",
 		"id": 7449
 	},
 	{
@@ -2840,7 +2840,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Landverkehr",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Vergleich zum Jahr 2014 hat der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 6 600 auf rund 5 200 Franken im Jahr 2018 abgenommen.",
+		"lesehilfe": "Im Jahr 2020 liegt der Medianlohn für den Landverkehr in der Nordwestschweiz bei brutto 5 500 Franken und damit deutlich tiefer als 2014 mit brutto 6 600 Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2855,7 +2855,7 @@ var indikatorensetData = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.07450",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.5-04",
+		"kuerzelKunde": "4.5.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Landverkehr",
 		"stufe3": "",
@@ -2865,7 +2865,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:43",
+		"aktualisierungsdatum": "2023-04-18T08:01:34",
 		"id": 7450
 	},
 	{
@@ -2879,7 +2879,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung in der Branche IT-Dienstleistungen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) arbeiten im Jahr 2019 in Basel-Stadt in Vollzeitäquivalente umgerechnet rund 2 500 Beschäftigte. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit rund 1 200 bzw. 1 100 VZÄ auf.",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) arbeiten im Jahr 2020 in Basel-Stadt in Vollzeitäquivalente umgerechnet rund 2 700 Beschäftigte. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit rund 1 300 bzw. 1 100 VZÄ auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2894,7 +2894,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.07452",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.6-01",
+		"kuerzelKunde": "4.6.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 IT-Dienstleistungen",
 		"stufe3": "",
@@ -2904,7 +2904,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:44",
+		"aktualisierungsdatum": "2023-04-18T08:01:34",
 		"id": 7452
 	},
 	{
@@ -2918,7 +2918,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 sind in Basel-Stadt im  Bereich IT-Dienstleistungen 65 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 4,4%.",
+		"lesehilfe": "Ende 2022 sind in Basel-Stadt im  Bereich IT-Dienstleistungen 48 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,3%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2933,7 +2933,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.07453",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.6-02",
+		"kuerzelKunde": "4.6.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 IT-Dienstleistungen",
 		"stufe3": "",
@@ -2943,7 +2943,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:45",
+		"aktualisierungsdatum": "2023-04-18T08:01:35",
 		"id": 7453
 	},
 	{
@@ -2957,7 +2957,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2021 arbeiten in Basel-Stadt 1 350 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 26 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2022 arbeiten in Basel-Stadt 1 500 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 27 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2973,7 +2973,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.07454",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.6-03",
+		"kuerzelKunde": "4.6.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 IT-Dienstleistungen",
 		"stufe3": "",
@@ -2983,7 +2983,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:45",
+		"aktualisierungsdatum": "2023-04-18T08:01:36",
 		"id": 7454
 	},
 	{
@@ -2997,7 +2997,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche IT-Dienstleistungen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2018 bei rund 8 700 Franken brutto und damit etwa gleich hoch wie 2016.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2020 bei rund 9 300 Franken brutto und damit höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3012,7 +3012,7 @@ var indikatorensetData = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.07455",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.6-04",
+		"kuerzelKunde": "4.6.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 IT-Dienstleistungen",
 		"stufe3": "",
@@ -3022,7 +3022,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:46",
+		"aktualisierungsdatum": "2023-04-18T08:01:37",
 		"id": 7455
 	},
 	{
@@ -3538,7 +3538,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08689",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.8-01",
+		"kuerzelKunde": "4.8.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Private Haushaltsdienstleistungen",
 		"stufe3": "",
@@ -3548,7 +3548,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:48",
+		"aktualisierungsdatum": "2023-04-18T08:01:41",
 		"id": 8689
 	},
 	{
@@ -3562,7 +3562,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 345 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen liegt bei 8 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 311 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen liegt bei 15 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3578,7 +3578,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.08690",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.8-02",
+		"kuerzelKunde": "4.8.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Private Haushaltsdienstleistungen",
 		"stufe3": "",
@@ -3588,7 +3588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:49",
+		"aktualisierungsdatum": "2023-04-18T08:01:42",
 		"id": 8690
 	},
 	{
@@ -3767,7 +3767,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 2 000 Vollzeitäquivalenten (VZÄ) im Jahr 2019 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 300 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ nahezu unverändert.",
+		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 1 900 Vollzeitäquivalenten (VZÄ) im Jahr 2020 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 200 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ leicht zurückgegangen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3782,7 +3782,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09219",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.1-01",
+		"kuerzelKunde": "4.1.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
@@ -3792,7 +3792,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:30",
+		"aktualisierungsdatum": "2023-04-18T08:01:17",
 		"id": 9219
 	},
 	{
@@ -3806,7 +3806,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Arbeitslosen in der Nahrungsmittelindustrie hat im Vergleich zum Vorjahr abgenommen und liegt im Dezember 2021 bei 53. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 7,3%.",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Nahrungsmittelindustrie hat im Vergleich zum Vorjahr abgenommen und liegt im Dezember 2022 bei 36. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 4,9%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -3822,7 +3822,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.09220",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.1-02",
+		"kuerzelKunde": "4.1.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
@@ -3832,7 +3832,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:31",
+		"aktualisierungsdatum": "2023-04-18T08:01:18",
 		"id": 9220
 	},
 	{
@@ -3846,7 +3846,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) bei 1 079 und damit  leicht höher als 2012. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt in der Nahrungsmittelindustrie 4 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) bei 1 035 und damit  leicht tiefer als 2013. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt in der Nahrungsmittelindustrie 9 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3862,7 +3862,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.09221",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.1-03",
+		"kuerzelKunde": "4.1.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
@@ -3872,7 +3872,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:31",
+		"aktualisierungsdatum": "2023-04-18T08:01:19",
 		"id": 9221
 	},
 	{
@@ -3886,7 +3886,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 liegt der Medianlohn in der Nahrungsmittelindustrie bei rund 5 200 Franken brutto und bleibt damit im Vergleich zum Jahr 2016 nahezu unverändert.",
+		"lesehilfe": "Im Jahr 2020 liegt der Medianlohn in der Nahrungsmittelindustrie bei rund 5 200 Franken brutto und bleibt damit im Vergleich zum Jahr 2018 nahezu unverändert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3901,7 +3901,7 @@ var indikatorensetData = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.09222",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.1-04",
+		"kuerzelKunde": "4.1.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
@@ -3911,7 +3911,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:32",
+		"aktualisierungsdatum": "2023-04-18T08:01:19",
 		"id": 9222
 	},
 	{
@@ -3925,7 +3925,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Schreinereigewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Schreinereigewerbe (NOGA 16) sind in Basel-Stadt im Jahr 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 310 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Schreinerarbeiten im Innenausbau (270 VZÄ) sowie Bauschreinerei, Fenster und Türen (40 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 5,5% zurückgegangen.",
+		"lesehilfe": "Im Schreinereigewerbe (NOGA 16) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 300 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Schreinerarbeiten im Innenausbau (260 VZÄ) sowie Bauschreinerei, Fenster und Türen (40 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 5,4% zurückgegangen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3940,7 +3940,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09223",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-01",
+		"kuerzelKunde": "4.2.1",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -3950,7 +3950,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:33",
+		"aktualisierungsdatum": "2023-04-18T08:01:20",
 		"id": 9223
 	},
 	{
@@ -3964,7 +3964,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Schreinereigewerbe liegt in den letzten Jahren meist bei weniger als 20 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 3,5%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Schreinereigewerbe liegt in den letzten Jahren meist bei weniger als 20 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,2%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3979,7 +3979,7 @@ var indikatorensetData = [
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.09224",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-02",
+		"kuerzelKunde": "4.2.2",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -3989,7 +3989,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:34",
+		"aktualisierungsdatum": "2023-04-18T08:01:21",
 		"id": 9224
 	},
 	{
@@ -4003,7 +4003,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 128 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 124 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -4019,7 +4019,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.09225",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-03",
+		"kuerzelKunde": "4.2.3",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -4029,7 +4029,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:35",
+		"aktualisierungsdatum": "2023-04-18T08:01:22",
 		"id": 9225
 	},
 	{
@@ -4043,7 +4043,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Schreinereigewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 lag der Medianlohn im Schreinereigewerbe in der Nordwestschweiz bei 5 700 Franken brutto und damit etwas tiefer als 2016 mit 5800 Franken brutto.",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn im Schreinereigewerbe in der Nordwestschweiz bei 6 100 Franken brutto und damit höher als 2018 mit 5700 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -4058,7 +4058,7 @@ var indikatorensetData = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.09226",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "4.2-04",
+		"kuerzelKunde": "4.2.4",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
@@ -4068,7 +4068,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:27:36",
+		"aktualisierungsdatum": "2023-04-18T08:01:23",
 		"id": 9226
 	},
 	{
@@ -4228,5 +4228,281 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-03-29T08:27:38",
 		"id": 9493
+	},
+	{
+		"template": "template001",
+		"data-id": 9750,
+		"chart-id": 9750,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9773
+		],
+		"title": "Beschäftigung in der Branche Sport und Erholung",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In der Branche Sport und Erholung (NOGA 93) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 650 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Sportvereine (280 VZÄ), Fitnesszentren (210 VZÄ) und Betrieb von Sportanlagen (120 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 8,8% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09750",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.1",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Sport und Erholung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_301",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:24",
+		"id": 9750
+	},
+	{
+		"template": "line001",
+		"data-id": 9751,
+		"chart-id": 9751,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9774
+		],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Sport und Erholung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Sport und Erholung hat im Vergleich zum Vorjahr abgenommen und liegt im Dezember 2022 bei 12. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,3%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.09751",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.2",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Sport und Erholung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_302",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:25",
+		"id": 9751
+	},
+	{
+		"template": "template001",
+		"data-id": 9752,
+		"chart-id": 9752,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9775
+		],
+		"title": "Ausländische Erwerbstätige in der Branche Sport und Erholung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 374 Grenzgänger in der Branche Kunst, Unterhaltung und Erholung (NOGA 90-93) tätig. Die Zuwanderung in der Branche Freizeit und Unterhaltung liegt bei 31 Personen. Im Branchenaggregat Kirche, Kultur, Sport, Unterhaltung machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 105 Stellen aus.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländische Erwerbstätige in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.09752",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.3",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Sport und Erholung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_303",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:26",
+		"id": 9752
+	},
+	{
+		"template": "template001",
+		"data-id": 9753,
+		"chart-id": 9753,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9776
+		],
+		"title": "Medianlohn in der Branche Sport und Erholung",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn in der Branche Sport und Erholung in der Nordwestschweiz bei 5 600 Franken brutto und damit etwas höher als 2018.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.09753",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.4",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Sport und Erholung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_304",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:27",
+		"id": 9753
+	},
+	{
+		"template": "template001",
+		"data-id": 9754,
+		"chart-id": 9754,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9777
+		],
+		"title": "Beschäftigung in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In der Branche Gebäudebetreuung, Garten- und Landschaftsbau (NOGA 81) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 3 100 Beschäftigte tätig. Diese Beschäftigten teilen sich auf die Bereiche Reinigung von Gebäuden, Strassen und Verkehrsmitteln (2400 VZÄ), Hausmeisterdienste (500 VZÄ) sowie Garten- und Landschaftsbau und sonstige gärtnerische Dienstleistungen (200 VZÄ) auf. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,2% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09754",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7.1",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Gebäudebetreuung, Garten- und Landschaftsbau",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_701",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:38",
+		"id": 9754
+	},
+	{
+		"template": "line001",
+		"data-id": 9755,
+		"chart-id": 9755,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9778
+		],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2022 sind in der Branche Gebäudebetreuung, Garten- und Landschaftsbau 180 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2022 beträgt 7,9%.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.09755",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7.2",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Gebäudebetreuung, Garten- und Landschaftsbau",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_702",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:39",
+		"id": 9755
+	},
+	{
+		"template": "template001",
+		"data-id": 9757,
+		"chart-id": 9757,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9780
+		],
+		"title": "Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau ist im Vergleich zu 2012 deutlich gestiegen und liegt 2020 bei rund 5 500 Franken brutto.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.09757",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7.3",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Gebäudebetreuung, Garten- und Landschaftsbau",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_703",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-18T08:01:40",
+		"id": 9757
 	}
 ];
