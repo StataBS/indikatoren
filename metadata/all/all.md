@@ -1083,10 +1083,10 @@ id | visible | visibleInPortal | indikatorenset
 7064 | true | false | Arbeitsmarkt (Print)
 7068 | true | true | 
 7432 | true | true | 
-7435 | true | false | Arbeitsmarkt
-7437 | true | false | Arbeitsmarkt
-7438 | true | false | Arbeitsmarkt
-7442 | true | false | Arbeitsmarkt
+7435 | false |  | Arbeitsmarkt
+7437 | false |  | Arbeitsmarkt
+7438 | false |  | Arbeitsmarkt
+7442 | false |  | Arbeitsmarkt
 7443 | true | false | Arbeitsmarkt
 7444 | true | false | Arbeitsmarkt
 7445 | true | false | Arbeitsmarkt
@@ -1103,14 +1103,14 @@ id | visible | visibleInPortal | indikatorenset
 7458 | false |  | Arbeitsmarkt
 7459 | false |  | Arbeitsmarkt
 7460 | false |  | Arbeitsmarkt
-7461 | true | false | Arbeitsmarkt
-7462 | true | false | Arbeitsmarkt
-7463 | true | false | Arbeitsmarkt
-7464 | true | false | Arbeitsmarkt
-7465 | true | false | Arbeitsmarkt
-7466 | true | false | Arbeitsmarkt
-7467 | true | false | Arbeitsmarkt
-7468 | true | false | Arbeitsmarkt
+7461 | false |  | Arbeitsmarkt
+7462 | false |  | Arbeitsmarkt
+7463 | false |  | Arbeitsmarkt
+7464 | false |  | Arbeitsmarkt
+7465 | false |  | Arbeitsmarkt
+7466 | false |  | Arbeitsmarkt
+7467 | false |  | Arbeitsmarkt
+7468 | false |  | Arbeitsmarkt
 7469 | false |  | Arbeitsmarkt
 7470 | false |  | Arbeitsmarkt
 7471 | false |  | Arbeitsmarkt
@@ -1770,17 +1770,17 @@ id | visible | visibleInPortal | indikatorenset
 8663 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
-8683 | true | false | Arbeitsmarkt
-8684 | true | false | Arbeitsmarkt
-8685 | true | false | Arbeitsmarkt
-8687 | true | false | Arbeitsmarkt
+8683 | false |  | Arbeitsmarkt
+8684 | false |  | Arbeitsmarkt
+8685 | false |  | Arbeitsmarkt
+8687 | false |  | Arbeitsmarkt
 8689 | true | false | Arbeitsmarkt
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
-8693 | true | false | Arbeitsmarkt
-8694 | true | false | Arbeitsmarkt
-8695 | true | false | Arbeitsmarkt
-8696 | true | false | Arbeitsmarkt
+8693 | false |  | Arbeitsmarkt
+8694 | false |  | Arbeitsmarkt
+8695 | false |  | Arbeitsmarkt
+8696 | false |  | Arbeitsmarkt
 8698 | true | false | Arbeitsmarkt (Print)
 8699 | true | false | Arbeitsmarkt (Print)
 8700 | true | false | Arbeitsmarkt (Print)
@@ -2149,10 +2149,10 @@ id | visible | visibleInPortal | indikatorenset
 9483 | true | false | City-Statistics (Print)
 9484 | true | false | City-Statistics (Print)
 9485 | true | false | City-Statistics (Print)
-9490 | true | true | Arbeitsmarkt
-9491 | true | true | Arbeitsmarkt
-9492 | true | true | Arbeitsmarkt
-9493 | true | true | Arbeitsmarkt
+9490 | false |  | Arbeitsmarkt
+9491 | false |  | Arbeitsmarkt
+9492 | false |  | Arbeitsmarkt
+9493 | false |  | Arbeitsmarkt
 9507 | true | true | Umwelt
 9508 | true | false | Arbeitsmarkt (Print)
 9509 | true | false | Arbeitsmarkt (Print)
@@ -2241,6 +2241,7 @@ id | visible | visibleInPortal | indikatorenset
 9753 | true | false | Arbeitsmarkt
 9754 | true | false | Arbeitsmarkt
 9755 | true | false | Arbeitsmarkt
+9756 | false |  | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
