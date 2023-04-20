@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#FF8028",
-      "index": 12,
+      "color": "#8B2223",
+      "index": 14,
       "data": [
         [
           "Basel-Stadt",
@@ -29,8 +29,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 11,
+      "color": "#DC440E",
+      "index": 13,
       "data": [
         [
           "Basel-Stadt",
@@ -57,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
-      "index": 10,
+      "color": "#FF8028",
+      "index": 12,
       "data": [
         [
           "Basel-Stadt",
@@ -85,8 +85,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 9,
+      "color": "#FFBB58",
+      "index": 11,
       "data": [
         [
           "Basel-Stadt",
@@ -113,8 +113,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D7E8D2",
-      "index": 8,
+      "color": "#FFDA80",
+      "index": 10,
       "data": [
         [
           "Basel-Stadt",
@@ -141,8 +141,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 7,
+      "color": "#007A2F",
+      "index": 9,
       "data": [
         [
           "Basel-Stadt",
@@ -169,8 +169,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2B0099",
-      "index": 6,
+      "color": "#D7E8D2",
+      "index": 8,
       "data": [
         [
           "Basel-Stadt",
@@ -197,8 +197,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "index": 5,
+      "color": "#73BA7C",
+      "index": 7,
       "data": [
         [
           "Basel-Stadt",
@@ -225,8 +225,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B9CFD7",
-      "index": 4,
+      "color": "#2B0099",
+      "index": 6,
       "data": [
         [
           "Basel-Stadt",
@@ -253,8 +253,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#672773",
-      "index": 3,
+      "color": "#008AC3",
+      "index": 5,
       "data": [
         [
           "Basel-Stadt",
@@ -281,8 +281,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
-      "index": 2,
+      "color": "#B9CFD7",
+      "index": 4,
       "data": [
         [
           "Basel-Stadt",
@@ -306,6 +306,62 @@
         ]
       ],
       "name": "Öff. Verwaltung, Bildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 3,
+      "data": [
+        [
+          "Basel-Stadt",
+          0.0675
+        ],
+        [
+          "Basel-Landschaft",
+          0.0808
+        ],
+        [
+          "Jura",
+          0.0844
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          0.073
+        ],
+        [
+          "Schweiz",
+          0.0797
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "data": [
+        [
+          "Basel-Stadt",
+          0.1129
+        ],
+        [
+          "Basel-Landschaft",
+          0.1242
+        ],
+        [
+          "Jura",
+          0.0922
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          0.1149
+        ],
+        [
+          "Schweiz",
+          0.17
+        ]
+      ],
+      "name": "Sonstige DL",
       "turboThreshold": 0
     }
   ],
@@ -445,7 +501,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.12.2022"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 20.4.2023"
   },
   "tooltip": {
     "pointFormatter": function () {

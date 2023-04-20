@@ -4871,7 +4871,7 @@
         ],
         [
           12,
-          null
+          -19
         ],
         [
           13,
@@ -5091,7 +5091,7 @@
         ],
         [
           12,
-          null
+          -4
         ],
         [
           13,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

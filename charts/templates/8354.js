@@ -43,8 +43,8 @@
       },
     },
     "series": [
-      //{"color": "#8B2223", "index": 14}, /*dunkelrot */
-      // {"color": "#DC440E", "index": 13}, /*hellrot */
+      {"color": "#8B2223", "index": 14}, /*dunkelrot */
+      {"color": "#DC440E", "index": 13}, /*hellrot */
       { "color": "#FF8028", "index": 12 }, /*dunkelorange */
       { "color": "#FFBB58", "index": 11 }, /*dunkelgelb */
       { "color": "#FFDA80", "index": 10 }, /*hellgelb */
