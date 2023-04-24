@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "85 906 Logiernächte wurden im Februar 2023 in den Basler Hotelbetrieben gebucht, 9 637 bzw. 12,6% mehr als im Januar. Im Vergleich zum Februar 2022 entspricht dies einer Zunahme um 74,0% bzw. 36 530 Übernachtungen. Die inländischen Gäste buchten 35 509 Logiernächte (+45,0%), die Gäste aus dem Ausland 50 397 Übernachtungen (+102,5%).",
+		"lesehilfe": "107 242 Logiernächte wurden im März 2023 in den Basler Hotelbetrieben gebucht, 21 336 bzw. 24,8% mehr als im Februar. Im Vergleich zum März 2022 entspricht dies einer Zunahme um 31,5% bzw. 25 704 Übernachtungen. Die inländischen Gäste buchten 37 658 Logiernächte (-0,2%), die Gäste aus dem Ausland 69 584 Übernachtungen (+58,8%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-22T08:30:59",
+		"aktualisierungsdatum": "2023-04-24T08:21:37",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 35%.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-22T08:30:59",
+		"aktualisierungsdatum": "2023-04-24T08:21:38",
 		"id": 7517
 	},
 	{

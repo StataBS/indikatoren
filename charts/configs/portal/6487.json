@@ -46,6 +46,10 @@
         [
           2021,
           12.5
+        ],
+        [
+          2022,
+          14.7
         ]
       ],
       "name": "Schweiz"
@@ -96,6 +100,10 @@
         [
           2021,
           11
+        ],
+        [
+          2022,
+          12.9
         ]
       ],
       "name": "Deutschland"
@@ -146,6 +154,10 @@
         [
           2021,
           21.6
+        ],
+        [
+          2022,
+          31.6
         ]
       ],
       "name": "Italien"
@@ -196,6 +208,10 @@
         [
           2021,
           30.6
+        ],
+        [
+          2022,
+          41.4
         ]
       ],
       "name": "Türkei"
@@ -246,6 +262,10 @@
         [
           2021,
           9.8
+        ],
+        [
+          2022,
+          17.9
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -296,6 +316,10 @@
         [
           2021,
           20.5
+        ],
+        [
+          2022,
+          39.1
         ]
       ],
       "name": "Balkan"
@@ -346,6 +370,10 @@
         [
           2021,
           28.4
+        ],
+        [
+          2022,
+          35.4
         ]
       ],
       "name": "Übrige Länder"
@@ -449,7 +477,8 @@
       },
       "format": "{value}"
     },
-    "max": 40
+    "tickInterval": 10,
+    "max": 50
   },
   "legend": {
     "enabled": true,
@@ -460,7 +489,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 140,
+    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -476,7 +505,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

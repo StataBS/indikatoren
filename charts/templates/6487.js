@@ -5,8 +5,8 @@
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
-    max: 40, 
+    tickInterval: 10,
+    max: 50, 
 	  "labels": {
 		  "format": "{value}"
 	  }
@@ -28,7 +28,7 @@
     "enabled": true,
     //"x": 45,
     //"y": 35,
-    "itemWidth": 140,
+    "itemWidth": 180,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
