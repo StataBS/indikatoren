@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          184
+          175
         ],
         [
           "Mittleres Kader",
-          317
+          340
         ],
         [
           "Mittleres Fachkader",
-          152
+          165
         ],
         [
           "Unteres Kader",
-          416
+          412
         ],
         [
           "Unteres Fachkader",
-          138
+          149
         ]
       ],
       "name": "Schweiz",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Oberes Kader",
-          8
+          9
         ],
         [
           "Mittleres Kader",
-          29
+          32
         ],
         [
           "Mittleres Fachkader",
-          20
+          14
         ],
         [
           "Unteres Kader",
-          54
+          58
         ],
         [
           "Unteres Fachkader",
-          22
+          24
         ]
       ],
       "name": "Deutschland",
@@ -77,7 +77,7 @@
         ],
         [
           "Unteres Kader",
-          3
+          5
         ],
         [
           "Unteres Fachkader",
@@ -127,7 +127,7 @@
         ],
         [
           "Mittleres Kader",
-          10
+          9
         ],
         [
           "Mittleres Fachkader",
@@ -135,7 +135,7 @@
         ],
         [
           "Unteres Kader",
-          11
+          9
         ],
         [
           "Unteres Fachkader",
@@ -255,7 +255,7 @@
         ],
         [
           "Unteres Fachkader",
-          0
+          1
         ]
       ],
       "name": "Arab. Länder",
@@ -411,7 +411,7 @@
     "text": "Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2012",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2013",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -468,7 +468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
