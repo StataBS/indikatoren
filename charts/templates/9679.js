@@ -22,15 +22,26 @@
             data = chart.series[0].data,
             assessed = chart.series[2].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
+            if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+              }
             }
           });
         }
@@ -47,7 +58,7 @@
     },
     "xAxis": {
       "tickInterval": 1,
-      labels:{
+      labels: {
         rotation: -45
       }
     },
