@@ -376,15 +376,26 @@
             data = chart.series[0].data,
             assessed = chart.series[2].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
+            if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+              }
             }
           });
         }
@@ -492,7 +503,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2023"
   },
   "tooltip": {
     "valueDecimals": 0,

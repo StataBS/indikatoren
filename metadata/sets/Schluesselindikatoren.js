@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:08",
+		"aktualisierungsdatum": "2023-04-27T08:59:40",
 		"id": 9663
 	},
 	{
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:09",
+		"aktualisierungsdatum": "2023-04-27T08:59:42",
 		"id": 9672
 	},
 	{
@@ -84,7 +84,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "<style type='text\\/css'> h2 {color: #333; font-size: 12px; font-weight: bold; margin-top: 10px; margin-bottom: 2px;}.circle { display:inline-block; border: 1px solid #0091f7; width: 10px; height: 10px; -webkit-border-radius: 25px; -moz-border-radius: 25px;  border-radius: 25px;} .r {background: #fb9999;} .y {background: #fbf659;} .g {background: #59fb59;}<\\/style>Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:<\\/h2> 220 000 Einwohnende bis 2035 <i>(Grundlage: Richtplan Basel-Stadt)<\\/i><br><h2>Ampelwerte:<\\/h2><div class='circle g'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle y'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum geringer als Zielpfad\\tbzw. Wert unter Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle r'><\\/div>\\tWert unter Zielpfad und Wachstum geringer als Zielpfad<br><br>",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:04",
+		"aktualisierungsdatum": "2023-04-27T08:59:34",
 		"id": 9673
 	},
 	{
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:08",
+		"aktualisierungsdatum": "2023-04-27T08:59:41",
 		"id": 9674
 	},
 	{
@@ -185,7 +185,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:09",
+		"aktualisierungsdatum": "2023-04-27T08:59:43",
 		"id": 9675
 	},
 	{
@@ -224,7 +224,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:10",
+		"aktualisierungsdatum": "2023-04-27T08:59:44",
 		"id": 9676
 	},
 	{
@@ -261,7 +261,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:10",
+		"aktualisierungsdatum": "2023-04-27T08:59:45",
 		"id": 9677
 	},
 	{
@@ -298,7 +298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:11",
+		"aktualisierungsdatum": "2023-04-27T08:59:46",
 		"id": 9679
 	},
 	{
@@ -337,7 +337,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:05",
+		"aktualisierungsdatum": "2023-04-27T08:59:35",
 		"id": 9680
 	},
 	{
@@ -377,7 +377,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:06",
+		"aktualisierungsdatum": "2023-04-27T08:59:36",
 		"id": 9682
 	},
 	{
@@ -414,7 +414,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:06",
+		"aktualisierungsdatum": "2023-04-27T08:59:37",
 		"id": 9684
 	},
 	{
@@ -452,7 +452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:07",
+		"aktualisierungsdatum": "2023-04-27T08:59:38",
 		"id": 9686
 	},
 	{
@@ -492,7 +492,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:07",
+		"aktualisierungsdatum": "2023-04-27T08:59:39",
 		"id": 9687
 	},
 	{
@@ -504,7 +504,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "<b>Zielwert:</b> Sozialhilfequote Basel entwickelt sich gleich oder besser im Ver-gleich zu Zürich, Bern, Winterthur und Biel <br><i>(Grundlage: ??)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote Basel entwickelt sich gleich oder besser im Vergleich zu Vergleichsstädten<br>Gelb: \tQuote Basel entwickelt sich leicht schlechter (≤ 0.3 %) im Vergleich zu Vergleichsstädten<br>Rot: \tQuote Basel entwickelt sich klar schlechter (> 0.3 %) im Vergleich zu Vergleichsstädten",
+		"lesehilfe": "<b>Zielwert:</b> Sozialhilfequote Basel entwickelt sich gleich oder besser im Vergleich zu Zürich, Bern, Winterthur und Biel <br><i>(Grundlage: ??)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote Basel entwickelt sich gleich oder besser im Vergleich zu Vergleichsstädten<br>Gelb: \tQuote Basel entwickelt sich leicht schlechter (≤ 0.3 %) im Vergleich zu Vergleichsstädten<br>Rot: \tQuote Basel entwickelt sich klar schlechter (> 0.3 %) im Vergleich zu Vergleichsstädten",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -529,7 +529,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-14T09:33:11",
+		"aktualisierungsdatum": "2023-04-27T08:59:47",
 		"id": 9693
 	}
 ];

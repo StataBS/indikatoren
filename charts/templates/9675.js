@@ -37,15 +37,26 @@
             data = chart.series[0].data,
             assessed = chart.series[1].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
+            if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+              }
             }
           });
         }
@@ -66,26 +77,26 @@
         x: -2
       },
       plotLines: [
-       /*{value: 1,
-          color: "#0091f7",
-          width: 1.5,
-        },*/
+        /*{value: 1,
+           color: "#0091f7",
+           width: 1.5,
+         },*/
         {
-        value: 1.5,
-        dashStyle: 'ShortDash',
-        color: "#999999",
-        width: 1.5,
-        label: {
-          text: "Zielwert: Rang 2",
-          rotation: 0,
-          y: 12,
-          style: {
-            color: "#999999",
-            fontWeight: "bold",
-            fontSize: 10
+          value: 1.5,
+          dashStyle: 'ShortDash',
+          color: "#999999",
+          width: 1.5,
+          label: {
+            text: "Zielwert: Rang 2",
+            rotation: 0,
+            y: 12,
+            style: {
+              color: "#999999",
+              fontWeight: "bold",
+              fontSize: 10
+            }
           }
-        }
-      }]
+        }]
     },
     "yAxis": {
       "max": 100,
@@ -116,34 +127,34 @@
         showInLegend: false
       },
     ],
-  /*"colors": [
-    "#A8C3CA",
-    "#0091f7",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-  ],*/
+    /*"colors": [
+      "#A8C3CA",
+      "#0091f7",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+      "#A8C3CA",
+    ],*/
 
-}
+  }
 }());
