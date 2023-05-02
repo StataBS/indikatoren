@@ -84,7 +84,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<style type='text\\/css'> h2 {color: #333; font-size: 12px; font-weight: bold; margin-top: 10px; margin-bottom: 2px;}.circle { display:inline-block; border: 1px solid #0091f7; width: 10px; height: 10px; -webkit-border-radius: 25px; -moz-border-radius: 25px;  border-radius: 25px;} .r {background: #fb9999;} .y {background: #fbf659;} .g {background: #59fb59;}<\\/style>Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:<\\/h2> 220 000 Einwohnende bis 2035 <i>(Grundlage: Richtplan Basel-Stadt)<\\/i><br><h2>Ampelwerte:<\\/h2><div class='circle g'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle y'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum geringer als Zielpfad\\tbzw. Wert unter Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle r'><\\/div>\\tWert unter Zielpfad und Wachstum geringer als Zielpfad<br><br>",
+		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:</h2> 220 000 Einwohnende bis 2035 <i>(Grundlage: Richtplan Basel-Stadt)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:34",
+		"aktualisierungsdatum": "2023-05-02T09:15:41",
 		"id": 9673
 	},
 	{

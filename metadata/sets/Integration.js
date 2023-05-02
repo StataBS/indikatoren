@@ -4106,8 +4106,8 @@ var indikatorensetData = [
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Im Jahr 2021 wurden 2 385 (Vorjahr 2 709) Gutscheine ausgestellt und 1 422 (Vorjahr 1 252) eingelöst. Damit hat sich die Einlösequote im Vorjahresvergleich deutlich erhöht. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (693) ausgestellt. Mit 95,2% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2021 bei Personen der zahlenmässig stärksten Gruppe EU-West + EFTA + UK (47,2%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 wurden 3 010 (Vorjahr 2 385) Gutscheine ausgestellt und 1 294 (Vorjahr 1 422) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr zurückgegangen. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (882) ausgestellt. Personen aus arabischen Ländern erreichten die höchste Einlösequote (81,3%), Personen aus der Gruppe EU-Ost die tiefste (28,0%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -4133,7 +4133,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:01",
+		"aktualisierungsdatum": "2023-05-02T09:15:42",
 		"id": 6514
 	},
 	{

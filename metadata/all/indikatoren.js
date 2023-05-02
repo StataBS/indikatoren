@@ -24244,8 +24244,8 @@ var indikatoren = [
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Im Jahr 2021 wurden 2 385 (Vorjahr 2 709) Gutscheine ausgestellt und 1 422 (Vorjahr 1 252) eingelöst. Damit hat sich die Einlösequote im Vorjahresvergleich deutlich erhöht. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (693) ausgestellt. Mit 95,2% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2021 bei Personen der zahlenmässig stärksten Gruppe EU-West + EFTA + UK (47,2%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 wurden 3 010 (Vorjahr 2 385) Gutscheine ausgestellt und 1 294 (Vorjahr 1 422) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr zurückgegangen. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (882) ausgestellt. Personen aus arabischen Ländern erreichten die höchste Einlösequote (81,3%), Personen aus der Gruppe EU-Ost die tiefste (28,0%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -24272,7 +24272,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:01",
+		"aktualisierungsdatum": "2023-05-02T09:15:42",
 		"id": 6514
 	},
 	{
@@ -79278,7 +79278,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<style type='text\\/css'> h2 {color: #333; font-size: 12px; font-weight: bold; margin-top: 10px; margin-bottom: 2px;}.circle { display:inline-block; border: 1px solid #0091f7; width: 10px; height: 10px; -webkit-border-radius: 25px; -moz-border-radius: 25px;  border-radius: 25px;} .r {background: #fb9999;} .y {background: #fbf659;} .g {background: #59fb59;}<\\/style>Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:<\\/h2> 220 000 Einwohnende bis 2035 <i>(Grundlage: Richtplan Basel-Stadt)<\\/i><br><h2>Ampelwerte:<\\/h2><div class='circle g'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle y'><\\/div>\\tWert auf\\/über Zielpfad und Wachstum geringer als Zielpfad\\tbzw. Wert unter Zielpfad und Wachstum gleich\\/stärker als Zielpfad<br><div class='circle r'><\\/div>\\tWert unter Zielpfad und Wachstum geringer als Zielpfad<br><br>",
+		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:</h2> 220 000 Einwohnende bis 2035 <i>(Grundlage: Richtplan Basel-Stadt)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -79304,7 +79304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:34",
+		"aktualisierungsdatum": "2023-05-02T09:15:41",
 		"id": 9673
 	},
 	{
