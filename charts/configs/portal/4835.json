@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          194.2
+          213.6
         ],
         [
           "Kleinhüningen",
-          248.4
+          223.5
         ],
         [
           "Rosental",
-          289.9
+          331.6
         ],
         [
           "Iselin",
-          512.1
+          490
         ],
         [
           "Breite",
-          607.3
-        ],
-        [
-          "St. Johann",
-          630.8
-        ],
-        [
-          "Gundeldingen",
-          641.6
+          601.3
         ],
         [
           "Matthäus",
-          671.9
+          628.7
         ],
         [
-          "Hirzbrunnen",
-          715.6
+          "St. Johann",
+          654.9
         ],
         [
           "Clara",
-          822
+          659.9
         ],
         [
-          "Wettstein",
-          1534.6
+          "Gundeldingen",
+          724.8
+        ],
+        [
+          "Hirzbrunnen",
+          740.6
         ],
         [
           "Altstadt Kleinbasel",
-          2095.8
-        ],
-        [
-          "Bachletten",
-          2359.1
+          1516.3
         ],
         [
           "Am Ring",
-          2376.6
+          2041.6
         ],
         [
-          "Gotthelf",
-          3596.8
+          "Wettstein",
+          2075.2
+        ],
+        [
+          "Bachletten",
+          2411.4
         ],
         [
           "Riehen",
-          3642.6
+          3371.9
         ],
         [
-          "Altstadt Grossbasel",
-          5768.8
+          "Gotthelf",
+          5011.5
         ],
         [
           "St. Alban",
-          6100.5
+          5324.4
+        ],
+        [
+          "Altstadt Grossbasel",
+          5644.8
         ],
         [
           "Bruderholz",
-          16656.1
-        ],
-        [
-          "Vorstädte",
-          17513.1
+          15202
         ],
         [
           "Bettingen",
-          20515.4
+          17009.8
+        ],
+        [
+          "Vorstädte",
+          18524.5
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -115,55 +115,55 @@
           5
         ],
         [
-          "St. Johann",
+          "Matthäus",
           6
         ],
         [
-          "Gundeldingen",
+          "St. Johann",
           7
         ],
         [
-          "Matthäus",
+          "Clara",
           8
         ],
         [
-          "Hirzbrunnen",
+          "Gundeldingen",
           9
         ],
         [
-          "Clara",
+          "Hirzbrunnen",
           10
         ],
         [
-          "Wettstein",
+          "Altstadt Kleinbasel",
           11
         ],
         [
-          "Altstadt Kleinbasel",
+          "Am Ring",
           12
         ],
         [
-          "Bachletten",
+          "Wettstein",
           13
         ],
         [
-          "Am Ring",
+          "Bachletten",
           14
         ],
         [
-          "Gotthelf",
+          "Riehen",
           15
         ],
         [
-          "Riehen",
+          "Gotthelf",
           16
         ],
         [
-          "Altstadt Grossbasel",
+          "St. Alban",
           17
         ],
         [
-          "St. Alban",
+          "Altstadt Grossbasel",
           18
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Vorstädte",
+          "Bettingen",
           20
         ],
         [
-          "Bettingen",
+          "Vorstädte",
           21
         ]
       ],
@@ -249,7 +249,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2020",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2023"
   },
   "legend": {
     "enabled": false,
