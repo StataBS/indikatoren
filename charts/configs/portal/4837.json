@@ -5,87 +5,87 @@
       "data": [
         [
           "Kleinhüningen",
-          0.5825095
+          0.5400006
         ],
         [
           "Klybeck",
-          0.6446787
-        ],
-        [
-          "Clara",
-          0.6882928
+          0.6312257
         ],
         [
           "Rosental",
-          0.7068611
-        ],
-        [
-          "St. Johann",
-          0.7097482
-        ],
-        [
-          "Hirzbrunnen",
-          0.7112519
+          0.6954556
         ],
         [
           "Iselin",
-          0.7117031
+          0.7032346
         ],
         [
-          "St. Alban",
-          0.717248
+          "Clara",
+          0.7071764
         ],
         [
-          "Matthäus",
-          0.7191912
+          "Hirzbrunnen",
+          0.712571
         ],
         [
-          "Gotthelf",
-          0.7255677
+          "St. Johann",
+          0.7132521
         ],
         [
           "Riehen",
-          0.7283179
+          0.713284
         ],
         [
           "Bettingen",
-          0.7283179
+          0.713284
         ],
         [
-          "Bruderholz",
-          0.7356224
+          "St. Alban",
+          0.7221409
         ],
         [
-          "Bachletten",
-          0.7526574
-        ],
-        [
-          "Vorstädte",
-          0.7530226
+          "Matthäus",
+          0.7224475
         ],
         [
           "Breite",
-          0.7530277
+          0.7281893
+        ],
+        [
+          "Bruderholz",
+          0.7315859
+        ],
+        [
+          "Gotthelf",
+          0.7351125
+        ],
+        [
+          "Bachletten",
+          0.7428527
         ],
         [
           "Gundeldingen",
-          0.7560823
+          0.7541674
         ],
         [
-          "Altstadt Kleinbasel",
-          0.7584403
+          "Vorstädte",
+          0.7578276
         ],
         [
           "Am Ring",
-          0.776574
+          0.7844061
         ],
         [
-          "Wettstein",
-          0.7896758
+          "Altstadt Kleinbasel",
+          0.7868084
         ],
         [
           "Altstadt Grossbasel",
-          0.8057185
+          0.7996012
+        ],
+        [
+          "Wettstein",
+          0.8086169
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -103,15 +103,15 @@
           2
         ],
         [
-          "Clara",
+          "Rosental",
           3
         ],
         [
-          "Rosental",
+          "Iselin",
           4
         ],
         [
-          "St. Johann",
+          "Clara",
           5
         ],
         [
@@ -119,63 +119,63 @@
           6
         ],
         [
-          "Iselin",
+          "St. Johann",
           7
         ],
         [
-          "St. Alban",
+          "Riehen",
           8
         ],
         [
-          "Matthäus",
-          9
+          "Bettingen",
+          8
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           10
         ],
         [
-          "Riehen",
+          "Matthäus",
           11
         ],
         [
-          "Bettingen",
-          11
+          "Breite",
+          12
         ],
         [
           "Bruderholz",
           13
         ],
         [
-          "Bachletten",
+          "Gotthelf",
           14
         ],
         [
-          "Vorstädte",
+          "Bachletten",
           15
         ],
         [
-          "Breite",
+          "Gundeldingen",
           16
         ],
         [
-          "Gundeldingen",
+          "Vorstädte",
           17
         ],
         [
-          "Altstadt Kleinbasel",
+          "Am Ring",
           18
         ],
         [
-          "Am Ring",
+          "Altstadt Kleinbasel",
           19
         ],
         [
-          "Wettstein",
+          "Altstadt Grossbasel",
           20
         ],
         [
-          "Altstadt Grossbasel",
+          "Wettstein",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2017 bis 2021",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2023"
   },
   "legend": {
     "enabled": false,
