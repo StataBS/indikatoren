@@ -54,6 +54,10 @@
         [
           1677632400000,
           2.8
+        ],
+        [
+          1680314400000,
+          2.3
         ]
       ],
       "name": "Basler Index"
@@ -112,6 +116,10 @@
         [
           1677632400000,
           2.9
+        ],
+        [
+          1680314400000,
+          2.6
         ]
       ],
       "name": "Landesindex"
@@ -251,7 +259,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 3.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
