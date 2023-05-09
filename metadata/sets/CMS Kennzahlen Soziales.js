@@ -680,7 +680,7 @@ var indikatorensetData = [
 		],
 		"title": "Minderjährige unbegleitete Flüchtlinge",
 		"subtitle": "nach Alter, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2012 wurden im Kanton Basel-Stadt 14 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44. Dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück. 2018 waren es noch 10. Seither hat ihre Zahl wieder leicht zugenommen. 2021 waren es 20. Nach Alter betrachtet, bildeten in fast allen Jahren jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. Nur 2018 waren die 8- bis 12-Jährigen am zahlreichsten.",
+		"lesehilfe": "Im Jahr 2022 wurden im Kanton Basel-Stadt 71 minderjährige unbegleitete Flüchtlinge registriert. Davon war die grösste Gruppe (45) zwischen 16 und 17 Jahre alt.",
 		"erlaeuterungen": "Als minderjährige unbegleitete Flüchtlinge werden Personen unter 18 Jahren bezeichnet, die in der Schweiz ein Asylgesuch stellen und nicht von den Eltern oder einer Person, welche die elterliche Sorge ausübt, begleitet werden.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:38:59",
+		"aktualisierungsdatum": "2023-05-09T08:26:48",
 		"id": 8258
 	},
 	{
@@ -1677,9 +1677,9 @@ var indikatorensetData = [
 		"parentId": "4832",
 		"children": [],
 		"title": "Anteil Grünflächen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -1705,7 +1705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-13T10:06:16",
+		"aktualisierungsdatum": "2023-05-09T08:26:49",
 		"id": 8284
 	},
 	{

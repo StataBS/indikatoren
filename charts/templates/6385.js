@@ -32,12 +32,12 @@ global geojson_wohnviertelEPSG2056
                 name: "30,0 − 31,9"
             }, {
                 from: 0.320,
-                to: 0.349,
+                to: 0.34999,
                  color: '#9E7C59',
                  name: "32,0 − 34,9"
             },{
                 from: 0.350,
-                to: 0.399,
+                to: 0.3999,
                  color: '#67401E',
                  name: "35,0 − 39,9"
             },{
