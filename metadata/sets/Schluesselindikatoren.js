@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:44",
+		"aktualisierungsdatum": "2023-05-11T08:14:31",
 		"id": 9663
 	},
 	{
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:46",
+		"aktualisierungsdatum": "2023-05-11T08:14:32",
 		"id": 9672
 	},
 	{
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:39",
+		"aktualisierungsdatum": "2023-05-11T08:14:28",
 		"id": 9673
 	},
 	{
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:45",
+		"aktualisierungsdatum": "2023-05-11T08:14:32",
 		"id": 9674
 	},
 	{
@@ -185,7 +185,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:47",
+		"aktualisierungsdatum": "2023-05-11T08:14:33",
 		"id": 9675
 	},
 	{
@@ -224,7 +224,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:48",
+		"aktualisierungsdatum": "2023-05-11T08:14:34",
 		"id": 9676
 	},
 	{
@@ -261,7 +261,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:49",
+		"aktualisierungsdatum": "2023-05-11T08:14:34",
 		"id": 9677
 	},
 	{
@@ -298,7 +298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:50",
+		"aktualisierungsdatum": "2023-05-11T08:14:35",
 		"id": 9679
 	},
 	{
@@ -312,7 +312,7 @@ var indikatorensetData = [
 		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><br><h2>Zielwert:</h2>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert > 90%</p><p>Wert = 80 bis 90%</p><p>Wert < 80%</p></div>",
+		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><h2>Zielwert:</h2>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert > 90%</p><p>Wert = 80 bis 90%</p><p>Wert < 80%</p></div>",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -337,7 +337,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:40",
+		"aktualisierungsdatum": "2023-05-11T08:14:28",
 		"id": 9680
 	},
 	{
@@ -377,7 +377,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:41",
+		"aktualisierungsdatum": "2023-05-11T08:14:29",
 		"id": 9682
 	},
 	{
@@ -414,7 +414,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:42",
+		"aktualisierungsdatum": "2023-05-11T08:14:29",
 		"id": 9684
 	},
 	{
@@ -452,7 +452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:43",
+		"aktualisierungsdatum": "2023-05-11T08:14:30",
 		"id": 9686
 	},
 	{
@@ -489,7 +489,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:43",
+		"aktualisierungsdatum": "2023-05-11T08:14:30",
 		"id": 9687
 	},
 	{
@@ -526,7 +526,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-10T08:57:51",
+		"aktualisierungsdatum": "2023-05-11T08:14:35",
 		"id": 9693
 	}
 ];
