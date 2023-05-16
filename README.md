@@ -10,18 +10,13 @@ npm run build
 - Build, commit and push as explained further down. 
 
 ## Create png files of each chart within an indikatorenset
-- In a terminal window within c9.io, run the following command: 
-```javascript
-npm run start-export-server
-```
 - In Chrome, open print.html?Indikatorenset=indikatorensetname 
-- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder. 
+- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder.
+- It uses a [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server) deployed on the StatA-Server [pdstatasvpapp05](highcharts-export.stata.pd.intranet.bs.ch)  
 - To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
 - To download a single chart as png, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://[c9-workspace-url]:8081&id=[chart-id]
 - At the end of the export session, it's best to stop the export server again: 
-```javascript
-npm run stop-export-server
-```
+
 
 ## Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
