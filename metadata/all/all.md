@@ -2243,6 +2243,7 @@ id | visible | visibleInPortal | indikatorenset
 9755 | true | false | Arbeitsmarkt
 9756 | false |  | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
+9785 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
