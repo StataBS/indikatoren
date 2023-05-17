@@ -25524,8 +25524,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Altstadt Grossbasel - Quartierradar",
-		"subtitle": "Ausgabe 2022",
-		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Jugendquotient ist der zweitniedrigste im ganzen Kanton. Die Bausubstanz ist die älteste in Basel-Stadt. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die höchste Erwerbstätigenquote.",
+		"subtitle": "Ausgabe 2023",
+		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Jugendquotient ist der zweitniedrigste im ganzen Kanton. Die Bausubstanz ist die älteste in Basel-Stadt. Die durchschnittliche Wohnfläche pro Einwohner ist relativ gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die zweithöchste Erwerbstätigenquote.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -25551,7 +25551,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-14T08:24:13",
+		"aktualisierungsdatum": "2023-05-17T08:55:24",
 		"id": 6630
 	},
 	{
@@ -50827,7 +50827,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden 709 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 720 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
 		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -50853,7 +50853,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:39:00",
+		"aktualisierungsdatum": "2023-05-17T08:55:16",
 		"id": 8287
 	},
 	{
@@ -74591,7 +74591,7 @@ var indikatoren = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 165 Geodatensätze öffentlich verfügbar.",
+		"lesehilfe": "Ende 2022 sind im kantonalen Datenportal 203 Datensätze von 34 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 175 Geodatensätze öffentlich verfügbar.",
 		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen; die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -74621,7 +74621,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-22T10:09:18",
+		"aktualisierungsdatum": "2023-05-17T08:55:22",
 		"id": 9394
 	},
 	{
@@ -79200,7 +79200,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "2021 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP <i>(Grundlage: FHG §4 Abs. 1)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
+		"lesehilfe": "2021 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -79226,7 +79226,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:31",
+		"aktualisierungsdatum": "2023-05-17T08:55:16",
 		"id": 9663
 	},
 	{
@@ -79238,7 +79238,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 beträgt der Anteil erneuerbar produzierter Energie am gesamten Bruttoenergieverbrauch 24,6%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum (16% im Vergleich zum Wert der letzten Erhebung) <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "2020 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 24,6%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum um 16% im Vergleich zum Wert der jeweils letzten Erhebung (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -79264,7 +79264,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:32",
+		"aktualisierungsdatum": "2023-05-17T08:55:17",
 		"id": 9672
 	},
 	{
@@ -79278,7 +79278,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:</h2>220 000 Einwohnende bis 2035. Zielpfad: lineares Wachstum (ca. 1 200 Einwohnende / Jahr) <i>(Grundlage: Kantonaler Richtplan Basel-Stadt)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><h2>Zielwert:</h2>220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: lineares Wachstum um ca. 1 200 Personen pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -79304,7 +79304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:28",
+		"aktualisierungsdatum": "2023-05-17T08:55:09",
 		"id": 9673
 	},
 	{
@@ -79316,7 +79316,7 @@ var indikatoren = [
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die energiebedingten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,32 Tonnen auf 3,11 Tonnen CO<sub>2</sub> pro Kopf ab.<br><h2>Zielwert:</h2>Netto-Null bis 2037. Zielpfad: lineare Reduktion (jährlich ca. 0,2 Tonnen/ Person)<i>(Grundlage: Gegenvorschlag des Grossen Rates zur Klimagerechtigkeitsinitiative, angenommen durch die Volksabstimmung vom 27.11.2022).</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert auf/unter Zielpfad und Reduktion geringer als Zielpfad <br>bzw. Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert über Zielpfad und Reduktion geringer als Zielpfad</p></div>",
+		"lesehilfe": "Die energiebedingten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,32 Tonnen auf 3,11 Tonnen CO<sub>2</sub> pro Kopf ab.<br><h2>Zielwert:</h2>Netto-Null bis 2037. Zielpfad: lineare Reduktion um jährlich ca. 0,2 Tonnen pro Person (Grundlage: Gegenvorschlag des Grossen Rates zur Klimagerechtigkeitsinitiative, angenommen durch die Volksabstimmung vom 27.11.2022).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert auf/unter Zielpfad und Reduktion geringer als Zielpfad <br>bzw. Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert über Zielpfad und Reduktion geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -79342,7 +79342,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:32",
+		"aktualisierungsdatum": "2023-05-17T08:55:17",
 		"id": 9674
 	},
 	{
@@ -79356,7 +79356,7 @@ var indikatoren = [
 		],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
-		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><h2>Zielwert:</h2>Mindestens zweiter Platz im Kantonsvergleich <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>1. und 2. Platz</p><p>3. Platz</p><p>4. Platz oder schlechter</p></div>",
+		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><h2>Zielwert:</h2>Mindestens zweiter Platz im Kantonsvergleich (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>1. und 2. Platz</p><p>3. Platz</p><p>4. Platz oder schlechter</p></div>",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
@@ -79382,7 +79382,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:33",
+		"aktualisierungsdatum": "2023-05-17T08:55:19",
 		"id": 9675
 	},
 	{
@@ -79396,7 +79396,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum (ca. 1 700 Beschäftigte / Jahr). <i>(Grundlage: Kantonaler Richtplan Basel-Stadt)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -79422,7 +79422,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:34",
+		"aktualisierungsdatum": "2023-05-17T08:55:21",
 		"id": 9676
 	},
 	{
@@ -79434,7 +79434,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2022 waren 3,05% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Rückgang von 0,81% gegenüber 2021.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich gleich oder besser als Arbeitslosenquote CH <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3%) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3%) als Quote CH</p></div>",
+		"lesehilfe": "2022 waren 3,05% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Rückgang von 0,81 Prozentpunkten gegenüber 2021.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -79460,7 +79460,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:34",
+		"aktualisierungsdatum": "2023-05-17T08:55:22",
 		"id": 9677
 	},
 	{
@@ -79472,7 +79472,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lebenserwartung",
 		"subtitle": "bei Geburt in Jahren, Basel-Stadt",
-		"lesehilfe": "Eine im Jahr 2020 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,5 Jahren.<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
+		"lesehilfe": "Eine im Jahr 2020 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,5 Jahren.<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -79498,7 +79498,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:35",
+		"aktualisierungsdatum": "2023-05-17T08:55:23",
 		"id": 9679
 	},
 	{
@@ -79512,7 +79512,7 @@ var indikatoren = [
 		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><h2>Zielwert:</h2>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert > 90%</p><p>Wert = 80 bis 90%</p><p>Wert < 80%</p></div>",
+		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><h2>Zielwert:</h2>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert > 90%</p><p>Wert = 80 bis 90%</p><p>Wert < 80%</p></div>",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -79538,7 +79538,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:28",
+		"aktualisierungsdatum": "2023-05-17T08:55:12",
 		"id": 9680
 	},
 	{
@@ -79550,7 +79550,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bildungsabschluss Sekundarstufe II",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2019 in Basel-Stadt bei 85,0%.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II <i>(Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2019 in Basel-Stadt bei 85,2%.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
 		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -79579,7 +79579,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:29",
+		"aktualisierungsdatum": "2023-05-17T08:55:13",
 		"id": 9682
 	},
 	{
@@ -79591,7 +79591,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen 2019 und 2022 betrug die Nettowohnungsproduktion 2 818 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum (ca. 600 Wohnungen / Jahr) <i>(Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnende bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Zwischen 2019 und 2022 betrug die Nettowohnungsproduktion 2 818 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -79617,7 +79617,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-16T09:08:06",
+		"aktualisierungsdatum": "2023-05-17T08:55:14",
 		"id": 9684
 	},
 	{
@@ -79627,9 +79627,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Mietpreise und Einkommen",
+		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2019 5,4 Indexpunkte über dem Wert von 2015, der Index des Medianeinkommens 1,5 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Medianeinkommen <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Medianeinkommen</p><p>Mietpreise und Medianeinkommen steigen gleich stark</p><p>Mietpreise steigen stärker als Medianeinkommen</p></div>",
+		"lesehilfe": "Der Mietpreisindex lag 2019 5,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 1,5 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -79640,7 +79640,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mietpreise und Einkommen",
+		"description": "Mietpreise und Reineinkommen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09686",
@@ -79656,7 +79656,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:30",
+		"aktualisierungsdatum": "2023-05-17T08:55:15",
 		"id": 9686
 	},
 	{
@@ -79668,8 +79668,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Verkehrsleistungsindex MIV im Stadtstrassennetz",
 		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"lesehilfe": "Der Verkehrsleistungsindex des MIV liegt 2021 bei 81,4 Punkten.<br><h2>Zielwert:</h2>Wert ist nicht grösser als Indexwert 2019 <i>(Grundlage: USG §13 bzw. VuV §5)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert steigt nicht und bleibt gleich/unter Indexwert 2019</p><p>Wert steigt und bleibt gleich/unter Indexwert 2019<br>bzw. Wert steigt nicht und ist über Indexwert 2019</p><p>Wert steigt und ist über Indexwert 2019</p></div>",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br><br>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Stadtstrassennetz entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets ohne die Autobahnen.",
+		"lesehilfe": "Der Verkehrsleistungsindex des motorisierten Individualverkehrs (MIV) im Stadtstrassennetz liegt 2021 bei 81,4 Punkten.<br><h2>Zielwert:</h2>Wert ist nicht grösser als Indexwert 2019 (Grundlage: USG §13 bzw. VuV §5).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert steigt nicht und bleibt gleich/unter Indexwert 2019</p><p>Wert steigt und bleibt gleich/unter Indexwert 2019<br>bzw. Wert steigt nicht und ist über Indexwert 2019</p><p>Wert steigt und ist über Indexwert 2019</p></div>",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Er basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) im Stadtstrassennetz (exkl. Autobahnen) berechnet sich anhand von verschiedenen Dauerzählstellen des Kantons Basel-Stadt und des Kantons Basel-Landschaft. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
@@ -79694,7 +79694,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:30",
+		"aktualisierungsdatum": "2023-05-17T08:55:15",
 		"id": 9687
 	},
 	{
@@ -79745,7 +79745,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2021 5,7% aller Einwohnerinnen und Einwohner Sozialhilfe.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte <i>(Grundlage:Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3%) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3%) als in den Vergleichsstädten</p></div>",
+		"lesehilfe": "In der Stadt Basel bezogen 2021 5,7% aller Einwohnerinnen und Einwohner Sozialhilfe.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3%) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3%) als in den Vergleichsstädten</p></div>",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -79771,7 +79771,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-16T09:08:06",
+		"aktualisierungsdatum": "2023-05-17T08:55:23",
 		"id": 9693
 	},
 	{
@@ -80216,6 +80216,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-18T08:01:40",
 		"id": 9757
+	},
+	{
+		"template": "line001",
+		"data-id": 9785,
+		"chart-id": 9680,
+		"filter": "",
+		"parentId": "9680",
+		"children": [],
+		"title": "Sicherheitsgefühl im Alltag",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
+		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><h2>Zielwert:</h2>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert > 90%</p><p>Wert = 80 bis 90%</p><p>Wert < 80%</p></div>",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Sicherheitsgefühl im Alltag",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.09785",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ5",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Friedliches Zusammenleben",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_01_00_00_00_505",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-05-17T08:55:24",
+		"id": 9785
 	},
 	{
 		"title": "Test Daten",

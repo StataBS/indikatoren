@@ -1799,7 +1799,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden 709 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 720 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
 		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -1824,7 +1824,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:39:00",
+		"aktualisierungsdatum": "2023-05-17T08:55:16",
 		"id": 8287
 	},
 	{

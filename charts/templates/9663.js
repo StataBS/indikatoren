@@ -22,7 +22,7 @@
               enabled: true,
               //y: -5,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}‰',
+              format: 'Zielwert: < {y:,.1f}‰',
               style: {
                 textOutline: false,
                 color: "#999999",
