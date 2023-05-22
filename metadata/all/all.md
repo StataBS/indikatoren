@@ -2033,7 +2033,7 @@ id | visible | visibleInPortal | indikatorenset
 9287 | true | true | 
 9289 | true | true | Soziales
 9290 | false |  | Soziales
-9291 | true | true | Soziales
+9291 | true | false | Soziales
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
 9294 | true | true | Soziales

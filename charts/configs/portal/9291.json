@@ -1,192 +1,327 @@
 {
   "series": [
     {
-      "color": "#FABD24",
-      "index": 0,
-      "legendIndex": 2,
-      "data": [
-        [
-          "2011",
-          2478
-        ],
-        [
-          "2012",
-          2703
-        ],
-        [
-          "2013",
-          2838
-        ],
-        [
-          "2014",
-          2969
-        ],
-        [
-          "2015",
-          3137
-        ],
-        [
-          "2016",
-          3337
-        ],
-        [
-          "2017",
-          3510
-        ],
-        [
-          "2018",
-          3567
-        ],
-        [
-          "2019",
-          3644
-        ],
-        [
-          "2020",
-          3597
-        ],
-        [
-          "2021",
-          3699
-        ]
-      ],
-      "name": "Tagesheime",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#662673",
-      "index": 1,
+      "color": "#B00000",
       "legendIndex": 1,
       "data": [
         [
-          "2011",
-          205
+          2005,
+          1913
         ],
         [
-          "2012",
-          197
+          2006,
+          1998
         ],
         [
-          "2013",
-          209
+          2007,
+          2101
         ],
         [
-          "2014",
-          228
+          2008,
+          2239
         ],
         [
-          "2015",
-          222
+          2009,
+          2316
         ],
         [
-          "2016",
-          233
+          2010,
+          2928
         ],
         [
-          "2017",
-          243
+          2011,
+          3212
         ],
         [
-          "2018",
-          244
+          2012,
+          3457
         ],
         [
-          "2019",
-          212
+          2013,
+          3560
         ],
         [
-          "2020",
-          203
+          2014,
+          3859
         ],
         [
-          "2021",
-          208
+          2015,
+          3987
+        ],
+        [
+          2016,
+          4161
+        ],
+        [
+          2017,
+          4115
+        ],
+        [
+          2018,
+          4087
+        ],
+        [
+          2019,
+          4269
+        ],
+        [
+          2020,
+          4373
+        ],
+        [
+          2021,
+          4409
+        ],
+        [
+          2022,
+          4389
         ]
       ],
-      "name": "Tagesfamilien",
-      "turboThreshold": 0
+      "name": "Tagesbetreuung"
     },
     {
-      "color": "#68AB2B",
-      "index": 2,
-      "legendIndex": 0,
+      "color": "#662673",
+      "legendIndex": 2,
       "data": [
         [
-          "2011",
-          157
+          2005,
+          null
         ],
         [
-          "2012",
-          157
+          2006,
+          null
         ],
         [
-          "2013",
-          130
+          2007,
+          null
         ],
         [
-          "2014",
-          110
+          2008,
+          null
         ],
         [
-          "2015",
-          124
+          2009,
+          null
         ],
         [
-          "2016",
-          0
+          2010,
+          null
         ],
         [
-          "2017",
-          0
+          2011,
+          null
         ],
         [
-          "2018",
-          0
+          2012,
+          188
         ],
         [
-          "2019",
-          0
+          2013,
+          326
         ],
         [
-          "2020",
-          0
+          2014,
+          474
         ],
         [
-          "2021",
-          0
+          2015,
+          488
+        ],
+        [
+          2016,
+          416
+        ],
+        [
+          2017,
+          404
+        ],
+        [
+          2018,
+          416
+        ],
+        [
+          2019,
+          512
+        ],
+        [
+          2020,
+          536
+        ],
+        [
+          2021,
+          568
+        ],
+        [
+          2022,
+          656
         ]
       ],
-      "name": "Betreuungsbeiträge",
-      "turboThreshold": 0
+      "name": "Frühhorte Tagesstrukturen"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 3,
+      "data": [
+        [
+          2005,
+          603
+        ],
+        [
+          2006,
+          689
+        ],
+        [
+          2007,
+          813
+        ],
+        [
+          2008,
+          908
+        ],
+        [
+          2009,
+          1019
+        ],
+        [
+          2010,
+          1215
+        ],
+        [
+          2011,
+          1325
+        ],
+        [
+          2012,
+          1553
+        ],
+        [
+          2013,
+          1881
+        ],
+        [
+          2014,
+          2225
+        ],
+        [
+          2015,
+          2340
+        ],
+        [
+          2016,
+          2466
+        ],
+        [
+          2017,
+          2726
+        ],
+        [
+          2018,
+          2911
+        ],
+        [
+          2019,
+          3183
+        ],
+        [
+          2020,
+          3463
+        ],
+        [
+          2021,
+          3625
+        ],
+        [
+          2022,
+          3800
+        ]
+      ],
+      "name": "Mittagsmodule Tagesstrukturen"
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 4,
+      "data": [
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          614
+        ],
+        [
+          2010,
+          736
+        ],
+        [
+          2011,
+          879
+        ],
+        [
+          2012,
+          1082
+        ],
+        [
+          2013,
+          1474
+        ],
+        [
+          2014,
+          1779
+        ],
+        [
+          2015,
+          1937
+        ],
+        [
+          2016,
+          2085
+        ],
+        [
+          2017,
+          2329
+        ],
+        [
+          2018,
+          2551
+        ],
+        [
+          2019,
+          2815
+        ],
+        [
+          2020,
+          3086
+        ],
+        [
+          2021,
+          3227
+        ],
+        [
+          2022,
+          3450
+        ]
+      ],
+      "name": "Nachmittagsmodule Tagesstrukturen"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
   "chart": {
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -197,35 +332,33 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+					this.credits.element.onclick = function () { };
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
-    "renderTo": "container-9291",
-    "marginBottom": 75,
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
+    "renderTo": "container-9291"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "title": {
@@ -235,7 +368,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Tagesbetreuung - Anzahl subventionierte Kinder"
+    "text": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -246,7 +379,26 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "yAxis": {
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -265,20 +417,18 @@
     }
   },
   "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+    "itemMarginBottom": 5,
+    "itemDistance": 0,
+    "padding": 0,
+    "symbolPadding": 2
   },
   "credits": {
     "enabled": true,
@@ -291,13 +441,45 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {
