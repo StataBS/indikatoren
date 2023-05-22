@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 und 2021 nach zuvor kontinuierlichem Anstieg zurückgegangen. Ende 2021 beziehen 2 250 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-30T09:32:19",
+		"aktualisierungsdatum": "2023-05-22T02:05:12",
 		"id": 4152
 	},
 	{
@@ -76,25 +76,26 @@ var indikatorensetData = [
 		"id": 9289
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 9291,
 		"chart-id": 9291,
 		"filter": "",
-		"parentId": null,
+		"parentId": "6055",
 		"children": [],
-		"title": "Tagesbetreuung - Anzahl subventionierte Kinder",
+		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach erstmaligem Rückgang seit 2012 im Jahr 2020 nimmt die Anzahl betreuter Kinder mit Subventionen in Tagesheimen 2021 wieder zu. Am Ende des Stichmonats werden 2021 insgesamt 3 699 Kinder gezählt (2020: 3 597). In Tagesfamilien sind es insgesamt 208 Kinder.",
-		"erlaeuterungen": "Die Anzahl subventionierter Kinder wird per 31. Oktober ausgewiesen. Eltern von noch nicht schulpflichtigen Kindern erhielten bis Ende 2015 Betreuungsbeiträge, wenn sie ihre Berufstätigkeit vorübergehend zugunsten der Betreuung ihrer Kinder reduziert hatten und auf eine finanzielle Unterstützung angewiesen waren.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2022 liegt die Platzzahl bei 4 398. Auch die Tagesstrukturen wurden stetig ausgebaut. 2022 bieten die Frühhorte Platz für 656 Kinder, die Mittagsmodule  3 800 und die Nachmittagsmodule 3 450 Plätze.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
 		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
+		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09291",
@@ -109,7 +110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:45",
+		"aktualisierungsdatum": "2023-05-22T02:05:12",
 		"id": 9291
 	},
 	{
@@ -196,7 +197,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV nimmt mit Ausnahme des Jahres 2020 kontinuierlich zu, Der Bezug von Beihilfen zur AHV nimmt erstmals ab. 2021 liegt die Anzahl Personen mit EL zur AHV bei 8 722. EL zur IV werden von 6 770 Personen in Anspruch genommen. Beihilfen werden an 5 290 (AHV) respektive 4 029 (IV) Personen ausbezahlt.",
+		"lesehilfe": "2022 liegt die Anzahl Personen mit Ergänzungsleistungen (EL) zur AHV bei 8 741, jene mit EL zur IV bei 6 754. Beihilfen werden an 5 357 (AHV) respektive 4 341 (IV) Personen ausbezahlt.",
 		"erlaeuterungen": "Referenzperiode: Dezember.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -221,7 +222,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:45",
+		"aktualisierungsdatum": "2023-05-22T02:05:11",
 		"id": 9298
 	}
 ];

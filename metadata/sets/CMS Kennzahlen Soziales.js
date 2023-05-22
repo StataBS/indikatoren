@@ -411,7 +411,7 @@ var indikatorensetData = [
 		],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV nimmt mit Ausnahme des Jahres 2020 kontinuierlich zu, Der Bezug von Beihilfen zur AHV nimmt erstmals ab. 2021 liegt die Anzahl Personen mit EL zur AHV bei 8 722. EL zur IV werden von 6 770 Personen in Anspruch genommen. Beihilfen werden an 5 290 (AHV) respektive 4 029 (IV) Personen ausbezahlt.",
+		"lesehilfe": "2022 liegt die Anzahl Personen mit Ergänzungsleistungen (EL) zur AHV bei 8 741, jene mit EL zur IV bei 6 754. Beihilfen werden an 5 357 (AHV) respektive 4 341 (IV) Personen ausbezahlt.",
 		"erlaeuterungen": "Referenzperiode: Dezember.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -436,7 +436,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:44",
+		"aktualisierungsdatum": "2023-05-22T02:05:10",
 		"id": 8250
 	},
 	{
@@ -526,7 +526,7 @@ var indikatorensetData = [
 		],
 		"title": "In den Notschlafstellen Übernachtende nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2021 insgesamt 19% aller Übernachtenden aus (2019: 11%). Der Anteil Personen über 50 Jahre ist deutlich gesunken und beträgt knapp 20%.",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2022 insgesamt 11% aller Übernachtenden aus (2021: 19%). 25% der Übernachtenden sind über 50 Jahre alt.",
 		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal eine Notschlafstelle genutzt haben.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -551,7 +551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:44",
+		"aktualisierungsdatum": "2023-05-22T02:05:15",
 		"id": 8253
 	},
 	{
@@ -565,7 +565,7 @@ var indikatorensetData = [
 		],
 		"title": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Notschlafstellen wurden 2021 von insgesamt 402 unterschiedlichen Männern und 94 verschiedenen Frauen genutzt. Von den Männern haben 56% weniger als 8 Nächte in der Notschlafstelle verbracht, bei den Frauen sind es 65%. 28 Männer sowie 12 Frauen haben im Verlauf des Jahres 2021 mehr als 150 Nächte in der Notschlafstelle verbracht.",
+		"lesehilfe": "Die Notschlafstellen wurden 2022 von insgesamt 298 Männern und 97 Frauen genutzt. Von den Männern haben 56% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen 66%. 18 Männer sowie 8 Frauen haben im Verlauf des Jahres 2022 mehr als 150 Nächte in der Notschlafstelle verbracht.",
 		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal eine Notschlafstelle genutzt haben.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -590,7 +590,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:44",
+		"aktualisierungsdatum": "2023-05-22T02:05:15",
 		"id": 8254
 	},
 	{
@@ -2933,7 +2933,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von den 16 971 Haushalten, die Ende 2021 reine Prämienverbilligungen beziehen, handelt es sich um 9 243 rein schweizerische und 6 412 rein ausländische Haushalte. 1 316 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"lesehilfe": "Von den 16 364 Haushalten, die Ende 2022 reine Prämienverbilligungen beziehen, handelt es sich um 8 811 rein schweizerische und 6 292 rein ausländische Haushalte. 1 261 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -2958,7 +2958,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:43",
+		"aktualisierungsdatum": "2023-05-22T02:05:13",
 		"id": 8336
 	},
 	{
@@ -2972,7 +2972,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 beziehen 16 971 Haushalte reine Prämienverbilligungen. Mit 58,3% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 18,2% die zweitgrösste Gruppe dar.",
+		"lesehilfe": "Ende 2022 beziehen 16 364 Haushalte reine Prämienverbilligungen. Mit 58,7% handelt es sich dabei bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit 17,7% die zweitgrösste Gruppe dar.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -2997,7 +2997,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:43",
+		"aktualisierungsdatum": "2023-05-22T02:05:13",
 		"id": 8337
 	},
 	{
@@ -3087,7 +3087,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 beziehen 2 250 Haushalte Familienmietzinsbeiträge. Bei 60,5% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 33,5% der Haushalte aus, 6,0% sind Konkubinatspaare mit Kindern.",
+		"lesehilfe": "Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Bei 59,8% der handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 34,8% der Haushalte aus, 5,4% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "Stichtag: 31. Dezember.",
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3112,7 +3112,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:44",
+		"aktualisierungsdatum": "2023-05-22T02:05:14",
 		"id": 8340
 	},
 	{

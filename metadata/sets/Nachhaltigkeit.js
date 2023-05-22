@@ -681,8 +681,8 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In 17,0% der Haushalte bezieht Ende 2021 mindestens eine Person reine Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
+		"lesehilfe": "In 16,3% der Haushalte bezieht Ende 2022 mindestens eine Person reine Prämienverbilligungen. Erstmals seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen gegenüber dem Vorjahr wieder gesunken.",
+		"erlaeuterungen": "Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -699,15 +699,15 @@ var indikatorensetData = [
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW5",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Existenzsicherung",
+		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_03_00_00_00_308",
+		"orderKey": "03_02_00_00_00_305",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:44",
+		"aktualisierungsdatum": "2023-05-22T02:05:17",
 		"id": 5183
 	},
 	{
@@ -2284,12 +2284,14 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8944
+			8944,
+			9291,
+			9683
 		],
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2021 liegt die Platzzahl bei 4 409. Auch die Tagesstrukturen wurden stetig ausgebaut. 2021 bieten die Frühhorte Platz für 568 Kinder, die Mittagsmodule  3 625 und die Nachmittagsmodule 3 227 Plätze.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September.  Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2022 liegt die Platzzahl bei 4 398. Auch die Tagesstrukturen wurden stetig ausgebaut. 2022 bieten die Frühhorte Platz für 656 Kinder, die Mittagsmodule  3 800 und die Nachmittagsmodule 3 450 Plätze.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -2304,17 +2306,17 @@ var indikatorensetData = [
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.6055",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE13",
+		"kuerzelKunde": "WE15",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_613",
+		"orderKey": "06_02_00_00_00_615",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:50",
+		"aktualisierungsdatum": "2023-05-22T02:05:17",
 		"id": 6055
 	},
 	{
