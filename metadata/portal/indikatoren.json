@@ -24456,7 +24456,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Aprl 2023 bei 3,0% und damit tiefer als im Vorjahresmonat. Auch die Quote der Personen ab 50 Jahren liegt tiefer als ein Jahr zuvor, während die Jugendarbeitslosenquote (15 bis 24 Jahre) höher als im April 2022 liegt.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Aprl 2023 bei 3,0% und damit tiefer als im gleichen Vorjahresmonat. Auch die Quote der Personen ab 50 Jahren liegt tiefer als ein Jahr zuvor, während die Jugendarbeitslosenquote (15 bis 24 Jahre) höher als im April 2022 liegt.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -24482,7 +24482,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-05T08:44:47",
+		"aktualisierungsdatum": "2023-05-23T08:57:10",
 		"id": 7510
 	},
 	{
@@ -24637,7 +24637,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-20T07:36:42",
+		"aktualisierungsdatum": "2023-05-23T08:57:11",
 		"id": 7515
 	},
 	{
@@ -28529,8 +28529,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Im März 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 14 Wohnvierteln sowie in der Gemeinden Riehen. In fünf Wohnvierteln und in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, April",
+		"lesehilfe": "Im April 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln sowie in der Gemeinden Riehen. In neun Wohnvierteln sank sie. In Bettingen veränderte sie sich gegenüber dem Vormonat nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -28557,7 +28557,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-20T07:36:44",
+		"aktualisierungsdatum": "2023-05-23T08:57:12",
 		"id": 7763
 	},
 	{
@@ -38555,7 +38555,7 @@
 		"children": [],
 		"title": "Beziehende von Prämienverbilligungen",
 		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
-		"lesehilfe": "Mit 52 919 Beziehenden erhalten Ende 2021 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 51 711 Beziehenden erhalten Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -38582,7 +38582,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:42",
+		"aktualisierungsdatum": "2023-05-23T08:57:13",
 		"id": 9294
 	},
 	{
@@ -41520,7 +41520,7 @@
 		"children": [],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. Nach kontinuierlichem Anstieg seit 2011 bleibt diese Quote seit 2017 stabil.",
+		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende 2022 Familienmietzinsbeiträge. Erstmals im Beobachtungszeitraum ist dieser Anteil gegenüber dem Vorjahr gesunken.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -41537,17 +41537,17 @@
 		"kuerzel": "I.13.2.09734",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW17",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
-		"stufe2": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "03_05_00_00_00_317",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:42",
+		"aktualisierungsdatum": "2023-05-23T08:57:14",
 		"id": 9734
 	},
 	{
