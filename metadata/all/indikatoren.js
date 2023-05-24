@@ -38315,7 +38315,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-23T08:57:10",
+		"aktualisierungsdatum": "2023-05-24T08:23:21",
 		"id": 7510
 	},
 	{
@@ -38470,7 +38470,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-23T08:57:11",
+		"aktualisierungsdatum": "2023-05-24T08:23:22",
 		"id": 7515
 	},
 	{
@@ -42781,7 +42781,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-23T08:57:12",
+		"aktualisierungsdatum": "2023-05-24T08:23:23",
 		"id": 7763
 	},
 	{
@@ -72406,7 +72406,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-23T08:57:13",
+		"aktualisierungsdatum": "2023-05-24T08:23:24",
 		"id": 9294
 	},
 	{
@@ -79854,7 +79854,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-23T08:57:14",
+		"aktualisierungsdatum": "2023-05-24T08:23:25",
 		"id": 9734
 	},
 	{
