@@ -326,7 +326,7 @@ id | visible | visibleInPortal | indikatorenset
 5181 | true | true | Nachhaltigkeit
 5182 | true | true | Nachhaltigkeit
 5183 | true | true | Nachhaltigkeit
-5184 | true | true | Nachhaltigkeit
+5184 | true | false | Nachhaltigkeit
 5185 | true | true | Nachhaltigkeit
 5186 | true | true | Nachhaltigkeit
 5188 | true | false | Nachhaltigkeit

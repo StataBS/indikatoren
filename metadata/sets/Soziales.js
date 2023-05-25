@@ -48,7 +48,7 @@ var indikatorensetData = [
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "",
 		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2022 bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich. Die Stadt Basel weist 2022 eine Quote von 5,3% aus, Riehen 2,7% und Bettingen 1,7%.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst. Bis 2017 galt für die Anzahl Beziehender folgende Definition: Alle Personen mit Dossiertyp «Sozialhilfefall», «Asyl» oder «Flüchtling» die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Auf die Werte von Riehen und Bettingen hat diese Umstellung keinen Einfluss.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst. Bis 2017 galt für die Anzahl Beziehender folgende Definition: Alle Personen mit Dossiertyp «Sozialhilfefall», «Asyl» oder «Flüchtling» die im Verlauf eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Auf die Werte von Riehen und Bettingen hat diese Umstellung keinen Einfluss.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:38",
+		"aktualisierungsdatum": "2023-05-25T09:11:17",
 		"id": 9289
 	},
 	{
