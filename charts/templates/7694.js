@@ -12,11 +12,12 @@
     plotOptions: {
       series: {
         borderWidth: 0,
+        minPointLength: 3
       }
     },
     xAxis: {
       tickPositioner: function () {
-        var interval = 2,
+        var interval = 1,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
@@ -69,8 +70,14 @@
       //padding: 2,
       //itemWidth: 80,
       labelFormatter: function () {
+   
+          return this.name.replace("Bezüger ", "") 
+                          .replace("Sozialhilfequote ", "");
+  
+        
+        /*
         return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
-        //return tmp.replace('Kleinhüningen','Kleinh.');
+      tmp.replace('Stadt,Basel','Stadt Basel');*/
       },
       title: {
         text: ' <br>Bezüger:<br/>Quote (rechte Skala):',
