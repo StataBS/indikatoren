@@ -2,19 +2,9 @@
   "series": [
     {
       "color": "#3C3C3C",
+      "id": 0,
+      "showInLegend": true,
       "data": [
-        [
-          2010,
-          6.6
-        ],
-        [
-          2011,
-          6.9
-        ],
-        [
-          2012,
-          7.1
-        ],
         [
           2013,
           7.1
@@ -37,38 +27,79 @@
         ],
         [
           2018,
-          7.3
+          null
         ],
         [
           2019,
-          7
+          null
         ],
         [
           2020,
-          6.7
+          null
         ],
         [
           2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ]
+      ],
+      "name": "Basel (bis 2017)"
+    },
+    {
+      "color": "#3C3C3C",
+      "id": 1,
+      "linkedTo": "0",
+      "data": [
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          6.7
+        ],
+        [
+          2018,
+          6.5
+        ],
+        [
+          2019,
           6.3
+        ],
+        [
+          2020,
+          6.1
+        ],
+        [
+          2021,
+          5.7
+        ],
+        [
+          2022,
+          5.3
         ]
       ],
       "name": "Basel"
     },
     {
       "color": "#246370",
+      "id": 2,
       "data": [
-        [
-          2010,
-          3.4
-        ],
-        [
-          2011,
-          3.2
-        ],
-        [
-          2012,
-          3.3
-        ],
         [
           2013,
           3.4
@@ -104,25 +135,18 @@
         [
           2021,
           3.1
+        ],
+        [
+          2022,
+          2.7
         ]
       ],
       "name": "Riehen"
     },
     {
       "color": "#B00000",
+      "id": 3,
       "data": [
-        [
-          2010,
-          1.2
-        ],
-        [
-          2011,
-          1.9
-        ],
-        [
-          2012,
-          1.6
-        ],
         [
           2013,
           1.5
@@ -158,25 +182,19 @@
         [
           2021,
           1.1
+        ],
+        [
+          2022,
+          1.7
         ]
       ],
       "name": "Bettingen"
     },
     {
       "color": "#FF8028",
+      "id": 4,
+      "showInLegend": true,
       "data": [
-        [
-          2010,
-          6.2
-        ],
-        [
-          2011,
-          6.5
-        ],
-        [
-          2012,
-          6.6
-        ],
         [
           2013,
           6.7
@@ -199,19 +217,71 @@
         ],
         [
           2018,
-          6.8
+          null
         ],
         [
           2019,
-          6.6
+          null
         ],
         [
           2020,
-          6.3
+          null
         ],
         [
           2021,
-          5.9
+          null
+        ],
+        [
+          2022,
+          null
+        ]
+      ],
+      "name": "Kanton Basel-Stadt (bis 2017)"
+    },
+    {
+      "color": "#FF8028",
+      "id": 5,
+      "linkedTo": "4",
+      "data": [
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          6.3
+        ],
+        [
+          2018,
+          6.2
+        ],
+        [
+          2019,
+          6
+        ],
+        [
+          2020,
+          5.8
+        ],
+        [
+          2021,
+          5.4
+        ],
+        [
+          2022,
+          5
         ]
       ],
       "name": "Kanton Basel-Stadt"
@@ -246,6 +316,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-9289"
   },
   "plotOptions": {
@@ -326,6 +397,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "labelFormatter": function () {
+          return this.name.replace(" (bis 2017)","");
+        },
+    "itemDistance": 20,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -341,7 +416,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
