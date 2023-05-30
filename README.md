@@ -15,7 +15,6 @@ npm run build
 - It uses a [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server) deployed on the StatA-Server [pdstatasvpapp05](highcharts-export.stata.pd.intranet.bs.ch)  
 - To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
 - To download a single chart as png, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://[c9-workspace-url]:8081&id=[chart-id]
-- At the end of the export session, it's best to stop the export server again: 
 
 
 ## Manually create svg thumbnails 
