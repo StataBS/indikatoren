@@ -67693,7 +67693,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Für die Kalenderwoche 14 des Jahres 2020 (30.03. - 05.04.) sind im Kanton Basel-Stadt insgesamt 68 Todesfälle gemeldet worden, davon 63 Todesfälle von Personen ab 65 Jahren und 5 Todesfälle von Personen unter 65 Jahren. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
+		"lesehilfe": "Für die Kalenderwoche 51 des Jahres 2020 (14.12. - 20.12.) sind im Kanton Basel-Stadt insgesamt 67 Todesfälle gemeldet worden, davon 64 Todesfälle von Personen ab 65 Jahren und 3 Todesfälle von Personen unter 65 Jahren. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit einer Wahrscheinlichkeit von 99% erwarten würde. Die Schätzung des Vertrauensintervalls pro Kalenderwoche erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -67722,7 +67722,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:26",
+		"aktualisierungsdatum": "2023-06-01T09:32:37",
 		"id": 8995
 	},
 	{
@@ -68094,7 +68094,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:35",
+		"aktualisierungsdatum": "2023-06-01T09:32:39",
 		"id": 9022
 	},
 	{
@@ -68132,7 +68132,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:37",
+		"aktualisierungsdatum": "2023-06-01T09:32:40",
 		"id": 9023
 	},
 	{
