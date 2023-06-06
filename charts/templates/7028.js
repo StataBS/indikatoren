@@ -53,7 +53,7 @@
             }
         },
         "chart": {   
-          marginLeft: 48,
+          //marginLeft: 48,
           spacing: [2,1,1,1], 
             "type": "column"
         },

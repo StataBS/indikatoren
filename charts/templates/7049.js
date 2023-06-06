@@ -41,8 +41,8 @@
     },
   },
   "yAxis": {
-    tickAmount: 7,
-    max: 0.06,
+    tickInterval: 0.01,
+    //max: 0.06,
     "labels": {
       "format": "{value}%" ,
         style: { 
