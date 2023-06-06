@@ -23,8 +23,8 @@
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       lineColor: '#B9CFD7', 
-      tickInterval: 1000,
-      tickAmount: 10,
+      tickInterval: 2000,
+      tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
       "style": {
@@ -54,9 +54,9 @@
         "color": "#000000"
       }
     },
-    tickAmount: 10,
+    tickAmount: 6,
     "min": 0,
-    "max": 0.9,
+    "max": 1,
     "gridLineWidth": 0,
     "opposite": true
   }
