@@ -5,27 +5,27 @@
       "data": [
         [
           "Deutschland",
-          1909
+          2252
         ],
         [
-          "Spanien",
-          437
-        ],
-        [
-          "Frankreich",
-          427
+          "Ukraine",
+          1751
         ],
         [
           "Italien",
-          410
+          527
         ],
         [
-          "USA",
-          362
+          "Spanien",
+          475
+        ],
+        [
+          "Frankreich",
+          434
         ],
         [
           "Übriges Ausland",
-          3231
+          4239
         ]
       ],
       "turboThreshold": 0
@@ -101,7 +101,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
+    "text": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
     "align": "left"
   },
   "tooltip": {
@@ -122,7 +122,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "legend": {
     "layout": "vertical",

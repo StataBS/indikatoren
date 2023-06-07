@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Aprl 2023 bei 3,0% und damit tiefer als im gleichen Vorjahresmonat. Auch die Quote der Personen ab 50 Jahren liegt tiefer als ein Jahr zuvor, während die Jugendarbeitslosenquote (15 bis 24 Jahre) höher als im April 2022 liegt.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Mai 2023 bei 2,9% und damit tiefer als im gleichen Vorjahresmonat. Auch die Quote der Personen ab 50 Jahren und die Jugendarbeitslosenquote (15 bis 24 Jahre) lliegen tiefer als ein Jahr zuvor.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-24T08:23:21",
+		"aktualisierungsdatum": "2023-06-07T08:10:14",
 		"id": 7510
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende April 2023 sind in Basel-Stadt weniger als 1500 offene Stellen gemeldeten. Gut zwei Drittel davon sind meldepflichtig.",
+		"lesehilfe": "Ende Mai 2023 sind in Basel-Stadt deutlich weniger offene Stellen gemeldeten als ein Jahr zuvor. Die Anzahl der meldepflichtigen offenen Stellen hat sich im Vergleich zum Vorjahresmonat halbiert.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-05T08:44:48",
+		"aktualisierungsdatum": "2023-06-07T08:10:15",
 		"id": 7511
 	},
 	{

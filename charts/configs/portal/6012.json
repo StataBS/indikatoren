@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -783
+          -759
         ],
         [
           "Ausland",
-          -272
+          -169
         ],
         [
           "Unbekannt",
-          -372
+          -312
         ],
         [
           "Total",
-          -1427
+          -1240
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -1507
+          -936
         ],
         [
           "Ausland",
-          2722
+          5446
         ],
         [
           "Unbekannt",
-          -788
+          -552
         ],
         [
           "Total",
-          427
+          3958
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -2290
+          -1695
         ],
         [
           "Ausland",
-          2450
+          5277
         ],
         [
           "Unbekannt",
-          -1160
+          -864
         ],
         [
           "Total",
-          -1000
+          2718
         ]
       ],
       "name": "Total",
@@ -149,7 +149,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -174,8 +174,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 3500,
-    "tickInterval": 500,
+    "max": 6000,
+    "tickInterval": 1000,
+    "min": -2000,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -213,7 +214,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
