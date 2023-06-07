@@ -1016,7 +1016,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bestand an Notwohnungen und ihre Belegung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die wenigen Notwohnungen – 2021 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2021 um rund 70 Logis erhöht werden.",
+		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
 		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
@@ -1041,7 +1041,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-05T08:39:01",
+		"aktualisierungsdatum": "2023-06-07T08:10:27",
 		"id": 4154
 	},
 	{
