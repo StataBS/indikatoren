@@ -886,6 +886,10 @@
         [
           "2023-04",
           3023
+        ],
+        [
+          "2023-05",
+          2906
         ]
       ],
       "name": "Arbeitslose",
@@ -1777,6 +1781,10 @@
         [
           "2023-04",
           465
+        ],
+        [
+          "2023-05",
+          452
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2671,6 +2679,10 @@
         [
           "2023-04",
           0.15382
+        ],
+        [
+          "2023-05",
+          0.15554
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -2816,7 +2828,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
