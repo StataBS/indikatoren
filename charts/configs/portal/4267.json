@@ -171,10 +171,11 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 11,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -362,7 +363,8 @@
         350,
         398,
         323,
-        261
+        261,
+        329
       ],
       "visible": true
     }

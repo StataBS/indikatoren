@@ -1341,9 +1341,9 @@ var indikatorensetData = [
 		"children": [
 			9437
 		],
-		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
+		"title": "Zupendelnde Fachkräfte in Bildung, Kultur, Gesundheits- und Sozialwesen",
 		"subtitle": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 pendelten rund 8 900 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 300 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
+		"lesehilfe": "Im Jahr 2021 pendelten rund 8 700 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 1 800 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Agglomeration Basel: gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1355,7 +1355,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
+		"description": "Zupendelnde Fachkräfte in Bildung, Kultur, Gesundheits- und Sozialwesen",
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kuerzel": "I.11.5.09380",
@@ -1370,7 +1370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:23",
+		"aktualisierungsdatum": "2023-06-09T12:32:44",
 		"id": 9380
 	},
 	{
@@ -1384,7 +1384,7 @@ var indikatorensetData = [
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2020 pendelten fast 89 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 22 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen.",
+		"lesehilfe": "Im Jahr 2021 pendelten etwas mehr als 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 21 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 65 000 Personen.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1410,7 +1410,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:57",
+		"aktualisierungsdatum": "2023-06-09T12:32:44",
 		"id": 9381
 	},
 	{
