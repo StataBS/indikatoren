@@ -51,6 +51,10 @@
         [
           "2020",
           -901
+        ],
+        [
+          "2021",
+          -659
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -107,6 +111,10 @@
         [
           "2020",
           -4436
+        ],
+        [
+          "2021",
+          -3660
         ]
       ],
       "name": "Wegpendler in die übrige CH",
@@ -163,6 +171,10 @@
         [
           "2020",
           -16621
+        ],
+        [
+          "2021",
+          -16835
         ]
       ],
       "name": "Wegpendler in die NWCH",
@@ -218,7 +230,11 @@
         ],
         [
           "2020",
-          34614
+          34321
+        ],
+        [
+          "2021",
+          34744
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -275,6 +291,10 @@
         [
           "2020",
           9604
+        ],
+        [
+          "2021",
+          8156
         ]
       ],
       "name": "Zupendler aus der übrigen CH",
@@ -331,6 +351,10 @@
         [
           "2020",
           44435
+        ],
+        [
+          "2021",
+          43564
         ]
       ],
       "name": "Zupendler aus der NWCH",
@@ -390,7 +414,11 @@
         ],
         [
           "2020",
-          66695
+          66402
+        ],
+        [
+          "2021",
+          65310
         ]
       ],
       "name": "Saldo",
@@ -540,7 +568,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2023"
   },
   "tooltip": {
     "shared": true,

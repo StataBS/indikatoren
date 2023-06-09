@@ -2674,7 +2674,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-24T12:17:02",
+		"aktualisierungsdatum": "2023-06-09T12:31:59",
 		"id": 4221
 	},
 	{
@@ -2715,7 +2715,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:01",
+		"aktualisierungsdatum": "2023-06-09T12:31:58",
 		"id": 4222
 	},
 	{
@@ -2756,7 +2756,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:03",
+		"aktualisierungsdatum": "2023-06-09T12:32:00",
 		"id": 4223
 	},
 	{
@@ -2797,7 +2797,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:03",
+		"aktualisierungsdatum": "2023-06-09T12:32:01",
 		"id": 4224
 	},
 	{
@@ -2838,7 +2838,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:04",
+		"aktualisierungsdatum": "2023-06-09T12:32:01",
 		"id": 4225
 	},
 	{
@@ -2880,7 +2880,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:05",
+		"aktualisierungsdatum": "2023-06-09T12:32:03",
 		"id": 4226
 	},
 	{
@@ -2921,7 +2921,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:05",
+		"aktualisierungsdatum": "2023-06-09T12:32:03",
 		"id": 4227
 	},
 	{
@@ -2931,19 +2931,22 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Heizgradtage",
-		"subtitle": "in Anzahl Heizgradtage",
+		"title": "Heiztage und Heizgradtage",
+		"subtitle": "in Anzahl Heizgradtage; Anzahl Heiztage (rechte Skala)",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Heizgradtage (HGT) sind ein Mass für den Einfluss des Wetters auf den Heizenergieverbrauch. Sie berechnen sich aus der Differenz zwischen gewünschter Raumtemperatur und mittlerer Aussentemperatur eines Tages, falls diese Aussentemperatur unter einer bestimmten Heizgrenze liegt.<br><br>Für alle Tage im Kalenderjahr, welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen). Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in zwei Metern über Grund (317 m ü. M; 47°33' N / 7°35' E).",
+		"erlaeuterungen": "Heiztage: Anzahl Tage pro Jahr, an welchen die mittlere Tagestemperatur unter 12°C bleibt. An diesen Tagen wird normalerweise geheizt, um eine Raumtemperatur von 20°C aufrecht zu erhalten.<br><br>Heizgradtage: Mass für den Einfluss des Wetters auf den Heizenergieverbrauch. Sie berechnen sich aus der Differenz zwischen gewünschter Raumtemperatur und mittlerer Aussentemperatur eines Tages, falls diese Aussentemperatur unter einer bestimmten Heizgrenze liegt.<br><br><br><br>Heiztage: Summe aller Tage im Kalenderjahr mit einer mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C.<br><br>Heizgradtage: Für alle Tage im Kalenderjahr, welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen).<br><br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in zwei Metern über Grund (Details siehe weiterführende Informationen).",
 		"quellenangabe": [
 			"MeteoSchweiz"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'Meteorologische Bodenmessstation Basel-Binningen (MeteoSchweiz)' target = '_blank'><a href=https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messnetz-automatisch&station=BAS&chart=hour target=_blank rel=nofollow>https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messnetz-automatisch&station=BAS&chart=hour</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Heizgradtage",
+		"description": "Heiztage und Heizgradtage",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.4228",
@@ -2959,7 +2962,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:06",
+		"aktualisierungsdatum": "2023-06-09T12:32:04",
 		"id": 4228
 	},
 	{
@@ -3000,7 +3003,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:06",
+		"aktualisierungsdatum": "2023-06-09T12:32:05",
 		"id": 4229
 	},
 	{
@@ -3041,7 +3044,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:02",
+		"aktualisierungsdatum": "2023-06-09T12:31:59",
 		"id": 4230
 	},
 	{
@@ -3082,7 +3085,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:27",
+		"aktualisierungsdatum": "2023-06-09T12:32:32",
 		"id": 4231
 	},
 	{
@@ -3124,7 +3127,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:26",
+		"aktualisierungsdatum": "2023-06-09T12:32:31",
 		"id": 4232
 	},
 	{
@@ -3164,7 +3167,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:27",
+		"aktualisierungsdatum": "2023-06-09T12:32:33",
 		"id": 4233
 	},
 	{
@@ -3204,7 +3207,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:27",
+		"aktualisierungsdatum": "2023-06-09T12:32:33",
 		"id": 4234
 	},
 	{
@@ -3245,7 +3248,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:28",
+		"aktualisierungsdatum": "2023-06-09T12:32:34",
 		"id": 4236
 	},
 	{
@@ -3286,7 +3289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:29",
+		"aktualisierungsdatum": "2023-06-09T12:32:36",
 		"id": 4237
 	},
 	{
@@ -3324,7 +3327,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:30",
+		"aktualisierungsdatum": "2023-06-09T12:32:37",
 		"id": 4238
 	},
 	{
@@ -3366,7 +3369,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:29",
+		"aktualisierungsdatum": "2023-06-09T12:32:35",
 		"id": 4240
 	},
 	{
@@ -3408,7 +3411,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:32",
+		"aktualisierungsdatum": "2023-06-09T12:32:39",
 		"id": 4241
 	},
 	{
@@ -3450,7 +3453,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:31",
+		"aktualisierungsdatum": "2023-06-09T12:32:38",
 		"id": 4243
 	},
 	{
@@ -3490,7 +3493,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:30",
+		"aktualisierungsdatum": "2023-06-09T12:32:37",
 		"id": 4244
 	},
 	{
@@ -3531,7 +3534,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:31",
+		"aktualisierungsdatum": "2023-06-09T12:32:39",
 		"id": 4245
 	},
 	{
@@ -3572,7 +3575,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:21",
+		"aktualisierungsdatum": "2023-06-09T12:32:24",
 		"id": 4246
 	},
 	{
@@ -3654,7 +3657,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:00",
+		"aktualisierungsdatum": "2023-06-09T12:31:56",
 		"id": 4249
 	},
 	{
@@ -3695,7 +3698,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:00",
+		"aktualisierungsdatum": "2023-06-09T12:31:57",
 		"id": 4250
 	},
 	{
@@ -3736,7 +3739,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:59",
+		"aktualisierungsdatum": "2023-06-09T12:31:55",
 		"id": 4252
 	},
 	{
@@ -3778,7 +3781,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:58",
+		"aktualisierungsdatum": "2023-06-09T12:31:54",
 		"id": 4253
 	},
 	{
@@ -3819,7 +3822,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:59",
+		"aktualisierungsdatum": "2023-06-09T12:31:55",
 		"id": 4254
 	},
 	{
@@ -3861,7 +3864,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:58",
+		"aktualisierungsdatum": "2023-06-09T12:31:54",
 		"id": 4255
 	},
 	{
@@ -3902,7 +3905,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:53",
+		"aktualisierungsdatum": "2023-06-09T12:31:48",
 		"id": 4257
 	},
 	{
@@ -3943,7 +3946,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:52",
+		"aktualisierungsdatum": "2023-06-09T12:31:47",
 		"id": 4258
 	},
 	{
@@ -3984,7 +3987,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:53",
+		"aktualisierungsdatum": "2023-06-09T12:31:48",
 		"id": 4259
 	},
 	{
@@ -4025,7 +4028,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:52",
+		"aktualisierungsdatum": "2023-06-09T12:31:46",
 		"id": 4260
 	},
 	{
@@ -4066,7 +4069,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:54",
+		"aktualisierungsdatum": "2023-06-09T12:31:49",
 		"id": 4261
 	},
 	{
@@ -4107,7 +4110,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:57",
+		"aktualisierungsdatum": "2023-06-09T12:31:53",
 		"id": 4262
 	},
 	{
@@ -4149,7 +4152,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:56",
+		"aktualisierungsdatum": "2023-06-09T12:31:52",
 		"id": 4263
 	},
 	{
@@ -4232,7 +4235,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:57",
+		"aktualisierungsdatum": "2023-06-09T12:31:52",
 		"id": 4265
 	},
 	{
@@ -4273,7 +4276,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:14",
+		"aktualisierungsdatum": "2023-06-09T12:32:15",
 		"id": 4266
 	},
 	{
@@ -4314,7 +4317,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:13",
+		"aktualisierungsdatum": "2023-06-09T12:32:13",
 		"id": 4267
 	},
 	{
@@ -4355,7 +4358,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:14",
+		"aktualisierungsdatum": "2023-06-09T12:32:14",
 		"id": 4268
 	},
 	{
@@ -4397,7 +4400,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:13",
+		"aktualisierungsdatum": "2023-06-09T12:32:13",
 		"id": 4269
 	},
 	{
@@ -4438,7 +4441,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:15",
+		"aktualisierungsdatum": "2023-06-09T12:32:15",
 		"id": 4270
 	},
 	{
@@ -4480,7 +4483,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:15",
+		"aktualisierungsdatum": "2023-06-09T12:32:16",
 		"id": 4272
 	},
 	{
@@ -4522,7 +4525,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:15",
+		"aktualisierungsdatum": "2023-06-09T12:32:16",
 		"id": 4273
 	},
 	{
@@ -4564,7 +4567,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:16",
+		"aktualisierungsdatum": "2023-06-09T12:32:17",
 		"id": 4274
 	},
 	{
@@ -4605,7 +4608,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:16",
+		"aktualisierungsdatum": "2023-06-09T12:32:18",
 		"id": 4275
 	},
 	{
@@ -4647,7 +4650,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:17",
+		"aktualisierungsdatum": "2023-06-09T12:32:18",
 		"id": 4276
 	},
 	{
@@ -4688,7 +4691,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:18",
+		"aktualisierungsdatum": "2023-06-09T12:32:19",
 		"id": 4277
 	},
 	{
@@ -4730,7 +4733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:18",
+		"aktualisierungsdatum": "2023-06-09T12:32:20",
 		"id": 4278
 	},
 	{
@@ -4772,7 +4775,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:19",
+		"aktualisierungsdatum": "2023-06-09T12:32:21",
 		"id": 4279
 	},
 	{
@@ -4814,7 +4817,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:17",
+		"aktualisierungsdatum": "2023-06-09T12:32:19",
 		"id": 4280
 	},
 	{
@@ -4856,7 +4859,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:19",
+		"aktualisierungsdatum": "2023-06-09T12:32:21",
 		"id": 4281
 	},
 	{
@@ -4894,7 +4897,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:24",
+		"aktualisierungsdatum": "2023-06-09T12:32:28",
 		"id": 4283
 	},
 	{
@@ -4935,7 +4938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:25",
+		"aktualisierungsdatum": "2023-06-09T12:32:29",
 		"id": 4284
 	},
 	{
@@ -4976,7 +4979,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:23",
+		"aktualisierungsdatum": "2023-06-09T12:32:27",
 		"id": 4285
 	},
 	{
@@ -5017,7 +5020,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:24",
+		"aktualisierungsdatum": "2023-06-09T12:32:28",
 		"id": 4287
 	},
 	{
@@ -5058,7 +5061,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:25",
+		"aktualisierungsdatum": "2023-06-09T12:32:29",
 		"id": 4288
 	},
 	{
@@ -5099,7 +5102,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:26",
+		"aktualisierungsdatum": "2023-06-09T12:32:31",
 		"id": 4290
 	},
 	{
@@ -5137,7 +5140,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:25",
+		"aktualisierungsdatum": "2023-06-09T12:32:30",
 		"id": 4291
 	},
 	{
@@ -5178,7 +5181,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:20",
+		"aktualisierungsdatum": "2023-06-09T12:32:23",
 		"id": 4292
 	},
 	{
@@ -5219,7 +5222,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:21",
+		"aktualisierungsdatum": "2023-06-09T12:32:23",
 		"id": 4293
 	},
 	{
@@ -5260,7 +5263,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:21",
+		"aktualisierungsdatum": "2023-06-09T12:32:24",
 		"id": 4294
 	},
 	{
@@ -5270,10 +5273,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Elektroautos",
+		"title": "Neuzulassungen Elektroautos",
 		"subtitle": "in Personenwagen; Prozent (rechte Skala)",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride).<br><br>In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin-elektrisch und Diesel-elektrisch Normal- und Plug-in-Hybrid).",
+		"erlaeuterungen": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (reine Elektorfahrzeuge und Plug-In-Hybride) sowie deren Anteil an den neuen Inverkehrsetzungen insgesamt.<br><br>In die Kategorie der Elektrofahrzeuge  fallen neben den rein elektrisch betriebenen Fahrzeugen (EV = Electric Vehicle) auch Plug-in-Hybride (PHEV = Plug-in Hybrid Electric Vehicle), dessen Akku sowohl über den Verbrennungsmotor als auch mit einem Stecker  am Stromnetz geladen werden kann. Wasserstoffautos (FCEV, Fuel Cell Electric Vehicle)  werden von einem Elektromotor angetrieben. Deshalb zählen auch sie zu den Elektrofahrzeugen. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Haltern und Halterinnen, die an diesem Stichtag Wohnsitz im Kanton hatten.",
 		"quellenangabe": [
 			"BFS, Sektion Mobilität"
 		],
@@ -5285,7 +5288,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Elektroautos",
+		"description": "Neuzulassungen Elektroautos",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kuerzel": "I.11.1.4298",
@@ -5301,7 +5304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:10",
+		"aktualisierungsdatum": "2023-06-09T12:32:09",
 		"id": 4298
 	},
 	{
@@ -5343,7 +5346,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:11",
+		"aktualisierungsdatum": "2023-06-09T12:32:10",
 		"id": 4299
 	},
 	{
@@ -5385,7 +5388,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:10",
+		"aktualisierungsdatum": "2023-06-09T12:32:08",
 		"id": 4301
 	},
 	{
@@ -5395,23 +5398,23 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "CO<sub>2</sub>-Emissionen Neuzulassungen",
+		"title": "CO<sub>2</sub>-Emissionen Neuzulassungen Personenwagen",
 		"subtitle": "in Gramm pro Kilometer",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Durchschnittliche CO<sub>2</sub>-Emissionen der innerhalb eines Jahres neu immatrikulierten und in Verkehr gesetzten Personenwagen im jeweiligen Kanton.<br><br>Die CO<sub>2</sub>-Emissionen basieren auf den Werten, die in der jeweiligen Typenbescheinigung neu zugelassener Motorfahrzeuge aufgeführt sind. Der Jahreswert bildet sich aus dem Mittelwert der Emissionen aller innerhalb eines Jahres bei der Motorfahrzeugkontrolle neu immatrikulierten und in Verkehr gesetzten Motorfahrzeuge. Für die Berechnung des Mittelwertes werden nur Motorfahrzeuge berücksichtigt, welche in den Geltungsbereich der CO<sub>2</sub>-Verordnung fallen (siehe weiterführende Informationen).",
+		"erlaeuterungen": "Durchschnittliche CO<sub>2</sub>-Emissionen der innerhalb eines Jahres neu immatrikulierten und in Verkehr gesetzten Personenwagen im jeweiligen Kanton.<br><br>Mittelwert der CO<sub>2</sub>-Emissionen pro km (gemäss Typenbescheinigung) aller innerhalb eines Jahres bei der Motorfahrzeugkontrolle neu immatrikulierten und in Verkehr gesetzten Personenwagen, welche in den Geltungsbereich der CO<sub>2</sub>-Verordnung fallen (siehe weiterführende Informationen).",
 		"quellenangabe": [
 			"Bundesamt für Energie (BFE)"
 		],
 		"externalLinks": [
 			"<a href = 'CO<sub>2</sub>-Emissionen von Neufahrzeugen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNDkmbG5nPWRlJlN1Ymo9Tg%3D%3D.html target=_blank rel=nofollow>https://ww</a>",
-			"<a href = 'Verordnung über die Reduktion der CO2-Emissionen (CO2-Verordnung)' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/2012/856/de#art_17 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/2012/856/de#art_17</a></a>",
+			"<a href = 'Verordnung über die Reduktion der CO<sub>2</sub>-Emissionen (CO<sub>2</sub>-Verordnung)' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/2012/856/de#art_17 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/2012/856/de#art_17</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0806' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "CO<sub>2</sub>-Emissionen Neuzulassungen",
+		"description": "CO<sub>2</sub>-Emissionen Neuzulassungen Personenwagen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.4302",
@@ -5427,7 +5430,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:11",
+		"aktualisierungsdatum": "2023-06-09T12:32:09",
 		"id": 4302
 	},
 	{
@@ -5469,7 +5472,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:28",
+		"aktualisierungsdatum": "2023-06-09T12:32:35",
 		"id": 4303
 	},
 	{
@@ -5510,7 +5513,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:54",
+		"aktualisierungsdatum": "2023-06-09T12:31:49",
 		"id": 4305
 	},
 	{
@@ -5552,7 +5555,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:55",
+		"aktualisierungsdatum": "2023-06-09T12:31:50",
 		"id": 4306
 	},
 	{
@@ -5592,7 +5595,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:56",
+		"aktualisierungsdatum": "2023-06-09T12:31:51",
 		"id": 4307
 	},
 	{
@@ -5634,7 +5637,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:55",
+		"aktualisierungsdatum": "2023-06-09T12:31:51",
 		"id": 4308
 	},
 	{
@@ -5675,7 +5678,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:12",
+		"aktualisierungsdatum": "2023-06-09T12:32:11",
 		"id": 4309
 	},
 	{
@@ -5716,7 +5719,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:12",
+		"aktualisierungsdatum": "2023-06-09T12:32:12",
 		"id": 4310
 	},
 	{
@@ -5757,7 +5760,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:11",
+		"aktualisierungsdatum": "2023-06-09T12:32:11",
 		"id": 4312
 	},
 	{
@@ -5799,7 +5802,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:07",
+		"aktualisierungsdatum": "2023-06-09T12:32:06",
 		"id": 4314
 	},
 	{
@@ -5839,7 +5842,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:08",
+		"aktualisierungsdatum": "2023-06-09T12:32:06",
 		"id": 4315
 	},
 	{
@@ -5851,7 +5854,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gebäudeschäden durch Naturereignisse",
 		"subtitle": "in Anzahl Schadenfälle; Tausend CHF (rechte Skala)",
-		"lesehilfe": "Die Anzahl Schadenfälle und die Schadensumme schwanken von Jahr zu Jahr und sind abhängig von den entsprechenden Naturereignissen. 2021 wurden in Basel-Stadt 154 Schadenfälle registriert, für welche die Gebäudeversicherung Basel-Stadt 699 890 Franken aufgewendet hat.",
+		"lesehilfe": "Die Anzahl Schadenfälle und die Schadensumme schwanken von Jahr zu Jahr und sind abhängig von den entsprechenden Naturereignissen. 2022 wurden in Basel-Stadt 1790 Schadenfälle registriert, für welche die Gebäudeversicherung Basel-Stadt 10 895 810 Franken aufgewendet hat.",
 		"erlaeuterungen": "Anzahl Schadenfälle und Summe der jährlich durch die Gebäudeversicherungen entrichteten Schadenzahlungen für durch Elementarschäden (Hochwasser/Überschwemmung, Erdrutsche, Hagel und Stürme) entstandene Gebäudeschäden. <br><br>Sämtliche Gebäude im Kantonsgebiet sind gemäss Gesetz bei der jeweiligen Gebäudeversicherung gegen Feuer- und Elementarschäden zu versichern. Die Schadensummen sind nicht teuerungsbereinigt und sind, wie die Anzahl der Schäden, auch in Relation zur Entwicklung des Gebäudebestandes zu betrachten. Vorjahresdaten können rückwirkend angepasst werden, da Instandstellungsarbeiten sowie Abschlüsse von Schadenfällen mehrere Jahre dauern können.",
 		"quellenangabe": [
 			"Gebäudeversicherung Basel-Stadt"
@@ -5881,7 +5884,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:09",
+		"aktualisierungsdatum": "2023-06-09T12:32:07",
 		"id": 4316
 	},
 	{
@@ -5922,7 +5925,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:32",
+		"aktualisierungsdatum": "2023-06-09T12:32:41",
 		"id": 4318
 	},
 	{
@@ -5940,7 +5943,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Verkehrspolitisches Leitbild Kanton Basel-Stadt' target = '_blank'><a href=https://www.mobilitaet.bs.ch/gesamtverkehr/mobilitaetsstrategie/verkehrspolitische-grunds-tze.html target=_blank rel=nofollow>https://www.mobilitaet.bs.ch/gesamtverkehr/mobilitaetsstrategie/verkehrspolitische-grunds-tze.html</a></a>",
+			"<a href = 'Verkehrsindex Amt für Mobilität Kanton Basel-Stadt' target = '_blank'><a href=https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html target=_blank rel=nofollow>https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -5963,7 +5966,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:34",
+		"aktualisierungsdatum": "2023-06-09T12:32:43",
 		"id": 4319
 	},
 	{
@@ -6004,7 +6007,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:04",
+		"aktualisierungsdatum": "2023-06-09T12:32:02",
 		"id": 4321
 	},
 	{
@@ -6045,7 +6048,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:07",
+		"aktualisierungsdatum": "2023-06-09T12:32:05",
 		"id": 4322
 	},
 	{
@@ -6086,7 +6089,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:32",
+		"aktualisierungsdatum": "2023-06-09T12:32:40",
 		"id": 4323
 	},
 	{
@@ -6127,7 +6130,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:33",
+		"aktualisierungsdatum": "2023-06-09T12:32:42",
 		"id": 4325
 	},
 	{
@@ -6208,7 +6211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:50",
+		"aktualisierungsdatum": "2023-06-09T12:31:44",
 		"id": 4330
 	},
 	{
@@ -6250,7 +6253,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:48",
+		"aktualisierungsdatum": "2023-06-09T12:31:41",
 		"id": 4331
 	},
 	{
@@ -6292,7 +6295,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:51",
+		"aktualisierungsdatum": "2023-06-09T12:31:45",
 		"id": 4332
 	},
 	{
@@ -6334,7 +6337,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:51",
+		"aktualisierungsdatum": "2023-06-09T12:31:46",
 		"id": 4333
 	},
 	{
@@ -6376,7 +6379,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:49",
+		"aktualisierungsdatum": "2023-06-09T12:31:42",
 		"id": 4334
 	},
 	{
@@ -6414,7 +6417,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:50",
+		"aktualisierungsdatum": "2023-06-09T12:31:44",
 		"id": 4335
 	},
 	{
@@ -6455,7 +6458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:49",
+		"aktualisierungsdatum": "2023-06-09T12:31:43",
 		"id": 4336
 	},
 	{
@@ -6497,7 +6500,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:47",
+		"aktualisierungsdatum": "2023-06-09T12:31:41",
 		"id": 4337
 	},
 	{
@@ -6538,7 +6541,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:16:48",
+		"aktualisierungsdatum": "2023-06-09T12:31:42",
 		"id": 4338
 	},
 	{
@@ -10649,7 +10652,7 @@ var indikatoren = [
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2018 4,35 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 0,99 globale Hektaren pro Kopf betrug.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2022 3,74 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,13 globale Hektaren pro Kopf betrug. Die letzten drei Datenjahre sind Schätzungen.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"quellenangabe": [
 			"Global Footprint Network"
@@ -10678,7 +10681,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:26",
+		"aktualisierungsdatum": "2023-06-09T12:32:45",
 		"id": 5793
 	},
 	{
@@ -10720,7 +10723,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:23",
+		"aktualisierungsdatum": "2023-06-09T12:32:26",
 		"id": 5797
 	},
 	{
@@ -10762,7 +10765,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:22",
+		"aktualisierungsdatum": "2023-06-09T12:32:25",
 		"id": 5798
 	},
 	{
@@ -10804,7 +10807,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:01",
+		"aktualisierungsdatum": "2023-06-09T12:31:57",
 		"id": 5799
 	},
 	{
@@ -10846,7 +10849,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:22",
+		"aktualisierungsdatum": "2023-06-09T12:32:26",
 		"id": 5800
 	},
 	{
@@ -14467,8 +14470,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2021",
-		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen in Einpersonenhaushalten am höchsten (65,8 m²) und bei jenen in Einelternhaushalten mit minderjährigen Kindern mit Grosseltern(-teil) am tiefsten (22,7 m²).",
+		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2022",
+		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen in Einpersonenhaushalten am höchsten (65,6 m²) und bei jenen in Einelternhaushalten mit minderjährigen Kindern mit Grosseltern(-teil) am tiefsten (22,0 m²).",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahren; volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -14497,7 +14500,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:34",
+		"aktualisierungsdatum": "2023-06-09T12:31:39",
 		"id": 6363
 	},
 	{
@@ -14508,7 +14511,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2021",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2022",
 		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 65,7&nbsp;m², in einem Familienhaushalt mit 5 und mehr Personen 20,9&nbsp;m².",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche der Wohnung durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Sie wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
@@ -14538,7 +14541,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:35",
+		"aktualisierungsdatum": "2023-06-09T12:31:40",
 		"id": 6364
 	},
 	{
@@ -39033,9 +39036,9 @@ var indikatoren = [
 		"children": [
 			9437
 		],
-		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
+		"title": "Zupendelnde Fachkräfte in Bildung, Kultur, Gesundheits- und Sozialwesen",
 		"subtitle": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 pendelten rund 8 900 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 300 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
+		"lesehilfe": "Im Jahr 2021 pendelten rund 8 700 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 1 800 zupendelnde Erwerbstätige arbeiteten im Bereich Bildung und Kultur.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Agglomeration Basel: gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -39047,7 +39050,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
+		"description": "Zupendelnde Fachkräfte in Bildung, Kultur, Gesundheits- und Sozialwesen",
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kuerzel": "I.11.5.09380",
@@ -39063,7 +39066,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:23",
+		"aktualisierungsdatum": "2023-06-09T12:32:44",
 		"id": 9380
 	},
 	{
@@ -39077,7 +39080,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2020 pendelten fast 89 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 22 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen.",
+		"lesehilfe": "Im Jahr 2021 pendelten etwas mehr als 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 21 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 65 000 Personen.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -39104,7 +39107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:57",
+		"aktualisierungsdatum": "2023-06-09T12:32:44",
 		"id": 9381
 	},
 	{
@@ -39871,7 +39874,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-02-24T12:17:20",
+		"aktualisierungsdatum": "2023-06-09T12:32:22",
 		"id": 9507
 	},
 	{

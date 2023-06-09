@@ -5,11 +5,11 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          65.79
+          65.61
         ],
         [
           "Familienhaushalte",
-          33.04
+          32.94
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -49,7 +49,7 @@
         ],
         [
           "Nichtfamilienhaushalte",
-          37.13
+          37.08
         ]
       ],
       "name": "Mittlere Wohnfläche",
@@ -68,11 +68,11 @@
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          47.15
+          46.97
         ],
         [
           "Paare mit minderjährigen Kindern",
-          26.04
+          26.12
         ],
         [
           "Verheiratete Paare mit Kindern",
@@ -84,7 +84,7 @@
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          30.12
+          29.86
         ],
         [
           "Ohne weitere Personen",
@@ -100,7 +100,7 @@
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          33.37
+          33.41
         ],
         [
           "Nichtfamilienhaushalte",
@@ -131,11 +131,11 @@
         ],
         [
           "Verheiratete Paare mit Kindern",
-          25.85
+          25.96
         ],
         [
           "Unverheiratete Paare mit Kindern",
-          27.21
+          27.1
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
@@ -143,15 +143,15 @@
         ],
         [
           "Ohne weitere Personen",
-          32.91
+          32.88
         ],
         [
           "Mit Grosseltern(-teil)",
-          22.73
+          21.99
         ],
         [
           "Mit weiteren Personen",
-          26.12
+          25.64
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
@@ -292,7 +292,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "nach Haushaltstyp in m², Basel-Stadt, 2021",
+    "text": "nach Haushaltstyp in m², Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2023"
   },
   "colors": [
     "#68AB2B",
