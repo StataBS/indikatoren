@@ -176,7 +176,7 @@ id | visible | visibleInPortal | indikatorenset
 4323 | true | true | Umwelt
 4325 | true | true | Umwelt
 4328 | false |  | Umwelt
-4329 | true | true | Umwelt
+4329 | false |  | Umwelt
 4330 | true | true | Umwelt
 4331 | true | true | Umwelt
 4332 | true | true | Umwelt
