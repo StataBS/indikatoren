@@ -12336,10 +12336,10 @@
 		"children": [
 			8941
 		],
-		"title": "Nettoerwerbstätigenquote nach Geschlecht",
+		"title": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2020 insgesamt bei 71,9%. Bei den Männern lag sie mit 75,2% über derjenigen der Frauen (68,7%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2021 insgesamt bei 72,4%. Bei den Männern lag sie mit 75,3% über derjenigen der Frauen (69,5%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Anpassungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -12349,23 +12349,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nettoerwerbstätigenquote nach Geschlecht",
+		"description": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6052",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE7",
+		"kuerzelKunde": "WE11",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_607",
+		"orderKey": "06_02_00_00_00_611",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:43",
+		"aktualisierungsdatum": "2023-06-13T02:26:42",
 		"id": 6052
 	},
 	{
@@ -12460,10 +12460,10 @@
 		"children": [
 			8945
 		],
-		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
+		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "21,5% der erwerbstätigen Männer gingen 2020 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2020 bei 49,8%.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "19,6% der erwerbstätigen Männer gingen 2021 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2021 bei 48,5%.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -12473,23 +12473,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
+		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6056",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE14",
+		"kuerzelKunde": "WE16",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_615",
+		"orderKey": "06_02_00_00_00_616",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-16T08:19:42",
+		"aktualisierungsdatum": "2023-06-13T02:26:43",
 		"id": 6056
 	},
 	{

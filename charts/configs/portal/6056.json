@@ -32,6 +32,10 @@
         [
           "2020",
           21.5
+        ],
+        [
+          "2021",
+          19.6
         ]
       ],
       "name": "Männer",
@@ -75,6 +79,11 @@
           "name": "2020",
           "low": 19.4,
           "high": 23.7
+        },
+        {
+          "name": "2021",
+          "low": 17.4,
+          "high": 21.7
         }
       ],
       "name": "Männer 95% Konfidenzintervall Untergrenze",
@@ -112,6 +121,10 @@
         [
           "2020",
           49.8
+        ],
+        [
+          "2021",
+          48.5
         ]
       ],
       "name": "Frauen",
@@ -155,6 +168,11 @@
           "name": "2020",
           "low": 47.1,
           "high": 52.5
+        },
+        {
+          "name": "2021",
+          "low": 45.8,
+          "high": 51.2
         }
       ],
       "name": "Frauen 95% Konfidenzintervall Untergrenze",
@@ -192,6 +210,10 @@
         [
           "2020",
           35.1
+        ],
+        [
+          "2021",
+          33.5
         ]
       ],
       "name": "Total",
@@ -235,6 +257,11 @@
           "name": "2020",
           "low": 33.3,
           "high": 36.8
+        },
+        {
+          "name": "2021",
+          "low": 31.7,
+          "high": 35.3
         }
       ],
       "name": "Total 95% Konfidenzintervall Untergrenze",
@@ -315,7 +342,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter"
+    "text": "Anteil Teilzeiterwerbstätige nach Geschlecht"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -376,7 +403,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2023"
   },
   "tooltip": {
     "shared": true
