@@ -2923,7 +2923,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2021 für Schweizerinnen und Schweizer 45 m², für Ausländerinnen und Ausländer 35 m². Gegenüber 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2022 für Schweizerinnen und Schweizer 45 m², für Ausländerinnen und Ausländer 35 m². Gegenüber 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2950,7 +2950,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:28",
+		"aktualisierungsdatum": "2023-06-15T08:48:26",
 		"id": 6475
 	},
 	{
@@ -2963,8 +2963,8 @@ var indikatorensetData = [
 			6717
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (24 m²).",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2990,7 +2990,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:29",
+		"aktualisierungsdatum": "2023-06-15T08:48:26",
 		"id": 6476
 	},
 	{
@@ -3043,8 +3043,8 @@ var indikatorensetData = [
 			6719
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2021",
-		"lesehilfe": "Bei den Einpersonenhaushalten verfügen Schweizer über die höchste mittlere Wohnfläche pro Person (69 m²), bei den Vierpersonenhaushalten Deutsche (28 m²). Der Unterschied zwischen den Ländergruppen ist weniger ausgeprägt als jener zwischen den beiden Haushaltsgrössen innerhalb einer Ländergruppe.",
+		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2022",
+		"lesehilfe": "Bei den Einpersonenhaushalten verfügen Schweizer über die höchste mittlere Wohnfläche pro Person (69 m²), bei den Vierpersonenhaushalten Deutsche (29 m²). Der Unterschied zwischen den Ländergruppen ist weniger ausgeprägt als jener zwischen den beiden Haushaltsgrössen innerhalb einer Ländergruppe.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3070,7 +3070,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:30",
+		"aktualisierungsdatum": "2023-06-15T08:48:27",
 		"id": 6478
 	},
 	{
@@ -4146,8 +4146,8 @@ var indikatorensetData = [
 			6747
 		],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2021",
-		"lesehilfe": "Von den Kindern, die im August 2022 in den Kindergarten eintreten, sind 42% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 89% der Kinder aus arabischen Ländern und je 87% der in Basel-Stadt wohnhaften Kinder aus dem EU-Ost-Raum und Balkan.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2022",
+		"lesehilfe": "Von den Kindern, die im August 2023 in den Kindergarten eintreten, sind 45% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 91% der Kinder aus dem Balkan und 85% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern.",
 		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
@@ -4172,7 +4172,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:02",
+		"aktualisierungsdatum": "2023-06-15T08:48:25",
 		"id": 6515
 	},
 	{

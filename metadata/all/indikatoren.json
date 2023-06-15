@@ -13151,7 +13151,7 @@
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2018 um 24,3% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2020 um 135,5% höher.",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2021 um 117,9% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
@@ -13169,18 +13169,18 @@
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.06051",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE6",
+		"kuerzelKunde": "WE9",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_606",
+		"orderKey": "06_01_00_00_00_609",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:27",
+		"aktualisierungsdatum": "2023-06-15T08:48:28",
 		"id": 6051
 	},
 	{
@@ -22876,7 +22876,7 @@
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2021 für Schweizerinnen und Schweizer 45 m², für Ausländerinnen und Ausländer 35 m². Gegenüber 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2022 für Schweizerinnen und Schweizer 45 m², für Ausländerinnen und Ausländer 35 m². Gegenüber 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -22904,7 +22904,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:28",
+		"aktualisierungsdatum": "2023-06-15T08:48:26",
 		"id": 6475
 	},
 	{
@@ -22917,8 +22917,8 @@
 			6717
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (24 m²).",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -22945,7 +22945,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:29",
+		"aktualisierungsdatum": "2023-06-15T08:48:26",
 		"id": 6476
 	},
 	{
@@ -22999,8 +22999,8 @@
 			6719
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2021",
-		"lesehilfe": "Bei den Einpersonenhaushalten verfügen Schweizer über die höchste mittlere Wohnfläche pro Person (69 m²), bei den Vierpersonenhaushalten Deutsche (28 m²). Der Unterschied zwischen den Ländergruppen ist weniger ausgeprägt als jener zwischen den beiden Haushaltsgrössen innerhalb einer Ländergruppe.",
+		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2022",
+		"lesehilfe": "Bei den Einpersonenhaushalten verfügen Schweizer über die höchste mittlere Wohnfläche pro Person (69 m²), bei den Vierpersonenhaushalten Deutsche (29 m²). Der Unterschied zwischen den Ländergruppen ist weniger ausgeprägt als jener zwischen den beiden Haushaltsgrössen innerhalb einer Ländergruppe.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -23027,7 +23027,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:30",
+		"aktualisierungsdatum": "2023-06-15T08:48:27",
 		"id": 6478
 	},
 	{
@@ -24249,8 +24249,8 @@
 			6747
 		],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2021",
-		"lesehilfe": "Von den Kindern, die im August 2022 in den Kindergarten eintreten, sind 42% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 89% der Kinder aus arabischen Ländern und je 87% der in Basel-Stadt wohnhaften Kinder aus dem EU-Ost-Raum und Balkan.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2022",
+		"lesehilfe": "Von den Kindern, die im August 2023 in den Kindergarten eintreten, sind 45% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 91% der Kinder aus dem Balkan und 85% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern.",
 		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
@@ -24276,7 +24276,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:02",
+		"aktualisierungsdatum": "2023-06-15T08:48:25",
 		"id": 6515
 	},
 	{
@@ -53277,7 +53277,7 @@
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt 57,2 im Jahr 2021, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,2 Personen die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2022 57,3, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,3 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -53303,7 +53303,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-17T09:56:36",
+		"aktualisierungsdatum": "2023-06-15T08:48:25",
 		"id": 8379
 	},
 	{
@@ -67684,7 +67684,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-08T08:53:19",
+		"aktualisierungsdatum": "2023-06-15T08:48:24",
 		"id": 8995
 	},
 	{
@@ -68056,7 +68056,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-08T08:53:20",
+		"aktualisierungsdatum": "2023-06-15T08:48:22",
 		"id": 9022
 	},
 	{
@@ -68094,7 +68094,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-08T08:53:21",
+		"aktualisierungsdatum": "2023-06-15T08:48:24",
 		"id": 9023
 	},
 	{
