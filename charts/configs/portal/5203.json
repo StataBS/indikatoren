@@ -15,7 +15,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2010",
@@ -60,6 +60,10 @@
         [
           "2020",
           -21057
+        ],
+        [
+          "2021",
+          -20495
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -80,7 +84,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2010",
@@ -125,6 +129,10 @@
         [
           "2020",
           -901
+        ],
+        [
+          "2021",
+          -659
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -145,7 +153,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2010",
@@ -190,6 +198,10 @@
         [
           "2020",
           54038
+        ],
+        [
+          "2021",
+          51719
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -210,7 +222,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2010",
@@ -254,7 +266,11 @@
         ],
         [
           "2020",
-          34592
+          34321
+        ],
+        [
+          "2021",
+          34744
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -278,7 +294,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2010",
@@ -322,7 +338,11 @@
         ],
         [
           "2020",
-          66672
+          66401
+        ],
+        [
+          "2021",
+          65309
         ]
       ],
       "name": "Saldo",
@@ -471,7 +491,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
