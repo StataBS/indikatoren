@@ -7,11 +7,11 @@
       "data": [
         [
           "Wegpendler",
-          15090
+          14801
         ],
         [
           "Zupendler",
-          41247
+          39644
         ]
       ],
       "name": "Basel-Landschaft",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Wegpendler",
-          3318
+          3304
         ],
         [
           "Zupendler",
-          8296
+          8025
         ]
       ],
       "name": "Aargau",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Wegpendler",
-          1518
+          1458
         ],
         [
           "Zupendler",
-          5496
+          5192
         ]
       ],
       "name": "Solothurn",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Wegpendler",
-          1971
+          1731
         ],
         [
           "Zupendler",
-          1959
+          1703
         ]
       ],
       "name": "Zürich",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Wegpendler",
-          1927
+          1813
         ],
         [
           "Zupendler",
-          3356
+          2947
         ]
       ],
       "name": "Andere",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Wegpendler",
-          589
+          630
         ],
         [
           "Zupendler",
-          34968
+          34714
         ]
       ],
       "name": "Ausland",
@@ -182,7 +182,7 @@
     "text": "Arbeitspendler Basel-Stadt"
   },
   "subtitle": {
-    "text": "Pooling 2016-2020",
+    "text": "Pooling 2017-2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
