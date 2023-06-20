@@ -7,19 +7,19 @@
       "data": [
         [
           "Basel-Stadt",
-          -23824
+          -23107
         ],
         [
           "Basel-Landschaft",
-          -56122
+          -53849
         ],
         [
           "Jura",
-          -5129
+          -5128
         ],
         [
           "BS\u002FBL\u002FJU",
-          -27931
+          -26929
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -32,19 +32,19 @@
       "data": [
         [
           "Basel-Stadt",
-          -589
+          -630
         ],
         [
           "Basel-Landschaft",
-          -278
+          -229
         ],
         [
           "Jura",
-          -16
+          -15
         ],
         [
           "BS\u002FBL\u002FJU",
-          -883
+          -874
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -57,19 +57,19 @@
       "data": [
         [
           "Basel-Stadt",
-          60353
+          57511
         ],
         [
           "Basel-Landschaft",
-          32609
+          31751
         ],
         [
           "Jura",
-          2335
+          2338
         ],
         [
           "BS\u002FBL\u002FJU",
-          38154
+          36444
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -82,19 +82,19 @@
       "data": [
         [
           "Basel-Stadt",
-          34972
+          34714
         ],
         [
           "Basel-Landschaft",
-          21857
+          22258
         ],
         [
           "Jura",
-          8291
+          8606
         ],
         [
           "BS\u002FBL\u002FJU",
-          65121
+          65578
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -118,19 +118,19 @@
       "data": [
         [
           "Basel-Stadt",
-          70913
+          68489
         ],
         [
           "Basel-Landschaft",
-          -1934
+          -70
         ],
         [
           "Jura",
-          5482
+          5801
         ],
         [
           "BS\u002FBL\u002FJU",
-          74461
+          74220
         ]
       ],
       "name": "Pendlersaldo",
@@ -215,7 +215,7 @@
     "text": "Arbeitspendler"
   },
   "subtitle": {
-    "text": "Pooling 2016-2020",
+    "text": "Pooling 2017-2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -277,7 +277,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2023"
   },
   "tooltip": {
     "shared": true,
