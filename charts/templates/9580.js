@@ -18,12 +18,6 @@
       labels: {
         step: 1,
        // rotation: -45,
-        style: {
-          fontSize: "11px"
-        },
-        formatter: function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
       }
     },
     "yAxis": {
@@ -34,15 +28,14 @@
     },
     "legend": {
       "enabled": true,
-      reversed: true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      padding: 0,
-      itemDistance: 2,
-      width: 500,
-      itemWidth: 230,
       reversed: false,
+      width: 500,
+      padding: 0,
+      itemWidth: 230,
+      itemDistance: 2,
       itemMarginBottom: 1
     },
     "series": [
