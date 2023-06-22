@@ -162,7 +162,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Meldungen bei der Polizei",
 		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
-		"lesehilfe": "Im Jahr 2021 wurden bei der Polizeieinsatzzentrale 1 306 Meldungen erfasst, die die Innenstadt betreffen. In der Stadt Basel gab es 4 409 Meldungen und im Kanton Basel-Stadt 4 636.",
+		"lesehilfe": "Im Jahr 2022 wurden bei der Polizeieinsatzzentrale 1 158 Meldungen erfasst, welche die Innenstadt betreffen.",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -189,7 +189,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:57",
+		"aktualisierungsdatum": "2023-06-22T08:41:35",
 		"id": 9579
 	},
 	{
@@ -199,9 +199,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
+		"title": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2022 mit 329 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (241) sowie wegen Alkohol und Drogen (148).",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -211,7 +211,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
+		"description": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",
@@ -226,7 +226,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:58",
+		"aktualisierungsdatum": "2023-06-22T08:41:36",
 		"id": 9580
 	},
 	{

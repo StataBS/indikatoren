@@ -1,150 +1,241 @@
 {
   "series": [
     {
-      "color": "#71a3b5",
+      "color": "#008AC3",
       "data": [
         [
           2013,
-          1182
+          5407
         ],
         [
           2014,
-          1170
+          5313
         ],
         [
           2015,
-          1180
+          5598
         ],
         [
           2016,
-          1268
+          5879
         ],
         [
           2017,
-          1209
+          5924
         ],
         [
           2018,
-          1335
+          6291
         ],
         [
           2019,
-          1355
+          6979
         ],
         [
           2020,
-          1328
+          6867
         ],
         [
           2021,
-          1306
+          6899
         ],
         [
           2022,
-          1158
+          6814
         ]
       ],
-      "name": "Innenstadt"
+      "name": "Umzug PHH"
     },
     {
-      "color": "#007A2F",
+      "color": "#DC440E",
       "data": [
         [
           2013,
-          3733
+          3436
         ],
         [
           2014,
-          3576
+          3673
         ],
         [
           2015,
+          3424
+        ],
+        [
+          2016,
+          3292
+        ],
+        [
+          2017,
+          3310
+        ],
+        [
+          2018,
+          3379
+        ],
+        [
+          2019,
+          3472
+        ],
+        [
+          2020,
+          3432
+        ],
+        [
+          2021,
+          3858
+        ],
+        [
+          2022,
           3595
-        ],
-        [
-          2016,
-          3809
-        ],
-        [
-          2017,
-          3905
-        ],
-        [
-          2018,
-          4226
-        ],
-        [
-          2019,
-          3998
-        ],
-        [
-          2020,
-          4615
-        ],
-        [
-          2021,
-          4409
-        ],
-        [
-          2022,
-          3958
         ]
       ],
-      "name": "Stadt Basel"
+      "name": "Wegzug PHH"
     },
     {
-      "color": "#ff8028",
-      "visible": true,
+      "color": "#68AB2B",
       "data": [
         [
           2013,
-          3915
+          723
         ],
         [
           2014,
-          3717
+          836
         ],
         [
           2015,
-          3735
+          817
         ],
         [
           2016,
-          3983
+          765
         ],
         [
           2017,
-          4045
+          856
         ],
         [
           2018,
-          4380
+          890
         ],
         [
           2019,
-          4147
+          839
         ],
         [
           2020,
-          4846
+          861
         ],
         [
           2021,
-          4636
+          893
         ],
         [
           2022,
-          4166
+          884
         ]
       ],
-      "name": "Kanton BS"
+      "name": "Zusammenzug PHH"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2013,
+          3665
+        ],
+        [
+          2014,
+          3653
+        ],
+        [
+          2015,
+          3572
+        ],
+        [
+          2016,
+          3455
+        ],
+        [
+          2017,
+          3412
+        ],
+        [
+          2018,
+          3444
+        ],
+        [
+          2019,
+          4249
+        ],
+        [
+          2020,
+          3981
+        ],
+        [
+          2021,
+          3853
+        ],
+        [
+          2022,
+          4402
+        ]
+      ],
+      "name": "Zuzug PHH"
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          2013,
+          46
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          43
+        ],
+        [
+          2016,
+          86
+        ],
+        [
+          2017,
+          51
+        ],
+        [
+          2018,
+          82
+        ],
+        [
+          2019,
+          83
+        ],
+        [
+          2020,
+          65
+        ],
+        [
+          2021,
+          40
+        ],
+        [
+          2022,
+          65
+        ]
+      ],
+      "name": "Keine Zuordnung möglich"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 60,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -170,7 +261,7 @@
 				}
     },
     "marginRight": 20,
-    "renderTo": "container-9579"
+    "renderTo": "container-9800"
   },
   "plotOptions": {
     "series": {
@@ -179,7 +270,6 @@
       }
     },
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
         "symbol": "circle"
@@ -193,10 +283,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Meldungen bei der Polizei"
+    "text": "Anzahl gewanderte Privathaushalte"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Stadt Basel und Innenstadt",
+    "text": "nach Wanderungstyp, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -239,7 +329,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 2000
   },
   "legend": {
     "enabled": true,
@@ -265,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.6.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -302,10 +393,11 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>' 
+    }
   },
   "exporting": {
-    "filename": "9579"
+    "filename": "9800"
   }
 }

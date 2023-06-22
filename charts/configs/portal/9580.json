@@ -40,6 +40,10 @@
         [
           "2021",
           5
+        ],
+        [
+          "2022",
+          1
         ]
       ],
       "name": "Abfallentsorgung",
@@ -85,6 +89,10 @@
         [
           "2021",
           147
+        ],
+        [
+          "2022",
+          148
         ]
       ],
       "name": "Alkohol\u002FDrogen",
@@ -130,6 +138,10 @@
         [
           "2021",
           188
+        ],
+        [
+          "2022",
+          114
         ]
       ],
       "name": "Bettelei\u002FObdachlosigkeit",
@@ -175,6 +187,10 @@
         [
           "2021",
           96
+        ],
+        [
+          "2022",
+          63
         ]
       ],
       "name": "Demonstration",
@@ -220,6 +236,10 @@
         [
           "2021",
           33
+        ],
+        [
+          "2022",
+          49
         ]
       ],
       "name": "Diebstahl",
@@ -265,6 +285,10 @@
         [
           "2021",
           408
+        ],
+        [
+          "2022",
+          329
         ]
       ],
       "name": "Lärm",
@@ -310,6 +334,10 @@
         [
           "2021",
           220
+        ],
+        [
+          "2022",
+          241
         ]
       ],
       "name": "Körperverletzung",
@@ -355,6 +383,10 @@
         [
           "2021",
           4
+        ],
+        [
+          "2022",
+          12
         ]
       ],
       "name": "Prostitution",
@@ -400,6 +432,10 @@
         [
           "2021",
           28
+        ],
+        [
+          "2022",
+          34
         ]
       ],
       "name": "Raub\u002FÜberfall",
@@ -445,6 +481,10 @@
         [
           "2021",
           64
+        ],
+        [
+          "2022",
+          69
         ]
       ],
       "name": "Strassenmusik",
@@ -490,6 +530,10 @@
         [
           "2021",
           113
+        ],
+        [
+          "2022",
+          98
         ]
       ],
       "name": "Sachbeschädigung\u002FVandalismus",
@@ -509,13 +553,9 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "fontSize": "11px"
+        "color": "#000000"
       },
-      "step": 1,
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+      "step": 1
     },
     "tickInterval": 1
   },
@@ -574,7 +614,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie"
+    "text": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie"
   },
   "subtitle": {
     "text": "Innenstadt Basel",
@@ -610,14 +650,14 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "reversed": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "padding": 0,
-    "itemDistance": 2,
+    "reversed": false,
     "width": 500,
+    "padding": 0,
     "itemWidth": 230,
+    "itemDistance": 2,
     "itemMarginBottom": 1
   },
   "navigation": {
@@ -639,7 +679,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

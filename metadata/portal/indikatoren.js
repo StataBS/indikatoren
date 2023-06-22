@@ -24599,7 +24599,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-24T08:23:22",
+		"aktualisierungsdatum": "2023-06-22T08:41:31",
 		"id": 7515
 	},
 	{
@@ -28491,8 +28491,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln sowie in der Gemeinden Riehen. In neun Wohnvierteln sank sie. In Bettingen veränderte sie sich gegenüber dem Vormonat nicht.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in der Gemeinden Riehen. In vier Wohnvierteln und in der Gemeinde Bettingen sank sie. In den Wohnvierteln Bruderholz und Matthäus veränderte sie sich gegenüber dem Vormonat nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -28519,7 +28519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-24T08:23:23",
+		"aktualisierungsdatum": "2023-06-22T08:41:32",
 		"id": 7763
 	},
 	{
@@ -40003,7 +40003,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Meldungen bei der Polizei",
 		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
-		"lesehilfe": "Im Jahr 2021 wurden bei der Polizeieinsatzzentrale 1 306 Meldungen erfasst, die die Innenstadt betreffen. In der Stadt Basel gab es 4 409 Meldungen und im Kanton Basel-Stadt 4 636.",
+		"lesehilfe": "Im Jahr 2022 wurden bei der Polizeieinsatzzentrale 1 158 Meldungen erfasst, welche die Innenstadt betreffen.",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -40031,7 +40031,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:57",
+		"aktualisierungsdatum": "2023-06-22T08:41:35",
 		"id": 9579
 	},
 	{
@@ -40041,9 +40041,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
+		"title": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2022 mit 329 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (241) sowie wegen Alkohol und Drogen (148).",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -40053,7 +40053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
+		"description": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",
@@ -40069,7 +40069,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:53:58",
+		"aktualisierungsdatum": "2023-06-22T08:41:36",
 		"id": 9580
 	},
 	{
@@ -41629,5 +41629,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-05-17T08:55:24",
 		"id": 9785
+	},
+	{
+		"template": "line001",
+		"data-id": 9800,
+		"chart-id": 9800,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl gewanderte Privathaushalte",
+		"subtitle": "nach Wanderungstyp, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 sind 6 814 Privathaushalte umgezogen, 4 402 zugezogen und 3 595 weggezogen. Zudem gab es 884 Zusammenzüge.",
+		"erlaeuterungen": "Einen Haushalt bilden alle Personen, die in der gleichen Wohnung leben. Ein Privathaushalt (PHH) gilt innerhalb eines Quartals als «gewandert», wenn für jede Person im Haushalt in den drei Monaten dieses Quartals das Ereignis Umzug, Zuzug oder Wegzug vorliegt. Bei den ausgewiesenen Zahlen zur Wanderung der PHH nach Jahr handelt es sich um summierte Quartalszahlen. Sie werden für die folgenden vier Wanderungstypen ausgewiesen: Umzug PHH, Zuzug PHH, Zusammenzug PHH und Wegzug PHH.<br>Umzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus der gleichen Wohnung im Kanton Basel-Stadt gemeinsam in eine andere Wohnung in Basel-Stadt umgezogen. <br>Wegzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus der gleichen Wohnung aus dem Kanton Basel-Stadt weggezogen. <br>Zuzug PHH: Alle Personen des Privathaushalts sind während eines Quartals in die gleiche Wohnung in Basel-Stadt zugezogen. Alle Personen hatten zuvor einen Wohnort ausserhalb von Basel-Stadt. Der Wohnort vor dem Zuzug muss nicht für alle Personen gleich gewesen sein.<br>Zusammenzug PHH: Die Personen des Privathaushalts sind in einem Quartal in die gleiche Wohnung in Basel-Stadt zusammengezogen. Vor dem Zusammenzug gab es mindestens zwei unterschiedliche Wohnorte in Basel-Stadt oder mindestens eine Person ist von ausserhalb des Kantons zugezogen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl gewanderte Privathaushalte",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.09800",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-06-22T08:41:34",
+		"id": 9800
 	}
 ];
