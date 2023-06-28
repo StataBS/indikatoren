@@ -67684,7 +67684,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-26T08:32:01",
+		"aktualisierungsdatum": "2023-06-28T08:22:21",
 		"id": 8995
 	},
 	{
@@ -73292,7 +73292,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
 		"subtitle": "ausgestellt durch das Hauptzollamt Lörrach (D), nach Quartal",
-		"lesehilfe": "Im 4. Quartal 2021 wurden 648 748 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der COVID-19-Pandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
+		"lesehilfe": "Im 4. Quartal 2022 wurden 737 971 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der COVID-19-Pandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
 		"erlaeuterungen": "Das Hautptzollamt Lörrach umfasst alle Grenzübergangsstellen von Weil am Rhein im Westen bis Rheinfelden im Osten. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland unter folgenden Bedingungen umsatzsteuerfrei einkaufen: Das Verkaufsunternehmen nimmt an diesem Verfahren teil; die Ware wird aus Deutschland ausgeführt; eine deutsche Grenzzollstelle bestätigt auf dem dafür vorgesehenen Beleg die Ausfuhr sowie den Wohnsitz der Käuferin oder des Käufers in einem Drittland. Seit dem 1. Januar 2020 wird eine Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt.",
 		"quellenangabe": [
 			"Hauptzollamt Lörrach"
@@ -73318,7 +73318,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-17T08:45:57",
+		"aktualisierungsdatum": "2023-06-28T08:22:22",
 		"id": 9346
 	},
 	{
@@ -80528,6 +80528,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-06-22T08:41:34",
 		"id": 9800
+	},
+	{
+		"template": "mappie002",
+		"data-id": 9862,
+		"chart-id": 9862,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Aus dem Ausland Zugezogene",
+		"subtitle": "Total sowie die zwei wichtigsten ausländischen Zuzugsländer, Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 ist der Anteil der aus dem Ausland Zugezogenen in den Wohnvierteln Vorstädte, Rosental und Kleinhüningen am höchsten (>70%). In Bettingen sind 43 Personen aus dem Ausland zugeogenen, 31 (72%) davon haben zuvor in Deutschland gelebt.",
+		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Aus dem Ausland Zugezogene",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.09862",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-06-28T08:22:23",
+		"id": 9862
 	},
 	{
 		"title": "Test Daten",
