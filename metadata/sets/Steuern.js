@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Zusammensetzung der Gesamteinnahmen",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über den betrachteten Zeitraum zwischen knapp 4 Mrd. und 5 Mrd. Franken. Die Werte sind dem Jahresbericht des Kantons entommen und nach dem Mittelfluss pro Kalenderjahr dargestellt (zum Beispiel unabhängig davon, für welches Steuerjahr genau bezahlt wurde; die Daten der im Bericht folgenden Grafiken zur Steuerstatistik beziehen sich hingegen auf das jeweilige Steuerjahr).  Dies erschwert einen Vergleich mit den Vorjahren. Im Kalenderjahr 2019 beträgt der Ertrag aus Einkommens- und Vermögenssteuern rund 1,8 Mrd. Franken (+0,3% gegenüber dem Vorjahr), der Anteil am Gesamtertrag beträgt 36,3%. Die Gewinn- und Kapitalsteuern belaufen sich 2019 auf rund 1,1 Mrd. Franken (+44,3% gegenüber 2018), der Anteil liegt bei 22,2%. Zusammen beträgt der Anteil der aufgeführten Steuerarten im Jahr 2019 58,5% des gesamten Ertrags des Kantons. Der Ertrag aus Quellensteuer ist zum Teil in der Kategorie Übriges und zum Teil in der Kategorie Einkommens- und Vermögenssteuern enthalten.",
+		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über den betrachteten Zeitraum zwischen knapp 4 Mrd. und etwas über 5 Mrd. Franken. Die Werte sind dem Jahresbericht des Kantons entnommen und nach dem Mittelfluss pro Kalenderjahr dargestellt (zum Beispiel unabhängig davon, für welches Steuerjahr genau bezahlt wurde; die Daten der im Bericht folgenden Grafiken zur Steuerstatistik beziehen sich hingegen auf das jeweilige Steuerjahr). Dies erschwert einen Vergleich mit den Vorjahren. Im Kalenderjahr 2020 beträgt der Ertrag aus Einkommens- und Vermögenssteuern rund 1,9 Mrd. Franken (+6,3% gegenüber dem Vorjahr), der Anteil am Gesamtertrag beträgt 35,4%. Die Gewinn- und Kapitalsteuern belaufen sich 2020 auf rund 640 Mio. Franken (-41,0% gegenüber 2019, in dem die Steuereinnahmen der juristischen Personen aussergewöhnlich hoch waren), der Anteil liegt bei 12,1%. Zusammen beträgt der Anteil der aufgeführten Steuerarten im Jahr 2020 47,4% des gesamten Ertrags des Kantons. Der Ertrag aus Quellensteuer ist zum Teil in der Kategorie Übriges und zum Teil in der Kategorie Einkommens- und Vermögenssteuern enthalten.",
 		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, in welchem Jahr die Steuer verbucht oder bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:10",
+		"aktualisierungsdatum": "2023-06-30T08:30:31",
 		"id": 6896
 	},
 	{
@@ -49,7 +49,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung des Ertrags aus Steuern",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Die einzelnen Steuerertragsarten haben sich seit 2010 unterschiedlich entwickelt. Grössere Schwankungen liegen vor allem bei der Gewinnsteuer vor, zwischen 2010 und 2018 ist dieser Wert nominal um 9,9% gestiegen. 2018 beträgt der Zuwachs gegenüber dem Vorjahr 53,7%. Bei den natürlichen Personen ist der Ertrag aus Einkommenssteuern von 2010 bis 2019 um 12,4% gestiegen (2019 gegenüber Vorjahr: +6,2%), aus Vermögenssteuern um 47,7% (gegenüber Vorjahr: +34,4%). Der Ertrag aus Quellenbesteuerung (2020) stieg um 77,9% (gegenüber Vorjahr: +7,5%).",
+		"lesehilfe": "Die einzelnen Steuerertragsarten haben sich seit 2011 unterschiedlich entwickelt. Grössere Schwankungen liegen vor allem bei der Gewinnsteuer vor, zwischen 2011 und 2019 ist dieser Wert nominal um 17,7% gesunken. Bei den natürlichen Personen ist der Ertrag aus Einkommenssteuern von 2011 bis 2020 um 19,1% gestiegen, aus Vermögenssteuern um 61,8%. Der Ertrag aus Quellenbesteuerung (2021) stieg seit 2011 um 66,7%.",
 		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrunde liegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, in welchem Jahr die Steuer verbucht oder bezahlt worden ist. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind gewöhnlich rund 98% der Veranlagungen von natürlichen Personen bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:10",
+		"aktualisierungsdatum": "2023-06-30T08:30:32",
 		"id": 6897
 	},
 	{
@@ -88,7 +88,7 @@ var indikatorensetData = [
 		],
 		"title": "Veranlagungen natürlicher Personen und Bevölkerung",
 		"subtitle": "nach Tarif und Alter, Basel-Stadt, 2019",
-		"lesehilfe": "Im Jahr 2019 gibt es insgesamt 117 200 Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen und wohnhaften Personen. Die meisten Veranlagungen mit jeweils über 2 000 liegen in den Altersjahren 28 bis 39 sowie 53 bis 56 vor. Nicht berücksichtigt sind Veranlagungen von Auswärtigen (insgesamt rund 8 200 Veranlagungen) und von Unterjährigen (ca. 4 900 Veranlagungen). Rund 79 000 Veranlagungen von Alleinstehenden (Anteil 67,8%), 31 300 von Verheirateten (26,7%) und ca. 6 500 von Alleinstehenden mit Kind oder einer anderen unterstützten Person (5,5%).",
+		"lesehilfe": "Im Jahr 2020 gibt es rund 117 600 Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen und wohnhaften Personen. Die meisten Veranlagungen mit jeweils über 2 000 liegen in den Altersjahren 28 bis 40 sowie 54 bis 56 vor. Nicht berücksichtigt sind Veranlagungen von Auswärtigen (insgesamt rund 8 200 Veranlagungen) und von Unterjährigen (ca. 4 600 Veranlagungen). Rund 80 000 Veranlagungen stammen von Alleinstehenden (Anteil 68,0%), 31 000 von Verheirateten (26,4%) und ca. 6 500 von Alleinstehenden mit Kind oder einer anderen unterstützten Person (5,6%).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:11",
+		"aktualisierungsdatum": "2023-06-30T08:30:32",
 		"id": 6898
 	},
 	{
@@ -126,8 +126,8 @@ var indikatorensetData = [
 			9318
 		],
 		"title": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
-		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen verlaufen relativ gleichmässig. Die grössten Schwankungen seit 2010 zeigt das Reinvermögen, das seitdem nominal 46,9% gewachsen ist. Das Reineinkommen stieg um 14,4%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2019 um 18,6% über dem Wert von 2010. Der grössere Anstieg des Reinvermögens zwischen 2011 und 2014 sowie in den Jahren 2016 und 2019 lag unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein. In den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports 98% der gesamten Veranlagungen berücksichtigt.",
+		"subtitle": "indexiert (2011 = 100), Basel-Stadt",
+		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen verlaufen relativ gleichmässig. Die grössten Schwankungen seit 2011 zeigt das Reinvermögen, das seitdem nominal 54,6% gewachsen ist. Das Reineinkommen stieg um 17,8%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2020 um 26,1% über dem Wert von 2011. Der grössere Anstieg des Reinvermögens zwischen 2011 und 2014 sowie in den Jahren 2016 und 2019 lag unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein. In den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports 98% der gesamten Veranlagungen berücksichtigt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:14",
+		"aktualisierungsdatum": "2023-06-30T08:30:35",
 		"id": 6899
 	},
 	{
@@ -166,7 +166,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2019 beträgt der Mittelwert rund 72 400 Franken (+10,1% seit 2010, +3,8% gegenüber 2018), der Median ca. 49 900 Franken (+3,8% seit 2010, +0,4% gegenüber 2018). Der Ertrag aus Einkommenssteuer 2019 beträgt 1,223 Mrd. Franken (+12,4% gegenüber 2010 und +6,2% gegenüber 2018).",
+		"lesehilfe": "Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2020 beträgt der Mittelwert rund 73 400 Franken (+13,2% seit 2011, +1,3% gegenüber 2019), der Median ca. 50 200 Franken (+3,8% seit 2011, +0,6% gegenüber 2019). Der Ertrag aus Einkommenssteuer 2020 beträgt 1,253 Mrd. Franken (+19,1% gegenüber 2011 und +2,4% gegenüber 2019).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -191,7 +191,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:15",
+		"aktualisierungsdatum": "2023-06-30T08:30:35",
 		"id": 6900
 	},
 	{
@@ -204,8 +204,8 @@ var indikatorensetData = [
 			9320
 		],
 		"title": "Mittelwert des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "In den meisten Wohnvierteln ist ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2010 zu verzeichnen. Am relativ stärksten fällt er in den Wohnvierteln Rosental und Vorstädte aus, mit 26,2% und 39,5%. In der Gemeinde Bettingen beträgt die Steigerung 49,0%. Der Mittelwert aller Veranlagungen im Kanton stieg um 10,1%.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "In den meisten Wohnvierteln ist ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2011 zu verzeichnen. Am relativ stärksten fällt er in den Wohnvierteln Rosental und Vorstädte aus, mit 26,5% und 51,1%. In der Gemeinde Bettingen beträgt die Steigerung 62,3%. Der Mittelwert des Reineinkommens aller Veranlagungen im Kanton stieg um 13,2%.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:16",
+		"aktualisierungsdatum": "2023-06-30T08:30:36",
 		"id": 6901
 	},
 	{
@@ -243,8 +243,8 @@ var indikatorensetData = [
 			9321
 		],
 		"title": "Median des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Der Median des Reineinkommens pro Veranlagung ist zwischen 2010 und 2019 in den meisten Wohnvierteln gewachsen. Den stärksten relativen Zuwachs gibt es in den Wohnvierteln Vorstädte (+17,2%) und Rosental (+15,2%). Den grössten Rückgang verzeichnet das Wohnviertel Klybeck (-5,3%). Der Median aller Veranlagungen im gesamten Kanton stieg um 3,8%.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Der Median des Reineinkommens pro Veranlagung ist zwischen 2011 und 2020 in den meisten Wohnvierteln gewachsen. Den stärksten relativen Zuwachs gibt es im Wohnviertel Am Ring und in Bettingen (jeweils +14,2%). Den grössten Rückgang verzeichnet das Wohnviertel Klybeck (-4,4%). Der Median des Reineinkommens aller Veranlagungen im gesamten Kanton stieg um 3,8%.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -269,7 +269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:17",
+		"aktualisierungsdatum": "2023-06-30T08:30:37",
 		"id": 6902
 	},
 	{
@@ -283,7 +283,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist seit 2010 relativ stetig gestiegen, insgesamt um 50,0%, von rund 13 100 auf 19 600 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen im Zeitverlauf etwas grössere Schwankungen. Im Vergleich zum Vorjahr sind die Werte ebenfalls gestiegen, der Mittelwert um 22,2%, der Ertrag um 34,4% und der Median um 2,3%. Der Anstieg des Medians über die Jahre ist ein Indikator dafür, dass sich die tieferen Vermögen allgemein insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau. Ein Teil der stärkeren Veränderungen kannn auch im Bearbeitungsstand der Veranlagungen begründet sein - in den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports für jedes Steuerjahr 98% der gesamten Veranlagungen im Kanton berücksichtigt.",
+		"lesehilfe": "Der Median des Reinvermögens ist seit 2011 relativ stetig gestiegen, insgesamt um 48,9%, von rund 14 500 auf 21 600 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen im Zeitverlauf etwas grössere Schwankungen. Im Vergleich zum Vorjahr sank der Ertrag um 2,6%, der Mittelwert des Reinvermögens stieg um 1,4%, der Median um 10,0%. Der Anstieg des Medians über die Jahre ist ein Indikator dafür, dass sich die tieferen Vermögen allgemein insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau. Ein Teil der stärkeren Veränderungen kannn auch im Bearbeitungsstand der Veranlagungen begründet sein - in den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports für jedes Steuerjahr 98% der gesamten Veranlagungen im Kanton berücksichtigt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:17",
+		"aktualisierungsdatum": "2023-06-30T08:30:37",
 		"id": 6903
 	},
 	{
@@ -321,8 +321,8 @@ var indikatorensetData = [
 			9323
 		],
 		"title": "Mittelwert des Reinvermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2019 mit ca. 2,8 Mio. Franken die Gemeinde Bettingen auf, gefolgt vom Wohnviertel Vorstädte mit rund 2,6 Mio. Franken. 2010 lag der höchste Wert im Wohnviertel Bruderholz.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2020 mit ca. 2,9 Mio. Franken das Wohnviertel Vorstädte auf, gefolgt von der Gemeinde Bettingen mit rund 2,9 Mio. Franken. 2011 lag der höchste Wert im Wohnviertel Bruderholz.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -347,7 +347,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:18",
+		"aktualisierungsdatum": "2023-06-30T08:30:38",
 		"id": 6904
 	},
 	{
@@ -362,8 +362,8 @@ var indikatorensetData = [
 			9324
 		],
 		"title": "Median des Reinvermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2019 wird mit rund 92 200 Franken in der Einwohnergemeinde Bettingen verzeichnet. Auch 2010 wurde der höchste Wert dort registriert.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Auch 2011 wurde der höchste Wert dort registriert.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -388,7 +388,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:18",
+		"aktualisierungsdatum": "2023-06-30T08:30:38",
 		"id": 6905
 	},
 	{
@@ -401,8 +401,8 @@ var indikatorensetData = [
 			9325
 		],
 		"title": "Ertrag aus  Einkommens- und Vermögensssteuer",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Die einzelnen Wohnviertel und Gemeinden tragen unterschiedlich zum Steuerertrag des Kantons bei. Dies liegt einerseits an der grösseren Anzahl an Steuerpflichtigen (zum Beispiel Gundeldingen, St. Johann, Riehen), andererseits am höheren durchschnittlichen Ertrag pro Veranlagung (zum Beispiel Bruderholz oder St. Alban). In den meisten Wohnvierteln bzw. Gemeinden fällt der Steuerertrag beider Steuerarten 2019 höher aus als 2010. Der höchste Betrag an Einkommenssteuer liegt 2019 in Riehen vor (einschliesslich Gemeindesteuer), er beträgt rund 162 Mio. Franken. Der höchste Wert für die Vermögenssteuer liegt mit ca. 86 Mio. Franken im Wohnviertel Bruderholz vor.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Die einzelnen Wohnviertel und Gemeinden tragen unterschiedlich zum Steuerertrag des Kantons bei. Dies liegt einerseits an der grösseren Anzahl an Steuerpflichtigen (zum Beispiel Gundeldingen, St. Johann, Riehen), andererseits am höheren durchschnittlichen Ertrag pro Veranlagung (zum Beispiel Bruderholz oder St. Alban). In den meisten Wohnvierteln bzw. Gemeinden fällt der Steuerertrag beider Steuerarten 2020 höher aus als 2011. Der höchste Betrag an Einkommenssteuer liegt 2020 in Riehen vor (einschliesslich Gemeindesteuer), er beträgt rund 157 Mio. Franken. Der höchste Wert für die Vermögenssteuer liegt mit ca. 79 Mio. Franken im Wohnviertel Bruderholz vor.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -427,7 +427,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:19",
+		"aktualisierungsdatum": "2023-06-30T08:30:39",
 		"id": 6906
 	},
 	{
@@ -440,8 +440,8 @@ var indikatorensetData = [
 			9326
 		],
 		"title": "Veranlagungen und Summe Einkommenssteuer nach Stufen des steuerbaren Einkommens",
-		"subtitle": "in Franken, Basel-Stadt, 2019",
-		"lesehilfe": "Bei 25,1% aller Veranlagungen (ca. 29 400) beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Fast gleich viele Veranlagungen (24,3%) liegen in der Gruppe mit einem steuerbaren Einkommen von 1 bis 24 999 Franken vor. Der Einkommenssteuerertrag beträgt zusammen rund 78 Mio. Franken. Dies sind 6,3% des gesamten Einkommenssteuerertrags. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (ca. 3 900 oder 3,3% aller Veranlagungen) stammt ein Einkommenssteuerertrag von rund 382 Mio. Franken (31,2% des Einkommenssteuertrags). Insgesamt stammen aus 11,2% der Veranlagungen 52,4% der Einkommenssteuer.",
+		"subtitle": "in Franken, Basel-Stadt, 2020",
+		"lesehilfe": "Bei 25,0% aller Veranlagungen (ca. 29 400) beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Fast gleich viele Veranlagungen (24,2%) liegen in der Gruppe mit einem steuerbaren Einkommen von 1 bis 24 999 Franken vor. Der Einkommenssteuerertrag beträgt zusammen rund 76 Mio. Franken. Dies sind 6,1% des gesamten Einkommenssteuerertrags. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (ca. 4 000 oder 3,4% aller Veranlagungen) stammt ein Einkommenssteuerertrag von rund 417 Mio. Franken (33,3% des Einkommenssteuertrags). Insgesamt stammen aus 11,4% der Veranlagungen 54,1% der Einkommenssteuer.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:11",
+		"aktualisierungsdatum": "2023-06-30T08:30:33",
 		"id": 6907
 	},
 	{
@@ -479,8 +479,8 @@ var indikatorensetData = [
 			9327
 		],
 		"title": "Veranlagungen und Summe Vermögenssteuer nach Stufen des steuerbaren Vermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2019",
-		"lesehilfe": "Bei der Vermögenssteuer sind die Anteile der Vermögensklassen weniger gleichmässig verteilt als bei der Einkommenssteuer. Bei 69,7% aller Veranlagungen (ca. 81 700) betrug das steuerbare Vermögen 0 Franken, somit musste keine Vermögenssteuer bezahlt werden. Bei rund 3 400 Veranlagungen (2,9%) mit einem steuerbaren Vermögen von 2 Mio. Franken und mehr betrug die Vermögenssteuer insgesamt rund 281 Mio. Franken (82,1% des gesamten Vermögenssteuerertrags). Von 89,5% aller Veranlagungen (Vermögensklassen von 0 bis 499 999 Franken) stammen insgesamt 4,5% des Vermögenssteuerertrags des Steuerjahres 2019. Aus 10,5% der Veranlagungen stammen insgesamt rund 95,5% der Vermögenssteuer.",
+		"subtitle": "in Franken, Basel-Stadt, 2020",
+		"lesehilfe": "Bei der Vermögenssteuer sind die Anteile der Vermögensklassen weniger gleichmässig verteilt als bei der Einkommenssteuer. Bei 69,1% aller Veranlagungen (ca. 81 200) betrug das steuerbare Vermögen 0 Franken, somit musste keine Vermögenssteuer bezahlt werden. Bei rund 3 400 Veranlagungen (2,9%) mit einem steuerbaren Vermögen von 2 Mio. Franken und mehr betrug die Vermögenssteuer insgesamt rund 272 Mio. Franken (81,5% des gesamten Vermögenssteuerertrags). Von 89,4% aller Veranlagungen (Vermögensklassen von 0 bis 499 999 Franken) stammen insgesamt 4,6% des Vermögenssteuerertrags des Steuerjahres 2020. Von 10,6% der Veranlagungen stammen insgesamt rund 95,4% der Vermögenssteuer.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:12",
+		"aktualisierungsdatum": "2023-06-30T08:30:33",
 		"id": 6908
 	},
 	{
@@ -518,8 +518,8 @@ var indikatorensetData = [
 			9328
 		],
 		"title": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2019 verzeichnet die Gemeinde Riehen mit rund 206 Mio. Franken (+16,7% gegenüber 2010), gefolgt vom Wohnviertel Bruderholz mit ca. 189 Mio. Franken (-7,3%). Den kleinsten Ertrag steuert Kleinhüningen mit 7,9 Mio. Franken bei (+10,4%). Im Jahr 2019 beträgt der Wert für den gesamten Kanton rund 1,6 Mrd. Franken, 18,6% mehr als 2010.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2020 verzeichnet das Wohnviertel Bruderholz mit rund 201 Mio. Franken (+49,2% gegenüber 2011), gefolgt von der Gemeinde Riehen mit ca. 197 Mio. Franken (+7,9%). Den kleinsten Ertrag steuert Kleinhüningen mit 7,6 Mio. Franken bei (+0,9%). Im Jahr 2020 beträgt der Wert für den gesamten Kanton rund 1,6 Mrd. Franken, 26,1% mehr als 2011.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -544,7 +544,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:13",
+		"aktualisierungsdatum": "2023-06-30T08:30:34",
 		"id": 6909
 	},
 	{
@@ -558,7 +558,7 @@ var indikatorensetData = [
 		],
 		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Für jedes betrachtete Jahr liegt ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2019 betrug er 6,1 Mio. Franken. Sowohl bei der Einkommenssteuer (rund 5,6 Mio. Franken) als auch bei der Vermögenssteuer (500 000 Franken) wurde ein Plus verzeichnet. Von Zuzügern lagen für das Steuerjahr 2019 rund 5 000 Veranlagungen vor, von Wegzügern des Vorjahres 4 500 Veranlagungen. Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen.",
+		"lesehilfe": "Für jedes betrachtete Jahr liegt ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2020 betrug er 4,8 Mio. Franken. Bei der Einkommenssteuer wurde ein Plus verzeichnet (rund 4,8 Mio. Franken), bei der Vermögenssteuer ein kleines Minus (83 000 Franken). Von Zuzügern lagen für das Steuerjahr 2020 rund 5 100 Veranlagungen vor, von Wegzügern des Vorjahres 4 300 Veranlagungen. Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -583,7 +583,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:19",
+		"aktualisierungsdatum": "2023-06-30T08:30:39",
 		"id": 6910
 	},
 	{
@@ -596,9 +596,9 @@ var indikatorensetData = [
 			9330
 		],
 		"title": "Quellensteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
-		"lesehilfe": "Bei der Quellensteuer liegen die Daten bereits für das Jahr 2020 vor. Im Vergleich mit dem Jahr 2011 hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. 2020 beträgt der Quellensteuerertrag rund 533 Mio. Franken (einschliesslich Auswärtige sowie der Anteil, der an den Bund fliesst). Die meisten Veranlagungen in Basel-Stadt liegen 2020 von Personen vor, die im Wohnviertel Matthäus wohnen (ca. 2 800); bei mehreren Quellensteuerveranlagungen pro Person wurden diese zu einer zusammgefasst). Der höchste Ertrag wird im Wohnviertel St. Alban mit 37,9 Mio. Franken verzeichnet. Von Personen, die nicht im Kanton Basel-Stadt wohnen, stammen rund 207 Mio. Franken Quellensteuern.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2020 rund 109 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2019 betrifft dies 5 316 Veranlagungen (4,5% der rund 117 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2019 enthalten waren.",
+		"subtitle": "in Franken, Basel-Stadt, 2012 und 2021",
+		"lesehilfe": "Bei der Quellensteuer liegen die Daten bereits für das Jahr 2021 vor. Im Vergleich mit dem Jahr 2012 hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. 2021 beträgt der Quellensteuerertrag rund 523 Mio. Franken (einschliesslich Auswärtige sowie der Anteil, der an den Bund fliesst). Die meisten Veranlagungen in Basel-Stadt liegen 2021 von Personen vor, die im Wohnviertel Matthäus wohnen (ca. 2 900). Der höchste Ertrag wird im Wohnviertel St. Alban mit 36,5 Mio. Franken verzeichnet. Von Personen, die nicht im Kanton Basel-Stadt wohnen, stammen rund 199 Mio. Franken Quellensteuern.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2021 rund 103 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2020 betrifft dies 5 602 Veranlagungen (4,4% der rund 118 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2020 enthalten waren.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -622,7 +622,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:20",
+		"aktualisierungsdatum": "2023-06-30T08:30:40",
 		"id": 6911
 	},
 	{
@@ -635,9 +635,9 @@ var indikatorensetData = [
 			9331
 		],
 		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
-		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen (ohne Grenzgänger), 2020 sind dies rund 384 Mio. Franken (+81,2% gegenüber 2011). Der Ertrag der Grenzgänger aus Deutschland u. a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2020 insgesamt 88,7 Mio. Franken (+18,6% gegenüber 2011). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt. Der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt. Für das Jahr 2020 liegt er bei 75,6 Mio. Franken, +11,1% gegenüber 2011). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2020 betragen sie insgesamt 32,1 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2011 stark zugenommen, beispielsweise beim Erwerb von rund 23 100 auf 34 300 (+48,5%). Insgesamt beträgt der Quellensteuerertrag 2020 rund 533 Mio. Franken, 69,9% mehr als 2011 und 7,5% mehr als im Jahr 2019.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Ebenso sind beispielsweise Grenzgänger aus Deutschland quellensteuerpflichtig. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2020 rund 109 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2019 betrifft dies 5 316 Veranlagungen (4,5% der rund 117 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2019 enthalten waren.",
+		"subtitle": "in Franken, Basel-Stadt, 2012 und 2021",
+		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen (ohne Grenzgänger), 2021 sind dies rund 376 Mio. Franken (+65,4% gegenüber 2012). Der Ertrag der Grenzgänger aus Deutschland u. a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2021 insgesamt 83,6 Mio. Franken (+8,8% gegenüber 2012). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt. Der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt. Für das Jahr 2021 liegt er bei 74 Mio. Franken, +6,2% gegenüber 2012). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2021 betragen sie insgesamt 43,1 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2012 stark zugenommen, beispielsweise beim Erwerb von rund 25 600 auf 33 500 (+30,7%). Insgesamt beträgt der Quellensteuerertrag 2021 rund 523 Mio. Franken, 57,2% mehr als 2012. Im Vergleich zu 2020 ging er um 1,9% zurück.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Ebenso sind beispielsweise Grenzgänger aus Deutschland quellensteuerpflichtig. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2021 rund 104 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2020 betrifft dies 5 602 Veranlagungen (4,4% der rund 118 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2020 enthalten waren.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -661,7 +661,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:21",
+		"aktualisierungsdatum": "2023-06-30T08:30:40",
 		"id": 6912
 	},
 	{
@@ -674,8 +674,8 @@ var indikatorensetData = [
 			9332
 		],
 		"title": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2019",
-		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2019 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. St. Alban, Bruderholz und Riehen tragen die höchsten Summen zum Gesamtertrag des Kantons bei. Die Grösse der Kreise symbolisiert jeweils die Höhe des Steuerertrags. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt.",
+		"subtitle": "in Franken, Basel-Stadt, 2020",
+		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2020 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. St. Alban, Bruderholz und Riehen tragen die höchsten Summen zum Gesamtertrag des Kantons bei. Die Grösse der Kreise symbolisiert jeweils die Höhe des Steuerertrags. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus. Der Anteil an Vermögenssteuer ist zum Beispiel in den Wohnvierteln Vorstädte und Bruderholz besonders ausgeprägt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "map",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:14",
+		"aktualisierungsdatum": "2023-06-30T08:30:34",
 		"id": 6980
 	},
 	{
@@ -714,7 +714,7 @@ var indikatorensetData = [
 		],
 		"title": "Gewinn-, Kapital- und Grundstücksteuer",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Für die juristischen Personen liegen die neuesten Daten für das Steuerjahr 2018 vor. Zuletzt beträgt dieser Steuerertrag von ihnen bei insgesamt rund 11 900 Veranlagungen zusammen 760 Mio. Franken. Die bedeutendste Steuerart, die Gewinnsteuer, trug 583 Mio. dazu bei. Kapitalsteuer wurden rund 123 Mio. Franken entrichtet, Grundstücksteuer 17,1 Mio. Franken. Der Gesamtertrag schwankt teilweise erheblich von Jahr zu Jahr – insgesamt ging er um 1,3% zurück (im Jahr 2009 war die Gewinnsteuer vergleichsweise hoch). Im Vergleich zum Vorjahr stieg der Ertrag im Steuerjahr 2018 um 46,2%. Im Jahr zuvor war der Rückgang relativ gross ausgefallen (-26,9% gegenüber 2016).",
+		"lesehilfe": "Für die juristischen Personen liegen die neuesten Daten für das Steuerjahr 2019 vor. Zuletzt beträgt dieser Steuerertrag von ihnen bei insgesamt rund 12 200 Veranlagungen zusammen 490 Mio. Franken. Die bedeutendste Steuerart, die Gewinnsteuer, trug 370 Mio. dazu bei. Kapitalsteuer wurden rund 92 Mio. Franken entrichtet, Grundstücksteuer 28 Mio. Franken. Der Gesamtertrag schwankt teilweise erheblich von Jahr zu Jahr – insgesamt ging er um 27,3% zurück (im Jahr 2010 war die Gewinnsteuer vergleichsweise hoch). Im Vergleich zum Vorjahr ging der Ertrag im Steuerjahr 2019 um 35,5% zurück. Im Jahr zuvor hingegen war der Anstieg relativ gross ausgefallen (46,2% gegenüber 2018).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -739,7 +739,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:21",
+		"aktualisierungsdatum": "2023-06-30T08:30:42",
 		"id": 6981
 	},
 	{
@@ -752,8 +752,8 @@ var indikatorensetData = [
 			9334
 		],
 		"title": "Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
-		"subtitle": "in Franken, Basel-Stadt, 2018",
-		"lesehilfe": "Im Jahr 2018 gibt es insgesamt rund 11 500 Veranlagungen von juristischen Personen im Kanton Basel-Stadt. 1 353 (11,3%) von ihnen müssen keine Gewinn-, Kapital- oder Grundstücksteuer bezahlen. Bei der grossen Mehrheit ( rund 7 500 Veranlagungen bzw. 62,7%) liegt der Steuerbetrag zwischen 1 und 4 999 Franken. Der Ertrag von ihnen beläuft sich insgesamt auf 7,3 Mio. Franken. In der obersten Kategorie – mit einem Steuerbetrag von über 1 Mio. Franken pro Veranlagung – gibt es 68 Veranlagungen (0,6% von allen), deren Steuerbetrag ca. 586 Mio. Franken (77,2% des gesamten Steuerertrags der juristischen Personen) beträgt.",
+		"subtitle": "in Franken, Basel-Stadt, 2019",
+		"lesehilfe": "Im Jahr 2019 gibt es insgesamt rund 12 200 Veranlagungen von juristischen Personen im Kanton Basel-Stadt. 1 320 (10,9%) von ihnen müssen keine Gewinn-, Kapital- oder Grundstücksteuer bezahlen. Bei der grossen Mehrheit ( rund 8 600 Veranlagungen bzw. 71,3%) liegt der Steuerbetrag zwischen 1 und 4 999 Franken. Der Ertrag von ihnen beläuft sich insgesamt auf 6,0 Mio. Franken. In der obersten Kategorie – mit einem Steuerbetrag von über 1 Mio. Franken pro Veranlagung – gibt es 43 Veranlagungen (0,4% von allen), deren Steuerbetrag ca. 389 Mio. Franken (79,3% des gesamten Steuerertrags der juristischen Personen) beträgt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -778,7 +778,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:22",
+		"aktualisierungsdatum": "2023-06-30T08:30:42",
 		"id": 6982
 	},
 	{
@@ -791,8 +791,8 @@ var indikatorensetData = [
 			9335
 		],
 		"title": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
-		"subtitle": "in Franken, Basel-Stadt, 2018",
-		"lesehilfe": "Mehr als die Hälfte (58,2%) der juristischen Personen weisen 2018 einen steuersatzbestimmenden Gewinn von 0 Franken auf. Juristische Personen, die keine Gewinnsteuer entrichten müssen, zahlen in der Regel als Alternativsteuer die Grundstücksteuer. Von diesen stammen insgesamt 38,8 Mio. Franken, dies sind 5,1% des Gesamtertrags. Am anderen Ende tragen insgesamt 588 Veranlagungen von juristischen Personen (4,9%) mit einem satzbestimmenden Gewinn von über 1 Mio. Franken einen Steuerbetrag von zusammen 657 Mio. Franken bei (86,5% der gesamten Steuer der juristischen Personen).",
+		"subtitle": "in Franken, Basel-Stadt, 2019",
+		"lesehilfe": "Mehr als die Hälfte (56,9%) der juristischen Personen weisen 2019 einen steuersatzbestimmenden Gewinn von 0 Franken auf. Juristische Personen, die keine Gewinnsteuer entrichten müssen, zahlen in der Regel als Alternativsteuer die Grundstücksteuer. Von diesen stammen insgesamt 24,4 Mio. Franken, dies sind 5,0% des Gesamtertrags. Am anderen Ende tragen insgesamt 628 Veranlagungen von juristischen Personen (5,2%) mit einem satzbestimmenden Gewinn von über 1 Mio. Franken einen Steuerbetrag von zusammen 437 Mio. Franken bei (89,2% der gesamten Steuer der juristischen Personen).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -817,7 +817,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T08:20:23",
+		"aktualisierungsdatum": "2023-06-30T08:30:43",
 		"id": 6983
 	}
 ];
