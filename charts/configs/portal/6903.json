@@ -4,10 +4,6 @@
       "color": "#B375AB",
       "data": [
         [
-          2010,
-          373331
-        ],
-        [
           2011,
           360298
         ],
@@ -42,6 +38,10 @@
         [
           2019,
           528030
+        ],
+        [
+          2020,
+          535493
         ]
       ],
       "name": "Mittelwert Reinvermögen"
@@ -49,10 +49,6 @@
     {
       "color": "#923F8D",
       "data": [
-        [
-          2010,
-          13067
-        ],
         [
           2011,
           14488
@@ -88,6 +84,10 @@
         [
           2019,
           19602
+        ],
+        [
+          2020,
+          21566
         ]
       ],
       "name": "Median Reinvermögen"
@@ -96,10 +96,6 @@
       "color": "#2E1435",
       "yAxis": 1,
       "data": [
-        [
-          2010,
-          232052561
-        ],
         [
           2011,
           205791635
@@ -135,6 +131,10 @@
         [
           2019,
           341965536
+        ],
+        [
+          2020,
+          333055837
         ]
       ],
       "name": "Ertrag aus Vermögenssteuer (rechte Skala)"
@@ -275,7 +275,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

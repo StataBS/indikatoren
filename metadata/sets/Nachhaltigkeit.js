@@ -245,8 +245,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
+		"lesehilfe": "2022 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 2 718 Personen. Im betrachteten Zeitraum gab es nur im Jahr zuvor einen negativen Saldo. Die meisten Wegzüger des Jahres 2022 (insgesamt rund 4 600 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 9 700 Personen.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -260,17 +260,17 @@ var indikatorensetData = [
 		"unterthema": "Wanderungen",
 		"kuerzel": "I.01.5.05155",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "BE8.1",
+		"kuerzelKunde": "BE6",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_108",
+		"orderKey": "01_01_00_00_00_106",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:44",
+		"aktualisierungsdatum": "2023-06-30T08:30:43",
 		"id": 5155
 	},
 	{

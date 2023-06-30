@@ -7,7 +7,7 @@
       "data": [
         [
           "Veranlagungen",
-          1353
+          1320
         ],
         [
           "Summe Gesamtsteuer",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          7495
+          8673
         ],
         [
           "Summe Gesamtsteuer",
-          7297629
+          6010386
         ]
       ],
       "name": "1 bis 4 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          865
+          713
         ],
         [
           "Summe Gesamtsteuer",
-          6136142
+          5075496
         ]
       ],
       "name": "5 000 bis 9 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          755
+          540
         ],
         [
           "Summe Gesamtsteuer",
-          10799635
+          7593684
         ]
       ],
       "name": "10 000 bis 19 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          707
+          458
         ],
         [
           "Summe Gesamtsteuer",
-          22236894
+          14299256
         ]
       ],
       "name": "20 000 bis 49 999",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          305
+          213
         ],
         [
           "Summe Gesamtsteuer",
-          20911345
+          14665365
         ]
       ],
       "name": "50 000 bis 99 999",
@@ -109,11 +109,11 @@
       "data": [
         [
           "Veranlagungen",
-          401
+          203
         ],
         [
           "Summe Gesamtsteuer",
-          105955483
+          53790500
         ]
       ],
       "name": "100 000 bis 999 999",
@@ -126,11 +126,11 @@
       "data": [
         [
           "Veranlagungen",
-          68
+          43
         ],
         [
           "Summe Gesamtsteuer",
-          586349873
+          388507282
         ]
       ],
       "name": "1 Mio. u.m.",
@@ -223,7 +223,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2018"
+    "text": "in Franken, Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -284,7 +284,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
   },
   "legend": {
     "layout": "vertical",
