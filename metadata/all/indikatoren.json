@@ -8540,8 +8540,8 @@
 		],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden pro 1000 Einwohner 111,9 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 123,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -8567,7 +8567,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:12",
+		"aktualisierungsdatum": "2023-07-12T09:36:40",
 		"id": 4866
 	},
 	{
@@ -10356,8 +10356,8 @@
 		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden pro 1000 Einwohner 111,9 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 123,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -10372,18 +10372,18 @@
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.05188",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW11",
+		"kuerzelKunde": "GW9",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_312",
+		"orderKey": "03_03_00_00_00_309",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-21T08:15:44",
+		"aktualisierungsdatum": "2023-07-12T09:36:44",
 		"id": 5188
 	},
 	{
@@ -12661,7 +12661,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:40",
+		"aktualisierungsdatum": "2023-07-12T09:36:45",
 		"id": 6036
 	},
 	{
@@ -15104,9 +15104,9 @@
 			8609
 		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2016 lag die FAMI-Quote bei 2,2%. Kleinhüningen weist mit 4,5% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2016 ist in Riehen sowie den Wohnvierteln Hirzbrunnen und Iselin mit je +0,5 Prozentpunkten zu beobachten.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,1%. Kleinhüningen weist mit 4,8% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt der Anteil bei 0,3%. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2017 gesunken. In der Altstadt Kleinbasel und dem Klybeck ist sie mit -1,0 respektive -0,7 Prozentpunkten am stärksten zurückgegangen.",
+		"erlaeuterungen": "Familienmietzinsbeitragsquote: Anzahl Haushalte mit Familienmietzinsbeiträgen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -15133,7 +15133,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:40",
+		"aktualisierungsdatum": "2023-07-12T09:36:34",
 		"id": 6203
 	},
 	{
@@ -15147,9 +15147,9 @@
 			8606
 		],
 		"title": "Anteil Haushalte mit Prämienverbilligungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2021  bei 17,0%. Das Wohnviertel Klybeck weist mit 28,7% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,9% die tiefste PV-Quote auf. Gegenüber dem Jahr 2016 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 4,7 Prozentpunkten im Klybeck zu beobachten.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen liegt im Kanton Basel-Stadt Ende 2022  bei 16,3%. Das Wohnviertel Kleinhüningen weist mit 26,9% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,6% die tiefste PV-Quote auf. Gegenüber dem Jahr 2017 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 3,6 Prozentpunkten in Kleinhüningen zu beobachten.",
+		"erlaeuterungen": "Prämienverbilligungsquote: Anzahl Haushalte mit Prämienverbilligungen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -15176,7 +15176,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:41",
+		"aktualisierungsdatum": "2023-07-12T09:36:34",
 		"id": 6204
 	},
 	{
@@ -21104,9 +21104,9 @@
 			6691
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Die höchsten Erwerbstätigenquoten weisen Personen aus Deutschland (86,7%) auf, die niedrigsten Personen aus  afrikanischen Ländern (46,6%).",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Personen mit Deutscher Staatsangehörigkeit weisen mit 85,9% (Konfidenzintervall:  84,3% - 87,5%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, aus dem Balkan, aus arabischen und aus afrikanischen Ländern beobachtbar.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -21131,7 +21131,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:10",
+		"aktualisierungsdatum": "2023-07-12T09:36:41",
 		"id": 6416
 	},
 	{
@@ -21144,9 +21144,9 @@
 			6692
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2016 bis 2020",
-		"lesehilfe": "Bei den 15- bis 24-Jährigen ist die Erwerbstätigenquote ausländischer Männer etwas höher als bei Schweizern. In den höheren Altersgruppen (ab 45 Jahren) liegt die Quote  ausländischer Männer unter jener von Schweizern. Schweizerinnen haben in allen Altersgruppen eine höhere Erwerbstätigenquote als Ausländerinnen.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2017 bis 2021",
+		"lesehilfe": "Die Erwerbstätigenquote von Schweizern ist bei den über 55-Jährigen höher als bei den ausländischen Männern. In den jüngeren Altersgruppen sind die Erwerbstätigenquoten der Schweizer und der ausländischen Männer nicht signifikant verschieden voneinander (überlappende Konfidenzintervalle).",
+		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016 bis 2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -21171,7 +21171,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:11",
+		"aktualisierungsdatum": "2023-07-12T09:36:41",
 		"id": 6417
 	},
 	{
@@ -23041,8 +23041,8 @@
 		],
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 29,9 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten auch Personen aus der Türkei und dem Balkan.",
-		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1 000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
+		"lesehilfe": "Im Jahr 2022 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 28,4 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten auch Personen aus dem Balkan und aus der der Türkei.",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1 000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -23067,7 +23067,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:31",
+		"aktualisierungsdatum": "2023-07-12T09:36:42",
 		"id": 6479
 	},
 	{
@@ -23080,9 +23080,9 @@
 			6721
 		],
 		"title": "Anzahl Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2011 bis 2021",
-		"lesehilfe": "In der Summe der Jahre 2011 bis 2021 wurden die meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert. (Total: 1 429; davon 783 Frauen und 646 Männer).",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2012 bis 2022",
+		"lesehilfe": "In der Summe der Jahre 2012 bis 2022 wurden die meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert. (Total: 1 544; davon 834 Frauen und 710 Männer).",
+		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -23107,7 +23107,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:31",
+		"aktualisierungsdatum": "2023-07-12T09:36:43",
 		"id": 6480
 	},
 	{
@@ -32450,8 +32450,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Altstadt Grossbasel",
-		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Franzosen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil an Deutschen, Franzosen und  Briten höher. Der Ausländeranteil beträgt im Wohnviertel 31,1%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die zehn grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter \"Übrige Länder\" zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Spaniern. Im Vergleich zum kantonalen Durchschnitt ist der Anteil an Deutschen, Spaniern und Franzosen höher. Der Ausländeranteil beträgt im Wohnviertel 32,4%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die zehn grössten Ausländergruppen am Jahresende 2022 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter \"Übrige Länder\" zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -32476,7 +32476,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-15T04:10:16",
+		"aktualisierungsdatum": "2023-07-12T09:36:43",
 		"id": 6933
 	},
 	{
@@ -34399,9 +34399,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2021",
-		"lesehilfe": "Im Jahr 2021 lagen Frauen im Alter von 12 Jahren mit 10,1 Tagen im Durchschnitt am längsten in einem baselstädtischen Spital.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 lagen Frauen im Alter von 16 Jahren mit 11,1 Tagen im Durchschnitt am längsten in einem baselstädtischen Spital.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren werden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -34426,7 +34426,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:02",
+		"aktualisierungsdatum": "2023-07-12T09:36:35",
 		"id": 6992
 	},
 	{
@@ -34438,8 +34438,8 @@
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern",
 		"subtitle": "nach Hauptbereich in Tagen, Basel-Stadt",
-		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2021: 38,6 Tage), während ein akutsomatischer Patient das Spital deutlich schneller verlässt (2021: 6,6 Tage).",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).<br>Seit 2020 werden aufgrund einer geänderten Kodierungsvorgabe die Fälle der Akutgeriatrie der Inneren Medizin, und somit der Akutsomatik zugeordnet. Die Geriatrie wird daher nicht ausgewiesen.",
+		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2022: 38,1 Tage), während ein akutsomatischer Patient das Spital deutlich schneller verlässt (2022: 6,9 Tage).",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).<br>Seit 2020 werden aufgrund einer geänderten Kodierungsvorgabe die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet. Die Geriatrie wird daher nicht ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -34464,7 +34464,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:57",
+		"aktualisierungsdatum": "2023-07-12T09:36:35",
 		"id": 6993
 	},
 	{
@@ -49408,7 +49408,7 @@
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt blieb im Jahresdurchschnitt 2021 unverändert bei 3,9%. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% im Jahr 2021 zurück, während die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren weiter gestiegen sind, wobei sie nach wie vor unterhalb des Durchschnitts liegen.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 zurückgegangen. Sie ist 2022 in allen Altersgruppen rückläufig gewesen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) verringerte sich beispielsweise von 4,0% im Jahr 2021 auf 3,1% im Jahr 2022.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -49434,7 +49434,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:08",
+		"aktualisierungsdatum": "2023-07-12T09:36:37",
 		"id": 8251
 	},
 	{
@@ -49929,8 +49929,8 @@
 			8537
 		],
 		"title": "Durch die IG Wohnen vermittelte Wohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "2021 hat die IG Wohnen 128 Wohnungen vermittelt. Im Wohnviertel Iselin konnten mit insgesamt 21 am meisten Wohnungen vermittelt werden.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "2022 hat die IG Wohnen 122 Wohnungen vermittelt. Im Wohnviertel Iselin konnten mit insgesamt 22 am meisten Wohnungen vermittelt werden.",
 		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
 		"quellenangabe": [
 			"Verein IG Wohnen"
@@ -49956,7 +49956,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:45",
+		"aktualisierungsdatum": "2023-07-12T09:36:37",
 		"id": 8266
 	},
 	{
@@ -51910,9 +51910,9 @@
 		"parentId": "6204",
 		"children": [],
 		"title": "Anteil Haushalte mit Prämienverbilligungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2021  bei 17,0%. Das Wohnviertel Klybeck weist mit 28,7% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,9% die tiefste PV-Quote auf. Gegenüber dem Jahr 2016 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 4,7 Prozentpunkten im Klybeck zu beobachten.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen liegt im Kanton Basel-Stadt Ende 2022  bei 16,3%. Das Wohnviertel Kleinhüningen weist mit 26,9% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,6% die tiefste PV-Quote auf. Gegenüber dem Jahr 2017 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 3,6 Prozentpunkten in Kleinhüningen zu beobachten.",
+		"erlaeuterungen": "Prämienverbilligungsquote: Anzahl Haushalte mit Prämienverbilligungen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -51939,7 +51939,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:11",
+		"aktualisierungsdatum": "2023-07-12T09:36:36",
 		"id": 8335
 	},
 	{
@@ -52030,9 +52030,9 @@
 		"parentId": "6203",
 		"children": [],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2016 lag die FAMI-Quote bei 2,2%. Kleinhüningen weist mit 4,5% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2016 ist in Riehen sowie den Wohnvierteln Hirzbrunnen und Iselin mit je +0,5 Prozentpunkten zu beobachten.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,1%. Kleinhüningen weist mit 4,8% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt der Anteil bei 0,3%. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2017 gesunken. In der Altstadt Kleinbasel und dem Klybeck ist sie mit -1,0 respektive -0,7 Prozentpunkten am stärksten zurückgegangen.",
+		"erlaeuterungen": "Familienmietzinsbeitragsquote: Anzahl Haushalte mit Familienmietzinsbeiträgen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -52059,7 +52059,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:45",
+		"aktualisierungsdatum": "2023-07-12T09:36:36",
 		"id": 8338
 	},
 	{
@@ -52799,9 +52799,9 @@
 			8481
 		],
 		"title": "Arbeitspendler Basel-Landschaft",
-		"subtitle": "Pooling 2016-2020",
-		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2016 bis 2020 etwas mehr Weg- als Zupendler (56 400 gegenüber rund 54 500). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 41 200. Die meisten Zupendler kommen mit fast 21 900 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit etwa 15 100 Arbeitskräften.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "Pooling 2017-2021",
+		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2017 bis 2021 etwas mehr Weg- als Zupendler (54 100 gegenüber rund 54 000). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 39 600. Die meisten Zupendler kommen mit rund 22 300 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit etwa 14 800 Arbeitskräften.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2017 bis 2021, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -52826,7 +52826,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:41",
+		"aktualisierungsdatum": "2023-07-12T09:36:38",
 		"id": 8364
 	},
 	{
@@ -52839,9 +52839,9 @@
 			8482
 		],
 		"title": "Arbeitspendler Jura",
-		"subtitle": "Pooling 2016-2020",
-		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2016 bis 2020 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 100 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit rund 2 800 in den Kanton Bern, gefolgt von Neuenburg mit etwa 900 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 600 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit etwa 8 600 Personen aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "Pooling 2017-2021",
+		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2017 bis 2021 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 100 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit rund 2 900 in den Kanton Bern, gefolgt von Neuenburg mit etwa 1 000 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 900 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit etwa 8 600 Personen aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2017 bis 2021, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -52866,7 +52866,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:41",
+		"aktualisierungsdatum": "2023-07-12T09:36:39",
 		"id": 8365
 	},
 	{
@@ -56139,7 +56139,7 @@
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 21 600 Franken im Jahr 2020. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -56154,18 +56154,18 @@
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.08459",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE11",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"kuerzelKunde": "GZ6",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_611",
+		"orderKey": "05_01_00_00_00_506",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:43",
+		"aktualisierungsdatum": "2023-07-12T09:36:46",
 		"id": 8459
 	},
 	{
@@ -73641,7 +73641,7 @@
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 21 600 Franken im Jahr 2020. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -73667,7 +73667,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:31",
+		"aktualisierungsdatum": "2023-07-12T09:36:39",
 		"id": 9370
 	},
 	{
@@ -73676,7 +73676,9 @@
 		"chart-id": 6036,
 		"filter": "",
 		"parentId": "6036",
-		"children": [],
+		"children": [
+			9678
+		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
@@ -73705,7 +73707,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:33",
+		"aktualisierungsdatum": "2023-07-12T09:36:40",
 		"id": 9371
 	},
 	{
@@ -79743,6 +79745,45 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 9732,
+		"chart-id": 9375,
+		"filter": "",
+		"parentId": "9375",
+		"children": [],
+		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
+		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
+		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung von Krankenkassenprämien und Einkommen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.09732",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW4",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_304",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-07-12T09:36:44",
+		"id": 9732
+	},
+	{
+		"template": "line001",
 		"data-id": 9733,
 		"chart-id": 9733,
 		"filter": "",
@@ -79900,6 +79941,45 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-13T08:21:53",
 		"id": 9740
+	},
+	{
+		"template": "line001",
+		"data-id": 9741,
+		"chart-id": 9741,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Arbeitsproduktivität",
+		"subtitle": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
+		"lesehilfe": "Die Arbeitsproduktivität liegt 2020 bei 241 360 Franken pro Vollzeitäquivalent und damit um 17,1% höher als im Jahr 2011.",
+		"erlaeuterungen": "Die Arbeitsproduktivität ist definiert als das Verhältnis von wirtschaftlicher Tätigkeit (Output) zu eingesetzter Arbeit. Für diesen Indikator wird als Mass die Bruttowertschöpfung (BWS) pro Vollzeitäquivalent (VZÄ) verwendet. Die Beschäftigung in VZÄ resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitsproduktivität",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09741",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE2",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_602",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-07-12T09:36:46",
+		"id": 9741
 	},
 	{
 		"template": "template001",

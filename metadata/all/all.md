@@ -2231,10 +2231,12 @@ id | visible | visibleInPortal | indikatorenset
 9687 | true | false | Schluesselindikatoren
 9691 | true | true | Innenstadt-QuiZ
 9693 | true | false | Schluesselindikatoren
+9732 | true | false | Nachhaltigkeit
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
+9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
 9751 | true | false | Arbeitsmarkt
 9752 | true | false | Arbeitsmarkt

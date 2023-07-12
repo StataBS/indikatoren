@@ -837,8 +837,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden pro 1000 Einwohner 111,9 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 123,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -853,17 +853,17 @@ var indikatorensetData = [
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.05188",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW11",
+		"kuerzelKunde": "GW9",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_312",
+		"orderKey": "03_03_00_00_00_309",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-21T08:15:44",
+		"aktualisierungsdatum": "2023-07-12T09:36:44",
 		"id": 5188
 	},
 	{
@@ -1691,7 +1691,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:40",
+		"aktualisierungsdatum": "2023-07-12T09:36:45",
 		"id": 6036
 	},
 	{
@@ -2956,7 +2956,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 19 600 Franken im Jahr 2019. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 21 600 Franken im Jahr 2020. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -2971,17 +2971,17 @@ var indikatorensetData = [
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.08459",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE11",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"kuerzelKunde": "GZ6",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_611",
+		"orderKey": "05_01_00_00_00_506",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:43",
+		"aktualisierungsdatum": "2023-07-12T09:36:46",
 		"id": 8459
 	},
 	{
@@ -3108,6 +3108,44 @@ var indikatorensetData = [
 		"chart-id": 8852,
 		"filter": "",
 		"id": 8852
+	},
+	{
+		"template": "line001",
+		"data-id": 9732,
+		"chart-id": 9375,
+		"filter": "",
+		"parentId": "9375",
+		"children": [],
+		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
+		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
+		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung von Krankenkassenprämien und Einkommen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.09732",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW4",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_304",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-07-12T09:36:44",
+		"id": 9732
 	},
 	{
 		"template": "line001",
@@ -3264,6 +3302,44 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-13T08:21:53",
 		"id": 9740
+	},
+	{
+		"template": "line001",
+		"data-id": 9741,
+		"chart-id": 9741,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Arbeitsproduktivität",
+		"subtitle": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
+		"lesehilfe": "Die Arbeitsproduktivität liegt 2020 bei 241 360 Franken pro Vollzeitäquivalent und damit um 17,1% höher als im Jahr 2011.",
+		"erlaeuterungen": "Die Arbeitsproduktivität ist definiert als das Verhältnis von wirtschaftlicher Tätigkeit (Output) zu eingesetzter Arbeit. Für diesen Indikator wird als Mass die Bruttowertschöpfung (BWS) pro Vollzeitäquivalent (VZÄ) verwendet. Die Beschäftigung in VZÄ resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitsproduktivität",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09741",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE2",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_602",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-07-12T09:36:46",
+		"id": 9741
 	},
 	{
 		"template": "line001",
