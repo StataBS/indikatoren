@@ -9,9 +9,9 @@ var indikatorensetData = [
 			9038
 		],
 		"title": "Zusätzliche Wohnfläche nach Prognosezeitraum",
-		"subtitle": "in m². Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario rund 320 000 m².",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
+		"subtitle": "in m², Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario rund 254 500 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2023. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T09:13:20",
+		"aktualisierungsdatum": "2023-07-13T10:29:31",
 		"id": 7722
 	},
 	{
@@ -50,9 +50,9 @@ var indikatorensetData = [
 			9039
 		],
 		"title": "Wohnflächenverbrauch pro Person",
-		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Der Wohnflächenverbrauch steigt im Mittleren Szenario von 41,7 m² auf 42,9 m² pro Kopf .",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständigen Bevölkerung Basel-Stadts.",
+		"subtitle": "in m² pro Kopf, Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Der Wohnflächenverbrauch steigt im Mittleren Szenario von 41,6 m² auf 42,8 m² pro Kopf.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2023. Der Wohnflächenverbrauch pro Kopf in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die ständige und nichtständige Bevölkerung Basel-Stadts.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -78,7 +78,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T09:13:22",
+		"aktualisierungsdatum": "2023-07-13T10:29:32",
 		"id": 7723
 	},
 	{
@@ -132,9 +132,9 @@ var indikatorensetData = [
 			9041
 		],
 		"title": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 84,5 auf 86,1 Jahre im Jahr 2045. Die Lebenserwartung von Schweizern (M) steigt von 79,9 auf 83,4 Jahre im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen, startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 84,0 auf 86,1 Jahre im Jahr 2045. Die Lebenserwartung von Schweizern (M) steigt von 78,6 auf 83,3 Jahre im Jahr 2045.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2023. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen, startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T09:13:22",
+		"aktualisierungsdatum": "2023-07-13T10:29:32",
 		"id": 7725
 	},
 	{
@@ -255,9 +255,9 @@ var indikatorensetData = [
 			9044
 		],
 		"title": "Einbürgerungsquoten nach Geschlecht",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Im Mittleren Szenario sinkt die Einbürgerungsquote von in Basel-Stadt wohnhaften Männern (M) von 1,7% im Jahr 2021 auf 1,4% bis im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2022. Die Einbürgerungsquote berechnet sich als Quotient der Anzahl Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Im Mittleren Szenario sinkt die Einbürgerungsquote von in Basel-Stadt wohnhaften Männern (M) von 1,8% im Jahr 2021 auf 1,5% bis im Jahr 2045.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2023. Die Einbürgerungsquote berechnet sich als Quotient der Anzahl Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -283,7 +283,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T09:13:23",
+		"aktualisierungsdatum": "2023-07-13T10:29:33",
 		"id": 7728
 	},
 	{
@@ -378,9 +378,9 @@ var indikatorensetData = [
 			9047
 		],
 		"title": "Bevölkerung Kleinbasel",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 54 000 auf 65 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von fast 55 000 auf über 64 000 Einwohner im Jahr 2045.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2023. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -406,7 +406,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T10:40:16",
+		"aktualisierungsdatum": "2023-07-13T10:29:33",
 		"id": 7731
 	},
 	{
@@ -542,9 +542,9 @@ var indikatorensetData = [
 			9051
 		],
 		"title": "Bevölkerung ab 80 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von über 13 000 auf 18 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von über 13 000 auf fast 18 000 Einwohner im Jahr 2045.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2023. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -570,7 +570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-05T09:13:26",
+		"aktualisierungsdatum": "2023-07-13T10:29:34",
 		"id": 7735
 	},
 	{
