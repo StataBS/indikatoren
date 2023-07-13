@@ -450,7 +450,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt blieb im Jahresdurchschnitt 2021 unverändert bei 3,9%. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% im Jahr 2021 zurück, während die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren weiter gestiegen sind, wobei sie nach wie vor unterhalb des Durchschnitts liegen.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 zurückgegangen. Sie ist 2022 in allen Altersgruppen rückläufig gewesen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) verringerte sich beispielsweise von 4,0% im Jahr 2021 auf 3,1% im Jahr 2022.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:08",
+		"aktualisierungsdatum": "2023-07-12T09:36:37",
 		"id": 8251
 	},
 	{
@@ -958,8 +958,8 @@ var indikatorensetData = [
 			8537
 		],
 		"title": "Durch die IG Wohnen vermittelte Wohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "2021 hat die IG Wohnen 128 Wohnungen vermittelt. Im Wohnviertel Iselin konnten mit insgesamt 21 am meisten Wohnungen vermittelt werden.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "2022 hat die IG Wohnen 122 Wohnungen vermittelt. Im Wohnviertel Iselin konnten mit insgesamt 22 am meisten Wohnungen vermittelt werden.",
 		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
 		"quellenangabe": [
 			"Verein IG Wohnen"
@@ -984,7 +984,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:45",
+		"aktualisierungsdatum": "2023-07-12T09:36:37",
 		"id": 8266
 	},
 	{
@@ -2891,9 +2891,9 @@ var indikatorensetData = [
 		"parentId": "6204",
 		"children": [],
 		"title": "Anteil Haushalte mit Prämienverbilligungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2021  bei 17,0%. Das Wohnviertel Klybeck weist mit 28,7% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,9% die tiefste PV-Quote auf. Gegenüber dem Jahr 2016 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 4,7 Prozentpunkten im Klybeck zu beobachten.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen liegt im Kanton Basel-Stadt Ende 2022  bei 16,3%. Das Wohnviertel Kleinhüningen weist mit 26,9% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,6% die tiefste PV-Quote auf. Gegenüber dem Jahr 2017 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 3,6 Prozentpunkten in Kleinhüningen zu beobachten.",
+		"erlaeuterungen": "Prämienverbilligungsquote: Anzahl Haushalte mit Prämienverbilligungen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -2919,7 +2919,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:11",
+		"aktualisierungsdatum": "2023-07-12T09:36:36",
 		"id": 8335
 	},
 	{
@@ -3008,9 +3008,9 @@ var indikatorensetData = [
 		"parentId": "6203",
 		"children": [],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2016 lag die FAMI-Quote bei 2,2%. Kleinhüningen weist mit 4,5% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2016 ist in Riehen sowie den Wohnvierteln Hirzbrunnen und Iselin mit je +0,5 Prozentpunkten zu beobachten.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,1%. Kleinhüningen weist mit 4,8% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt der Anteil bei 0,3%. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2017 gesunken. In der Altstadt Kleinbasel und dem Klybeck ist sie mit -1,0 respektive -0,7 Prozentpunkten am stärksten zurückgegangen.",
+		"erlaeuterungen": "Familienmietzinsbeitragsquote: Anzahl Haushalte mit Familienmietzinsbeiträgen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -3036,7 +3036,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:45",
+		"aktualisierungsdatum": "2023-07-12T09:36:36",
 		"id": 8338
 	},
 	{

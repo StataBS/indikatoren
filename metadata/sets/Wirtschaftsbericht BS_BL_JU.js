@@ -562,9 +562,9 @@ var indikatorensetData = [
 			8481
 		],
 		"title": "Arbeitspendler Basel-Landschaft",
-		"subtitle": "Pooling 2016-2020",
-		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2016 bis 2020 etwas mehr Weg- als Zupendler (56 400 gegenüber rund 54 500). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 41 200. Die meisten Zupendler kommen mit fast 21 900 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit etwa 15 100 Arbeitskräften.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "Pooling 2017-2021",
+		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2017 bis 2021 etwas mehr Weg- als Zupendler (54 100 gegenüber rund 54 000). Die meisten Wegpendler arbeiten in Basel-Stadt, rund 39 600. Die meisten Zupendler kommen mit rund 22 300 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit etwa 14 800 Arbeitskräften.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2017 bis 2021, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -588,7 +588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:41",
+		"aktualisierungsdatum": "2023-07-12T09:36:38",
 		"id": 8364
 	},
 	{
@@ -601,9 +601,9 @@ var indikatorensetData = [
 			8482
 		],
 		"title": "Arbeitspendler Jura",
-		"subtitle": "Pooling 2016-2020",
-		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2016 bis 2020 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 100 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit rund 2 800 in den Kanton Bern, gefolgt von Neuenburg mit etwa 900 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 600 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit etwa 8 600 Personen aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"subtitle": "Pooling 2017-2021",
+		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2017 bis 2021 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 100 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit rund 2 900 in den Kanton Bern, gefolgt von Neuenburg mit etwa 1 000 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn. Die meisten der insgesamt rund 10 900 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit etwa 8 600 Personen aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2017 bis 2021, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:41",
+		"aktualisierungsdatum": "2023-07-12T09:36:39",
 		"id": 8365
 	},
 	{

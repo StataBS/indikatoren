@@ -7,14 +7,31 @@
       "data": [
         [
           "Wegpendler",
-          2839
+          2925
         ],
         [
           "Zupendler",
-          1589
+          1662
         ]
       ],
       "name": "Bern",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 3,
+      "index": 3,
+      "data": [
+        [
+          "Wegpendler",
+          958
+        ],
+        [
+          "Zupendler",
+          430
+        ]
+      ],
+      "name": "Neuenburg",
       "turboThreshold": 0
     },
     {
@@ -24,14 +41,14 @@
       "data": [
         [
           "Wegpendler",
-          911
+          1245
         ],
         [
           "Zupendler",
-          463
+          246
         ]
       ],
-      "name": "Neuenburg",
+      "name": "Andere Kantone",
       "turboThreshold": 0
     },
     {
@@ -41,14 +58,14 @@
       "data": [
         [
           "Wegpendler",
-          1395
+          15
         ],
         [
           "Zupendler",
-          8574
+          8606
         ]
       ],
-      "name": "Andere (inkl. Ausland)",
+      "name": "Ausland",
       "turboThreshold": 0
     }
   ],
@@ -118,6 +135,7 @@
           "fontSize": "10px"
         }
       },
+      "minPointLength": 3,
       "stacking": "percent"
     }
   },
@@ -131,7 +149,7 @@
     "text": "Arbeitspendler Jura"
   },
   "subtitle": {
-    "text": "Pooling 2016-2020",
+    "text": "Pooling 2017-2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -190,10 +208,21 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
+    "formatter": function() {
+      
+      if (this.point.name == 'Wegpendler' && this.series.name == 'Ausland') {
+        return '<span style="font-size: 10px">' + this.point.name + '</span><br>' + '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> N/A </b> - zu kleine Stichprobe'
+      
+      }
+      
+    else {
+      return '<span style="font-size: 10px">' + this.point.name + '</span><br>' + '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0)
+        + '</b> (' + Highcharts.numberFormat((this.point.percentage),1) + '% von ' + Highcharts.numberFormat((this.point.total),0) +')'
+    }
+  }
   },
   "exporting": {
     "filename": "8365"

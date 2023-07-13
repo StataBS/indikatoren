@@ -79,7 +79,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#007A2F' : '#990300';
+	                	return (value >= 0) ? '#007A2F' : '#FFBB58';
 	                };					
 					
 					//define chart-specific details
@@ -116,7 +116,7 @@
 
 					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
+					fn.addLegendSquare(chart, 270, 295, 10, '#FFBB58');
 					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
 					
 					//make sure pies are hidden upon click onto pie legend

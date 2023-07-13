@@ -7,11 +7,11 @@
       "data": [
         [
           "Wegpendler",
-          41247
+          39644
         ],
         [
           "Zupendler",
-          15090
+          14801
         ]
       ],
       "name": "Basel-Stadt",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Wegpendler",
-          5829
+          5782
         ],
         [
           "Zupendler",
-          7232
+          7158
         ]
       ],
       "name": "Aargau",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Wegpendler",
-          4304
+          4229
         ],
         [
           "Zupendler",
-          7553
+          7248
         ]
       ],
       "name": "Solothurn",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Wegpendler",
-          1412
+          1321
         ],
         [
           "Zupendler",
-          718
+          647
         ]
       ],
       "name": "Bern",
@@ -75,14 +75,14 @@
       "data": [
         [
           "Wegpendler",
-          3330
+          2873
         ],
         [
           "Zupendler",
-          2017
+          1896
         ]
       ],
-      "name": "Andere",
+      "name": "Andere Kantone",
       "turboThreshold": 0
     },
     {
@@ -92,11 +92,11 @@
       "data": [
         [
           "Wegpendler",
-          278
+          229
         ],
         [
           "Zupendler",
-          21857
+          22258
         ]
       ],
       "name": "Ausland",
@@ -182,7 +182,7 @@
     "text": "Arbeitspendler Basel-Landschaft"
   },
   "subtitle": {
-    "text": "Pooling 2016-2020",
+    "text": "Pooling 2017-2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
