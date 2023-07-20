@@ -14432,7 +14432,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:16",
+		"aktualisierungsdatum": "2023-07-20T09:49:32",
 		"id": 6082
 	},
 	{
@@ -14474,7 +14474,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:16",
+		"aktualisierungsdatum": "2023-07-20T09:49:33",
 		"id": 6083
 	},
 	{
@@ -38432,7 +38432,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:13",
+		"aktualisierungsdatum": "2023-07-20T09:49:30",
 		"id": 7515
 	},
 	{
@@ -40071,7 +40071,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:15",
+		"aktualisierungsdatum": "2023-07-20T09:49:32",
 		"id": 7673
 	},
 	{
@@ -42715,8 +42715,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Im Mai 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in der Gemeinden Riehen. In vier Wohnvierteln und in der Gemeinde Bettingen sank sie. In den Wohnvierteln Bruderholz und Matthäus veränderte sie sich gegenüber dem Vormonat nicht.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in der Gemeinden Riehen. In elf Wohnvierteln und in der Gemeinde Bettingen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42743,7 +42743,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-22T08:41:32",
+		"aktualisierungsdatum": "2023-07-20T09:49:30",
 		"id": 7763
 	},
 	{
@@ -68056,7 +68056,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:14",
+		"aktualisierungsdatum": "2023-07-20T09:49:31",
 		"id": 9022
 	},
 	{
@@ -68094,7 +68094,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:43:14",
+		"aktualisierungsdatum": "2023-07-20T09:49:31",
 		"id": 9023
 	},
 	{
