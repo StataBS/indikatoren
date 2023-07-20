@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2002,
-          16.5
-        ],
-        [
           2003,
           17.2
         ],
@@ -81,7 +77,11 @@
         ],
         [
           2021,
-          26.3
+          26.2
+        ],
+        [
+          2022,
+          25.2
         ]
       ],
       "name": "Schweiz"
@@ -89,10 +89,6 @@
     {
       "color": "#672773",
       "data": [
-        [
-          2002,
-          11.3
-        ],
         [
           2003,
           9.4
@@ -168,6 +164,10 @@
         [
           2021,
           12.8
+        ],
+        [
+          2022,
+          11.2
         ]
       ],
       "name": "Deutschland"
@@ -175,10 +175,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          2002,
-          6.6
-        ],
         [
           2003,
           5.8
@@ -254,6 +250,10 @@
         [
           2021,
           9
+        ],
+        [
+          2022,
+          9.9
         ]
       ],
       "name": "Italien"
@@ -261,10 +261,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          2002,
-          1.8
-        ],
         [
           2003,
           1.7
@@ -340,6 +336,10 @@
         [
           2021,
           4.8
+        ],
+        [
+          2022,
+          7.5
         ]
       ],
       "name": "Türkei"
@@ -347,10 +347,6 @@
     {
       "color": "#b475ab",
       "data": [
-        [
-          2002,
-          5.3
-        ],
         [
           2003,
           5.8
@@ -426,6 +422,10 @@
         [
           2021,
           7.1
+        ],
+        [
+          2022,
+          7.9
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -433,10 +433,6 @@
     {
       "color": "#71a3b5",
       "data": [
-        [
-          2002,
-          9.1
-        ],
         [
           2003,
           8.3
@@ -512,6 +508,10 @@
         [
           2021,
           5.2
+        ],
+        [
+          2022,
+          7
         ]
       ],
       "name": "EU-Ost"
@@ -519,10 +519,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2002,
-          0.8
-        ],
         [
           2003,
           0.7
@@ -598,6 +594,10 @@
         [
           2021,
           6.4
+        ],
+        [
+          2022,
+          7
         ]
       ],
       "name": "Balkan"
@@ -605,10 +605,6 @@
     {
       "color": "#ff8028",
       "data": [
-        [
-          2002,
-          1.1
-        ],
         [
           2003,
           1.1
@@ -684,6 +680,10 @@
         [
           2021,
           5.3
+        ],
+        [
+          2022,
+          2.3
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -691,10 +691,6 @@
     {
       "color": "#73ba7c",
       "data": [
-        [
-          2002,
-          0
-        ],
         [
           2003,
           0
@@ -770,6 +766,10 @@
         [
           2021,
           0
+        ],
+        [
+          2022,
+          2.1
         ]
       ],
       "name": "Arab. Länder"
@@ -777,10 +777,6 @@
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          2002,
-          1
-        ],
         [
           2003,
           1
@@ -856,6 +852,10 @@
         [
           2021,
           4.7
+        ],
+        [
+          2022,
+          4.5
         ]
       ],
       "name": "Afrikan. Länder"
@@ -863,10 +863,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2002,
-          4.8
-        ],
         [
           2003,
           5
@@ -942,6 +938,10 @@
         [
           2021,
           10.3
+        ],
+        [
+          2022,
+          9.5
         ]
       ],
       "name": "Übrige Länder"
@@ -1072,7 +1072,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

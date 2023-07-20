@@ -992,8 +992,8 @@ var indikatorensetData = [
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit drei Jahren steigende Tendenz auf. In den letzten beiden Jahren stieg die Hochschulquote der Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
-		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer sowie der Studierenden mit deutschem Pass ist 2022 im Vergleich zum Vorjahr gesunken. Trotzdem weisen diese beiden Staatsangehörigkeiten noch immer die höchsten Quoten auf. Auf Rang 3 folgt neu Italien.",
+		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1019,7 +1019,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:56",
+		"aktualisierungsdatum": "2023-07-20T09:49:32",
 		"id": 6082
 	},
 	{
@@ -1033,8 +1033,8 @@ var indikatorensetData = [
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist, nach vorübergehendem leichtem Rückgang, seit drei Jahren wieder gestiegen. Bei der ausländischen Wohnbevölkerung ist die Quote 2021 mit 8,0% die höchtste in der Beobachtungsreihe. Unterschiede nach Geschlecht sind unabhängig von der Staatsangehörigkeit aktuell kaum messbar.",
-		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist 2022 im Vergleich zum Vorjahr gesunken. Bei der ausländischen Wohnbevölkerung ist die Quote 2022 mit 8,4% die höchtste in der Beobachtungsreihe. Unterschiede nach Geschlecht sind unabhängig von der Staatsangehörigkeit aktuell kaum messbar.",
+		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1060,7 +1060,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:57",
+		"aktualisierungsdatum": "2023-07-20T09:49:33",
 		"id": 6083
 	},
 	{
