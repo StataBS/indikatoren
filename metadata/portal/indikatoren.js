@@ -24611,7 +24611,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "131 719 Logiernächte wurden im Mai 2023 in den Basler Hotelbetrieben gebucht, 12 058 bzw. 10,1% mehr als im April. Im Vergleich zum Mai 2022 entspricht dies einer Zunahme um 10,6% bzw. 12 625 Übernachtungen. Die inländischen Gäste buchten 54 134 Logiernächte (+0,8%), die Gäste aus dem Ausland 77 585 Übernachtungen (+18,7%).",
+		"lesehilfe": "142 616 Logiernächte wurden im Juni 2023 in den Basler Hotelbetrieben gebucht, 10 897 bzw. 8,3% mehr als im Mai. Im Vergleich zum Juni 2022 entspricht dies einer Zunahme um 7,3% bzw. 9 740 Übernachtungen. Die inländischen Gäste buchten 46 711 Logiernächte (-5,1%), die Gäste aus dem Ausland 95 905 Übernachtungen (+14,7%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24637,7 +24637,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-20T08:36:02",
+		"aktualisierungsdatum": "2023-07-25T08:40:14",
 		"id": 7516
 	},
 	{
@@ -24648,8 +24648,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24675,7 +24675,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-20T08:36:02",
+		"aktualisierungsdatum": "2023-07-25T08:40:15",
 		"id": 7517
 	},
 	{
