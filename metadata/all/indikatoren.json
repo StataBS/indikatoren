@@ -6718,7 +6718,7 @@
 		"children": [],
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 sind in Basel-Stadt rund 72 000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Über 31 000 Personen sind Schweizer mit Migrationshintergrund. Rund 55 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und knapp 200 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"lesehilfe": "2021 sind in Basel-Stadt rund 74 000 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 30 000 Personen sind Schweizer mit Migrationshintergrund. Fast 56 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas weniger als 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -6744,7 +6744,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-31T08:17:50",
+		"aktualisierungsdatum": "2023-07-31T11:05:04",
 		"id": 4462
 	},
 	{
@@ -19532,9 +19532,9 @@
 			6386
 		],
 		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2019 wird mit rund 92 200 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 19 600 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 21 600 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -19560,7 +19560,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:47",
+		"aktualisierungsdatum": "2023-07-31T11:05:05",
 		"id": 6374
 	},
 	{
@@ -19860,9 +19860,9 @@
 			8565
 		],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2019 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 74 100 Franken. Mit ca. 36 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -19888,7 +19888,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:46",
+		"aktualisierungsdatum": "2023-07-31T11:05:05",
 		"id": 6382
 	},
 	{
@@ -20023,9 +20023,9 @@
 		"parentId": "6374",
 		"children": [],
 		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2019 wird mit rund 92 200 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 19 600 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 21 600 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20051,7 +20051,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:17",
+		"aktualisierungsdatum": "2023-07-31T11:05:06",
 		"id": 6386
 	},
 	{
@@ -20295,9 +20295,9 @@
 		"parentId": "6382",
 		"children": [],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2019 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 74 100 Franken. Mit ca. 36 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20323,7 +20323,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:17",
+		"aktualisierungsdatum": "2023-07-31T11:05:06",
 		"id": 6394
 	},
 	{
@@ -51075,9 +51075,9 @@
 		"parentId": "6382",
 		"children": [],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2019 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 74 100 Franken. Mit ca. 36 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -51103,7 +51103,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:44",
+		"aktualisierungsdatum": "2023-07-31T11:05:04",
 		"id": 8294
 	},
 	{
