@@ -59,6 +59,10 @@
         [
           "2021",
           492631
+        ],
+        [
+          "2022",
+          530307
         ]
       ],
       "name": "Akutsomatik",
@@ -123,6 +127,10 @@
         [
           "2021",
           20
+        ],
+        [
+          "2022",
+          6
         ]
       ],
       "name": "Geriatrie",
@@ -187,6 +195,10 @@
         [
           "2021",
           140468
+        ],
+        [
+          "2022",
+          139686
         ]
       ],
       "name": "Psychiatrie",
@@ -251,6 +263,10 @@
         [
           "2021",
           120294
+        ],
+        [
+          "2022",
+          108243
         ]
       ],
       "name": "Rehabilitation",
@@ -391,7 +407,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

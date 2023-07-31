@@ -758,7 +758,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 kamen 2 066 Lebendgeborene zur Welt, davon waren 57% Schweizer Staatsangehörige.",
+		"lesehilfe": "2022 kamen 1 791 Lebendgeborene zur Welt, davon waren  1 065 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:50",
+		"aktualisierungsdatum": "2023-07-31T08:40:45",
 		"id": 6076
 	},
 	{
@@ -796,8 +796,8 @@ var indikatorensetData = [
 			6662
 		],
 		"title": "Zusammengefasste Geburtenziffer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2012 bis 2021",
-		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2012 bis 2021 die höchsten zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen und Italienerinnen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2013 bis 2022",
+		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2013 bis 2022 die höchste zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen, Italienerinnen und Frauen aus der Ländergruppe EU-Ost.",
 		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -822,7 +822,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:50",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6077
 	},
 	{
@@ -1154,8 +1154,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 (gepoolte Daten) haben 17,2% der Schweizer und 29,4% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 (gepoolte Daten) haben 16,5% der Schweizer und 28,8% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1180,7 +1180,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:59",
+		"aktualisierungsdatum": "2023-07-31T08:40:48",
 		"id": 6088
 	},
 	{
@@ -1193,9 +1193,9 @@ var indikatorensetData = [
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2016 bis 2021",
-		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am grössten (71%), bei Personen aus dem Balkan am niedrigsten (13%).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2017 bis 2021",
+		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (71,5%), bei Personen aus dem Balkan (13,4%) und der Türkei (14,3%) am niedrigsten.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1219,7 +1219,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:59",
+		"aktualisierungsdatum": "2023-07-31T08:40:48",
 		"id": 6090
 	},
 	{
@@ -1427,9 +1427,9 @@ var indikatorensetData = [
 			6678
 		],
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (42,8%) am häufigsten Deutsch als Hauptsprache an.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Nach Personen mit deutscher oder Schweizer Staatsangehörigkeit sprechen Personen aus der Türkei (42,6%) und dem Balkan (42,4%) am häufigsten Deutsch als Hauptsprache.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1453,7 +1453,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:52",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6402
 	},
 	{
@@ -1466,9 +1466,9 @@ var indikatorensetData = [
 			6679
 		],
 		"title": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (65,5%) am grössten.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (66,8%) am grössten.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1492,7 +1492,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:53",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6403
 	},
 	{
@@ -1505,9 +1505,9 @@ var indikatorensetData = [
 			6680
 		],
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "80,2% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2016 bis 2020 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 47,8%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "80,1% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2017 bis 2021 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 47,2%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1531,7 +1531,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:54",
+		"aktualisierungsdatum": "2023-07-31T08:40:47",
 		"id": 6404
 	},
 	{
@@ -3161,9 +3161,9 @@ var indikatorensetData = [
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 sind in Basel­Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrations-hintergrund. Etwa 18% sind Schweizer mit Migrationshintergrund, 33% Ausländer der ersten und 3% Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 sind in Basel-Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 18% sind Schweizer mit Migrationshintergrund, 34% Ausländer der ersten und 3% Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -3187,7 +3187,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:32",
+		"aktualisierungsdatum": "2023-07-31T08:40:50",
 		"id": 6481
 	},
 	{

@@ -6,36 +6,48 @@
       "legendIndex": 0,
       "data": [
         [
-          "2010: Etappen pro Tag  Anzahl",
+          "2010: Etappen pro Tag   Anzahl",
           3.2526782
         ],
         [
-          "2015: Etappen pro Tag  Anzahl",
+          "2015: Etappen pro Tag   Anzahl",
           2.9214036
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          2.3302841
         ],
         [
           " ",
           null
         ],
         [
-          "2010: Tagesunterwegszeit  in Minuten",
+          "2010: Tagesunterwegszeit   in Minuten",
           38.444439
         ],
         [
-          "2015: Tagesunterwegszeit  in Minuten",
+          "2015: Tagesunterwegszeit   in Minuten",
           31.35447
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          35.488214
         ],
         [
           "  ",
           null
         ],
         [
-          "2010: Tagesdistanz  in Kilometer",
+          "2010: Tagesdistanz   in Kilometer",
           2.4660112
         ],
         [
-          "2015: Tagesdistanz  in Kilometer",
+          "2015: Tagesdistanz   in Kilometer",
           2.0930536
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          2.1766692
         ]
       ],
       "name": "Zu Fuss",
@@ -47,36 +59,48 @@
       "legendIndex": 1,
       "data": [
         [
-          "2010: Etappen pro Tag  Anzahl",
+          "2010: Etappen pro Tag   Anzahl",
           0.6109837
         ],
         [
-          "2015: Etappen pro Tag  Anzahl",
+          "2015: Etappen pro Tag   Anzahl",
           0.6141527
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.6437951
         ],
         [
           " ",
           null
         ],
         [
-          "2010: Tagesunterwegszeit  in Minuten",
+          "2010: Tagesunterwegszeit   in Minuten",
           8.3670952
         ],
         [
-          "2015: Tagesunterwegszeit  in Minuten",
+          "2015: Tagesunterwegszeit   in Minuten",
           8.9492522
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          10.477397
         ],
         [
           "  ",
           null
         ],
         [
-          "2010: Tagesdistanz  in Kilometer",
+          "2010: Tagesdistanz   in Kilometer",
           1.7253601
         ],
         [
-          "2015: Tagesdistanz  in Kilometer",
+          "2015: Tagesdistanz   in Kilometer",
           1.6884046
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          2.1633652
         ]
       ],
       "name": "Velo",
@@ -88,36 +112,48 @@
       "legendIndex": 2,
       "data": [
         [
-          "2010: Etappen pro Tag  Anzahl",
+          "2010: Etappen pro Tag   Anzahl",
           0.7656544
         ],
         [
-          "2015: Etappen pro Tag  Anzahl",
+          "2015: Etappen pro Tag   Anzahl",
           0.8338522
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.6669503
         ],
         [
           " ",
           null
         ],
         [
-          "2010: Tagesunterwegszeit  in Minuten",
+          "2010: Tagesunterwegszeit   in Minuten",
           15.563063
         ],
         [
-          "2015: Tagesunterwegszeit  in Minuten",
+          "2015: Tagesunterwegszeit   in Minuten",
           17.15333
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          14.008216
         ],
         [
           "  ",
           null
         ],
         [
-          "2010: Tagesdistanz  in Kilometer",
+          "2010: Tagesdistanz   in Kilometer",
           10.058921
         ],
         [
-          "2015: Tagesdistanz  in Kilometer",
+          "2015: Tagesdistanz   in Kilometer",
           11.594023
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          9.0255171
         ]
       ],
       "name": "MIV",
@@ -129,36 +165,48 @@
       "legendIndex": 3,
       "data": [
         [
-          "2010: Etappen pro Tag  Anzahl",
+          "2010: Etappen pro Tag   Anzahl",
           1.2702954
         ],
         [
-          "2015: Etappen pro Tag  Anzahl",
+          "2015: Etappen pro Tag   Anzahl",
           1.283706
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.7476092
         ],
         [
           " ",
           null
         ],
         [
-          "2010: Tagesunterwegszeit  in Minuten",
+          "2010: Tagesunterwegszeit   in Minuten",
           18.169132
         ],
         [
-          "2015: Tagesunterwegszeit  in Minuten",
+          "2015: Tagesunterwegszeit   in Minuten",
           17.745773
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          10.705307
         ],
         [
           "  ",
           null
         ],
         [
-          "2010: Tagesdistanz  in Kilometer",
+          "2010: Tagesdistanz   in Kilometer",
           9.922729
         ],
         [
-          "2015: Tagesdistanz  in Kilometer",
+          "2015: Tagesdistanz   in Kilometer",
           11.610472
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          6.1944466
         ]
       ],
       "name": "ÖV",
@@ -170,36 +218,48 @@
       "legendIndex": 4,
       "data": [
         [
-          "2010: Etappen pro Tag  Anzahl",
+          "2010: Etappen pro Tag   Anzahl",
           0.0596431
         ],
         [
-          "2015: Etappen pro Tag  Anzahl",
+          "2015: Etappen pro Tag   Anzahl",
           0.0619608
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.0433991
         ],
         [
           " ",
           null
         ],
         [
-          "2010: Tagesunterwegszeit  in Minuten",
+          "2010: Tagesunterwegszeit   in Minuten",
           1.1691897
         ],
         [
-          "2015: Tagesunterwegszeit  in Minuten",
+          "2015: Tagesunterwegszeit   in Minuten",
           1.0578035
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          0.6956573
         ],
         [
           "  ",
           null
         ],
         [
-          "2010: Tagesdistanz  in Kilometer",
+          "2010: Tagesdistanz   in Kilometer",
           0.4428068
         ],
         [
-          "2015: Tagesdistanz  in Kilometer",
+          "2015: Tagesdistanz   in Kilometer",
           0.268806
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          0.1844267
         ]
       ],
       "name": "Übrige",
@@ -225,9 +285,9 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                  	 return this.value.replace("  ", "<br/>");
-            },
+      "formatter": function () {
+          return this.value.replace("  ", "<br/>");
+        },
       "useHTML": true,
       "align": "left",
       "x": -140
@@ -328,9 +388,8 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 1
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -345,7 +404,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-22"
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "legend": {
     "layout": "vertical",
