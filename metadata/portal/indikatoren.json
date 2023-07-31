@@ -1375,7 +1375,7 @@
 		],
 		"title": "Ansiedlungen von Firmen aus dem Ausland",
 		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland lag, trotz COVID-19-Pandemie, 2020 bei 22 und 2021 bei 30. Zusätzlich gab es im Jahr 2021 neun Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2020 waren es fünf).",
+		"lesehilfe": "Im Jahr 2022 gab es 27 durch BaselArea unterstützte Firmenansiedlungen aus dem Ausland. Zusätzlich gab es 2022 acht Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind.",
 		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"quellenangabe": [
 			"BaselArea"
@@ -1401,7 +1401,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-07T07:52:28",
+		"aktualisierungsdatum": "2023-07-31T08:40:38",
 		"id": 3086
 	},
 	{
@@ -6554,7 +6554,7 @@
 		"children": [],
 		"title": "Qualifikationsniveau",
 		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe in der Stadt Basel",
-		"lesehilfe": "Der Anteil der Wohnbevölkerung im Alter von 25 bis 64 Jahren mit einem Ausbildungsabschluss auf Tertiärstufe ist in der Stadt Basel von 2010 bis 2020 von 40,3 auf 56,9 Prozent gestiegen.",
+		"lesehilfe": "Der Anteil der Wohnbevölkerung im Alter von 25 bis 64 Jahren mit einem Ausbildungsabschluss auf Tertiärstufe ist in der Stadt Basel von 2010 bis 2021 von 40,3 auf 57,2 Prozent gestiegen.",
 		"erlaeuterungen": "Das Qualifikationsniveau wird gemessen am Bevölkerungsanteil (ständige Wohnbevölkerung) der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe (Hochschulabschlüsse und Abschlüsse mit höherer Berufsbildung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in der Stadt Basel wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren. <br>Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>. Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -6582,7 +6582,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-04T08:05:59",
+		"aktualisierungsdatum": "2023-07-31T08:40:39",
 		"id": 4360
 	},
 	{
@@ -6673,7 +6673,7 @@
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 92% der Schweizer in Basel-Stadt geben im Jahr 2020 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. 38% der Personen aus anderen Herkunftsländern sprechen zu Hause Deutsch.",
+		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2021 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 34%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -6699,7 +6699,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-25T08:50:53",
+		"aktualisierungsdatum": "2023-07-31T08:40:39",
 		"id": 4463
 	},
 	{
@@ -8949,7 +8949,7 @@
 		"children": [],
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
 		"subtitle": "in 1000 Franken",
-		"lesehilfe": "In Basel-Stadt nehmen die Ausfuhren seit 2016 stetig zu. Die Einfuhren haben 2020 leicht abgenommen. 2021 haben sie im Vergleich zum Vorjahr leicht zugenommen.  Die Ausfuhren sind 2021 mit 76,8 Mrd. Franken mehr als doppelt so hoch wie die Einfuhren.",
+		"lesehilfe": "In Basel-Stadt nehmen die Ausfuhren seit 2016 zu. Die Einfuhren haben 2020 leicht abgenommen. Seit 2021 nehmen sie wieder zu. Die Ausfuhren sind 2022 mit 81,2 Mrd. Franken fast doppelt so hoch wie die Einfuhren.",
 		"erlaeuterungen": "2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -8975,7 +8975,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:21",
+		"aktualisierungsdatum": "2023-07-31T08:40:40",
 		"id": 4913
 	},
 	{
@@ -9271,7 +9271,7 @@
 		"children": [],
 		"title": "Hospitalisierungen in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Im Jahr 2021 wurden 74 592 Fälle aus einer akutsomatischen Station entlassen.",
+		"lesehilfe": "Im Jahr 2022 wurden 77 269 Fälle aus einer akutsomatischen Station entlassen.",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte aus einem baselstädtischen Spital innerhalb eines Jahres.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -9298,7 +9298,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-10T08:01:58",
+		"aktualisierungsdatum": "2023-07-31T08:40:40",
 		"id": 4947
 	},
 	{
@@ -9310,7 +9310,7 @@
 		"children": [],
 		"title": "Pflegetage in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2021 betrug im Hauptbereich Akutsomatik 492 631.",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2022 betrug im Hauptbereich Akutsomatik 530 307.",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -9337,7 +9337,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-21T08:15:43",
+		"aktualisierungsdatum": "2023-07-31T08:40:41",
 		"id": 4948
 	},
 	{
@@ -9588,7 +9588,7 @@
 		],
 		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Geburtenziffer liegt 2021 bei 10,2 Lebendgeborenen und die Sterbeziffer bei 10,2 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die Geburtenziffer liegt 2022 bei 8,8 Lebendgeborenen und die Sterbeziffer bei 10,6 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"erlaeuterungen": "Die Geburtenziffer bezeichnet die Anzahl Lebendgeborene pro 1000 Einwohner der mittleren Wohnbevölkerung, die Sterbeziffer die Anzahl Gestorbene pro 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -9614,7 +9614,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:53",
+		"aktualisierungsdatum": "2023-07-31T08:40:49",
 		"id": 5149
 	},
 	{
@@ -11752,45 +11752,43 @@
 		"id": 6026
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 6028,
+		"chart-id": 6028,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8920"
+			8920
 		],
-		"template": "befragungen001",
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.11.2.6028",
-		"kuerzelKunde": "GW21",
-		"description": "Anteile der Verkehrsmittel",
-		"thema": "11 Verkehr",
-		"unterthema": "Öffentlicher Verkehr",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-22T09:03:12.1212",
+		"description": "Anteile der Verkehrsmittel",
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kuerzel": "I.11.2.6028",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW21",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
-		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
+		"orderKey": "03_06_00_00_00_321",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_322",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6028,
-		"chart-id": 6028,
-		"filter": "",
+		"aktualisierungsdatum": "2023-07-31T08:40:50",
 		"id": 6028
 	},
 	{
@@ -13190,7 +13188,7 @@
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 kamen 2 066 Lebendgeborene zur Welt, davon waren 57% Schweizer Staatsangehörige.",
+		"lesehilfe": "2022 kamen 1 791 Lebendgeborene zur Welt, davon waren  1 065 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13216,7 +13214,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:50",
+		"aktualisierungsdatum": "2023-07-31T08:40:45",
 		"id": 6076
 	},
 	{
@@ -13229,8 +13227,8 @@
 			6662
 		],
 		"title": "Zusammengefasste Geburtenziffer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2012 bis 2021",
-		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2012 bis 2021 die höchsten zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen und Italienerinnen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2013 bis 2022",
+		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2013 bis 2022 die höchste zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen, Italienerinnen und Frauen aus der Ländergruppe EU-Ost.",
 		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13256,7 +13254,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:50",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6077
 	},
 	{
@@ -13596,8 +13594,8 @@
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 (gepoolte Daten) haben 17,2% der Schweizer und 29,4% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 (gepoolte Daten) haben 16,5% der Schweizer und 28,8% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -13623,7 +13621,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:59",
+		"aktualisierungsdatum": "2023-07-31T08:40:48",
 		"id": 6088
 	},
 	{
@@ -13636,9 +13634,9 @@
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2016 bis 2021",
-		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am grössten (71%), bei Personen aus dem Balkan am niedrigsten (13%).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2017 bis 2021",
+		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (71,5%), bei Personen aus dem Balkan (13,4%) und der Türkei (14,3%) am niedrigsten.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -13663,7 +13661,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:59",
+		"aktualisierungsdatum": "2023-07-31T08:40:48",
 		"id": 6090
 	},
 	{
@@ -15164,9 +15162,9 @@
 			6678
 		],
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (42,8%) am häufigsten Deutsch als Hauptsprache an.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Nach Personen mit deutscher oder Schweizer Staatsangehörigkeit sprechen Personen aus der Türkei (42,6%) und dem Balkan (42,4%) am häufigsten Deutsch als Hauptsprache.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -15191,7 +15189,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:52",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6402
 	},
 	{
@@ -15204,9 +15202,9 @@
 			6679
 		],
 		"title": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (65,5%) am grössten.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (66,8%) am grössten.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -15231,7 +15229,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:53",
+		"aktualisierungsdatum": "2023-07-31T08:40:46",
 		"id": 6403
 	},
 	{
@@ -15244,9 +15242,9 @@
 			6680
 		],
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "80,2% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2016 bis 2020 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 47,8%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "80,1% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2017 bis 2021 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 47,2%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -15271,7 +15269,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:54",
+		"aktualisierungsdatum": "2023-07-31T08:40:47",
 		"id": 6404
 	},
 	{
@@ -17626,9 +17624,9 @@
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
-		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 sind in Basel­Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrations-hintergrund. Etwa 18% sind Schweizer mit Migrationshintergrund, 33% Ausländer der ersten und 3% Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
+		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 sind in Basel-Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 18% sind Schweizer mit Migrationshintergrund, 34% Ausländer der ersten und 3% Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17653,7 +17651,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:32",
+		"aktualisierungsdatum": "2023-07-31T08:40:50",
 		"id": 6481
 	},
 	{
@@ -23956,7 +23954,7 @@
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
 		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt",
 		"lesehilfe": "Der Verlauf der Aufenthaltsdauer nach Alter in den dargestellten Jahren ähnelt sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht, von einzelnen Ausreissern abgesehen, in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -23981,7 +23979,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:08",
+		"aktualisierungsdatum": "2023-07-31T08:40:44",
 		"id": 6991
 	},
 	{
@@ -24148,7 +24146,7 @@
 		],
 		"title": "Stationär behandelte Patienten",
 		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
-		"lesehilfe": "Im Jahr 2021 wurden insgesamt 66 195 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 221 Personen im Kanton Basel-Stadt und 21 807 in Basel-Landschaft.",
+		"lesehilfe": "Im Jahr 2022 wurden insgesamt 67 663 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 714 Personen im Kanton Basel-Stadt und 22 123 in Basel-Landschaft.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -24174,7 +24172,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-10T08:01:58",
+		"aktualisierungsdatum": "2023-07-31T08:40:44",
 		"id": 6996
 	},
 	{
@@ -24185,8 +24183,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2021",
-		"lesehilfe": "Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 50 und 76 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
+		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2022",
+		"lesehilfe": "Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 50 und 78 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -24212,7 +24210,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:09",
+		"aktualisierungsdatum": "2023-07-31T08:40:41",
 		"id": 6997
 	},
 	{
@@ -24223,8 +24221,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Neugeborene nach Alter der Mutter",
-		"subtitle": "in baselstädtischen Spitälern, 2021",
-		"lesehilfe": "Im Jahr 2021 haben die 33-jährigen Mütter die meisten Babys zur Welt gebracht (405), gefolgt von den 31-jährigen Müttern (381). Der Altersdurchschnitt lag bei 32,7 Jahren.",
+		"subtitle": "in baselstädtischen Spitälern, 2022",
+		"lesehilfe": "Im Jahr 2022 haben die 32- und 33-jährigen Mütter die meisten Babys zur Welt gebracht (jeweils 371), gefolgt von den 34-jährigen Müttern (362).",
 		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -24250,7 +24248,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:09",
+		"aktualisierungsdatum": "2023-07-31T08:40:42",
 		"id": 6998
 	},
 	{
@@ -24261,8 +24259,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Patienten nach Liege- und Altersklasse",
-		"subtitle": "in baselstädtischen Spitälern, 2021",
-		"lesehilfe": "Im Jahr 2021 wurden insgesamt 11 718 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
+		"subtitle": "in baselstädtischen Spitälern, 2022",
+		"lesehilfe": "Im Jahr 2022 wurden insgesamt 12 071 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -24289,7 +24287,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:09",
+		"aktualisierungsdatum": "2023-07-31T08:40:42",
 		"id": 6999
 	},
 	{
@@ -24300,8 +24298,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Aufenthaltsorte nach dem Spitalaustritt",
-		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2021",
-		"lesehilfe": "Knapp 52% der Personen im Alter von mindestens 80 Jahren konnten im Jahr 2021 nach einer stationären Behandlung in einem baselstädtischen Spital wieder nach Hause. 16% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2022",
+		"lesehilfe": "Über 51% der Personen im Alter von mindestens 80 Jahren konnten im Jahr 2022 nach einer stationären Behandlung in einem baselstädtischen Spital wieder nach Hause. Etwa 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
 		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -24328,7 +24326,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-02T08:23:10",
+		"aktualisierungsdatum": "2023-07-31T08:40:43",
 		"id": 7000
 	},
 	{
@@ -27399,13 +27397,12 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			7948,
-			9679
+			7948
 		],
 		"title": "Verlorene potentielle Lebensjahre",
 		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder leicht steigen. 2021 waren es bei den Männern 4 518 VPL und bei den Frauen 2 014.",
-		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
+		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder steigen. 2022 waren es bei den Männern 5 551 VPL und bei den Frauen 2 144.",
+		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der baselstädtischen Bevölkerung im Jahr 2010 standardisiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -27430,7 +27427,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:29",
+		"aktualisierungsdatum": "2023-07-31T08:40:43",
 		"id": 7710
 	},
 	{
@@ -28822,9 +28819,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Franken pro m<sup>2</sup>, 2016-2020",
+		"subtitle": "in Franken pro m<sup>2</sup>, 2017-2021",
 		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,2 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -28849,7 +28846,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-11T09:24:28",
+		"aktualisierungsdatum": "2023-07-31T08:40:44",
 		"id": 7901
 	},
 	{
