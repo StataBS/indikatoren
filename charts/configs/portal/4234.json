@@ -192,10 +192,11 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 32,
+    "ceiling": 33,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -207,7 +208,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -233,6 +291,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -404,7 +497,8 @@
         8.38,
         8.4,
         8.37,
-        7.56
+        7.56,
+        8.45
       ],
       "visible": true
     },
@@ -451,7 +545,8 @@
         11.19,
         10.52,
         11.93,
-        11.36
+        11.36,
+        12.42
       ],
       "visible": true
     }
