@@ -38325,8 +38325,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten gesunken und beträgt im Juni 1,6%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Februar 2023 und Februar 2022.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten gesunken und beträgt im Juli 1,5%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juli 2023 und Juli 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -38353,7 +38353,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-03T08:41:38",
+		"aktualisierungsdatum": "2023-08-03T08:33:04",
 		"id": 7512
 	},
 	{
@@ -38365,7 +38365,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau weiter erhöht.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau weiter erhöht und ist zuletzt im Juli leicht gesunken.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -38392,7 +38392,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-03T08:41:39",
+		"aktualisierungsdatum": "2023-08-03T08:33:05",
 		"id": 7513
 	},
 	{
