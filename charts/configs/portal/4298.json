@@ -176,10 +176,11 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 16,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -191,7 +192,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -217,6 +275,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -374,8 +467,9 @@
         45,
         43,
         148,
-        571,
-        339
+        572,
+        340,
+        373
       ],
       "visible": true
     },
@@ -409,7 +503,8 @@
         0,
         4,
         3,
-        8
+        8,
+        6
       ],
       "visible": true
     },
@@ -443,7 +538,8 @@
         83,
         180,
         299,
-        395
+        395,
+        485
       ],
       "visible": true
     },
@@ -477,7 +573,8 @@
         0,
         0,
         0,
-        2
+        2,
+        3
       ],
       "visible": true
     },
@@ -493,9 +590,9 @@
       "id": "BS0805_5",
       "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
       "data": [
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
         0.01,
         0,
         0.01,
@@ -506,10 +603,11 @@
         0.74,
         1.13,
         1.33,
-        1.63,
-        4.25,
-        17.06,
-        14.91
+        1.62,
+        4.23,
+        17.02,
+        14.91,
+        23.2
       ],
       "visible": true,
       "yAxis": 1
