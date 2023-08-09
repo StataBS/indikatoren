@@ -40,6 +40,10 @@
         [
           "2020",
           12.3766429458606
+        ],
+        [
+          "2021",
+          8.23792168652448
         ]
       ],
       "name": "Zahlungsrückstand NWCH",
@@ -93,6 +97,11 @@
           "name": "2020",
           "low": 9.68536694586061,
           "high": 15.0679189458606
+        },
+        {
+          "name": "2021",
+          "low": 6.25733962125794,
+          "high": 10.218503751791
         }
       ],
       "name": "Zahlungrückstand NWCH 95%-Konfidenzintervall Untergrenze",
@@ -139,6 +148,10 @@
         [
           "2020",
           13.5247498944201
+        ],
+        [
+          "2021",
+          11.5465597216593
         ]
       ],
       "name": "Zahlungsrückstand CH",
@@ -192,6 +205,11 @@
           "name": "2020",
           "low": 12.4973178944201,
           "high": 14.5521818944201
+        },
+        {
+          "name": "2021",
+          "low": 10.5673043731579,
+          "high": 12.5258150701607
         }
       ],
       "name": "Zahlungrückstand CH 95%-Konfidenzintervall Untergrenze",
@@ -237,6 +255,10 @@
         [
           "2020",
           5.5071479064727
+        ],
+        [
+          "2021",
+          null
         ]
       ],
       "name": "Betreibung, Verlustschein NWCH",
@@ -290,6 +312,11 @@
           "name": "2020",
           "low": 3.8852479064727,
           "high": 7.1290479064727
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Betreibung, Verlustschein NWCH 95%-Konfidenzintervall Untergrenze",
@@ -336,6 +363,10 @@
         [
           "2020",
           6.94321882051797
+        ],
+        [
+          "2021",
+          null
         ]
       ],
       "name": "Betreibung, Verlustschein CH",
@@ -389,6 +420,11 @@
           "name": "2020",
           "low": 6.17627082051797,
           "high": 7.71016682051797
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Betreibung, Verlustschein CH 95%-Konfidenzintervall Untergrenze",
@@ -434,6 +470,10 @@
         [
           "2020",
           5.891921055206
+        ],
+        [
+          "2021",
+          null
         ]
       ],
       "name": "Kontoüberziehung, Kreditkarte NWCH",
@@ -487,6 +527,11 @@
           "name": "2020",
           "low": 3.890957055206,
           "high": 7.892885055206
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Kontoüberziehung, Kreditkarte NWCH 95%-Konfidenzintervall Untergrenze",
@@ -533,6 +578,10 @@
         [
           "2020",
           5.05557673713981
+        ],
+        [
+          "2021",
+          null
         ]
       ],
       "name": "Kontoüberziehung, Kreditkarte CH",
@@ -586,6 +635,11 @@
           "name": "2020",
           "low": 4.30705273713981,
           "high": 5.80410073713981
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Kontoüberziehung, Kreditkarte CH 95%-Konfidenzintervall Untergrenze",
@@ -733,7 +787,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2023"
   },
   "tooltip": {
     "shared": true
