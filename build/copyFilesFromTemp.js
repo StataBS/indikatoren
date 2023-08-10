@@ -98,3 +98,10 @@ console.log('=== Test Links: ===');
 records.forEach(row => {
     console.log('http://127.0.0.1:8084/chart-details.html?id=' + row.Indikator);
 });
+
+console.log('=== Live Links: ===');
+
+//visual check after merge
+records.forEach(row => {
+    console.log('https://statabs.github.io/indikatoren/chart-details.html?id=' + row.Indikator);
+});
