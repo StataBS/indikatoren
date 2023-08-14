@@ -116,6 +116,10 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          null
         ]
       ],
       "name": "Knaben",
@@ -234,6 +238,10 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          null
         ]
       ],
       "name": "Mädchen",
@@ -350,6 +358,10 @@
         [
           "2020\u002F21",
           9
+        ],
+        [
+          "2021\u002F22",
+          7
         ]
       ],
       "name": "1. Stufe CH Knaben",
@@ -463,6 +475,10 @@
         [
           "2020\u002F21",
           10
+        ],
+        [
+          "2021\u002F22",
+          13
         ]
       ],
       "name": "1. Stufe CH Mädchen",
@@ -579,6 +595,10 @@
         [
           "2020\u002F21",
           13
+        ],
+        [
+          "2021\u002F22",
+          11
         ]
       ],
       "name": "1. Stufe Ausland Knaben",
@@ -692,6 +712,10 @@
         [
           "2020\u002F21",
           17
+        ],
+        [
+          "2021\u002F22",
+          16
         ]
       ],
       "name": "1. Stufe Ausland Mädchen",
@@ -808,9 +832,13 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          16
         ]
       ],
-      "name": "5. Stufe CH Knaben",
+      "name": "5.\u002F6. Stufe CH Knaben",
       "turboThreshold": 0
     },
     {
@@ -921,9 +949,13 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          21
         ]
       ],
-      "name": "5. Stufe CH Mädchen",
+      "name": "5.\u002F6. Stufe CH Mädchen",
       "turboThreshold": 0
     },
     {
@@ -1037,9 +1069,13 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          26
         ]
       ],
-      "name": "5. Stufe Ausland Knaben",
+      "name": "5.\u002F6. Stufe Ausland Knaben",
       "turboThreshold": 0
     },
     {
@@ -1150,9 +1186,13 @@
         [
           "2020\u002F21",
           null
+        ],
+        [
+          "2021\u002F22",
+          24
         ]
       ],
-      "name": "5. Stufe Ausland Mädchen",
+      "name": "5.\u002F6. Stufe Ausland Mädchen",
       "turboThreshold": 0
     },
     {
@@ -1266,6 +1306,10 @@
         [
           "2020\u002F21",
           24
+        ],
+        [
+          "2021\u002F22",
+          27
         ]
       ],
       "name": "11. Stufe CH Knaben",
@@ -1379,6 +1423,10 @@
         [
           "2020\u002F21",
           19
+        ],
+        [
+          "2021\u002F22",
+          17
         ]
       ],
       "name": "11. Stufe CH Mädchen",
@@ -1495,6 +1543,10 @@
         [
           "2020\u002F21",
           32
+        ],
+        [
+          "2021\u002F22",
+          33
         ]
       ],
       "name": "11. Stufe Ausland Knaben",
@@ -1608,6 +1660,10 @@
         [
           "2020\u002F21",
           32
+        ],
+        [
+          "2021\u002F22",
+          30
         ]
       ],
       "name": "11. Stufe Ausland Mädchen",
@@ -1766,7 +1822,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2022"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
