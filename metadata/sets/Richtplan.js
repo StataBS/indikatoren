@@ -135,7 +135,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote liegt 2022 bei 1,17%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie mit Ausnahme von 2020 wieder.",
+		"lesehilfe": "Die Leerwohnungsquote liegt 2023 bei 1,06%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022) wieder an. 2023 ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:36",
+		"aktualisierungsdatum": "2023-08-17T10:03:11",
 		"id": 5813
 	},
 	{
@@ -173,8 +173,8 @@ var indikatorensetData = [
 			6246
 		],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2022 im Wohnviertel Vorstädte verzeichnet (2,4%). Die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,8% auf 2,2%).",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2023 im Wohnviertel Altstadt Grossbasel verzeichnet (2,2%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,3% auf 2,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -199,7 +199,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:36",
+		"aktualisierungsdatum": "2023-08-17T10:03:11",
 		"id": 5814
 	},
 	{
@@ -811,7 +811,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt die leerstehende Fläche insgesamt über 201 500 m², was einem neuen Höchststand entspricht. Die Büroflächen machen mit rund 110 700 m² über die Hälfte der leerstehenden Geschäftsflächen aus.",
+		"lesehilfe": "Im Jahr 2023 beträgt die leerstehende Fläche insgesamt 190 600 m², 11 000 m²  weniger als im Vorjahr. Die Büroflächen machen mit 134 300 m² rund 70% der leerstehenden Geschäftsflächen aus.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -836,7 +836,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:36",
+		"aktualisierungsdatum": "2023-08-17T10:03:12",
 		"id": 6217
 	},
 	{

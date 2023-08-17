@@ -978,6 +978,7 @@ var templatesById = {
 	"7563": "line001",
 	"7573": "template001",
 	"7574": "template001",
+	"7575": "mappieGemeindenBSBL",
 	"7576": "template001",
 	"7577": "pie001",
 	"7578": "pie001",

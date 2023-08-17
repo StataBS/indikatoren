@@ -4708,11 +4708,11 @@
         ],
         [
           1688947200000,
-          5
+          6
         ],
         [
           1689552000000,
-          null
+          2
         ],
         [
           1690156800000,
@@ -15252,7 +15252,7 @@
         ],
         [
           1647216000000,
-          36
+          37
         ],
         [
           1647820800000,
@@ -15416,7 +15416,7 @@
         ],
         [
           1672012800000,
-          46
+          47
         ],
         [
           1672617600000,
@@ -15532,7 +15532,7 @@
         ],
         [
           1689552000000,
-          null
+          30
         ],
         [
           1690156800000,
@@ -21604,7 +21604,7 @@
         {
           "x": 1699833600000,
           "low": 21.4,
-          "high": 52.7
+          "high": 52.8
         },
         {
           "x": 1700438400000,
@@ -21614,7 +21614,7 @@
         {
           "x": 1701043200000,
           "low": 22.7,
-          "high": 54.7
+          "high": 54.8
         },
         {
           "x": 1701648000000,
@@ -21623,18 +21623,18 @@
         },
         {
           "x": 1702252800000,
-          "low": 24,
-          "high": 56.8
+          "low": 24.1,
+          "high": 56.9
         },
         {
           "x": 1702857600000,
           "low": 24.8,
-          "high": 57.9
+          "high": 58
         },
         {
           "x": 1703462400000,
-          "low": 25.5,
-          "high": 59
+          "low": 25.6,
+          "high": 59.1
         }
       ],
       "name": "Untere Grenze Erwartungsbereich 65+ Jahre"
@@ -21658,7 +21658,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1694672520710,
+    "max": 1695283658475,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -21799,7 +21799,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
