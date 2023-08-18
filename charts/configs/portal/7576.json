@@ -46,7 +46,7 @@
     {
       "yAxis": 1,
       "color": "#6F6F6F",
-      "index": 1,
+      "index": 2,
       "type": "scatter",
       "lineWidth": 0,
       "marker": {
@@ -100,10 +100,10 @@
     },
     {
       "color": "#DC440E",
-      "index": 2,
+      "index": 1,
       "type": "column",
       "pointWidth": "15",
-      "showInLegend": false,
+      "linkedTo": ":previous",
       "data": [
         [
           "Grossbasel",
@@ -151,7 +151,7 @@
         "enabled": true,
         "symbol": "triangle"
       },
-      "showInLegend": false,
+      "linkedTo": ":previous",
       "tooltip": {
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 17.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "tooltip": {
     "shared": true

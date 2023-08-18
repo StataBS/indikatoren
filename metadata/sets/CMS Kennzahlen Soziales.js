@@ -1349,7 +1349,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-17T10:02:52",
+		"aktualisierungsdatum": "2023-08-18T10:17:41",
 		"id": 8275
 	},
 	{

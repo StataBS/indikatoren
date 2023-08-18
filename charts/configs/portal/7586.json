@@ -91,7 +91,7 @@
       "name": "Basel"
     },
     {
-      "color": "#9E7C59",
+      "color": "#67401E",
       "data": [
         [
           2003,
@@ -181,7 +181,7 @@
       "name": "Bern"
     },
     {
-      "color": "#689199",
+      "color": "#CD9C00",
       "data": [
         [
           2003,
@@ -271,7 +271,7 @@
       "name": "Genf"
     },
     {
-      "color": "#923F8D",
+      "color": "#007A2F",
       "data": [
         [
           2003,
@@ -361,7 +361,7 @@
       "name": "Lausanne"
     },
     {
-      "color": "#CD9C00",
+      "color": "#8A8A8A",
       "data": [
         [
           2003,
@@ -451,7 +451,7 @@
       "name": "Winterthur"
     },
     {
-      "color": "#68AB2B",
+      "color": "#008AC3",
       "data": [
         [
           2003,
@@ -541,7 +541,7 @@
       "name": "Zürich"
     },
     {
-      "color": "#DC440E",
+      "color": "#B00000",
       "data": [
         [
           2003,
@@ -757,7 +757,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 17.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
