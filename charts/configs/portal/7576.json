@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          766
+          824
         ],
         [
           "Kleinbasel",
-          459
+          388
         ],
         [
           "Riehen\u002FBettingen",
-          103
+          115
         ],
         [
           "Arlesheim",
@@ -46,7 +46,7 @@
     {
       "yAxis": 1,
       "color": "#6F6F6F",
-      "index": 1,
+      "index": 2,
       "type": "scatter",
       "lineWidth": 0,
       "marker": {
@@ -64,15 +64,15 @@
       "data": [
         [
           "Grossbasel",
-          0.0124
+          0.0113
         ],
         [
           "Kleinbasel",
-          0.0111
+          0.0093
         ],
         [
           "Riehen\u002FBettingen",
-          0.0093
+          0.0101
         ],
         [
           "Arlesheim",
@@ -100,10 +100,10 @@
     },
     {
       "color": "#DC440E",
-      "index": 2,
+      "index": 1,
       "type": "column",
       "pointWidth": "15",
-      "showInLegend": false,
+      "linkedTo": ":previous",
       "data": [
         [
           "Grossbasel",
@@ -119,23 +119,23 @@
         ],
         [
           "Arlesheim",
-          671
+          769
         ],
         [
           "Laufen",
-          120
+          97
         ],
         [
           "Liestal",
-          373
+          291
         ],
         [
           "Sissach",
-          117
+          136
         ],
         [
           "Waldenburg",
-          72
+          66
         ]
       ],
       "name": "Anzahl Leerwohnungen",
@@ -151,7 +151,7 @@
         "enabled": true,
         "symbol": "triangle"
       },
-      "showInLegend": false,
+      "linkedTo": ":previous",
       "tooltip": {
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
@@ -174,23 +174,23 @@
         ],
         [
           "Arlesheim",
-          0.0084
+          0.0096
         ],
         [
           "Laufen",
-          0.0117
+          0.0093
         ],
         [
           "Liestal",
-          0.0122
+          0.0094
         ],
         [
           "Sissach",
-          0.0067
+          0.0076
         ],
         [
           "Waldenburg",
-          0.0092
+          0.0083
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)",
@@ -273,7 +273,7 @@
     "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Basel-Landschaft, 2022",
+    "text": "Basel-Stadt und Basel-Landschaft, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "tooltip": {
     "shared": true

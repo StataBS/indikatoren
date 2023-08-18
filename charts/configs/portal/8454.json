@@ -50,6 +50,10 @@
         [
           2021,
           81.4
+        ],
+        [
+          2022,
+          83.8
         ]
       ],
       "name": "MIV Stadtstrassennetz"
@@ -104,6 +108,10 @@
         [
           2021,
           85.5
+        ],
+        [
+          2022,
+          92.2
         ]
       ],
       "name": "MIV Total"
@@ -158,6 +166,10 @@
         [
           2021,
           72.9
+        ],
+        [
+          2022,
+          89.3
         ]
       ],
       "name": "ÖV"
@@ -212,6 +224,10 @@
         [
           2021,
           145.2
+        ],
+        [
+          2022,
+          155.4
         ]
       ],
       "name": "Velo (wetterbereinigt)"
@@ -266,6 +282,10 @@
         [
           2021,
           82.7
+        ],
+        [
+          2022,
+          91.2
         ]
       ],
       "name": "Fussgänger"
@@ -406,7 +426,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2022"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

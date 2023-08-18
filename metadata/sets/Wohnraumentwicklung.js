@@ -85,7 +85,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die mittleren Mietpreise der Leerwohnungen sind 2022 mit Ausnahme der 2-Zimmer-Wohnungen leicht gesunken.",
+		"lesehilfe": "Bei den 2- und 3-Zimmer-Wohnungen, zu denen zwei Drittel der Leerwohnungen gehören, sind die mittleren Mietpreise der Leerwohnungen 2023 leicht gesunken.",
 		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Bei den 5-Zimmer-Wohnungen kommt es aufgrund des kleinen Stichprobenumfangs zu grösseren Schwankungen bzw. können Werte aus Datenschutzgründen teilweise (z. B. 2014) nicht ausgewiesen werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -110,7 +110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:22",
+		"aktualisierungsdatum": "2023-08-18T10:17:39",
 		"id": 4129
 	},
 	{
@@ -443,7 +443,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2022 auf 1,2% gestiegen.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und 2023 leicht auf 1,1% gesunken.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -468,7 +468,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:23",
+		"aktualisierungsdatum": "2023-08-18T10:17:40",
 		"id": 4138
 	},
 	{
@@ -480,7 +480,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,5% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2023 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:23",
+		"aktualisierungsdatum": "2023-08-18T10:17:41",
 		"id": 4139
 	},
 	{

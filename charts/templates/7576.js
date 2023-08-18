@@ -101,9 +101,10 @@
 	{   
       yAxis: 1,
       color: "#6F6F6F",
-      index: 1,
+      index: 2,
       type: "scatter",
       lineWidth: 0,
+      
       marker: {
         enabled: true,
         symbol: "triangle"
@@ -119,10 +120,10 @@
   },
   {
     color: "#DC440E",
-    index: 2,
+    index: 1,
     type: "column",
     pointWidth: "15",
-    showInLegend: false
+    linkedTo: ":previous"
   },
 {   
     yAxis: 1,
@@ -134,7 +135,7 @@
       enabled: true,
       symbol: "triangle"
     }, 
-    showInLegend: false,
+    linkedTo: ":previous",
     tooltip: {
       shared: true,
       headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',

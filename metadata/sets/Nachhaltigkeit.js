@@ -953,7 +953,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2022 auf 1,2% gestiegen.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und 2023 leicht auf 1,1% gesunken.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -968,17 +968,17 @@ var indikatorensetData = [
 		"unterthema": "Leerstand",
 		"kuerzel": "I.09.2.05195",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW16",
+		"kuerzelKunde": "GW15",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_07_00_00_00_317",
+		"orderKey": "03_05_00_00_00_315",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:28",
+		"aktualisierungsdatum": "2023-08-18T10:17:44",
 		"id": 5195
 	},
 	{
@@ -2757,7 +2757,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen lag 2021 – abgesehen vom Velovekehr – erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Ausser beim Velovekehr liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -2778,11 +2778,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_08_00_00_00_321",
+		"orderKey": "03_06_00_00_00_320",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-22T10:09:19",
+		"aktualisierungsdatum": "2023-08-18T10:17:44",
 		"id": 8454
 	},
 	{

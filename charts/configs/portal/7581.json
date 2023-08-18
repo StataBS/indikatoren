@@ -32,28 +32,28 @@
       },
       "data": [
         [
-          "1 Zimmer (0,5%)",
-          24
+          "1 Zimmer (0,6%)",
+          31
         ],
         [
           "2 Zimmer (1,1%)",
-          175
+          176
         ],
         [
-          "3 Zimmer (1,6%)",
-          639
+          "3 Zimmer (1,5%)",
+          604
         ],
         [
-          "4 Zimmer (1,0%)",
-          423
+          "4 Zimmer (0,9%)",
+          414
         ],
         [
           "5 Zimmer (0,3%)",
-          70
+          89
         ],
         [
-          "6 Zimmer (0,1%)",
-          22
+          "6 Zimmer (0,3%)",
+          45
         ]
       ],
       "name": "Leerwohnungen",
@@ -126,7 +126,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2022",
+    "text": "Basel-Landschaft, 2023",
     "align": "left"
   },
   "tooltip": {
@@ -147,7 +147,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "legend": {
     "layout": "vertical",

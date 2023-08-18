@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          129
+          109
         ],
         [
           "renoviert",
-          169
+          203
         ],
         [
           "unverändert",
-          1055
+          1047
         ]
       ],
       "name": "Anzahl",
@@ -104,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2022",
+    "text": "Basel-Landschaft, 2023",
     "align": "left"
   },
   "tooltip": {
@@ -125,7 +125,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "legend": {
     "layout": "vertical",
