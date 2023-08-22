@@ -24609,7 +24609,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "142 616 Logiernächte wurden im Juni 2023 in den Basler Hotelbetrieben gebucht, 10 897 bzw. 8,3% mehr als im Mai. Im Vergleich zum Juni 2022 entspricht dies einer Zunahme um 7,3% bzw. 9 740 Übernachtungen. Die inländischen Gäste buchten 46 711 Logiernächte (-5,1%), die Gäste aus dem Ausland 95 905 Übernachtungen (+14,7%).",
+		"lesehilfe": "143 839 Logiernächte wurden im Juli 2023 in den Basler Hotelbetrieben gebucht, 1 223 bzw. 0,9% mehr als im Juni. Im Vergleich zum Juli 2022 entspricht dies einer Zunahme um 3,1% bzw. 4 334 Übernachtungen. Die inländischen Gäste buchten 52 091 Logiernächte (-5,8%), die Gäste aus dem Ausland 91 748 Übernachtungen (+9,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24635,7 +24635,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-25T08:40:14",
+		"aktualisierungsdatum": "2023-08-22T08:44:53",
 		"id": 7516
 	},
 	{
@@ -24646,8 +24646,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 60%.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24673,7 +24673,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-25T08:40:15",
+		"aktualisierungsdatum": "2023-08-22T08:44:54",
 		"id": 7517
 	},
 	{
