@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2016-2020",
-          0.745
+          "2017-2021",
+          0.741
         ]
       ],
       "name": "Schweizer",
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2016-2020",
-          "low": 0.733,
-          "high": 0.756
+          "name": "2017-2021",
+          "low": 0.729,
+          "high": 0.753
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2016-2020",
-          0.724
+          "2017-2021",
+          0.718
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,9 +98,9 @@
           "high": null
         },
         {
-          "name": "2016-2020",
-          "low": 0.712,
-          "high": 0.735
+          "name": "2017-2021",
+          "low": 0.706,
+          "high": 0.729
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -124,8 +124,8 @@
           0.78
         ],
         [
-          "2016-2020",
-          0.768
+          "2017-2021",
+          0.767
         ]
       ],
       "name": "Ausländer",
@@ -151,9 +151,9 @@
           "high": null
         },
         {
-          "name": "2016-2020",
-          "low": 0.754,
-          "high": 0.782
+          "name": "2017-2021",
+          "low": 0.753,
+          "high": 0.781
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2016-2020",
-          0.669
+          "2017-2021",
+          0.668
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2016-2020",
-          "low": 0.654,
-          "high": 0.685
+          "name": "2017-2021",
+          "low": 0.653,
+          "high": 0.684
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2023"
   },
   "tooltip": {
     "shared": true
