@@ -935,7 +935,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 sind in der chemischen und pharmazeutischen Industrie 17 638 Beschäftigte (in VZÄ) tätig, was einem Rückgang um 0,5% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 4,0% reduziert und im Baugewerbe um 0,6% erhöht.",
+		"lesehilfe": "Im Jahr 2021 sind in der chemischen und pharmazeutischen Industrie 17 646 Beschäftigte (in VZÄ) tätig und somit leicht mehr als im Vorjahr. In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 2,5% bzw. 6,4% reduziert.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -961,7 +961,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:30",
+		"aktualisierungsdatum": "2023-09-20T09:16:02",
 		"id": 2528
 	},
 	{
@@ -975,7 +975,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Das Gastgewerbe ist zwischen 2019 und 2020 mit einer Abnahme der Beschäftigung (in VZÄ) um 28,6% besonders stark rückläufig. Die Branchen Verkehr und Lagerei (-5,0%) sowie Handel und Reparatur (-3,5%) verzeichnen ebenfalls einen Rückgang, die Branche Information und Kommunikation eine Zunahme (+2,5%).",
+		"lesehilfe": "Das Gastgewerbe verzeichnete zwischen 2020 und 2021 ein Wachstum der Beschäftigung (in VZÄ) um 18,5%. Die Branchen Information und Kommunikation (+5,5%) sowie Verkehr und Lagerei (+1,8%) verzeichneten ebenfalls eine Zunahme, die Branche Handel und Reparatur hingegen einen leichten Rückgang (-0,1%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1001,7 +1001,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:32",
+		"aktualisierungsdatum": "2023-09-20T09:16:03",
 		"id": 2529
 	},
 	{
@@ -1015,7 +1015,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
-		"lesehilfe": "Im Jahr 2020 sind im Kanton Basel-Stadt 148 633 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Abnahme um 2,5% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft und Aargau verzeichnen einen Rückgang der VZÄ um 0,5% bzw. 1,1%, der Kanton Zürich ein leichtes Plus von 0,3%.",
+		"lesehilfe": "Im Jahr 2021 sind im Kanton Basel-Stadt 151 439 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Zunahme um 1,9% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,4%), Aargau (+0,9%) und Zürich (+2,1%) verzeichnen ebenfalls eine Zunahme der VZÄ.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1041,7 +1041,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:16",
+		"aktualisierungsdatum": "2023-09-20T09:16:02",
 		"id": 2547
 	},
 	{
@@ -24610,7 +24610,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "143 839 Logiernächte wurden im Juli 2023 in den Basler Hotelbetrieben gebucht, 1 223 bzw. 0,9% mehr als im Juni. Im Vergleich zum Juli 2022 entspricht dies einer Zunahme um 3,1% bzw. 4 334 Übernachtungen. Die inländischen Gäste buchten 52 091 Logiernächte (-5,8%), die Gäste aus dem Ausland 91 748 Übernachtungen (+9,0%).",
+		"lesehilfe": "133 149 Logiernächte wurden im August 2023 in den Basler Hotelbetrieben gebucht, 10 690 bzw. 7,4% wenigerr als im Juli. Im Vergleich zum August 2022 entspricht dies einer Abnahme um 2,9% bzw. 4 036 Übernachtungen. Die inländischen Gäste buchten 44 284 Logiernächte (-23,3%), die Gäste aus dem Ausland 88 865 Übernachtungen (+11,8%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24636,7 +24636,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-22T08:44:53",
+		"aktualisierungsdatum": "2023-09-20T09:15:59",
 		"id": 7516
 	},
 	{
@@ -24647,8 +24647,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
+		"subtitle": "Basel-Stadt, August",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -24674,7 +24674,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-22T08:44:54",
+		"aktualisierungsdatum": "2023-09-20T09:16:00",
 		"id": 7517
 	},
 	{
@@ -37176,7 +37176,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:06",
+		"aktualisierungsdatum": "2023-09-20T09:16:00",
 		"id": 9022
 	},
 	{
@@ -37214,7 +37214,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:07",
+		"aktualisierungsdatum": "2023-09-20T09:16:01",
 		"id": 9023
 	},
 	{
