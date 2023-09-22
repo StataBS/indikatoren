@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-21T09:16:50",
+		"aktualisierungsdatum": "2023-09-22T09:20:41",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Juli",
-		"lesehilfe": "Im Juli 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In neun Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, August",
+		"lesehilfe": "Im August 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwölf Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-21T09:16:51",
+		"aktualisierungsdatum": "2023-09-22T09:20:41",
 		"id": 7763
 	},
 	{
