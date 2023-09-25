@@ -290,7 +290,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken, aber am stärksten ist auch hier das Gastgewerbe betroffen. Deutlich zugenommen hat die realen Wertschöpfung im Baugewerbe sowie in den Finanz- und Versicherungsdienstleistungen.",
+		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken. Am stärksten war auch hier das Gastgewerbe betroffen.Die Mehrheit der Branchen konnten im Jahr 2021 wieder eine Zunahme der realen Wertschöpfung verzeichnen.",
 		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -315,7 +315,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:10",
+		"aktualisierungsdatum": "2023-09-25T08:55:52",
 		"id": 8357
 	},
 	{
@@ -329,7 +329,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2020 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+24%) und im Gesundheits- und Sozialwesen (+16%). Stark rückläufig war die Wertschöpfung 2020 vor allem im Gastgewerbe.",
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2021 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+48%), in Bereich der Finanz- und Versicherungsdienstleistungen (+19%) und im Gesundheits- und Sozialwesen (+17%). Stark rückläufig war die Wertschöpfung vor allem im Gastgewerbe, was auf den Einbruch 2020 zurückzuführen ist.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -354,7 +354,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-13T10:06:15",
+		"aktualisierungsdatum": "2023-09-25T08:55:53",
 		"id": 8358
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
-		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2020 rund 138 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 94 000 Erwerbstätige. Zusammen mit den rund 33 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 265 000 Personen erwerbstätig.",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2021 rund 141 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 96 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 271 000 Personen erwerbstätig.",
 		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -432,7 +432,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:42",
+		"aktualisierungsdatum": "2023-09-25T08:55:55",
 		"id": 8360
 	},
 	{
@@ -484,8 +484,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2022, 3. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2022 beträgt rund 34 800. In Basel-Landschaft sind es 24 100, im Jura 10 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 374 300.",
+		"subtitle": "2023, 2. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 900.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -510,7 +510,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:27",
+		"aktualisierungsdatum": "2023-09-25T08:55:56",
 		"id": 8362
 	},
 	{
@@ -758,7 +758,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
-		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2021 mit 34,2% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,2%, im Kanton Basel-Landschaft 31,4%. Im Schweizer Durchschnitt gibt es 32,7% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2022 mit 37,0% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,3%, im Kanton Basel-Landschaft 34,7%. Im Schweizer Durchschnitt gibt es 32,6% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
 		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:55",
+		"aktualisierungsdatum": "2023-09-25T08:55:56",
 		"id": 8369
 	},
 	{
