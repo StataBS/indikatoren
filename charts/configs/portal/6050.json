@@ -6,11 +6,11 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          98
+          100
         ],
         [
           "Innovation",
-          98
+          89
         ],
         [
           "Humankapital",
@@ -18,7 +18,7 @@
         ],
         [
           "Arbeitsmarkt",
-          41
+          43
         ],
         [
           "Erreichbarkeit",
@@ -26,15 +26,15 @@
         ],
         [
           "Einzugsgebiet",
-          94
+          100
         ],
         [
           "Kostenumfeld",
-          51
+          48
         ],
         [
           "Staatsfinanzen",
-          46
+          48
         ]
       ],
       "name": "Basel-Stadt",
@@ -46,35 +46,35 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          65
+          67
         ],
         [
           "Innovation",
-          27.5
+          29
         ],
         [
           "Humankapital",
-          31
+          31.5
         ],
         [
           "Arbeitsmarkt",
-          77
+          72
         ],
         [
           "Erreichbarkeit",
-          59
+          56.5
         ],
         [
           "Einzugsgebiet",
-          28
+          31.5
         ],
         [
           "Kostenumfeld",
-          65.5
+          69
         ],
         [
           "Staatsfinanzen",
-          69.5
+          70.5
         ]
       ],
       "name": "Mediankanton",
@@ -159,7 +159,7 @@
     "text": "Kantonales Wettbewerbsprofil"
   },
   "subtitle": {
-    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2021",
+    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-22"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

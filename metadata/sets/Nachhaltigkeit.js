@@ -1974,7 +1974,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 sind in Basel-Stadt 188 778 Personen beschäftigt. Das sind 3 672 Personen weniger als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gesundheits- und Sozialwesen mit 774 Personen, während im Gastgewerbe mit 3 177 Beschäftigten die grösste Abnahme zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1989,17 +1989,17 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.06046",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE6",
+		"kuerzelKunde": "WE7",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_602",
+		"orderKey": "06_01_00_00_00_607",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-16T08:19:46",
+		"aktualisierungsdatum": "2023-09-25T08:56:03",
 		"id": 6046
 	},
 	{
@@ -2088,8 +2088,8 @@ var indikatorensetData = [
 		"parentId": "6127",
 		"children": [],
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2021",
-		"lesehilfe": "Basel-Stadt liegt im Jahr 2021 in den Bereichen Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2023",
+		"lesehilfe": "Basel-Stadt liegt im Jahr 2023 in den Bereichen Wirtschaftsstruktur, Humankapital, Erreichbarkeit und Einzugsgebiet an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteilt die Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
@@ -2104,17 +2104,17 @@ var indikatorensetData = [
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.06050",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE5",
+		"kuerzelKunde": "WE3",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_605",
+		"orderKey": "06_01_00_00_00_603",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-22T08:58:55",
+		"aktualisierungsdatum": "2023-09-25T08:56:02",
 		"id": 6050
 	},
 	{
