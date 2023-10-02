@@ -5,15 +5,15 @@
       "data": [
         [
           "Landwirtschaft",
-          3.3
+          3.5
         ],
         [
           "Industrie",
-          23.1
+          22.7
         ],
         [
           "Dienstleistungen",
-          9.8
+          10
         ],
         [
           "Total",
@@ -32,15 +32,15 @@
         ],
         [
           "Industrie",
-          12.7
+          12.8
         ],
         [
           "Dienstleistungen",
-          7
+          7.2
         ],
         [
           "Total",
-          7.8
+          7.9
         ]
       ],
       "name": "Basel-Landschaft",
@@ -55,15 +55,15 @@
         ],
         [
           "Industrie",
-          13.2
+          13.5
         ],
         [
           "Dienstleistungen",
-          5.9
+          6
         ],
         [
           "Total",
-          6.8
+          6.9
         ]
       ],
       "name": "Jura",
@@ -82,11 +82,11 @@
         ],
         [
           "Dienstleistungen",
-          8.2
+          8.3
         ],
         [
           "Total",
-          8.9
+          9
         ]
       ],
       "name": "BS\u002FBL\u002FJU",
@@ -101,15 +101,15 @@
         ],
         [
           "Industrie",
-          11.2
+          11.3
         ],
         [
           "Dienstleistungen",
-          7.4
+          7.5
         ],
         [
           "Total",
-          7.6
+          7.7
         ]
       ],
       "name": "Schweiz",
@@ -193,7 +193,7 @@
     "text": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -249,7 +249,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2.10.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
