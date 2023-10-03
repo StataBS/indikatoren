@@ -1520,8 +1520,8 @@ id | visible | visibleInPortal | indikatorenset
 8369 | true | true | Wirtschaftsbericht BS_BL_JU
 8370 | true | true | Wirtschaftsbericht BS_BL_JU
 8371 | true | true | Wirtschaftsbericht BS_BL_JU
-8372 | true | true | Wirtschaftsbericht BS_BL_JU
-8373 | true | true | Wirtschaftsbericht BS_BL_JU
+8372 | false |  | Wirtschaftsbericht BS_BL_JU
+8373 | false |  | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | true | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
@@ -1580,8 +1580,8 @@ id | visible | visibleInPortal | indikatorenset
 8440 | true | true | Wirtschaftsbericht BS_BL_JU
 8441 | true | true | Wirtschaftsbericht BS_BL_JU
 8442 | true | true | Wirtschaftsbericht BS_BL_JU
-8443 | true | true | Wirtschaftsbericht BS_BL_JU
-8444 | true | true | Wirtschaftsbericht BS_BL_JU
+8443 | false |  | Wirtschaftsbericht BS_BL_JU
+8444 | false |  | Wirtschaftsbericht BS_BL_JU
 8445 | true | true | Wirtschaftsbericht BS_BL_JU
 8446 | true | true | Wirtschaftsbericht BS_BL_JU
 8447 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1801,7 +1801,7 @@ id | visible | visibleInPortal | indikatorenset
 8863 | true | true | Wirtschaftsbericht BS_BL_JU
 8864 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8868 | true | true | Wirtschaftsbericht BS_BL_JU
-8873 | true | true | Wirtschaftsbericht BS_BL_JU
+8873 | false |  | Wirtschaftsbericht BS_BL_JU
 8874 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8876 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8877 | true | false | Richtplan
