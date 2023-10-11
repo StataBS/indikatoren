@@ -7649,7 +7649,7 @@ var indikatoren = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
 		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
@@ -7678,7 +7678,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:27:00",
+		"aktualisierungsdatum": "2023-10-11T12:43:44",
 		"id": 4838
 	},
 	{
@@ -36799,7 +36799,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:05",
+		"aktualisierungsdatum": "2023-10-11T12:43:43",
 		"id": 8995
 	},
 	{
@@ -36898,8 +36898,10 @@ var indikatoren = [
 			5794,
 			6160,
 			6312,
+			8260,
 			8915,
-			9643
+			9643,
+			10051
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
@@ -36916,9 +36918,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "08 Energie",
+		"thema": "",
 		"unterthema": "Verbrauch",
-		"kuerzel": "I.08.1.09008",
+		"kuerzel": "",
 		"kennzahlenset": "Energiestatistik",
 		"kuerzelKunde": "3.1",
 		"stufe1": "",
@@ -36931,7 +36933,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:09",
+		"aktualisierungsdatum": "2023-10-11T12:43:44",
 		"id": 9008
 	},
 	{
@@ -36969,7 +36971,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-28T08:22:41",
+		"aktualisierungsdatum": "2023-10-11T12:43:43",
 		"id": 9022
 	},
 	{
@@ -37007,7 +37009,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-28T08:22:42",
+		"aktualisierungsdatum": "2023-10-11T12:43:44",
 		"id": 9023
 	},
 	{
