@@ -1,5 +1,119 @@
 var indikatoren = [
 	{
+		"template": "template001",
+		"data-id": 10028,
+		"chart-id": 10028,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Basel-Landschaft",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Landschaft durchschnittlich 25,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 31,1 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,8 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 700 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10028",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4-2",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"id": 10028
+	},
+	{
+		"template": "template001",
+		"data-id": 10029,
+		"chart-id": 10029,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Jura",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte im Jahr 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 200 Personen für den Kanton Jura und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10029",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4-3",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"id": 10029
+	},
+	{
+		"template": "template001",
+		"data-id": 10030,
+		"chart-id": 10030,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, BS/BL/JU",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person in den Kantonen Basel-Stadt, Basel-Landschaft und Kanton Jura durchschnittlich 24,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,9 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,4 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1400 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10030",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4-4",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-10-13T10:14:38",
+		"id": 10030
+	},
+	{
 		"template": "line001",
 		"data-id": 2151,
 		"chart-id": 2151,
@@ -54992,8 +55106,8 @@ var indikatoren = [
 			8491
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"subtitle": "indexiert (2017 = 100)",
-		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2017 und 2021 in den Kantonen Basel-Stadt (+0,6%) und Basel-Landschaft zugenommen (+0,1%). Im Kanton Jura ist die Zahl der 15- bis 64-Jährigen hingegen um -1,1% zurückgegangen.",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2014 und 2022 in den Kantonen Basel-Stadt (+2,7%) und Basel-Landschaft zugenommen (+1,0%). Im Kanton Jura ist sie zurückgegangen (-0,9%).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55019,7 +55133,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-13T10:14:36",
 		"id": 8431
 	},
 	{
@@ -77377,10 +77491,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zu Fuss Gehende in der Innenstadt",
+		"title": "Fussgängerinnen und Fussgänger",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter der Woche durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 8 584 Fussgänger die Zählstelle in der Gerbergasse. An Samstagen waren es mit 13 390 deutlich mehr.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -77389,7 +77503,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Zu Fuss Gehende in der Innenstadt",
+		"description": "Fussgängerinnen und Fussgänger",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09592",
@@ -77405,7 +77519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:02",
+		"aktualisierungsdatum": "2023-10-13T10:14:38",
 		"id": 9592
 	},
 	{
@@ -77415,10 +77529,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Velofahrende in der Innenstadt",
+		"title": "Velofahrende",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter derWoche durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 9 423 Velos die Zählstelle bei der Wettsteinbrücke. An Samstagen fuhren dort mit 5 425 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -77427,7 +77541,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Velofahrende in der Innenstadt",
+		"description": "Velofahrende",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09593",
@@ -77443,7 +77557,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:03",
+		"aktualisierungsdatum": "2023-10-13T10:14:39",
 		"id": 9593
 	},
 	{
