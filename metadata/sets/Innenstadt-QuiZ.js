@@ -615,10 +615,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zu Fuss Gehende in der Innenstadt",
+		"title": "Fussgängerinnen und Fussgänger",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter der Woche durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 8 584 Fussgänger die Zählstelle in der Gerbergasse. An Samstagen waren es mit 13 390 deutlich mehr.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Zu Fuss Gehende in der Innenstadt",
+		"description": "Fussgängerinnen und Fussgänger",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09592",
@@ -642,7 +642,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:02",
+		"aktualisierungsdatum": "2023-10-13T10:14:38",
 		"id": 9592
 	},
 	{
@@ -652,10 +652,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Velofahrende in der Innenstadt",
+		"title": "Velofahrende",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter derWoche durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 9 423 Velos die Zählstelle bei der Wettsteinbrücke. An Samstagen fuhren dort mit 5 425 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -664,7 +664,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Velofahrende in der Innenstadt",
+		"description": "Velofahrende",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09593",
@@ -679,7 +679,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:03",
+		"aktualisierungsdatum": "2023-10-13T10:14:39",
 		"id": 9593
 	},
 	{

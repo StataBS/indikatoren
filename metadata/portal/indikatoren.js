@@ -35265,8 +35265,8 @@ var indikatoren = [
 			8491
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"subtitle": "indexiert (2017 = 100)",
-		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2017 und 2021 in den Kantonen Basel-Stadt (+0,6%) und Basel-Landschaft zugenommen (+0,1%). Im Kanton Jura ist die Zahl der 15- bis 64-Jährigen hingegen um -1,1% zurückgegangen.",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2014 und 2022 in den Kantonen Basel-Stadt (+2,7%) und Basel-Landschaft zugenommen (+1,0%). Im Kanton Jura ist sie zurückgegangen (-0,9%).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -35292,7 +35292,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-13T10:14:36",
 		"id": 8431
 	},
 	{
@@ -40227,10 +40227,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zu Fuss Gehende in der Innenstadt",
+		"title": "Fussgängerinnen und Fussgänger",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter der Woche durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 8 584 Fussgänger die Zählstelle in der Gerbergasse. An Samstagen waren es mit 13 390 deutlich mehr.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -40239,7 +40239,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Zu Fuss Gehende in der Innenstadt",
+		"description": "Fussgängerinnen und Fussgänger",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09592",
@@ -40255,7 +40255,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:02",
+		"aktualisierungsdatum": "2023-10-13T10:14:38",
 		"id": 9592
 	},
 	{
@@ -40265,10 +40265,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Velofahrende in der Innenstadt",
+		"title": "Velofahrende",
 		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 passierten unter derWoche durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
+		"lesehilfe": "Im Jahr 2022 passierten unter der Woche täglich durchschnittlich 9 423 Velos die Zählstelle bei der Wettsteinbrücke. An Samstagen fuhren dort mit 5 425 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -40277,7 +40277,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Velofahrende in der Innenstadt",
+		"description": "Velofahrende",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09593",
@@ -40293,7 +40293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:03",
+		"aktualisierungsdatum": "2023-10-13T10:14:39",
 		"id": 9593
 	},
 	{

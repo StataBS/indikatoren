@@ -38,6 +38,10 @@
         [
           2021,
           1688
+        ],
+        [
+          2022,
+          2173
         ]
       ],
       "name": "Elisabethenstrasse 46: Mo-Fr"
@@ -81,6 +85,10 @@
         [
           2021,
           1432
+        ],
+        [
+          2022,
+          2004
         ]
       ],
       "name": "Elisabethenstrasse 46: Sa"
@@ -123,6 +131,10 @@
         [
           2021,
           7513
+        ],
+        [
+          2022,
+          8584
         ]
       ],
       "name": "Gerbergasse: Mo-Fr"
@@ -166,6 +178,10 @@
         [
           2021,
           10542
+        ],
+        [
+          2022,
+          13390
         ]
       ],
       "name": "Gerbergasse: Sa"
@@ -208,6 +224,10 @@
         [
           2021,
           2133
+        ],
+        [
+          2022,
+          2292
         ]
       ],
       "name": "Johanniterbrücke: Mo-Fr"
@@ -251,6 +271,10 @@
         [
           2021,
           2186
+        ],
+        [
+          2022,
+          2481
         ]
       ],
       "name": "Johanniterbrücke: Sa"
@@ -293,6 +317,10 @@
         [
           2021,
           4864
+        ],
+        [
+          2022,
+          5210
         ]
       ],
       "name": "Rebgasse 11\u002F28: Mo-Fr"
@@ -336,6 +364,10 @@
         [
           2021,
           4800
+        ],
+        [
+          2022,
+          5196
         ]
       ],
       "name": "Rebgasse 11\u002F28: Sa"
@@ -378,6 +410,10 @@
         [
           2021,
           3872
+        ],
+        [
+          2022,
+          0
         ]
       ],
       "name": "Wettsteinbrücke: Mo-Fr"
@@ -421,6 +457,10 @@
         [
           2021,
           4546
+        ],
+        [
+          2022,
+          0
         ]
       ],
       "name": "Wettsteinbrücke: Sa"
@@ -463,6 +503,10 @@
         [
           2021,
           5505
+        ],
+        [
+          2022,
+          6699
         ]
       ],
       "name": "Mittlere Rheinbrücke: Mo-Fr"
@@ -506,6 +550,10 @@
         [
           2021,
           8639
+        ],
+        [
+          2022,
+          10219
         ]
       ],
       "name": "Mittlere Rheinbrücke: Sa"
@@ -569,7 +617,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zu Fuss Gehende in der Innenstadt"
+    "text": "Fussgängerinnen und Fussgänger"
   },
   "subtitle": {
     "text": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
@@ -648,7 +696,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -2261,3 +2261,6 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+10028 | true | false | Wirtschaftsbericht BS_BL_JU
+10029 | true | false | Wirtschaftsbericht BS_BL_JU
+10030 | true | false | Wirtschaftsbericht BS_BL_JU
