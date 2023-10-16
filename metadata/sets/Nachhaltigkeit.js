@@ -2901,44 +2901,43 @@ var indikatorensetData = [
 		"id": 8457
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8961"
-		],
 		"template": "line001",
-		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
-		"subtitle": "in Stunden pro Woche, Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "",
-		"kuerzelKunde": "WE9",
-		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Unbezahlte Arbeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-05-25T08:35:48.4848",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 600 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "06_02_00_00_00_609",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8458,
 		"chart-id": 8458,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8961,
+			10027
+		],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 500 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.08458",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE17",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_617",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-10-16T08:44:28",
 		"id": 8458
 	},
 	{

@@ -1025,8 +1025,8 @@ var indikatorensetData = [
 			8492
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"subtitle": "indexiert (2017 = 100)",
-		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der 15- bis 64-Jährigen zwischen 2017 und 2021 um 1,6% zu. In der Region BS/BL/JU fiel das Wachstum moderater aus (+0,1%). Dies liegt u. a. daran, dass dort die Zahl der 15- bis 64-Jährigen in den Jahren 2018 und 2021 abnahm.",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der 15- bis 64-Jährigen zwischen 2014 und 2022 um 4,5%, in der Region BS/BL/JU um 1,4% zu.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1052,7 +1052,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-16T08:44:24",
 		"id": 8432
 	},
 	{
@@ -1065,8 +1065,8 @@ var indikatorensetData = [
 			8493
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
-		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional sehr unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich gut vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile und damit eine ältere Erwerbsbevölkerung aufweist.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
+		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile aufweist.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1091,7 +1091,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:50",
+		"aktualisierungsdatum": "2023-10-16T08:44:25",
 		"id": 8433
 	},
 	{
@@ -1104,8 +1104,8 @@ var indikatorensetData = [
 			8494
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
-		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz. Am grössten sind Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz bei den 20- bis 24-Jährigen und den 25- bis 29-Jährigen.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
+		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1131,7 +1131,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:55",
+		"aktualisierungsdatum": "2023-10-16T08:44:26",
 		"id": 8434
 	},
 	{
@@ -1145,7 +1145,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Altersquotient; BS, BL und JU",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Der Kanton Basel-Landschaft weist mit 38,3 im Jahr 2020 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura mit 37,1 und Basel-Stadt mit 31,3. Während die Altersquotienten in den Kantonen Basel-Landschaft und Jura seit 2016 gestiegen sind, ist der Altersquotient in Basel-Stadt zurückgegangen.",
+		"lesehilfe": "Der Kanton Basel-Landschaft weist im Jahr 2022 mit 39,5 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura (38,4) und Basel-Stadt (31,5). Während die Altersquotienten in den Kantonen Basel-Landschaft und Jura seit 2014 gestiegen sind, ist der Altersquotient in Basel-Stadt zurückgegangen.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1170,7 +1170,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:18",
+		"aktualisierungsdatum": "2023-10-16T08:44:27",
 		"id": 8435
 	},
 	{
@@ -1184,7 +1184,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Die Region BS/BL/JU weist mit 36,1 einen höheren Altersquotienten auf als die Gesamtschweiz (31,1). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,8 Punkte gestiegen, jener der Schweiz um 1,9 Punkte.",
+		"lesehilfe": "Die Region BS/BL/JU weist mit 36,4 einen höheren Altersquotienten auf als die Gesamtschweiz (31,5).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1210,7 +1210,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:56",
+		"aktualisierungsdatum": "2023-10-16T08:44:27",
 		"id": 8436
 	},
 	{
