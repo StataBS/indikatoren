@@ -4,24 +4,40 @@
       "color": "#B375AB",
       "data": [
         [
-          2017,
+          2014,
           100
         ],
         [
-          2018,
-          99.9523300093677
+          2015,
+          100.434254292146
+        ],
+        [
+          2016,
+          100.954183512336
+        ],
+        [
+          2017,
+          101.021939501182
         ],
         [
           2018,
-          99.9523300093677
+          100.973782352085
+        ],
+        [
+          2019,
+          101.103414677851
         ],
         [
           2020,
-          100.335629992184
+          101.360999428834
         ],
         [
           2021,
-          100.111969047764
+          101.135052804874
+        ],
+        [
+          2022,
+          101.382838135982
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -30,24 +46,40 @@
       "color": "#990300",
       "data": [
         [
-          2017,
+          2014,
           100
         ],
         [
-          2018,
-          100.331349707222
+          2015,
+          100.868234327002
+        ],
+        [
+          2016,
+          101.701423441353
+        ],
+        [
+          2017,
+          102.119838763178
         ],
         [
           2018,
-          100.331349707222
+          102.458212549936
+        ],
+        [
+          2019,
+          102.851840234212
         ],
         [
           2020,
-          101.229524547594
+          103.375427248734
         ],
         [
           2021,
-          101.643861733434
+          103.79854771485
+        ],
+        [
+          2022,
+          104.504697933342
         ]
       ],
       "name": "Schweiz"
@@ -109,7 +141,7 @@
     "text": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
-    "text": "indexiert (2017 = 100)",
+    "text": "indexiert (2014 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -179,7 +211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 24.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 16.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
