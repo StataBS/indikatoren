@@ -55174,7 +55174,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:24",
+		"aktualisierungsdatum": "2023-10-17T10:34:48",
 		"id": 8432
 	},
 	{
@@ -55214,7 +55214,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:25",
+		"aktualisierungsdatum": "2023-10-17T10:34:48",
 		"id": 8433
 	},
 	{
@@ -55255,7 +55255,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:26",
+		"aktualisierungsdatum": "2023-10-17T10:34:49",
 		"id": 8434
 	},
 	{
@@ -55295,7 +55295,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:27",
+		"aktualisierungsdatum": "2023-10-17T10:34:49",
 		"id": 8435
 	},
 	{
@@ -55336,7 +55336,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:27",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 8436
 	},
 	{
@@ -56109,7 +56109,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-16T08:44:28",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 8458
 	},
 	{
@@ -67831,9 +67831,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "",
+		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "",
+		"kuerzel": "I.08.1.09008",
 		"kennzahlenset": "Energiestatistik",
 		"kuerzelKunde": "3.1",
 		"stufe1": "",
@@ -67846,7 +67846,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:44",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 9008
 	},
 	{
