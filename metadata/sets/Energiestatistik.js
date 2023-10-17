@@ -113,9 +113,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "",
+		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "",
+		"kuerzel": "I.08.1.09008",
 		"kennzahlenset": "Energiestatistik",
 		"kuerzelKunde": "3.1",
 		"stufe1": "",
@@ -127,7 +127,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:44",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 9008
 	},
 	{
