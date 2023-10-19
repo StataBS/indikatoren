@@ -15038,7 +15038,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:10",
+		"aktualisierungsdatum": "2023-10-19T08:05:01",
 		"id": 6160
 	},
 	{
@@ -38545,7 +38545,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:50",
+		"aktualisierungsdatum": "2023-10-19T08:04:57",
 		"id": 7515
 	},
 	{
@@ -42866,8 +42866,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwölf Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 17 Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwei Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42894,7 +42894,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:51",
+		"aktualisierungsdatum": "2023-10-19T08:04:58",
 		"id": 7763
 	},
 	{
@@ -68004,7 +68004,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:43",
+		"aktualisierungsdatum": "2023-10-19T08:04:59",
 		"id": 9022
 	},
 	{
@@ -68042,7 +68042,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:44",
+		"aktualisierungsdatum": "2023-10-19T08:05:00",
 		"id": 9023
 	},
 	{
