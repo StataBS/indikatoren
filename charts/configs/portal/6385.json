@@ -7123,7 +7123,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.5.2023"
   },
   "colorAxis": {
     "min": 0,
@@ -7156,13 +7156,13 @@
       },
       {
         "from": 0.32,
-        "to": 0.349,
+        "to": 0.34999,
         "color": "#9E7C59",
         "name": "32,0 − 34,9"
       },
       {
         "from": 0.35,
-        "to": 0.399,
+        "to": 0.3999,
         "color": "#67401E",
         "name": "35,0 − 39,9"
       },

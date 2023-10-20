@@ -6,55 +6,55 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Iselin",
           "y": 18,
-          "Wert": 0.0916434044
+          "Wert": 0.0745019451
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Iselin",
-          "y": 13,
-          "Wert": 0.3841539467
+          "y": 11,
+          "Wert": 0.3960862902
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Iselin",
           "y": 14,
-          "Wert": 0.2840915957
+          "Wert": 0.278339959
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 0.2614
+          "Wert": 0.2191
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 0.2460906085
+          "Wert": 0.2464307883
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Iselin",
-          "y": 11,
-          "Wert": 0.338302548
+          "y": 13,
+          "Wert": 0.3338441589
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Iselin",
-          "y": 11,
-          "Wert": 0.2584219462
+          "y": 10,
+          "Wert": 0.258047353
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Iselin",
           "y": 13,
-          "Wert": 1937.937284631288
+          "Wert": 1938.240358126721
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Iselin",
           "y": 11,
-          "Wert": 0.165403170227
+          "Wert": 0.165289256198
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -65,38 +65,38 @@
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Iselin",
-          "y": 4,
-          "Wert": 68.689253
+          "y": 5,
+          "Wert": 68.852039
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 37.379916
+          "Wert": 37.311167
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Iselin",
           "y": 4,
-          "Wert": 512.1
+          "Wert": 490
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Iselin",
           "y": 3,
-          "Wert": 6448.6
+          "Wert": 6306.2
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Iselin",
-          "y": 7,
-          "Wert": 0.7117031
+          "y": 4,
+          "Wert": 0.7032346
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
-          "y": 4,
-          "Wert": 0.1687591
+          "y": 5,
+          "Wert": 0.1608849
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

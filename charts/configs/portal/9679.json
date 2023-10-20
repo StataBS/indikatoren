@@ -377,10 +377,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Lebenserwartung bei Geburt"
+    "text": "Lebenserwartung"
   },
   "subtitle": {
-    "text": "in Jahren, Basel-Stadt",
+    "text": "bei Geburt in Jahren, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -448,7 +448,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

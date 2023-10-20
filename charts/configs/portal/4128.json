@@ -75,6 +75,10 @@
         [
           "2022",
           721
+        ],
+        [
+          "2023",
+          721
         ]
       ],
       "name": "1 Zimmer",
@@ -155,6 +159,10 @@
         [
           "2022",
           1047
+        ],
+        [
+          "2023",
+          1061
         ]
       ],
       "name": "2 Zimmer",
@@ -235,6 +243,10 @@
         [
           "2022",
           1255
+        ],
+        [
+          "2023",
+          1270
         ]
       ],
       "name": "3 Zimmer",
@@ -315,6 +327,10 @@
         [
           "2022",
           1699
+        ],
+        [
+          "2023",
+          1715
         ]
       ],
       "name": "4 Zimmer",
@@ -395,6 +411,10 @@
         [
           "2022",
           2295
+        ],
+        [
+          "2023",
+          2291
         ]
       ],
       "name": "5 Zimmer",
@@ -531,7 +551,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

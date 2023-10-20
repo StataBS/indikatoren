@@ -6,10 +6,6 @@
       "legendIndex": 7,
       "data": [
         [
-          2013,
-          7
-        ],
-        [
           2014,
           10
         ],
@@ -44,6 +40,10 @@
         [
           2022,
           22
+        ],
+        [
+          2023,
+          22
         ]
       ],
       "name": "6 u.m. Zi"
@@ -53,10 +53,6 @@
       "index": 1,
       "legendIndex": 6,
       "data": [
-        [
-          2013,
-          14
-        ],
         [
           2014,
           18
@@ -92,6 +88,10 @@
         [
           2022,
           26
+        ],
+        [
+          2023,
+          33
         ]
       ],
       "name": "5 Zi"
@@ -101,10 +101,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2013,
-          55
-        ],
         [
           2014,
           48
@@ -140,6 +136,10 @@
         [
           2022,
           106
+        ],
+        [
+          2023,
+          156
         ]
       ],
       "name": "4 Zi"
@@ -149,10 +149,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          2013,
-          136
-        ],
         [
           2014,
           93
@@ -188,6 +184,10 @@
         [
           2022,
           489
+        ],
+        [
+          2023,
+          455
         ]
       ],
       "name": "3 Zi"
@@ -197,10 +197,6 @@
       "index": 1,
       "legendIndex": 3,
       "data": [
-        [
-          2013,
-          91
-        ],
         [
           2014,
           51
@@ -236,6 +232,10 @@
         [
           2022,
           417
+        ],
+        [
+          2023,
+          369
         ]
       ],
       "name": "2 Zi"
@@ -245,10 +245,6 @@
       "index": 1,
       "legendIndex": 2,
       "data": [
-        [
-          2013,
-          58
-        ],
         [
           2014,
           25
@@ -284,6 +280,10 @@
         [
           2022,
           268
+        ],
+        [
+          2023,
+          194
         ]
       ],
       "name": "1 Zi"
@@ -304,10 +304,6 @@
           }
       },
       "data": [
-        [
-          2013,
-          0.0034
-        ],
         [
           2014,
           0.0023
@@ -343,6 +339,10 @@
         [
           2022,
           0.0117
+        ],
+        [
+          2023,
+          0.0106
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)"
@@ -510,7 +510,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "tooltip": {
     "shared": true

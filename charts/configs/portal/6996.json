@@ -60,6 +60,10 @@
         [
           "2021",
           29221
+        ],
+        [
+          "2022",
+          29714
         ]
       ],
       "name": "Basel-Stadt",
@@ -125,6 +129,10 @@
         [
           "2021",
           21807
+        ],
+        [
+          "2022",
+          22123
         ]
       ],
       "name": "Basel-Landschaft",
@@ -190,6 +198,10 @@
         [
           "2021",
           6957
+        ],
+        [
+          "2022",
+          7108
         ]
       ],
       "name": "Aargau\u002FSolothurn",
@@ -255,6 +267,10 @@
         [
           "2021",
           4343
+        ],
+        [
+          "2022",
+          4472
         ]
       ],
       "name": "Übrige Schweiz",
@@ -320,6 +336,10 @@
         [
           "2021",
           3867
+        ],
+        [
+          "2022",
+          4246
         ]
       ],
       "name": "Ausland",
@@ -459,7 +479,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "tooltip": {
     "shared": true,

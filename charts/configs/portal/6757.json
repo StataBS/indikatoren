@@ -6,43 +6,43 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Kleinhüningen",
           "y": 20,
-          "Wert": 0.1171335031
+          "Wert": 0.1034729681
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 17,
-          "Wert": 0.4798108403
+          "y": 18,
+          "Wert": 0.4951664876
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Kleinhüningen",
           "y": 5,
-          "Wert": 0.2008242788
+          "Wert": 0.2020958084
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 0.2203
+          "Wert": 0.1923
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 12,
-          "Wert": 0.3190220632
+          "y": 11,
+          "Wert": 0.3051237766
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Kleinhüningen",
           "y": 16,
-          "Wert": 0.3826846126
+          "Wert": 0.3684210526
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 17,
-          "Wert": 0.3202146691
+          "y": 15,
+          "Wert": 0.3028209557
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
@@ -65,38 +65,38 @@
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Kleinhüningen",
-          "y": 5,
-          "Wert": 69.783132
+          "y": 2,
+          "Wert": 66.203236
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 33.034844
+          "Wert": 33.380239
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 248.4
+          "Wert": 223.5
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 4793.9
+          "Wert": 4695.7
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 1,
-          "Wert": 0.5825095
+          "Wert": 0.5400006
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
-          "y": 19,
-          "Wert": 2.3719933
+          "y": 18,
+          "Wert": 2.0157353
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

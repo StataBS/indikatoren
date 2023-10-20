@@ -176,10 +176,11 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 16,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -191,7 +192,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -217,6 +275,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -372,7 +465,8 @@
         20565,
         20298,
         18715,
-        18309
+        18309,
+        17673
       ],
       "visible": true
     }

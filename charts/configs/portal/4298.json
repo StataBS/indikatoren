@@ -111,7 +111,7 @@
     }
   },
   "title": {
-    "text": "Elektroautos",
+    "text": "Neuzulassungen Elektroautos",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -175,10 +175,12 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 15,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -190,7 +192,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -216,6 +275,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -353,42 +447,9 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "Benzin-elektrisch: Normal-Hybrid",
+      "name": "Benzin-elektrisch: Plug-in-Hybrid (PHEV)",
       "color": "#FF8028",
       "id": "BS0805_1",
-      "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
-      "data": [
-        0,
-        21,
-        56,
-        56,
-        71,
-        69,
-        93,
-        102,
-        133,
-        87,
-        112,
-        100,
-        112,
-        152,
-        346,
-        404
-      ],
-      "visible": true
-    },
-    {
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Benzin-elektrisch: Plug-in-Hybrid",
-      "color": "#DC440E",
-      "id": "BS0805_2",
       "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
       "data": [
         0,
@@ -406,7 +467,9 @@
         45,
         43,
         148,
-        571
+        572,
+        340,
+        373
       ],
       "visible": true
     },
@@ -419,75 +482,44 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "Diesel-elektrisch: Normal-Hybrid",
+      "name": "Diesel-elektrisch: Plug-in-Hybrid (PHEV)",
+      "color": "#DC440E",
+      "id": "BS0805_2",
+      "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        2,
+        1,
+        1,
+        0,
+        4,
+        3,
+        8,
+        6
+      ],
+      "visible": true
+    },
+    {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Elektrisch (EV)",
       "color": "#B00000",
       "id": "BS0805_3",
-      "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
-      "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        5,
-        3,
-        24,
-        13,
-        2,
-        21,
-        117,
-        204
-      ],
-      "visible": true
-    },
-    {
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Diesel-elektrisch: Plug-in-Hybrid",
-      "color": "#661200",
-      "id": "BS0805_4",
-      "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
-      "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        1,
-        2,
-        1,
-        1,
-        0,
-        4,
-        3
-      ],
-      "visible": true
-    },
-    {
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Elektrisch",
-      "color": "#D3E2E4",
-      "id": "BS0805_5",
       "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
       "data": [
         0,
@@ -505,7 +537,44 @@
         56,
         83,
         180,
-        299
+        299,
+        395,
+        485
+      ],
+      "visible": true
+    },
+    {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Wasserstoff (FCEV)",
+      "color": "#661200",
+      "id": "BS0805_4",
+      "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3
       ],
       "visible": true
     },
@@ -517,26 +586,28 @@
       "type": "line",
       "showInNavigator": true,
       "name": "Anteil BS (rechte Skala)",
-      "color": "#A8C3CA",
-      "id": "BS0805_11",
+      "color": "#D3E2E4",
+      "id": "BS0805_5",
       "valueSuffix": "Personenwagen; Prozent (rechte Skala)",
       "data": [
         0,
-        0.31,
-        0.71,
-        0.7,
-        1.01,
-        0.85,
-        1.3,
-        1.5,
-        1.94,
-        1.69,
-        2.56,
-        2.51,
-        2.81,
-        3.85,
-        10.14,
-        28.85
+        0,
+        0,
+        0.01,
+        0,
+        0.01,
+        0.16,
+        0.19,
+        0.32,
+        0.59,
+        0.74,
+        1.13,
+        1.33,
+        1.62,
+        4.23,
+        17.02,
+        14.91,
+        23.2
       ],
       "visible": true,
       "yAxis": 1

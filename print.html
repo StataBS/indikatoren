@@ -41,8 +41,7 @@
 		*/
 		$(document).ready(function () {
 			var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
-			var hostname = window.decodeURIComponent($.url('hostname'));
-			var protocol = window.decodeURIComponent($.url('protocol'));
+			var exportServer = 'https://highcharts-export.stata.pd.intranet.bs.ch/'
 			//console.log(protocol + '://' + hostname);
 			if (indikatorensetNames.indexOf(indikatorenset) > -1) {
 				//console.log('Found kennzahlenset ' + indikatorenset);
@@ -56,7 +55,7 @@
 						//# to have difficulties in loading script ressources for all chart.html at the same time (millisecond)
 						setTimeout(function () {
 							$('<iframe/>', {
-								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
+								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=' + exportServer,
 								frameborder: 0,
 								class: "noScrolling",
 								scrolling: "no",
@@ -73,7 +72,7 @@
 			}
 		});
 	</script>
-
+	<div id="id"></div>
 </body>
 
 </html>

@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 1,
-          "Wert": 0.0112540193
+          "y": 3,
+          "Wert": 0.0166919575
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
           "y": 3,
-          "Wert": 0.2556270096
+          "Wert": 0.253414264
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bettingen",
           "y": 1,
-          "Wert": 0.117545376
+          "Wert": 0.1176948052
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bettingen",
           "y": 12,
-          "Wert": 0.3889
+          "Wert": 0.4667
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 0.4359351988
+          "Wert": 0.4279835391
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
           "y": 18,
-          "Wert": 0.4140435835
+          "Wert": 0.404870624
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
-          "y": 19,
-          "Wert": 0.3961708395
+          "y": 18,
+          "Wert": 0.3799725652
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 1965.137931034482
+          "Wert": 1965.667701863354
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.783699059561
+          "Wert": 0.776397515527
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.902
+          "Wert": 0.9
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 121.346441
+          "Wert": 119.873665
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 51.850475
+          "Wert": 51.158279
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bettingen",
-          "y": 21,
-          "Wert": 20515.4
+          "y": 20,
+          "Wert": 17009.8
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bettingen",
-          "y": 21,
-          "Wert": 32565.5
+          "y": 20,
+          "Wert": 25886.7
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
-          "y": 11,
-          "Wert": 0.7283179
+          "y": 8,
+          "Wert": 0.713284
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
-          "y": 5,
-          "Wert": 0.1781847
+          "y": 4,
+          "Wert": 0.1572824
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

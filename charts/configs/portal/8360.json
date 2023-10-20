@@ -11,68 +11,6 @@
       "data": [
         [
           "Basel-Stadt",
-          96637
-        ],
-        [
-          "Basel-Landschaft",
-          142824
-        ],
-        [
-          "Jura",
-          34116
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          273577
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "index": 1,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-          }
-      },
-      "data": [
-        {
-          "name": "Basel-Stadt",
-          "low": 94284,
-          "high": 98990
-        },
-        {
-          "name": "Basel-Landschaft",
-          "low": 139991,
-          "high": 145657
-        },
-        {
-          "name": "Jura",
-          "low": 32713,
-          "high": 35519
-        },
-        {
-          "name": "BS\u002FBL\u002FJU",
-          "low": 269636,
-          "high": 277518
-        }
-      ],
-      "name": "95% Konfidenzintervall Untergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#0F7399",
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-          }
-      },
-      "data": [
-        [
-          "Basel-Stadt",
           97799
         ],
         [
@@ -92,7 +30,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 3,
+      "index": 1,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -125,8 +63,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 4,
-      "color": "#689199",
+      "index": 2,
+      "color": "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -154,7 +92,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 5,
+      "index": 3,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -187,8 +125,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 6,
-      "color": "#A8C3CA",
+      "index": 4,
+      "color": "#689199",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -216,7 +154,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 7,
+      "index": 5,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -249,12 +187,12 @@
       "turboThreshold": 0
     },
     {
-      "index": 8,
-      "color": "#D3E2E4",
+      "index": 6,
+      "color": "#A8C3CA",
       "tooltip": {
         "pointFormatter": function () {
-              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-            }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
       },
       "data": [
         [
@@ -278,12 +216,12 @@
       "turboThreshold": 0
     },
     {
-      "index": 9,
+      "index": 7,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-            }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+          }
       },
       "data": [
         {
@@ -305,6 +243,68 @@
           "name": "BS\u002FBL\u002FJU",
           "low": 261404,
           "high": 269139
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#D3E2E4",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+            }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          95651
+        ],
+        [
+          "Basel-Landschaft",
+          141156
+        ],
+        [
+          "Jura",
+          33872
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          270679
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+            }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 93267,
+          "high": 98036
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 138201,
+          "high": 144110
+        },
+        {
+          "name": "Jura",
+          "low": 32477,
+          "high": 35267
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 266634,
+          "high": 274724
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -447,7 +447,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 15.9.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
   },
   "tooltip": {
     "shared": true

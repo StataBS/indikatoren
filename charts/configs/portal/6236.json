@@ -44,6 +44,10 @@
         [
           "2020",
           17977
+        ],
+        [
+          "2021",
+          17822
         ]
       ],
       "name": "Pharmaindustrie",
@@ -93,6 +97,10 @@
         [
           "2020",
           7470
+        ],
+        [
+          "2021",
+          7366
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -142,6 +150,10 @@
         [
           "2020",
           8881
+        ],
+        [
+          "2021",
+          8438
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -191,6 +203,10 @@
         [
           "2020",
           25351
+        ],
+        [
+          "2021",
+          25683
         ]
       ],
       "name": "Handel und Verkehr",
@@ -240,6 +256,10 @@
         [
           "2020",
           7784
+        ],
+        [
+          "2021",
+          9162
         ]
       ],
       "name": "Gastgewerbe",
@@ -289,6 +309,10 @@
         [
           "2020",
           11411
+        ],
+        [
+          "2021",
+          11528
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -338,6 +362,10 @@
         [
           "2020",
           37353
+        ],
+        [
+          "2021",
+          38683
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -387,6 +415,10 @@
         [
           "2020",
           20165
+        ],
+        [
+          "2021",
+          20576
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
@@ -436,6 +468,10 @@
         [
           "2020",
           32653
+        ],
+        [
+          "2021",
+          33428
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -485,6 +521,10 @@
         [
           "2020",
           19733
+        ],
+        [
+          "2021",
+          20316
         ]
       ],
       "name": "Übrige Branchen",
@@ -628,7 +668,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 28.8.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",

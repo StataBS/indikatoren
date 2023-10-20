@@ -195,6 +195,62 @@
       ],
       "name": "2020",
       "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -195
+        ],
+        [
+          "Übrige Schweiz",
+          -15
+        ],
+        [
+          "Ausland",
+          281
+        ],
+        [
+          "Unbekannt",
+          -91
+        ],
+        [
+          "Total",
+          -20
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -158
+        ],
+        [
+          "Übrige Schweiz",
+          20
+        ],
+        [
+          "Ausland",
+          409
+        ],
+        [
+          "Unbekannt",
+          -79
+        ],
+        [
+          "Total",
+          192
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -310,7 +366,7 @@
     "verticalAlign": "top",
     "align": "left",
     "itemWidth": 75,
-    "width": 350,
+    "width": 380,
     "itemMarginBottom": 5
   },
   "navigation": {
@@ -332,7 +388,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

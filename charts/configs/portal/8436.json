@@ -4,6 +4,14 @@
       "color": "#B375AB",
       "data": [
         [
+          2014,
+          33.935939311564
+        ],
+        [
+          2015,
+          34.18511678632
+        ],
+        [
           2016,
           34.3573478055121
         ],
@@ -26,6 +34,10 @@
         [
           2021,
           36.1216877305256
+        ],
+        [
+          2022,
+          36.4311438504248
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -33,6 +45,14 @@
     {
       "color": "#990300",
       "data": [
+        [
+          2014,
+          28.6896020612531
+        ],
+        [
+          2015,
+          28.9931429238539
+        ],
         [
           2016,
           29.2613195902037
@@ -56,6 +76,10 @@
         [
           2021,
           31.1424867290247
+        ],
+        [
+          2022,
+          31.5098735244849
         ]
       ],
       "name": "Schweiz"
@@ -199,7 +223,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
   },
   "tooltip": {
     "shared": false,

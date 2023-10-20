@@ -311,6 +311,7 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
   filename = filename || id;
   filename = filename.toString();
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
+  console.log(chart);
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //change scale and background color for png
@@ -357,10 +358,10 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
         ";
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Indikatorenset: <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
       //in indikatorenset View, add the stufe1 text here
       if(isIndikatorensetView(view) && stufe1){
-        returnText += ", " + stufe1;
+        //returnText += ", " + stufe1;
       }
       //if do not add a dot at the ned if there's already one present
       var lastChar = returnText[returnText.length-1];

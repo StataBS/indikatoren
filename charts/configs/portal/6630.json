@@ -5,56 +5,56 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 4,
-          "Wert": 0.0206146927
+          "y": 2,
+          "Wert": 0.0156934307
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 7,
-          "Wert": 0.3114692654
+          "Wert": 0.3244525547
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 0.3275212064
+          "Wert": 0.3105504587
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 0.5294
+          "Wert": 0.4737
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 9,
-          "Wert": 0.2938005391
+          "Wert": 0.2937763713
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 5,
-          "Wert": 0.2972122302
+          "y": 6,
+          "Wert": 0.3005679336
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 2,
-          "Wert": 0.1444743935
+          "Wert": 0.151371308
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 1822.777120315581
+          "Wert": 1822.147637795275
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.102564102564
+          "Wert": 0.104330708661
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -66,37 +66,37 @@
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 16,
-          "Wert": 87.574062
+          "Wert": 87.866917
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 21,
-          "Wert": 53.23327
+          "Wert": 52.6
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 17,
-          "Wert": 5768.8
+          "y": 18,
+          "Wert": 5644.8
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 17646.9
+          "Wert": 18543.7
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 21,
-          "Wert": 0.8057185
+          "y": 20,
+          "Wert": 0.7996012
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 3.9449128
+          "Wert": 3.6446443
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

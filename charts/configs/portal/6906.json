@@ -5,90 +5,90 @@
       "data": [
         [
           "Altstadt GB",
-          27369584
+          25320557
         ],
         [
           "Vorstädte",
-          44550363
+          43537927
         ],
         [
           "Am Ring",
-          67475006
+          67694928
         ],
         [
           "Breite",
-          37051197
+          37720829
         ],
         [
           "St. Alban",
-          97551224
+          98941945
         ],
         [
           "Gundeldingen",
-          79138487
+          80052677
         ],
         [
           "Bruderholz",
-          133103207
+          91402559
         ],
         [
           "Bachletten",
-          90920400
+          90533625
         ],
         [
           "Gotthelf",
-          40338287
+          39848155
         ],
         [
           "Iselin",
-          60733488
+          60965722
         ],
         [
           "St. Johann",
-          63931204
+          64884264
         ],
         [
           "Altstadt KB",
-          12289672
+          11647475
         ],
         [
           "Clara",
-          15646732
+          15335313
         ],
         [
           "Wettstein",
-          31937922
+          32693324
         ],
         [
           "Hirzbrunnen",
-          37575334
+          37830403
         ],
         [
           "Rosental",
-          14456705
+          15383785
         ],
         [
           "Matthäus",
-          55090459
+          55561903
         ],
         [
           "Klybeck",
-          19043502
+          18932387
         ],
         [
           "Kleinhüning.",
-          6840003
+          7262113
         ],
         [
           "Riehen",
-          145221027
+          148339248
         ],
         [
           "Bettingen",
-          8054123
+          8418175
         ]
       ],
-      "name": "Einkommenssteuer 2010",
+      "name": "Einkommenssteuer 2011",
       "turboThreshold": 0
     },
     {
@@ -96,90 +96,90 @@
       "data": [
         [
           "Altstadt GB",
-          29699747
+          31654049
         ],
         [
           "Vorstädte",
-          68816979
+          82358798
         ],
         [
           "Am Ring",
-          79868237
+          79732749
         ],
         [
           "Breite",
-          42780099
+          42459043
         ],
         [
           "St. Alban",
-          114973780
+          117009272
         ],
         [
           "Gundeldingen",
-          91392903
+          93020134
         ],
         [
           "Bruderholz",
-          103187918
+          122281612
         ],
         [
           "Bachletten",
-          96586707
+          96563530
         ],
         [
           "Gotthelf",
-          40095010
+          39135091
         ],
         [
           "Iselin",
-          64472679
+          63704900
         ],
         [
           "St. Johann",
-          76954932
+          77930634
         ],
         [
           "Altstadt KB",
-          15347949
+          14545412
         ],
         [
           "Clara",
-          15906910
+          16462173
         ],
         [
           "Wettstein",
-          42523234
+          45223566
         ],
         [
           "Hirzbrunnen",
-          43659124
+          43514356
         ],
         [
           "Rosental",
-          28797071
+          30660610
         ],
         [
           "Matthäus",
-          61919960
+          59183054
         ],
         [
           "Klybeck",
-          17758562
+          17805603
         ],
         [
           "Kleinhüning.",
-          7483288
+          7273687
         ],
         [
           "Riehen",
-          161607634
+          156564691
         ],
         [
           "Bettingen",
-          19864965
+          16075628
         ]
       ],
-      "name": "Einkommenssteuer 2019",
+      "name": "Einkommenssteuer 2020",
       "turboThreshold": 0
     },
     {
@@ -187,90 +187,90 @@
       "data": [
         [
           "Altstadt GB",
-          8633921
+          6888860
         ],
         [
           "Vorstädte",
-          13897457
+          14329473
         ],
         [
           "Am Ring",
-          13048780
+          14882594
         ],
         [
           "Breite",
-          2218588
+          2557627
         ],
         [
           "St. Alban",
-          26178966
+          24319747
         ],
         [
           "Gundeldingen",
-          4584495
+          5210829
         ],
         [
           "Bruderholz",
-          71033360
+          43349132
         ],
         [
           "Bachletten",
-          14377145
+          13007329
         ],
         [
           "Gotthelf",
-          19334421
+          19326163
         ],
         [
           "Iselin",
-          3724215
+          4053411
         ],
         [
           "St. Johann",
-          5185956
+          4728628
         ],
         [
           "Altstadt KB",
-          1708461
+          1349650
         ],
         [
           "Clara",
-          973628
+          996703
         ],
         [
           "Wettstein",
-          5248034
+          5558406
         ],
         [
           "Hirzbrunnen",
-          3486097
+          3498802
         ],
         [
           "Rosental",
-          533780
+          595262
         ],
         [
           "Matthäus",
-          3713155
+          3753705
         ],
         [
           "Klybeck",
-          699848
+          716133
         ],
         [
           "Kleinhüning.",
-          287680
+          292884
         ],
         [
           "Riehen",
-          30972104
+          34688025
         ],
         [
           "Bettingen",
-          2212470
+          1688272
         ]
       ],
-      "name": "Vermögenssteuer 2010",
+      "name": "Vermögenssteuer 2011",
       "turboThreshold": 0
     },
     {
@@ -278,90 +278,90 @@
       "data": [
         [
           "Altstadt GB",
-          9708913
+          9635672
         ],
         [
           "Vorstädte",
-          53887677
+          56518208
         ],
         [
           "Am Ring",
-          15062627
+          13058056
         ],
         [
           "Breite",
-          3439027
+          3399675
         ],
         [
           "St. Alban",
-          40989187
+          35966215
         ],
         [
           "Gundeldingen",
-          7439112
+          8469713
         ],
         [
           "Bruderholz",
-          85945628
+          78761667
         ],
         [
           "Bachletten",
-          19205335
+          19445417
         ],
         [
           "Gotthelf",
-          15257461
+          21013362
         ],
         [
           "Iselin",
-          5119815
+          4950046
         ],
         [
           "St. Johann",
-          6857737
+          7194932
         ],
         [
           "Altstadt KB",
-          3265269
+          2365393
         ],
         [
           "Clara",
-          1960339
+          1590229
         ],
         [
           "Wettstein",
-          5268187
+          7252644
         ],
         [
           "Hirzbrunnen",
-          3876427
+          3990798
         ],
         [
           "Rosental",
-          1112033
+          1282090
         ],
         [
           "Matthäus",
-          5902987
+          5549717
         ],
         [
           "Klybeck",
-          784840
+          852124
         ],
         [
           "Kleinhüning.",
-          387683
+          346171
         ],
         [
           "Riehen",
-          43980872
+          40850606
         ],
         [
           "Bettingen",
-          12514380
+          10563102
         ]
       ],
-      "name": "Vermögenssteuer 2019",
+      "name": "Vermögenssteuer 2020",
       "turboThreshold": 0
     },
     {
@@ -379,90 +379,90 @@
       "data": [
         [
           "Altstadt GB",
-          1596
+          1603
         ],
         [
           "Vorstädte",
-          3010
+          2923
         ],
         [
           "Am Ring",
-          6241
+          6256
         ],
         [
           "Breite",
-          5294
+          5295
         ],
         [
           "St. Alban",
-          6280
+          6334
         ],
         [
           "Gundeldingen",
-          11323
+          11314
         ],
         [
           "Bruderholz",
-          5028
+          5049
         ],
         [
           "Bachletten",
-          7889
+          7967
         ],
         [
           "Gotthelf",
-          4183
+          4172
         ],
         [
           "Iselin",
-          9535
+          9518
         ],
         [
           "St. Johann",
-          10374
+          10497
         ],
         [
           "Altstadt KB",
-          1555
+          1551
         ],
         [
           "Clara",
-          2470
+          2465
         ],
         [
           "Wettstein",
-          3305
+          3291
         ],
         [
           "Hirzbrunnen",
-          5155
+          5222
         ],
         [
           "Rosental",
-          2699
+          2645
         ],
         [
           "Matthäus",
-          8976
+          8958
         ],
         [
           "Klybeck",
-          4122
+          4086
         ],
         [
           "Kleinhüning.",
-          1487
+          1522
         ],
         [
           "Riehen",
-          11711
+          11723
         ],
         [
           "Bettingen",
-          596
+          627
         ]
       ],
-      "name": "Anzahl Veranlagungen 2010 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2011 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -480,90 +480,90 @@
       "data": [
         [
           "Altstadt GB",
-          1683
+          1707
         ],
         [
           "Vorstädte",
-          3077
+          3051
         ],
         [
           "Am Ring",
-          6338
+          6396
         ],
         [
           "Breite",
-          5663
+          5654
         ],
         [
           "St. Alban",
-          6719
+          6755
         ],
         [
           "Gundeldingen",
-          11594
+          11686
         ],
         [
           "Bruderholz",
-          5160
+          5181
         ],
         [
           "Bachletten",
-          8141
+          8064
         ],
         [
           "Gotthelf",
-          4242
+          4193
         ],
         [
           "Iselin",
-          9998
+          10102
         ],
         [
           "St. Johann",
-          10872
+          10987
         ],
         [
           "Altstadt KB",
-          1558
+          1560
         ],
         [
           "Clara",
-          2385
+          2410
         ],
         [
           "Wettstein",
-          3433
+          3495
         ],
         [
           "Hirzbrunnen",
-          5417
+          5389
         ],
         [
           "Rosental",
-          3836
+          3866
         ],
         [
           "Matthäus",
-          8785
+          8827
         ],
         [
           "Klybeck",
-          4042
+          3989
         ],
         [
           "Kleinhüning.",
-          1561
+          1549
         ],
         [
           "Riehen",
-          12074
+          12115
         ],
         [
           "Bettingen",
-          610
+          621
         ]
       ],
-      "name": "Anzahl Veranlagungen 2019 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2020 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -638,7 +638,7 @@
     "text": "Ertrag aus  Einkommens- und Vermögensssteuer"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2010 und 2019",
+    "text": "in Franken, Basel-Stadt, 2011 und 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -694,7 +694,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

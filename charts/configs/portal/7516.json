@@ -130,23 +130,23 @@
         ],
         [
           "Apr",
-          undefined
+          45651
         ],
         [
           "Mai",
-          undefined
+          54134
         ],
         [
           "Jun",
-          undefined
+          46711
         ],
         [
           "Jul",
-          undefined
+          52091
         ],
         [
           "Aug",
-          undefined
+          44284
         ],
         [
           "Sep",
@@ -186,23 +186,23 @@
         ],
         [
           "Apr",
-          undefined
+          74010
         ],
         [
           "Mai",
-          undefined
+          77585
         ],
         [
           "Jun",
-          undefined
+          95905
         ],
         [
           "Jul",
-          undefined
+          91748
         ],
         [
           "Aug",
-          undefined
+          88865
         ],
         [
           "Sep",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

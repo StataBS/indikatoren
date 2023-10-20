@@ -149,6 +149,11 @@
       "color": "#0091f7",
       "type": "column",
       "legendIndex": 5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          }
+      },
       "data": [
         [
           "2012",
@@ -198,6 +203,11 @@
       "color": "#999999",
       "type": "column",
       "legendIndex": 7,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          }
+      },
       "data": [
         [
           "2012",
@@ -490,29 +500,18 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
-              if (assessed[i].y !== null) {
-                element.update({
-                  color: colors[assessed[i].y],
-                  marker: {
-                    enabled: true,
-                    lineWidth: 1,
-                    lineColor: "#0091f7",
-                    radius: 3
-                  }
-                });
-                if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
-                  element.update({
-                    marker: {
-                      enabled: true,
-                      lineWidth: 1,
-                      lineColor: "#0091f7",
-                      radius: 4.5
-                    }
-                  });
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
                 }
-              }
-            });
+              })
+            }
+          });
         }
     },
     "renderTo": "container-9693"
@@ -593,7 +592,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

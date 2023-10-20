@@ -5,10 +5,6 @@
       "index": 1,
       "data": [
         [
-          2012,
-          0.327034884
-        ],
-        [
           2013,
           0.332390382
         ],
@@ -43,6 +39,10 @@
         [
           2021,
           0.363586659
+        ],
+        [
+          2022,
+          0.3717052179
         ]
       ],
       "name": "Anteil Frauen Kader"
@@ -51,10 +51,6 @@
       "color": "#661200 ",
       "index": 2,
       "data": [
-        [
-          2012,
-          0.526020217147136
-        ],
         [
           2013,
           0.521650485436893
@@ -90,6 +86,10 @@
         [
           2021,
           0.5445628998
+        ],
+        [
+          2022,
+          0.5469011725
         ]
       ],
       "name": "Anteil Frauen Total"
@@ -233,7 +233,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2022"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.9.2023"
   },
   "tooltip": {
     "pointFormatter": function () {

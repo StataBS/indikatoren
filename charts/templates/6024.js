@@ -1,5 +1,6 @@
 (function () {
   return {
+
     "xAxis": {
       "tickInterval": 1
     },
@@ -28,13 +29,14 @@
       }, /*  */
       {
         "color": "#CD9C00",
+        visible: false,
         "marker": {
           "enabled": false
         }
       }, /*  */
       {
         "color": "#B00000",
-        "marker": {
+                "marker": {
           "enabled": false
         }
       },/*   */

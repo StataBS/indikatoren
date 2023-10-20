@@ -57,6 +57,10 @@
         [
           "2020",
           2347
+        ],
+        [
+          "2021",
+          1784
         ]
       ],
       "name": "Bildung, Kultur",
@@ -118,6 +122,10 @@
         [
           "2020",
           8905
+        ],
+        [
+          "2021",
+          8745
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -180,6 +188,10 @@
         [
           "2020",
           33900
+        ],
+        [
+          "2021",
+          32831
         ]
       ],
       "name": "Alle anderen Branchen",
@@ -200,7 +212,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     }
   },
   "chart": {
@@ -260,7 +273,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur"
+    "text": "Zupendelnde Fachkräfte in Bildung, Kultur, Gesundheits- und Sozialwesen"
   },
   "subtitle": {
     "text": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
@@ -322,7 +335,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2023"
   },
   "tooltip": {
     "shared": true

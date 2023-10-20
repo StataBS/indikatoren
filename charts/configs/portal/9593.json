@@ -48,6 +48,10 @@
         [
           2021,
           undefined
+        ],
+        [
+          2022,
+          undefined
         ]
       ],
       "name": "Johanniterbrücke: Mo-Fr"
@@ -112,6 +116,10 @@
         [
           2021,
           3709
+        ],
+        [
+          2022,
+          0
         ]
       ],
       "name": "Johanniterbrücke: Mo-Fr"
@@ -164,6 +172,10 @@
         ],
         [
           2021,
+          undefined
+        ],
+        [
+          2022,
           undefined
         ]
       ],
@@ -230,6 +242,10 @@
         [
           2021,
           2634
+        ],
+        [
+          2022,
+          0
         ]
       ],
       "name": "Johanniterbrücke: Sa"
@@ -280,6 +296,10 @@
         [
           2021,
           7839
+        ],
+        [
+          2022,
+          9423
         ]
       ],
       "name": "Wettsteinbrücke: Mo-Fr"
@@ -331,6 +351,10 @@
         [
           2021,
           4868
+        ],
+        [
+          2022,
+          5425
         ]
       ],
       "name": "Wettsteinbrücke: Sa"
@@ -381,6 +405,10 @@
         [
           2021,
           2888
+        ],
+        [
+          2022,
+          3377
         ]
       ],
       "name": "Heuwaage-Viadukt: Mo-Fr"
@@ -432,6 +460,10 @@
         [
           2021,
           1449
+        ],
+        [
+          2022,
+          1610
         ]
       ],
       "name": "Heuwaage-Viadukt: Sa"
@@ -495,7 +527,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Velofahrende in der Innenstadt"
+    "text": "Velofahrende"
   },
   "subtitle": {
     "text": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
@@ -574,7 +606,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

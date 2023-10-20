@@ -26,23 +26,23 @@
       "data": [
         [
           "Laden",
-          10572
+          8296
         ],
         [
           "Büro",
-          70712
+          86536
         ],
         [
           "Gewerbe",
-          50434
+          50870
         ],
         [
           "Produktion",
-          11293
+          5783
         ],
         [
           "Lager",
-          19851
+          19561
         ]
       ],
       "name": "Anzahl",
@@ -114,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, Anteile 2022",
+    "text": "Basel-Landschaft, Anteile 2023",
     "align": "left"
   },
   "tooltip": {
@@ -137,7 +137,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "legend": {
     "layout": "vertical",

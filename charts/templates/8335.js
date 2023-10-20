@@ -144,7 +144,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#007A2F' : '#990300';
+	                	return (value >= 0) ? '#007A2F' : '#FFBB58';
 	                };					
 					
 					//define chart-specific details
@@ -187,7 +187,7 @@
 					
 					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[2], 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[2]);
-					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[3], 10, '#990300');
+					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[3], 10, '#FFBB58');
 					fn.addLegendLabel(chart, 'Abnahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[3])
 					
 					

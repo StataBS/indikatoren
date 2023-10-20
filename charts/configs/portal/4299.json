@@ -162,21 +162,14 @@
   "xAxis": {
     "categories": [
       2010,
-      2011,
       2012,
-      2013,
       2014,
-      2015,
       2016,
-      2017,
       2018,
-      2019,
-      2020,
-      2021,
-      2022
+      2020
     ],
     "floor": 2010,
-    "ceiling": 2022,
+    "ceiling": 2020,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -188,7 +181,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -214,6 +264,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -360,55 +445,27 @@
           910740
         ],
         [
-          2011,
-          null
-        ],
-        [
           2012,
           833180
-        ],
-        [
-          2013,
-          null
         ],
         [
           2014,
           764522.47
         ],
         [
-          2015,
-          null
-        ],
-        [
           2016,
           741614.44
-        ],
-        [
-          2017,
-          null
         ],
         [
           2018,
           701241.46
         ],
         [
-          2019,
-          null
-        ],
-        [
           2020,
           618118.85
-        ],
-        [
-          2021,
-          null
-        ],
-        [
-          2022,
-          null
         ]
       ],
-      "visible": false
+      "visible": true
     },
     {
       "tooltip": {
@@ -427,130 +484,24 @@
           4.74
         ],
         [
-          2011,
-          null
-        ],
-        [
           2012,
           4.32
-        ],
-        [
-          2013,
-          null
         ],
         [
           2014,
           3.9
         ],
         [
-          2015,
-          null
-        ],
-        [
           2016,
           3.75
-        ],
-        [
-          2017,
-          null
         ],
         [
           2018,
           3.51
         ],
         [
-          2019,
-          null
-        ],
-        [
           2020,
           3.07
-        ],
-        [
-          2021,
-          null
-        ],
-        [
-          2022,
-          null
-        ]
-      ],
-      "visible": true,
-      "yAxis": 1
-    },
-    {
-      "includeInCSVExport": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t\u002FEw. \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
-      },
-      "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Zielpfad bis 2050, Tonnen pro Einwohner (rechte Skala)",
-      "color": "#444444",
-      "id": "BS0808_5",
-      "valueSuffix": "Tonnen; Tonnen pro Einwohner (rechte Skala)",
-      "data": [
-        [
-          2010,
-          4.74
-        ],
-        [
-          2011,
-          4.65
-        ],
-        [
-          2012,
-          4.56
-        ],
-        [
-          2013,
-          4.46
-        ],
-        [
-          2014,
-          4.37
-        ],
-        [
-          2015,
-          4.27
-        ],
-        [
-          2016,
-          4.18
-        ],
-        [
-          2017,
-          4.08
-        ],
-        [
-          2018,
-          3.99
-        ],
-        [
-          2019,
-          3.89
-        ],
-        [
-          2020,
-          3.8
-        ],
-        [
-          2021,
-          3.7
-        ],
-        [
-          2022,
-          3.6
         ]
       ],
       "visible": true,

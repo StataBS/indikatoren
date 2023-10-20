@@ -74,15 +74,15 @@ var indikatorensetData = [
 		"id": 9067
 	},
 	{
-		"template": "line001_print",
+		"template": "mappieGemeindenBSBL_print",
 		"data-id": 9068,
 		"chart-id": 9068,
 		"filter": "",
 		"parentId": "7575",
 		"children": [],
 		"title": "Leerwohnungsbestand nach Gemeinde",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2021",
-		"lesehilfe": "Die Verfügbarkeit auf den Stichtag 1. Juni hin kann die Leerwohnungsquote v. a. in kleineren Gemeinden mit insgesamt geringem Wohnungsbestand stark beeinflussen. Die Gemeinde Rümlingen mit einem Wohnungsbestand von insgesamt 184 Wohnungen erreicht mit drei Leerwohnungen eine Leerwohnungsquote von 1,6%.",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2023",
+		"lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befindet sich Itingen mit 2,4% gefolgt von Waldenburg (1,8%) und Münchenstein (1,7%) .",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -104,10 +104,10 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"orderKey": "01_00_00_00_00_004",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:19",
+		"aktualisierungsdatum": "2021-08-13T12:10:28",
 		"id": 9068
 	},
 	{

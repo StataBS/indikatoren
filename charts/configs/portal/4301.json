@@ -425,10 +425,12 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 265,
+    "ceiling": 267,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -440,7 +442,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -466,6 +525,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -868,7 +962,9 @@
         11.45,
         12.26,
         11.68,
-        12.22
+        12.22,
+        10.73,
+        12.6
       ],
       "visible": true
     },
@@ -1131,8 +1227,10 @@
         10.85,
         10.91,
         10.94,
-        10.95,
-        10.98,
+        10.99,
+        11.01,
+        11.08,
+        null,
         null,
         null,
         null,

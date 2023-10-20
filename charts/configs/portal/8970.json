@@ -1,7 +1,53 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#007A2F",
+      "data": [
+        [
+          "BS",
+          191155
+        ],
+        [
+          "BL",
+          147647
+        ],
+        [
+          "JU",
+          42009
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          380811
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "BS",
+          190333
+        ],
+        [
+          "BL",
+          148266
+        ],
+        [
+          "JU",
+          42034
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          380633
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
       "data": [
         [
           "BS",
@@ -24,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#246370",
       "data": [
         [
           "BS",
@@ -47,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "BS",
@@ -70,7 +116,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "BS",
@@ -93,7 +139,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#A8C3CA",
       "data": [
         [
           "BS",
@@ -113,6 +159,29 @@
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "BS",
+          193002
+        ],
+        [
+          "BL",
+          155142
+        ],
+        [
+          "JU",
+          45261
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          393405
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -242,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

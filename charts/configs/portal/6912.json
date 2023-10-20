@@ -38,7 +38,7 @@
           undefined
         ]
       ],
-      "name": "Quellensteuerertrag 2011",
+      "name": "Quellensteuerertrag 2012",
       "turboThreshold": 0
     },
     {
@@ -57,38 +57,38 @@
       "data": [
         [
           "Erwerb",
-          211927342
+          227080469
         ],
         [
           "Versicherung",
-          1549134
+          1598704
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          74792905
+          76881490
         ],
         [
           "Grenzgänger aus Frankreich",
-          67984777
+          69904448
         ],
         [
           "Künstler, Sport",
-          1230360
+          1695227
         ],
         [
           "Verwaltungsräte",
-          4670931
+          4173141
         ],
         [
           "Renten",
-          2218413
+          2509667
         ],
         [
           "Kapitalleistungen",
-          17378531
+          18693382
         ]
       ],
-      "name": "Quellensteuerertrag 2011",
+      "name": "Quellensteuerertrag 2012",
       "turboThreshold": 0
     },
     {
@@ -129,7 +129,7 @@
           undefined
         ]
       ],
-      "name": "Quellensteuerertrag 2020",
+      "name": "Quellensteuerertrag 2021",
       "turboThreshold": 0
     },
     {
@@ -148,38 +148,38 @@
       "data": [
         [
           "Erwerb",
-          384091656
+          375593685
         ],
         [
           "Versicherung",
-          2895164
+          3709202
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          88694108
+          83647122
         ],
         [
           "Grenzgänger aus Frankreich",
-          75560864
+          74237618
         ],
         [
           "Künstler, Sport",
-          680725
+          412824
         ],
         [
           "Verwaltungsräte",
-          21307154
+          13106850
         ],
         [
           "Renten",
-          3323633
+          3395175
         ],
         [
           "Kapitalleistungen",
-          32090701
+          43137998
         ]
       ],
-      "name": "Quellensteuerertrag 2020",
+      "name": "Quellensteuerertrag 2021",
       "turboThreshold": 0
     },
     {
@@ -194,38 +194,38 @@
       "data": [
         [
           "Erwerb",
-          23111
+          25643
         ],
         [
           "Versicherung",
-          1836
+          1823
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          23273
+          24207
         ],
         [
           "Grenzgänger aus Frankreich",
-          20357
+          21499
         ],
         [
           "Künstler, Sport",
-          1669
+          1708
         ],
         [
           "Verwaltungsräte",
-          161
+          174
         ],
         [
           "Renten",
-          1057
+          1387
         ],
         [
           "Kapitalleistungen",
-          5720
+          5987
         ]
       ],
-      "name": "Anzahl Veranlagungen 2011 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2012 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -240,38 +240,38 @@
       "data": [
         [
           "Erwerb",
-          34311
+          33507
         ],
         [
           "Versicherung",
-          2498
+          2821
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          23315
+          24022
         ],
         [
           "Grenzgänger aus Frankreich",
-          22340
+          22692
         ],
         [
           "Künstler, Sport",
-          1257
+          1100
         ],
         [
           "Verwaltungsräte",
-          445
+          375
         ],
         [
           "Renten",
-          1665
+          1724
         ],
         [
           "Kapitalleistungen",
-          8457
+          10227
         ]
       ],
-      "name": "Anzahl Veranlagungen 2020 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2021 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -360,7 +360,7 @@
     "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2011 und 2020",
+    "text": "in Franken, Basel-Stadt, 2012 und 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -443,7 +443,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

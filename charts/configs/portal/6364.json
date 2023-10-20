@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
+      "color": "#FFDA80 ",
       "data": [
         [
           "1 Pers.",
@@ -28,7 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2B0099",
+      "color": "#A0BEC8",
       "data": [
         [
           "1 Pers.",
@@ -36,26 +36,26 @@
         ],
         [
           "2 Pers.",
-          46.88
+          46.64
         ],
         [
           "3 Pers.",
-          31.86
+          32.09
         ],
         [
           "4 Pers.",
-          26.63
+          26.66
         ],
         [
           "5 u.m. Pers.",
-          20.9
+          20.86
         ]
       ],
       "name": "Familienhaushalte",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#68AB2B",
       "data": [
         [
           "1 Pers.",
@@ -63,19 +63,19 @@
         ],
         [
           "2 Pers.",
-          39.88
+          39.78
         ],
         [
           "3 Pers.",
-          28.68
+          28.91
         ],
         [
           "4 Pers.",
-          24.76
+          25.71
         ],
         [
           "5 u.m. Pers.",
-          23.59
+          23.65
         ]
       ],
       "name": "Nichtfamilienhaushalte",
@@ -160,7 +160,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2021",
+    "text": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -219,7 +219,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

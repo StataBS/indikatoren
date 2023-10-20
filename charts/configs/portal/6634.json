@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Alban",
-          "y": 9,
-          "Wert": 0.0335312317
+          "y": 5,
+          "Wert": 0.0223644761
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Alban",
           "y": 10,
-          "Wert": 0.3605652647
+          "Wert": 0.3782513573
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Alban",
-          "y": 9,
-          "Wert": 0.2387309293
+          "y": 8,
+          "Wert": 0.2334850017
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 0.4351
+          "Wert": 0.4785
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 0.4066091954
+          "Wert": 0.3959722222
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Alban",
-          "y": 10,
-          "Wert": 0.3169161301
+          "y": 7,
+          "Wert": 0.3034600113
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Alban",
-          "y": 15,
-          "Wert": 0.311637931
+          "y": 16,
+          "Wert": 0.3180555556
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 1939.887123745819
+          "Wert": 1940.573688592839
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Alban",
           "y": 15,
-          "Wert": 0.335284280936
+          "Wert": 0.333888426311
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Alban",
           "y": 13,
-          "Wert": 0.324
+          "Wert": 0.317
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 90.787373
+          "Wert": 90.830332
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
-          "y": 17,
-          "Wert": 47.712836
+          "y": 16,
+          "Wert": 47.010868
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Alban",
-          "y": 18,
-          "Wert": 6100.5
+          "y": 17,
+          "Wert": 5324.4
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 17111.7
+          "Wert": 17321.9
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Alban",
-          "y": 8,
-          "Wert": 0.717248
+          "y": 10,
+          "Wert": 0.7221409
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
-          "y": 18,
-          "Wert": 2.3529418
+          "y": 19,
+          "Wert": 2.2699881
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

@@ -170,10 +170,11 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 10,
+    "ceiling": 11,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -185,7 +186,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -211,6 +269,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -358,7 +451,8 @@
         48.9,
         50.4,
         45.5,
-        47.5
+        47.5,
+        49.3
       ],
       "visible": true,
       "legendIndex": 0
@@ -394,6 +488,7 @@
         55,
         55,
         55,
+        55,
         55
       ],
       "visible": true,
@@ -418,7 +513,8 @@
         44.6,
         46.8,
         41,
-        41.4
+        41.4,
+        46.7
       ],
       "visible": false,
       "legendIndex": 4
@@ -444,6 +540,7 @@
       "id": "BS&BL1005_10",
       "valueSuffix": "Dezibel dB(A)",
       "data": [
+        50,
         50,
         50,
         50,

@@ -78,7 +78,7 @@
     xAxis: {
       tickInterval: 1,
       labels: {
-        step: 1,
+        step: 2,
         rotation: -45
       }
     },

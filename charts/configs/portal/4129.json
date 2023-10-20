@@ -9,10 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2012",
-          906
-        ],
-        [
           "2013",
           797
         ],
@@ -51,6 +47,10 @@
         [
           "2022",
           902
+        ],
+        [
+          "2023",
+          1020
         ]
       ],
       "name": "1 Zimmer Mittelwert",
@@ -64,10 +64,6 @@
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2012",
-          1150
-        ],
         [
           "2013",
           1218
@@ -107,6 +103,10 @@
         [
           "2022",
           1318
+        ],
+        [
+          "2023",
+          1302
         ]
       ],
       "name": "2 Zimmer Mittelwert",
@@ -120,10 +120,6 @@
       "index": 2,
       "color": "#68AB2B",
       "data": [
-        [
-          "2012",
-          1667
-        ],
         [
           "2013",
           1570
@@ -163,6 +159,10 @@
         [
           "2022",
           1576
+        ],
+        [
+          "2023",
+          1538
         ]
       ],
       "name": "3 Zimmer Mittelwert",
@@ -176,10 +176,6 @@
       "index": 1,
       "color": "#689199",
       "data": [
-        [
-          "2012",
-          2148
-        ],
         [
           "2013",
           2187
@@ -219,6 +215,10 @@
         [
           "2022",
           1953
+        ],
+        [
+          "2023",
+          2023
         ]
       ],
       "name": "4 Zimmer Mittelwert",
@@ -232,10 +232,6 @@
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2012",
-          2691
-        ],
         [
           "2013",
           2751
@@ -275,6 +271,10 @@
         [
           "2022",
           3180
+        ],
+        [
+          "2023",
+          2899
         ]
       ],
       "name": "5 Zimmer Mittelwert",
@@ -410,7 +410,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

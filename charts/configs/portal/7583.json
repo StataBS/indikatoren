@@ -7,10 +7,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2012,
-          897
-        ],
-        [
           2013,
           1072
         ],
@@ -48,7 +44,11 @@
         ],
         [
           2022,
-          1895
+          1646
+        ],
+        [
+          2023,
+          1994
         ]
       ],
       "name": "Neubau"
@@ -59,10 +59,6 @@
       "type": "column",
       "legendIndex": 1,
       "data": [
-        [
-          2012,
-          86
-        ],
         [
           2013,
           224
@@ -101,7 +97,11 @@
         ],
         [
           2022,
-          152
+          288
+        ],
+        [
+          2023,
+          197
         ]
       ],
       "name": "Umbausaldo"
@@ -112,10 +112,6 @@
       "type": "column",
       "legendIndex": 2,
       "data": [
-        [
-          2012,
-          -156
-        ],
         [
           2013,
           -164
@@ -154,7 +150,11 @@
         ],
         [
           2022,
-          -169
+          -201
+        ],
+        [
+          2023,
+          -187
         ]
       ],
       "name": "Abbruch"
@@ -168,10 +168,6 @@
       },
       "legendIndex": 3,
       "data": [
-        [
-          2012,
-          827
-        ],
         [
           2013,
           1132
@@ -210,7 +206,11 @@
         ],
         [
           2022,
-          1878
+          1733
+        ],
+        [
+          2023,
+          2004
         ]
       ],
       "name": "Nettoproduktion"
@@ -221,19 +221,19 @@
       "showInLegend": false,
       "data": [
         [
-          2021.4,
+          2022.4,
           -500
         ],
         [
-          2021.4,
-          2000
+          2022.4,
+          2500
         ],
         [
-          2023,
-          2000
+          2024,
+          2500
         ],
         [
-          2023,
+          2024,
           -500
         ]
       ],
@@ -328,8 +328,8 @@
     "endOnTick": true,
     "startOnTick": true,
     "tickInterval": 1,
-    "min": 2012,
-    "max": 2022
+    "min": 2013,
+    "max": 2023
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -349,7 +349,8 @@
       "format": "{value:,.0f}"
     },
     "min": -500,
-    "max": 2000
+    "max": 2500,
+    "tickAmount": 7
   },
   "legend": {
     "symbolRadius": 0,
@@ -381,7 +382,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "tooltip": {
     "shared": false,

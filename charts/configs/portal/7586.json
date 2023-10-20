@@ -4,10 +4,6 @@
       "color": "black",
       "data": [
         [
-          2002,
-          1.4
-        ],
-        [
           2003,
           1.46
         ],
@@ -86,17 +82,17 @@
         [
           2022,
           1.19
+        ],
+        [
+          2023,
+          1.07
         ]
       ],
       "name": "Basel"
     },
     {
-      "color": "#9E7C59",
+      "color": "#67401E",
       "data": [
-        [
-          2002,
-          0.31
-        ],
         [
           2003,
           0.29
@@ -175,18 +171,18 @@
         ],
         [
           2022,
-          null
+          0.57
+        ],
+        [
+          2023,
+          0.45
         ]
       ],
       "name": "Bern"
     },
     {
-      "color": "#689199",
+      "color": "#CD9C00",
       "data": [
-        [
-          2002,
-          0.28
-        ],
         [
           2003,
           0.19
@@ -265,18 +261,18 @@
         ],
         [
           2022,
-          null
+          0.47
+        ],
+        [
+          2023,
+          0.49
         ]
       ],
       "name": "Genf"
     },
     {
-      "color": "#923F8D",
+      "color": "#007A2F",
       "data": [
-        [
-          2002,
-          0.14
-        ],
         [
           2003,
           0.24
@@ -355,18 +351,18 @@
         ],
         [
           2022,
+          0.49
+        ],
+        [
+          2023,
           null
         ]
       ],
       "name": "Lausanne"
     },
     {
-      "color": "#CD9C00",
+      "color": "#8A8A8A",
       "data": [
-        [
-          2002,
-          0.36
-        ],
         [
           2003,
           0.22
@@ -446,17 +442,17 @@
         [
           2022,
           0.37
+        ],
+        [
+          2023,
+          null
         ]
       ],
       "name": "Winterthur"
     },
     {
-      "color": "#68AB2B",
+      "color": "#008AC3",
       "data": [
-        [
-          2002,
-          0.02
-        ],
         [
           2003,
           0.05
@@ -535,18 +531,18 @@
         ],
         [
           2022,
+          0.07
+        ],
+        [
+          2023,
           null
         ]
       ],
       "name": "Zürich"
     },
     {
-      "color": "#DC440E",
+      "color": "#B00000",
       "data": [
-        [
-          2002,
-          1.04
-        ],
         [
           2003,
           0.91
@@ -625,6 +621,10 @@
         ],
         [
           2022,
+          1.31
+        ],
+        [
+          2023,
           null
         ]
       ],
@@ -757,7 +757,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

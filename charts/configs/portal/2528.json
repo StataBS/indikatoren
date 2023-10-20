@@ -42,6 +42,10 @@
         [
           "2020",
           7301
+        ],
+        [
+          "2021",
+          7119
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -89,6 +93,10 @@
         [
           "2020",
           17638
+        ],
+        [
+          "2021",
+          17646
         ]
       ],
       "name": "Chemie, Pharma",
@@ -136,6 +144,10 @@
         [
           "2020",
           7134
+        ],
+        [
+          "2021",
+          6679
         ]
       ],
       "name": "Baugewerbe",
@@ -265,7 +277,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

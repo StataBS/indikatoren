@@ -48,6 +48,10 @@
         [
           "2021",
           3082
+        ],
+        [
+          "2022",
+          2897
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -101,6 +105,10 @@
         [
           "2021",
           1549
+        ],
+        [
+          "2022",
+          1475
         ]
       ],
       "name": "Ehepaare ohne Kind",
@@ -154,6 +162,10 @@
         [
           "2021",
           1972
+        ],
+        [
+          "2022",
+          1940
         ]
       ],
       "name": "Einelternfamilien",
@@ -207,6 +219,10 @@
         [
           "2021",
           9895
+        ],
+        [
+          "2022",
+          9604
         ]
       ],
       "name": "Einzelpersonen",
@@ -260,6 +276,10 @@
         [
           "2021",
           392
+        ],
+        [
+          "2022",
+          373
         ]
       ],
       "name": "Konkubinatspaare mit Kindern",
@@ -313,6 +333,10 @@
         [
           "2021",
           81
+        ],
+        [
+          "2022",
+          75
         ]
       ],
       "name": "Konkubinatspaare ohne Kinder",
@@ -442,7 +466,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
+    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
   },
   "legend": {
     "reversed": true,

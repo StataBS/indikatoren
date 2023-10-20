@@ -100,9 +100,9 @@
     }, 
   ],
    "legend": {
-   		labelFormatter: function () {
-        return this.name.slice(0, this.name.indexOf('(Stadt)'));
-      },
+   		//labelFormatter: function () {
+        //return this.name.slice(0, this.name.indexOf('(Stadt)'));
+      //},
     "enabled": true,
     itemDistance: 5, 
     "layout": "horizontal",

@@ -173,10 +173,12 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 12,
+    "ceiling": 14,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -188,7 +190,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -214,6 +273,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -365,6 +459,8 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "visible": true
@@ -392,6 +488,8 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "visible": true
@@ -407,6 +505,8 @@
       "id": "BS0704_3",
       "valueSuffix": "Tausend CHF",
       "data": [
+        0,
+        0,
         0,
         0,
         0,
@@ -446,6 +546,8 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "visible": true
@@ -473,7 +575,9 @@
         48,
         15.52,
         129.33,
-        226.33
+        225,
+        255,
+        167.1
       ],
       "visible": true
     },
@@ -500,7 +604,9 @@
         3431,
         2952.68,
         1419.47,
-        3052.8
+        3050,
+        3980,
+        4785.39
       ],
       "visible": true
     },
@@ -527,7 +633,9 @@
         0,
         527.41,
         745,
-        550
+        0,
+        0,
+        0
       ],
       "visible": true
     }

@@ -7,23 +7,23 @@
       "data": [
         [
           "Deutschland",
-          1909
+          2252
         ],
         [
-          "Spanien",
-          437
-        ],
-        [
-          "Frankreich",
-          427
+          "Ukraine",
+          1751
         ],
         [
           "Italien",
-          410
+          527
         ],
         [
-          "USA",
-          362
+          "Spanien",
+          475
+        ],
+        [
+          "Frankreich",
+          434
         ]
       ],
       "name": "Zugezogene",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Deutschland",
-          -1243
+          -1085
         ],
         [
-          "Spanien",
-          -180
-        ],
-        [
-          "Frankreich",
-          -451
+          "Ukraine",
+          -115
         ],
         [
           "Italien",
-          -205
+          -231
         ],
         [
-          "USA",
-          -304
+          "Spanien",
+          -279
+        ],
+        [
+          "Frankreich",
+          -429
         ]
       ],
       "name": "Weggezogene",
@@ -68,23 +68,23 @@
       "data": [
         [
           "Deutschland",
-          666
+          1167
         ],
         [
-          "Spanien",
-          257
-        ],
-        [
-          "Frankreich",
-          -24
+          "Ukraine",
+          1636
         ],
         [
           "Italien",
-          205
+          296
         ],
         [
-          "USA",
-          58
+          "Spanien",
+          196
+        ],
+        [
+          "Frankreich",
+          5
         ]
       ],
       "name": "Saldo",
@@ -167,7 +167,7 @@
     "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2021",
+    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -232,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "exporting": {
     "filename": "6023"

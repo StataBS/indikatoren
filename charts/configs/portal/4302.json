@@ -111,7 +111,7 @@
     }
   },
   "title": {
-    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Neuzulassungen",
+    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Neuzulassungen Personenwagen",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Gramm pro Kilometer, Basel-Stadt",
+    "text": "Gramm pro Kilometer, Basel-Stadt und Basel-Stadt und Basel-Landschaft",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -166,10 +166,12 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022
     ],
     "floor": 0,
-    "ceiling": 6,
+    "ceiling": 8,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -181,7 +183,64 @@
         "color": "#000000"
       }
     },
-    "range": 1000
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
   },
   "yAxis": [
     {
@@ -207,6 +266,41 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
       "index": 0
     },
     {
@@ -243,7 +337,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -325,7 +419,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -341,7 +435,7 @@
       "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Neuzulassungen",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Neuzulassungen Personenwagen",
       "color": "#FF8028",
       "id": "BS0806_1",
       "valueSuffix": "Gramm pro Kilometer",
@@ -352,7 +446,42 @@
         134,
         135,
         134,
-        122
+        122,
+        130,
+        null
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert",
+      "color": "#444444",
+      "id": "BS&BL0806_3",
+      "valueSuffix": "Gramm pro Kilometer",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        118,
+        118
       ],
       "visible": true
     }

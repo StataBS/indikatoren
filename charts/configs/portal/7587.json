@@ -5,10 +5,6 @@
       "color": "#DC440E",
       "data": [
         [
-          2013,
-          117721
-        ],
-        [
           2014,
           115413
         ],
@@ -43,6 +39,10 @@
         [
           2022,
           201590
+        ],
+        [
+          2023,
+          190588
         ]
       ],
       "name": "Basel-Stadt"
@@ -51,10 +51,6 @@
       "index": 1,
       "color": "#6F6F6F",
       "data": [
-        [
-          2013,
-          188029
-        ],
         [
           2014,
           177274
@@ -90,6 +86,10 @@
         [
           2022,
           162862
+        ],
+        [
+          2023,
+          171046
         ]
       ],
       "name": "Basel-Landschaft"
@@ -98,10 +98,6 @@
       "index": 3,
       "color": "#FABD24",
       "data": [
-        [
-          2013,
-          305750
-        ],
         [
           2014,
           292687
@@ -137,6 +133,10 @@
         [
           2022,
           364452
+        ],
+        [
+          2023,
+          361634
         ]
       ],
       "name": "Beide Basel"
@@ -265,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

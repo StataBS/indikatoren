@@ -8,10 +8,6 @@
       "zIndex": 5,
       "data": [
         [
-          2012,
-          215
-        ],
-        [
           2013,
           99
         ],
@@ -46,6 +42,10 @@
         [
           2021,
           71
+        ],
+        [
+          2022,
+          213
         ]
       ],
       "name": "Zuzugsort: unbekannt"
@@ -56,10 +56,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2012,
-          7994
-        ],
         [
           2013,
           8953
@@ -95,6 +91,10 @@
         [
           2021,
           6776
+        ],
+        [
+          2022,
+          9678
         ]
       ],
       "name": "Zuzugsort: Ausland"
@@ -105,10 +105,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2012,
-          2854
-        ],
         [
           2013,
           3062
@@ -144,6 +140,10 @@
         [
           2021,
           3042
+        ],
+        [
+          2022,
+          3130
         ]
       ],
       "name": "Zuzugsort: übrige Schweiz"
@@ -154,10 +154,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          3116
-        ],
         [
           2013,
           3122
@@ -193,6 +189,10 @@
         [
           2021,
           2925
+        ],
+        [
+          2022,
+          2776
         ]
       ],
       "name": "Zuzugsort: Nordwestschweiz"
@@ -203,10 +203,6 @@
       "pointWidth": "15",
       "legendIndex": 0,
       "data": [
-        [
-          2012,
-          -1525
-        ],
         [
           2013,
           -1600
@@ -242,6 +238,10 @@
         [
           2021,
           -1231
+        ],
+        [
+          2022,
+          -1077
         ]
       ],
       "name": "Wegzugsort: unbekannt"
@@ -252,10 +252,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2012,
-          -4286
-        ],
         [
           2013,
           -4687
@@ -291,6 +287,10 @@
         [
           2021,
           -4326
+        ],
+        [
+          2022,
+          -4401
         ]
       ],
       "name": "Wegzugsort: Ausland"
@@ -301,10 +301,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2012,
-          -2606
-        ],
         [
           2013,
           -2760
@@ -340,6 +336,10 @@
         [
           2021,
           -3070
+        ],
+        [
+          2022,
+          -2994
         ]
       ],
       "name": "Wegzugsort: übrige Schweiz"
@@ -350,10 +350,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          -4024
-        ],
         [
           2013,
           -4290
@@ -389,6 +385,10 @@
         [
           2021,
           -5187
+        ],
+        [
+          2022,
+          -4607
         ]
       ],
       "name": "Wegzugsort: Nordwestschweiz"
@@ -401,10 +401,6 @@
       },
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          1738
-        ],
         [
           2013,
           1899
@@ -440,6 +436,10 @@
         [
           2021,
           -1000
+        ],
+        [
+          2022,
+          2718
         ]
       ],
       "name": "Saldo"
@@ -610,7 +610,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -70,11 +70,27 @@
       "visible": false
     },
     {
+      "color": "#73B97C",
+      "visible": false
+    },
+    {
       "color": "#68ab2b",
       "visible": false
     },
     {
       "color": "#0a3b19"
+    },
+    {
+      "color": "#FABD24",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "visible": false, 
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+      }
     },
      {
       "color": "#ff8028",

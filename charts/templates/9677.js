@@ -57,7 +57,7 @@
       type: "category",
       tickInterval: 1,
       labels: {
-        step: 1,
+        step: 2,
         rotation: -45
       }
     },
@@ -84,11 +84,21 @@
     "series": [
       {
         color: "#0091f7",
-        legendIndex: 3
+        legendIndex: 3,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + ' Prozentpunkte </b>'
+          },
+        },
       },
       {
         color: "#999999",
-        legendIndex: 4
+        legendIndex: 4,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + ' Prozentpunkte </b>'
+          },
+        },
       },
       {
         visible: false,

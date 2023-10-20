@@ -8,10 +8,6 @@
       },
       "data": [
         [
-          2003,
-          4122
-        ],
-        [
           2004,
           7135
         ],
@@ -86,6 +82,10 @@
         [
           2022,
           16317
+        ],
+        [
+          2023,
+          15081
         ]
       ],
       "name": "Laden"
@@ -97,10 +97,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2003,
-          34053
-        ],
         [
           2004,
           52201
@@ -176,6 +172,10 @@
         [
           2022,
           110692
+        ],
+        [
+          2023,
+          134317
         ]
       ],
       "name": "Büro"
@@ -187,10 +187,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2003,
-          3387
-        ],
         [
           2004,
           3372
@@ -266,6 +262,10 @@
         [
           2022,
           47038
+        ],
+        [
+          2023,
+          24498
         ]
       ],
       "name": "Gewerbe"
@@ -277,10 +277,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2003,
-          11562
-        ],
         [
           2004,
           10420
@@ -356,6 +352,10 @@
         [
           2022,
           3000
+        ],
+        [
+          2023,
+          1242
         ]
       ],
       "name": "Produktion"
@@ -367,10 +367,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2003,
-          10782
-        ],
         [
           2004,
           11908
@@ -446,6 +442,10 @@
         [
           2022,
           24543
+        ],
+        [
+          2023,
+          15450
         ]
       ],
       "name": "Lager"
@@ -573,7 +573,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

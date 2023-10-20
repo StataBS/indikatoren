@@ -1,23 +1,23 @@
-﻿"wohnviertel_id_kdm"	"Wohnviertel Name"	"Leerstandsquote 2022"	"Differenz 2022 zu 2012"	"Leerstandsquote 2012"
-1	"Altstadt Grossbasel"	2.2138	1.3953	0.8185
-2	"Vorstädte"	2.4023	0.3699	2.0324
-3	"Am Ring"	1.4814	0.6093	0.8720
-4	"Breite"	1.4867	1.1779	0.3088
-5	"St. Alban"	1.2486	0.4937	0.7548
-6	"Gundeldingen"	1.1880	0.8002	0.3878
-7	"Bruderholz"	0.8688	0.6880	0.1808
-8	"Bachletten"	0.5820	0.3863	0.1957
-9	"Gotthelf"	1.3856	0.8996	0.4860
-10	"Iselin"	1.0616	0.7234	0.3382
-11	"St. Johann"	1.1803	0.8201	0.3602
-12	"Altstadt Kleinbasel"	1.3872	0.9912	0.3960
-13	"Clara"	1.3007	0.9443	0.3563
-14	"Wettstein"	0.5344	0.0205	0.5140
-15	"Hirzbrunnen"	0.6445	0.5999	0.0446
-16	"Rosental"	1.2717	0.1004	1.1713
-17	"Matthäus"	1.2761	0.9532	0.3229
-18	"Klybeck"	1.1722	0.7722	0.4000
-19	"Kleinhüningen"	1.2912	0.9349	0.3564
-20	"Riehen"	0.9637	0.5104	0.4534
-30	"Bettingen"	0.1825	-0.6579	0.8403
+﻿"wohnviertel_id_kdm"	"Wohnviertel Name"	"Leerstandsquote 2023"	"Differenz 2023 zu 2013"	"Leerstandsquote 2013"
+1	"Altstadt Grossbasel"	2.1930	1.8997	0.2933
+2	"Vorstädte"	2.0761	1.5076	0.5685
+3	"Am Ring"	1.4400	0.9709	0.4692
+4	"Breite"	1.1161	0.7299	0.3862
+5	"St. Alban"	1.0438	0.7693	0.2745
+6	"Gundeldingen"	1.2064	0.8833	0.3231
+7	"Bruderholz"	0.8999	0.7423	0.1577
+8	"Bachletten"	0.6220	0.4406	0.1813
+9	"Gotthelf"	0.8885	0.5481	0.3404
+10	"Iselin"	1.2229	0.8106	0.4123
+11	"St. Johann"	0.9207	0.6811	0.2396
+12	"Altstadt Kleinbasel"	0.8378	0.3767	0.4611
+13	"Clara"	1.0231	0.3987	0.6244
+14	"Wettstein"	0.5919	0.3349	0.2570
+15	"Hirzbrunnen"	0.4530	0.1187	0.3343
+16	"Rosental"	1.6148	1.1788	0.4360
+17	"Matthäus"	0.9065	0.6298	0.2767
+18	"Klybeck"	1.1000	0.7536	0.3464
+19	"Kleinhüningen"	0.9747	0.7608	0.2138
+20	"Riehen"	0.9948	0.5837	0.4112
+30	"Bettingen"	1.2433	-0.0252	1.2685
 

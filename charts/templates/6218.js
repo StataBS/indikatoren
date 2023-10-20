@@ -16,7 +16,11 @@
   },
   "xAxis": {
   	"type": "category",
-   //"tickInterval": 1
+    labels: {
+      rotation: -45,
+      step: 1
+    },
+    tickInterval: 1
   },
   "legend": {
     "enabled": true,

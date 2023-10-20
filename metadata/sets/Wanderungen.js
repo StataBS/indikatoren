@@ -13,8 +13,8 @@ var indikatorensetData = [
 		],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
+		"lesehilfe": "2022 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 2 718 Personen. Im betrachteten Zeitraum gab es nur im Jahr zuvor einen negativen Saldo. Die meisten Wegzüger des Jahres 2022 (insgesamt rund 4 600 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 9 700 Personen.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -29,7 +29,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06011",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-1",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -38,7 +38,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:36",
+		"aktualisierungsdatum": "2023-06-21T08:15:23",
 		"id": 6011
 	},
 	{
@@ -51,8 +51,8 @@ var indikatorensetData = [
 			6761
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "2021 ergibt sich für den Kanton ein Wanderungsverlust von total 1 000 Personen. Er kommt vor allem dadurch zustande, dass mehr Schweizer den Kanton verlassen als zuziehen (-1 427). Bei den ausländischen Staatsangehörigen wird ein Plus von 427 Personen registriert. Im Vorjahr (2020) wurde ein Wanderungsgewinn von 956 Personen verzeichnet.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 ergibt sich für den Kanton ein Wanderungsgewinn von total 2 718 Personen. Er kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -1 240 bei den Schweizern ein Wanderungsgewinn von +3 958 bei den Ausländern gegenüber steht. Im Vorjahr (2021) wurde ein Wanderungsverlust von 1 000 Personen verzeichnet.",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -77,7 +77,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-13T10:06:17",
+		"aktualisierungsdatum": "2023-06-07T08:10:20",
 		"id": 6012
 	},
 	{
@@ -90,8 +90,8 @@ var indikatorensetData = [
 			6762
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2021. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 909 Personen), danach folgen Personen aus Spanien (437), Frankreich (427),  Italien (410) und den Vereinigten Staaten (362). Die übrigen 3 231 Zuzügerinnen und Zuzüger verteilen sich auf über 120 verschiedene Länder.",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2022. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 252 Personen). Personen aus der Ukraine stellen die zweitgrösste Gruppe (1 751). Aus der Kategorie Übriges Ausland stammen 4 239 Menschen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06013",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-3",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-23T11:29:20",
+		"aktualisierungsdatum": "2023-06-07T08:10:21",
 		"id": 6013
 	},
 	{
@@ -130,7 +130,7 @@ var indikatorensetData = [
 		],
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt",
-		"lesehilfe": "60% der Personen, die 2021 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2012: 58,5%). 75% der aus Deutschland zuwandernden Personen sind deutsche und 83% der aus Spanien zuziehenden Personen sind spanische Staatsangehörige.",
+		"lesehilfe": "54,5% der Personen, die 2022 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2013: 55,1%). Von jenen, die aus Deutschland zuziehen, besitzen 72,6% die deutsche Staatsangehörigkeit, von den aus der Ukraine Zugewanderten sind 96,9% ukrainische Staatsangehörige.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06016",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-6",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:29",
+		"aktualisierungsdatum": "2023-06-07T08:10:23",
 		"id": 6016
 	},
 	{
@@ -168,8 +168,8 @@ var indikatorensetData = [
 			6766
 		],
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
-		"lesehilfe": "Knapp die Hälfte (49,7%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Die Zugezogenen aus den USA und der Schweiz weisen einen leicht höheren Frauenanteil auf (51,9% und 51,6%). Mehr Männer ziehen beispielsweise aus Frankreich zu (56,9%).",
+		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
+		"lesehilfe": "Knapp die Hälfte (49,7%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Den höchsten Frauenanteil weist die Ukraine mit 60,0% auf, die Schweiz liegt bei 51,2%. Mehr Männer ziehen beispielsweise aus Frankreich zu (56,9%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -185,7 +185,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06017",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-7",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -194,7 +194,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-17T09:56:04",
+		"aktualisierungsdatum": "2023-06-07T08:10:24",
 		"id": 6017
 	},
 	{
@@ -207,8 +207,8 @@ var indikatorensetData = [
 			6767
 		],
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2012 bis 2021 zusammengefasst",
-		"lesehilfe": "Zwischen 2012 und 2021 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den 75- bis 79- und den über 79-Jährigen positiv.",
+		"subtitle": "Basel-Stadt, 2013 bis 2022 zusammengefasst",
+		"lesehilfe": "Zwischen 2013 und 2022 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -224,7 +224,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06018",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-8",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -233,7 +233,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:37",
+		"aktualisierungsdatum": "2023-06-07T08:10:25",
 		"id": 6018
 	},
 	{
@@ -246,8 +246,8 @@ var indikatorensetData = [
 			6768
 		],
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2012 bis 2021 zusammengefasst",
-		"lesehilfe": "In den Jahren 2012 bis 2021 sind in allen Altersklassen zwischen 0 und 59 Jahren in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
+		"subtitle": "Basel-Stadt, 2013 bis 2022 zusammengefasst",
+		"lesehilfe": "In den Jahren 2013 bis 2022 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -263,7 +263,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.6019",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-9",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -272,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-15T04:10:15",
+		"aktualisierungsdatum": "2023-06-07T08:10:26",
 		"id": 6019
 	},
 	{
@@ -285,8 +285,8 @@ var indikatorensetData = [
 			6770
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
-		"lesehilfe": "2021 kamen 28% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (75%), Riehen (55%) und Hirzbrunnen (37%) besonders hoch. Personen aus den Vereinigten Staaten von Amerika ziehen überproportional häufig in die Altstadt Kleinbasel (15%).",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
+		"lesehilfe": "2022 kamen 23% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (72%) und Riehen (41%) besonders hoch.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -303,7 +303,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06021",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-11",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -312,7 +312,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:28",
+		"aktualisierungsdatum": "2023-06-07T08:10:18",
 		"id": 6021
 	},
 	{
@@ -325,8 +325,8 @@ var indikatorensetData = [
 			6771
 		],
 		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2021 verbuchten die Wohnviertel Clara und Vorstädte die grössten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Kleinhüningen und Breite. Betrachtet man die innerkantonalen Umzüge, wiesen Bettingen und das Wohnviertel Clara deutlich die grössten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner verzeichneten unter anderem die Wohnviertel Vorstädte und Wettstein. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen Clara und Bettingen auf. Die höchsten Bevölkerungsverluste verzeichneten die Wohnviertel Vorstädte und Klybeck.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen der Schweiz oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2022 verbucht das Wohnviertel Vorstädte den grössten relativen Wanderungsgewinn. Einen Wanderungsverlust verzeichnet beispielsweise Hirzbrunnen. <br>Bei den innerkantonalen Umzügen weist Bettingen den höchsten Wert für den Umzugsgewinn pro 100 Einwohner auf. <br>Den höchsten positiven Saldo infolge sämtlicher räumlicher Bevölkerungsbewegungen pro 100 Einwohner (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) weist ebenfalls Bettingen auf. Den höchsten relativen Bevölkerungsverlust gibt es im Wohnviertel Hirzbrunnen.",
 		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -343,7 +343,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06022",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-12",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -352,7 +352,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:18",
+		"aktualisierungsdatum": "2023-06-07T08:10:19",
 		"id": 6022
 	},
 	{
@@ -365,8 +365,8 @@ var indikatorensetData = [
 			6772
 		],
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2021",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2021 den grössten Zuzugsüberschuss gegenüber Deutschland (+666), danach folgt Spanien (+257).",
+		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2022",
+		"lesehilfe": "Den grössten Zuzugsüberschuss verzeichnete Basel-Stadt im Jahr 2022 gegenüber der Ukraine (+1 636), gefolgt von Deutschland (+1 167).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -382,7 +382,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.6023",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-4",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -391,7 +391,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:29",
+		"aktualisierungsdatum": "2023-06-07T08:10:22",
 		"id": 6023
 	},
 	{
@@ -404,8 +404,8 @@ var indikatorensetData = [
 			6773
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2012 = 100)",
-		"lesehilfe": "Frankreich weist 2021 im Vergleich zu 2012 den stärksten Zuwachs an Zugezogenen auf (+19%). Die Zuwanderung aus den USA hat am stärksten abgenommen (-29%).",
+		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2013 = 100)",
+		"lesehilfe": "2022 wird durch den starken Zuwachs an Zugezogenen aus der Ukraine geprägt (seit 2013 +7 513%; einblenden durch anklicken in der Legende). Einen stärkeren Rückgang seit 2013 gibt es bei Spanien (-18,8%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -421,7 +421,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.6024",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-5",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -430,7 +430,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:29",
+		"aktualisierungsdatum": "2023-06-07T08:10:23",
 		"id": 6024
 	},
 	{
@@ -443,8 +443,8 @@ var indikatorensetData = [
 			6774
 		],
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger in Basel-Stadt kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. In der Gemeinde Bettingen ist der Anteil der Neuzuziehenden aus der Schweiz (62%) am höchsten. In den Wohnvierteln Breite, Gundeldingen, Bachletten und Iselin liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland gibt es beispielsweise in den Wohnvierteln Rosental, Clara und Wettstein. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Wohnviertel Hirzbrunnen und die Gemeinde Riehen mit jeweils 3 Personen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 kommen 38% der Neuzuzügerinnen und Neuzuzüger in Basel-Stadt aus der Schweiz, 62% ziehen aus dem Ausland zu. Im Wohnviertel Gundeldingen ist der Anteil der Neuzuziehenden aus der Schweiz (49%) am höchsten. Einen hohen Anteil von Zuzügerinnen und Zuzügern aus dem Ausland gibt es beispielsweise im Wohnviertel Kleinhüningen (75%). Am meisten Zuziehende pro 100 Einwohner weist das Wohnviertel Vorstädte auf (14,8 Personen), am wenigsten Hirzbrunnen (3,7).",
 		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -461,7 +461,7 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.6025",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-10",
-		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -470,7 +470,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "map",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:15",
+		"aktualisierungsdatum": "2023-06-07T08:10:17",
 		"id": 6025
 	}
 ];

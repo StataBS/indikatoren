@@ -8,6 +8,7 @@
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "9.1.2",
     "jquery": "^3.5.1",
+    "os-browserify": "^0.3.0",
     "proj4": "2.4.3",
     "seedrandom": "2.4.3"
   },
@@ -60,9 +61,8 @@
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
     "set-environment-variables": "export HIGHCHARTS_VERSION=9.1.2 && export ACCEPT_HIGHCHARTS_LICENSE=YES && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_USE_MAPS=YES &&  LC_ALL=C",
-    "start-export-server": "echo 'Starting highcharts-export-server using forever...' && forever start node_modules/highcharts-export-server/bin/cli.js --enableServer 1 --port 8081 --killSignal SIGINT",
-    "stop-export-server": "echo 'stopping highcharts-export-server...' && forever stop node_modules/highcharts-export-server/bin/cli.js",
-    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1 && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_VERSION=9.1.2 && LC_ALL=C"
+    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1 && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_VERSION=9.1.2 && LC_ALL=C",
+    "deployBuildPush": "npm run deployNewCharts && npm run build && git add . && git commit -m 'Live Schalten' && git push"
   },
   "repository": {
     "type": "git",

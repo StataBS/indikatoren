@@ -5,10 +5,6 @@
       "index": 1,
       "data": [
         [
-          2012,
-          7197
-        ],
-        [
           2013,
           7306
         ],
@@ -43,6 +39,10 @@
         [
           2021,
           6770
+        ],
+        [
+          2022,
+          6754
         ]
       ],
       "name": "EL zur IV"
@@ -51,10 +51,6 @@
       "color": "#FFDA80",
       "index": 2,
       "data": [
-        [
-          2012,
-          5351
-        ],
         [
           2013,
           5469
@@ -90,6 +86,10 @@
         [
           2021,
           4029
+        ],
+        [
+          2022,
+          4341
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -98,10 +98,6 @@
       "color": "#923F8D",
       "index": 3,
       "data": [
-        [
-          2012,
-          6960
-        ],
         [
           2013,
           7200
@@ -137,6 +133,10 @@
         [
           2021,
           8722
+        ],
+        [
+          2022,
+          8741
         ]
       ],
       "name": "EL zur AHV"
@@ -145,10 +145,6 @@
       "color": "#CD9C00",
       "index": 4,
       "data": [
-        [
-          2012,
-          4706
-        ],
         [
           2013,
           4857
@@ -184,6 +180,10 @@
         [
           2021,
           5290
+        ],
+        [
+          2022,
+          5357
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -315,7 +315,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2022"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

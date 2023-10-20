@@ -59,7 +59,7 @@
     }
   ],
   "chart": {    
-    "marginBottom": 60,
+    "marginBottom": 80,
     "marginTop": 160,
     "type": "column"
   }

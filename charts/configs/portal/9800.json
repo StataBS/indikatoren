@@ -1,0 +1,403 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2013,
+          5407
+        ],
+        [
+          2014,
+          5313
+        ],
+        [
+          2015,
+          5598
+        ],
+        [
+          2016,
+          5879
+        ],
+        [
+          2017,
+          5924
+        ],
+        [
+          2018,
+          6291
+        ],
+        [
+          2019,
+          6979
+        ],
+        [
+          2020,
+          6867
+        ],
+        [
+          2021,
+          6899
+        ],
+        [
+          2022,
+          6814
+        ]
+      ],
+      "name": "Umzug PHH"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2013,
+          3436
+        ],
+        [
+          2014,
+          3673
+        ],
+        [
+          2015,
+          3424
+        ],
+        [
+          2016,
+          3292
+        ],
+        [
+          2017,
+          3310
+        ],
+        [
+          2018,
+          3379
+        ],
+        [
+          2019,
+          3472
+        ],
+        [
+          2020,
+          3432
+        ],
+        [
+          2021,
+          3858
+        ],
+        [
+          2022,
+          3595
+        ]
+      ],
+      "name": "Wegzug PHH"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2013,
+          723
+        ],
+        [
+          2014,
+          836
+        ],
+        [
+          2015,
+          817
+        ],
+        [
+          2016,
+          765
+        ],
+        [
+          2017,
+          856
+        ],
+        [
+          2018,
+          890
+        ],
+        [
+          2019,
+          839
+        ],
+        [
+          2020,
+          861
+        ],
+        [
+          2021,
+          893
+        ],
+        [
+          2022,
+          884
+        ]
+      ],
+      "name": "Zusammenzug PHH"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2013,
+          3665
+        ],
+        [
+          2014,
+          3653
+        ],
+        [
+          2015,
+          3572
+        ],
+        [
+          2016,
+          3455
+        ],
+        [
+          2017,
+          3412
+        ],
+        [
+          2018,
+          3444
+        ],
+        [
+          2019,
+          4249
+        ],
+        [
+          2020,
+          3981
+        ],
+        [
+          2021,
+          3853
+        ],
+        [
+          2022,
+          4402
+        ]
+      ],
+      "name": "Zuzug PHH"
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          2013,
+          46
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          43
+        ],
+        [
+          2016,
+          86
+        ],
+        [
+          2017,
+          51
+        ],
+        [
+          2018,
+          82
+        ],
+        [
+          2019,
+          83
+        ],
+        [
+          2020,
+          65
+        ],
+        [
+          2021,
+          40
+        ],
+        [
+          2022,
+          65
+        ]
+      ],
+      "name": "Keine Zuordnung möglich"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 20,
+    "renderTo": "container-9800"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl gewanderte Privathaushalte"
+  },
+  "subtitle": {
+    "text": "nach Wanderungstyp, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 2000
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.6.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>' 
+    }
+  },
+  "exporting": {
+    "filename": "9800"
+  }
+}

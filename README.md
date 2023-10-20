@@ -10,18 +10,12 @@ npm run build
 - Build, commit and push as explained further down. 
 
 ## Create png files of each chart within an indikatorenset
-- In a terminal window within c9.io, run the following command: 
-```javascript
-npm run start-export-server
-```
 - In Chrome, open print.html?Indikatorenset=indikatorensetname 
-- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder. 
+- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder.
+- It uses a [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server) deployed on the StatA-Server [pdstatasvpapp05](highcharts-export.stata.pd.intranet.bs.ch)  
 - To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
 - To download a single chart as png, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://[c9-workspace-url]:8081&id=[chart-id]
-- At the end of the export session, it's best to stop the export server again: 
-```javascript
-npm run stop-export-server
-```
+
 
 ## Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
@@ -47,6 +41,7 @@ npm start
 - In Indikatoren-App (Access) go to > "Spezialtabellen" > "Umweltbericht Indikatoren" and run:
     - Metadaten einlesen (gets Metadaten of all Indicators from UB-Webpage)
     - Metadaten abgleichen (Imports Metadata to local Indicators DB)
+- Set all indicators to status "Bereit für Live" and click "publizieren" to export all JSONs with correct "zuletzt geändert" date
 - Github: Create new [issue](https://github.com/statabs/indikatoren/) and [branch](https://github.com/statabs-test/indikatoren/)
 - VS Studio: pull, checkout branch
 - Copy metadata (JSON) and tsv files (only for incdicators where data is not copied from Umweltbericht) to branch as described above in section "Update charts from ftp server".

@@ -133,27 +133,27 @@
         ],
         [
           "Apr",
-          null
+          931
         ],
         [
           "Mai",
-          null
+          987
         ],
         [
           "Jun",
-          null
+          1191
         ],
         [
           "Jul",
-          null
+          1113
         ],
         [
           "Aug",
-          null
+          1020
         ],
         [
           "Sep",
-          null
+          1033
         ],
         [
           "Okt",
@@ -190,27 +190,27 @@
         ],
         [
           "Apr",
-          null
+          489
         ],
         [
           "Mai",
-          null
+          586
         ],
         [
           "Jun",
-          null
+          566
         ],
         [
           "Jul",
-          null
+          517
         ],
         [
           "Aug",
-          null
+          568
         ],
         [
           "Sep",
-          null
+          552
         ],
         [
           "Okt",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.4.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

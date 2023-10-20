@@ -29,6 +29,10 @@
         [
           2021,
           34687065
+        ],
+        [
+          2022,
+          41105801
         ]
       ],
       "name": "Einfuhren"
@@ -62,6 +66,10 @@
         [
           2021,
           76816975
+        ],
+        [
+          2022,
+          81225722
         ]
       ],
       "name": "Ausfuhren"
@@ -191,7 +199,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

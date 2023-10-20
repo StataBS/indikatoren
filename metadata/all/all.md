@@ -176,7 +176,7 @@ id | visible | visibleInPortal | indikatorenset
 4323 | true | true | Umwelt
 4325 | true | true | Umwelt
 4328 | false |  | Umwelt
-4329 | true | true | Umwelt
+4329 | false |  | Umwelt
 4330 | true | true | Umwelt
 4331 | true | true | Umwelt
 4332 | true | true | Umwelt
@@ -1162,6 +1162,7 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7573 | true | true | Leerstand
 7574 | true | true | Leerstand
+7575 | true | true | Leerstand
 7576 | true | true | Leerstand
 7577 | true | true | Leerstand
 7578 | true | true | Leerstand
@@ -1519,8 +1520,8 @@ id | visible | visibleInPortal | indikatorenset
 8369 | true | true | Wirtschaftsbericht BS_BL_JU
 8370 | true | true | Wirtschaftsbericht BS_BL_JU
 8371 | true | true | Wirtschaftsbericht BS_BL_JU
-8372 | true | true | Wirtschaftsbericht BS_BL_JU
-8373 | true | true | Wirtschaftsbericht BS_BL_JU
+8372 | false |  | Wirtschaftsbericht BS_BL_JU
+8373 | false |  | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | true | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
@@ -1579,8 +1580,8 @@ id | visible | visibleInPortal | indikatorenset
 8440 | true | true | Wirtschaftsbericht BS_BL_JU
 8441 | true | true | Wirtschaftsbericht BS_BL_JU
 8442 | true | true | Wirtschaftsbericht BS_BL_JU
-8443 | true | true | Wirtschaftsbericht BS_BL_JU
-8444 | true | true | Wirtschaftsbericht BS_BL_JU
+8443 | false |  | Wirtschaftsbericht BS_BL_JU
+8444 | false |  | Wirtschaftsbericht BS_BL_JU
 8445 | true | true | Wirtschaftsbericht BS_BL_JU
 8446 | true | true | Wirtschaftsbericht BS_BL_JU
 8447 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1800,7 +1801,7 @@ id | visible | visibleInPortal | indikatorenset
 8863 | true | true | Wirtschaftsbericht BS_BL_JU
 8864 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8868 | true | true | Wirtschaftsbericht BS_BL_JU
-8873 | true | true | Wirtschaftsbericht BS_BL_JU
+8873 | false |  | Wirtschaftsbericht BS_BL_JU
 8874 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8876 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8877 | true | false | Richtplan
@@ -2033,7 +2034,7 @@ id | visible | visibleInPortal | indikatorenset
 9287 | true | true | 
 9289 | true | true | Soziales
 9290 | false |  | Soziales
-9291 | true | true | Soziales
+9291 | true | false | Soziales
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
 9294 | true | true | Soziales
@@ -2231,10 +2232,12 @@ id | visible | visibleInPortal | indikatorenset
 9687 | true | false | Schluesselindikatoren
 9691 | true | true | Innenstadt-QuiZ
 9693 | true | false | Schluesselindikatoren
+9732 | true | false | Nachhaltigkeit
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
+9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
 9751 | true | false | Arbeitsmarkt
 9752 | true | false | Arbeitsmarkt
@@ -2243,8 +2246,21 @@ id | visible | visibleInPortal | indikatorenset
 9755 | true | false | Arbeitsmarkt
 9756 | false |  | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
+9773 | true | false | Arbeitsmarkt (Print)
+9774 | true | false | Arbeitsmarkt (Print)
+9775 | true | false | Arbeitsmarkt (Print)
+9776 | true | false | Arbeitsmarkt (Print)
+9777 | true | false | Arbeitsmarkt (Print)
+9778 | true | false | Arbeitsmarkt (Print)
+9780 | true | false | Arbeitsmarkt (Print)
+9785 | true | true | Nachhaltigkeit
+9800 | true | true | 
+9862 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+10028 | true | false | Wirtschaftsbericht BS_BL_JU
+10029 | true | false | Wirtschaftsbericht BS_BL_JU
+10030 | true | false | Wirtschaftsbericht BS_BL_JU

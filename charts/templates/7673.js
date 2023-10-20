@@ -27,7 +27,9 @@
       { "color": "#246370", "visible": true }, /* blau*/
       { "color": "#083038", "visible": true }, /* schwarz */
       { "color": "#C4AB91", "visible": true }, /* braun */
-      { "color": "#67401E", "visible": true } /* braun */
+      { "color": "#67401E", "visible": true }, /* braun */
+      { "color": "#73B97C", "visible": true }, /* grün */
+      { "color": "#007A2F", "visible": true } /* grün */
     ],
     "legend": {
       "enabled": true,
@@ -35,7 +37,7 @@
       "verticalAlign": "top",
       "align": "left",
       itemWidth: 75,
-      width: 350,
+      width: 380,
       itemMarginBottom: 5,
       //"x": 40,
       //"y": 55,    

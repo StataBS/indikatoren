@@ -116,7 +116,7 @@
           null
         ]
       ],
-      "name": "Index Median Einkommen"
+      "name": "Index Median Reineinkommen"
     },
     {
       "visible": false,
@@ -160,7 +160,7 @@
         ],
         [
           2019,
-          null
+          2
         ],
         [
           2020,
@@ -268,7 +268,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietpreis- und Einkommensindex"
+    "text": "Mietpreise und Reineinkommen"
   },
   "subtitle": {
     "text": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
@@ -339,7 +339,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

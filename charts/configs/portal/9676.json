@@ -430,7 +430,7 @@
     "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": " Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -452,7 +452,7 @@
       "style": {
         "color": "#000000"
       },
-      "step": 1,
+      "step": 2,
       "rotation": -45
     },
     "tickInterval": 1
@@ -503,7 +503,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "tooltip": {
     "valueDecimals": 0,

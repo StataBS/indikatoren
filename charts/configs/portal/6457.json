@@ -42,6 +42,10 @@
         [
           "2020",
           5408
+        ],
+        [
+          "2021",
+          5422
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -89,6 +93,10 @@
         [
           "2020",
           8706
+        ],
+        [
+          "2021",
+          9123
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -136,6 +144,10 @@
         [
           "2020",
           23001
+        ],
+        [
+          "2021",
+          23181
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -183,6 +195,10 @@
         [
           "2020",
           7015
+        ],
+        [
+          "2021",
+          7091
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -318,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

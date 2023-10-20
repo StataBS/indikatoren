@@ -42,6 +42,10 @@
         [
           "2020",
           9890
+        ],
+        [
+          "2021",
+          10027
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -89,6 +93,10 @@
         [
           "2020",
           20389
+        ],
+        [
+          "2021",
+          20626
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -136,6 +144,10 @@
         [
           "2020",
           5051
+        ],
+        [
+          "2021",
+          5326
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -183,6 +195,10 @@
         [
           "2020",
           6270
+        ],
+        [
+          "2021",
+          6919
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -322,7 +338,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

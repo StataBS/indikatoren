@@ -3,7 +3,7 @@
     xAxis: {
       tickInterval: 1,
       labels: {
-        rotation: 0
+        rotation: -45
       }
     },
     yAxis: {
@@ -21,8 +21,9 @@
 
     },
     tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> Geburtenziffer: <b>{point.y:,.1f} </b><br/>',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} </b><br/>',
       shared: false
     }
   };
 }());
+

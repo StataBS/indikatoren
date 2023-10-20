@@ -7,55 +7,55 @@
       "data": [
         [
           "0-4",
-          489
+          509
         ],
         [
           "5-9",
-          407
+          432
         ],
         [
           "10-14",
-          572
+          606
         ],
         [
           "15-19",
-          628
+          685
         ],
         [
           "20-24",
-          274
+          275
         ],
         [
           "25-29",
-          215
+          227
         ],
         [
           "30-34",
-          407
+          404
         ],
         [
           "35-39",
-          566
+          565
         ],
         [
           "40-44",
-          646
+          710
         ],
         [
           "45-49",
-          550
+          585
         ],
         [
           "50-54",
-          442
+          474
         ],
         [
           "55-59",
-          263
+          284
         ],
         [
           "60-64",
-          164
+          171
         ],
         [
           "65-69",
@@ -63,11 +63,11 @@
         ],
         [
           "70-74",
-          66
+          67
         ],
         [
           "75-79",
-          32
+          33
         ],
         [
           "80-84",
@@ -92,59 +92,59 @@
       "data": [
         [
           "0-4",
-          476
+          484
         ],
         [
           "5-9",
-          423
+          462
         ],
         [
           "10-14",
-          537
+          575
         ],
         [
           "15-19",
-          666
+          688
         ],
         [
           "20-24",
-          463
+          479
         ],
         [
           "25-29",
-          356
+          352
         ],
         [
           "30-34",
-          501
+          485
         ],
         [
           "35-39",
-          723
+          732
         ],
         [
           "40-44",
-          783
+          834
         ],
         [
           "45-49",
-          618
+          663
         ],
         [
           "50-54",
-          444
+          461
         ],
         [
           "55-59",
-          299
+          327
         ],
         [
           "60-64",
-          148
+          154
         ],
         [
           "65-69",
-          69
+          73
         ],
         [
           "70-74",
@@ -152,7 +152,7 @@
         ],
         [
           "75-79",
-          16
+          15
         ],
         [
           "80-84",
@@ -252,7 +252,7 @@
     "text": "Anzahl Eingebürgerte"
   },
   "subtitle": {
-    "text": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2011 bis 2021",
+    "text": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2012 bis 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -308,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

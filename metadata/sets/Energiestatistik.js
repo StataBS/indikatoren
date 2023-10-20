@@ -93,8 +93,10 @@ var indikatorensetData = [
 			5794,
 			6160,
 			6312,
+			8260,
 			8915,
-			9643
+			9643,
+			10051
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
@@ -125,7 +127,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:09",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 9008
 	},
 	{

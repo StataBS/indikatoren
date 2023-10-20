@@ -7,10 +7,6 @@
       "visible": false,
       "data": [
         [
-          2013,
-          58
-        ],
-        [
           2014,
           25
         ],
@@ -45,6 +41,10 @@
         [
           2022,
           268
+        ],
+        [
+          2023,
+          194
         ]
       ],
       "name": "1 Zimmer"
@@ -55,10 +55,6 @@
       "legendIndex": 4,
       "visible": false,
       "data": [
-        [
-          2013,
-          91
-        ],
         [
           2014,
           51
@@ -94,6 +90,10 @@
         [
           2022,
           417
+        ],
+        [
+          2023,
+          369
         ]
       ],
       "name": "2 Zimmer"
@@ -104,10 +104,6 @@
       "legendIndex": 6,
       "visible": false,
       "data": [
-        [
-          2013,
-          136
-        ],
         [
           2014,
           93
@@ -143,6 +139,10 @@
         [
           2022,
           489
+        ],
+        [
+          2023,
+          455
         ]
       ],
       "name": "3 Zimmer"
@@ -153,10 +153,6 @@
       "legendIndex": 8,
       "visible": false,
       "data": [
-        [
-          2013,
-          55
-        ],
         [
           2014,
           48
@@ -192,6 +188,10 @@
         [
           2022,
           106
+        ],
+        [
+          2023,
+          156
         ]
       ],
       "name": "4 Zimmer"
@@ -202,10 +202,6 @@
       "legendIndex": 10,
       "visible": false,
       "data": [
-        [
-          2013,
-          21
-        ],
         [
           2014,
           28
@@ -241,6 +237,10 @@
         [
           2022,
           48
+        ],
+        [
+          2023,
+          55
         ]
       ],
       "name": "5+ Zimmer"
@@ -251,10 +251,6 @@
       "legendIndex": 0,
       "visible": true,
       "data": [
-        [
-          2013,
-          361
-        ],
         [
           2014,
           245
@@ -290,6 +286,10 @@
         [
           2022,
           1328
+        ],
+        [
+          2023,
+          1229
         ]
       ],
       "name": "Anzahl leere Wohnungen"
@@ -304,10 +304,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2013,
-          0.3408
-        ],
         [
           2014,
           0.2303
@@ -343,6 +339,10 @@
         [
           2022,
           1.1658
+        ],
+        [
+          2023,
+          1.0647
         ]
       ],
       "name": "LWQ alle Wohnungen (rechte Skala)"
@@ -358,10 +358,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2013,
-          0.5061
-        ],
         [
           2014,
           0.2385
@@ -397,6 +393,10 @@
         [
           2022,
           2.2341
+        ],
+        [
+          2023,
+          1.5724
         ]
       ],
       "name": "LWQ 1 Zimmer"
@@ -412,10 +412,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2013,
-          0.3646
-        ],
         [
           2014,
           0.2079
@@ -451,6 +447,10 @@
         [
           2022,
           1.5348
+        ],
+        [
+          2023,
+          1.3334
         ]
       ],
       "name": "LWQ 2 Zimmer"
@@ -466,10 +466,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2013,
-          0.3443
-        ],
         [
           2014,
           0.2331
@@ -505,6 +501,10 @@
         [
           2022,
           1.1636
+        ],
+        [
+          2023,
+          1.0737
         ]
       ],
       "name": "LWQ 3 Zimmer"
@@ -520,10 +520,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2013,
-          0.3041
-        ],
         [
           2014,
           0.257
@@ -559,6 +555,10 @@
         [
           2022,
           0.5377
+        ],
+        [
+          2023,
+          0.7823
         ]
       ],
       "name": "LWQ 4 Zimmer"
@@ -574,10 +574,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2013,
-          0.1764
-        ],
         [
           2014,
           0.2191
@@ -613,6 +609,10 @@
         [
           2022,
           0.3691
+        ],
+        [
+          2023,
+          0.4196
         ]
       ],
       "name": "LWQ 5+ Zimmer"
@@ -781,7 +781,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

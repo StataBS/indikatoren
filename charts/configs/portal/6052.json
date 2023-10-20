@@ -1,7 +1,13 @@
 {
   "series": [
     {
+      "index": 0,
       "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
       "data": [
         [
           "1970",
@@ -26,13 +32,71 @@
         [
           "2020",
           75.2
+        ],
+        [
+          "2021",
+          75.3
         ]
       ],
       "name": "Männer",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 74.1,
+          "high": 77.9
+        },
+        {
+          "name": "2020",
+          "low": 73.1,
+          "high": 77.2
+        },
+        {
+          "name": "2021",
+          "low": 73.2,
+          "high": 77.5
+        }
+      ],
+      "name": "Männer 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#dc440e",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
       "data": [
         [
           "1970",
@@ -57,13 +121,71 @@
         [
           "2020",
           68.7
+        ],
+        [
+          "2021",
+          69.5
         ]
       ],
       "name": "Frauen",
       "turboThreshold": 0
     },
     {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 66.6,
+          "high": 70.7
+        },
+        {
+          "name": "2020",
+          "low": 66.5,
+          "high": 70.9
+        },
+        {
+          "name": "2021",
+          "low": 67.3,
+          "high": 71.7
+        }
+      ],
+      "name": "Frauen 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
       "color": "#B00000",
+      "tooltip": {
+        "pointFormatter": function(){
+         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
       "data": [
         [
           "1970",
@@ -88,13 +210,71 @@
         [
           "2020",
           72.3
+        ],
+        [
+          "2021",
+          72.1
         ]
       ],
       "name": "Schweiz",
       "turboThreshold": 0
     },
     {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 71.1,
+          "high": 74.5
+        },
+        {
+          "name": "2020",
+          "low": 70.4,
+          "high": 74.3
+        },
+        {
+          "name": "2021",
+          "low": 70.1,
+          "high": 74.1
+        }
+      ],
+      "name": "Schweiz 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
       "color": "#246370",
+      "tooltip": {
+        "pointFormatter": function(){
+           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
       "data": [
         [
           "1970",
@@ -119,13 +299,71 @@
         [
           "2020",
           71.3
+        ],
+        [
+          "2021",
+          72.9
         ]
       ],
       "name": "Ausland",
       "turboThreshold": 0
     },
     {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 69.1,
+          "high": 73.9
+        },
+        {
+          "name": "2020",
+          "low": 68.9,
+          "high": 73.7
+        },
+        {
+          "name": "2021",
+          "low": 70.5,
+          "high": 75.3
+        }
+      ],
+      "name": "Ausland 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
       "color": "#474747",
+      "tooltip": {
+        "pointFormatter": function(){
+           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
       "data": [
         [
           "1970",
@@ -150,9 +388,61 @@
         [
           "2020",
           71.9
+        ],
+        [
+          "2021",
+          72.4
         ]
       ],
       "name": "Total",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 70.9,
+          "high": 73.7
+        },
+        {
+          "name": "2020",
+          "low": 70.4,
+          "high": 73.4
+        },
+        {
+          "name": "2021",
+          "low": 70.9,
+          "high": 74
+        }
+      ],
+      "name": "Total 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -206,7 +496,9 @@
                     }
                 }
     },
+    "marginBottom": 65,
     "type": "column",
+    "inverted": false,
     "renderTo": "container-6052",
     "spacingBottom": 50
   },
@@ -218,8 +510,6 @@
           "fontSize": "10px"
         }
       },
-      "stacking": null,
-      "pointPadding": 0,
       "groupPadding": 0.1
     }
   },
@@ -230,7 +520,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoerwerbstätigenquote nach Geschlecht"
+    "text": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -256,20 +546,20 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
-    },
-    "max": 100
+      "formatter": function(){
+            return Highcharts.numberFormat((this.value),0)+'%';                
+        }
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "padding": 0,
     "align": "left"
   },
   "navigation": {
@@ -291,10 +581,10 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true
   },
   "exporting": {
     "filename": "6052"

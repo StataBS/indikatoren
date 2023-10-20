@@ -24,13 +24,13 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>'
     }, 
     "series": [
-      {color: "black"},
-      {color: "#9E7C59"},
-      {color: "#689199"},
-      {color: "#923F8D"},
-      {color: "#CD9C00"},
-      {color: "#68AB2B"},
-      {color: "#DC440E"},
+      {color: "black"}, //Basel
+      {color: "#67401E"}, //Bern
+      {color: "#CD9C00"}, //Genf
+      {color: "#007A2F"}, //Lausanne
+      {color: "#8A8A8A"}, //Winterthur
+      {color: "#008AC3"}, //Zürich
+      {color: "#B00000"}  //Schweiz
     ],
     "legend": {
       "enabled": true,

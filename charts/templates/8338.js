@@ -29,24 +29,24 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to: 0.99,
+                to: 0.89,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 1,00"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 0,90"
             }, {
-                from: 1.00,
-                to: 1.49,
+                from: 0.90,
+                to: 1.299,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'></span>1,00 − 1,49"
+                name: "<span style='color: rgba(0,0,0,0)'></span>0,90 − 1,29"
             }, {
-                from: 1.50,
-                to: 2.49,
+                from: 1.30,
+                to: 1.99,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'></span>1,50 − 2,49"
+                 name: "<span style='color: rgba(0,0,0,0)'></span>1,30 − 1,99"
             },{
-                from: 2.50,
+                from: 2.00,
                 to: 3.19,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'></span>2,50 − 3,19"
+                 name: "<span style='color: rgba(0,0,0,0)'></span>2,00 − 3,19"
             },{
                 from: 3.20,
                 color: '#083038',
@@ -144,7 +144,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#007A2F' : '#990300';
+	                	return (value >= 0) ? '#007A2F' : '#FFBB58';
 	                };					
 					
 					//define chart-specific details
@@ -187,7 +187,7 @@
 					
 					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[2], 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[2]);
-					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[3], 10, '#990300');
+					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[3], 10, '#FFBB58');
 					fn.addLegendLabel(chart, 'Abnahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[3])
 					
 

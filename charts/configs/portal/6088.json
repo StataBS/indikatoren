@@ -13,8 +13,8 @@
           0.232
         ],
         [
-          "2016-2020",
-          0.172
+          "2017-2021",
+          0.165
         ]
       ],
       "name": "Schweiz",
@@ -33,8 +33,8 @@
           0.451
         ],
         [
-          "2016-2020",
-          0.294
+          "2017-2021",
+          0.288
         ]
       ],
       "name": "Ausland",
@@ -176,7 +176,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "tooltip": {
     "pointFormatter": function(){

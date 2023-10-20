@@ -1870,7 +1870,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bevölkerungsbestand"
+    "text": "Bevölkerung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -1941,7 +1941,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

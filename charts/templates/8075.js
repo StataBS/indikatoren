@@ -50,7 +50,7 @@
     ],
     xAxis: {
       tickPositioner: function () {
-        var interval = 2,
+        var interval = 1,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
@@ -70,8 +70,8 @@
       width: 260,
       //itemWidth: 80,
       labelFormatter: function () {
-        return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
-        //return tmp.replace('Kleinhüningen','Kleinh.');
+        return this.name.replace("Bezüger ", "") 
+        .replace("Sozialhilfequote ", "");
       },
       title: {
         text: ' <br>Bezüger:<br/>Quote (rechte Skala):',

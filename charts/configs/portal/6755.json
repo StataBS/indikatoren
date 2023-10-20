@@ -6,55 +6,55 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.0969088301
+          "Wert": 0.0850994669
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.4985652798
+          "Wert": 0.5028604863
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Matthäus",
-          "y": 11,
-          "Wert": 0.2714449619
+          "y": 12,
+          "Wert": 0.2699183701
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Matthäus",
           "y": 7,
-          "Wert": 0.2714
+          "Wert": 0.2816
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Matthäus",
           "y": 2,
-          "Wert": 0.1958054767
+          "Wert": 0.1978492664
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Matthäus",
-          "y": 6,
-          "Wert": 0.3115022245
+          "y": 9,
+          "Wert": 0.3079833029
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Matthäus",
-          "y": 6,
-          "Wert": 0.2085355802
+          "y": 5,
+          "Wert": 0.2039551627
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Matthäus",
-          "y": 6,
-          "Wert": 1925.528745644599
+          "y": 5,
+          "Wert": 1925.566086956521
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 0.067944250871
+          "Wert": 0.068695652173
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -65,38 +65,38 @@
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Matthäus",
-          "y": 3,
-          "Wert": 67.359025
+          "y": 4,
+          "Wert": 67.168456
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 36.416751
+          "Wert": 36.448492
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Matthäus",
-          "y": 8,
-          "Wert": 671.9
+          "y": 6,
+          "Wert": 628.7
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Matthäus",
-          "y": 5,
-          "Wert": 7048.4
+          "y": 4,
+          "Wert": 6704.8
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Matthäus",
-          "y": 9,
-          "Wert": 0.7191912
+          "y": 11,
+          "Wert": 0.7224475
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.184834
+          "Wert": 0.1757671
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

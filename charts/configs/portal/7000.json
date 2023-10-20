@@ -5,27 +5,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          10419
+          10785
         ],
         [
           "20 bis 39 J.",
-          11902
+          11551
         ],
         [
           "40 bis 59 J.",
-          13793
+          13621
         ],
         [
           "60 bis 79 J.",
-          19929
+          20847
         ],
         [
           "80 J. u.m.",
-          8711
+          9476
         ],
         [
           "Total",
-          64754
+          66280
         ]
       ],
       "name": "Nach Hause",
@@ -36,27 +36,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          590
+          540
         ],
         [
           "20 bis 39 J.",
-          321
+          419
         ],
         [
           "40 bis 59 J.",
-          373
+          430
         ],
         [
           "60 bis 79 J.",
-          1820
+          1854
         ],
         [
           "80 J. u.m.",
-          2752
+          3144
         ],
         [
           "Total",
-          5856
+          6387
         ]
       ],
       "name": "Akutspital",
@@ -67,27 +67,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          101
+          71
         ],
         [
           "20 bis 39 J.",
-          218
+          179
         ],
         [
           "40 bis 59 J.",
-          253
+          219
         ],
         [
           "60 bis 79 J.",
-          183
+          194
         ],
         [
           "80 J. u.m.",
-          121
+          110
         ],
         [
           "Total",
-          876
+          773
         ]
       ],
       "name": "Psychiatrische Klinik",
@@ -102,23 +102,23 @@
         ],
         [
           "20 bis 39 J.",
-          114
+          138
         ],
         [
           "40 bis 59 J.",
-          684
+          659
         ],
         [
           "60 bis 79 J.",
-          2917
+          2881
         ],
         [
           "80 J. u.m.",
-          2681
+          3066
         ],
         [
           "Total",
-          6427
+          6775
         ]
       ],
       "name": "Rehabilitationsklinik",
@@ -129,27 +129,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          35
+          32
         ],
         [
           "20 bis 39 J.",
-          172
+          175
         ],
         [
           "40 bis 59 J.",
-          270
+          286
         ],
         [
           "60 bis 79 J.",
-          706
+          775
         ],
         [
           "80 J. u.m.",
-          1759
+          1951
         ],
         [
           "Total",
-          2942
+          3219
         ]
       ],
       "name": "Sozialmedizinische institution",
@@ -160,27 +160,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          51
+          54
         ],
         [
           "20 bis 39 J.",
-          19
+          23
         ],
         [
           "40 bis 59 J.",
-          175
+          142
         ],
         [
           "60 bis 79 J.",
-          643
+          650
         ],
         [
           "80 J. u.m.",
-          713
+          762
         ],
         [
           "Total",
-          1601
+          1631
         ]
       ],
       "name": "Todesfall",
@@ -191,27 +191,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          139
+          191
         ],
         [
           "20 bis 39 J.",
-          92
+          73
         ],
         [
           "40 bis 59 J.",
-          60
+          72
         ],
         [
           "60 bis 79 J.",
-          60
+          49
         ],
         [
           "80 J. u.m.",
-          39
+          31
         ],
         [
           "Total",
-          390
+          416
         ]
       ],
       "name": "Andere",
@@ -222,27 +222,27 @@
       "data": [
         [
           "0 bis 19 J.",
-          9
+          16
         ],
         [
           "20 bis 39 J.",
-          6
+          14
         ],
         [
           "40 bis 59 J.",
-          5
+          10
         ],
         [
           "60 bis 79 J.",
-          5
+          7
         ],
         [
           "80 J. u.m.",
-          1
+          4
         ],
         [
           "Total",
-          26
+          51
         ]
       ],
       "name": "Unbekannt",
@@ -329,7 +329,7 @@
     "text": "Aufenthaltsorte nach dem Spitalaustritt"
   },
   "subtitle": {
-    "text": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2021",
+    "text": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -390,7 +390,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"

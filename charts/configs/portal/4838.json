@@ -5,87 +5,87 @@
       "data": [
         [
           "Bruderholz",
-          0.1171362
+          0.1238738
         ],
         [
           "Breite",
-          0.1281845
+          0.1370058
         ],
         [
           "Riehen",
-          0.1552417
+          0.1556797
         ],
         [
           "Bettingen",
-          0.1572824
+          0.1651224
         ],
         [
           "Iselin",
-          0.1608849
+          0.1657527
         ],
         [
           "Matthäus",
-          0.1757671
+          0.1704631
         ],
         [
           "Bachletten",
-          0.2017745
-        ],
-        [
-          "Gotthelf",
-          0.2983025
+          0.1876437
         ],
         [
           "Hirzbrunnen",
-          0.3136132
+          0.2816528
+        ],
+        [
+          "Gotthelf",
+          0.2895991
         ],
         [
           "Klybeck",
-          0.4661338
+          0.4584357
         ],
         [
           "Clara",
-          0.5328681
-        ],
-        [
-          "Rosental",
-          0.559021
+          0.4957204
         ],
         [
           "Gundeldingen",
-          0.5969755
+          0.6064143
+        ],
+        [
+          "Rosental",
+          0.6296403
         ],
         [
           "Am Ring",
-          0.9385228
+          0.939805
         ],
         [
           "St. Johann",
-          1.0269672
+          1.023927
         ],
         [
           "Altstadt Kleinbasel",
-          1.4664523
+          1.8234557
         ],
         [
           "Wettstein",
-          1.8452776
-        ],
-        [
-          "Kleinhüningen",
-          2.0157353
+          1.8331939
         ],
         [
           "St. Alban",
-          2.2699881
+          2.3068373
+        ],
+        [
+          "Kleinhüningen",
+          2.3079066
         ],
         [
           "Altstadt Grossbasel",
-          3.6446443
+          3.6851086
         ],
         [
           "Vorstädte",
-          4.4764512
+          4.622108
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Gotthelf",
+          "Hirzbrunnen",
           8
         ],
         [
-          "Hirzbrunnen",
+          "Gotthelf",
           9
         ],
         [
@@ -139,11 +139,11 @@
           11
         ],
         [
-          "Rosental",
+          "Gundeldingen",
           12
         ],
         [
-          "Gundeldingen",
+          "Rosental",
           13
         ],
         [
@@ -163,11 +163,11 @@
           17
         ],
         [
-          "Kleinhüningen",
+          "St. Alban",
           18
         ],
         [
-          "St. Alban",
+          "Kleinhüningen",
           19
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2021",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2023"
   },
   "legend": {
     "enabled": false,

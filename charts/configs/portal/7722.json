@@ -4,24 +4,24 @@
       "color": "#923F8D",
       "data": [
         [
-          "2022-2025",
-          239683
+          "2023-2025",
+          226948
         ],
         [
           "2026-2030",
-          551589
+          362256
         ],
         [
           "2031-2035",
-          415636
+          447981
         ],
         [
           "2036-2040",
-          386909
+          373946
         ],
         [
           "2041-2045",
-          386426
+          289409
         ]
       ],
       "name": "Hohes Szenario",
@@ -31,24 +31,24 @@
       "color": "#DC440E",
       "data": [
         [
-          "2022-2025",
-          184188
+          "2023-2025",
+          175172
         ],
         [
           "2026-2030",
-          320082
+          254505
         ],
         [
           "2031-2035",
-          224824
+          292756
         ],
         [
           "2036-2040",
-          198624
+          215691
         ],
         [
           "2041-2045",
-          193233
+          151983
         ]
       ],
       "name": "Mittleres Szenario",
@@ -58,24 +58,24 @@
       "color": "#FFDA80",
       "data": [
         [
-          "2022-2025",
-          122678
+          "2023-2025",
+          112243
         ],
         [
           "2026-2030",
-          127275
+          120476
         ],
         [
           "2031-2035",
-          58286
+          81353
         ],
         [
           "2036-2040",
-          59286
+          62335
         ],
         [
           "2041-2045",
-          54399
+          64808
         ]
       ],
       "name": "Tiefes Szenario",
@@ -158,7 +158,7 @@
     "text": "Zusätzliche Wohnfläche nach Prognosezeitraum"
   },
   "subtitle": {
-    "text": "in m². Bevölkerungsszenarien Basel-Stadt, 2022",
+    "text": "in m², Bevölkerungsszenarien Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -213,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 5.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

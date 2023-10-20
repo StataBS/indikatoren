@@ -93,6 +93,10 @@
         [
           "2020\u002F21",
           83
+        ],
+        [
+          "2021\u002F22",
+          82.5
         ]
       ],
       "name": "Diphtherie\u002FTetanus",
@@ -192,6 +196,10 @@
         [
           "2020\u002F21",
           83.5
+        ],
+        [
+          "2021\u002F22",
+          83.8
         ]
       ],
       "name": "Hepatitis B",
@@ -291,6 +299,10 @@
         [
           "2020\u002F21",
           97
+        ],
+        [
+          "2021\u002F22",
+          96.7
         ]
       ],
       "name": "Masern",
@@ -390,6 +402,10 @@
         [
           "2020\u002F21",
           93.1
+        ],
+        [
+          "2021\u002F22",
+          94.4
         ]
       ],
       "name": "Poliomyelitis",
@@ -488,6 +504,10 @@
         [
           "2020\u002F21",
           82.2
+        ],
+        [
+          "2021\u002F22",
+          81.1
         ]
       ],
       "name": "Pertussis",
@@ -586,6 +606,10 @@
         [
           "2020\u002F21",
           57.5
+        ],
+        [
+          "2021\u002F22",
+          54.9
         ]
       ],
       "name": "HPV",
@@ -721,7 +745,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

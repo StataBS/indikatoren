@@ -6,55 +6,55 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Hirzbrunnen",
           "y": 12,
-          "Wert": 0.0476088585
+          "Wert": 0.0442880347
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 4,
-          "Wert": 0.259976463
+          "Wert": 0.2638873849
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Hirzbrunnen",
           "y": 4,
-          "Wert": 0.1848263851
+          "Wert": 0.1878234064
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Hirzbrunnen",
           "y": 11,
-          "Wert": 0.3631
+          "Wert": 0.3237
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.4209208245
+          "Wert": 0.4168289832
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Hirzbrunnen",
           "y": 17,
-          "Wert": 0.3975607147
+          "Wert": 0.3985923119
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 18,
-          "Wert": 0.379695627
+          "y": 19,
+          "Wert": 0.3819633814
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Hirzbrunnen",
           "y": 16,
-          "Wert": 1942.689265536723
+          "Wert": 1942.72789968652
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.692404268675
+          "Wert": 0.691536050156
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -66,37 +66,37 @@
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Hirzbrunnen",
           "y": 12,
-          "Wert": 81.69519
+          "Wert": 81.650602
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 8,
-          "Wert": 39.005769
+          "Wert": 39.106132
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 9,
-          "Wert": 715.6
+          "y": 10,
+          "Wert": 740.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 8059.7
+          "Wert": 8074.7
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Hirzbrunnen",
           "y": 6,
-          "Wert": 0.7112519
+          "Wert": 0.712571
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 9,
-          "Wert": 0.3114407
+          "Wert": 0.3136132
         }
       ],
       "name": "Wert",
@@ -215,7 +215,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "Ausgabe 2023",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
   },
   "legend": {
     "enabled": false,

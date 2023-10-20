@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2002,
-          16.5
-        ],
-        [
           2003,
           17.2
         ],
@@ -82,7 +78,11 @@
         ],
         [
           2021,
-          26.3
+          26.2
+        ],
+        [
+          2022,
+          25.2
         ]
       ],
       "name": "Schweiz"
@@ -93,16 +93,12 @@
       "dashStyle": "ShortDash",
       "data": [
         [
-          2002,
-          18.5
-        ],
-        [
           2003,
           18.2
         ],
         [
           2004,
-          18.7
+          18.8
         ],
         [
           2005,
@@ -171,6 +167,10 @@
         [
           2021,
           26.2
+        ],
+        [
+          2022,
+          25
         ]
       ],
       "name": "Schweizer"
@@ -180,10 +180,6 @@
       "legendIndex": 4,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2002,
-          14.8
-        ],
         [
           2003,
           16.3
@@ -259,6 +255,10 @@
         [
           2021,
           26.3
+        ],
+        [
+          2022,
+          25.4
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          2002,
-          4.2
-        ],
         [
           2003,
           4.1
@@ -346,6 +342,10 @@
         [
           2021,
           8
+        ],
+        [
+          2022,
+          8.4
         ]
       ],
       "name": "Ausland"
@@ -355,10 +355,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2002,
-          4.5
-        ],
         [
           2003,
           4.1
@@ -434,6 +430,10 @@
         [
           2021,
           7.8
+        ],
+        [
+          2022,
+          8.7
         ]
       ],
       "name": "Ausländer"
@@ -443,10 +443,6 @@
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2002,
-          4
-        ],
         [
           2003,
           4.1
@@ -521,6 +517,10 @@
         ],
         [
           2021,
+          8.2
+        ],
+        [
+          2022,
           8.2
         ]
       ],
@@ -660,7 +660,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

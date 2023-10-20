@@ -4,6 +4,14 @@
       "color": "rgb(71,71,71)",
       "data": [
         [
+          2014,
+          32.3867139976335
+        ],
+        [
+          2015,
+          32.1532067098313
+        ],
+        [
           2016,
           31.8930294884126
         ],
@@ -22,6 +30,14 @@
         [
           2020,
           31.2865544317704
+        ],
+        [
+          2021,
+          31.5995507520021
+        ],
+        [
+          2022,
+          31.5247698093632
         ]
       ],
       "name": "Basel-Stadt"
@@ -29,6 +45,14 @@
     {
       "color": "rgb(255,128,40)",
       "data": [
+        [
+          2014,
+          35.1238587260585
+        ],
+        [
+          2015,
+          35.6392911980744
+        ],
         [
           2016,
           36.0725153924182
@@ -48,6 +72,14 @@
         [
           2020,
           38.2810111699001
+        ],
+        [
+          2021,
+          38.952525288126
+        ],
+        [
+          2022,
+          39.481991761627
         ]
       ],
       "name": "Basel-Landschaft"
@@ -55,6 +87,14 @@
     {
       "color": "rgb(250,189,36)",
       "data": [
+        [
+          2014,
+          33.6129291401838
+        ],
+        [
+          2015,
+          34.1879738192777
+        ],
         [
           2016,
           34.5666283946857
@@ -74,6 +114,14 @@
         [
           2020,
           37.051101734646
+        ],
+        [
+          2021,
+          37.8549934173406
+        ],
+        [
+          2022,
+          38.4423353194696
         ]
       ],
       "name": "Jura"
@@ -204,7 +252,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-2"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
