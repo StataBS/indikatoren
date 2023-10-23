@@ -8814,47 +8814,45 @@
 		"id": 4869
 	},
 	{
+		"template": "template001",
+		"data-id": 4871,
+		"chart-id": 4871,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6042,
+			8410,
+			8932
+		],
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.17.3.4871",
-		"kuerzelKunde": "3.3.03",
-		"description": "Wahlbeteiligung an National- und Grossratswahlen",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2023 wurde die 50%-Marke wie schon 2019 auch national knapp unterschritten.",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:17.1717",
+		"description": "Wahlbeteiligung an National- und Grossratswahlen",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kuerzel": "I.17.3.4871",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.3.03",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
-		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
-		"template": "template001",
+		"orderKey": "03_03_00_00_00_062",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_062",
-		"parentId": null,
-		"children": [
-			"6042",
-			"8410",
-			"8932"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4871,
-		"chart-id": 4871,
-		"filter": "",
+		"aktualisierungsdatum": "2023-10-23T09:25:05",
 		"id": 4871
 	},
 	{
@@ -11649,9 +11647,9 @@
 		"children": [
 			6253
 		],
-		"title": "Anteil Einwohner pro ÖV-Güteklasse",
+		"title": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
+		"lesehilfe": "Fast zwei Drittel der Wohnbevölkerung des Kantons Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 30% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -11664,7 +11662,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"description": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kuerzel": "I.11.2.05822",
@@ -11680,7 +11678,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:33",
+		"aktualisierungsdatum": "2023-10-23T09:25:07",
 		"id": 5822
 	},
 	{
@@ -12949,7 +12947,7 @@
 		"children": [],
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2023 wurde die 50%-Marke wie schon 2019 auch national knapp unterschritten.",
 		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -12964,18 +12962,18 @@
 		"unterthema": "Wahlen",
 		"kuerzel": "I.17.3.06042",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GZ9",
+		"kuerzelKunde": "GZ11",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Gesellschaftliche Verantwortung",
+		"stufe2": "Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_03_00_00_00_510",
+		"orderKey": "05_03_00_00_00_511",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:57",
+		"aktualisierungsdatum": "2023-10-23T09:25:06",
 		"id": 6042
 	},
 	{
@@ -15344,7 +15342,7 @@
 		],
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Schultyp, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2022 bei total 2,7%. Das ist der tiefste Wert seit 2014. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu einem unruhigen Kurvenverlauf.",
+		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2023 bei total 0,8%. Das ist mit Abstand der tiefste Wert im Beobachtungszeitraum. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu einem unruhigen Kurvenverlauf.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und -abgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Erziehungsdepartement des Kantons Basel-Stadt. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren; ohne Gymnasien. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
@@ -15370,7 +15368,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-26T08:43:03",
+		"aktualisierungsdatum": "2023-10-23T09:25:04",
 		"id": 6206
 	},
 	{
@@ -21339,7 +21337,7 @@
 		],
 		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2021 sind 6,1% aller im Kanton Basel­Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch als bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"lesehilfe": "Im Jahr 2022 sind 6,1% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch wie bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz stagnierend) am stärksten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -21366,7 +21364,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:12",
+		"aktualisierungsdatum": "2023-10-23T09:25:05",
 		"id": 6419
 	},
 	{
@@ -22423,7 +22421,7 @@
 		],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2020 rund 148 600 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Rückgang um rund 3 800 VZÄ bzw. 2,5% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 000 VZÄ (+0,5% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 400 VZÄ (-0,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (-0,5%). Das stärkste Wachstum verzeichnen die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,5%), Finanz- und Versicherungsdienstleistungen (+3,4%) sowie Information und Kommunikation (+2,6%). Die Branchen Gastgewerbe (-28,6%), Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (-9,3%) sowie Verkehr und Lagerei (-5,0%) sind dagegen am stärksten rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%) zum Vorjahr. Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie / Pharma; -2,5%) sind dagegen rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -22449,7 +22447,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-23T09:25:04",
 		"id": 6459
 	},
 	{
@@ -22667,7 +22665,7 @@
 		],
 		"title": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
-		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel­Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel­Stadt sind bspw. im Mittel der Jahre 2017 bis 2019 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (25,3%) und im 5. Quintil (22,9%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel­Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile im 1. und 5. Quintil liegen auch über 20%, beim 5. Quintil mit 20,4% allerdings nur knapp.",
+		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2020 bis 2022 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: Der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (29,0%) und im 5. Quintil (26,4%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die inkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile liegen mit 19,5% (1. Quintil) bzw. 19,9% (5. Quintil) sehr nahe bei 20%.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -22693,7 +22691,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:21",
+		"aktualisierungsdatum": "2023-10-23T09:25:06",
 		"id": 6467
 	},
 	{
@@ -38557,7 +38555,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "133 149 Logiernächte wurden im August 2023 in den Basler Hotelbetrieben gebucht, 10 690 bzw. 7,4% wenigerr als im Juli. Im Vergleich zum August 2022 entspricht dies einer Abnahme um 2,9% bzw. 4 036 Übernachtungen. Die inländischen Gäste buchten 44 284 Logiernächte (-23,3%), die Gäste aus dem Ausland 88 865 Übernachtungen (+11,8%).",
+		"lesehilfe": "133 010 Logiernächte wurden im September 2023 in den Basler Hotelbetrieben gebucht, 139 bzw. 0,1% wenigerr als im August. Im Vergleich zum September 2022 entspricht dies einer Abnahme um 5,3% bzw. 7 383 Übernachtungen. Die inländischen Gäste buchten 45 699 Logiernächte (-9,9%), die Gäste aus dem Ausland 87 311 Übernachtungen (-2,6%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -38583,7 +38581,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:15:59",
+		"aktualisierungsdatum": "2023-10-23T09:25:01",
 		"id": 7516
 	},
 	{
@@ -38594,8 +38592,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -38621,7 +38619,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:16:00",
+		"aktualisierungsdatum": "2023-10-23T09:25:02",
 		"id": 7517
 	},
 	{
@@ -73471,7 +73469,7 @@
 		],
 		"title": "Angebotsquote bei Büroflächen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2021 waren 5,4% aller Büroflächen auf dem Markt verfügbar.",
+		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2022 waren 5,9% aller Büroflächen auf dem Markt verfügbar.",
 		"erlaeuterungen": "Die Angebotsquote drückt das Angebot leerstehender und angebotener Büroflächen gemessen an der Gesamtfläche der Büroflächen aus.",
 		"quellenangabe": [
 			"JLL Büromarkt Schweiz"
@@ -73497,7 +73495,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:21",
+		"aktualisierungsdatum": "2023-10-23T09:25:03",
 		"id": 9366
 	},
 	{
@@ -73511,7 +73509,7 @@
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3 500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2021 rund 3 800 Beschäftigte in der Branche Kultur tätig und damit rund 200 mehr als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -73523,8 +73521,8 @@
 		],
 		"description": "Beschäftigte in der Branche Kultur",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kuerzel": "I.03.1.09368",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09368",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.14",
 		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
@@ -73537,7 +73535,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:52",
+		"aktualisierungsdatum": "2023-10-23T09:25:03",
 		"id": 9368
 	},
 	{
@@ -80529,7 +80527,7 @@
 		"title": "Anzahl gewanderte Privathaushalte",
 		"subtitle": "nach Wanderungstyp, Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 sind 6 814 Privathaushalte umgezogen, 4 402 zugezogen und 3 595 weggezogen. Zudem gab es 884 Zusammenzüge.",
-		"erlaeuterungen": "Einen Haushalt bilden alle Personen, die in der gleichen Wohnung leben. Ein Privathaushalt (PHH) gilt innerhalb eines Quartals als «gewandert», wenn für jede Person im Haushalt in den drei Monaten dieses Quartals das Ereignis Umzug, Zuzug oder Wegzug vorliegt. Bei den ausgewiesenen Zahlen zur Wanderung der PHH nach Jahr handelt es sich um summierte Quartalszahlen. Sie werden für die folgenden vier Wanderungstypen ausgewiesen: Umzug PHH, Zuzug PHH, Zusammenzug PHH und Wegzug PHH.<br>Umzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus der gleichen Wohnung im Kanton Basel-Stadt gemeinsam in eine andere Wohnung in Basel-Stadt umgezogen. <br>Wegzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus der gleichen Wohnung aus dem Kanton Basel-Stadt weggezogen. <br>Zuzug PHH: Alle Personen des Privathaushalts sind während eines Quartals in die gleiche Wohnung in Basel-Stadt zugezogen. Alle Personen hatten zuvor einen Wohnort ausserhalb von Basel-Stadt. Der Wohnort vor dem Zuzug muss nicht für alle Personen gleich gewesen sein.<br>Zusammenzug PHH: Die Personen des Privathaushalts sind in einem Quartal in die gleiche Wohnung in Basel-Stadt zusammengezogen. Vor dem Zusammenzug gab es mindestens zwei unterschiedliche Wohnorte in Basel-Stadt oder mindestens eine Person ist von ausserhalb des Kantons zugezogen.",
+		"erlaeuterungen": "Einen Haushalt bilden alle Personen, die in derselben Wohnung leben. Ein Privathaushalt (PHH) gilt innerhalb eines Quartals als «gewandert», wenn für jede Person im Haushalt in den drei Monaten dieses Quartals das Ereignis Umzug, Zuzug oder Wegzug vorliegt. Bei den ausgewiesenen Zahlen zur Wanderung der PHH nach Jahr handelt es sich um summierte Quartalszahlen. Sie werden für die folgenden vier Wanderungstypen ausgewiesen: Umzug PHH, Zuzug PHH, Zusammenzug PHH und Wegzug PHH.<br>Umzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung im Kanton Basel-Stadt gemeinsam in eine andere Wohnung in Basel-Stadt umgezogen. <br>Wegzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung aus dem Kanton Basel-Stadt weggezogen. <br>Zuzug PHH: Alle Personen des Privathaushalts sind während eines Quartals in dieselbe Wohnung in Basel-Stadt zugezogen. Alle Personen hatten zuvor einen Wohnort ausserhalb von Basel-Stadt. Der Wohnort vor dem Zuzug muss nicht für alle Personen gleich gewesen sein.<br>Zusammenzug PHH: Die Personen des Privathaushalts sind in einem Quartal in dieselbe Wohnung in Basel-Stadt zusammengezogen. Vor dem Zusammenzug gab es mindestens zwei unterschiedliche Wohnorte in Basel-Stadt oder mindestens eine Person ist von ausserhalb des Kantons zugezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -80554,7 +80552,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-22T08:41:34",
+		"aktualisierungsdatum": "2023-10-23T09:25:02",
 		"id": 9800
 	},
 	{
