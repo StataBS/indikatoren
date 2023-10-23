@@ -30,6 +30,10 @@
           0.253
         ],
         [
+          "Ausland: 2020-2022",
+          0.29
+        ],
+        [
           " ",
           null
         ],
@@ -56,6 +60,10 @@
         [
           "Schweiz: 2017-2019",
           0.244
+        ],
+        [
+          "Schweiz: 2020-2022",
+          0.195
         ]
       ],
       "name": "1. Quintil",
@@ -91,6 +99,10 @@
           0.188
         ],
         [
+          "Ausland: 2020-2022",
+          0.146
+        ],
+        [
           " ",
           null
         ],
@@ -117,6 +129,10 @@
         [
           "Schweiz: 2017-2019",
           0.182
+        ],
+        [
+          "Schweiz: 2020-2022",
+          0.194
         ]
       ],
       "name": "2. Quintil",
@@ -152,6 +168,10 @@
           0.175
         ],
         [
+          "Ausland: 2020-2022",
+          0.131
+        ],
+        [
           " ",
           null
         ],
@@ -178,6 +198,10 @@
         [
           "Schweiz: 2017-2019",
           0.186
+        ],
+        [
+          "Schweiz: 2020-2022",
+          0.217
         ]
       ],
       "name": "3. Quintil",
@@ -213,6 +237,10 @@
           0.155
         ],
         [
+          "Ausland: 2020-2022",
+          0.169
+        ],
+        [
           " ",
           null
         ],
@@ -239,6 +267,10 @@
         [
           "Schweiz: 2017-2019",
           0.183
+        ],
+        [
+          "Schweiz: 2020-2022",
+          0.194
         ]
       ],
       "name": "4. Quintil",
@@ -274,6 +306,10 @@
           0.229
         ],
         [
+          "Ausland: 2020-2022",
+          0.264
+        ],
+        [
           " ",
           null
         ],
@@ -300,6 +336,10 @@
         [
           "Schweiz: 2017-2019",
           0.204
+        ],
+        [
+          "Schweiz: 2020-2022",
+          0.199
         ]
       ],
       "name": "5. Quintil",
@@ -372,7 +412,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 20,
+      "pointWidth": 16,
       "stacking": "normal"
     }
   },
@@ -448,7 +488,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2023"
   },
   "tooltip": {
     "pointFormatter": function () {

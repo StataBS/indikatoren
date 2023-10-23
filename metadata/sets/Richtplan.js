@@ -445,9 +445,9 @@ var indikatorensetData = [
 		"children": [
 			6253
 		],
-		"title": "Anteil Einwohner pro ÖV-Güteklasse",
+		"title": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
+		"lesehilfe": "Fast zwei Drittel der Wohnbevölkerung des Kantons Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 30% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -460,7 +460,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"description": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kuerzel": "I.11.2.05822",
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:33",
+		"aktualisierungsdatum": "2023-10-23T09:25:07",
 		"id": 5822
 	},
 	{

@@ -42,6 +42,10 @@
         [
           "2020",
           1854
+        ],
+        [
+          "2021",
+          2042
         ]
       ],
       "name": "Darstellende Kunst",
@@ -89,6 +93,10 @@
         [
           "2020",
           372
+        ],
+        [
+          "2021",
+          364
         ]
       ],
       "name": "Kunst, Schriftstellerei",
@@ -136,6 +144,10 @@
         [
           "2020",
           122
+        ],
+        [
+          "2021",
+          135
         ]
       ],
       "name": "Kultur-, Unterhaltungseinrichtungen",
@@ -183,6 +195,10 @@
         [
           "2020",
           244
+        ],
+        [
+          "2021",
+          233
         ]
       ],
       "name": "Bibliotheken und Archive",
@@ -230,6 +246,10 @@
         [
           "2020",
           721
+        ],
+        [
+          "2021",
+          773
         ]
       ],
       "name": "Museen",
@@ -277,6 +297,10 @@
         [
           "2020",
           7
+        ],
+        [
+          "2021",
+          4
         ]
       ],
       "name": "Historische Stätten, Gebäude u.ä.",
@@ -324,6 +348,10 @@
         [
           "2020",
           222
+        ],
+        [
+          "2021",
+          228
         ]
       ],
       "name": "Botanische Gärten, Zoos, Naturparks",
@@ -345,7 +373,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -45
     },
     "tickInterval": 1
   },
@@ -473,7 +501,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2023"
   },
   "tooltip": {
     "shared": true,
