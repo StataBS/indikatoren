@@ -42,6 +42,10 @@
         [
           2021,
           5.4
+        ],
+        [
+          2022,
+          5.9
         ]
       ],
       "name": "Angebotsquote"
@@ -175,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: JLL Büromarkt Schweiz.\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: JLL Büromarkt Schweiz.\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
