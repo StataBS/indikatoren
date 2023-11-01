@@ -7,15 +7,15 @@
       "data": [
         [
           "Basel-Stadt",
-          424
+          631
         ],
         [
           "Basel-Landschaft",
-          619
+          852
         ],
         [
           "Jura",
-          196
+          316
         ]
       ],
       "name": "Industrie",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Basel-Stadt",
-          4159
+          5857
         ],
         [
           "Basel-Landschaft",
-          3810
+          5322
         ],
         [
           "Jura",
-          855
+          1369
         ]
       ],
       "name": "Dienstleistungen",
@@ -122,7 +122,7 @@
     "text": "Neugegründete Unternehmen"
   },
   "subtitle": {
-    "text": "2014-2017",
+    "text": "2015-2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -177,7 +177,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003E{point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
@@ -185,6 +185,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8437
+    "filename": "8437"
   }
 }

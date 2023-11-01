@@ -44,6 +44,10 @@
         [
           "2021",
           5.7
+        ],
+        [
+          "2022",
+          5.3
         ]
       ],
       "name": "Stadt Basel",
@@ -92,6 +96,10 @@
         [
           "2021",
           6.275
+        ],
+        [
+          "2022",
+          5.975
         ]
       ],
       "name": "Mittelwert Vergleichsstädte",
@@ -139,6 +147,10 @@
         ],
         [
           "2021",
+          0
+        ],
+        [
+          "2022",
           0
         ]
       ],
@@ -194,6 +206,10 @@
         [
           "2021",
           -0.4
+        ],
+        [
+          "2022",
+          -0.4
         ]
       ],
       "name": "Veränderung Stadt Basel",
@@ -248,6 +264,10 @@
         [
           "2021",
           -0.125
+        ],
+        [
+          "2022",
+          -0.3
         ]
       ],
       "name": "Veränderung Mittelwert Vergleichsstädte",
@@ -297,6 +317,10 @@
         [
           "2021",
           5.1
+        ],
+        [
+          "2022",
+          4.9
         ]
       ],
       "name": "Bern",
@@ -346,6 +370,10 @@
         [
           "2021",
           5.5
+        ],
+        [
+          "2022",
+          5
         ]
       ],
       "name": "Winterthur",
@@ -395,6 +423,10 @@
         [
           "2021",
           4.3
+        ],
+        [
+          "2022",
+          4.1
         ]
       ],
       "name": "Zürich",
@@ -444,6 +476,10 @@
         [
           "2021",
           10.2
+        ],
+        [
+          "2022",
+          9.9
         ]
       ],
       "name": "Biel",
@@ -500,18 +536,29 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-          data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
-              element.update({
-                color: colors[assessed[i].y],
-                marker: {
-                  enabled: true,
-                  lineWidth: 1,
-                  lineColor: "#0091f7"
+            data.forEach(function (element, i) {
+              if (assessed[i].y !== null) {
+                element.update({
+                  color: colors[assessed[i].y],
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 3
+                  }
+                });
+                if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                  element.update({
+                    marker: {
+                      enabled: true,
+                      lineWidth: 1,
+                      lineColor: "#0091f7",
+                      radius: 4.5
+                    }
+                  });
                 }
-              })
-            }
-          });
+              }
+            });
         }
     },
     "renderTo": "container-9693"
@@ -592,7 +639,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.5.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
