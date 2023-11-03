@@ -43,10 +43,12 @@ var indikatoren = [
 		"chart-id": 10029,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11189
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Jura",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte im Jahr 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte von Frauen und Männern in den Jahren 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 200 Personen für den Kanton Jura und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
@@ -61,7 +63,7 @@ var indikatoren = [
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10029",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-3",
+		"kuerzelKunde": "2.4.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.4 Unbezahlte Arbeit",
 		"stufe3": "",
@@ -72,7 +74,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"aktualisierungsdatum": "2023-11-03T10:03:50",
 		"id": 10029
 	},
 	{
@@ -67618,7 +67620,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-26T03:45:23",
+		"aktualisierungsdatum": "2023-11-03T10:03:48",
 		"id": 8995
 	},
 	{
@@ -67992,7 +67994,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-26T03:45:23",
+		"aktualisierungsdatum": "2023-11-03T10:03:49",
 		"id": 9022
 	},
 	{
@@ -68030,7 +68032,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-26T03:45:24",
+		"aktualisierungsdatum": "2023-11-03T10:03:49",
 		"id": 9023
 	},
 	{

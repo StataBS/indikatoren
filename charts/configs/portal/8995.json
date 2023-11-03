@@ -4756,7 +4756,7 @@
         ],
         [
           1696204800000,
-          null
+          3
         ],
         [
           1696809600000,
@@ -15340,7 +15340,7 @@
         ],
         [
           1660521600000,
-          28
+          29
         ],
         [
           1661126400000,
@@ -15560,7 +15560,7 @@
         ],
         [
           1693785600000,
-          39
+          40
         ],
         [
           1694390400000,
@@ -15576,7 +15576,7 @@
         ],
         [
           1696204800000,
-          null
+          22
         ],
         [
           1696809600000,
@@ -21384,7 +21384,7 @@
         {
           "x": 1673222400000,
           "low": 23.5,
-          "high": 55.9
+          "high": 56
         },
         {
           "x": 1673827200000,
@@ -21453,7 +21453,7 @@
         },
         {
           "x": 1681689600000,
-          "low": 20.1,
+          "low": 20.2,
           "high": 50.8
         },
         {
@@ -21523,7 +21523,7 @@
         },
         {
           "x": 1690156800000,
-          "low": 18.8,
+          "low": 18.9,
           "high": 48.8
         },
         {
@@ -21533,7 +21533,7 @@
         },
         {
           "x": 1691366400000,
-          "low": 19,
+          "low": 19.1,
           "high": 49.1
         },
         {
@@ -21563,7 +21563,7 @@
         },
         {
           "x": 1694995200000,
-          "low": 19.1,
+          "low": 19.2,
           "high": 49.3
         },
         {
@@ -21633,8 +21633,8 @@
         },
         {
           "x": 1703462400000,
-          "low": 25.7,
-          "high": 59.3
+          "low": 25.8,
+          "high": 59.4
         }
       ],
       "name": "Untere Grenze Erwartungsbereich 65+ Jahre"
@@ -21658,7 +21658,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1701352062015,
+    "max": 1702026459307,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -21799,7 +21799,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
