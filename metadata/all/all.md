@@ -1418,15 +1418,15 @@ id | visible | visibleInPortal | indikatorenset
 8113 | true | false | City-Statistics (Print)
 8114 | true | false | City-Statistics (Print)
 8115 | true | false | City-Statistics (Print)
-8240 | true | true | CMS Kennzahlen Soziales
+8240 | false |  | CMS Kennzahlen Soziales
 8241 | true | true | CMS Kennzahlen Soziales
 8242 | true | true | CMS Kennzahlen Soziales
 8243 | true | true | CMS Kennzahlen Soziales
-8244 | true | true | CMS Kennzahlen Soziales
+8244 | false |  | CMS Kennzahlen Soziales
 8245 | true | true | CMS Kennzahlen Soziales
-8246 | true | true | CMS Kennzahlen Soziales
-8247 | true | true | CMS Kennzahlen Soziales
-8248 | true | true | CMS Kennzahlen Soziales
+8246 | false |  | CMS Kennzahlen Soziales
+8247 | false |  | CMS Kennzahlen Soziales
+8248 | false |  | CMS Kennzahlen Soziales
 8249 | true | true | CMS Kennzahlen Soziales
 8250 | true | true | CMS Kennzahlen Soziales
 8251 | true | true | CMS Kennzahlen Soziales
@@ -1438,7 +1438,7 @@ id | visible | visibleInPortal | indikatorenset
 8258 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
 8261 | true | true | CMS Kennzahlen Soziales
-8262 | true | true | CMS Kennzahlen Soziales
+8262 | false |  | CMS Kennzahlen Soziales
 8263 | true | true | CMS Kennzahlen Soziales
 8264 | true | true | CMS Kennzahlen Soziales
 8265 | true | true | CMS Kennzahlen Soziales
