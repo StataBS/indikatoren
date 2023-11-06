@@ -31481,48 +31481,6 @@
 		"id": 8094
 	},
 	{
-		"title": "In der Schweiz geborene Personen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.08240",
-		"kuerzelKunde": "1-01",
-		"description": "In der Schweiz geborene Personen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:51.5151",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grössten Anteile in der Schweiz geborener Personen waren 2019 mit jeweils mindestens 65% in den Wohnvierteln Bachletten, Hirzbrunnen, Bruderholz und Riehen zu finden. Im Wohnviertel Vorstädte sank dieser Anteil in den letzten zehn Jahren mit einem Minus von 6,8 Prozenpunkten am stärksten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
-		"template": "mappie001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"8511"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8240,
-		"chart-id": 8240,
-		"filter": "",
-		"id": 8240
-	},
-	{
 		"template": "mappie001",
 		"data-id": 8241,
 		"chart-id": 8241,
@@ -31643,48 +31601,6 @@
 		"id": 8243
 	},
 	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht», Basel-Stadt",
-		"kuerzel": "I.50.2.08244",
-		"kuerzelKunde": "1-09",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T10:06:36.3636",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In fast allen Bereichen liegt die Einschätzung, dass das Geld nicht reicht, tiefer als 2009 und 2013. Am wenigsten Geld steht zum Sparen (35,8%), für eine Haushaltshilfe (35,6%) und für die private Vorsorge (30,7%) zur Verfügung. Am tiefsten ist der Wert bei den Lebensmittel. Lediglich 2,3% der befragten Familien geben an, dass ihnen das Geld für Lebensmittel nicht reicht.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
-		"parentId": null,
-		"children": [
-			"8515"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8244,
-		"chart-id": 8244,
-		"filter": "",
-		"id": 8244
-	},
-	{
 		"title": "Finanzielle Unterstützung",
 		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?», Basel-Stadt",
 		"kuerzel": "I.50.2.08245",
@@ -31725,130 +31641,6 @@
 		"chart-id": 8245,
 		"filter": "",
 		"id": 8245
-	},
-	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08246",
-		"kuerzelKunde": "1-11",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T11:46:08.088",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_111",
-		"parentId": null,
-		"children": [
-			"8517"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8246,
-		"chart-id": 8246,
-		"filter": "",
-		"id": 8246
-	},
-	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08247",
-		"kuerzelKunde": "1-12",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T12:02:48.4848",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "28,3% der befragten Familien stimmen 2017 der Aussage «In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» genau oder eher zu. 62,9% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,3% vs. 25,5%). Wenig überraschend stimmen Familien mit einem Haushaltseinkommen unter 3000 Franken pro Monat der Aussage deutlich häufiger zu als Familien mit höherem Haushaltseinkommen (55,8% vs. 46,9% vs. 13,0%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_112",
-		"parentId": null,
-		"children": [
-			"8518"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8247,
-		"chart-id": 8247,
-		"filter": "",
-		"id": 8247
-	},
-	{
-		"template": "template001",
-		"data-id": 8248,
-		"chart-id": 8248,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8519
-		],
-		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"subtitle": "nach Grossregion, 2020",
-		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 5,9% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 16,6% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-06",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_106",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:40",
-		"id": 8248
 	},
 	{
 		"template": "template001",
@@ -32214,48 +32006,6 @@
 		"chart-id": 8261,
 		"filter": "",
 		"id": 8261
-	},
-	{
-		"title": "Gesundheitliche Unterstützung",
-		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08262",
-		"kuerzelKunde": "1-31",
-		"description": "Gesundheitliche Unterstützung",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Aufgrund von gesundheitlichen Problemen haben 71,7% der befragten Familien schon einmal Hilfe oder Unterstützung gebraucht. Einelternfamilien haben mit 77,9% deutlich häufiger Unterstützung und Hilfe benötigt als Zweielternfamilien (70,7%)",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_04_00_00_00_131",
-		"parentId": null,
-		"children": [
-			"8533"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8262,
-		"chart-id": 8262,
-		"filter": "",
-		"id": 8262
 	},
 	{
 		"template": "template001",
