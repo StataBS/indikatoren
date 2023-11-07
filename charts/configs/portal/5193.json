@@ -48,6 +48,10 @@
         [
           2020,
           477
+        ],
+        [
+          2021,
+          494
         ]
       ],
       "name": "Kulturerbe"
@@ -100,6 +104,10 @@
         [
           2020,
           663
+        ],
+        [
+          2021,
+          611
         ]
       ],
       "name": "Kultur, übrige"
@@ -238,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2023"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
