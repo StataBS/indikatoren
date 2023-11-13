@@ -1,218 +1,195 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#083038",
       "data": [
         [
-          "BS",
-          8.65
+          2013,
+          57.8
         ],
         [
-          "BL",
-          8.18
+          2014,
+          61.1
         ],
         [
-          "JU",
-          6.78
+          2015,
+          62.4
         ],
         [
-          "BS\u002FBL\u002FJU",
-          8.21
+          2016,
+          63.7
         ],
         [
-          "CH",
-          7.8
+          2017,
+          65.5
+        ],
+        [
+          2018,
+          65.8
+        ],
+        [
+          2019,
+          67.1
+        ],
+        [
+          2020,
+          68.1
+        ],
+        [
+          2021,
+          66.5
+        ],
+        [
+          2022,
+          69
         ]
       ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68AB2B",
-      "data": [
-        [
-          "BS",
-          7.66
-        ],
-        [
-          "BL",
-          6.53
-        ],
-        [
-          "JU",
-          7.06
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          7.07
-        ],
-        [
-          "CH",
-          7.48
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "BS",
-          6.81
-        ],
-        [
-          "BL",
-          6.34
-        ],
-        [
-          "JU",
-          6.07
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.5
-        ],
-        [
-          "CH",
-          7.1
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "BS",
-          7.21
-        ],
-        [
-          "BL",
-          6.16
-        ],
-        [
-          "JU",
-          6.19
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.6
-        ],
-        [
-          "CH",
-          7.12
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "BS",
-          6.93
-        ],
-        [
-          "BL",
-          6.2
-        ],
-        [
-          "JU",
-          5.97
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.47
-        ],
-        [
-          "CH",
-          7.08
-        ]
-      ],
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "BS",
-          7.47
-        ],
-        [
-          "BL",
-          6.21
-        ],
-        [
-          "JU",
-          6.53
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.77
-        ],
-        [
-          "CH",
-          7.51
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
+      "name": "EL zur IV"
     },
     {
       "color": "#A8C3CA",
       "data": [
         [
-          "BS",
-          7.58
+          2013,
+          42.9
         ],
         [
-          "BL",
-          6.01
+          2014,
+          45.7
         ],
         [
-          "JU",
-          5.5
+          2015,
+          47
         ],
         [
-          "BS\u002FBL\u002FJU",
-          6.59
+          2016,
+          47.9
         ],
         [
-          "CH",
-          7.12
+          2017,
+          50.1
+        ],
+        [
+          2018,
+          50.1
+        ],
+        [
+          2019,
+          51.1
+        ],
+        [
+          2020,
+          51.7
+        ],
+        [
+          2021,
+          50.8
+        ],
+        [
+          2022,
+          41
         ]
       ],
-      "name": "2020",
-      "turboThreshold": 0
+      "name": "Beihilfen zur IV"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2013,
+          17.3
+        ],
+        [
+          2014,
+          17.7
+        ],
+        [
+          2015,
+          18.3
+        ],
+        [
+          2016,
+          18.8
+        ],
+        [
+          2017,
+          19.2
+        ],
+        [
+          2018,
+          19.8
+        ],
+        [
+          2019,
+          20.6
+        ],
+        [
+          2020,
+          20.3
+        ],
+        [
+          2021,
+          20.9
+        ],
+        [
+          2022,
+          20.9
+        ]
+      ],
+      "name": "EL zur AHV"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2013,
+          11.6
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          12.4
+        ],
+        [
+          2016,
+          12.9
+        ],
+        [
+          2017,
+          13.3
+        ],
+        [
+          2018,
+          13.9
+        ],
+        [
+          2019,
+          14.5
+        ],
+        [
+          2020,
+          14.9
+        ],
+        [
+          2021,
+          12.7
+        ],
+        [
+          2022,
+          12.8
+        ]
+      ],
+      "name": "Beihilfen zur AHV"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -237,16 +214,20 @@
 					}
 				}
     },
-    "inverted": false,
-    "renderTo": "container-8969"
+    "renderTo": "container-9919"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointPadding": 0,
-      "borderWidth": 0
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "title": {
@@ -256,16 +237,34 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung Neugründungsrate"
+    "text": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr"
   },
   "subtitle": {
-    "text": "Anteil am Unternehmensbestand",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -284,8 +283,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    },
-    "tickAmount": 6
+    }
   },
   "legend": {
     "enabled": true,
@@ -295,15 +293,16 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "width": 300,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
     "style": {
       "color": "#000000",
       "fontSize": "10px",
-      "cursor": "default",
-      "width": 470
+      "cursor": "default"
     },
     "position": {
       "align": "left",
@@ -311,7 +310,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -348,9 +347,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "8969"
+    "filename": "9919"
   }
 }

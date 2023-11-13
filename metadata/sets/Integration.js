@@ -2648,7 +2648,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 weisen rund 2 600 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 146 000 Franken) auf. Ungefähr 3 300 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 36 800 Franken den kleinsten Mittelwert auf.",
+		"lesehilfe": "2020 weisen die rund 2 700 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 153 000 Franken) auf. Die ungefähr 3 200 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 38 200 Franken den niedrigsten Mittelwert auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2673,7 +2673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:21",
+		"aktualisierungsdatum": "2023-11-13T09:13:32",
 		"id": 6468
 	},
 	{
@@ -2687,7 +2687,7 @@ var indikatorensetData = [
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 liegt der höchste Median des Reineinkommens (ca. 79 000 Franken) bei Veranlagungen von Personen aus «Übrige Länder» vor, der tiefste bei jenen aus arabischen Ländern (ca. 30 000 Franken).",
+		"lesehilfe": "2020 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 85 000 Franken; rund 2 600 Veranlagungen), der tiefste bei jenen aus arabischen Ländern (ca. 28 000 Franken; 500 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2712,7 +2712,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6469
 	},
 	{
@@ -2725,8 +2725,8 @@ var indikatorensetData = [
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2019 Personen aus den USA auf, der Wert beträgt rund 292 000 Franken. Von ihnen liegen für dieses Steuerjahr 586 Veranlagungen vor.",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2020",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2020 Personen aus den USA auf, der Wert beträgt rund 363 000 Franken. Von ihnen liegen für dieses Steuerjahr rund 600 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2751,7 +2751,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6470
 	},
 	{
@@ -2765,7 +2765,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2010 als auch 2019 für die Gruppe der Schweizer vor. 2019 beträgt er rund 659 000 Franken pro Veranlagung. Den kleinsten Wert 2019 verzeichnen Personen aus den Balkanländern, rund 16 000 Franken.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2020 für die Gruppe der Schweizer vor. Er beträgt rund 670 000 Franken pro Veranlagung. Den niedrigsten Wert verzeichnen 2020 Personen aus den Balkanländern mit rund 18 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2790,7 +2790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:23",
+		"aktualisierungsdatum": "2023-11-13T09:13:34",
 		"id": 6471
 	},
 	{

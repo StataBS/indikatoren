@@ -1,218 +1,245 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#B00000",
       "data": [
         [
-          "BS",
-          8.65
+          2005,
+          130
         ],
         [
-          "BL",
-          8.18
+          2006,
+          130
         ],
         [
-          "JU",
-          6.78
+          2007,
+          130.1
         ],
         [
-          "BS\u002FBL\u002FJU",
-          8.21
+          2008,
+          131
         ],
         [
-          "CH",
-          7.8
+          2009,
+          131.9
+        ],
+        [
+          2010,
+          132
+        ],
+        [
+          2011,
+          133
+        ],
+        [
+          2012,
+          133.8
+        ],
+        [
+          2013,
+          135.1
+        ],
+        [
+          2014,
+          135.7
+        ],
+        [
+          2015,
+          136.2
+        ],
+        [
+          2016,
+          136.9
+        ],
+        [
+          2017,
+          137.3
+        ],
+        [
+          2018,
+          138.1
+        ],
+        [
+          2019,
+          138.6
+        ],
+        [
+          2020,
+          139.8
+        ],
+        [
+          2021,
+          139.8
+        ],
+        [
+          2022,
+          141.7
         ]
       ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68AB2B",
-      "data": [
-        [
-          "BS",
-          7.66
-        ],
-        [
-          "BL",
-          6.53
-        ],
-        [
-          "JU",
-          7.06
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          7.07
-        ],
-        [
-          "CH",
-          7.48
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "BS",
-          6.81
-        ],
-        [
-          "BL",
-          6.34
-        ],
-        [
-          "JU",
-          6.07
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.5
-        ],
-        [
-          "CH",
-          7.1
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
+      "name": "Bevölkerungsdichte in Bauzonen"
     },
     {
       "color": "#246370",
       "data": [
         [
-          "BS",
-          7.21
+          2005,
+          148.5
         ],
         [
-          "BL",
-          6.16
+          2006,
+          148.4
         ],
         [
-          "JU",
-          6.19
+          2007,
+          148.6
         ],
         [
-          "BS\u002FBL\u002FJU",
-          6.6
+          2008,
+          149.8
         ],
         [
-          "CH",
-          7.12
+          2009,
+          150.8
+        ],
+        [
+          2010,
+          151
+        ],
+        [
+          2011,
+          152.2
+        ],
+        [
+          2012,
+          152.4
+        ],
+        [
+          2013,
+          153.9
+        ],
+        [
+          2014,
+          154.1
+        ],
+        [
+          2015,
+          154.7
+        ],
+        [
+          2016,
+          155.4
+        ],
+        [
+          2017,
+          156.2
+        ],
+        [
+          2018,
+          157.2
+        ],
+        [
+          2019,
+          156.8
+        ],
+        [
+          2020,
+          158.1
+        ],
+        [
+          2021,
+          158.1
+        ],
+        [
+          2022,
+          160.2
         ]
       ],
-      "name": "2017",
-      "turboThreshold": 0
+      "name": "Bevölkerungsdichte in Bauzonen mit potentieller Wohnnutzung"
     },
     {
-      "color": "#0F7399",
+      "color": "#008AC3",
       "data": [
         [
-          "BS",
-          6.93
+          2005,
+          50.8
         ],
         [
-          "BL",
-          6.2
+          2006,
+          50.8
         ],
         [
-          "JU",
-          5.97
+          2007,
+          50.9
         ],
         [
-          "BS\u002FBL\u002FJU",
-          6.47
+          2008,
+          51.3
         ],
         [
-          "CH",
-          7.08
+          2009,
+          51.6
+        ],
+        [
+          2010,
+          51.6
+        ],
+        [
+          2011,
+          52
+        ],
+        [
+          2012,
+          52.3
+        ],
+        [
+          2013,
+          52.9
+        ],
+        [
+          2014,
+          53.2
+        ],
+        [
+          2015,
+          53.4
+        ],
+        [
+          2016,
+          55.2
+        ],
+        [
+          2017,
+          55.4
+        ],
+        [
+          2018,
+          55.8
+        ],
+        [
+          2019,
+          55.8
+        ],
+        [
+          2020,
+          56.3
+        ],
+        [
+          2021,
+          56.2
+        ],
+        [
+          2022,
+          57
         ]
       ],
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "BS",
-          7.47
-        ],
-        [
-          "BL",
-          6.21
-        ],
-        [
-          "JU",
-          6.53
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.77
-        ],
-        [
-          "CH",
-          7.51
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#A8C3CA",
-      "data": [
-        [
-          "BS",
-          7.58
-        ],
-        [
-          "BL",
-          6.01
-        ],
-        [
-          "JU",
-          5.5
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          6.59
-        ],
-        [
-          "CH",
-          7.12
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
+      "name": "Bevölkerungsdichte Kanton Basel-Stadt"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -237,16 +264,13 @@
 					}
 				}
     },
-    "inverted": false,
-    "renderTo": "container-8969"
+    "renderTo": "container-9737"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointPadding": 0,
-      "borderWidth": 0
+      }
     }
   },
   "title": {
@@ -256,16 +280,35 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung Neugründungsrate"
+    "text": "Bevölkerungsdichte in Bauzone"
   },
   "subtitle": {
-    "text": "Anteil am Unternehmensbestand",
+    "text": "Einwohner pro Hektar, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -282,10 +325,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "tickAmount": 6
+      }
+    }
   },
   "legend": {
     "enabled": true,
@@ -302,8 +343,7 @@
     "style": {
       "color": "#000000",
       "fontSize": "10px",
-      "cursor": "default",
-      "width": 470
+      "cursor": "default"
     },
     "position": {
       "align": "left",
@@ -311,7 +351,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -348,9 +388,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E Einwohner\u002Fha\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "8969"
+    "filename": "9737"
   }
 }

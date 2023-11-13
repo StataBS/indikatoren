@@ -17097,7 +17097,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 weisen rund 2 600 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 146 000 Franken) auf. Ungefähr 3 300 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 36 800 Franken den kleinsten Mittelwert auf.",
+		"lesehilfe": "2020 weisen die rund 2 700 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 153 000 Franken) auf. Die ungefähr 3 200 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 38 200 Franken den niedrigsten Mittelwert auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -17123,7 +17123,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:21",
+		"aktualisierungsdatum": "2023-11-13T09:13:32",
 		"id": 6468
 	},
 	{
@@ -17137,7 +17137,7 @@ var indikatoren = [
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 liegt der höchste Median des Reineinkommens (ca. 79 000 Franken) bei Veranlagungen von Personen aus «Übrige Länder» vor, der tiefste bei jenen aus arabischen Ländern (ca. 30 000 Franken).",
+		"lesehilfe": "2020 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 85 000 Franken; rund 2 600 Veranlagungen), der tiefste bei jenen aus arabischen Ländern (ca. 28 000 Franken; 500 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -17163,7 +17163,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6469
 	},
 	{
@@ -17176,8 +17176,8 @@ var indikatoren = [
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2019 Personen aus den USA auf, der Wert beträgt rund 292 000 Franken. Von ihnen liegen für dieses Steuerjahr 586 Veranlagungen vor.",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2020",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2020 Personen aus den USA auf, der Wert beträgt rund 363 000 Franken. Von ihnen liegen für dieses Steuerjahr rund 600 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -17203,7 +17203,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6470
 	},
 	{
@@ -17217,7 +17217,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2010 als auch 2019 für die Gruppe der Schweizer vor. 2019 beträgt er rund 659 000 Franken pro Veranlagung. Den kleinsten Wert 2019 verzeichnen Personen aus den Balkanländern, rund 16 000 Franken.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2020 für die Gruppe der Schweizer vor. Er beträgt rund 670 000 Franken pro Veranlagung. Den niedrigsten Wert verzeichnen 2020 Personen aus den Balkanländern mit rund 18 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -17243,7 +17243,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:23",
+		"aktualisierungsdatum": "2023-11-13T09:13:34",
 		"id": 6471
 	},
 	{
@@ -34047,9 +34047,9 @@ var indikatoren = [
 			8467
 		],
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2018",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "total in Mrd. Franken, 2021",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2021 Basel-Stadt mit 41,0 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,4 und Jura mit 5,2 Mrd. Franken.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -34063,7 +34063,7 @@ var indikatoren = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "1.1-1",
+		"kuerzelKunde": "1.1.1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
@@ -34074,7 +34074,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:06",
+		"aktualisierungsdatum": "2023-11-13T09:13:28",
 		"id": 8350
 	},
 	{
@@ -34087,9 +34087,9 @@ var indikatoren = [
 			8468
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2018",
-		"lesehilfe": "Mit über 196 000 Franken pro Kopf im Jahr 2020 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 71 000 Franken, Jura auf rund 67 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 82 000 Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "in Franken, 2021",
+		"lesehilfe": "Mit über 210 000 Franken pro Kopf im Jahr 2021 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 200 Franken, Jura auf 70 200 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 85 700 Franken.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -34103,7 +34103,7 @@ var indikatoren = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "1.1-2",
+		"kuerzelKunde": "1.1.2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
@@ -34114,91 +34114,87 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:26",
+		"aktualisierungsdatum": "2023-11-13T09:13:28",
 		"id": 8351
 	},
 	{
-		"title": "Entwicklung Bruttoinlandprodukt",
-		"subtitle": "real; indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-3",
-		"description": "Entwicklung Bruttoinlandprodukt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:22.2222",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.1 Bruttoinlandprodukt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2018 weist Basel-Stadt mit 19,9% auf, gefolgt von Basel-Landschaft mit 9,9% und Jura mit 3,3%. In der gesamten Schweiz stieg der Wert um 7,8%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8469"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8352,
 		"chart-id": 8352,
 		"filter": "",
-		"id": 8352
-	},
-	{
-		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"parentId": null,
+		"children": [
+			8469
+		],
+		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-4",
-		"description": "Entwicklung Bruttoinlandprodukt pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2021 weist Basel-Stadt mit 34,7% auf, gefolgt vom Kanton Jura mit 7,3% und Basel-Landschaft mit 5,2%. In der gesamten Schweiz stieg der Wert um 5,9%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Entwicklung Bruttoinlandprodukt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1.3",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2018 weist Basel-Stadt mit 16,8% auf. Im Kanton Basel-Landschaft beträgt der Zuwachs 6,4% und im Jura 0,6%. In der gesamten Schweiz stieg der Wert um 3,1%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
-		"template": "line001",
+		"orderKey": "01_01_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8470"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"id": 8352
+	},
+	{
+		"template": "line001",
 		"data-id": 8353,
 		"chart-id": 8353,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8470
+		],
+		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"subtitle": "real; indexiert (2014 = 100)",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2021 weist Basel-Stadt mit 40,0% auf. Im Kanton Jura beträgt der Zuwachs 10,2% und im Kanton Basel-Landschaft 9,8%. In der gesamten Schweiz stieg der Wert um 12,8%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1.4",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
 		"id": 8353
 	},
 	{
@@ -34495,7 +34491,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 46%, der Bestand im dritten Quartal 2022 liegt bei 10 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+24% auf rund 24 100) und Basel-Stadt (+3% auf 34 800). In der gesamten Schweiz arbeiten im 3. Quartal 2022 rund 374 300 Grenzgänger, 31% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 60%, der Bestand im 2. Quartal 2023 liegt bei 11 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+25% auf rund 24 400) und Basel-Stadt (+3% auf 34 600). In der gesamten Schweiz arbeiten im 2. Quartal 2023 rund 390 900 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -34510,7 +34506,7 @@ var indikatoren = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-7",
+		"kuerzelKunde": "2.1.7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -34521,7 +34517,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:27",
+		"aktualisierungsdatum": "2023-11-13T09:13:30",
 		"id": 8361
 	},
 	{
@@ -34854,8 +34850,8 @@ var indikatoren = [
 			8487
 		],
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2021",
-		"lesehilfe": "2021 betragen die Exporte aus Basel-Stadt 204,4% und die Importe 91,9% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 49,9% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"subtitle": "Anteil am nominalen BIP, 2022",
+		"lesehilfe": "2022 betragen die Exporte aus Basel-Stadt 182,7% und die Importe 92,1% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 59,2% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -34871,18 +34867,18 @@ var indikatoren = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08370",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-1",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.1",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:06",
+		"aktualisierungsdatum": "2023-11-13T09:13:30",
 		"id": 8370
 	},
 	{
@@ -36038,7 +36034,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2021 um über 30% gestiegen. Im Kanton Basel-Landschaft liegt der Wert über 24% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 wieder gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 29% seit 2016, für die gesamte Schweiz von ca. 16%.",
+		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt von 2016 bis 2022 um fast 55% gestiegen. Im Kanton Basel-Landschaft liegt der Wert fast 59% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 zum zweiten mal in Folge gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 54% seit 2016, für die gesamte Schweiz von ca. 35%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -36053,18 +36049,18 @@ var indikatoren = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08462",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-3",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.3",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_003",
+		"orderKey": "03_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:07",
+		"aktualisierungsdatum": "2023-11-13T09:13:31",
 		"id": 8462
 	},
 	{
@@ -36271,45 +36267,43 @@ var indikatoren = [
 		"id": 8868
 	},
 	{
+		"template": "line001",
+		"data-id": 8969,
+		"chart-id": 8969,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8972
+		],
 		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
-		"kuerzel": "I.06.2.08969",
-		"kuerzelKunde": "1.3-2",
-		"description": "Entwicklung Neugründungsrate",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Neugründungen",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2020 bei 6,6%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,6%) und in der Gesamtschweiz (7,1%).",
+		"erlaeuterungen": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:40.4040",
+		"description": "Entwicklung Neugründungsrate",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Neugründungen",
+		"kuerzel": "I.06.2.08969",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3.2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Dieser Anteil war mit Ausnahme des Kantons JU im Jahr 2014 besonders hoch und hat sich seither reduziert. 2014 war die Neugründungsrate in der Region BS/BL/JU mit 8,3% höher als in der Gesamtschweiz, seither jedoch sind die Werte unterhalb des schweizweiten Niveaus gefallen. Zuletzt im Jahr 2017 lag die Quote bei 6,5% (BS/BL/JU) resp. 7,1% (CH).",
-		"erlaeuterungen": "Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
-		"template": "line001",
+		"orderKey": "01_03_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8972"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8969,
-		"chart-id": 8969,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
 		"id": 8969
 	},
 	{
@@ -41137,6 +41131,48 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
+		"data-id": 9737,
+		"chart-id": 9737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsdichte in Bauzone",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2022 im Schnitt 57,0 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 141,7 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 160,2 Personen pro Hektar.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>",
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsdichte in Bauzone",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.09737",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL7",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_407",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:34",
+		"id": 9737
+	},
+	{
+		"template": "line001",
 		"data-id": 9740,
 		"chart-id": 9740,
 		"filter": "",
@@ -41212,6 +41248,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-07-12T09:36:46",
 		"id": 9741
+	},
+	{
+		"template": "line001",
+		"data-id": 9784,
+		"chart-id": 9784,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2022 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 204 550 Personen.",
+		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.09784",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"id": 9784
 	},
 	{
 		"template": "line001",
@@ -41326,5 +41400,46 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-06-29T08:06:39",
 		"id": 9862
+	},
+	{
+		"template": "line001",
+		"data-id": 9919,
+		"chart-id": 9919,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			10031
+		],
+		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei 21% bzw. 13%.",
+		"erlaeuterungen": "Anteil AHV-/IV-Beziehende mit Ergänzungsleistungen (EL) an allen AHV-/IV-Rentnern per Ende Jahr.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
+			"Bundesamt für Sozialversicherungen (BSV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09919",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:27",
+		"id": 9919
 	}
 ];
