@@ -2267,3 +2267,13 @@ id | visible | visibleInPortal | indikatorenset
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
+10031 | true | false | CMS Kennzahlen Soziales
+10036 | true | false | CMS Kennzahlen Soziales
+10037 | true | true | CMS Kennzahlen Soziales
+10040 | true | false | CMS Kennzahlen Soziales
+10044 | true | false | CMS Kennzahlen Soziales
+10045 | true | false | CMS Kennzahlen Soziales
+10047 | true | true | CMS Kennzahlen Soziales
+10051 | true | false | CMS Kennzahlen Soziales
+10263 | true | false | CMS Kennzahlen Soziales
+10264 | true | false | CMS Kennzahlen Soziales

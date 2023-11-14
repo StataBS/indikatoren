@@ -2032,5 +2032,15 @@ var templatesById = {
 	"9999": "map002",
 	"10028": "template001",
 	"10029": "template001",
-	"10030": "template001"
+	"10030": "template001",
+	"10031": "line001",
+	"10036": "befragungen001",
+	"10037": "line001",
+	"10040": "template001",
+	"10044": "befragungen001",
+	"10045": "befragungen001",
+	"10047": "line001",
+	"10051": "template001",
+	"10263": "befragungen001",
+	"10264": "befragungen001"
 };
