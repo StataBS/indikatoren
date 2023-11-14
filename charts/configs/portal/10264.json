@@ -1,0 +1,367 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003",
+          339
+        ],
+        [
+          "2005",
+          351
+        ],
+        [
+          "2007",
+          295
+        ],
+        [
+          "2011",
+          391
+        ],
+        [
+          "2015",
+          355
+        ],
+        [
+          "2019",
+          1053
+        ]
+      ],
+      "name": "Stimme sehr zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003",
+          682
+        ],
+        [
+          "2005",
+          713
+        ],
+        [
+          "2007",
+          746
+        ],
+        [
+          "2011",
+          705
+        ],
+        [
+          "2015",
+          788
+        ],
+        [
+          "2019",
+          709
+        ]
+      ],
+      "name": "Stimme eher zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003",
+          322
+        ],
+        [
+          "2005",
+          314
+        ],
+        [
+          "2007",
+          303
+        ],
+        [
+          "2011",
+          302
+        ],
+        [
+          "2015",
+          258
+        ],
+        [
+          "2019",
+          161
+        ]
+      ],
+      "name": "Stimme eher nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 2,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003",
+          89
+        ],
+        [
+          "2005",
+          78
+        ],
+        [
+          "2007",
+          81
+        ],
+        [
+          "2011",
+          79
+        ],
+        [
+          "2015",
+          54
+        ],
+        [
+          "2019",
+          27
+        ]
+      ],
+      "name": "Stimme überhaupt nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003",
+          65
+        ],
+        [
+          "2005",
+          54
+        ],
+        [
+          "2007",
+          84
+        ],
+        [
+          "2011",
+          36
+        ],
+        [
+          "2015",
+          50
+        ],
+        [
+          "2019",
+          83
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          75
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "renderTo": "container-10264",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beurteilung von gesellschaftlicher Vielfalt"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2023"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+        return this.name.replace("/", " /<br/>");
+      },
+    "itemWidth": 200
+  },
+  "exporting": {
+    "filename": "10264"
+  }
+}

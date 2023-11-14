@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          291767
+          335939
         ],
         [
           "Kanada",
-          285304
+          225922
         ],
         [
           "Dänemark",
-          212982
-        ],
-        [
-          "Australien",
-          208003
+          213022
         ],
         [
           "Irland",
-          192738
+          208330
         ],
         [
-          "UK",
-          168821
-        ],
-        [
-          "Indien",
-          154443
-        ],
-        [
-          "China",
-          150154
-        ],
-        [
-          "Niederlande",
-          142719
+          "Australien",
+          189785
         ],
         [
           "Belgien",
-          138560
+          171611
+        ],
+        [
+          "UK",
+          170998
+        ],
+        [
+          "Indien",
+          157453
+        ],
+        [
+          "Niederlande",
+          138149
+        ],
+        [
+          "Schweden",
+          137658
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          182895
+          185663
         ],
         [
           "Kanada",
-          163843
+          179705
         ],
         [
           "Dänemark",
-          95135
-        ],
-        [
-          "Australien",
-          172129
+          96715
         ],
         [
           "Irland",
-          143437
+          148152
         ],
         [
-          "UK",
-          137075
-        ],
-        [
-          "Indien",
-          140539
-        ],
-        [
-          "China",
-          53698
-        ],
-        [
-          "Niederlande",
-          87173
+          "Australien",
+          168418
         ],
         [
           "Belgien",
-          95277
+          118769
+        ],
+        [
+          "UK",
+          137484
+        ],
+        [
+          "Indien",
+          143060
+        ],
+        [
+          "Niederlande",
+          90858
+        ],
+        [
+          "Schweden",
+          111546
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          586
+          595
         ],
         [
           "Kanada",
-          118
-        ],
-        [
-          "Dänemark",
-          85
-        ],
-        [
-          "Australien",
-          64
-        ],
-        [
-          "Irland",
           127
         ],
         [
-          "UK",
-          1056
+          "Dänemark",
+          91
         ],
         [
-          "Indien",
-          374
+          "Irland",
+          143
         ],
         [
-          "China",
-          110
-        ],
-        [
-          "Niederlande",
-          387
+          "Australien",
+          71
         ],
         [
           "Belgien",
-          124
+          121
+        ],
+        [
+          "UK",
+          1072
+        ],
+        [
+          "Indien",
+          405
+        ],
+        [
+          "Niederlande",
+          383
+        ],
+        [
+          "Schweden",
+          140
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -230,7 +230,7 @@
     "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
-    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -301,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

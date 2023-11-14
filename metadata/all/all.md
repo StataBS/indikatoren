@@ -2236,6 +2236,7 @@ id | visible | visibleInPortal | indikatorenset
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
+9737 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
@@ -2253,9 +2254,11 @@ id | visible | visibleInPortal | indikatorenset
 9777 | true | false | Arbeitsmarkt (Print)
 9778 | true | false | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
+9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9919 | true | true | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
@@ -2264,3 +2267,13 @@ id | visible | visibleInPortal | indikatorenset
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
+10031 | true | false | CMS Kennzahlen Soziales
+10036 | true | false | CMS Kennzahlen Soziales
+10037 | true | true | CMS Kennzahlen Soziales
+10040 | true | false | CMS Kennzahlen Soziales
+10044 | true | false | CMS Kennzahlen Soziales
+10045 | true | false | CMS Kennzahlen Soziales
+10047 | true | true | CMS Kennzahlen Soziales
+10051 | true | false | CMS Kennzahlen Soziales
+10263 | true | false | CMS Kennzahlen Soziales
+10264 | true | false | CMS Kennzahlen Soziales
