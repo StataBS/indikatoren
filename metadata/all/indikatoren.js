@@ -231,6 +231,44 @@ var indikatoren = [
 		"id": 10037
 	},
 	{
+		"template": "line001",
+		"data-id": 10038,
+		"chart-id": 10038,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2022 haben insgesamt 669 ausländische Personen Stipendien bezogen. Davon verfügen 336 Personen über eine Bewilligung für Niedergelassene. Seit 2019 nimmt die Anzahl Stipendien für diese Gruppe ab, während eine steigende Anzahl Stipenden für Aufenthalter sowie Vorläufig Aufgenommene gesprochen wird.",
+		"erlaeuterungen": "Durch den Kanton vergebene Stipendien.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.6",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-16T09:30:52",
+		"id": 10038
+	},
+	{
 		"template": "template001",
 		"data-id": 10040,
 		"chart-id": 4722,
@@ -67747,7 +67785,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-08T09:55:39",
+		"aktualisierungsdatum": "2023-11-16T09:30:50",
 		"id": 8995
 	},
 	{
@@ -68121,7 +68159,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-08T09:55:40",
+		"aktualisierungsdatum": "2023-11-16T09:30:51",
 		"id": 9022
 	},
 	{
@@ -68159,7 +68197,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-08T09:55:41",
+		"aktualisierungsdatum": "2023-11-16T09:30:51",
 		"id": 9023
 	},
 	{
@@ -80007,7 +80045,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:34",
+		"aktualisierungsdatum": "2023-11-16T09:30:52",
 		"id": 9737
 	},
 	{
