@@ -1,245 +1,241 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#083038",
       "data": [
         [
-          2005,
-          130
-        ],
-        [
-          2006,
-          130
-        ],
-        [
-          2007,
-          130.1
-        ],
-        [
-          2008,
-          131
-        ],
-        [
-          2009,
-          131.9
-        ],
-        [
-          2010,
-          132
-        ],
-        [
-          2011,
-          133
-        ],
-        [
-          2012,
-          133.8
-        ],
-        [
           2013,
-          135.1
+          405
         ],
         [
           2014,
-          135.7
+          418
         ],
         [
           2015,
-          136.2
+          423
         ],
         [
           2016,
-          136.9
+          380
         ],
         [
           2017,
-          137.3
+          381
         ],
         [
           2018,
-          138.1
+          417
         ],
         [
           2019,
-          138.6
+          416
         ],
         [
           2020,
-          139.8
+          385
         ],
         [
           2021,
-          139.8
+          353
         ],
         [
           2022,
-          141.7
+          336
         ]
       ],
-      "name": "Bevölkerungsdichte in Bauzonen"
+      "name": "Niedergelassene (Ausweis C)"
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
-          2005,
-          148.5
-        ],
-        [
-          2006,
-          148.4
-        ],
-        [
-          2007,
-          148.6
-        ],
-        [
-          2008,
-          149.8
-        ],
-        [
-          2009,
-          150.8
-        ],
-        [
-          2010,
-          151
-        ],
-        [
-          2011,
-          152.2
-        ],
-        [
-          2012,
-          152.4
-        ],
-        [
           2013,
-          153.9
+          78
         ],
         [
           2014,
-          154.1
+          129
         ],
         [
           2015,
-          154.7
+          138
         ],
         [
           2016,
-          155.4
+          157
         ],
         [
           2017,
-          156.2
+          178
         ],
         [
           2018,
-          157.2
+          170
         ],
         [
           2019,
-          156.8
+          169
         ],
         [
           2020,
-          158.1
+          168
         ],
         [
           2021,
-          158.1
+          203
         ],
         [
           2022,
-          160.2
+          218
         ]
       ],
-      "name": "Bevölkerungsdichte in Bauzonen mit potentieller Wohnnutzung"
+      "name": "Aufenthalter (Ausweis B)"
     },
     {
-      "color": "#008AC3",
+      "color": "#FFBB58",
       "data": [
         [
-          2005,
-          50.8
-        ],
-        [
-          2006,
-          50.8
-        ],
-        [
-          2007,
-          50.9
-        ],
-        [
-          2008,
-          51.3
-        ],
-        [
-          2009,
-          51.6
-        ],
-        [
-          2010,
-          51.6
-        ],
-        [
-          2011,
-          52
-        ],
-        [
-          2012,
-          52.3
-        ],
-        [
           2013,
-          52.9
+          19
         ],
         [
           2014,
-          53.2
+          29
         ],
         [
           2015,
-          53.4
+          37
         ],
         [
           2016,
-          55.2
+          36
         ],
         [
           2017,
-          55.4
+          26
         ],
         [
           2018,
-          55.8
+          39
         ],
         [
           2019,
-          55.8
+          69
         ],
         [
           2020,
-          56.3
+          86
         ],
         [
           2021,
-          56.2
+          105
         ],
         [
           2022,
-          57
+          100
         ]
       ],
-      "name": "Bevölkerungsdichte Kanton Basel-Stadt"
+      "name": "Vorläufig Aufgenommene (Ausweis F)"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          1
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          0
+        ]
+      ],
+      "name": "Asylsuchende (Ausweis N)"
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2013,
+          66
+        ],
+        [
+          2014,
+          37
+        ],
+        [
+          2015,
+          46
+        ],
+        [
+          2016,
+          42
+        ],
+        [
+          2017,
+          28
+        ],
+        [
+          2018,
+          28
+        ],
+        [
+          2019,
+          29
+        ],
+        [
+          2020,
+          22
+        ],
+        [
+          2021,
+          20
+        ],
+        [
+          2022,
+          15
+        ]
+      ],
+      "name": "Ausländerkategorie unbekannt"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -264,12 +260,18 @@
 					}
 				}
     },
-    "renderTo": "container-9737"
+    "renderTo": "container-10038"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -280,17 +282,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bevölkerungsdichte in Bauzone"
+    "text": "Ausbildungsbeiträge nach Aufenthaltsrecht"
   },
   "subtitle": {
-    "text": "Einwohner pro Hektar, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    },
-    "useHTML": true
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -325,8 +326,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    }
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100
   },
   "legend": {
     "enabled": true,
@@ -336,7 +339,9 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 300,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -349,9 +354,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP).\u003Cbr\u002F\u003EZuletzt geändert: 16.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -388,12 +393,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E Einwohner\u002Fha\u003Cbr\u002F\u003E",
     "shared": false,
-    "useHTML": true,
-    "outside": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9737"
+    "filename": "10038"
   }
 }
