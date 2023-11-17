@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im September 2023 bei 3,0% und damit knapp höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) ist  höher als im Vorjahr, während die Quote bei den Personen ab 50 Jahren gleich geblieben ist.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2023 bei 3,1% und damit höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) ist höher als im Vorjahr, während die Quote bei den Personen ab 50 Jahren etwa gleich geblieben ist.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:42:59",
+		"aktualisierungsdatum": "2023-11-07T09:10:49",
 		"id": 7510
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende September 2023 sind in Basel-Stadt deutlich weniger offene Stellen gemeldet als ein Jahr zuvor. Der Anteil der meldepflichtigen offenen Stellen liegt bei rund zwei Dritteln.",
+		"lesehilfe": "Ende Oktober 2023 sind in Basel-Stadt deutlich weniger offene Stellen gemeldet als ein Jahr zuvor. Der Anteil der meldepflichtigen offenen Stellen liegt bei rund zwei Dritteln.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:00",
+		"aktualisierungsdatum": "2023-11-07T09:10:50",
 		"id": 7511
 	},
 	{
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im September 1,6%.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im Oktober 1,4%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen September 2023 und September 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:39",
+		"aktualisierungsdatum": "2023-11-02T08:38:14",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau weiter erhöht.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau zunächst weiter erhöht, ab Mai dann stabilisiert.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:40",
+		"aktualisierungsdatum": "2023-11-02T08:38:14",
 		"id": 7513
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "133 010 Logiernächte wurden im September 2023 in den Basler Hotelbetrieben gebucht, 139 bzw. 0,1% wenigerr als im August. Im Vergleich zum September 2022 entspricht dies einer Abnahme um 5,3% bzw. 7 383 Übernachtungen. Die inländischen Gäste buchten 45 699 Logiernächte (-9,9%), die Gäste aus dem Ausland 87 311 Übernachtungen (-2,6%).",
+		"lesehilfe": "128 824 Logiernächte wurden im Oktober 2023 in den Basler Hotelbetrieben gebucht, 4 186 bzw. 3,1% wenigerr als im September. Im Vergleich zum Oktober 2022 entspricht dies einer Zunahme um 2,7% bzw. 3 356 Übernachtungen. Die inländischen Gäste buchten 47 479 Logiernächte (-8,2%), die Gäste aus dem Ausland 81 345 Übernachtungen (+10,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:01",
+		"aktualisierungsdatum": "2023-11-14T11:36:43",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:02",
+		"aktualisierungsdatum": "2023-11-14T11:36:44",
 		"id": 7517
 	},
 	{
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, bewegt sich seit dem Frühling 2023 bei rund 3 000 und ist damit ähnlich tief wie im Jahr 2019, vor der Pandemie. Auch die Zahl der Langzeitarbeitslosen sowie der Anteil der Langzeitarbeitslosen am Total sind in einem ähnlichen Bereich wie vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, bewegt sich seit dem Frühling 2023 bei rund 3 000 und ist damit in einem ähnlichen Bereich wie vor der Pandemie. Auch die Zahl der Langzeitarbeitslosen sowie der Anteil der Langzeitarbeitslosen am Total sind ähnlich wie vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:00",
+		"aktualisierungsdatum": "2023-11-07T09:10:50",
 		"id": 8980
 	},
 	{
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:01",
+		"aktualisierungsdatum": "2023-11-07T09:10:51",
 		"id": 8981
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:01",
+		"aktualisierungsdatum": "2023-11-07T09:10:52",
 		"id": 8992
 	}
 ];

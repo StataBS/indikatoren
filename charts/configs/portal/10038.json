@@ -1,0 +1,402 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "data": [
+        [
+          2013,
+          405
+        ],
+        [
+          2014,
+          418
+        ],
+        [
+          2015,
+          423
+        ],
+        [
+          2016,
+          380
+        ],
+        [
+          2017,
+          381
+        ],
+        [
+          2018,
+          417
+        ],
+        [
+          2019,
+          416
+        ],
+        [
+          2020,
+          385
+        ],
+        [
+          2021,
+          353
+        ],
+        [
+          2022,
+          336
+        ]
+      ],
+      "name": "Niedergelassene (Ausweis C)"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2013,
+          78
+        ],
+        [
+          2014,
+          129
+        ],
+        [
+          2015,
+          138
+        ],
+        [
+          2016,
+          157
+        ],
+        [
+          2017,
+          178
+        ],
+        [
+          2018,
+          170
+        ],
+        [
+          2019,
+          169
+        ],
+        [
+          2020,
+          168
+        ],
+        [
+          2021,
+          203
+        ],
+        [
+          2022,
+          218
+        ]
+      ],
+      "name": "Aufenthalter (Ausweis B)"
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          2013,
+          19
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          37
+        ],
+        [
+          2016,
+          36
+        ],
+        [
+          2017,
+          26
+        ],
+        [
+          2018,
+          39
+        ],
+        [
+          2019,
+          69
+        ],
+        [
+          2020,
+          86
+        ],
+        [
+          2021,
+          105
+        ],
+        [
+          2022,
+          100
+        ]
+      ],
+      "name": "Vorläufig Aufgenommene (Ausweis F)"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          1
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          0
+        ]
+      ],
+      "name": "Asylsuchende (Ausweis N)"
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2013,
+          66
+        ],
+        [
+          2014,
+          37
+        ],
+        [
+          2015,
+          46
+        ],
+        [
+          2016,
+          42
+        ],
+        [
+          2017,
+          28
+        ],
+        [
+          2018,
+          28
+        ],
+        [
+          2019,
+          29
+        ],
+        [
+          2020,
+          22
+        ],
+        [
+          2021,
+          20
+        ],
+        [
+          2022,
+          15
+        ]
+      ],
+      "name": "Ausländerkategorie unbekannt"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-10038"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Ausbildungsbeiträge nach Aufenthaltsrecht"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 300,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP).\u003Cbr\u002F\u003EZuletzt geändert: 16.11.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "10038"
+  }
+}

@@ -38,6 +38,10 @@
         [
           "2021",
           72870
+        ],
+        [
+          "2022",
+          73466
         ]
       ],
       "name": "Mietwohnungen",
@@ -81,6 +85,10 @@
         [
           "2021",
           10985
+        ],
+        [
+          "2022",
+          11093
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -124,6 +132,10 @@
         [
           "2021",
           15180
+        ],
+        [
+          "2022",
+          15316
         ]
       ],
       "name": "Selbstbewohnte Eigentümerwohnungen",
@@ -167,6 +179,10 @@
         [
           "2021",
           711
+        ],
+        [
+          "2022",
+          738
         ]
       ],
       "name": "Sonstige Wohnungen",
@@ -187,8 +203,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": 0
+      }
     },
     "tickInterval": 1
   },
@@ -310,7 +325,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

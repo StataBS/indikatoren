@@ -1,0 +1,399 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2005,
+          130
+        ],
+        [
+          2006,
+          130
+        ],
+        [
+          2007,
+          130.1
+        ],
+        [
+          2008,
+          131
+        ],
+        [
+          2009,
+          131.9
+        ],
+        [
+          2010,
+          132
+        ],
+        [
+          2011,
+          133
+        ],
+        [
+          2012,
+          133.8
+        ],
+        [
+          2013,
+          135.1
+        ],
+        [
+          2014,
+          135.7
+        ],
+        [
+          2015,
+          136.2
+        ],
+        [
+          2016,
+          136.9
+        ],
+        [
+          2017,
+          137.3
+        ],
+        [
+          2018,
+          138.1
+        ],
+        [
+          2019,
+          138.6
+        ],
+        [
+          2020,
+          139.8
+        ],
+        [
+          2021,
+          139.8
+        ],
+        [
+          2022,
+          141.7
+        ]
+      ],
+      "name": "Bevölkerungsdichte in Bauzonen"
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          2005,
+          148.5
+        ],
+        [
+          2006,
+          148.4
+        ],
+        [
+          2007,
+          148.6
+        ],
+        [
+          2008,
+          149.8
+        ],
+        [
+          2009,
+          150.8
+        ],
+        [
+          2010,
+          151
+        ],
+        [
+          2011,
+          152.2
+        ],
+        [
+          2012,
+          152.4
+        ],
+        [
+          2013,
+          153.9
+        ],
+        [
+          2014,
+          154.1
+        ],
+        [
+          2015,
+          154.7
+        ],
+        [
+          2016,
+          155.4
+        ],
+        [
+          2017,
+          156.2
+        ],
+        [
+          2018,
+          157.2
+        ],
+        [
+          2019,
+          156.8
+        ],
+        [
+          2020,
+          158.1
+        ],
+        [
+          2021,
+          158.1
+        ],
+        [
+          2022,
+          160.2
+        ]
+      ],
+      "name": "Bevölkerungsdichte in Bauzonen mit potentieller Wohnnutzung"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2005,
+          50.8
+        ],
+        [
+          2006,
+          50.8
+        ],
+        [
+          2007,
+          50.9
+        ],
+        [
+          2008,
+          51.3
+        ],
+        [
+          2009,
+          51.6
+        ],
+        [
+          2010,
+          51.6
+        ],
+        [
+          2011,
+          52
+        ],
+        [
+          2012,
+          52.3
+        ],
+        [
+          2013,
+          52.9
+        ],
+        [
+          2014,
+          53.2
+        ],
+        [
+          2015,
+          53.4
+        ],
+        [
+          2016,
+          55.2
+        ],
+        [
+          2017,
+          55.4
+        ],
+        [
+          2018,
+          55.8
+        ],
+        [
+          2019,
+          55.8
+        ],
+        [
+          2020,
+          56.3
+        ],
+        [
+          2021,
+          56.2
+        ],
+        [
+          2022,
+          57
+        ]
+      ],
+      "name": "Bevölkerungsdichte Kanton Basel-Stadt"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9737"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Bevölkerungsdichte in Bauzone"
+  },
+  "subtitle": {
+    "text": "Einwohner pro Hektar, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.11.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E Einwohner\u002Fha\u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true,
+    "outside": true
+  },
+  "exporting": {
+    "filename": "9737"
+  }
+}

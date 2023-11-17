@@ -9,8 +9,6 @@
             }
         },
         "yAxis": {
-            //tickInterval: 500,
-            //max: 5000,
             reversedStacks: false,
             "labels": {
                 "format": "{value:,.0f}"
@@ -19,9 +17,6 @@
         "xAxis": {
             tickInterval: 1,
             "type": "category",
-            "labels": {
-                rotation: 0,
-            },
         },
         "tooltip": {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.1f}%)<br/>',

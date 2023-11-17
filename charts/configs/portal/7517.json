@@ -5,11 +5,11 @@
       "data": [
         [
           "1- und 2-Sterne",
-          551
+          550
         ],
         [
           "3-Sterne",
-          1561
+          1547
         ],
         [
           "4- und 5-Sterne",
@@ -28,15 +28,15 @@
       "data": [
         [
           "1- und 2-Sterne",
-          560
+          557
         ],
         [
           "3-Sterne",
-          1545
+          1546
         ],
         [
           "4- und 5-Sterne",
-          2108
+          2037
         ],
         [
           "Nicht klassiert",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.63968542
+          0.518181818
         ],
         [
           "3-Sterne",
-          0.744758977
+          0.63262923
         ],
         [
           "4- und 5-Sterne",
-          0.730697239
+          0.607152022
         ],
         [
           "Nicht klassiert",
-          0.607269504
+          0.520018302
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2022",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.625
+          0.537788846
         ],
         [
           "3-Sterne",
-          0.683663345
+          0.648478905
         ],
         [
           "4- und 5-Sterne",
-          0.642741935
+          0.631605619
         ],
         [
           "Nicht klassiert",
-          0.502792632
+          0.472888276
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2023",
@@ -195,7 +195,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, September",
+    "text": "Basel-Stadt, Oktober",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

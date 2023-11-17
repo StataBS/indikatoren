@@ -1,6 +1,7 @@
 {
   "name": "indikatoren",
   "version": "1.0.0",
+  "author": "Marcel Colomb - marcel.colomb@bs.ch",
   "description": "Indikatorenportal Statistisches Amt Basel-Stadt",
   "dependencies": {
     "@statabs/statabs-filter": "2.1.1",

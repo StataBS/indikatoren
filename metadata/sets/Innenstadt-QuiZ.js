@@ -506,7 +506,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitsstätten im Detailhandel, nach Branche",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2020 gab es in der Innenstadt 569 Arbeitsstätten im Detailhandel, das sind 122 bzw. 17,7% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (157 bzw. 28%).",
+		"lesehilfe": "Im Jahr 2021 gab es in der Innenstadt 551 Arbeitsstätten im Detailhandel, das sind 140 bzw. 20,3% weniger als noch im Jahr 2011. Die meisten Arbeitsstätten gehören dem Bereich Bekleidung und Lederwaren an (146 bzw. 26,5%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -531,7 +531,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:01",
+		"aktualisierungsdatum": "2023-11-01T07:50:38",
 		"id": 9588
 	},
 	{

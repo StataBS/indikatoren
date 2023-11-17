@@ -1,0 +1,356 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "data": [
+        [
+          2013,
+          57.8
+        ],
+        [
+          2014,
+          61.1
+        ],
+        [
+          2015,
+          62.4
+        ],
+        [
+          2016,
+          63.7
+        ],
+        [
+          2017,
+          65.5
+        ],
+        [
+          2018,
+          65.8
+        ],
+        [
+          2019,
+          67.1
+        ],
+        [
+          2020,
+          68.1
+        ],
+        [
+          2021,
+          66.5
+        ],
+        [
+          2022,
+          69
+        ]
+      ],
+      "name": "EL zur IV"
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          2013,
+          42.9
+        ],
+        [
+          2014,
+          45.7
+        ],
+        [
+          2015,
+          47
+        ],
+        [
+          2016,
+          47.9
+        ],
+        [
+          2017,
+          50.1
+        ],
+        [
+          2018,
+          50.1
+        ],
+        [
+          2019,
+          51.1
+        ],
+        [
+          2020,
+          51.7
+        ],
+        [
+          2021,
+          50.8
+        ],
+        [
+          2022,
+          41
+        ]
+      ],
+      "name": "Beihilfen zur IV"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2013,
+          17.3
+        ],
+        [
+          2014,
+          17.7
+        ],
+        [
+          2015,
+          18.3
+        ],
+        [
+          2016,
+          18.8
+        ],
+        [
+          2017,
+          19.2
+        ],
+        [
+          2018,
+          19.8
+        ],
+        [
+          2019,
+          20.6
+        ],
+        [
+          2020,
+          20.3
+        ],
+        [
+          2021,
+          20.9
+        ],
+        [
+          2022,
+          20.9
+        ]
+      ],
+      "name": "EL zur AHV"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2013,
+          11.6
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          12.4
+        ],
+        [
+          2016,
+          12.9
+        ],
+        [
+          2017,
+          13.3
+        ],
+        [
+          2018,
+          13.9
+        ],
+        [
+          2019,
+          14.5
+        ],
+        [
+          2020,
+          14.9
+        ],
+        [
+          2021,
+          12.7
+        ],
+        [
+          2022,
+          12.8
+        ]
+      ],
+      "name": "Beihilfen zur AHV"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9919"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "width": 300,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9919"
+  }
+}

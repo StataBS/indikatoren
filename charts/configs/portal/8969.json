@@ -1,77 +1,77 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#007A2F",
       "data": [
         [
           "BS",
-          9
+          8.65
         ],
         [
           "BL",
-          8.5
+          8.18
         ],
         [
           "JU",
-          5.6
+          6.78
         ],
         [
           "BS\u002FBL\u002FJU",
-          8.3
+          8.21
         ],
         [
           "CH",
-          7.9
+          7.8
         ]
       ],
       "name": "2014",
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#68AB2B",
       "data": [
         [
           "BS",
-          7.6
+          7.66
         ],
         [
           "BL",
-          6.5
+          6.53
         ],
         [
           "JU",
-          5.7
+          7.06
         ],
         [
           "BS\u002FBL\u002FJU",
-          6.9
+          7.07
         ],
         [
           "CH",
-          7.2
+          7.48
         ]
       ],
       "name": "2015",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#73B97C",
       "data": [
         [
           "BS",
-          6.9
+          6.81
         ],
         [
           "BL",
-          6.1
+          6.34
         ],
         [
           "JU",
-          5.9
+          6.07
         ],
         [
           "BS\u002FBL\u002FJU",
-          6.4
+          6.5
         ],
         [
           "CH",
@@ -82,30 +82,111 @@
       "turboThreshold": 0
     },
     {
+      "color": "#246370",
+      "data": [
+        [
+          "BS",
+          7.21
+        ],
+        [
+          "BL",
+          6.16
+        ],
+        [
+          "JU",
+          6.19
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.6
+        ],
+        [
+          "CH",
+          7.12
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0F7399",
+      "data": [
+        [
+          "BS",
+          6.93
+        ],
+        [
+          "BL",
+          6.2
+        ],
+        [
+          "JU",
+          5.97
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.47
+        ],
+        [
+          "CH",
+          7.08
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "BS",
+          7.47
+        ],
+        [
+          "BL",
+          6.21
+        ],
+        [
+          "JU",
+          6.53
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.77
+        ],
+        [
+          "CH",
+          7.51
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
       "color": "#A8C3CA",
       "data": [
         [
           "BS",
-          7.2
+          7.58
         ],
         [
           "BL",
-          6
+          6.01
         ],
         [
           "JU",
-          6.2
+          5.5
         ],
         [
           "BS\u002FBL\u002FJU",
-          6.5
+          6.59
         ],
         [
           "CH",
-          7.1
+          7.12
         ]
       ],
-      "name": "2017",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -230,7 +311,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -270,6 +351,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8969
+    "filename": "8969"
   }
 }

@@ -3264,6 +3264,47 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
+		"data-id": 9737,
+		"chart-id": 9737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsdichte in Bauzone",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2022 im Schnitt 57,0 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 141,7 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 160,2 Personen pro Hektar.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>",
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsdichte in Bauzone",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.09737",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL7",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_407",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-16T09:30:52",
+		"id": 9737
+	},
+	{
+		"template": "line001",
 		"data-id": 9740,
 		"chart-id": 9740,
 		"filter": "",
@@ -3337,6 +3378,43 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-07-12T09:36:46",
 		"id": 9741
+	},
+	{
+		"template": "line001",
+		"data-id": 9784,
+		"chart-id": 9784,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2022 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 204 550 Personen.",
+		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.09784",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"id": 9784
 	},
 	{
 		"template": "line001",

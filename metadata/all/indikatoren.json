@@ -43,10 +43,12 @@
 		"chart-id": 10029,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11189
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Jura",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte im Jahr 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte von Frauen und Männern in den Jahren 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 200 Personen für den Kanton Jura und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
@@ -61,7 +63,7 @@
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10029",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-3",
+		"kuerzelKunde": "2.4.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.4 Unbezahlte Arbeit",
 		"stufe3": "",
@@ -72,7 +74,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"aktualisierungsdatum": "2023-11-03T10:03:50",
 		"id": 10029
 	},
 	{
@@ -112,6 +114,427 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-10-13T10:14:38",
 		"id": 10030
+	},
+	{
+		"template": "line001",
+		"data-id": 10031,
+		"chart-id": 10031,
+		"filter": "",
+		"parentId": "9919",
+		"children": [],
+		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei 21% bzw. 13%.",
+		"erlaeuterungen": "Anteil AHV-/IV-Beziehende mit Ergänzungsleistungen (EL) an allen AHV-/IV-Rentnern per Ende Jahr.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
+			"Bundesamt für Sozialversicherungen (BSV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.10031",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.4",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:48",
+		"id": 10031
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 10036,
+		"chart-id": 4858,
+		"filter": "",
+		"parentId": "4858",
+		"children": [],
+		"title": "Beurteilung der Chancengleichheit",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt",
+		"lesehilfe": "Mit der Aussage, dass die kantonalen Behörden die Chancengleichheit für Frauen und Männer zielstrebig vorantreiben würden, sind 9,7% der im Jahr 2019 Befragten sehr und 30,7% eher einverstanden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beurteilung der Chancengleichheit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10036",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.2",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:52",
+		"id": 10036
+	},
+	{
+		"template": "line001",
+		"data-id": 10037,
+		"chart-id": 10037,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Personen mit Diskriminierungs- oder Gewalterfahrung",
+		"subtitle": "",
+		"lesehilfe": "40% der in Basel-Stadt Befragten gaben 2022 an, Diskriminierungs- oder Gewalterfarungen gemacht zu haben. Die statistische Unsicherheit reicht jedoch von einem Anteil von 27% bis 53%, womit kein statistisch signifikanter Unterschied gegenüber den Werten der Schweiz (30%; +/- 1,7 Prozentpunkte) festgestellt werden kann. Einzig 2020 kann ein statistisch signifikant höherer Anteil für Basel-Stadt gegenüber den Werten der Schweiz beobachtet werden.",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren.<br>Die Werte für den Kanton Basel-Stadt beruhen jeweils auf weniger als 30 Antworten und unterliegen daher einer grossen statistischen Unsicherheit. Die Fehlerbalken geben jeweils den statistischen Fehlerbereich (95%-Vertrauensintervall) der geschätzten Anteile wieder. Nur, wenn sich die Fehlerbalken zwischen zwei Kategorien nicht überschneiden, kann ein statistisch signifikanter Unterschied zwischen diesen festgestellt werden.<br>Die dargestellten Zahlen zeigen den Anteil der Bevölkerung der erklärt hat, aufgrund einer Gruppenzugehörigkeit Opfer von Diskriminierung oder Gewalt geworden zu sein. Selbstdeklaration der befragten Personen. Die dargestellten Anteile entsprechen nicht den Fällen von Diskriminierung oder Gewalt, die in den Beratungs- oder Meldstellen erfasst werden bzw. den Sanktionen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung zum Zusammenleben in der Schweiz (ZidS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Personen mit Diskriminierungs- oder Gewalterfahrung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10037",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.5",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:53",
+		"id": 10037
+	},
+	{
+		"template": "line001",
+		"data-id": 10038,
+		"chart-id": 10038,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2022 haben insgesamt 669 ausländische Personen Stipendien bezogen. Davon verfügen 336 Personen über eine Bewilligung für Niedergelassene. Seit 2019 nimmt die Anzahl Stipendien für diese Gruppe ab, während eine steigende Anzahl Stipenden für Aufenthalter sowie Vorläufig Aufgenommene gesprochen wird.",
+		"erlaeuterungen": "Durch den Kanton vergebene Stipendien.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.6",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-16T09:30:52",
+		"id": 10038
+	},
+	{
+		"template": "template001",
+		"data-id": 10040,
+		"chart-id": 4722,
+		"filter": "",
+		"parentId": "4722",
+		"children": [],
+		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 liessen sich 1 465 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 18,9 Einbürgerungen pro 1000 ausländischen Staatsangehörigen.",
+		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"kuerzel": "I.01.6.10040",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.1.3",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:54",
+		"id": 10040
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 10044,
+		"chart-id": 4872,
+		"filter": "",
+		"parentId": "4872",
+		"children": [],
+		"title": "Interesse an der Politik in Basel-Stadt",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
+		"lesehilfe": "15,0% der im Jahr 2019 Befragten interessieren sich sehr und 37,2% eher für die Politik im Kanton Basel-Stadt. 32,9% interessieren sich dafür eher nicht und 12,0% überhaupt nicht.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Interesse an der Politik in Basel-Stadt",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10044",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.2.2",
+		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:57",
+		"id": 10044
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 10045,
+		"chart-id": 4724,
+		"filter": "",
+		"parentId": "4724",
+		"children": [],
+		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt",
+		"lesehilfe": "2019 fühlten sich 50% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2015 entspricht dies einem Rückgang um 18 Prozentpunkte. Der Anteil der Befragten, die sich gar nicht gut vertreten fühlen, ist hingegen grösser geworden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10045",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.2.3",
+		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:58",
+		"id": 10045
+	},
+	{
+		"template": "line001",
+		"data-id": 10047,
+		"chart-id": 10047,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Gestört fühlen durch als «anders» empfundene Personen",
+		"subtitle": "",
+		"lesehilfe": "21% der in Basel-Stadt Befragten gaben 2022 an, sich durch als «anders» empfundene Personen gestört zu fühlen. Die statistische Unsicherheit reicht jedoch von einem Anteil von 10% bis 31%, womit kein statistisch signifikanter Unterschied gegenüber dem Wert der Schweiz (31%; +/- 1,7 Prozentpunkte) festgestellt werden kann. 2018 und 2020 kann jeweils ein statistisch signifikant tieferer Anteil für Basel-Stadt gegenüber den Werten der Schweiz beobachtet werden.",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren.<br>Die Werte für den Kanton Basel-Stadt beruhen jeweils auf weniger als 30 Antworten und unterliegen daher einer grossen statistischen Unsicherheit. Die Fehlerbalken geben jeweils den statistischen Fehlerbereich (95%-Vertrauensintervall) der geschätzten Anteile wieder. Nur, wenn sich die Fehlerbalken zwischen zwei Kategorien nicht überschneiden, kann ein statistisch signifikanter Unterschied zwischen diesen festgestellt werden.<br>Die dargestellte Zahlen zeigen den Anteil der Bevölkerung der sich in mindestens einem sozialen Umfeld (Alltag, Arbeit, Nachbarschaft) und durch mindestens ein Personenmerkmal (Hautfarbe, Sprache, Religion, Nationalität) gestört fühlt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung zum Zusammenleben in der Schweiz (ZidS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Gestört fühlen durch als «anders» empfundene Personen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10047",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.2.7",
+		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:37:00",
+		"id": 10047
+	},
+	{
+		"template": "template001",
+		"data-id": 10051,
+		"chart-id": 9008,
+		"filter": "",
+		"parentId": "9008",
+		"children": [],
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2020 um rund 27% abgenommen. Auf die Kategorie Wohnen (Anteil 2020: 35,2%) entfällt dabei 2020 etwa der gleiche Energieeinsatz wie 2010, während in diesem Zeitraum die Energiebezugsfläche zugenommen hat. Stark zurückgegangen ist der Verbrauch in der Kategorie Nichtwohnen (Anteil 2020: 49,7%), nämlich von 3 061 GWh auf 1 953 GWh, was einer Reduktion um etwa 36% entspricht. In der Kategorie Verkehr (Anteil 2020: 15,1%) ist 2020 gegenüber 2018 ein starker Rückgang ersichtlich, wobei dieser vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells zustandegekommen ist.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
+		"thema": "",
+		"unterthema": "Verbrauch",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3.2.4",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:37:01",
+		"id": 10051
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 10263,
+		"chart-id": 4849,
+		"filter": "",
+		"parentId": "4849",
+		"children": [],
+		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.50.2.10263",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.2.4",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:59",
+		"id": 10263
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 10264,
+		"chart-id": 4719,
+		"filter": "",
+		"parentId": "4719",
+		"children": [],
+		"title": "Beurteilung von gesellschaftlicher Vielfalt",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
+		"lesehilfe": "Mit 50,0% stimmen 2019 dieser Aussage deutlich mehr Befragte sehr zu als 2015 (23,6%). Die Veränderung dürfte mindestens teilweise mit der Anpassung der Befragungsmethodik zusammenhängen. Insgesamt 8,9% der Befragten stimmen der Aussage eher oder überhaupt nicht zu.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beurteilung von gesellschaftlicher Vielfalt",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10264",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.1.5",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-14T11:36:56",
+		"id": 10264
 	},
 	{
 		"template": "line001",
@@ -7921,45 +8344,45 @@
 		"id": 4848
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4849,
+		"chart-id": 4849,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9179,
+			10046,
+			10263
+		],
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
-		"kuerzel": "I.50.2.4849",
-		"kuerzelKunde": "1.1.04",
-		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.50.2.4849",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.1.04",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungen001",
+		"orderKey": "01_01_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_014",
-		"parentId": null,
-		"children": [
-			"9179"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4849,
-		"chart-id": 4849,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-14T11:36:45",
 		"id": 4849
 	},
 	{
@@ -10630,7 +11053,7 @@
 		],
 		"title": "Staatsausgaben für Kultur",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Kantons betragen 2020 im Bereich Kulturerbe 477 und im Bereich übrige Kultur 663 Franken pro Kopf.",
+		"lesehilfe": "Die Ausgaben des Kantons betragen 2021 im Bereich Kulturerbe 494 und im Bereich übrige Kultur 611 Franken pro Kopf.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -10656,7 +11079,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:32:28",
+		"aktualisierungsdatum": "2023-11-07T09:10:52",
 		"id": 5193
 	},
 	{
@@ -14950,7 +15373,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:30",
+		"aktualisierungsdatum": "2023-11-07T09:10:53",
 		"id": 6150
 	},
 	{
@@ -15301,8 +15724,8 @@
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg seit 1995 recht kontinuierlich, teilweise stark, insgesamt um rund 95%. Die Staatsausgaben liegen 2020 ca. 49% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 117%. Die Staatsausgaben liegen 2021 ca. 58% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"quellenangabe": [
 			"BAK Economics",
 			"Eidgenössische Finanzverwaltung"
@@ -15328,7 +15751,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:41",
+		"aktualisierungsdatum": "2023-10-26T03:45:22",
 		"id": 6205
 	},
 	{
@@ -22705,7 +23128,7 @@
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 weisen rund 2 600 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 146 000 Franken) auf. Ungefähr 3 300 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 36 800 Franken den kleinsten Mittelwert auf.",
+		"lesehilfe": "2020 weisen die rund 2 700 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 153 000 Franken) auf. Die ungefähr 3 200 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 38 200 Franken den niedrigsten Mittelwert auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22731,7 +23154,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:21",
+		"aktualisierungsdatum": "2023-11-13T09:13:32",
 		"id": 6468
 	},
 	{
@@ -22745,7 +23168,7 @@
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2019 liegt der höchste Median des Reineinkommens (ca. 79 000 Franken) bei Veranlagungen von Personen aus «Übrige Länder» vor, der tiefste bei jenen aus arabischen Ländern (ca. 30 000 Franken).",
+		"lesehilfe": "2020 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 85 000 Franken; rund 2 600 Veranlagungen), der tiefste bei jenen aus arabischen Ländern (ca. 28 000 Franken; 500 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22771,7 +23194,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6469
 	},
 	{
@@ -22784,8 +23207,8 @@
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2019 Personen aus den USA auf, der Wert beträgt rund 292 000 Franken. Von ihnen liegen für dieses Steuerjahr 586 Veranlagungen vor.",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2020",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2020 Personen aus den USA auf, der Wert beträgt rund 363 000 Franken. Von ihnen liegen für dieses Steuerjahr rund 600 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22811,7 +23234,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:22",
+		"aktualisierungsdatum": "2023-11-13T09:13:33",
 		"id": 6470
 	},
 	{
@@ -22825,7 +23248,7 @@
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2010 als auch 2019 für die Gruppe der Schweizer vor. 2019 beträgt er rund 659 000 Franken pro Veranlagung. Den kleinsten Wert 2019 verzeichnen Personen aus den Balkanländern, rund 16 000 Franken.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2020 für die Gruppe der Schweizer vor. Er beträgt rund 670 000 Franken pro Veranlagung. Den niedrigsten Wert verzeichnen 2020 Personen aus den Balkanländern mit rund 18 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22851,7 +23274,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:23",
+		"aktualisierungsdatum": "2023-11-13T09:13:34",
 		"id": 6471
 	},
 	{
@@ -38362,7 +38785,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im September 2023 bei 3,0% und damit knapp höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) ist  höher als im Vorjahr, während die Quote bei den Personen ab 50 Jahren gleich geblieben ist.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2023 bei 3,1% und damit höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) ist höher als im Vorjahr, während die Quote bei den Personen ab 50 Jahren etwa gleich geblieben ist.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38388,7 +38811,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:42:59",
+		"aktualisierungsdatum": "2023-11-07T09:10:49",
 		"id": 7510
 	},
 	{
@@ -38400,7 +38823,7 @@
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende September 2023 sind in Basel-Stadt deutlich weniger offene Stellen gemeldet als ein Jahr zuvor. Der Anteil der meldepflichtigen offenen Stellen liegt bei rund zwei Dritteln.",
+		"lesehilfe": "Ende Oktober 2023 sind in Basel-Stadt deutlich weniger offene Stellen gemeldet als ein Jahr zuvor. Der Anteil der meldepflichtigen offenen Stellen liegt bei rund zwei Dritteln.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38426,7 +38849,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:00",
+		"aktualisierungsdatum": "2023-11-07T09:10:50",
 		"id": 7511
 	},
 	{
@@ -38438,7 +38861,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im September 1,6%.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im Oktober 1,4%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen September 2023 und September 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -38466,7 +38889,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:39",
+		"aktualisierungsdatum": "2023-11-02T08:38:14",
 		"id": 7512
 	},
 	{
@@ -38478,7 +38901,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau weiter erhöht.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2022 stark gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2022 auf +2,6%. Mit dem Start ins Indexjahr 2023 hat sich das Preisniveau zunächst weiter erhöht, ab Mai dann stabilisiert.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -38505,7 +38928,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:40",
+		"aktualisierungsdatum": "2023-11-02T08:38:14",
 		"id": 7513
 	},
 	{
@@ -38555,7 +38978,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "133 010 Logiernächte wurden im September 2023 in den Basler Hotelbetrieben gebucht, 139 bzw. 0,1% wenigerr als im August. Im Vergleich zum September 2022 entspricht dies einer Abnahme um 5,3% bzw. 7 383 Übernachtungen. Die inländischen Gäste buchten 45 699 Logiernächte (-9,9%), die Gäste aus dem Ausland 87 311 Übernachtungen (-2,6%).",
+		"lesehilfe": "128 824 Logiernächte wurden im Oktober 2023 in den Basler Hotelbetrieben gebucht, 4 186 bzw. 3,1% wenigerr als im September. Im Vergleich zum Oktober 2022 entspricht dies einer Zunahme um 2,7% bzw. 3 356 Übernachtungen. Die inländischen Gäste buchten 47 479 Logiernächte (-8,2%), die Gäste aus dem Ausland 81 345 Übernachtungen (+10,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -38581,7 +39004,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:01",
+		"aktualisierungsdatum": "2023-11-14T11:36:43",
 		"id": 7516
 	},
 	{
@@ -38592,8 +39015,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -38619,7 +39042,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:02",
+		"aktualisierungsdatum": "2023-11-14T11:36:44",
 		"id": 7517
 	},
 	{
@@ -49096,58 +49519,16 @@
 		"id": 8115
 	},
 	{
-		"title": "In der Schweiz geborene Personen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.08240",
-		"kuerzelKunde": "1-01",
-		"description": "In der Schweiz geborene Personen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:51.5151",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grössten Anteile in der Schweiz geborener Personen waren 2019 mit jeweils mindestens 65% in den Wohnvierteln Bachletten, Hirzbrunnen, Bruderholz und Riehen zu finden. Im Wohnviertel Vorstädte sank dieser Anteil in den letzten zehn Jahren mit einem Minus von 6,8 Prozenpunkten am stärksten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
-		"template": "mappie001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"8511"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8240,
-		"chart-id": 8240,
-		"filter": "",
-		"id": 8240
-	},
-	{
 		"template": "mappie001",
 		"data-id": 8241,
 		"chart-id": 8241,
 		"filter": "",
-		"parentId": "6392",
+		"parentId": null,
 		"children": [],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"subtitle": "Nach Wohnviertel, Basel-Stadt, 2022",
 		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,5% auf. In der Altstadt Grossbasel, Bettingen und dem Bachletten liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 10,6% respektive 10,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -49161,18 +49542,18 @@
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kuerzel": "I.13.3.08241",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-03",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
+		"kuerzelKunde": "1.1.1",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_103",
+		"orderKey": "01_00_00_00_00_103",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:38",
+		"aktualisierungsdatum": "2023-11-14T11:36:47",
 		"id": 8241
 	},
 	{
@@ -49258,48 +49639,6 @@
 		"id": 8243
 	},
 	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht», Basel-Stadt",
-		"kuerzel": "I.50.2.08244",
-		"kuerzelKunde": "1-09",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T10:06:36.3636",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In fast allen Bereichen liegt die Einschätzung, dass das Geld nicht reicht, tiefer als 2009 und 2013. Am wenigsten Geld steht zum Sparen (35,8%), für eine Haushaltshilfe (35,6%) und für die private Vorsorge (30,7%) zur Verfügung. Am tiefsten ist der Wert bei den Lebensmittel. Lediglich 2,3% der befragten Familien geben an, dass ihnen das Geld für Lebensmittel nicht reicht.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
-		"parentId": null,
-		"children": [
-			"8515"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8244,
-		"chart-id": 8244,
-		"filter": "",
-		"id": 8244
-	},
-	{
 		"title": "Finanzielle Unterstützung",
 		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?», Basel-Stadt",
 		"kuerzel": "I.50.2.08245",
@@ -49340,130 +49679,6 @@
 		"chart-id": 8245,
 		"filter": "",
 		"id": 8245
-	},
-	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08246",
-		"kuerzelKunde": "1-11",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T11:46:08.088",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_111",
-		"parentId": null,
-		"children": [
-			"8517"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8246,
-		"chart-id": 8246,
-		"filter": "",
-		"id": 8246
-	},
-	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08247",
-		"kuerzelKunde": "1-12",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T12:02:48.4848",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "28,3% der befragten Familien stimmen 2017 der Aussage «In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» genau oder eher zu. 62,9% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,3% vs. 25,5%). Wenig überraschend stimmen Familien mit einem Haushaltseinkommen unter 3000 Franken pro Monat der Aussage deutlich häufiger zu als Familien mit höherem Haushaltseinkommen (55,8% vs. 46,9% vs. 13,0%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_112",
-		"parentId": null,
-		"children": [
-			"8518"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8247,
-		"chart-id": 8247,
-		"filter": "",
-		"id": 8247
-	},
-	{
-		"template": "template001",
-		"data-id": 8248,
-		"chart-id": 8248,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8519
-		],
-		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"subtitle": "nach Grossregion, 2020",
-		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 5,9% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 16,6% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-06",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_106",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:40",
-		"id": 8248
 	},
 	{
 		"template": "template001",
@@ -49595,7 +49810,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,0% im Januar auf 4,7% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,6%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ging von 5,6% im Januar auf 4,0% im Oktober 2022 zurück, stieg aber bis Jahresende wieder auf 4,9%. Bei den anderen Bevölkerungsgruppen war die Quote 2022 überwiegend rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -49610,7 +49825,7 @@
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08252",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-20",
+		"kuerzelKunde": "1.1.7",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
@@ -49621,7 +49836,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:08",
+		"aktualisierungsdatum": "2023-11-14T11:36:49",
 		"id": 8252
 	},
 	{
@@ -49907,48 +50122,6 @@
 		"id": 8261
 	},
 	{
-		"title": "Gesundheitliche Unterstützung",
-		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08262",
-		"kuerzelKunde": "1-31",
-		"description": "Gesundheitliche Unterstützung",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Aufgrund von gesundheitlichen Problemen haben 71,7% der befragten Familien schon einmal Hilfe oder Unterstützung gebraucht. Einelternfamilien haben mit 77,9% deutlich häufiger Unterstützung und Hilfe benötigt als Zweielternfamilien (70,7%)",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_04_00_00_00_131",
-		"parentId": null,
-		"children": [
-			"8533"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8262,
-		"chart-id": 8262,
-		"filter": "",
-		"id": 8262
-	},
-	{
 		"template": "template001",
 		"data-id": 8263,
 		"chart-id": 8263,
@@ -49959,7 +50132,7 @@
 		],
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"lesehilfe": "Im Jahr 2017 gab ein höherer Anteil Frauen (17,0%) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
 		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -49971,21 +50144,21 @@
 		],
 		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.08263",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-33",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
+		"kuerzelKunde": "1.2.1",
+		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_04_00_00_00_133",
+		"orderKey": "05_00_00_00_00_133",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:57",
+		"aktualisierungsdatum": "2023-11-14T11:36:50",
 		"id": 8263
 	},
 	{
@@ -49999,7 +50172,7 @@
 		],
 		"title": "Anteil Personen mit depressiven Symptomen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"lesehilfe": "Im Jahr 2017 litten gemäss Schweizerischer Gesundheitsbefragung 8,1% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
 		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -50014,18 +50187,18 @@
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kuerzel": "I.14.4.08264",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-34",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
+		"kuerzelKunde": "1.2.2",
+		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_04_00_00_00_134",
+		"orderKey": "05_00_00_00_00_134",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:58",
+		"aktualisierungsdatum": "2023-11-14T11:36:51",
 		"id": 8264
 	},
 	{
@@ -52382,9 +52555,9 @@
 			8467
 		],
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2018",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "total in Mrd. Franken, 2021",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2021 Basel-Stadt mit 41,0 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,4 und Jura mit 5,2 Mrd. Franken.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -52398,7 +52571,7 @@
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "1.1-1",
+		"kuerzelKunde": "1.1.1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
@@ -52409,7 +52582,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:06",
+		"aktualisierungsdatum": "2023-11-13T09:13:28",
 		"id": 8350
 	},
 	{
@@ -52422,9 +52595,9 @@
 			8468
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2018",
-		"lesehilfe": "Mit über 196 000 Franken pro Kopf im Jahr 2020 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 71 000 Franken, Jura auf rund 67 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 82 000 Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "in Franken, 2021",
+		"lesehilfe": "Mit über 210 000 Franken pro Kopf im Jahr 2021 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 200 Franken, Jura auf 70 200 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 85 700 Franken.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -52438,7 +52611,7 @@
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "1.1-2",
+		"kuerzelKunde": "1.1.2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
@@ -52449,91 +52622,87 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:26",
+		"aktualisierungsdatum": "2023-11-13T09:13:28",
 		"id": 8351
 	},
 	{
-		"title": "Entwicklung Bruttoinlandprodukt",
-		"subtitle": "real; indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-3",
-		"description": "Entwicklung Bruttoinlandprodukt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:22.2222",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.1 Bruttoinlandprodukt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2018 weist Basel-Stadt mit 19,9% auf, gefolgt von Basel-Landschaft mit 9,9% und Jura mit 3,3%. In der gesamten Schweiz stieg der Wert um 7,8%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8469"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8352,
 		"chart-id": 8352,
 		"filter": "",
-		"id": 8352
-	},
-	{
-		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"parentId": null,
+		"children": [
+			8469
+		],
+		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-4",
-		"description": "Entwicklung Bruttoinlandprodukt pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2021 weist Basel-Stadt mit 34,7% auf, gefolgt vom Kanton Jura mit 7,3% und Basel-Landschaft mit 5,2%. In der gesamten Schweiz stieg der Wert um 5,9%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Entwicklung Bruttoinlandprodukt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1.3",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2018 weist Basel-Stadt mit 16,8% auf. Im Kanton Basel-Landschaft beträgt der Zuwachs 6,4% und im Jura 0,6%. In der gesamten Schweiz stieg der Wert um 3,1%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
-		"template": "line001",
+		"orderKey": "01_01_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8470"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"id": 8352
+	},
+	{
+		"template": "line001",
 		"data-id": 8353,
 		"chart-id": 8353,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8470
+		],
+		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"subtitle": "real; indexiert (2014 = 100)",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2021 weist Basel-Stadt mit 40,0% auf. Im Kanton Jura beträgt der Zuwachs 10,2% und im Kanton Basel-Landschaft 9,8%. In der gesamten Schweiz stieg der Wert um 12,8%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1.4",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
 		"id": 8353
 	},
 	{
@@ -52830,7 +52999,7 @@
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 46%, der Bestand im dritten Quartal 2022 liegt bei 10 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+24% auf rund 24 100) und Basel-Stadt (+3% auf 34 800). In der gesamten Schweiz arbeiten im 3. Quartal 2022 rund 374 300 Grenzgänger, 31% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 60%, der Bestand im 2. Quartal 2023 liegt bei 11 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+25% auf rund 24 400) und Basel-Stadt (+3% auf 34 600). In der gesamten Schweiz arbeiten im 2. Quartal 2023 rund 390 900 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -52845,7 +53014,7 @@
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-7",
+		"kuerzelKunde": "2.1.7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -52856,7 +53025,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:27",
+		"aktualisierungsdatum": "2023-11-13T09:13:30",
 		"id": 8361
 	},
 	{
@@ -53189,8 +53358,8 @@
 			8487
 		],
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2021",
-		"lesehilfe": "2021 betragen die Exporte aus Basel-Stadt 204,4% und die Importe 91,9% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 49,9% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"subtitle": "Anteil am nominalen BIP, 2022",
+		"lesehilfe": "2022 betragen die Exporte aus Basel-Stadt 182,7% und die Importe 92,1% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 59,2% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -53206,18 +53375,18 @@
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08370",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-1",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.1",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:06",
+		"aktualisierungsdatum": "2023-11-13T09:13:30",
 		"id": 8370
 	},
 	{
@@ -55338,45 +55507,43 @@
 		"id": 8436
 	},
 	{
+		"template": "template001",
+		"data-id": 8437,
+		"chart-id": 8437,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8497
+		],
 		"title": "Neugegründete Unternehmen",
-		"subtitle": "2014-2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1.3-1",
-		"description": "Neugegründete Unternehmen",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "2015-2020",
+		"lesehilfe": "Über die Jahre 2015 bis 2020 sind in der Region BS/BL/JU insgesamt rund 14 300 neue Unternehmen gegründet worden – davon ca. 6 500 in Basel-Stadt, ca.6 200 in Basel-Landschaft und rund 1 700 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
+		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:34.3434",
+		"description": "Neugegründete Unternehmen",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Neugründungen",
+		"kuerzel": "I.06.2.08437",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3.1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über die Jahre 2014 bis 2017 sind in der Region BS/BL/JU insgesamt rund 10 000 neue Unternehmen gegründet worden – je ca. 4 500 in den beiden Basel und rund 1 000 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 91% in Basel-Stadt und 81% im Jura.",
-		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
-		"template": "template001",
+		"orderKey": "01_03_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8497"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8437,
-		"chart-id": 8437,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-01T07:50:31",
 		"id": 8437
 	},
 	{
@@ -55430,8 +55597,8 @@
 			8499
 		],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "2020",
-		"lesehilfe": "Rund 91% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 65%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in Basel-Stadt die Landwirtschaft grössenmässig keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
+		"subtitle": "2021",
+		"lesehilfe": "Im Kanton Basel-Stadt gab es im Jahr 2021 17 502 Arbeitsstätten. Davon waren 1 816 Arbeitsstätten bzw. 10,4% in der Branche «Handel und Reparatur» angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil etwas höher bei 13,2% bzw. 12,5%. In allen drei Kantonen weisen vor allem der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen grössere Anteile auf. Während in Basel-Stadt die Landwirtschaft nur wenig Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -55447,7 +55614,7 @@
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.08439",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "1.3-3",
+		"kuerzelKunde": "1.3.3",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
@@ -55458,7 +55625,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:53",
+		"aktualisierungsdatum": "2023-11-01T07:50:32",
 		"id": 8439
 	},
 	{
@@ -55554,7 +55721,7 @@
 		],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren tendentiell ähnlich entwickelt: Nach einem Rückgang 2017 bis 2019 ist die Arbeitslosigkeit im Jahr 2020 aufgrund der COVID-19-Pandemie markant angestiegen. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2020 lagen die Arbeitslosenquoten bei 2,8% (BL), 4,3% (BS) und 5,6% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren sehr ähnlich entwickelt: Nach einem markanten Anstieg aufgrund der COVID-19-Pandemie im Jahr 2020 ist die Arbeitslosigkeit 2021 und 2022 tendentiell stark rückläufig. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2022 lagen die Arbeitslosenquoten bei 1,8% (BL), 2,9% (BS) und 3,7% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
 		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -55570,7 +55737,7 @@
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.08442",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-4",
+		"kuerzelKunde": "2.1.4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -55581,7 +55748,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:30",
+		"aktualisierungsdatum": "2023-11-14T11:36:55",
 		"id": 8442
 	},
 	{
@@ -55679,8 +55846,8 @@
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2020 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 68,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,5% und 70,9%. Im Kanton Basel-Landschaft liegt die Quote bei 69,4% und im Kanton Jura bei 66,6%. Der Wert für die Schweiz beträgt 70,6%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Jahr 2021 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,5%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 67,3% und 71,7%. Im Kanton Basel-Landschaft liegt die Quote bei 71,2% und im Kanton Jura bei 67,2%. Der Wert für die Schweiz beträgt 71,8%.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Frauen an den erwerbsfähigen Frauen in der Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -55695,7 +55862,7 @@
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.08447",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-2",
+		"kuerzelKunde": "2.1.2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -55706,7 +55873,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-15T09:04:42",
+		"aktualisierungsdatum": "2023-11-01T07:50:37",
 		"id": 8447
 	},
 	{
@@ -56247,7 +56414,7 @@
 		],
 		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2021 um über 30% gestiegen. Im Kanton Basel-Landschaft liegt der Wert über 24% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 wieder gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 29% seit 2016, für die gesamte Schweiz von ca. 16%.",
+		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt von 2016 bis 2022 um fast 55% gestiegen. Im Kanton Basel-Landschaft liegt der Wert fast 59% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 zum zweiten mal in Folge gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 54% seit 2016, für die gesamte Schweiz von ca. 35%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -56262,18 +56429,18 @@
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08462",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-3",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.3",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_003",
+		"orderKey": "03_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:07",
+		"aktualisierungsdatum": "2023-11-13T09:13:31",
 		"id": 8462
 	},
 	{
@@ -58072,43 +58239,41 @@
 		"id": 8514
 	},
 	{
+		"template": "template001_print",
+		"data-id": 8515,
+		"chart-id": 8515,
+		"filter": "",
+		"parentId": "8244",
+		"children": [],
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht», Basel-Stadt",
-		"kuerzel": "I.50.2.08515",
-		"kuerzelKunde": "1-09",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "",
+		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In fast allen Bereichen liegt die Einschätzung, dass das Geld nicht reicht, tiefer als 2009 und 2013. Am wenigsten Geld steht zum Sparen (35,8%), für eine Haushaltshilfe (35,6%) und für die private Vorsorge (30,7%) zur Verfügung. Am tiefsten ist der Wert bei den Lebensmittel. Lediglich 2,3% der befragten Familien geben an, dass ihnen das Geld für Lebensmittel nicht reicht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T10:06:36.3636",
+		"description": "Finanzielle Lage",
+		"thema": "15 Bildung",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.15.2.08515",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "1-09",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In fast allen Bereichen liegt die Einschätzung, dass das Geld nicht reicht, tiefer als 2009 und 2013. Am wenigsten Geld steht zum Sparen (35,8%), für eine Haushaltshilfe (35,6%) und für die private Vorsorge (30,7%) zur Verfügung. Am tiefsten ist der Wert bei den Lebensmittel. Lediglich 2,3% der befragten Familien geben an, dass ihnen das Geld für Lebensmittel nicht reicht.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "template001_print",
+		"orderKey": "01_01_00_00_00_109",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_109",
-		"parentId": 8244,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8515,
-		"chart-id": 8515,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-01T07:50:34",
 		"id": 8515
 	},
 	{
@@ -58152,83 +58317,79 @@
 		"id": 8516
 	},
 	{
-		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08517",
-		"kuerzelKunde": "1-11",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-27T11:46:08.088",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungenGrundauswertung001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_111",
-		"parentId": 8246,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8517,
 		"chart-id": 8517,
 		"filter": "",
-		"id": 8517
-	},
-	{
+		"parentId": "8246",
+		"children": [],
 		"title": "Finanzielle Lage",
-		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08518",
-		"kuerzelKunde": "1-12",
-		"description": "Finanzielle Lage",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "",
+		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T12:02:48.4848",
+		"description": "Finanzielle Lage",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.50.2.08517",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "1-11",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "28,3% der befragten Familien stimmen 2017 der Aussage «In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» genau oder eher zu. 62,9% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,3% vs. 25,5%). Wenig überraschend stimmen Familien mit einem Haushaltseinkommen unter 3000 Franken pro Monat der Aussage deutlich häufiger zu als Familien mit höherem Haushaltseinkommen (55,8% vs. 46,9% vs. 13,0%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001_print",
+		"orderKey": "01_01_00_00_00_111",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_112",
-		"parentId": 8247,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2023-11-01T07:50:35",
+		"id": 8517
+	},
+	{
+		"template": "befragungenGrundauswertung001_print",
 		"data-id": 8518,
 		"chart-id": 8518,
 		"filter": "",
+		"parentId": "8247",
+		"children": [],
+		"title": "Finanzielle Lage",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "28,3% der befragten Familien stimmen 2017 der Aussage «In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» genau oder eher zu. 62,9% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,3% vs. 25,5%). Wenig überraschend stimmen Familien mit einem Haushaltseinkommen unter 3000 Franken pro Monat der Aussage deutlich häufiger zu als Familien mit höherem Haushaltseinkommen (55,8% vs. 46,9% vs. 13,0%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Finanzielle Lage",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.13.2.08518",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "1-12",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_112",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-01T07:50:35",
 		"id": 8518
 	},
 	{
@@ -58239,9 +58400,9 @@
 		"parentId": "8248",
 		"children": [],
 		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"subtitle": "nach Grossregion, 2020",
+		"subtitle": "",
 		"lesehilfe": "Im Jahr 2020 lebten in der Nordwestschweiz 5,9% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestens einer Kreditkartenüberziehung. 16,6% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
 		],
@@ -58251,7 +58412,7 @@
 			"Grossregion"
 		],
 		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
@@ -58266,7 +58427,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:19:05",
+		"aktualisierungsdatum": "2023-11-01T07:50:33",
 		"id": 8519
 	},
 	{
@@ -58696,43 +58857,41 @@
 		"id": 8532
 	},
 	{
+		"template": "befragungenGrundauswertung001_print",
+		"data-id": 8533,
+		"chart-id": 8533,
+		"filter": "",
+		"parentId": "8262",
+		"children": [],
 		"title": "Gesundheitliche Unterstützung",
-		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?», Basel-Stadt, 2017",
-		"kuerzel": "I.50.2.08533",
-		"kuerzelKunde": "1-31",
-		"description": "Gesundheitliche Unterstützung",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"subtitle": "",
+		"lesehilfe": "Aufgrund von gesundheitlichen Problemen haben 71,7% der befragten Familien schon einmal Hilfe oder Unterstützung gebraucht. Einelternfamilien haben mit 77,9% deutlich häufiger Unterstützung und Hilfe benötigt als Zweielternfamilien (70,7%)",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
+		"description": "Gesundheitliche Unterstützung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.02.2.08533",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"kuerzelKunde": "1-31",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Aufgrund von gesundheitlichen Problemen haben 71,7% der befragten Familien schon einmal Hilfe oder Unterstützung gebraucht. Einelternfamilien haben mit 77,9% deutlich häufiger Unterstützung und Hilfe benötigt als Zweielternfamilien (70,7%)",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001_print",
+		"orderKey": "01_04_00_00_00_131",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_04_00_00_00_131",
-		"parentId": 8262,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8533,
-		"chart-id": 8533,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-01T07:50:36",
 		"id": 8533
 	},
 	{
@@ -58744,7 +58903,7 @@
 		"children": [],
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"lesehilfe": "Im Jahr 2017 gab ein höherer Anteil Frauen (17,0%) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
 		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -58756,8 +58915,8 @@
 		],
 		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.08534",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"kuerzelKunde": "1-33",
 		"stufe1": "Prävention und Bekämpfung von Armut",
@@ -58770,7 +58929,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:55",
+		"aktualisierungsdatum": "2023-11-14T11:36:53",
 		"id": 8534
 	},
 	{
@@ -66883,45 +67042,43 @@
 		"id": 8965
 	},
 	{
+		"template": "line001",
+		"data-id": 8969,
+		"chart-id": 8969,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8972
+		],
 		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
-		"kuerzel": "I.06.2.08969",
-		"kuerzelKunde": "1.3-2",
-		"description": "Entwicklung Neugründungsrate",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Neugründungen",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2020 bei 6,6%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,6%) und in der Gesamtschweiz (7,1%).",
+		"erlaeuterungen": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:40.4040",
+		"description": "Entwicklung Neugründungsrate",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Neugründungen",
+		"kuerzel": "I.06.2.08969",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3.2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Dieser Anteil war mit Ausnahme des Kantons JU im Jahr 2014 besonders hoch und hat sich seither reduziert. 2014 war die Neugründungsrate in der Region BS/BL/JU mit 8,3% höher als in der Gesamtschweiz, seither jedoch sind die Werte unterhalb des schweizweiten Niveaus gefallen. Zuletzt im Jahr 2017 lag die Quote bei 6,5% (BS/BL/JU) resp. 7,1% (CH).",
-		"erlaeuterungen": "Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
-		"template": "line001",
+		"orderKey": "01_03_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8972"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8969,
-		"chart-id": 8969,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-13T09:13:29",
 		"id": 8969
 	},
 	{
@@ -67207,7 +67364,7 @@
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, bewegt sich seit dem Frühling 2023 bei rund 3 000 und ist damit ähnlich tief wie im Jahr 2019, vor der Pandemie. Auch die Zahl der Langzeitarbeitslosen sowie der Anteil der Langzeitarbeitslosen am Total sind in einem ähnlichen Bereich wie vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, bewegt sich seit dem Frühling 2023 bei rund 3 000 und ist damit in einem ähnlichen Bereich wie vor der Pandemie. Auch die Zahl der Langzeitarbeitslosen sowie der Anteil der Langzeitarbeitslosen am Total sind ähnlich wie vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -67233,7 +67390,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:00",
+		"aktualisierungsdatum": "2023-11-07T09:10:50",
 		"id": 8980
 	},
 	{
@@ -67271,7 +67428,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:01",
+		"aktualisierungsdatum": "2023-11-07T09:10:51",
 		"id": 8981
 	},
 	{
@@ -67587,7 +67744,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-06T08:43:01",
+		"aktualisierungsdatum": "2023-11-07T09:10:52",
 		"id": 8992
 	},
 	{
@@ -67628,7 +67785,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:43",
+		"aktualisierungsdatum": "2023-11-16T09:30:50",
 		"id": 8995
 	},
 	{
@@ -68002,7 +68159,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:04:59",
+		"aktualisierungsdatum": "2023-11-16T09:30:51",
 		"id": 9022
 	},
 	{
@@ -68040,7 +68197,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:05:00",
+		"aktualisierungsdatum": "2023-11-16T09:30:51",
 		"id": 9023
 	},
 	{
@@ -70744,43 +70901,41 @@
 		"id": 9178
 	},
 	{
+		"template": "befragungen001_print",
+		"data-id": 9179,
+		"chart-id": 9179,
+		"filter": "",
+		"parentId": "4849",
+		"children": [],
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
-		"kuerzel": "I.50.2.09179",
-		"kuerzelKunde": "1.1.04",
-		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T11:18:43.4343",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.50.2.09179",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"kuerzelKunde": "1.1.04",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungen001_print",
+		"orderKey": "01_01_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_014",
-		"parentId": 4849,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9179,
-		"chart-id": 9179,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-14T11:36:46",
 		"id": 9179
 	},
 	{
@@ -74069,7 +74224,7 @@
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 existieren in Basel-Stadt 99 746 Wohnungen. Den grössten Anteil machen mit 72 870 die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 10 985 gestiegen.",
+		"lesehilfe": "Ende 2022 existieren in Basel-Stadt 100 613 Wohnungen. Den grössten Anteil machen mit 73 466 (73,0%) die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 11 093 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -74095,7 +74250,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-22T10:09:16",
+		"aktualisierungsdatum": "2023-10-26T03:45:24",
 		"id": 9382
 	},
 	{
@@ -74384,7 +74539,7 @@
 		],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 von 1,6% auf 14,9% (2021) zugenommen.",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2011 von 0,2% auf 23,2% (2022) zugenommen.",
 		"erlaeuterungen": "In der Kategorie der Elektrofahrzeuge werden hier neben den rein elektrisch betriebenen Fahrzeugen auch Plug-in-Hybride berücksichtigt, deren Akku sowohl über den Verbrennungsmotor als auch mit einem Stecker am Stromnetz geladen werden kann. Wasserstoffautos werden von einem Elektromotor angetrieben, deshalb zählen auch sie zu den Elektrofahrzeugen. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Haltern und Halterinnen, die an diesem Stichtag Wohnsitz im Kanton hatten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -74410,7 +74565,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:28",
+		"aktualisierungsdatum": "2023-11-07T09:10:53",
 		"id": 9391
 	},
 	{
@@ -74666,19 +74821,21 @@
 		"children": [
 			9455
 		],
-		"title": "Aktive E-Government Konten",
+		"title": "Aktive E-Government-Konten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Per Stichdatum 5.10.2021 haben sich 28 138 von 33 764 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
-		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben.",
+		"lesehilfe": "Per Stichdatum 17.10.2023 haben sich 25 443 von 47 727 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
+		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben. Konten von Benutzern, welche sich länger als zwei Jahre nicht angemeldet haben, werden nach Vorankündigung gelöscht.",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Informationen zum <a href = 'https://www.itbs.bs.ch/dienstleistungen/egovernment/das-ekonto.html' target = '_blank'>eKonto des Kantons Basel-Stadt</a>."
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Aktive E-Government Konten",
+		"description": "Aktive E-Government-Konten",
 		"thema": "17 Politik",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.17.1.09398",
@@ -74694,7 +74851,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:33",
+		"aktualisierungsdatum": "2023-11-07T09:10:54",
 		"id": 9398
 	},
 	{
@@ -77376,7 +77533,7 @@
 		"children": [],
 		"title": "Arbeitsstätten im Detailhandel, nach Branche",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2020 gab es in der Innenstadt 569 Arbeitsstätten im Detailhandel, das sind 122 bzw. 17,7% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (157 bzw. 28%).",
+		"lesehilfe": "Im Jahr 2021 gab es in der Innenstadt 551 Arbeitsstätten im Detailhandel, das sind 140 bzw. 20,3% weniger als noch im Jahr 2011. Die meisten Arbeitsstätten gehören dem Bereich Bekleidung und Lederwaren an (146 bzw. 26,5%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -77402,7 +77559,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:01",
+		"aktualisierungsdatum": "2023-11-01T07:50:38",
 		"id": 9588
 	},
 	{
@@ -79309,7 +79466,7 @@
 		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -79335,7 +79492,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:21",
+		"aktualisierungsdatum": "2023-11-01T07:50:39",
 		"id": 9676
 	},
 	{
@@ -79660,7 +79817,7 @@
 		],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2021 5,7% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2020.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als in den Vergleichsstädten</p></div>",
+		"lesehilfe": "In der Stadt Basel bezogen 2022 5,3% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2021.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als in den Vergleichsstädten</p></div>",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -79686,7 +79843,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-30T08:41:44",
+		"aktualisierungsdatum": "2023-11-01T07:50:40",
 		"id": 9693
 	},
 	{
@@ -79848,6 +80005,48 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-13T08:21:54",
 		"id": 9736
+	},
+	{
+		"template": "line001",
+		"data-id": 9737,
+		"chart-id": 9737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsdichte in Bauzone",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2022 im Schnitt 57,0 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 141,7 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 160,2 Personen pro Hektar.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>",
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsdichte in Bauzone",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.09737",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL7",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_407",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-16T09:30:52",
+		"id": 9737
 	},
 	{
 		"template": "line001",
@@ -80481,6 +80680,44 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 9784,
+		"chart-id": 9784,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2022 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 204 550 Personen.",
+		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.09784",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"id": 9784
+	},
+	{
+		"template": "line001",
 		"data-id": 9785,
 		"chart-id": 9680,
 		"filter": "",
@@ -80592,6 +80829,47 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-06-29T08:06:39",
 		"id": 9862
+	},
+	{
+		"template": "line001",
+		"data-id": 9919,
+		"chart-id": 9919,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			10031
+		],
+		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei 21% bzw. 13%.",
+		"erlaeuterungen": "Anteil AHV-/IV-Beziehende mit Ergänzungsleistungen (EL) an allen AHV-/IV-Rentnern per Ende Jahr.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
+			"Bundesamt für Sozialversicherungen (BSV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09919",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-13T09:13:27",
+		"id": 9919
 	},
 	{
 		"title": "Test Daten",

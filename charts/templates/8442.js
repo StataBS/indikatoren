@@ -1,21 +1,19 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 1000 * 60 * 60 * 24 * 365,
-      type: 'datetime',
-      dateTimeLabelFormats: {
-        year: '%Y'
-      },
-      labels: {
-        x: 30
-      }
-      /*  "tickInterval": 12,
+     // tickInterval: 1000 * 60 * 60 * 24 * 365,
+     // type: 'datetime',
+    //  dateTimeLabelFormats: {
+     //   year: '%Y'
+    //  },
+        "tickInterval": 12,
          "type": "category",
          labels:{
+          x: 30,
               "formatter": function() {
                return this.value.split("-").slice(0, -1);
         },
-         }*/
+         }
     },
     "yAxis": {
       "labels": {

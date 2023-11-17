@@ -1,0 +1,357 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#B00000",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2016",
+          36.274
+        ],
+        [
+          "2018",
+          34.165
+        ],
+        [
+          "2020",
+          32.999
+        ],
+        [
+          "2022",
+          31.032
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2016",
+          "low": 34.487,
+          "high": 38.061
+        },
+        {
+          "name": "2018",
+          "low": 32.453,
+          "high": 35.876
+        },
+        {
+          "name": "2020",
+          "low": 31.356,
+          "high": 34.642
+        },
+        {
+          "name": "2022",
+          "low": 29.299,
+          "high": 32.764
+        }
+      ],
+      "name": "Schweiz 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#CD9C00",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2016",
+          36.968
+        ],
+        [
+          "2018",
+          32.606
+        ],
+        [
+          "2020",
+          35.733
+        ],
+        [
+          "2022",
+          34.598
+        ]
+      ],
+      "name": "Nordwestschweiz",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2016",
+          "low": 31.771,
+          "high": 42.165
+        },
+        {
+          "name": "2018",
+          "low": 27.928,
+          "high": 37.284
+        },
+        {
+          "name": "2020",
+          "low": 31.219,
+          "high": 40.248
+        },
+        {
+          "name": "2022",
+          "low": 29.734,
+          "high": 39.462
+        }
+      ],
+      "name": "Nordwestschweiz 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#474747",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2016",
+          null
+        ],
+        [
+          "2018",
+          15.978
+        ],
+        [
+          "2020",
+          20.256
+        ],
+        [
+          "2022",
+          20.775
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2018",
+          "low": 6.253,
+          "high": 25.704
+        },
+        {
+          "name": "2020",
+          "low": 10.89,
+          "high": 29.623
+        },
+        {
+          "name": "2022",
+          "low": 10.134,
+          "high": 31.416
+        }
+      ],
+      "name": "Basel-Stadt 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginBottom": 80,
+    "inverted": false,
+    "renderTo": "container-10047"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Gestört fühlen durch als «anders» empfundene Personen"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung zum Zusammenleben in der Schweiz (ZidS).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "10047"
+  }
+}

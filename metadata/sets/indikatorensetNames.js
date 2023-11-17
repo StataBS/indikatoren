@@ -1,5 +1,6 @@
 var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU",
+	"CMS Kennzahlen Soziales",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
 	"Legislaturplan",
@@ -31,7 +32,6 @@ var indikatorensetNames = [
 	"Tourismus (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen",
 	"City-Statistics (Print)",
-	"CMS Kennzahlen Soziales",
 	"Gesellschaftlicher-Zusammenhalt (Print)",
 	"Wirtschaftsbericht BS_BL_JU (Print)",
 	"CMS Kennzahlen Soziales (Print)",
