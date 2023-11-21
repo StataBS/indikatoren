@@ -15417,7 +15417,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:28",
+		"aktualisierungsdatum": "2023-11-21T08:16:47",
 		"id": 6154
 	},
 	{
@@ -15459,7 +15459,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:30",
+		"aktualisierungsdatum": "2023-11-21T08:16:49",
 		"id": 6160
 	},
 	{
@@ -15501,7 +15501,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:30",
+		"aktualisierungsdatum": "2023-11-21T08:16:49",
 		"id": 6161
 	},
 	{
@@ -15585,7 +15585,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:27",
+		"aktualisierungsdatum": "2023-11-21T08:16:45",
 		"id": 6165
 	},
 	{
@@ -24059,11 +24059,13 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			6732
+			6732,
+			10043,
+			10265
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutio-nalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -24089,7 +24091,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:38",
+		"aktualisierungsdatum": "2023-11-21T08:16:51",
 		"id": 6492
 	},
 	{
@@ -38940,7 +38942,7 @@
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
-		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen. Zurzeit sind für die Geburten keine provisorischen Werte verfügbar, weshalb der Saldo Geburten-Todesfälle für die letzten zwei Monate nicht ausgewiesen wird.",
+		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -38965,7 +38967,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:04:57",
+		"aktualisierungsdatum": "2023-11-21T08:16:43",
 		"id": 7515
 	},
 	{
@@ -43286,8 +43288,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Im September 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 17 Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwei Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Im Oktober 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in der Gemeinde Riehen. In acht Wohnvierteln und in der Gemeinde Bettingen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -43314,7 +43316,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:04:58",
+		"aktualisierungsdatum": "2023-11-21T08:16:44",
 		"id": 7763
 	},
 	{
@@ -74564,7 +74566,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:29",
+		"aktualisierungsdatum": "2023-11-21T08:16:48",
 		"id": 9391
 	},
 	{
@@ -74604,7 +74606,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:31",
+		"aktualisierungsdatum": "2023-11-21T08:16:50",
 		"id": 9392
 	},
 	{
@@ -74644,7 +74646,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-20T09:11:28",
+		"aktualisierungsdatum": "2023-11-21T08:16:46",
 		"id": 9393
 	},
 	{
