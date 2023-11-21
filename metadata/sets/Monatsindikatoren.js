@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
-		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen. Zurzeit sind für die Geburten keine provisorischen Werte verfügbar, weshalb der Saldo Geburten-Todesfälle für die letzten zwei Monate nicht ausgewiesen wird.",
+		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:04:57",
+		"aktualisierungsdatum": "2023-11-21T08:16:43",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Im September 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in 17 Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwei Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Im Oktober 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in der Gemeinde Riehen. In acht Wohnvierteln und in der Gemeinde Bettingen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-19T08:04:58",
+		"aktualisierungsdatum": "2023-11-21T08:16:44",
 		"id": 7763
 	},
 	{
