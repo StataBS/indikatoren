@@ -3563,7 +3563,7 @@ var indikatorensetData = [
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%).",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -3588,7 +3588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:51",
+		"aktualisierungsdatum": "2023-11-24T09:00:28",
 		"id": 6492
 	},
 	{

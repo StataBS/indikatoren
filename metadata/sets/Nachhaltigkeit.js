@@ -1382,11 +1382,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8920
+			8920,
+			10050
 		],
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz werden mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
 		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
@@ -1411,7 +1412,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:50",
+		"aktualisierungsdatum": "2023-11-24T09:00:28",
 		"id": 6028
 	},
 	{

@@ -11870,11 +11870,12 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8920
+			8920,
+			10050
 		],
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz werden mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
 		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
@@ -11900,7 +11901,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:50",
+		"aktualisierungsdatum": "2023-11-24T09:00:28",
 		"id": 6028
 	},
 	{
@@ -18064,7 +18065,7 @@ var indikatoren = [
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%).",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -18090,7 +18091,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:51",
+		"aktualisierungsdatum": "2023-11-24T09:00:28",
 		"id": 6492
 	},
 	{
