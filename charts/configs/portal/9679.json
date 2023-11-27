@@ -95,6 +95,10 @@
         [
           2020,
           82.5
+        ],
+        [
+          2021,
+          83.2
         ]
       ],
       "name": "Basel-Stadt"
@@ -193,6 +197,10 @@
         [
           2020,
           83
+        ],
+        [
+          2021,
+          83.6
         ]
       ],
       "name": "Schweiz"
@@ -292,6 +300,10 @@
         [
           2020,
           1
+        ],
+        [
+          2021,
+          0
         ]
       ],
       "name": "Bewertung"
@@ -448,7 +460,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

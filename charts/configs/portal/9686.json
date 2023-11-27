@@ -105,7 +105,7 @@
         ],
         [
           2020,
-          null
+          102.1
         ],
         [
           2021,
@@ -164,7 +164,7 @@
         ],
         [
           2020,
-          null
+          2
         ],
         [
           2021,
@@ -339,7 +339,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

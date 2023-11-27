@@ -1,0 +1,438 @@
+{
+  "series": [
+    {
+      "color": "#8b2223",
+      "data": [
+        [
+          -283996800000,
+          18
+        ],
+        [
+          -252460800000,
+          20
+        ],
+        [
+          -220924800000,
+          9
+        ],
+        [
+          -189388800000,
+          24
+        ],
+        [
+          -157766400000,
+          6
+        ],
+        [
+          -126230400000,
+          7
+        ],
+        [
+          -94694400000,
+          12
+        ],
+        [
+          -63158400000,
+          6
+        ],
+        [
+          -31536000000,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          31536000000,
+          14
+        ],
+        [
+          63072000000,
+          4
+        ],
+        [
+          94694400000,
+          10
+        ],
+        [
+          126230400000,
+          7
+        ],
+        [
+          157766400000,
+          11
+        ],
+        [
+          189302400000,
+          23
+        ],
+        [
+          220924800000,
+          1
+        ],
+        [
+          252460800000,
+          2
+        ],
+        [
+          283996800000,
+          7
+        ],
+        [
+          315532800000,
+          5
+        ],
+        [
+          347155200000,
+          8
+        ],
+        [
+          378691200000,
+          10
+        ],
+        [
+          410227200000,
+          23
+        ],
+        [
+          441763200000,
+          9
+        ],
+        [
+          473385600000,
+          10
+        ],
+        [
+          504921600000,
+          16
+        ],
+        [
+          536457600000,
+          12
+        ],
+        [
+          567993600000,
+          8
+        ],
+        [
+          599616000000,
+          10
+        ],
+        [
+          631152000000,
+          16
+        ],
+        [
+          662688000000,
+          16
+        ],
+        [
+          694224000000,
+          22
+        ],
+        [
+          725846400000,
+          11
+        ],
+        [
+          757382400000,
+          28
+        ],
+        [
+          788918400000,
+          20
+        ],
+        [
+          820454400000,
+          6
+        ],
+        [
+          852076800000,
+          13
+        ],
+        [
+          883612800000,
+          18
+        ],
+        [
+          915148800000,
+          7
+        ],
+        [
+          946684800000,
+          15
+        ],
+        [
+          978307200000,
+          14
+        ],
+        [
+          1009843200000,
+          12
+        ],
+        [
+          1041379200000,
+          43
+        ],
+        [
+          1072915200000,
+          14
+        ],
+        [
+          1104537600000,
+          19
+        ],
+        [
+          1136073600000,
+          25
+        ],
+        [
+          1167609600000,
+          8
+        ],
+        [
+          1199145600000,
+          9
+        ],
+        [
+          1230768000000,
+          17
+        ],
+        [
+          1262304000000,
+          19
+        ],
+        [
+          1293840000000,
+          15
+        ],
+        [
+          1325376000000,
+          13
+        ],
+        [
+          1356998400000,
+          15
+        ],
+        [
+          1388534400000,
+          9
+        ],
+        [
+          1420070400000,
+          32
+        ],
+        [
+          1451606400000,
+          13
+        ],
+        [
+          1483228800000,
+          28
+        ],
+        [
+          1514764800000,
+          31
+        ],
+        [
+          1546300800000,
+          25
+        ],
+        [
+          1577836800000,
+          22
+        ],
+        [
+          1609459200000,
+          6
+        ],
+        [
+          1640995200000,
+          37
+        ]
+      ],
+      "name": "Hitzetage"
+    }
+  ],
+  "isStock": true,
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "type": "column",
+    "marginTop": 70,
+    "renderTo": "container-11788"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Hitzetage"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 31536000000,
+    "minTickInterval": 31536000000
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "y": 2
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "tickAmount": 6,
+    "opposite": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 50,
+        "type": "year",
+        "text": "50 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
+  },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b. %Y"
+    },
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E Anzahl Hitzetage: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
+    "filename": "11788"
+  }
+}

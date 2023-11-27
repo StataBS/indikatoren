@@ -4,32 +4,32 @@
       "name": "Anzahl",
       "data": [
         [
+          "Ukraine",
+          1942
+        ],
+        [
           "Indien",
-          1661
+          1815
         ],
         [
           "Vereinigte Staaten",
-          1629
+          1569
         ],
         [
           "Sri Lanka",
-          777
+          771
         ],
         [
           "China",
-          598
+          632
         ],
         [
           "Russland",
-          477
-        ],
-        [
-          "Thailand",
-          402
+          554
         ],
         [
           "Weitere Übrige",
-          3215
+          3584
         ]
       ],
       "turboThreshold": 0
@@ -98,7 +98,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left"
   },
   "tooltip": {
@@ -119,7 +119,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "legend": {
     "layout": "vertical",

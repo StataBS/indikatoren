@@ -1,9 +1,9 @@
 var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU",
 	"CMS Kennzahlen Soziales",
+	"Legislaturplan",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
-	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Soziales",
 	"Umwelt",

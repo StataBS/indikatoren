@@ -1394,7 +1394,7 @@ var templatesById = {
 	"8452": "template001",
 	"8453": "befragungen001",
 	"8454": "line001",
-	"8455": "map002",
+	"8455": "line001",
 	"8456": "befragungenGrundauswertung001",
 	"8457": "line001",
 	"8458": "line001",
@@ -2041,7 +2041,9 @@ var templatesById = {
 	"10044": "befragungen001",
 	"10045": "befragungen001",
 	"10047": "line001",
+	"10049": "line001",
 	"10051": "template001",
 	"10263": "befragungen001",
-	"10264": "befragungen001"
+	"10264": "befragungen001",
+	"11788": "stock001"
 };
