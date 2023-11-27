@@ -1,5 +1,44 @@
 var indikatorensetData = [
 	{
+		"template": "stock001",
+		"data-id": 11788,
+		"chart-id": 6033,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
+		"title": "Hitzetage",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.11788",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.2",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-11-27T09:43:18",
+		"id": 11788
+	},
+	{
 		"template": "template001",
 		"data-id": 2956,
 		"chart-id": 2956,
@@ -49,8 +88,8 @@ var indikatorensetData = [
 		],
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Durch die Reiseeinschränkungen, die 2020 als Massnahmen zur Bekämpfung der COVID-19-Pandemie ergriffen wurden, hat sich die Erreichbarkeit der Städte markant verschlechtert. Die Index-Werte liegen tiefer als vor 20 Jahren. Am stärksten hat sich die kontinentale Erreichbarkeit verringert. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Globale Erreichbarkeit: Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit: Erreichbarkeit aller Regionen Europas. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren, welchem Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde liegen. Sie folgen dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Die Reisedestinationen werden über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die Erreichbarkeit der Städte hat sich 2021 gegenüber dem Vorjahr verbessert.   Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit im Jahr 2020 markant gesunken. Die Index-Werte liegen immer noch tiefer als vor 20 Jahren. Am stärksten hatte sich 2020 die kontinentale Erreichbarkeit verringert. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Globale Erreichbarkeit: Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit: Erreichbarkeit aller Regionen Europas. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren, welchem Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde liegen. Sie folgen dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Die Reisedestinationen werden über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 zeitnah zu beobachten, wurde die Erreichbarkeit engegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -77,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-07T08:26:23",
+		"aktualisierungsdatum": "2023-11-27T09:43:09",
 		"id": 3104
 	},
 	{
@@ -234,7 +273,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-07T09:10:52",
+		"aktualisierungsdatum": "2023-11-27T09:43:10",
 		"id": 5193
 	},
 	{
@@ -1687,39 +1726,43 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9447
+			8455,
+			9447,
+			10049
 		],
-		"title": "Hitzetage und Tropennächte",
-		"subtitle": "Anzahl Tage, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage und 5 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
-		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"title": "Tropennächte",
+		"subtitle": "Anzahl Nächte, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 18 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 5 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
+			"Universität Basel",
+			"Lufthygieneamt beider Basel",
 			"Meteorologischer Verein der Region Basel",
-			"Bundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL)"
+			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Hitzetage und Tropennächte",
+		"description": "Tropennächte",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.09390",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "5.2",
+		"kuerzelKunde": "5.3",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_00_00_00_00_002",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:58",
+		"aktualisierungsdatum": "2023-11-27T09:43:19",
 		"id": 9390
 	},
 	{

@@ -18,7 +18,11 @@
         ],
         [
           2020,
-          84
+          83.9
+        ],
+        [
+          2021,
+          85.4
         ]
       ],
       "name": "Abschlussquote"
@@ -43,6 +47,10 @@
         [
           2020,
           95
+        ],
+        [
+          2021,
+          95
         ]
       ],
       "name": "Zielwert"
@@ -65,6 +73,10 @@
         ],
         [
           2020,
+          2
+        ],
+        [
+          2021,
           2
         ]
       ],
@@ -251,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

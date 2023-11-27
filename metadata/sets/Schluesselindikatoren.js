@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Lebenserwartung",
 		"subtitle": "bei Geburt in Jahren, Basel-Stadt",
-		"lesehilfe": "Eine im Jahr 2020 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,5 Jahren.<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
+		"lesehilfe": "Eine im Jahr 2021 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 83,2 Jahren.<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -298,7 +298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:23",
+		"aktualisierungsdatum": "2023-11-27T09:43:20",
 		"id": 9679
 	},
 	{
@@ -349,8 +349,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bildungsabschluss Sekundarstufe II",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2020 in Basel-Stadt bei 84,0%.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2021 in Basel-Stadt bei 85,4%.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -377,7 +377,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-21T09:02:46",
+		"aktualisierungsdatum": "2023-11-27T09:43:11",
 		"id": 9682
 	},
 	{
@@ -426,7 +426,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2019 5,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 1,5 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
+		"lesehilfe": "Der Mietpreisindex lag 2020 6,2 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 2,1 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -452,7 +452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:15",
+		"aktualisierungsdatum": "2023-11-27T09:43:12",
 		"id": 9686
 	},
 	{

@@ -4,6 +4,10 @@
       "color": "#B375AB",
       "data": [
         [
+          "≤14",
+          14.2393481846433
+        ],
+        [
           "15-19",
           4.57360883999802
         ],
@@ -42,6 +46,10 @@
         [
           "60-64",
           6.62999851345325
+        ],
+        [
+          "≥65",
+          21.6793377080281
         ]
       ],
       "name": "BS\u002FBL\u002FJU",
@@ -50,6 +58,10 @@
     {
       "color": "#990300",
       "data": [
+        [
+          "≤14",
+          15.0505167953527
+        ],
         [
           "15-19",
           4.86027552965639
@@ -89,6 +101,10 @@
         [
           "60-64",
           6.37537668519299
+        ],
+        [
+          "≥65",
+          19.1894398259407
         ]
       ],
       "name": "Schweiz",
@@ -169,7 +185,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Altersklassen von 15 bis 64 Jahren; BS\u002FBL\u002FJU und Schweiz"
+    "text": "Altersklassen; BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
     "text": "Anteil an der Gesamtbevölkerung, 2022",
@@ -228,7 +244,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} Jahre\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

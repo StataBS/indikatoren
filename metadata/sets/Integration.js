@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2002 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung kontinuerlich von 28,0% auf 37,0%. Im Jahr 2021 sank dieser Anteil geringfügig auf 36,9%.",
+		"lesehilfe": "Von 2003 bis 2022 stieg der Anteil der ausländischen Personen an der Bevölkerung von 29,4% auf 37,9%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:34",
+		"aktualisierungsdatum": "2023-11-27T09:43:21",
 		"id": 6057
 	},
 	{
@@ -51,7 +51,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 lebten im Kanton Basel­Stadt 127 371 Schweizerinnen und Schweizer und 74 434 Ausländerinnen und Ausländer.",
+		"lesehilfe": "Ende 2022 lebten im Kanton Basel­Stadt 126 925 Schweizerinnen und Schweizer und 77 625 Ausländerinnen und Ausländer.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -76,7 +76,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:35",
+		"aktualisierungsdatum": "2023-11-27T09:43:22",
 		"id": 6058
 	},
 	{
@@ -91,7 +91,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 bildeten Deutsche mit 16 564 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen, hat im letzten Jahr jedoch leicht abgenommen (-84). Die Anzahl Italiener, Türken und Personen aus dem Balkan hat gegenüber 2002 abgenommen, wobei die Anzahl Italiener seit 2013 wieder etwas gestiegen ist.",
+		"lesehilfe": "Ende 2022 bildeten Deutsche mit 16 949 Personen die grösste ausländische Bevölkerungsgruppe im Kanton. Ihre Zahl hat sich seit 2003 mehr als verdoppelt. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat gegenüber 2003 abgenommen, wobei die Anzahl Italiener seit 2013 wieder etwas gestiegen ist.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:36",
+		"aktualisierungsdatum": "2023-11-27T09:43:24",
 		"id": 6059
 	},
 	{
@@ -128,9 +128,9 @@ var indikatorensetData = [
 		"children": [
 			6645
 		],
-		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 besassen 22,3% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 80% jene eines europäischen Staates.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit bzw. Ländergruppen",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 besassen 21,8% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 78% jene eines europäischen Staates.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -140,7 +140,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit bzw. Ländergruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6060",
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:38",
+		"aktualisierungsdatum": "2023-11-27T09:43:26",
 		"id": 6060
 	},
 	{
@@ -168,8 +168,8 @@ var indikatorensetData = [
 			6646
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Von 8 759 Personen, die Ende 2021 zur Gruppe «Übrige Länder» zählten, bildeten Inderinnen und Inder die grösste Bevölkerungsgruppe.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Von 10 867 Personen, die Ende 2022 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -194,7 +194,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:40",
+		"aktualisierungsdatum": "2023-11-27T09:43:28",
 		"id": 6061
 	},
 	{
@@ -206,9 +206,9 @@ var indikatorensetData = [
 		"children": [
 			6647
 		],
-		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 bilden bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 bilden bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6062",
@@ -233,7 +233,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:35",
+		"aktualisierungsdatum": "2023-11-27T09:43:21",
 		"id": 6062
 	},
 	{
@@ -678,8 +678,8 @@ var indikatorensetData = [
 			6659
 		],
 		"title": "Aufenthaltsdauer der ausländischen Bevölkerung",
-		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2021",
-		"lesehilfe": "Türkische Staatsangehörige weisen 2021 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,0 Jahre) als auch für jenen in Basel-Stadt (19,1).",
+		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2022",
+		"lesehilfe": "Türkische Staatsangehörige weisen 2022 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,2 Jahre) als auch für jenen in Basel-Stadt (19,4).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:48",
+		"aktualisierungsdatum": "2023-11-27T09:43:29",
 		"id": 6074
 	},
 	{
@@ -719,7 +719,7 @@ var indikatorensetData = [
 		],
 		"title": "In der Schweiz geborene ausländische Bevölkerung",
 		"subtitle": "Anteil nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Ende 2021 waren 25,6% der italienischen Staatsangehörigen in Basel-Stadt in der Schweiz gebürtig (2002: 36,3%). Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2002: 9,0% und 2021: 21,8%.",
+		"lesehilfe": "Ende 2022 waren 25,0% der italienischen Staatsangehörigen in Basel-Stadt in der Schweiz gebürtig (2003: 35,8%). Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2003: 9,5% und 2022: 22,1%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -744,7 +744,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:49",
+		"aktualisierungsdatum": "2023-11-27T09:43:30",
 		"id": 6075
 	},
 	{
@@ -1271,8 +1271,8 @@ var indikatorensetData = [
 			6674
 		],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2021 und Veränderung seit 2002",
-		"lesehilfe": "Ende 2021 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental ≥45%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten <27%) die tiefsten Ausländeranteile auf.",
+		"subtitle": "Basel-Stadt, Stand 2022 und Veränderung seit 2003",
+		"lesehilfe": "Ende 2022 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental 57%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten 23%) die tiefsten Ausländeranteile auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1297,7 +1297,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:36",
+		"aktualisierungsdatum": "2023-11-27T09:43:23",
 		"id": 6398
 	},
 	{
@@ -1309,9 +1309,9 @@ var indikatorensetData = [
 		"children": [
 			6675
 		],
-		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2021",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2021 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2022",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2022 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1321,7 +1321,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6399",
@@ -1336,7 +1336,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:37",
+		"aktualisierungsdatum": "2023-11-27T09:43:25",
 		"id": 6399
 	},
 	{
@@ -1349,8 +1349,8 @@ var indikatorensetData = [
 			6676
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Ende 2021 zählten 16 520 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Ende 2022 zählten 16 750 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1375,7 +1375,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:38",
+		"aktualisierungsdatum": "2023-11-27T09:43:27",
 		"id": 6400
 	},
 	{
@@ -1388,8 +1388,8 @@ var indikatorensetData = [
 			6677
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Von 5 629 Personen, die Ende 2021 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, ungarische, rumänische und kroatische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Von 5 997 Personen, die Ende 2022 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, rumänische, ungarische und kroatische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1414,7 +1414,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:39",
+		"aktualisierungsdatum": "2023-11-27T09:43:27",
 		"id": 6401
 	},
 	{
@@ -1584,8 +1584,8 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer liegt in Basel­Stadt im Jahr 2021 fast unverändert bei 2,8%. Von den dargestellten Ausländergruppen weisen 2021 Personen aus dem Balkan die höchste (8,6%), Deutsche die tiefste Quote auf (3,5%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2011-2015 für die Jahre 2011 bis 2015 und Pooling 2016-2020 für die Jahre ab 2016).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer ist in Basel-Stadt im Jahr 2022 auf 2,2% gesunken. Von den dargestellten Ausländergruppen weisen 2022 Personen aus dem Balkan die höchste (7,1%), Deutsche die tiefste Quote auf (2,4%).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2012-2016 für die Jahre 2012 bis 2016 und Pooling 2017-2021 für die Jahre ab 2017).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1610,7 +1610,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:04",
+		"aktualisierungsdatum": "2023-11-27T09:43:31",
 		"id": 6406
 	},
 	{
@@ -1623,9 +1623,9 @@ var indikatorensetData = [
 			6683
 		],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
-		"lesehilfe": "Im Jahr 2001 war die Arbeitslosenquote der ausländischen Frauen ab 25 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) waren im Jahr 2001 Frauen und Männer gleich stark von Arbeitslosigkeit betroffen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2002",
+		"lesehilfe": "Im Jahr 2002 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen, mit Ausnahme der Gruppe ab 60 Jahren. Bei beiden Geschlechtern weisen die jungen Erwachsenen zwischen 20 und 24 Jahren die höchste Arbeitslosenquote auf.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2002 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1650,7 +1650,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:08",
+		"aktualisierungsdatum": "2023-11-27T09:43:37",
 		"id": 6407
 	},
 	{
@@ -1663,9 +1663,9 @@ var indikatorensetData = [
 			6684
 		],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
-		"lesehilfe": "Im Jahr 2001 waren Schweizer Männer aller Altersgruppen, ausser jener der unter 20-Jährigen, stärker von Arbeitslosigkeit betroffen als Frauen. Die Arbeitslosenquote der Schweizerinnen und Schweizer war deutlich tiefer als jene ausländischer Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2002",
+		"lesehilfe": "Im Jahr 2002 waren Schweizer Männer aller Altersgruppen, ausser jener der unter 20-Jährigen, stärker von Arbeitslosigkeit betroffen als Frauen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2002 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1690,7 +1690,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:07",
+		"aktualisierungsdatum": "2023-11-27T09:43:35",
 		"id": 6408
 	},
 	{
@@ -1703,9 +1703,9 @@ var indikatorensetData = [
 			6685
 		],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
-		"lesehilfe": "Im Jahr 2021 ist die Arbeitslosenquote bei ausländischen Männern in allen Altersgruppen deutlich höher als bei ausländischen Frauen. Am höchsten ist die Quote bei Männern über 60 Jahren.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuelles 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2022",
+		"lesehilfe": "Im Jahr 2022 ist die Arbeitslosenquote bei ausländischen Männern in allen Altersgruppen deutlich höher als bei ausländischen Frauen. Am höchsten ist die Quote bei Männern über 60 Jahren.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2022 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2017-2021 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:08",
+		"aktualisierungsdatum": "2023-11-27T09:43:38",
 		"id": 6409
 	},
 	{
@@ -1743,9 +1743,9 @@ var indikatorensetData = [
 			6686
 		],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
-		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2021 Männer zwischen 20 und 29 Jahren am stärksten von Arbeitslosigkeit betroffen. An dritter Stelle kommt die Gruppe der Männer über 60 Jahren. Bei den Schweizerinnen ergibt sich für die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2022",
+		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2022 Männer über 60 Jahren am stärksten von Arbeitslosigkeit betroffen. An zweiter Stelle kommt die Gruppe der Männer zwischen 20 und 24 Jahren. Bei den Schweizerinnen ergibt sich für die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2022 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2017-2021 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1770,7 +1770,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:07",
+		"aktualisierungsdatum": "2023-11-27T09:43:36",
 		"id": 6410
 	},
 	{
@@ -1783,8 +1783,8 @@ var indikatorensetData = [
 			6687
 		],
 		"title": "Anteil Arbeitslose in ausgewählten Branchen",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
-		"lesehilfe": "Rund 80% der Arbeitslosen im Baugewerbe sind im Jahr 2021 ausländische Staatsangehörige. Auch bei den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung), im Gastgewerbe und im Bereich Verkehr und Lagerei liegt der Anteil ausländischer Arbeitsloser über 65%. Den tiefsten Ausländeranteil weisen Arbeitslose im Bereich Bildung, Gesundheitswesen (38%) auf.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"lesehilfe": "Rund 80% der Arbeitslosen im Baugewerbe sind im Jahr 2022 ausländische Staatsangehörige. Auch in den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung), im Gastgewerbe und im Bereich Verkehr und Lagerei liegt der Anteil ausländischer Arbeitsloser über 60%. Den tiefsten Ausländeranteil weisen Arbeitslose im Bereich Bildung, Gesundheitswesen (42%) auf.",
 		"erlaeuterungen": "Die Branchen basieren auf der Nomenklatur NOGA 2008. Rund 5% der Arbeitslosen können keiner Branche zugeteilt werden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1809,7 +1809,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:05",
+		"aktualisierungsdatum": "2023-11-27T09:43:32",
 		"id": 6411
 	},
 	{
@@ -1823,8 +1823,8 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2021 je 171 Schweizer Frauen und Männer von der Arbeitslosenversicherung ausgesteuert.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
+		"lesehilfe": "Im Jahr 2022 wurden insgesamt 245 Schweizer Frauen und 281 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden. Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -1848,7 +1848,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:06",
+		"aktualisierungsdatum": "2023-11-27T09:43:33",
 		"id": 6412
 	},
 	{
@@ -1862,8 +1862,8 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2021 167 ausländische Frauen und 250 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
+		"lesehilfe": "Im Jahr 2022 wurden insgesamt 276 ausländische Frauen und 439 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Damit hat sich die Anzahl der ausgesteuerten Personen deutlich erhöht, auch im Vergleich zu den Jahren vor der Pandemie.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden. Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -1887,7 +1887,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:06",
+		"aktualisierungsdatum": "2023-11-27T09:43:34",
 		"id": 6413
 	},
 	{
@@ -3601,8 +3601,8 @@ var indikatorensetData = [
 			6733
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2011",
-		"lesehilfe": "2011 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (23,6%). Die EU-Ost-Länder hatten mit 28,0% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,9% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
+		"subtitle": "Basel-Stadt, 2012",
+		"lesehilfe": "2012 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (23,1%). Die EU-Ost-Länder hatten mit 26,2% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,8% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3627,7 +3627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:39",
+		"aktualisierungsdatum": "2023-11-27T09:43:39",
 		"id": 6493
 	},
 	{
@@ -3640,8 +3640,8 @@ var indikatorensetData = [
 			6734
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "2021 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (17,9%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (16,2%). Türkinnen und Türken haben mit 99,8% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt«.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "2022 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (17,5%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (16,2%). Türkinnen und Türken haben mit 99,9% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt«.",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3666,7 +3666,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:39",
+		"aktualisierungsdatum": "2023-11-27T09:43:39",
 		"id": 6494
 	},
 	{

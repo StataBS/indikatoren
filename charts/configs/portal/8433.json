@@ -4,6 +4,10 @@
       "color": "#474747",
       "data": [
         [
+          "≤14",
+          13.587856859736
+        ],
+        [
           "15-19",
           3.95200878111248
         ],
@@ -42,6 +46,10 @@
         [
           "60-64",
           6.08986411634974
+        ],
+        [
+          "≥65",
+          19.7646174016444
         ]
       ],
       "name": "Basel-Stadt",
@@ -50,6 +58,10 @@
     {
       "color": "#FF8028",
       "data": [
+        [
+          "≤14",
+          14.4702921366633
+        ],
         [
           "15-19",
           4.79116355373501
@@ -89,6 +101,10 @@
         [
           "60-64",
           6.91672016221889
+        ],
+        [
+          "≥65",
+          22.8539792199499
         ]
       ],
       "name": "Basel-Landschaft",
@@ -97,6 +113,10 @@
     {
       "color": "#FABD24",
       "data": [
+        [
+          "≤14",
+          15.054491301699
+        ],
         [
           "15-19",
           5.36248561565017
@@ -136,6 +156,10 @@
         [
           "60-64",
           6.92614905570974
+        ],
+        [
+          "≥65",
+          22.0984227983483
         ]
       ],
       "name": "Jura",
@@ -155,7 +179,9 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
       },
       "rotation": 0
     }
@@ -194,12 +220,12 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-8433",
-    "spacingBottom": 40
+    "spacingBottom": 60,
+    "renderTo": "container-8433"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -216,7 +242,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU"
+    "text": "Altersklassen; BS, BL und JU"
   },
   "subtitle": {
     "text": "Anteil an der Gesamtbevölkerung, 2022",
@@ -275,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} Jahre\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

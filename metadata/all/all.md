@@ -2275,6 +2275,8 @@ id | visible | visibleInPortal | indikatorenset
 10044 | true | false | CMS Kennzahlen Soziales
 10045 | true | false | CMS Kennzahlen Soziales
 10047 | true | true | CMS Kennzahlen Soziales
+10049 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
+11788 | true | false | Legislaturplan

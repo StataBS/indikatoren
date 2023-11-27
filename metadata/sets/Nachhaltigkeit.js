@@ -438,7 +438,7 @@ var indikatorensetData = [
 		],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2021 beträgt deren Ertrag 588 Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen beläuft sich 2021 auf über 2,0 Mrd. Franken.",
+		"lesehilfe": "Der Ertrag aus direkten Steuern natürlicher Personen ist relativ gleichmässig gestiegen und beträgt im Jahr 2022 rund 2,1 Mrd. Franken. Der Steuerertrag der juristischen Personen beläuft sich auf 602  Mio. Franken; der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -463,7 +463,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:41",
+		"aktualisierungsdatum": "2023-11-27T09:43:43",
 		"id": 5162
 	},
 	{
@@ -1113,7 +1113,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Das Total der Bauausgaben ist 2021 leicht gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben ein wenig höher als im Vorjahr. Er liegt wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"lesehilfe": "Das Total der Bauausgaben ist 2022 gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben mit 57,5% höher als im Vorjahr (50,3%). Er liegt somit wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
 		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -1134,11 +1134,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_09_00_00_00_323",
+		"orderKey": "03_07_00_00_00_322",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:51",
+		"aktualisierungsdatum": "2023-11-27T09:43:42",
 		"id": 5199
 	},
 	{
@@ -1744,7 +1744,7 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2021/22, Basel-Stadt",
+		"subtitle": "im Schuljahr 2022/23, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -1760,17 +1760,17 @@ var indikatorensetData = [
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.6039",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW14",
+		"kuerzelKunde": "GW13",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_315",
+		"orderKey": "03_04_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:33",
+		"aktualisierungsdatum": "2023-11-27T09:43:41",
 		"id": 6039
 	},
 	{
@@ -2053,8 +2053,8 @@ var indikatorensetData = [
 		],
 		"title": "Aufwendungen für Forschung und Entwicklung",
 		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
-		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2019 6,1% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen.",
-		"erlaeuterungen": "Die Grossregionen umfassen: Nordwestschweiz: Kantone Basel-Stadt, Basel-Landschaft und Aargau; Genferseeregion: Kantone Waadt, Wallis und Genf; Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die Angaben für 2019 basieren auf provisorischen BIP-Daten. Die Werte können rückwirkend ändern wenn Unternehmen ihre Antworten für vergangene Erhebungen berichtigen.",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2021 6,9% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen.",
+		"erlaeuterungen": "Die Grossregionen umfassen: Nordwestschweiz: Kantone Basel-Stadt, Basel-Landschaft und Aargau; Genferseeregion: Kantone Waadt, Wallis und Genf; Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die Angaben für 2021 basieren auf provisorischen BIP-Daten. Die Werte können rückwirkend ändern, wenn Unternehmen ihre Antworten für vergangene Erhebungen berichtigen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E)"
 		],
@@ -2068,17 +2068,17 @@ var indikatorensetData = [
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.06049",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE4",
+		"kuerzelKunde": "WE5",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_604",
+		"orderKey": "06_01_00_00_00_605",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-16T09:07:06",
+		"aktualisierungsdatum": "2023-11-27T09:43:45",
 		"id": 6049
 	},
 	{
@@ -2787,40 +2787,45 @@ var indikatorensetData = [
 		"id": 8454
 	},
 	{
-		"template": "map002",
-		"data-id": 7701,
-		"chart-id": 7701,
+		"template": "line001",
+		"data-id": 8455,
+		"chart-id": 9390,
 		"filter": "",
-		"parentId": "7701",
+		"parentId": "9390",
 		"children": [],
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
+		"title": "Tropennächte",
+		"subtitle": "Anzahl Nächte, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 18 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 5 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
+			"Universität Basel",
+			"Lufthygieneamt beider Basel",
+			"Meteorologischer Verein der Region Basel",
+			"MeteoSchweiz"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
-		"description": "Anzahl Tropennächte",
+		"description": "Tropennächte",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.08455",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL10",
+		"kuerzelKunde": "NL13",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_411",
-		"darstellungsart": "Karte",
+		"orderKey": "04_02_00_00_00_413",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:45",
+		"aktualisierungsdatum": "2023-11-27T09:43:43",
 		"id": 8455
 	},
 	{
