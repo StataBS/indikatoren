@@ -82,8 +82,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im Oktober 1,4%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen September 2023 und September 2022.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im November 1,2%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen November 2023 und November 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-02T08:38:14",
+		"aktualisierungsdatum": "2023-12-04T08:43:00",
 		"id": 7512
 	},
 	{
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-02T08:38:14",
+		"aktualisierungsdatum": "2023-12-04T08:43:01",
 		"id": 7513
 	},
 	{

@@ -562,7 +562,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthaltsbewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -587,7 +587,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:40",
+		"aktualisierungsdatum": "2023-12-04T08:43:05",
 		"id": 6071
 	},
 	{
@@ -679,7 +679,7 @@ var indikatorensetData = [
 		],
 		"title": "Aufenthaltsdauer der ausländischen Bevölkerung",
 		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2022",
-		"lesehilfe": "Türkische Staatsangehörige weisen 2022 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,2 Jahre) als auch für jenen in Basel-Stadt (19,4).",
+		"lesehilfe": "Türkische Staatsangehörige weisen 2022 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,2 Jahre) als auch für jenen in Basel-Stadt (19,4 Jahre).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:29",
+		"aktualisierungsdatum": "2023-12-04T08:43:06",
 		"id": 6074
 	},
 	{
@@ -875,7 +875,7 @@ var indikatorensetData = [
 		],
 		"title": "Veränderung des Segregationsindex",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022 gegenüber 2003",
-		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
+		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. die Gruppen sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:52",
+		"aktualisierungsdatum": "2023-12-04T08:43:07",
 		"id": 6079
 	},
 	{
@@ -1074,7 +1074,7 @@ var indikatorensetData = [
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Umgekehrt verläuft der Trend bei Jugendlichen aus der Türkei sowie aus Mittel- und Südamerika. Bei Lernenden mit deutschem Pass stagniert die Quote auf tiefem Nievau.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Umgekehrt verläuft der Trend bei Jugendlichen aus der Türkei sowie aus Mittel- und Südamerika. Bei Lernenden mit deutschem Pass stagniert die Quote auf tiefem Niveau.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1100,7 +1100,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:08",
+		"aktualisierungsdatum": "2023-12-04T08:43:09",
 		"id": 6084
 	},
 	{
@@ -1546,7 +1546,7 @@ var indikatorensetData = [
 		"title": "Bei der Arbeit gesprochene Sprachen",
 		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2017 bis 2021",
 		"lesehilfe": "Bei der Arbeit sprechen 96,0% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch. In der Gruppe der Ausländerinnen und Ausländern sind es 75,7%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1570,7 +1570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-04T10:52:31",
+		"aktualisierungsdatum": "2023-12-04T08:43:08",
 		"id": 6405
 	},
 	{
@@ -1585,7 +1585,7 @@ var indikatorensetData = [
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer ist in Basel-Stadt im Jahr 2022 auf 2,2% gesunken. Von den dargestellten Ausländergruppen weisen 2022 Personen aus dem Balkan die höchste (7,1%), Deutsche die tiefste Quote auf (2,4%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2012-2016 für die Jahre 2012 bis 2016 und Pooling 2017-2021 für die Jahre ab 2017).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppe zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2012-2016 für die Jahre 2012 bis 2016 und Pooling 2017-2021 für die Jahre ab 2017).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1610,7 +1610,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:31",
+		"aktualisierungsdatum": "2023-12-04T08:43:11",
 		"id": 6406
 	},
 	{
@@ -1941,7 +1941,7 @@ var indikatorensetData = [
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Personen mit Deutscher Staatsangehörigkeit weisen mit 85,9% (Konfidenzintervall:  84,3% - 87,5%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, aus dem Balkan, aus arabischen und aus afrikanischen Ländern beobachtbar.",
+		"lesehilfe": "Personen mit Deutscher Staatsangehörigkeit weisen mit 85,9% (Konfidenzintervall:  84,3% bis 87,5%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, aus dem Balkan, aus arabischen und aus afrikanischen Ländern beobachtbar.",
 		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1966,7 +1966,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:41",
+		"aktualisierungsdatum": "2023-12-04T08:43:11",
 		"id": 6416
 	},
 	{
@@ -1981,7 +1981,7 @@ var indikatorensetData = [
 		"title": "Erwerbstätigenquote",
 		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2017 bis 2021",
 		"lesehilfe": "Die Erwerbstätigenquote von Schweizern ist bei den über 55-Jährigen höher als bei den ausländischen Männern. In den jüngeren Altersgruppen sind die Erwerbstätigenquoten der Schweizer und der ausländischen Männer nicht signifikant verschieden voneinander (überlappende Konfidenzintervalle).",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016 bis 2020 einen methodischen Bruch.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -2005,7 +2005,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:41",
+		"aktualisierungsdatum": "2023-12-04T08:43:12",
 		"id": 6417
 	},
 	{
@@ -2570,7 +2570,7 @@ var indikatorensetData = [
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
 		"subtitle": "Basel-Stadt, 2022",
 		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 59 Jahren tiefer als jene der Schweizer Bevölkerung. Bei den 60- bis 64-Jährigen beträgt die IV-Quote bei den ausländischen Staatsangehörigen 16,4%, bei den Schweizer Staatsangehörigen 15,5%. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den ausländischen Staatsangehörigen immer stärker zu. Bei den Schweizer Staatsangehörigen ist das Wachstum der IV-Quote eher linear.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Bezügerinnen und -Bezüger von Invalidenversicherungsrente an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Bezügerinnen und -Bezüger einer Invalidenversicherungsrente an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -2595,7 +2595,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-27T08:26:42",
+		"aktualisierungsdatum": "2023-12-04T08:43:13",
 		"id": 6432
 	},
 	{
@@ -2609,7 +2609,7 @@ var indikatorensetData = [
 		],
 		"title": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
-		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2020 bis 2022 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: Der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (29,0%) und im 5. Quintil (26,4%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die inkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile liegen mit 19,5% (1. Quintil) bzw. 19,9% (5. Quintil) sehr nahe bei 20%.",
+		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2020 bis 2022 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: Der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (29,0%) und im 5. Quintil (26,4%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile liegen mit 19,5% (1. Quintil) bzw. 19,9% (5. Quintil) sehr nahe bei 20%.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -2634,7 +2634,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:06",
+		"aktualisierungsdatum": "2023-12-04T08:43:13",
 		"id": 6467
 	},
 	{
@@ -2829,7 +2829,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:24",
+		"aktualisierungsdatum": "2023-12-04T08:43:14",
 		"id": 6472
 	},
 	{
@@ -3004,7 +3004,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,82), Personen aus den Balkanländern mit der höchsten Anzahl (2,71).",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der tiefsten Anzahl an Personen (1,82), Personen aus den Balkanländern mit der höchsten Anzahl (2,71).",
 		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z. B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3030,7 +3030,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:12",
+		"aktualisierungsdatum": "2023-12-04T08:43:16",
 		"id": 6477
 	},
 	{
@@ -3123,7 +3123,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Eingebürgerte",
 		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2012 bis 2022",
-		"lesehilfe": "In der Summe der Jahre 2012 bis 2022 wurden die meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert. (Total: 1 544; davon 834 Frauen und 710 Männer).",
+		"lesehilfe": "In der Summe der Jahre 2012 bis 2022 wurden die meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert (Total: 1 544; davon 834 Frauen und 710 Männer).",
 		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3148,7 +3148,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:43",
+		"aktualisierungsdatum": "2023-12-04T08:43:17",
 		"id": 6480
 	},
 	{
@@ -3241,7 +3241,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
-		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen junge ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
+		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3267,7 +3267,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:34",
+		"aktualisierungsdatum": "2023-12-04T08:43:17",
 		"id": 6483
 	},
 	{
@@ -3282,7 +3282,7 @@ var indikatorensetData = [
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
 		"lesehilfe": "Im Jahr 2022 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 51,2 die höchste Beschuldigtenrate auf. Bei Schweizer Männern dieser Altersgruppe lag die Rate bei 25,1.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -3307,7 +3307,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:48",
+		"aktualisierungsdatum": "2023-12-04T08:43:18",
 		"id": 6484
 	},
 	{
@@ -3719,7 +3719,7 @@ var indikatorensetData = [
 		],
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
-		"lesehilfe": "83,6% der 2019 Befragten erleben die kulturelle Vielfalt im Kanton Basel­Stadt als eine sehr oder eher grosse Bereicherung für die Stadt. Während 59,5% der Befragten mit ausländischer Staatsbürgerschaft diese als sehr grosse Bereicherung empfinden, sind es bei den Befragten mit Schweizer Pass 47,9%.",
+		"lesehilfe": "83,6% der 2019 Befragten erleben die kulturelle Vielfalt im Kanton Basel­Stadt als eine sehr oder eher grosse Bereicherung für die Stadt. Während 59,5% der Befragten mit ausländischer Staatsbürgerschaft diese als sehr grosse Bereicherung empfinden, sind es bei Befragten mit Schweizer Pass 47,9%.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -3744,7 +3744,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:41",
+		"aktualisierungsdatum": "2023-12-04T08:43:19",
 		"id": 6496
 	},
 	{
@@ -3795,9 +3795,9 @@ var indikatorensetData = [
 		"children": [
 			6738
 		],
-		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
+		"title": "Zufriedenheit mit dem Wohnungsangebot nach Staatsangehörigkeit",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. 2019 liegt der Anteil Zufriedener wieder über jenem von 2015. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höhren Anteil Zufriedener auf.",
+		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. 2019 liegt der Anteil Zufriedener wieder über jenem von 2015. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höheren Anteil Zufriedener auf.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -3807,7 +3807,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
+		"description": "Zufriedenheit mit dem Wohnungsangebot nach Staatsangehörigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.6504",
@@ -3822,7 +3822,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:42",
+		"aktualisierungsdatum": "2023-12-04T08:43:20",
 		"id": 6504
 	},
 	{
@@ -4031,7 +4031,7 @@ var indikatorensetData = [
 		],
 		"title": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
 		"subtitle": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?», Basel-Stadt",
-		"lesehilfe": "2017 geben 93,1% der nur deutschsprechenden Familien an, die Mütter- und Väterberatung zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 81,2% und bei jenen, die kein Deutsch sprechen, 62,6%. 56,0% der nur deutsch-sprechenden Familien haben diese Beratung genutzt. Bei Familien, die kein Deutsch sprechen, sind es 30,1%. Die Werte der Nutzung liegen 2009 und 2017 nahe beieinander (46,0% und 46,6%). Der Bekanntheitsgrad des Angebotes hat seit 2009 zugenommen.",
+		"lesehilfe": "2017 geben 93,1% der nur Deutsch sprechenden Familien an, die Mütter- und Väterberatung zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 81,2% und bei jenen, die kein Deutsch sprechen, 62,6%. 56,0% der nur Deutsch sprechenden Familien haben diese Beratung genutzt. Bei Familien, die kein Deutsch sprechen, sind es 30,1%. Die Werte der Nutzung liegen 2009 und 2017 nahe beieinander (46,0% und 46,6%). Der Bekanntheitsgrad des Angebotes hat seit 2009 zugenommen.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -4056,7 +4056,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:27",
+		"aktualisierungsdatum": "2023-12-04T08:43:14",
 		"id": 6512
 	},
 	{
@@ -4070,7 +4070,7 @@ var indikatorensetData = [
 		],
 		"title": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
 		"subtitle": "«Kennen oder nutzen Sie die Elternbildungsangebote bzw. würden Sie diese nutzen?», Basel-Stadt",
-		"lesehilfe": "2017 geben 79,9% der nur deutschsprechenden Familien an, die Elternbildungs-angebote zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 64,1% und bei jenen, die kein Deutsch sprechen, 44,3%. 21,5% der nur deutsch-sprechenden Familien haben die Beratung genutzt, bei Familien, die kein Deutsch sprechen, sind es 11,8%. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird weniger genutzt.",
+		"lesehilfe": "2017 geben 79,9% der nur Deutsch sprechenden Familien an, die Elternbildungsangebote zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 64,1% und bei jenen, die kein Deutsch sprechen, 44,3%. 21,5% der nur Deutsch sprechenden Familien haben die Beratung genutzt, bei Familien, die kein Deutsch sprechen, sind es 11,8%. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird weniger genutzt.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -4095,7 +4095,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:27",
+		"aktualisierungsdatum": "2023-12-04T08:43:15",
 		"id": 6513
 	},
 	{
