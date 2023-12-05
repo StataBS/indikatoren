@@ -1,5 +1,43 @@
 var indikatoren = [
 	{
+		"template": "template001",
+		"data-id": 10032,
+		"chart-id": 10032,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "23% der im Jahr 2015 Anspruchsberechtigten haben keine Familienmietzinsbeiträge bezogen. Die Nichtbezugsquote bei den Ergänzungsleistungen (EL) zur AHV lag 2015 bei 29%, jene der Prämienverbilligung bei 19%. Rund 30% der Personen mit Anspruch auf Sozialhilfe haben diesen nicht geltend gemacht.",
+		"erlaeuterungen": "Die Berner Fachhochschule hat im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt für das Jahr 2015 die Nichtbezugsquoten für die Ergänzungsleistungen, Familienmietzinsbeiträge und Prämienverbilligung berechnet. In einem weiteren Projekt im Auftrag der Sozialhilfe Basel-Stadt wurde die Nichtbezugsquote auch für den Bezug von Sozialhilfe für die Jahre 2016 bis 2020 berechnet. Die Berechnungen basieren auf kantonalen Registerdaten.<br>Mietzinsbeiträge: Familienmietzinsbeiträge",
+		"quellenangabe": [
+			"Berner Fachhochschule (BFH)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.10032",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.5",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_106",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:22",
+		"id": 10032
+	},
+	{
 		"template": "line001",
 		"data-id": 10037,
 		"chart-id": 10037,
@@ -9858,7 +9896,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2021 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -9884,7 +9922,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:55",
+		"aktualisierungsdatum": "2023-12-05T08:34:30",
 		"id": 5161
 	},
 	{
@@ -14037,11 +14075,12 @@ var indikatoren = [
 		"children": [
 			5796,
 			6314,
-			8917
+			8917,
+			10052
 		],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2021 von 194 auf 158 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,9%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -14056,18 +14095,18 @@ var indikatoren = [
 		"unterthema": "Entsorgung",
 		"kuerzel": "I.02.6.6163",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "5.3",
+		"kuerzelKunde": "5.4",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_00_00_00_00_003",
+		"orderKey": "05_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-07T07:52:32",
+		"aktualisierungsdatum": "2023-12-05T08:34:29",
 		"id": 6163
 	},
 	{
@@ -14458,7 +14497,7 @@ var indikatoren = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2020 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2020 gibt es knapp 8 400 Privathaushalte in Begegnungszonen. Insgesamt gibt es in der Stadt Basel rund 89 000 Privathaushalte.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -14485,7 +14524,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:59",
+		"aktualisierungsdatum": "2023-12-05T08:34:31",
 		"id": 6220
 	},
 	{
@@ -30183,7 +30222,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Steuerjahr 2019 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 45 000 Franken (Median: 39 800), der Mittelwert für Klybeck liegt bei 42 100 Franken (Median: 36 500). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2019 rund 69 200 Franken (Median: 48 700).",
+		"lesehilfe": "Im Steuerjahr 2020 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 44 800 Franken (Median: 39 600), der Mittelwert für Klybeck liegt bei 42 600 Franken (Median: 36 800). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2020 rund 70 500 Franken (Median: 49 000).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -30209,7 +30248,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:30",
+		"aktualisierungsdatum": "2023-12-05T08:34:26",
 		"id": 8057
 	},
 	{
@@ -33234,47 +33273,45 @@ var indikatoren = [
 		"id": 8293
 	},
 	{
-		"title": "Sozialindex",
-		"subtitle": "nach Wohnviertel, Stadt Basel",
-		"kuerzel": "I.13.3.08314",
-		"kuerzelKunde": "3-01",
-		"description": "Sozialindex",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
-		"stufe1": "Sozialer Zusammenhalt",
-		"stufe2": "3.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,7 den tiefsten.",
-		"erlaeuterungen": "Der aus fünf ausgewählten Indikatoren berechnete Index erlaubt relative Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf Indikatoren. <br>Der Index wird mittels Hauptkomponentenanalyse aus den folgenden Indikatoren ermittelt: Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index sind für einzelne Wohnviertel und Zeitstände ohne Vergleich mit anderen Wohnvierteln oder Zeitständen nicht interpretierbar.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_301",
+		"data-id": 8314,
+		"chart-id": 8314,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8585"
+			8585
 		],
-		"renderLink": [],
+		"title": "Sozialindex",
+		"subtitle": "nach Wohnviertel, Stadt Basel",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2021 mit 4,2 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,6 den tiefsten.",
+		"erlaeuterungen": "Der aus fünf ausgewählten Indikatoren berechnete Index erlaubt relative Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf Indikatoren. <br>Der Index wird mittels Hauptkomponentenanalyse aus den folgenden Indikatoren ermittelt: Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index sind für einzelne Wohnviertel und Zeitstände ohne Vergleich mit anderen Wohnvierteln oder Zeitständen nicht interpretierbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 8314,
-		"chart-id": 8314,
-		"filter": "",
+		"description": "Sozialindex",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.08314",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.9",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_110",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:23",
 		"id": 8314
 	},
 	{
@@ -34580,7 +34617,7 @@ var indikatoren = [
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.08360",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-3",
+		"kuerzelKunde": "2.1.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -34591,7 +34628,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:55",
+		"aktualisierungsdatum": "2023-12-05T08:34:23",
 		"id": 8360
 	},
 	{
@@ -34645,7 +34682,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger",
 		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 900.",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 390 900.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -34660,7 +34697,7 @@ var indikatoren = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-5",
+		"kuerzelKunde": "2.1.5",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -34671,7 +34708,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2023-12-05T08:34:24",
 		"id": 8362
 	},
 	{
@@ -34926,7 +34963,7 @@ var indikatoren = [
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
 		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2022 mit 37,0% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,3%, im Kanton Basel-Landschaft 34,7%. Im Schweizer Durchschnitt gibt es 32,6% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
 		],
@@ -34940,7 +34977,7 @@ var indikatoren = [
 		"unterthema": "Bildungsabschlüsse",
 		"kuerzel": "I.15.7.08369",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.2-2",
+		"kuerzelKunde": "2.2.2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -34951,7 +34988,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2023-12-05T08:34:25",
 		"id": 8369
 	},
 	{
@@ -34965,11 +35002,11 @@ var indikatoren = [
 		],
 		"title": "Exporte und Importe",
 		"subtitle": "Anteil am nominalen BIP, 2022",
-		"lesehilfe": "2022 betragen die Exporte aus Basel-Stadt 182,7% und die Importe 92,1% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 59,2% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"lesehilfe": "Gemessen am kantonalen BIP beträgt in Basel-Stadt der Exportwert im Jahr 2022 182,7%, der Importwert verzeichnet 92,1%. Beide Werte sind im regionalen Vergleich am höchsten. Die Werte für den Export betragen für Basel-Landschaft 28,0%, für Jura 59,2% des jeweils kantonalen BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP der Schweiz.",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -34992,7 +35029,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:30",
+		"aktualisierungsdatum": "2023-12-05T08:34:26",
 		"id": 8370
 	},
 	{
@@ -35006,10 +35043,10 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Exporte",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Von 2016 bis 2021 haben die nominalen Warenexporte aus Basel-Stadt um über 46% zugenommen. Von 2020 bis 2021 betrug der Zuwachs knapp 15%. Auch im Kanton Basel-Landschaft sowie im Kanton Jura gab es nach dem Exportrückgang im 2020 im letzten Jahr wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte leicht um 0,7%, im Jura um 29%. Somit liegen die nominalen Warenexporte aller drei Kantone höher als 2016. Für die gesamte Region BS/BL/Ju ergibt sich im Zeitraum 2016-2021 ein Wachstum von fast 41%, für die gesamte Schweiz von über 23%.",
+		"lesehilfe": "Von 2016 bis 2022 haben die nominalen Warenexporte aus Basel-Stadt um fast 55% zugenommen. Gegenüber 2021 wurde ebenfalls ein Zuwachs verzeichnet. Auch in Basel-Landschaft und im Jura gab es nach dem vorübergehenden Exportrückgang 2020 in den letzten beiden Jahren wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte seit 2016 um 11%, im Jura um 41%. Die nominalen Warenexporte aller drei Kantone zusammen liegen um fast 50% höher als 2016; in der gesamten Schweiz stieg der Wert um 32%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -35021,18 +35058,18 @@ var indikatoren = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08371",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-2",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.2",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "03_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:07",
+		"aktualisierungsdatum": "2023-12-05T08:34:27",
 		"id": 8371
 	},
 	{
@@ -35610,10 +35647,10 @@ var indikatoren = [
 		"children": [
 			8505
 		],
-		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"title": "Entwicklung Abschlussquote auf Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2020 im Kanton Basel-Landschaft mit 89,0% am höchsten. Er lag damit unter dem Schweizer Schnitt von 90,2%. Den tiefsten Wert aller Kantone wies mit 84,0% der Kanton Basel-Stadt auf.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2021 im Kanton Basel-Landschaft mit 90,3% am höchsten. Er lag damit knapp unter dem Schweizer Schnitt von 90,7%. Den tiefsten Wert aller Kantone wies mit 85,4% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -35625,12 +35662,12 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"description": "Entwicklung Abschlussquote auf Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "",
+		"kuerzel": "I.15.7.08445",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.2-3",
+		"kuerzelKunde": "2.2.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -35641,7 +35678,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:26",
+		"aktualisierungsdatum": "2023-12-05T08:34:25",
 		"id": 8445
 	},
 	{
@@ -36151,7 +36188,7 @@ var indikatoren = [
 		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt von 2016 bis 2022 um fast 55% gestiegen. Im Kanton Basel-Landschaft liegt der Wert fast 59% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 zum zweiten mal in Folge gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 54% seit 2016, für die gesamte Schweiz von ca. 35%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -36174,7 +36211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"aktualisierungsdatum": "2023-12-05T08:34:28",
 		"id": 8462
 	},
 	{
@@ -36254,6 +36291,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-11-04T08:12:40",
 		"id": 8692
+	},
+	{
+		"template": "template001",
+		"data-id": 8817,
+		"chart-id": 8817,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Basler Atlas: Privathaushalte nach Personenanzahl",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Basler Atlas: Privathaushalte nach Personenanzahl",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.08817",
+		"kennzahlenset": "Basler Atlas",
+		"kuerzelKunde": "01_bevhaushalte",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:21",
+		"id": 8817
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
@@ -36351,10 +36426,10 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2020 gegenüber dem Vorjahr um 5,7 Milliarden auf 35,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2020 minus 497 Millionen. Im Jura liegt sie bei 995 Millionen Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2020 zum zweiten mal in Folge gestiegen und liegt bei knapp 43 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt beträgt im Jahr 2022 rund 40 Mrd. Franken, sie sank gegenüber dem Vorjahr um 2 Mrd. Franken. In Basel-Landschaft ist die Handesbilanz negativ, mit einem Wert von 1,9 Mrd. Franken. Im Jura beträgt der Wert 1,7 Mrd. Franken. In der Schweiz ist die Handelsbilanz, nachdem sie dreimal in Folge gestiegen ist, im Jahr 2022 gesunken und liegt bei knapp 43 Mrd. Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -36366,18 +36441,18 @@ var indikatoren = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08868",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-4",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.4",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_004",
+		"orderKey": "03_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:08",
+		"aktualisierungsdatum": "2023-12-05T08:34:28",
 		"id": 8868
 	},
 	{

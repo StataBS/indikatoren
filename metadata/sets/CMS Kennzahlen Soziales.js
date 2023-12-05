@@ -38,6 +38,80 @@ var indikatorensetData = [
 		"id": 10031
 	},
 	{
+		"template": "template001",
+		"data-id": 10032,
+		"chart-id": 10032,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "23% der im Jahr 2015 Anspruchsberechtigten haben keine Familienmietzinsbeiträge bezogen. Die Nichtbezugsquote bei den Ergänzungsleistungen (EL) zur AHV lag 2015 bei 29%, jene der Prämienverbilligung bei 19%. Rund 30% der Personen mit Anspruch auf Sozialhilfe haben diesen nicht geltend gemacht.",
+		"erlaeuterungen": "Die Berner Fachhochschule hat im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt für das Jahr 2015 die Nichtbezugsquoten für die Ergänzungsleistungen, Familienmietzinsbeiträge und Prämienverbilligung berechnet. In einem weiteren Projekt im Auftrag der Sozialhilfe Basel-Stadt wurde die Nichtbezugsquote auch für den Bezug von Sozialhilfe für die Jahre 2016 bis 2020 berechnet. Die Berechnungen basieren auf kantonalen Registerdaten.<br>Mietzinsbeiträge: Familienmietzinsbeiträge",
+		"quellenangabe": [
+			"Berner Fachhochschule (BFH)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.10032",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.5",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_106",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:22",
+		"id": 10032
+	},
+	{
+		"template": "template001",
+		"data-id": 10033,
+		"chart-id": 9373,
+		"filter": "",
+		"parentId": "9373",
+		"children": [],
+		"title": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
+		"subtitle": "Nordwestschweiz",
+		"lesehilfe": "2021 lebten von der Bevölkerung in der Nordwestschweiz: 8,2% in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 2020 lebten: 5,5% in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte; 5,9% in einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
+		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d. h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlten Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.10033",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.8",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_109",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:22",
+		"id": 10033
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 10036,
 		"chart-id": 4858,
@@ -376,6 +450,43 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-11-14T11:37:01",
 		"id": 10051
+	},
+	{
+		"template": "template001",
+		"data-id": 10052,
+		"chart-id": 6163,
+		"filter": "",
+		"parentId": "6163",
+		"children": [],
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Entsorgung",
+		"kuerzel": "I.02.6.10052",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3.2.6",
+		"stufe1": "Zukunft",
+		"stufe2": "3.2 Klimaschutz",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_01_00_00_00_606",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:27",
+		"id": 10052
 	},
 	{
 		"template": "befragungen001",
@@ -2316,46 +2427,44 @@ var indikatorensetData = [
 		"id": 8294
 	},
 	{
-		"title": "Sozialindex",
-		"subtitle": "nach Wohnviertel, Stadt Basel",
-		"kuerzel": "I.13.3.08314",
-		"kuerzelKunde": "3-01",
-		"description": "Sozialindex",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
-		"stufe1": "Sozialer Zusammenhalt",
-		"stufe2": "3.1 Allgemein",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,7 den tiefsten.",
-		"erlaeuterungen": "Der aus fünf ausgewählten Indikatoren berechnete Index erlaubt relative Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf Indikatoren. <br>Der Index wird mittels Hauptkomponentenanalyse aus den folgenden Indikatoren ermittelt: Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index sind für einzelne Wohnviertel und Zeitstände ohne Vergleich mit anderen Wohnvierteln oder Zeitständen nicht interpretierbar.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_301",
+		"data-id": 8314,
+		"chart-id": 8314,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8585"
+			8585
 		],
-		"renderLink": [],
+		"title": "Sozialindex",
+		"subtitle": "nach Wohnviertel, Stadt Basel",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2021 mit 4,2 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,6 den tiefsten.",
+		"erlaeuterungen": "Der aus fünf ausgewählten Indikatoren berechnete Index erlaubt relative Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf Indikatoren. <br>Der Index wird mittels Hauptkomponentenanalyse aus den folgenden Indikatoren ermittelt: Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index sind für einzelne Wohnviertel und Zeitstände ohne Vergleich mit anderen Wohnvierteln oder Zeitständen nicht interpretierbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 8314,
-		"chart-id": 8314,
-		"filter": "",
+		"description": "Sozialindex",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.08314",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.1.9",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_110",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-05T08:34:23",
 		"id": 8314
 	},
 	{

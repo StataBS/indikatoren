@@ -484,7 +484,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Steuerjahr 2019 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 45 000 Franken (Median: 39 800), der Mittelwert für Klybeck liegt bei 42 100 Franken (Median: 36 500). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2019 rund 69 200 Franken (Median: 48 700).",
+		"lesehilfe": "Im Steuerjahr 2020 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 44 800 Franken (Median: 39 600), der Mittelwert für Klybeck liegt bei 42 600 Franken (Median: 36 800). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2020 rund 70 500 Franken (Median: 49 000).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -509,7 +509,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:30",
+		"aktualisierungsdatum": "2023-12-05T08:34:26",
 		"id": 8057
 	},
 	{

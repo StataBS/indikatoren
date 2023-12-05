@@ -531,7 +531,7 @@ var indikatorensetData = [
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.08360",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-3",
+		"kuerzelKunde": "2.1.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -541,7 +541,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:55",
+		"aktualisierungsdatum": "2023-12-05T08:34:23",
 		"id": 8360
 	},
 	{
@@ -594,7 +594,7 @@ var indikatorensetData = [
 		],
 		"title": "Grenzgänger",
 		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 900.",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 390 900.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -609,7 +609,7 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-5",
+		"kuerzelKunde": "2.1.5",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -619,7 +619,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2023-12-05T08:34:24",
 		"id": 8362
 	},
 	{
@@ -868,7 +868,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
 		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2022 mit 37,0% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,3%, im Kanton Basel-Landschaft 34,7%. Im Schweizer Durchschnitt gibt es 32,6% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
 		],
@@ -882,7 +882,7 @@ var indikatorensetData = [
 		"unterthema": "Bildungsabschlüsse",
 		"kuerzel": "I.15.7.08369",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.2-2",
+		"kuerzelKunde": "2.2.2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -892,7 +892,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2023-12-05T08:34:25",
 		"id": 8369
 	},
 	{
@@ -906,11 +906,11 @@ var indikatorensetData = [
 		],
 		"title": "Exporte und Importe",
 		"subtitle": "Anteil am nominalen BIP, 2022",
-		"lesehilfe": "2022 betragen die Exporte aus Basel-Stadt 182,7% und die Importe 92,1% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 59,2% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"lesehilfe": "Gemessen am kantonalen BIP beträgt in Basel-Stadt der Exportwert im Jahr 2022 182,7%, der Importwert verzeichnet 92,1%. Beide Werte sind im regionalen Vergleich am höchsten. Die Werte für den Export betragen für Basel-Landschaft 28,0%, für Jura 59,2% des jeweils kantonalen BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP der Schweiz.",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -932,7 +932,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:30",
+		"aktualisierungsdatum": "2023-12-05T08:34:26",
 		"id": 8370
 	},
 	{
@@ -946,10 +946,10 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Exporte",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Von 2016 bis 2021 haben die nominalen Warenexporte aus Basel-Stadt um über 46% zugenommen. Von 2020 bis 2021 betrug der Zuwachs knapp 15%. Auch im Kanton Basel-Landschaft sowie im Kanton Jura gab es nach dem Exportrückgang im 2020 im letzten Jahr wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte leicht um 0,7%, im Jura um 29%. Somit liegen die nominalen Warenexporte aller drei Kantone höher als 2016. Für die gesamte Region BS/BL/Ju ergibt sich im Zeitraum 2016-2021 ein Wachstum von fast 41%, für die gesamte Schweiz von über 23%.",
+		"lesehilfe": "Von 2016 bis 2022 haben die nominalen Warenexporte aus Basel-Stadt um fast 55% zugenommen. Gegenüber 2021 wurde ebenfalls ein Zuwachs verzeichnet. Auch in Basel-Landschaft und im Jura gab es nach dem vorübergehenden Exportrückgang 2020 in den letzten beiden Jahren wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte seit 2016 um 11%, im Jura um 41%. Die nominalen Warenexporte aller drei Kantone zusammen liegen um fast 50% höher als 2016; in der gesamten Schweiz stieg der Wert um 32%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -961,17 +961,17 @@ var indikatorensetData = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08371",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-2",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.2",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "03_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:07",
+		"aktualisierungsdatum": "2023-12-05T08:34:27",
 		"id": 8371
 	},
 	{
@@ -1459,10 +1459,10 @@ var indikatorensetData = [
 		"children": [
 			8505
 		],
-		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"title": "Entwicklung Abschlussquote auf Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2020 im Kanton Basel-Landschaft mit 89,0% am höchsten. Er lag damit unter dem Schweizer Schnitt von 90,2%. Den tiefsten Wert aller Kantone wies mit 84,0% der Kanton Basel-Stadt auf.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2021 im Kanton Basel-Landschaft mit 90,3% am höchsten. Er lag damit knapp unter dem Schweizer Schnitt von 90,7%. Den tiefsten Wert aller Kantone wies mit 85,4% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -1474,12 +1474,12 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"description": "Entwicklung Abschlussquote auf Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "",
+		"kuerzel": "I.15.7.08445",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.2-3",
+		"kuerzelKunde": "2.2.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -1489,7 +1489,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:26",
+		"aktualisierungsdatum": "2023-12-05T08:34:25",
 		"id": 8445
 	},
 	{
@@ -1586,7 +1586,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt von 2016 bis 2022 um fast 55% gestiegen. Im Kanton Basel-Landschaft liegt der Wert fast 59% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 zum zweiten mal in Folge gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 54% seit 2016, für die gesamte Schweiz von ca. 35%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1608,7 +1608,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"aktualisierungsdatum": "2023-12-05T08:34:28",
 		"id": 8462
 	},
 	{
@@ -1662,10 +1662,10 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2020 gegenüber dem Vorjahr um 5,7 Milliarden auf 35,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2020 minus 497 Millionen. Im Jura liegt sie bei 995 Millionen Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2020 zum zweiten mal in Folge gestiegen und liegt bei knapp 43 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt beträgt im Jahr 2022 rund 40 Mrd. Franken, sie sank gegenüber dem Vorjahr um 2 Mrd. Franken. In Basel-Landschaft ist die Handesbilanz negativ, mit einem Wert von 1,9 Mrd. Franken. Im Jura beträgt der Wert 1,7 Mrd. Franken. In der Schweiz ist die Handelsbilanz, nachdem sie dreimal in Folge gestiegen ist, im Jahr 2022 gesunken und liegt bei knapp 43 Mrd. Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1677,17 +1677,17 @@ var indikatorensetData = [
 		"unterthema": "Aussenhandel",
 		"kuerzel": "I.06.4.08868",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "4-4",
-		"stufe1": "4. Aussenhandel",
+		"kuerzelKunde": "3.4",
+		"stufe1": "3. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_004",
+		"orderKey": "03_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:08",
+		"aktualisierungsdatum": "2023-12-05T08:34:28",
 		"id": 8868
 	},
 	{

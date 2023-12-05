@@ -1793,6 +1793,7 @@ id | visible | visibleInPortal | indikatorenset
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
 8812 | true | false | CMS Kennzahlen Soziales (Print)
+8817 | true | true | Basler Atlas
 8842 | false |  | Stadtteilmonitoring Rosental
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
 8845 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
@@ -2268,6 +2269,8 @@ id | visible | visibleInPortal | indikatorenset
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
 10031 | true | false | CMS Kennzahlen Soziales
+10032 | true | true | CMS Kennzahlen Soziales
+10033 | true | false | CMS Kennzahlen Soziales
 10036 | true | false | CMS Kennzahlen Soziales
 10037 | true | true | CMS Kennzahlen Soziales
 10038 | true | true | CMS Kennzahlen Soziales
@@ -2277,6 +2280,7 @@ id | visible | visibleInPortal | indikatorenset
 10047 | true | true | CMS Kennzahlen Soziales
 10049 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
 11788 | true | false | Legislaturplan

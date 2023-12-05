@@ -45,6 +45,14 @@
         [
           2020,
           121.0953347
+        ],
+        [
+          2021,
+          128.2092147
+        ],
+        [
+          2022,
+          134.1205448
         ]
       ],
       "name": "Haushalte in Begegnungszonen"
@@ -94,6 +102,14 @@
         [
           2020,
           102.6554145
+        ],
+        [
+          2021,
+          103.1077166
+        ],
+        [
+          2022,
+          103.8657521
         ]
       ],
       "name": "Haushalte in der Stadt Basel"
@@ -232,7 +248,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
