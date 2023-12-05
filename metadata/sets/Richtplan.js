@@ -890,7 +890,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2020 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2020 gibt es knapp 8 400 Privathaushalte in Begegnungszonen. Insgesamt gibt es in der Stadt Basel rund 89 000 Privathaushalte.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -916,7 +916,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:59",
+		"aktualisierungsdatum": "2023-12-05T08:34:31",
 		"id": 6220
 	},
 	{

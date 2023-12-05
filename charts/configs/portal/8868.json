@@ -1,7 +1,34 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#007A2F",
+      "data": [
+        [
+          "Basel-Stadt",
+          25931
+        ],
+        [
+          "Basel-Landschaft",
+          565
+        ],
+        [
+          "Jura",
+          1063
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          27559
+        ],
+        [
+          "Schweiz",
+          36931
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
       "data": [
         [
           "Basel-Stadt",
@@ -28,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#73B97C",
       "data": [
         [
           "Basel-Stadt",
@@ -55,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
@@ -82,7 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -106,6 +133,60 @@
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Basel-Stadt",
+          42109
+        ],
+        [
+          "Basel-Landschaft",
+          -691
+        ],
+        [
+          "Jura",
+          1355
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          42773
+        ],
+        [
+          "Schweiz",
+          58461
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          40076
+        ],
+        [
+          "Basel-Landschaft",
+          -1940
+        ],
+        [
+          "Jura",
+          1679
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          39816
+        ],
+        [
+          "Schweiz",
+          42847
+        ]
+      ],
+      "name": "2022",
       "turboThreshold": 0
     }
   ],
@@ -238,7 +319,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
+    "text": "Quelle: Bundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

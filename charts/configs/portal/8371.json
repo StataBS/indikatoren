@@ -26,6 +26,10 @@
         [
           2021,
           146.3
+        ],
+        [
+          2022,
+          154.56
         ]
       ],
       "name": "Basel-Stadt"
@@ -56,6 +60,10 @@
         [
           2021,
           101.02
+        ],
+        [
+          2022,
+          111.05
         ]
       ],
       "name": "Basel-Landschaft"
@@ -86,6 +94,10 @@
         [
           2021,
           118.47
+        ],
+        [
+          2022,
+          141.39
         ]
       ],
       "name": "Jura"
@@ -116,6 +128,10 @@
         [
           2021,
           140.83
+        ],
+        [
+          2022,
+          149.8
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -146,6 +162,10 @@
         [
           2021,
           123.43
+        ],
+        [
+          2022,
+          131.92
         ]
       ],
       "name": "Schweiz"
@@ -276,7 +296,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Bundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

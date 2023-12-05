@@ -1,0 +1,799 @@
+{
+  "series": [
+    {
+      "index": 4,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2013",
+          13.856
+        ],
+        [
+          "2014",
+          12.624
+        ],
+        [
+          "2015",
+          11.471
+        ],
+        [
+          "2016",
+          12.59
+        ],
+        [
+          "2017",
+          16.95673485
+        ],
+        [
+          "2018",
+          15.01140628
+        ],
+        [
+          "2019",
+          18.84792988
+        ],
+        [
+          "2020",
+          12.3766429458606
+        ],
+        [
+          "2021",
+          8.23792168652448
+        ]
+      ],
+      "name": "Zahlungsrückstand NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 10.914,
+          "high": 16.798
+        },
+        {
+          "name": "2014",
+          "low": 10.418,
+          "high": 14.83
+        },
+        {
+          "name": "2015",
+          "low": 9.257,
+          "high": 13.685
+        },
+        {
+          "name": "2016",
+          "low": 10.199,
+          "high": 14.981
+        },
+        {
+          "name": "2017",
+          "low": 14.00458285,
+          "high": 19.90888685
+        },
+        {
+          "name": "2018",
+          "low": 11.31876628,
+          "high": 18.70404628
+        },
+        {
+          "name": "2019",
+          "low": 14.87324588,
+          "high": 22.82261388
+        },
+        {
+          "name": "2020",
+          "low": 9.68536694586061,
+          "high": 15.0679189458606
+        },
+        {
+          "name": "2021",
+          "low": 6.25733962125794,
+          "high": 10.218503751791
+        }
+      ],
+      "name": "Zahlungrückstand NWCH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#A0BEC8",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2013",
+          15.312
+        ],
+        [
+          "2014",
+          15.578
+        ],
+        [
+          "2015",
+          16.275
+        ],
+        [
+          "2016",
+          16.052
+        ],
+        [
+          "2017",
+          16.53508365
+        ],
+        [
+          "2018",
+          14.57205276
+        ],
+        [
+          "2019",
+          15.06436836
+        ],
+        [
+          "2020",
+          13.5247498944201
+        ],
+        [
+          "2021",
+          11.5465597216593
+        ]
+      ],
+      "name": "Zahlungsrückstand CH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 13.818,
+          "high": 16.806
+        },
+        {
+          "name": "2014",
+          "low": 14.664,
+          "high": 16.492
+        },
+        {
+          "name": "2015",
+          "low": 15.327,
+          "high": 17.223
+        },
+        {
+          "name": "2016",
+          "low": 15.107,
+          "high": 16.997
+        },
+        {
+          "name": "2017",
+          "low": 15.56253165,
+          "high": 17.50763565
+        },
+        {
+          "name": "2018",
+          "low": 13.41565276,
+          "high": 15.72845276
+        },
+        {
+          "name": "2019",
+          "low": 13.93090036,
+          "high": 16.19783636
+        },
+        {
+          "name": "2020",
+          "low": 12.4973178944201,
+          "high": 14.5521818944201
+        },
+        {
+          "name": "2021",
+          "low": 10.5673043731579,
+          "high": 12.5258150701607
+        }
+      ],
+      "name": "Zahlungrückstand CH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 0,
+      "color": "#FABD24",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          5.583
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          7.800565371
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          5.5071479064727
+        ],
+        [
+          "2021",
+          null
+        ]
+      ],
+      "name": "Betreibung, Verlustschein NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 3.511,
+          "high": 7.655
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 5.626533371,
+          "high": 9.974597371
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2020",
+          "low": 3.8852479064727,
+          "high": 7.1290479064727
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Betreibung, Verlustschein NWCH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#FFDA80",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          6.13
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          7.632677014
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          6.94321882051797
+        ],
+        [
+          "2021",
+          null
+        ]
+      ],
+      "name": "Betreibung, Verlustschein CH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 5.239,
+          "high": 7.021
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 6.937465014,
+          "high": 8.327889014
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2020",
+          "low": 6.17627082051797,
+          "high": 7.71016682051797
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Betreibung, Verlustschein CH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#923F8D",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          9.971
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          10.12226894
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          5.891921055206
+        ],
+        [
+          "2021",
+          null
+        ]
+      ],
+      "name": "Kontoüberziehung, Kreditkarte NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 7.182,
+          "high": 12.76
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 7.251848937,
+          "high": 12.99268894
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2020",
+          "low": 3.890957055206,
+          "high": 7.892885055206
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Kontoüberziehung, Kreditkarte NWCH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 10,
+      "color": "#B375AB",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          9.009
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          8.784763816
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          5.05557673713981
+        ],
+        [
+          "2021",
+          null
+        ]
+      ],
+      "name": "Kontoüberziehung, Kreditkarte CH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 11,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 7.798,
+          "high": 10.22
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 7.989787816,
+          "high": 9.579739816
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2020",
+          "low": 4.30705273713981,
+          "high": 5.80410073713981
+        },
+        {
+          "name": "2021",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Kontoüberziehung, Kreditkarte CH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginBottom": 65,
+    "type": "column",
+    "renderTo": "container-10033",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0.1,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben"
+  },
+  "subtitle": {
+    "text": "Nordwestschweiz",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+            return Highcharts.numberFormat((this.value),0)+'%';                
+        }
+    },
+    "tickAmount": 6,
+    "tickDistance": 10
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none"
+    },
+    "enabled": true,
+    "itemDistance": 0,
+    "width": 500,
+    "itemWidth": 230,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "10033"
+  }
+}

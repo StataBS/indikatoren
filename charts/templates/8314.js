@@ -26,7 +26,13 @@
     }    
   },
   
-  series: [{
+  series: [
+    
+    {
+    
+      "color":'#D3E2E4'
+    },
+    {
     
     "color":'#A8C3CA'
   },

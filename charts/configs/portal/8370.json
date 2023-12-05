@@ -186,7 +186,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EBundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
