@@ -46,7 +46,7 @@
         ],
         [
           2020,
-          106.2
+          106.5
         ],
         [
           2021,
@@ -55,6 +55,10 @@
         [
           2022,
           108.7
+        ],
+        [
+          2023,
+          110.9
         ]
       ],
       "name": "Mietpreisindex"
@@ -114,6 +118,10 @@
         [
           2022,
           null
+        ],
+        [
+          2023,
+          null
         ]
       ],
       "name": "Index Median Reineinkommen"
@@ -172,6 +180,10 @@
         ],
         [
           2022,
+          null
+        ],
+        [
+          2023,
           null
         ]
       ],
@@ -339,7 +351,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 14.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
