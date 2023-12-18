@@ -2272,16 +2272,41 @@ id | visible | visibleInPortal | indikatorenset
 10032 | true | true | CMS Kennzahlen Soziales
 10033 | true | false | CMS Kennzahlen Soziales
 10034 | true | false | CMS Kennzahlen Soziales
+10035 | true | true | CMS Kennzahlen Soziales
 10036 | true | false | CMS Kennzahlen Soziales
 10037 | true | true | CMS Kennzahlen Soziales
 10038 | true | true | CMS Kennzahlen Soziales
 10040 | true | false | CMS Kennzahlen Soziales
+10041 | true | false | CMS Kennzahlen Soziales
 10044 | true | false | CMS Kennzahlen Soziales
 10045 | true | false | CMS Kennzahlen Soziales
 10047 | true | true | CMS Kennzahlen Soziales
 10049 | true | false | CMS Kennzahlen Soziales
+10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
 10052 | true | false | CMS Kennzahlen Soziales
+10054 | true | true | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
+10265 | true | false | CMS Kennzahlen Soziales
+11165 | true | true | Gesundheitsversorgung
+11166 | true | true | Gesundheitsversorgung
+11167 | true | true | Gesundheitsversorgung
+11168 | true | true | Gesundheitsversorgung
+11169 | true | true | Gesundheitsversorgung
+11170 | true | true | Gesundheitsversorgung
+11171 | true | true | Gesundheitsversorgung
+11172 | true | true | Gesundheitsversorgung
+11173 | true | true | Gesundheitsversorgung
+11174 | true | true | Gesundheitsversorgung
+11175 | true | true | Gesundheitsversorgung
+11176 | true | true | Gesundheitsversorgung
+11177 | true | true | Gesundheitsversorgung
+11178 | true | true | Gesundheitsversorgung
+11179 | true | true | Gesundheitsversorgung
+11182 | true | true | Gesundheitsversorgung
+11183 | true | true | Gesundheitsversorgung
+11184 | true | true | Gesundheitsversorgung
+11185 | true | true | Gesundheitsversorgung
 11788 | true | false | Legislaturplan
+11897 | true | true | Gesundheitsversorgung

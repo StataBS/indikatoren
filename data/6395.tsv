@@ -1,22 +1,23 @@
 ﻿"Wohnviertel_ID"	"Wohnviertel_Name"	"Arbeitsstätten pro 100 Einwohner"	"Anzahl Arbeitsstätten"
-1	Altstadt Grossbasel	57.408109132	1515
-2	Vorstädte	39.532580709	1996
-3	Am Ring	12.465813851	1413
-4	Breite	4.2205281184	382
-5	St. Alban	16.71496761	1961
-6	Gundeldingen	8.2032283673	1550
-7	Bruderholz	4.6999047317	444
-8	Bachletten	6.8075460661	931
-9	Gotthelf	6.3406062381	433
-10	Iselin	4.1287367123	703
-11	St. Johann	6.2636717708	1174
-12	Altstadt Kleinbasel	21.582435791	521
-13	Clara	9.7735105859	397
-14	Wettstein	7.2579248224	419
-15	Hirzbrunnen	3.2684657564	304
-16	Rosental	4.6298718284	354
-17	Matthäus	6.464269634	1005
-18	Klybeck	5.611814346	399
-19	Kleinhüningen	9.6475614098	271
-20	Riehen	4.4375835215	963
-30	Bettingen	4.641350211	55
+1	"Altstadt Grossbasel"	56.784108	1515
+2	"Vorstädte"	41.337942	2033
+3	"Am Ring"	12.59542	1419
+4	"Breite"	4.320361	383
+5	"St. Alban"	16.790702	2008
+6	"Gundeldingen"	8.3245355	1577
+7	"Bruderholz"	4.8839919	461
+8	"Bachletten"	6.3467718	869
+9	"Gotthelf"	6.6391874	451
+10	"Iselin"	4.2109639	709
+11	"St. Johann"	6.3987701	1207
+12	"Altstadt Kleinbasel"	22.32105	527
+13	"Clara"	9.3023256	404
+14	"Wettstein"	7.5212784	433
+15	"Hirzbrunnen"	3.2309832	302
+16	"Rosental"	5.1170745	389
+17	"Matthäus"	6.8410069	1049
+18	"Klybeck"	6.1708861	429
+19	"Kleinhüningen"	9.930884	273
+20	"Riehen"	4.5994879	1006
+30	"Bettingen"	4.6623794	58
+

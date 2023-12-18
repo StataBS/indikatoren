@@ -149,6 +149,43 @@ var indikatorensetData = [
 		"id": 10034
 	},
 	{
+		"template": "line001",
+		"data-id": 10035,
+		"chart-id": 10035,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Jugendliche ausserhalb des Bildungssystems",
+		"subtitle": "Basel-Stadt und Schweiz",
+		"lesehilfe": "Der Anteil der Jugendlichen ausserhalb des Bildungssystems betrug in Basel-Stadt im Mittel der Jahre 2019 bis 2021 9,9%. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%. Somit ist der Anteil Jugendlicher ausserhalb des Bildungssystems in Basel-Stadt signifikant höher als der durchschnittliche Anteil in der Schweiz (6,3%, 95%-Konfidenzintervall: 6,1% - 6,5%).",
+		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren, welche höchstens die obligatorische Schule abgeschlossen haben. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau (Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst). Um eine grössere Stichprobe zu erhalten, werden die Daten aus jeweils drei Jahren zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die neueren Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Jugendliche ausserhalb des Bildungssystems",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.10035",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.1",
+		"stufe1": "Leben",
+		"stufe2": "1.3 Chancengleichheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_03_00_00_00_301",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T10:33:11",
+		"id": 10035
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 10036,
 		"chart-id": 4858,
@@ -295,6 +332,45 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-11-14T11:36:54",
 		"id": 10040
+	},
+	{
+		"template": "template001",
+		"data-id": 10041,
+		"chart-id": 6215,
+		"filter": "",
+		"parentId": "6215",
+		"children": [],
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 204 550 am Ende des Jahres 2022 um fast 10% auf rund 224 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2023. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.10041",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.1.4",
+		"stufe1": "Zusammenhalt",
+		"stufe2": "2.1 Identitäten und Welten",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_405",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T10:33:18",
+		"id": 10041
 	},
 	{
 		"template": "befragungen001",
@@ -450,6 +526,43 @@ var indikatorensetData = [
 		"id": 10049
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 10050,
+		"chart-id": 6028,
+		"filter": "",
+		"parentId": "6028",
+		"children": [],
+		"title": "Anteile der Verkehrsmittel",
+		"subtitle": "",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz werden mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteile der Verkehrsmittel",
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kuerzel": "I.11.2.10050",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.4.3",
+		"stufe1": "Leben",
+		"stufe2": "1.4 Erhalt der Lebensgrundlagen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_603",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T10:33:12",
+		"id": 10050
+	},
+	{
 		"template": "template001",
 		"data-id": 10051,
 		"chart-id": 9008,
@@ -526,6 +639,45 @@ var indikatorensetData = [
 		"id": 10052
 	},
 	{
+		"template": "template001",
+		"data-id": 10054,
+		"chart-id": 10054,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Biotopwert Wald",
+		"subtitle": "Anzahl Kontrollstichproben nach Biotopwert-Klasse, Basel-Stadt",
+		"lesehilfe": "Von den 429 Kontrollstichproben, welche im Jahr 2017 aufgenommen wurden, wiesen 133 einen hohen Biotopwert auf. Nur eine Stichprobenfläche lag in der tiefsten Biotopwertklasse.",
+		"erlaeuterungen": "Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Baumartenvielfalt, Strukturvielfalt (Entwicklungsstufe, Schichtung, Schlussgrad) und Naturnähe des Bestandes. Er ist eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für einheimische Tier- und Pflanzenarten. Ein Wald mit einem hohen Biotopwert zeichnet sich wie folgt aus: Es ist eine grosse Anzahl an Baumarten anzutreffen; Auch ökologisch besonders wertvolle Arten wie beispielsweise Weiden oder Eichen sind nachzuweisen; Der Bestand ist mehrschichtig aufgebaut, ist lückig und weist einen Anteil an Altholz auf; Der Nadelholzanteil, insbesondere der Fichtenanteil, überschreitet einen der Pflanzengesellschaft angepassten Anteil nicht. Die Bewertung erfolgt gemäss Biotopwert-Modell der Forschungsanstalt für Wald, Schnee und Landschaft (Brändli, 2001). Eine Kontrollstichprobe umfasst eine Aufnahmefläche von 3 Aren.",
+		"quellenangabe": [
+			"Amt für Wald beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a> im Umweltbericht beider Basel"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Biotopwert Wald",
+		"thema": "07 Landwirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.4.7",
+		"stufe1": "Leben",
+		"stufe2": "1.4 Erhalt der Lebensgrundlagen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_703",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T10:33:13",
+		"id": 10054
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 10263,
 		"chart-id": 4849,
@@ -598,6 +750,43 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-11-14T11:36:56",
 		"id": 10264
+	},
+	{
+		"template": "template001",
+		"data-id": 10265,
+		"chart-id": 6492,
+		"filter": "",
+		"parentId": "6492",
+		"children": [],
+		"title": "Beteiligung an Freiwilligenarbeit",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%).",
+		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beteiligung an Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10265",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2.2.1",
+		"stufe1": "Zusammenhalt",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_02_00_00_00_502",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T10:33:19",
+		"id": 10265
 	},
 	{
 		"template": "mappie001",

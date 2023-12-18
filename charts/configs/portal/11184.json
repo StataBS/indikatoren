@@ -1,0 +1,324 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          "Basispaket Chirurgie und innere Medizin",
+          13113.245
+        ],
+        [
+          "Orthopädie",
+          5079.785
+        ],
+        [
+          "Geburtshilfe",
+          1522.708
+        ],
+        [
+          "Neugeborene",
+          773.772
+        ],
+        [
+          "Urologie",
+          2017.304
+        ],
+        [
+          "Übrige",
+          15683.93
+        ]
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+          // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
+          return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
+        },
+        "distance": -25,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "showInLegend": false,
+      "type": "pie",
+      "size": "69%",
+      "innerSize": "50%",
+      "center": [
+        180,
+        120
+      ],
+      "borderWidth": 2,
+      "colors": [
+        "#fcca9a",
+        "#ffdfa1",
+        "#eda78f",
+        "#facad5",
+        "#f1d098",
+        "#bb93a7"
+      ],
+      "name": "Case-Mix",
+      "turboThreshold": 0
+    },
+    {
+      "data": [
+        [
+          "Basispaket Chirurgie und innere Medizin",
+          14916
+        ],
+        [
+          "Orthopädie",
+          3345
+        ],
+        [
+          "Geburtshilfe",
+          2138
+        ],
+        [
+          "Neugeborene",
+          1848
+        ],
+        [
+          "Urologie",
+          1592
+        ],
+        [
+          "Übrige",
+          9462
+        ]
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": -20,
+        "style": {
+          "color": "contrast",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "showInLegend": true,
+      "type": "pie",
+      "innerSize": "70%",
+      "center": [
+        180,
+        120
+      ],
+      "borderWidth": 2,
+      "colors": [
+        "#ed802f",
+        "#f9b11e",
+        "#d2353b",
+        "#ef7d9c",
+        "#d19224",
+        "#7a3050"
+      ],
+      "name": "Fälle",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11184"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "allowPointSelect": false,
+      "point": {
+        "events": {
+          "legendItemClick": function (event) {
+              event.preventDefault();
+            }
+        }
+      }
+    },
+    "pie": {
+      "shadow": false,
+      "states": {
+        "hover": {
+          "halo": {
+            "size": 0
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen"
+  },
+  "subtitle": {
+    "text": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 75,
+    "itemDistance": 10,
+    "style": {
+      "fontSize": "12px"
+    },
+    "labelFormatter": function () {
+        if (this.index === 0) {
+          return 'Basispaket';
+        } else {
+          return this.name;
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E",
+    "shared": true,
+    "useHTML": false
+  },
+  "labels": {
+    "items": [
+      {
+        "html": "Aussen: Anteil Fälle\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;Anteil Case-Mix",
+        "style": {
+          "left": "300px",
+          "top": "250px"
+        }
+      }
+    ]
+  },
+  "exporting": {
+    "filename": "11184"
+  }
+}

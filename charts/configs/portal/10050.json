@@ -1,0 +1,428 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2010: Etappen pro Tag   Anzahl",
+          3.2526782
+        ],
+        [
+          "2015: Etappen pro Tag   Anzahl",
+          2.9214036
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          2.3302841
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Tagesunterwegszeit   in Minuten",
+          38.444439
+        ],
+        [
+          "2015: Tagesunterwegszeit   in Minuten",
+          31.35447
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          35.488214
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Tagesdistanz   in Kilometer",
+          2.4660112
+        ],
+        [
+          "2015: Tagesdistanz   in Kilometer",
+          2.0930536
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          2.1766692
+        ]
+      ],
+      "name": "Zu Fuss",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2010: Etappen pro Tag   Anzahl",
+          0.6109837
+        ],
+        [
+          "2015: Etappen pro Tag   Anzahl",
+          0.6141527
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.6437951
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Tagesunterwegszeit   in Minuten",
+          8.3670952
+        ],
+        [
+          "2015: Tagesunterwegszeit   in Minuten",
+          8.9492522
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          10.477397
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Tagesdistanz   in Kilometer",
+          1.7253601
+        ],
+        [
+          "2015: Tagesdistanz   in Kilometer",
+          1.6884046
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          2.1633652
+        ]
+      ],
+      "name": "Velo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2010: Etappen pro Tag   Anzahl",
+          0.7656544
+        ],
+        [
+          "2015: Etappen pro Tag   Anzahl",
+          0.8338522
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.6669503
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Tagesunterwegszeit   in Minuten",
+          15.563063
+        ],
+        [
+          "2015: Tagesunterwegszeit   in Minuten",
+          17.15333
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          14.008216
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Tagesdistanz   in Kilometer",
+          10.058921
+        ],
+        [
+          "2015: Tagesdistanz   in Kilometer",
+          11.594023
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          9.0255171
+        ]
+      ],
+      "name": "MIV",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e9d2",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2010: Etappen pro Tag   Anzahl",
+          1.2702954
+        ],
+        [
+          "2015: Etappen pro Tag   Anzahl",
+          1.283706
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.7476092
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Tagesunterwegszeit   in Minuten",
+          18.169132
+        ],
+        [
+          "2015: Tagesunterwegszeit   in Minuten",
+          17.745773
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          10.705307
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Tagesdistanz   in Kilometer",
+          9.922729
+        ],
+        [
+          "2015: Tagesdistanz   in Kilometer",
+          11.610472
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          6.1944466
+        ]
+      ],
+      "name": "ÖV",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2010: Etappen pro Tag   Anzahl",
+          0.0596431
+        ],
+        [
+          "2015: Etappen pro Tag   Anzahl",
+          0.0619608
+        ],
+        [
+          "2021: Etappen pro Tag   Anzahl",
+          0.0433991
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Tagesunterwegszeit   in Minuten",
+          1.1691897
+        ],
+        [
+          "2015: Tagesunterwegszeit   in Minuten",
+          1.0578035
+        ],
+        [
+          "2021: Tagesunterwegszeit   in Minuten",
+          0.6956573
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Tagesdistanz   in Kilometer",
+          0.4428068
+        ],
+        [
+          "2015: Tagesdistanz   in Kilometer",
+          0.268806
+        ],
+        [
+          "2021: Tagesdistanz   in Kilometer",
+          0.1844267
+        ]
+      ],
+      "name": "Übrige",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return this.value.replace("  ", "<br/>");
+        },
+      "useHTML": true,
+      "align": "left",
+      "x": -140
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 150,
+    "inverted": true,
+    "renderTo": "container-10050",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteile der Verkehrsmittel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": ""
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": "10050"
+  }
+}

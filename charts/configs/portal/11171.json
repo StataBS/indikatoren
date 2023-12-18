@@ -1,0 +1,309 @@
+{
+  "series": [
+    {
+      "index": 1,
+      "color": "#68ab2b",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '%' + '</b><br/><b>';
+          }
+      },
+      "data": [
+        [
+          2011,
+          0.9808
+        ],
+        [
+          2012,
+          0.9833
+        ],
+        [
+          2013,
+          0.954
+        ],
+        [
+          2014,
+          0.9309
+        ],
+        [
+          2015,
+          0.9405
+        ],
+        [
+          2016,
+          0.9579
+        ],
+        [
+          2017,
+          0.9501
+        ],
+        [
+          2018,
+          0.9573
+        ],
+        [
+          2019,
+          0.9586
+        ],
+        [
+          2020,
+          0.932
+        ],
+        [
+          2021,
+          0.893
+        ],
+        [
+          2022,
+          0.922
+        ]
+      ],
+      "name": "Auslastung"
+    },
+    {
+      "index": 2,
+      "color": "#006400",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+          }
+      },
+      "yAxis": 1,
+      "data": [
+        [
+          2011,
+          1015653
+        ],
+        [
+          2012,
+          1023525
+        ],
+        [
+          2013,
+          1012269
+        ],
+        [
+          2014,
+          1047484
+        ],
+        [
+          2015,
+          1079616
+        ],
+        [
+          2016,
+          1098388
+        ],
+        [
+          2017,
+          1095822
+        ],
+        [
+          2018,
+          1097812
+        ],
+        [
+          2019,
+          1086785
+        ],
+        [
+          2020,
+          1058702
+        ],
+        [
+          2021,
+          1008730
+        ],
+        [
+          2022,
+          1017551
+        ]
+      ],
+      "name": "Pensions- und Pflegetage"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11171"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "tickAmount": 7,
+      "labels": {
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value * 100), 0) + '%';
+          },
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "tickAmount": 7,
+      "opposite": true,
+      "labels": {
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value), 0) + ''; // Wandelt Dezimalzahlen in Prozent um
+          },
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        if (this.index === 1) {
+          return 'Pensions- und Pflegetage (rechte Skala)';
+        } else {
+          return this.name;
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "exporting": {
+    "filename": "11171"
+  }
+}

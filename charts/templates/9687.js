@@ -21,7 +21,7 @@
               enabled: true,
               y: 0,
               x: -350,
-              format: 'Referenzwert: {y:,.1f} (Wert 2019)',
+              format: 'Referenzwert: {y:,.1f} (Indexwert 2019)',
               style: {
                 textOutline: false,
                 color: "#999999",

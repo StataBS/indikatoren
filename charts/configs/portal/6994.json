@@ -6,54 +6,6 @@
       "data": [
         [
           "0 bis 9 Jahre",
-          224
-        ],
-        [
-          "10 bis 19 Jahre",
-          69.3
-        ],
-        [
-          "20 bis 29 Jahre",
-          91
-        ],
-        [
-          "30 bis 39 Jahre",
-          114.5
-        ],
-        [
-          "40 bis 49 Jahre",
-          118.4
-        ],
-        [
-          "50 bis 59 Jahre",
-          173.4
-        ],
-        [
-          "60 bis 69 Jahre",
-          268.3
-        ],
-        [
-          "70 bis 79 Jahre",
-          436.6
-        ],
-        [
-          "80 bis 89 Jahre",
-          655.3
-        ],
-        [
-          "90 Jahre u.m.",
-          751
-        ]
-      ],
-      "name": "2010",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007a2f",
-      "visible": false,
-      "data": [
-        [
-          "0 bis 9 Jahre",
           212.8
         ],
         [
@@ -97,7 +49,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#007a2f",
       "visible": false,
       "data": [
         [
@@ -145,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73b97c",
+      "color": "#68ab2b",
       "visible": false,
       "data": [
         [
@@ -193,7 +145,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#45381d",
+      "color": "#73b97c",
       "visible": false,
       "data": [
         [
@@ -241,7 +193,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
+      "color": "#45381d",
       "visible": false,
       "data": [
         [
@@ -289,7 +241,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#cd9c00",
+      "color": "#7f5f1a",
       "visible": false,
       "data": [
         [
@@ -337,7 +289,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "#cd9c00",
       "visible": false,
       "data": [
         [
@@ -385,7 +337,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffda80",
+      "color": "#fabd24",
       "visible": false,
       "data": [
         [
@@ -433,7 +385,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#e7cee2",
+      "color": "#ffda80",
       "visible": false,
       "data": [
         [
@@ -481,7 +433,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#e7cee2",
       "visible": false,
       "data": [
         [
@@ -529,8 +481,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
-      "visible": true,
+      "color": "#b375ab",
+      "visible": false,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -574,6 +526,54 @@
         ]
       ],
       "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "visible": true,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          174.2
+        ],
+        [
+          "10 bis 19 Jahre",
+          65.7
+        ],
+        [
+          "20 bis 29 Jahre",
+          82.6
+        ],
+        [
+          "30 bis 39 Jahre",
+          122.3
+        ],
+        [
+          "40 bis 49 Jahre",
+          113.8
+        ],
+        [
+          "50 bis 59 Jahre",
+          166.7
+        ],
+        [
+          "60 bis 69 Jahre",
+          256
+        ],
+        [
+          "70 bis 79 Jahre",
+          484.9
+        ],
+        [
+          "80 bis 89 Jahre",
+          840.1
+        ],
+        [
+          "90 Jahre u.m.",
+          1051.3
+        ]
+      ],
+      "name": "2022",
       "turboThreshold": 0
     }
   ],
@@ -703,7 +703,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
