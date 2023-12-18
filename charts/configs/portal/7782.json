@@ -4,121 +4,154 @@
       "color": "#8b2223",
       "data": [
         [
-          1995,
+          "1995",
           97.2
         ],
         [
-          1996,
+          "1996",
           99
         ],
         [
-          1997,
+          "1997",
           98.8
         ],
         [
-          1998,
+          "1998",
           99
         ],
         [
-          1999,
+          "1999",
           99.5
         ],
         [
-          2000,
+          "2000",
           101.2
         ],
         [
-          2001,
+          "2001",
           102.9
         ],
         [
-          2002,
+          "2002",
           103.8
         ],
         [
-          2003,
+          "2003",
           104.3
         ],
         [
-          2004,
+          "2004",
           105.3
         ],
         [
-          2005,
+          "2005",
           106.3
         ],
         [
-          2006,
+          "2006",
           107.6
         ],
         [
-          2007,
+          "2007",
           110.1
         ],
         [
-          2008,
+          "2008",
           112.6
         ],
         [
-          2009,
+          "2009",
           114.7
         ],
         [
-          2010,
+          "2010",
           115.8
         ],
         [
-          2011,
+          "2011",
           117
         ],
         [
-          2012,
+          "2012",
           117.5
         ],
         [
-          2013,
+          "2013",
           118.8
         ],
         [
-          2014,
+          "2014",
           119.5
         ],
         [
-          2015,
+          "2015",
           120.9
         ],
         [
-          2016,
+          "2016",
           122.8
         ],
         [
-          2017,
+          "2017",
           124.3
         ],
         [
-          2018,
+          "2018",
           125.7
         ],
         [
-          2019,
+          "2019",
           127.4
         ],
         [
-          2020,
+          "2020",
           128.8
         ],
         [
-          2021,
+          "2021",
           129.8
         ],
         [
-          2022,
+          "2022",
           131.4
+        ],
+        [
+          "2023",
+          134.1
         ]
       ],
-      "name": "Index"
+      "name": "Index",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 3,
+    "tickPositioner": function () {
+    var maxlabels = 12,
+      ext = this.getExtremes(),
+      i = Math.round(ext.max),
+      interval = Math.round((i - ext.min)/maxlabels),
+      pos = [i];
+    while (i >= ext.min) pos.unshift(i = i - interval);
+    return pos;
+  }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -175,24 +208,6 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 3
-  },
   "yAxis": {
     "min": 50,
     "gridLineWidth": 0.5,
@@ -235,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

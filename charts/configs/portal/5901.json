@@ -54,6 +54,10 @@
         [
           2021,
           201805
+        ],
+        [
+          2022,
+          204550
         ]
       ],
       "name": "Bevölkerung"
@@ -114,6 +118,10 @@
         [
           2021,
           105.06518
+        ],
+        [
+          2022,
+          106.4943
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
@@ -171,6 +179,10 @@
         ],
         [
           2021,
+          193002
+        ],
+        [
+          2022,
           null
         ]
       ],
@@ -232,6 +244,10 @@
         ],
         [
           2021,
+          105.36021
+        ],
+        [
+          2022,
           null
         ]
       ],
@@ -378,7 +394,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

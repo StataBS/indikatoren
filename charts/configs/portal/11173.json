@@ -1,0 +1,367 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#0a3b19",
+      "yAxis": 1,
+      "data": [
+        [
+          2011,
+          99.8
+        ],
+        [
+          2012,
+          103.3
+        ],
+        [
+          2013,
+          92.8
+        ],
+        [
+          2014,
+          90.8
+        ],
+        [
+          2015,
+          86
+        ],
+        [
+          2016,
+          88.2
+        ],
+        [
+          2017,
+          82.4
+        ],
+        [
+          2018,
+          82.4
+        ],
+        [
+          2019,
+          84.7
+        ],
+        [
+          2020,
+          62.9
+        ],
+        [
+          2021,
+          67.7
+        ],
+        [
+          2022,
+          65.2
+        ]
+      ],
+      "name": "Auslastung"
+    },
+    {
+      "index": 1,
+      "color": "#68ab2b",
+      "yAxis": 0,
+      "data": [
+        [
+          2011,
+          45715
+        ],
+        [
+          2012,
+          47372
+        ],
+        [
+          2013,
+          44976
+        ],
+        [
+          2014,
+          43558
+        ],
+        [
+          2015,
+          36914
+        ],
+        [
+          2016,
+          36054
+        ],
+        [
+          2017,
+          33692
+        ],
+        [
+          2018,
+          33229
+        ],
+        [
+          2019,
+          32837
+        ],
+        [
+          2020,
+          24704
+        ],
+        [
+          2021,
+          26557
+        ],
+        [
+          2022,
+          25579
+        ]
+      ],
+      "name": "Mit ausserkantonalen Tagesgästen"
+    },
+    {
+      "index": 1,
+      "color": "#007a2f",
+      "yAxis": 0,
+      "data": [
+        [
+          2011,
+          44410
+        ],
+        [
+          2012,
+          46212
+        ],
+        [
+          2013,
+          43073
+        ],
+        [
+          2014,
+          42005
+        ],
+        [
+          2015,
+          35506
+        ],
+        [
+          2016,
+          34587
+        ],
+        [
+          2017,
+          31965
+        ],
+        [
+          2018,
+          31247
+        ],
+        [
+          2019,
+          30984
+        ],
+        [
+          2020,
+          23528
+        ],
+        [
+          2021,
+          25279
+        ],
+        [
+          2022,
+          24480
+        ]
+      ],
+      "name": "Ohne ausserkantonale Tagesgäste"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11173"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        },
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true,
+      "tickAmount": 7,
+      "min": 0,
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat(this.value, 0) + '%';
+        },
+        "style": {
+          "color": "black"
+        }
+      },
+      "tickAmount": 7,
+      "min": 0,
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5,
+    "reversed": false,
+    "labelFormatter": function () {
+        if (this.index === 0) {
+          return 'Auslastung';
+        } else if (this.index === 1) {
+          return 'Mit ausserkantonalen Tagesgästen (rechte Skala)';
+        } else if (this.index === 2) {
+          return 'Ohne ausserkantonale Tagesgäste (rechte Skala)';
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        if (this.series.yAxis.userOptions.opposite) {
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
+        } else {
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
+        }
+      },
+    "shared": false
+  },
+  "exporting": {
+    "filename": "11173"
+  }
+}

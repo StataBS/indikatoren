@@ -1,0 +1,623 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "index": 12,
+      "legendIndex": 1,
+      "data": [
+        [
+          2017,
+          3.16
+        ],
+        [
+          2018,
+          3.51
+        ],
+        [
+          2019,
+          3.24
+        ],
+        [
+          2020,
+          2.62
+        ],
+        [
+          2021,
+          2.21
+        ],
+        [
+          2022,
+          1.72
+        ]
+      ],
+      "name": "Stufe 1"
+    },
+    {
+      "color": "#007a2f",
+      "index": 11,
+      "legendIndex": 2,
+      "data": [
+        [
+          2017,
+          14.32
+        ],
+        [
+          2018,
+          13.74
+        ],
+        [
+          2019,
+          11.88
+        ],
+        [
+          2020,
+          11.38
+        ],
+        [
+          2021,
+          9.99
+        ],
+        [
+          2022,
+          9.71
+        ]
+      ],
+      "name": "Stufe 2"
+    },
+    {
+      "color": "#ffda80",
+      "index": 10,
+      "legendIndex": 3,
+      "data": [
+        [
+          2017,
+          6.38
+        ],
+        [
+          2018,
+          6.92
+        ],
+        [
+          2019,
+          6.73
+        ],
+        [
+          2020,
+          6.55
+        ],
+        [
+          2021,
+          6.56
+        ],
+        [
+          2022,
+          5.7
+        ]
+      ],
+      "name": "Stufe 3"
+    },
+    {
+      "color": "#fabd24",
+      "index": 9,
+      "legendIndex": 4,
+      "data": [
+        [
+          2017,
+          9.36
+        ],
+        [
+          2018,
+          8.91
+        ],
+        [
+          2019,
+          8.67
+        ],
+        [
+          2020,
+          9.14
+        ],
+        [
+          2021,
+          9.63
+        ],
+        [
+          2022,
+          10.88
+        ]
+      ],
+      "name": "Stufe 4"
+    },
+    {
+      "color": "#cd9c00",
+      "index": 8,
+      "legendIndex": 5,
+      "data": [
+        [
+          2017,
+          6.7
+        ],
+        [
+          2018,
+          5.97
+        ],
+        [
+          2019,
+          6.87
+        ],
+        [
+          2020,
+          6.8
+        ],
+        [
+          2021,
+          6.5
+        ],
+        [
+          2022,
+          6.07
+        ]
+      ],
+      "name": "Stufe 5"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 7,
+      "legendIndex": 6,
+      "data": [
+        [
+          2017,
+          18.33
+        ],
+        [
+          2018,
+          19.85
+        ],
+        [
+          2019,
+          20.03
+        ],
+        [
+          2020,
+          19.79
+        ],
+        [
+          2021,
+          19.46
+        ],
+        [
+          2022,
+          19.97
+        ]
+      ],
+      "name": "Stufe 6"
+    },
+    {
+      "color": "#45381d",
+      "index": 6,
+      "legendIndex": 7,
+      "data": [
+        [
+          2017,
+          7.61
+        ],
+        [
+          2018,
+          7.07
+        ],
+        [
+          2019,
+          6.9
+        ],
+        [
+          2020,
+          6.46
+        ],
+        [
+          2021,
+          6.75
+        ],
+        [
+          2022,
+          6.54
+        ]
+      ],
+      "name": "Stufe 7"
+    },
+    {
+      "color": "#e7cee2",
+      "index": 5,
+      "legendIndex": 8,
+      "data": [
+        [
+          2017,
+          16.22
+        ],
+        [
+          2018,
+          16.66
+        ],
+        [
+          2019,
+          16.35
+        ],
+        [
+          2020,
+          16.59
+        ],
+        [
+          2021,
+          16.44
+        ],
+        [
+          2022,
+          16.54
+        ]
+      ],
+      "name": "Stufe 8"
+    },
+    {
+      "color": "#b375ab",
+      "index": 4,
+      "legendIndex": 9,
+      "data": [
+        [
+          2017,
+          4.29
+        ],
+        [
+          2018,
+          4.37
+        ],
+        [
+          2019,
+          4.95
+        ],
+        [
+          2020,
+          4.9
+        ],
+        [
+          2021,
+          5.18
+        ],
+        [
+          2022,
+          5.24
+        ]
+      ],
+      "name": "Stufe 9"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "legendIndex": 10,
+      "data": [
+        [
+          2017,
+          10.24
+        ],
+        [
+          2018,
+          9.65
+        ],
+        [
+          2019,
+          11.13
+        ],
+        [
+          2020,
+          11.51
+        ],
+        [
+          2021,
+          12.57
+        ],
+        [
+          2022,
+          12.63
+        ]
+      ],
+      "name": "Stufe 10"
+    },
+    {
+      "color": "#662673",
+      "index": 2,
+      "legendIndex": 11,
+      "data": [
+        [
+          2017,
+          1.44
+        ],
+        [
+          2018,
+          1.58
+        ],
+        [
+          2019,
+          1.69
+        ],
+        [
+          2020,
+          2.18
+        ],
+        [
+          2021,
+          2.28
+        ],
+        [
+          2022,
+          2.35
+        ]
+      ],
+      "name": "Stufe 11"
+    },
+    {
+      "color": "#2e1435",
+      "index": 1,
+      "legendIndex": 12,
+      "data": [
+        [
+          2017,
+          1.94
+        ],
+        [
+          2018,
+          1.77
+        ],
+        [
+          2019,
+          1.57
+        ],
+        [
+          2020,
+          2.08
+        ],
+        [
+          2021,
+          2.44
+        ],
+        [
+          2022,
+          2.65
+        ]
+      ],
+      "name": "Stufe 12"
+    },
+    {
+      "type": "line",
+      "color": "#010101",
+      "yAxis": 1,
+      "legendIndex": 13,
+      "tooltip": {
+        "shared": true,
+        "useHTML": true,
+        "followPointer": true,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+        "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}&nbsp;&nbsp;&nbsp;\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+      },
+      "data": [
+        [
+          2017,
+          5.8359
+        ],
+        [
+          2018,
+          5.9355
+        ],
+        [
+          2019,
+          6.0866
+        ],
+        [
+          2020,
+          6.2039
+        ],
+        [
+          2021,
+          6.3499
+        ],
+        [
+          2022,
+          6.41
+        ]
+      ],
+      "name": "Durchschnittl. Pflegestufe"
+    }
+  ],
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11172"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    },
+    "line": {
+      "lineWidth": 3
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1,
+    "endOnTick": false,
+    "startOnTick": false
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 100,
+      "tickAmount": 5,
+      "labels": {
+        "format": "{value:.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "labels": {
+        "format": "{value:.1f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true,
+      "min": 1,
+      "max": 12,
+      "tickAmount": 5,
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 75,
+    "alignColumns": false,
+    "itemDistance": 10,
+    "labelFormatter": function () {
+        if (this.index === 12) {
+          return 'Durchschnittl. Pflegestufe (rechte Skala)';
+        } else {
+          return this.name;
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+  },
+  "exporting": {
+    "filename": "11172"
+  }
+}

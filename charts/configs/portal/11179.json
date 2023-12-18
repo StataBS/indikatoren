@@ -1,0 +1,303 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#a1c436",
+      "yAxis": 0,
+      "data": [
+        [
+          2016,
+          2.9
+        ],
+        [
+          2017,
+          2.7
+        ],
+        [
+          2018,
+          2.8
+        ],
+        [
+          2019,
+          2.5
+        ],
+        [
+          2020,
+          2.3
+        ],
+        [
+          2021,
+          2.3
+        ],
+        [
+          2022,
+          2.1
+        ]
+      ],
+      "name": "Kosten Kanton (in Mio. CHF)"
+    },
+    {
+      "index": 1,
+      "color": "#009984",
+      "yAxis": 0,
+      "data": [
+        [
+          2016,
+          2.3
+        ],
+        [
+          2017,
+          2.1
+        ],
+        [
+          2018,
+          2.1
+        ],
+        [
+          2019,
+          1.9
+        ],
+        [
+          2020,
+          1.8
+        ],
+        [
+          2021,
+          1.6
+        ],
+        [
+          2022,
+          1.6
+        ]
+      ],
+      "name": "Kosten Stadt Basel (in Mio. CHF)"
+    },
+    {
+      "index": 1,
+      "color": "#010101",
+      "yAxis": 1,
+      "data": [
+        [
+          2016,
+          21.86
+        ],
+        [
+          2017,
+          21.75
+        ],
+        [
+          2018,
+          22.98
+        ],
+        [
+          2019,
+          21.19
+        ],
+        [
+          2020,
+          21.82
+        ],
+        [
+          2021,
+          21.29
+        ],
+        [
+          2022,
+          21.05
+        ]
+      ],
+      "name": "Durchschnittsbeitrag pro Tag Stadt Basel (in CHF)"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11179"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Finanzierung der Beiträge an die Pflege zu Hause"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "tickAmount": 7,
+      "labels": {
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value), 1) + '';
+          }
+      },
+      "style": {
+        "color": "black"
+      },
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "min": 0,
+      "tickAmount": 7,
+      "labels": {
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value), 1) + '';
+          }
+      },
+      "style": {
+        "color": "black"
+      },
+      "title": {
+        "text": ""
+      },
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        // Legende manuell beschriften
+        if (this.index === 0) {
+          return 'Kosten Kanton (in Mio. CHF)';
+        } else if (this.index === 1) {
+          return 'Kosten Stadt Basel (in Mio. CHF)';
+        } else if (this.index === 2) {
+          return 'Durchschnittsbeitrag pro Tag Stadt Basel (in CHF, rechte Skala)';
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
+      },
+    "shared": false
+  },
+  "exporting": {
+    "filename": "11179"
+  }
+}
