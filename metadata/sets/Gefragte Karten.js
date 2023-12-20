@@ -438,7 +438,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T10:33:26",
+		"aktualisierungsdatum": "2023-12-20T09:16:18",
 		"id": 6383
 	},
 	{
@@ -479,7 +479,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T10:33:25",
+		"aktualisierungsdatum": "2023-12-20T09:16:17",
 		"id": 6384
 	},
 	{
@@ -860,7 +860,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T10:33:27",
+		"aktualisierungsdatum": "2023-12-20T09:16:20",
 		"id": 6395
 	},
 	{
@@ -899,7 +899,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T10:33:26",
+		"aktualisierungsdatum": "2023-12-20T09:16:19",
 		"id": 6396
 	},
 	{
