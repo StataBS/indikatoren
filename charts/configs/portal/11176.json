@@ -395,7 +395,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
