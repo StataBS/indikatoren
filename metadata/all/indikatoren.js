@@ -40187,7 +40187,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:43",
+		"aktualisierungsdatum": "2023-12-21T09:07:34",
 		"id": 7515
 	},
 	{
@@ -44508,9 +44508,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Im Oktober 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in der Gemeinde Riehen. In acht Wohnvierteln und in der Gemeinde Bettingen sank sie.",
-		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Im November 2023 ist die Einwohnerzahl gegenüber dem Vormonat in drei Wohnvierteln unverändert geblieben. In sechs Wohnvierteln und in der Gemeinde Bettingen ist sie gesunken, in zehn Wohnvierteln sowie in Riehen gestiegen.",
+		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -44536,7 +44536,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:44",
+		"aktualisierungsdatum": "2023-12-21T09:07:36",
 		"id": 7763
 	},
 	{
@@ -51149,7 +51149,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthaltsbewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -51164,18 +51164,18 @@ var indikatoren = [
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08255",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-25",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.2 Existenzsicherung",
+		"kuerzelKunde": "2.1.2",
+		"stufe1": "Zusammenhalt",
+		"stufe2": "2.1 Identitäten und Welten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_02_00_00_00_125",
+		"orderKey": "02_01_00_00_00_403",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:20",
+		"aktualisierungsdatum": "2023-12-21T09:07:37",
 		"id": 8255
 	},
 	{
@@ -69457,7 +69457,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-14T02:17:03",
+		"aktualisierungsdatum": "2023-12-21T09:07:36",
 		"id": 9023
 	},
 	{
