@@ -1655,7 +1655,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%) zum Vorjahr. Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie / Pharma; -2,5%) sind dagegen rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie/Pharma; -2,5%) sind dagegen rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1680,7 +1680,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:04",
+		"aktualisierungsdatum": "2024-01-04T09:42:46",
 		"id": 6459
 	},
 	{

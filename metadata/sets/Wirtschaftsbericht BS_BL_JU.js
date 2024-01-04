@@ -555,7 +555,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 60%, der Bestand im 2. Quartal 2023 liegt bei 11 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+25% auf rund 24 400) und Basel-Stadt (+3% auf 34 600). In der gesamten Schweiz arbeiten im 2. Quartal 2023 rund 390 900 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 68%, der Bestand im 3. Quartal 2023 liegt bei 11 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). In der gesamten Schweiz arbeiten im 3. Quartal 2023 rund 391 100 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -567,8 +567,8 @@ var indikatorensetData = [
 		],
 		"description": "Entwicklung Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08361",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.1.7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -580,7 +580,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:30",
+		"aktualisierungsdatum": "2023-12-29T10:29:38",
 		"id": 8361
 	},
 	{
@@ -593,8 +593,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 390 900.",
+		"subtitle": "2023, 3. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 100.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -619,7 +619,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-05T08:34:24",
+		"aktualisierungsdatum": "2023-12-29T10:29:37",
 		"id": 8362
 	},
 	{
@@ -1221,8 +1221,8 @@ var indikatorensetData = [
 			8497
 		],
 		"title": "Neugegründete Unternehmen",
-		"subtitle": "2015-2020",
-		"lesehilfe": "Über die Jahre 2015 bis 2020 sind in der Region BS/BL/JU insgesamt rund 14 300 neue Unternehmen gegründet worden – davon ca. 6 500 in Basel-Stadt, ca.6 200 in Basel-Landschaft und rund 1 700 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
+		"subtitle": "2014-2021",
+		"lesehilfe": "Über die Jahre 2014 bis 2021 sind in der Region BS/BL/JU insgesamt fast 20 000 neue Unternehmen gegründet worden – davon rund 8 900 in Basel-Stadt, 8 500 in Basel-Landschaft und 2 300 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
 		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -1247,7 +1247,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-01T07:50:31",
+		"aktualisierungsdatum": "2023-12-29T10:29:21",
 		"id": 8437
 	},
 	{
@@ -1701,7 +1701,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
-		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2020 bei 6,6%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,6%) und in der Gesamtschweiz (7,1%).",
+		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2021 bei 6,8%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,7%) und in der Gesamtschweiz (7,5%).",
 		"erlaeuterungen": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -1726,7 +1726,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"aktualisierungsdatum": "2023-12-29T10:29:22",
 		"id": 8969
 	},
 	{

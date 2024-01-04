@@ -1,0 +1,645 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#C4AB91",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2010-2012",
+          7.7
+        ],
+        [
+          "2013-2015",
+          9.4
+        ],
+        [
+          "2016-2018",
+          10.9
+        ],
+        [
+          "2019-2021",
+          12.1
+        ]
+      ],
+      "name": "Englisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 7.2,
+          "high": 8.1
+        },
+        {
+          "name": "2013-2015",
+          "low": 8.9,
+          "high": 9.9
+        },
+        {
+          "name": "2016-2018",
+          "low": 10.4,
+          "high": 11.4
+        },
+        {
+          "name": "2019-2021",
+          "low": 11.5,
+          "high": 12.6
+        }
+      ],
+      "name": "Englisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#A8C3CA",
+      "tooltip": {
+        "pointFormatter": function(){
+          return /*'<br/>' +*/ '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2010-2012",
+          6.3
+        ],
+        [
+          "2013-2015",
+          6.2
+        ],
+        [
+          "2016-2018",
+          6.2
+        ],
+        [
+          "2019-2021",
+          5.8
+        ]
+      ],
+      "name": "Italienisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 5.9,
+          "high": 6.7
+        },
+        {
+          "name": "2013-2015",
+          "low": 5.8,
+          "high": 6.5
+        },
+        {
+          "name": "2016-2018",
+          "low": 5.8,
+          "high": 6.6
+        },
+        {
+          "name": "2019-2021",
+          "low": 5.5,
+          "high": 6.2
+        }
+      ],
+      "name": "Italienisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2010-2012",
+          5.6
+        ],
+        [
+          "2013-2015",
+          5.2
+        ],
+        [
+          "2016-2018",
+          5.3
+        ],
+        [
+          "2019-2021",
+          5.2
+        ]
+      ],
+      "name": "Französisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 5.2,
+          "high": 6
+        },
+        {
+          "name": "2013-2015",
+          "low": 4.9,
+          "high": 5.6
+        },
+        {
+          "name": "2016-2018",
+          "low": 5,
+          "high": 5.7
+        },
+        {
+          "name": "2019-2021",
+          "low": 4.8,
+          "high": 5.5
+        }
+      ],
+      "name": "Französisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#FF8028",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "2010-2012",
+          4.3
+        ],
+        [
+          "2013-2015",
+          4.2
+        ],
+        [
+          "2016-2018",
+          4
+        ],
+        [
+          "2019-2021",
+          4
+        ]
+      ],
+      "name": "Türkisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 4,
+          "high": 4.7
+        },
+        {
+          "name": "2013-2015",
+          "low": 3.8,
+          "high": 4.5
+        },
+        {
+          "name": "2016-2018",
+          "low": 3.7,
+          "high": 4.4
+        },
+        {
+          "name": "2019-2021",
+          "low": 3.6,
+          "high": 4.3
+        }
+      ],
+      "name": "Türkisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#B00000",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2010-2012",
+          3.4
+        ],
+        [
+          "2013-2015",
+          3.6
+        ],
+        [
+          "2016-2018",
+          3.1
+        ],
+        [
+          "2019-2021",
+          3.1
+        ]
+      ],
+      "name": "Serbisch, Kroatisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 3.1,
+          "high": 3.7
+        },
+        {
+          "name": "2013-2015",
+          "low": 3.3,
+          "high": 3.9
+        },
+        {
+          "name": "2016-2018",
+          "low": 2.8,
+          "high": 3.4
+        },
+        {
+          "name": "2019-2021",
+          "low": 2.8,
+          "high": 3.4
+        }
+      ],
+      "name": "Serbisch, Kroatisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 10,
+      "color": "#662673",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2010-2012",
+          3
+        ],
+        [
+          "2013-2015",
+          3.3
+        ],
+        [
+          "2016-2018",
+          3.6
+        ],
+        [
+          "2019-2021",
+          3.9
+        ]
+      ],
+      "name": "Spanisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 11,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
+          }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 2.8,
+          "high": 3.3
+        },
+        {
+          "name": "2013-2015",
+          "low": 3,
+          "high": 3.6
+        },
+        {
+          "name": "2016-2018",
+          "low": 3.3,
+          "high": 3.9
+        },
+        {
+          "name": "2019-2021",
+          "low": 3.6,
+          "high": 4.2
+        }
+      ],
+      "name": "Spanisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 12,
+      "color": "#FFBB58",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2010-2012",
+          2.9
+        ],
+        [
+          "2013-2015",
+          2.8
+        ],
+        [
+          "2016-2018",
+          2.9
+        ],
+        [
+          "2019-2021",
+          3
+        ]
+      ],
+      "name": "Albanisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 13,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
+          }
+      },
+      "data": [
+        {
+          "name": "2010-2012",
+          "low": 2.6,
+          "high": 3.2
+        },
+        {
+          "name": "2013-2015",
+          "low": 2.5,
+          "high": 3.1
+        },
+        {
+          "name": "2016-2018",
+          "low": 2.6,
+          "high": 3.2
+        },
+        {
+          "name": "2019-2021",
+          "low": 2.7,
+          "high": 3.3
+        }
+      ],
+      "name": "Albanisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 14,
+      "color": "#B375AB",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2010-2012",
+          1.8
+        ],
+        [
+          "2013-2015",
+          2
+        ],
+        [
+          "2016-2018",
+          2.4
+        ],
+        [
+          "2019-2021",
+          2.3
+        ]
+      ],
+      "name": "Portugiesisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 15,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
+          }
+      },
+      "data": [
+        [
+          "2010-2012",
+          1.6
+        ],
+        [
+          "2013-2015",
+          1.8
+        ],
+        [
+          "2016-2018",
+          2.2
+        ],
+        [
+          "2019-2021",
+          2
+        ]
+      ],
+      "name": "Portugiesisch 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginBottom": 65,
+    "type": "column",
+    "renderTo": "container-10039",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0.1,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Primärsprachen"
+  },
+  "subtitle": {
+    "text": "Häufigste Fremdsprachen im Kanton Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+          return Highcharts.numberFormat((this.value),0)+'%';                
+      }
+    },
+    "tickDistance": 10
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none"
+    },
+    "enabled": true,
+    "itemDistance": 0,
+    "width": 500,
+    "itemWidth": 230,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "10039"
+  }
+}

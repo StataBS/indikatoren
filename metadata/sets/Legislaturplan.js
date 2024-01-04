@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:18",
+		"aktualisierungsdatum": "2024-01-04T09:42:49",
 		"id": 11788
 	},
 	{
@@ -88,7 +88,7 @@ var indikatorensetData = [
 		],
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Die Erreichbarkeit der Städte hat sich 2021 gegenüber dem Vorjahr verbessert.   Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit im Jahr 2020 markant gesunken. Die Index-Werte liegen immer noch tiefer als vor 20 Jahren. Am stärksten hatte sich 2020 die kontinentale Erreichbarkeit verringert. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
+		"lesehilfe": "Die Erreichbarkeit der Städte hat sich 2021 gegenüber dem Vorjahr verbessert.   Aufgrund der starken Reiseeinschränkungen als Massnahme zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit im Jahr 2020 markant gesunken. Die Index-Werte liegen immer noch tiefer als vor 20 Jahren. Am stärksten hatte sich 2020 die kontinentale Erreichbarkeit verringert. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
 		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Globale Erreichbarkeit: Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit: Erreichbarkeit aller Regionen Europas. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren, welchem Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde liegen. Sie folgen dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Die Reisedestinationen werden über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 zeitnah zu beobachten, wurde die Erreichbarkeit engegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:09",
+		"aktualisierungsdatum": "2024-01-04T09:42:42",
 		"id": 3104
 	},
 	{
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		],
 		"title": "Staatsausgaben für Kultur",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Kantons betragen 2021 im Bereich Kulturerbe 494 und im Bereich übrige Kultur 611 Franken pro Kopf.",
+		"lesehilfe": "Die Ausgaben des Kantons betragen 2021 im Bereich Kulturerbe 494 und im Bereich Übrige Kultur 611 Franken pro Kopf.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:10",
+		"aktualisierungsdatum": "2024-01-04T09:42:43",
 		"id": 5193
 	},
 	{
@@ -450,7 +450,7 @@ var indikatorensetData = [
 		],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Ausser beim Velovekehr liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:47",
+		"aktualisierungsdatum": "2024-01-04T09:42:52",
 		"id": 6154
 	},
 	{
@@ -573,8 +573,8 @@ var indikatorensetData = [
 			10052
 		],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -599,7 +599,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-05T08:34:29",
+		"aktualisierungsdatum": "2024-01-04T09:42:50",
 		"id": 6163
 	},
 	{
@@ -1076,7 +1076,7 @@ var indikatorensetData = [
 		"title": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
 		"subtitle": "Kanton Basel-Stadt",
 		"lesehilfe": "Im Verlaufe des Jahres 2022 wurden insgesamt 10 282 Personen finanziell durch die Sozialhilfe unterstützt. Die kantonale Sozialhilfequote liegt bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -1100,7 +1100,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:41",
+		"aktualisierungsdatum": "2024-01-04T09:42:47",
 		"id": 9372
 	},
 	{
@@ -1426,7 +1426,7 @@ var indikatorensetData = [
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2021 pendelten etwas mehr als 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 21 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 65 000 Personen.",
+		"lesehilfe": "Im Jahr 2021 pendelten etwas mehr als 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen – rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 21 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 65 000 Personen.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1452,7 +1452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-09T12:32:44",
+		"aktualisierungsdatum": "2024-01-04T09:42:48",
 		"id": 9381
 	},
 	{
@@ -2093,7 +2093,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%) zum Vorjahr. Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie / Pharma; -2,5%) sind dagegen rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie/Pharma; -2,5%) sind dagegen rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2118,7 +2118,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-24T08:51:20",
+		"aktualisierungsdatum": "2024-01-04T09:42:45",
 		"id": 9457
 	}
 ];

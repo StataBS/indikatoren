@@ -396,7 +396,7 @@
     "text": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote"
   },
   "subtitle": {
-    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
+    "text": "in kg pro Kopf resp. Prozent, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2024"
   },
   "exporting": {
     "filename": "5796"
