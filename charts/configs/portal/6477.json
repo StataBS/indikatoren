@@ -9,31 +9,31 @@
         ],
         [
           "Deutschland",
-          1.82
+          1.81
         ],
         [
           "Italien",
-          1.91
+          1.89
         ],
         [
           "Türkei",
-          2.46
+          2.42
         ],
         [
           "EU-West + EFTA + UK",
-          2.03
-        ],
-        [
-          "EU-Ost",
           2.01
         ],
         [
+          "EU-Ost",
+          1.99
+        ],
+        [
           "Balkan",
-          2.76
+          2.7
         ],
         [
           "Mittel- und Südamerika",
-          2.11
+          2.09
         ],
         [
           "Arabische Länder",
@@ -41,11 +41,11 @@
         ],
         [
           "Afrikanische Länder",
-          2.34
+          2.33
         ],
         [
           "Übrige Länder",
-          2.32
+          2.53
         ]
       ],
       "turboThreshold": 0
@@ -186,7 +186,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
   },
   "colors": [
     "#b00000",

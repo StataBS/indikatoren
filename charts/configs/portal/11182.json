@@ -1,0 +1,325 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#ed802f",
+      "data": [
+        [
+          2012,
+          7.17
+        ],
+        [
+          2013,
+          7.17
+        ],
+        [
+          2014,
+          7.05
+        ],
+        [
+          2015,
+          6.85
+        ],
+        [
+          2016,
+          6.66
+        ],
+        [
+          2017,
+          6.58
+        ],
+        [
+          2018,
+          6.49
+        ],
+        [
+          2019,
+          6.43
+        ],
+        [
+          2020,
+          6.99
+        ],
+        [
+          2021,
+          6.78
+        ],
+        [
+          2022,
+          7.03
+        ]
+      ],
+      "name": "Akutsomatik"
+    },
+    {
+      "index": 1,
+      "color": "#7a3050",
+      "data": [
+        [
+          2012,
+          30.84
+        ],
+        [
+          2013,
+          31.88
+        ],
+        [
+          2014,
+          32.12
+        ],
+        [
+          2015,
+          29.59
+        ],
+        [
+          2016,
+          30.35
+        ],
+        [
+          2017,
+          29.65
+        ],
+        [
+          2018,
+          31.83
+        ],
+        [
+          2019,
+          31.75
+        ],
+        [
+          2020,
+          33.02
+        ],
+        [
+          2021,
+          33.81
+        ],
+        [
+          2022,
+          32.18
+        ]
+      ],
+      "name": "Psychiatrie"
+    },
+    {
+      "index": 1,
+      "color": "#ed3f7a",
+      "data": [
+        [
+          2012,
+          25.99
+        ],
+        [
+          2013,
+          27.63
+        ],
+        [
+          2014,
+          26.22
+        ],
+        [
+          2015,
+          26.77
+        ],
+        [
+          2016,
+          26.1
+        ],
+        [
+          2017,
+          26.03
+        ],
+        [
+          2018,
+          25.69
+        ],
+        [
+          2019,
+          23.44
+        ],
+        [
+          2020,
+          22.57
+        ],
+        [
+          2021,
+          22.94
+        ],
+        [
+          2022,
+          22.94
+        ]
+      ],
+      "name": "Rehabilitation"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11182"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten"
+  },
+  "subtitle": {
+    "text": "in Basler Spitälern im zeitlichen Verlauf",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        }
+    },
+    "tickAmount": 7
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f} Tage\u003C\u002Fb\u003E\u003C\u002Ftd\u003E \u003C\u002Ftr\u003E"
+  },
+  "exporting": {
+    "filename": "11182"
+  }
+}

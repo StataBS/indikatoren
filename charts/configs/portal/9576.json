@@ -5,59 +5,59 @@
       "data": [
         [
           "Verarbeitendes Gewerbe",
-          0.0071428571
+          -0.0272108844
         ],
         [
           "Bau, Energie und Wasser",
-          0.0508474576
+          0.0833333333
         ],
         [
           "Grosshandel",
-          -0.2631578947
+          -0.1981981982
         ],
         [
           "Detailhandel",
-          -0.0939490446
+          -0.1040650407
         ],
         [
           "Verkehr und Lagerei",
-          -0.25
+          -0.1333333333
         ],
         [
           "Information, Kommunikation",
-          0.0523809524
+          0.0331753555
         ],
         [
           "Gastronomie, Hotellerie",
-          0.0235690236
+          -0.0099009901
         ],
         [
           "Finanzen, Versicherung, Immobilien",
-          -0.0906040268
+          -0.0069686411
         ],
         [
           "Unternehmens-DL, Freiberufe",
-          0.0295081967
+          0.0096774194
         ],
         [
           "Sonstige DL",
-          0.0334448161
+          0.0542372881
         ],
         [
           "Öff. Verwaltung, Bildung",
-          -0.0081300813
+          0.0040816327
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.0322108346
+          0.0687679083
         ],
         [
           "Kunst, Unterhaltung, Sport",
-          -0.0144927536
+          -0.0469483568
         ],
         [
           "Schönheitspflege, sonst. pers. DL",
-          -0.0208955224
+          0.0089552239
         ],
         [
           " ",
@@ -65,7 +65,7 @@
         ],
         [
           "Total",
-          -0.0144637294
+          -0.0062125582
         ]
       ],
       "name": "Innenstadt",
@@ -76,59 +76,59 @@
       "data": [
         [
           "Verarbeitendes Gewerbe",
-          -0.0288924559
+          -0.0239616613
         ],
         [
           "Bau, Energie und Wasser",
-          -0.0179487179
+          0.0026490066
         ],
         [
           "Grosshandel",
-          -0.2159090909
+          -0.1359223301
         ],
         [
           "Detailhandel",
-          -0.1006470165
+          -0.096
         ],
         [
           "Verkehr und Lagerei",
-          -0.147766323
+          -0.1489361702
         ],
         [
           "Information, Kommunikation",
-          0.0609195402
+          0.076744186
         ],
         [
           "Gastronomie, Hotellerie",
-          0.0063211125
+          -0.0185873606
         ],
         [
           "Finanzen, Versicherung, Immobilien",
-          -0.0418006431
+          -0.0065288357
         ],
         [
           "Unternehmens-DL, Freiberufe",
-          0.0348652932
+          0.0506926952
         ],
         [
           "Sonstige DL",
-          0.0741784038
+          0.0811808118
         ],
         [
           "Öff. Verwaltung, Bildung",
-          0.0687022901
+          0.122826087
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.0149253731
+          0.0372565622
         ],
         [
           "Kunst, Unterhaltung, Sport",
-          -0.0047244094
+          0.0361155698
         ],
         [
           "Schönheitspflege, sonst. pers. DL",
-          0.0425531915
+          0.0549943883
         ],
         [
           " ",
@@ -136,7 +136,7 @@
         ],
         [
           "Total",
-          -0.001790013
+          0.0186527855
         ]
       ],
       "name": "Stadt Basel",
@@ -223,7 +223,7 @@
     "text": "Arbeitsstättenentwicklung nach Branche"
   },
   "subtitle": {
-    "text": "Innenstadt und Stadt Basel, 2020 gegenüber 2016",
+    "text": "Innenstadt und Stadt Basel, 2021 gegenüber 2017",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "tooltip": {
     "pointFormatter": function(){

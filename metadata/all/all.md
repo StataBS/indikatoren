@@ -1419,8 +1419,8 @@ id | visible | visibleInPortal | indikatorenset
 8114 | true | false | City-Statistics (Print)
 8115 | true | false | City-Statistics (Print)
 8240 | false |  | CMS Kennzahlen Soziales
-8241 | true | true | CMS Kennzahlen Soziales
-8242 | true | true | CMS Kennzahlen Soziales
+8241 | true | false | CMS Kennzahlen Soziales
+8242 | true | false | CMS Kennzahlen Soziales
 8243 | true | true | CMS Kennzahlen Soziales
 8244 | false |  | CMS Kennzahlen Soziales
 8245 | true | true | CMS Kennzahlen Soziales
@@ -1429,7 +1429,7 @@ id | visible | visibleInPortal | indikatorenset
 8248 | false |  | CMS Kennzahlen Soziales
 8249 | true | true | CMS Kennzahlen Soziales
 8250 | true | true | CMS Kennzahlen Soziales
-8251 | true | true | CMS Kennzahlen Soziales
+8251 | true | false | CMS Kennzahlen Soziales
 8252 | true | false | CMS Kennzahlen Soziales
 8253 | true | true | CMS Kennzahlen Soziales
 8254 | true | true | CMS Kennzahlen Soziales
@@ -1439,9 +1439,9 @@ id | visible | visibleInPortal | indikatorenset
 8260 | true | true | CMS Kennzahlen Soziales
 8261 | true | true | CMS Kennzahlen Soziales
 8262 | false |  | CMS Kennzahlen Soziales
-8263 | true | true | CMS Kennzahlen Soziales
-8264 | true | true | CMS Kennzahlen Soziales
-8265 | true | true | CMS Kennzahlen Soziales
+8263 | true | false | CMS Kennzahlen Soziales
+8264 | true | false | CMS Kennzahlen Soziales
+8265 | true | false | CMS Kennzahlen Soziales
 8266 | true | true | CMS Kennzahlen Soziales
 8267 | true | true | CMS Kennzahlen Soziales
 8268 | true | true | CMS Kennzahlen Soziales
@@ -1454,16 +1454,16 @@ id | visible | visibleInPortal | indikatorenset
 8275 | true | false | CMS Kennzahlen Soziales
 8276 | true | false | CMS Kennzahlen Soziales
 8277 | true | true | CMS Kennzahlen Soziales
-8278 | true | true | CMS Kennzahlen Soziales
-8279 | true | true | CMS Kennzahlen Soziales
+8278 | true | false | CMS Kennzahlen Soziales
+8279 | true | false | CMS Kennzahlen Soziales
 8280 | true | true | CMS Kennzahlen Soziales
-8281 | true | true | CMS Kennzahlen Soziales
+8281 | true | false | CMS Kennzahlen Soziales
 8282 | true | true | CMS Kennzahlen Soziales
 8283 | true | false | CMS Kennzahlen Soziales
 8284 | true | false | CMS Kennzahlen Soziales
-8285 | true | true | CMS Kennzahlen Soziales
-8286 | true | true | CMS Kennzahlen Soziales
-8287 | true | true | CMS Kennzahlen Soziales
+8285 | true | false | CMS Kennzahlen Soziales
+8286 | true | false | CMS Kennzahlen Soziales
+8287 | true | false | CMS Kennzahlen Soziales
 8288 | true | true | CMS Kennzahlen Soziales
 8289 | true | true | CMS Kennzahlen Soziales
 8290 | true | true | CMS Kennzahlen Soziales
@@ -1471,7 +1471,7 @@ id | visible | visibleInPortal | indikatorenset
 8292 | true | true | CMS Kennzahlen Soziales
 8293 | true | true | CMS Kennzahlen Soziales
 8294 | true | false | CMS Kennzahlen Soziales
-8314 | true | true | CMS Kennzahlen Soziales
+8314 | true | false | CMS Kennzahlen Soziales
 8315 | true | true | CMS Kennzahlen Soziales
 8316 | true | true | CMS Kennzahlen Soziales
 8317 | true | true | CMS Kennzahlen Soziales
@@ -1480,7 +1480,7 @@ id | visible | visibleInPortal | indikatorenset
 8322 | true | true | CMS Kennzahlen Soziales
 8323 | true | true | CMS Kennzahlen Soziales
 8324 | true | true | CMS Kennzahlen Soziales
-8325 | true | true | CMS Kennzahlen Soziales
+8325 | true | false | CMS Kennzahlen Soziales
 8326 | true | true | CMS Kennzahlen Soziales
 8327 | true | true | CMS Kennzahlen Soziales
 8328 | true | true | CMS Kennzahlen Soziales
@@ -1793,6 +1793,7 @@ id | visible | visibleInPortal | indikatorenset
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
 8812 | true | false | CMS Kennzahlen Soziales (Print)
+8817 | true | true | Basler Atlas
 8842 | false |  | Stadtteilmonitoring Rosental
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
 8845 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
@@ -2204,7 +2205,7 @@ id | visible | visibleInPortal | indikatorenset
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
 9624 | true | true | Energiestatistik
-9625 | true | true | 
+9625 | true | false | 
 9636 | true | false | Energiestatistik (Print)
 9641 | true | false | Energiestatistik (Print)
 9643 | true | false | Energiestatistik (Print)
@@ -2268,13 +2269,45 @@ id | visible | visibleInPortal | indikatorenset
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
 10031 | true | false | CMS Kennzahlen Soziales
+10032 | true | false | CMS Kennzahlen Soziales
+10033 | true | false | CMS Kennzahlen Soziales
+10034 | true | false | CMS Kennzahlen Soziales
+10035 | true | false | CMS Kennzahlen Soziales
 10036 | true | false | CMS Kennzahlen Soziales
-10037 | true | true | CMS Kennzahlen Soziales
-10038 | true | true | CMS Kennzahlen Soziales
+10037 | true | false | CMS Kennzahlen Soziales
+10038 | true | false | CMS Kennzahlen Soziales
+10039 | true | false | CMS Kennzahlen Soziales
 10040 | true | false | CMS Kennzahlen Soziales
+10041 | true | false | CMS Kennzahlen Soziales
 10044 | true | false | CMS Kennzahlen Soziales
 10045 | true | false | CMS Kennzahlen Soziales
-10047 | true | true | CMS Kennzahlen Soziales
+10047 | true | false | CMS Kennzahlen Soziales
+10049 | true | false | CMS Kennzahlen Soziales
+10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen Soziales
+10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
+10265 | true | false | CMS Kennzahlen Soziales
+11165 | true | true | Gesundheitsversorgung
+11166 | true | true | Gesundheitsversorgung
+11167 | true | true | Gesundheitsversorgung
+11168 | true | true | Gesundheitsversorgung
+11169 | true | true | Gesundheitsversorgung
+11170 | true | true | Gesundheitsversorgung
+11171 | true | true | Gesundheitsversorgung
+11172 | true | true | Gesundheitsversorgung
+11173 | true | true | Gesundheitsversorgung
+11174 | true | true | Gesundheitsversorgung
+11175 | true | true | Gesundheitsversorgung
+11176 | true | true | Gesundheitsversorgung
+11177 | true | true | Gesundheitsversorgung
+11178 | true | true | Gesundheitsversorgung
+11179 | true | true | Gesundheitsversorgung
+11182 | true | true | Gesundheitsversorgung
+11183 | true | true | Gesundheitsversorgung
+11184 | true | true | Gesundheitsversorgung
+11185 | true | true | Gesundheitsversorgung
+11788 | true | false | Legislaturplan
+11897 | true | true | Gesundheitsversorgung

@@ -1,7 +1,76 @@
 {
   "series": [
     {
-      "color": "#0F7399",
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.5
+        ],
+        [
+          "Basel-Landschaft",
+          90.9
+        ],
+        [
+          "Jura",
+          93.4
+        ],
+        [
+          "Schweiz",
+          91.1
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Basel-Stadt",
+          87.2
+        ],
+        [
+          "Basel-Landschaft",
+          92.6
+        ],
+        [
+          "Jura",
+          93.7
+        ],
+        [
+          "Schweiz",
+          91.5
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.4
+        ],
+        [
+          "Basel-Landschaft",
+          91.8
+        ],
+        [
+          "Jura",
+          95
+        ],
+        [
+          "Schweiz",
+          91.3
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
       "data": [
         [
           "Basel-Stadt",
@@ -9,15 +78,15 @@
         ],
         [
           "Basel-Landschaft",
-          90
+          90.1
         ],
         [
           "Jura",
-          91.9
+          91.4
         ],
         [
           "Schweiz",
-          90.4
+          90.5
         ]
       ],
       "name": "2018",
@@ -32,41 +101,64 @@
         ],
         [
           "Basel-Landschaft",
-          89.7
+          89.9
         ],
         [
           "Jura",
-          90.8
+          90.7
         ],
         [
           "Schweiz",
-          90.9
+          91.1
         ]
       ],
       "name": "2019",
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
-          84
+          83.9
         ],
         [
           "Basel-Landschaft",
-          89
+          89.1
         ],
         [
           "Jura",
-          87.4
+          87.6
         ],
         [
           "Schweiz",
-          90.2
+          90.4
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.4
+        ],
+        [
+          "Basel-Landschaft",
+          90.3
+        ],
+        [
+          "Jura",
+          87.8
+        ],
+        [
+          "Schweiz",
+          90.7
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -143,7 +235,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung Abschlussquote der Sekundarstufe II"
+    "text": "Entwicklung Abschlussquote auf Sekundarstufe II"
   },
   "subtitle": {
     "text": "",
@@ -201,7 +293,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 1.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

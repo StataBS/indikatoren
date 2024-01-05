@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          57.408109132
+          56.784108
         ],
         [
           2,
-          39.532580709
+          41.337942
         ],
         [
           3,
-          12.465813851
+          12.59542
         ],
         [
           4,
-          4.2205281184
+          4.320361
         ],
         [
           5,
-          16.71496761
+          16.790702
         ],
         [
           6,
-          8.2032283673
+          8.3245355
         ],
         [
           7,
-          4.6999047317
+          4.8839919
         ],
         [
           8,
-          6.8075460661
+          6.3467718
         ],
         [
           9,
-          6.3406062381
+          6.6391874
         ],
         [
           10,
-          4.1287367123
+          4.2109639
         ],
         [
           11,
-          6.2636717708
+          6.3987701
         ],
         [
           12,
-          21.582435791
+          22.32105
         ],
         [
           13,
-          9.7735105859
+          9.3023256
         ],
         [
           14,
-          7.2579248224
+          7.5212784
         ],
         [
           15,
-          3.2684657564
+          3.2309832
         ],
         [
           16,
-          4.6298718284
+          5.1170745
         ],
         [
           17,
-          6.464269634
+          6.8410069
         ],
         [
           18,
-          5.611814346
+          6.1708861
         ],
         [
           19,
-          9.6475614098
+          9.930884
         ],
         [
           20,
-          4.4375835215
+          4.5994879
         ],
         [
           30,
-          4.641350211
+          4.6623794
         ]
       ]
     },
@@ -6662,83 +6662,83 @@
         ],
         [
           "Vorstädte",
-          1996
+          2033
         ],
         [
           "Am Ring",
-          1413
+          1419
         ],
         [
           "Breite",
-          382
+          383
         ],
         [
           "St. Alban",
-          1961
+          2008
         ],
         [
           "Gundeldingen",
-          1550
+          1577
         ],
         [
           "Bruderholz",
-          444
+          461
         ],
         [
           "Bachletten",
-          931
+          869
         ],
         [
           "Gotthelf",
-          433
+          451
         ],
         [
           "Iselin",
-          703
+          709
         ],
         [
           "St. Johann",
-          1174
+          1207
         ],
         [
           "Altstadt Kleinbasel",
-          521
+          527
         ],
         [
           "Clara",
-          397
+          404
         ],
         [
           "Wettstein",
-          419
+          433
         ],
         [
           "Hirzbrunnen",
-          304
+          302
         ],
         [
           "Rosental",
-          354
+          389
         ],
         [
           "Matthäus",
-          1005
+          1049
         ],
         [
           "Klybeck",
-          399
+          429
         ],
         [
           "Kleinhüningen",
-          271
+          273
         ],
         [
           "Riehen",
-          963
+          1006
         ],
         [
           "Bettingen",
-          55
+          58
         ]
       ],
       "name": "Anzahl Arbeitsstätten"
@@ -7296,7 +7296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "credits": {
@@ -7312,7 +7312,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.10.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "colorAxis": {
     "min": 0,

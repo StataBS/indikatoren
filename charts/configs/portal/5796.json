@@ -96,6 +96,10 @@
         [
           "2021",
           158.2
+        ],
+        [
+          "2022",
+          151.9
         ]
       ],
       "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
@@ -197,6 +201,10 @@
         [
           "2021",
           125.4
+        ],
+        [
+          "2022",
+          117.6
         ]
       ],
       "name": "Wertstoffsammlungen",
@@ -272,35 +280,39 @@
         ],
         [
           "2014",
-          43.5
+          43.4
         ],
         [
           "2015",
-          44
+          42.5
         ],
         [
           "2016",
-          44.9
+          42.9
         ],
         [
           "2017",
-          42.3
+          42.4
         ],
         [
           "2018",
-          40.1
+          40.3
         ],
         [
           "2019",
-          41.1
+          41.8
         ],
         [
           "2020",
-          41.1
+          41.5
         ],
         [
           "2021",
-          40.9
+          41.3
+        ],
+        [
+          "2022",
+          40.3
         ]
       ],
       "name": "Recyclingquote (rechte Skala)",
@@ -384,7 +396,7 @@
     "text": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote"
   },
   "subtitle": {
-    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
+    "text": "in kg pro Kopf resp. Prozent, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -450,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2022"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2024"
   },
   "exporting": {
     "filename": "5796"

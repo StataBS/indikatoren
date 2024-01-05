@@ -836,7 +836,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil Personen mit depressiven Symptomen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"lesehilfe": "Im Jahr 2017 litten gemäss Schweizerischer Gesundheitsbefragung 8,1% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
 		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -852,16 +852,16 @@ var indikatorensetData = [
 		"kuerzel": "I.14.4.08535",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"kuerzelKunde": "1-34",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
+		"stufe1": "Leben",
+		"stufe2": "1.3 Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_04_00_00_00_134",
+		"orderKey": "01_03_00_00_00_134",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:56",
+		"aktualisierungsdatum": "2023-12-20T09:16:01",
 		"id": 8535
 	},
 	{

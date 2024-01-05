@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#73B97C",
       "data": [
         [
           "BS",
@@ -55,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#007A2F",
       "data": [
         [
           "BS",
@@ -82,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#A8C3CA",
       "data": [
         [
           "BS",
@@ -109,7 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#71A3B5",
       "data": [
         [
           "BS",
@@ -163,7 +163,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "BS",
@@ -187,6 +187,33 @@
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "BS",
+          7.71
+        ],
+        [
+          "BL",
+          6.16
+        ],
+        [
+          "JU",
+          6.45
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.84
+        ],
+        [
+          "CH",
+          7.49
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -311,7 +338,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

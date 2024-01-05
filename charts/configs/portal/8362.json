@@ -5,11 +5,11 @@
       "data": [
         [
           "Basel-Stadt",
-          34620
+          34679
         ],
         [
           "Basel-Landschaft",
-          24413
+          24631
         ],
         [
           "Jura",
@@ -24,7 +24,7 @@
           null
         ]
       ],
-      "name": "2023Q2",
+      "name": "2023Q3",
       "turboThreshold": 0
     },
     {
@@ -45,14 +45,14 @@
         ],
         [
           "BS\u002FBL\u002FJU (rechte Skala)",
-          70156
+          70942
         ],
         [
           "Schweiz (rechte Skala)",
-          390878
+          391135
         ]
       ],
-      "name": "2023Q2",
+      "name": "2023Q3",
       "turboThreshold": 0
     }
   ],
@@ -149,7 +149,7 @@
     "text": "Grenzgänger"
   },
   "subtitle": {
-    "text": "2023, 2. Quartal",
+    "text": "2023, 3. Quartal",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -220,7 +220,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
   },
   "colors": [
     "#474747",

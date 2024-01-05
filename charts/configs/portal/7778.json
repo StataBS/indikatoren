@@ -59,6 +59,10 @@
         [
           2021,
           13651062
+        ],
+        [
+          2022,
+          12860489
         ]
       ],
       "name": "Schiene Ausgang"
@@ -122,6 +126,10 @@
         [
           2021,
           15789480
+        ],
+        [
+          2022,
+          15242276
         ]
       ],
       "name": "Schiene Eingang"
@@ -185,6 +193,10 @@
         [
           2021,
           1774496
+        ],
+        [
+          2022,
+          1738224
         ]
       ],
       "name": "Strasse Ausgang"
@@ -248,6 +260,10 @@
         [
           2021,
           1259828
+        ],
+        [
+          2022,
+          1343426
         ]
       ],
       "name": "Strasse Eingang"
@@ -311,6 +327,10 @@
         [
           2021,
           481739
+        ],
+        [
+          2022,
+          4312976
         ]
       ],
       "name": "Pipeline Eingang"
@@ -436,7 +456,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2023"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

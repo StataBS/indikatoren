@@ -1,0 +1,285 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "x": 1.11,
+          "name": "Adullam Spital",
+          "name_short": "Adullam",
+          "y": 1.58
+        },
+        {
+          "x": 0.2,
+          "name": "Bethesda Spital",
+          "name_short": "Bethesda",
+          "y": 0.68
+        },
+        {
+          "x": 1.85,
+          "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
+          "y": 1.54
+        },
+        {
+          "x": 0.04,
+          "name": "Matthea Geburtshaus",
+          "name_short": "Matthea",
+          "y": 0.35
+        },
+        {
+          "x": 0.19,
+          "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
+          "y": 1.04
+        },
+        {
+          "x": 1.81,
+          "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
+          "y": 2.37
+        },
+        {
+          "x": 0.38,
+          "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
+          "y": 1.56
+        },
+        {
+          "x": 0.96,
+          "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
+          "y": 1.04
+        },
+        {
+          "x": 0.38,
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
+          "y": 1.22
+        },
+        {
+          "x": 1.16,
+          "name": "Universitätsspital Basel",
+          "name_short": "USB",
+          "y": 1.31
+        },
+        {
+          "x": 0.93,
+          "name": "Alle Spitäler",
+          "name_short": "Alle",
+          "y": 1.26
+        }
+      ],
+      "name": "Spitalname lang"
+    }
+  ],
+  "chart": {
+    "type": "scatter",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          this.series[0].points[10].update({
+            marker: {
+              symbol: 'square',
+              radius: 6,
+              enabled: true,
+              states: {
+                hover: {
+                  enabled: true,
+                  symbol: 'square',
+                }
+              },
+              fillColor: 'black',
+              // lineColor: 'black',
+            }
+          });
+
+        }
+    },
+    "renderTo": "container-11185"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "color": "#5284BB",
+      "dataLabels": {
+        "enabled": true,
+        "align": "left",
+        "verticalAlign": "top",
+        "allowOverlap": true,
+        "crop": false,
+        "format": "{point.name_short}",
+        "style": {
+          "fontWeight": "normal",
+          "fontSize": "7pt",
+          "color": "black",
+          "textOverflow": "clip",
+          "textOutline": "none"
+        }
+      }
+    },
+    "scatter": {
+      "marker": {
+        "radius": 5,
+        "enabled": true,
+        "symbol": "circle",
+        "states": {
+          "hover": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Schweregrad und Komplexität "
+  },
+  "subtitle": {
+    "text": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2022",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "black"
+      },
+      "text": "PCCL"
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1);
+        }
+    },
+    "startOnTick": true,
+    "endOnTick": true,
+    "showLastLabel": true,
+    "gridLineWidth": 1,
+    "tickAmount": 6,
+    "min": 0,
+    "style": {
+      "color": "black"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": null
+      },
+      "text": "CMI"
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1);
+        }
+    },
+    "tickAmount": 7
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "useHTML": true,
+    "formatter": function () {
+        return '<b>' + this.point.name + '</b> <br/><br/> CMI: ' + Highcharts.numberFormat(this.y, 2) + '<br/> PCCL: ' + Highcharts.numberFormat(this.x, 2);
+      }
+  },
+  "exporting": {
+    "filename": "11185"
+  }
+}

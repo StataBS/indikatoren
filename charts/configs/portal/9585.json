@@ -50,6 +50,10 @@
         [
           2019,
           5005036
+        ],
+        [
+          2020,
+          4788965
         ]
       ],
       "name": "Zugezogene Innenstadt"
@@ -105,6 +109,10 @@
         [
           2019,
           3451660
+        ],
+        [
+          2020,
+          4279799
         ]
       ],
       "name": "Weggezogene Innenstadt (Steuerertrag des Vorjahres)"
@@ -159,6 +167,10 @@
         [
           2019,
           49240280
+        ],
+        [
+          2020,
+          46174940
         ]
       ],
       "name": "Zugezogene Kanton BS"
@@ -214,6 +226,10 @@
         [
           2019,
           43049166
+        ],
+        [
+          2020,
+          41758053
         ]
       ],
       "name": "Weggezogene Kanton BS (Steuerertrag des Vorjahres)"
@@ -275,7 +291,7 @@
     "text": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen"
   },
   "subtitle": {
-    "text": "in CHF, Basel-Stadt und Innenstadt",
+    "text": "in Franken, Basel-Stadt und Innenstadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -345,7 +361,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

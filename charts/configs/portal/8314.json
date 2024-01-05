@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#D3E2E4",
       "data": [
         [
           "Bruderholz",
@@ -12,24 +12,20 @@
           2.72347475718244
         ],
         [
-          "Vorstädte",
-          1.72102573921968
+          "Altstadt Grossbasel",
+          2.25468696224269
         ],
         [
           "St. Alban",
           2.26453232175328
         ],
         [
-          "Altstadt Grossbasel",
-          2.25468696224269
-        ],
-        [
           "Wettstein",
           1.58684341362328
         ],
         [
-          "Gotthelf",
-          1.09709510144547
+          "Vorst",
+          1.72102573921968
         ],
         [
           "Am Ring",
@@ -40,16 +36,20 @@
           0.981682318542112
         ],
         [
+          "Gotthelf",
+          1.09709510144547
+        ],
+        [
           "Breite",
           -0.120514060805273
         ],
         [
-          "Altstadt Kleinbasel",
-          -0.305581318791996
-        ],
-        [
           "Gundeldingen",
           -0.561039071436577
+        ],
+        [
+          "Altstadt Kleinbasel",
+          -0.305581318791996
         ],
         [
           "Iselin",
@@ -60,19 +60,19 @@
           -1.47049509156454
         ],
         [
-          "Clara",
-          -1.74110291927862
-        ],
-        [
           "Rosental",
           -2.61147506603104
         ],
         [
-          "Matthäus",
+          "Clara",
+          -1.74110291927862
+        ],
+        [
+          "Matth",
           -2.97293250198946
         ],
         [
-          "Kleinhüningen",
+          "Kleinh",
           -3.28886779227002
         ],
         [
@@ -84,7 +84,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#A8C3CA",
       "data": [
         [
           "Bruderholz",
@@ -95,24 +95,20 @@
           2.5976981315489
         ],
         [
-          "Vorstädte",
-          2.0202281844195
+          "Altstadt Grossbasel",
+          2.47857904047131
         ],
         [
           "St. Alban",
           2.27580928508862
         ],
         [
-          "Altstadt Grossbasel",
-          2.47857904047131
-        ],
-        [
           "Wettstein",
           1.11849794884004
         ],
         [
-          "Gotthelf",
-          1.37276171787845
+          "Vorst",
+          2.0202281844195
         ],
         [
           "Am Ring",
@@ -123,16 +119,20 @@
           0.827905952843371
         ],
         [
+          "Gotthelf",
+          1.37276171787845
+        ],
+        [
           "Breite",
           -0.248269488417709
         ],
         [
-          "Altstadt Kleinbasel",
-          -0.296398692634423
-        ],
-        [
           "Gundeldingen",
           -0.338536069166711
+        ],
+        [
+          "Altstadt Kleinbasel",
+          -0.296398692634423
         ],
         [
           "Iselin",
@@ -143,19 +143,19 @@
           -1.63795671362956
         ],
         [
-          "Clara",
-          -1.60017070998617
-        ],
-        [
           "Rosental",
           -2.7026918012894
         ],
         [
-          "Matthäus",
+          "Clara",
+          -1.60017070998617
+        ],
+        [
+          "Matth",
           -2.61910422957918
         ],
         [
-          "Kleinhüningen",
+          "Kleinh",
           -3.08065841879899
         ],
         [
@@ -167,7 +167,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#083038",
+      "color": "#246370",
       "data": [
         [
           "Bruderholz",
@@ -178,24 +178,20 @@
           3.31437973169638
         ],
         [
-          "Vorstädte",
-          2.939944611327
+          "Altstadt Grossbasel",
+          2.8141666335684
         ],
         [
           "St. Alban",
           2.90498032013121
         ],
         [
-          "Altstadt Grossbasel",
-          2.8141666335684
-        ],
-        [
           "Wettstein",
           1.85796472922266
         ],
         [
-          "Gotthelf",
-          1.73499577546489
+          "Vorst",
+          2.939944611327
         ],
         [
           "Am Ring",
@@ -206,16 +202,20 @@
           0.910599458095407
         ],
         [
+          "Gotthelf",
+          1.73499577546489
+        ],
+        [
           "Breite",
           -0.359396881249451
         ],
         [
-          "Altstadt Kleinbasel",
-          -0.363378383292552
-        ],
-        [
           "Gundeldingen",
           -0.642785481145227
+        ],
+        [
+          "Altstadt Kleinbasel",
+          -0.363378383292552
         ],
         [
           "Iselin",
@@ -226,19 +226,19 @@
           -2.01866144802882
         ],
         [
-          "Clara",
-          -2.30381892688855
-        ],
-        [
           "Rosental",
           -3.22586686932791
         ],
         [
-          "Matthäus",
+          "Clara",
+          -2.30381892688855
+        ],
+        [
+          "Matth",
           -3.30382929430559
         ],
         [
-          "Kleinhüningen",
+          "Kleinh",
           -3.45736568863981
         ],
         [
@@ -247,6 +247,89 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#083038",
+      "data": [
+        [
+          "Bruderholz",
+          4.23683718257049
+        ],
+        [
+          "Bachletten",
+          3.3676455874561
+        ],
+        [
+          "Altstadt Grossbasel",
+          2.86549319221312
+        ],
+        [
+          "St. Alban",
+          2.74282956661261
+        ],
+        [
+          "Wettstein",
+          2.26093658486505
+        ],
+        [
+          "Vorst",
+          2.16534296923421
+        ],
+        [
+          "Am Ring",
+          1.51767753010768
+        ],
+        [
+          "Hirzbrunnen",
+          1.19342941380897
+        ],
+        [
+          "Gotthelf",
+          0.927386038558967
+        ],
+        [
+          "Breite",
+          -0.133921019153159
+        ],
+        [
+          "Gundeldingen",
+          -0.218784898279027
+        ],
+        [
+          "Altstadt Kleinbasel",
+          -0.750221043253816
+        ],
+        [
+          "Iselin",
+          -1.62569541107438
+        ],
+        [
+          "St. Johann",
+          -1.93083123441104
+        ],
+        [
+          "Rosental",
+          -2.37999873711232
+        ],
+        [
+          "Clara",
+          -2.70128818804116
+        ],
+        [
+          "Matth",
+          -2.88935190242215
+        ],
+        [
+          "Kleinh",
+          -4.09302824276407
+        ],
+        [
+          "Klybeck",
+          -4.55445738891609
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -387,7 +470,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
@@ -395,6 +478,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8314
+    "filename": "8314"
   }
 }

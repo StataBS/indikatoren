@@ -399,7 +399,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2021 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -424,7 +424,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:55",
+		"aktualisierungsdatum": "2023-12-05T08:34:30",
 		"id": 5161
 	},
 	{
@@ -438,7 +438,7 @@ var indikatorensetData = [
 		],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2021 beträgt deren Ertrag 588 Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen beläuft sich 2021 auf über 2,0 Mrd. Franken.",
+		"lesehilfe": "Der Ertrag aus direkten Steuern natürlicher Personen ist relativ gleichmässig gestiegen und beträgt im Jahr 2022 rund 2,1 Mrd. Franken. Der Steuerertrag der juristischen Personen beläuft sich auf 602  Mio. Franken; der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -463,7 +463,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:41",
+		"aktualisierungsdatum": "2023-11-27T09:43:43",
 		"id": 5162
 	},
 	{
@@ -1113,7 +1113,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Das Total der Bauausgaben ist 2021 leicht gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben ein wenig höher als im Vorjahr. Er liegt wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"lesehilfe": "Das Total der Bauausgaben ist 2022 gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben mit 57,5% höher als im Vorjahr (50,3%). Er liegt somit wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
 		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -1134,11 +1134,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_09_00_00_00_323",
+		"orderKey": "03_07_00_00_00_322",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:51",
+		"aktualisierungsdatum": "2023-11-27T09:43:42",
 		"id": 5199
 	},
 	{
@@ -1269,8 +1269,8 @@ var indikatorensetData = [
 		"parentId": "6163",
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2021 von 194 auf 158 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,9%.",
+		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -1285,17 +1285,17 @@ var indikatorensetData = [
 		"unterthema": "Entsorgung",
 		"kuerzel": "I.02.6.05796",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL4",
+		"kuerzelKunde": "NL5",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_404",
+		"orderKey": "04_01_00_00_00_405",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-07T07:52:36",
+		"aktualisierungsdatum": "2024-01-04T09:42:57",
 		"id": 5796
 	},
 	{
@@ -1382,11 +1382,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8920
+			8920,
+			10050
 		],
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2021 in Basel-Stadt bei rund 53%, gemessen an der Tagesunterwegszeit bei etwa 50%. Die zu Fuss zurückgelegten Strecken machen 11% der gesamten Tagesdistanz aus. Rund 46% der täglich zurückgelegten Distanz werden mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
 		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
@@ -1411,7 +1412,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:50",
+		"aktualisierungsdatum": "2023-11-24T09:00:28",
 		"id": 6028
 	},
 	{
@@ -1539,11 +1540,14 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8924
+			8924,
+			11788,
+			11898,
+			11903
 		],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1570,7 +1574,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:18",
+		"aktualisierungsdatum": "2024-01-04T09:42:55",
 		"id": 6033
 	},
 	{
@@ -1743,7 +1747,7 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2021/22, Basel-Stadt",
+		"subtitle": "im Schuljahr 2022/23, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -1759,17 +1763,17 @@ var indikatorensetData = [
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.6039",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW14",
+		"kuerzelKunde": "GW13",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_315",
+		"orderKey": "03_04_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:33",
+		"aktualisierungsdatum": "2023-11-27T09:43:41",
 		"id": 6039
 	},
 	{
@@ -2052,8 +2056,8 @@ var indikatorensetData = [
 		],
 		"title": "Aufwendungen für Forschung und Entwicklung",
 		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
-		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2019 6,1% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen.",
-		"erlaeuterungen": "Die Grossregionen umfassen: Nordwestschweiz: Kantone Basel-Stadt, Basel-Landschaft und Aargau; Genferseeregion: Kantone Waadt, Wallis und Genf; Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die Angaben für 2019 basieren auf provisorischen BIP-Daten. Die Werte können rückwirkend ändern wenn Unternehmen ihre Antworten für vergangene Erhebungen berichtigen.",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2021 6,9% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen.",
+		"erlaeuterungen": "Die Grossregionen umfassen: Nordwestschweiz: Kantone Basel-Stadt, Basel-Landschaft und Aargau; Genferseeregion: Kantone Waadt, Wallis und Genf; Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die Angaben für 2021 basieren auf provisorischen BIP-Daten. Die Werte können rückwirkend ändern, wenn Unternehmen ihre Antworten für vergangene Erhebungen berichtigen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E)"
 		],
@@ -2067,17 +2071,17 @@ var indikatorensetData = [
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.06049",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE4",
+		"kuerzelKunde": "WE5",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_01_00_00_00_604",
+		"orderKey": "06_01_00_00_00_605",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-16T09:07:06",
+		"aktualisierungsdatum": "2023-11-27T09:43:45",
 		"id": 6049
 	},
 	{
@@ -2262,17 +2266,17 @@ var indikatorensetData = [
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.06054",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "WE10",
+		"kuerzelKunde": "WE13",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeit",
+		"stufe2": "Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_610",
+		"orderKey": "06_02_00_00_00_613",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:42",
+		"aktualisierungsdatum": "2023-12-05T08:34:31",
 		"id": 6054
 	},
 	{
@@ -2757,7 +2761,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Ausser beim Velovekehr liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -2782,44 +2786,49 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:44",
+		"aktualisierungsdatum": "2024-01-04T09:42:53",
 		"id": 8454
 	},
 	{
-		"template": "map002",
-		"data-id": 7701,
-		"chart-id": 7701,
+		"template": "line001",
+		"data-id": 8455,
+		"chart-id": 9390,
 		"filter": "",
-		"parentId": "7701",
+		"parentId": "9390",
 		"children": [],
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
+		"title": "Tropennächte",
+		"subtitle": "Anzahl Nächte, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 18 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 5 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
+			"Universität Basel",
+			"Lufthygieneamt beider Basel",
+			"Meteorologischer Verein der Region Basel",
+			"MeteoSchweiz"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
-		"description": "Anzahl Tropennächte",
+		"description": "Tropennächte",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.08455",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL10",
+		"kuerzelKunde": "NL13",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_411",
-		"darstellungsart": "Karte",
+		"orderKey": "04_02_00_00_00_413",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:45",
+		"aktualisierungsdatum": "2023-11-27T09:43:43",
 		"id": 8455
 	},
 	{

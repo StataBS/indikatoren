@@ -1,0 +1,470 @@
+{
+  "series": [
+    {
+      "index": 2,
+      "color": "#990300",
+      "legendIndex": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2000",
+          193.6
+        ],
+        [
+          "2001",
+          190.2
+        ],
+        [
+          "2002",
+          192.3
+        ],
+        [
+          "2003",
+          183.7
+        ],
+        [
+          "2004",
+          184.1
+        ],
+        [
+          "2005",
+          180.2
+        ],
+        [
+          "2006",
+          178.8
+        ],
+        [
+          "2007",
+          177.2
+        ],
+        [
+          "2008",
+          171.7
+        ],
+        [
+          "2009",
+          186.1
+        ],
+        [
+          "2010",
+          176.8
+        ],
+        [
+          "2011",
+          164.8
+        ],
+        [
+          "2012",
+          168.5
+        ],
+        [
+          "2013",
+          163.5
+        ],
+        [
+          "2014",
+          165.5
+        ],
+        [
+          "2015",
+          168.5
+        ],
+        [
+          "2016",
+          161.5
+        ],
+        [
+          "2017",
+          158.5
+        ],
+        [
+          "2018",
+          163.2
+        ],
+        [
+          "2019",
+          155.9
+        ],
+        [
+          "2020",
+          158.9
+        ],
+        [
+          "2021",
+          158.2
+        ],
+        [
+          "2022",
+          151.9
+        ]
+      ],
+      "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "color": "#71A3B5",
+      "legendIndex": 2,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2000",
+          139.7
+        ],
+        [
+          "2001",
+          137.1
+        ],
+        [
+          "2002",
+          134.3
+        ],
+        [
+          "2003",
+          133.3
+        ],
+        [
+          "2004",
+          137.1
+        ],
+        [
+          "2005",
+          143.4
+        ],
+        [
+          "2006",
+          145.2
+        ],
+        [
+          "2007",
+          146
+        ],
+        [
+          "2008",
+          156
+        ],
+        [
+          "2009",
+          150.2
+        ],
+        [
+          "2010",
+          149.2
+        ],
+        [
+          "2011",
+          145.5
+        ],
+        [
+          "2012",
+          153.2
+        ],
+        [
+          "2013",
+          144.4
+        ],
+        [
+          "2014",
+          143.5
+        ],
+        [
+          "2015",
+          140.5
+        ],
+        [
+          "2016",
+          137.5
+        ],
+        [
+          "2017",
+          131.5
+        ],
+        [
+          "2018",
+          124.4
+        ],
+        [
+          "2019",
+          126.3
+        ],
+        [
+          "2020",
+          126.1
+        ],
+        [
+          "2021",
+          125.4
+        ],
+        [
+          "2022",
+          117.6
+        ]
+      ],
+      "name": "Wertstoffsammlungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "legendIndex": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2000",
+          40.6
+        ],
+        [
+          "2001",
+          40.6
+        ],
+        [
+          "2002",
+          39.5
+        ],
+        [
+          "2003",
+          40.4
+        ],
+        [
+          "2004",
+          40.8
+        ],
+        [
+          "2005",
+          42.2
+        ],
+        [
+          "2006",
+          42.4
+        ],
+        [
+          "2007",
+          42.6
+        ],
+        [
+          "2008",
+          45.2
+        ],
+        [
+          "2009",
+          42
+        ],
+        [
+          "2010",
+          42.9
+        ],
+        [
+          "2011",
+          43.9
+        ],
+        [
+          "2012",
+          44.7
+        ],
+        [
+          "2013",
+          44
+        ],
+        [
+          "2014",
+          43.4
+        ],
+        [
+          "2015",
+          42.5
+        ],
+        [
+          "2016",
+          42.9
+        ],
+        [
+          "2017",
+          42.4
+        ],
+        [
+          "2018",
+          40.3
+        ],
+        [
+          "2019",
+          41.8
+        ],
+        [
+          "2020",
+          41.5
+        ],
+        [
+          "2021",
+          41.3
+        ],
+        [
+          "2022",
+          40.3
+        ]
+      ],
+      "name": "Recyclingquote (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 2
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-10052",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 10,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote"
+  },
+  "subtitle": {
+    "text": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f} kg",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemWidth": 500,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2024"
+  },
+  "exporting": {
+    "filename": "10052"
+  }
+}

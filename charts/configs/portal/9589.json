@@ -5,50 +5,50 @@
       "data": [
         [
           "Waren verschiedener Art",
-          0.0625
+          -0.027027027
         ],
         [
           "Nahrungs-, Genussmitel, Tabak",
-          -0.1538461538
+          -0.0491803279
         ],
         [
           "Informatik und Elektronik",
-          -0.25
+          -0.0625
         ],
         [
           "Haushaltsgeräte, Textilien, Möbel",
-          -0.1272727273
+          -0.037037037
         ],
         [
           "Verlagsprod., Sport- und Spielwaren",
-          -0.1212121212
+          -0.1764705882
         ],
         [
           "Bekleidung, Lederwaren",
-          -0.164893617
+          -0.1797752809
         ],
         [
           "Apotheken, Körperpflege",
-          0.1086956522
+          -0.0408163265
         ],
         [
           "Uhren, Schmuck",
-          0.1388888889
+          -0.0975609756
         ],
         [
           "Antiquitäten, Gebrauchtwaren",
-          -0.1904761905
+          -0.1578947368
         ],
         [
           "Sonstiger Detailhandel",
-          -0.0606060606
+          -0.0434782609
         ],
         [
           "Total Detailhandel",
-          -0.0939490446
+          -0.1040650407
         ]
       ],
-      "name": "Veränderung zwischen 2016 und 2020",
+      "name": "Veränderung zwischen 2017 und 2021",
       "turboThreshold": 0
     }
   ],
@@ -135,7 +135,7 @@
     "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Innenstadt Basel, 2020 gegenüber 2016",
+    "text": "Innenstadt Basel, 2021 gegenüber 2017",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -193,7 +193,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "tooltip": {
     "pointFormatter": function () {

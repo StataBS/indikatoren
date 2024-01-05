@@ -308,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
   },
   "tooltip": {
     "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

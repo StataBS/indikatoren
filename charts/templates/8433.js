@@ -3,7 +3,7 @@
    plotOptions: {
         series: {
             pointPadding: 0,
-            borderWidth: 0,
+           // borderWidth: 0,
             groupPadding: 0.1
 			//itemWidth: 10, 
 
@@ -12,7 +12,11 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": 0,
+      style: {
+        textOverflow: 'none',
+        'whiteSpace':'nowrap',
+    },
     } 
   },
   "yAxis": {
@@ -46,6 +50,7 @@
   },
   "chart": {      
     "type": "column",
+    spacingBottom: 50,
     //"inverted": true,
     //"spacingTop": 100
   }

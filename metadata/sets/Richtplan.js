@@ -567,8 +567,8 @@ var indikatorensetData = [
 		],
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"lesehilfe": "Durch die Reiseeinschränkungen, die 2020 als Massnahmen zur Bekämpfung der COVID-19-Pandemie ergriffen wurden, hat sich die kontinentale Erreichbarkeit der Schweizer Städte, sowie der europäischen Regionen allgemein, markant verschlechtert. Der Erreichbarkeitsindex ist 2020 gegenüber 2018 stark zurückgegangen (in Basel z. B. von 133 auf 107) und ist tiefer als vor 20 Jahren. Am stärksten war die Auswirkung der Einschränkungen im Flugverkehr.",
-		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Schweizer Städte hat sich 2021 gegenüber dem Vorjahr verbessert. Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit der europäischen Regionen im Jahr 2020 markant gesunken. Der Erreichbarkeitsindex 2021 (z. B. Basel: 121,6) ist höher als 2020 (106,8), aber immer noch tiefer als 2018 (133,3) und als im Jahr 2000 (126,6). Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 kurzfristig zu beobachten, wurde die Erreichbarkeit ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -595,7 +595,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-07T08:26:26",
+		"aktualisierungsdatum": "2023-11-27T09:43:44",
 		"id": 5891
 	},
 	{
@@ -605,12 +605,11 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			6257,
-			9676
+			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2020 von 192 076 auf 201 971 gestiegen, was einem Anstieg von etwa 5,2% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 3,1% von 183 183 auf 188 778.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2021 von 192 076 auf 201 805 gestiegen, was einem Anstieg von etwa 5,1% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um etwa 5,4% von 183 183 auf 193 002.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -636,7 +635,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-12T01:26:55",
+		"aktualisierungsdatum": "2023-12-20T09:16:23",
 		"id": 5901
 	},
 	{
@@ -648,7 +647,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Ausser beim Velovekehr liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -673,7 +672,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-09T09:06:07",
+		"aktualisierungsdatum": "2024-01-04T09:42:59",
 		"id": 6007
 	},
 	{
@@ -890,7 +889,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2020 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2020 gibt es knapp 8 400 Privathaushalte in Begegnungszonen. Insgesamt gibt es in der Stadt Basel rund 89 000 Privathaushalte.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -916,7 +915,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:59",
+		"aktualisierungsdatum": "2023-12-05T08:34:31",
 		"id": 6220
 	},
 	{
@@ -1139,7 +1138,7 @@ var indikatorensetData = [
 		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. 2022 gab es beim Eingang wieder einen leichten Anstieg auf rund 1,3 Mio. Tonnen.",
 		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -1164,7 +1163,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-25T09:53:07",
+		"aktualisierungsdatum": "2023-12-20T09:16:22",
 		"id": 7778
 	},
 	{
@@ -1219,7 +1218,7 @@ var indikatorensetData = [
 		],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2023 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2023 bei 134,1 Punkten (Basis 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -1244,7 +1243,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-16T08:19:34",
+		"aktualisierungsdatum": "2023-12-20T09:16:23",
 		"id": 7782
 	},
 	{

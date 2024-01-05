@@ -214,7 +214,7 @@
               enabled: true,
               y: 0,
               x: -350,
-              format: 'Referenzwert: {y:,.1f} (Wert 2019)',
+              format: 'Referenzwert: {y:,.1f} (Indexwert 2019)',
               style: {
                 textOutline: false,
                 color: "#999999",
@@ -353,7 +353,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
   },
   "tooltip": {
     "valueDecimals": 1,
