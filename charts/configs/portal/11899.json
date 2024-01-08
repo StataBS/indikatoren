@@ -1,0 +1,828 @@
+{
+  "series": [
+    {
+      "color": "black",
+      "data": [
+        [
+          2010,
+          184950
+        ],
+        [
+          2011,
+          186255
+        ],
+        [
+          2012,
+          187425
+        ],
+        [
+          2013,
+          189335
+        ],
+        [
+          2014,
+          190580
+        ],
+        [
+          2015,
+          191817
+        ],
+        [
+          2016,
+          193070
+        ],
+        [
+          2017,
+          193908
+        ],
+        [
+          2018,
+          194766
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
+        ],
+        [
+          2038,
+          null
+        ],
+        [
+          2039,
+          null
+        ],
+        [
+          2040,
+          null
+        ],
+        [
+          2041,
+          null
+        ],
+        [
+          2042,
+          null
+        ],
+        [
+          2043,
+          null
+        ],
+        [
+          2044,
+          null
+        ],
+        [
+          2045,
+          null
+        ],
+        [
+          2046,
+          null
+        ],
+        [
+          2047,
+          null
+        ],
+        [
+          2048,
+          null
+        ],
+        [
+          2049,
+          null
+        ],
+        [
+          2050,
+          null
+        ]
+      ],
+      "name": "Effektiv"
+    },
+    {
+      "color": "#b00000 ",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          194766
+        ],
+        [
+          2020,
+          195665
+        ],
+        [
+          2021,
+          196622
+        ],
+        [
+          2022,
+          197619
+        ],
+        [
+          2023,
+          198653
+        ],
+        [
+          2024,
+          199720
+        ],
+        [
+          2025,
+          200812
+        ],
+        [
+          2026,
+          201929
+        ],
+        [
+          2027,
+          203076
+        ],
+        [
+          2028,
+          204241
+        ],
+        [
+          2029,
+          205430
+        ],
+        [
+          2030,
+          206633
+        ],
+        [
+          2031,
+          207845
+        ],
+        [
+          2032,
+          208968
+        ],
+        [
+          2033,
+          210000
+        ],
+        [
+          2034,
+          210935
+        ],
+        [
+          2035,
+          211762
+        ],
+        [
+          2036,
+          212480
+        ],
+        [
+          2037,
+          213091
+        ],
+        [
+          2038,
+          213591
+        ],
+        [
+          2039,
+          213971
+        ],
+        [
+          2040,
+          214243
+        ],
+        [
+          2041,
+          214400
+        ],
+        [
+          2042,
+          214540
+        ],
+        [
+          2043,
+          214657
+        ],
+        [
+          2044,
+          214749
+        ],
+        [
+          2045,
+          214834
+        ],
+        [
+          2046,
+          214899
+        ],
+        [
+          2047,
+          214953
+        ],
+        [
+          2048,
+          214993
+        ],
+        [
+          2049,
+          215018
+        ],
+        [
+          2050,
+          215027
+        ]
+      ],
+      "name": "Referenzszenario"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          194766
+        ],
+        [
+          2020,
+          195931
+        ],
+        [
+          2021,
+          197161
+        ],
+        [
+          2022,
+          198447
+        ],
+        [
+          2023,
+          199786
+        ],
+        [
+          2024,
+          201160
+        ],
+        [
+          2025,
+          202594
+        ],
+        [
+          2026,
+          204067
+        ],
+        [
+          2027,
+          205592
+        ],
+        [
+          2028,
+          207159
+        ],
+        [
+          2029,
+          208762
+        ],
+        [
+          2030,
+          210434
+        ],
+        [
+          2031,
+          212128
+        ],
+        [
+          2032,
+          213736
+        ],
+        [
+          2033,
+          215270
+        ],
+        [
+          2034,
+          216724
+        ],
+        [
+          2035,
+          218101
+        ],
+        [
+          2036,
+          219381
+        ],
+        [
+          2037,
+          220580
+        ],
+        [
+          2038,
+          221690
+        ],
+        [
+          2039,
+          222704
+        ],
+        [
+          2040,
+          223614
+        ],
+        [
+          2041,
+          224423
+        ],
+        [
+          2042,
+          225229
+        ],
+        [
+          2043,
+          226034
+        ],
+        [
+          2044,
+          226843
+        ],
+        [
+          2045,
+          227646
+        ],
+        [
+          2046,
+          228455
+        ],
+        [
+          2047,
+          229252
+        ],
+        [
+          2048,
+          230049
+        ],
+        [
+          2049,
+          230841
+        ],
+        [
+          2050,
+          231621
+        ]
+      ],
+      "name": "hohes Szenario"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          194766
+        ],
+        [
+          2020,
+          195398
+        ],
+        [
+          2021,
+          196075
+        ],
+        [
+          2022,
+          196789
+        ],
+        [
+          2023,
+          197526
+        ],
+        [
+          2024,
+          198276
+        ],
+        [
+          2025,
+          199045
+        ],
+        [
+          2026,
+          199814
+        ],
+        [
+          2027,
+          200588
+        ],
+        [
+          2028,
+          201362
+        ],
+        [
+          2029,
+          202124
+        ],
+        [
+          2030,
+          202884
+        ],
+        [
+          2031,
+          203631
+        ],
+        [
+          2032,
+          204274
+        ],
+        [
+          2033,
+          204806
+        ],
+        [
+          2034,
+          205223
+        ],
+        [
+          2035,
+          205521
+        ],
+        [
+          2036,
+          205688
+        ],
+        [
+          2037,
+          205734
+        ],
+        [
+          2038,
+          205652
+        ],
+        [
+          2039,
+          205440
+        ],
+        [
+          2040,
+          205103
+        ],
+        [
+          2041,
+          204634
+        ],
+        [
+          2042,
+          204119
+        ],
+        [
+          2043,
+          203581
+        ],
+        [
+          2044,
+          203016
+        ],
+        [
+          2045,
+          202423
+        ],
+        [
+          2046,
+          201800
+        ],
+        [
+          2047,
+          201153
+        ],
+        [
+          2048,
+          200489
+        ],
+        [
+          2049,
+          199806
+        ],
+        [
+          2050,
+          199107
+        ]
+      ],
+      "name": "tiefes Szenario"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "renderTo": "container-11899",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik"
+  },
+  "subtitle": {
+    "text": "Ständige Wohnbevölkerung, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": undefined
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2024"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "11899"
+  }
+}
