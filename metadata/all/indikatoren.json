@@ -1795,6 +1795,46 @@
 		"id": 11897
 	},
 	{
+		"template": "template001",
+		"data-id": 11899,
+		"chart-id": 11899,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/zukuenftige-entwicklung/kantonale-szenarien.html' target = '_blank'>Kantonale Szenarien, Bundesamt für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-08T02:24:42",
+		"id": 11899
+	},
+	{
 		"template": "line001",
 		"data-id": 2151,
 		"chart-id": 2151,
@@ -10708,7 +10748,7 @@
 		"children": [],
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dezember 1982 = 100",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2022 stark gestiegen. Das Jahresmittel ist dadurch nach 14 Jahren, als es sich stets in der vergleichsweise engen Bandbreite zwischen 160,0 und 163,8 Punkten bewegt hatte, auf neu 168,0 Punkte zu liegen gekommen.",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2023 weiter gestiegen, wenn auuch etwas weniger stark als 2022. Das Jahresmittel liegt neu bei 171,2 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -10724,18 +10764,18 @@
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kuerzel": "I.05.1.4909",
 		"kennzahlenset": "",
-		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
+		"kuerzelKunde": "WE8",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "06_01_00_00_00_608",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-04T08:40:10",
+		"aktualisierungsdatum": "2024-01-08T02:24:42",
 		"id": 4909
 	},
 	{
@@ -10747,7 +10787,7 @@
 		"children": [],
 		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"subtitle": "",
-		"lesehilfe": "Nach Jahren mit niedrigen und teils gar rückläufigen Inflationsraten ist die Teuerung 2022 zurückgekehrt: Die mittlere Jahresteuerung bewegt sich mit 2,6% für Basel-Stadt und 2,8% für die Schweiz auf dem gleichen (bzw. im Fall der Schweiz leicht höheren) Niveau von 2008, dem Jahr der Weltfinanzkrise.",
+		"lesehilfe": "Gegenüber 2022 hat sich die Teuerung insbesondere in der zweiten Jahreshälfte 2023 wieder etwas abgekühlt: Die mittlere Jahresteuerung 2023 liegt in Basel-Stadt bei 2,0% und in der Schweiz bei 2,1%.",
 		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -10774,7 +10814,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-04T08:40:11",
+		"aktualisierungsdatum": "2024-01-08T02:24:41",
 		"id": 4911
 	},
 	{
@@ -69493,7 +69533,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:06",
+		"aktualisierungsdatum": "2024-01-08T02:24:42",
 		"id": 9023
 	},
 	{
