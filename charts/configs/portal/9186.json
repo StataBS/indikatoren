@@ -75,6 +75,10 @@
         [
           2021,
           75.5
+        ],
+        [
+          2022,
+          75.4
         ]
       ],
       "name": "5-Jährige"
@@ -154,6 +158,10 @@
         [
           2021,
           69.7
+        ],
+        [
+          2022,
+          71.1
         ]
       ],
       "name": "6-Jährige"
@@ -233,6 +241,10 @@
         [
           2021,
           61.8
+        ],
+        [
+          2022,
+          62.4
         ]
       ],
       "name": "12-Jährige"
@@ -312,6 +324,10 @@
         [
           2021,
           52.2
+        ],
+        [
+          2022,
+          55.1
         ]
       ],
       "name": "16-Jährige"
@@ -442,7 +458,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 2.8.2022"
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

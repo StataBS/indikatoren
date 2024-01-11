@@ -70,6 +70,10 @@
         [
           2021,
           85
+        ],
+        [
+          2022,
+          85.3
         ]
       ],
       "name": "Frauen"
@@ -144,6 +148,10 @@
         [
           2021,
           80.7
+        ],
+        [
+          2022,
+          80.3
         ]
       ],
       "name": "Männer"
@@ -274,7 +282,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 20.10.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
