@@ -556,12 +556,11 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8897,
-			9679
+			8897
 		],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2021 liegen bei 85,0 Jahren (Frauen) und 80,7 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2022 liegen bei 85,3 Jahren (Frauen) und 80,3 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -576,17 +575,17 @@ var indikatorensetData = [
 		"unterthema": "Sterblichkeit",
 		"kuerzel": "I.14.3.5180",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW3",
+		"kuerzelKunde": "GW2",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_304",
+		"orderKey": "03_02_00_00_00_302",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-20T08:32:25",
+		"aktualisierungsdatum": "2024-01-11T09:32:42",
 		"id": 5180
 	},
 	{
@@ -748,7 +747,7 @@ var indikatorensetData = [
 		"id": 5184
 	},
 	{
-		"template": "befragungen001",
+		"template": "template001",
 		"data-id": 5185,
 		"chart-id": 5185,
 		"filter": "",
@@ -758,7 +757,7 @@ var indikatorensetData = [
 		],
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
 		"subtitle": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
-		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten nimmt kontinuierlich zu und liegt per Ende 2022 bei 55%. 8% der Fälle werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"lesehilfe": "Von den 4 691 aktiven Sozialhilfedossiers Ende 2022 weisen 2 567 (54,7%) eine Unterstützungsdauer von über 36 Monaten auf. 353 Fälle (7,5%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
 		"erlaeuterungen": "Bis 2015 nur Stadt Basel, seit 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
@@ -785,7 +784,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:47",
+		"aktualisierungsdatum": "2024-01-11T09:32:43",
 		"id": 5185
 	},
 	{
@@ -3123,7 +3122,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
+		"lesehilfe": "Im Jahr 2020 lag der Index (Basis 2010) der Medianprämien bei 139,9 und jener für den Median des Reinkommens bei 104,4.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -3149,7 +3148,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:44",
+		"aktualisierungsdatum": "2024-01-11T09:32:43",
 		"id": 9732
 	},
 	{
@@ -3161,8 +3160,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "In der Schweiz und im Ausland geborene Schweizerinnen und Schweizer sowie in der Schweiz geborene Ausländerinnen und Ausländer weisen allesamt stabil höhere Abschlussquoten auf Sekundarstufe II auf als im Ausland geborene Ausländerinnen und Ausländer.",
-		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Der einzelne Punkt in der Grafik rührt daher, dass das BFS für im Ausland geborene Schweizerinnen und Schweizer aktuell nur den Wert 2015 ausweist.",
+		"lesehilfe": "86,9% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2021 einen Abschluss auf der Sekundarstufe II.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer ab 2016).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -3189,7 +3188,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:16",
+		"aktualisierungsdatum": "2024-01-11T09:32:42",
 		"id": 9733
 	},
 	{

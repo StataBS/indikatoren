@@ -26,9 +26,13 @@
         [
           2020,
           88.101
+        ],
+        [
+          2021,
+          87.787
         ]
       ],
-      "name": "in der Schweiz geborene Schweizer\u002Finnen"
+      "name": "In der Schweiz geborene Schweizerinnen und Schweizer"
     },
     {
       "color": "#662673",
@@ -56,9 +60,13 @@
         [
           2020,
           80.835
+        ],
+        [
+          2021,
+          86.89
         ]
       ],
-      "name": "in der Schweiz geborene Ausländer\u002Finnen"
+      "name": "In der Schweiz geborene Ausländerinnen und Ausländer"
     },
     {
       "color": "#7F5F1A",
@@ -89,9 +97,13 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
         ]
       ],
-      "name": "im Ausland geborene Schweizer\u002Finnen"
+      "name": "Im Ausland geborene Schweizerinnen und Schweizer"
     },
     {
       "color": "#FABD24",
@@ -119,9 +131,47 @@
         [
           2020,
           73.465
+        ],
+        [
+          2021,
+          76.396
         ]
       ],
-      "name": "im Ausland geborene Ausländer\u002Finnen"
+      "name": "Im Ausland geborene Ausländerinnen und Ausländer"
+    },
+    {
+      "color": "#000000",
+      "data": [
+        [
+          2015,
+          85.5
+        ],
+        [
+          2016,
+          87.2
+        ],
+        [
+          2017,
+          85.4
+        ],
+        [
+          2018,
+          85.3
+        ],
+        [
+          2019,
+          85.2
+        ],
+        [
+          2020,
+          83.9
+        ],
+        [
+          2021,
+          85.4
+        ]
+      ],
+      "name": "Total"
     }
   ],
   "chart": {
@@ -204,7 +254,7 @@
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -247,7 +297,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

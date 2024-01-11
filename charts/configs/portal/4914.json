@@ -133,6 +133,10 @@
         [
           "2021",
           13
+        ],
+        [
+          "2022",
+          14
         ]
       ],
       "name": "Anzahl Betriebe",
@@ -270,6 +274,10 @@
         [
           "2021",
           422
+        ],
+        [
+          "2022",
+          422.3
         ]
       ],
       "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Skala)",
@@ -448,7 +456,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "tooltip": {
     "shared": false

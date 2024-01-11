@@ -48,6 +48,10 @@
         [
           2021,
           39
+        ],
+        [
+          2022,
+          39
         ]
       ],
       "name": "Institutionen"
@@ -107,6 +111,10 @@
         [
           2021,
           3209
+        ],
+        [
+          2022,
+          3191
         ]
       ],
       "name": "Plätze (rechte Skala)"
@@ -263,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "tooltip": {
     "shared": false
