@@ -50,15 +50,20 @@
     },
     plotOptions: {
       column: {
-        borderWidth: 0
+        borderWidth: 0,
+        minPointLength: 1
       }
     },
     "xAxis": {
       type: "category",
-      tickInterval: 1,
-      labels: {
-        step: 2,
-        rotation: -45
+      tickPositioner: function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
       }
     },
     "yAxis": {

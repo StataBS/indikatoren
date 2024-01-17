@@ -142,79 +142,79 @@
         ],
         [
           2018,
-          3.47
+          null
         ],
         [
           2019,
-          3.29
+          null
         ],
         [
           2020,
-          3.11
+          3
         ],
         [
           2021,
-          2.93
+          2.9
         ],
         [
           2022,
-          2.74
+          2.8
         ],
         [
           2023,
-          2.56
+          2.7
         ],
         [
           2024,
-          2.38
+          2.6
         ],
         [
           2025,
-          2.2
+          2.5
         ],
         [
           2026,
-          2.01
+          2.4
         ],
         [
           2027,
-          1.83
+          2.3
         ],
         [
           2028,
-          1.65
+          2.1
         ],
         [
           2029,
-          1.47
+          1.9
         ],
         [
           2030,
-          1.28
+          1.7
         ],
         [
           2031,
-          1.1
+          1.5
         ],
         [
           2032,
-          0.92
+          1.3
         ],
         [
           2033,
-          0.74
+          1.225
         ],
         [
           2034,
-          0.55
+          1.15
         ],
         [
           2035,
-          0.37
+          1.075
         ],
         [
           2036,
-          0.19
+          1
         ],
         [
           2037,
@@ -261,7 +261,7 @@
         ],
         [
           2020,
-          0
+          1
         ],
         [
           2021,
@@ -499,7 +499,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
