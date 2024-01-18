@@ -5,13 +5,15 @@ var indikatoren = [
 		"chart-id": 10028,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11188
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Basel-Landschaft",
 		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Landschaft durchschnittlich 25,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 31,1 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,8 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 700 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 800 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -23,9 +25,9 @@ var indikatoren = [
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10028",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-2",
+		"kuerzelKunde": "2.4.2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe2": "2.4 Haus- und Familienarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -34,7 +36,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"aktualisierungsdatum": "2024-01-18T09:39:42",
 		"id": 10028
 	},
 	{
@@ -83,13 +85,15 @@ var indikatoren = [
 		"chart-id": 10030,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11190
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, BS/BL/JU",
 		"lesehilfe": "Im Jahr 2020 wendete eine Person in den Kantonen Basel-Stadt, Basel-Landschaft und Kanton Jura durchschnittlich 24,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,9 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,4 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1400 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1 500 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -101,9 +105,9 @@ var indikatoren = [
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10030",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-4",
+		"kuerzelKunde": "2.4.4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe2": "2.4 Haus- und Familienarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -112,7 +116,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:38",
+		"aktualisierungsdatum": "2024-01-18T09:39:44",
 		"id": 10030
 	},
 	{
@@ -69494,7 +69498,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:38",
+		"aktualisierungsdatum": "2024-01-18T09:39:40",
 		"id": 9022
 	},
 	{
@@ -69532,7 +69536,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:38",
+		"aktualisierungsdatum": "2024-01-18T09:39:41",
 		"id": 9023
 	},
 	{
@@ -80752,7 +80756,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-17T08:15:46",
+		"aktualisierungsdatum": "2024-01-18T09:39:45",
 		"id": 9674
 	},
 	{
@@ -80870,7 +80874,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-17T08:15:53",
+		"aktualisierungsdatum": "2024-01-18T09:39:46",
 		"id": 9677
 	},
 	{
@@ -80908,7 +80912,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-17T08:15:55",
+		"aktualisierungsdatum": "2024-01-18T09:39:47",
 		"id": 9679
 	},
 	{
