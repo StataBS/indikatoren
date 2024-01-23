@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          79.9
+          81.5750194714874
         ],
         [
           "Bern",
-          84.2
+          86.047941954561
         ],
         [
           "Genf",
-          74
+          76.6506800064098
         ],
         [
           "Lausanne",
-          78.2
+          78.4140707991462
         ],
         [
           "Zürich",
-          84.1
+          85.0039019814187
         ],
         [
           "Frankfurt a. M.",
@@ -46,23 +46,23 @@
         ],
         [
           "Lille",
-          70.7
+          71.8
         ],
         [
           "Lyon",
-          76
+          76.8
         ],
         [
           "Metz",
-          73
+          73.9
         ],
         [
           "Paris",
-          76.4
+          76.8
         ],
         [
           "Strassburg",
-          73.9
+          74.5
         ],
         [
           "Mailand",
@@ -87,10 +87,6 @@
         [
           "Madrid",
           75.3
-        ],
-        [
-          "London",
-          84.7
         ]
       ],
       "name": "Männer",
@@ -102,23 +98,23 @@
       "data": [
         [
           "Basel",
-          72.9
+          73.5309109741701
         ],
         [
           "Bern",
-          78.1
+          79.731157355042
         ],
         [
           "Genf",
-          66.1
+          68.3474947291229
         ],
         [
           "Lausanne",
-          71.2
+          71.5788805385936
         ],
         [
           "Zürich",
-          76.5
+          76.3164922490398
         ],
         [
           "Frankfurt a. M.",
@@ -142,23 +138,23 @@
         ],
         [
           "Lille",
-          64.2
+          65.1
         ],
         [
           "Lyon",
-          68.9
+          69.8
         ],
         [
           "Metz",
-          66.9
+          67.8
         ],
         [
           "Paris",
-          70
+          70.5
         ],
         [
           "Strassburg",
-          67.5
+          68.3
         ],
         [
           "Mailand",
@@ -183,10 +179,6 @@
         [
           "Madrid",
           65.1
-        ],
-        [
-          "London",
-          72.3
         ]
       ],
       "name": "Frauen",
@@ -270,7 +262,7 @@
     "text": "Erwerbstätigenquote nach Geschlecht"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -326,7 +318,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

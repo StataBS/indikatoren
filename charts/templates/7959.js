@@ -31,9 +31,10 @@
       },
     },
     yAxis: {
-      tickAmount: 6,
+      //tickAmount: 6,
       tickInterval : 2,
       max: 8,
+      min: -2,
       labels: {
       }
     },

@@ -6,63 +6,63 @@
       "data": [
         [
           "Basel",
-          68623.6280596469
+          67356.8536460023
         ],
         [
           "Bern",
-          24129.9188878539
+          25146.4599218582
         ],
         [
           "Genf",
-          89870.7747091148
+          86027.428073276
         ],
         [
           "Lausanne",
-          46355.4684455795
+          44117.2527408549
         ],
         [
           "Zürich",
-          99072.4546431339
+          102402.070390035
         ],
         [
           "Frankfurt a. M.",
-          268069
+          296000
         ],
         [
           "Freiburg i. Br.",
-          40967
+          36000
         ],
         [
           "Karlsruhe",
-          57608
+          57000
         ],
         [
           "München",
-          179725
+          209000
         ],
         [
           "Stuttgart",
-          228437
+          240000
         ],
         [
           "Lille",
-          145760
+          139547
         ],
         [
           "Lyon",
-          180995
+          172332
         ],
         [
           "Metz",
-          31644
+          31112
         ],
         [
           "Paris",
-          1252718
+          1216639
         ],
         [
           "Strassburg",
-          69111
+          67254
         ],
         [
           "Mailand",
@@ -74,23 +74,19 @@
         ],
         [
           "Lissabon",
-          758260
+          153540
         ],
         [
           "Porto",
-          435434
+          185425
         ],
         [
           "Barcelona",
-          865755
+          830071
         ],
         [
           "Madrid",
-          1133158
-        ],
-        [
-          "London",
-          1714197
+          1082567
         ]
       ],
       "name": "Obligatorische Schule",
@@ -102,63 +98,63 @@
       "data": [
         [
           "Basel",
-          214584.282838882
+          200056.632531355
         ],
         [
           "Bern",
-          96457.3687087306
+          86925.0270458313
         ],
         [
           "Genf",
-          168953.11371581
+          177615.301701236
         ],
         [
           "Lausanne",
-          79480.1395296734
+          85937.1075752911
         ],
         [
           "Zürich",
-          303347.064947005
+          268815.296097225
         ],
         [
           "Frankfurt a. M.",
-          738303
+          656000
         ],
         [
           "Freiburg i. Br.",
-          169353
+          141000
         ],
         [
           "Karlsruhe",
-          192540
+          181000
         ],
         [
           "München",
-          694814
+          668000
         ],
         [
           "Stuttgart",
-          733538
+          613000
         ],
         [
           "Lille",
-          288148
+          285265
         ],
         [
           "Lyon",
-          420709
+          415371
         ],
         [
           "Metz",
-          84354
+          83340
         ],
         [
           "Paris",
-          2258825
+          2219669
         ],
         [
           "Strassburg",
-          182092
+          179866
         ],
         [
           "Mailand",
@@ -170,23 +166,19 @@
         ],
         [
           "Lissabon",
-          358731
+          144145
         ],
         [
           "Porto",
-          130268
+          98319
         ],
         [
           "Barcelona",
-          690508
+          682807
         ],
         [
           "Madrid",
-          938520
-        ],
-        [
-          "London",
-          1604794
+          927804
         ]
       ],
       "name": "Sekundarstufe II",
@@ -198,63 +190,63 @@
       "data": [
         [
           "Basel",
-          182428.91998541
+          199500.018091667
         ],
         [
           "Bern",
-          107377.733884593
+          120147.684460689
         ],
         [
           "Genf",
-          240036.502925935
+          239816.141464025
         ],
         [
           "Lausanne",
-          112920.181842448
+          114140.355103874
         ],
         [
           "Zürich",
-          403862.187383335
+          443893.111678957
         ],
         [
           "Frankfurt a. M.",
-          523069
+          519000
         ],
         [
           "Freiburg i. Br.",
-          145103
+          137000
         ],
         [
           "Karlsruhe",
-          159718
+          150000
         ],
         [
           "München",
-          789351
+          856000
         ],
         [
           "Stuttgart",
-          581380
+          562000
         ],
         [
           "Lille",
-          307071
+          316567
         ],
         [
           "Lyon",
-          513629
+          531786
         ],
         [
           "Metz",
-          73907
+          75560
         ],
         [
           "Paris",
-          3220657
+          3277260
         ],
         [
           "Strassburg",
-          176501
+          181501
         ],
         [
           "Mailand",
@@ -266,23 +258,19 @@
         ],
         [
           "Lissabon",
-          397260
+          98819
         ],
         [
           "Porto",
-          153707
+          115050
         ],
         [
           "Barcelona",
-          1309155
+          1333976
         ],
         [
           "Madrid",
-          1928042
-        ],
-        [
-          "London",
-          2794470
+          1961656
         ]
       ],
       "name": "Tertiärstufe",
@@ -365,7 +353,7 @@
     "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2020",
+    "text": "nach höchster abgeschlossener Ausbildung, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -423,7 +411,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
