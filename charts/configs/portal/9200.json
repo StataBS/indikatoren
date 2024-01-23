@@ -6,94 +6,90 @@
       "data": [
         [
           "Basel",
-          0.549
+          0.543
         ],
         [
           "Bern",
-          0.773
+          0.765
         ],
         [
           "Genf",
-          0.526
+          0.515
         ],
         [
           "Lausanne",
-          0.648
+          0.635
         ],
         [
           "Zürich",
-          0.714
+          0.703
         ],
         [
           "Frankfurt a. M.",
-          0.548
+          0.559
         ],
         [
           "Freiburg i. Br.",
-          0.494
+          0.499
         ],
         [
           "Karlsruhe",
-          0.528
+          0.586
         ],
         [
           "München",
-          0.585
+          0.601
         ],
         [
           "Stuttgart",
-          0.525
+          0.574
         ],
         [
           "Lille",
-          0.408
+          0.416
         ],
         [
           "Lyon",
-          0.454
+          0.46
         ],
         [
           "Metz",
-          0.43
+          0.432
         ],
         [
           "Paris",
-          0.459
+          0.462
         ],
         [
           "Strassburg",
-          0.435
+          0.439
         ],
         [
           "Mailand",
-          0.424
+          0.416
         ],
         [
           "Bologna",
-          0.42
+          0.398
         ],
         [
           "Lissabon",
-          0.444
+          0.46
         ],
         [
           "Porto",
-          0.434
+          0.43
         ],
         [
           "Barcelona",
-          0.446
+          0.461
         ],
         [
           "Madrid",
-          0.508
-        ],
-        [
-          "London",
-          0.561
+          0.522
         ]
       ],
-      "name": "Beschäftigte Dichte",
+      "name": "Beschäftigtendichte",
       "turboThreshold": 0
     }
   ],
@@ -173,7 +169,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -229,7 +225,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

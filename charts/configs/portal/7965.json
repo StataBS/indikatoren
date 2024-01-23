@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          77.48
+          77.71
         ],
         [
           "Bern",
-          83.34
+          83.17
         ],
         [
           "Genf",
-          76.74
+          76.34
         ],
         [
           "Lausanne",
-          77.14
+          76.75
         ],
         [
           "Zürich",
-          82.19
+          82.26
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          77.76
+          77.89
         ],
         [
           "Bern",
-          85.19
+          84.06
         ],
         [
           "Genf",
-          76.08
+          75.78
         ],
         [
           "Lausanne",
-          77.27
+          76.98
         ],
         [
           "Zürich",
-          83.93
+          83.52
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          77.33
+          77.69
         ],
         [
           "Bern",
-          82.4
+          82.72
         ],
         [
           "Genf",
-          73.39
+          72.57
         ],
         [
           "Lausanne",
-          77.07
+          76.64
         ],
         [
           "Zürich",
-          81.4
+          81.7
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          78.48
+          78.92
         ],
         [
           "Bern",
@@ -215,7 +215,7 @@
     "text": "Nettoerwerbsquote der 15- bis 64-Jährigen"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
