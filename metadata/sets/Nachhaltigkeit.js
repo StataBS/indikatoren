@@ -66,17 +66,17 @@ var indikatorensetData = [
 		"unterthema": "Biodiversität",
 		"kuerzel": "I.02.8.4355",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL14",
+		"kuerzelKunde": "NL16",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Funktionsfähigkeit der Ökosysteme",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_03_00_00_00_415",
+		"orderKey": "04_03_00_00_00_416",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-14T08:05:28",
+		"aktualisierungsdatum": "2024-01-25T09:06:14",
 		"id": 4355
 	},
 	{
@@ -2213,7 +2213,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 4,0% im Jahr 2021 auf 3,1% 2022 ähnlich stark zurück. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,9% im Jahr 2022 knapp unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat sich von 3,0% im Jahr 2022 auf 3,1% im Jahr 2023 kaum verändert. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) blieb von 3,1% im Jahr 2022 auf 3,2% 2023 ebenfalls fast unverändert. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 2,7% im Jahr 2023 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2238,7 +2238,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:20",
+		"aktualisierungsdatum": "2024-01-25T09:06:15",
 		"id": 6053
 	},
 	{

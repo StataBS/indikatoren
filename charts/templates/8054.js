@@ -24,7 +24,7 @@
     },
     "yAxis": {
       "tickInterval": 20,
-      max: 150,
+      max: 200,
       //min: -200,
     },
     "series": [
