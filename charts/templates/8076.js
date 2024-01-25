@@ -20,7 +20,9 @@
       }, 
       {"color": "#b375ab",
         visible:true,
-      }, 
+      },
+      { "color": "#999999" 
+      },
     ],
     "legend": {
       "enabled": true,

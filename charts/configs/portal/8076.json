@@ -4,10 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2012,
-          19.8
-        ],
-        [
           2013,
           21.9
         ],
@@ -42,6 +38,10 @@
         [
           2021,
           14.2
+        ],
+        [
+          2022,
+          11.5
         ]
       ],
       "name": "Klybeck"
@@ -50,10 +50,6 @@
       "color": "#b375ab",
       "visible": true,
       "data": [
-        [
-          2012,
-          6.1
-        ],
         [
           2013,
           14.6
@@ -89,9 +85,59 @@
         [
           2021,
           22
+        ],
+        [
+          2022,
+          19.2
         ]
       ],
       "name": "Kleinhüningen"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          2013,
+          36.2
+        ],
+        [
+          2014,
+          37.1
+        ],
+        [
+          2015,
+          36.5
+        ],
+        [
+          2016,
+          40.5
+        ],
+        [
+          2017,
+          42.7
+        ],
+        [
+          2018,
+          39.3
+        ],
+        [
+          2019,
+          38.5
+        ],
+        [
+          2020,
+          37.6
+        ],
+        [
+          2021,
+          36.1
+        ],
+        [
+          2022,
+          35.7
+        ]
+      ],
+      "name": "Stadt Basel"
     }
   ],
   "chart": {
@@ -147,7 +193,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Gymnasialquote"
+    "text": "Sek P-Quote"
   },
   "subtitle": {
     "text": "Wohnviertel Klybeck und Kleinhüningen",
@@ -219,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
