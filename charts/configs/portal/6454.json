@@ -43,6 +43,10 @@
         [
           2020,
           98396
+        ],
+        [
+          2021,
+          100788
         ]
       ],
       "name": "Männer (Beschäftigte)"
@@ -90,6 +94,10 @@
         [
           2020,
           90382
+        ],
+        [
+          2021,
+          92214
         ]
       ],
       "name": "Frauen (Beschäftigte)"
@@ -137,6 +145,10 @@
         [
           2020,
           85008
+        ],
+        [
+          2021,
+          86489
         ]
       ],
       "name": "Männer (VZÄ)"
@@ -184,6 +196,10 @@
         [
           2020,
           63625
+        ],
+        [
+          2021,
+          64950
         ]
       ],
       "name": "Frauen (VZÄ)"
@@ -326,7 +342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 30.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

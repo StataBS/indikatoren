@@ -58,6 +58,10 @@
         [
           2021,
           103.2
+        ],
+        [
+          2022,
+          102.8
         ]
       ],
       "name": "Basel global"
@@ -121,6 +125,10 @@
         [
           2021,
           100.64
+        ],
+        [
+          2022,
+          100.85
         ]
       ],
       "name": "Bern global"
@@ -184,6 +192,10 @@
         [
           2021,
           102.09
+        ],
+        [
+          2022,
+          102.64
         ]
       ],
       "name": "Genf global"
@@ -247,6 +259,10 @@
         [
           2021,
           106.08
+        ],
+        [
+          2022,
+          106.79
         ]
       ],
       "name": "Zürich global"
@@ -310,6 +326,10 @@
         [
           2021,
           121.26
+        ],
+        [
+          2022,
+          118.38
         ]
       ],
       "name": "Basel kontinental"
@@ -373,6 +393,10 @@
         [
           2021,
           106.03
+        ],
+        [
+          2022,
+          104.17
         ]
       ],
       "name": "Bern kontinental"
@@ -436,6 +460,10 @@
         [
           2021,
           118.74
+        ],
+        [
+          2022,
+          118.28
         ]
       ],
       "name": "Genf kontinental"
@@ -499,6 +527,10 @@
         [
           2021,
           132.84
+        ],
+        [
+          2022,
+          131.68
         ]
       ],
       "name": "Zürich kontinental"
@@ -630,7 +662,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2024"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
