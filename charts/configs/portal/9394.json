@@ -32,6 +32,10 @@
         [
           2022,
           175
+        ],
+        [
+          2023,
+          187
         ]
       ],
       "name": "Datensätze Geoportal"
@@ -68,6 +72,10 @@
         [
           2022,
           203
+        ],
+        [
+          2023,
+          270
         ]
       ],
       "name": "Datensätze Datenportal"
@@ -109,6 +117,10 @@
         [
           2022,
           34
+        ],
+        [
+          2023,
+          38
         ]
       ],
       "name": "Organisationen Datenportal (rechte Skala)"
@@ -262,7 +274,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
