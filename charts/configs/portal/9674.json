@@ -5,40 +5,48 @@
       "zIndex": 2,
       "data": [
         [
+          2010,
+          5.09
+        ],
+        [
+          2011,
+          4.85
+        ],
+        [
           2012,
-          4.32
+          4.61
         ],
         [
           2013,
-          null
+          4.39
         ],
         [
           2014,
-          3.9
+          4.17
         ],
         [
           2015,
-          null
+          4.1
         ],
         [
           2016,
-          3.75
+          4.02
         ],
         [
           2017,
-          null
+          3.9
         ],
         [
           2018,
-          3.47
+          3.77
         ],
         [
           2019,
-          null
+          3.55
         ],
         [
           2020,
-          3.07
+          3.31
         ],
         [
           2021,
@@ -117,6 +125,14 @@
       "color": "#999999",
       "data": [
         [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
           2012,
           null
         ],
@@ -150,31 +166,31 @@
         ],
         [
           2020,
-          3
+          3.31
         ],
         [
           2021,
-          2.9
+          3.16
         ],
         [
           2022,
-          2.8
+          3.02
         ],
         [
           2023,
-          2.7
+          2.88
         ],
         [
           2024,
-          2.6
+          2.73
         ],
         [
           2025,
-          2.5
+          2.59
         ],
         [
           2026,
-          2.4
+          2.44
         ],
         [
           2027,
@@ -228,6 +244,14 @@
       "showInLegend": false,
       "data": [
         [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
           2012,
           null
         ],
@@ -261,7 +285,7 @@
         ],
         [
           2020,
-          1
+          null
         ],
         [
           2021,
@@ -339,7 +363,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -430,7 +454,7 @@
     "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
   },
   "subtitle": {
-    "text": "in Tonnen pro Kopf, Basel-Stadt",
+    "text": "in Tonnen CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Äquivalente pro Kopf, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -497,9 +521,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
