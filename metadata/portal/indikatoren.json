@@ -8044,10 +8044,10 @@
 		"children": [
 			5113
 		],
-		"title": "Gymnasialquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2022/23 mit 58,2% (2021/22 61,4%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2021/22 ebenfalls unverändert - das Wohnviertel Klybeck mit 11,5% (2021/22 14,2%). Im Vorjahresvergleich ist die Quote in Riehen sowie 12 städtischen Vierteln gesunken, in Bettingen sowie 6 Wohnvierteln der Stadt Basel dagegen gestiegen; stabil geblieben ist die Quote in der Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt.",
+		"title": "Sek P-Quote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -8058,7 +8058,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Gymnasialquote",
+		"description": "Sek P-Quote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kuerzel": "I.15.6.04826",
@@ -8074,7 +8074,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:10",
+		"aktualisierungsdatum": "2024-02-05T02:12:07",
 		"id": 4826
 	},
 	{

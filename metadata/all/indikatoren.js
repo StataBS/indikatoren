@@ -9135,10 +9135,10 @@ var indikatoren = [
 		"children": [
 			5113
 		],
-		"title": "Gymnasialquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2022/23 mit 58,2% (2021/22 61,4%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2021/22 ebenfalls unverändert - das Wohnviertel Klybeck mit 11,5% (2021/22 14,2%). Im Vorjahresvergleich ist die Quote in Riehen sowie 12 städtischen Vierteln gesunken, in Bettingen sowie 6 Wohnvierteln der Stadt Basel dagegen gestiegen; stabil geblieben ist die Quote in der Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt.",
+		"title": "Sek P-Quote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -9149,7 +9149,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Gymnasialquote",
+		"description": "Sek P-Quote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kuerzel": "I.15.6.04826",
@@ -9165,7 +9165,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:10",
+		"aktualisierungsdatum": "2024-02-05T02:12:07",
 		"id": 4826
 	},
 	{
@@ -79410,8 +79410,8 @@ var indikatoren = [
 		"parentId": "7971",
 		"children": [],
 		"title": "Hotelübernachtungen",
-		"subtitle": "pro Einwohner, 2020",
-		"lesehilfe": "Im Pandemiejahr 2020 sind die Übernachtungszahlen in allen Agglomerationen deutlich tiefer ausgefallen als im Vorjahr. Am meisten Hotelübernachtungen pro Einwohner werden 2020 in den Kernstädten Genf (3,5), Lausanne (3,2) und Basel (3,1) registriert. In der Agglomeration Basel zeigen auch die deutschen Gemeinden (2,7 Hotelübernachtungen pro Einwohner) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"subtitle": "pro Einwohner, 2021",
+		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -79437,7 +79437,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:45",
+		"aktualisierungsdatum": "2024-02-05T02:12:06",
 		"id": 9601
 	},
 	{
@@ -80805,11 +80805,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "in Tonnen pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die energiebedingten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,32 Tonnen auf 3,11 Tonnen CO<sub>2</sub> pro Kopf ab.<br><h2>Zielwert:</h2>Netto-Null bis 2037. Zielpfad: gemäss Klimaschutzstrategie des Kantons (Grundlage: <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a>).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert auf/unter Zielpfad und Reduktion geringer als Zielpfad <br>bzw. Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert über Zielpfad und Reduktion geringer als Zielpfad</p></div>",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
+		"subtitle": "in Tonnen CO<sub>2</sub>-Äquivalente pro Kopf, Basel-Stadt",
+		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2020 bei 3,3 Tonnen CO<sub>2</sub>eq pro Kopf.<br><h2>Zielwert:</h2>Netto-Null bis 2037. Zielpfad:  2020 bis 2037 gemäss Klimaschutzstrategie des Kantons (Grundlage: <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a>).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert auf/unter Zielpfad und Reduktion geringer als Zielpfad <br>bzw. Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad</p><p>Wert über Zielpfad und Reduktion geringer als Zielpfad</p></div>",
+		"erlaeuterungen": "Direkte Emissionen (sog. Scope 1) sind CO<sub>2</sub>-Emissionen auf dem Kantonsgebiet (Territorialprinzip), die durch das Verbrennen von fossilen Energieträgern wie Heizöl, Erdgas, Benzin und Diesel sowie bei der thermischen Verwertung von Abfällen (Kehricht und Industrieabfälle) entstehen. Weitere direkte Treibhausgasemissionen (in t CO<sub>2</sub>eq) umfassen insbesondere F-Gas-Emissionen in der Industrie, Methanemissionen aus dem Erdgasverteilnetz und Lachgasemissionen aus der Abwasserreinigung.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
+			"Statistisches Amt Basel-Stadt, Energiestatistik",
+			"Kimaschutzstrategie Kanton Basel-Stadt"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -80832,7 +80833,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-18T09:39:45",
+		"aktualisierungsdatum": "2024-02-05T02:12:05",
 		"id": 9674
 	},
 	{
