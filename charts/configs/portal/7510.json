@@ -4,10 +4,6 @@
       "color": "#083038",
       "data": [
         [
-          1669856400000,
-          0.029345
-        ],
-        [
           1672534800000,
           0.030573
         ],
@@ -54,6 +50,10 @@
         [
           1701392400000,
           0.035375
+        ],
+        [
+          1704070800000,
+          0.038989
         ]
       ],
       "name": "Total"
@@ -61,10 +61,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          1669856400000,
-          0.027283
-        ],
         [
           1672534800000,
           0.02814
@@ -112,6 +108,10 @@
         [
           1701392400000,
           0.03314
+        ],
+        [
+          1704070800000,
+          0.035711
         ]
       ],
       "name": "15-24 Jahre"
@@ -119,10 +119,6 @@
     {
       "color": "#71A3B5",
       "data": [
-        [
-          1669856400000,
-          0.027055
-        ],
         [
           1672534800000,
           0.02852
@@ -170,6 +166,10 @@
         [
           1701392400000,
           0.030716
+        ],
+        [
+          1704070800000,
+          0.033378
         ]
       ],
       "name": "50 Jahre u.m."
@@ -312,7 +312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.1.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
