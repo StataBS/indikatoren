@@ -2518,7 +2518,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei 4 900 Franken brutto und damit leicht höher als 2018.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei rund 4 900 Franken brutto und damit leicht höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2543,7 +2543,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:30",
+		"aktualisierungsdatum": "2024-02-09T08:56:53",
 		"id": 7446
 	},
 	{
@@ -2700,7 +2700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:34",
+		"aktualisierungsdatum": "2024-02-09T08:56:53",
 		"id": 7450
 	},
 	{
