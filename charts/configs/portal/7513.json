@@ -166,7 +166,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
+      "color": "#B375AB",
       "data": [
         [
           "Jan",
@@ -218,6 +218,66 @@
         ]
       ],
       "name": "2023",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "radius": 3
+      },
+      "data": [
+        [
+          "Jan",
+          105.7
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "2024",
       "turboThreshold": 0
     }
   ],
@@ -347,7 +407,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
