@@ -19,6 +19,8 @@
         }
   },
   "yAxis": {
+    "max": 1500000,
+    tickInterval: 300000,
     "labels": {
       "format": "{value:,.0f}",
     }
@@ -48,7 +50,7 @@
             color: 'rgb(176, 0, 0)', index: 1, legendIndex:0,
         },
         {
-            color: 'rgb(168, 196, 203)', index: 0,legendIndex:1,
+            color: 'rgb(105, 146, 155)', index: 0,legendIndex:1,
         }
   ],  
      tooltip: {

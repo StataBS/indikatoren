@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          566
+          615
         ],
         [
           "3-Sterne",
-          1341
+          1353
         ],
         [
           "4- und 5-Sterne",
-          1726
+          1805
         ],
         [
           "Nicht klassiert",
-          144
+          133
         ]
       ],
-      "name": "Verfügbare Zimmer 2013",
+      "name": "Verfügbare Zimmer 2014",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          553
+          552
         ],
         [
           "3-Sterne",
-          1547
+          1546
         ],
         [
           "4- und 5-Sterne",
-          2010
+          2104
         ],
         [
           "Nicht klassiert",
-          498
+          563
         ]
       ],
-      "name": "Verfügbare Zimmer 2022",
+      "name": "Verfügbare Zimmer 2023",
       "turboThreshold": 0
     },
     {
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.554208379
+          0.523349633
         ],
         [
           "3-Sterne",
-          0.684134686
+          0.668715949
         ],
         [
           "4- und 5-Sterne",
-          0.613459063
+          0.64648954
         ],
         [
           "Nicht klassiert",
-          0.367038778
+          0.394368612
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2013",
+      "name": "Nettozimmerauslastung (rechte Skala) 2014",
       "turboThreshold": 0
     },
     {
@@ -88,22 +88,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.482956606
+          0.52590378
         ],
         [
           "3-Sterne",
-          0.553863822
+          0.605269399
         ],
         [
           "4- und 5-Sterne",
-          0.532440349
+          0.569712856
         ],
         [
           "Nicht klassiert",
-          0.449441123
+          0.462369587
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2022",
+      "name": "Nettozimmerauslastung (rechte Skala) 2023",
       "turboThreshold": 0
     }
   ],
@@ -295,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

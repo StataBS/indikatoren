@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "1937",
-          126444
-        ],
-        [
           "1938",
           132286
         ],
@@ -348,20 +344,20 @@
         [
           "2022",
           536630
+        ],
+        [
+          "2023",
+          541147
         ]
       ],
       "name": "Logiernächte Inland",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(168, 196, 203)",
+      "color": "rgb(105, 146, 155)",
       "index": 0,
       "legendIndex": 1,
       "data": [
-        [
-          "1937",
-          208288
-        ],
         [
           "1938",
           206560
@@ -701,6 +697,10 @@
         [
           "2022",
           764477
+        ],
+        [
+          "2023",
+          933828
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -803,7 +803,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 1500000,
+    "tickInterval": 300000
   },
   "legend": {
     "enabled": true,
@@ -834,7 +836,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

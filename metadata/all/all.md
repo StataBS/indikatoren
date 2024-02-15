@@ -2314,3 +2314,4 @@ id | visible | visibleInPortal | indikatorenset
 11899 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
+11936 | true | true | 

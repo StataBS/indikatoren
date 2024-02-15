@@ -4,19 +4,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          56038
+          53236
         ],
         [
           "3-Sterne",
-          179726
+          190221
         ],
         [
           "4- und 5-Sterne",
-          226243
+          225934
         ],
         [
           "Nicht klassiert",
-          74623
+          71756
         ]
       ],
       "showInLegend": false,
@@ -41,19 +41,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          98147
+          112711
         ],
         [
           "3-Sterne",
-          248653
+          275965
         ],
         [
           "4- und 5-Sterne",
-          350971
+          460749
         ],
         [
           "Nicht klassiert",
-          66706
+          84403
         ]
       ],
       "showInLegend": true,
@@ -151,7 +151,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left"
   },
   "tooltip": {
@@ -172,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "legend": {
     "layout": "horizontal",
