@@ -354,7 +354,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(168, 196, 203)",
+      "color": "rgb(105, 146, 155)",
       "index": 0,
       "legendIndex": 1,
       "data": [
@@ -803,7 +803,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 1500000,
+    "tickInterval": 300000
   },
   "legend": {
     "enabled": true,

@@ -4,10 +4,6 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          1937,
-          1.793760906
-        ],
-        [
           1938,
           1.82877129
         ],
@@ -346,6 +342,10 @@
         [
           2022,
           1.679614142
+        ],
+        [
+          2023,
+          1.64396425
         ]
       ],
       "name": "Inland"
@@ -353,10 +353,6 @@
     {
       "color": "rgb(105, 146, 155)",
       "data": [
-        [
-          1937,
-          1.34582531
-        ],
         [
           1938,
           1.445486354
@@ -696,6 +692,10 @@
         [
           2022,
           1.988521115
+        ],
+        [
+          2023,
+          1.966897795
         ]
       ],
       "name": "Ausland"
@@ -832,7 +832,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

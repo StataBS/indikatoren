@@ -4,14 +4,6 @@
       "color": "rgb(255, 128, 40)",
       "data": [
         [
-          1937,
-          42
-        ],
-        [
-          1938,
-          42
-        ],
-        [
           1939,
           42
         ],
@@ -346,6 +338,10 @@
         [
           2022,
           65
+        ],
+        [
+          2023,
+          64
         ]
       ],
       "name": "Geöffnete Betriebe"
@@ -354,14 +350,6 @@
       "color": "rgb(0, 122, 47)",
       "yAxis": 1,
       "data": [
-        [
-          1937,
-          2164
-        ],
-        [
-          1938,
-          2162
-        ],
         [
           1939,
           2137
@@ -697,6 +685,10 @@
         [
           2022,
           9280
+        ],
+        [
+          2023,
+          9397
         ]
       ],
       "name": "Verfügbare Betten (rechte Skala)"
@@ -857,7 +849,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

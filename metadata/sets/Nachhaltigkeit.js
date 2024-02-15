@@ -2404,14 +2404,16 @@ var indikatorensetData = [
 		"data-id": 6435,
 		"chart-id": 6435,
 		"filter": "",
-		"parentId": "6148",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8947
+		],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2020 bei den Männern etwa 39%, bei den Frauen rund 32%.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2022 bei den Männern 40% (95% Vertrauensintervall: 35% - 45%) und bei den Frauen 26% (95%-Vertrauensintervall: 21% - 30%).",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Das Vertrauensintervall (schwarzer Fehlerbalken) kann als Bereich interpretiert werden, in welchem der wahre Wert mit einer Wahrscheinlichkeit von 95% liegt.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -2423,17 +2425,17 @@ var indikatorensetData = [
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.06435",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GZ6",
+		"kuerzelKunde": "GZ8",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_02_00_00_00_506",
+		"orderKey": "05_02_00_00_00_508",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-06T08:46:27",
+		"aktualisierungsdatum": "2024-02-15T08:31:00",
 		"id": 6435
 	},
 	{

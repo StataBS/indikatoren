@@ -4,10 +4,6 @@
       "color": "rgb(220, 68, 14)",
       "data": [
         [
-          2013,
-          0.666820135
-        ],
-        [
           2014,
           0.669772679
         ],
@@ -42,6 +38,10 @@
         [
           2022,
           0.514638713
+        ],
+        [
+          2023,
+          0.56796615
         ]
       ],
       "name": "So-Do"
@@ -49,10 +49,6 @@
     {
       "color": "rgb(68, 141, 43)",
       "data": [
-        [
-          2013,
-          0.503883595
-        ],
         [
           2014,
           0.517842437
@@ -88,6 +84,10 @@
         [
           2022,
           0.549466802
+        ],
+        [
+          2023,
+          0.551828351
         ]
       ],
       "name": "Fr-Sa"
@@ -95,10 +95,6 @@
     {
       "color": "rgb(250, 189, 36)",
       "data": [
-        [
-          2013,
-          0.620405741
-        ],
         [
           2014,
           0.626545043
@@ -134,6 +130,10 @@
         [
           2022,
           0.524642944
+        ],
+        [
+          2023,
+          0.563370638
         ]
       ],
       "name": "Mo-So"
@@ -280,7 +280,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

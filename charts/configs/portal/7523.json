@@ -7,43 +7,43 @@
       "data": [
         [
           "VR China",
-          1526
+          2572
         ],
         [
           "Indien",
-          2041
+          2250
         ],
         [
           "Spanien",
-          5309
+          6141
         ],
         [
           "Niederlande",
-          7133
+          8264
         ],
         [
           "Italien",
-          7867
+          8029
         ],
         [
           "Frankreich",
-          7427
+          7238
         ],
         [
           "UK",
-          5996
+          8324
         ],
         [
           "USA",
-          4537
+          4368
         ],
         [
           "Deutschland",
-          20321
+          23467
         ],
         [
           "Schweiz",
-          56038
+          53236
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -56,43 +56,43 @@
       "data": [
         [
           "VR China",
-          1894
+          3538
         ],
         [
           "Indien",
-          4760
+          6334
         ],
         [
           "Spanien",
-          13232
+          13986
         ],
         [
           "Niederlande",
-          13946
+          12319
         ],
         [
           "Italien",
-          14282
+          15223
         ],
         [
           "Frankreich",
-          17521
+          17052
         ],
         [
           "UK",
-          19617
+          24866
         ],
         [
           "USA",
-          21846
+          22460
         ],
         [
           "Deutschland",
-          65807
+          73458
         ],
         [
           "Schweiz",
-          179726
+          190221
         ]
       ],
       "name": "3-Sterne",
@@ -105,43 +105,43 @@
       "data": [
         [
           "VR China",
-          3164
+          8869
         ],
         [
           "Indien",
-          4842
+          7502
         ],
         [
           "Spanien",
-          9358
+          12430
         ],
         [
           "Niederlande",
-          14346
+          17200
         ],
         [
           "Italien",
-          13188
+          17298
         ],
         [
           "Frankreich",
-          20372
+          24096
         ],
         [
           "UK",
-          36453
+          49023
         ],
         [
           "USA",
-          86367
+          112924
         ],
         [
           "Deutschland",
-          67232
+          78239
         ],
         [
           "Schweiz",
-          226243
+          225934
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -154,43 +154,43 @@
       "data": [
         [
           "VR China",
-          429
+          975
         ],
         [
           "Indien",
-          359
+          964
         ],
         [
           "Spanien",
-          1852
+          2717
         ],
         [
           "Niederlande",
-          3060
+          3734
         ],
         [
           "Italien",
-          3241
+          4385
         ],
         [
           "Frankreich",
-          4463
+          5893
         ],
         [
           "UK",
-          4809
+          6077
         ],
         [
           "USA",
-          4750
+          6103
         ],
         [
           "Deutschland",
-          26558
+          30927
         ],
         [
           "Schweiz",
-          74623
+          71756
         ]
       ],
       "name": "Nicht klassiert",
@@ -276,7 +276,7 @@
     "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -334,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "tooltip": {
     "shared": false,
