@@ -27,7 +27,7 @@ id | visible | visibleInPortal | indikatorenset
 2528 | true | true | Arbeitsmarkt
 2529 | true | true | Arbeitsmarkt
 2547 | true | true | Arbeitsmarkt
-2917 | true | true | Nachhaltigkeit
+2917 | false |  | Nachhaltigkeit
 2952 | false |  | Legislaturplan-2017-2021
 2953 | false |  | Legislaturplan-2017-2021
 2956 | true | true | Legislaturplan
@@ -312,11 +312,11 @@ id | visible | visibleInPortal | indikatorenset
 5142 | true | true | Nachhaltigkeit
 5144 | false |  | Nachhaltigkeit
 5147 | false |  | Nachhaltigkeit
-5148 | true | true | Nachhaltigkeit
+5148 | false |  | Nachhaltigkeit
 5149 | true | true | Nachhaltigkeit
 5155 | true | false | Nachhaltigkeit
-5156 | true | true | Nachhaltigkeit
-5157 | true | true | Nachhaltigkeit
+5156 | false |  | Nachhaltigkeit
+5157 | false |  | Nachhaltigkeit
 5160 | true | true | Nachhaltigkeit
 5161 | true | true | Nachhaltigkeit
 5162 | true | true | Nachhaltigkeit
@@ -324,7 +324,7 @@ id | visible | visibleInPortal | indikatorenset
 5178 | true | true | Nachhaltigkeit
 5180 | true | true | Nachhaltigkeit
 5181 | true | true | Nachhaltigkeit
-5182 | true | true | Nachhaltigkeit
+5182 | false |  | Nachhaltigkeit
 5183 | true | true | Nachhaltigkeit
 5184 | true | true | Nachhaltigkeit
 5185 | true | true | Nachhaltigkeit
@@ -336,15 +336,15 @@ id | visible | visibleInPortal | indikatorenset
 5193 | true | true | Legislaturplan
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
-5196 | true | true | Nachhaltigkeit
-5197 | true | true | Nachhaltigkeit
-5198 | true | true | Nachhaltigkeit
+5196 | false |  | Nachhaltigkeit
+5197 | false |  | Nachhaltigkeit
+5198 | false |  | Nachhaltigkeit
 5199 | true | true | Nachhaltigkeit
 5201 | true | true | Richtplan
 5202 | true | true | Richtplan
 5203 | true | true | Richtplan
 5793 | true | true | Nachhaltigkeit
-5794 | true | false | Nachhaltigkeit
+5794 | false |  | Nachhaltigkeit
 5795 | true | false | Nachhaltigkeit
 5796 | true | false | Nachhaltigkeit
 5797 | true | true | Umwelt
@@ -383,7 +383,7 @@ id | visible | visibleInPortal | indikatorenset
 6023 | true | true | Wanderungen
 6024 | true | true | Wanderungen
 6025 | true | true | Wanderungen
-6026 | true | true | Nachhaltigkeit
+6026 | false |  | Nachhaltigkeit
 6027 | true | false | Nachhaltigkeit
 6028 | true | true | Nachhaltigkeit
 6029 | true | true | Nachhaltigkeit
@@ -391,14 +391,14 @@ id | visible | visibleInPortal | indikatorenset
 6031 | true | false | Nachhaltigkeit
 6033 | true | true | Nachhaltigkeit
 6034 | true | true | Nachhaltigkeit
-6035 | true | false | Nachhaltigkeit
+6035 | false |  | Nachhaltigkeit
 6036 | true | true | Nachhaltigkeit
 6037 | true | true | Nachhaltigkeit
 6039 | true | true | Nachhaltigkeit
 6040 | true | false | Nachhaltigkeit
-6041 | true | true | Nachhaltigkeit
+6041 | false |  | Nachhaltigkeit
 6042 | true | false | Nachhaltigkeit
-6043 | true | false | Nachhaltigkeit
+6043 | false |  | Nachhaltigkeit
 6044 | true | true | 
 6045 | true | true | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
@@ -774,7 +774,7 @@ id | visible | visibleInPortal | indikatorenset
 6570 | true | true | Integration
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
-6592 | true | false | Nachhaltigkeit
+6592 | false |  | Nachhaltigkeit
 6597 | false |  | Nachhaltigkeit
 6599 | true | false | Nachhaltigkeit
 6601 | false |  | 
@@ -1597,7 +1597,7 @@ id | visible | visibleInPortal | indikatorenset
 8458 | true | true | Nachhaltigkeit
 8459 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
-8461 | true | true | Nachhaltigkeit
+8461 | false |  | Nachhaltigkeit
 8462 | true | true | Wirtschaftsbericht BS_BL_JU
 8467 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8468 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
@@ -2078,7 +2078,7 @@ id | visible | visibleInPortal | indikatorenset
 9373 | true | true | Legislaturplan
 9374 | true | false | Legislaturplan
 9375 | true | true | Legislaturplan
-9376 | true | false | Legislaturplan
+9376 | true | true | Legislaturplan
 9377 | true | true | Legislaturplan
 9378 | true | true | Legislaturplan
 9379 | true | true | Legislaturplan
