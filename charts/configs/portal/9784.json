@@ -536,6 +536,10 @@
         [
           2022,
           204550
+        ],
+        [
+          2023,
+          206308
         ]
       ],
       "name": "Bevölkerung"
@@ -661,7 +665,6 @@
       }
     },
     "min": 2010,
-    "max": 2022.5,
     "tickInterval": 1
   },
   "yAxis": {
@@ -706,7 +709,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

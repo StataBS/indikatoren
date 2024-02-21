@@ -286,7 +286,7 @@
     },
     "type": "column",
     "marginTop": 70,
-    "renderTo": "container-11788"
+    "renderTo": "container-11903"
   },
   "plotOptions": {
     "series": {
@@ -437,6 +437,6 @@
     "csv": {
       "dateFormat": "%d.%m.%Y"
     },
-    "filename": "11788"
+    "filename": "11903"
   }
 }
