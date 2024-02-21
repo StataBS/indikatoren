@@ -1726,7 +1726,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1754,7 +1754,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:49",
+		"aktualisierungsdatum": "2024-02-21T08:01:54",
 		"id": 11788
 	},
 	{
@@ -1837,6 +1837,46 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-01-08T02:24:42",
 		"id": 11899
+	},
+	{
+		"template": "stock001",
+		"data-id": 11903,
+		"chart-id": 6033,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
+		"title": "Hitzetage",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.11903",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-21T08:01:50",
+		"id": 11903
 	},
 	{
 		"template": "line001",
@@ -1951,9 +1991,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-15T08:30:50",
+		"aktualisierungsdatum": "2024-02-21T08:01:51",
 		"id": 11936
 	},
 	{
@@ -12150,7 +12190,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2023 sind bei der Chemiefachberatung des Kantons 18 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -12176,7 +12216,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:14",
+		"aktualisierungsdatum": "2024-02-21T08:01:56",
 		"id": 5189
 	},
 	{
@@ -14061,7 +14101,7 @@ var indikatoren = [
 		],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -14089,7 +14129,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:55",
+		"aktualisierungsdatum": "2024-02-21T08:01:57",
 		"id": 6033
 	},
 	{
@@ -25202,8 +25242,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Das Wohnviertel Bruderholz weist mit 22,4% den höchsten Anteil Kinder und Jugendlicher unter 20 Jahren auf, das Wohnviertel Rosental den höchsten Anteil jüngerer Erwachsener zwischen 20 und 39 Jahren (40,6%) und das Wohnviertel St. Alban den höchsten Anteil 80- bis 99-Jähriger (10,5%).",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist mit 22,3% den höchsten Anteil Kinder und Jugendlicher unter 20 Jahren auf, das Wohnviertel St. Alban den höchsten Anteil 80- bis 99-Jähriger (10,2%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -25230,7 +25270,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:54",
+		"aktualisierungsdatum": "2024-02-21T08:01:48",
 		"id": 6502
 	},
 	{
@@ -26847,7 +26887,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Stadt Basel",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2022 bei 180 976.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2023 bei 182 434.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26873,7 +26913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:55",
+		"aktualisierungsdatum": "2024-02-21T08:01:49",
 		"id": 6623
 	},
 	{
@@ -44311,8 +44351,8 @@ var indikatoren = [
 		],
 		"title": "Bauzonen",
 		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
-		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2021 im Vergleich zu 2005 um 0,08 Indexpunkte kleiner. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 100,91 Indexpunkten.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2023 im Vergleich zu 2005 um 0,2 Indexpunkte grösser. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 101,28 Indexpunkten.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert per 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -44341,7 +44381,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:37",
+		"aktualisierungsdatum": "2024-02-21T08:02:00",
 		"id": 7775
 	},
 	{
@@ -48201,7 +48241,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2022 wiesen Personen aus der Gruppe der afrikanischen Länder den höchsten Segregationsindex auf (37,0). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert waren. Danach folgten Personen aus der Gruppe der arabischen Länder (36,0). Die niedrigsten Indices ergaben sich 2022 für Schweizer (16,1) und Deutsche (17,8). Im Vergleich zu 2000 sind die Segregationsindices sämtlicher Ländergruppen zurückgegangen.",
+		"lesehilfe": "2023 weisen Personen aus arabischen und afrikanischen Ländern die höchsten Segregationsindices auf (37,2 bzw. 35,6). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert sind. Die niedrigsten Indices ergeben sich für Schweizer (16,0) und Deutsche (17,8). Im Vergleich zu 2000 sind die Segregationsindices sämtlicher Ländergruppen zurückgegangen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -48227,7 +48267,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:06:05",
+		"aktualisierungsdatum": "2024-02-21T08:01:52",
 		"id": 8055
 	},
 	{
@@ -74398,7 +74438,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2022 auf 3,1% gesunken. Am höchsten ist die Quote 2022 in den Branchen Baugewerbe (10,1%), Gastgewerbe (7,8%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,4%). In allen Branchen ist die Arbeitslosenquote im Vergleich zu 2021 gesunken oder unverändert geblieben.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2023 im Vergleich zu 2022 bei 3,1% unverändert geblieben. Am höchsten ist die Quote 2023 in den Branchen Baugewerbe (10,7%), Gastgewerbe (8,1%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (6,8%). Die Arbeitslosenquote war in allen Branchen im Jahr 2021 am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -74425,7 +74465,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:48",
+		"aktualisierungsdatum": "2024-02-21T08:01:52",
 		"id": 9363
 	},
 	{
@@ -75270,8 +75310,8 @@ var indikatoren = [
 		],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2022 betrug die Länge der Begegnungszonen in der Stadt Basel 22,9 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"lesehilfe": "Im Jahr 2023 betrug die Länge der Begegnungszonen in der Stadt Basel 23,5 km, jene der Fussgängerzonen 4,8 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -75298,7 +75338,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-09T09:06:05",
+		"aktualisierungsdatum": "2024-02-21T08:01:53",
 		"id": 9387
 	},
 	{
@@ -80874,7 +80914,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsdichte in Bauzone",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
-		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2022 im Schnitt 57,0 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 141,7 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 160,2 Personen pro Hektar.",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2023 im Schnitt 57,5 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 142,5 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 161,0 Personen pro Hektar.",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -80904,7 +80944,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-16T09:30:52",
+		"aktualisierungsdatum": "2024-02-21T08:01:58",
 		"id": 9737
 	},
 	{
@@ -81546,7 +81586,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 204 550 Personen.",
+		"lesehilfe": "Ende 2023 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 206 308 Personen.",
 		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -81572,7 +81612,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:31",
+		"aktualisierungsdatum": "2024-02-21T08:01:55",
 		"id": 9784
 	},
 	{

@@ -1,13 +1,25 @@
 /* plotBands for weekends and 17.3.2020 when Corona-lockdown started in Switzerland */
 var colorText = '#E7CEE2';
 var colorLine = '#B375AB';
-var startDates = [Date.UTC(2023, 1, 1, 0, 0)];
-var endDates = [Date.UTC(2023, 12, 31, 0, 0)];
-var plotBands = [
+var startDates = [Date.UTC(2022, 11, 30, 15, 0)];
+var endDates = [Date.UTC(2023, 0, 1, 9, 0)];
+var plotBands = [];
+
+//creating weekend-plotbands
+var i = 0;
+while (i < 52) {
+    plotBands.push({
+        color: '#eeeeee',
+        from: parseFloat(startDates) + i * 7 * 24 * 3600 * 1000,
+        to:   parseFloat(endDates) + i * 7 * 24 * 3600 * 1000
+    });
+    i++;
+}
+var plotBands2=[
   {
     color: colorText,
-    from: Date.UTC(2023, 1, 26, 0, 0),
-    to: Date.UTC(2023, 1, 27, 0, 0),
+    from: Date.UTC(2023, 1, 25, 12, 0),
+    to: Date.UTC(2023, 2, 1, 12, 0),
     label: {
       text: 'Basler Fasnacht',
       style: {
@@ -15,33 +27,33 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 2,//-5,
       y: 3,//15
       rotation: -90
     }
   },
   {
     color: colorText,
-    from: Date.UTC(2023, 4, 18, 0, 0),
-    to: Date.UTC(2023, 4, 20, 0, 0),
+    from: Date.UTC(2023, 4, 17, 12, 0),
+    to: Date.UTC(2023, 4, 20, 12, 0),
     label: {
-      text: 'FC Basel vs. ACF Fiorentina',
+      text: 'FCB vs. ACF Fiorentina<br>Fantasy Basel',
       style: {
         color: colorLine,
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: -5,//-5,
+      x: -3,//-5,
       y: 3,//30
       rotation: -90
     }
   },
-  {
+  /*{
     color: colorText,
-    from: Date.UTC(2023, 4, 18, 0, 0),
-    to: Date.UTC(2023, 4, 20, 0, 0),
+    from: Date.UTC(2023, 4, 17, 16, 0),
+    to: Date.UTC(2023, 4, 20, 8, 0),
     label: {
-      text: 'Fantasy Basel',
+      text: 'FCB vs. ACF Fiorentina<br>Fantasy Basel',
       style: {
         color: colorLine,
         fontSize: '7pt',
@@ -51,11 +63,11 @@ var plotBands = [
       y: 3,//40
       rotation: -90
     }
-  },
+  },*/
   {
     color: colorText,
-    from: Date.UTC(2023, 5, 13, 0, 0),
-    to: Date.UTC(2023, 5, 18, 0, 0),
+    from: Date.UTC(2023, 5, 11, 12, 0),
+    to: Date.UTC(2023, 5, 18, 12, 0),
     label: {
       text: 'Art Basel',
       style: {
@@ -63,15 +75,15 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 3,//-5,
       y: 3,//15
       rotation: -90
     }
   },
   {
     color: colorText,
-    from: Date.UTC(2023, 6, 15, 0, 0),
-    to: Date.UTC(2023, 6, 22, 0, 0),
+    from: Date.UTC(2023, 6, 13, 12, 0),
+    to: Date.UTC(2023, 6, 22, 12, 0),
     label: {
       text: 'Basel Tattoo',
       style: {
@@ -79,15 +91,15 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 4,//-5,
       y: 3,//15
       rotation: -90
     }
   },
   {
     color: colorText,
-    from: Date.UTC(2023, 9, 28, 0, 0),
-    to: Date.UTC(2023, 9, 28, 0, 0),
+    from: Date.UTC(2023, 9, 20, 12, 0),
+    to: Date.UTC(2023, 9, 29, 12, 0),
     label: {
       text: 'Swiss Indoors',
       style: {
@@ -95,15 +107,15 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 3,//-5,
       y: 3,//15
       rotation: -90
     }
   },
   {
     color: colorText,
-    from: Date.UTC(2023, 10, 3, 0, 0),
-    to: Date.UTC(2023, 10, 11, 0, 0),
+    from: Date.UTC(2023, 9, 27, 12, 0),
+    to: Date.UTC(2023, 10, 14, 12, 0),
     label: {
       text: 'Herbstmesse',
       style: {
@@ -111,15 +123,20 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 9,//-5,
       y: 3,//30
       rotation: -90
     }
   },
   {
+    color: '#C7BED2',
+    from: Date.UTC(2023, 9, 27, 12, 0),
+    to: Date.UTC(2023, 9, 29, 12, 0),
+  },
+  {
     color: colorText,
-    from: Date.UTC(2023, 10, 18, 0, 0),
-    to: Date.UTC(2023, 10, 18, 0, 0),
+    from: Date.UTC(2023, 10, 17, 12, 0),
+    to: Date.UTC(2023, 10, 22, 10, 0),
     label: {
       text: 'Igeho',
       style: {
@@ -127,15 +144,15 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-3,
+      x: 2,//-3,
       y: 3,//45
       rotation: -90
     }
   },
   {
     color: colorText,
-    from: Date.UTC(2023, 10, 25, 0, 0),
-    to: Date.UTC(2023, 11, 16, 0, 0),
+    from: Date.UTC(2023, 10, 22, 16, 0),
+    to: Date.UTC(2023, 11, 23, 12, 0),
     label: {
       text: 'Weihnachtsmarkt',
       style: {
@@ -143,22 +160,14 @@ var plotBands = [
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-15,
+      x: 17,//-15,
       y: 3,//60,
       rotation: -90
     }
   }
 ];
-//creating weekend-plotbands
-/*var i = 0;
-while (i < 52) {
-    plotBands.push({
-        color: '#eeeeee',
-        from: parseFloat(startDates) + i * 7 * 24 * 3600 * 1000,
-        to: parseFloat(endDates) + i * 7 * 24 * 3600 * 1000
-    });
-    i++;
-}*/
+
+plotBands.push(...plotBands2);
 
 (function () {
   return {
@@ -192,6 +201,7 @@ while (i < 52) {
       top: 330,
       series: {
         //type: 'column',
+        //stacking: 'normal',
         pointRange: null
       },
       xAxis: {

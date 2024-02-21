@@ -74,6 +74,10 @@
         [
           2022,
           141.7
+        ],
+        [
+          2023,
+          142.5
         ]
       ],
       "name": "Bevölkerungsdichte in Bauzonen"
@@ -152,6 +156,10 @@
         [
           2022,
           160.2
+        ],
+        [
+          2023,
+          161
         ]
       ],
       "name": "Bevölkerungsdichte in Bauzonen mit potentieller Wohnnutzung"
@@ -230,6 +238,10 @@
         [
           2022,
           57
+        ],
+        [
+          2023,
+          57.5
         ]
       ],
       "name": "Bevölkerungsdichte Kanton Basel-Stadt"
@@ -351,7 +363,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

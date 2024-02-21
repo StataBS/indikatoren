@@ -39,6 +39,45 @@ var indikatorensetData = [
 		"id": 11899
 	},
 	{
+		"template": "stock001",
+		"data-id": 11903,
+		"chart-id": 6033,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
+		"title": "Hitzetage",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.11903",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-21T08:01:50",
+		"id": 11903
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"kuerzel": "I.01.1.5201",
@@ -1089,8 +1128,8 @@ var indikatorensetData = [
 		],
 		"title": "Bauzonen",
 		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
-		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2021 im Vergleich zu 2005 um 0,08 Indexpunkte kleiner. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 100,91 Indexpunkten.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2023 im Vergleich zu 2005 um 0,2 Indexpunkte grösser. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 101,28 Indexpunkten.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert per 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -1118,7 +1157,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:37",
+		"aktualisierungsdatum": "2024-02-21T08:02:00",
 		"id": 7775
 	},
 	{

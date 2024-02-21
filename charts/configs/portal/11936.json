@@ -2953,9 +2953,269 @@
     },
     "plotBands": [
       {
+        "color": "#eeeeee",
+        "from": 1672412400000,
+        "to": 1672563600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1673017200000,
+        "to": 1673168400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1673622000000,
+        "to": 1673773200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1674226800000,
+        "to": 1674378000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1674831600000,
+        "to": 1674982800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1675436400000,
+        "to": 1675587600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1676041200000,
+        "to": 1676192400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1676646000000,
+        "to": 1676797200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1677250800000,
+        "to": 1677402000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1677855600000,
+        "to": 1678006800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1678460400000,
+        "to": 1678611600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1679065200000,
+        "to": 1679216400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1679670000000,
+        "to": 1679821200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1680274800000,
+        "to": 1680426000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1680879600000,
+        "to": 1681030800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1681484400000,
+        "to": 1681635600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1682089200000,
+        "to": 1682240400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1682694000000,
+        "to": 1682845200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1683298800000,
+        "to": 1683450000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1683903600000,
+        "to": 1684054800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1684508400000,
+        "to": 1684659600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1685113200000,
+        "to": 1685264400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1685718000000,
+        "to": 1685869200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1686322800000,
+        "to": 1686474000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1686927600000,
+        "to": 1687078800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1687532400000,
+        "to": 1687683600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1688137200000,
+        "to": 1688288400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1688742000000,
+        "to": 1688893200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1689346800000,
+        "to": 1689498000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1689951600000,
+        "to": 1690102800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1690556400000,
+        "to": 1690707600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1691161200000,
+        "to": 1691312400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1691766000000,
+        "to": 1691917200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1692370800000,
+        "to": 1692522000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1692975600000,
+        "to": 1693126800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1693580400000,
+        "to": 1693731600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1694185200000,
+        "to": 1694336400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1694790000000,
+        "to": 1694941200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1695394800000,
+        "to": 1695546000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1695999600000,
+        "to": 1696150800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1696604400000,
+        "to": 1696755600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1697209200000,
+        "to": 1697360400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1697814000000,
+        "to": 1697965200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1698418800000,
+        "to": 1698570000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1699023600000,
+        "to": 1699174800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1699628400000,
+        "to": 1699779600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1700233200000,
+        "to": 1700384400000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1700838000000,
+        "to": 1700989200000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1701442800000,
+        "to": 1701594000000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1702047600000,
+        "to": 1702198800000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1702652400000,
+        "to": 1702803600000
+      },
+      {
+        "color": "#eeeeee",
+        "from": 1703257200000,
+        "to": 1703408400000
+      },
+      {
         "color": "#E7CEE2",
-        "from": 1677369600000,
-        "to": 1677456000000,
+        "from": 1677326400000,
+        "to": 1677672000000,
         "label": {
           "text": "Basler Fasnacht",
           "style": {
@@ -2963,47 +3223,31 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 2,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1684368000000,
-        "to": 1684540800000,
+        "from": 1684324800000,
+        "to": 1684584000000,
         "label": {
-          "text": "FC Basel vs. ACF Fiorentina",
+          "text": "FCB vs. ACF Fiorentina\u003Cbr\u003EFantasy Basel",
           "style": {
             "color": "#B375AB",
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": -5,
+          "x": -3,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1684368000000,
-        "to": 1684540800000,
-        "label": {
-          "text": "Fantasy Basel",
-          "style": {
-            "color": "#B375AB",
-            "fontSize": "7pt"
-          },
-          "textAlign": "right",
-          "x": 5,
-          "y": 3,
-          "rotation": -90
-        }
-      },
-      {
-        "color": "#E7CEE2",
-        "from": 1686614400000,
-        "to": 1687046400000,
+        "from": 1686484800000,
+        "to": 1687089600000,
         "label": {
           "text": "Art Basel",
           "style": {
@@ -3011,15 +3255,15 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 3,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1689379200000,
-        "to": 1689984000000,
+        "from": 1689249600000,
+        "to": 1690027200000,
         "label": {
           "text": "Basel Tattoo",
           "style": {
@@ -3027,15 +3271,15 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 4,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1698451200000,
-        "to": 1698451200000,
+        "from": 1697803200000,
+        "to": 1698580800000,
         "label": {
           "text": "Swiss Indoors",
           "style": {
@@ -3043,15 +3287,15 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 3,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1698969600000,
-        "to": 1699660800000,
+        "from": 1698408000000,
+        "to": 1699963200000,
         "label": {
           "text": "Herbstmesse",
           "style": {
@@ -3059,15 +3303,20 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 9,
           "y": 3,
           "rotation": -90
         }
       },
       {
+        "color": "#C7BED2",
+        "from": 1698408000000,
+        "to": 1698580800000
+      },
+      {
         "color": "#E7CEE2",
-        "from": 1700265600000,
-        "to": 1700265600000,
+        "from": 1700222400000,
+        "to": 1700647200000,
         "label": {
           "text": "Igeho",
           "style": {
@@ -3075,15 +3324,15 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 2,
           "y": 3,
           "rotation": -90
         }
       },
       {
         "color": "#E7CEE2",
-        "from": 1700870400000,
-        "to": 1702684800000,
+        "from": 1700668800000,
+        "to": 1703332800000,
         "label": {
           "text": "Weihnachtsmarkt",
           "style": {
@@ -3091,7 +3340,7 @@
             "fontSize": "7pt"
           },
           "textAlign": "right",
-          "x": 0,
+          "x": 17,
           "y": 3,
           "rotation": -90
         }
@@ -3219,7 +3468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2024"
   },
   "navigator": {
     "enabled": true,

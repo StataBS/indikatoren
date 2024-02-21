@@ -404,7 +404,7 @@ var indikatorensetData = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2022 wiesen Personen aus der Gruppe der afrikanischen Länder den höchsten Segregationsindex auf (37,0). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert waren. Danach folgten Personen aus der Gruppe der arabischen Länder (36,0). Die niedrigsten Indices ergaben sich 2022 für Schweizer (16,1) und Deutsche (17,8). Im Vergleich zu 2000 sind die Segregationsindices sämtlicher Ländergruppen zurückgegangen.",
+		"lesehilfe": "2023 weisen Personen aus arabischen und afrikanischen Ländern die höchsten Segregationsindices auf (37,2 bzw. 35,6). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert sind. Die niedrigsten Indices ergeben sich für Schweizer (16,0) und Deutsche (17,8). Im Vergleich zu 2000 sind die Segregationsindices sämtlicher Ländergruppen zurückgegangen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -429,7 +429,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:06:05",
+		"aktualisierungsdatum": "2024-02-21T08:01:52",
 		"id": 8055
 	},
 	{

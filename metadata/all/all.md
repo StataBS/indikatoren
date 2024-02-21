@@ -2312,6 +2312,7 @@ id | visible | visibleInPortal | indikatorenset
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
 11899 | true | true | Richtplan
+11903 | true | false | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
-11936 | true | true | 
+11936 | true | false | 
