@@ -1,13 +1,13 @@
 /* plotBands for weekends and 17.3.2020 when Corona-lockdown started in Switzerland */
 var colorText = '#E7CEE2';
 var colorLine = '#B375AB';
-var startDates = [Date.UTC(2022, 11, 30, 15, 0)];
-var endDates = [Date.UTC(2023, 0, 1, 9, 0)];
-var plotBands = [];
+//var startDates = [Date.UTC(2022, 11, 30, 15, 0)];
+//var endDates = [Date.UTC(2023, 0, 1, 9, 0)];
+//var plotBands = [];
 
 //creating weekend-plotbands
-var i = 0;
-while (i < 52) {
+/*var i = 0;
+while (i < 52) { 
     plotBands.push({
         color: '#eeeeee',
         from: parseFloat(startDates) + i * 7 * 24 * 3600 * 1000,
@@ -15,7 +15,8 @@ while (i < 52) {
     });
     i++;
 }
-var plotBands2=[
+*/
+var plotBands=[
   {
     color: colorText,
     from: Date.UTC(2023, 1, 25, 12, 0),
@@ -167,7 +168,7 @@ var plotBands2=[
   }
 ];
 
-plotBands.push(...plotBands2);
+//plotBands.push(...plotBands2);
 
 (function () {
   return {
