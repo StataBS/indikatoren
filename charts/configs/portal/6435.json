@@ -1,124 +1,360 @@
 {
   "series": [
     {
-      "color": "#008AC3 ",
+      "index": 0,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            var errorBarPoint = this.series.chart.series[1].points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
       "data": [
         [
-          2008,
-          44
+          "2008",
+          44.2443
         ],
         [
-          2009,
-          42
+          "2009",
+          42.4953
         ],
         [
-          2010,
-          37
+          "2010",
+          37.1815
         ],
         [
-          2011,
-          34
+          "2011",
+          34.3919
         ],
         [
-          2012,
-          39
+          "2012",
+          38.5962
         ],
         [
-          2013,
-          38
+          "2013",
+          37.9677
         ],
         [
-          2014,
-          37
+          "2014",
+          36.8224
         ],
         [
-          2015,
-          37
+          "2015",
+          37.0905
         ],
         [
-          2016,
-          38
+          "2016",
+          37.7061
         ],
         [
-          2017,
-          33
+          "2017",
+          33.4825
         ],
         [
-          2018,
-          36
+          "2018",
+          35.881
         ],
         [
-          2019,
-          40
+          "2019",
+          39.5009
         ],
         [
-          2020,
-          39
+          "2020",
+          38.8065
+        ],
+        [
+          "2021",
+          33.2255
+        ],
+        [
+          "2022",
+          40.0686
         ]
       ],
-      "name": "Männer"
+      "name": "Männer",
+      "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2008",
+          "low": 38.0095,
+          "high": 50.4791
+        },
+        {
+          "name": "2009",
+          "low": 36.5119,
+          "high": 48.4788
+        },
+        {
+          "name": "2010",
+          "low": 31.2635,
+          "high": 43.0995
+        },
+        {
+          "name": "2011",
+          "low": 28.9927,
+          "high": 39.7912
+        },
+        {
+          "name": "2012",
+          "low": 33.1656,
+          "high": 44.0269
+        },
+        {
+          "name": "2013",
+          "low": 31.8835,
+          "high": 44.0519
+        },
+        {
+          "name": "2014",
+          "low": 29.9879,
+          "high": 43.6569
+        },
+        {
+          "name": "2015",
+          "low": 31.0545,
+          "high": 43.1266
+        },
+        {
+          "name": "2016",
+          "low": 31.1343,
+          "high": 44.2779
+        },
+        {
+          "name": "2017",
+          "low": 27.6858,
+          "high": 39.2791
+        },
+        {
+          "name": "2018",
+          "low": 29.9923,
+          "high": 41.7696
+        },
+        {
+          "name": "2019",
+          "low": 33.086,
+          "high": 45.9158
+        },
+        {
+          "name": "2020",
+          "low": 32.8771,
+          "high": 44.7358
+        },
+        {
+          "name": "2021",
+          "low": 28.1441,
+          "high": 38.307
+        },
+        {
+          "name": "2022",
+          "low": 34.8522,
+          "high": 45.2849
+        }
+      ],
+      "name": "Männer 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#DC440E",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            var errorBarPoint = this.series.chart.series[3].points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
       "data": [
         [
-          2008,
-          29
+          "2008",
+          29.1717
         ],
         [
-          2009,
-          29
+          "2009",
+          28.7892
         ],
         [
-          2010,
-          23
+          "2010",
+          23.3917
         ],
         [
-          2011,
-          23
+          "2011",
+          22.6503
         ],
         [
-          2012,
-          21
+          "2012",
+          20.5736
         ],
         [
-          2013,
-          28
+          "2013",
+          28.4083
         ],
         [
-          2014,
-          24
+          "2014",
+          23.7467
         ],
         [
-          2015,
-          26
+          "2015",
+          26.3637
         ],
         [
-          2016,
-          27
+          "2016",
+          26.5868
         ],
         [
-          2017,
-          21
+          "2017",
+          21.4339
         ],
         [
-          2018,
-          28
+          "2018",
+          28.4154
         ],
         [
-          2019,
-          32
+          "2019",
+          31.9646
         ],
         [
-          2020,
-          32
+          "2020",
+          32.4728
+        ],
+        [
+          "2021",
+          29.8681
+        ],
+        [
+          "2022",
+          25.8635
         ]
       ],
-      "name": "Frauen"
+      "name": "Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[2];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2008",
+          "low": 23.0557,
+          "high": 35.2878
+        },
+        {
+          "name": "2009",
+          "low": 23.4327,
+          "high": 34.1457
+        },
+        {
+          "name": "2010",
+          "low": 18.8606,
+          "high": 27.9229
+        },
+        {
+          "name": "2011",
+          "low": 18.0436,
+          "high": 27.257
+        },
+        {
+          "name": "2012",
+          "low": 16.5264,
+          "high": 24.6207
+        },
+        {
+          "name": "2013",
+          "low": 23.1522,
+          "high": 33.6643
+        },
+        {
+          "name": "2014",
+          "low": 18.9622,
+          "high": 28.5313
+        },
+        {
+          "name": "2015",
+          "low": 20.9454,
+          "high": 31.782
+        },
+        {
+          "name": "2016",
+          "low": 21.0977,
+          "high": 32.0759
+        },
+        {
+          "name": "2017",
+          "low": 16.2872,
+          "high": 26.5807
+        },
+        {
+          "name": "2018",
+          "low": 23.1236,
+          "high": 33.7071
+        },
+        {
+          "name": "2019",
+          "low": 26.2453,
+          "high": 37.684
+        },
+        {
+          "name": "2020",
+          "low": 26.6007,
+          "high": 38.345
+        },
+        {
+          "name": "2021",
+          "low": 25.0302,
+          "high": 34.706
+        },
+        {
+          "name": "2022",
+          "low": 21.3853,
+          "high": 30.3417
+        }
+      ],
+      "name": "Frauen 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -152,14 +388,9 @@
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "title": {
@@ -180,26 +411,8 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": {
-    "min": undefined,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -214,7 +427,10 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}",
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0)+'%';
+        }
     }
   },
   "legend": {
@@ -226,7 +442,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 100,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -242,7 +457,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-6"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -277,10 +492,6 @@
 					}]
 				}, true, true);
 			}
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6435"

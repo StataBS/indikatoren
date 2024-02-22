@@ -108,6 +108,10 @@
         [
           "2022",
           -0.81
+        ],
+        [
+          "2023",
+          0.01
         ]
       ],
       "name": "Veränderung Arbeitslosenquote Basel-Stadt",
@@ -221,6 +225,10 @@
         [
           "2022",
           -0.8
+        ],
+        [
+          "2023",
+          -0.13
         ]
       ],
       "name": "Veränderung Arbeitslosenquote Schweiz",
@@ -329,6 +337,10 @@
         [
           "2022",
           0
+        ],
+        [
+          "2023",
+          1
         ]
       ],
       "name": "Bewertung",
@@ -438,6 +450,10 @@
         [
           "2022",
           3.05
+        ],
+        [
+          "2023",
+          3.06
         ]
       ],
       "name": "Arbeitslosenquote Basel-Stadt",
@@ -547,6 +563,10 @@
         [
           "2022",
           2.17
+        ],
+        [
+          "2023",
+          2.03
         ]
       ],
       "name": "Arbeitslosenquote  Schweiz",
@@ -568,11 +588,17 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "step": 2,
-      "rotation": -45
+      }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "chart": {
     "type": "column",
@@ -641,7 +667,8 @@
       }
     },
     "column": {
-      "borderWidth": 0
+      "borderWidth": 0,
+      "minPointLength": 1
     }
   },
   "title": {
@@ -706,7 +733,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

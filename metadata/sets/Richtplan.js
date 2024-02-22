@@ -1,5 +1,83 @@
 var indikatorensetData = [
 	{
+		"template": "template001",
+		"data-id": 11899,
+		"chart-id": 11899,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/zukuenftige-entwicklung/kantonale-szenarien.html' target = '_blank'>Kantonale Szenarien, Bundesamt für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-08T02:24:42",
+		"id": 11899
+	},
+	{
+		"template": "stock001",
+		"data-id": 11903,
+		"chart-id": 6033,
+		"filter": "",
+		"parentId": "6033",
+		"children": [],
+		"title": "Hitzetage",
+		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.11903",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-22T08:49:08",
+		"id": 11903
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"kuerzel": "I.01.1.5201",
@@ -567,8 +645,8 @@ var indikatorensetData = [
 		],
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Schweizer Städte hat sich 2021 gegenüber dem Vorjahr verbessert. Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit der europäischen Regionen im Jahr 2020 markant gesunken. Der Erreichbarkeitsindex 2021 (z. B. Basel: 121,6) ist höher als 2020 (106,8), aber immer noch tiefer als 2018 (133,3) und als im Jahr 2000 (126,6). Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
-		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 kurzfristig zu beobachten, wurde die Erreichbarkeit ausnahmsweise auch für das Jahr 2021 berechnet.",
+		"lesehilfe": "Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie sank die Erreichbarkeit der europäischen Regionen im Jahr 2020 markant. Der Erreichbarkeitsindex 2022 (z. B. Basel: 118,4) ist höher als 2020 (106,8), aber immer noch tiefer als 2018 (133,3) und als im Jahr 2000 (126,6).",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 kurzfristig zu beobachten, wurde die Erreichbarkeit engegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -595,7 +673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:44",
+		"aktualisierungsdatum": "2024-01-29T08:32:38",
 		"id": 5891
 	},
 	{
@@ -970,7 +1048,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2012 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 193 459 auf 204 550 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2013 und dem 31.12.2023 nahm die Bevölkerung im Kanton Basel-Stadt von 195 459 auf 206 308 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -997,7 +1075,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-15T08:14:10",
+		"aktualisierungsdatum": "2024-01-25T09:06:14",
 		"id": 7773
 	},
 	{
@@ -1050,8 +1128,8 @@ var indikatorensetData = [
 		],
 		"title": "Bauzonen",
 		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
-		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2021 im Vergleich zu 2005 um 0,08 Indexpunkte kleiner. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 100,91 Indexpunkten.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2023 im Vergleich zu 2005 um 0,2 Indexpunkte grösser. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 101,28 Indexpunkten.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert per 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -1079,7 +1157,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:37",
+		"aktualisierungsdatum": "2024-02-22T08:49:43",
 		"id": 7775
 	},
 	{

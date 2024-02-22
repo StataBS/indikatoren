@@ -7,120 +7,6 @@
       "data": [
         [
           "Jan",
-          1447
-        ],
-        [
-          "Feb",
-          1607
-        ],
-        [
-          "Mrz",
-          1521
-        ],
-        [
-          "Apr",
-          1776
-        ],
-        [
-          "Mai",
-          2152
-        ],
-        [
-          "Jun",
-          1914
-        ],
-        [
-          "Jul",
-          1982
-        ],
-        [
-          "Aug",
-          1755
-        ],
-        [
-          "Sep",
-          1517
-        ],
-        [
-          "Okt",
-          1503
-        ],
-        [
-          "Nov",
-          1406
-        ],
-        [
-          "Dez",
-          1250
-        ]
-      ],
-      "name": "Meldepflichtig 2022",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "legendIndex": 2,
-      "color": "rgb(250, 189, 36)",
-      "data": [
-        [
-          "Jan",
-          522
-        ],
-        [
-          "Feb",
-          522
-        ],
-        [
-          "Mrz",
-          497
-        ],
-        [
-          "Apr",
-          571
-        ],
-        [
-          "Mai",
-          574
-        ],
-        [
-          "Jun",
-          640
-        ],
-        [
-          "Jul",
-          601
-        ],
-        [
-          "Aug",
-          604
-        ],
-        [
-          "Sep",
-          436
-        ],
-        [
-          "Okt",
-          474
-        ],
-        [
-          "Nov",
-          412
-        ],
-        [
-          "Dez",
-          434
-        ]
-      ],
-      "name": "Nicht meldepflichtig 2022",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "legendIndex": 1,
-      "color": "rgb(0, 122, 47)",
-      "data": [
-        [
-          "Jan",
           1312
         ],
         [
@@ -165,16 +51,16 @@
         ],
         [
           "Dez",
-          null
+          822
         ]
       ],
       "name": "Meldepflichtig 2023",
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "legendIndex": 3,
-      "color": "rgb(205, 156, 0)",
+      "stack": 1,
+      "legendIndex": 2,
+      "color": "rgb(250, 189, 36)",
       "data": [
         [
           "Jan",
@@ -222,10 +108,124 @@
         ],
         [
           "Dez",
-          null
+          461
         ]
       ],
       "name": "Nicht meldepflichtig 2023",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 1,
+      "color": "rgb(0, 122, 47)",
+      "data": [
+        [
+          "Jan",
+          739
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Meldepflichtig 2024",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 3,
+      "color": "rgb(205, 156, 0)",
+      "data": [
+        [
+          "Jan",
+          630
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Nicht meldepflichtig 2024",
       "turboThreshold": 0
     }
   ],
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.12.2023"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

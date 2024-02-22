@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          5019
+          4946
         ],
         [
           "Bern",
-          7438
+          7336
         ],
         [
           "Genf",
-          5118
+          5210
         ],
         [
           "Lausanne",
-          5069
+          4988
         ],
         [
           "Zürich",
-          8981
+          8998
         ],
         [
           "Frankfurt a. M.",
@@ -46,23 +46,23 @@
         ],
         [
           "Lille",
-          4455
+          4530
         ],
         [
           "Lyon",
-          7431
+          7537
         ],
         [
           "Metz",
-          1599
+          1626
         ],
         [
           "Paris",
-          17164
+          16922
         ],
         [
           "Strassburg",
-          3853
+          3975
         ],
         [
           "Mailand",
@@ -74,7 +74,7 @@
         ],
         [
           "Lissabon",
-          20959
+          21376
         ],
         [
           "Porto",
@@ -82,15 +82,11 @@
         ],
         [
           "Barcelona",
-          6072
+          5987
         ],
         [
           "Madrid",
-          18731
-        ],
-        [
-          "London",
-          2000
+          17876
         ]
       ],
       "name": "1. Sektor",
@@ -102,23 +98,23 @@
       "data": [
         [
           "Basel",
-          117238
+          116559
         ],
         [
           "Bern",
-          42017
+          41290
         ],
         [
           "Genf",
-          69294
+          69179
         ],
         [
           "Lausanne",
-          38365
+          38003
         ],
         [
           "Zürich",
-          128213
+          125868
         ],
         [
           "Frankfurt a. M.",
@@ -142,23 +138,23 @@
         ],
         [
           "Lille",
-          91937
+          93089
         ],
         [
           "Lyon",
-          199559
+          202425
         ],
         [
           "Metz",
-          28742
+          28529
         ],
         [
           "Paris",
-          771418
+          770519
         ],
         [
           "Strassburg",
-          71859
+          73290
         ],
         [
           "Mailand",
@@ -170,7 +166,7 @@
         ],
         [
           "Lissabon",
-          205573
+          140734
         ],
         [
           "Porto",
@@ -178,15 +174,11 @@
         ],
         [
           "Barcelona",
-          397007
+          402556
         ],
         [
           "Madrid",
-          502827
-        ],
-        [
-          "London",
-          547400
+          516516
         ]
       ],
       "name": "2. Sektor",
@@ -198,23 +190,23 @@
       "data": [
         [
           "Basel",
-          351998
+          349538
         ],
         [
           "Bern",
-          276729
+          275249
         ],
         [
           "Genf",
-          417228
+          411850
         ],
         [
           "Lausanne",
-          233690
+          232529
         ],
         [
           "Zürich",
-          862845
+          859057
         ],
         [
           "Frankfurt a. M.",
@@ -238,23 +230,23 @@
         ],
         [
           "Lille",
-          520426
+          532071
         ],
         [
           "Lyon",
-          828810
+          845103
         ],
         [
           "Metz",
-          129061
+          131388
         ],
         [
           "Paris",
-          5235158
+          5276797
         ],
         [
           "Strassburg",
-          295521
+          300553
         ],
         [
           "Mailand",
@@ -266,7 +258,7 @@
         ],
         [
           "Lissabon",
-          1109267
+          382537
         ],
         [
           "Porto",
@@ -274,15 +266,11 @@
         ],
         [
           "Barcelona",
-          1875403
+          1934407
         ],
         [
           "Madrid",
-          3038806
-        ],
-        [
-          "London",
-          6250700
+          3109936
         ]
       ],
       "name": "3. Sektor",
@@ -365,7 +353,7 @@
     "text": "Beschäftigte nach Wirtschaftssektor"
   },
   "subtitle": {
-    "text": "Anteile an der Gesamtbeschäftigung, 2020",
+    "text": "Anteile an der Gesamtbeschäftigung, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -422,7 +410,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

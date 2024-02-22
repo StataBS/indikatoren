@@ -74,6 +74,14 @@
         [
           2021,
           99.92
+        ],
+        [
+          2022,
+          99.9
+        ],
+        [
+          2023,
+          100.2
         ]
       ],
       "name": "Bauzonen (Index)"
@@ -152,6 +160,14 @@
         [
           2021,
           100.91
+        ],
+        [
+          2022,
+          100.93
+        ],
+        [
+          2023,
+          101.28
         ]
       ],
       "name": "Bauzonen mit potenzieller Wohnnutzung (Index)"
@@ -297,7 +313,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

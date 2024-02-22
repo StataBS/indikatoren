@@ -1073,7 +1073,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 zurückgegangen. Sie ist 2022 in allen Altersgruppen rückläufig gewesen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) verringerte sich beispielsweise von 4,0% im Jahr 2021 auf 3,1% im Jahr 2022.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat sich von 3,0% im Jahr 2022 auf 3,1% im Jahr 2023 kaum verändert. Während die Arbeitslosenquote für Arbeitslose unter 50 Jahre von 2022 auf 2023 leicht gestiegen ist, so war sie für die Arbeitslosen ab 50 Jahren leicht rückläufig. Die Arbeitslosenquote für Menschen über 60 Jahre ist beispielsweise von 3,1% im Jahr 2022 auf 2,8% im Jahr 2023 gesunken.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1098,7 +1098,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:11",
+		"aktualisierungsdatum": "2024-01-25T09:05:59",
 		"id": 8251
 	},
 	{

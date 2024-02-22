@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          81417
+          81244
         ],
         [
           "Bern",
-          72299
+          71424
         ],
         [
           "Genf",
-          84804
+          80405
         ],
         [
           "Lausanne",
-          65876
+          65970
         ],
         [
           "Zürich",
-          228517
+          226230
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          172693
+          172315
         ],
         [
           "Bern",
-          136127
+          138494
         ],
         [
           "Genf",
-          164434
+          161799
         ],
         [
           "Lausanne",
-          134836
+          137278
         ],
         [
           "Zürich",
-          484629
+          486694
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          42902
+          43808
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          154626
+          157826
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Erwerbstätige im Alter von 20 bis 64 Jahren"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

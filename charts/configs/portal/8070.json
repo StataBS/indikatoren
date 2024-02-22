@@ -5,53 +5,6 @@
       "data": [
         [
           "Sonst. wirtsch. DL",
-          2260
-        ],
-        [
-          "Schifffahrt, Luftfahrt",
-          994
-        ],
-        [
-          "Landverkehr",
-          603
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          529
-        ],
-        [
-          "Chemie",
-          632
-        ],
-        [
-          "Baunebengewerbe",
-          513
-        ],
-        [
-          "Öff. Verwaltung",
-          389
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          274
-        ],
-        [
-          "Lagerei",
-          471
-        ],
-        [
-          "Energieversorgung",
-          340
-        ]
-      ],
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Sonst. wirtsch. DL",
           2196
         ],
         [
@@ -59,43 +12,43 @@
           1110
         ],
         [
-          "Landverkehr",
-          613
+          "Gastronomie",
+          1325
         ],
         [
           "Architektur- und Ingenieurbüros",
           569
         ],
         [
-          "Chemie",
-          585
-        ],
-        [
           "Baunebengewerbe",
           489
-        ],
-        [
-          "Öff. Verwaltung",
-          411
         ],
         [
           "Personalvermittlung, -überlassung",
           269
         ],
         [
+          "Chemie",
+          585
+        ],
+        [
+          "Öff. Verwaltung",
+          411
+        ],
+        [
           "Lagerei",
           461
         ],
         [
-          "Energieversorgung",
-          335
+          "Landverkehr",
+          613
         ]
       ],
       "name": "2019",
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Sonst. wirtsch. DL",
@@ -106,39 +59,86 @@
           1012
         ],
         [
-          "Landverkehr",
-          595
+          "Gastronomie",
+          326
         ],
         [
           "Architektur- und Ingenieurbüros",
           544
         ],
         [
-          "Chemie",
-          509
-        ],
-        [
           "Baunebengewerbe",
           499
-        ],
-        [
-          "Öff. Verwaltung",
-          493
         ],
         [
           "Personalvermittlung, -überlassung",
           457
         ],
         [
+          "Chemie",
+          509
+        ],
+        [
+          "Öff. Verwaltung",
+          493
+        ],
+        [
           "Lagerei",
           422
         ],
         [
-          "Energieversorgung",
-          345
+          "Landverkehr",
+          595
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2168
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1090
+        ],
+        [
+          "Gastronomie",
+          1032
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          591
+        ],
+        [
+          "Baunebengewerbe",
+          536
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          516
+        ],
+        [
+          "Chemie",
+          497
+        ],
+        [
+          "Öff. Verwaltung",
+          454
+        ],
+        [
+          "Lagerei",
+          450
+        ],
+        [
+          "Landverkehr",
+          383
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -271,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

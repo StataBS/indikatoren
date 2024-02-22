@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:08",
+		"aktualisierungsdatum": "2024-01-23T08:09:06",
 		"id": 8095
 	},
 	{
@@ -44,8 +44,8 @@ var indikatorensetData = [
 		"parentId": "7953",
 		"children": [],
 		"title": "Gesamtbevölkerung",
-		"subtitle": "2020",
-		"lesehilfe": "Die trinationale Agglomeration Basel zählt 2020 rund 863 500 Einwohnerinnen und Einwohner und ist damit die drittgrösste Agglomeration der Schweiz, nach Zürich und Genf (grenzüberschreitend). Ein Fünftel der Bevölkerung wohnt in der Kernstadt Basel, 44% in den weiteren Schweizer Gemeinden, 25% in Deutschland und 11% in Frankreich. Der Anteil der in der Kernstadt wohnenden Bevölkerung ist in Basel (20%) sowie in Genf (22%) kleiner als in Zürich (30%), Bern (32%) oder Lausanne (33%).",
+		"subtitle": "2021",
+		"lesehilfe": "Die trinationale Agglomeration Basel zählt 2021 rund 867 400 Einwohnerinnen und Einwohner und ist damit die drittgrösste Agglomeration der Schweiz, nach Zürich und Genf (grenzüberschreitend). Ein Fünftel der Bevölkerung wohnt in der Kernstadt Basel, 44% in den weiteren Schweizer Gemeinden, 25% in Deutschland und 11% in Frankreich. Der Anteil der in der Kernstadt wohnenden Bevölkerung ist in Basel (20%) sowie in Genf (22%) kleiner als in Zürich (30%), Bern oder Lausanne (je 32%).",
 		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung dargestellt. Die Agglomerationen sind gemäss Typologie «Raum mit städtischem Charakter 2012» des BFS definiert. Eine Agglomeration besteht aus einer Kernstadt und den übrigen Agglomerationsgemeinden. Die Agglomerationen Basel und Genf sind grenzüberschreitend.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:08",
+		"aktualisierungsdatum": "2024-01-23T08:09:12",
 		"id": 8096
 	},
 	{
@@ -81,8 +81,8 @@ var indikatorensetData = [
 		"parentId": "7954",
 		"children": [],
 		"title": "Bevölkerungsdichte nach Gemeinde",
-		"subtitle": "trinationale Agglomeration Basel, 2020",
-		"lesehilfe": "Mit 7 263 Einwohnerinnen und Einwohnern pro Quadratkilometer ist die Kernstadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteilen zeigen folgende Gemeinden die höchste Bevölkerungsdichte: Birsfelden (4 156) in der Schweiz; Huningue (2 365) in Frankreich; Weil am Rhein (1 549) in Deutschland.",
+		"subtitle": "trinationale Agglomeration Basel, 2021",
+		"lesehilfe": "Mit 7 290 Einwohnerinnen und Einwohnern pro Quadratkilometer ist die Kernstadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteilen zeigen folgende Gemeinden die höchste Bevölkerungsdichte: Birsfelden (4 142) in der Schweiz; Huningue (2 372) in Frankreich; Weil am Rhein (1 542) in Deutschland.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:10",
+		"aktualisierungsdatum": "2024-01-23T08:09:17",
 		"id": 8097
 	},
 	{
@@ -118,8 +118,8 @@ var indikatorensetData = [
 		"parentId": "7955",
 		"children": [],
 		"title": "Jugendquotient",
-		"subtitle": "2020",
-		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen weiteren Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (39,1) und Genf (43,2) hoch. In der gesamten Agglomeration Basel ist der Jugendquotient (32,2) tiefer als in den Agglomerationen Genf und Lausanne.",
+		"subtitle": "2021",
+		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen weiteren Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (38,9) und Genf (43,2) hoch. In der gesamten Agglomeration ist der Jugendquotient in Genf am höchsten.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:11",
+		"aktualisierungsdatum": "2024-01-23T08:09:18",
 		"id": 8098
 	},
 	{
@@ -155,8 +155,8 @@ var indikatorensetData = [
 		"parentId": "7957",
 		"children": [],
 		"title": "Altersquotient",
-		"subtitle": "2020",
-		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 34,2 im Jahr 2020 deutlich höher als in den Agglomerationen Genf, Lausanne oder Zürich. Dies ist auf die relativ ältere Bevölkerung in der Kernstadt Basel (Altersquotient von 29,7) sowie im Schweizer und im deutschen Gürtel der Agglomeration (37,4 bzw. 34,3) zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (33,6).",
+		"subtitle": "2021",
+		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 34,6 im Jahr 2021 deutlich höher als in den Agglomerationen Genf, Lausanne oder Zürich. Dies ist auf die relativ ältere Bevölkerung in allen Teilen der Agglomeration zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (34,0).",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:12",
+		"aktualisierungsdatum": "2024-01-23T08:09:26",
 		"id": 8100
 	},
 	{
@@ -192,8 +192,8 @@ var indikatorensetData = [
 		"parentId": "7958",
 		"children": [],
 		"title": "Ausländeranteil",
-		"subtitle": "2020",
-		"lesehilfe": "Den grössten Ausländeranteil weist die Kernstadt Genf (48,0%) auf. Ausländeranteile von nur gerade 15-16% werden hingegen in den Agglomerationsgemeinden (ohne Kernstadt) von Bern sowie in den deutschen und französischen Gemeinden der Agglomeration Basel registriert. Als gesamte Agglomeration betrachtet haben nur Lausanne und Genf einen Ausländeranteil von über 30%, in Basel liegt der Anteil bei 23,5%.",
+		"subtitle": "2021",
+		"lesehilfe": "Den grössten Ausländeranteil weist die Kernstadt Genf (48,3%) auf. Ausländeranteile von nur gerade rund 16% werden hingegen in den Agglomerationsgemeinden (ohne Kernstadt) von Bern sowie in den deutschen und französischen Gemeinden der Agglomeration Basel registriert. Als gesamte Agglomeration betrachtet haben nur Lausanne und Genf einen Ausländeranteil von über 30%, in Basel liegt der Anteil bei 23,8%.",
 		"erlaeuterungen": "Anteil der ständigen ausländischen Wohnbevölkerung an der gesamten ständigen Wohnbevölkerung in Prozent.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:14",
+		"aktualisierungsdatum": "2024-01-23T08:09:30",
 		"id": 8101
 	},
 	{
@@ -229,8 +229,8 @@ var indikatorensetData = [
 		"parentId": "7959",
 		"children": [],
 		"title": "Geburten und Sterbefälle",
-		"subtitle": "Saldo (pro 1000 Einwohner), 2020",
-		"lesehilfe": "Der Saldo aus Geburten und Sterbefällen pro 1000 Einwohner ist 2020 in Basel negativ (-0,7), während dieser in Bern, Genf, Lausanne und auch in Zürich positiv ausfällt. Für den tiefen Wert in der Agglomeration Basel sind insbesondere die Gemeinden in Deutschland (Saldo -1,3) und in der Schweiz (ohne Kernstadt, Saldo -0,8) verantwortlich.In den französischen Gemeinden liegt der Saldo bei 0. Der Saldo ist in den Kernstädten jeweils grösser als in den übrigen Schweizer Gemeinden. Mit Abstand am grössten ist der Saldo im französischen Teil der Agglomeration Genf (6,1).",
+		"subtitle": "Saldo (pro 1000 Einwohner), 2021",
+		"lesehilfe": "Der Saldo aus Geburten und Sterbefällen pro 1000 Einwohner ist 2021 in Basel leicht negativ (-0,2), während dieser in Bern, Genf, Lausanne und auch in Zürich positiv ausfällt. Für den tiefen Wert in der Agglomeration Basel sind insbesondere die Gemeinden in Deutschland (Saldo -1,9) verantwortlich. In den französischen Gemeinden liegt der Saldo bei 1,2. Am grössten ist der Saldo im französischen Teil der Agglomeration Genf (6,6).",
 		"erlaeuterungen": "Der ausgewiesene Saldo ergibt sich aus der Differenz von Geburten und Sterbefällen jeweils pro 1000 Einwohner.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:16",
+		"aktualisierungsdatum": "2024-01-23T08:09:33",
 		"id": 8102
 	},
 	{
@@ -266,8 +266,8 @@ var indikatorensetData = [
 		"parentId": "7961",
 		"children": [],
 		"title": "Anteil der Privathaushalte mit minderjährigen Kindern",
-		"subtitle": "2020",
-		"lesehilfe": "Der Anteil der Privathaushalte mit Kindern unter 18 Jahren beträgt in der Agglomeration Basel 25,2%. Über alle Agglomerationen verglichen, ist deren Anteil in den deutschen Gemeinden der Agglomeration Basel mit 34,3% am höchsten. In jeder Agglomeration ist der Anteil der Privathaushalte mit minderjährigen Kindern in der Kernstadt kleiner als in den jeweiligen übrigen Agglomerationsgemeinden.",
+		"subtitle": "2021",
+		"lesehilfe": "Der Anteil der Privathaushalte mit Kindern unter 18 Jahren beträgt in der Agglomeration Basel 25,1%. Über alle Agglomerationen verglichen, ist deren Anteil in den deutschen Gemeinden der Agglomeration Basel mit 34,3% am höchsten. In jeder Agglomeration ist der Anteil der Privathaushalte mit minderjährigen Kindern in der Kernstadt kleiner als in den jeweiligen übrigen Agglomerationsgemeinden.",
 		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -292,7 +292,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:17",
+		"aktualisierungsdatum": "2024-01-23T08:09:33",
 		"id": 8104
 	},
 	{
@@ -303,8 +303,8 @@ var indikatorensetData = [
 		"parentId": "7962",
 		"children": [],
 		"title": "Anteil der privaten Einelternhaushalte",
-		"subtitle": "mit Kindern unter 18 Jahren, 2020",
-		"lesehilfe": "Der Anteil der Einelternhaushalte mit Kindern am Total der privaten Haushalte variiert zwischen 2,5% in der Agglomeration Bern und 5,1% in Genf. In den französischen Gemeinden der Agglomeration Genf liegt er bei 6,1%. In der Agglomeration Basel haben 3,4% der Haushalte alleinerziehende Eltern, wobei dieser Anteil in den französischen und in den deutschen Agglomerationsgemeinden grösser ist als im Schweizer Teil der Agglomeration.",
+		"subtitle": "mit Kindern unter 18 Jahren, 2021",
+		"lesehilfe": "Der Anteil der Einelternhaushalte mit Kindern am Total der privaten Haushalte variiert 2021 zwischen 2,6% in der Agglomeration Bern und 5,2% in Genf. In den französischen Gemeinden der Agglomeration Genf liegt er bei 6,2%. In der Agglomeration Basel haben 3,5% der Haushalte alleinerziehende Eltern, wobei dieser Anteil in den französischen und in den deutschen Agglomerationsgemeinden grösser ist als im Schweizer Teil der Agglomeration.",
 		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -329,7 +329,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:19",
+		"aktualisierungsdatum": "2024-01-23T08:09:42",
 		"id": 8105
 	},
 	{
@@ -340,8 +340,8 @@ var indikatorensetData = [
 		"parentId": "7963",
 		"children": [],
 		"title": "Bildungsniveau der Bevölkerung",
-		"subtitle": "nach höchster abgeschlossener Ausbildung, 2020",
-		"lesehilfe": "In der Agglomeration Basel weist die Bevölkerung zwischen 25 und 64 Jahren 2020 mit 46,1% als höchste abgeschlossene Ausbildung einen Sekundarstufe II-Abschluss auf. Am höchsten ist der Anteil der Sekundarstufe II-Abschlüsse in den Agglomerationsgemeinden von Deutschland (53,9%). Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in der Agglomeration Basel (39,2%) tiefer als in den Vergleichsagglomerationen.",
+		"subtitle": "nach höchster abgeschlossener Ausbildung, 2021",
+		"lesehilfe": "In der Agglomeration Basel weisen 42,8% der Bevölkerung zwischen 25 und 64 Jahren im Jahr 2021 als höchste abgeschlossene Ausbildung einen Sekundarstufe II-Abschluss auf. Am höchsten ist der Anteil der Sekundarstufe II-Abschlüsse in den Agglomerationsgemeinden von Deutschland (53,9%). Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in der Agglomeration Basel (42,7%) tiefer als in den Vergleichsagglomerationen.",
 		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufen 1 oder 2), mit Sekundarstufe II (ISCED Stufen 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -366,7 +366,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:21",
+		"aktualisierungsdatum": "2024-01-23T08:09:46",
 		"id": 8106
 	},
 	{
@@ -377,8 +377,8 @@ var indikatorensetData = [
 		"parentId": "7965",
 		"children": [],
 		"title": "Nettoerwerbsquote der 15- bis 64-Jährigen",
-		"subtitle": "2020",
-		"lesehilfe": "Die Nettoerwerbsquote in der Agglomeration Basel liegt 2020 bei 77,5%. Am höchsten ist die Erwerbsquote in den Kernstädten Bern (85,2%) und Zürich (83,9%). Es gibt allgemein nur kleine Unterschiede zwischen Kernstadt und Rest der Agglomeration, ausser in Genf, wo die Erwerbsquote im französischen Teil der Agglomeration höher als in der Kernstadt ist.",
+		"subtitle": "2021",
+		"lesehilfe": "Die Nettoerwerbsquote in der Agglomeration Basel liegt 2021 bei 77,7%. Am höchsten ist die Erwerbsquote in den Agglomerationen Bern (83,2%) und Zürich (82,3%). Es gibt allgemein nur kleine Unterschiede zwischen Kernstadt und Rest der Agglomeration, ausser in Genf, wo die Erwerbsquote im französischen Teil der Agglomeration höher als in der Kernstadt ist.",
 		"erlaeuterungen": "Die Nettoerwerbsquote enspricht der Anzahl Erwerbspersonen geteilt durch die 15- bis 64-jährige Bevölkerung, in Prozent. Die Erwerbspersonen sind die Summe der Erwerbstätigen und der Erwerbslosen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -403,7 +403,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:23",
+		"aktualisierungsdatum": "2024-01-23T08:09:55",
 		"id": 8108
 	},
 	{
@@ -414,8 +414,8 @@ var indikatorensetData = [
 		"parentId": "7966",
 		"children": [],
 		"title": "Erwerbstätige im Alter von 20 bis 64 Jahren",
-		"subtitle": "2020",
-		"lesehilfe": "Rund 396 000 Einwohnerinnen und Einwohner der Agglomeration Basel im Alter von 20 bis 64 Jahren sind erwerbstätig, fast so viele wie in der Agglomeration Genf. Davon wohnen 35,9% im ausländischen Teil der Agglomeration Basel (Genf  38,3%). Lediglich rund ein Fünftel der Erwerbstätigen der Agglomerationen Basel und Genf wohnt in der Kernstadt, während dieser Anteil in den Agglomerationen Bern, Lausanne und Zürich zwischen 32% und 35% liegt.",
+		"subtitle": "2021",
+		"lesehilfe": "Rund 397 000 Einwohnerinnen und Einwohner der Agglomeration Basel im Alter von 20 bis 64 Jahren sind erwerbstätig, fast so viele wie in der Agglomeration Genf. Davon wohnen 36% im ausländischen Teil der Agglomeration Basel (Genf  40%). Lediglich rund ein Fünftel der Erwerbstätigen der Agglomerationen Basel und Genf wohnt in der Kernstadt, während dieser Anteil in den Agglomerationen Bern, Lausanne und Zürich zwischen 32% und 34% liegt.",
 		"erlaeuterungen": "Als Erwerbstätige werden Personen definiert, die eine entlohnte Berufstätigkeit ausüben (selbständig oder angestellt). Sie werden am Wohnort (nicht am Arbeitsort) erfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:24",
+		"aktualisierungsdatum": "2024-01-23T08:09:56",
 		"id": 8109
 	},
 	{
@@ -451,7 +451,7 @@ var indikatorensetData = [
 		"parentId": "7967",
 		"children": [],
 		"title": "Erwerbstätigenquote der 20- bis 64-Jährigen",
-		"subtitle": "2020",
+		"subtitle": "2021",
 		"lesehilfe": "Von den Einwohnerinnen und Einwohnern im Alter von 20 bis 64 Jahren sind in der Agglomeration Basel rund 78% erwerbstätig. Im Schweizer Agglomerationsgürtel und in den deutschen Gemeinden ist die Quote höher als in der Kernstadt und in den französischen Agglomerationsgemeinden. Die Erwerbstätigenquote in der Agglomeration Basel ist höher als in Genf und Lausanne, aber tiefer als in Bern und Zürich.",
 		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren.",
 		"quellenangabe": [
@@ -477,7 +477,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:27",
+		"aktualisierungsdatum": "2024-01-23T08:09:59",
 		"id": 8110
 	},
 	{
@@ -488,8 +488,8 @@ var indikatorensetData = [
 		"parentId": "7968",
 		"children": [],
 		"title": "Beschäftigte nach Wirtschaftssektor",
-		"subtitle": "2020",
-		"lesehilfe": "Der Anteil des sekundären Sektors am Total der Beschäftigten ist in der Agglomeration Basel mit 24,7% deutlich höher als in den Vergleichsagglomerationen. Am wichtigsten ist der sekundäre Sektor im deutschen Teil der Agglomeration Basel (36,1%), aber auch in der Kernstadt ist dieser Sektor überdurchschnittlich vertreten (18,2%), was für eine Stadt aussergewöhnlich ist. Der hohe Anteil des sekundären Sektors in Basel ist auf die wichtige Rolle der pharmazeutischen Industrie zurückzuführen.",
+		"subtitle": "2021",
+		"lesehilfe": "Der Anteil des sekundären Sektors am Total der Beschäftigten ist in der Agglomeration Basel mit 24,7% deutlich höher als in den Vergleichsagglomerationen. Am wichtigsten ist der sekundäre Sektor im deutschen Teil der Agglomeration Basel (35,4%), aber auch in der Kernstadt ist dieser Sektor überdurchschnittlich vertreten (18,4%), was für eine Stadt aussergewöhnlich ist. Der hohe Anteil des sekundären Sektors in Basel ist auf die wichtige Rolle der pharmazeutischen Industrie zurückzuführen.",
 		"erlaeuterungen": "Der 1. Sektor beinhaltet die Land- und Forstwirtschaft. Der 2. Sektor ist das Aggregat von verarbeitendem Gewerbe, Energie- und Wasserversorgung sowie Baugewerbe. Der 3. Sektor fasst alle Dienstleistungen zusammen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -514,7 +514,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:32",
+		"aktualisierungsdatum": "2024-01-23T08:10:12",
 		"id": 8111
 	},
 	{
@@ -525,7 +525,7 @@ var indikatorensetData = [
 		"parentId": "7969",
 		"children": [],
 		"title": "Beschäftigtendichte",
-		"subtitle": "Beschäftigte pro Einwohner, 2020",
+		"subtitle": "Beschäftigte pro Einwohner, 2021",
 		"lesehilfe": "Die Beschäftigtendichte, auch als Arbeitsstellendichte bezeichnet, ist in den Kernstädten am höchsten: Die Städte Bern (1,4), Zürich (1,2) und Basel (1,1) weisen mehr als eine Arbeitsstelle pro Einwohnerin oder Einwohner auf. In den Städten Genf und Lausanne ist der Wert leicht tiefer (0,9). In den französischen bzw. deutschen Teilen der Agglomerationen Genf und Basel ist die Beschäftigtendichte am tiefsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -551,7 +551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:31",
+		"aktualisierungsdatum": "2024-01-23T08:10:11",
 		"id": 8112
 	},
 	{
@@ -562,8 +562,8 @@ var indikatorensetData = [
 		"parentId": "7970",
 		"children": [],
 		"title": "Personenwagen",
-		"subtitle": "pro 1000 Einwohner, 2020",
-		"lesehilfe": "2020 sind in der Agglomeration Basel 513 Personenwagen pro 1000 Einwohner registriert. Nur in Genf ist der Wert höher. Es sind deutliche Unterscheide zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (320) weist den tiefsten Wert aller Kernstädte aus. Deutlich höher ist er in den deutschen (593) und in den französischen (650) Gemeinden der Agglomeration Basel. Auch in der Agglomeration Genf ist der Motorisierungsgrad im französischen Teil höher als in den Schweizer Gemeinden.",
+		"subtitle": "pro 1000 Einwohner, 2021",
+		"lesehilfe": "2021 sind in der Agglomeration Basel 516 Personenwagen pro 1000 Einwohner registriert. Nur in Genf ist der Wert so hoch. Es sind deutliche Unterschiede zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (319) weist den tiefsten Wert aller Kernstädte aus. Deutlich höher ist er in den deutschen (600) und in den französischen (654) Gemeinden der Agglomeration Basel. Auch in der Agglomeration Genf ist der Motorisierungsgrad im französischen Teil höher als in den Schweizer Gemeinden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -588,7 +588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:33",
+		"aktualisierungsdatum": "2024-01-23T08:10:19",
 		"id": 8113
 	},
 	{
@@ -599,8 +599,8 @@ var indikatorensetData = [
 		"parentId": "7971",
 		"children": [],
 		"title": "Hotelübernachtungen",
-		"subtitle": "pro Einwohner, 2020",
-		"lesehilfe": "Im Pandemiejahr 2020 sind die Übernachtungszahlen in allen Agglomerationen deutlich tiefer ausgefallen als im Vorjahr. Am meisten Hotelübernachtungen pro Einwohner werden 2020 in den Kernstädten Genf (3,5), Lausanne (3,2) und Basel (3,1) registriert. In der Agglomeration Basel zeigen auch die deutschen Gemeinden (2,7 Hotelübernachtungen pro Einwohner) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"subtitle": "pro Einwohner, 2021",
+		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als im Jahr 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -625,7 +625,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:44",
+		"aktualisierungsdatum": "2024-01-23T08:10:24",
 		"id": 8114
 	},
 	{
@@ -636,8 +636,8 @@ var indikatorensetData = [
 		"parentId": "7993",
 		"children": [],
 		"title": "Beschäftigte",
-		"subtitle": "2020",
-		"lesehilfe": "In der trinationalen Agglomeration Basel sind 2020 insgesamt 474 263 Beschäftigte tätig. Rund 79% davon arbeiten in der Schweiz (je zur Hälfte in der Kernstadt und in den übrigen Gemeinden), 15% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist geringfügig tiefer als in Genf.",
+		"subtitle": "2021",
+		"lesehilfe": "In der trinationalen Agglomeration Basel sind 2021 insgesamt rund 471 000 Beschäftigte tätig. Fast 79% davon arbeiten in der Schweiz (je zur Hälfte in der Kernstadt und in den übrigen Gemeinden), rund 15% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist geringfügig tiefer als in Genf.",
 		"erlaeuterungen": "Der Begriff Beschäftigte bezeichnet die Anzahl der besetzten Stellen. Die Erfassung erfolgt am Arbeitsort.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -662,7 +662,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:28",
+		"aktualisierungsdatum": "2024-01-23T08:10:05",
 		"id": 8115
 	},
 	{
@@ -673,9 +673,9 @@ var indikatorensetData = [
 		"parentId": "9192",
 		"children": [],
 		"title": "Gesamtbevölkerung und Frauenanteil",
-		"subtitle": "2020",
-		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohnerinnen und Einwoher als die europäischen Metropolen Paris, London, Madrid, Barcelona oder Mailand. Vergleichbar mit Basel (863 500 Einwohner) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%. In Karlsruhe liegt er knapp darunter, in Porto und Lissabon ist er mit 53,2% am höchsten.",
-		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung in den Agglomerationen dargestellt. Unterschiedlicher Datenstand (französischer Agglomerationen: 2019; London: 2018).",
+		"subtitle": "2021",
+		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohnerinnen und Einwohner als die europäischen Metropolen Paris, Madrid, Barcelona oder Mailand. Vergleichbar mit Basel (867 400 Personen) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%.",
+		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung in den Agglomerationen dargestellt. Unterschiedlicher Datenstand (französischer Agglomerationen: 2020).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:37",
+		"aktualisierungsdatum": "2024-01-23T08:10:33",
 		"id": 9203
 	},
 	{
@@ -711,9 +711,9 @@ var indikatorensetData = [
 		"parentId": "9193",
 		"children": [],
 		"title": "Jugend- und Altersquotient",
-		"subtitle": "2020",
-		"lesehilfe": "Die Altersstruktur der Basler Bevölkerung ist, mit einem Jugendquotienten von 32,2 und einem Altersquotienten von 34,2, vergleichbar mit Bern, den deutschen Agglomerationen und Porto. In den französischen Agglomerationen und in London ist die Bevölkerung hingegen deutlich jünger, mit einem Jugendquotienten von 40 oder mehr und einem Altersquotienten kleiner als 30 (ausser in Metz). Die italienischen Agglomerationen zeigen im Gegensatz dazu einen hohen Altersquotienten.",
-		"erlaeuterungen": "Jugendquotient: Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Altersquotient: Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2020).",
+		"subtitle": "2021",
+		"lesehilfe": "Die Altersstruktur der Basler Bevölkerung ist, mit einem Jugendquotienten von 32,3 und einem Altersquotienten von 34,6, vergleichbar mit Bern, den deutschen Agglomerationen und Porto. In den französischen Agglomerationen ist die Bevölkerung jünger, mit einem Jugendquotienten von 40 oder mehr (ausser in Metz). Die italienischen Agglomerationen und Lissabon zeigen im Gegensatz dazu einen hohen Altersquotienten.",
+		"erlaeuterungen": "Jugendquotient: Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Altersquotient: Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -738,7 +738,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:39",
+		"aktualisierungsdatum": "2024-01-23T08:10:36",
 		"id": 9204
 	},
 	{
@@ -749,9 +749,9 @@ var indikatorensetData = [
 		"parentId": "9194",
 		"children": [],
 		"title": "Geburten- und Sterberate",
-		"subtitle": "Fälle pro 1000 Einwohner, 2019",
-		"lesehilfe": "Die französischen Agglomerationen und London verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss (Saldo positiv). Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In Mailand und Bologna gibt es hingegen deutlich mehr Sterbefälle als Geburten (Saldo negativ). In Basel sowie in Frankfurt, Lissabon und Barcelona liegt der Saldo ungefähr bei null.",
-		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2017 und 2019).",
+		"subtitle": "Fälle pro 1000 Einwohner, 2021",
+		"lesehilfe": "Die französischen Agglomerationen Lille, Lyon und Paris verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss. Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In den italienischen, portugiesischen und spanischen Agglomerationen gibt es hingegen mehr Sterbefälle als Geburten. In Basel sowie in Frankfurt und Metz gibt es ähnlich viel Geburte wie Todesfälle.",
+		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2020 und 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -776,7 +776,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:39",
+		"aktualisierungsdatum": "2024-01-23T08:10:37",
 		"id": 9205
 	},
 	{
@@ -787,9 +787,9 @@ var indikatorensetData = [
 		"parentId": "9195",
 		"children": [],
 		"title": "Bildungsniveau der Bevölkerung",
-		"subtitle": "nach höchster abgeschlossener Ausbildung, 2020",
-		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den deutschen Agglomerationen (mit Ausnahme von München) einen Sekundarstufe II-Anteil zwischen 47% und 49% auf. In der grenzüberschreitenden Agglomeration Basel ist dieser Anteil mit 46% ebenfalls relativ hoch. Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in vielen Agglomerationen grösser als 40%, während er in den italienischen und portugiesischen Agglomerationen deutlich tiefer ist. Ein hoher Bevölkerungsanteil ohne nachobligatorische Ausbildung fällt bei den portugiesischen Agglomerationen auf.",
-		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufe 1 oder 2), mit Diplom auf Sekundarstufe II (ISCED Stufe 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss. Unterschiedlicher Datenstand (französischen Agglomerationen: 2019; portugiesische Agglomerationen sowie London: 2011).",
+		"subtitle": "nach höchster abgeschlossener Ausbildung, 2021",
+		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den deutschen Agglomerationen Frankfurt, Freiburg und Karlsruhe sowie in Mailand einen Sekundarstufe II-Anteil von über 44% auf. In der grenzüberschreitenden Agglomeration Basel ist dieser Anteil mit 43% ebenfalls relativ hoch. Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in vielen Agglomerationen grösser als 40%, in den italienischen und portugiesischen Agglomerationen allerdings deutlich tiefer. Ein hoher Bevölkerungsanteil ohne nachobligatorische Ausbildung fällt bei den portugiesischen Agglomerationen auf.",
+		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufe 1 oder 2), mit Diplom auf Sekundarstufe II (ISCED Stufe 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss. Unterschiedlicher Datenstand (2020 und 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -814,7 +814,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:41",
+		"aktualisierungsdatum": "2024-01-23T08:10:40",
 		"id": 9206
 	},
 	{
@@ -825,9 +825,9 @@ var indikatorensetData = [
 		"parentId": "9197",
 		"children": [],
 		"title": "Beschäftigte nach Wirtschaftssektor",
-		"subtitle": "Anteile an der Gesamtbeschäftigung, 2020",
-		"lesehilfe": "Fast ein Viertel der Beschäftigten in der Agglomeration Basel ist im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. Höher ist dieser Anteil nur in Mailand, Bologna und in Stuttgart. In der Agglomeration London arbeiten hingegen 92% der Beschäftigten im tertiären Sektor (Dienstleistungen); auch in Paris, Zürich und Madrid sind es mindestens 85% der Beschäftigten.",
-		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2019 und 2020; London: 2016; italienische Agglomerationen: 2011).",
+		"subtitle": "Anteile an der Gesamtbeschäftigung, 2021",
+		"lesehilfe": "Fast ein Viertel der Beschäftigten in der Agglomeration Basel ist im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. Höher ist dieser Anteil nur in Stuttgart, Mailand, Bologna und Lissabon. In der Agglomeration Paris arbeiten 87% der Beschäftigten im tertiären Sektor (Dienstleistungen).",
+		"erlaeuterungen": "Beschäftigte am Arbeitsort. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2020 und 2021; italienische Agglomerationen: 2011).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -852,7 +852,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:44",
+		"aktualisierungsdatum": "2024-01-23T08:10:49",
 		"id": 9207
 	},
 	{
@@ -863,9 +863,9 @@ var indikatorensetData = [
 		"parentId": "9199",
 		"children": [],
 		"title": "Erwerbstätigenquote nach Geschlecht",
-		"subtitle": "2020",
-		"lesehilfe": "In der trinationalen Agglomeration Basel sind 72,9% der Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 79,9%. In der grenzüberschreitenden Agglomeration Genf sowie den französischen, portugiesischen und spanischen Agglomerationen ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern tiefer als in Basel. In London, Mailand und Bologna ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
-		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2020; Portugal: 2011).",
+		"subtitle": "2021",
+		"lesehilfe": "In der trinationalen Agglomeration Basel sind 73,5% der Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 81,6%. Am höchsten ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern in Bern, Zürich und in den deutschen Agglomerationen. In Mailand und Bologna ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
+		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2021; Portugal: 2011).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -890,7 +890,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:42",
+		"aktualisierungsdatum": "2024-01-23T08:10:48",
 		"id": 9208
 	},
 	{
@@ -901,9 +901,9 @@ var indikatorensetData = [
 		"parentId": "9200",
 		"children": [],
 		"title": "Beschäftigtendichte",
-		"subtitle": "2020",
-		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Zürich und Lausanne am höchsten. Das heisst, hier sind am meisten Beschäftigte pro Einwohner tätig. Es folgen München und London. Basel positioniert sich mit einem Wert von 0,55 eher im Mittelfeld. Das Schlusslicht bildet Lille.",
-		"erlaeuterungen": "Beschäftigte pro Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (2019 oder 2020; London: 2018).",
+		"subtitle": "2021",
+		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Lausanne und Zürich am höchsten. Das heisst, hier sind am meisten Beschäftigte pro Einwohner tätig. Es folgen München, Karlsruhe und Stuttgart. Basel positioniert sich mit einem Wert von 0,54 eher im Mittelfeld.",
+		"erlaeuterungen": "Beschäftigte (am Arbeitsort) pro Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (2020 oder 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -928,7 +928,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:44",
+		"aktualisierungsdatum": "2024-01-23T08:10:52",
 		"id": 9209
 	},
 	{
@@ -939,8 +939,8 @@ var indikatorensetData = [
 		"parentId": "9406",
 		"children": [],
 		"title": "Entwicklung der Gesamtbevölkerung",
-		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2015 bis 2020",
-		"lesehilfe": "Zwischen 2015 und 2020 ist die Gesamtbevölkerung der Agglomeration Basel (+0,6% pro Jahr) weniger gewachsen als die Bevölkerung in den Vergleichsagglomerationen. Bescheiden war das Bevölkerungswachstum in der Kernstadt sowie in den weiteren Gemeinden in der Schweiz und in Deutschland. Der höchste Bevölkerungszuwachs ist im französischen Teil der Agglomeration Genf zu beobachten (+1,8%).",
+		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2016 bis 2021",
+		"lesehilfe": "Zwischen 2016 und 2021 ist die Gesamtbevölkerung der Agglomeration Basel (+0,5% pro Jahr) deutlich weniger gewachsen als die Bevölkerung in den Vergleichsagglomerationen Genf, Lausanne und Zürich. Am tiefsten ist das Bevölkerungswachstum in den Agglomerationsgemeinden in Deutschland, am höchsten in den französischen Gemeinden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -965,7 +965,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:09",
+		"aktualisierungsdatum": "2024-01-23T08:09:15",
 		"id": 9481
 	},
 	{
@@ -976,8 +976,8 @@ var indikatorensetData = [
 		"parentId": "9407",
 		"children": [],
 		"title": "Jugendquotient nach Gemeinde",
-		"subtitle": "trinationale Agglomeration Basel, 2020",
-		"lesehilfe": "Die Anzahl Jugendlicher pro 100 Personen zwischen 20 und 64 Jahren variiert in den Gemeinden der grenzüberschreitenden Agglomeration Basel zwischen 21 in Hemmiken (Schweiz) und 51 in Folgensbourg (Frankreich). Die Quotienten sind in den meisten Gemeinden in Frankreich höher als in der Schweiz und in Deutschland. Den höchsten Jugendquotienten in der Schweiz weist Zullwil auf (44), in Deutschland Rümmingen (39). In der Kernstadt Basel leben 26 Jugendliche pro 100 20- bis 64-Jährige.",
+		"subtitle": "trinationale Agglomeration Basel, 2021",
+		"lesehilfe": "Die Anzahl Jugendlicher pro 100 Personen zwischen 20 und 64 Jahren ist in den Gemeinden der grenzüberschreitenden Agglomeration Basel mit 24 in Augst und Hemmiken (Schweiz) am tiefsten; mit 54 ist sie in Vieux-Ferrette (Frankreich) am höchsten. Die Quotienten sind in den meisten Gemeinden in Frankreich höher als in der Schweiz und in Deutschland. Den höchsten Jugendquotienten in der Schweiz weist Zullwil auf (43), in Deutschland Rümmingen (40). In der Kernstadt Basel leben 26 Jugendliche pro 100 20- bis 64-Jährige.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -1002,7 +1002,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:13",
+		"aktualisierungsdatum": "2024-01-23T08:09:27",
 		"id": 9482
 	},
 	{
@@ -1013,9 +1013,9 @@ var indikatorensetData = [
 		"parentId": "9409",
 		"children": [],
 		"title": "Entwicklung der Beschäftigtenzahl",
-		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2015 bis 2020",
-		"lesehilfe": "Zwischen 2015 und 2020 war das Wachstum der Beschäftigtenzahl in der Agglomeration Basel (+0,5% im Jahresdurchschnitt) geringer als in den Vergleichsagglomerationen. Innerhalb der Agglomeration Basel gab es grosse Unterschiede: Am höchsten war das Wachstum im deutschen Teil (+0,8% pro Jahr), am tiefsten in der Kernstadt (+0,1%).",
-		"erlaeuterungen": "",
+		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2016 bis 2021",
+		"lesehilfe": "Zwischen 2016 und 2021 war das Wachstum der Beschäftigtenzahl in der Agglomeration Basel (+0,3% im Jahresdurchschnitt) geringer als in den Vergleichsagglomerationen. Innerhalb der Agglomeration Basel gab es grosse Unterschiede: Während im französischen Teil ein Wachstum verzeichnet wurde (+0,7% pro Jahr), ging die Beschäftigung in der Kernstadt leicht zurück (-0,2% pro Jahr).",
+		"erlaeuterungen": "Der Begriff Beschäftigte bezeichnet die Anzahl der besetzten Stellen. Die Erfassung erfolgt am Arbeitsort.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -1039,7 +1039,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:29",
+		"aktualisierungsdatum": "2024-01-23T08:10:08",
 		"id": 9483
 	},
 	{
@@ -1050,8 +1050,8 @@ var indikatorensetData = [
 		"parentId": "9410",
 		"children": [],
 		"title": "Anteil der Einpersonenhaushalte nach Gemeinde",
-		"subtitle": "trinationale Agglomeration Basel, 2020",
-		"lesehilfe": "Der Anteil der Haushalte mit nur einer Person ist in der Kernstadt Basel mit 48,7% bei weitem der höchste in der trinationalen Agglomeration. Anteile von über 40% verzeichnen ausser Basel nur noch Birsfelden und Augst in der Schweiz, Lörrach in Deutschland sowie Huningue und Ferrette in Frankreich.",
+		"subtitle": "trinationale Agglomeration Basel, 2021",
+		"lesehilfe": "Der Anteil der Haushalte mit nur einer Person ist in der Kernstadt Basel mit 48,9% bei weitem der höchste in der trinationalen Agglomeration. Anteile von über 40% verzeichnen ausser Basel nur noch Birsfelden und Augst in der Schweiz, Lörrach in Deutschland sowie Huningue, Saint-Louis und Ferrette in Frankreich.",
 		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -1076,7 +1076,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:21",
+		"aktualisierungsdatum": "2024-01-23T08:09:44",
 		"id": 9484
 	},
 	{
@@ -1087,8 +1087,8 @@ var indikatorensetData = [
 		"parentId": "9411",
 		"children": [],
 		"title": "Personenwagen nach Gemeinde",
-		"subtitle": "trinationale Agglomeration Basel, pro 1000 Einwohner, 2020",
-		"lesehilfe": "Die Stadt Basel weist mit 320 Personenwagen pro 1000 Einwohner mit Abstand den tiefsten Motorisierungsgrad in der Agglomeration auf. Es folgen die Nachbargemeinden Riehen und Birsfelden mit je rund 400 Autos pro 1000 Einwohner. In der gesamten Agglomeration gibt es viele Gemeinden mit mehr als 700 Autos pro 1000 Einwohner, wobei sich die grosse Mehrheit davon in Frankreich befindet. Den Rekordwert erreicht die französische Gemeinde Bettlach (808).",
+		"subtitle": "trinationale Agglomeration Basel, pro 1000 Einwohner, 2021",
+		"lesehilfe": "Die Stadt Basel weist mit 319 Personenwagen pro 1000 Einwohner mit Abstand den tiefsten Motorisierungsgrad in der Agglomeration auf. Es folgen die Nachbargemeinden Riehen und Birsfelden mit je fast 400 Autos pro 1000 Einwohner. In der gesamten Agglomeration gibt es viele Gemeinden mit mehr als 700 Autos pro 1000 Einwohner, wobei sich die grosse Mehrheit davon in Frankreich befindet. Den Rekordwert erreicht die französische Gemeinde Bettlach (810).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -1113,7 +1113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-26T08:45:36",
+		"aktualisierungsdatum": "2024-01-23T08:10:32",
 		"id": 9485
 	}
 ];

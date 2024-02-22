@@ -1497,7 +1497,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 waren in Basel-Stadt in Vollzeitäquivalente umgerechnet 63 625 Frauen beschäftigt (90 382 Beschäftigte), was einem Rückgang um 1 256 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 2 574 VZÄ auf 85 008 VZÄ (98 396 Beschäftigte) zurückgegangen.",
+		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt in Vollzeitäquivalente umgerechnet 64 950 Frauen beschäftigt (92 214 Beschäftigte), was einem Zuwachs um 1 325 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 1 481 VZÄ auf 86 489 VZÄ (100 788 Beschäftigte) gewachsen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1522,7 +1522,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:17",
+		"aktualisierungsdatum": "2024-01-29T08:32:37",
 		"id": 6454
 	},
 	{
@@ -2518,7 +2518,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei 4 900 Franken brutto und damit leicht höher als 2018.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei rund 4 900 Franken brutto und damit leicht höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2543,7 +2543,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:30",
+		"aktualisierungsdatum": "2024-02-09T08:56:53",
 		"id": 7446
 	},
 	{
@@ -2700,7 +2700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:34",
+		"aktualisierungsdatum": "2024-02-09T08:56:53",
 		"id": 7450
 	},
 	{
@@ -2857,7 +2857,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:37",
+		"aktualisierungsdatum": "2024-02-14T08:50:02",
 		"id": 7455
 	},
 	{

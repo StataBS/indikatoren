@@ -5,13 +5,15 @@ var indikatorensetData = [
 		"chart-id": 10028,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11188
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Basel-Landschaft",
 		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Landschaft durchschnittlich 25,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 31,1 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,8 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 700 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 800 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -23,9 +25,9 @@ var indikatorensetData = [
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10028",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-2",
+		"kuerzelKunde": "2.4.2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe2": "2.4 Haus- und Familienarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -33,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"aktualisierungsdatum": "2024-01-18T09:39:42",
 		"id": 10028
 	},
 	{
@@ -81,13 +83,15 @@ var indikatorensetData = [
 		"chart-id": 10030,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			11190
+		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, BS/BL/JU",
 		"lesehilfe": "Im Jahr 2020 wendete eine Person in den Kantonen Basel-Stadt, Basel-Landschaft und Kanton Jura durchschnittlich 24,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,9 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,4 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1400 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1 500 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -99,9 +103,9 @@ var indikatorensetData = [
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.10030",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.4-4",
+		"kuerzelKunde": "2.4.4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe2": "2.4 Haus- und Familienarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -109,8 +113,86 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:38",
+		"aktualisierungsdatum": "2024-01-18T09:39:44",
 		"id": 10030
+	},
+	{
+		"template": "line001",
+		"data-id": 11925,
+		"chart-id": 11925,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			11927
+		],
+		"title": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS, BL und JU",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die Zahl der unter 15-Jährigen zwischen 2014 und 2022 in den Kantonen Basel-Stadt (+11,2%) und Basel-Landschaft zugenommen (+7,4%). Im Kanton Jura ist sie zurückgegangen (-1,8%).",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS, BL und JU",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.11925",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3.5",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.3 Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-25T09:06:05",
+		"id": 11925
+	},
+	{
+		"template": "line001",
+		"data-id": 11926,
+		"chart-id": 11926,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			11928
+		],
+		"title": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS/BL/JU und Schweiz",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der unter 15-Jährigen zwischen 2014 und 2022 um 8,3%, in der Region BS/BL/JU um 7,3% zu.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS/BL/JU und Schweiz",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.11926",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3.6",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.3 Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-25T09:06:06",
+		"id": 11926
 	},
 	{
 		"template": "template001",
@@ -1062,9 +1144,9 @@ var indikatorensetData = [
 		"children": [
 			8493
 		],
-		"title": "Altersklassen; BS, BL und JU",
+		"title": "Altersklassen der 15- bis 64-Jährigen; BS, BL und JU",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
-		"lesehilfe": "Die Altersklassen weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. In Basel-Stadt ist der Anteil von Kindern und Jugendlichen sowie von jungen Erwachsenen vergleichsweise gering. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 50 Jahren insgesamt höhere Anteile aufweist. Die Personen im Erwerbsalter zwischen 15 und 64 Jahren werden zu Fünfjahresklassen zusammengefasst, die jüngeren (bis 14 Jahre) und die älteren (ab 65 Jahren) zu je einer grösseren Altersklasse.",
+		"lesehilfe": "Die Altersklassen weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. In Basel-Stadt ist der Anteil von Kindern und Jugendlichen sowie von jungen Erwachsenen vergleichsweise gering. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 50 Jahren insgesamt höhere Anteile aufweist.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1074,7 +1156,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Altersklassen; BS, BL und JU",
+		"description": "Altersklassen der 15- bis 64-Jährigen; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08433",
@@ -1089,7 +1171,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:14",
+		"aktualisierungsdatum": "2024-01-11T09:32:40",
 		"id": 8433
 	},
 	{
@@ -1101,9 +1183,9 @@ var indikatorensetData = [
 		"children": [
 			8494
 		],
-		"title": "Altersklassen; BS/BL/JU und Schweiz",
+		"title": "Altersklassen der 15- bis 64-Jährigen; BS/BL/JU und Schweiz",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
-		"lesehilfe": "Die Anteile der Altersklassen der unter 55-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz. Die Personen im Erwerbsalter zwischen 15 und 64 Jahren werden zu Fünfjahresklassen zusammengefasst, die jüngeren (bis 14 Jahre) und die älteren (ab 65 Jahren) zu je einer grösseren Altersklasse.",
+		"lesehilfe": "Die Anteile der Altersklassen der unter 55-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1114,7 +1196,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Altersklassen; BS/BL/JU und Schweiz",
+		"description": "Altersklassen der 15- bis 64-Jährigen; BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08434",
@@ -1129,7 +1211,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:15",
+		"aktualisierungsdatum": "2024-01-11T09:32:41",
 		"id": 8434
 	},
 	{
@@ -1421,7 +1503,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren sehr ähnlich entwickelt: Nach einem markanten Anstieg aufgrund der COVID-19-Pandemie im Jahr 2020 ist die Arbeitslosigkeit 2021 und 2022 tendentiell stark rückläufig. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2022 lagen die Arbeitslosenquoten bei 1,8% (BL), 2,9% (BS) und 3,7% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen Basel-Stadt, Basel-Landschaft und Jura haben sich in den Jahren 2020 bis 2022 sehr ähnlich entwickelt: Nach einem markanten Anstieg während der COVID-19-Pandemie im Jahr 2020 war die Arbeitslosigkeit 2021 und 2022 rückläufig. Ende des Jahres 2023 waren die Quoten wieder höher als ein Jahr zuvor. Am deutlichsten ist die Quote in BS gestiegen, von 2,9% im Dezember 2022 auf 3,5% im Dezember 2023. Die Arbeitslosenquoten in BS und JU liegen über dem Schweizer Durchschnitt, während diejenige in BL tiefer ist. Im Dezember 2023 lag die Arbeitslosenquote in BL bei 2,0%, in JU bei 3,8%. <br>Die höhere Quote des Kantons Jura hat auch mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
 		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1447,7 +1529,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-14T11:36:55",
+		"aktualisierungsdatum": "2024-01-25T09:06:04",
 		"id": 8442
 	},
 	{

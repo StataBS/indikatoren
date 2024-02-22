@@ -62,6 +62,10 @@
         [
           2019,
           65823
+        ],
+        [
+          2020,
+          69595
         ]
       ],
       "name": "Mittelwert Klybeck"
@@ -128,6 +132,10 @@
         [
           2019,
           2354
+        ],
+        [
+          2020,
+          2974
         ]
       ],
       "name": "Median Klybeck"
@@ -194,6 +202,10 @@
         [
           2019,
           75157
+        ],
+        [
+          2020,
+          72361
         ]
       ],
       "name": "Mittelwert Kleinhüningen"
@@ -260,6 +272,10 @@
         [
           2019,
           3275
+        ],
+        [
+          2020,
+          3585
         ]
       ],
       "name": "Median Kleinhüningen"
@@ -389,7 +405,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

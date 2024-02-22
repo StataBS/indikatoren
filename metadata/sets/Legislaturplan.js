@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:49",
+		"aktualisierungsdatum": "2024-02-22T08:49:12",
 		"id": 11788
 	},
 	{
@@ -88,7 +88,7 @@ var indikatorensetData = [
 		],
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Die Erreichbarkeit der Städte hat sich 2021 gegenüber dem Vorjahr verbessert.   Aufgrund der starken Reiseeinschränkungen als Massnahme zur Bekämpfung der COVID-19-Pandemie war die Erreichbarkeit im Jahr 2020 markant gesunken. Die Index-Werte liegen immer noch tiefer als vor 20 Jahren. Am stärksten hatte sich 2020 die kontinentale Erreichbarkeit verringert. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
+		"lesehilfe": "Aufgrund der starken Reiseeinschränkungen als Massnahme zur Bekämpfung der COVID-19-Pandemie sank die Erreichbarkeit der Städte im Jahr 2020 markant. Am stärksten hat sich die kontinentale Erreichbarkeit verringert. Seither haben sich die Index-Werte wieder verbessert, sie liegen allerdings auch 2022 immer noch tiefer als vor 2020. Zürich weist trotz Verlusten weiterhin die beste Erreichbarkeit der Schweizer Regionen auf.",
 		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Globale Erreichbarkeit: Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit: Erreichbarkeit aller Regionen Europas. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren, welchem Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde liegen. Sie folgen dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Die Reisedestinationen werden über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 zeitnah zu beobachten, wurde die Erreichbarkeit engegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:42",
+		"aktualisierungsdatum": "2024-01-29T08:32:36",
 		"id": 3104
 	},
 	{
@@ -169,7 +169,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2020 wurden in Basel-Stadt 1 124 neue Unternehmen gegründet,11 mehr als im Jahr 2019. Rund ein Viertel (295 im Jahr 2020) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Kunst, Unterhaltung, Erholung (121) sowie Gesundheits- und Sozialwesen (112).",
+		"lesehilfe": "Im Jahr 2021 wurden in Basel-Stadt 1 166 neue Unternehmen gegründet, 42 mehr als im Jahr 2020. Rund ein Viertel (307 im Jahr 2021) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (132) sowie Kunst, Unterhaltung, Erholung (129).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -194,7 +194,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-11T08:48:39",
+		"aktualisierungsdatum": "2024-01-11T09:32:40",
 		"id": 5041
 	},
 	{
@@ -804,7 +804,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2022 auf 3,1% gesunken. Am höchsten ist die Quote 2022 in den Branchen Baugewerbe (10,1%), Gastgewerbe (7,8%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,4%). In allen Branchen ist die Arbeitslosenquote im Vergleich zu 2021 gesunken oder unverändert geblieben.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2023 im Vergleich zu 2022 bei 3,1% unverändert geblieben. Am höchsten ist die Quote 2023 in den Branchen Baugewerbe (10,7%), Gastgewerbe (8,1%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (6,8%). Die Arbeitslosenquote war in allen Branchen im Jahr 2021 am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -830,7 +830,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:48",
+		"aktualisierungsdatum": "2024-02-22T08:49:09",
 		"id": 9363
 	},
 	{
@@ -1186,11 +1186,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9432
+			9432,
+			9732
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
+		"lesehilfe": "Im Jahr 2020 lag der Index (Basis 2010) der Medianprämien bei 139,9 und jener für den Median des Reinkommens bei 104,4.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -1216,7 +1217,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:56",
+		"aktualisierungsdatum": "2024-01-11T09:32:41",
 		"id": 9375
 	},
 	{
@@ -1653,8 +1654,8 @@ var indikatorensetData = [
 		],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2022 betrug die Länge der Begegnungszonen in der Stadt Basel 22,9 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"lesehilfe": "Im Jahr 2023 betrug die Länge der Begegnungszonen in der Stadt Basel 23,5 km, jene der Fussgängerzonen 4,8 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -1680,7 +1681,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-09T09:06:05",
+		"aktualisierungsdatum": "2024-02-22T08:49:11",
 		"id": 9387
 	},
 	{
@@ -1894,7 +1895,7 @@ var indikatorensetData = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 sind im kantonalen Datenportal 203 Datensätze von 34 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 175 Geodatensätze öffentlich verfügbar.",
+		"lesehilfe": "Ende 2023 sind im kantonalen Datenportal 270 Datensätze von 38 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 187 Geodatensätze öffentlich verfügbar.",
 		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen; die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1923,7 +1924,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:22",
+		"aktualisierungsdatum": "2024-01-29T08:32:37",
 		"id": 9394
 	},
 	{

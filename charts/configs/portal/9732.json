@@ -24,24 +24,16 @@
           117.3
         ],
         [
-          2015,
-          121.7
-        ],
-        [
-          2016,
-          125.2
-        ],
-        [
-          2017,
-          130
-        ],
-        [
           2018,
-          135.2
+          132.3
         ],
         [
           2019,
           139.2
+        ],
+        [
+          2020,
+          139.9
         ]
       ],
       "name": "Index Medianprämie"
@@ -70,24 +62,16 @@
           102
         ],
         [
-          2015,
-          102.2
-        ],
-        [
-          2016,
-          102.6
-        ],
-        [
-          2017,
-          103.1
-        ],
-        [
           2018,
           103.3
         ],
         [
           2019,
           103.8
+        ],
+        [
+          2020,
+          104.4
         ]
       ],
       "name": "Index Median Einkommen"
@@ -217,7 +201,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

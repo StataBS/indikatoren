@@ -54,6 +54,10 @@
         [
           "2022",
           4.7
+        ],
+        [
+          "2023",
+          4.8
         ]
       ],
       "name": "Fussgängerzonen",
@@ -113,6 +117,10 @@
         [
           "2022",
           22.9
+        ],
+        [
+          "2023",
+          23.5
         ]
       ],
       "name": "Begegnungszonen",
@@ -254,7 +262,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2023"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2024"
   },
   "tooltip": {
     "useHTML": true,

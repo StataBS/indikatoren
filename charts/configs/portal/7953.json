@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          173232
+          173863
         ],
         [
           "Bern",
-          134591
+          134794
         ],
         [
           "Genf",
-          203951
+          203856
         ],
         [
           "Lausanne",
-          139408
+          140202
         ],
         [
           "Zürich",
-          420217
+          421878
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          379631
+          381663
         ],
         [
           "Bern",
-          287151
+          288737
         ],
         [
           "Genf",
-          399253
+          402892
         ],
         [
           "Lausanne",
-          288442
+          293474
         ],
         [
           "Zürich",
-          981151
+          992467
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          212637
+          212723
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          98043
+          99169
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          332313
+          337562
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Gesamtbevölkerung"
   },
   "subtitle": {
-    "text": "2020",
+    "text": "2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -246,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

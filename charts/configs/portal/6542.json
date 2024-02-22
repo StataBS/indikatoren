@@ -4,12 +4,12 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2021",
-          1448.430137
-        ],
-        [
           "2022",
           1401.838356
+        ],
+        [
+          "2023",
+          1297.490411
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -19,12 +19,12 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2021",
-          3121.909589
-        ],
-        [
           "2022",
           3050.838356
+        ],
+        [
+          "2023",
+          3031.027397
         ]
       ],
       "name": "3-Sterne",
@@ -34,12 +34,12 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2021",
-          2960.506849
-        ],
-        [
           "2022",
           3778.39726
+        ],
+        [
+          "2023",
+          3955.583562
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -49,12 +49,12 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2021",
-          944.657534
-        ],
-        [
           "2022",
           1049.065753
+        ],
+        [
+          "2023",
+          1113.00274
         ]
       ],
       "name": "Nicht klassiert",
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

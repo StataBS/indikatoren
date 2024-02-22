@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          -0.699
+          -0.228
         ],
         [
           "Bern",
-          0.982
+          1.062
         ],
         [
           "Genf",
-          3.484
+          4.916
         ],
         [
           "Lausanne",
-          3.038
+          4.614
         ],
         [
           "Zürich",
-          3.049
+          3.51
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          -0.179
+          0.587
         ],
         [
           "Bern",
-          2.809
+          1.884
         ],
         [
           "Genf",
-          2.432
+          5.004
         ],
         [
           "Lausanne",
-          3.336
+          4.272
         ],
         [
           "Zürich",
-          3.746
+          4.575
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          -0.809
+          -0.047
         ],
         [
           "Bern",
-          0.125
+          0.679
         ],
         [
           "Genf",
-          1.868
+          3.47
         ],
         [
           "Lausanne",
-          2.895
+          4.777
         ],
         [
           "Zürich",
-          2.751
+          3.057
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          -1.26
+          -1.899
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          0.02
+          1.23
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          6.07
+          6.588
         ],
         [
           "Lausanne",
@@ -216,7 +216,7 @@
     "text": "Geburten und Sterbefälle"
   },
   "subtitle": {
-    "text": "Saldo (pro 1000 Einwohner), 2020",
+    "text": "Saldo (pro 1000 Einwohner), 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -240,9 +240,9 @@
         "color": "#000000"
       }
     },
-    "tickAmount": 6,
     "tickInterval": 2,
-    "max": 8
+    "max": 8,
+    "min": -2
   },
   "legend": {
     "symbolRadius": 0,
@@ -274,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -31,7 +31,8 @@
     },
 
     yAxis: {
-      tickAmount: 5
+      tickAmount: 5,
+      max: 40
     },
     series: [
       { color: "#73B97C" },

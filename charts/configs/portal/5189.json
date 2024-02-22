@@ -127,6 +127,14 @@
         [
           2021,
           10
+        ],
+        [
+          2022,
+          17
+        ],
+        [
+          2023,
+          18
         ]
       ],
       "name": "Anzahl Störfälle und Ereignisse"
@@ -256,7 +264,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

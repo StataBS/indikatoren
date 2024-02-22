@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Geöffnete Betriebe nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 waren 65 Hotelbetriebe an mindestens einem Tag des Jahres geöffnet. 21 Betriebe gehörten zur Kategorie der 4- und 5-Sterne-Hotels, 23 Betriebe zur Kategorie der 3-Sterne-Hotels und 8 Betriebe zu den 1- und 2-Sterne-Hotels. 13 der geöffneten Hotels waren nicht klassiert.",
+		"lesehilfe": "2023 waren 64 Hotelbetriebe an mindestens einem Tag des Jahres geöffnet. 21 Betriebe gehörten zur Kategorie der 4- und 5-Sterne-Hotels, 22 Betriebe zur Kategorie der 3-Sterne-Hotels und 8 Betriebe zu den 1- und 2-Sterne-Hotels. 13 der geöffneten Hotels waren nicht klassiert.",
 		"erlaeuterungen": "Anzahl der im Erhebungsjahr während mindestens einem Tag geöffneten Hotels, Appartementhäuser, Hostels, Jugendherbergen, Backpackers und B&Bs, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:42",
+		"aktualisierungsdatum": "2024-02-15T08:30:50",
 		"id": 6537
 	},
 	{
@@ -49,8 +49,8 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittliche Betriebsgrösse",
 		"subtitle": "in Zimmern, Basel-Stadt",
-		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2022 im Durchschnitt 96 Zimmer an, 3-Sterne-Häuser im Schnitt 67 Zimmer, 1- bis 2-Sterne Betriebe 69 Zimmer. Mit Ausnahme der 4- und 5-Sterne-Häuser lag 2022 die Zahl der Zimmer je Betrieb über dem Zehnjahresschnitt.",
-		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2013 rückwirkend angepasst.",
+		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2023 im Durchschnitt 100 Zimmer an, 3-Sterne-Häuser im Schnitt 70 Zimmer, 1- bis 2-Sterne-Betriebe 69 Zimmer. Mit Ausnahme der 1- und 2-Sterne-Häuser lag 2023 die Zahl der Zimmer je Betrieb über dem Zehnjahresschnitt.",
+		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:42",
+		"aktualisierungsdatum": "2024-02-15T08:30:55",
 		"id": 6538
 	},
 	{
@@ -89,8 +89,8 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Zimmer und Auslastung nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 608 Zimmer zur Verfügung. Davon entfielen 2 010 Zimmer auf Betriebe mit 4 und 5 Sternen und 1 547 auf die Kategorie der 3-Sterne-Hotels. Die Anzahl verfügbarer Zimmer liegt 2022 über dem Stand von vor zehn Jahren. Die Nettozimmerauslastung nahm gegenüber 2013 ab, insgesamt resultierte ein Minus von 9,6 Prozentpunkten.",
-		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2013 rückwirkend angepasst.",
+		"lesehilfe": "2023 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 765 Zimmer zur Verfügung. Davon entfielen 2 104 Zimmer auf Betriebe mit 4 und 5 Sternen und 1 546 auf die Kategorie der 3-Sterne-Hotels, 552 Zimmer auf 1- und 2-Sterne-Hotels sowie 563 Zimmer auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2014 bis 2023 um 6,8 Prozentpunkte zu. Bei den 1- und 2-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum leicht. Bei den 3-, 4- und 5-Sterne-Hotels sank diese. Über alle Kategorien betrachtet waren die Zimmer 2023 zu 56,3% ausgelastet.",
+		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -114,7 +114,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:42",
+		"aktualisierungsdatum": "2024-02-15T08:30:56",
 		"id": 6539
 	},
 	{
@@ -128,8 +128,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettozimmerauslastung nach Wochentag",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach weitgehender Kontinuität in den Jahren 2013 bis 2019 sank die durchschnittliche Nettozimmerauslastung 2020 und 2021 deutlich. 2022 erholte sie sich über die gesamte Woche hinweg betrachtet um 17,5% und liegt bei 52,5%. Lag die durchschnittliche Nettozimmerauslastung von Sonntag bis Donnerstag 2021 bei 32,7%, schliesst sie 2022 bei 51,5%. Von Freitag bis Samstag lag die Nettozimmerauslastung im Jahr 2021 bei durchschnittlich 40,6%, 2022 bei 54,9%.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "Nach weitgehender Kontinuität in den Jahren 2013 bis 2019 sank die durchschnittliche Nettozimmerauslastung 2020 und 2021 deutlich. 2023 lag sie bei 56,3%, 3,9 Prozentpunkte höher als 2022. Lag die durchschnittliche Nettozimmerauslastung von Sonntag bis Donnerstag 2022 bei 51,5%, schliesst sie 2023 bei 56,8%. Von Freitag bis Samstag lag die Nettozimmerauslastung im Jahr 2022 bei durchschnittlich 54,9%, 2023 bei 55,2%.",
+		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -153,7 +153,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:43",
+		"aktualisierungsdatum": "2024-02-15T08:30:56",
 		"id": 6540
 	},
 	{
@@ -167,8 +167,8 @@ var indikatorensetData = [
 		],
 		"title": "Hotelbetriebe und Anzahl Betten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 boten die 65 baselstädtischen Hotels insgesamt 9 280 Betten an. Im Jahr 2021 waren es 8 476 Betten in 66 Hotelbetrieben. Dies entspricht einer Zunahme um 805 Betten. In der Erhebung von 1937 gab es in 42 Betrieben insgesamt 2 164 Betten.",
-		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "2023 boten die 64 baselstädtischen Hotels insgesamt 9 397 Betten an. Im Jahr 2022 waren es 9 280 Betten in 65 Hotelbetrieben. Dies entspricht einer Zunahme um 117 Betten. In der Erhebung von 1939 gab es in 42 Betrieben insgesamt 2 137 Betten.",
+		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -192,7 +192,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:43",
+		"aktualisierungsdatum": "2024-02-15T08:30:57",
 		"id": 6541
 	},
 	{
@@ -206,8 +206,8 @@ var indikatorensetData = [
 		],
 		"title": "Verfügbare Betten nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 standen den Gästen in den baselstädtischen Hotels insgesamt 9 280 Betten zur Verfügung. Gegenüber 2021 bedeutet dies eine Zunahme um 9,5% bzw. 805 Betten. Von den im Jahr 2022 verfügbaren Betten entfielen 3 778 auf Betriebe mit 4 und 5 Sternen, 3 051 auf die 3-Sterne-Hotels. Die Bettenzahl nahm in der höchsten Kategorie gegenüber 2021 um 818 bzw. 27,6% zu. Bei den 3-Sterne-Betrieben resultierte eine Abnahme um 71 Betten bzw. 2,3%.",
-		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. 2019 wurde die Berechnung der Anzahl verfügbarer Betten an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "2023 standen den Gästen in den baselstädtischen Hotels insgesamt 9 397 Betten zur Verfügung. Gegenüber 2022 bedeutet dies eine Zunahme um 1,3% bzw. 117 Betten. Von den im Jahr 2023 verfügbaren Betten entfielen 3 956 auf Betriebe mit 4 und 5 Sternen, 3 031 auf die 3-Sterne-Hotels. Die Bettenzahl nahm in der höchsten Kategorie gegenüber 2022 um 177 bzw. 4,7% zu. Bei den 3-Sterne-Betrieben resultierte eine Abnahme um 20 Betten bzw. 0,6%.",
+		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. 2019 wurde die Berechnung der Anzahl verfügbarer Betten an die Methodik des Bundesamtes für Statistik (BFS) angeglichen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -231,7 +231,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:44",
+		"aktualisierungsdatum": "2024-02-15T08:30:57",
 		"id": 6542
 	},
 	{
@@ -245,8 +245,8 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Aufenthaltsdauer pro Jahr",
 		"subtitle": "in Tagen, Basel-Stadt",
-		"lesehilfe": "2022 verweilten die Gäste durchschnittlich 1,85 Tage in einem der Hotelbetriebe des Kantons Basel-Stadt. Schweizer Gäste blieben mit 1,68 Tagen durchschnittlicher Aufenthaltsdauer weniger lange als Gäste aus dem Ausland mit durchschnittlich 1,99 Tagen. Bis in die frühen 1990er-Jahre war dieses Verhältnis umgekehrt, mit Ausnahme der Kriegsjahre 1940, 1941, 1942 und 1944.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "2023 verweilten die Gäste durchschnittlich 1,83 Tage in einem der Hotelbetriebe des Kantons Basel-Stadt. Schweizer Gäste blieben mit 1,64 Tagen durchschnittlicher Aufenthaltsdauer weniger lange als Gäste aus dem Ausland mit durchschnittlich 1,97 Tagen. Bis in die frühen 1990er-Jahre war dieses Verhältnis umgekehrt, mit Ausnahme der Kriegsjahre 1940, 1941, 1942 und 1944.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:44",
+		"aktualisierungsdatum": "2024-02-15T08:30:58",
 		"id": 6543
 	},
 	{
@@ -283,8 +283,8 @@ var indikatorensetData = [
 			7979
 		],
 		"title": "Mittlere Aufenthaltsdauer pro Monat",
-		"subtitle": "in Tagen, Basel-Stadt, 2022",
-		"lesehilfe": "Am längsten verweilten Inlandgäste im Monat August mit durchschnittlich 1,81 Tagen in baselstädtischen Hotels. Die längste Aufenthaltsdauer bei den ausländischen Gästen wurde mit 2,20 Tagen im Juni registriert. Die kürzeste Aufenthaltsdauer der Schweizer Gäste wurde mit durchschnittlich 1,54 Tagen im November verzeichnet. Bei den Gästen aus dem Ausland resultierte die mit 1,74 Tagen kürzeste durchschnittliche Aufenthaltsdauer im Februar.",
+		"subtitle": "in Tagen, Basel-Stadt, 2023",
+		"lesehilfe": "Am längsten verweilten Inlandgäste im Monat Juni mit durchschnittlich 1,77 Tagen in baselstädtischen Hotels. Die längste Aufenthaltsdauer bei den ausländischen Gästen wurde mit 2,18 Tagen ebenfalls im Juni registriert. Die kürzeste Aufenthaltsdauer der Schweizer Gäste wurde mit durchschnittlich 1,52 Tagen im Dezember verzeichnet. Bei den Gästen aus dem Ausland resultierte die mit 1,73 Tagen kürzeste durchschnittliche Aufenthaltsdauer im August.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -309,7 +309,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:44",
+		"aktualisierungsdatum": "2024-02-15T08:30:58",
 		"id": 6544
 	},
 	{
@@ -323,8 +323,8 @@ var indikatorensetData = [
 		],
 		"title": "Logiernächte pro Monat nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von Januar bis Dezember 2022 wurden insgesamt 1 301 107 Logiernächte in den baselstädtischen Hotels gezählt. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 13,6% bzw. 155 315 Logiernächte. Der meistfrequentierte Monat war der September mit 140 393 Übernachtungen. Die höchste Übernachtungszahl der ausländischen Gäste wurde ebenfalls im September 2022 mit 89 647 verzeichnet, bei den Inlandgästen waren es die 57 726 Übernachtungen im August. Der besucherschwächste Monat war der Januar mit 39 575 Übernachtungen.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "Von Januar bis Dezember 2023 wurden insgesamt 1 474 975 Logiernächte in den baselstädtischen Hotels gezählt. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 24,7% bzw. 292 271 Logiernächte. Der meistfrequentierte Monat war der Juli mit 143 839 Übernachtungen. Die höchste Übernachtungszahl der ausländischen Gäste wurde im Juni 2023 mit 95 905 verzeichnet, bei den Inlandgästen waren es die 54 559 Übernachtungen im November. Der besucherärmste Monat war der Januar mit insgesamt 76 269 Übernachtungen.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -348,7 +348,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:45",
+		"aktualisierungsdatum": "2024-02-15T08:30:51",
 		"id": 6545
 	},
 	{
@@ -363,8 +363,8 @@ var indikatorensetData = [
 		],
 		"title": "Logiernächte nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach einem Höchststand von 1,42 Millionen Übernachtungen im Jahr 2019 brach die Anzahl Logiernächte 2020 und 2021 ein. Das Jahr 2022 schloss bei 1,3 Millionen Logiernächten, das sind 516 500 bzw. 65,8% mehr als 2021. Gäste aus der Schweiz übernachteten im Berichtsjahr 536 630 Mal in einem baselstädtischen Hotel, 2021 waren es 401 814. Dies entspricht einem Plus von 134 816 Logiernächten oder 33,6%. Gäste aus dem Ausland logierten 2022 insgesamt 764 477 Mal in einem Hotel in Basel-Stadt, 2021 waren es 382 793. Hier beträgt der Zuwachs 381 684 Logiernächte bzw. 99,7%. Im Jahresdurchschnitt 2022 übernachteten 3 565 Gäste pro Tag in den baselstädtischen Hotelbetrieben. Der Höchstwert der täglichen Übernachtungen wurde am 16. Juli mit 7 301 registriert, der Tiefstwert am 9. Januar mit 664.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "2023 wurden sowohl der Vorjahreswert als auch die 1,42 Millionen Übernachtungen im Jahr 2019 überboten. 1,47 Millionen Logiernächte bedeuten einen neuen Höchststand für die Basler Hotellerie. Dies sind 13,4% bzw. 173 868 mehr als 2022. Gäste aus der Schweiz übernachteten im Berichtsjahr 541 147 Mal in einem baselstädtischen Hotel, 2022 waren es 536 630. Dies entspricht einem Plus von 4 517 Logiernächten oder 0,8%. Gäste aus dem Ausland logierten 2023 insgesamt 933 828 Mal in einem Hotel in Basel-Stadt, 2022 waren es 764 477. Hier beträgt der Zuwachs 169 351 Logiernächte bzw. 22,2%. Im Jahresdurchschnitt 2023 übernachteten rund 4 000 Gäste pro Tag in den baselstädtischen Hotelbetrieben. Der Höchstwert der täglichen Übernachtungen wurde am Samstag, 9. Dezember mit 8 007 registriert, der Tiefstwert am Sonntag, 8. Januar mit 1 455.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -388,7 +388,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:45",
+		"aktualisierungsdatum": "2024-02-15T08:30:52",
 		"id": 6546
 	},
 	{
@@ -401,9 +401,9 @@ var indikatorensetData = [
 			7982
 		],
 		"title": "Logiernächte nach Herkunft der Gäste",
-		"subtitle": "indexiert (2013 = 100), Basel-Stadt",
-		"lesehilfe": "In den letzten zehn Jahren ist die Anzahl der Logiernächte der inländischen Gäste um 66,3% bzw. 213 858 gewachsen. Der Index der Übernachtungen der ausländischen Gäste stieg zwischen 2013 und 2019 um 21 Indexpunkte. Dieser Index fiel 2020 und 2021 deutlich und erreichte 2021 einen Wert von 48,9. Zum Jahresende 2022 schloss er bei 97,6 Punkten.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"subtitle": "indexiert (2014 = 100), Basel-Stadt",
+		"lesehilfe": "In den letzten zehn Jahren ist die Anzahl der Logiernächte der inländischen Gäste um 48,8% bzw. 177 391 gewachsen. Der Index der Übernachtungen der ausländischen Gäste stieg zwischen 2014 und 2023 um 16,8% bzw. 134 646 Übernachtungen. Dieser Index war 2020 vorübergehend deutlich gefallen und hatte einen Wert von 33,3 erreicht.",
+		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung hatten Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik in den Jahren 2020 bis 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -427,7 +427,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:46",
+		"aktualisierungsdatum": "2024-02-15T08:30:52",
 		"id": 6547
 	},
 	{
@@ -441,8 +441,8 @@ var indikatorensetData = [
 		],
 		"title": "Ankünfte pro Monat nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Insgesamt 703 941 Gäste haben von Januar bis Dezember 2022 in den baselstädtischen Hotels übernachtet. Gegenüber dem Mittelwert von 2013-2022 bedeutet dies eine Zunahme um 14,5% oder 89 118 Gäste. Der ankunftsstärkste Monat war mit 79 746 Gästen der Juli. Davon entfielen 33 270 Ankünfte auf Gäste aus dem Inland und 46 476 Ankünfte auf Gäste aus dem Ausland.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "Insgesamt 803 944 Gäste haben von Januar bis Dezember 2023 in den baselstädtischen Hotels übernachtet. Gegenüber dem Mittelwert von 2014-2023 bedeutet dies eine Zunahme um 26,1% oder 166 157 Gäste. Der ankunftsstärkste Monat war mit 83 414 Gästen der Juli. Davon entfielen 33 110 Ankünfte auf Gäste aus dem Inland. Bei den Gästen aus dem Ausland war der August mit 51 402 Ankünften der stärkste Monat.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:46",
+		"aktualisierungsdatum": "2024-02-15T08:30:59",
 		"id": 6576
 	},
 	{
@@ -479,8 +479,8 @@ var indikatorensetData = [
 			7985
 		],
 		"title": "Marktanteile am Übernachtungsvolumen",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Die Schweiz ist im Jahr 2022 mit einem Anteil von 41,2% der grösste Markt für die baselstädtische Hotellerie. Der wichtigste ausländische Markt ist Deutschland mit einem Marktanteil von 13,8%.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Die Schweiz ist im Jahr 2023 mit einem Anteil von 36,7% der grösste Markt für die baselstädtische Hotellerie. Der wichtigste ausländische Markt ist Deutschland mit einem Marktanteil von 14,0%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:47",
+		"aktualisierungsdatum": "2024-02-15T08:30:53",
 		"id": 7519
 	},
 	{
@@ -521,8 +521,8 @@ var indikatorensetData = [
 		],
 		"title": "Logiernächte und Marktanteile am Übernachtungsvolumen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Logiernächte von Gästen aus der Schweiz nahmen von 322 772 im Jahr 2013 auf 536 630 im Jahr 2022 zu. Der Marktanteil der Schweizer Gäste nahm von 29,2% auf 41,2% zu. Bei den Gästen aus Deutschland, dem mit 13,8% Marktanteil nach wie vor grössten ausländischen Markt, ging die Zahl der Übernachtungen von 185 430 im Jahr 2013 auf 179 918 im Jahr 2022 zurück.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik seit März 2020.",
+		"lesehilfe": "Die Logiernächte von Gästen aus der Schweiz nahmen von 363 756 im Jahr 2014 auf 541 147 im Jahr 2023 zu. Der Marktanteil der Schweizer Gäste wuchs von 31,3% auf 36,7%. Bei den Gästen aus Deutschland, dem mit 14,0% Marktanteil nach wie vor grössten ausländischen Markt, stieg die Zahl der Übernachtungen von 176 308 im Jahr 2014 auf 206 091 im Jahr 2023.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
@@ -546,7 +546,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:47",
+		"aktualisierungsdatum": "2024-02-15T08:30:53",
 		"id": 7520
 	},
 	{
@@ -559,8 +559,8 @@ var indikatorensetData = [
 			7987
 		],
 		"title": "Logiernächte nach Herkunft und Hotelkategorie",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Bei der Wahl der Hotelkategorie gab es im Jahr 2022 zwischen den aus- und inländischen Gästen kaum Unterschiede: 46% der ausländischen Touristinnen und Touristen buchten ein 4- oder 5-Sterne-Hotel, 33% bevorzugten ein 3-Sterne-Hotel. Bei den inländischen Besucherinnen und Besuchern liegen die Werte bei 42% bzw. 33%.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Bei der Wahl der Hotelkategorie gab es im Jahr 2023 zwischen den aus- und inländischen Gästen Unterschiede: 49% der ausländischen Touristinnen und Touristen buchten ein 4- oder 5-Sterne-Hotel, 30% bevorzugten ein 3-Sterne-Hotel. Bei den inländischen Besucherinnen und Besuchern liegen die Werte bei 42% bzw. 35%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -585,7 +585,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:47",
+		"aktualisierungsdatum": "2024-02-15T08:30:54",
 		"id": 7522
 	},
 	{
@@ -598,8 +598,8 @@ var indikatorensetData = [
 			7988
 		],
 		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Gäste aus Deutschland, dem im Jahr 2022 mit 179 918 Logiernächten grössten ausländischen Markt der baselstädtischen Hotellerie, buchten zu 37,4% eine Übernachtung in einem 4- und 5-Sterne-Hotel. 73,5% der Logiernächte von Gästen aus den Vereinigten Staaten entfielen auf 4- und 5-Sterne-Häuser. Besucherinnen und Besucher aus Spanien und Italien buchten mehrheitlich in 3-Sterne-Hotels.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Gäste aus Deutschland, dem im Jahr 2023 mit 206 091 Logiernächten grössten ausländischen Markt der baselstädtischen Hotellerie, buchten zu 38,0% eine Übernachtung in einem 4- und 5-Sterne-Hotel. 77,4% der Logiernächte von Gästen aus den Vereinigten Staaten entfielen auf 4- und 5-Sterne-Häuser. Besucherinnen und Besucher aus Spanien buchten mehrheitlich in 3-Sterne-Hotels.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -624,7 +624,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-09T10:52:48",
+		"aktualisierungsdatum": "2024-02-15T08:30:54",
 		"id": 7523
 	}
 ];

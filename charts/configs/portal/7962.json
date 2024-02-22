@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          3.43
+          3.48
         ],
         [
           "Bern",
-          2.52
+          2.57
         ],
         [
           "Genf",
-          5.06
+          5.22
         ],
         [
           "Lausanne",
-          4.2
+          4.28
         ],
         [
           "Zürich",
-          2.71
+          2.74
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          3.06
+          3.08
         ],
         [
           "Bern",
-          2.13
+          2.21
         ],
         [
           "Genf",
-          4.18
+          4.37
         ],
         [
           "Lausanne",
-          4.69
+          4.8
         ],
         [
           "Zürich",
-          2.6
+          2.64
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          2.88
+          2.97
         ],
         [
           "Bern",
-          2.72
+          2.75
         ],
         [
           "Genf",
-          4.54
+          4.78
         ],
         [
           "Lausanne",
-          3.93
+          3.98
         ],
         [
           "Zürich",
-          2.76
+          2.79
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          4.84
+          4.9
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          6.11
+          6.18
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Anteil der privaten Einelternhaushalte"
   },
   "subtitle": {
-    "text": "mit Kindern unter 18 Jahren, 2020",
+    "text": "mit Kindern unter 18 Jahren, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 26.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

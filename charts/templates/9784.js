@@ -75,7 +75,7 @@
     },
     xAxis: {
       min: 2010,
-      max:2022.5,
+      //max:2023.5,
       tickInterval: 1
     },
     yAxis: {

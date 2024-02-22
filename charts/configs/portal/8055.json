@@ -90,6 +90,14 @@
         [
           2021,
           16.1
+        ],
+        [
+          2022,
+          16.1
+        ],
+        [
+          2023,
+          16
         ]
       ],
       "name": "Schweiz"
@@ -184,6 +192,14 @@
         [
           2021,
           17.2
+        ],
+        [
+          2022,
+          17.8
+        ],
+        [
+          2023,
+          17.8
         ]
       ],
       "name": "Deutschland"
@@ -278,6 +294,14 @@
         [
           2021,
           19.3
+        ],
+        [
+          2022,
+          18.5
+        ],
+        [
+          2023,
+          19.7
         ]
       ],
       "name": "Italien"
@@ -372,6 +396,14 @@
         [
           2021,
           23.8
+        ],
+        [
+          2022,
+          22.4
+        ],
+        [
+          2023,
+          21
         ]
       ],
       "name": "Türkei"
@@ -466,6 +498,14 @@
         [
           2021,
           23.3
+        ],
+        [
+          2022,
+          22.1
+        ],
+        [
+          2023,
+          22.9
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -560,6 +600,14 @@
         [
           2021,
           27.4
+        ],
+        [
+          2022,
+          26.7
+        ],
+        [
+          2023,
+          25
         ]
       ],
       "name": "EU-Ost"
@@ -654,6 +702,14 @@
         [
           2021,
           20.4
+        ],
+        [
+          2022,
+          19.8
+        ],
+        [
+          2023,
+          20.3
         ]
       ],
       "name": "Balkan"
@@ -748,6 +804,14 @@
         [
           2021,
           24.8
+        ],
+        [
+          2022,
+          25.6
+        ],
+        [
+          2023,
+          21.4
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -842,6 +906,14 @@
         [
           2021,
           35.5
+        ],
+        [
+          2022,
+          36
+        ],
+        [
+          2023,
+          37.2
         ]
       ],
       "name": "Arabische Länder"
@@ -936,6 +1008,14 @@
         [
           2021,
           41
+        ],
+        [
+          2022,
+          37
+        ],
+        [
+          2023,
+          35.6
         ]
       ],
       "name": "Afrikanische Länder"
@@ -1030,6 +1110,14 @@
         [
           2021,
           22.8
+        ],
+        [
+          2022,
+          23.6
+        ],
+        [
+          2023,
+          24.1
         ]
       ],
       "name": "Übrige Länder"
@@ -1158,7 +1246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

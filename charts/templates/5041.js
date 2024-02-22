@@ -17,7 +17,7 @@
           "labels": {
           	step: 1,
             //"rotation": 0,
-            //"rotation": -90,
+            "rotation": -45,
         }  
   },
  "legend": {
