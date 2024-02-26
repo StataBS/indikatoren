@@ -1,0 +1,384 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
+            }
+      },
+      "data": [
+        [
+          "2004",
+          17.1958
+        ],
+        [
+          "2007",
+          18.1048
+        ],
+        [
+          "2010",
+          16.2514
+        ],
+        [
+          "2013",
+          17.2924
+        ],
+        [
+          "2016",
+          17.9213
+        ],
+        [
+          "2020",
+          19.1373
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+                return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
+              }
+      },
+      "data": [
+        {
+          "name": "2004",
+          "low": 16.9361,
+          "high": 17.4555
+        },
+        {
+          "name": "2007",
+          "low": 17.8024,
+          "high": 18.4071
+        },
+        {
+          "name": "2010",
+          "low": 15.8456,
+          "high": 16.6572
+        },
+        {
+          "name": "2013",
+          "low": 16.897,
+          "high": 17.6877
+        },
+        {
+          "name": "2016",
+          "low": 17.5217,
+          "high": 18.3208
+        },
+        {
+          "name": "2020",
+          "low": 18.7393,
+          "high": 19.5353
+        }
+      ],
+      "name": "Männer 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#DC440E",
+      "tooltip": {
+        "pointFormatter": function () {
+                return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
+              }
+      },
+      "data": [
+        [
+          "2004",
+          30.2429
+        ],
+        [
+          "2007",
+          29.9734
+        ],
+        [
+          "2010",
+          27.951
+        ],
+        [
+          "2013",
+          27.5398
+        ],
+        [
+          "2016",
+          28.0615
+        ],
+        [
+          "2020",
+          28.7183
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+                  return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
+                }
+      },
+      "data": [
+        {
+          "name": "2004",
+          "low": 29.9086,
+          "high": 30.5773
+        },
+        {
+          "name": "2007",
+          "low": 29.6069,
+          "high": 30.34
+        },
+        {
+          "name": "2010",
+          "low": 27.4054,
+          "high": 28.4966
+        },
+        {
+          "name": "2013",
+          "low": 27.0087,
+          "high": 28.0708
+        },
+        {
+          "name": "2016",
+          "low": 27.4883,
+          "high": 28.6348
+        },
+        {
+          "name": "2020",
+          "low": 28.1419,
+          "high": 29.2947
+        }
+      ],
+      "name": "Frauen 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#3c3c3c",
+      "tooltip": {
+        "pointFormatter": function () {
+                  return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
+                }
+      },
+      "data": [
+        [
+          "2004",
+          23.9111
+        ],
+        [
+          "2007",
+          24.2034
+        ],
+        [
+          "2010",
+          22.2198
+        ],
+        [
+          "2013",
+          22.5022
+        ],
+        [
+          "2016",
+          23.0701
+        ],
+        [
+          "2020",
+          23.9904
+        ]
+      ],
+      "name": "Total",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+                    return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
+                  }
+      },
+      "data": [
+        {
+          "name": "2004",
+          "low": 23.6886,
+          "high": 24.1337
+        },
+        {
+          "name": "2007",
+          "low": 23.9558,
+          "high": 24.451
+        },
+        {
+          "name": "2010",
+          "low": 21.8644,
+          "high": 22.5752
+        },
+        {
+          "name": "2013",
+          "low": 22.1601,
+          "high": 22.8443
+        },
+        {
+          "name": "2016",
+          "low": 22.7093,
+          "high": 23.4308
+        },
+        {
+          "name": "2020",
+          "low": 23.6301,
+          "high": 24.3507
+        }
+      ],
+      "name": "Total 95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-11932",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit"
+  },
+  "subtitle": {
+    "text": "in Stunden pro Woche, Schweiz",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function () {
+            return Highcharts.numberFormat((this.value), 0);
+          }
+    },
+    "max": 50
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+  },
+  "exporting": {
+    "filename": "11932"
+  }
+}

@@ -1,126 +1,112 @@
-(function(){
+(function () {
   return {
-"xAxis": {
-  "tickInterval": 1,
-  labels: {
-    y: 12
-  },
-},
-"yAxis": {
-"labels": {
-  "format": "{value:,.0f}%"
-}
-},	
-"tooltip": {
-  "shared": false, 
-"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
-},
-"series": [
-  { 
-    color: "#B00000", 
-    id: '0',
-  }, /* dunkelrot */
-  {
-    color: "#007A2F",
-    id: '1',
-  }, /* dunkelgrün */
-  {
-    color: "#4f81bd",
-    id: '2',
-  }, /* dunkelblau */
-  {
-    color: "#662673", 
-    id: '3', 
-  }, /* dunkelviolett */
-  {
-    color: "#7F5F1A", 
-    id: '4'
-  }, /* dunkelbraun */
-  {
-    color: "#FABD24", 
-    id: '5'
-  }, /* dunkelgelb */
-  {
-    color: "#3C3C3C", 
-    id: '6'
-  }, /* schwarz */
-  { 
-    color: "#B00000", /* dunkelrot */
-    linkedTo: '0',
-     // marker: {
-       // enabled: true,
-      //}    
-  }, 
-  { 
-    color: "#007A2F", /* dunkelgrün */
-    showInLegend: false,
-    linkedTo: '1',
-   // marker: {
-     // enabled: true,
-    //}    
-  }, 
-  { 
-    color: "#4f81bd", /* dunkelblau */
-    showInLegend: false,
-    linkedTo: '2',
- //     marker: {
-   //   enabled: true,
-    //}    
-  }, 
-  { 
-    color: "#662673", /* dunkelviolett */
-    showInLegend: false,
-    linkedTo: '3',
- //   marker: {
-   //   enabled: true,
-    //}    
-  }, 
-  { 
-    color: "#7F5F1A", /* dunkelbraun */
-    linkedTo: '4',
- //   marker: {
-   //   enabled: true,
-    //}    
-  }, 
-  { 
-    color: "#FABD24", /* dunkelgelb */
-    showInLegend: false,
-    linkedTo: '5',
- //   marker: {
-   //   enabled: true, 
-    //}    
-  }, 
-  { 
-    color: "#3C3C3C", /* schwarz */
-    showInLegend: false,
-    linkedTo: '6',
-//    marker: {
-  //    enabled: true, 
-  //  }    
-  }, 
-],
- "legend": {
-     labelFormatter: function () {
-      return this.name.slice(0, this.name.indexOf('(Stadt)'));
+    "chart": {
+      "type": "line",
+      events: {
+        load: function () {
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          /*
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+          */
+        }
+      }
     },
-  "enabled": true,
-  itemDistance: 5, 
-  "layout": "horizontal",
-  "verticalAlign": "top",
-  "itemMarginBottom": 5,
-  "align": "left",
-  "itemStyle": {
-    "fontWeight": "normal"
-  }
-},
-"plotOptions": {
-  "line": {
-    "marker":{
-      "enabled": false,
-      "symbol": "circle",
-      radius: 2
-    }
-  }
-}
-}
+    plotOptions: {
+      column: {
+        borderWidth: 0
+      }
+    },
+    xAxis: {
+      type: "category"
+    },
+    yAxis: {
+      min: null,
+      //max: 100,
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        },
+      }
+    },
+    legend: {
+      enabled: true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      itemWidth: 280,
+      width: 600,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      }
+    },
+    "tooltip": {
+      "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+      },
+    },
+    series: [
+      {
+        color: "#0091f7",
+        legendIndex: 1,
+        zIndex: 2
+      },
+      {
+        color: "#999999",
+        //dashStyle: 'ShortDash',
+        legendIndex: 3
+      },
+      {
+        visible: false,
+        showInLegend: false
+      },
+      {
+        "color": "#0091f7", type: "column", legendIndex: 5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          },
+        },
+      },
+      {
+        "color": "#999999", type: "column", legendIndex: 7,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          },
+        },
+      },
+      { "color": "#007A2F", legendIndex: 2, visible: false },
+      { "color": "#2B0099", legendIndex: 4, visible: false },
+      { "color": "#B00000", legendIndex: 6, visible: false },
+      { "color": "#73B97C", legendIndex: 8, visible: false },
+    ],
+  };
 }());

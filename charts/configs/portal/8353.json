@@ -29,11 +29,15 @@
         ],
         [
           2020,
-          123.7
+          125.1
         ],
         [
           2021,
-          140
+          133.4
+        ],
+        [
+          2022,
+          142.6
         ]
       ],
       "name": "Basel-Stadt"
@@ -67,11 +71,15 @@
         ],
         [
           2020,
-          103.3
+          102.9
         ],
         [
           2021,
-          109.8
+          105.1
+        ],
+        [
+          2022,
+          107.4
         ]
       ],
       "name": "Basel-Landschaft"
@@ -105,11 +113,15 @@
         ],
         [
           2020,
-          100.7
+          99.2
         ],
         [
           2021,
-          110.2
+          113.8
+        ],
+        [
+          2022,
+          118.1
         ]
       ],
       "name": "Jura"
@@ -143,11 +155,15 @@
         ],
         [
           2020,
-          114.5
+          115
         ],
         [
           2021,
-          126.8
+          121.7
+        ],
+        [
+          2022,
+          127.9
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -186,6 +202,10 @@
         [
           2021,
           112.8
+        ],
+        [
+          2022,
+          115.7
         ]
       ],
       "name": "Schweiz"
@@ -288,7 +308,9 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 10,
+    "max": 150
   },
   "legend": {
     "enabled": true,
@@ -315,7 +337,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
