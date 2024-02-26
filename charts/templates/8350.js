@@ -81,7 +81,7 @@
       //"y": 35,    
     },
     "tooltip": {
-      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mrd. Franken</b><br/>',
+      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mrd. Franken</b><br/>',
       "shared": false
     },
     "chart": {

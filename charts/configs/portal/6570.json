@@ -7,27 +7,27 @@
       "data": [
         [
           "0-4 Jahre",
-          56.2
+          55.1
         ],
         [
           "5-14 Jahre",
-          60.1
+          59.3
         ],
         [
           "15-24 Jahre",
-          45.1
+          43.3
         ],
         [
           "25-39 Jahre",
-          33.8
+          32.5
         ],
         [
           "40-64 Jahre",
-          66.8
+          65.4
         ],
         [
           "\u003E64 Jahre",
-          91.8
+          91
         ]
       ],
       "name": "C",
@@ -40,27 +40,27 @@
       "data": [
         [
           "0-4 Jahre",
-          36.2
+          37.9
         ],
         [
           "5-14 Jahre",
-          30.3
+          31.1
         ],
         [
           "15-24 Jahre",
-          39.6
+          40.6
         ],
         [
           "25-39 Jahre",
-          57.2
+          59.2
         ],
         [
           "40-64 Jahre",
-          27.6
+          29
         ],
         [
           "\u003E64 Jahre",
-          4.6
+          5.2
         ]
       ],
       "name": "B",
@@ -73,7 +73,7 @@
       "data": [
         [
           "0-4 Jahre",
-          1.9
+          1.8
         ],
         [
           "5-14 Jahre",
@@ -81,19 +81,19 @@
         ],
         [
           "15-24 Jahre",
-          2.9
+          3.5
         ],
         [
           "25-39 Jahre",
-          0.9
+          0.8
         ],
         [
           "40-64 Jahre",
-          0.6
+          0.7
         ],
         [
           "\u003E64 Jahre",
-          0.4
+          0.5
         ]
       ],
       "name": "F",
@@ -106,23 +106,23 @@
       "data": [
         [
           "0-4 Jahre",
-          1.9
+          1.3
         ],
         [
           "5-14 Jahre",
-          1
+          1.2
         ],
         [
           "15-24 Jahre",
-          6.8
+          6
         ],
         [
           "25-39 Jahre",
-          5
+          4.3
         ],
         [
           "40-64 Jahre",
-          1.3
+          1.2
         ],
         [
           "\u003E64 Jahre",
@@ -143,23 +143,23 @@
         ],
         [
           "5-14 Jahre",
-          0.4
+          0.5
         ],
         [
           "15-24 Jahre",
-          0.8
+          1.1
         ],
         [
           "25-39 Jahre",
-          0.3
+          0.4
         ],
         [
           "40-64 Jahre",
-          0.1
+          0.2
         ],
         [
           "\u003E64 Jahre",
-          0
+          0.1
         ]
       ],
       "name": "N",
@@ -172,27 +172,27 @@
       "data": [
         [
           "0-4 Jahre",
-          3.5
+          3.6
         ],
         [
           "5-14 Jahre",
-          6.2
+          5.9
         ],
         [
           "15-24 Jahre",
-          4.7
+          5.6
         ],
         [
           "25-39 Jahre",
-          2.9
+          2.8
         ],
         [
           "40-64 Jahre",
-          3.5
+          3.6
         ],
         [
           "\u003E64 Jahre",
-          2.9
+          3.1
         ]
       ],
       "name": "Übrige",
@@ -280,7 +280,7 @@
     "text": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -336,7 +336,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

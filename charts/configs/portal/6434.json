@@ -250,6 +250,10 @@
         [
           2022,
           12.6
+        ],
+        [
+          2023,
+          12.7
         ]
       ],
       "name": "Jahresmitteltemperatur"
@@ -372,7 +376,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 9.3.2023"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

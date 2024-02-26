@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel-Stadt",
-          210439
+          218420
         ],
         [
           "Basel-Landschaft",
-          77151
+          77509
         ],
         [
           "Jura",
-          70181
+          73447
         ],
         [
           "BS\u002FBL\u002FJU",
-          122944
+          126071
         ],
         [
           "Schweiz",
-          85733
+          89424
         ]
       ],
       "turboThreshold": 0
@@ -107,7 +107,7 @@
     "text": "Bruttoinlandprodukt pro Kopf"
   },
   "subtitle": {
-    "text": "in Franken, 2021",
+    "text": "in Franken, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,7 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "colors": [
     "#474747",
