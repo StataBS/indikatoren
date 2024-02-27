@@ -1,0 +1,288 @@
+{
+  "series": [
+    {
+      "name": "KWI",
+      "data": [
+        [
+          "ZG",
+          100
+        ],
+        [
+          "\u003Cb\u003EBS\u003C\u002Fb\u003E",
+          97.9
+        ],
+        [
+          "ZH",
+          94
+        ],
+        [
+          "AG",
+          77.8
+        ],
+        [
+          "SZ",
+          77.1
+        ],
+        [
+          "VD",
+          75.9
+        ],
+        [
+          "BL",
+          74.7
+        ],
+        [
+          "LU",
+          74.6
+        ],
+        [
+          "GE",
+          72.1
+        ],
+        [
+          "NW",
+          70.7
+        ],
+        [
+          "SH",
+          69.8
+        ],
+        [
+          "TG",
+          66.9
+        ],
+        [
+          "SG",
+          66.2
+        ],
+        [
+          "SO",
+          62.4
+        ],
+        [
+          "OW",
+          62.3
+        ],
+        [
+          "FR",
+          60.2
+        ],
+        [
+          "AR",
+          59.1
+        ],
+        [
+          "GL",
+          58
+        ],
+        [
+          "BE",
+          57
+        ],
+        [
+          "AI",
+          56.4
+        ],
+        [
+          "TI",
+          53.3
+        ],
+        [
+          "NE",
+          53.2
+        ],
+        [
+          "UR",
+          51.2
+        ],
+        [
+          "GR",
+          46.1
+        ],
+        [
+          "VS",
+          42.9
+        ],
+        [
+          "JU",
+          33
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 50,
+    "renderTo": "container-9786"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "colorByPoint": true
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Kantonaler Wettbewerbsindikator (KWI)"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt im kantonalen Vergleich, 2023",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 100
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+  },
+  "colors": [
+    "#A8C3CA",
+    "#689199",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA"
+  ],
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9786"
+  }
+}

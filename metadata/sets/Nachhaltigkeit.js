@@ -90,8 +90,8 @@ var indikatorensetData = [
 			8882
 		],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:49",
+		"aktualisierungsdatum": "2024-02-27T08:24:00",
 		"id": 5142
 	},
 	{
@@ -517,13 +517,13 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 5184,
-		"chart-id": 9693,
+		"chart-id": 5184,
 		"filter": "",
-		"parentId": "9693",
+		"parentId": null,
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2021 5,7% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2020.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als in den Vergleichsstädten</p></div>",
+		"lesehilfe": "In der Stadt Basel bezogen 2022 5,3% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2021.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -548,7 +548,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-30T08:41:45",
+		"aktualisierungsdatum": "2024-02-26T08:30:55",
 		"id": 5184
 	},
 	{
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2022 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -977,7 +977,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:31",
+		"aktualisierungsdatum": "2024-02-26T08:30:58",
 		"id": 6027
 	},
 	{
@@ -1860,7 +1860,7 @@ var indikatorensetData = [
 		],
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2023 12,7 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1885,7 +1885,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:19",
+		"aktualisierungsdatum": "2024-02-26T08:30:57",
 		"id": 6434
 	},
 	{
@@ -2016,7 +2016,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2022 bei 37,9%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2023 bei 38,4%.",
 		"erlaeuterungen": "Anteil der ausländischen Bevölkerung im Kanton Basel-Stadt pro Jahr in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2041,7 +2041,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:52",
+		"aktualisierungsdatum": "2024-02-26T08:30:54",
 		"id": 8377
 	},
 	{
@@ -2732,7 +2732,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2022 bei 48,7%.",
+		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2023 bei 49,4%.",
 		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Der Anteil der stimm- und wahlberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch die mittlere Wohnbevölkerung des jeweiligen Jahres; ohne Bürgergemeinderatswahlen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2758,7 +2758,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:53",
+		"aktualisierungsdatum": "2024-02-26T08:30:56",
 		"id": 9740
 	},
 	{
@@ -2872,5 +2872,79 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-05-17T08:55:24",
 		"id": 9785
+	},
+	{
+		"template": "template001",
+		"data-id": 9786,
+		"chart-id": 6126,
+		"filter": "",
+		"parentId": "6126",
+		"children": [],
+		"title": "Kantonaler Wettbewerbsindikator (KWI)",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2023",
+		"lesehilfe": "Im Jahr 2023 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 99,2 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 6.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) der UBS gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht thematischen Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
+		"quellenangabe": [
+			"UBS Switzerland AG"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Kantonaler Wettbewerbsindikator (KWI)",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.09786",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE4",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftsstruktur",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_01_00_00_00_604",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-26T08:31:01",
+		"id": 9786
+	},
+	{
+		"template": "template001",
+		"data-id": 9787,
+		"chart-id": 9787,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigte",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09787",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE10",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_02_00_00_00_610",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-26T08:31:00",
+		"id": 9787
 	}
 ];

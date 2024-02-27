@@ -2257,6 +2257,8 @@ id | visible | visibleInPortal | indikatorenset
 9780 | true | false | Arbeitsmarkt (Print)
 9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
+9786 | true | false | Nachhaltigkeit
+9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
 9919 | true | true | Soziales
@@ -2265,6 +2267,7 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+10027 | true | false | Wirtschaftsbericht BS_BL_JU
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
@@ -2315,4 +2318,5 @@ id | visible | visibleInPortal | indikatorenset
 11903 | true | false | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
+11932 | true | true | Wirtschaftsbericht BS_BL_JU
 11936 | true | false | 

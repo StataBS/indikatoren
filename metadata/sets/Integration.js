@@ -562,7 +562,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthaltsbewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2023: 42 896) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 30 302 Personen besitzen 2023 eine Aufenthaltsbewilligung.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -587,7 +587,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:05",
+		"aktualisierungsdatum": "2024-02-26T08:30:52",
 		"id": 6071
 	},
 	{
@@ -640,8 +640,8 @@ var indikatorensetData = [
 		],
 		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2022 die Türken mit 79,8%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (79,3%) und Italien (71,1%). Im Vergleich zum Jahr 2003 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2023 die Türkinnen und Türken sowie Personen vom Balkan (je 78,8%). Danach folgen die Italienerinnen und Italiener (69,8%). Im Vergleich zum Jahr 2004 haben die Anteile bei den Personen aus der Türkei und den Balkanländern zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese zurückgegangen.",
+		"erlaeuterungen": "Bewilligungsart C: Niederlassungsbewilligung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:08",
+		"aktualisierungsdatum": "2024-02-26T08:30:53",
 		"id": 6073
 	},
 	{
@@ -4265,8 +4265,8 @@ var indikatorensetData = [
 			6750
 		],
 		"title": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (91,8%), bei den 25- bis 39-Jährigen am tiefsten (33,8%).",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (91,0%), bei den 25- bis 39-Jährigen am tiefsten (32,5%).",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -4291,7 +4291,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:08",
+		"aktualisierungsdatum": "2024-02-26T08:30:53",
 		"id": 6570
 	}
 ];

@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:04",
+		"aktualisierungsdatum": "2024-02-26T01:45:10",
 		"id": 9663
 	},
 	{
@@ -274,8 +274,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Lebenserwartung",
 		"subtitle": "bei Geburt in Jahren, Basel-Stadt",
-		"lesehilfe": "Eine im Jahr 2022 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,3 Jahren.<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
-		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"lesehilfe": "Eine im Jahr 2022 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,3 Jahren (95%-Konfidenzintervall: 81,7 - 82,9).<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
+		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Das Konfidenzintervall (Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Schweizerisches Gesundheitsobervatorium (Obsan)"
 		],
@@ -299,7 +299,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-18T09:39:47",
+		"aktualisierungsdatum": "2024-02-26T08:30:51",
 		"id": 9679
 	},
 	{

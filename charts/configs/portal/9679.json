@@ -3,6 +3,13 @@
     {
       "color": "#0091f7",
       "zIndex": 2,
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
       "data": [
         [
           1998,
@@ -108,7 +115,156 @@
       "name": "Basel-Stadt"
     },
     {
+      "index": 1,
+      "type": "errorbar",
+      "color": "#44b1f7",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
+      "data": [
+        {
+          "x": 1998,
+          "low": 77.6,
+          "high": 78.9
+        },
+        {
+          "x": 1999,
+          "low": 77.5,
+          "high": 78.8
+        },
+        {
+          "x": 2000,
+          "low": 78.4,
+          "high": 79.6
+        },
+        {
+          "x": 2001,
+          "low": 78.5,
+          "high": 79.8
+        },
+        {
+          "x": 2002,
+          "low": 79.1,
+          "high": 80.2
+        },
+        {
+          "x": 2003,
+          "low": 78.4,
+          "high": 79.7
+        },
+        {
+          "x": 2004,
+          "low": 79.7,
+          "high": 81
+        },
+        {
+          "x": 2005,
+          "low": 79.7,
+          "high": 80.9
+        },
+        {
+          "x": 2006,
+          "low": 80.4,
+          "high": 81.5
+        },
+        {
+          "x": 2007,
+          "low": 80.7,
+          "high": 81.9
+        },
+        {
+          "x": 2008,
+          "low": 80.1,
+          "high": 81.4
+        },
+        {
+          "x": 2009,
+          "low": 80.5,
+          "high": 81.7
+        },
+        {
+          "x": 2010,
+          "low": 80.7,
+          "high": 81.9
+        },
+        {
+          "x": 2011,
+          "low": 80.8,
+          "high": 82.1
+        },
+        {
+          "x": 2012,
+          "low": 81,
+          "high": 82.2
+        },
+        {
+          "x": 2013,
+          "low": 81.2,
+          "high": 82.4
+        },
+        {
+          "x": 2014,
+          "low": 81,
+          "high": 82.1
+        },
+        {
+          "x": 2015,
+          "low": 81.6,
+          "high": 82.6
+        },
+        {
+          "x": 2016,
+          "low": 82.3,
+          "high": 83.4
+        },
+        {
+          "x": 2017,
+          "low": 82,
+          "high": 83
+        },
+        {
+          "x": 2018,
+          "low": 82.3,
+          "high": 83.3
+        },
+        {
+          "x": 2019,
+          "low": 82.1,
+          "high": 83.3
+        },
+        {
+          "x": 2020,
+          "low": 82,
+          "high": 83.1
+        },
+        {
+          "x": 2021,
+          "low": 82.7,
+          "high": 83.8
+        },
+        {
+          "x": 2022,
+          "low": 81.7,
+          "high": 82.9
+        }
+      ],
+      "name": "Konfidenz von"
+    },
+    {
       "color": "#999999",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
       "data": [
         [
           1998,
@@ -212,6 +368,148 @@
         ]
       ],
       "name": "Schweiz"
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "color": "#aaaaaa",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
+      "data": [
+        {
+          "x": 1998,
+          "low": 79.3,
+          "high": 79.5
+        },
+        {
+          "x": 1999,
+          "low": 79.6,
+          "high": 79.8
+        },
+        {
+          "x": 2000,
+          "low": 79.7,
+          "high": 79.9
+        },
+        {
+          "x": 2001,
+          "low": 80.2,
+          "high": 80.4
+        },
+        {
+          "x": 2002,
+          "low": 80.4,
+          "high": 80.6
+        },
+        {
+          "x": 2003,
+          "low": 80.5,
+          "high": 80.7
+        },
+        {
+          "x": 2004,
+          "low": 81,
+          "high": 81.2
+        },
+        {
+          "x": 2005,
+          "low": 81.2,
+          "high": 81.4
+        },
+        {
+          "x": 2006,
+          "low": 81.5,
+          "high": 81.7
+        },
+        {
+          "x": 2007,
+          "low": 81.7,
+          "high": 81.9
+        },
+        {
+          "x": 2008,
+          "low": 82,
+          "high": 82.2
+        },
+        {
+          "x": 2009,
+          "low": 82,
+          "high": 82.2
+        },
+        {
+          "x": 2010,
+          "low": 82.2,
+          "high": 82.4
+        },
+        {
+          "x": 2011,
+          "low": 82.4,
+          "high": 82.6
+        },
+        {
+          "x": 2012,
+          "low": 82.5,
+          "high": 82.6
+        },
+        {
+          "x": 2013,
+          "low": 82.6,
+          "high": 82.7
+        },
+        {
+          "x": 2014,
+          "low": 82.9,
+          "high": 83.1
+        },
+        {
+          "x": 2015,
+          "low": 82.7,
+          "high": 82.9
+        },
+        {
+          "x": 2016,
+          "low": 83.3,
+          "high": 83.5
+        },
+        {
+          "x": 2017,
+          "low": 83.3,
+          "high": 83.4
+        },
+        {
+          "x": 2018,
+          "low": 83.4,
+          "high": 83.6
+        },
+        {
+          "x": 2019,
+          "low": 83.6,
+          "high": 83.8
+        },
+        {
+          "x": 2020,
+          "low": 82.9,
+          "high": 83.1
+        },
+        {
+          "x": 2021,
+          "low": 83.5,
+          "high": 83.7
+        },
+        {
+          "x": 2022,
+          "low": 83.4,
+          "high": 83.5
+        }
+      ],
+      "name": "Konfidenz von"
     },
     {
       "visible": false,
@@ -332,7 +630,10 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "panning": true,
+    "panning": {
+      "enabled": true,
+      "type": "xy"
+    },
     "panKey": "shift",
     "events": {
       "load": function () {
@@ -352,30 +653,20 @@
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[4].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y !== null) {
+            if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7",
-                  radius: 3
+                  lineColor: "#0091f7"
                 }
-              });
-              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
-                element.update({
-                  marker: {
-                    enabled: true,
-                    lineWidth: 1,
-                    lineColor: "#0091f7",
-                    radius: 4.5
-                  }
-                });
-              }
+              })
             }
           });
+          
         }
     },
     "renderTo": "container-9679"
@@ -426,8 +717,7 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": -45
+      }
     },
     "tickInterval": 1
   },
@@ -472,7 +762,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 18.1.2024"
+    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

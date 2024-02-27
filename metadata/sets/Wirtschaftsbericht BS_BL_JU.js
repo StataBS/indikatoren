@@ -1,6 +1,43 @@
 var indikatorensetData = [
 	{
 		"template": "template001",
+		"data-id": 10027,
+		"chart-id": 10027,
+		"filter": "",
+		"parentId": "8458",
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 500 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10027",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4.1",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Haus- und Familienarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+		"id": 10027
+	},
+	{
+		"template": "template001",
 		"data-id": 10028,
 		"chart-id": 10028,
 		"filter": "",
@@ -196,6 +233,45 @@ var indikatorensetData = [
 	},
 	{
 		"template": "template001",
+		"data-id": 11932,
+		"chart-id": 11932,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			11933
+		],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Schweiz",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person in der Schweiz durchschnittlich 24,0 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,1 Stunden",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.11932",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4.5",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Haus- und Familienarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-26T08:30:49",
+		"id": 11932
+	},
+	{
+		"template": "template001",
 		"data-id": 8350,
 		"chart-id": 8350,
 		"filter": "",
@@ -204,8 +280,8 @@ var indikatorensetData = [
 			8467
 		],
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2021",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2021 Basel-Stadt mit 41,0 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,4 und Jura mit 5,2 Mrd. Franken.",
+		"subtitle": "total in Mrd. Franken, 2022",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2022 Basel-Stadt mit 42,8 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,7 und Jura mit 5,4 Mrd. Franken.",
 		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -230,7 +306,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:28",
+		"aktualisierungsdatum": "2024-02-26T08:30:40",
 		"id": 8350
 	},
 	{
@@ -243,9 +319,9 @@ var indikatorensetData = [
 			8468
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2021",
-		"lesehilfe": "Mit über 210 000 Franken pro Kopf im Jahr 2021 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 200 Franken, Jura auf 70 200 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 85 700 Franken.",
-		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "in Franken, 2022",
+		"lesehilfe": "Mit über 218 000 Franken pro Kopf im Jahr 2022 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 500 Franken, Jura auf 73 400 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 89 400 Franken.",
+		"erlaeuterungen": "Werte für 2022 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -269,7 +345,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:28",
+		"aktualisierungsdatum": "2024-02-26T08:30:41",
 		"id": 8351
 	},
 	{
@@ -283,7 +359,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2021 weist Basel-Stadt mit 34,7% auf, gefolgt vom Kanton Jura mit 7,3% und Basel-Landschaft mit 5,2%. In der gesamten Schweiz stieg der Wert um 5,9%.",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2022 weist Basel-Stadt mit 37,7% auf, gefolgt vom Kanton Jura mit 14,8% und Basel-Landschaft mit 2,2%. In der gesamten Schweiz stieg der Wert um 7,8%.",
 		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -308,7 +384,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"aktualisierungsdatum": "2024-02-26T08:30:41",
 		"id": 8352
 	},
 	{
@@ -322,8 +398,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2021 weist Basel-Stadt mit 40,0% auf. Im Kanton Jura beträgt der Zuwachs 10,2% und im Kanton Basel-Landschaft 9,8%. In der gesamten Schweiz stieg der Wert um 12,8%.",
-		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2022 weist Basel-Stadt mit 42,6% auf. Im Kanton Jura beträgt der Zuwachs 18,1% und im Kanton Basel-Landschaft 7,4%. In der gesamten Schweiz stieg der Wert um 15,7%. Auch gegenüber dem Vorjahr wurden positive Wachstumsraten verzeichnet, die grösste in Basel-Stadt mit 6,9%.",
+		"erlaeuterungen": "Werte für 2022 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -347,7 +423,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"aktualisierungsdatum": "2024-02-26T08:30:42",
 		"id": 8353
 	},
 	{
@@ -637,7 +713,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 68%, der Bestand im 3. Quartal 2023 liegt bei 11 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). In der gesamten Schweiz arbeiten im 3. Quartal 2023 rund 391 100 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 70%, der Bestand im 4. Quartal 2023 liegt bei 11 800 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). Auch in den letzten Quartalen gab es in den drei Kantonen überwiegend steigende Zahlen. In der gesamten Schweiz arbeiten im 4. Quartal 2023 rund 392 800 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -662,7 +738,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:38",
+		"aktualisierungsdatum": "2024-02-26T01:45:11",
 		"id": 8361
 	},
 	{
@@ -675,8 +751,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2023, 3. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 100.",
+		"subtitle": "2023, 4. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 800 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 392 800.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -701,7 +777,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:37",
+		"aktualisierungsdatum": "2024-02-26T08:30:46",
 		"id": 8362
 	},
 	{
@@ -910,8 +986,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2021: 52,5%). Basel-Landschaft liegt bei 41,8%, Jura bei 27,0%. Der Wert für die ganze Schweiz beträgt 40,7%.",
-		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt (7 000 in Basel-Landschaft, 2 000 in Jura) wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
+		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt (7 000 in Basel-Landschaft, 2 000 in Jura) wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -925,7 +1001,7 @@ var indikatorensetData = [
 		"unterthema": "Bildungsniveau",
 		"kuerzel": "I.15.6.08368",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.2-1",
+		"kuerzelKunde": "2.2.1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -935,7 +1011,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:51",
+		"aktualisierungsdatum": "2024-02-26T08:30:47",
 		"id": 8368
 	},
 	{
@@ -1703,8 +1779,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 25 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2021). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2023, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 26 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2021). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (8%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -1720,7 +1796,7 @@ var indikatorensetData = [
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.08863",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzelKunde": "2.1-6",
+		"kuerzelKunde": "2.1.6",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
@@ -1730,7 +1806,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:20",
+		"aktualisierungsdatum": "2024-02-26T08:30:47",
 		"id": 8863
 	},
 	{
