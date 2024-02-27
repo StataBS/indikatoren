@@ -3834,8 +3834,8 @@ var indikatorensetData = [
 		"parentId": "5142",
 		"children": [],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3860,7 +3860,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:59",
+		"aktualisierungsdatum": "2024-02-27T08:24:01",
 		"id": 6989
 	},
 	{
