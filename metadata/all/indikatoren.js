@@ -1,6 +1,44 @@
 var indikatoren = [
 	{
 		"template": "template001",
+		"data-id": 10027,
+		"chart-id": 10027,
+		"filter": "",
+		"parentId": "8458",
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 500 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.10027",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.4.1",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Haus- und Familienarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+		"id": 10027
+	},
+	{
+		"template": "template001",
 		"data-id": 10028,
 		"chart-id": 10028,
 		"filter": "",
@@ -11624,8 +11662,8 @@ var indikatoren = [
 			8882
 		],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11651,7 +11689,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:49",
+		"aktualisierungsdatum": "2024-02-27T08:24:00",
 		"id": 5142
 	},
 	{
@@ -35761,8 +35799,8 @@ var indikatoren = [
 		"parentId": "5142",
 		"children": [],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35788,7 +35826,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:59",
+		"aktualisierungsdatum": "2024-02-27T08:24:01",
 		"id": 6989
 	},
 	{
