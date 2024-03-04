@@ -1429,7 +1429,7 @@ var indikatorensetData = [
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
 		"subtitle": "in Franken pro Einwohner, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2020 beträgt es fast 190 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2021 beträgt es fast 204 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
 		"erlaeuterungen": "Berechnet aus verschiedenen Quellen durch BAK Economics AG. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1454,7 +1454,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:55",
+		"aktualisierungsdatum": "2024-03-04T11:56:34",
 		"id": 6045
 	},
 	{
@@ -1505,7 +1505,7 @@ var indikatorensetData = [
 		],
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2021 bei 39% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2021).",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2022 bei rund 45% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2022).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1530,7 +1530,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:56",
+		"aktualisierungsdatum": "2024-03-04T11:56:35",
 		"id": 6047
 	},
 	{
