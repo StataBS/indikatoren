@@ -1,0 +1,882 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          1995,
+          1
+        ],
+        [
+          1996,
+          0
+        ],
+        [
+          1997,
+          0
+        ],
+        [
+          1998,
+          3
+        ],
+        [
+          1999,
+          1
+        ],
+        [
+          2000,
+          0
+        ],
+        [
+          2001,
+          0
+        ],
+        [
+          2002,
+          0
+        ],
+        [
+          2003,
+          8
+        ],
+        [
+          2004,
+          1
+        ],
+        [
+          2005,
+          2
+        ],
+        [
+          2006,
+          4
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          2
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          4
+        ],
+        [
+          2013,
+          4
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          11
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          6
+        ],
+        [
+          2018,
+          3
+        ],
+        [
+          2019,
+          6
+        ],
+        [
+          2020,
+          3
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          5
+        ],
+        [
+          2023,
+          3
+        ]
+      ],
+      "name": "Basel-Binningen (vorstädtisch, keine Bebauung)"
+    },
+    {
+      "color": "#2f656b",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          22
+        ],
+        [
+          2011,
+          14
+        ],
+        [
+          2012,
+          17
+        ],
+        [
+          2013,
+          23
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          40
+        ],
+        [
+          2016,
+          23
+        ],
+        [
+          2017,
+          40
+        ],
+        [
+          2018,
+          43
+        ],
+        [
+          2019,
+          34
+        ],
+        [
+          2020,
+          28
+        ],
+        [
+          2021,
+          6
+        ],
+        [
+          2022,
+          19
+        ],
+        [
+          2023,
+          24
+        ]
+      ],
+      "name": "Feldbergstrasse, Basel (Stadtzentrum, geschlossene Bebauung)"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          16
+        ],
+        [
+          2011,
+          14
+        ],
+        [
+          2012,
+          16
+        ],
+        [
+          2013,
+          18
+        ],
+        [
+          2014,
+          11
+        ],
+        [
+          2015,
+          34
+        ],
+        [
+          2016,
+          19
+        ],
+        [
+          2017,
+          35
+        ],
+        [
+          2018,
+          38
+        ],
+        [
+          2019,
+          31
+        ],
+        [
+          2020,
+          24
+        ],
+        [
+          2021,
+          6
+        ],
+        [
+          2022,
+          13
+        ],
+        [
+          2023,
+          17
+        ]
+      ],
+      "name": "St. Johann, Basel (Stadtzentrum, offene Bebauung)"
+    },
+    {
+      "color": "#990300",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          5
+        ],
+        [
+          2011,
+          6
+        ],
+        [
+          2012,
+          6
+        ],
+        [
+          2013,
+          6
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          21
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          11
+        ],
+        [
+          2018,
+          9
+        ],
+        [
+          2019,
+          10
+        ],
+        [
+          2020,
+          8
+        ],
+        [
+          2021,
+          5
+        ],
+        [
+          2022,
+          11
+        ],
+        [
+          2023,
+          12
+        ]
+      ],
+      "name": "Klingelbergstrasse, Basel (Stadtzentrum, 38 m über Grund)"
+    },
+    {
+      "color": "#73b97c",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          3
+        ],
+        [
+          2013,
+          4
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          3
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          2
+        ],
+        [
+          2023,
+          1
+        ]
+      ],
+      "name": "Sissach (vorstädtisch, offene Bebauung)"
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          7
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          4
+        ],
+        [
+          2013,
+          7
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          22
+        ],
+        [
+          2016,
+          4
+        ],
+        [
+          2017,
+          9
+        ],
+        [
+          2018,
+          6
+        ],
+        [
+          2019,
+          10
+        ],
+        [
+          2020,
+          7
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          4
+        ],
+        [
+          2023,
+          6
+        ]
+      ],
+      "name": "Dornach (vorstädtisch, offene Bebauung)"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginRight": 20,
+    "renderTo": "container-11906",
+    "spacingBottom": 70
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Tropennächte"
+  },
+  "subtitle": {
+    "text": "Anzahl Nächte, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 3,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -55
+    },
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EMeteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EMeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "11906"
+  }
+}

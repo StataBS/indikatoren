@@ -1917,6 +1917,49 @@
 		"id": 11903
 	},
 	{
+		"template": "template001",
+		"data-id": 11906,
+		"chart-id": 9390,
+		"filter": "",
+		"parentId": "9390",
+		"children": [],
+		"title": "Tropennächte",
+		"subtitle": "Anzahl Nächte, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"quellenangabe": [
+			"Universität Basel",
+			"Lufthygieneamt beider Basel",
+			"Meteorologischer Verein der Region Basel",
+			"MeteoSchweiz"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Tropennächte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.11906",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-04T11:56:27",
+		"id": 11906
+	},
+	{
 		"template": "line001",
 		"data-id": 11925,
 		"chart-id": 11925,
@@ -11248,7 +11291,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-22T08:31:56",
+		"aktualisierungsdatum": "2024-03-04T11:56:25",
 		"id": 4919
 	},
 	{
@@ -14503,7 +14546,7 @@
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
 		"subtitle": "in Franken pro Einwohner, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2020 beträgt es fast 190 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2021 beträgt es fast 204 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
 		"erlaeuterungen": "Berechnet aus verschiedenen Quellen durch BAK Economics AG. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -14529,7 +14572,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:55",
+		"aktualisierungsdatum": "2024-03-04T11:56:34",
 		"id": 6045
 	},
 	{
@@ -14581,7 +14624,7 @@
 		],
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2021 bei 39% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2021).",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2022 bei rund 45% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2022).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -14607,7 +14650,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:56",
+		"aktualisierungsdatum": "2024-03-04T11:56:35",
 		"id": 6047
 	},
 	{
@@ -15186,9 +15229,9 @@
 		"children": [
 			6648
 		],
-		"title": "Durchschnittsalter der Wohnbevölkerung",
+		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2022 45,5 Jahre, jenes der ausländischen Staatsangehörigen 37,8 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2023 45,4 Jahre, jenes der ausländischen Staatsangehörigen 37,9 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15198,7 +15241,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Durchschnittsalter der Wohnbevölkerung",
+		"description": "Durchschnittsalter der Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06063",
@@ -15214,7 +15257,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:30",
+		"aktualisierungsdatum": "2024-03-04T11:56:29",
 		"id": 6063
 	},
 	{
@@ -15550,8 +15593,8 @@
 			6657
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei (79,8%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,0%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (14,6%).",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei und dem Balkan (je 78,7%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,3%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (12,4%).",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15577,7 +15620,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-21T08:33:48",
+		"aktualisierungsdatum": "2024-03-04T11:56:30",
 		"id": 6072
 	},
 	{
@@ -16036,7 +16079,7 @@
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist seit 2016 leicht rückläufig. Umgekehrt verläuft der Trend bei Jugendlichen aus der Türkei sowie aus Mittel- und Südamerika. Bei Lernenden mit deutschem Pass stagniert die Quote auf tiefem Niveau.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer stagniert; auf tieferem Niveau auch jene der Deutschen. Bei Lernenden mit ausländischer Staatsangehörigkeit gibt es jedoch grosse Unterschiede: Bei Jugendlichen aus der Türkei steigt die Quote seit 2020 von Jahr zu Jahr, bei jenen aus afrikanischen Ländern 2023 gar sprunghaft.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -16063,7 +16106,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:09",
+		"aktualisierungsdatum": "2024-03-04T11:56:30",
 		"id": 6084
 	},
 	{
@@ -16104,7 +16147,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:11",
+		"aktualisierungsdatum": "2024-03-04T11:56:31",
 		"id": 6085
 	},
 	{
@@ -16739,7 +16782,7 @@
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 117%. Die Staatsausgaben liegen 2021 ca. 58% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt steigt seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 110%. Die Staatsausgaben liegen 2021 ca. 58% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -16766,7 +16809,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-26T03:45:22",
+		"aktualisierungsdatum": "2024-03-04T11:56:26",
 		"id": 6205
 	},
 	{
@@ -21368,8 +21411,8 @@
 			6778
 		],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (23%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es Deutsche.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -21396,7 +21439,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:02",
+		"aktualisierungsdatum": "2024-03-04T11:56:32",
 		"id": 6381
 	},
 	{
@@ -32442,8 +32485,8 @@
 		"parentId": "6381",
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (23%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es Deutsche.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -32470,7 +32513,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:02",
+		"aktualisierungsdatum": "2024-03-04T11:56:33",
 		"id": 6778
 	},
 	{
@@ -73410,21 +73453,23 @@
 		"chart-id": 9294,
 		"filter": "",
 		"parentId": null,
-		"children": [],
-		"title": "Beziehende von Prämienverbilligungen",
+		"children": [
+			9934
+		],
+		"title": "Beziehende von Prämienverbilligung",
 		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
-		"lesehilfe": "Mit 51 711 Beziehenden erhalten Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
+		"lesehilfe": "Mit 51 711 Beziehenden erhält Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. PV: Prämienverbilligung, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung"
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beziehende von Prämienverbilligungen",
+		"description": "Beziehende von Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09294",
@@ -73440,7 +73485,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-24T08:23:24",
+		"aktualisierungsdatum": "2024-03-04T11:56:28",
 		"id": 9294
 	},
 	{
