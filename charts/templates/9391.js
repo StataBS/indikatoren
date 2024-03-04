@@ -1,15 +1,14 @@
 (function () {
   return {
-    "chart": {
-      "type": "column"
-    },
-    title: {
-      useHTML: true
-    },
+   // "chart": {
+   //   "type": "column"
+   // },
+  //  title: {
+      //useHTML: true
+   // },
     "plotOptions": {
       "series": {
         "borderWidth": 0,
-        /*"pointWidth": 30,*/
         "stacking": "true",
         minPointLength: 2,
       },
@@ -45,7 +44,7 @@
     }
     ],
     "legend": {
-      useHTML: true,
+      //useHTML: true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
@@ -59,11 +58,11 @@
         "index": 4,
         "color": "#2F656B",
         "legendIndex": 1,
-        "type": "column",
+        "type": "column"/*,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
           shared: true
-        }
+        }*/
       }, // Blau
       {
         "index": 3,
@@ -98,10 +97,10 @@
         "legendIndex": 5,
         "type": "column",
         "stacking": false,
-        visible: false,
+        visible: false/*,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-        }
+        }*/
       },
       {
         index: 6,
@@ -109,14 +108,15 @@
         "type": "line",
         "stacking": false,
         "legendIndex": 6,
+        zIndex: 100,
         "yAxis": 1,
         "marker": {
           "enabled": false
-        },
+        }/*,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
           shared: false
-        }
+        }*/
       }
     ],
     /*    tooltip: {
@@ -126,8 +126,8 @@
         }
         */
     tooltip: {
-      useHTML: true,
-      outside: true,
+      //useHTML: true,
+     // outside: true,
       formatter: function () {
         if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
           const series = this.series.chart.series;

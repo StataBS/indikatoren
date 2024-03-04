@@ -5,11 +5,11 @@
       "color": "#2F656B",
       "legendIndex": 1,
       "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": true
-      },
       "data": [
+        [
+          "2005",
+          0
+        ],
         [
           "2006",
           0
@@ -77,6 +77,10 @@
         [
           "2022",
           373
+        ],
+        [
+          "2023",
+          486
         ]
       ],
       "name": "Benzin-elektrisch: Plug-in-Hybrid",
@@ -88,6 +92,10 @@
       "legendIndex": 3,
       "type": "column",
       "data": [
+        [
+          "2005",
+          0
+        ],
         [
           "2006",
           0
@@ -142,11 +150,11 @@
         ],
         [
           "2019",
-          4
+          0
         ],
         [
           "2020",
-          3
+          2
         ],
         [
           "2021",
@@ -155,6 +163,10 @@
         [
           "2022",
           6
+        ],
+        [
+          "2023",
+          16
         ]
       ],
       "name": "Diesel-elektrisch: Plug-in-Hybrid",
@@ -166,6 +178,10 @@
       "legendIndex": 2,
       "type": "column",
       "data": [
+        [
+          "2005",
+          0
+        ],
         [
           "2006",
           0
@@ -233,6 +249,10 @@
         [
           "2022",
           485
+        ],
+        [
+          "2023",
+          652
         ]
       ],
       "name": "Elektrisch",
@@ -244,6 +264,10 @@
       "legendIndex": 4,
       "type": "column",
       "data": [
+        [
+          "2005",
+          0
+        ],
         [
           "2006",
           0
@@ -311,6 +335,10 @@
         [
           "2022",
           3
+        ],
+        [
+          "2023",
+          1
         ]
       ],
       "name": "Wasserstoff",
@@ -323,10 +351,11 @@
       "type": "column",
       "stacking": false,
       "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
+        [
+          "2005",
+          6627
+        ],
         [
           "2006",
           6858
@@ -381,22 +410,26 @@
         ],
         [
           "2019",
-          7844
+          7842
         ],
         [
           "2020",
-          5135
+          5134
         ],
         [
           "2021",
-          4998
+          4997
         ],
         [
           "2022",
           3737
+        ],
+        [
+          "2023",
+          4537
         ]
       ],
-      "name": "Total neue inverkehrsetzungen",
+      "name": "Total neue Inverkehrsetzungen",
       "turboThreshold": 0
     },
     {
@@ -405,15 +438,16 @@
       "type": "line",
       "stacking": false,
       "legendIndex": 6,
+      "zIndex": 100,
       "yAxis": 1,
       "marker": {
         "enabled": false
       },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": false
-      },
       "data": [
+        [
+          "2005",
+          0
+        ],
         [
           "2006",
           0
@@ -424,7 +458,7 @@
         ],
         [
           "2008",
-          0.0122443982
+          0.012244398
         ],
         [
           "2009",
@@ -436,15 +470,15 @@
         ],
         [
           "2011",
-          0.1592161666
+          0.159216167
         ],
         [
           "2012",
-          0.1871782873
+          0.187178287
         ],
         [
           "2013",
-          0.3169386078
+          0.316938608
         ],
         [
           "2014",
@@ -452,15 +486,15 @@
         ],
         [
           "2015",
-          0.7368703108
+          0.736870311
         ],
         [
           "2016",
-          1.1270629277
+          1.127062928
         ],
         [
           "2017",
-          1.3288170922
+          1.328817092
         ],
         [
           "2018",
@@ -468,19 +502,23 @@
         ],
         [
           "2019",
-          4.2325344212
+          4.182606478
         ],
         [
           "2020",
-          17.020447907
+          17.00428516
         ],
         [
           "2021",
-          14.905962385
+          14.90894537
         ],
         [
           "2022",
-          23.200428151
+          23.20042815
+        ],
+        [
+          "2023",
+          25.45735067
         ]
       ],
       "name": "Anteil (rechte Skala)",
@@ -537,7 +575,6 @@
                     }
                 }
     },
-    "type": "column",
     "renderTo": "container-9391",
     "spacingBottom": 40
   },
@@ -560,11 +597,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
     "text": "Elektroautos"
   },
   "subtitle": {
-    "text": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
+    "text": "neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -604,7 +640,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "useHTML": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -632,11 +667,9 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
   },
   "tooltip": {
-    "useHTML": true,
-    "outside": true,
     "formatter": function () {
         if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
           const series = this.series.chart.series;
