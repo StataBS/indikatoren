@@ -222,11 +222,6 @@
     },
     {
       "color": "#662673",
-      "type": "scatter",
-      "marker": {
-        "enabled": true,
-        "radius": 3
-      },
       "data": [
         [
           "Jan",
@@ -234,7 +229,7 @@
         ],
         [
           "Feb",
-          undefined
+          106.2
         ],
         [
           "Mrz",
@@ -407,7 +402,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
