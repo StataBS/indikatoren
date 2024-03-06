@@ -195,9 +195,7 @@ var indikatorensetData = [
 		"chart-id": 9676,
 		"filter": "",
 		"parentId": null,
-		"children": [
-			9787
-		],
+		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
@@ -225,7 +223,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-01T07:50:39",
+		"aktualisierungsdatum": "2024-03-06T10:07:37",
 		"id": 9676
 	},
 	{

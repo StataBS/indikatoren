@@ -257,7 +257,7 @@
         ],
         [
           2020,
-          null
+          2
         ],
         [
           2021,
@@ -503,7 +503,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 6.3.2024"
   },
   "tooltip": {
     "valueDecimals": 0,
