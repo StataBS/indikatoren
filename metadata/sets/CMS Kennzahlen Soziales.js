@@ -777,7 +777,7 @@ var indikatorensetData = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.1.5",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Identitäten und Welten",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -785,7 +785,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-08T08:01:22",
+		"aktualisierungsdatum": "2024-03-08T12:42:48",
 		"id": 10264
 	},
 	{
