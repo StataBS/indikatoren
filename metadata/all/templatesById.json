@@ -1988,8 +1988,11 @@
 	"9732": "line001",
 	"9733": "line001",
 	"9734": "line001",
+	"9735": "befragungen001",
 	"9736": "line001",
 	"9737": "line001",
+	"9738": "befragungenGrundauswertung001",
+	"9739": "befragungenGrundauswertung001",
 	"9740": "line001",
 	"9741": "line001",
 	"9750": "template001",
@@ -2071,5 +2074,8 @@
 	"11925": "line001",
 	"11926": "line001",
 	"11932": "template001",
-	"11936": "template001"
+	"11936": "template001",
+	"12516": "befragungen001",
+	"12517": "befragungen001",
+	"12519": "befragungen001"
 }

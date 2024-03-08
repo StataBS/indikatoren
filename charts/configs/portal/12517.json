@@ -1,0 +1,809 @@
+{
+  "series": [
+    {
+      "color": "#69929b",
+      "index": 6,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Sauberkeit",
+          1392
+        ],
+        [
+          "Öffentliche Sicherheit",
+          1523
+        ],
+        [
+          "Luftqualität",
+          1447
+        ],
+        [
+          "Abfallbeseitigung",
+          1388
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          1420
+        ],
+        [
+          "Grünanlagen, Parks",
+          1435
+        ],
+        [
+          "Gesundheitsversorgung",
+          1381
+        ],
+        [
+          "Verkehrssicherheit",
+          1317
+        ],
+        [
+          "ÖV-Angebot",
+          1317
+        ],
+        [
+          "Lärmsituation",
+          1253
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          1127
+        ],
+        [
+          "Gebäude, Strassenbild",
+          851
+        ],
+        [
+          "Kulturangebot",
+          849
+        ],
+        [
+          "Wohnungsangebot",
+          1022
+        ],
+        [
+          "Angebote für Jugendliche",
+          792
+        ],
+        [
+          "Behinderteneinrichtungen",
+          787
+        ],
+        [
+          "Senioreneinrichtungen",
+          749
+        ],
+        [
+          "Barrierefreiheit",
+          740
+        ],
+        [
+          "Quartierleben",
+          638
+        ],
+        [
+          "Arbeitsplatzangebot",
+          818
+        ],
+        [
+          "Schulen, Bildung",
+          1038
+        ],
+        [
+          "Sportanlagen",
+          631
+        ],
+        [
+          "Zusammensetz. Bev.",
+          581
+        ],
+        [
+          "Kinderbetreuung",
+          613
+        ]
+      ],
+      "name": "Sehr wichtig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a8c4cb",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Sauberkeit",
+          559
+        ],
+        [
+          "Öffentliche Sicherheit",
+          422
+        ],
+        [
+          "Luftqualität",
+          493
+        ],
+        [
+          "Abfallbeseitigung",
+          552
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          511
+        ],
+        [
+          "Grünanlagen, Parks",
+          492
+        ],
+        [
+          "Gesundheitsversorgung",
+          542
+        ],
+        [
+          "Verkehrssicherheit",
+          574
+        ],
+        [
+          "ÖV-Angebot",
+          574
+        ],
+        [
+          "Lärmsituation",
+          610
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          633
+        ],
+        [
+          "Gebäude, Strassenbild",
+          899
+        ],
+        [
+          "Kulturangebot",
+          828
+        ],
+        [
+          "Wohnungsangebot",
+          646
+        ],
+        [
+          "Angebote für Jugendliche",
+          765
+        ],
+        [
+          "Behinderteneinrichtungen",
+          745
+        ],
+        [
+          "Senioreneinrichtungen",
+          773
+        ],
+        [
+          "Barrierefreiheit",
+          759
+        ],
+        [
+          "Quartierleben",
+          854
+        ],
+        [
+          "Arbeitsplatzangebot",
+          663
+        ],
+        [
+          "Schulen, Bildung",
+          377
+        ],
+        [
+          "Sportanlagen",
+          760
+        ],
+        [
+          "Zusammensetz. Bev.",
+          790
+        ],
+        [
+          "Kinderbetreuung",
+          360
+        ]
+      ],
+      "name": "Eher wichtig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Sauberkeit",
+          66
+        ],
+        [
+          "Öffentliche Sicherheit",
+          55
+        ],
+        [
+          "Luftqualität",
+          62
+        ],
+        [
+          "Abfallbeseitigung",
+          69
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          75
+        ],
+        [
+          "Grünanlagen, Parks",
+          57
+        ],
+        [
+          "Gesundheitsversorgung",
+          71
+        ],
+        [
+          "Verkehrssicherheit",
+          92
+        ],
+        [
+          "ÖV-Angebot",
+          92
+        ],
+        [
+          "Lärmsituation",
+          123
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          199
+        ],
+        [
+          "Gebäude, Strassenbild",
+          192
+        ],
+        [
+          "Kulturangebot",
+          260
+        ],
+        [
+          "Wohnungsangebot",
+          203
+        ],
+        [
+          "Angebote für Jugendliche",
+          235
+        ],
+        [
+          "Behinderteneinrichtungen",
+          269
+        ],
+        [
+          "Senioreneinrichtungen",
+          275
+        ],
+        [
+          "Barrierefreiheit",
+          321
+        ],
+        [
+          "Quartierleben",
+          396
+        ],
+        [
+          "Arbeitsplatzangebot",
+          306
+        ],
+        [
+          "Schulen, Bildung",
+          175
+        ],
+        [
+          "Sportanlagen",
+          441
+        ],
+        [
+          "Zusammensetz. Bev.",
+          433
+        ],
+        [
+          "Kinderbetreuung",
+          290
+        ]
+      ],
+      "name": "Eher unwichtig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Sauberkeit",
+          5
+        ],
+        [
+          "Öffentliche Sicherheit",
+          11
+        ],
+        [
+          "Luftqualität",
+          12
+        ],
+        [
+          "Abfallbeseitigung",
+          6
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          14
+        ],
+        [
+          "Grünanlagen, Parks",
+          16
+        ],
+        [
+          "Gesundheitsversorgung",
+          13
+        ],
+        [
+          "Verkehrssicherheit",
+          18
+        ],
+        [
+          "ÖV-Angebot",
+          18
+        ],
+        [
+          "Lärmsituation",
+          28
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          34
+        ],
+        [
+          "Gebäude, Strassenbild",
+          37
+        ],
+        [
+          "Kulturangebot",
+          48
+        ],
+        [
+          "Wohnungsangebot",
+          53
+        ],
+        [
+          "Angebote für Jugendliche",
+          107
+        ],
+        [
+          "Behinderteneinrichtungen",
+          105
+        ],
+        [
+          "Senioreneinrichtungen",
+          122
+        ],
+        [
+          "Barrierefreiheit",
+          84
+        ],
+        [
+          "Quartierleben",
+          87
+        ],
+        [
+          "Arbeitsplatzangebot",
+          111
+        ],
+        [
+          "Schulen, Bildung",
+          240
+        ],
+        [
+          "Sportanlagen",
+          121
+        ],
+        [
+          "Zusammensetz. Bev.",
+          125
+        ],
+        [
+          "Kinderbetreuung",
+          445
+        ]
+      ],
+      "name": "Sehr unwichtig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Sauberkeit",
+          6
+        ],
+        [
+          "Öffentliche Sicherheit",
+          16
+        ],
+        [
+          "Luftqualität",
+          9
+        ],
+        [
+          "Abfallbeseitigung",
+          5
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          10
+        ],
+        [
+          "Grünanlagen, Parks",
+          12
+        ],
+        [
+          "Gesundheitsversorgung",
+          11
+        ],
+        [
+          "Verkehrssicherheit",
+          15
+        ],
+        [
+          "ÖV-Angebot",
+          15
+        ],
+        [
+          "Lärmsituation",
+          9
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          17
+        ],
+        [
+          "Gebäude, Strassenbild",
+          32
+        ],
+        [
+          "Kulturangebot",
+          28
+        ],
+        [
+          "Wohnungsangebot",
+          78
+        ],
+        [
+          "Angebote für Jugendliche",
+          105
+        ],
+        [
+          "Behinderteneinrichtungen",
+          105
+        ],
+        [
+          "Senioreneinrichtungen",
+          97
+        ],
+        [
+          "Barrierefreiheit",
+          101
+        ],
+        [
+          "Quartierleben",
+          31
+        ],
+        [
+          "Arbeitsplatzangebot",
+          91
+        ],
+        [
+          "Schulen, Bildung",
+          143
+        ],
+        [
+          "Sportanlagen",
+          47
+        ],
+        [
+          "Zusammensetz. Bev.",
+          85
+        ],
+        [
+          "Kinderbetreuung",
+          250
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Sauberkeit",
+          26
+        ],
+        [
+          "Öffentliche Sicherheit",
+          27
+        ],
+        [
+          "Luftqualität",
+          31
+        ],
+        [
+          "Abfallbeseitigung",
+          34
+        ],
+        [
+          "Einkaufsmögl. am Wohnort",
+          24
+        ],
+        [
+          "Grünanlagen, Parks",
+          42
+        ],
+        [
+          "Gesundheitsversorgung",
+          36
+        ],
+        [
+          "Verkehrssicherheit",
+          38
+        ],
+        [
+          "ÖV-Angebot",
+          38
+        ],
+        [
+          "Lärmsituation",
+          31
+        ],
+        [
+          "Einkaufsmögl. im Kanton",
+          44
+        ],
+        [
+          "Gebäude, Strassenbild",
+          43
+        ],
+        [
+          "Kulturangebot",
+          41
+        ],
+        [
+          "Wohnungsangebot",
+          52
+        ],
+        [
+          "Angebote für Jugendliche",
+          50
+        ],
+        [
+          "Behinderteneinrichtungen",
+          43
+        ],
+        [
+          "Senioreneinrichtungen",
+          38
+        ],
+        [
+          "Barrierefreiheit",
+          49
+        ],
+        [
+          "Quartierleben",
+          48
+        ],
+        [
+          "Arbeitsplatzangebot",
+          65
+        ],
+        [
+          "Schulen, Bildung",
+          81
+        ],
+        [
+          "Sportanlagen",
+          54
+        ],
+        [
+          "Zusammensetz. Bev.",
+          40
+        ],
+        [
+          "Kinderbetreuung",
+          96
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString =  'n=';
+                      if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+  
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+  
+                    //check for value that contains only spaces
+                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                }
+    },
+    "min": 0,
+    "max": 14
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 533,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-12517",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wichtigkeit von Aspekten am Wohnort"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie wichtig sind Ihnen folgende Aspekte an Ihrem Wohnort?», Basel-Stadt, 2023"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true
+  },
+  "exporting": {
+    "filename": "12517"
+  }
+}

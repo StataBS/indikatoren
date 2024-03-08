@@ -19,8 +19,8 @@
 		},
 		"xAxis": {
 			"type": "category",
-			//min: 10,
-			//max: 66,
+			//min: 33,
+			//max: 64,
 			"labels": {
 				align: "left",
 				tickInterval: 1,
@@ -48,7 +48,11 @@
 							.replace("am ", "")
 							.replace("in ", "")
 							.replace("versorgung", "vers.")
-							.replace("einrichtungen", "einricht.");
+							.replace("einrichtungen", "einricht.")
+							.replace("Zusammensetzung Bevölkerung", "Zusammens. Bev.")
+							.replace("Barrierefreiheit öffentlicher Raum", "Barrierefreih. öff. R.");
+							
+
 
 						txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
 

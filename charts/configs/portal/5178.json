@@ -6,264 +6,280 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          1035
+          "2019: ÖV-Angebot",
+          1426
         ],
         [
-          "2019: ÖV-Angebot",
-          1441
+          "2023: ÖV-Angebot",
+          1391
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          745
+          "2019: Einkaufsmögl. am Wohnort",
+          1019
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          1056
+          "2023: Einkaufsmögl. am Wohnort",
+          1137
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          736
+          "2019: Einkaufsmögl. im Kanton",
+          1029
         ],
         [
-          "2019: Abfallbeseitigung",
-          1141
+          "2023: Einkaufsmögl. im Kanton",
+          1042
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          700
+          "2019: Abfallbeseitigung",
+          1102
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          1047
+          "2023: Abfallbeseitigung",
+          1059
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          747
+          "2019: Gesundheitsversorgung",
+          945
         ],
         [
-          "2019: Parks, Grünanlagen",
-          987
+          "2023: Gesundheitsversorgung",
+          913
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          777
+          "2019: Parks, Grünanlagen",
+          939
         ],
         [
-          "2019: Gesundheitsversorgung",
-          1000
+          "2023: Parks, Grünanlagen",
+          889
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          317
+          "2019: Sauberkeit",
+          841
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          695
+          "2023: Sauberkeit",
+          841
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          650
+          "2019: Kulturangebot",
+          783
         ],
         [
-          "2019: Kulturangebot",
-          796
+          "2023: Kulturangebot",
+          743
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          367
+          "2019: Verkehrssicherheit",
+          583
         ],
         [
-          "2019: Verkehrssicherheit",
-          585
+          "2023: Verkehrssicherheit",
+          498
         ],
         [
           "         ",
           null
         ],
         [
-          "2015: Sauberkeit",
-          428
+          "2019: Öffentliche Sicherheit",
+          721
         ],
         [
-          "2019: Sauberkeit",
-          806
+          "2023: Öffentliche Sicherheit",
+          549
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          346
+          "2019: Gebäude\u002FStrassenbild",
+          487
         ],
         [
-          "2019: Gebäude\u002FStrassenbild",
-          482
+          "2023: Gebäude\u002FStrassenbild",
+          475
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          282
+          "2019: Quartierleben",
+          489
         ],
         [
-          "2019: Luftqualität",
-          515
+          "2023: Quartierleben",
+          481
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          315
+          "2019: Luftqualität",
+          542
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          435
+          "2023: Luftqualität",
+          475
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          394
+          "2019: Zusammensetz. Bev.",
+          435
         ],
         [
-          "2019: Quartierleben",
-          492
+          "2023: Zusammensetz. Bev.",
+          377
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          441
+          "2019: Lärmsituation",
+          570
         ],
         [
-          "2019: Lärmsituation",
-          568
+          "2023: Lärmsituation",
+          512
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          276
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          362
+          "2023: Sportanlagen",
+          447
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          388
+          "2019: Schule, Bildung",
+          505
         ],
         [
-          "2019: Schulen, Bildung",
-          492
+          "2023: Schulen, Bildung",
+          478
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          152
-        ],
-        [
-          "2019: Wohnungsangebot",
-          347
+          "2023: Barrierefreiheit öffentlicher Raum",
+          346
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          156
+          "2019: Arbeitsplatzangebot",
+          264
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          252
+          "2023: Arbeitsplätzangebot",
+          291
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          188
+          "2019: Senioreneinrichtungen",
+          320
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          269
+          "2023: Senioreneinrichtungen",
+          302
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          149
+          "2019: Wohnungsangebot",
+          339
         ],
         [
-          "2019: Jugendeinrichtungen",
-          224
+          "2023: Wohnungsangebot",
+          289
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          179
+          "2019: Jugendeinrichtungen",
+          227
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          204
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
-          297
+          319
+        ],
+        [
+          "2023: Kinderbetreuung",
+          273
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          257
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          213
         ]
       ],
       "name": "Sehr zufrieden",
@@ -275,107 +291,107 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          397
+          "2019: ÖV-Angebot",
+          457
         ],
         [
-          "2019: ÖV-Angebot",
-          443
+          "2023: ÖV-Angebot",
+          470
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          688
+          "2019: Einkaufsmögl. am Wohnort",
+          765
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          764
+          "2023: Einkaufsmögl. am Wohnort",
+          695
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          645
+          "2019: Einkaufsmögl. im Kanton",
+          797
         ],
         [
-          "2019: Abfallbeseitigung",
-          676
+          "2023: Einkaufsmögl. im Kanton",
+          734
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          631
+          "2019: Abfallbeseitigung",
+          705
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          739
+          "2023: Abfallbeseitigung",
+          690
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          626
+          "2019: Gesundheitsversorgung",
+          784
         ],
         [
-          "2019: Parks, Grünanlagen",
-          775
+          "2023: Gesundheitsversorgung",
+          815
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          644
+          "2019: Parks, Grünanlagen",
+          817
         ],
         [
-          "2019: Gesundheitsversorgung",
-          748
+          "2023: Parks, Grünanlagen",
+          828
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          831
+          "2019: Sauberkeit",
+          795
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          976
+          "2023: Sauberkeit",
+          757
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          693
+          "2019: Kulturangebot",
+          819
         ],
         [
-          "2019: Kulturangebot",
-          820
+          "2023: Kulturangebot",
+          824
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          922
+          "2019: Verkehrssicherheit",
+          1038
         ],
         [
-          "2019: Verkehrssicherheit",
+          "2023: Verkehrssicherheit",
           1021
         ],
         [
@@ -383,156 +399,172 @@
           null
         ],
         [
-          "2015: Sauberkeit",
-          698
+          "2019: Öffentliche Sicherheit",
+          978
         ],
         [
-          "2019: Sauberkeit",
-          798
+          "2023: Öffentliche Sicherheit",
+          972
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          904
-        ],
-        [
           "2019: Gebäude\u002FStrassenbild",
           1080
+        ],
+        [
+          "2023: Gebäude\u002FStrassenbild",
+          995
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          930
+          "2019: Quartierleben",
+          918
         ],
         [
-          "2019: Luftqualität",
-          942
+          "2023: Quartierleben",
+          954
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          885
+          "2019: Luftqualität",
+          930
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          1005
+          "2023: Luftqualität",
+          983
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          829
+          "2019: Zusammensetz. Bev.",
+          1008
         ],
         [
-          "2019: Quartierleben",
-          913
+          "2023: Zusammensetz. Bev.",
+          981
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          750
+          "2019: Lärmsituation",
+          831
         ],
         [
-          "2019: Lärmsituation",
-          835
+          "2023: Lärmsituation",
+          885
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          802
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          700
+          "2023: Sportanlagen",
+          784
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          579
+          "2019: Schule, Bildung",
+          569
         ],
         [
-          "2019: Schulen, Bildung",
-          554
+          "2023: Schulen, Bildung",
+          622
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          551
-        ],
-        [
-          "2019: Wohnungsangebot",
-          676
+          "2023: Barrierefreiheit öffentlicher Raum",
+          796
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          643
+          "2019: Arbeitsplatzangebot",
+          689
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          651
+          "2023: Arbeitsplätzangebot",
+          693
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          658
+          "2019: Senioreneinrichtungen",
+          634
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          536
+          "2023: Senioreneinrichtungen",
+          653
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          662
+          "2019: Wohnungsangebot",
+          685
         ],
         [
-          "2019: Jugendeinrichtungen",
-          548
+          "2023: Wohnungsangebot",
+          626
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          348
+          "2019: Jugendeinrichtungen",
+          542
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          568
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
           365
+        ],
+        [
+          "2023: Kinderbetreuung",
+          418
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          493
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          501
         ]
       ],
       "name": "Eher zufrieden",
@@ -544,264 +576,280 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          53
+          "2019: ÖV-Angebot",
+          75
         ],
         [
-          "2019: ÖV-Angebot",
-          63
+          "2023: ÖV-Angebot",
+          73
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          48
+          "2019: Einkaufsmögl. am Wohnort",
+          173
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          98
+          "2023: Einkaufsmögl. am Wohnort",
+          121
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          87
+          "2019: Einkaufsmögl. im Kanton",
+          105
         ],
         [
-          "2019: Abfallbeseitigung",
-          118
+          "2023: Einkaufsmögl. im Kanton",
+          137
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          152
+          "2019: Abfallbeseitigung",
+          127
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          170
+          "2023: Abfallbeseitigung",
+          163
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          110
+          "2019: Gesundheitsversorgung",
+          127
         ],
         [
-          "2019: Parks, Grünanlagen",
-          171
+          "2023: Gesundheitsversorgung",
+          122
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          44
+          "2019: Parks, Grünanlagen",
+          192
         ],
         [
-          "2019: Gesundheitsversorgung",
-          109
+          "2023: Parks, Grünanlagen",
+          191
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          287
+          "2019: Sauberkeit",
+          267
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          216
+          "2023: Sauberkeit",
+          287
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          69
+          "2019: Kulturangebot",
+          160
         ],
         [
-          "2019: Kulturangebot",
-          136
+          "2023: Kulturangebot",
+          165
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          173
+          "2019: Verkehrssicherheit",
+          289
         ],
         [
-          "2019: Verkehrssicherheit",
-          293
+          "2023: Verkehrssicherheit",
+          313
         ],
         [
           "         ",
           null
         ],
         [
-          "2015: Sauberkeit",
-          319
+          "2019: Öffentliche Sicherheit",
+          196
         ],
         [
-          "2019: Sauberkeit",
-          281
+          "2023: Öffentliche Sicherheit",
+          310
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          181
+          "2019: Gebäude\u002FStrassenbild",
+          278
         ],
         [
-          "2019: Gebäude\u002FStrassenbild",
-          273
+          "2023: Gebäude\u002FStrassenbild",
+          275
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          220
+          "2019: Quartierleben",
+          227
         ],
         [
-          "2019: Luftqualität",
-          366
+          "2023: Quartierleben",
+          241
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          156
+          "2019: Luftqualität",
+          359
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          191
+          "2023: Luftqualität",
+          322
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          114
+          "2019: Zusammensetz. Bev.",
+          188
         ],
         [
-          "2019: Quartierleben",
-          197
+          "2023: Zusammensetz. Bev.",
+          212
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          235
+          "2019: Lärmsituation",
+          399
         ],
         [
-          "2019: Lärmsituation",
-          383
+          "2023: Lärmsituation",
+          390
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          109
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          122
+          "2023: Sportanlagen",
+          241
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          98
+          "2019: Schule, Bildung",
+          106
         ],
         [
-          "2019: Schulen, Bildung",
-          99
+          "2023: Schulen, Bildung",
+          115
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          401
-        ],
-        [
-          "2019: Wohnungsangebot",
-          417
+          "2023: Barrierefreiheit öffentlicher Raum",
+          235
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          205
+          "2019: Arbeitsplatzangebot",
+          255
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          221
+          "2023: Arbeitsplätzangebot",
+          246
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          189
+          "2019: Senioreneinrichtungen",
+          114
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          139
+          "2023: Senioreneinrichtungen",
+          138
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          262
+          "2019: Wohnungsangebot",
+          440
         ],
         [
-          "2019: Jugendeinrichtungen",
-          178
+          "2023: Wohnungsangebot",
+          558
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          70
+          "2019: Jugendeinrichtungen",
+          186
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          197
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
-          135
+          140
+        ],
+        [
+          "2023: Kinderbetreuung",
+          161
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          137
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          155
         ]
       ],
       "name": "Eher unzufrieden",
@@ -813,264 +861,280 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          4
+          "2019: ÖV-Angebot",
+          14
         ],
         [
-          "2019: ÖV-Angebot",
-          11
+          "2023: ÖV-Angebot",
+          29
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          2
+          "2019: Einkaufsmögl. am Wohnort",
+          38
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          12
+          "2023: Einkaufsmögl. am Wohnort",
+          31
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          29
+          "2019: Einkaufsmögl. im Kanton",
+          12
         ],
         [
-          "2019: Abfallbeseitigung",
-          36
+          "2023: Einkaufsmögl. im Kanton",
+          15
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          17
+          "2019: Abfallbeseitigung",
+          45
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          33
+          "2023: Abfallbeseitigung",
+          53
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          14
+          "2019: Gesundheitsversorgung",
+          20
         ],
         [
-          "2019: Parks, Grünanlagen",
-          26
+          "2023: Gesundheitsversorgung",
+          27
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          6
+          "2019: Parks, Grünanlagen",
+          27
         ],
         [
-          "2019: Gesundheitsversorgung",
-          19
+          "2023: Parks, Grünanlagen",
+          45
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          53
+          "2019: Sauberkeit",
+          79
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          66
+          "2023: Sauberkeit",
+          91
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          6
-        ],
-        [
           "2019: Kulturangebot",
           16
+        ],
+        [
+          "2023: Kulturangebot",
+          15
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          23
+          "2019: Verkehrssicherheit",
+          46
         ],
         [
-          "2019: Verkehrssicherheit",
-          48
+          "2023: Verkehrssicherheit",
+          90
         ],
         [
           "         ",
           null
         ],
         [
-          "2015: Sauberkeit",
-          53
+          "2019: Öffentliche Sicherheit",
+          63
         ],
         [
-          "2019: Sauberkeit",
-          80
+          "2023: Öffentliche Sicherheit",
+          106
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          22
+          "2019: Gebäude\u002FStrassenbild",
+          45
         ],
         [
-          "2019: Gebäude\u002FStrassenbild",
-          43
+          "2023: Gebäude\u002FStrassenbild",
+          65
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          36
+          "2019: Quartierleben",
+          23
         ],
         [
-          "2019: Luftqualität",
-          81
+          "2023: Quartierleben",
+          30
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          20
+          "2019: Luftqualität",
+          84
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          50
+          "2023: Luftqualität",
+          79
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          10
+          "2019: Zusammensetz. Bev.",
+          49
         ],
         [
-          "2019: Quartierleben",
-          24
+          "2023: Zusammensetz. Bev.",
+          51
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          66
+          "2019: Lärmsituation",
+          152
         ],
         [
-          "2019: Lärmsituation",
-          146
+          "2023: Lärmsituation",
+          162
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          7
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          20
+          "2023: Sportanlagen",
+          45
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          11
+          "2019: Schule, Bildung",
+          24
         ],
         [
-          "2019: Schulen, Bildung",
-          28
+          "2023: Schulen, Bildung",
+          41
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          80
-        ],
-        [
-          "2019: Wohnungsangebot",
-          123
+          "2023: Barrierefreiheit öffentlicher Raum",
+          25
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          28
+          "2019: Arbeitsplatzangebot",
+          77
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          65
+          "2023: Arbeitsplätzangebot",
+          68
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          15
+          "2019: Senioreneinrichtungen",
+          19
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          29
+          "2023: Senioreneinrichtungen",
+          24
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          16
+          "2019: Wohnungsangebot",
+          145
         ],
         [
-          "2019: Jugendeinrichtungen",
-          33
+          "2023: Wohnungsangebot",
+          162
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          7
+          "2019: Jugendeinrichtungen",
+          34
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          40
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
-          37
+          36
+        ],
+        [
+          "2023: Kinderbetreuung",
+          43
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          28
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          25
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -1082,264 +1146,280 @@
       "legendIndex": 5,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          13
+          "2019: ÖV-Angebot",
+          12
         ],
         [
-          "2019: ÖV-Angebot",
-          11
+          "2023: ÖV-Angebot",
+          16
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          15
+          "2019: Einkaufsmögl. am Wohnort",
+          8
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          31
+          "2023: Einkaufsmögl. am Wohnort",
+          7
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          5
+          "2019: Einkaufsmögl. im Kanton",
+          32
         ],
         [
-          "2019: Abfallbeseitigung",
-          5
+          "2023: Einkaufsmögl. im Kanton",
+          36
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          3
+          "2019: Abfallbeseitigung",
+          7
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          8
+          "2023: Abfallbeseitigung",
+          14
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          7
+          "2019: Gesundheitsversorgung",
+          101
         ],
         [
-          "2019: Parks, Grünanlagen",
-          9
+          "2023: Gesundheitsversorgung",
+          86
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          32
+          "2019: Parks, Grünanlagen",
+          10
         ],
         [
-          "2019: Gesundheitsversorgung",
-          85
+          "2023: Parks, Grünanlagen",
+          15
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          12
+          "2019: Sauberkeit",
+          4
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          26
+          "2023: Sauberkeit",
+          7
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          77
+          "2019: Kulturangebot",
+          161
         ],
         [
-          "2019: Kulturangebot",
-          148
+          "2023: Kulturangebot",
+          191
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          16
+          "2019: Verkehrssicherheit",
+          14
         ],
         [
-          "2019: Verkehrssicherheit",
-          15
+          "2023: Verkehrssicherheit",
+          36
         ],
         [
           "         ",
           null
         ],
         [
-          "2015: Sauberkeit",
-          6
+          "2019: Öffentliche Sicherheit",
+          28
         ],
         [
-          "2019: Sauberkeit",
-          5
+          "2023: Öffentliche Sicherheit",
+          35
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          36
+          "2019: Gebäude\u002FStrassenbild",
+          76
         ],
         [
-          "2019: Gebäude\u002FStrassenbild",
-          74
+          "2023: Gebäude\u002FStrassenbild",
+          125
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          37
+          "2019: Quartierleben",
+          245
         ],
         [
-          "2019: Luftqualität",
-          67
+          "2023: Quartierleben",
+          233
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          82
+          "2019: Luftqualität",
+          69
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          209
+          "2023: Luftqualität",
+          120
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          135
+          "2019: Zusammensetz. Bev.",
+          227
         ],
         [
-          "2019: Quartierleben",
-          253
+          "2023: Zusammensetz. Bev.",
+          268
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          5
+          "2019: Lärmsituation",
+          13
         ],
         [
-          "2019: Lärmsituation",
-          14
+          "2023: Lärmsituation",
+          24
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          291
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          690
+          "2023: Sportanlagen",
+          390
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          263
+          "2019: Schule, Bildung",
+          539
         ],
         [
-          "2019: Schulen, Bildung",
-          529
+          "2023: Schulen, Bildung",
+          534
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          202
-        ],
-        [
-          "2019: Wohnungsangebot",
-          290
+          "2023: Barrierefreiheit öffentlicher Raum",
+          456
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          351
+          "2019: Arbeitsplatzangebot",
+          540
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          568
+          "2023: Arbeitsplätzangebot",
+          553
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          427
+          "2019: Senioreneinrichtungen",
+          797
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          863
+          "2023: Senioreneinrichtungen",
+          750
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          381
+          "2019: Wohnungsangebot",
+          280
         ],
         [
-          "2019: Jugendeinrichtungen",
-          784
+          "2023: Wohnungsangebot",
+          243
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          431
+          "2019: Jugendeinrichtungen",
+          816
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          834
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
-          761
+          777
+        ],
+        [
+          "2023: Kinderbetreuung",
+          784
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          921
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          960
         ]
       ],
       "name": "Weiss nicht",
@@ -1351,264 +1431,280 @@
       "legendIndex": 6,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          0
+          "2019: ÖV-Angebot",
+          70
         ],
         [
-          "2019: ÖV-Angebot",
-          75
+          "2023: ÖV-Angebot",
+          29
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Einkaufsmögl. in Basel",
-          0
+          "2019: Einkaufsmögl. am Wohnort",
+          61
         ],
         [
-          "2019: Einkaufsmögl. im Kanton",
-          70
+          "2023: Einkaufsmögl. am Wohnort",
+          28
         ],
         [
           "  ",
           null
         ],
         [
-          "2015: Abfallbeseitigung",
-          0
+          "2019: Einkaufsmögl. im Kanton",
+          65
         ],
         [
-          "2019: Abfallbeseitigung",
-          87
+          "2023: Einkaufsmögl. im Kanton",
+          28
         ],
         [
           "   ",
           null
         ],
         [
-          "2015: Einkaufsmögl. im Quartier",
-          0
+          "2019: Abfallbeseitigung",
+          78
         ],
         [
-          "2019: Einkaufsmögl. am Wohnort",
-          67
+          "2023: Abfallbeseitigung",
+          35
         ],
         [
           "    ",
           null
         ],
         [
-          "2015: Grünanlagen",
-          0
+          "2019: Gesundheitsversorgung",
+          72
         ],
         [
-          "2019: Parks, Grünanlagen",
-          84
+          "2023: Gesundheitsversorgung",
+          43
         ],
         [
           "     ",
           null
         ],
         [
-          "2015: Gesundheitsversorgung",
-          0
+          "2019: Parks, Grünanlagen",
+          76
         ],
         [
-          "2019: Gesundheitsversorgung",
-          79
+          "2023: Parks, Grünanlagen",
+          32
         ],
         [
           "      ",
           null
         ],
         [
-          "2015: Öffentliche Sicherheit",
-          0
+          "2019: Sauberkeit",
+          84
         ],
         [
-          "2019: Öffentliche Sicherheit",
-          78
+          "2023: Sauberkeit",
+          39
         ],
         [
           "       ",
           null
         ],
         [
-          "2015: Kulturangebot",
-          0
+          "2019: Kulturangebot",
+          82
         ],
         [
-          "2019: Kulturangebot",
-          92
+          "2023: Kulturangebot",
+          47
         ],
         [
           "        ",
           null
         ],
         [
-          "2015: Verkehrssicherheit",
-          0
+          "2019: Verkehrssicherheit",
+          77
         ],
         [
-          "2019: Verkehrssicherheit",
-          85
+          "2023: Verkehrssicherheit",
+          44
         ],
         [
           "         ",
           null
         ],
         [
-          "2015: Sauberkeit",
-          0
+          "2019: Öffentliche Sicherheit",
+          71
         ],
         [
-          "2019: Sauberkeit",
-          92
+          "2023: Öffentliche Sicherheit",
+          38
         ],
         [
           "          ",
           null
         ],
         [
-          "2015: Gebäude\u002FStrassenbild",
-          0
+          "2019: Gebäude\u002FStrassenbild",
+          82
         ],
         [
-          "2019: Gebäude\u002FStrassenbild",
-          90
+          "2023: Gebäude\u002FStrassenbild",
+          44
         ],
         [
           "           ",
           null
         ],
         [
-          "2015: Luftqualität",
-          0
+          "2019: Quartierleben",
+          87
         ],
         [
-          "2019: Luftqualität",
-          82
+          "2023: Quartierleben",
+          37
         ],
         [
           "            ",
           null
         ],
         [
-          "2015: Zusammensetz. Bev.",
-          0
+          "2019: Luftqualität",
+          74
         ],
         [
-          "2019: Zusammensetz. Bev.",
-          81
+          "2023: Luftqualität",
+          36
         ],
         [
           "             ",
           null
         ],
         [
-          "2015: Quartierleben",
-          1
+          "2019: Zusammensetz. Bev.",
+          75
         ],
         [
-          "2019: Quartierleben",
-          96
+          "2023: Zusammensetz. Bev.",
+          39
         ],
         [
           "              ",
           null
         ],
         [
-          "2015: Lärmsituation",
-          0
+          "2019: Lärmsituation",
+          82
         ],
         [
-          "2019: Lärmsituation",
-          91
+          "2023: Lärmsituation",
+          41
         ],
         [
           "               ",
           null
         ],
         [
-          "2015: Senioreneinrichtungen",
-          0
-        ],
-        [
-          "2019: Senioreneinrichtungen",
-          77
+          "2023: Sportanlagen",
+          46
         ],
         [
           "                ",
           null
         ],
         [
-          "2015: Schule, Bildung",
-          0
+          "2019: Schule, Bildung",
+          78
         ],
         [
-          "2019: Schulen, Bildung",
-          85
+          "2023: Schulen, Bildung",
+          39
         ],
         [
           "                 ",
           null
         ],
         [
-          "2015: Wohnungsangebot",
-          0
-        ],
-        [
-          "2019: Wohnungsangebot",
-          87
+          "2023: Barrierefreiheit öffentlicher Raum",
+          45
         ],
         [
           "                  ",
           null
         ],
         [
-          "2015: Arbeitsplatzangebot",
-          0
+          "2019: Arbeitsplatzangebot",
+          88
         ],
         [
-          "2019: Arbeitsplätzangebot",
-          101
+          "2023: Arbeitsplätzangebot",
+          48
         ],
         [
           "                   ",
           null
         ],
         [
-          "2015: Behinderteneinrichtungen",
-          0
+          "2019: Senioreneinrichtungen",
+          74
         ],
         [
-          "2019: Behinderteneinrichtungen",
-          86
+          "2023: Senioreneinrichtungen",
+          52
         ],
         [
           "                    ",
           null
         ],
         [
-          "2015: Jugendeinrichtungen",
-          0
+          "2019: Wohnungsangebot",
+          81
         ],
         [
-          "2019: Jugendeinrichtungen",
-          88
+          "2023: Wohnungsangebot",
+          46
         ],
         [
           "                     ",
           null
         ],
         [
-          "2015: Kinderbetreuung",
-          0
+          "2019: Jugendeinrichtungen",
+          77
+        ],
+        [
+          "2023: Jugendeinrichtungen",
+          55
+        ],
+        [
+          "                      ",
+          null
         ],
         [
           "2019: Kinderbetreuung",
-          80
+          76
+        ],
+        [
+          "2023: Kinderbetreuung",
+          29
+        ],
+        [
+          "                       ",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          78
+        ],
+        [
+          "2023: Behinderteneinrichtungen",
+          51
         ]
       ],
       "name": "Keine Angabe",
@@ -1660,7 +1756,7 @@
       "x": -190
     },
     "min": 0,
-    "max": 31
+    "max": 34
   },
   "chart": {
     "events": {
@@ -1713,7 +1809,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2019"
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2023"
   },
   "navigation": {
     "menuItemStyle": {
@@ -1773,7 +1869,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
   },
   "legend": {
     "layout": "horizontal",

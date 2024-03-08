@@ -209,7 +209,7 @@ id | visible | visibleInPortal | indikatorenset
 4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
 4718 | true | true | Gesellschaftlicher-Zusammenhalt
-4719 | true | true | Gesellschaftlicher-Zusammenhalt
+4719 | true | false | Gesellschaftlicher-Zusammenhalt
 4720 | true | true | Gesellschaftlicher-Zusammenhalt
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
 4722 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -2236,8 +2236,11 @@ id | visible | visibleInPortal | indikatorenset
 9732 | true | false | Nachhaltigkeit
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
+9735 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
 9737 | true | true | Nachhaltigkeit
+9738 | true | true | Nachhaltigkeit
+9739 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
@@ -2321,3 +2324,6 @@ id | visible | visibleInPortal | indikatorenset
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
 11936 | true | false | 
+12516 | true | false | 
+12517 | true | false | 
+12519 | true | false | 
