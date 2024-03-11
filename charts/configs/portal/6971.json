@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.10666585510069215,
-          "Anzahl": 12267
+          "y": 0.10731248976354875,
+          "Anzahl": 12449
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.23961775242600258,
-          "Anzahl": 27557
+          "y": 0.2398131147258355,
+          "Anzahl": 27820
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36736983061458733,
-          "Anzahl": 42249
+          "y": 0.36708129681829543,
+          "Anzahl": 42584
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1726983409272721,
-          "Anzahl": 19861
+          "y": 0.17262751385692243,
+          "Anzahl": 20026
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06205001565162951,
-          "Anzahl": 7136
+          "y": 0.06195315799908626,
+          "Anzahl": 7187
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05159820527981635,
-          "Anzahl": 5934
+          "y": 0.0512124268363116,
+          "Anzahl": 5941
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.11108433734939759,
-          "Anzahl": 461
+          "y": 0.11475409836065574,
+          "Anzahl": 483
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.35493975903614455,
-          "Anzahl": 1473
+          "y": 0.35210263720598717,
+          "Anzahl": 1482
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.36409638554216867,
-          "Anzahl": 1511
+          "y": 0.3677833214540271,
+          "Anzahl": 1548
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.13927710843373495,
-          "Anzahl": 578
+          "y": 0.1361368496079829,
+          "Anzahl": 573
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.023855421686746987,
-          "Anzahl": 99
+          "y": 0.022570681872178665,
+          "Anzahl": 95
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.006746987951807229,
+          "y": 0.006652411499168448,
           "Anzahl": 28
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Rosental, 2022",
+    "text": "Rosental, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "tooltip": {
     "pointFormatter": function(){

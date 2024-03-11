@@ -408,8 +408,8 @@ var indikatorensetData = [
 			7597
 		],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2022",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 20% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2023",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 18% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:50",
+		"aktualisierungsdatum": "2024-03-11T08:32:57",
 		"id": 5817
 	},
 	{
@@ -804,7 +804,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1960 bis 1970 wuchs sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab und der Wohnungsbestand nahm weiterhin leicht zu. Ab 1975 wurden deshalb eine hohe Anzahl Leerwohnungen verzeichnet. Mit der leichten Bevölkerungszunahme und stagnierendem Wohnungsbestand in der ersten Hälfte der Neunzigerjahre nahm die Anzahl der Leerwohnungen ab. Wegen des folgenden Bevölkerungsrückgangs bis 2007 wuchs die Zahl der Leerwohnungen wieder an. Danach erfolgte eine bis heute anhaltende Bevölkerungszunahme. Sie führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber seit 2015 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
+		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab, der Wohnungsbestand hingegen weiterhin leicht zu. Ab 1975 wurde deshalb eine hohe Anzahl Leerwohnungen verzeichnet. In der ersten Hälfte der Neunzigerjahre nahm aufgrund der leichten Bevölkerungszunahme bei gleichzeitig stagnierendem Wohnungsbestand die Anzahl der Leerwohnungen ab. Wegen des bis 2007 folgenden Bevölkerungsrückgangs wuchs die Zahl der Leerwohnungen wieder. Danach erfolgte eine bis heute andauernde Bevölkerungszunahme. Diese führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber von 2015 bis 2022 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -830,7 +830,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:48",
+		"aktualisierungsdatum": "2024-03-11T08:32:56",
 		"id": 6214
 	},
 	{
