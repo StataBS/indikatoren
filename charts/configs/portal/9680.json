@@ -1,113 +1,420 @@
 {
   "series": [
     {
-      "color": "#0091f7",
+      "color": "#addbe5",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003",
+          827
+        ],
+        [
+          "2005",
+          845
+        ],
+        [
+          "2007",
+          756
+        ],
+        [
+          "2011",
+          730
+        ],
+        [
+          "2015",
+          635
+        ],
+        [
+          "2019",
+          1255
+        ],
+        [
+          "2023",
+          928
+        ]
+      ],
+      "name": "Sehr sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d3e1e4",
       "legendIndex": 3,
       "data": [
         [
-          2003,
-          93.8
+          "2003",
+          577
         ],
         [
-          2005,
-          94.6
+          "2005",
+          584
         ],
         [
-          2007,
-          94.4
+          "2007",
+          668
         ],
         [
-          2011,
-          92.8
+          "2011",
+          677
         ],
         [
-          2015,
-          91.2
+          "2015",
+          738
         ],
         [
-          2019,
-          94.9
+          "2019",
+          745
+        ],
+        [
+          "2023",
+          909
         ]
       ],
-      "name": "Sehr oder eher sicher"
+      "name": "Eher sicher",
+      "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "dashStyle": "ShortDash",
+      "color": "#ffebcd",
       "legendIndex": 4,
       "data": [
         [
-          2003,
+          "2003",
+          79
+        ],
+        [
+          "2005",
+          70
+        ],
+        [
+          "2007",
+          75
+        ],
+        [
+          "2011",
+          94
+        ],
+        [
+          "2015",
+          115
+        ],
+        [
+          "2019",
+          65
+        ],
+        [
+          "2023",
+          75
+        ]
+      ],
+      "name": "Eher unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fac4b1",
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003",
+          9
+        ],
+        [
+          "2005",
+          10
+        ],
+        [
+          "2007",
+          7
+        ],
+        [
+          "2011",
+          14
+        ],
+        [
+          "2015",
+          15
+        ],
+        [
+          "2019",
+          16
+        ],
+        [
+          "2023",
+          23
+        ]
+      ],
+      "name": "Ganz unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "legendIndex": 6,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          1
+        ],
+        [
+          "2023",
+          1
+        ]
+      ],
+      "name": "Trifft auf mich nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cccccc",
+      "legendIndex": 7,
+      "data": [
+        [
+          "2003",
+          5
+        ],
+        [
+          "2005",
+          1
+        ],
+        [
+          "2007",
+          3
+        ],
+        [
+          "2011",
+          1
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2019",
+          3
+        ],
+        [
+          "2023",
+          4
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a4a4a4",
+      "legendIndex": 8,
+      "visible": false,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          23
+        ],
+        [
+          "2023",
+          114
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0091f7",
+      "type": "line",
+      "legendIndex": 0,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+          }
+      },
+      "data": [
+        [
+          "2003",
+          93.8
+        ],
+        [
+          "2005",
+          94.6
+        ],
+        [
+          "2007",
+          94.4
+        ],
+        [
+          "2011",
+          92.8
+        ],
+        [
+          "2015",
+          91.2
+        ],
+        [
+          "2019",
+          95.9
+        ],
+        [
+          "2023",
+          94.7
+        ]
+      ],
+      "name": "Sehr oder eher sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "type": "line",
+      "dashStyle": "ShortDash",
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+          }
+      },
+      "data": [
+        [
+          "2003",
           90
         ],
         [
-          2005,
+          "2005",
           90
         ],
         [
-          2007,
+          "2007",
           90
         ],
         [
-          2011,
+          "2011",
           90
         ],
         [
-          2015,
+          "2015",
           90
         ],
         [
-          2019,
+          "2019",
+          90
+        ],
+        [
+          "2023",
           90
         ]
       ],
-      "name": "Zielwert"
+      "name": "Zielwert",
+      "turboThreshold": 0
     },
     {
       "visible": false,
       "showInLegend": false,
       "data": [
         [
-          2003,
+          "2003",
           null
         ],
         [
-          2005,
+          "2005",
           null
         ],
         [
-          2007,
+          "2007",
           null
         ],
         [
-          2011,
+          "2011",
           null
         ],
         [
-          2015,
+          "2015",
           null
         ],
         [
-          2019,
+          "2019",
+          0
+        ],
+        [
+          "2023",
           0
         ]
       ],
-      "name": "Bewertung"
+      "name": "Bewertung",
+      "turboThreshold": 0
     }
   ],
-  "chart": {
-    "type": "line",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "style": {
-      "fontFamily": "Arial"
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          //add sum of observations of visible series to the axis label
+
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.type == "column";
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+
+          return "";
+        }
+    },
+    "tickInterval": 1
+  },
+  "chart": {
     "events": {
       "load": function () {
           this.credits.element.onclick = function () { };
@@ -123,12 +430,12 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[8].points[0].update({ //this.series[1].points.length - 1
             dataLabels: {
               enabled: true,
               y: 20,
-              //x: -50,
-              format: 'Zielwert: mind. {y:,.1f}%',
+              x: 40,
+              format: 'Zielwert: > {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",
@@ -141,41 +448,76 @@
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
-            data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            data = chart.series[7].data,
+            assessed = chart.series[9].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y !== null) {
+            if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7",
-                  radius: 3
+                  lineColor: "#0091f7"
                 }
-              });
-              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
-                element.update({
-                  marker: {
-                    enabled: true,
-                    lineWidth: 1,
-                    lineColor: "#0091f7",
-                    radius: 4.5
-                  }
-                });
-              }
+              })
             }
           });
         }
     },
-    "renderTo": "container-9680"
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "renderTo": "container-9680",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sicherheitsgefühl im Alltag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": undefined,
+      "turboThreshold": 0,
       "marker": {
         "enabled": false
-      },
-      "turboThreshold": 0
+      }
     },
     "arearange": {
       "lineWidth": 0.5,
@@ -191,49 +533,16 @@
           }
         }
       }
+    },
+    "column": {
+      "borderWidth": 0,
+      "stacking": "percent"
     }
-  },
-  "title": {
-    "align": "left",
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Sicherheitsgefühl im Alltag"
-  },
-  "subtitle": {
-    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-    "align": "left",
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "step": 2
-    },
-    "tickInterval": 1
   },
   "yAxis": {
-    "min": 75,
-    "gridLineWidth": 0.5,
+    "tickInterval": 10,
     "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -243,24 +552,21 @@
       "text": null
     },
     "labels": {
+      "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
       "formatter": function () {
           return Highcharts.numberFormat((this.value), 0) + '%';
         }
     },
-    "max": 100
+    "reversedStacks": false
   },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -275,46 +581,27 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString) {
-
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
-
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
-
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
-  },
-  "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
-      }
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true,
+    "reversed": false,
+    "itemWidth": 150,
+    "width": 450
   },
   "exporting": {
     "filename": "9680"
