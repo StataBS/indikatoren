@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.10666585510069215,
-          "Anzahl": 12267
+          "y": 0.10731248976354875,
+          "Anzahl": 12449
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.23961775242600258,
-          "Anzahl": 27557
+          "y": 0.2398131147258355,
+          "Anzahl": 27820
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36736983061458733,
-          "Anzahl": 42249
+          "y": 0.36708129681829543,
+          "Anzahl": 42584
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1726983409272721,
-          "Anzahl": 19861
+          "y": 0.17262751385692243,
+          "Anzahl": 20026
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06205001565162951,
-          "Anzahl": 7136
+          "y": 0.06195315799908626,
+          "Anzahl": 7187
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05159820527981635,
-          "Anzahl": 5934
+          "y": 0.0512124268363116,
+          "Anzahl": 5941
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.09840796019900498,
-          "Anzahl": 989
+          "y": 0.09919674828220265,
+          "Anzahl": 1025
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.30666666666666664,
-          "Anzahl": 3082
+          "y": 0.30649375786315686,
+          "Anzahl": 3167
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.40935323383084576,
-          "Anzahl": 4114
+          "y": 0.40530339688377043,
+          "Anzahl": 4188
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.14427860696517414,
-          "Anzahl": 1450
+          "y": 0.14652085551146812,
+          "Anzahl": 1514
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.027064676616915424,
-          "Anzahl": 272
+          "y": 0.028258976096003096,
+          "Anzahl": 292
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Iselin",
-          "y": 0.014228855721393034,
-          "Anzahl": 143
+          "y": 0.01422626536339882,
+          "Anzahl": 147
         }
       ],
       "name": "Iselin",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Iselin, 2022",
+    "text": "Iselin, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "tooltip": {
     "pointFormatter": function(){

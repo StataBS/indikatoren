@@ -108,16 +108,16 @@
           10.5492919
         ],
         [
-          "         ",
-          undefined
+          "          ",
+          null
         ],
         [
-          "2022: Neuerstellt",
-          7.095343681
+          "2023: Neuerstellt",
+          16.066838
         ],
         [
-          "2022: Bestand",
-          10.66649276
+          "2023: Bestand",
+          10.731249
         ]
       ],
       "name": "1 Zimmer",
@@ -231,16 +231,16 @@
           23.8173193
         ],
         [
-          "         ",
+          "          ",
           undefined
         ],
         [
-          "2022: Neuerstellt",
-          31.15299335
+          "2023: Neuerstellt",
+          25.3213368
         ],
         [
-          "2022: Bestand",
-          23.96678405
+          "2023: Bestand",
+          23.9813115
         ]
       ],
       "name": "2 Zimmer",
@@ -354,16 +354,16 @@
           36.8811554
         ],
         [
-          "         ",
+          "          ",
           undefined
         ],
         [
-          "2022: Neuerstellt",
-          33.037694013
+          "2023: Neuerstellt",
+          32.6478149
         ],
         [
-          "2022: Bestand",
-          36.73666362
+          "2023: Bestand",
+          36.7081297
         ]
       ],
       "name": "3 Zimmer",
@@ -477,16 +477,16 @@
           17.3069645
         ],
         [
-          "         ",
+          "          ",
           undefined
         ],
         [
-          "2022: Neuerstellt",
-          21.951219512
+          "2023: Neuerstellt",
+          19.4087404
         ],
         [
-          "2022: Bestand",
-          17.26620582
+          "2023: Bestand",
+          17.2627514
         ]
       ],
       "name": "4 Zimmer",
@@ -600,16 +600,16 @@
           6.2322323
         ],
         [
-          "         ",
+          "          ",
           undefined
         ],
         [
-          "2022: Neuerstellt",
-          5.321507761
+          "2023: Neuerstellt",
+          4.3701799
         ],
         [
-          "2022: Bestand",
-          6.204947611
+          "2023: Bestand",
+          6.1953158
         ]
       ],
       "name": "5 Zimmer",
@@ -723,16 +723,16 @@
           5.2130366
         ],
         [
-          "         ",
+          "          ",
           undefined
         ],
         [
-          "2022: Neuerstellt",
-          1.441241685
+          "2023: Neuerstellt",
+          2.18509
         ],
         [
-          "2022: Bestand",
-          5.158906135
+          "2023: Bestand",
+          5.1212427
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -877,7 +877,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

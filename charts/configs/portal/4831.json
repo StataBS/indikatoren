@@ -5,39 +5,39 @@
       "data": [
         [
           "Clara",
-          0.019920318725
+          0.019841269841
         ],
         [
           "Gundeldingen",
-          0.028531663187
+          0.027874564459
         ],
         [
           "Rosental",
-          0.063694267515
+          0.063091482649
         ],
         [
           "Matthäus",
-          0.068695652173
+          0.068516912402
         ],
         [
           "Klybeck",
-          0.071100917431
+          0.070938215102
         ],
         [
           "Vorstädte",
-          0.073394495412
+          0.07326007326
         ],
         [
           "Altstadt Kleinbasel",
-          0.097902097902
+          0.097222222222
         ],
         [
           "Altstadt Grossbasel",
-          0.104330708661
+          0.1015625
         ],
         [
           "Breite",
-          0.130239520958
+          0.129129129129
         ],
         [
           "Kleinhüningen",
@@ -45,47 +45,47 @@
         ],
         [
           "Iselin",
-          0.165289256198
+          0.164609053497
         ],
         [
           "Am Ring",
-          0.193115029387
+          0.19043624161
         ],
         [
           "St. Johann",
-          0.245270711024
-        ],
-        [
-          "Wettstein",
-          0.332863187588
+          0.245602605863
         ],
         [
           "St. Alban",
-          0.333888426311
+          0.332228666114
+        ],
+        [
+          "Wettstein",
+          0.334273624823
         ],
         [
           "Gotthelf",
-          0.364285714285
+          0.363357215967
         ],
         [
           "Bachletten",
-          0.557370517928
+          0.556130573248
         ],
         [
           "Riehen",
-          0.65534324133
+          0.653819036427
         ],
         [
           "Hirzbrunnen",
-          0.691536050156
+          0.693032015065
         ],
         [
           "Bruderholz",
-          0.727099236641
+          0.722406442444
         ],
         [
           "Bettingen",
-          0.776397515527
+          0.774691358024
         ]
       ],
       "name": "Anteil Einfamilienhäuser",
@@ -147,11 +147,11 @@
           13
         ],
         [
-          "Wettstein",
+          "St. Alban",
           14
         ],
         [
-          "St. Alban",
+          "Wettstein",
           15
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "legend": {
     "enabled": false,

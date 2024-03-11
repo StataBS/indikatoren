@@ -42,6 +42,10 @@
         [
           2022,
           4.8
+        ],
+        [
+          2023,
+          41.5
         ]
       ],
       "name": "An allen neuerstellten Wohnungen"
@@ -89,6 +93,10 @@
         [
           2022,
           11
+        ],
+        [
+          2023,
+          11.2
         ]
       ],
       "name": "An allen Wohnungen"
@@ -215,7 +223,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
