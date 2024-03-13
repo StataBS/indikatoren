@@ -208,8 +208,8 @@ var indikatorensetData = [
 			6390
 		],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -235,7 +235,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:42",
+		"aktualisierungsdatum": "2024-03-11T08:32:39",
 		"id": 6378
 	},
 	{
@@ -328,8 +328,8 @@ var indikatorensetData = [
 			6778
 		],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (23%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es Deutsche.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -355,7 +355,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:02",
+		"aktualisierungsdatum": "2024-03-04T11:56:32",
 		"id": 6381
 	},
 	{
@@ -679,8 +679,8 @@ var indikatorensetData = [
 		"parentId": "6378",
 		"children": [],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -706,7 +706,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:43",
+		"aktualisierungsdatum": "2024-03-11T08:32:40",
 		"id": 6390
 	},
 	{
@@ -910,8 +910,8 @@ var indikatorensetData = [
 		"parentId": "6381",
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (23%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es Deutsche.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -937,7 +937,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:02",
+		"aktualisierungsdatum": "2024-03-04T11:56:33",
 		"id": 6778
 	}
 ];

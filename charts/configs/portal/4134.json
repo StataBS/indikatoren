@@ -6,11 +6,11 @@
       "data": [
         [
           "1 Zimmer",
-          3570
+          3637
         ],
         [
           "2 Zimmer",
-          2
+          3
         ],
         [
           "3 Zimmer",
@@ -25,12 +25,12 @@
           0
         ],
         [
-          "6 Zimmer und mehr",
+          "6 Zimmer u.m.",
           0
         ],
         [
           "Alle",
-          3572
+          3640
         ]
       ],
       "name": "bis 29 m²",
@@ -42,11 +42,11 @@
       "data": [
         [
           "1 Zimmer",
-          7933
+          8018
         ],
         [
           "2 Zimmer",
-          6661
+          6688
         ],
         [
           "3 Zimmer",
@@ -54,19 +54,19 @@
         ],
         [
           "4 Zimmer",
-          4
+          5
         ],
         [
           "5 Zimmer",
-          0
+          1
         ],
         [
-          "6 Zimmer und mehr",
+          "6 Zimmer u.m.",
           0
         ],
         [
           "Alle",
-          14753
+          14867
         ]
       ],
       "name": "30-49 m²",
@@ -78,15 +78,15 @@
       "data": [
         [
           "1 Zimmer",
-          486
+          512
         ],
         [
           "2 Zimmer",
-          18819
+          18999
         ],
         [
           "3 Zimmer",
-          13560
+          13582
         ],
         [
           "4 Zimmer",
@@ -97,12 +97,12 @@
           25
         ],
         [
-          "6 Zimmer und mehr",
+          "6 Zimmer u.m.",
           1
         ],
         [
           "Alle",
-          33201
+          33429
         ]
       ],
       "name": "50-69 m²",
@@ -114,15 +114,15 @@
       "data": [
         [
           "1 Zimmer",
-          168
+          173
         ],
         [
           "2 Zimmer",
-          1869
+          1917
         ],
         [
           "3 Zimmer",
-          26352
+          26638
         ],
         [
           "4 Zimmer",
@@ -130,15 +130,15 @@
         ],
         [
           "5 Zimmer",
-          610
+          611
         ],
         [
-          "6 Zimmer und mehr",
-          109
+          "6 Zimmer u.m.",
+          108
         ],
         [
           "Alle",
-          39459
+          39798
         ]
       ],
       "name": "70-99 m²",
@@ -150,31 +150,31 @@
       "data": [
         [
           "1 Zimmer",
-          91
+          92
         ],
         [
           "2 Zimmer",
-          183
+          189
         ],
         [
           "3 Zimmer",
-          2062
+          2088
         ],
         [
           "4 Zimmer",
-          8570
+          8719
         ],
         [
           "5 Zimmer",
-          4914
+          4939
         ],
         [
-          "6 Zimmer und mehr",
-          1817
+          "6 Zimmer u.m.",
+          1814
         ],
         [
           "Alle",
-          17637
+          17841
         ]
       ],
       "name": "100-149 m²",
@@ -186,31 +186,31 @@
       "data": [
         [
           "1 Zimmer",
-          19
+          17
         ],
         [
           "2 Zimmer",
-          23
+          24
         ],
         [
           "3 Zimmer",
-          120
+          121
         ],
         [
           "4 Zimmer",
-          626
+          641
         ],
         [
           "5 Zimmer",
-          1587
+          1611
         ],
         [
-          "6 Zimmer und mehr",
-          4007
+          "6 Zimmer u.m.",
+          4018
         ],
         [
           "Alle",
-          6382
+          6432
         ]
       ],
       "name": "150 m² u.m.",
@@ -292,7 +292,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

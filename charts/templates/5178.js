@@ -20,7 +20,7 @@
         "xAxis": {
             "type": "category",
             min: 0,
-            max: 31,
+            max: 34,
             "labels": {
                 align: "left",
                 x: -190,

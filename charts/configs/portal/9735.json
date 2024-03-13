@@ -1,0 +1,330 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Abfall trennen",
+          1422
+        ],
+        [
+          "ÖV\u002FVelo nutzen",
+          1378
+        ],
+        [
+          "Wenig Lebensmittel, Essen wegwerfen",
+          1327
+        ],
+        [
+          "Lokale\u002Fsaisonale Produkte kaufen",
+          1074
+        ],
+        [
+          "Wenig oder gar nicht Auto fahren",
+          1055
+        ],
+        [
+          "Im Winter wenig heizen",
+          1009
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
+          990
+        ],
+        [
+          "Wenig Fleisch konsumieren",
+          987
+        ],
+        [
+          "Flugreisen reduzieren",
+          885
+        ],
+        [
+          "Warmwasser sparen",
+          809
+        ],
+        [
+          "Anderes",
+          130
+        ],
+        [
+          "Nichts",
+          42
+        ]
+      ],
+      "name": "Ja",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Abfall trennen",
+          288
+        ],
+        [
+          "ÖV\u002FVelo nutzen",
+          331
+        ],
+        [
+          "Wenig Lebensmittel, Essen wegwerfen",
+          383
+        ],
+        [
+          "Lokale\u002Fsaisonale Produkte kaufen",
+          635
+        ],
+        [
+          "Wenig oder gar nicht Auto fahren",
+          654
+        ],
+        [
+          "Im Winter wenig heizen",
+          701
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
+          720
+        ],
+        [
+          "Wenig Fleisch konsumieren",
+          723
+        ],
+        [
+          "Flugreisen reduzieren",
+          825
+        ],
+        [
+          "Warmwasser sparen",
+          901
+        ],
+        [
+          "Anderes",
+          1580
+        ],
+        [
+          "Nichts",
+          1668
+        ]
+      ],
+      "name": "Nein",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "Abfall trennen",
+          344
+        ],
+        [
+          "ÖV\u002FVelo nutzen",
+          344
+        ],
+        [
+          "Wenig Lebensmittel, Essen wegwerfen",
+          344
+        ],
+        [
+          "Lokale\u002Fsaisonale Produkte kaufen",
+          344
+        ],
+        [
+          "Wenig oder gar nicht Auto fahren",
+          344
+        ],
+        [
+          "Im Winter wenig heizen",
+          344
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
+          344
+        ],
+        [
+          "Wenig Fleisch konsumieren",
+          344
+        ],
+        [
+          "Flugreisen reduzieren",
+          344
+        ],
+        [
+          "Warmwasser sparen",
+          344
+        ],
+        [
+          "Anderes",
+          344
+        ],
+        [
+          "Nichts",
+          344
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    return this.value
+                        .replace(" (z. B. Kleider, Elektronik)", "")
+                        .replace(", Essen", "");
+                },
+      "align": "left",
+      "x": -190,
+      "useHTML": true
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 200,
+    "inverted": true,
+    "renderTo": "container-9735",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beitrag Klimaschutz"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Was tun Sie konkret für den Klima- und Umweltschutz?», Basel-Stadt, 2023"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    },
+    "reversedStacks": false
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true,
+    "outside": true
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 0,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "reversed": false
+  },
+  "exporting": {
+    "filename": "9735"
+  }
+}

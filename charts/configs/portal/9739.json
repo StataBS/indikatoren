@@ -1,0 +1,613 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          3.5
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          6.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          5.4
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          2.6
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          2.8
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          1.7
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          1.8
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          9.9
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          3.4
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          2.4
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single Haushalte (n=559)",
+          5.7
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          2.4
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          3
+        ]
+      ],
+      "name": "Sehr häufig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          5.8
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          8.2
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          7.4
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          5.4
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          5.7
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          4.6
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          3.7
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          8.6
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          8
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          4.7
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single Haushalte (n=559)",
+          8.1
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          4.7
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          5.5
+        ]
+      ],
+      "name": "Ziemlich häufig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          29.7
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          31
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          33
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          29.7
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          26
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          27.6
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          29.8
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          38.7
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          40.8
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          31.3
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single Haushalte (n=559)",
+          40.6
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          26.7
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          23.3
+        ]
+      ],
+      "name": "Manchmal",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          41.7
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          24.9
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          42.5
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          49.5
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          55.7
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          56.6
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          33.1
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          44
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          60.4
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single Haushalte (n=559)",
+          31.5
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          46.8
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          42.6
+        ]
+      ],
+      "name": "Nie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          2.8
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          20.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          3.7
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          2.4
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          1.7
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          2.7
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          3.4
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          7
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          2.5
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          0.9
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single Haushalte (n=559)",
+          3.4
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          3.1
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          1.6
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2023 (N=2 054)",
+          16.6
+        ],
+        [
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          3.1
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          25.6
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          17.4
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          14.4
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          7.7
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          4.8
+        ],
+        [
+          "*Haushaltseinkommen",
+          undefined
+        ],
+        [
+          "\u003C3 000 Fr. (n=193)",
+          2.7
+        ],
+        [
+          "3 000-7 499 Fr. (n=632)",
+          1.1
+        ],
+        [
+          "\u003E7 499 Fr. (n=658)",
+          0.2
+        ],
+        [
+          "*Haushaltsform",
+          undefined
+        ],
+        [
+          "Single Haushalte (n=559)",
+          10.6
+        ],
+        [
+          "Haushalte ohne Kind (n=1 017)",
+          16.4
+        ],
+        [
+          "Haushalte mit mind. 1 Kind (n=477)",
+          24
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    //indentation of labels, except category-titles
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    tmp = tmp.replace("Haushalte", "HH");
+
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "inverted": true,
+    "width": 485,
+    "height": 563,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "renderTo": "container-9739"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Einsamkeitsgefühl"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "text": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?», Basel-Stadt, 2023"
+  },
+  "yAxis": {
+    "max": 100,
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": false,
+    "useHTML": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "9739"
+  }
+}

@@ -1,100 +1,180 @@
 {
   "series": [
     {
-      "color": "#0091f7",
-      "legendIndex": 3,
+      "color": "#addbe5",
+      "legendIndex": 2,
       "data": [
         [
-          2003,
+          "2003",
           93.8
         ],
         [
-          2005,
+          "2005",
           94.6
         ],
         [
-          2007,
+          "2007",
           94.4
         ],
         [
-          2011,
+          "2011",
           92.8
         ],
         [
-          2015,
+          "2015",
           91.2
         ],
         [
-          2019,
+          "2019",
           94.9
         ]
       ],
-      "name": "Sehr oder eher sicher"
+      "name": "Sehr oder eher sicher",
+      "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "dashStyle": "ShortDash",
+      "color": "#d3e1e4",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003",
+          90
+        ],
+        [
+          "2005",
+          90
+        ],
+        [
+          "2007",
+          90
+        ],
+        [
+          "2011",
+          90
+        ],
+        [
+          "2015",
+          90
+        ],
+        [
+          "2019",
+          90
+        ]
+      ],
+      "name": "Zielwert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffebcd",
       "legendIndex": 4,
       "data": [
         [
-          2003,
-          90
-        ],
-        [
-          2005,
-          90
-        ],
-        [
-          2007,
-          90
-        ],
-        [
-          2011,
-          90
-        ],
-        [
-          2015,
-          90
-        ],
-        [
-          2019,
-          90
-        ]
-      ],
-      "name": "Zielwert"
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          2003,
+          "2003",
           null
         ],
         [
-          2005,
+          "2005",
           null
         ],
         [
-          2007,
+          "2007",
           null
         ],
         [
-          2011,
+          "2011",
           null
         ],
         [
-          2015,
+          "2015",
           null
         ],
         [
-          2019,
+          "2019",
           0
         ]
       ],
-      "name": "Bewertung"
+      "name": "Bewertung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fac4b1",
+      "legendIndex": 5
+    },
+    {
+      "color": "#D3E2E4",
+      "legendIndex": 6
+    },
+    {
+      "color": "#cccccc",
+      "legendIndex": 7
+    },
+    {
+      "color": "#a4a4a4",
+      "legendIndex": 8
+    },
+    {
+      "color": "#0091f7",
+      "type": "line",
+      "legendIndex": 0,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+          }
+      }
+    },
+    {
+      "color": "#999999",
+      "type": "line",
+      "dashStyle": "ShortDash",
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+          }
+      }
+    },
+    {
+      "type": "line",
+      "visible": false,
+      "showInLegend": false
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          //add sum of observations of visible series to the axis label
+
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.type == "column";
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
+
+          return "";
+        }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -123,12 +203,12 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[8].points[0].update({ //this.series[1].points.length - 1
             dataLabels: {
               enabled: true,
               y: 20,
-              //x: -50,
-              format: 'Zielwert: mind. {y:,.1f}%',
+              x: 40,
+              format: 'Zielwert: > {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",
@@ -141,29 +221,18 @@
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
-            data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            data = chart.series[7].data,
+            assessed = chart.series[9].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y !== null) {
+            if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7",
-                  radius: 3
+                  lineColor: "#0091f7"
                 }
-              });
-              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
-                element.update({
-                  marker: {
-                    enabled: true,
-                    lineWidth: 1,
-                    lineColor: "#0091f7",
-                    radius: 4.5
-                  }
-                });
-              }
+              })
             }
           });
         }
@@ -175,7 +244,8 @@
       "marker": {
         "enabled": false
       },
-      "turboThreshold": 0
+      "turboThreshold": 0,
+      "stacking": undefined
     },
     "arearange": {
       "lineWidth": 0.5,
@@ -191,6 +261,10 @@
           }
         }
       }
+    },
+    "column": {
+      "borderWidth": 0,
+      "stacking": "percent"
     }
   },
   "title": {
@@ -211,27 +285,8 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "step": 2
-    },
-    "tickInterval": 1
-  },
   "yAxis": {
-    "min": 75,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -250,7 +305,7 @@
           return Highcharts.numberFormat((this.value), 0) + '%';
         }
     },
-    "max": 100
+    "reversedStacks": false
   },
   "legend": {
     "enabled": true,
@@ -259,8 +314,13 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "reversed": false,
+    "itemWidth": 150,
+    "width": 450
   },
   "credits": {
     "enabled": true,
@@ -310,11 +370,6 @@
 					}]
 				}, true, true);
 			}
-  },
-  "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
-      }
   },
   "exporting": {
     "filename": "9785"

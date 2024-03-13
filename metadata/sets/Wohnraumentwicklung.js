@@ -161,7 +161,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungsbelegung",
 		"subtitle": "nach Belegungsart, Basel-Stadt",
-		"lesehilfe": "Von den belegten Wohnungen im Kanton sind über alle abgebildeten Jahre hinweg rund 73% Mietwohnungen, knapp 11% Genossenschaftswohnungen und etwas über 15% Eigentümerwohnungen.",
+		"lesehilfe": "Von den belegten Wohnungen im Kanton sind über alle abgebildeten Jahre hinweg  73% Mietwohnungen, 11% Genossenschaftswohnungen und 15% Eigentümerwohnungen.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:08",
+		"aktualisierungsdatum": "2024-03-11T08:32:30",
 		"id": 4131
 	},
 	{
@@ -281,8 +281,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 sind Wohnungen zwischen 70 und 99 Quadratmetern (34%) am zahlreichsten. Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "2023 sind die Wohnungen zwischen 70 und 99 Quadratmetern Wohnfläche am zahlreichsten (34%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 63% aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -307,7 +307,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:14",
+		"aktualisierungsdatum": "2024-03-11T08:32:35",
 		"id": 4134
 	},
 	{
@@ -389,7 +389,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:57:38",
+		"aktualisierungsdatum": "2024-03-11T08:32:35",
 		"id": 4136
 	},
 	{
@@ -403,8 +403,8 @@ var indikatorensetData = [
 		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 902 Einheiten war die Neubauproduktion 2022 wiederum sehr hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
-		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
+		"lesehilfe": "Mit 778 Einheiten war die Neubauproduktion 2023 wiederum hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
+		"erlaeuterungen": "Berücksichtigt werden nur neuerstellte Wohnungen in Neubauten. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -428,7 +428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:16",
+		"aktualisierungsdatum": "2024-03-11T08:32:36",
 		"id": 4137
 	},
 	{
@@ -634,8 +634,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 11 104 Genossenschaftswohnungen welche 2022 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
-		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
+		"lesehilfe": "Die 11 461 Genossenschaftswohnungen, welche 2023 im Kanton bewohnt sind, entsprechen einem Anteil am Gesamtbestand von gut 11%.",
+		"erlaeuterungen": "Berücksichtigt werden Wohnungen, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -659,7 +659,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:18",
+		"aktualisierungsdatum": "2024-03-11T08:32:36",
 		"id": 4143
 	},
 	{
@@ -735,7 +735,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:19",
+		"aktualisierungsdatum": "2024-03-11T08:32:37",
 		"id": 4145
 	},
 	{
@@ -747,7 +747,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Bis 2022 war ein leichter Rückgang zu verzeichnen. 2023 hat sich der Anteil stabilisiert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -772,7 +772,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:20",
+		"aktualisierungsdatum": "2024-03-11T08:32:38",
 		"id": 4146
 	},
 	{

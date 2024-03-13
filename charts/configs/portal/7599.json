@@ -43,6 +43,10 @@
         [
           2022,
           45.4
+        ],
+        [
+          2023,
+          38.9
         ]
       ],
       "name": "1 Zi. Neuerstellt"
@@ -91,6 +95,10 @@
         [
           2022,
           34.5
+        ],
+        [
+          2023,
+          34.5
         ]
       ],
       "name": "1 Zi. Bestand"
@@ -138,6 +146,10 @@
         [
           2022,
           60.9
+        ],
+        [
+          2023,
+          58
         ]
       ],
       "name": "2 Zi. Neuerstellt"
@@ -186,6 +198,10 @@
         [
           2022,
           55.6
+        ],
+        [
+          2023,
+          55.7
         ]
       ],
       "name": "2 Zi. Bestand"
@@ -233,6 +249,10 @@
         [
           2022,
           86.5
+        ],
+        [
+          2023,
+          78.8
         ]
       ],
       "name": "3 Zi. Neuerstellt"
@@ -281,6 +301,10 @@
         [
           2022,
           75.6
+        ],
+        [
+          2023,
+          75.6
         ]
       ],
       "name": "3 Zi. Bestand"
@@ -328,6 +352,10 @@
         [
           2022,
           113.6
+        ],
+        [
+          2023,
+          113.4
         ]
       ],
       "name": "4 Zi. Neuerstellt"
@@ -376,6 +404,10 @@
         [
           2022,
           101.1
+        ],
+        [
+          2023,
+          101.3
         ]
       ],
       "name": "4 Zi. Bestand"
@@ -423,6 +455,10 @@
         [
           2022,
           150.5
+        ],
+        [
+          2023,
+          142.2
         ]
       ],
       "name": "5 Zi. Neuerstellt"
@@ -471,6 +507,10 @@
         [
           2022,
           130.7
+        ],
+        [
+          2023,
+          130.8
         ]
       ],
       "name": "5 Zi. Bestand"
@@ -518,6 +558,10 @@
         [
           2022,
           179.5
+        ],
+        [
+          2023,
+          199.4
         ]
       ],
       "name": "6 Zi. u.m. Neuerstellt"
@@ -565,6 +609,10 @@
         ],
         [
           2022,
+          177.7
+        ],
+        [
+          2023,
           177.7
         ]
       ],
@@ -701,7 +749,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

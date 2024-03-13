@@ -6,48 +6,44 @@
       "legendIndex": 0,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
-          60.2
+          58.9
         ],
         [
           "Italien",
-          71
+          69.3
         ],
         [
           "Türkei",
-          79.7
+          78.7
         ],
         [
           "EU-West + EFTA + UK",
-          57.7
+          56.5
         ],
         [
           "EU-Ost",
-          30
+          30.3
         ],
         [
           "Balkan",
-          79.3
+          78.7
         ],
         [
           "Mittel- und Südamerika",
-          39.9
+          38.7
         ],
         [
           "Arabische Länder",
-          26.9
+          28.3
         ],
         [
           "Afrikanische Länder",
-          35.3
+          33.9
         ],
         [
           "Übrige Länder",
-          29.4
+          29.2
         ]
       ],
       "name": "C",
@@ -59,48 +55,44 @@
       "legendIndex": 1,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
-          35.1
+          36.4
         ],
         [
           "Italien",
-          26.5
+          28.5
         ],
         [
           "Türkei",
-          18.8
+          19.6
         ],
         [
           "EU-West + EFTA + UK",
-          37.4
+          39.2
         ],
         [
           "EU-Ost",
-          64.1
+          65
         ],
         [
           "Balkan",
-          19.7
+          20.3
         ],
         [
           "Mittel- und Südamerika",
-          55.4
+          56.6
         ],
         [
           "Arabische Länder",
-          53.9
+          54.8
         ],
         [
           "Afrikanische Länder",
-          48.9
+          50.8
         ],
         [
           "Übrige Länder",
-          43.9
+          44
         ]
       ],
       "name": "B",
@@ -112,10 +104,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
           0
         ],
@@ -137,7 +125,7 @@
         ],
         [
           "Balkan",
-          0.4
+          0.5
         ],
         [
           "Mittel- und Südamerika",
@@ -145,15 +133,15 @@
         ],
         [
           "Arabische Länder",
-          14.5
+          12.4
         ],
         [
           "Afrikanische Länder",
-          10.7
+          10.4
         ],
         [
           "Übrige Länder",
-          2.6
+          3.1
         ]
       ],
       "name": "F",
@@ -165,48 +153,44 @@
       "legendIndex": 3,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
-          2.5
+          2.2
         ],
         [
           "Italien",
-          1.9
-        ],
-        [
-          "Türkei",
-          0.4
-        ],
-        [
-          "EU-West + EFTA + UK",
-          3.3
-        ],
-        [
-          "EU-Ost",
-          5.1
-        ],
-        [
-          "Balkan",
-          0.4
-        ],
-        [
-          "Mittel- und Südamerika",
-          2.5
-        ],
-        [
-          "Arabische Länder",
-          1
-        ],
-        [
-          "Afrikanische Länder",
           1.5
         ],
         [
+          "Türkei",
+          0.2
+        ],
+        [
+          "EU-West + EFTA + UK",
+          2.7
+        ],
+        [
+          "EU-Ost",
+          4.1
+        ],
+        [
+          "Balkan",
+          0.3
+        ],
+        [
+          "Mittel- und Südamerika",
+          2.4
+        ],
+        [
+          "Arabische Länder",
+          0.9
+        ],
+        [
+          "Afrikanische Länder",
+          1.4
+        ],
+        [
           "Übrige Länder",
-          5.7
+          5.3
         ]
       ],
       "name": "L",
@@ -218,10 +202,6 @@
       "legendIndex": 4,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
           0
         ],
@@ -231,7 +211,7 @@
         ],
         [
           "Türkei",
-          0.5
+          0.8
         ],
         [
           "EU-West + EFTA + UK",
@@ -243,7 +223,7 @@
         ],
         [
           "Balkan",
-          0.2
+          0.1
         ],
         [
           "Mittel- und Südamerika",
@@ -251,7 +231,7 @@
         ],
         [
           "Arabische Länder",
-          3.1
+          3.3
         ],
         [
           "Afrikanische Länder",
@@ -259,7 +239,7 @@
         ],
         [
           "Übrige Länder",
-          0.7
+          0.9
         ]
       ],
       "name": "N",
@@ -271,16 +251,12 @@
       "legendIndex": 5,
       "data": [
         [
-          "Schweiz",
-          0
-        ],
-        [
           "Deutschland",
-          2.2
+          2.5
         ],
         [
           "Italien",
-          0.6
+          0.7
         ],
         [
           "Türkei",
@@ -288,11 +264,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          1.7
+          1.6
         ],
         [
           "EU-Ost",
-          0.8
+          0.7
         ],
         [
           "Balkan",
@@ -300,11 +276,11 @@
         ],
         [
           "Mittel- und Südamerika",
-          2
+          2.1
         ],
         [
           "Arabische Länder",
-          0.5
+          0.4
         ],
         [
           "Afrikanische Länder",
@@ -312,7 +288,7 @@
         ],
         [
           "Übrige Länder",
-          17.6
+          17.5
         ]
       ],
       "name": "Übrige",
@@ -400,7 +376,7 @@
     "text": "Ausländische Bevölkerung nach Art der Bewilligung"
   },
   "subtitle": {
-    "text": "und Staatsangehörigkeit, Basel-Stadt, 2022",
+    "text": "und Staatsangehörigkeit, Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -457,7 +433,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

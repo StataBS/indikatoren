@@ -21,11 +21,15 @@
         ],
         [
           "2015",
-          19
+          17
         ],
         [
           "2019",
-          25
+          33
+        ],
+        [
+          "2023",
+          35
         ]
       ],
       "name": "Erhöhen",
@@ -48,15 +52,19 @@
         ],
         [
           "2011",
-          764
+          768
         ],
         [
           "2015",
-          558
+          589
         ],
         [
           "2019",
-          1047
+          1025
+        ],
+        [
+          "2023",
+          875
         ]
       ],
       "name": "Senken",
@@ -79,15 +87,19 @@
         ],
         [
           "2011",
-          692
+          687
         ],
         [
           "2015",
-          850
+          811
         ],
         [
           "2019",
-          779
+          754
+        ],
+        [
+          "2023",
+          639
         ]
       ],
       "name": "Beibehalten",
@@ -110,15 +122,19 @@
         ],
         [
           "2011",
-          45
+          46
         ],
         [
           "2015",
-          77
+          88
         ],
         [
           "2019",
-          172
+          211
+        ],
+        [
+          "2023",
+          191
         ]
       ],
       "name": "Weiss nicht",
@@ -145,11 +161,15 @@
         ],
         [
           "2015",
-          2
+          1
         ],
         [
           "2019",
           85
+        ],
+        [
+          "2023",
+          314
         ]
       ],
       "name": "Keine Angabe",
@@ -298,7 +318,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
   },
   "legend": {
     "layout": "horizontal",

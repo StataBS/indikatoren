@@ -1,0 +1,424 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 4,
+      "legendIndex": 0,
+      "data": [
+        [
+          "eSteuern",
+          822
+        ],
+        [
+          "eKonto",
+          556
+        ],
+        [
+          "MapBS\u002FGeoportal BS",
+          358
+        ],
+        [
+          "Dräggwägg-App",
+          344
+        ],
+        [
+          "Online-MFK",
+          303
+        ],
+        [
+          "eUmzug",
+          214
+        ],
+        [
+          "Bussen-App",
+          203
+        ],
+        [
+          "Parksmart",
+          184
+        ],
+        [
+          "data.bs",
+          110
+        ],
+        [
+          "Andere",
+          76
+        ]
+      ],
+      "name": "Ich kenne und nutze sie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 1,
+      "data": [
+        [
+          "eSteuern",
+          353
+        ],
+        [
+          "eKonto",
+          232
+        ],
+        [
+          "MapBS\u002FGeoportal BS",
+          224
+        ],
+        [
+          "Dräggwägg-App",
+          227
+        ],
+        [
+          "Online-MFK",
+          309
+        ],
+        [
+          "eUmzug",
+          255
+        ],
+        [
+          "Bussen-App",
+          210
+        ],
+        [
+          "Parksmart",
+          234
+        ],
+        [
+          "data.bs",
+          210
+        ],
+        [
+          "Andere",
+          13
+        ]
+      ],
+      "name": "Ich kenne, aber nutze sie nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "eSteuern",
+          222
+        ],
+        [
+          "eKonto",
+          305
+        ],
+        [
+          "MapBS\u002FGeoportal BS",
+          362
+        ],
+        [
+          "Dräggwägg-App",
+          377
+        ],
+        [
+          "Online-MFK",
+          368
+        ],
+        [
+          "eUmzug",
+          417
+        ],
+        [
+          "Bussen-App",
+          400
+        ],
+        [
+          "Parksmart",
+          404
+        ],
+        [
+          "data.bs",
+          423
+        ],
+        [
+          "Andere",
+          809
+        ]
+      ],
+      "name": "Ich kenne sie nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 3,
+      "data": [
+        [
+          "eSteuern",
+          256
+        ],
+        [
+          "eKonto",
+          560
+        ],
+        [
+          "MapBS\u002FGeoportal BS",
+          709
+        ],
+        [
+          "Dräggwägg-App",
+          705
+        ],
+        [
+          "Online-MFK",
+          673
+        ],
+        [
+          "eUmzug",
+          767
+        ],
+        [
+          "Bussen-App",
+          840
+        ],
+        [
+          "Parksmart",
+          831
+        ],
+        [
+          "data.bs",
+          910
+        ],
+        [
+          "Andere",
+          755
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 4,
+      "data": [
+        [
+          "eSteuern",
+          318
+        ],
+        [
+          "eKonto",
+          318
+        ],
+        [
+          "MapBS\u002FGeoportal BS",
+          318
+        ],
+        [
+          "Dräggwägg-App",
+          318
+        ],
+        [
+          "Online-MFK",
+          318
+        ],
+        [
+          "eUmzug",
+          318
+        ],
+        [
+          "Bussen-App",
+          318
+        ],
+        [
+          "Parksmart",
+          318
+        ],
+        [
+          "data.bs",
+          318
+        ],
+        [
+          "Andere",
+          318
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString =  'n=';
+                      if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+  
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+  
+                    //check for value that contains only spaces
+                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                }
+    },
+    "min": 0,
+    "max": 8
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 533,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-12519",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Kantonale Online-Dienstleistungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Welche Dienstleistungen des Kantons nutzen Sie online bzw. kennen Sie?», nur Personen mit Internetzugang, Basel-Stadt, 2023"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true
+  },
+  "exporting": {
+    "filename": "12519"
+  }
+}
