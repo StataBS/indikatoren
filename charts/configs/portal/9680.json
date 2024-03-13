@@ -18,19 +18,19 @@
         ],
         [
           "2011",
-          746.44897
+          730
         ],
         [
           "2015",
-          710.4358
+          635
         ],
         [
           "2019",
-          1324
+          1255
         ],
         [
           "2023",
-          928.34796
+          928
         ]
       ],
       "name": "Sehr sicher",
@@ -54,19 +54,19 @@
         ],
         [
           "2011",
-          666.5083
+          677
         ],
         [
           "2015",
-          671.63677
+          738
         ],
         [
           "2019",
-          687.38099
+          745
         ],
         [
           "2023",
-          909.34214
+          909
         ]
       ],
       "name": "Eher sicher",
@@ -90,19 +90,19 @@
         ],
         [
           "2011",
-          89.76103
+          94
         ],
         [
           "2015",
-          111.3914
+          115
         ],
         [
           "2019",
-          54.63405
+          65
         ],
         [
           "2023",
-          74.55047
+          75
         ]
       ],
       "name": "Eher unsicher",
@@ -126,19 +126,19 @@
         ],
         [
           "2011",
-          12.53127
+          14
         ],
         [
           "2015",
-          9.93355
+          15
         ],
         [
           "2019",
-          21.38357
+          16
         ],
         [
           "2023",
-          22.8952
+          23
         ]
       ],
       "name": "Ganz unsicher",
@@ -162,19 +162,19 @@
         ],
         [
           "2011",
-          null
+          0
         ],
         [
           "2015",
-          null
+          0
         ],
         [
           "2019",
-          0.66654
+          1
         ],
         [
           "2023",
-          0.72902
+          1
         ]
       ],
       "name": "Trifft auf mich nicht zu",
@@ -198,19 +198,19 @@
         ],
         [
           "2011",
-          0.75042
+          1
         ],
         [
           "2015",
-          2.60248
+          3
         ],
         [
           "2019",
-          3.22285
+          3
         ],
         [
           "2023",
-          4.46695
+          4
         ]
       ],
       "name": "Weiss nicht",
@@ -219,6 +219,7 @@
     {
       "color": "#a4a4a4",
       "legendIndex": 8,
+      "visible": false,
       "data": [
         [
           "2003",
@@ -234,19 +235,19 @@
         ],
         [
           "2011",
-          null
+          0
         ],
         [
           "2015",
-          null
+          0
         ],
         [
           "2019",
-          17.1479
+          23
         ],
         [
           "2023",
-          113.66826
+          114
         ]
       ],
       "name": "Keine Angabe",
@@ -276,19 +277,19 @@
         ],
         [
           "2011",
-          93.2
+          92.8
         ],
         [
           "2015",
-          91.8
+          91.2
         ],
         [
           "2019",
-          95.4
+          95.9
         ],
         [
           "2023",
-          89.5
+          94.7
         ]
       ],
       "name": "Sehr oder eher sicher",
@@ -338,7 +339,6 @@
       "turboThreshold": 0
     },
     {
-      "type": "line",
       "visible": false,
       "showInLegend": false,
       "data": [
@@ -368,7 +368,7 @@
         ],
         [
           "2023",
-          1
+          0
         ]
       ],
       "name": "Bewertung",
@@ -406,8 +406,8 @@
           }, 0);
           //use N if all series are visible, otherwise use n
           var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-          var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
-          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
 
           return "";
         }
@@ -581,7 +581,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 13.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "legend": {
     "layout": "horizontal",
