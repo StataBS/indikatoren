@@ -80724,7 +80724,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T09:40:02",
+		"aktualisierungsdatum": "2024-03-13T11:30:32",
 		"id": 9680
 	},
 	{
