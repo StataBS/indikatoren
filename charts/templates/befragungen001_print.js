@@ -136,12 +136,12 @@
                     //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
                     var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
 
-                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+                    var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
 
                     this.value = this.value.replace("und weitere", "u.a.");
 
                     //check for value that contains only spaces
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + formattedSum + ')';
                 }
 /*
 				formatter: function () {
