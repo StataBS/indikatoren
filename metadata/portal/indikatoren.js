@@ -10820,7 +10820,7 @@ var indikatoren = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"lesehilfe": "2023 ereigneten sich auf den Basler Kantonsstrassen insgesamt 561 Strassenverkehrsunfälle. Das sind 59 mehr als ein Jahr zuvor. Die Zahl der verunfallten Personen lag bei 410, 66 mehr als im Vorjahr.",
 		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -10846,7 +10846,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T09:59:12",
+		"aktualisierungsdatum": "2024-03-14T08:48:58",
 		"id": 5186
 	},
 	{
@@ -37863,8 +37863,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Strassenverkehrsunfälle",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 wurden auf den baselstädtischen Strassen 502 Unfälle durch die Polizei rapportiert, davon 296 Unfälle mit Personenschaden.",
-		"erlaeuterungen": "Ab 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Ab 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Ab 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
+		"lesehilfe": "2023 wurden auf den baselstädtischen Strassen 561 Unfälle durch die Polizei rapportiert, davon 332 Unfälle mit Personenschaden.",
+		"erlaeuterungen": "Seit 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Seit 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Seit 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
@@ -37889,7 +37889,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:05",
+		"aktualisierungsdatum": "2024-03-14T08:48:55",
 		"id": 9274
 	},
 	{
@@ -37901,7 +37901,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Verletzte und Verkehrstote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 sind auf den baselstädtischen Strassen insgesamt 344 Personen verunfallt. Davon wurden 248 leicht- und 94 schwerverletzt; 2 verloren dabei ihr Leben.",
+		"lesehilfe": "Im Jahr 2023 sind auf den baselstädtischen Strassen insgesamt 410 Personen verunfallt. Davon wurden 299 leicht und 108 schwer verletzt; 3 verloren dabei ihr Leben.",
 		"erlaeuterungen": "Verkehrstote: Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -37927,7 +37927,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:06",
+		"aktualisierungsdatum": "2024-03-14T08:48:56",
 		"id": 9283
 	},
 	{
@@ -37937,10 +37937,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"title": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählter Unfallursache",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt 22 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (91 Verkehrsteilnehmende), Missachtung der Vortrittsregelungen (136) sowie Missachten von Signalen und Zeichengebung (21).",
-		"erlaeuterungen": "Am Verkehrsunfall beteiligte Fussgänger oder Fahrzeuglenkende (ohne Mitfahrende), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.), Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro Beteiligten) können mehrere mutmassliche Ursachen gemeldet werden.",
+		"lesehilfe": "Im Jahr 2023 waren in Basel-Stadt 20 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen waren u. a. Alkohol (79 Personen), Missachtung der Vortrittsregelung (153) sowie Missachten von Signalen und Zeichengebung (42).",
+		"erlaeuterungen": "An Verkehrsunfällen beteiligte Fussgänger oder Fahrzeuglenker (ohne Mitfahrer), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.). Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro Beteiligten) können mehrere mutmassliche Ursachen gemeldet werden.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
@@ -37949,7 +37949,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"description": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählter Unfallursache",
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
 		"kuerzel": "I.11.7.09287",
@@ -37965,7 +37965,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:07",
+		"aktualisierungsdatum": "2024-03-14T08:48:56",
 		"id": 9287
 	},
 	{

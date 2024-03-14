@@ -400,6 +400,10 @@
         [
           2022,
           2
+        ],
+        [
+          2023,
+          3
         ]
       ],
       "name": "Verkehrstote (rechte Skala)"
@@ -803,6 +807,10 @@
         [
           2022,
           342
+        ],
+        [
+          2023,
+          407
         ]
       ],
       "name": "Verletzte"
@@ -964,7 +972,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 14.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
