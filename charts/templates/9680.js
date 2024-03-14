@@ -52,17 +52,6 @@
         }
       }
     },
-    "plotOptions": {
-      "series": {
-        borderWidth: 0,
-        "dataLabels": {
-          "style": {
-            "fontSize": "10px"
-          }
-        },
-        "stacking": "percent"
-      }
-    },
     plotOptions: {
       arearange: {
         lineWidth: 0.5,
@@ -95,16 +84,16 @@
           //add sum of observations of visible series to the axis label
 
           var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-            return val.type == "column";
+            return val.type == "column" && val.visible;
           });
           var indexOfCurrentValue = this.axis.names.indexOf(this.value);
           var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
             return accumulator + series.yData[indexOfCurrentValue];
           }, 0);
           //use N if all series are visible, otherwise use n
-          var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-          var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+          var nString = (this.chart.series.length == allVisibleSeries.length + 3) ? 'N=' : 'n=';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
 
           return "";
         }
@@ -145,7 +134,7 @@
       { "color": "#fac4b1", legendIndex: 5 }, // orange DC440E
       { "color": "#D3E2E4", legendIndex: 6 }, // orange D3E2E4
       { "color": "#cccccc", legendIndex: 7 }, // grau C8C8C8
-      { "color": "#a4a4a4", legendIndex: 8, visible: false }, // grau 6F6F6F
+      { "color": "#a4a4a4", legendIndex: 8 },// visible: false }, // grau 6F6F6F
       {
         color: "#0091f7",
         type: "line",
@@ -168,6 +157,7 @@
         }
       },
       {
+        type: 'line', //nötig, damit summenbildung funktioniert
         visible: false,
         showInLegend: false
       },
