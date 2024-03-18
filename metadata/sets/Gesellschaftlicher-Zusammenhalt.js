@@ -245,48 +245,47 @@ var indikatorensetData = [
 		"id": 4722
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4724,
+		"chart-id": 4724,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5138,
+			6185,
+			6331,
+			8386,
+			8881,
+			10045
+		],
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt",
-		"kuerzel": "I.50.1.4724",
-		"kuerzelKunde": "2.2.01",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "2023 fühlten sich knapp 40% der Bevölkerung sehr oder eher gut von den Behörden vertreten. Im Vergleich zu den Vorjahren entspricht dies einem Rückgang.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>). Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4724",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "2.2.01",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 fühlten sich 50% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2015 entspricht dies einem Rückgang um 18 Prozentpunkte. Der Anteil der Befragten, die sich gar nicht gut vertreten fühlen, ist hingegen grösser geworden.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"template": "befragungen001",
+		"orderKey": "02_02_00_00_00_042",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_042",
-		"parentId": null,
-		"children": [
-			"5138",
-			"6185",
-			"6331",
-			"8386",
-			"8881"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4724,
-		"chart-id": 4724,
-		"filter": "",
+		"aktualisierungsdatum": "2024-03-18T09:00:26",
 		"id": 4724
 	},
 	{
@@ -461,12 +460,13 @@ var indikatorensetData = [
 			6035,
 			8391,
 			8926,
+			9785,
 			10034
 		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "2023 fühlten sich 45,2% der Bevölkerung im Alltag sehr sicher und 44,3% eher sicher. Im Vergleich zu den früheren Befragungen fühlten sich zwar weniger Personen sehr sicher, aber das alltägliche Sicherheitsempfinden insgesamt blieb in etwa auf gleichem Niveau.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -490,7 +490,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-12T08:24:11",
+		"aktualisierungsdatum": "2024-03-18T09:00:13",
 		"id": 4852
 	},
 	{
@@ -919,7 +919,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Rund 20,0% der Steuerveranlagungen im Jahr 2018 enthielten Zuwendungen, ein minimaler Zuwachs gegenüber dem Vorjahr. Seit 2008 ist der Anteil tendenziell steigend.",
+		"lesehilfe": "19,9% der Steuerveranlagungen im Jahr 2019 enthielten Zuwendungen.",
 		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -944,50 +944,48 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:55",
+		"aktualisierungsdatum": "2024-03-18T09:00:30",
 		"id": 4863
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4864,
+		"chart-id": 4864,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6040,
+			8403,
+			8930
+		],
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
-		"kuerzel": "I.50.1.4864",
-		"kuerzelKunde": "3.1.02",
-		"description": "Freiwillige Tätigkeit",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "34% der Befragten gaben 2023 an, in ihrer Freizeit freiwillig tätig zu sein. 2019 lag der Anteil bei 32,4%, 2015 waren es 40,6%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:13.1313",
+		"description": "Freiwillige Tätigkeit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4864",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.1.02",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "35,2% der Befragten gaben 2019 an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben. Damals lag dieser Anteil bei 41,0%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
-		"template": "befragungen001",
+		"orderKey": "03_01_00_00_00_053",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_01_00_00_00_053",
-		"parentId": null,
-		"children": [
-			"6040",
-			"8403",
-			"8930"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4864,
-		"chart-id": 4864,
-		"filter": "",
+		"aktualisierungsdatum": "2024-03-18T09:00:31",
 		"id": 4864
 	},
 	{
@@ -1076,129 +1074,123 @@ var indikatorensetData = [
 		"id": 4866
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8406"
-		],
 		"template": "template001",
-		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
-		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzel": "I.19.1.4867",
-		"kuerzelKunde": "3.2.02",
-		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-14T08:12:25.2525",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 6,3 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_02_00_00_00_056",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 4867,
 		"chart-id": 4867,
 		"filter": "",
-		"id": 4867
-	},
-	{
 		"parentId": null,
 		"children": [
-			"8407"
+			8406
 		],
-		"template": "template001",
-		"title": "Angezeigte Straftaten betreffend Diebstahl",
-		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzel": "I.19.1.4868",
-		"kuerzelKunde": "3.2.03",
-		"description": "Angezeigte Straftaten betreffend Diebstahl",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-14T08:12:26.2626",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 30,0 Anzeigen wegen Diebstahl erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_02_00_00_00_057",
-		"renderLink": [],
+		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 6,3 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4868,
-		"chart-id": 4868,
-		"filter": "",
-		"id": 4868
-	},
-	{
-		"parentId": null,
-		"children": [
-			"8408"
-		],
-		"template": "template001",
-		"title": "Angezeigte Straftaten betreffend Körperverletzung",
-		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzel": "I.19.1.4869",
-		"kuerzelKunde": "3.2.04",
-		"description": "Angezeigte Straftaten betreffend Körperverletzung",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-14T08:12:27.2727",
+		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.4867",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.2.02",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 1,6 Anzeigen wegen Körperverletzung erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"orderKey": "03_02_00_00_00_056",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_058",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-18T09:00:32",
+		"id": 4867
+	},
+	{
+		"template": "template001",
+		"data-id": 4868,
+		"chart-id": 4868,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8407
+		],
+		"title": "Angezeigte Straftaten betreffend Diebstahl",
+		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 41,8 Anzeigen wegen Diebstahl erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
 		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Angezeigte Straftaten betreffend Diebstahl",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.4868",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.2.03",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_057",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-18T09:00:34",
+		"id": 4868
+	},
+	{
+		"template": "template001",
+		"data-id": 4869,
+		"chart-id": 4869,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8408
+		],
+		"title": "Angezeigte Straftaten betreffend Körperverletzung",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 2,0 Anzeigen wegen Körperverletzung erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 4869,
-		"chart-id": 4869,
-		"filter": "",
+		"description": "Angezeigte Straftaten betreffend Körperverletzung",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.4869",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.2.04",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_058",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-18T09:00:35",
 		"id": 4869
 	},
 	{

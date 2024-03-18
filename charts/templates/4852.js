@@ -21,11 +21,16 @@
             "verticalAlign": "top",
             "itemMarginBottom": 4,
             "align": "left",
-            labelFormatter: function(){
+            itemWidth: 150,
+            width: 450,
+            itemStyle: {
+                textOverflow: "none",
+                whiteSpace: "nowrap"
+            },
+            labelFormatter: function () {
                 return this.name.replace("/", " /<br/>");
-        
-              }
-          }
+            }
+        }
     };
 }());
 

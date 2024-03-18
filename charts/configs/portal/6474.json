@@ -46,6 +46,10 @@
         [
           2022,
           1.2
+        ],
+        [
+          2023,
+          1.1
         ]
       ],
       "name": "Schweiz"
@@ -96,6 +100,10 @@
         [
           2022,
           3.5
+        ],
+        [
+          2023,
+          3.6
         ]
       ],
       "name": "Gemischte Haushalte"
@@ -146,6 +154,10 @@
         [
           2022,
           3.5
+        ],
+        [
+          2023,
+          3.4
         ]
       ],
       "name": "Ausland"
@@ -195,6 +207,10 @@
         ],
         [
           2022,
+          2.1
+        ],
+        [
+          2023,
           2.1
         ]
       ],
@@ -252,7 +268,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit"
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -326,7 +342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 30.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

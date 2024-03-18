@@ -336,7 +336,7 @@ id | visible | visibleInPortal | indikatorenset
 5193 | true | true | Legislaturplan
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
-5196 | false |  | Nachhaltigkeit
+5196 | true | true | Nachhaltigkeit
 5197 | false |  | Nachhaltigkeit
 5198 | false |  | Nachhaltigkeit
 5199 | true | true | Nachhaltigkeit
@@ -2259,7 +2259,7 @@ id | visible | visibleInPortal | indikatorenset
 9778 | true | false | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
 9784 | true | true | Nachhaltigkeit
-9785 | true | true | Nachhaltigkeit
+9785 | true | false | Nachhaltigkeit
 9786 | true | false | Nachhaltigkeit
 9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
@@ -2320,6 +2320,7 @@ id | visible | visibleInPortal | indikatorenset
 11899 | true | true | Richtplan
 11903 | true | false | Richtplan
 11906 | true | false | Richtplan
+11907 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
 11932 | true | true | Wirtschaftsbericht BS_BL_JU

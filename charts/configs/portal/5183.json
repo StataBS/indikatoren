@@ -5,51 +5,55 @@
       "data": [
         [
           2011,
-          14.079937175
+          14.1
         ],
         [
           2012,
-          14.161436078
+          14.2
         ],
         [
           2013,
-          14.20591557
+          14.2
         ],
         [
           2014,
-          14.24315086
+          14.2
         ],
         [
           2015,
-          13.952584134
+          14
         ],
         [
           2016,
-          14.527402782
+          14.5
         ],
         [
           2017,
-          14.724390144
+          14.7
         ],
         [
           2018,
-          14.961575653
+          15
         ],
         [
           2019,
-          16.409981923
+          16.4
         ],
         [
           2020,
-          16.777124209
+          16.8
         ],
         [
           2021,
-          17.014216109
+          17
         ],
         [
           2022,
-          16.265269812
+          16.3
+        ],
+        [
+          2023,
+          15.9
         ]
       ],
       "name": "PV-Quote"
@@ -107,7 +111,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Prämienverbilligungen"
+    "text": "Quote der Haushalte mit Prämienverbilligung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -179,7 +183,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

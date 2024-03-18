@@ -51,6 +51,10 @@
         [
           2022,
           2.1
+        ],
+        [
+          2023,
+          2.1
         ]
       ],
       "name": "FAMI-Quote"
@@ -108,7 +112,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -180,7 +184,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 24.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

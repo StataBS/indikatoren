@@ -17,15 +17,19 @@
         ],
         [
           "2011",
-          135
+          138
         ],
         [
           "2015",
-          129
+          140
         ],
         [
           "2019",
-          55
+          58
+        ],
+        [
+          "2023",
+          58
         ]
       ],
       "name": "Sehr gut",
@@ -48,15 +52,19 @@
         ],
         [
           "2011",
-          947
+          945
         ],
         [
           "2015",
-          898
+          928
         ],
         [
           "2019",
-          1005
+          945
+        ],
+        [
+          "2023",
+          718
         ]
       ],
       "name": "Eher gut",
@@ -79,15 +87,19 @@
         ],
         [
           "2011",
-          276
+          263
         ],
         [
           "2015",
-          324
+          281
         ],
         [
           "2019",
-          426
+          375
+        ],
+        [
+          "2023",
+          323
         ]
       ],
       "name": "Eher nicht gut",
@@ -110,15 +122,19 @@
         ],
         [
           "2011",
-          38
+          34
         ],
         [
           "2015",
-          40
+          32
         ],
         [
           "2019",
-          124
+          125
+        ],
+        [
+          "2023",
+          79
         ]
       ],
       "name": "Gar nicht gut",
@@ -141,15 +157,19 @@
         ],
         [
           "2011",
-          120
+          163
         ],
         [
           "2015",
-          114
+          124
         ],
         [
           "2019",
-          452
+          561
+        ],
+        [
+          "2023",
+          576
         ]
       ],
       "name": "Weiss nicht",
@@ -180,7 +200,11 @@
         ],
         [
           "2019",
-          46
+          44
+        ],
+        [
+          "2023",
+          300
         ]
       ],
       "name": "Keine Angabe",
@@ -217,8 +241,8 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
             }
     }
   },
@@ -329,7 +353,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "legend": {
     "layout": "horizontal",

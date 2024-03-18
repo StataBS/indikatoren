@@ -17,15 +17,19 @@
         ],
         [
           "2011",
-          730
+          746.44897
         ],
         [
           "2015",
-          635
+          710.4358
         ],
         [
           "2019",
-          1255
+          1324
+        ],
+        [
+          "2023",
+          928.34796
         ]
       ],
       "name": "Sehr sicher",
@@ -48,15 +52,19 @@
         ],
         [
           "2011",
-          677
+          666.5083
         ],
         [
           "2015",
-          738
+          671.63677
         ],
         [
           "2019",
-          745
+          687.38099
+        ],
+        [
+          "2023",
+          909.34214
         ]
       ],
       "name": "Eher sicher",
@@ -79,15 +87,19 @@
         ],
         [
           "2011",
-          94
+          89.76103
         ],
         [
           "2015",
-          115
+          111.3914
         ],
         [
           "2019",
-          65
+          54.63405
+        ],
+        [
+          "2023",
+          74.55047
         ]
       ],
       "name": "Eher unsicher",
@@ -110,15 +122,19 @@
         ],
         [
           "2011",
-          14
+          12.53127
         ],
         [
           "2015",
-          15
+          9.93355
         ],
         [
           "2019",
-          16
+          21.38357
+        ],
+        [
+          "2023",
+          22.8952
         ]
       ],
       "name": "Ganz unsicher",
@@ -141,15 +157,19 @@
         ],
         [
           "2011",
-          0
+          null
         ],
         [
           "2015",
-          0
+          null
         ],
         [
           "2019",
-          1
+          0.66654
+        ],
+        [
+          "2023",
+          0.72902
         ]
       ],
       "name": "Trifft auf mich nicht zu",
@@ -172,15 +192,19 @@
         ],
         [
           "2011",
-          1
+          0.75042
         ],
         [
           "2015",
-          3
+          2.60248
         ],
         [
           "2019",
-          3
+          3.22285
+        ],
+        [
+          "2023",
+          4.46695
         ]
       ],
       "name": "Weiss nicht",
@@ -203,15 +227,19 @@
         ],
         [
           "2011",
-          0
+          null
         ],
         [
           "2015",
-          0
+          null
         ],
         [
           "2019",
-          23
+          17.1479
+        ],
+        [
+          "2023",
+          113.66826
         ]
       ],
       "name": "Keine Angabe",
@@ -248,8 +276,8 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
             }
     }
   },
@@ -360,7 +388,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 12.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "legend": {
     "layout": "horizontal",
@@ -370,14 +398,16 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
+    "labelFormatter": function () {
                 return this.name.replace("/", " /<br/>");
-        
-              },
-    "reversed": false
+            },
+    "reversed": false,
+    "itemWidth": 150,
+    "width": 450
   },
   "exporting": {
     "filename": "4852"
