@@ -5,11 +5,15 @@
       "data": [
         [
           "2015",
-          618
+          611
         ],
         [
           "2019",
-          741
+          682
+        ],
+        [
+          "2023",
+          698
         ]
       ],
       "name": "Ja",
@@ -20,11 +24,15 @@
       "data": [
         [
           "2015",
-          886
+          891
         ],
         [
           "2019",
-          1286
+          1347
+        ],
+        [
+          "2023",
+          1034
         ]
       ],
       "name": "Nein",
@@ -35,11 +43,15 @@
       "data": [
         [
           "2015",
-          2
+          4
         ],
         [
           "2019",
-          25
+          28
+        ],
+        [
+          "2023",
+          35
         ]
       ],
       "name": "Weiss nicht",
@@ -54,7 +66,11 @@
         ],
         [
           "2019",
-          56
+          51
+        ],
+        [
+          "2023",
+          287
         ]
       ],
       "name": "Keine Angabe",
@@ -91,8 +107,8 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
             }
     }
   },
@@ -203,7 +219,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "legend": {
     "layout": "vertical",
@@ -222,6 +238,6 @@
     "reversed": true
   },
   "exporting": {
-    "filename": 6040
+    "filename": "6040"
   }
 }

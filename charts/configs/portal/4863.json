@@ -5,47 +5,51 @@
       "data": [
         [
           2008,
-          17.617796556611
+          17.62
         ],
         [
           2009,
-          17.876542321666
+          17.88
         ],
         [
           2010,
-          18.729227414937
+          18.73
         ],
         [
           2011,
-          18.771346157249
+          18.77
         ],
         [
           2012,
-          18.904111990603
+          18.9
         ],
         [
           2013,
-          19.26493429434
+          19.26
         ],
         [
           2014,
-          19.34302144317
+          19.34
         ],
         [
           2015,
-          19.928930490552
+          19.93
         ],
         [
           2016,
-          20.11370116
+          20.11
         ],
         [
           2017,
-          19.9369085173502
+          19.94
         ],
         [
           2018,
-          19.99072
+          19.99
+        ],
+        [
+          2019,
+          19.86
         ]
       ],
       "name": "Anteil Veranlagungen mit Zuwendungen"
@@ -184,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "tooltip": {
     "shared": false,

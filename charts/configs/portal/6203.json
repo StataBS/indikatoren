@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2022",
+      "name": "2023",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,67 +6569,67 @@
       "data": [
         [
           1,
-          0.25
+          0.2
         ],
         [
           2,
-          0.26
+          0.3
         ],
         [
           3,
-          0.79
+          0.8
         ],
         [
           4,
-          2.27
+          2.2
         ],
         [
           5,
-          1.29
+          1.3
         ],
         [
           6,
-          2.24
+          2.2
         ],
         [
           7,
-          1.34
+          1.5
         ],
         [
           8,
-          1.14
+          1.1
         ],
         [
           9,
-          1.54
+          1.2
         ],
         [
           10,
-          3.09
+          2.8
         ],
         [
           11,
-          3.29
+          3.3
         ],
         [
           12,
-          0.44
+          0.7
         ],
         [
           13,
-          1.78
+          1.7
         ],
         [
           14,
-          1.14
+          1.1
         ],
         [
           15,
-          3.36
+          3.2
         ],
         [
           16,
-          3.47
+          3.6
         ],
         [
           17,
@@ -6637,19 +6637,19 @@
         ],
         [
           18,
-          3.97
+          4.1
         ],
         [
           19,
-          4.82
+          4.6
         ],
         [
           20,
-          1.56
+          1.6
         ],
         [
           30,
-          0.97
+          1.1
         ]
       ]
     },
@@ -6658,55 +6658,55 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.16
+          0.2
         ],
         [
           "Vorstädte",
-          -0.06
+          -0.1
         ],
         [
           "Am Ring",
-          -0.16
+          -0.3
         ],
         [
           "Breite",
-          -0.05
+          -0.2
         ],
         [
           "St. Alban",
-          -0.05
+          -0.1
         ],
         [
           "Gundeldingen",
-          -0.28
+          -0.3
         ],
         [
           "Bruderholz",
-          -0.09
+          0
         ],
         [
           "Bachletten",
-          -0.24
+          -0.3
         ],
         [
           "Gotthelf",
-          -0.04
+          -0.3
         ],
         [
           "Iselin",
-          0.04
+          -0.3
         ],
         [
           "St. Johann",
-          -0.34
+          -0.2
         ],
         [
           "Altstadt Kleinbasel",
-          -1.01
+          -0.4
         ],
         [
           "Clara",
-          -0.51
+          -0.6
         ],
         [
           "Wettstein",
@@ -6714,34 +6714,34 @@
         ],
         [
           "Hirzbrunnen",
-          0.48
+          0.1
         ],
         [
           "Rosental",
-          0.34
+          0.3
         ],
         [
           "Matthäus",
-          -0.38
+          -0.4
         ],
         [
           "Klybeck",
-          -0.71
+          -0.8
         ],
         [
           "Kleinhüningen",
-          -0.21
+          -0.5
         ],
         [
           "Riehen",
-          0.12
+          0
         ],
         [
           "Bettingen",
-          -0.34
+          -0.4
         ]
       ],
-      "name": "Differenz 2022 zu 2017"
+      "name": "Differenz 2023 zu 2018"
     },
     {
       "name": "Rhein",
@@ -7265,7 +7265,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "style": {
@@ -7274,7 +7274,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -7290,7 +7290,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
   },
   "colorAxis": {
     "min": 0,
