@@ -1,154 +1,364 @@
 {
   "series": [
     {
-      "color": "#2F656B",
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
-      },
+      "color": "#0091f7",
+      "zIndex": 2,
       "data": [
         [
-          "2012",
-          246864.8923
+          2010,
+          5.09
         ],
         [
-          "2014",
-          199418.86744
+          2011,
+          4.85
         ],
         [
-          "2016",
-          190274.14488
+          2012,
+          4.61
         ],
         [
-          "2018",
-          189586.64121
+          2013,
+          4.39
         ],
         [
-          "2020",
-          194777.57184
+          2014,
+          4.17
+        ],
+        [
+          2015,
+          4.1
+        ],
+        [
+          2016,
+          4.02
+        ],
+        [
+          2017,
+          3.9
+        ],
+        [
+          2018,
+          3.77
+        ],
+        [
+          2019,
+          3.55
+        ],
+        [
+          2020,
+          3.31
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
-      "name": "Haushalte",
-      "turboThreshold": 0
+      "name": "Tonnen pro Kopf"
     },
     {
-      "color": "#8B2223",
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
-      },
-      "data": [
-        [
-          "2012",
-          385152.1723
-        ],
-        [
-          "2014",
-          360696.65988
-        ],
-        [
-          "2016",
-          347016.32325
-        ],
-        [
-          "2018",
-          303332.98213
-        ],
-        [
-          "2020",
-          280337.48479
-        ]
-      ],
-      "name": "Nicht-Wohnen (ohne Verkehr)",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#83522E",
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
-      },
-      "data": [
-        [
-          "2012",
-          201350.29601
-        ],
-        [
-          "2014",
-          204406.94145
-        ],
-        [
-          "2016",
-          204334.64087
-        ],
-        [
-          "2018",
-          201597.45844
-        ],
-        [
-          "2020",
-          143013.01412
-        ]
-      ],
-      "name": "Verkehr",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#000000",
       "type": "line",
-      "yAxis": 1,
-      "marker": {
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "dashStyle": "ShortDash",
+      "color": "#999999",
       "data": [
         [
-          "2012",
-          4.3202040467
+          2010,
+          null
         ],
         [
-          "2014",
-          3.8989140926
+          2011,
+          null
         ],
         [
-          "2016",
-          3.7469817457
+          2012,
+          null
         ],
         [
-          "2018",
-          3.4748426667
+          2013,
+          null
         ],
         [
-          "2020",
-          3.0672271857
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          3.31
+        ],
+        [
+          2021,
+          3.16
+        ],
+        [
+          2022,
+          3.02
+        ],
+        [
+          2023,
+          2.88
+        ],
+        [
+          2024,
+          2.73
+        ],
+        [
+          2025,
+          2.59
+        ],
+        [
+          2026,
+          2.44
+        ],
+        [
+          2027,
+          2.3
+        ],
+        [
+          2028,
+          2.1
+        ],
+        [
+          2029,
+          1.9
+        ],
+        [
+          2030,
+          1.7
+        ],
+        [
+          2031,
+          1.5
+        ],
+        [
+          2032,
+          1.3
+        ],
+        [
+          2033,
+          1.225
+        ],
+        [
+          2034,
+          1.15
+        ],
+        [
+          2035,
+          1.075
+        ],
+        [
+          2036,
+          1
+        ],
+        [
+          2037,
+          0
         ]
       ],
-      "name": "Tonnen pro Kopf (rechte Skala)",
-      "turboThreshold": 0
+      "name": "Zielpfad"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -168,34 +378,37 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
                 }
+              }
+            );
+          }
+        }
     },
-    "type": "column",
+    "type": "line",
     "renderTo": "container-6031",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointWidth": 30,
-      "stacking": "true"
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "title": {
@@ -206,61 +419,63 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
+    "text": "Treibhausgas-Emissionen"
   },
   "subtitle": {
-    "text": "in Tonnen, Basel-Stadt",
+    "text": "in Tonnen CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Äquivalente pro Kopf, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
     }
   },
-  "yAxis": [
-    {
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      },
-      "min": 0,
-      "tickAmount": 4
-    },
-    {
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      },
-      "min": 0,
-      "tickAmount": 4,
-      "opposite": true
-    }
-  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": "none",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     },
-    "useHTML": true,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemWidth": 130,
-    "width": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -279,16 +494,13 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
-    "useHTML": true,
-    "outside": true,
-    "style": {
-      "zIndex": 2000
-    }
+    "valueDecimals": 2,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6031"

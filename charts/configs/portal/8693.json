@@ -5,32 +5,44 @@
       "legendIndex": 7,
       "data": [
         [
-          "2011",
-          186.3
-        ],
-        [
           "2012",
-          178.3
+          177.4
         ],
         [
           "2013",
-          169.3
+          170.2
         ],
         [
           "2014",
-          167.3
+          168.6
         ],
         [
           "2015",
-          159
+          158.7
         ],
         [
           "2016",
-          155
+          154.1
         ],
         [
           "2017",
-          142.1
+          133.4
+        ],
+        [
+          "2018",
+          57.8
+        ],
+        [
+          "2019",
+          57.5
+        ],
+        [
+          "2020",
+          57.5
+        ],
+        [
+          "2021",
+          61
         ]
       ],
       "name": "Lagerei",
@@ -41,32 +53,44 @@
       "legendIndex": 6,
       "data": [
         [
-          "2011",
-          77
-        ],
-        [
           "2012",
           73.8
         ],
         [
           "2013",
-          71.9
+          72.8
         ],
         [
           "2014",
-          81.9
+          83.5
         ],
         [
           "2015",
-          52.4
+          52.8
         ],
         [
           "2016",
-          65.2
+          65.3
         ],
         [
           "2017",
-          59.3
+          52.1
+        ],
+        [
+          "2018",
+          53
+        ],
+        [
+          "2019",
+          122.3
+        ],
+        [
+          "2020",
+          73.1
+        ],
+        [
+          "2021",
+          77.8
         ]
       ],
       "name": "Erbringung von sonst. DL für den Landverkehr",
@@ -77,20 +101,16 @@
       "legendIndex": 5,
       "data": [
         [
-          "2011",
-          110.4
-        ],
-        [
           "2012",
-          104.9
+          92.3
         ],
         [
           "2013",
-          101.9
+          91
         ],
         [
           "2014",
-          98
+          93.4
         ],
         [
           "2015",
@@ -98,11 +118,27 @@
         ],
         [
           "2016",
-          109.5
+          109.4
         ],
         [
           "2017",
-          108
+          107.6
+        ],
+        [
+          "2018",
+          137
+        ],
+        [
+          "2019",
+          131.4
+        ],
+        [
+          "2020",
+          134
+        ],
+        [
+          "2021",
+          135.3
         ]
       ],
       "name": "Erbringung von sonst. DL für die Schifffahrt",
@@ -113,32 +149,44 @@
       "legendIndex": 4,
       "data": [
         [
-          "2011",
-          507.9
-        ],
-        [
           "2012",
-          598.9
+          534.1
         ],
         [
           "2013",
-          606.7
+          606.2
         ],
         [
           "2014",
-          605.6
+          610.7
         ],
         [
           "2015",
-          620.7
+          629.5
         ],
         [
           "2016",
-          666.5
+          667.7
         ],
         [
           "2017",
-          677.6
+          678.5
+        ],
+        [
+          "2018",
+          688.5
+        ],
+        [
+          "2019",
+          759.3
+        ],
+        [
+          "2020",
+          631.4
+        ],
+        [
+          "2021",
+          585.5
         ]
       ],
       "name": "Erbringung von sonst. DL für die Luftfahrt",
@@ -149,24 +197,20 @@
       "legendIndex": 3,
       "data": [
         [
-          "2011",
-          30.9
-        ],
-        [
           "2012",
-          31.2
+          31.6
         ],
         [
           "2013",
-          30
+          30.2
         ],
         [
           "2014",
-          27.9
+          28.2
         ],
         [
           "2015",
-          29.3
+          29.5
         ],
         [
           "2016",
@@ -175,6 +219,22 @@
         [
           "2017",
           25.2
+        ],
+        [
+          "2018",
+          22.5
+        ],
+        [
+          "2019",
+          21.4
+        ],
+        [
+          "2020",
+          17.4
+        ],
+        [
+          "2021",
+          16.6
         ]
       ],
       "name": "Frachtumschlag",
@@ -185,32 +245,44 @@
       "legendIndex": 2,
       "data": [
         [
-          "2011",
-          2551.7
-        ],
-        [
           "2012",
-          2421.6
+          2448.9
         ],
         [
           "2013",
-          2311.1
+          2327.8
         ],
         [
           "2014",
-          2134.1
+          2160
         ],
         [
           "2015",
-          1909.8
+          1965.7
         ],
         [
           "2016",
-          1619.8
+          1596.5
         ],
         [
           "2017",
-          1625.4
+          1590.2
+        ],
+        [
+          "2018",
+          1787.9
+        ],
+        [
+          "2019",
+          1807.4
+        ],
+        [
+          "2020",
+          1764.8
+        ],
+        [
+          "2021",
+          1769.8
         ]
       ],
       "name": "Erbringung von sonst. DL für den Verkehr a. n. g.",
@@ -221,32 +293,44 @@
       "legendIndex": 1,
       "data": [
         [
-          "2011",
-          758.7
-        ],
-        [
           "2012",
-          758.6
+          753.8
         ],
         [
           "2013",
-          781.6
+          582
         ],
         [
           "2014",
-          754.9
+          571.2
         ],
         [
           "2015",
-          736.2
+          553.5
         ],
         [
           "2016",
-          732.8
+          527.3
         ],
         [
           "2017",
-          610.7
+          469.7
+        ],
+        [
+          "2018",
+          433.3
+        ],
+        [
+          "2019",
+          425
+        ],
+        [
+          "2020",
+          487.9
+        ],
+        [
+          "2021",
+          520.7
         ]
       ],
       "name": "Postdienste von Universaldienstleistungsanbietern",
@@ -257,32 +341,44 @@
       "legendIndex": 0,
       "data": [
         [
-          "2011",
-          855.1
-        ],
-        [
           "2012",
-          834.4
+          754.5
         ],
         [
           "2013",
-          693
+          633
         ],
         [
           "2014",
-          682.8
+          608.4
         ],
         [
           "2015",
-          648.7
+          657.1
         ],
         [
           "2016",
-          671.6
+          671.1
         ],
         [
           "2017",
-          442.6
+          444.5
+        ],
+        [
+          "2018",
+          435.7
+        ],
+        [
+          "2019",
+          537.6
+        ],
+        [
+          "2020",
+          637.5
+        ],
+        [
+          "2021",
+          635.3
         ]
       ],
       "name": "Sonstige Post-, Kurier- und Expressdienste",
@@ -302,17 +398,20 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "rotation": 0
     }
   },
   "chart": {
-    "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -323,34 +422,34 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+                    this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
-    "renderTo": "container-8693"
+    "type": "column",
+    "renderTo": "container-8693",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "marker": {
-        "enabled": false
-      },
-      "pointWidth": 25,
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -373,7 +472,6 @@
     }
   },
   "yAxis": {
-    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -394,20 +492,26 @@
     "reversedStacks": false
   },
   "legend": {
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null,
-      "width": 150
+      "textOverflow": null
     },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
+    "align": "right",
+    "itemWidth": 133,
     "labelFormatter": function () {
         return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universal-<br/>dienstleistungsanbietern");
       }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -422,41 +526,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString) {
-
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
-
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
-
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -465,6 +535,6 @@
     "valueDecimals": 0
   },
   "exporting": {
-    "filename": 8693
+    "filename": "8693"
   }
 }

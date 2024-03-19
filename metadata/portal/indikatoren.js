@@ -989,6 +989,44 @@ var indikatoren = [
 		"id": 11932
 	},
 	{
+		"template": "template001",
+		"data-id": 12532,
+		"chart-id": 12532,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettowohnungsproduktion seit 2019",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Zwischen Ende 2019 und Ende 2023 betrug die Nettowohnungsproduktion 3 683 Wohnungen.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nettowohnungsproduktion seit 2019",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.12532",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL7",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_407",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-19T08:04:36",
+		"id": 12532
+	},
+	{
 		"template": "line001",
 		"data-id": 2151,
 		"chart-id": 2151,
@@ -997,9 +1035,9 @@ var indikatoren = [
 		"children": [
 			7003
 		],
-		"title": "Neue Grenzgängerbewilligungen nach Branche",
+		"title": "Erteilte Grenzgängerbewilligungen nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil an erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2022 wurden für diese Branche rund 3 300 Bewilligungen erteilt. Der Anteil beträgt 58%. Insgesamt wurden 2022 über 5 600 neue Bewilligungen erteilt, 15,1% mehr als im Jahr davor.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil an erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2023 wurden für diese Branche rund 3 200 Bewilligungen erteilt. Der Anteil beträgt ca. 55%. Insgesamt wurden 2023 rund 5 900 Bewilligungen erteilt, 4,9% mehr als im Jahr davor.",
 		"erlaeuterungen": "Vom Staatssekretariat für Migration neuerteilte bzw. erneuerte Grenzgängerbewilligungen.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1009,7 +1047,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Neue Grenzgängerbewilligungen nach Branche",
+		"description": "Erteilte Grenzgängerbewilligungen nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kuerzel": "I.03.5.02151",
@@ -1025,7 +1063,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:31",
+		"aktualisierungsdatum": "2024-03-19T08:03:46",
 		"id": 2151
 	},
 	{
@@ -1039,7 +1077,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In allen Gruppen waren im 4. Quartal 2022 mehr Grenzgängerinnen und Grenzgänger tätig als zu Beginn des Jahres 2013. Am grössten fiel der Zuwachs bei den Männern aus Frankreich aus (+9,2%). Von den rund 35 500 Grenzgängern im Jahr 2022 in Basel-Stadt waren ca. 41% Frauen. Rund 53% der Grenzgänger kommen aus Frankreich, 46% aus Deutschland.",
+		"lesehilfe": "In allen Gruppen waren im 4. Quartal 2023 mehr Grenzgängerinnen und Grenzgänger tätig als zu Beginn des Jahres 2014. Am grössten fiel der Zuwachs bei den Frauen aus Frankreich aus (+5,9%). Von den rund 34 700 Grenzgängern im Jahr 2023 in Basel-Stadt waren ca. 41% Frauen. Rund 53% der Grenzgänger kommen aus Frankreich, 46% aus Deutschland.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1065,7 +1103,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:28",
+		"aktualisierungsdatum": "2024-03-19T08:03:37",
 		"id": 2152
 	},
 	{
@@ -1079,7 +1117,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Mehrheit der Altersgruppen gab es im 4. Quartal 2022 mehr Grenzgängerinnen und Grenzgänger als zu Beginn des Jahres 2013. Verglichen mit dem 4. Quartal 2021 war die Entwicklung Ende 2022 unterschiedlich. Einen Rückgang um 4,1% verzeichnete beispielsweise die Gruppe der Personen im Alter von 50 bis 54 Jahren.",
+		"lesehilfe": "In der Mehrheit der Altersgruppen gab es im 4. Quartal 2023 weniger Grenzgängerinnen und Grenzgänger als zu Beginn des Jahres 2014. Einen grossen Anstieg gab es allerdings in der Gruppe der Personen über 54 Jahre (+49,1%). Verglichen mit dem 4. Quartal 2022 verzeichnete diese Altersgruppe einen Rückgang um 6,1%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1105,7 +1143,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:31",
+		"aktualisierungsdatum": "2024-03-19T08:03:45",
 		"id": 2153
 	},
 	{
@@ -1119,7 +1157,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2013 entwickelte sich die Zahl der Grenzgänger in den abgebildeten Branchen insgesamt leicht rückläufig. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2022 rund 6 300 Grenzgänger gezählt, 0,2% weniger als ein Jahr zuvor. In der Baubranche ging die Anzahl im Vorjahresvergleich um 3,7% zurück.",
+		"lesehilfe": "Seit 2014 entwickelte sich die Zahl der Grenzgänger in den abgebildeten Branchen insgesamt rückläufig. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2023 rund 5 800 Grenzgänger gezählt, 6,4% weniger als ein Jahr zuvor. In der Baubranche ging die Anzahl im Vorjahresvergleich um 5,5% zurück.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1145,7 +1183,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:31",
+		"aktualisierungsdatum": "2024-03-19T08:03:53",
 		"id": 2161
 	},
 	{
@@ -1159,7 +1197,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Vergleich zum Jahr 2013 ist die Zahl der Grenzgänger nur in der Branche Information und Kommunikation gestiegen, nämlich um 68,2%. Im Vergleich zum 4. Quartal 2021 stieg dieser Wert um 7,9%. Auch das Gastgewerbe verzeichnete im 4. Quartal 2022 ein Plus von 8,0% gegenüber dem Vorjahr, der Bereich Handel und Reparatur ein Minus von 2,0%.",
+		"lesehilfe": "Im Vergleich zum Jahr 2014 ist die Zahl der Grenzgänger nur in der Branche Information und Kommunikation gestiegen, nämlich um 51,7%. Im Vergleich zum 4. Quartal 2022 stieg dieser Wert um 3,5%. Auch das Gastgewerbe verzeichnete im 4. Quartal 2023 ein Plus von 2,3% gegenüber dem Vorjahr, der Bereich Handel und Reparatur ein Minus von 5,8%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1185,7 +1223,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:32",
+		"aktualisierungsdatum": "2024-03-19T08:03:54",
 		"id": 2163
 	},
 	{
@@ -1199,7 +1237,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2013 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt betrug der Zuwachs 8,1%, von rund 32 900 auf rund 35 500. Gegenüber dem 4. Quartal 2021 stieg der Wert um 2,3%. In der gesamten Schweiz arbeiteten im 4. Quartal 2022 rund 381 000 Grenzgänger, 6,1% mehr als ein Jahr zuvor.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2014 einen Anstieg an ausländischen Grenzgängerinnen und Grenzgängern. In Basel-Stadt betrug der Zuwachs 2,8%, von rund 33 700 auf 34 700. Gegenüber dem 4. Quartal 2022 ging der Wert hingegen um 1,8% zurück. In der gesamten Schweiz arbeiteten im 4. Quartal 2023 rund 393 000 Grenzgänger (+3,5% vs. 4. Q. 2022).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1225,7 +1263,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:23",
+		"aktualisierungsdatum": "2024-03-19T08:03:18",
 		"id": 2173
 	},
 	{
@@ -1239,7 +1277,7 @@ var indikatoren = [
 		],
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "in Franken",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2021 beträgt es rund 192  000 Franken. Dies sind 16,1% mehr als 2012. Gegenüber 2020 ist ein Anstieg um 1,4% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2021 rund 84 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2022 beträgt es rund 218  000 Franken. Dies sind 31,1% mehr als 2013. Gegenüber 2021 ist ein Anstieg um 7,2% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2022 rund 89 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1265,7 +1303,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:12",
+		"aktualisierungsdatum": "2024-03-19T08:02:52",
 		"id": 2400
 	},
 	{
@@ -1279,7 +1317,7 @@ var indikatoren = [
 		],
 		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"subtitle": "nach Kanton",
-		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2021 gegenüber dem Vorjahr um 3,9% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2020 um 4,2% gestiegen. 2020 gab es insbesondere aufgrund der COVID-19-Pandemie stärkere Rückgänge zu verzeichnen.",
+		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2022 gegenüber dem Vorjahr um 6,9% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2022 um 2,6% gestiegen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1306,7 +1344,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:13",
+		"aktualisierungsdatum": "2024-03-19T08:02:53",
 		"id": 2401
 	},
 	{
@@ -1318,9 +1356,9 @@ var indikatoren = [
 		"children": [
 			7011
 		],
-		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
-		"subtitle": "2021",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2021 beträgt dieser 39,8%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,3%, vor den Finanz- und Versicherungsdienstleistungen mit 9,7%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 23,2% am grössten, im Aargau ebenfalls mit 20,4% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 19,8%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 18,0% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"title": "Nominale Wertschöpfung nach Branche",
+		"subtitle": "Anteile, 2022",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2022 beträgt dieser 44,9%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 10,5%, vor den Finanz- und Versicherungsdienstleistungen mit 8,7%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 20,5% am grössten, im Aargau ebenfalls mit 18,1% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,0%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 16,2% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1331,7 +1369,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
+		"description": "Nominale Wertschöpfung nach Branche",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.2402",
@@ -1347,7 +1385,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:13",
+		"aktualisierungsdatum": "2024-03-19T08:02:55",
 		"id": 2402
 	},
 	{
@@ -1360,8 +1398,8 @@ var indikatoren = [
 			7012
 		],
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2012 = 100)",
-		"lesehilfe": "Seit dem Jahr 2012 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2021 betrug der Zuwachs gegenüber dem Vorjahr 6,5%. Auch bei der Industrie insgesamt hat sich der Wert seit 2012 mehr als verdoppelt (gegenüber Vorjahr +7,0%). Im Baugewerbe wurde seit 2012 ein Zuwachs von 15,8% verzeichnet (gegenüber Vorjahr -0,5%).",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
+		"lesehilfe": "Seit dem Jahr 2013 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdreifacht. 2022 betrug der Zuwachs gegenüber dem Vorjahr 11,8%. Bei der Industrie insgesamt hat sich der Wert seit 2013 mehr als verdoppelt (gegenüber Vorjahr +11,5%). Im Baugewerbe wurde seit 2013 ein Zuwachs von 3,1% verzeichnet (gegenüber Vorjahr -11,3%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1387,7 +1425,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:14",
+		"aktualisierungsdatum": "2024-03-19T08:02:56",
 		"id": 2404
 	},
 	{
@@ -1400,8 +1438,8 @@ var indikatoren = [
 			7013
 		],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2012 = 100)",
-		"lesehilfe": "Die Branche Handel und Reparatur (+4,1%) verzeichnete zwischen 2012 und 2021 ein Wachstum der realen Wertschöpfung. Leicht rückläufig verlief die Entwicklung innerhalb der Branche Information und Kommunikation (-1,7%). Bei den Branchen Verkehr und Lagerei (-29,3%) sowie Gastgewerbe (-38,0%) bildete sich der Wert deutlich zurück. Dies ist unter anderem auf die pandemiebedingten Umstände der Jahre 2020 und 2021 zurückzuführen.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnete im Vergleich zum Vorjahr einen Rückgang der realen Wertschöpfung (-2,3%), ebenso der Bereich Information und Kommunikation (-0,2%). Bei den Branchen Verkehr und Lagerei (+15,5%) sowie vor allem beim Gastgewerbe (+75,1%) stieg der Wert deutlich. Die starken Rückgänge, die im Zuge der COVID-19-Pandemie zu beobachten waren, sind noch nicht aufgeholt.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1427,7 +1465,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:14",
+		"aktualisierungsdatum": "2024-03-19T08:02:58",
 		"id": 2405
 	},
 	{
@@ -1441,8 +1479,8 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2022 lag sie mit 2,7% leicht unter der durchschnittlichen Quote (2,9%) und gleich tief wie die Quote der Personen ab 50.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
+		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2023 lag sie mit 3,3% unter der durchschnittlichen Quote (3,5%) und über der Quote der Personen ab 50 (3,1%).",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -1467,7 +1505,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:19",
+		"aktualisierungsdatum": "2024-03-19T08:03:08",
 		"id": 2423
 	},
 	{
@@ -1483,7 +1521,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ging von 5,6% im Januar auf 4,0% im Oktober 2022 zurück, stieg aber bis Jahresende wieder auf 4,9%. Bei den anderen Bevölkerungsgruppen war die Quote 2022 überwiegend rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 4,5% im Sommer auf 6,1% im Dezember 2023 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2023 auf 4,5% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1509,7 +1547,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:20",
+		"aktualisierungsdatum": "2024-03-19T08:03:10",
 		"id": 2424
 	},
 	{
@@ -1523,7 +1561,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose nach Ländergruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt waren Ende 2022 insgesamt rund 3 000 Arbeitslose bei den RAV angemeldet, rund 500 Personen weniger als Ende 2021. Die Arbeitslosenzahlen aller Ländergruppen waren tiefer als ein Jahr zuvor. Ende 2022 waren 1 169 Arbeitslose Schweizer Staatsangehörige, 918 Angehörige der EU15/EFTA-Länder (inkl. UK), 724 Personen aus Drittstaaten und 152 Personen aus Ländern, die seit 2004 der EU beigetreten sind.",
+		"lesehilfe": "In Basel-Stadt waren Ende 2023 insgesamt rund 3 600 Arbeitslose registriert, rund 600 Personen mehr als Ende 2022. Der Anstieg im Vorjahresvergleich war bei den Arbeitslosen aus den EU15/EFTA-Länder (inkl. UK) sowie aus den Drittstaaten am stärksten. Ende 2023 waren 1 292 Arbeitslose Schweizer Staatsangehörige, 1 167 Angehörige der EU15/EFTA-Länder (inkl. UK), 899 Personen aus Drittstaaten und 214 Personen aus Ländern, die seit 2004 der EU beigetreten sind.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1549,7 +1587,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:20",
+		"aktualisierungsdatum": "2024-03-19T08:03:11",
 		"id": 2426
 	},
 	{
@@ -1563,7 +1601,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Baugewerbe weist starke saisonale Schwankungen auf. Im Dezember 2022 sind hier 519 Personen als arbeitslos gemeldet, während es im September 271 waren. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) hat Ende 2022 mit 168 Personen den tiefsten Wert der letzten zehn Jahre erreicht.",
+		"lesehilfe": "Das Baugewerbe weist starke saisonale Schwankungen auf. Im Dezember 2023 sind hier 573 Personen als arbeitslos gemeldet, während es im September 347 waren. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) liegt Ende 2023 bei 222 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1589,7 +1627,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:21",
+		"aktualisierungsdatum": "2024-03-19T08:03:12",
 		"id": 2428
 	},
 	{
@@ -1603,7 +1641,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 ist die Arbeitslosigkeit in allen abgebildeten Branchen tiefer als im Vorjahr. Am stärksten ist sie 2022 im Bereich Handel und Reparatur gesunken. Im Gastgewerbe war die Arbeitslosigkeit bereits 2021 markant gesunken, nachdem im März 2021 die Massnahmen zur Bekämpfung der COVID-19-Pandemie gelockert worden waren.",
+		"lesehilfe": "Ende 2023 ist die Arbeitslosigkeit in allen abgebildeten Branchen höher als Ende 2022, wobei sie sich im Bereich Verkehr und Lagerei nur wenig verändert hat. Im Gastgewerbe war die Arbeitslosigkeit im Jahr 2021 markant gesunken, nachdem im März 2021 die Massnahmen zur Bekämpfung der COVID-19-Pandemie gelockert worden waren.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1629,7 +1667,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:21",
+		"aktualisierungsdatum": "2024-03-19T08:03:14",
 		"id": 2429
 	},
 	{
@@ -1643,8 +1681,8 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt sank in den letzten zwei Jahren überwiegend, nachdem sie im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, deutlich gestiegen war. Die Quote ging von 4,5% im Januar 2021 auf 2,9% im Dezember 2022 zurück. Auch in den Vergleichskantonen sowie in der Gesamtschweiz wurde ein Rückgang der Arbeitslosenquote registriert. Aktuell sind die Quoten wieder etwa so tief wie vor der Pandemie.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt nahm im Verlauf des Jahres 2023 wieder zu, nachdem sie seit Anfang 2021 überwiegend gesunken war. Die Quote erhöhte sich von 2,9% im Dezember 2022 auf 3,5% im Dezember 2023. Auch in den Vergleichskantonen sowie in der Gesamtschweiz liegen die Arbeitslosenquoten Ende 2023 höher als Ende 2022.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -1670,7 +1708,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:18",
+		"aktualisierungsdatum": "2024-03-19T08:03:07",
 		"id": 2459
 	},
 	{
@@ -1684,7 +1722,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"subtitle": "Kurz- und Daueraufenthalter",
-		"lesehilfe": "Im 1. Quartal 2022 sind rund 1 800 Erwerbstätige in den Kanton Basel-Stadt zugewandert. Das sind fast 600 mehr als im gleichen Vorjahresquartal, aber immer noch knapp 600 weniger als vor der COVID-19-Pandemie im 1. Quartal 2020. Im Gesamtjahr 2022 ist die Zuwanderung nach Basel-Stadt gegenüber dem Vorjahr um 23,2% gestiegen. Im Kanton Zürich war die Zunahme 2022 stärker (+26,4%).",
+		"lesehilfe": "Im 1. Quartal 2023 sind rund 2 800 Erwerbstätige in den Kanton Basel-Stadt zugewandert. Das sind rund 1 000 mehr als im gleichen Vorjahresquartal und so viele wie noch in keinem Quartal der letzten 10 Jahre. Im Gesamtjahr 2023 sind rund 8 200 Erwerbstätige nach Basel-Stadt zugewandert. Im Kanton Zürich wurde ebenfalls im 1. Quartal 2023 mit rund 9 700 zugewanderten Erwerbstätigen der höchste Wert der hier abgebildeten Periode erreicht.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1710,7 +1748,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:33",
+		"aktualisierungsdatum": "2024-03-19T08:03:58",
 		"id": 2461
 	},
 	{
@@ -1724,7 +1762,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen war die Zuwanderung von Erwerbstätigen im Jahr 2022 höher als im Vorjahr, wobei das Niveau von vor der Pandemie nicht erreicht wurde. Der Frauenanteil an der Zuwanderung von Erwerbstätigen liegt zwischen 35% und 40%.",
+		"lesehilfe": "Sowohl bei Männern als auch bei Frauen erreichte die Zuwanderung von Erwerbstätigen im 1. Quartal 2023 einen Höchstwert. Der Frauenanteil an der Zuwanderung von Erwerbstätigen liegt zwischen 35% und 40%.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1750,7 +1788,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:23",
+		"aktualisierungsdatum": "2024-03-19T08:03:19",
 		"id": 2462
 	},
 	{
@@ -1764,7 +1802,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lag 2022 pro Quartal zwischen 832 und 922 und damit wieder so hoch bzw. höher als vor der Pandemie. Die Zuwanderung von Kurzaufenthaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate hat 2022 leicht zugenommen, nachdem sie sowohl 2020 als auch 2021 stark zurückgegangen war.",
+		"lesehilfe": "Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) erreichte im 1. Quartal 2023 rund 1400 Personen, während sie auch vor der Pandemie nur selten über 900 lag. Auch die Zuwanderung von Kurzaufenthaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate nahm im 1. Quartal 2023 im Vergleich zu den letzten Jahren zu.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1790,7 +1828,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:24",
+		"aktualisierungsdatum": "2024-03-19T08:03:21",
 		"id": 2463
 	},
 	{
@@ -1804,7 +1842,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung aus allen Ländergruppen ist 2022 höher als in den zwei Vorjahren. Die Zuwanderung aus den EU15/EFTA-Ländern (inkl. UK) schwankt nicht mehr so stark und bewegt sich 2022 zwischen knapp 1 000 und gut 1 100 Personen pro Quartal. Die Zuwanderung von Erwerbstätigen aus Drittstaaten war jahrelang jeweils im 1. Quartal sehr hoch und hatte mit 970 Personen im 1. Quartal 2020 einen Höchstwert erreicht. Im 1. Quartal 2022 lag diese noch bei 570 Personen.",
+		"lesehilfe": "Die Zuwanderung aus den EU15/EFTA-Ländern (inkl. UK) hat im 1. Quartal 2023 mit rund 1 700 Personen einen Höchstwert erreicht. Die Zuwanderung von Erwerbstätigen aus Drittstaaten war wie schon oft in den vergangenen Jahren im 1. Quartal am höchsten; im 1. Quartal 2023 lag sie mit 670 Personen höher als im Vorjahresquartal, aber tiefer als in den Jahren 2017 bis 2020.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1830,7 +1868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:24",
+		"aktualisierungsdatum": "2024-03-19T08:03:22",
 		"id": 2464
 	},
 	{
@@ -1844,7 +1882,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt lag 2022 zwischen 246 und 281 Personen pro Quartal und damit weiterhin unter dem Niveau vor der Pandemie. Im Baugewerbe ist die Zuwanderung 2021 und 2022 hingegen höher als 2019 und damit vor der Pandemie.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der chemischen und pharmazeutischen Industrie in Basel-Stadt ist zwar im 1. Quartal 2023 deutlich gestiegen, sie liegt aber im Gesamtjahr weiterhin unter dem Niveau vor der Pandemie. Im Baugewerbe ist die Zuwanderung 2023 hingegen höher als 2019 und damit ähnlich dem Niveau vor der Pandemie.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1870,7 +1908,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:25",
+		"aktualisierungsdatum": "2024-03-19T08:03:29",
 		"id": 2465
 	},
 	{
@@ -1884,7 +1922,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur hat nach dem Einbruch im 2. Quartal 2020 langsam wieder zugenommen. Sie liegt aber im Durchschnitt nach wie vor tiefer als 2019. Im Gastgewerbe ist die Zuwanderung seit dem 3. Quartal 2021 ähnlich hoch wie in den Jahren 2018 und 2019.",
+		"lesehilfe": "Die Zuwanderung in der Branche Verkehr, Lagerei und Kommunikation erreichte im 2. Quartal 2023 mit 188 Personen einen Höchstwert. Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in den Branche Handel und Reparatur oder im Gastgewerbe war 2023 im 1. Quartal am höchsten.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1910,7 +1948,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:25",
+		"aktualisierungsdatum": "2024-03-19T08:03:30",
 		"id": 2466
 	},
 	{
@@ -2084,7 +2122,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
 		"subtitle": "",
-		"lesehilfe": "Die Werte im Meldewesen in Basel-Stadt waren im Jahr 2022 meist höher als im Vorjahr. Am meisten Arbeitstage von Meldepflichtigen wurden 2022 im 3. Quartal gemeldet: rund 113 000. Dies sind 1,5% mehr als im gleichen Vorjahresquartal. Im Kanton Zürich wurden im 3. Quartal 2022 rund 407 000 Arbeitstage geleistet. Das ist der höchste Wert seit 2013.",
+		"lesehilfe": "Die Werte im Meldewesen in Basel-Stadt waren im Jahr 2023 ähnlich hoch wie im Vorjahr. Die meisten Arbeitstage von Meldepflichtigen wurden 2023 im 3. Quartal gemeldet: rund 113 500 (+0,6% im Vergleich zum Vorjahresquartal). Im Kanton Zürich wurden im 3. Quartal 2023 rund 417 000 Arbeitstage geleistet. Das ist der höchste Wert der letzten zehn Jahre.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2110,7 +2148,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:26",
+		"aktualisierungsdatum": "2024-03-19T08:03:34",
 		"id": 3027
 	},
 	{
@@ -2124,7 +2162,7 @@ var indikatoren = [
 		],
 		"title": "Meldepflichtige nach Einsatzkanton",
 		"subtitle": "Anzahl Personen",
-		"lesehilfe": "Die höchsten Werte bei der Anzahl meldepflichtiger Personen werden in den Kantonen Basel-Stadt und Zürich jeweils im 1. Quartal erreicht. Eine Ausnahme bildet aufgrund der Massnahmen zur Pandemiebekämpfung das Jahr 2021. Im 1. Quartal 2022 lag die Zahl der Meldepflichtigen bei rund 3 700 in Basel-Stadt und bei rund 13 000 im Kanton Zürich.",
+		"lesehilfe": "Die Anzahl meldepflichtiger Personen in Basel-Stadt ist im Jahr 2023 zwar in jedem Quartal höher als in den gleichen Quartalen im Vorjahr, das Niveau ist allerdings deutlich tiefer als vor der Pandemie. In den Kantonen Zürich und Aargau haben die Meldepflichtigenzahlen wieder das Niveau vor der Pandemie erreicht oder überholt.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2150,7 +2188,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:27",
+		"aktualisierungsdatum": "2024-03-19T08:03:35",
 		"id": 3028
 	},
 	{
@@ -2164,7 +2202,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nachfrage nach Meldepflichtigen wurde in der Vergangenheit stark von den Messen beeinflusst. Nachdem 2019 die Messe-Aktivitäten in Basel reduziert wurden, und 2020 sowie 2021 fast alle Messen ausfielen, gab es von Entsandten und Selbstständigerwerbenden deutlich weniger Arbeitstage als vor 2019. Die Anzahl der Arbeitstage von Arbeitnehmenden ist hingegen seit dem 3. Quartal 2021 wieder auf dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Die Nachfrage nach Meldepflichtigen wurde in der Vergangenheit stark von Messen beeinflusst. Nachdem 2019 die Messe-Aktivitäten in Basel reduziert wurden, und 2020 sowie 2021 fast alle Messen ausfielen, sind die Arbeitstage von Entsandten und Selbstständigerwerbenden in den darauffolgenden Jahren auf einem tiefen Niveau geblieben. Die Anzahl der Arbeitstage von Arbeitnehmenden ist hingegen wieder auf einem ähnlichen Niveau wie vor der Pandemie gestiegen.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2190,7 +2228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:27",
+		"aktualisierungsdatum": "2024-03-19T08:03:36",
 		"id": 3029
 	},
 	{
@@ -2204,7 +2242,7 @@ var indikatoren = [
 		],
 		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 ist der Frauenanteil bei den Meldepflichtigen deutlich höher als im Vorjahr. Im 1. Quartal 2022 liegt er bei 37,3%. Dies ist der höchste Anteil seit 2013. Bei den Arbeitnehmenden liegt der Frauenanteil über diesem Durchschnittswert, bei den Entsandten sowie bei den Selbstständigerwerbenden deutlich darunter.",
+		"lesehilfe": "Seit Ende 2021 bewegt sich der Frauenanteil bei den Meldepflichtigen insgesamt relativ konstant zwischen 34% und 37%. In der Vergangenheit schwankte der Anteil stark. Bei den Arbeitnehmenden liegt der Frauenanteil über dem Durchschnittswert, bei den Entsandten sowie bei den Selbstständigerwerbenden deutlich darunter.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2230,7 +2268,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:28",
+		"aktualisierungsdatum": "2024-03-19T08:03:39",
 		"id": 3030
 	},
 	{
@@ -2244,7 +2282,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit der Reduktion der Messe-Aktivitäten sind die Arbeitstage von Meldepflichtigen im Baugewerbe deutlich zurückgegangen. 2014 bis 2018 wurden  jeweils im 1. Quartal Werte zwischen 50 000 und 70 000 Arbeitstagen verzeichnet. Im Jahr 2022 wurden zwischen 9 200 und 14 000 Arbeitstage pro Quartal im Baugewerbe und zwischen 4 900 und 12 100 in der Industrie gezählt.",
+		"lesehilfe": "Mit der Reduktion der Messe-Aktivitäten sind die Arbeitstage von Meldepflichtigen im Baugewerbe deutlich zurückgegangen. 2014 bis 2018 wurden jeweils im 1. Quartal Werte zwischen 50 000 und 72 000 Arbeitstagen verzeichnet. In den Jahren 2022 und 2023 wurden zwischen 8 500 und 14 000 Arbeitstage pro Quartal im Baugewerbe und zwischen 4 300 und 12 300 in der Industrie (inklusive Chemie und Pharma) gezählt.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2270,7 +2308,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:29",
+		"aktualisierungsdatum": "2024-03-19T08:03:40",
 		"id": 3031
 	},
 	{
@@ -2284,7 +2322,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach dem Tiefpunkt im 1. Quartal 2021 sind die Arbeitstage von Meldepflichtigen im Gastgewerbe deutlich gestiegen: Sowohl 2021 als auch 2022 war die Nachfrage im 4. Quartal mit über 10 000 Arbeitstagen verglichen mit den Vorjahren sehr hoch. In der Branche Handel und Reparatur hat die Nachfrage nach Meldepflichtigen im 3. und im 4. Quartal 2022 deutlich zugenommen.",
+		"lesehilfe": "Nach den tiefen Werten während der Pandemie sind die Arbeitstage von Meldepflichtigen im Gastgewerbe seit dem 3. Quartal 2021 deutlich gestiegen. Die Nachfrage im 3. und 4. Quartal 2023 ist mit jeweils über 12 000 Arbeitstagen verglichen mit den letzten zehn Jahren sehr hoch. In der Branche Verkehr, Lagerei und Kommunikation hat die Nachfrage nach Meldepflichtigen im 4. Quartal 2023 mit rund 6 900 Arbeitstagen einen neuen Höchstwert erreicht.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2310,7 +2348,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:29",
+		"aktualisierungsdatum": "2024-03-19T08:03:41",
 		"id": 3032
 	},
 	{
@@ -14538,24 +14576,28 @@ var indikatoren = [
 		"children": [
 			6031,
 			6316,
-			8923
+			8923,
+			11901
 		],
-		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 833 367 Tonnen auf 618 128 Tonnen ab. Das entspricht einer Reduktion um 25,% bzw. einem Rückgang von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
+		"title": "Treibhausgas-Emissionen",
+		"subtitle": "in Tonnen CO<sub>2</sub>-Äquivalente pro Kopf, Basel-Stadt",
+		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2020 bei 3,3 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf. Das Reduktionsziel (Netto-Null bis 2037) und der Zielpfad sind in der <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a> festgelegt.",
+		"erlaeuterungen": "Direkte Emissionen (sog. Scope 1) sind CO<sub>2</sub>-Emissionen auf dem Kantonsgebiet (Territorialprinzip), die durch das Verbrennen von fossilen Energieträgern wie Heizöl, Erdgas, Benzin und Diesel sowie bei der thermischen Verwertung von Abfällen (Kehricht und Industrieabfälle) entstehen. Weitere direkte Treibhausgasemissionen (in t CO<sub>2</sub>eq) umfassen insbesondere F-Gas-Emissionen in der Industrie, Methanemissionen aus dem Erdgasverteilnetz und Lachgasemissionen aus der Abwasserreinigung.<br>Insgesamt sinken die Treibhausgasemissionen im Netto-Null-Absenkpfad um 87% im Vergleich zu 2020 und umfassen im Jahr 2037 noch 88 000 Tonnen CO<sub>2</sub>eq. Diese restlichen, schwer vermeidbaren Emissionen umfassen Emissionen aus der Mobilität, der Entsorgung und nicht-energiebedingte Emissionen. Für den Netto-Null Absenkpfad wird davon ausgegangen, dass 2037 eine Carbon Capture and Storage (CCS) Anlage zur Abscheidung von CO<sub>2</sub> an der Kehrichtverbrennungsanlage in Betrieb gehen wird, sofern dies technisch und wirtschaftlich machbar ist.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
+			"Statistisches Amt Basel-Stadt, Energiestatistik",
+			"Kimaschutzstrategie Kanton Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.htm' target = '_blank'>Klimaschutzstrategie Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "CO<sub>2</sub>-Emissionen",
+		"description": "Treibhausgas-Emissionen",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kuerzel": "I.02.5.6165",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.06165",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "5.1",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
@@ -14568,7 +14610,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:45",
+		"aktualisierungsdatum": "2024-03-19T08:04:33",
 		"id": 6165
 	},
 	{
@@ -14624,10 +14666,10 @@ var indikatoren = [
 			8335,
 			8606
 		],
-		"title": "Anteil Haushalte mit Prämienverbilligungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen liegt im Kanton Basel-Stadt Ende 2022  bei 16,3%. Das Wohnviertel Kleinhüningen weist mit 26,9% die höchste, das Wohnviertel Altstadt Grossbasel mit 8,6% die tiefste PV-Quote auf. Gegenüber dem Jahr 2017 ist die Quote mit Ausnahme von Bettingen und der Altstadt Grossbasel in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 3,6 Prozentpunkten in Kleinhüningen zu beobachten.",
-		"erlaeuterungen": "Prämienverbilligungsquote: Anzahl Haushalte mit Prämienverbilligungen geteilt durch Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"title": "Quote der Haushalte mit Prämienverbilligung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Anteil der Haushalte mit reiner Prämienverbilligung (PV) liegt im Kanton Basel-Stadt Ende des Jahres 2023 bei 15,9%. Das Wohnviertel Klybeck weist mit 26,4% die höchste PV-Quote auf. Gegenüber dem Jahr 2018 ist die Quote mit Ausnahme der Altstadt Grossbasel sowohl in allen Wohnvierteln, als auch in Riehen und Bettingen gestiegen. Der höchste Anstieg ist mit 2,3 Prozentpunkten im Wohnviertel St. Johann zu beobachten.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -14638,7 +14680,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Anteil Haushalte mit Prämienverbilligungen",
+		"description": "Quote der Haushalte mit Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.6204",
@@ -14654,7 +14696,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:34",
+		"aktualisierungsdatum": "2024-03-19T08:02:40",
 		"id": 6204
 	},
 	{
@@ -16985,8 +17027,8 @@ var indikatoren = [
 			7035
 		],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2012 = 100)",
-		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2012 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 28,9% in der Branche Finanz- und Versicherungsdienstleistungen (gegenüber 2020 ergab sich ein Plus von 1,8%). Die Branche Beratung, Planung und Forschung wuchs seit 2012 um 20,3% (gg. Vorjahr +3,0%).",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
+		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete die Branche  Beratung, Planung und Forschung einen Rückgang der realen Wertschöpfung (-5,6%). Den stärksten Zuwachs gegenüber 2021 gab es mit 9,1% im Bereich Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen. Die darin enthaltene Branche Personalvermittlung und -überlassung wuchs um 6,8%. Auch in der Branche Finanz- und Versicherungsdienstleistungen stieg die reale Wertschöpfung (+1,7%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -17012,7 +17054,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:15",
+		"aktualisierungsdatum": "2024-03-19T08:02:59",
 		"id": 6448
 	},
 	{
@@ -17025,8 +17067,8 @@ var indikatoren = [
 			7036
 		],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2012 = 100)",
-		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+28,1%) sowie Öffentliche Verwaltung und Sozialversicherungen (+15,3%) verzeichneten seit 2012 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +4,7% sowie +0,6%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
+		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete 2022 vor allem die Branche Kultur und Unterhaltung einen Anstieg der realen Wertschöpfung (+27,8%). Sie liegt damit insgesamt leicht über dem Vor-Pandemie-Niveau 2019. Auch die übrigen abgebildeten Branchen verzeichneten ein Plus gegenüber 2021.<br>Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -17052,7 +17094,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:15",
+		"aktualisierungsdatum": "2024-03-19T08:03:06",
 		"id": 6449
 	},
 	{
@@ -17066,7 +17108,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete einen grossen Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2022 arbeiteten dort rund 7 800 Grenzgänger (+8,4% gegenüber dem 4. Quartal 2021). Die Branche  Finanz- und Versicherungsdienstleistungen verzeichnete seit 2013 einen Rückgang der Grenzgängerzahl (-42,2% auf rund 700 Personen).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete einen grossen Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2023 arbeiteten dort rund 8 000 Grenzgänger (+2,1% gegenüber dem 4. Quartal 2022). Die Branchen Finanz- und Versicherungsdienstleistungen sowie Personalvermittlung und -überlassung verzeichneten gegenüber dem Vorjahr eine Rückgang um 14,6% bzw. um 9,5%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -17092,7 +17134,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:32",
+		"aktualisierungsdatum": "2024-03-19T08:03:55",
 		"id": 6450
 	},
 	{
@@ -17106,7 +17148,7 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen, im 4. Quartal 2022 rund 3 600 Personen, 28,0% mehr als im Jahr 2013. Einen stärkeren Rückgang verzeichnete die Branche Erziehung und Unterricht (aktuell knapp 600 Grenzgänger); gegenüber 2013 sind dies 25,8% weniger. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen ist ein Anstieg zu verzeichnen, 2022 im Vergleich zum Vorjahr um 19,6%.",
+		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen, im 4. Quartal 2023 rund 3 600 Personen, 0,6% mehr als ein Jahr zuvor. Einen Rückgang um 3,4% verzeichnete die Branche Erziehung und Unterricht (aktuell rund 500 Grenzgänger).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -17132,7 +17174,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:33",
+		"aktualisierungsdatum": "2024-03-19T08:03:56",
 		"id": 6451
 	},
 	{
@@ -17146,7 +17188,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Bereich Personalvermittlung bzw. -überlassung verzeichnet auch während der Pandemie eine Zunahme bei den meldepflichtigen Arbeitskräften. Hier zeigt sich ein saisonal geprägtes Muster mit den jeweils höchsten Werten im 3. Quartal. Sowohl 2021 als auch 2022 wurden jeweils im 3. Quartal über 35 000 Arbeitstage von Meldepflichtigen in diesem Bereich registriert.",
+		"lesehilfe": "Der Bereich Personalvermittlung bzw. -überlassung verzeichnet sehr hohe Werte bei den Arbeitstagen von meldepflichtigen Arbeitskräften. Er zeigt ein saisonal geprägtes Muster mit den jeweils höchsten Werten im 3. Quartal. In den Jahren 2021 bis 2023 wurden im 3. Quartal jeweils rund 35 000 Arbeitstage von Meldepflichtigen in diesem Bereich registriert.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -17172,7 +17214,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:30",
+		"aktualisierungsdatum": "2024-03-19T08:03:42",
 		"id": 6452
 	},
 	{
@@ -17186,7 +17228,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Während der Pandemie waren die Arbeitstage von Meldepflichtigen im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen im 2. Quartal 2020 und im 1. Quartal 2021 stark rückläufig. Inzwischen sind die Werte wieder höher (4. Quartal 2022: rund 12 700).",
+		"lesehilfe": "Nach dem pandemiebedingten Rückgang der Arbeitstage von Meldepflichtigen im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen im 2. Quartal 2020 und im 1. Quartal 2021 sind die Werte in diesem Bereich inzwischen wieder höher (4. Quartal 2023: rund 11 700). Im Gesundheits- und Sozialwesen wurde im 3. Quartal 2023 ein Höchstwert von fast 10 000 Arbeitstagen erreicht.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -17212,7 +17254,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:30",
+		"aktualisierungsdatum": "2024-03-19T08:03:43",
 		"id": 6453
 	},
 	{
@@ -17430,7 +17472,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2022 auf 3,1% gesunken. Am höchsten ist die Quote 2022 in den Branchen Baugewerbe (10,1%), Gastgewerbe (7,8%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,4%). In allen Branchen ist die Arbeitslosenquote im Vergleich zu 2021 gesunken oder unverändert geblieben.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2023 im Vergleich zu 2022 bei 3,1% unverändert geblieben. Am höchsten ist die Quote 2023 in den Branchen Baugewerbe (10,7%), Gastgewerbe (8,1%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (6,8%). Die Arbeitslosenquote war in allen Branchen im Jahr 2021 am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -17457,7 +17499,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:10",
+		"aktualisierungsdatum": "2024-03-19T08:02:47",
 		"id": 6460
 	},
 	{
@@ -17471,7 +17513,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Am höchsten ist der Anteil der Grenzgängerinnen und Grenzgänger an allen Beschäftigten in den Branchen Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen sowie Chemie, Pharma. Dort machen die Grenzgänger über 33% aller Beschäftigten aus. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2022 bei 19%.",
+		"lesehilfe": "Am höchsten ist der Anteil der Grenzgängerinnen und Grenzgänger an allen Beschäftigten in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen. Dort machen die Grenzgänger rund 37% aller Beschäftigten aus. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2023 bei 18%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -17498,7 +17540,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:11",
+		"aktualisierungsdatum": "2024-03-19T08:02:48",
 		"id": 6461
 	},
 	{
@@ -17512,8 +17554,8 @@ var indikatoren = [
 		],
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, von 2,8% im Jahr 2021 auf 3,6% im Jahr 2022 gestiegen. Die Zuwanderung war 2022 in der Branche Chemie und Pharma (5,7% im Vergleich zur Beschäftigung) sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, sonstige Dienstleistungen (7,8%, inkl. Gebäudereinigung und Personalvermittlung) am höchsten.",
-		"erlaeuterungen": "In Basel-Stadt zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2020). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, von 3,5% im Jahr 2022 auf 4,3% im Jahr 2023 gestiegen. Die Zuwanderung im Verhältnis zur Beschäftigung war 2023 in der Branche Chemie und Pharma (6,5%) sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, sonstige Dienstleistungen (9,2%, inkl. Gebäudereinigung und Personalvermittlung) am höchsten.",
+		"erlaeuterungen": "In Basel-Stadt zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2021). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
@@ -17538,7 +17580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:11",
+		"aktualisierungsdatum": "2024-03-19T08:02:49",
 		"id": 6462
 	},
 	{
@@ -17552,8 +17594,8 @@ var indikatoren = [
 		],
 		"title": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2022 1,0%. Bedeutend sind die Meldepflichtigen 2022 mit 6,8% der Beschäftigung weiterhin in der Personalvermittlung und -überlassung. Die Zahl der Meldepflichtigen im Baugewerbe liegt fast unverändert bei 2,9% der Beschäftigten.",
-		"erlaeuterungen": "Die Abbildung zeigt die Zahl der Meldepflichtigen in Vollzeitäquivalente umgerechnet im Vergleich zu den Beschäftigten, ebenfalls in Vollzeitäquivalenten (Beschäftigungsstand: 2020). Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2023 wie im Vorjahr 1,0%. Bedeutend sind die Meldepflichtigen 2023 mit 5,8% der Beschäftigung in der Personalvermittlung und -überlassung. Die Zahl der Meldepflichtigen im Baugewerbe liegt bei 2,7% der Beschäftigten, im Gastgewerbe bei 2,5%.",
+		"erlaeuterungen": "Die Abbildung zeigt die Zahl der Meldepflichtigen in Vollzeitäquivalente umgerechnet im Vergleich zu den Beschäftigten, ebenfalls in Vollzeitäquivalenten (Beschäftigungsstand: 2021). Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
@@ -17578,7 +17620,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:12",
+		"aktualisierungsdatum": "2024-03-19T08:02:51",
 		"id": 6463
 	},
 	{
@@ -18805,7 +18847,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenzahlen im Bereich Beratung, Planung, Forschung, Immobilien waren Ende 2021 auf das Niveau von vor der Pandemie angekommen und sind  seitdem nicht weiter gesunken. In den übrigen dargestellten Branchen waren die Werte 2022 im Vorjahresvergleich leicht rückläufig.",
+		"lesehilfe": "Die Arbeitslosenzahl im Bereich Beratung, Planung, Forschung, Immobilien ist Ende 2023 auf fast 400 Personen gestiegen. In den übrigen dargestellten Branchen sind die Werte 2023 im Vorjahresvergleich nur leicht höher als vor Jahresfrist.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -18831,7 +18873,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:22",
+		"aktualisierungsdatum": "2024-03-19T08:03:15",
 		"id": 6505
 	},
 	{
@@ -18845,7 +18887,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenzahlen im Gesundheits- und Sozialwesen sowie in der Branche Kultur und Unterhaltung waren im Jahresverlauf 2022 weiter rückläufig und liegen Ende 2022 tiefer als vor der Pandemie. Die Arbeitslosigkeit im Bereich Erziehung und Unterricht sowie in der öffentlichen Verwaltung haben sich gegenüber Ende 2021 kaum verändert.",
+		"lesehilfe": "Die Arbeitslosenzahlen im Gesundheits- und Sozialwesen liegen Ende 2023 leicht höher als Ende 2022 und auf einem ähnlichen Niveau wie vor der Pandemie. Die Arbeitslosigkeit im Bereich Erziehung und Unterricht, in der öffentlichen Verwaltung sowie in der Branche Kultur und Unterhaltung hat sich gegenüber Ende 2022 kaum verändert.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -18871,7 +18913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:22",
+		"aktualisierungsdatum": "2024-03-19T08:03:17",
 		"id": 6506
 	},
 	{
@@ -19326,7 +19368,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Zuge der COVID-19-Pandemie war die Zuwanderung im 2. Quartal 2020 im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) stark rückläufig. Auch in den Jahren 2021 und 2022 war sie tiefer als vor der Pandemie. Dieser Bereich macht fast die Hälfte der Zuwanderung aus.",
+		"lesehilfe": "Die Zuwanderung im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) war im 1. Quartal 2023 mit 1 370 Personen wieder fast auf dem Niveau von vor der Pandemie. In diesem Wirtschaftsbereich arbeitet fast die Hälfte der neu zugewanderten Erwerbstätigen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -19352,7 +19394,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:25",
+		"aktualisierungsdatum": "2024-03-19T08:03:31",
 		"id": 6520
 	},
 	{
@@ -19366,7 +19408,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe war weniger von den Folgen der Pandemie betroffen als andere Branchen. Im Gesundheits- und Sozialwesen sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen sind 2021 und 2022 ähnlich viele Erwerbstätige zugewandert wie vor 2020. Die Branche Erziehung und Unterricht weist im 4. Quartal 2022 den Höchstwert der Zuwanderung der letzten zehn Jahre auf (123 Personen).",
+		"lesehilfe": "Die Branche Gesundheits- und Sozialwesen weist im 1. Quartal 2023 den Höchstwert der Zuwanderung der letzten zehn Jahre auf (160 Personen). Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen ist die Zuwanderung fast immer jeweils im 3. Quartal am höchstens (3. Q. 2023: 135 Personen).",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton). Ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -19392,7 +19434,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:26",
+		"aktualisierungsdatum": "2024-03-19T08:03:33",
 		"id": 6521
 	},
 	{
@@ -39412,6 +39454,168 @@ var indikatoren = [
 		"id": 9475
 	},
 	{
+		"template": "line001",
+		"data-id": 9490,
+		"chart-id": 9490,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9508
+		],
+		"title": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Rund 700 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2021 in der Branche Handel mit und Reparatur von Motorfahrzeugen (NOGA 45) tätig. Der grösste Teil entfällt mit rund 550 VZÄ auf die Instandhaltung und Reparatur von Automobilen, knapp 100 VZÄ auf den Handel mit Automobilteilen und -zubehör.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09490",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.2.1",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Handel mit und Reparatur von Motorfahrzeugen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_201",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-19T08:04:03",
+		"id": 9490
+	},
+	{
+		"template": "line001",
+		"data-id": 9491,
+		"chart-id": 9491,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9509
+		],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Handel mit und Reparatur von Motorfahrzeugen liegt Ende 2023 bei 26 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2023 bei 7,0%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist. Er wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.09491",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.2.2",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Handel mit und Reparatur von Motorfahrzeugen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_202",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-19T08:04:04",
+		"id": 9491
+	},
+	{
+		"template": "line001",
+		"data-id": 9492,
+		"chart-id": 9492,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9510
+		],
+		"title": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Handel mit und Reparatur von Motorfahrzeugen schwankte in den letzten Jahren auf etwas tieferem Nivau. Im 4. Quartal 2023 liegt der Bestand bei 126 Personen.Zu den Meldepflichtigen sind auf Ebene Handel mit und Reparatur von Motorfahrzeugen keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente 105 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.09492",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.2.3",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Handel mit und Reparatur von Motorfahrzeugen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_203",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-19T08:04:05",
+		"id": 9492
+	},
+	{
+		"template": "template001",
+		"data-id": 9493,
+		"chart-id": 9493,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9511
+		],
+		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 5 800 Franken brutto und damit etwas tiefer als 2018.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.09493",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.2.4",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Handel mit und Reparatur von Motorfahrzeugen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_204",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-19T08:04:06",
+		"id": 9493
+	},
+	{
 		"template": "template001",
 		"data-id": 9507,
 		"chart-id": 9507,
@@ -40278,8 +40482,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Güterumschlag auf dem Rhein",
 		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
-		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Die zweitgrösste Abnahme des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2022 folgte der nächste Rückgang: Verglichen mit dem Vorjahr wurde ein Minus von 14,9% auf 4,6&nbspMio. Tonnen registriert. Die Ursache dafür dürfte in erster Linie im massiven Preisanstieg für Mineralölprodukte liegen. Der Rohölpreis reagiert sehr sensibel auf geopolitische Krisensituationen. Ein zweiter preisbestimmender Faktor sind die Frachtkosten, die stark vom Pegelstand des Rheins abhängen: Durch die anhaltende Trockenheit und das daraus resultierende Niedrigwasser konnten die Schiffe im Sommer nur zu rund einem Viertel bis einem Drittel beladen werden, was zu höheren Preisen für die transportierten Güter führte.",
-		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2013-2022 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2022 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
+		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Die zweitgrösste Abnahme des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2023 folgte eine leichte Erholung des Güterverkehrs: Verglichen mit dem Vorjahr wurde ein Plus von 8,1% auf knapp 5 Mio. Tonnen registriert. Die Ursache dafür dürfte in erster Linie im starken Aufbau der Lagerbestände von Mineralölprodukten liegen (+46,5%); diese waren ein Jahr zuvor durch einen massiven Preisanstieg für Mineralölprodukte im Zusammenhang mit dem Krieg in der Ukraine auf ein Minimum beschränkt, und die Lager stark abgebaut worden.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2014-2023 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2023 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -40304,7 +40508,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-23T09:03:31",
+		"aktualisierungsdatum": "2024-03-19T08:02:42",
 		"id": 9603
 	},
 	{

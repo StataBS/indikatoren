@@ -5,10 +5,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2011",
-          14.2
-        ],
-        [
           "2012",
           17.6
         ],
@@ -39,6 +35,14 @@
         [
           "2019",
           16
+        ],
+        [
+          "2020",
+          18.8
+        ],
+        [
+          "2021",
+          20.2
         ]
       ],
       "name": "Handel mit Automobilen",
@@ -48,10 +52,6 @@
       "color": "#246370",
       "legendIndex": 2,
       "data": [
-        [
-          "2011",
-          853.7
-        ],
         [
           "2012",
           861.1
@@ -83,6 +83,14 @@
         [
           "2019",
           657.1
+        ],
+        [
+          "2020",
+          569.8
+        ],
+        [
+          "2021",
+          551.7
         ]
       ],
       "name": "Instandhaltung und Reparatur von Automobilen",
@@ -92,10 +100,6 @@
       "color": "#689199",
       "legendIndex": 1,
       "data": [
-        [
-          "2011",
-          98.7
-        ],
         [
           "2012",
           98.9
@@ -127,6 +131,14 @@
         [
           "2019",
           94.7
+        ],
+        [
+          "2020",
+          101.7
+        ],
+        [
+          "2021",
+          97.1
         ]
       ],
       "name": "Handel mit Automobilteilen und -zubehör",
@@ -136,10 +148,6 @@
       "color": "#D3E2E4",
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          62
-        ],
         [
           "2012",
           55.9
@@ -171,6 +179,14 @@
         [
           "2019",
           39.3
+        ],
+        [
+          "2020",
+          42.3
+        ],
+        [
+          "2021",
+          48.2
         ]
       ],
       "name": "Handel mit und Reparatur von Motorrädern",
@@ -314,7 +330,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
