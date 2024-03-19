@@ -1563,6 +1563,10 @@
 	"8689": "line001",
 	"8690": "line001",
 	"8692": "line001",
+	"8693": "template001",
+	"8694": "line001",
+	"8695": "line001",
+	"8696": "line001",
 	"8698": "line001_print",
 	"8699": "line001_print",
 	"8700": "line001_print",
@@ -1908,6 +1912,10 @@
 	"9483": "template001_print",
 	"9484": "map_gemeinden_print",
 	"9485": "map_gemeinden_print",
+	"9490": "line001",
+	"9491": "line001",
+	"9492": "line001",
+	"9493": "template001",
 	"9507": "template001",
 	"9508": "line001_print",
 	"9509": "line001_print",
@@ -2070,6 +2078,7 @@
 	"11788": "stock001",
 	"11897": "map001",
 	"11899": "template001",
+	"11901": "template001",
 	"11903": "stock001",
 	"11906": "template001",
 	"11907": "template001",
@@ -2079,5 +2088,6 @@
 	"11936": "template001",
 	"12516": "befragungen001",
 	"12517": "befragungen001",
-	"12519": "befragungen001"
+	"12519": "befragungen001",
+	"12532": "template001"
 }

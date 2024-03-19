@@ -1778,10 +1778,10 @@ id | visible | visibleInPortal | indikatorenset
 8689 | true | false | Arbeitsmarkt
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
-8693 | false |  | Arbeitsmarkt
-8694 | false |  | Arbeitsmarkt
-8695 | false |  | Arbeitsmarkt
-8696 | false |  | Arbeitsmarkt
+8693 | true | false | Arbeitsmarkt
+8694 | true | false | Arbeitsmarkt
+8695 | true | false | Arbeitsmarkt
+8696 | true | false | Arbeitsmarkt
 8698 | true | false | Arbeitsmarkt (Print)
 8699 | true | false | Arbeitsmarkt (Print)
 8700 | true | false | Arbeitsmarkt (Print)
@@ -2151,10 +2151,10 @@ id | visible | visibleInPortal | indikatorenset
 9483 | true | false | City-Statistics (Print)
 9484 | true | false | City-Statistics (Print)
 9485 | true | false | City-Statistics (Print)
-9490 | false |  | Arbeitsmarkt
-9491 | false |  | Arbeitsmarkt
-9492 | false |  | Arbeitsmarkt
-9493 | false |  | Arbeitsmarkt
+9490 | true | true | Arbeitsmarkt
+9491 | true | true | Arbeitsmarkt
+9492 | true | true | Arbeitsmarkt
+9493 | true | true | Arbeitsmarkt
 9507 | true | true | Umwelt
 9508 | true | false | Arbeitsmarkt (Print)
 9509 | true | false | Arbeitsmarkt (Print)
@@ -2318,6 +2318,7 @@ id | visible | visibleInPortal | indikatorenset
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
 11899 | true | true | Richtplan
+11901 | true | false | Richtplan
 11903 | true | false | Richtplan
 11906 | true | false | Richtplan
 11907 | true | true | Richtplan
@@ -2328,3 +2329,4 @@ id | visible | visibleInPortal | indikatorenset
 12516 | true | false | 
 12517 | true | false | 
 12519 | true | false | 
+12532 | true | true | Nachhaltigkeit

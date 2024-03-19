@@ -2,8 +2,10 @@
   return {
     "plotOptions": {
       "series": {
-        "pointWidth": 25,
-        borderWidth: 0,
+       /* "pointWidth": 25, 
+        borderWidth: 0, */
+        pointPadding: 0.1,
+        groupPadding: 0.1,
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -37,12 +39,13 @@
       "verticalAlign": "middle",
       "itemMarginBottom": 5,
       "align": "right",
+      itemWidth: 133,
       labelFormatter: function () {
         return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universal-<br/>dienstleistungsanbietern");
       },
       "itemStyle": {
         textOverflow: null,
-        width: 150,
+        /*width: 150,*/
         "fontWeight": "normal"
       }
     },

@@ -694,7 +694,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Neue Grenzgängerbewilligungen nach Branche"
+    "text": "Erteilte Grenzgängerbewilligungen nach Branche"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -755,7 +755,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 30.3.2023"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

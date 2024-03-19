@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2010",
-          5331
-        ],
-        [
           "2012",
           5682
         ],
@@ -19,6 +15,14 @@
         [
           "2016",
           5957
+        ],
+        [
+          "2018",
+          5965
+        ],
+        [
+          "2020",
+          5750
         ]
       ],
       "name": "Monatlicher Bruttolohn Lagerei u. sonst. DL für den Verkehr",
@@ -28,10 +32,6 @@
       "color": "#662673",
       "visible": true,
       "data": [
-        [
-          "2010",
-          5887
-        ],
         [
           "2012",
           5559
@@ -43,6 +43,14 @@
         [
           "2016",
           5765
+        ],
+        [
+          "2018",
+          5213
+        ],
+        [
+          "2020",
+          5684
         ]
       ],
       "name": "Monatlicher Bruttolohn Post-, Kurier- und Expressdienste",
@@ -171,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -212,6 +220,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8696
+    "filename": "8696"
   }
 }

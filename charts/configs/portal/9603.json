@@ -65,8 +65,14 @@
           "color": null
         },
         {
-          "name": "2022",
-          "y": 4600.5,
+          "name": "2022\u002F2023",
+          "y": 373.8,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2023",
+          "y": 4974.3,
           "isSum": true,
           "color": "#FABD24"
         }
@@ -221,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 23.2.2023"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "useHTML": true,

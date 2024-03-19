@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2022",
+      "name": "2023",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          8.5784313725
+          9.44
         ],
         [
           2,
-          9.2910447761
+          8.92
         ],
         [
           3,
-          11.979913917
+          12.09
         ],
         [
           4,
-          16.989993874
+          16.62
         ],
         [
           5,
-          10.568696527
+          10.26
         ],
         [
           6,
-          16.25984252
+          15.77
         ],
         [
           7,
-          11.331024245
+          10.8
         ],
         [
           8,
-          12.05471216
+          11.56
         ],
         [
           9,
-          14.00902096
+          13.94
         ],
         [
           10,
-          19.246767847
+          18.54
         ],
         [
           11,
-          20.988189403
+          20.9
         ],
         [
           12,
-          14.907749077
+          14.46
         ],
         [
           13,
-          17.996530789
+          16.65
         ],
         [
           14,
-          12.625250501
+          12.87
         ],
         [
           15,
-          17.638824078
+          16.66
         ],
         [
           16,
-          19.494584838
+          18.29
         ],
         [
           17,
-          20.918691946
+          21.09
         ],
         [
           18,
-          26.493965263
+          26.39
         ],
         [
           19,
-          26.877470356
+          25.58
         ],
         [
           20,
-          10.541138604
+          10.22
         ],
         [
           30,
-          10.852713178
+          11.28
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          -0.295288764
+          -0.02
         ],
         [
           "Vorstädte",
-          0.8127839066
+          0.64
         ],
         [
           "Am Ring",
-          1.5046110277
+          1.46
         ],
         [
           "Breite",
-          1.3953713298
+          1.06
         ],
         [
           "St. Alban",
-          1.1330224211
+          0.81
         ],
         [
           "Gundeldingen",
-          0.483094585
+          0.13
         ],
         [
           "Bruderholz",
-          1.9521267648
+          0.86
         ],
         [
           "Bachletten",
-          1.3034956149
+          0.33
         ],
         [
           "Gotthelf",
-          1.1355826117
+          1.25
         ],
         [
           "Iselin",
-          2.0948115232
+          0.64
         ],
         [
           "St. Johann",
-          2.3149153856
+          2.33
         ],
         [
           "Altstadt Kleinbasel",
-          1.7377643914
+          1.47
         ],
         [
           "Clara",
-          1.5895200784
+          0.02
         ],
         [
           "Wettstein",
-          0.6060197318
+          0.72
         ],
         [
           "Hirzbrunnen",
-          2.3807153529
+          0.73
         ],
         [
           "Rosental",
-          2.5372204965
+          0.88
         ],
         [
           "Matthäus",
-          1.5646736342
+          1.67
         ],
         [
           "Klybeck",
-          3.0024596981
+          1.39
         ],
         [
           "Kleinhüningen",
-          3.6070301042
+          2.24
         ],
         [
           "Riehen",
-          0.7072860598
+          0.26
         ],
         [
           "Bettingen",
-          -1.129857628
+          0.77
         ]
       ],
-      "name": "Differenz 2022 zu 2017"
+      "name": "Differenz 2023 zu 2018"
     },
     {
       "name": "Rhein",
@@ -7619,7 +7619,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit Prämienverbilligungen"
+    "text": "Quote der Haushalte mit Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -7628,7 +7628,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -7644,7 +7644,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "colorAxis": {
     "min": 0,

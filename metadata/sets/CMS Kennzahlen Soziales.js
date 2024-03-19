@@ -1110,7 +1110,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ging von 5,6% im Januar auf 4,0% im Oktober 2022 zurück, stieg aber bis Jahresende wieder auf 4,9%. Bei den anderen Bevölkerungsgruppen war die Quote 2022 überwiegend rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 4,5% im Sommer auf 6,1% im Dezember 2023 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2023 auf 4,5% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1127,7 +1127,7 @@ var indikatorensetData = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.7",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1135,7 +1135,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:12",
+		"aktualisierungsdatum": "2024-03-19T08:02:44",
 		"id": 8252
 	},
 	{
