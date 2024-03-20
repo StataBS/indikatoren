@@ -40261,7 +40261,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "84 000 Logiernächte wurden im Januar 2024 in den Basler Hotelbetrieben gebucht, 58 761 bzw. 41,2% weniger als im Dezember. Im Vergleich zum Januar 2023 entspricht dies einer Zunahme um 10,1% bzw. 7 731 Übernachtungen. Die inländischen Gäste buchten 36 061 Logiernächte (+20,0%), die Gäste aus dem Ausland 47 939 Übernachtungen (+3,7%).",
+		"lesehilfe": "90 329 Logiernächte wurden im Februar 2024 in den Basler Hotelbetrieben gebucht, 6 329 bzw. 7,5% mehr als im Januar. Im Vergleich zum Februar 2023 entspricht dies einer Zunahme um 5,1% bzw. 4 423 Übernachtungen. Die inländischen Gäste buchten 39 279 Logiernächte (+10,6%), die Gäste aus dem Ausland 51 050 Übernachtungen (+1,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -40287,7 +40287,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-28T09:20:10",
+		"aktualisierungsdatum": "2024-03-20T08:54:58",
 		"id": 7516
 	},
 	{
@@ -40298,7 +40298,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Januar",
+		"subtitle": "Basel-Stadt, Februar",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 30%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -40325,7 +40325,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-28T09:20:11",
+		"aktualisierungsdatum": "2024-03-20T08:55:00",
 		"id": 7517
 	},
 	{
