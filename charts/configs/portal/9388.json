@@ -17,15 +17,19 @@
         ],
         [
           "2011",
-          742
+          727.32655
         ],
         [
           "2015",
-          747
+          741.67613
         ],
         [
           "2019",
-          987
+          939.39417
+        ],
+        [
+          "2023",
+          888.9166
         ]
       ],
       "name": "Sehr zufrieden",
@@ -48,15 +52,19 @@
         ],
         [
           "2011",
-          603
+          606.72887
         ],
         [
           "2015",
-          626
+          617.20972
         ],
         [
           "2019",
-          775
+          816.92098
+        ],
+        [
+          "2023",
+          828.28572
         ]
       ],
       "name": "Eher zufrieden",
@@ -79,15 +87,19 @@
         ],
         [
           "2011",
-          143
+          152.39655
         ],
         [
           "2015",
-          110
+          125.32201
         ],
         [
           "2019",
-          171
+          191.82095
+        ],
+        [
+          "2023",
+          191.0006
         ]
       ],
       "name": "Eher unzufrieden",
@@ -110,15 +122,19 @@
         ],
         [
           "2011",
-          22
+          23.8906
         ],
         [
           "2015",
-          14
+          16.15634
         ],
         [
           "2019",
-          26
+          27.12459
+        ],
+        [
+          "2023",
+          44.94106
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -141,15 +157,19 @@
         ],
         [
           "2011",
-          6
+          5.65743
         ],
         [
           "2015",
-          7
+          4.3628
         ],
         [
           "2019",
-          9
+          10.1025
+        ],
+        [
+          "2023",
+          15.35301
         ]
       ],
       "name": "Weiss nicht",
@@ -172,15 +192,19 @@
         ],
         [
           "2011",
-          0
+          null
         ],
         [
           "2015",
-          0
+          null
         ],
         [
           "2019",
-          84
+          76.30976
+        ],
+        [
+          "2023",
+          31.6381
         ]
       ],
       "name": "Keine Angabe",
@@ -271,7 +295,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2019"
+    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2023"
   },
   "navigation": {
     "menuItemStyle": {
@@ -329,7 +353,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 20.3.2024"
   },
   "legend": {
     "layout": "horizontal",
