@@ -1,464 +1,147 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
-      "visible": true,
+      "color": "#672773",
+      "stack": "BS",
+      "index": 2,
+      "legendIndex": 1,
       "data": [
         [
-          "1984",
-          110
-        ],
-        [
-          "1985",
-          234
-        ],
-        [
-          "1986",
-          244
-        ],
-        [
-          "1987",
-          168
-        ],
-        [
-          "1988",
-          161
-        ],
-        [
-          "1989",
-          225
-        ],
-        [
-          "1990",
-          210
-        ],
-        [
-          "1991",
-          223
-        ],
-        [
-          "1992",
-          113
-        ],
-        [
-          "1993",
-          516
-        ],
-        [
-          "1994",
-          140
-        ],
-        [
-          "1995",
-          259
-        ],
-        [
-          "1996",
-          293
-        ],
-        [
-          "1997",
-          239
-        ],
-        [
-          "1998",
-          203
-        ],
-        [
-          "1999",
-          205
-        ],
-        [
-          "2000",
-          226
-        ],
-        [
-          "2001",
-          237
-        ],
-        [
-          "2002",
-          228
-        ],
-        [
-          "2003",
-          357
-        ],
-        [
-          "2004",
-          292
-        ],
-        [
-          "2005",
-          430
-        ],
-        [
-          "2006",
-          387
-        ],
-        [
-          "2007",
-          447
-        ],
-        [
-          "2008",
-          257
-        ],
-        [
-          "2009",
-          193
-        ],
-        [
-          "2010",
-          232
-        ],
-        [
-          "2011",
-          228
-        ],
-        [
           "2012",
-          213
+          15.01
         ],
         [
-          "2013",
-          240
-        ],
-        [
-          "2014",
-          196
-        ],
-        [
-          "2015",
-          511
-        ],
-        [
-          "2016",
-          509
-        ],
-        [
-          "2017",
-          398
-        ],
-        [
-          "2018",
-          undefined
-        ],
-        [
-          "2019",
-          426
+          "2021",
+          16.02
         ]
       ],
-      "name": "Fällungen",
+      "name": "Kanton Basel-Stadt ohne Wald",
       "turboThreshold": 0
     },
     {
-      "color": "#83522E",
-      "visible": true,
+      "color": "#d095db",
+      "stack": "BS",
+      "index": 1,
+      "legendIndex": 2,
       "data": [
         [
-          "1984",
-          318
-        ],
-        [
-          "1985",
-          290
-        ],
-        [
-          "1986",
-          349
-        ],
-        [
-          "1987",
-          243
-        ],
-        [
-          "1988",
-          205
-        ],
-        [
-          "1989",
-          294
-        ],
-        [
-          "1990",
-          178
-        ],
-        [
-          "1991",
-          181
-        ],
-        [
-          "1992",
-          141
-        ],
-        [
-          "1993",
-          433
-        ],
-        [
-          "1994",
-          307
-        ],
-        [
-          "1995",
-          166
-        ],
-        [
-          "1996",
-          372
-        ],
-        [
-          "1997",
-          316
-        ],
-        [
-          "1998",
-          319
-        ],
-        [
-          "1999",
-          264
-        ],
-        [
-          "2000",
-          373
-        ],
-        [
-          "2001",
-          450
-        ],
-        [
-          "2002",
-          282
-        ],
-        [
-          "2003",
-          312
-        ],
-        [
-          "2004",
-          301
-        ],
-        [
-          "2005",
-          371
-        ],
-        [
-          "2006",
-          588
-        ],
-        [
-          "2007",
-          570
-        ],
-        [
-          "2008",
-          447
-        ],
-        [
-          "2009",
-          330
-        ],
-        [
-          "2010",
-          416
-        ],
-        [
-          "2011",
-          279
-        ],
-        [
           "2012",
-          253
+          9.49
         ],
         [
-          "2013",
-          350
-        ],
-        [
-          "2014",
-          506
-        ],
-        [
-          "2015",
-          498
-        ],
-        [
-          "2016",
-          324
-        ],
-        [
-          "2017",
-          392
-        ],
-        [
-          "2018",
-          undefined
-        ],
-        [
-          "2019",
-          442
+          "2021",
+          9.33
         ]
       ],
-      "name": "Pflanzungen",
+      "name": "Kanton Basel-Stadt Wald",
       "turboThreshold": 0
     },
     {
-      "color": "#000000",
-      "visible": true,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
+      "color": "#fabd24",
+      "stack": "Ba",
+      "index": 4,
+      "legendIndex": 3,
       "data": [
         [
-          "1984",
-          208
-        ],
-        [
-          "1985",
-          264
-        ],
-        [
-          "1986",
-          369
-        ],
-        [
-          "1987",
-          444
-        ],
-        [
-          "1988",
-          488
-        ],
-        [
-          "1989",
-          557
-        ],
-        [
-          "1990",
-          525
-        ],
-        [
-          "1991",
-          483
-        ],
-        [
-          "1992",
-          511
-        ],
-        [
-          "1993",
-          428
-        ],
-        [
-          "1994",
-          595
-        ],
-        [
-          "1995",
-          502
-        ],
-        [
-          "1996",
-          581
-        ],
-        [
-          "1997",
-          658
-        ],
-        [
-          "1998",
-          774
-        ],
-        [
-          "1999",
-          833
-        ],
-        [
-          "2000",
-          980
-        ],
-        [
-          "2001",
-          1193
-        ],
-        [
-          "2002",
-          1247
-        ],
-        [
-          "2003",
-          1202
-        ],
-        [
-          "2004",
-          1211
-        ],
-        [
-          "2005",
-          1152
-        ],
-        [
-          "2006",
-          1353
-        ],
-        [
-          "2007",
-          1476
-        ],
-        [
-          "2008",
-          1666
-        ],
-        [
-          "2009",
-          1803
-        ],
-        [
-          "2010",
-          1987
-        ],
-        [
-          "2011",
-          2038
-        ],
-        [
           "2012",
-          2078
+          14.76
         ],
         [
-          "2013",
-          2188
-        ],
-        [
-          "2014",
-          2498
-        ],
-        [
-          "2015",
-          2485
-        ],
-        [
-          "2016",
-          2300
-        ],
-        [
-          "2017",
-          2294
-        ],
-        [
-          "2018",
-          undefined
-        ],
-        [
-          "2019",
-          undefined
+          "2021",
+          15.69
         ]
       ],
-      "name": "Kumulierter Saldo (rechte Skala)",
+      "name": "Stadt Basel ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fde5a7",
+      "stack": "Ba",
+      "index": 3,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2012",
+          2.31
+        ],
+        [
+          "2021",
+          2.27
+        ]
+      ],
+      "name": "Stadt Basel Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "stack": "Ri",
+      "index": 6,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2012",
+          19.2
+        ],
+        [
+          "2021",
+          20.74
+        ]
+      ],
+      "name": "Riehen ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c7e3cb",
+      "stack": "Ri",
+      "index": 5,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2012",
+          16.52
+        ],
+        [
+          "2021",
+          15.97
+        ]
+      ],
+      "name": "Riehen Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "stack": "Be",
+      "index": 8,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2012",
+          14.71
+        ],
+        [
+          "2021",
+          15.79
+        ]
+      ],
+      "name": "Bettingen ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#e1c8dd",
+      "stack": "Be",
+      "index": 7,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2012",
+          34.65
+        ],
+        [
+          "2021",
+          33.3
+        ]
+      ],
+      "name": "Bettingen Wald",
       "turboThreshold": 0
     }
   ],
@@ -476,10 +159,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": 0
-    },
-    "tickInterval": 5
+      }
+    }
   },
   "chart": {
     "width": 485,
@@ -521,14 +202,15 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0,
-      "itemWidth": 10
+      }
+    },
+    "column": {
+      "stacking": "normal"
     }
   },
   "title": {
@@ -538,10 +220,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Saldo aus Anzahl Baumpflanzungen und -fällungen"
+    "text": "Baumkronenbedeckung"
   },
   "subtitle": {
-    "text": "Stadt Basel",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -549,38 +231,26 @@
       "color": "#000000"
     }
   },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "min": 0,
-      "max": undefined,
-      "title": ""
+      "text": null
     },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "gridLineWidth": 0,
-      "opposite": true
-    }
-  ],
+      "format": "{value:,.0f}%"
+    },
+    "min": 0,
+    "max": 100
+  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -610,10 +280,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.3.2024"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.stackTotal:,.2f}%\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {

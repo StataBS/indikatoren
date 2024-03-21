@@ -20280,45 +20280,47 @@ var indikatoren = [
 		"id": 6570
 	},
 	{
-		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
-		"subtitle": "Stadt Basel",
-		"kuerzel": "I.02.13.6574",
-		"kuerzelKunde": "NL13",
-		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Landschaft",
-		"kennzahlenset": "Nachhaltigkeit",
+		"template": "template001",
+		"data-id": 6574,
+		"chart-id": 6574,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8948,
+			11905
+		],
+		"title": "Baumkronenbedeckung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"quellenangabe": [
+			"Stadtgärtnerei Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-10-08T17:32:45.4545",
+		"description": "Baumkronenbedeckung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Landschaft",
+		"kuerzel": "I.02.13.6574",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL17",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden im Verantwortungsbereich der Stadtgärtnerei in der Stadt Basel 426 Bäume gefällt und 442 gepflanzt.",
-		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel. Die Anzahl gepflanzter Bäume beinhaltet Neu- und Ersatzpflanzungen. Pflanzungen und Fällungen erfolgen zeitversetzt: Fällungen finden in der Regel in den Monaten Dezember bis Februar statt, die Pflanzungen entweder im Frühjahr oder Herbst. Ersatzpflanzungen bei Bauprojekten erfolgen erst im Folgejahr. Für das Jahr 2018 liegen keine Daten vor, deshalb wird der Saldo nicht fortgeführt.",
-		"template": "template001",
+		"orderKey": "04_02_00_00_00_417",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_414",
-		"parentId": null,
-		"children": [
-			"8948"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Stadtgärtnerei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6574,
-		"chart-id": 6574,
-		"filter": "",
+		"aktualisierungsdatum": "2024-03-21T09:25:42",
 		"id": 6574
 	},
 	{
@@ -25215,7 +25217,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:04",
+		"aktualisierungsdatum": "2024-03-21T09:25:30",
 		"id": 7515
 	},
 	{
@@ -25253,7 +25255,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T08:54:58",
+		"aktualisierungsdatum": "2024-03-21T09:25:31",
 		"id": 7516
 	},
 	{
@@ -25291,7 +25293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T08:55:00",
+		"aktualisierungsdatum": "2024-03-21T09:25:35",
 		"id": 7517
 	},
 	{
@@ -29145,8 +29147,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Im Januar 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in der Gemeinde Bettingen. In zwölf Wohnvierteln sowie in der Gemeinde Riehen sank sie.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Im Februar 2024 stieg die Einwohnerzahl in fast allen Wohnvierteln und Gemeinden von Basel-Stadt. Nur die Wohnviertel Altstadt Kleinbasel und Hirzbrunnen verzeichneten einen tieferen Wert als im Januar 2024.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29173,7 +29175,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:05",
+		"aktualisierungsdatum": "2024-03-21T09:25:36",
 		"id": 7763
 	},
 	{
@@ -36575,7 +36577,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-13T10:22:51",
+		"aktualisierungsdatum": "2024-03-21T09:25:37",
 		"id": 8995
 	},
 	{
@@ -36747,7 +36749,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-13T10:22:53",
+		"aktualisierungsdatum": "2024-03-21T09:25:38",
 		"id": 9022
 	},
 	{
@@ -36785,7 +36787,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-13T10:22:54",
+		"aktualisierungsdatum": "2024-03-21T09:25:40",
 		"id": 9023
 	},
 	{
