@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:04",
+		"aktualisierungsdatum": "2024-03-21T09:25:30",
 		"id": 7515
 	},
 	{
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T08:54:58",
+		"aktualisierungsdatum": "2024-03-21T09:25:31",
 		"id": 7516
 	},
 	{
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T08:55:00",
+		"aktualisierungsdatum": "2024-03-21T09:25:35",
 		"id": 7517
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Im Januar 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in der Gemeinde Bettingen. In zwölf Wohnvierteln sowie in der Gemeinde Riehen sank sie.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Im Februar 2024 stieg die Einwohnerzahl in fast allen Wohnvierteln und Gemeinden von Basel-Stadt. Nur die Wohnviertel Altstadt Kleinbasel und Hirzbrunnen verzeichneten einen tieferen Wert als im Januar 2024.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:05",
+		"aktualisierungsdatum": "2024-03-21T09:25:36",
 		"id": 7763
 	},
 	{
