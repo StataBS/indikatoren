@@ -1980,20 +1980,20 @@ id | visible | visibleInPortal | indikatorenset
 9084 | true | false | Leerstand (Print)
 9137 | true | true | Leerstand
 9144 | true | false | Leerstand (Print)
-9157 | true | true | Staedtevergleich
-9158 | true | true | Staedtevergleich
-9159 | true | true | Staedtevergleich
-9160 | true | true | Staedtevergleich
-9161 | true | true | Staedtevergleich
-9162 | true | true | Staedtevergleich
-9163 | true | true | Staedtevergleich
-9164 | true | true | Staedtevergleich
-9165 | true | true | Staedtevergleich
-9166 | true | true | Staedtevergleich
-9167 | true | true | Staedtevergleich
+9157 | false |  | Staedtevergleich
+9158 | false |  | Staedtevergleich
+9159 | false |  | Staedtevergleich
+9160 | false |  | Staedtevergleich
+9161 | false |  | Staedtevergleich
+9162 | false |  | Staedtevergleich
+9163 | false |  | Staedtevergleich
+9164 | false |  | Staedtevergleich
+9165 | false |  | Staedtevergleich
+9166 | false |  | Staedtevergleich
+9167 | false |  | Staedtevergleich
 9170 | true | true | Gesellschaftlicher-Zusammenhalt
 9172 | true | true | Gesellschaftlicher-Zusammenhalt
-9174 | true | true | Staedtevergleich
+9174 | false |  | Staedtevergleich
 9176 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
@@ -2040,7 +2040,7 @@ id | visible | visibleInPortal | indikatorenset
 9293 | true | false | 
 9294 | true | true | Soziales
 9295 | true | true | Soziales
-9298 | true | false | Soziales
+9298 | false |  | Soziales
 9315 | true | false | Steuern (Print)
 9316 | true | false | Steuern (Print)
 9317 | true | false | Steuern (Print)

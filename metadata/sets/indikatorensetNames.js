@@ -42,7 +42,6 @@ var indikatorensetNames = [
 	"Energiestatistik",
 	"Bevoelkerungsszenarien (Print)",
 	"Leerstand (Print)",
-	"Staedtevergleich",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
 	"Energiestatistik (Print)",
