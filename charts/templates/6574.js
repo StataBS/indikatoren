@@ -28,7 +28,7 @@
     },
     tooltip: {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'+
-                     '<span style="color:transparent">\u25CF</span> Total: <b>{point.stackTotal:,.2f}%</b>',
+                     '<span style="color:transparent">\u25CF</span> Total Kronenbedeckung: <b>{point.stackTotal:,.2f}%</b>',
       "shared": false
     },
     "series": [
