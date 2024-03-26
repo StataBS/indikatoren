@@ -90,6 +90,26 @@
         [
           2018,
           54.1906854716544
+        ],
+        [
+          2019,
+          54.2315471362548
+        ],
+        [
+          2020,
+          54.654776562977
+        ],
+        [
+          2021,
+          54.6098557926215
+        ],
+        [
+          2022,
+          55.3526721457879
+        ],
+        [
+          2023,
+          55.8283993402748
         ]
       ],
       "name": "Einwohner pro ha"
@@ -211,7 +231,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

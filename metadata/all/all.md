@@ -2319,7 +2319,9 @@ id | visible | visibleInPortal | indikatorenset
 11897 | true | true | Gesundheitsversorgung
 11899 | true | true | Richtplan
 11901 | true | false | Richtplan
+11902 | true | true | Richtplan
 11903 | true | false | Richtplan
+11905 | true | false | Richtplan
 11906 | true | false | Richtplan
 11907 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
