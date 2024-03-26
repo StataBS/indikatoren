@@ -1,0 +1,667 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "1991",
+          2.7
+        ],
+        [
+          "1992",
+          2.7
+        ],
+        [
+          "1993",
+          2.1
+        ],
+        [
+          "1994",
+          2.1
+        ],
+        [
+          "1995",
+          2.1
+        ],
+        [
+          "1996",
+          2.7
+        ],
+        [
+          "1997",
+          2.1
+        ],
+        [
+          "1998",
+          2.1
+        ],
+        [
+          "1999",
+          2.1
+        ],
+        [
+          "2000",
+          2.1
+        ],
+        [
+          "2001",
+          2.1
+        ],
+        [
+          "2002",
+          2.1
+        ],
+        [
+          "2003",
+          2.1
+        ],
+        [
+          "2004",
+          2.1
+        ],
+        [
+          "2005",
+          2.1
+        ],
+        [
+          "2006",
+          2.1
+        ],
+        [
+          "2007",
+          2
+        ],
+        [
+          "2008",
+          1.4
+        ],
+        [
+          "2009",
+          1.4
+        ],
+        [
+          "2010",
+          1.5
+        ],
+        [
+          "2011",
+          1.4
+        ],
+        [
+          "2012",
+          1.4
+        ],
+        [
+          "2013",
+          1.5
+        ],
+        [
+          "2014",
+          1.4
+        ],
+        [
+          "2015",
+          1.5
+        ],
+        [
+          "2016",
+          1.4
+        ],
+        [
+          "2017",
+          1.4
+        ],
+        [
+          "2018",
+          1.5
+        ],
+        [
+          "2019",
+          1.5
+        ],
+        [
+          "2020",
+          1.4
+        ]
+      ],
+      "name": "Höhenlagen im Jura",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "1991",
+          5.4
+        ],
+        [
+          "1992",
+          5.4
+        ],
+        [
+          "1993",
+          4.8
+        ],
+        [
+          "1994",
+          4.5
+        ],
+        [
+          "1995",
+          4.8
+        ],
+        [
+          "1996",
+          5.3
+        ],
+        [
+          "1997",
+          4.8
+        ],
+        [
+          "1998",
+          3.9
+        ],
+        [
+          "1999",
+          3.9
+        ],
+        [
+          "2000",
+          3.9
+        ],
+        [
+          "2001",
+          3.4
+        ],
+        [
+          "2002",
+          3.75
+        ],
+        [
+          "2003",
+          4.05
+        ],
+        [
+          "2004",
+          3.75
+        ],
+        [
+          "2005",
+          3.75
+        ],
+        [
+          "2006",
+          3.75
+        ],
+        [
+          "2007",
+          2.9
+        ],
+        [
+          "2008",
+          3.05
+        ],
+        [
+          "2009",
+          3.05
+        ],
+        [
+          "2010",
+          3.15
+        ],
+        [
+          "2011",
+          2.9
+        ],
+        [
+          "2012",
+          2.65
+        ],
+        [
+          "2013",
+          2.7
+        ],
+        [
+          "2014",
+          2.35
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2016",
+          2.15
+        ],
+        [
+          "2017",
+          2.1
+        ],
+        [
+          "2018",
+          2.18
+        ],
+        [
+          "2019",
+          2.13
+        ],
+        [
+          "2020",
+          1.83
+        ]
+      ],
+      "name": "Agglomeration",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "1991",
+          5.9
+        ],
+        [
+          "1992",
+          5.3
+        ],
+        [
+          "1993",
+          5.3
+        ],
+        [
+          "1994",
+          5.4
+        ],
+        [
+          "1995",
+          4.4
+        ],
+        [
+          "1996",
+          5.3
+        ],
+        [
+          "1997",
+          5.1
+        ],
+        [
+          "1998",
+          4.2
+        ],
+        [
+          "1999",
+          4.1
+        ],
+        [
+          "2000",
+          4.1
+        ],
+        [
+          "2001",
+          4.2
+        ],
+        [
+          "2002",
+          4.2
+        ],
+        [
+          "2003",
+          4.2
+        ],
+        [
+          "2004",
+          3.6
+        ],
+        [
+          "2005",
+          4.2
+        ],
+        [
+          "2006",
+          4.8
+        ],
+        [
+          "2007",
+          3.8
+        ],
+        [
+          "2008",
+          3.8
+        ],
+        [
+          "2009",
+          3.8
+        ],
+        [
+          "2010",
+          3.9
+        ],
+        [
+          "2011",
+          3.8
+        ],
+        [
+          "2012",
+          3.2
+        ],
+        [
+          "2013",
+          3.2
+        ],
+        [
+          "2014",
+          3.2
+        ],
+        [
+          "2015",
+          3.3
+        ],
+        [
+          "2016",
+          3.2
+        ],
+        [
+          "2017",
+          3.3
+        ],
+        [
+          "2018",
+          3.3
+        ],
+        [
+          "2019",
+          3.3
+        ],
+        [
+          "2020",
+          2.8
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "data": [
+        [
+          "1991",
+          5.6
+        ],
+        [
+          "1992",
+          5.6
+        ],
+        [
+          "1993",
+          5.6
+        ],
+        [
+          "1994",
+          5.1
+        ],
+        [
+          "1995",
+          5.1
+        ],
+        [
+          "1996",
+          4.7
+        ],
+        [
+          "1997",
+          5.3
+        ],
+        [
+          "1998",
+          4.95
+        ],
+        [
+          "1999",
+          5.27
+        ],
+        [
+          "2000",
+          4.9
+        ],
+        [
+          "2001",
+          4.7
+        ],
+        [
+          "2002",
+          4.7
+        ],
+        [
+          "2003",
+          5.57
+        ],
+        [
+          "2004",
+          5.07
+        ],
+        [
+          "2005",
+          5.1
+        ],
+        [
+          "2006",
+          5.37
+        ],
+        [
+          "2007",
+          4.67
+        ],
+        [
+          "2008",
+          4.47
+        ],
+        [
+          "2009",
+          4.67
+        ],
+        [
+          "2010",
+          4.7
+        ],
+        [
+          "2011",
+          4.73
+        ],
+        [
+          "2012",
+          4.37
+        ],
+        [
+          "2013",
+          4.47
+        ],
+        [
+          "2014",
+          4.03
+        ],
+        [
+          "2015",
+          4.17
+        ],
+        [
+          "2016",
+          3.83
+        ],
+        [
+          "2017",
+          4.37
+        ],
+        [
+          "2018",
+          4.25
+        ],
+        [
+          "2019",
+          3.78
+        ],
+        [
+          "2020",
+          3.28
+        ]
+      ],
+      "name": "Stark verkehrsexponiert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickPositioner": function () {
+				var maxlabels = 10,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+			}
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "renderTo": "container-11908",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Langzeitbelastungsindex"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt und Umgebung",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": 0,
+    "max": 6,
+    "tickInterval": 1
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "exporting": {
+    "filename": "11908"
+  }
+}

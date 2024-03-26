@@ -1,6 +1,8 @@
 {
   "series": [
     {
+      "visible": false,
+      "showInLegend": false,
       "color": "#FFBB58",
       "zIndex": 0,
       "type": "column",
@@ -66,9 +68,8 @@
       "color": "#B00000",
       "zIndex": 1,
       "type": "line",
-      "yAxis": 1,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "legendIndex": 2,
       "tooltip": {
@@ -124,9 +125,11 @@
           106.4943
         ]
       ],
-      "name": "Bevölkerung indexiert (rechte Skala)"
+      "name": "Bevölkerung indexiert"
     },
     {
+      "visible": false,
+      "showInLegend": false,
       "color": "#A8C3CA",
       "zIndex": 0,
       "type": "column",
@@ -192,13 +195,12 @@
       "color": "#246370",
       "zIndex": 2,
       "type": "line",
-      "yAxis": 1,
       "legendIndex": 3,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true,
+        "enabled": false,
         "radius": 5
       },
       "data": [
@@ -251,7 +253,7 @@
           null
         ]
       ],
-      "name": "Beschäftigte indexiert (rechte Skala)"
+      "name": "Beschäftigte indexiert"
     }
   ],
   "chart": {
@@ -329,44 +331,24 @@
     },
     "tickInterval": 1
   },
-  "yAxis": [
-    {
-      "max": 210000,
-      "tickAmount": 8,
-      "tickInterval": 30000,
-      "alignTicks": true,
-      "title": {
-        "text": null,
+  "yAxis": {
+    "min": null,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
         "color": "#000000",
         "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      }
+      "text": null
     },
-    {
-      "tickInterval": 5,
-      "tickAmount": 8,
-      "alignTicks": true,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      },
-      "opposite": true
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
     }
-  ],
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -374,11 +356,8 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": "nowrap",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     },
-    "itemWidth": 140,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -394,7 +373,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

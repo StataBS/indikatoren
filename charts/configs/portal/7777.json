@@ -377,7 +377,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 1.3.2023"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

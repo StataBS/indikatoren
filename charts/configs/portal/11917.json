@@ -1,0 +1,437 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          1989,
+          8.43
+        ],
+        [
+          1990,
+          8.01
+        ],
+        [
+          1991,
+          7.28
+        ],
+        [
+          1992,
+          7.46
+        ],
+        [
+          1993,
+          7.25
+        ],
+        [
+          1994,
+          6.62
+        ],
+        [
+          1995,
+          6.42
+        ],
+        [
+          1996,
+          6
+        ],
+        [
+          1997,
+          6.24
+        ],
+        [
+          1998,
+          6.22
+        ],
+        [
+          1999,
+          5.94
+        ],
+        [
+          2000,
+          5.52
+        ],
+        [
+          2001,
+          5.45
+        ],
+        [
+          2002,
+          5.72
+        ],
+        [
+          2003,
+          5.34
+        ],
+        [
+          2004,
+          5.21
+        ],
+        [
+          2005,
+          4.21
+        ],
+        [
+          2006,
+          4.38
+        ],
+        [
+          2007,
+          4.29
+        ],
+        [
+          2008,
+          4.79
+        ],
+        [
+          2009,
+          5.26
+        ],
+        [
+          2010,
+          5.81
+        ],
+        [
+          2011,
+          5.47
+        ],
+        [
+          2012,
+          5.45
+        ],
+        [
+          2013,
+          5.2
+        ],
+        [
+          2014,
+          4.89
+        ],
+        [
+          2015,
+          8.34
+        ],
+        [
+          2016,
+          7.76
+        ],
+        [
+          2017,
+          7.87
+        ],
+        [
+          2018,
+          8.38
+        ],
+        [
+          2019,
+          8.4
+        ],
+        [
+          2020,
+          8.37
+        ],
+        [
+          2021,
+          7.56
+        ],
+        [
+          2022,
+          8.45
+        ]
+      ],
+      "name": "Trinkwasserbezug öffentliches Netz"
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          1989,
+          13.55
+        ],
+        [
+          1990,
+          13.88
+        ],
+        [
+          1991,
+          12.54
+        ],
+        [
+          1992,
+          12.87
+        ],
+        [
+          1993,
+          12.7
+        ],
+        [
+          1994,
+          13.04
+        ],
+        [
+          1995,
+          13.33
+        ],
+        [
+          1996,
+          11.99
+        ],
+        [
+          1997,
+          10.76
+        ],
+        [
+          1998,
+          8.7
+        ],
+        [
+          1999,
+          10.78
+        ],
+        [
+          2000,
+          10.45
+        ],
+        [
+          2001,
+          9.28
+        ],
+        [
+          2002,
+          9.72
+        ],
+        [
+          2003,
+          9.43
+        ],
+        [
+          2004,
+          8.74
+        ],
+        [
+          2005,
+          8.72
+        ],
+        [
+          2006,
+          10.82
+        ],
+        [
+          2007,
+          10.31
+        ],
+        [
+          2008,
+          9.08
+        ],
+        [
+          2009,
+          10.55
+        ],
+        [
+          2010,
+          8.93
+        ],
+        [
+          2011,
+          9.64
+        ],
+        [
+          2012,
+          8.81
+        ],
+        [
+          2013,
+          9.81
+        ],
+        [
+          2014,
+          9.41
+        ],
+        [
+          2015,
+          9.86
+        ],
+        [
+          2016,
+          10.91
+        ],
+        [
+          2017,
+          11.06
+        ],
+        [
+          2018,
+          11.19
+        ],
+        [
+          2019,
+          10.52
+        ],
+        [
+          2020,
+          11.93
+        ],
+        [
+          2021,
+          11.36
+        ],
+        [
+          2022,
+          12.42
+        ]
+      ],
+      "name": "Private Grundwasserförderungen"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-11917",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wasserverbrauch Gewerbe und Industrie"
+  },
+  "subtitle": {
+    "text": "in Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "reversedStacks": true
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "reversed": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+  },
+  "tooltip": {
+    "shared": false,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:&nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f} Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.1f} Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
+  },
+  "exporting": {
+    "filename": "11917"
+  }
+}

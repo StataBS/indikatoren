@@ -6569,7 +6569,7 @@
       "data": [
         [
           1,
-          76.95
+          77.22
         ],
         [
           2,
@@ -6589,7 +6589,7 @@
         ],
         [
           6,
-          35.42
+          35.45
         ],
         [
           7,
@@ -6645,7 +6645,7 @@
         ],
         [
           20,
-          18.74
+          18.75
         ],
         [
           30,
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt GB",
-          578349
+          519483
         ],
         [
           "Vorstädte",
-          976515
+          928329
         ],
         [
           "Am Ring",
-          546162
+          517556
         ],
         [
           "Breite",
-          107281
+          92897
         ],
         [
           "St. Alban",
-          1209021
+          1202464
         ],
         [
           "Gundeldingen",
-          562330
+          629986
         ],
         [
           "Bruderholz",
-          89152
+          58457
         ],
         [
           "Bachletten",
-          151374
+          110886
         ],
         [
           "Gotthelf",
-          116243
+          98852
         ],
         [
           "Iselin",
-          217469
+          163541
         ],
         [
           "St. Johann",
-          1140593
+          1178768
         ],
         [
           "Altstadt KB",
-          274409
+          250620
         ],
         [
           "Clara",
-          172306
+          135777
         ],
         [
           "Wettstein",
-          496255
+          526004
         ],
         [
           "Hirzbrunnen",
-          225027
+          216817
         ],
         [
           "Rosental",
-          577964
+          581619
         ],
         [
           "Matthäus",
-          196099
+          147139
         ],
         [
           "Klybeck",
-          635995
+          825593
         ],
         [
           "Kleinhüningen",
-          432010
+          276237
         ],
         [
           "Riehen",
-          319423
+          207379
         ],
         [
           "Bettingen",
-          44941
+          29759
         ]
       ],
       "name": "2020"
@@ -7329,7 +7329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
   },
   "colorAxis": {
     "min": 0,
