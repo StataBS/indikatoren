@@ -1,604 +1,1863 @@
 {
   "series": [
     {
+      "color": "#0091f7",
+      "showInNavigator": true,
+      "zIndex": 2,
       "data": [
         [
-          -6153667200000,
+          1774,
           16726
         ],
         [
-          -4859913600000,
+          1815,
           18365
         ],
         [
-          -4228761600000,
+          1835,
           23254
         ],
         [
-          -4165603200000,
+          1837,
           24316
         ],
         [
-          -3850070400000,
+          1847,
           28067
         ],
         [
-          -3755376000000,
+          1850,
           29555
         ],
         [
-          -3439756800000,
+          1860,
           40680
         ],
         [
-          -3124224000000,
+          1870,
           47040
         ],
         [
-          -2808604800000,
+          1880,
           64207
         ],
         [
-          -2556144000000,
+          1888,
           73749
         ],
         [
-          -2177539200000,
+          1900,
           112227
         ],
         [
-          -2146003200000,
+          1901,
           114140
         ],
         [
-          -2114467200000,
+          1902,
           116620
         ],
         [
-          -2082931200000,
+          1903,
           118960
         ],
         [
-          -2051308800000,
+          1904,
           121580
         ],
         [
-          -2019772800000,
+          1905,
           123930
         ],
         [
-          -1988236800000,
+          1906,
           126930
         ],
         [
-          -1956700800000,
+          1907,
           129380
         ],
         [
-          -1925078400000,
+          1908,
           130850
         ],
         [
-          -1893542400000,
+          1909,
           133180
         ],
         [
-          -1862006400000,
+          1910,
           136171
         ],
         [
-          -1830470400000,
+          1911,
           138236
         ],
         [
-          -1798848000000,
+          1912,
           141499
         ],
         [
-          -1767312000000,
+          1913,
           143984
         ],
         [
-          -1735776000000,
+          1914,
           141453
         ],
         [
-          -1704240000000,
+          1915,
           139700
         ],
         [
-          -1672617600000,
+          1916,
           139543
         ],
         [
-          -1641081600000,
+          1917,
           139224
         ],
         [
-          -1609545600000,
+          1918,
           137578
         ],
         [
-          -1578009600000,
+          1919,
           139104
         ],
         [
-          -1546387200000,
+          1920,
           140920
         ],
         [
-          -1514851200000,
+          1921,
           140595
         ],
         [
-          -1483315200000,
+          1922,
           141001
         ],
         [
-          -1451779200000,
+          1923,
           141855
         ],
         [
-          -1420156800000,
+          1924,
           142632
         ],
         [
-          -1388620800000,
+          1925,
           143964
         ],
         [
-          -1357084800000,
+          1926,
           146739
         ],
         [
-          -1325548800000,
+          1927,
           148073
         ],
         [
-          -1293926400000,
+          1928,
           150530
         ],
         [
-          -1262390400000,
+          1929,
           153369
         ],
         [
-          -1230854400000,
+          1930,
           155091
         ],
         [
-          -1199318400000,
+          1931,
           159054
         ],
         [
-          -1167696000000,
+          1932,
           163131
         ],
         [
-          -1136160000000,
+          1933,
           165241
         ],
         [
-          -1104624000000,
+          1934,
           167165
         ],
         [
-          -1073088000000,
+          1935,
           168528
         ],
         [
-          -1041465600000,
+          1936,
           168827
         ],
         [
-          -1009929600000,
+          1937,
           168797
         ],
         [
-          -978393600000,
+          1938,
           169700
         ],
         [
-          -946857600000,
+          1939,
           170067
         ],
         [
-          -915235200000,
+          1940,
           169131
         ],
         [
-          -883699200000,
+          1941,
           169961
         ],
         [
-          -852163200000,
+          1942,
           170842
         ],
         [
-          -820627200000,
+          1943,
           171904
         ],
         [
-          -789004800000,
+          1944,
           173928
         ],
         [
-          -757468800000,
+          1945,
           176794
         ],
         [
-          -725932800000,
+          1946,
           181595
         ],
         [
-          -694396800000,
+          1947,
           186489
         ],
         [
-          -662774400000,
+          1948,
           190773
         ],
         [
-          -631238400000,
+          1949,
           193359
         ],
         [
-          -599702400000,
+          1950,
           196319
         ],
         [
-          -568166400000,
+          1951,
           199487
         ],
         [
-          -536544000000,
+          1952,
           201707
         ],
         [
-          -505008000000,
+          1953,
           204383
         ],
         [
-          -473472000000,
+          1954,
           206415
         ],
         [
-          -441936000000,
+          1955,
           208689
         ],
         [
-          -410313600000,
+          1956,
           211297
         ],
         [
-          -378777600000,
+          1957,
           215186
         ],
         [
-          -347241600000,
+          1958,
           218395
         ],
         [
-          -315705600000,
+          1959,
           220096
         ],
         [
-          -284083200000,
+          1960,
           222489
         ],
         [
-          -252547200000,
+          1961,
           225111
         ],
         [
-          -221011200000,
+          1962,
           228195
         ],
         [
-          -189475200000,
+          1963,
           230599
         ],
         [
-          -157852800000,
+          1964,
           231810
         ],
         [
-          -126316800000,
+          1965,
           231764
         ],
         [
-          -94780800000,
+          1966,
           232091
         ],
         [
-          -63244800000,
+          1967,
           231245
         ],
         [
-          -31622400000,
+          1968,
           232617
         ],
         [
-          -86400000,
+          1969,
           232795
         ],
         [
-          31449600000,
+          1970,
           236219
         ],
         [
-          62985600000,
+          1971,
           232379
         ],
         [
-          94608000000,
+          1972,
           229966
         ],
         [
-          126144000000,
+          1973,
           227343
         ],
         [
-          157680000000,
+          1974,
           223837
         ],
         [
-          189216000000,
+          1975,
           220334
         ],
         [
-          220838400000,
+          1976,
           216004
         ],
         [
-          252374400000,
+          1977,
           212446
         ],
         [
-          283910400000,
+          1978,
           210032
         ],
         [
-          315446400000,
+          1979,
           208079
         ],
         [
-          347068800000,
+          1980,
           206533
         ],
         [
-          378604800000,
+          1981,
           205006
         ],
         [
-          410140800000,
+          1982,
           203819
         ],
         [
-          441676800000,
+          1983,
           203104
         ],
         [
-          473299200000,
+          1984,
           202288
         ],
         [
-          504835200000,
+          1985,
           201903
         ],
         [
-          536371200000,
+          1986,
           199548
         ],
         [
-          567907200000,
+          1987,
           198204
         ],
         [
-          599529600000,
+          1988,
           196405
         ],
         [
-          631065600000,
+          1989,
           195859
         ],
         [
-          662601600000,
+          1990,
           196419
         ],
         [
-          694137600000,
+          1991,
           198094
         ],
         [
-          725760000000,
+          1992,
           198456
         ],
         [
-          757296000000,
+          1993,
           199186
         ],
         [
-          788832000000,
+          1994,
           198729
         ],
         [
-          820368000000,
+          1995,
           197802
         ],
         [
-          851990400000,
+          1996,
           196489
         ],
         [
-          883526400000,
+          1997,
           194253
         ],
         [
-          915062400000,
+          1998,
           192121
         ],
         [
-          946598400000,
+          1999,
           190141
         ],
         [
-          978220800000,
+          2000,
           188581
         ],
         [
-          1009756800000,
+          2001,
           187459
         ],
         [
-          1041292800000,
+          2002,
           188015
         ],
         [
-          1072828800000,
+          2003,
           188213
         ],
         [
-          1104451200000,
+          2004,
           188477
         ],
         [
-          1135987200000,
+          2005,
           187920
         ],
         [
-          1167523200000,
+          2006,
           187792
         ],
         [
-          1199059200000,
+          2007,
           188000
         ],
         [
-          1230681600000,
+          2008,
           189556
         ],
         [
-          1262217600000,
+          2009,
           190815
         ],
         [
-          1293753600000,
+          2010,
           190799
         ],
         [
-          1325289600000,
+          2011,
           192304
         ],
         [
-          1356912000000,
+          2012,
           193459
         ],
         [
-          1388448000000,
+          2013,
           195459
         ],
         [
-          1419984000000,
+          2014,
           196471
         ],
         [
-          1451520000000,
+          2015,
           197204
         ],
         [
-          1483142400000,
+          2016,
           198206
         ],
         [
-          1514678400000,
+          2017,
           198988
         ],
         [
-          1546214400000,
+          2018,
           200256
         ],
         [
-          1577750400000,
+          2019,
           200407
         ],
         [
-          1609372800000,
+          2020,
           201971
         ],
         [
-          1640908800000,
+          2021,
           201805
         ],
         [
-          1672444800000,
+          2022,
           204550
         ],
         [
-          1703980800000,
+          2023,
           206308
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
         ]
       ],
       "name": "Bevölkerung"
+    },
+    {
+      "type": "line",
+      "dashStyle": "ShortDash",
+      "color": "#999999",
+      "showInNavigator": true,
+      "zIndex": 1,
+      "data": [
+        [
+          1774,
+          null
+        ],
+        [
+          1815,
+          null
+        ],
+        [
+          1835,
+          null
+        ],
+        [
+          1837,
+          null
+        ],
+        [
+          1847,
+          null
+        ],
+        [
+          1850,
+          null
+        ],
+        [
+          1860,
+          null
+        ],
+        [
+          1870,
+          null
+        ],
+        [
+          1880,
+          null
+        ],
+        [
+          1888,
+          null
+        ],
+        [
+          1900,
+          null
+        ],
+        [
+          1901,
+          null
+        ],
+        [
+          1902,
+          null
+        ],
+        [
+          1903,
+          null
+        ],
+        [
+          1904,
+          null
+        ],
+        [
+          1905,
+          null
+        ],
+        [
+          1906,
+          null
+        ],
+        [
+          1907,
+          null
+        ],
+        [
+          1908,
+          null
+        ],
+        [
+          1909,
+          null
+        ],
+        [
+          1910,
+          null
+        ],
+        [
+          1911,
+          null
+        ],
+        [
+          1912,
+          null
+        ],
+        [
+          1913,
+          null
+        ],
+        [
+          1914,
+          null
+        ],
+        [
+          1915,
+          null
+        ],
+        [
+          1916,
+          null
+        ],
+        [
+          1917,
+          null
+        ],
+        [
+          1918,
+          null
+        ],
+        [
+          1919,
+          null
+        ],
+        [
+          1920,
+          null
+        ],
+        [
+          1921,
+          null
+        ],
+        [
+          1922,
+          null
+        ],
+        [
+          1923,
+          null
+        ],
+        [
+          1924,
+          null
+        ],
+        [
+          1925,
+          null
+        ],
+        [
+          1926,
+          null
+        ],
+        [
+          1927,
+          null
+        ],
+        [
+          1928,
+          null
+        ],
+        [
+          1929,
+          null
+        ],
+        [
+          1930,
+          null
+        ],
+        [
+          1931,
+          null
+        ],
+        [
+          1932,
+          null
+        ],
+        [
+          1933,
+          null
+        ],
+        [
+          1934,
+          null
+        ],
+        [
+          1935,
+          null
+        ],
+        [
+          1936,
+          null
+        ],
+        [
+          1937,
+          null
+        ],
+        [
+          1938,
+          null
+        ],
+        [
+          1939,
+          null
+        ],
+        [
+          1940,
+          null
+        ],
+        [
+          1941,
+          null
+        ],
+        [
+          1942,
+          null
+        ],
+        [
+          1943,
+          null
+        ],
+        [
+          1944,
+          null
+        ],
+        [
+          1945,
+          null
+        ],
+        [
+          1946,
+          null
+        ],
+        [
+          1947,
+          null
+        ],
+        [
+          1948,
+          null
+        ],
+        [
+          1949,
+          null
+        ],
+        [
+          1950,
+          null
+        ],
+        [
+          1951,
+          null
+        ],
+        [
+          1952,
+          null
+        ],
+        [
+          1953,
+          null
+        ],
+        [
+          1954,
+          null
+        ],
+        [
+          1955,
+          null
+        ],
+        [
+          1956,
+          null
+        ],
+        [
+          1957,
+          null
+        ],
+        [
+          1958,
+          null
+        ],
+        [
+          1959,
+          null
+        ],
+        [
+          1960,
+          null
+        ],
+        [
+          1961,
+          null
+        ],
+        [
+          1962,
+          null
+        ],
+        [
+          1963,
+          null
+        ],
+        [
+          1964,
+          null
+        ],
+        [
+          1965,
+          null
+        ],
+        [
+          1966,
+          null
+        ],
+        [
+          1967,
+          null
+        ],
+        [
+          1968,
+          null
+        ],
+        [
+          1969,
+          null
+        ],
+        [
+          1970,
+          null
+        ],
+        [
+          1971,
+          null
+        ],
+        [
+          1972,
+          null
+        ],
+        [
+          1973,
+          null
+        ],
+        [
+          1974,
+          null
+        ],
+        [
+          1975,
+          null
+        ],
+        [
+          1976,
+          null
+        ],
+        [
+          1977,
+          null
+        ],
+        [
+          1978,
+          null
+        ],
+        [
+          1979,
+          null
+        ],
+        [
+          1980,
+          null
+        ],
+        [
+          1981,
+          null
+        ],
+        [
+          1982,
+          null
+        ],
+        [
+          1983,
+          null
+        ],
+        [
+          1984,
+          null
+        ],
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          200407
+        ],
+        [
+          2020,
+          201632
+        ],
+        [
+          2021,
+          202856
+        ],
+        [
+          2022,
+          204081
+        ],
+        [
+          2023,
+          205305
+        ],
+        [
+          2024,
+          206530
+        ],
+        [
+          2025,
+          207754
+        ],
+        [
+          2026,
+          208979
+        ],
+        [
+          2027,
+          210204
+        ],
+        [
+          2028,
+          211428
+        ],
+        [
+          2029,
+          212653
+        ],
+        [
+          2030,
+          213877
+        ],
+        [
+          2031,
+          215102
+        ],
+        [
+          2032,
+          216326
+        ],
+        [
+          2033,
+          217551
+        ],
+        [
+          2034,
+          218775
+        ],
+        [
+          2035,
+          220000
+        ]
+      ],
+      "name": "Zielpfad"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "showInNavigator": false,
+      "data": [
+        [
+          1774,
+          null
+        ],
+        [
+          1815,
+          null
+        ],
+        [
+          1835,
+          null
+        ],
+        [
+          1837,
+          null
+        ],
+        [
+          1847,
+          null
+        ],
+        [
+          1850,
+          null
+        ],
+        [
+          1860,
+          null
+        ],
+        [
+          1870,
+          null
+        ],
+        [
+          1880,
+          null
+        ],
+        [
+          1888,
+          null
+        ],
+        [
+          1900,
+          null
+        ],
+        [
+          1901,
+          null
+        ],
+        [
+          1902,
+          null
+        ],
+        [
+          1903,
+          null
+        ],
+        [
+          1904,
+          null
+        ],
+        [
+          1905,
+          null
+        ],
+        [
+          1906,
+          null
+        ],
+        [
+          1907,
+          null
+        ],
+        [
+          1908,
+          null
+        ],
+        [
+          1909,
+          null
+        ],
+        [
+          1910,
+          null
+        ],
+        [
+          1911,
+          null
+        ],
+        [
+          1912,
+          null
+        ],
+        [
+          1913,
+          null
+        ],
+        [
+          1914,
+          null
+        ],
+        [
+          1915,
+          null
+        ],
+        [
+          1916,
+          null
+        ],
+        [
+          1917,
+          null
+        ],
+        [
+          1918,
+          null
+        ],
+        [
+          1919,
+          null
+        ],
+        [
+          1920,
+          null
+        ],
+        [
+          1921,
+          null
+        ],
+        [
+          1922,
+          null
+        ],
+        [
+          1923,
+          null
+        ],
+        [
+          1924,
+          null
+        ],
+        [
+          1925,
+          null
+        ],
+        [
+          1926,
+          null
+        ],
+        [
+          1927,
+          null
+        ],
+        [
+          1928,
+          null
+        ],
+        [
+          1929,
+          null
+        ],
+        [
+          1930,
+          null
+        ],
+        [
+          1931,
+          null
+        ],
+        [
+          1932,
+          null
+        ],
+        [
+          1933,
+          null
+        ],
+        [
+          1934,
+          null
+        ],
+        [
+          1935,
+          null
+        ],
+        [
+          1936,
+          null
+        ],
+        [
+          1937,
+          null
+        ],
+        [
+          1938,
+          null
+        ],
+        [
+          1939,
+          null
+        ],
+        [
+          1940,
+          null
+        ],
+        [
+          1941,
+          null
+        ],
+        [
+          1942,
+          null
+        ],
+        [
+          1943,
+          null
+        ],
+        [
+          1944,
+          null
+        ],
+        [
+          1945,
+          null
+        ],
+        [
+          1946,
+          null
+        ],
+        [
+          1947,
+          null
+        ],
+        [
+          1948,
+          null
+        ],
+        [
+          1949,
+          null
+        ],
+        [
+          1950,
+          null
+        ],
+        [
+          1951,
+          null
+        ],
+        [
+          1952,
+          null
+        ],
+        [
+          1953,
+          null
+        ],
+        [
+          1954,
+          null
+        ],
+        [
+          1955,
+          null
+        ],
+        [
+          1956,
+          null
+        ],
+        [
+          1957,
+          null
+        ],
+        [
+          1958,
+          null
+        ],
+        [
+          1959,
+          null
+        ],
+        [
+          1960,
+          null
+        ],
+        [
+          1961,
+          null
+        ],
+        [
+          1962,
+          null
+        ],
+        [
+          1963,
+          null
+        ],
+        [
+          1964,
+          null
+        ],
+        [
+          1965,
+          null
+        ],
+        [
+          1966,
+          null
+        ],
+        [
+          1967,
+          null
+        ],
+        [
+          1968,
+          null
+        ],
+        [
+          1969,
+          null
+        ],
+        [
+          1970,
+          null
+        ],
+        [
+          1971,
+          null
+        ],
+        [
+          1972,
+          null
+        ],
+        [
+          1973,
+          null
+        ],
+        [
+          1974,
+          null
+        ],
+        [
+          1975,
+          null
+        ],
+        [
+          1976,
+          null
+        ],
+        [
+          1977,
+          null
+        ],
+        [
+          1978,
+          null
+        ],
+        [
+          1979,
+          null
+        ],
+        [
+          1980,
+          null
+        ],
+        [
+          1981,
+          null
+        ],
+        [
+          1982,
+          null
+        ],
+        [
+          1983,
+          null
+        ],
+        [
+          1984,
+          null
+        ],
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
-  "xAxis": {
-    "type": "datetime",
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "ordinal": false,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
-  },
-  "isStock": true,
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
+      "load": function () {
+            this.credits.element.onclick = function () { };
+  
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+  
+            this.series[1].points[this.series[1].points.length - 1].update({
+              dataLabels: {
+                enabled: true,
+                y: -5,
+                x: -50,
+                format: 'Zielwert 2035: {y:,.0f}',
+                style: {
+                  textOutline: false,
+                  color: "#999999",
+                }
+              },
+              marker: {
+                enabled: true,
+                symbol: "circle"
+              }
+            });
+  /*
+            const chart = this,
+              colors = ['#59fb59', '#fbf659', '#fb9999'],
+              data = chart.series[0].data,
+              assessed = chart.series[2].data;
+            data.forEach(function (element, i) {
+              if (assessed[i].y !== null) {
+                element.update({
+                  color: colors[assessed[i].y],
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 3
+                  }
+                });
+                if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                  element.update({
+                    marker: {
+                      enabled: true,
+                      lineWidth: 1,
+                      lineColor: "#0091f7",
+                      radius: 4.5
+                    }
+                  });
+                }
+              }
+            });
+            */
+          }
     },
-    "marginTop": 70,
-    "type": "area",
     "renderTo": "container-7773"
   },
   "plotOptions": {
     "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "marker": {
         "enabled": false,
         "radius": 4
@@ -606,27 +1865,45 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "Bevölkerungsbestand am Jahresende"
+    "text": "Bevölkerung"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    "text": "Basel-Stadt",
-    "align": "left"
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "min": 2010
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
+    "min": null,
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -640,15 +1917,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "showLastLabel": true,
-    "endOnTick": true,
-    "opposite": false
+    }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "credits": {
@@ -664,67 +1942,60 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
   },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "rangeSelector": {
-    "verticalAlign": "bottom",
-    "buttonPosition": {},
-    "buttons": [
-      {
-        "count": 10,
-        "type": "year",
-        "text": "10 J"
-      },
-      {
-        "count": 20,
-        "type": "year",
-        "text": "20 J"
-      },
-      {
-        "count": 50,
-        "type": "year",
-        "text": "50 J"
-      },
-      {
-        "count": 100,
-        "type": "year",
-        "text": "100 J"
-      },
-      {
-        "type": "all",
-        "text": "Alle J"
-      }
-    ],
-    "buttonSpacing": 15,
-    "inputEnabled": false,
-    "selected": 1,
-    "inputDateFormat": "%Y",
-    "inputEditDateFormat": "%Y"
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "navigator": {
-    "margin": 10,
-    "height": 30,
+    "enabled": true,
     "series": {
-      "includeInCSVExport": false
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 0
+      }
     },
-    "outlineColor": "#B9CFD7"
-  },
-  "tooltip": {
-    "dateTimeLabelFormats": {
-      "day": "%A, %e. %b. %Y"
-    },
-    "xDateFormat": "%A, %e. %b. %Y"
+    "xAxis": {
+      "labels": {
+        "formatter": function () {
+              return this.value;
+            }
+      }
+    }
   },
   "exporting": {
-    "csv": {
-      "dateFormat": "%d.%m.%Y"
-    },
     "filename": "7773"
   }
 }

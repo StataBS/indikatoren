@@ -1,0 +1,632 @@
+{
+  "series": [
+    {
+      "id": "a",
+      "color": "#71A3B5",
+      "data": [
+        [
+          1994,
+          13.8
+        ],
+        [
+          1995,
+          13.92
+        ],
+        [
+          1996,
+          13.69
+        ],
+        [
+          1997,
+          13.63
+        ],
+        [
+          1998,
+          13.61
+        ],
+        [
+          1999,
+          13.72
+        ],
+        [
+          2000,
+          13.8
+        ],
+        [
+          2001,
+          13.86
+        ],
+        [
+          2002,
+          13.86
+        ],
+        [
+          2003,
+          14.02
+        ],
+        [
+          2004,
+          14.16
+        ],
+        [
+          2005,
+          14.07
+        ],
+        [
+          2006,
+          13.93
+        ],
+        [
+          2007,
+          14.02
+        ],
+        [
+          2008,
+          13.98
+        ],
+        [
+          2009,
+          13.96
+        ],
+        [
+          2010,
+          14.29
+        ],
+        [
+          2011,
+          14.3
+        ],
+        [
+          2012,
+          14.54
+        ],
+        [
+          2013,
+          14.47
+        ],
+        [
+          2014,
+          14.59
+        ],
+        [
+          2015,
+          14.73
+        ],
+        [
+          2016,
+          14.72
+        ],
+        [
+          2017,
+          14.83
+        ],
+        [
+          2018,
+          14.93
+        ],
+        [
+          2019,
+          15.06
+        ],
+        [
+          2020,
+          15.09
+        ],
+        [
+          2021,
+          14.99
+        ],
+        [
+          2022,
+          14.94
+        ]
+      ],
+      "name": "Wassertemperatur Grundwasser (Mittelwert)"
+    },
+    {
+      "color": "#256370",
+      "type": "arearange",
+      "linkedTo": "a",
+      "data": [
+        {
+          "x": 1994,
+          "low": 11.73,
+          "high": 16.77
+        },
+        {
+          "x": 1995,
+          "low": 12.02,
+          "high": 16.14
+        },
+        {
+          "x": 1996,
+          "low": 12.03,
+          "high": 16.26
+        },
+        {
+          "x": 1997,
+          "low": 11.75,
+          "high": 15.99
+        },
+        {
+          "x": 1998,
+          "low": 11.63,
+          "high": 16.18
+        },
+        {
+          "x": 1999,
+          "low": 11.73,
+          "high": 16.36
+        },
+        {
+          "x": 2000,
+          "low": 11.86,
+          "high": 16.31
+        },
+        {
+          "x": 2001,
+          "low": 11.85,
+          "high": 16.11
+        },
+        {
+          "x": 2002,
+          "low": 11.94,
+          "high": 16.12
+        },
+        {
+          "x": 2003,
+          "low": 12.18,
+          "high": 16.18
+        },
+        {
+          "x": 2004,
+          "low": 12.26,
+          "high": 16.22
+        },
+        {
+          "x": 2005,
+          "low": 12.02,
+          "high": 16.4
+        },
+        {
+          "x": 2006,
+          "low": 11.95,
+          "high": 16.49
+        },
+        {
+          "x": 2007,
+          "low": 12.08,
+          "high": 16.37
+        },
+        {
+          "x": 2008,
+          "low": 12.02,
+          "high": 16.34
+        },
+        {
+          "x": 2009,
+          "low": 12.12,
+          "high": 16.42
+        },
+        {
+          "x": 2010,
+          "low": 12.05,
+          "high": 16.7
+        },
+        {
+          "x": 2011,
+          "low": 12.03,
+          "high": 16.57
+        },
+        {
+          "x": 2012,
+          "low": 12.54,
+          "high": 16.72
+        },
+        {
+          "x": 2013,
+          "low": 12.26,
+          "high": 16.51
+        },
+        {
+          "x": 2014,
+          "low": 12.5,
+          "high": 17.48
+        },
+        {
+          "x": 2015,
+          "low": 12.67,
+          "high": 17.52
+        },
+        {
+          "x": 2016,
+          "low": 12.68,
+          "high": 16.98
+        },
+        {
+          "x": 2017,
+          "low": 12.88,
+          "high": 17.33
+        },
+        {
+          "x": 2018,
+          "low": 13,
+          "high": 17.1
+        },
+        {
+          "x": 2019,
+          "low": 13.29,
+          "high": 17.41
+        },
+        {
+          "x": 2020,
+          "low": 13,
+          "high": 17.42
+        },
+        {
+          "x": 2021,
+          "low": 12.78,
+          "high": 17.3
+        },
+        {
+          "x": 2022,
+          "low": 12.68,
+          "high": 17.3
+        }
+      ],
+      "name": "90% aller Messstellen (5 - 95% Quantil)"
+    },
+    {
+      "color": "#FF8028",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f} °C\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1994,
+          11.67
+        ],
+        [
+          1995,
+          10.62
+        ],
+        [
+          1996,
+          9.36
+        ],
+        [
+          1997,
+          10.63
+        ],
+        [
+          1998,
+          10.59
+        ],
+        [
+          1999,
+          10.64
+        ],
+        [
+          2000,
+          11.44
+        ],
+        [
+          2001,
+          10.71
+        ],
+        [
+          2002,
+          11.21
+        ],
+        [
+          2003,
+          11.34
+        ],
+        [
+          2004,
+          10.56
+        ],
+        [
+          2005,
+          10.49
+        ],
+        [
+          2006,
+          10.93
+        ],
+        [
+          2007,
+          11.32
+        ],
+        [
+          2008,
+          10.75
+        ],
+        [
+          2009,
+          11.05
+        ],
+        [
+          2010,
+          10.15
+        ],
+        [
+          2011,
+          11.67
+        ],
+        [
+          2012,
+          10.84
+        ],
+        [
+          2013,
+          10.35
+        ],
+        [
+          2014,
+          11.92
+        ],
+        [
+          2015,
+          11.8
+        ],
+        [
+          2016,
+          11.04
+        ],
+        [
+          2017,
+          11.45
+        ],
+        [
+          2018,
+          12.26
+        ],
+        [
+          2019,
+          11.68
+        ],
+        [
+          2020,
+          12.22
+        ],
+        [
+          2021,
+          10.73
+        ],
+        [
+          2022,
+          12.63
+        ]
+      ],
+      "name": "Jahresmitteltemperatur der Luft"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11918"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "turboThreshold": 0
+    },
+    "arearange": {
+      "lineWidth": 0.5,
+      "fillOpacity": 0.2,
+      "zIndex": -1,
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      }
+    },
+    "line": {
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wassertemperatur Grundwasser "
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "formatter": function (e) {
+				//use shared tooltip for group of series only (instead of for all)
+				//source: https://jsfiddle.net/BlackLabel/gq1d1aba/
+
+				//console.log(this.point.series);
+
+				var point = this.point,
+					series = point.series,
+					chart = series.chart,
+					correspondingSeries = series.linkedSeries[0] || series.linkedParent,
+					linePoint,
+					arearangePoint,
+					correspondingPoint,
+					firstLine = '';
+
+				if (correspondingSeries === undefined) return e.defaultFormatter.call(this, e);
+				else {
+					// unselect previously selected point
+					if (chart.extraHoveredPoint) {
+						chart.extraHoveredPoint.setState('');
+					}
+
+					// find corresponding point
+					if (correspondingSeries) {
+						//console.log(correspondingSeries,  correspondingSeries.points, point.index);
+						//console.log(point.index, this.series.cropStart);
+						correspondingPoint = correspondingSeries.points[point.index - this.series.cropStart];
+						correspondingPoint.setState('hover');
+						chart.extraHoveredPoint = correspondingPoint;
+					}
+
+					// identify type of points for formatting purposes
+					if (point.low !== undefined) {
+						arearangePoint = point;
+						linePoint = correspondingPoint;
+					} else {
+						arearangePoint = correspondingPoint;
+						linePoint = point;
+					}
+					//console.log(this);
+					if (linePoint.y !== null) firstLine = "<span style='color:" + linePoint.series.color + "'>●</span> " +
+						linePoint.series.name + ": <b>" + linePoint.y + " °C</b><br>";
+
+					return "<span style='font-size: 10px'>" + this.x + "</span><br>" +
+						firstLine +
+						arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> °C";
+				}
+			}
+  },
+  "exporting": {
+    "filename": "11918"
+  }
+}

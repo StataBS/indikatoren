@@ -1,4 +1,4 @@
-﻿"Jahr"	"Bevölkerung"	"Bevölkerung indexiert (rechte Skala)"	"Beschäftigte"	"Beschäftigte indexiert (rechte Skala)"
+﻿"Jahr"	"Bevölkerung"	"Bevölkerung indexiert"	"Beschäftigte"	"Beschäftigte indexiert"
 2011	192076	100	183183	100
 2012	193459	100.72003	184725	100.84178
 2013	195459	101.76128	188491	102.89765
@@ -11,4 +11,3 @@
 2020	201971	105.15161	188778	103.05432
 2021	201805	105.06518	193002	105.36021
 2022	204550	106.4943	""	""
-

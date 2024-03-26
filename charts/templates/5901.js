@@ -1,46 +1,8 @@
 (function () {
   return {
-    "yAxis": [{
-      //min: 0,
-      max: 210000,
-      tickAmount: 8,
-      "tickInterval": 30000,
-      alignTicks: true,
-      title: {
-        text: null,
-        "color": "#000000",
-        "fontSize": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        style: {
-          color: "black",
-        },
-      },
-
+    "yAxis": {
+      min:null
     },
-    {
-      //"min": 95,
-      //max: 115,
-      tickInterval: 5,
-      tickAmount: 8,
-      alignTicks: true,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        style: {
-          color: "black",
-        },
-      },
-      "opposite": true
-    }
-    ],
     "xAxis": {
       "tickInterval": 1
     },
@@ -49,16 +11,18 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 140,
       "itemMarginBottom": 5,
+      /*itemWidth: 140,
       "itemStyle": {
         "fontWeight": "normal",
         textOverflow: 'nowrap',
         whiteSpace: "nowrap"
-      }
+      }*/
     },
     "series": [
       {
+        visible: false,
+        showInLegend: false,
         "color": "#FFBB58", // Bevölkerung
         //"index": 0,
         zIndex: 0,
@@ -75,9 +39,9 @@
         //"index": 1,
         zIndex: 1,
         "type": "line",
-        "yAxis": 1,
+//        "yAxis": 1,
         "marker": {
-          "enabled": true
+          "enabled": false
         },
         legendIndex: 2,
         "tooltip": {
@@ -85,6 +49,8 @@
         },
       },
       {
+        visible: false,
+        showInLegend: false,
         "color": "#A8C3CA", // Beschäftigte
         //"index": 0,
         zIndex: 0,
@@ -103,13 +69,13 @@
         //"index": 1,
         zIndex: 2,
         "type": "line",
-        "yAxis": 1,
+//        "yAxis": 1,
         "legendIndex": 3,
         "tooltip": {
           "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
         },
         "marker": {
-          "enabled": true,
+          "enabled": false,
           radius: 5
         },
       }

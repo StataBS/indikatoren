@@ -1262,7 +1262,7 @@ id | visible | visibleInPortal | indikatorenset
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
-7773 | true | false | Richtplan
+7773 | true | true | Richtplan
 7774 | true | true | Richtplan
 7775 | true | true | Richtplan
 7777 | true | true | Richtplan
@@ -2318,12 +2318,23 @@ id | visible | visibleInPortal | indikatorenset
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
 11899 | true | true | Richtplan
+11900 | true | true | Richtplan
 11901 | true | false | Richtplan
 11902 | true | true | Richtplan
 11903 | true | false | Richtplan
 11905 | true | false | Richtplan
 11906 | true | false | Richtplan
 11907 | true | true | Richtplan
+11908 | true | true | Richtplan
+11909 | true | true | Richtplan
+11910 | true | true | Richtplan
+11911 | true | true | Richtplan
+11912 | true | true | Richtplan
+11914 | true | true | Richtplan
+11915 | true | true | Richtplan
+11916 | true | true | Richtplan
+11917 | true | true | Richtplan
+11918 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -2332,3 +2343,4 @@ id | visible | visibleInPortal | indikatorenset
 12517 | true | false | 
 12519 | true | false | 
 12532 | true | true | Nachhaltigkeit
+12564 | true | true | Richtplan

@@ -1,0 +1,459 @@
+{
+  "series": [
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "1989",
+          19.5
+        ],
+        [
+          "1990",
+          20.4
+        ],
+        [
+          "1991",
+          18.9
+        ],
+        [
+          "1992",
+          19.7
+        ],
+        [
+          "1993",
+          18.6
+        ],
+        [
+          "1994",
+          17.5
+        ],
+        [
+          "1995",
+          17.7
+        ],
+        [
+          "1996",
+          17.2
+        ],
+        [
+          "1997",
+          16.2
+        ],
+        [
+          "1998",
+          16.6
+        ],
+        [
+          "1999",
+          15.9
+        ],
+        [
+          "2000",
+          15.7
+        ],
+        [
+          "2001",
+          15.1
+        ],
+        [
+          "2002",
+          14.3
+        ],
+        [
+          "2003",
+          16.5
+        ],
+        [
+          "2004",
+          15.9
+        ],
+        [
+          "2005",
+          16.8
+        ],
+        [
+          "2006",
+          15.5
+        ],
+        [
+          "2007",
+          15.3
+        ],
+        [
+          "2008",
+          15.5
+        ],
+        [
+          "2009",
+          15.2
+        ],
+        [
+          "2010",
+          15.1
+        ],
+        [
+          "2011",
+          15.8
+        ],
+        [
+          "2012",
+          16
+        ],
+        [
+          "2013",
+          15.2
+        ],
+        [
+          "2014",
+          15.3
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          "2022",
+          null
+        ]
+      ],
+      "name": "Wasserverbrauch Haushalte und Kleingewerbe bis 2015",
+      "turboThreshold": 0
+    },
+    {
+      "linkedTo": ":previous",
+      "color": "#662673",
+      "data": [
+        [
+          "1989",
+          undefined
+        ],
+        [
+          "1990",
+          undefined
+        ],
+        [
+          "1991",
+          undefined
+        ],
+        [
+          "1992",
+          undefined
+        ],
+        [
+          "1993",
+          undefined
+        ],
+        [
+          "1994",
+          undefined
+        ],
+        [
+          "1995",
+          undefined
+        ],
+        [
+          "1996",
+          undefined
+        ],
+        [
+          "1997",
+          undefined
+        ],
+        [
+          "1998",
+          undefined
+        ],
+        [
+          "1999",
+          undefined
+        ],
+        [
+          "2000",
+          undefined
+        ],
+        [
+          "2001",
+          undefined
+        ],
+        [
+          "2002",
+          undefined
+        ],
+        [
+          "2003",
+          undefined
+        ],
+        [
+          "2004",
+          undefined
+        ],
+        [
+          "2005",
+          undefined
+        ],
+        [
+          "2006",
+          undefined
+        ],
+        [
+          "2007",
+          undefined
+        ],
+        [
+          "2008",
+          undefined
+        ],
+        [
+          "2009",
+          undefined
+        ],
+        [
+          "2010",
+          undefined
+        ],
+        [
+          "2011",
+          undefined
+        ],
+        [
+          "2012",
+          undefined
+        ],
+        [
+          "2013",
+          undefined
+        ],
+        [
+          "2014",
+          undefined
+        ],
+        [
+          "2015",
+          12.9
+        ],
+        [
+          "2016",
+          12.8
+        ],
+        [
+          "2017",
+          12.8
+        ],
+        [
+          "2018",
+          12.8
+        ],
+        [
+          "2019",
+          12.7
+        ],
+        [
+          "2020",
+          12.9
+        ],
+        [
+          "2021",
+          11.9
+        ],
+        [
+          "2022",
+          11.3
+        ]
+      ],
+      "name": "Wasserverbrauch Haushalte und Kleingewerbe ab 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+				var maxlabels = 10,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+			}
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11916"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Trinkwasserverbrauch Haushalte und Kleingewerbe"
+  },
+  "subtitle": {
+    "text": "in Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Industrielle Werke Basel (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "useHTML": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Mio m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "11916"
+  }
+}
