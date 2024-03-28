@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2003",
-          658
-        ],
-        [
           "2004",
           641
         ],
@@ -84,6 +80,10 @@
         [
           "2022",
           824
+        ],
+        [
+          "2023",
+          888
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -94,10 +94,6 @@
       "index": 8,
       "legendIndex": 1,
       "data": [
-        [
-          "2003",
-          6
-        ],
         [
           "2004",
           7
@@ -173,6 +169,10 @@
         [
           "2022",
           5
+        ],
+        [
+          "2023",
+          5
         ]
       ],
       "name": "Unteres Fachkader",
@@ -183,10 +183,6 @@
       "index": 7,
       "legendIndex": 2,
       "data": [
-        [
-          "2003",
-          12
-        ],
         [
           "2004",
           12
@@ -262,6 +258,10 @@
         [
           "2022",
           25
+        ],
+        [
+          "2023",
+          31
         ]
       ],
       "name": "Unteres Kader",
@@ -272,10 +272,6 @@
       "index": 6,
       "legendIndex": 3,
       "data": [
-        [
-          "2003",
-          7
-        ],
         [
           "2004",
           6
@@ -351,6 +347,10 @@
         [
           "2022",
           15
+        ],
+        [
+          "2023",
+          12
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -361,10 +361,6 @@
       "index": 5,
       "legendIndex": 4,
       "data": [
-        [
-          "2003",
-          10
-        ],
         [
           "2004",
           9
@@ -440,6 +436,10 @@
         [
           "2022",
           13
+        ],
+        [
+          "2023",
+          12
         ]
       ],
       "name": "Mittleres Kader",
@@ -450,10 +450,6 @@
       "index": 4,
       "legendIndex": 5,
       "data": [
-        [
-          "2003",
-          2
-        ],
         [
           "2004",
           5
@@ -528,6 +524,10 @@
         ],
         [
           "2022",
+          5
+        ],
+        [
+          "2023",
           5
         ]
       ],
@@ -672,7 +672,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2023"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

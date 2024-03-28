@@ -52,6 +52,10 @@
         [
           2022,
           2151
+        ],
+        [
+          2023,
+          2144
         ]
       ],
       "name": "Anzahl Haushalte"
@@ -115,9 +119,13 @@
         [
           2022,
           2.1
+        ],
+        [
+          2023,
+          2.1
         ]
       ],
-      "name": "Anteil in Prozent (rechte Skala)"
+      "name": "Quote in Prozent (rechte Skala)"
     }
   ],
   "chart": {
@@ -175,7 +183,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -271,7 +279,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "tooltip": {
     "shared": false

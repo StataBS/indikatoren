@@ -1008,43 +1008,6 @@ var indikatorensetData = [
 		"id": 4153
 	},
 	{
-		"template": "template001",
-		"data-id": 4154,
-		"chart-id": 4154,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Bestand an Notwohnungen und ihre Belegung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
-		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "I.13.3.4154",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.1.E",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_01_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-07T08:10:27",
-		"id": 4154
-	},
-	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt",
 		"kuerzel": "I.50.1.4155",
@@ -1125,14 +1088,14 @@ var indikatorensetData = [
 	{
 		"template": "template001",
 		"data-id": 9292,
-		"chart-id": 9292,
+		"chart-id": 4152,
 		"filter": "",
 		"parentId": "4152",
 		"children": [],
-		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -1141,7 +1104,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"description": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09292",
@@ -1156,7 +1119,44 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:16",
+		"aktualisierungsdatum": "2024-03-28T09:22:25",
 		"id": 9292
+	},
+	{
+		"template": "template001",
+		"data-id": 9924,
+		"chart-id": 4154,
+		"filter": "",
+		"parentId": "4154",
+		"children": [],
+		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.09924",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-28T09:22:23",
+		"id": 9924
 	}
 ];

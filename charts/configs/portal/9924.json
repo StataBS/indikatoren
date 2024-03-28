@@ -1,131 +1,191 @@
 {
   "series": [
     {
-      "color": "#923f8d",
+      "color": "#73b97c",
       "index": 0,
       "type": "column",
       "data": [
         [
           2011,
-          1165
+          104
         ],
         [
           2012,
-          1497
+          101
         ],
         [
           2013,
-          1717
+          98
         ],
         [
           2014,
-          1865
+          102
         ],
         [
           2015,
-          1990
+          141
         ],
         [
           2016,
-          2137
+          133
         ],
         [
           2017,
-          2225
+          142
         ],
         [
           2018,
-          2263
+          140
         ],
         [
           2019,
-          2289
+          105
         ],
         [
           2020,
-          2272
+          108
         ],
         [
           2021,
-          2250
+          126
         ],
         [
           2022,
-          2151
+          127
         ],
         [
           2023,
-          2144
+          116
         ]
       ],
-      "name": "Anzahl Haushalte"
+      "name": "Notwohnungen"
+    },
+    {
+      "color": "#007A2F",
+      "index": 1,
+      "type": "column",
+      "data": [
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          8
+        ],
+        [
+          2017,
+          14
+        ],
+        [
+          2018,
+          32
+        ],
+        [
+          2019,
+          73
+        ],
+        [
+          2020,
+          85
+        ],
+        [
+          2021,
+          83
+        ],
+        [
+          2022,
+          81
+        ],
+        [
+          2023,
+          82
+        ]
+      ],
+      "name": "Wohnungen und Einzelzimmer nach WRFG"
     },
     {
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
-      "yAxis": 1,
-      "tooltip": {
-        "valueDecimals": 1
-      },
       "marker": {
         "enabled": false
+      },
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
           2011,
-          1.2
+          90.4
         ],
         [
           2012,
-          1.5
+          94.1
         ],
         [
           2013,
-          1.7
+          96.9
         ],
         [
           2014,
-          1.9
+          97.1
         ],
         [
           2015,
-          2
+          92.2
         ],
         [
           2016,
-          2.2
+          89.4
         ],
         [
           2017,
-          2.3
+          91.7
         ],
         [
           2018,
-          2.3
+          89
         ],
         [
           2019,
-          2.3
+          89.3
         ],
         [
           2020,
-          2.3
+          94.3
         ],
         [
           2021,
-          2.3
+          90.9
         ],
         [
           2022,
-          2.1
+          93.8
         ],
         [
           2023,
-          2.1
+          90.4
         ]
       ],
-      "name": "Anteil in Prozent (rechte Skala)"
+      "name": "Auslastungsquote (rechte Skala)"
     }
   ],
   "chart": {
@@ -162,18 +222,20 @@
                 }
     },
     "type": "line",
-    "renderTo": "container-4152",
+    "alignTicks": false,
+    "renderTo": "container-9924",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         },
         "enabled": false
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -183,7 +245,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -213,8 +275,11 @@
   },
   "yAxis": [
     {
+      "min": 0,
+      "tickInterval": 40,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
       "title": {
         "style": {
           "color": "#000000",
@@ -227,12 +292,15 @@
         "style": {
           "color": "#000000"
         }
-      },
-      "min": 0
+      }
     },
     {
+      "min": 0,
+      "max": 100,
+      "tickInterval": 25,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
       "title": {
         "style": {
           "color": "#000000",
@@ -241,12 +309,11 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}%",
+        "format": "{value:,.0f}%",
         "style": {
           "color": "#000000"
         }
       },
-      "min": 0,
       "opposite": true
     }
   ],
@@ -279,12 +346,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Wohnen.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "tooltip": {
     "shared": false
   },
   "exporting": {
-    "filename": "4152"
+    "filename": "9924"
   }
 }

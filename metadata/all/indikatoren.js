@@ -5298,12 +5298,13 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9292
+			9292,
+			9921
 		],
-		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -5312,23 +5313,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"description": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.4152",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-07",
-		"stufe1": "Kernindikatoren",
+		"kuerzelKunde": "5.2",
+		"stufe1": "Familienmietzinsbeiträge",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "05_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:12",
+		"aktualisierungsdatum": "2024-03-28T09:22:26",
 		"id": 4152
 	},
 	{
@@ -5375,36 +5376,38 @@ var indikatoren = [
 		"chart-id": 4154,
 		"filter": "",
 		"parentId": null,
-		"children": [],
-		"title": "Bestand an Notwohnungen und ihre Belegung",
+		"children": [
+			9924
+		],
+		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
-		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
+		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bestand an Notwohnungen und ihre Belegung",
+		"description": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "I.13.3.4154",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.1.E",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.04154",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "7.1",
+		"stufe1": "Notwohnen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "07_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-07T08:10:27",
+		"aktualisierungsdatum": "2024-03-28T09:22:26",
 		"id": 4154
 	},
 	{
@@ -10953,45 +10956,43 @@ var indikatoren = [
 		"id": 4855
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4856,
+		"chart-id": 4856,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8395
+		],
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt",
-		"kuerzel": "I.50.1.4856",
-		"kuerzelKunde": "1.3.03",
-		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Der Aussage, dass wir ohne die Menschen aus dem Ausland nicht so gut leben würden, stimmen 35,2% der Bevölkerung sehr und 29,1% eher zu. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4856",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.3.03",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Aussage, dass wir ohne die Menschen aus dem Ausland nicht so gut leben würden, stimmen 28,4% der im Jahr 2019 Befragten sehr und 38,5% eher zu. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"orderKey": "01_03_00_00_00_033",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_033",
-		"parentId": null,
-		"children": [
-			"8395"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4856,
-		"chart-id": 4856,
-		"filter": "",
+		"aktualisierungsdatum": "2024-03-28T09:22:24",
 		"id": 4856
 	},
 	{
@@ -15144,7 +15145,7 @@ var indikatoren = [
 		],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2020 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 053 Franken, während der Medianlohn der Männer bei 6 860 Franken liegt. Der Lohnunterschied hat sich von 13,6% im Jahr 2018 auf 11,8% im Jahr 2020 verringert. Im Jahr 2002 lag der Unterschied bei 20,7%.",
+		"lesehilfe": "Im Jahr 2022 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 251 Franken, während der Medianlohn der Männer bei 7 100 Franken liegt. Der Lohnunterschied hat sich gegenüber 2020 kaum verändert und liegt 2022 bei 12,0%. Im Jahr 2002 lag er bei 20,7%.",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -15159,18 +15160,18 @@ var indikatoren = [
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.6037",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GZ5",
+		"kuerzelKunde": "GZ7",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_02_00_00_00_505",
+		"orderKey": "05_02_00_00_00_507",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:58",
+		"aktualisierungsdatum": "2024-03-28T09:22:59",
 		"id": 6037
 	},
 	{
@@ -17157,7 +17158,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2020 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 053 Franken, während der Medianlohn der Männer bei 6 860 Franken liegt. Der Lohnunterschied hat sich von 13,6% im Jahr 2018 auf 11,8% im Jahr 2020 verringert. Im Jahr 2002 lag der Unterschied bei 20,7%.",
+		"lesehilfe": "Im Jahr 2022 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 251 Franken, während der Medianlohn der Männer bei 7 100 Franken liegt. Der Lohnunterschied hat sich gegenüber 2020 kaum verändert und liegt 2022 bei 12,0%. Im Jahr 2002 lag er bei 20,7%.",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -17183,7 +17184,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:54",
+		"aktualisierungsdatum": "2024-03-28T09:22:24",
 		"id": 6147
 	},
 	{
@@ -23615,7 +23616,7 @@ var indikatoren = [
 		],
 		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2022 sind 6,1% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch wie bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz stagnierend) am stärksten vertreten.",
+		"lesehilfe": "Im Jahr 2023 sind 6,3% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch wie bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz stagnierend) am stärksten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -23642,7 +23643,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:05",
+		"aktualisierungsdatum": "2024-03-28T09:22:27",
 		"id": 6419
 	},
 	{
@@ -23682,7 +23683,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:47",
+		"aktualisierungsdatum": "2024-03-28T09:22:28",
 		"id": 6420
 	},
 	{
@@ -23696,7 +23697,7 @@ var indikatoren = [
 		],
 		"title": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
-		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt ist 2022 gegenüber dem Vorjahr praktisch stabil geblieben. Seit 2003 ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt ohne Kaderfunktion leicht rückläufig, der Anteil jener mit Kaderfunktion ist gestiegen.",
+		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt ist 2023 gegenüber dem Vorjahr um knapp 150 gestiegen; zugenommen hat namentlich die Zahl der Lehrkräfte. Im 20-Jahres-Vergleich ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt ohne Kaderfunktion leicht rückläufig, der Anteil jener mit Kaderfunktion ist gestiegen.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -23722,7 +23723,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:29",
 		"id": 6421
 	},
 	{
@@ -23735,8 +23736,8 @@ var indikatoren = [
 			6697
 		],
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2022",
-		"lesehilfe": "Der Anteil an Schweizerinnen und Schweizern mit Wohnsitz Basel-Stadt und Kaderfunktion (2022: 87,5% unteres und 95,6% oberes Kader) ist grösser als jener ohne Kaderfunktion. Umgekehrt sind die ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt bei den Staatsangestellten ohne Kaderfunktion vergleichsweise stark vertreten (16,7%).",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
+		"lesehilfe": "Der Anteil an Schweizerinnen und Schweizern mit Wohnsitz Basel-Stadt und Kaderfunktion (2023: 85,9% unteres, 94,0% mittleres und 95,3% oberes Kader) ist grösser als jener ohne Kaderfunktion (2023: 82,7%). Umgekehrt sind die ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt bei den Staatsangestellten ohne Kaderfunktion vergleichsweise stark vertreten (17,3%).",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -23762,7 +23763,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:29",
 		"id": 6422
 	},
 	{
@@ -23775,8 +23776,8 @@ var indikatoren = [
 			6698
 		],
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2022",
-		"lesehilfe": "2022 ist rund jede zweite Stelle in der Kantonsverwaltung von einer Schweizerin mit Wohnsitz Basel-Stadt besetzt. Es handelt sich dabei um 2 849 von insgesamt 5 650 Angestellten.",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
+		"lesehilfe": "2023 ist rund jede zweite Stelle in der Kantonsverwaltung von einer Schweizerin mit Wohnsitz Basel-Stadt besetzt. Es handelt sich dabei um 2 913 von insgesamt 5 857 Angestellten.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -23802,7 +23803,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:40",
+		"aktualisierungsdatum": "2024-03-28T09:22:30",
 		"id": 6423
 	},
 	{
@@ -23815,8 +23816,8 @@ var indikatoren = [
 			6699
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2013",
-		"lesehilfe": "2013 haben vergleichsweise wenige ausländische Staatsangestellte eine Kaderfunktion inne. Von diesen sind Personen mit deutscher Staatsbürgerschaft (137) mit Abstand am häufigsten im Kader vertreten.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2014",
+		"lesehilfe": "2014 haben vergleichsweise wenige ausländische Staatsangestellte eine Kaderfunktion inne. Von diesen sind Personen mit deutscher Staatsbürgerschaft (141) mit Abstand am häufigsten im Kader vertreten.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -23842,7 +23843,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:30",
 		"id": 6424
 	},
 	{
@@ -23855,8 +23856,8 @@ var indikatoren = [
 			6700
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2022",
-		"lesehilfe": "2022 sind neben Schweizerinnen und Schweizern 168 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2023",
+		"lesehilfe": "2023 sind neben Schweizerinnen und Schweizern 167 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -23882,7 +23883,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:31",
 		"id": 6425
 	},
 	{
@@ -33323,8 +33324,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Altstadt Grossbasel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer und weniger Frauen. Der Anteil der 55- bis 59-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
+		"subtitle": "Wohnviertel Altstadt Grossbasel, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Schweizer und weniger Schweizerinnen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -33350,7 +33351,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:35",
+		"aktualisierungsdatum": "2024-03-28T09:22:33",
 		"id": 6893
 	},
 	{
@@ -33361,8 +33362,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Vorstädte, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Vorstädte ist der Anteil der 25- bis 34-Jährigen sowie der 75-Jährigen und Älteren im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
+		"subtitle": "Wohnviertel Vorstädte, Basel-Stadt, 2023",
+		"lesehilfe": "Im Wohnviertel Vorstädte ist der Anteil der 55- bis 59-Jährigen sowie der 75-Jährigen und Älteren im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -33388,7 +33389,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:35",
+		"aktualisierungsdatum": "2024-03-28T09:22:35",
 		"id": 6894
 	},
 	{
@@ -33399,7 +33400,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Am Ring, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Am Ring, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Am Ring mehr jüngere Erwachsene. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -33426,7 +33427,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:36",
+		"aktualisierungsdatum": "2024-03-28T09:22:37",
 		"id": 6895
 	},
 	{
@@ -34119,7 +34120,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Breite, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Breite, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Breite eher wenige Kinder und Jugendliche.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34146,7 +34147,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:36",
+		"aktualisierungsdatum": "2024-03-28T09:22:38",
 		"id": 6915
 	},
 	{
@@ -34157,7 +34158,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel St. Alban, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel St. Alban, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons bleibt jene des Wohnviertels St. Alban gegen oben eher breit; somit ist die Bevölkerung älter.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34184,7 +34185,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:36",
+		"aktualisierungsdatum": "2024-03-28T09:22:40",
 		"id": 6916
 	},
 	{
@@ -34195,8 +34196,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Gundeldingen, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer, es gibt also weniger ältere Menschen.",
+		"subtitle": "Wohnviertel Gundeldingen, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34222,7 +34223,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:37",
+		"aktualisierungsdatum": "2024-03-28T09:22:43",
 		"id": 6917
 	},
 	{
@@ -34233,7 +34234,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Bruderholz, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Bruderholz, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe der 45-Jährigen und Älteren ist grösser als im Gesamtkanton.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34260,7 +34261,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:37",
+		"aktualisierungsdatum": "2024-03-28T09:22:44",
 		"id": 6918
 	},
 	{
@@ -34271,8 +34272,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Bachletten, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 20- bis 39-Jährigen relativ niedrig, jener der 55- bis 74-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"subtitle": "Wohnviertel Bachletten, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 20- bis 39-Jährigen relativ niedrig, jener der 60-Jährigen und Älteren relativ hoch.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34298,7 +34299,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:38",
+		"aktualisierungsdatum": "2024-03-28T09:22:45",
 		"id": 6919
 	},
 	{
@@ -34309,7 +34310,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Gotthelf, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Gotthelf, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerungsgruppe der unter 45-Jährigen weniger stark vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34336,7 +34337,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:38",
+		"aktualisierungsdatum": "2024-03-28T09:22:46",
 		"id": 6920
 	},
 	{
@@ -34347,8 +34348,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Iselin, Basel-Stadt, 2022",
-		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grössten Fünfjahresgruppen bilden die Personen zwischen 25 und 39 Jahren. Nach oben nimmt die Pyramide bei den Männern stärker ab als bei den Frauen.",
+		"subtitle": "Wohnviertel Iselin, Basel-Stadt, 2023",
+		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grösste Fünfjahresgruppe bilden die Personen zwischen 25 und 39 Jahren.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34374,7 +34375,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:47",
 		"id": 6921
 	},
 	{
@@ -34385,7 +34386,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel St. Johann, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel St. Johann, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34412,7 +34413,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:48",
 		"id": 6922
 	},
 	{
@@ -34423,7 +34424,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Altstadt Kleinbasel, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Altstadt Kleinbasel, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Altstadt Kleinbasel der Anteil der unter 20-Jährigen tief.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34450,7 +34451,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:40",
+		"aktualisierungsdatum": "2024-03-28T09:22:49",
 		"id": 6923
 	},
 	{
@@ -34461,7 +34462,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Clara, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Clara, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Clara überdurchschnittlich viele Männer zwischen 25 und 39 Jahren.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34488,7 +34489,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:40",
+		"aktualisierungsdatum": "2024-03-28T09:22:50",
 		"id": 6924
 	},
 	{
@@ -34499,7 +34500,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Wettstein, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Wettstein, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Wettstein der Anteil der ausländischen Staatsangehörigen bei den Kindern und Jugendlichen niedrig.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34526,7 +34527,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:51",
 		"id": 6925
 	},
 	{
@@ -34537,7 +34538,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Hirzbrunnen, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Hirzbrunnen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton leben im Wohnviertel Hirzbrunnen viele Kinder und Jugendliche sowie viele ältere Personen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34564,7 +34565,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:52",
 		"id": 6926
 	},
 	{
@@ -34575,8 +34576,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Rosental nach oben hin spitzer zu. Die Bevölkerung ist somit jünger. Der Anteil der ausländischen Bevölkerung ist grösser als im Gesamtkanton.",
+		"subtitle": "Wohnviertel Rosental, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Rosental nach oben hin spitzer zu. Die Bevölkerung ist somit jünger.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34602,7 +34603,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:42",
+		"aktualisierungsdatum": "2024-03-28T09:22:53",
 		"id": 6927
 	},
 	{
@@ -34613,8 +34614,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Matthäus, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus nach oben hin spitzer zu, die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 20 und 39 Jahren ist bei Frauen und Männern stark vertreten.",
+		"subtitle": "Wohnviertel Matthäus, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus nach oben hin spitzer zu, die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 39 Jahren ist bei Frauen und Männern stark vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34640,7 +34641,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:42",
+		"aktualisierungsdatum": "2024-03-28T09:22:54",
 		"id": 6928
 	},
 	{
@@ -34651,8 +34652,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Klybeck, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Klybeck Personen im Erwerbsalter zwischen 20 und 64 Jahren stärker vertreten. Die ältere Bevölkerung ist dagegen schwächer repräsentiert. Der Anteil der ausländischen Bevölkerung ist grösser als im Gesamtkanton.",
+		"subtitle": "Wohnviertel Klybeck, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Klybeck Personen zwischen 5 und 64 Jahren stärker vertreten. Die ältere Bevölkerung ist dagegen schwächer repräsentiert.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34678,7 +34679,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:43",
+		"aktualisierungsdatum": "2024-03-28T09:22:55",
 		"id": 6929
 	},
 	{
@@ -34689,7 +34690,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Kleinhüningen, Basel-Stadt, 2022",
+		"subtitle": "Wohnviertel Kleinhüningen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben in Kleinhüningen überdurchschnittlich viele Kinder und Jugendliche bis 19 Jahre sowie junge Erwachsene zwischen 20 und 24 Jahren. Ebenfalls besonders gut vertreten sind Personen zwischen 60 und 64 Jahren.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34716,7 +34717,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:43",
+		"aktualisierungsdatum": "2024-03-28T09:22:56",
 		"id": 6930
 	},
 	{
@@ -34727,7 +34728,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Gemeinde Riehen, Basel-Stadt, 2022",
+		"subtitle": "Gemeinde Riehen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche zwischen 4 und 19 Jahren stärker vertreten. Zudem wohnen in Riehen vergleichsweise viele Personen ab 45 Jahren.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -34755,7 +34756,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:44",
+		"aktualisierungsdatum": "2024-03-28T09:22:56",
 		"id": 6931
 	},
 	{
@@ -34766,8 +34767,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Gemeinde Bettingen, Basel-Stadt, 2022",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 50-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
+		"subtitle": "Gemeinde Bettingen, Basel-Stadt, 2023",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 55-Jährigen und Älteren sehr stark vertreten ist.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34794,7 +34795,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-30T08:32:44",
+		"aktualisierungsdatum": "2024-03-28T09:22:57",
 		"id": 6932
 	},
 	{
@@ -69749,7 +69750,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:24",
+		"aktualisierungsdatum": "2024-03-28T09:22:21",
 		"id": 8995
 	},
 	{
@@ -70123,7 +70124,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:25",
+		"aktualisierungsdatum": "2024-03-28T09:22:22",
 		"id": 9022
 	},
 	{
@@ -70161,7 +70162,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:26",
+		"aktualisierungsdatum": "2024-03-28T09:22:22",
 		"id": 9023
 	},
 	{
@@ -73840,14 +73841,14 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 9292,
-		"chart-id": 9292,
+		"chart-id": 4152,
 		"filter": "",
 		"parentId": "4152",
 		"children": [],
-		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -73856,7 +73857,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"description": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09292",
@@ -73872,7 +73873,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:16",
+		"aktualisierungsdatum": "2024-03-28T09:22:25",
 		"id": 9292
 	},
 	{
@@ -82669,6 +82670,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-11-13T09:13:27",
 		"id": 9919
+	},
+	{
+		"template": "template001",
+		"data-id": 9924,
+		"chart-id": 4154,
+		"filter": "",
+		"parentId": "4154",
+		"children": [],
+		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.09924",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-28T09:22:23",
+		"id": 9924
 	},
 	{
 		"title": "Test Daten",

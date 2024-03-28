@@ -51,6 +51,10 @@
         [
           "2020",
           0.117638484
+        ],
+        [
+          "2022",
+          0.119577
         ]
       ],
       "name": "Lohnunterschied zwischen Frauen und Männern (rechte Skala)",
@@ -106,6 +110,10 @@
         [
           "2020",
           6053
+        ],
+        [
+          "2022",
+          6251
         ]
       ],
       "name": "Bruttolohn der Frauen",
@@ -161,6 +169,10 @@
         [
           "2020",
           6860
+        ],
+        [
+          "2022",
+          7100
         ]
       ],
       "name": "Bruttolohn der Männer",
@@ -328,7 +340,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

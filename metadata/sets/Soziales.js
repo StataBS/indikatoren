@@ -6,12 +6,13 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9292
+			9292,
+			9921
 		],
-		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -20,23 +21,62 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"description": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.4152",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-07",
-		"stufe1": "Kernindikatoren",
+		"kuerzelKunde": "5.2",
+		"stufe1": "Familienmietzinsbeiträge",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "05_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:12",
+		"aktualisierungsdatum": "2024-03-28T09:22:26",
 		"id": 4152
+	},
+	{
+		"template": "template001",
+		"data-id": 4154,
+		"chart-id": 4154,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9924
+		],
+		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.04154",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "7.1",
+		"stufe1": "Notwohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-03-28T09:22:26",
+		"id": 4154
 	},
 	{
 		"template": "line001",
