@@ -11,6 +11,8 @@
   },
   "yAxis": [{
     "min": 0,
+    //"max": 200,
+    "tickInterval": 40,
     gridLineColor: '#B9CFD7', 
     gridLineWidth: 0.5,
     lineColor: '#B9CFD7',     
@@ -84,8 +86,8 @@
             },
       "yAxis": 1, 
       tooltip: {
-        valueDecimals: 1
-      }
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+       }
     }
   ],  
   "tooltip": {

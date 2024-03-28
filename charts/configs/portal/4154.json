@@ -27,31 +27,35 @@
         ],
         [
           2016,
-          141
+          133
         ],
         [
           2017,
-          145
+          142
         ],
         [
           2018,
-          145
+          140
         ],
         [
           2019,
-          167
+          105
         ],
         [
           2020,
-          168
+          108
         ],
         [
           2021,
-          173
+          126
         ],
         [
           2022,
-          194
+          127
+        ],
+        [
+          2023,
+          116
         ]
       ],
       "name": "Notwohnungen"
@@ -63,54 +67,58 @@
       "data": [
         [
           2011,
-          94
+          0
         ],
         [
           2012,
-          95
+          0
         ],
         [
           2013,
-          95
+          0
         ],
         [
           2014,
-          99
+          0
         ],
         [
           2015,
-          130
+          0
         ],
         [
           2016,
-          126
+          8
         ],
         [
           2017,
-          125
+          14
         ],
         [
           2018,
-          129
+          32
         ],
         [
           2019,
-          151
+          73
         ],
         [
           2020,
-          158
+          85
         ],
         [
           2021,
-          168
+          83
         ],
         [
           2022,
-          168
+          81
+        ],
+        [
+          2023,
+          82
         ]
       ],
-      "name": "Notwohnungen belegt"
+      "name": "Wohnungen und Einzelzimmer nach WRFG"
     },
     {
       "color": "#cd9c00",
@@ -121,59 +129,63 @@
       },
       "yAxis": 1,
       "tooltip": {
-        "valueDecimals": 1
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
           2011,
-          90.3846153846154
+          90.4
         ],
         [
           2012,
-          94.0594059405941
+          94.1
         ],
         [
           2013,
-          96.9387755102041
+          96.9
         ],
         [
           2014,
-          97.0588235294118
+          97.1
         ],
         [
           2015,
-          92.1985815602837
+          92.2
         ],
         [
           2016,
-          89.3617021276596
+          89.4
         ],
         [
           2017,
-          86.2068965517241
+          91.7
         ],
         [
           2018,
-          88.9655172413793
+          89
         ],
         [
           2019,
-          90.4191616766467
+          89.3
         ],
         [
           2020,
-          94.047619047619
+          94.3
         ],
         [
           2021,
-          97.10982659
+          90.9
         ],
         [
           2022,
-          86.59793814
+          93.8
+        ],
+        [
+          2023,
+          90.4
         ]
       ],
-      "name": "Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)"
+      "name": "Auslastungsquote (rechte Skala)"
     }
   ],
   "chart": {
@@ -233,7 +245,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bestand an Notwohnungen und ihre Belegung"
+    "text": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -264,6 +276,7 @@
   "yAxis": [
     {
       "min": 0,
+      "tickInterval": 40,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -333,7 +346,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfe Basel.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Wohnen.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "tooltip": {
     "shared": false

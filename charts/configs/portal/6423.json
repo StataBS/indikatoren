@@ -6,27 +6,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          4110
+          4240
         ],
         [
           "Unteres Fachkader",
-          68
+          66
         ],
         [
           "Unteres Kader",
-          175
+          189
         ],
         [
           "Mittleres Fachkader",
-          115
+          119
         ],
         [
           "Mittleres Kader",
-          187
+          188
         ],
         [
           "Oberes Kader",
-          108
+          102
         ]
       ],
       "name": "Schweiz",
@@ -38,7 +38,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          1545
+          1620
         ],
         [
           "Unteres Fachkader",
@@ -46,19 +46,19 @@
         ],
         [
           "Unteres Kader",
-          117
+          124
         ],
         [
           "Mittleres Fachkader",
-          49
+          50
         ],
         [
           "Mittleres Kader",
-          108
+          105
         ],
         [
           "Oberes Kader",
-          62
+          59
         ]
       ],
       "name": "Schweizer",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          2565
+          2620
         ],
         [
           "Unteres Fachkader",
-          35
+          33
         ],
         [
           "Unteres Kader",
-          58
+          65
         ],
         [
           "Mittleres Fachkader",
-          66
+          69
         ],
         [
           "Mittleres Kader",
-          79
+          83
         ],
         [
           "Oberes Kader",
-          46
+          43
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,7 +102,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          824
+          888
         ],
         [
           "Unteres Fachkader",
@@ -110,15 +110,15 @@
         ],
         [
           "Unteres Kader",
-          25
+          31
         ],
         [
           "Mittleres Fachkader",
-          15
+          12
         ],
         [
           "Mittleres Kader",
-          13
+          12
         ],
         [
           "Oberes Kader",
@@ -134,7 +134,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          319
+          329
         ],
         [
           "Unteres Fachkader",
@@ -142,11 +142,11 @@
         ],
         [
           "Unteres Kader",
-          14
+          18
         ],
         [
           "Mittleres Fachkader",
-          7
+          6
         ],
         [
           "Mittleres Kader",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          505
+          559
         ],
         [
           "Unteres Fachkader",
@@ -174,15 +174,15 @@
         ],
         [
           "Unteres Kader",
-          11
+          13
         ],
         [
           "Mittleres Fachkader",
-          8
+          6
         ],
         [
           "Mittleres Kader",
-          5
+          4
         ],
         [
           "Oberes Kader",
@@ -272,7 +272,7 @@
     "text": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2022",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -2059,7 +2059,7 @@ var indikatorensetData = [
 		],
 		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2022 sind 6,1% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch wie bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz stagnierend) am stärksten vertreten.",
+		"lesehilfe": "Im Jahr 2023 sind 6,3% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist mehr als doppelt so hoch wie bei den anderen Staatsangehörigkeiten. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz stagnierend) am stärksten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2085,7 +2085,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:05",
+		"aktualisierungsdatum": "2024-03-28T09:22:27",
 		"id": 6419
 	},
 	{
@@ -2124,7 +2124,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:47",
+		"aktualisierungsdatum": "2024-03-28T09:22:28",
 		"id": 6420
 	},
 	{
@@ -2138,7 +2138,7 @@ var indikatorensetData = [
 		],
 		"title": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
-		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt ist 2022 gegenüber dem Vorjahr praktisch stabil geblieben. Seit 2003 ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt ohne Kaderfunktion leicht rückläufig, der Anteil jener mit Kaderfunktion ist gestiegen.",
+		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt ist 2023 gegenüber dem Vorjahr um knapp 150 gestiegen; zugenommen hat namentlich die Zahl der Lehrkräfte. Im 20-Jahres-Vergleich ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt ohne Kaderfunktion leicht rückläufig, der Anteil jener mit Kaderfunktion ist gestiegen.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2163,7 +2163,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:29",
 		"id": 6421
 	},
 	{
@@ -2176,8 +2176,8 @@ var indikatorensetData = [
 			6697
 		],
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2022",
-		"lesehilfe": "Der Anteil an Schweizerinnen und Schweizern mit Wohnsitz Basel-Stadt und Kaderfunktion (2022: 87,5% unteres und 95,6% oberes Kader) ist grösser als jener ohne Kaderfunktion. Umgekehrt sind die ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt bei den Staatsangestellten ohne Kaderfunktion vergleichsweise stark vertreten (16,7%).",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
+		"lesehilfe": "Der Anteil an Schweizerinnen und Schweizern mit Wohnsitz Basel-Stadt und Kaderfunktion (2023: 85,9% unteres, 94,0% mittleres und 95,3% oberes Kader) ist grösser als jener ohne Kaderfunktion (2023: 82,7%). Umgekehrt sind die ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt bei den Staatsangestellten ohne Kaderfunktion vergleichsweise stark vertreten (17,3%).",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2202,7 +2202,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:39",
+		"aktualisierungsdatum": "2024-03-28T09:22:29",
 		"id": 6422
 	},
 	{
@@ -2215,8 +2215,8 @@ var indikatorensetData = [
 			6698
 		],
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2022",
-		"lesehilfe": "2022 ist rund jede zweite Stelle in der Kantonsverwaltung von einer Schweizerin mit Wohnsitz Basel-Stadt besetzt. Es handelt sich dabei um 2 849 von insgesamt 5 650 Angestellten.",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
+		"lesehilfe": "2023 ist rund jede zweite Stelle in der Kantonsverwaltung von einer Schweizerin mit Wohnsitz Basel-Stadt besetzt. Es handelt sich dabei um 2 913 von insgesamt 5 857 Angestellten.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2241,7 +2241,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:40",
+		"aktualisierungsdatum": "2024-03-28T09:22:30",
 		"id": 6423
 	},
 	{
@@ -2254,8 +2254,8 @@ var indikatorensetData = [
 			6699
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2013",
-		"lesehilfe": "2013 haben vergleichsweise wenige ausländische Staatsangestellte eine Kaderfunktion inne. Von diesen sind Personen mit deutscher Staatsbürgerschaft (137) mit Abstand am häufigsten im Kader vertreten.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2014",
+		"lesehilfe": "2014 haben vergleichsweise wenige ausländische Staatsangestellte eine Kaderfunktion inne. Von diesen sind Personen mit deutscher Staatsbürgerschaft (141) mit Abstand am häufigsten im Kader vertreten.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2280,7 +2280,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:30",
 		"id": 6424
 	},
 	{
@@ -2293,8 +2293,8 @@ var indikatorensetData = [
 			6700
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2022",
-		"lesehilfe": "2022 sind neben Schweizerinnen und Schweizern 168 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2023",
+		"lesehilfe": "2023 sind neben Schweizerinnen und Schweizern 167 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2319,7 +2319,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:31",
 		"id": 6425
 	},
 	{

@@ -7,19 +7,19 @@
       "data": [
         [
           "Oberes Kader",
-          178
+          186
         ],
         [
           "Mittleres Kader",
-          411
+          408
         ],
         [
           "Mittleres Fachkader",
-          306
+          310
         ],
         [
           "Unteres Kader",
-          611
+          679
         ],
         [
           "Unteres Fachkader",
@@ -40,19 +40,19 @@
         ],
         [
           "Mittleres Kader",
-          45
+          43
         ],
         [
           "Mittleres Fachkader",
-          35
+          30
         ],
         [
           "Unteres Kader",
-          64
+          71
         ],
         [
           "Unteres Fachkader",
-          15
+          14
         ]
       ],
       "name": "Deutschland",
@@ -73,11 +73,11 @@
         ],
         [
           "Mittleres Fachkader",
-          0
+          1
         ],
         [
           "Unteres Kader",
-          15
+          13
         ],
         [
           "Unteres Fachkader",
@@ -127,7 +127,7 @@
         ],
         [
           "Mittleres Kader",
-          11
+          10
         ],
         [
           "Mittleres Fachkader",
@@ -135,7 +135,7 @@
         ],
         [
           "Unteres Kader",
-          9
+          13
         ],
         [
           "Unteres Fachkader",
@@ -160,7 +160,7 @@
         ],
         [
           "Mittleres Fachkader",
-          1
+          0
         ],
         [
           "Unteres Kader",
@@ -193,7 +193,7 @@
         ],
         [
           "Unteres Kader",
-          2
+          3
         ],
         [
           "Unteres Fachkader",
@@ -410,7 +410,7 @@
     "text": "Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2022",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -466,7 +466,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
   },
   "exporting": {
     "filename": "6425"
