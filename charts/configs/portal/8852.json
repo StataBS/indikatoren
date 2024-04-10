@@ -985,7 +985,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2"
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2"
   },
   "subtitle": {
     "style": {
@@ -993,7 +993,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2023"
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2023"
   },
   "navigation": {
     "menuItemStyle": {
@@ -1053,7 +1053,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
   },
   "legend": {
     "layout": "horizontal",

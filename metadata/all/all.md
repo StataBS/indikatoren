@@ -267,7 +267,7 @@ id | visible | visibleInPortal | indikatorenset
 4905 | false |  | Integration-kompakt
 4906 | false |  | 
 4908 | true | true | 
-4909 | true | true | 
+4909 | true | true | Nachhaltigkeit
 4911 | true | true | 
 4912 | true | true | 
 4913 | true | true | 
