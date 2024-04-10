@@ -5,7 +5,7 @@
       "data": [
         [
           "*Befragungsjahr",
-          undefined
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -13,7 +13,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -48,7 +48,7 @@
       "data": [
         [
           "*Befragungsjahr",
-          undefined
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -56,7 +56,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -91,7 +91,7 @@
       "data": [
         [
           "*Befragungsjahr",
-          undefined
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -99,7 +99,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -138,11 +138,11 @@
         ],
         [
           "2023 (N=2 054)",
-          17.5
+          17.6
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
   },
   "exporting": {
     "allowHTML": true,

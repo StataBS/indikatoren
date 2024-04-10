@@ -421,8 +421,9 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
             },
       "align": "left",
       "x": -110
@@ -479,7 +480,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie fühlen Sie sich zurzeit gesundheitlich?», nach Altersgruppe und Befragungsjahr, Basel-Stadt, 2023"
+    "text": "«Wie fühlen Sie sich zurzeit gesundheitlich?», nach Altersgruppe 2023 und Befragungsjahr, Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -539,7 +540,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
   },
   "legend": {
     "layout": "vertical",

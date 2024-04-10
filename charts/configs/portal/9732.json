@@ -128,7 +128,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung von Krankenkassenprämien und Einkommen"
+    "text": "Entwicklung von Krankenkassenprämien und Reineinkommen"
   },
   "subtitle": {
     "text": "indexiert (2010 = 100), Basel-Stadt",
@@ -201,7 +201,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

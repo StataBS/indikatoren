@@ -21,7 +21,7 @@ var indikatorensetData = [
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kuerzel": "",
+		"kuerzel": "I.03.4.07510",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-08T09:43:55",
+		"aktualisierungsdatum": "2024-04-10T07:46:45",
 		"id": 7510
 	},
 	{
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-08T09:43:56",
+		"aktualisierungsdatum": "2024-04-10T07:46:47",
 		"id": 7511
 	},
 	{
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-08T09:43:57",
+		"aktualisierungsdatum": "2024-04-10T07:46:48",
 		"id": 8980
 	},
 	{
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-08T09:43:58",
+		"aktualisierungsdatum": "2024-04-10T07:46:50",
 		"id": 8981
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-08T09:43:59",
+		"aktualisierungsdatum": "2024-04-10T07:46:51",
 		"id": 8992
 	}
 ];
