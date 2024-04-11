@@ -86,7 +86,7 @@
         ],
         [
           "100-149 m²",
-          142
+          110
         ],
         [
           "ab 150 m²",
@@ -117,7 +117,7 @@
         ],
         [
           "100-149 m²",
-          110
+          142
         ],
         [
           "ab 150 m²",
@@ -440,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

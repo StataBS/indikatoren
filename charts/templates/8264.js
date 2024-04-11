@@ -11,13 +11,16 @@
     },
     {
       "x": 0
+    },
+    {
+      "x": 0
     }
   ]  
 },
 plotOptions: {
       series: {
           pointPadding: 0,
-          borderWidth: 0
+          borderWidth: 1
       }
   },
 tooltip: {
@@ -41,6 +44,25 @@ tooltip: {
         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
       },
     }
+  },
+  {
+    "index": 2,
+    color: "#246370",
+     "tooltip": {
+      "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+    }   
+  },
+  
+ {
+    "index": 3,
+    "type": "errorbar",
+    "tooltip": {
+      "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      },
+    }
   }
   
 ],  
@@ -57,9 +79,9 @@ tooltip: {
   },
 
 },    
- "legend": {
-  "enabled": false,
-   itemDistance: 5,
+"legend": {
+  "enabled": true,
+  itemDistance: 5,
   "layout": "horizontal",
   "verticalAlign": "top",
   "align": "left",

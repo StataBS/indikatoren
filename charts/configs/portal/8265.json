@@ -58,7 +58,7 @@
           41.8
         ]
       ],
-      "name": "Anteil in %",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -131,7 +131,141 @@
           "high": 45.6
         }
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#246370",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "Total",
+          41.1
+        ],
+        [
+          "Männer",
+          36.5
+        ],
+        [
+          "Frauen",
+          45.5
+        ],
+        [
+          "15-34 Jahre",
+          53.9
+        ],
+        [
+          "35-49 Jahre",
+          42.2
+        ],
+        [
+          "50-64 Jahre",
+          35.5
+        ],
+        [
+          "\u003E64 Jahre",
+          32.7
+        ],
+        [
+          "Obligat. Schule",
+          46
+        ],
+        [
+          "Sekundarstufe II",
+          39.4
+        ],
+        [
+          "Tertiärstufe",
+          38.7
+        ],
+        [
+          "o. Migrationsh.",
+          37.1
+        ],
+        [
+          "m. Migrationsh.",
+          47.7
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "Total",
+          "low": 39,
+          "high": 43.2
+        },
+        {
+          "name": "Männer",
+          "low": 33.4,
+          "high": 39.6
+        },
+        {
+          "name": "Frauen",
+          "low": 42.7,
+          "high": 48.3
+        },
+        {
+          "name": "15-34 Jahre",
+          "low": 49.1,
+          "high": 58.8
+        },
+        {
+          "name": "35-49 Jahre",
+          "low": 37.9,
+          "high": 46.5
+        },
+        {
+          "name": "50-64 Jahre",
+          "low": 31.8,
+          "high": 39.2
+        },
+        {
+          "name": "\u003E64 Jahre",
+          "low": 29.5,
+          "high": 36
+        },
+        {
+          "name": "Obligat. Schule",
+          "low": 38.8,
+          "high": 53.3
+        },
+        {
+          "name": "Sekundarstufe II",
+          "low": 36.2,
+          "high": 42.7
+        },
+        {
+          "name": "Tertiärstufe",
+          "low": 35.5,
+          "high": 41.9
+        },
+        {
+          "name": "o. Migrationsh.",
+          "low": 34.6,
+          "high": 39.7
+        },
+        {
+          "name": "m. Migrationsh.",
+          "low": 44.2,
+          "high": 51.2
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -193,7 +327,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -212,7 +346,7 @@
     "text": "Anteil Personen mit Einsamkeitsgefühlen"
   },
   "subtitle": {
-    "text": "in %, Grossregion Nordwestschweiz, 2017",
+    "text": "in %, Grossregion Nordwestschweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +381,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -272,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
   },
   "tooltip": {
     "shared": true

@@ -69,11 +69,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-06T08:19:52",
+		"aktualisierungsdatum": "2024-04-11T08:43:22",
 		"id": 4128
 	},
 	{
@@ -106,11 +106,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:39",
+		"aktualisierungsdatum": "2024-04-11T08:43:22",
 		"id": 4129
 	},
 	{
@@ -182,11 +182,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:30",
+		"aktualisierungsdatum": "2024-04-11T08:43:23",
 		"id": 4131
 	},
 	{
@@ -198,7 +198,6 @@ var indikatorensetData = [
 		"children": [
 			6143,
 			6297,
-			7773,
 			8417
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -226,11 +225,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:05:59",
+		"aktualisierungsdatum": "2024-04-11T08:43:24",
 		"id": 4132
 	},
 	{
@@ -266,11 +265,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:42",
+		"aktualisierungsdatum": "2024-04-11T08:43:27",
 		"id": 4133
 	},
 	{
@@ -303,11 +302,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:35",
+		"aktualisierungsdatum": "2024-04-11T08:43:27",
 		"id": 4134
 	},
 	{
@@ -346,11 +345,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:43",
+		"aktualisierungsdatum": "2024-04-11T08:43:28",
 		"id": 4135
 	},
 	{
@@ -385,11 +384,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:35",
+		"aktualisierungsdatum": "2024-04-11T08:43:29",
 		"id": 4136
 	},
 	{
@@ -424,11 +423,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:36",
+		"aktualisierungsdatum": "2024-04-11T08:43:29",
 		"id": 4137
 	},
 	{
@@ -464,11 +463,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:55",
+		"aktualisierungsdatum": "2024-04-11T08:43:30",
 		"id": 4138
 	},
 	{
@@ -501,11 +500,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:41",
+		"aktualisierungsdatum": "2024-04-11T08:43:31",
 		"id": 4139
 	},
 	{
@@ -544,11 +543,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_03_00_00_00_000",
+		"orderKey": "02_03_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:44",
+		"aktualisierungsdatum": "2024-04-11T08:43:31",
 		"id": 4140
 	},
 	{
@@ -581,11 +580,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_015",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:56",
+		"aktualisierungsdatum": "2024-04-11T08:43:32",
 		"id": 4141
 	},
 	{
@@ -618,11 +617,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:57",
+		"aktualisierungsdatum": "2024-04-11T08:43:33",
 		"id": 4142
 	},
 	{
@@ -655,11 +654,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_017",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:36",
+		"aktualisierungsdatum": "2024-04-11T08:43:34",
 		"id": 4143
 	},
 	{
@@ -731,11 +730,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_06_00_00_00_000",
+		"orderKey": "02_06_00_00_00_019",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:37",
+		"aktualisierungsdatum": "2024-04-11T08:43:34",
 		"id": 4145
 	},
 	{
@@ -768,11 +767,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_01_00_00_00_000",
+		"orderKey": "03_01_00_00_00_020",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:38",
+		"aktualisierungsdatum": "2024-04-11T08:43:35",
 		"id": 4146
 	},
 	{
@@ -842,11 +841,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:47",
+		"aktualisierungsdatum": "2024-04-11T08:43:36",
 		"id": 4148
 	},
 	{
@@ -924,11 +923,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_000",
+		"orderKey": "04_02_00_00_00_024",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T07:53:07",
+		"aktualisierungsdatum": "2024-04-11T08:43:36",
 		"id": 4150
 	},
 	{
@@ -1047,42 +1046,40 @@ var indikatorensetData = [
 		"id": 4155
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4156,
+		"chart-id": 4156,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"kuerzel": "I.50.4.4156",
-		"kuerzelKunde": "4.2.C",
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-13T13:36:02.022",
+		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "I.50.4.04156",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "4.2.C",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "05_02_00_00_00_030",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
+		"aktualisierungsdatum": "2024-04-11T08:43:38",
 		"id": 4156
 	},
 	{
@@ -1110,16 +1107,16 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.09292",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "4.1.A",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Ziel 4: Sozialpolitik",
+		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "05_01_00_00_00_026",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:25",
+		"aktualisierungsdatum": "2024-04-11T08:43:37",
 		"id": 9292
 	},
 	{
@@ -1147,16 +1144,16 @@ var indikatorensetData = [
 		"kuerzel": "I.13.3.09924",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Ziel 4: Sozialpolitik",
+		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "05_01_00_00_00_028",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:23",
+		"aktualisierungsdatum": "2024-04-11T08:43:21",
 		"id": 9924
 	}
 ];
