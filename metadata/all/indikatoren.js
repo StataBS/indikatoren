@@ -2884,7 +2884,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:35",
+		"aktualisierungsdatum": "2024-04-11T08:43:39",
 		"id": 12564
 	},
 	{
@@ -4366,12 +4366,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-06T08:19:52",
+		"aktualisierungsdatum": "2024-04-11T08:43:22",
 		"id": 4128
 	},
 	{
@@ -4404,12 +4404,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:39",
+		"aktualisierungsdatum": "2024-04-11T08:43:22",
 		"id": 4129
 	},
 	{
@@ -4482,12 +4482,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:30",
+		"aktualisierungsdatum": "2024-04-11T08:43:23",
 		"id": 4131
 	},
 	{
@@ -4499,7 +4499,6 @@ var indikatoren = [
 		"children": [
 			6143,
 			6297,
-			7773,
 			8417
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -4527,12 +4526,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:05:59",
+		"aktualisierungsdatum": "2024-04-11T08:43:24",
 		"id": 4132
 	},
 	{
@@ -4568,12 +4567,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:42",
+		"aktualisierungsdatum": "2024-04-11T08:43:27",
 		"id": 4133
 	},
 	{
@@ -4606,12 +4605,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:35",
+		"aktualisierungsdatum": "2024-04-11T08:43:27",
 		"id": 4134
 	},
 	{
@@ -4650,12 +4649,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:43",
+		"aktualisierungsdatum": "2024-04-11T08:43:28",
 		"id": 4135
 	},
 	{
@@ -4690,12 +4689,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:35",
+		"aktualisierungsdatum": "2024-04-11T08:43:29",
 		"id": 4136
 	},
 	{
@@ -4730,12 +4729,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:36",
+		"aktualisierungsdatum": "2024-04-11T08:43:29",
 		"id": 4137
 	},
 	{
@@ -4771,12 +4770,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:55",
+		"aktualisierungsdatum": "2024-04-11T08:43:30",
 		"id": 4138
 	},
 	{
@@ -4809,12 +4808,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:41",
+		"aktualisierungsdatum": "2024-04-11T08:43:31",
 		"id": 4139
 	},
 	{
@@ -4853,12 +4852,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_03_00_00_00_000",
+		"orderKey": "02_03_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:44",
+		"aktualisierungsdatum": "2024-04-11T08:43:31",
 		"id": 4140
 	},
 	{
@@ -4891,12 +4890,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_015",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:56",
+		"aktualisierungsdatum": "2024-04-11T08:43:32",
 		"id": 4141
 	},
 	{
@@ -4929,12 +4928,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:19:57",
+		"aktualisierungsdatum": "2024-04-11T08:43:33",
 		"id": 4142
 	},
 	{
@@ -4967,12 +4966,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_04_00_00_00_000",
+		"orderKey": "02_04_00_00_00_017",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:36",
+		"aktualisierungsdatum": "2024-04-11T08:43:34",
 		"id": 4143
 	},
 	{
@@ -5045,12 +5044,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_06_00_00_00_000",
+		"orderKey": "02_06_00_00_00_019",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:37",
+		"aktualisierungsdatum": "2024-04-11T08:43:34",
 		"id": 4145
 	},
 	{
@@ -5083,12 +5082,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_01_00_00_00_000",
+		"orderKey": "03_01_00_00_00_020",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:38",
+		"aktualisierungsdatum": "2024-04-11T08:43:35",
 		"id": 4146
 	},
 	{
@@ -5159,12 +5158,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:47",
+		"aktualisierungsdatum": "2024-04-11T08:43:36",
 		"id": 4148
 	},
 	{
@@ -5243,12 +5242,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_000",
+		"orderKey": "04_02_00_00_00_024",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T07:53:07",
+		"aktualisierungsdatum": "2024-04-11T08:43:36",
 		"id": 4150
 	},
 	{
@@ -5451,43 +5450,41 @@ var indikatoren = [
 		"id": 4155
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4156,
+		"chart-id": 4156,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"kuerzel": "I.50.4.4156",
-		"kuerzelKunde": "4.2.C",
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-13T13:36:02.022",
+		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "I.50.4.04156",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "4.2.C",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "05_02_00_00_00_030",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
+		"aktualisierungsdatum": "2024-04-11T08:43:38",
 		"id": 4156
 	},
 	{
@@ -51952,9 +51949,9 @@ var indikatoren = [
 			8534
 		],
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gab ein höherer Anteil Frauen (17,0%) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
-		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"subtitle": "in %, Grossregion Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2022 gab mit 17,6% ein höherer Anteil Personen an, mittel bis stark psychisch belastet zu sein als im Jahr 2017 mit 14,1%. Die am stärksten von psychischer Belastung betroffene Altergruppe im Jahr 2022 stellen mit 19,7% die Befragten zwischen 35 und 49 Jahren dar.",
+		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung der Jahre 2017 und 2022. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],
@@ -51970,7 +51967,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.2.1",
 		"stufe1": "Leben",
-		"stufe2": "1.2 Psychische Gesundheit und körperliche Integrität",
+		"stufe2": "1.2 Psychische Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51979,7 +51976,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:15",
+		"aktualisierungsdatum": "2024-04-11T08:43:24",
 		"id": 8263
 	},
 	{
@@ -51992,9 +51989,9 @@ var indikatoren = [
 			8535
 		],
 		"title": "Anteil Personen mit depressiven Symptomen",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 litten gemäss Schweizerischer Gesundheitsbefragung 8,1% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
-		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"subtitle": "in %, Grossregion Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2022 litten gemäss Schweizerischer Gesundheitsbefragung 10% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017 und 2022. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],
@@ -52010,7 +52007,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.2.2",
 		"stufe1": "Leben",
-		"stufe2": "1.2 Psychische Gesundheit und körperliche Integrität",
+		"stufe2": "1.2 Psychische Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -52019,7 +52016,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:16",
+		"aktualisierungsdatum": "2024-04-11T08:43:25",
 		"id": 8264
 	},
 	{
@@ -52032,9 +52029,9 @@ var indikatoren = [
 			8536
 		],
 		"title": "Anteil Personen mit Einsamkeitsgefühlen",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
-		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"subtitle": "in %, Grossregion Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2022 gaben 41,1% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017 und 2022. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],
@@ -52050,7 +52047,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.2.3",
 		"stufe1": "Leben",
-		"stufe2": "1.2 Psychische Gesundheit und körperliche Integrität",
+		"stufe2": "1.2 Psychische Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -52059,7 +52056,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:17",
+		"aktualisierungsdatum": "2024-04-11T08:43:26",
 		"id": 8265
 	},
 	{
@@ -69754,7 +69751,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-04T09:03:13",
+		"aktualisierungsdatum": "2024-04-11T08:43:19",
 		"id": 8995
 	},
 	{
@@ -70128,7 +70125,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-04T09:03:14",
+		"aktualisierungsdatum": "2024-04-11T08:43:20",
 		"id": 9022
 	},
 	{
@@ -70166,7 +70163,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-04T09:03:16",
+		"aktualisierungsdatum": "2024-04-11T08:43:21",
 		"id": 9023
 	},
 	{
@@ -73867,17 +73864,17 @@ var indikatoren = [
 		"kuerzel": "I.13.2.09292",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "4.1.A",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Ziel 4: Sozialpolitik",
+		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "05_01_00_00_00_026",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:25",
+		"aktualisierungsdatum": "2024-04-11T08:43:37",
 		"id": 9292
 	},
 	{
@@ -82710,17 +82707,17 @@ var indikatoren = [
 		"kuerzel": "I.13.3.09924",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Ziel 4: Sozialpolitik",
+		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "05_01_00_00_00_028",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:23",
+		"aktualisierungsdatum": "2024-04-11T08:43:21",
 		"id": 9924
 	},
 	{

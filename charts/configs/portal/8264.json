@@ -58,7 +58,7 @@
           10.8
         ]
       ],
-      "name": "Anteil in %",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -131,7 +131,141 @@
           "high": 13.4
         }
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#246370",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "Total",
+          10
+        ],
+        [
+          "Männer",
+          8.8
+        ],
+        [
+          "Frauen",
+          11.3
+        ],
+        [
+          "15-34 Jahre",
+          18.1
+        ],
+        [
+          "35-49 Jahre",
+          8.7
+        ],
+        [
+          "50-64 Jahre",
+          9.5
+        ],
+        [
+          "\u003E64 Jahre",
+          2.8
+        ],
+        [
+          "Obligat. Schule",
+          11.7
+        ],
+        [
+          "Sekundarstufe II",
+          10.2
+        ],
+        [
+          "Tertiärstufe",
+          6.6
+        ],
+        [
+          "o. Migrationsh.",
+          8
+        ],
+        [
+          "m. Migrationsh.",
+          13.1
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "Total",
+          "low": 8.5,
+          "high": 11.6
+        },
+        {
+          "name": "Männer",
+          "low": 6.6,
+          "high": 11
+        },
+        {
+          "name": "Frauen",
+          "low": 9.2,
+          "high": 13.4
+        },
+        {
+          "name": "15-34 Jahre",
+          "low": 14.1,
+          "high": 22.1
+        },
+        {
+          "name": "35-49 Jahre",
+          "low": 6.1,
+          "high": 11.4
+        },
+        {
+          "name": "50-64 Jahre",
+          "low": 6.5,
+          "high": 12.6
+        },
+        {
+          "name": "\u003E64 Jahre",
+          "low": 1.6,
+          "high": 4.1
+        },
+        {
+          "name": "Obligat. Schule",
+          "low": 4.3,
+          "high": 19
+        },
+        {
+          "name": "Sekundarstufe II",
+          "low": 7.8,
+          "high": 12.6
+        },
+        {
+          "name": "Tertiärstufe",
+          "low": 4.7,
+          "high": 8.5
+        },
+        {
+          "name": "o. Migrationsh.",
+          "low": 6.4,
+          "high": 9.6
+        },
+        {
+          "name": "m. Migrationsh.",
+          "low": 10.2,
+          "high": 16
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -193,7 +327,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -212,7 +346,7 @@
     "text": "Anteil Personen mit depressiven Symptomen"
   },
   "subtitle": {
-    "text": "in %, Grossregion Nordwestschweiz, 2017",
+    "text": "in %, Grossregion Nordwestschweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +381,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -272,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
   },
   "tooltip": {
     "shared": true

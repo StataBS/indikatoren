@@ -58,7 +58,7 @@
           17.8
         ]
       ],
-      "name": "Anteil in %",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -131,7 +131,141 @@
           "high": 20.6
         }
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#246370",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "Total",
+          17.6
+        ],
+        [
+          "Männer",
+          14
+        ],
+        [
+          "Frauen",
+          21
+        ],
+        [
+          "15-34 Jahre",
+          19.3
+        ],
+        [
+          "35-49 Jahre",
+          19.7
+        ],
+        [
+          "50-64 Jahre",
+          17.5
+        ],
+        [
+          "\u003E64 Jahre",
+          13.5
+        ],
+        [
+          "Obligat. Schule",
+          26.4
+        ],
+        [
+          "Sekundarstufe II",
+          18.9
+        ],
+        [
+          "Tertiärstufe",
+          12.9
+        ],
+        [
+          "o. Migrationsh.",
+          15.1
+        ],
+        [
+          "m. Migrationsh.",
+          21.5
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "Total",
+          "low": 15.9,
+          "high": 19.2
+        },
+        {
+          "name": "Männer",
+          "low": 11.8,
+          "high": 16.3
+        },
+        {
+          "name": "Frauen",
+          "low": 18.6,
+          "high": 23.4
+        },
+        {
+          "name": "15-34 Jahre",
+          "low": 15.6,
+          "high": 23.1
+        },
+        {
+          "name": "35-49 Jahre",
+          "low": 16.2,
+          "high": 23.3
+        },
+        {
+          "name": "50-64 Jahre",
+          "low": 14.4,
+          "high": 20.5
+        },
+        {
+          "name": "\u003E64 Jahre",
+          "low": 11.1,
+          "high": 15.9
+        },
+        {
+          "name": "Obligat. Schule",
+          "low": 19.6,
+          "high": 33.1
+        },
+        {
+          "name": "Sekundarstufe II",
+          "low": 16.3,
+          "high": 21.6
+        },
+        {
+          "name": "Tertiärstufe",
+          "low": 10.8,
+          "high": 15
+        },
+        {
+          "name": "o. Migrationsh.",
+          "low": 13.2,
+          "high": 17
+        },
+        {
+          "name": "m. Migrationsh.",
+          "low": 18.6,
+          "high": 24.5
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -193,7 +327,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -212,7 +346,7 @@
     "text": "Anteil Personen mit mittlerer bis starker psychischer Belastung"
   },
   "subtitle": {
-    "text": "in %, Grossregion Nordwestschweiz, 2017",
+    "text": "in %, Grossregion Nordwestschweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +381,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -272,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
   },
   "tooltip": {
     "shared": true
