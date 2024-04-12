@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP).\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP).\u003Cbr\u002F\u003EZuletzt geändert: 12.4.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

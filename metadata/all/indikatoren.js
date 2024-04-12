@@ -164,10 +164,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "9919",
 		"children": [],
-		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei 21% bzw. 13%.",
-		"erlaeuterungen": "Anteil AHV-/IV-Beziehende mit Ergänzungsleistungen (EL) an allen AHV-/IV-Rentnern per Ende Jahr.",
+		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV liegen diese Quoten bei 21% bzw. 13%.",
+		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen (EL) bzw. Beihilfen zur Gesamtheit der Beziehenden von AHV- bzw. IV-Renten per Ende Jahr.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
 			"Bundesamt für Sozialversicherungen (BSV)"
@@ -177,14 +177,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"description": "Quote der Ergänzungsleistungen und Beihilfen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.10031",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.4",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -193,7 +193,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:10",
+		"aktualisierungsdatum": "2024-04-12T12:04:33",
 		"id": 10031
 	},
 	{
@@ -222,7 +222,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.5",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -231,7 +231,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:11",
+		"aktualisierungsdatum": "2024-04-12T12:04:33",
 		"id": 10032
 	},
 	{
@@ -260,7 +260,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.8",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -269,7 +269,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:13",
+		"aktualisierungsdatum": "2024-04-12T12:04:35",
 		"id": 10033
 	},
 	{
@@ -307,7 +307,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:54",
+		"aktualisierungsdatum": "2024-04-12T12:04:40",
 		"id": 10034
 	},
 	{
@@ -345,7 +345,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:20",
+		"aktualisierungsdatum": "2024-04-12T12:04:41",
 		"id": 10035
 	},
 	{
@@ -383,7 +383,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:23",
+		"aktualisierungsdatum": "2024-04-12T12:04:42",
 		"id": 10036
 	},
 	{
@@ -421,7 +421,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:25",
+		"aktualisierungsdatum": "2024-04-12T12:04:44",
 		"id": 10037
 	},
 	{
@@ -459,7 +459,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:26",
+		"aktualisierungsdatum": "2024-04-12T12:04:45",
 		"id": 10038
 	},
 	{
@@ -488,7 +488,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.1.1",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Identitäten und Welten",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -497,7 +497,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:33",
+		"aktualisierungsdatum": "2024-04-12T12:04:51",
 		"id": 10039
 	},
 	{
@@ -526,7 +526,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.1.3",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Identitäten und Welten",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -535,7 +535,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:35",
+		"aktualisierungsdatum": "2024-04-12T12:04:52",
 		"id": 10040
 	},
 	{
@@ -566,7 +566,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.1.4",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Identitäten und Welten",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -575,7 +575,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:36",
+		"aktualisierungsdatum": "2024-04-12T12:04:53",
 		"id": 10041
 	},
 	{
@@ -604,7 +604,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.2",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -613,7 +613,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:40",
+		"aktualisierungsdatum": "2024-04-12T12:04:56",
 		"id": 10044
 	},
 	{
@@ -651,7 +651,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:28",
+		"aktualisierungsdatum": "2024-04-12T12:04:56",
 		"id": 10045
 	},
 	{
@@ -680,7 +680,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.7",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -689,8 +689,46 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:45",
+		"aktualisierungsdatum": "2024-04-12T12:05:00",
 		"id": 10047
+	},
+	{
+		"template": "befragungenGrundauswertung001",
+		"data-id": 10048,
+		"chart-id": 9738,
+		"filter": "",
+		"parentId": "9738",
+		"children": [],
+		"title": "Wissen um CO<sub>2</sub>-Fussabdruck",
+		"subtitle": "«Kennen Sie Ihren CO<sub>2</sub>-Fussabdruck?», Basel-Stadt, 2023",
+		"lesehilfe": "5,6% der Bevölkerung kennen ihren CO<sub>2</sub>-Fussabdruck. Bei den 50-59 Jährigen beträgt der Ja-Anteil 8,9%.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wissen um CO<sub>2</sub>-Fussabdruck",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10048",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.4.1",
+		"stufe1": "Leben",
+		"stufe2": "1.4 Erhalt der Lebensgrundlagen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_601",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-04-12T12:04:46",
+		"id": 10048
 	},
 	{
 		"template": "line001",
@@ -732,7 +770,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T08:39:29",
+		"aktualisierungsdatum": "2024-04-12T12:04:46",
 		"id": 10049
 	},
 	{
@@ -770,7 +808,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T08:32:04",
+		"aktualisierungsdatum": "2024-04-12T12:04:47",
 		"id": 10050
 	},
 	{
@@ -810,7 +848,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:29",
+		"aktualisierungsdatum": "2024-04-12T12:04:48",
 		"id": 10051
 	},
 	{
@@ -848,7 +886,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:44",
+		"aktualisierungsdatum": "2024-04-12T12:04:49",
 		"id": 10052
 	},
 	{
@@ -888,7 +926,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:32",
+		"aktualisierungsdatum": "2024-04-12T12:04:50",
 		"id": 10054
 	},
 	{
@@ -917,7 +955,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.4",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -926,7 +964,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:42",
+		"aktualisierungsdatum": "2024-04-12T12:04:57",
 		"id": 10263
 	},
 	{
@@ -964,7 +1002,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-08T12:42:48",
+		"aktualisierungsdatum": "2024-04-12T12:04:54",
 		"id": 10264
 	},
 	{
@@ -993,7 +1031,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.1",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1002,7 +1040,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:39",
+		"aktualisierungsdatum": "2024-04-12T12:04:55",
 		"id": 10265
 	},
 	{
@@ -51357,12 +51395,12 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote und Sozialhilfebeziehende",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.08241",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.1",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51371,7 +51409,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:07",
+		"aktualisierungsdatum": "2024-04-12T12:04:30",
 		"id": 8241
 	},
 	{
@@ -51397,12 +51435,12 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfefälle nach Fallstruktur",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.08242",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.2",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51411,7 +51449,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:08",
+		"aktualisierungsdatum": "2024-04-12T12:04:31",
 		"id": 8242
 	},
 	{
@@ -51442,7 +51480,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.6",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51451,7 +51489,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:05:59",
+		"aktualisierungsdatum": "2024-04-12T12:04:34",
 		"id": 8251
 	},
 	{
@@ -51489,7 +51527,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-19T08:02:44",
+		"aktualisierungsdatum": "2024-04-12T12:04:35",
 		"id": 8252
 	},
 	{
@@ -51518,7 +51556,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.1.2",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Identitäten und Welten",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51527,7 +51565,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:45",
+		"aktualisierungsdatum": "2024-04-12T12:04:52",
 		"id": 8255
 	},
 	{
@@ -51567,7 +51605,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:24",
+		"aktualisierungsdatum": "2024-04-12T12:04:37",
 		"id": 8263
 	},
 	{
@@ -51607,7 +51645,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:25",
+		"aktualisierungsdatum": "2024-04-12T12:04:38",
 		"id": 8264
 	},
 	{
@@ -51647,7 +51685,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:26",
+		"aktualisierungsdatum": "2024-04-12T12:04:39",
 		"id": 8265
 	},
 	{
@@ -51687,7 +51725,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:24",
+		"aktualisierungsdatum": "2024-04-12T12:04:43",
 		"id": 8278
 	},
 	{
@@ -51718,7 +51756,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.5",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51727,7 +51765,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:43",
+		"aktualisierungsdatum": "2024-04-12T12:04:58",
 		"id": 8279
 	},
 	{
@@ -51753,12 +51791,12 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote der Minderjährigen",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.08281",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.3",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51767,7 +51805,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:09",
+		"aktualisierungsdatum": "2024-04-12T12:04:32",
 		"id": 8281
 	},
 	{
@@ -51808,7 +51846,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:30",
+		"aktualisierungsdatum": "2024-04-12T12:04:49",
 		"id": 8283
 	},
 	{
@@ -51834,12 +51872,12 @@ var indikatoren = [
 		],
 		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
-		"kuerzel": "I.16.3.08285",
+		"unterthema": "",
+		"kuerzel": "I.16.TRPR.08285",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.8",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51848,7 +51886,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:46",
+		"aktualisierungsdatum": "2024-04-12T12:05:00",
 		"id": 8285
 	},
 	{
@@ -51888,7 +51926,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:24",
+		"aktualisierungsdatum": "2024-04-12T12:04:43",
 		"id": 8286
 	},
 	{
@@ -51919,7 +51957,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.2.4",
 		"stufe1": "Leben",
-		"stufe2": "1.2 Psychische Gesundheit und körperliche Integrität",
+		"stufe2": "1.2 Psychische Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51928,7 +51966,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:18",
+		"aktualisierungsdatum": "2024-04-12T12:04:40",
 		"id": 8287
 	},
 	{
@@ -51956,12 +51994,12 @@ var indikatoren = [
 		],
 		"description": "Sozialindex",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.08314",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "1.1.9",
 		"stufe1": "Leben",
-		"stufe2": "1.1 Armut - Prävention und Bekämpfung",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -51970,7 +52008,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:14",
+		"aktualisierungsdatum": "2024-04-12T12:04:36",
 		"id": 8314
 	},
 	{
@@ -52001,7 +52039,7 @@ var indikatoren = [
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzelKunde": "2.2.6",
 		"stufe1": "Zusammenhalt",
-		"stufe2": "2.2 Dialog, Nachbarschaft und Netzwerke",
+		"stufe2": "2.2 Dialog, Nachbarschaft und Kooperationen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -52010,7 +52048,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:44",
+		"aktualisierungsdatum": "2024-04-12T12:04:59",
 		"id": 8325
 	},
 	{

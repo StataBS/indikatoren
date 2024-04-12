@@ -1,0 +1,337 @@
+{
+  "series": [
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2023 (N=2 054)",
+          5.6
+        ],
+        [
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          7.3
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          5.3
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          3.8
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          8.9
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          4.6
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          4.5
+        ]
+      ],
+      "name": "Ja",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2023 (N=2 054)",
+          65.9
+        ],
+        [
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          50.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          61
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          64.6
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          67.8
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          74.9
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          75.5
+        ]
+      ],
+      "name": "Nein",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2023 (N=2 054)",
+          11
+        ],
+        [
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          11.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          7.9
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          13.4
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          8.9
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          12.4
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          11.4
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "*Befragungsjahr",
+          undefined
+        ],
+        [
+          "2023 (N=2 054)",
+          17.5
+        ],
+        [
+          "*Alter",
+          undefined
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          30.6
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          25.8
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          18.2
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          14.4
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          8.2
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          8.5
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    //indentation of labels, except category-titles
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "inverted": true,
+    "width": 485,
+    "height": 428,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "renderTo": "container-10048"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "Wissen um CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "«Kennen Sie Ihren CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck?», Basel-Stadt, 2023"
+  },
+  "yAxis": {
+    "max": 100,
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true,
+    "outside": true
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": false,
+    "useHTML": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 10,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 12.4.2024"
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "10048"
+  }
+}
