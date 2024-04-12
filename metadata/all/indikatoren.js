@@ -51532,46 +51532,6 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
-		"data-id": 8256,
-		"chart-id": 8256,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8527
-		],
-		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Über ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2022 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von fast 50% aus. 2013 waren rund 49% der Asylsuchenden bis 25 Jahre alt. 2022 liegt dieser Anteil noch bei 42%.",
-		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.08256",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-26",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.2 Existenzsicherung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_126",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:05",
-		"id": 8256
-	},
-	{
-		"template": "template001",
 		"data-id": 8263,
 		"chart-id": 8263,
 		"filter": "",

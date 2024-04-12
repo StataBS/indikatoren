@@ -8567,13 +8567,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
-	"8256": {
-		"metadata": "a4dece4ec0f2ba4d1f211e2ce4135d9923ac4f63",
-		"chartConfig": "130d3aa19031a948df327a7af9e106249a2fb51c",
-		"data": "ba644d34b94ac4aa1e69b3288b53cea0b236d063",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
-	},
 	"8263": {
 		"metadata": "e198ea056680af036e4e459fac8e50d93244d07c",
 		"chartConfig": "6bb72001bb387879238660ec4b16e23932dd8605",
