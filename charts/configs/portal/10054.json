@@ -218,7 +218,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Wald beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+    "text": "Quelle: Amt für Wald beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 12.4.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"

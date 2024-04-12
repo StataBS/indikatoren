@@ -1978,6 +1978,7 @@ var templatesById = {
 	"10044": "befragungen001",
 	"10045": "befragungen001",
 	"10047": "line001",
+	"10048": "befragungenGrundauswertung001",
 	"10049": "line001",
 	"10050": "befragungen001",
 	"10051": "template001",
