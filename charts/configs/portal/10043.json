@@ -1,0 +1,270 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "institutionalisiert: 2004",
+          0.299
+        ],
+        [
+          "institutionalisiert: 2007",
+          0.25
+        ],
+        [
+          "institutionalisiert: 2010",
+          0.234
+        ],
+        [
+          "institutionalisiert: 2013",
+          0.23
+        ],
+        [
+          "institutionalisiert: 2016",
+          0.261
+        ],
+        [
+          "institutionalisiert: 2020",
+          0.197
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "informell: 2004",
+          0.235
+        ],
+        [
+          "informell: 2007",
+          0.19
+        ],
+        [
+          "informell: 2010",
+          0.212
+        ],
+        [
+          "informell: 2013",
+          0.197
+        ],
+        [
+          "informell: 2016",
+          0.391
+        ],
+        [
+          "informell: 2020",
+          0.375
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "visible": true,
+      "data": [
+        [
+          "institutionalisiert: 2004",
+          0.096
+        ],
+        [
+          "institutionalisiert: 2007",
+          0.089
+        ],
+        [
+          "institutionalisiert: 2010",
+          0.174
+        ],
+        [
+          "institutionalisiert: 2013",
+          0.104
+        ],
+        [
+          "institutionalisiert: 2016",
+          0.088
+        ],
+        [
+          "institutionalisiert: 2020",
+          0.037
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "informell: 2004",
+          0.129
+        ],
+        [
+          "informell: 2007",
+          0.136
+        ],
+        [
+          "informell: 2010",
+          0.106
+        ],
+        [
+          "informell: 2013",
+          0.113
+        ],
+        [
+          "informell: 2016",
+          0.181
+        ],
+        [
+          "informell: 2020",
+          0.207
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-10043",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Beteiligung an Freiwilligenarbeit"
+  },
+  "subtitle": {
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      }
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:'+ this.series.color+'">\u25CF</span> '+ this.series.name + ': <b>'+ Highcharts.numberFormat(100 * this.y, 1, ",", " ") +'%</b><br/>';
+      },
+    "shared": false
+  },
+  "exporting": {
+    "filename": "10043"
+  }
+}
