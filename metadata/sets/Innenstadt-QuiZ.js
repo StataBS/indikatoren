@@ -691,7 +691,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag, Innenstadt Basel",
-		"lesehilfe": "An Werktagen wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 320 Einfahrten pro Tag registriert, an Samstagen waren es 5 207. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 892) gezählt, an Samstagen war das Parkhaus Elisabethen (1 798) am besten besucht.",
+		"lesehilfe": "An Werktagen wurden im Jahr 2023 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 668 Einfahrten pro Tag registriert, an Samstagen waren es 6 583. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 654) gezählt, an Samstagen war das Parkhaus Elisabethen (2 128) am besten besucht.",
 		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -716,7 +716,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:04",
+		"aktualisierungsdatum": "2024-04-16T03:13:27",
 		"id": 9594
 	},
 	{

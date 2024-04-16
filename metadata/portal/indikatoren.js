@@ -8494,8 +8494,8 @@ var indikatoren = [
 			5110
 		],
 		"title": "Anteil Ausländer",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 23,4% am tiefsten und im Wohnviertel Rosental mit 57,2% am höchsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 23,7% am tiefsten und im Wohnviertel Rosental mit 57,6% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -8523,7 +8523,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:53",
+		"aktualisierungsdatum": "2024-04-16T03:13:36",
 		"id": 4823
 	},
 	{
@@ -8622,7 +8622,7 @@ var indikatoren = [
 			8591
 		],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -8651,7 +8651,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:58",
+		"aktualisierungsdatum": "2024-04-16T03:13:36",
 		"id": 4827
 	},
 	{
@@ -9898,7 +9898,7 @@ var indikatoren = [
 		],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 123,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2023 wurden pro 1000 Einwohner 138,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -9925,7 +9925,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:40",
+		"aktualisierungsdatum": "2024-04-16T03:13:26",
 		"id": 4866
 	},
 	{
@@ -12943,7 +12943,7 @@ var indikatoren = [
 		],
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 liegt 2021 mit 15,8 Mikrogramm pro Kubikmeter unter dem Grenzwert, ebenso jener für Stickstoffdioxid, welcher 18,8 μg/m<sup>3</sup> beträgt. Der Mittelwert für PM2,5 überschreitet mit 10,7 μg/m<sup>3</sup> den Grenzwert leicht.",
+		"lesehilfe": "Die Jahresmittelwerte liegen 2023 alle unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 13,85 μg/m<sup>3</sup> für PM10 und 9,5 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 18,9 μg/m<sup>3</sup>.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -12961,18 +12961,18 @@ var indikatoren = [
 		"unterthema": "Luftschadstoffe",
 		"kuerzel": "I.02.5.06029",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL7",
+		"kuerzelKunde": "NL9",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_408",
+		"orderKey": "04_01_00_00_00_409",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:35",
+		"aktualisierungsdatum": "2024-04-16T03:13:38",
 		"id": 6029
 	},
 	{
@@ -13684,11 +13684,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			6599,
-			6644
+			6644,
+			8951
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 bildeten Deutsche mit 16 949 Personen die grösste ausländische Bevölkerungsgruppe im Kanton. Ihre Zahl hat sich seit 2003 mehr als verdoppelt. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat gegenüber 2003 abgenommen, wobei die Anzahl Italiener seit 2013 wieder etwas gestiegen ist.",
+		"lesehilfe": "Ende 2023 bilden Deutsche mit 17 472 Personen die grösste ausländische Bevölkerungsgruppe im Kanton.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13714,7 +13715,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:24",
+		"aktualisierungsdatum": "2024-04-16T03:13:27",
 		"id": 6059
 	},
 	{
@@ -13846,9 +13847,9 @@ var indikatoren = [
 		"children": [
 			6650
 		],
-		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2003",
-		"lesehilfe": "2003 bilden bei den ausländischen Männern die 35- bis 39-Jährigen und bei den ausländischen Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
+		"title": "Alterspyramide der ausländischen Bevölkerung",
+		"subtitle": "Basel-Stadt, 2004",
+		"lesehilfe": "2004 bilden bei den ausländischen Männern und Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13858,7 +13859,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"description": "Alterspyramide der ausländischen Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6065",
@@ -13874,7 +13875,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:50",
+		"aktualisierungsdatum": "2024-04-16T03:13:31",
 		"id": 6065
 	},
 	{
@@ -13886,9 +13887,9 @@ var indikatoren = [
 		"children": [
 			6651
 		],
-		"title": "Alterspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 gibt es deutlich mehr ältere Frauen als Männer. Die grössten Fünfjahresklassen bilden bei Männern und Frauen die 25- bis 29- sowie die 55- bis 59-Jährigen.",
+		"title": "Alterspyramide der Schweizer Bevölkerung",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2023 mehr Frauen als Männer. Die grössten Fünfjahresklassen bilden bei den Männern die 30- bis 34-Jährigen und bei den Frauen die 25- bis 29-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13898,7 +13899,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Alterspyramide der Schweizerinnen und Schweizer",
+		"description": "Alterspyramide der Schweizer Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6066",
@@ -13914,7 +13915,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-18T08:01:46",
+		"aktualisierungsdatum": "2024-04-16T03:13:31",
 		"id": 6066
 	},
 	{
@@ -13926,9 +13927,9 @@ var indikatoren = [
 		"children": [
 			6652
 		],
-		"title": "Alterspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 bilden bei ausländischen Männern und Frauen die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
+		"title": "Alterspyramide der ausländischen Bevölkerung",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "2023 bilden bei ausländischen Männern und Frauen die 35- bis 39-Jährigen die grösste Altersgruppe.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13938,7 +13939,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"description": "Alterspyramide der ausländischen Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.6067",
@@ -13954,7 +13955,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:50",
+		"aktualisierungsdatum": "2024-04-16T03:13:32",
 		"id": 6067
 	},
 	{
@@ -13968,7 +13969,7 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 weisen Personen aus afrikanischen den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2003 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus der Türkei am stärksten gesunken.",
+		"lesehilfe": "2023 weisen Personen aus afrikanischen Ländern den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2004 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus dem Balkan am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13994,7 +13995,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:48",
+		"aktualisierungsdatum": "2024-04-16T03:13:28",
 		"id": 6068
 	},
 	{
@@ -14008,7 +14009,7 @@ var indikatoren = [
 		],
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2003 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
+		"lesehilfe": "2023 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2004 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14034,7 +14035,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:49",
+		"aktualisierungsdatum": "2024-04-16T03:13:29",
 		"id": 6069
 	},
 	{
@@ -14048,7 +14049,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,3% am höchsten.",
+		"lesehilfe": "2023 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,8% am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14074,7 +14075,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:51",
+		"aktualisierungsdatum": "2024-04-16T03:13:33",
 		"id": 6070
 	},
 	{
@@ -14372,7 +14373,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
+		"lesehilfe": "2023 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14398,7 +14399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:51",
+		"aktualisierungsdatum": "2024-04-16T03:13:34",
 		"id": 6078
 	},
 	{
@@ -33609,7 +33610,7 @@ var indikatoren = [
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2022 57,3, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,3 Personen, die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2023 57,5, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,5 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -33635,7 +33636,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-15T08:48:25",
+		"aktualisierungsdatum": "2024-04-16T03:13:35",
 		"id": 8379
 	},
 	{
@@ -38360,7 +38361,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag, Innenstadt Basel",
-		"lesehilfe": "An Werktagen wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 320 Einfahrten pro Tag registriert, an Samstagen waren es 5 207. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 892) gezählt, an Samstagen war das Parkhaus Elisabethen (1 798) am besten besucht.",
+		"lesehilfe": "An Werktagen wurden im Jahr 2023 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 668 Einfahrten pro Tag registriert, an Samstagen waren es 6 583. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 654) gezählt, an Samstagen war das Parkhaus Elisabethen (2 128) am besten besucht.",
 		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -38386,7 +38387,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:04",
+		"aktualisierungsdatum": "2024-04-16T03:13:27",
 		"id": 9594
 	},
 	{
@@ -39615,10 +39616,12 @@ var indikatoren = [
 		"chart-id": 9741,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12554
+		],
 		"title": "Arbeitsproduktivität",
 		"subtitle": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
-		"lesehilfe": "Die Arbeitsproduktivität liegt 2020 bei 241 360 Franken pro Vollzeitäquivalent und damit um 17,1% höher als im Jahr 2011.",
+		"lesehilfe": "Die Arbeitsproduktivität liegt 2021 bei 255 571 Franken pro Vollzeitäquivalent und damit um rund 24% höher als im Jahr 2011.",
 		"erlaeuterungen": "Die Arbeitsproduktivität ist definiert als das Verhältnis von wirtschaftlicher Tätigkeit (Output) zu eingesetzter Arbeit. Für diesen Indikator wird als Mass die Bruttowertschöpfung (BWS) pro Vollzeitäquivalent (VZÄ) verwendet. Die Beschäftigung in VZÄ resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -39636,16 +39639,16 @@ var indikatoren = [
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE2",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Arbeitsmarkt",
+		"stufe2": "Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "06_02_00_00_00_602",
+		"orderKey": "06_01_00_00_00_602",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:46",
+		"aktualisierungsdatum": "2024-04-16T03:13:39",
 		"id": 9741
 	},
 	{
