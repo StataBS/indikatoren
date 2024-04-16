@@ -17,11 +17,11 @@
         ],
         [
           2013,
-          201960
+          201961
         ],
         [
           2014,
-          204897
+          204896
         ],
         [
           2015,
@@ -33,7 +33,7 @@
         ],
         [
           2017,
-          237591
+          237590
         ],
         [
           2018,
@@ -45,10 +45,14 @@
         ],
         [
           2020,
-          241360
+          245158
+        ],
+        [
+          2021,
+          255571
         ]
       ],
-      "name": "Arbeitsproduktivität (Franken pro VZÄ)"
+      "name": "Arbeitsproduktivität"
     }
   ],
   "chart": {
@@ -165,7 +169,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

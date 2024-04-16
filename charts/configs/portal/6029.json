@@ -130,7 +130,15 @@
         ],
         [
           2021,
-          15.75
+          15.8
+        ],
+        [
+          2022,
+          17
+        ],
+        [
+          2023,
+          13.8
         ]
       ],
       "name": "Feinstaub (PM10)"
@@ -268,6 +276,14 @@
         [
           2021,
           30
+        ],
+        [
+          2022,
+          30
+        ],
+        [
+          2023,
+          30
         ]
       ],
       "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
@@ -404,6 +420,14 @@
         [
           2021,
           20
+        ],
+        [
+          2022,
+          20
+        ],
+        [
+          2023,
+          20
         ]
       ],
       "name": "Langzeitgrenzwert PM10"
@@ -531,15 +555,23 @@
         ],
         [
           2019,
-          22.99
+          25.82
         ],
         [
           2020,
-          18.75
+          21.32
         ],
         [
           2021,
-          18.81
+          21.9
+        ],
+        [
+          2022,
+          21.6
+        ],
+        [
+          2023,
+          18.93
         ]
       ],
       "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
@@ -554,127 +586,135 @@
       "data": [
         [
           1991,
-          undefined
+          null
         ],
         [
           1992,
-          undefined
+          null
         ],
         [
           1993,
-          undefined
+          null
         ],
         [
           1994,
-          undefined
+          null
         ],
         [
           1995,
-          undefined
+          null
         ],
         [
           1996,
-          undefined
+          null
         ],
         [
           1997,
-          undefined
+          null
         ],
         [
           1998,
-          undefined
+          null
         ],
         [
           1999,
-          undefined
+          null
         ],
         [
           2000,
-          undefined
+          null
         ],
         [
           2001,
-          undefined
+          null
         ],
         [
           2002,
-          undefined
+          null
         ],
         [
           2003,
-          undefined
+          null
         ],
         [
           2004,
-          undefined
+          null
         ],
         [
           2005,
-          undefined
+          null
         ],
         [
           2006,
-          undefined
+          null
         ],
         [
           2007,
-          undefined
+          null
         ],
         [
           2008,
-          undefined
+          null
         ],
         [
           2009,
-          undefined
+          null
         ],
         [
           2010,
-          undefined
+          null
         ],
         [
           2011,
-          undefined
+          null
         ],
         [
           2012,
-          undefined
+          null
         ],
         [
           2013,
-          undefined
+          null
         ],
         [
           2014,
-          undefined
+          null
         ],
         [
           2015,
-          undefined
+          null
         ],
         [
           2016,
-          undefined
+          null
         ],
         [
           2017,
-          undefined
+          null
         ],
         [
           2018,
-          13.5
+          13.6
         ],
         [
           2019,
-          10.67
+          10.7
         ],
         [
           2020,
-          10.15
+          10.16
         ],
         [
           2021,
-          10.71
+          10.91
+        ],
+        [
+          2022,
+          11.7
+        ],
+        [
+          2023,
+          9.5
         ]
       ],
       "name": "Feinstaub (PM2,5)"
@@ -691,111 +731,111 @@
       "data": [
         [
           1991,
-          undefined
+          null
         ],
         [
           1992,
-          undefined
+          null
         ],
         [
           1993,
-          undefined
+          null
         ],
         [
           1994,
-          undefined
+          null
         ],
         [
           1995,
-          undefined
+          null
         ],
         [
           1996,
-          undefined
+          null
         ],
         [
           1997,
-          undefined
+          null
         ],
         [
           1998,
-          undefined
+          null
         ],
         [
           1999,
-          undefined
+          null
         ],
         [
           2000,
-          undefined
+          null
         ],
         [
           2001,
-          undefined
+          null
         ],
         [
           2002,
-          undefined
+          null
         ],
         [
           2003,
-          undefined
+          null
         ],
         [
           2004,
-          undefined
+          null
         ],
         [
           2005,
-          undefined
+          null
         ],
         [
           2006,
-          undefined
+          null
         ],
         [
           2007,
-          undefined
+          null
         ],
         [
           2008,
-          undefined
+          null
         ],
         [
           2009,
-          undefined
+          null
         ],
         [
           2010,
-          undefined
+          null
         ],
         [
           2011,
-          undefined
+          null
         ],
         [
           2012,
-          undefined
+          null
         ],
         [
           2013,
-          undefined
+          null
         ],
         [
           2014,
-          undefined
+          null
         ],
         [
           2015,
-          undefined
+          null
         ],
         [
           2016,
-          undefined
+          null
         ],
         [
           2017,
-          undefined
+          null
         ],
         [
           2018,
@@ -811,6 +851,14 @@
         ],
         [
           2021,
+          10
+        ],
+        [
+          2022,
+          10
+        ],
+        [
+          2023,
           10
         ]
       ],
@@ -953,7 +1001,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
