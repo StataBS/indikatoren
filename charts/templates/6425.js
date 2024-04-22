@@ -42,8 +42,12 @@
     },
     "xAxis": {
       "type": "category",
-      "tickInterval": 1
+      "tickInterval": 1, 
+
     },
+    yAxis: {
+			max: 800
+		},
     "legend": {
       "enabled": true,
       "layout": "horizontal",

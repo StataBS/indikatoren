@@ -17148,7 +17148,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:31",
+		"aktualisierungsdatum": "2024-04-22T09:13:01",
 		"id": 6425
 	},
 	{
