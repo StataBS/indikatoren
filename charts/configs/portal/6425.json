@@ -433,7 +433,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "max": 800
   },
   "legend": {
     "symbolRadius": 0,
@@ -466,7 +467,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2024"
   },
   "exporting": {
     "filename": "6425"
