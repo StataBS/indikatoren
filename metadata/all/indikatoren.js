@@ -40799,7 +40799,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
+		"lesehilfe": "<br>Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei. Für März 2024 sind zum Saldo der natürlichen Bevölkerungsbewegungen zurzeit keine Werte verfügbar.",
 		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -40825,7 +40825,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:22",
+		"aktualisierungsdatum": "2024-04-18T08:33:22",
 		"id": 7515
 	},
 	{
@@ -45146,8 +45146,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Im Februar 2024 stieg die Einwohnerzahl in fast allen Wohnvierteln und Gemeinden von Basel-Stadt. Nur die Wohnviertel Altstadt Kleinbasel und Hirzbrunnen verzeichneten einen tieferen Wert als im Januar 2024.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Im März 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln. In neun Wohnvierteln sowie in Riehen sank sie. In den Quartieren Vorstädte und Wettstein sowie in Bettingen blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -45174,7 +45174,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:24",
+		"aktualisierungsdatum": "2024-04-18T08:33:23",
 		"id": 7763
 	},
 	{
@@ -67407,7 +67407,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:19",
+		"aktualisierungsdatum": "2024-04-18T08:33:24",
 		"id": 8995
 	},
 	{
@@ -67781,7 +67781,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:20",
+		"aktualisierungsdatum": "2024-04-18T08:33:25",
 		"id": 9022
 	},
 	{
@@ -67819,7 +67819,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:21",
+		"aktualisierungsdatum": "2024-04-18T08:33:25",
 		"id": 9023
 	},
 	{
