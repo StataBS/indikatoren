@@ -41,6 +41,8 @@
 		*/
 		$(document).ready(function () {
 			var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
+			var type = window.decodeURIComponent($.url('?type'));
+			type = (type !== 'undefined') ? type : 'png'
 			var exportServer = 'https://highcharts-export.stata.pd.intranet.bs.ch/'
 			//console.log(protocol + '://' + hostname);
 			if (indikatorensetNames.indexOf(indikatorenset) > -1) {
@@ -55,7 +57,7 @@
 						//# to have difficulties in loading script ressources for all chart.html at the same time (millisecond)
 						setTimeout(function () {
 							$('<iframe/>', {
-								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=' + exportServer,
+								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=' + type + '&view=print&exportServer=' + exportServer,
 								frameborder: 0,
 								class: "noScrolling",
 								scrolling: "no",
