@@ -146,15 +146,18 @@ else {
 
 function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer, filename){                  
   switch (exportType){
-    case "jpg":                 
+    case "jpg":
       exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting, exportServer, filename);                     
-      break;                    
-    case "png": 
+      break;
+    case "png":
       exportThumbnail(id, "image/png", thumbnailOfflineExporting, exportServer, filename);
       break;
-    case "svg":              
+    case "svg":
       exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting, exportServer, filename);
-      break;           
+      break;
+    case "pdf":
+      exportThumbnail(id, "application/pdf", thumbnailOfflineExporting, exportServer, filename);
+      break;
   }
 }          
       
