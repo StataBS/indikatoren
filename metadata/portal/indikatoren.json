@@ -3954,7 +3954,7 @@
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.4152",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "5.2",
+		"kuerzelKunde": "",
 		"stufe1": "Familienmietzinsbeiträge",
 		"stufe2": "",
 		"stufe3": "",
@@ -3965,7 +3965,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:26",
+		"aktualisierungsdatum": "2024-04-25T03:27:31",
 		"id": 4152
 	},
 	{
@@ -35128,7 +35128,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-18T08:33:24",
+		"aktualisierungsdatum": "2024-04-25T03:27:33",
 		"id": 8995
 	},
 	{
@@ -35300,7 +35300,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-18T08:33:25",
+		"aktualisierungsdatum": "2024-04-25T03:27:33",
 		"id": 9022
 	},
 	{
@@ -35338,7 +35338,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-18T08:33:25",
+		"aktualisierungsdatum": "2024-04-25T03:27:35",
 		"id": 9023
 	},
 	{

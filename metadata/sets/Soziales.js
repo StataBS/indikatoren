@@ -26,7 +26,7 @@ var indikatorensetData = [
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.4152",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "5.2",
+		"kuerzelKunde": "",
 		"stufe1": "Familienmietzinsbeiträge",
 		"stufe2": "",
 		"stufe3": "",
@@ -36,7 +36,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:26",
+		"aktualisierungsdatum": "2024-04-25T03:27:31",
 		"id": 4152
 	},
 	{
