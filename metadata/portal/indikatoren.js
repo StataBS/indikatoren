@@ -25726,7 +25726,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "90 329 Logiernächte wurden im Februar 2024 in den Basler Hotelbetrieben gebucht, 6 329 bzw. 7,5% mehr als im Januar. Im Vergleich zum Februar 2023 entspricht dies einer Zunahme um 5,1% bzw. 4 423 Übernachtungen. Die inländischen Gäste buchten 39 279 Logiernächte (+10,6%), die Gäste aus dem Ausland 51 050 Übernachtungen (+1,3%).",
+		"lesehilfe": "104 620 Logiernächte wurden im März 2024 in den Basler Hotelbetrieben gebucht, 14 291 bzw. 15,8% mehr als im Februar. Im Vergleich zum März 2023 entspricht dies einem Rückgang um 2,4% bzw. 2 622 Übernachtungen. Die inländischen Gäste buchten 38 718 Logiernächte (+2,8%), die Gäste aus dem Ausland 65 902 Übernachtungen (-5,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25752,7 +25752,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:23",
+		"aktualisierungsdatum": "2024-04-26T07:12:36",
 		"id": 7516
 	},
 	{
@@ -25763,8 +25763,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 30%.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 35%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25777,7 +25777,7 @@ var indikatoren = [
 		"description": "Auslastung der Hotels nach Kategorie",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kuerzel": "",
+		"kuerzel": "I.10.1.07517",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -25790,7 +25790,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-22T08:59:23",
+		"aktualisierungsdatum": "2024-04-26T07:12:37",
 		"id": 7517
 	},
 	{
