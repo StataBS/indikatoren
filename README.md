@@ -9,12 +9,16 @@ npm run build
 ```
 - Build, commit and push as explained further down. 
 
-## Create png files of each chart within an indikatorenset
-- In Chrome, open print.html?Indikatorenset=indikatorensetname 
-- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder.
+## Create png/pdf files of each chart within an indikatorenset
+- In Chrome, open print.html?Indikatorenset=indikatorensetname or print.html?Indikatorenset=indikatorensetname&type=pdf
+    - use keyword `view` to decide if indicator-title is included
+        - &view=print: no title
+        - &view=portal: title
+        - &view=indikatorenset: number and title
+- Chrome will download a png/pdf file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder.
 - It uses a [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server) deployed on the StatA-Server [pdstatasvpapp05](highcharts-export.stata.pd.intranet.bs.ch)  
 - To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
-- To download a single chart as png, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://[c9-workspace-url]:8081&id=[chart-id]
+- To download a single chart as pn/pdfg, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://highcharts-export.stata.pd.intranet.bs.ch/&id=[chart-id]&thumbnailType=[pdf/png]
 
 
 ## Manually create svg thumbnails 
