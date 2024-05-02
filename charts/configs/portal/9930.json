@@ -1,0 +1,292 @@
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2014",
+          1738
+        ],
+        [
+          "2015",
+          1843
+        ],
+        [
+          "2016",
+          1899
+        ],
+        [
+          "2017",
+          2332
+        ],
+        [
+          "2018",
+          2572
+        ],
+        [
+          "2019",
+          2618
+        ],
+        [
+          "2020",
+          2061
+        ],
+        [
+          "2021",
+          2761
+        ],
+        [
+          "2022",
+          3037
+        ],
+        [
+          "2023",
+          3104
+        ]
+      ],
+      "name": "Tagesferien Stadt Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2014",
+          153
+        ],
+        [
+          "2015",
+          220
+        ],
+        [
+          "2016",
+          179
+        ],
+        [
+          "2017",
+          169
+        ],
+        [
+          "2018",
+          175
+        ],
+        [
+          "2019",
+          214
+        ],
+        [
+          "2020",
+          183
+        ],
+        [
+          "2021",
+          251
+        ],
+        [
+          "2022",
+          220
+        ],
+        [
+          "2023",
+          252
+        ]
+      ],
+      "name": "Tagesferien Riehen\u002FBettingen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "type": "line",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          556
+        ],
+        [
+          "2021",
+          755
+        ],
+        [
+          "2022",
+          897
+        ],
+        [
+          "2023",
+          1111
+        ]
+      ],
+      "name": "Ferienbetreuung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "spacingBottom": 55,
+    "renderTo": "container-9930"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "pointWidth": 25,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Schülerinnen und Schüler in Tagesferien und Ferienbetreuung auf Primarstufe"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9930"
+  }
+}

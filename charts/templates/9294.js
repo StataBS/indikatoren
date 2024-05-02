@@ -49,7 +49,7 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "20"
+      //"pointWidth": "20"
     },
     {
       "color": "#7d60a0",

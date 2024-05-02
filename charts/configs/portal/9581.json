@@ -62,6 +62,10 @@
         [
           2022,
           14645
+        ],
+        [
+          2023,
+          14517
         ]
       ],
       "name": "Innenstadt"
@@ -129,6 +133,10 @@
         [
           2022,
           204550
+        ],
+        [
+          2023,
+          206308
         ]
       ],
       "name": "Kanton BS"
@@ -259,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -875,8 +875,8 @@ var indikatorensetData = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022 gegenüber 2003",
-		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. die Gruppen sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023 gegenüber 2004",
+		"lesehilfe": "Zwischen 2004 und 2023 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2023 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -901,7 +901,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:07",
+		"aktualisierungsdatum": "2024-05-02T08:42:53",
 		"id": 6079
 	},
 	{
@@ -2334,7 +2334,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "2022 werden 4 913 Schweizerinnen und Schweizer von der Sozialhilfe unterstützt. An zweiter Stelle folgen 821 Personen mit türkischer Staatsangehörigkeit.",
+		"lesehilfe": "2023 werden 4 722 Schweizerinnen und Schweizer von der Sozialhilfe unterstützt. An zweiter Stelle folgen 719 Personen mit türkischer Staatsangehörigkeit.",
 		"erlaeuterungen": "Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2346,7 +2346,7 @@ var indikatorensetData = [
 		],
 		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6426",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-1",
@@ -2359,7 +2359,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:45",
+		"aktualisierungsdatum": "2024-05-02T08:42:56",
 		"id": 6426
 	},
 	{
@@ -2373,7 +2373,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "2022 weisen Personen aus arabischen Ländern mit 34,6% die höchste und deutsche Staatsangehörige mit 2,2% die tiefste Sozialhilfequote auf. Im Vergleich zu 2021 ist die Quote bei allen Ländergruppen ausser jener der arabischen gesunken.",
+		"lesehilfe": "2023 weisen Personen aus afrikanischen Ländern mit 32,4% die höchste und deutsche Staatsangehörige mit 2,0% die tiefste Sozialhilfequote auf.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2385,7 +2385,7 @@ var indikatorensetData = [
 		],
 		"description": "Sozialhilfequote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6427",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-2",
@@ -2398,7 +2398,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:45",
+		"aktualisierungsdatum": "2024-05-02T08:42:57",
 		"id": 6427
 	},
 	{
@@ -2411,8 +2411,8 @@ var indikatorensetData = [
 			6703
 		],
 		"title": "Sozialhilfequote der ausländischen Bevölkerung",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2022",
-		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten auf. Dabei ist bei den  Ausländern die Sozialhilfequote bei den 5- bis 9-Jährigen, bei den Ausländerinnen bei den 5- bis 9- sowie den 10- bis 14-Jährigen am höchsten. Bei den Erwachsenen ist die Sozialhilfequote bei beiden Geschlechtern zwischen 55 und 59 Jahren am höchsten.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten auf. Dabei ist sowohl  bei den Ausländern als auch den Ausländerinnen die Sozialhilfequote bei den 5- bis 9-Jährigen am höchsten. Bei den Erwachsenen ist die Sozialhilfequote bei beiden Geschlechtern zwischen 55 und 59 Jahren am höchsten.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2424,7 +2424,7 @@ var indikatorensetData = [
 		],
 		"description": "Sozialhilfequote der ausländischen Bevölkerung",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6428",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-4",
@@ -2437,7 +2437,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:46",
+		"aktualisierungsdatum": "2024-05-02T08:42:58",
 		"id": 6428
 	},
 	{
@@ -3202,7 +3202,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,7 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2023 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,7 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3216,7 +3216,7 @@ var indikatorensetData = [
 		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06482",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D4-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -3228,7 +3228,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:47",
+		"aktualisierungsdatum": "2024-05-02T08:42:59",
 		"id": 6482
 	},
 	{
@@ -3280,9 +3280,9 @@ var indikatorensetData = [
 		"children": [
 			6725
 		],
-		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 51,2 die höchste Beschuldigtenrate auf. Bei Schweizer Männern dieser Altersgruppe lag die Rate bei 25,1.",
+		"title": "Beschuldigte Erwachsene nach Altersgruppe",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 56,4 die höchste Beschuldigtenrate auf. Bei Schweizer Männern dieser Altersgruppe lag die Rate bei 23,9.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3293,7 +3293,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beschuldigte Erwachsene",
+		"description": "Beschuldigte Erwachsene nach Altersgruppe",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.6484",
@@ -3308,7 +3308,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:18",
+		"aktualisierungsdatum": "2024-05-02T08:43:00",
 		"id": 6484
 	},
 	{
@@ -3322,7 +3322,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte ausländische Erwachsene",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2021 von 371 auf 392.",
+		"lesehilfe": "Im Jahr 2023 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2022 von 392 auf 371.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3348,7 +3348,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:49",
+		"aktualisierungsdatum": "2024-05-02T08:43:01",
 		"id": 6485
 	},
 	{
@@ -3442,9 +3442,9 @@ var indikatorensetData = [
 		"children": [
 			6729
 		],
-		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 wurden ausländische Jugendliche häufiger einer Straftat beschuldigt als Schweizer Jugendliche der gleichen Altersgruppe.",
+		"title": "Beschuldigte Jugendliche nach Altersgruppe",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 wurden ausländische Jugendliche häufiger einer Straftat beschuldigt als Schweizer Jugendliche der gleichen Altersgruppe.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt. Die Auswertung umfasst die Jahre seit Inkrafttreten der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3455,7 +3455,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beschuldigte Jugendliche",
+		"description": "Beschuldigte Jugendliche nach Altersgruppe",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.6489",
@@ -3470,7 +3470,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:50",
+		"aktualisierungsdatum": "2024-05-02T08:43:02",
 		"id": 6489
 	},
 	{
@@ -3484,7 +3484,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte ausländische Jugendliche",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Von 2011 bis 2022 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 71. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg von 16 auf 37 Personen. 2022 wurden in allen drei Kategorien die höchsten Werte innerhalb des Beobachtungszeitraums gemessen.",
+		"lesehilfe": "Von 2011 bis 2023 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 80. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg von 16 auf 33 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung. Die berücksichtigten beschuldigten Jugendlichen von 10 bis 17 Jahren wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -3509,7 +3509,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:51",
+		"aktualisierungsdatum": "2024-05-02T08:43:03",
 		"id": 6490
 	},
 	{
@@ -3522,8 +3522,8 @@ var indikatorensetData = [
 			6731
 		],
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 22,4% resp. 28,9% das häufigste Delikt.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 32,9% resp. 40,3% das häufigste Delikt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -3536,7 +3536,7 @@ var indikatorensetData = [
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06491",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D5-5",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -3548,7 +3548,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:52",
+		"aktualisierungsdatum": "2024-05-02T08:43:04",
 		"id": 6491
 	},
 	{

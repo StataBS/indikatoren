@@ -44,6 +44,10 @@
         [
           2022,
           null
+        ],
+        [
+          2023,
+          null
         ]
       ],
       "name": "Basel (bis 2017)"
@@ -92,12 +96,16 @@
         [
           2022,
           5.3
+        ],
+        [
+          2023,
+          5.1
         ]
       ],
       "name": "Basel"
     },
     {
-      "color": "#246370",
+      "color": "#008AC3",
       "id": 2,
       "data": [
         [
@@ -139,6 +147,10 @@
         [
           2022,
           2.7
+        ],
+        [
+          2023,
+          2.5
         ]
       ],
       "name": "Riehen"
@@ -186,6 +198,10 @@
         [
           2022,
           1.7
+        ],
+        [
+          2023,
+          2.4
         ]
       ],
       "name": "Bettingen"
@@ -233,6 +249,10 @@
         ],
         [
           2022,
+          null
+        ],
+        [
+          2023,
           null
         ]
       ],
@@ -282,6 +302,10 @@
         [
           2022,
           5
+        ],
+        [
+          2023,
+          4.8
         ]
       ],
       "name": "Kanton Basel-Stadt"
@@ -343,7 +367,7 @@
     "text": "Sozialhilfequote nach Gemeinde"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -416,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

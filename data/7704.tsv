@@ -1,24 +1,21 @@
-﻿""	Erdgas	Heizöl	Fernwärme	Anderer/Kein Energieträger
+﻿"jahr_wv"	"Erdgas"	"Heizöl"	"Fernwärme"	"Anderer/Kein Energieträger"
 2014: Messe	81	43	173	64
 2014: Erlenmatt	7	3	14	11
-.
 2015: Messe	77	48	168	65
 2015: Erlenmatt	7	3	24	6
-..
 2016: Messe	77	38	179	61
 2016: Erlenmatt	7	3	25	5
-...
 2017: Messe	76	39	179	58
 2017: Erlenmatt	7	3	28	7
-....
 2018: Messe	76	39	184	54
 2018: Erlenmatt	7	3	31	6
-.....
 2019: Messe	71	28	220	34
 2019: Erlenmatt	6	2	33	12
-......
 2020: Messe	72	22	226	33
 2020: Erlenmatt	5	2	34	12
-.......
 2021: Messe	75	20	223	34
 2021: Erlenmatt	2	2	37	12
+2022: Messe	70	19	222	34
+2022: Erlenmatt	1	2	39	16
+2023: Messe	68	18	225	34
+2023: Erlenmatt	1	1	50	9
