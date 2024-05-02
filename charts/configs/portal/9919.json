@@ -237,7 +237,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr"
+    "text": "Quote der Ergänzungsleistungen und Beihilfen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -310,7 +310,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

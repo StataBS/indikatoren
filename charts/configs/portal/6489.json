@@ -5,11 +5,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          15.7
+          13.5
         ],
         [
           "15 bis 17 Jahre",
-          35.3
+          39.6
         ]
       ],
       "name": "Schweizer",
@@ -20,11 +20,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          3.8
+          6.6
         ],
         [
           "15 bis 17 Jahre",
-          9
+          11.8
         ]
       ],
       "name": "Schweizerinnen",
@@ -35,11 +35,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          29.2
+          33.3
         ],
         [
           "15 bis 17 Jahre",
-          67.5
+          101.6
         ]
       ],
       "name": "Ausländer",
@@ -50,11 +50,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          12.1
+          12.2
         ],
         [
           "15 bis 17 Jahre",
-          17.7
+          21.8
         ]
       ],
       "name": "Ausländerinnen",
@@ -134,10 +134,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beschuldigte Jugendliche"
+    "text": "Beschuldigte Jugendliche nach Altersgruppe"
   },
   "subtitle": {
-    "text": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
+    "text": "pro 1000 Jugendliche, nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -193,7 +193,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

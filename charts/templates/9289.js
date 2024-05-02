@@ -18,7 +18,7 @@
     "series": [
       {"color": "#3C3C3C",id:0, showInLegend: true, },
       { color: "#3C3C3C",id:1, linkedTo:'0'}, 
-      {"color": "#246370",id:2},
+      {"color": "#008AC3",id:2},
       {"color": "#B00000",id:3},
       { color: "#FF8028",id:4, showInLegend: true, }, 
       {"color": "#FF8028",id:5, linkedTo:'4'},

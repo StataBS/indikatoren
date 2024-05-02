@@ -1450,6 +1450,82 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
+		"data-id": 12520,
+		"chart-id": 12520,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Mittagsmodul der Tagesstrukturen auf Primarstufe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2023 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 080 Plätze zur Verfügung. Mit durchschnittlich 3 840 Nutzenden sind diese Angebote zu 94% ausgelastet.",
+		"erlaeuterungen": "Stichwoche im September.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Mittagsmodul der Tagesstrukturen auf Primarstufe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12520",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesstrukturen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "11_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:25",
+		"id": 12520
+	},
+	{
+		"template": "template001",
+		"data-id": 12521,
+		"chart-id": 12521,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nachmittagsmodule der Tagesstrukturen auf Primarstufe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2023 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 3 748 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 1 859 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 706 Mal.",
+		"erlaeuterungen": "Stichwoche im September. In schuleigenen und -externen Tagesstrukturen werden am Nachmittag ein Modul 1 (von 13:30 Uhr bis 15:45 Uhr) und ein Modul 2 (zweite Nachmittagshälfte) angeboten. Modul 2 kann als langes (15:45 bis 18:00 Uhr) oder kurzes Modul (16:30 bis 18:00 Uhr) gebucht werden (je nach Unterrichtsschluss). Für eine Betreuung während des gesamten Nachmittags müssen beide Module gebucht werden. Bei den schuleigenen Tagesstrukturen ist das Platzangebot für Modul 1 und 2 identisch. Bei einigen schulexternen Tagesstrukturen unterscheiden sich die Kapazitäten der Module.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nachmittagsmodule der Tagesstrukturen auf Primarstufe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12521",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesstrukturen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "11_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:27",
+		"id": 12521
+	},
+	{
+		"template": "template001",
 		"data-id": 12532,
 		"chart-id": 12532,
 		"filter": "",
@@ -1488,6 +1564,44 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
+		"data-id": 12561,
+		"chart-id": 12561,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nutzung der Tagesstrukturen auf Sekundarstufe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2023 nutzen in der Stichwoche durchschnittlich 1 187 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 379 Schülerinnen und Schülern genutzt.",
+		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote ohne vorgängige Buchung spontan in Anspruch genommen werden können, gibt es keine feste Anzahl Plätze. Stattdessen wird die in der Stichtwoche durchschnittliche Nutzung pro Tag ausgewiesen.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nutzung der Tagesstrukturen auf Sekundarstufe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12561",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesstrukturen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "11_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:28",
+		"id": 12561
+	},
+	{
+		"template": "template001",
 		"data-id": 12564,
 		"chart-id": 12564,
 		"filter": "",
@@ -1523,6 +1637,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-04-11T08:43:39",
 		"id": 12564
+	},
+	{
+		"template": "template001",
+		"data-id": 12602,
+		"chart-id": 12602,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Belegte Plätze in Tagesfamilien",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Anzahl Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2023 werden 44 Plätze gezählt, 2014 waren es 98.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Belegte Plätze in Tagesfamilien",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12602",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesbetreuung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "10_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:29",
+		"id": 12602
 	},
 	{
 		"template": "line001",
@@ -3506,7 +3658,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2022 47% aus, 40% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2023 mehr als 47% aus, 40% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Kategorie Andere Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3532,7 +3684,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:32",
+		"aktualisierungsdatum": "2024-05-02T08:42:45",
 		"id": 4141
 	},
 	{
@@ -3544,7 +3696,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Familienhaushalte nach Zusammensetzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 40% im Jahr 2013 auf 36% im Jahr 2022.",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 42% im Jahr 2011 auf 36% im Jahr 2023.",
 		"erlaeuterungen": "Personen, die in derselben Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3570,7 +3722,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:33",
+		"aktualisierungsdatum": "2024-05-02T08:42:46",
 		"id": 4142
 	},
 	{
@@ -3965,7 +4117,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-25T03:27:31",
+		"aktualisierungsdatum": "2024-05-02T08:42:16",
 		"id": 4152
 	},
 	{
@@ -4032,7 +4184,7 @@ var indikatoren = [
 		"unterthema": "Notwohnen",
 		"kuerzel": "I.13.3.04154",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "7.1",
+		"kuerzelKunde": "",
 		"stufe1": "Notwohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -4043,7 +4195,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:26",
+		"aktualisierungsdatum": "2024-05-02T08:42:17",
 		"id": 4154
 	},
 	{
@@ -8452,8 +8604,8 @@ var indikatoren = [
 			5109
 		],
 		"title": "Sozialhilfequote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Klybeck beziehen 10,6% der Bevölkerung Sozialhilfe. Das ist der höchste Wert im Kanton. Auf dem Bruderholz beziehen 1,5% der Bevölkerung Sozialhilfe. Das ist der niedrigste Wert.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen beziehen 9,8% der Bevölkerung Sozialhilfe. Auf dem Bruderholz beziehen 1,2% der Bevölkerung Sozialhilfe, was dem niedrigsten Wert aller Wohnviertel entspricht.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -8467,8 +8619,8 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "",
+		"unterthema": "Sozialhilfe",
+		"kuerzel": "I.13.3.04822",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-1.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
@@ -8481,7 +8633,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:47",
+		"aktualisierungsdatum": "2024-05-02T08:43:05",
 		"id": 4822
 	},
 	{
@@ -8536,8 +8688,8 @@ var indikatoren = [
 			5112
 		],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2022 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2023 im Wohnviertel Altstadt Kleinbasel mit 35,3% am höchsten. Der niedrigste Wert wird mit 12,5% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -8565,7 +8717,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:13",
+		"aktualisierungsdatum": "2024-05-02T08:43:06",
 		"id": 4825
 	},
 	{
@@ -9051,9 +9203,9 @@ var indikatoren = [
 			5124
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (54,0%) und im Wohnviertel Wettstein am höchsten (80,9%).",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (55,3%) und im Wohnviertel Wettstein am höchsten (82,1%).",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gabe es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -9080,7 +9232,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-03T08:19:04",
+		"aktualisierungsdatum": "2024-05-02T08:43:10",
 		"id": 4837
 	},
 	{
@@ -11344,7 +11496,7 @@ var indikatoren = [
 		],
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
 		"subtitle": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
-		"lesehilfe": "Von den 4 691 aktiven Sozialhilfedossiers Ende 2022 weisen 2 567 (54,7%) eine Unterstützungsdauer von über 36 Monaten auf. 353 Fälle (7,5%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"lesehilfe": "Von den 4 547 aktiven Sozialhilfedossiers Ende 2023 weisen 2 456 (54,0%) eine Unterstützungsdauer von über 36 Monaten auf. 359 Fälle (7,9%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
 		"erlaeuterungen": "Bis 2015 nur Stadt Basel, seit 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
@@ -11363,16 +11515,16 @@ var indikatoren = [
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW7",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Gesundheit",
+		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_307",
+		"orderKey": "03_03_00_00_00_307",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:43",
+		"aktualisierungsdatum": "2024-05-02T08:43:07",
 		"id": 5185
 	},
 	{
@@ -12986,8 +13138,8 @@ var indikatoren = [
 		],
 		"title": "Wasserqualität: AOX-Konzentration",
 		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2022 0,059 mg pro Liter gereinigtem Abwasser. Sie lag damit trotz Anstieg weiterhin unter dem Grenzwert von 0,080 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Konzentration betrug im Jahr 2023 0,084 mg pro Liter gereinigtem Abwasser. Sie lag damit leicht über dem Grenzwert von 0,080 mg/l. Der Anstieg ist wahrscheinlich darauf zurückzuführen, dass seit 2023 der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen ist, wodurch mehr industrielle Abwässer mit höheren AOX-Werten in die ARA Basel gelangen.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert. Seit 2023 ist der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen.<br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -13001,18 +13153,18 @@ var indikatoren = [
 		"unterthema": "Wasser",
 		"kuerzel": "I.02.19.06030",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL9",
+		"kuerzelKunde": "NL10",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_409",
+		"orderKey": "04_01_00_00_00_410",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-09T09:06:06",
+		"aktualisierungsdatum": "2024-05-02T08:43:08",
 		"id": 6030
 	},
 	{
@@ -14412,8 +14564,8 @@ var indikatoren = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022 gegenüber 2003",
-		"lesehilfe": "Zwischen 2003 und 2022 sind die Segregationsindices fast aller Gruppen gesunken, d. h. die Gruppen sind 2022 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023 gegenüber 2004",
+		"lesehilfe": "Zwischen 2004 und 2023 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2023 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14439,7 +14591,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:07",
+		"aktualisierungsdatum": "2024-05-02T08:42:53",
 		"id": 6079
 	},
 	{
@@ -15945,9 +16097,9 @@ var indikatoren = [
 			6392
 		],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,5% auf. In der Altstadt Grossbasel, Bettingen und dem Bachletten liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 10,6% respektive 10,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,2% auf. Klybeck und Kleinhüningen sind mit je 9,8% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -15958,7 +16110,7 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote und Sozialhilfebeziehende",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.06380",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C13-1",
@@ -15972,7 +16124,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:44",
+		"aktualisierungsdatum": "2024-05-02T08:42:54",
 		"id": 6380
 	},
 	{
@@ -17162,7 +17314,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "2022 werden 4 913 Schweizerinnen und Schweizer von der Sozialhilfe unterstützt. An zweiter Stelle folgen 821 Personen mit türkischer Staatsangehörigkeit.",
+		"lesehilfe": "2023 werden 4 722 Schweizerinnen und Schweizer von der Sozialhilfe unterstützt. An zweiter Stelle folgen 719 Personen mit türkischer Staatsangehörigkeit.",
 		"erlaeuterungen": "Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -17174,7 +17326,7 @@ var indikatoren = [
 		],
 		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6426",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-1",
@@ -17188,7 +17340,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:45",
+		"aktualisierungsdatum": "2024-05-02T08:42:56",
 		"id": 6426
 	},
 	{
@@ -17202,7 +17354,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "2022 weisen Personen aus arabischen Ländern mit 34,6% die höchste und deutsche Staatsangehörige mit 2,2% die tiefste Sozialhilfequote auf. Im Vergleich zu 2021 ist die Quote bei allen Ländergruppen ausser jener der arabischen gesunken.",
+		"lesehilfe": "2023 weisen Personen aus afrikanischen Ländern mit 32,4% die höchste und deutsche Staatsangehörige mit 2,0% die tiefste Sozialhilfequote auf.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -17214,7 +17366,7 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6427",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-2",
@@ -17228,7 +17380,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:45",
+		"aktualisierungsdatum": "2024-05-02T08:42:57",
 		"id": 6427
 	},
 	{
@@ -17241,8 +17393,8 @@ var indikatoren = [
 			6703
 		],
 		"title": "Sozialhilfequote der ausländischen Bevölkerung",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2022",
-		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten auf. Dabei ist bei den  Ausländern die Sozialhilfequote bei den 5- bis 9-Jährigen, bei den Ausländerinnen bei den 5- bis 9- sowie den 10- bis 14-Jährigen am höchsten. Bei den Erwachsenen ist die Sozialhilfequote bei beiden Geschlechtern zwischen 55 und 59 Jahren am höchsten.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten auf. Dabei ist sowohl  bei den Ausländern als auch den Ausländerinnen die Sozialhilfequote bei den 5- bis 9-Jährigen am höchsten. Bei den Erwachsenen ist die Sozialhilfequote bei beiden Geschlechtern zwischen 55 und 59 Jahren am höchsten.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -17254,7 +17406,7 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote der ausländischen Bevölkerung",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.6428",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C4-4",
@@ -17268,7 +17420,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:46",
+		"aktualisierungsdatum": "2024-05-02T08:42:58",
 		"id": 6428
 	},
 	{
@@ -18778,7 +18930,7 @@ var indikatoren = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,7 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2023 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,7 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18792,7 +18944,7 @@ var indikatoren = [
 		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06482",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D4-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -18805,7 +18957,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:47",
+		"aktualisierungsdatum": "2024-05-02T08:42:59",
 		"id": 6482
 	},
 	{
@@ -18817,9 +18969,9 @@ var indikatoren = [
 		"children": [
 			6725
 		],
-		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 51,2 die höchste Beschuldigtenrate auf. Bei Schweizer Männern dieser Altersgruppe lag die Rate bei 25,1.",
+		"title": "Beschuldigte Erwachsene nach Altersgruppe",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 wiesen junge ausländische Männer zwischen 18 und 24 Jahren mit 56,4 die höchste Beschuldigtenrate auf. Bei Schweizer Männern dieser Altersgruppe lag die Rate bei 23,9.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18830,7 +18982,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beschuldigte Erwachsene",
+		"description": "Beschuldigte Erwachsene nach Altersgruppe",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.6484",
@@ -18846,7 +18998,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:18",
+		"aktualisierungsdatum": "2024-05-02T08:43:00",
 		"id": 6484
 	},
 	{
@@ -18860,7 +19012,7 @@ var indikatoren = [
 		],
 		"title": "Beschuldigte ausländische Erwachsene",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2021 von 371 auf 392.",
+		"lesehilfe": "Im Jahr 2023 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2022 von 392 auf 371.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18887,7 +19039,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:49",
+		"aktualisierungsdatum": "2024-05-02T08:43:01",
 		"id": 6485
 	},
 	{
@@ -18940,9 +19092,9 @@ var indikatoren = [
 		"children": [
 			6729
 		],
-		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 wurden ausländische Jugendliche häufiger einer Straftat beschuldigt als Schweizer Jugendliche der gleichen Altersgruppe.",
+		"title": "Beschuldigte Jugendliche nach Altersgruppe",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 wurden ausländische Jugendliche häufiger einer Straftat beschuldigt als Schweizer Jugendliche der gleichen Altersgruppe.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt. Die Auswertung umfasst die Jahre seit Inkrafttreten der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18953,7 +19105,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beschuldigte Jugendliche",
+		"description": "Beschuldigte Jugendliche nach Altersgruppe",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.6489",
@@ -18969,7 +19121,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:50",
+		"aktualisierungsdatum": "2024-05-02T08:43:02",
 		"id": 6489
 	},
 	{
@@ -18983,7 +19135,7 @@ var indikatoren = [
 		],
 		"title": "Beschuldigte ausländische Jugendliche",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Von 2011 bis 2022 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 71. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg von 16 auf 37 Personen. 2022 wurden in allen drei Kategorien die höchsten Werte innerhalb des Beobachtungszeitraums gemessen.",
+		"lesehilfe": "Von 2011 bis 2023 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 80. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg von 16 auf 33 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung. Die berücksichtigten beschuldigten Jugendlichen von 10 bis 17 Jahren wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -19009,7 +19161,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:51",
+		"aktualisierungsdatum": "2024-05-02T08:43:03",
 		"id": 6490
 	},
 	{
@@ -19022,8 +19174,8 @@ var indikatoren = [
 			6731
 		],
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 22,4% resp. 28,9% das häufigste Delikt.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 32,9% resp. 40,3% das häufigste Delikt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -19036,7 +19188,7 @@ var indikatoren = [
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06491",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D5-5",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -19049,7 +19201,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-04T08:17:52",
+		"aktualisierungsdatum": "2024-05-02T08:43:04",
 		"id": 6491
 	},
 	{
@@ -25609,7 +25761,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist seit März 2023 tendenziell rückläufig. Im März 2024 wurde mit 0,8% der tiefste Wert erreicht.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im April 2024 mit 1,1% wieder auf den Stand von Januar gestiegen; dies nach 0,9% im Februar und 0,8% im März.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25637,7 +25789,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-04T09:03:09",
+		"aktualisierungsdatum": "2024-05-02T08:42:13",
 		"id": 7512
 	},
 	{
@@ -25649,7 +25801,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2023 weiter gestiegen, wenn auch etwas weniger stark als 2022. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2023 auf +2,0%. Im Januar 2024 sind die Preise gegenüber Dezember 2023 im Schnitt stabil geblieben; im Februar 2024 um 0,5% und im März 2024 um 0,1% gegenüber dem jeweiligen Vormonat gestiegen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2023 weiter gestiegen, wenn auch etwas weniger stark als 2022. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2023 auf 2,0%. Im Januar 2024 sind die Preise gegenüber Dezember 2023 im Schnitt stabil geblieben; im Februar 2024 haben sie sich gegenüber dem Vormonat um 0,5%, im März um 0,1% und im April dann um 0,3% erhöht.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25676,7 +25828,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-04T09:03:11",
+		"aktualisierungsdatum": "2024-05-02T08:42:15",
 		"id": 7513
 	},
 	{
@@ -28319,7 +28471,7 @@ var indikatoren = [
 		"description": "Heizsysteme nach Energieträger",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "",
+		"kuerzel": "I.08.1.07704",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "7.07",
 		"stufe1": "7 Raum und Umwelt",
@@ -28332,7 +28484,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2024-05-02T08:42:52",
 		"id": 7704
 	},
 	{
@@ -29686,8 +29838,8 @@ var indikatoren = [
 		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2021 einen negativen Umzugssaldo auf, d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt ist der Umzugssaldo 2021 ebenfalls negativ (-39). Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2022 einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -29712,7 +29864,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:09",
+		"aktualisierungsdatum": "2024-05-02T08:42:47",
 		"id": 7764
 	},
 	{
@@ -36156,11 +36308,13 @@ var indikatoren = [
 		"chart-id": 9289,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9925
+		],
 		"title": "Sozialhilfequote nach Gemeinde",
-		"subtitle": "",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2022 bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich. Die Stadt Basel weist 2022 eine Quote von 5,3% aus, Riehen 2,7% und Bettingen 1,7%.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst. Bis 2017 galt für die Anzahl Beziehender folgende Definition: Alle Personen mit Dossiertyp «Sozialhilfefall», «Asyl» oder «Flüchtling» die im Verlauf eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Auf die Werte von Riehen und Bettingen hat diese Umstellung keinen Einfluss.",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2023 bei 4,8%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2023 eine Quote von 5,1% aus, Riehen eine Quote von 2,5% und Bettingen eine Quote von 2,4%.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -36171,22 +36325,60 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfequote nach Gemeinde",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "",
+		"unterthema": "Sozialhilfe",
+		"kuerzel": "I.13.3.09289",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-03",
-		"stufe1": "Kernindikatoren",
+		"kuerzelKunde": "",
+		"stufe1": "Sozialhilfe",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "09_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T09:11:17",
+		"aktualisierungsdatum": "2024-05-02T08:42:19",
 		"id": 9289
+	},
+	{
+		"template": "template001",
+		"data-id": 9291,
+		"chart-id": 9291,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Plätze in Kindertagesstätten",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende Oktober 2023 stehen in den Kindertagesstätten (Kitas) insgesamt 4 448 Plätze zur Verfügung. Davon bestehen 3 629 Plätze Kindertagesstätten mit  Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Plätze in Kindertagesstätten",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09291",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesbetreuung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "10_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:20",
+		"id": 9291
 	},
 	{
 		"template": "line001",
@@ -36197,10 +36389,10 @@ var indikatoren = [
 		"children": [
 			9934
 		],
-		"title": "Beziehende von Prämienverbilligung",
-		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
-		"lesehilfe": "Mit 51 711 Beziehenden erhält Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. PV: Prämienverbilligung, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
+		"title": "Anzahl und Quote der Beziehenden von Prämienverbilligung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Mit 51 231 Beziehenden erhält Ende des Jahres 2023 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung (PV).",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Quote der Beziehenden von Prämienverbilligung entspricht dem Verhältnis der Beziehenden von Prämienverbilligung zur Wohnbevölkerung per Ende des Jahres. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die Prämienverbilligung im Rahmen jener Leistungen ausbezahlt erhalten, sind einberechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung"
@@ -36210,23 +36402,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beziehende von Prämienverbilligung",
+		"description": "Anzahl und Quote der Beziehenden von Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09294",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-06",
-		"stufe1": "Kernindikatoren",
+		"kuerzelKunde": "",
+		"stufe1": "Prämienverbilligung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_006",
+		"orderKey": "08_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:28",
+		"aktualisierungsdatum": "2024-05-02T08:42:22",
 		"id": 9294
 	},
 	{
@@ -36437,7 +36629,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "Im Verlaufe des Jahres 2022 wurden insgesamt 10 282 Personen finanziell durch die Sozialhilfe unterstützt. Die kantonale Sozialhilfequote liegt bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich.",
+		"lesehilfe": "Im Verlaufe des Jahres 2023 wurden insgesamt 9 988 Personen finanziell durch die Sozialhilfe unterstützt. Die kantonale Sozialhilfequote liegt bei 4,8%. Sie sinkt seit dem Jahr 2017 kontinuierlich.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -36449,7 +36641,7 @@ var indikatoren = [
 		],
 		"description": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.09372",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "2.5",
@@ -36463,7 +36655,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:47",
+		"aktualisierungsdatum": "2024-05-02T08:42:51",
 		"id": 9372
 	},
 	{
@@ -37972,7 +38164,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt leben im Jahr 2022 14 645 Menschen. Dies sind 13,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 8,1% auf 204 550.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2023 14 517 Menschen. Dies sind 12,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,0% auf 206 308.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37999,7 +38191,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:06",
+		"aktualisierungsdatum": "2024-05-02T08:42:48",
 		"id": 9581
 	},
 	{
@@ -38011,7 +38203,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 28,6%. Im Kanton Basel-Stadt liegt die Sesshaftigkeit Ende 2022 bei 33,7%.",
+		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2023 bei 28,6%, im Kanton Basel-Stadt bei 33,2%.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung eines Gebietes in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38038,7 +38230,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:06",
+		"aktualisierungsdatum": "2024-05-02T08:42:50",
 		"id": 9582
 	},
 	{
@@ -39804,6 +39996,158 @@ var indikatoren = [
 		"id": 9862
 	},
 	{
+		"template": "template001",
+		"data-id": 9915,
+		"chart-id": 9915,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Stipendien nach Ausbildungstyp",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Verlauf des Jahres 2022 werden insgesamt 1 953 Stipendien vergeben. Davon gehen 29% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. Knapp 37% der Begünstigten befinden sich in der beruflichen Grundbildung und knapp 34% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Amt für Ausbildungsbeiträge Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Stipendien nach Ausbildungstyp",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09915",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Ausbildungsbeiträge",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:23",
+		"id": 9915
+	},
+	{
+		"template": "template001",
+		"data-id": 9916,
+		"chart-id": 9916,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Kostenübernahmegarantien nach Leistung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Von den insgesamt 3 316 Kostenübernahmegarantien per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Kostenübernahmegarantien nach Leistung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09916",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Behindertenhilfe",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:38",
+		"id": 9916
+	},
+	{
+		"template": "template001",
+		"data-id": 9917,
+		"chart-id": 9917,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Personen mit Kostenübernahmegarantien",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2 254 Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KüG zugute.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Personen mit Kostenübernahmegarantien",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09917",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Behindertenhilfe",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:39",
+		"id": 9917
+	},
+	{
+		"template": "line001",
+		"data-id": 9918,
+		"chart-id": 8250,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2023 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 036, jene mit EL zur IV bei 6 591. Beihilfen werden an 5 505 (AHV) respektive 4 183 Personen (IV) ausbezahlt.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09918",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Ergänzungsleistungen und Beihilfen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:40",
+		"id": 9918
+	},
+	{
 		"template": "line001",
 		"data-id": 9919,
 		"chart-id": 9919,
@@ -39812,10 +40156,10 @@ var indikatoren = [
 		"children": [
 			10031
 		],
-		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei 21% bzw. 13%.",
-		"erlaeuterungen": "Anteil AHV-/IV-Beziehende mit Ergänzungsleistungen (EL) an allen AHV-/IV-Rentnern per Ende Jahr.",
+		"lesehilfe": "69% der Personen mit IV erhalten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV liegen diese Quoten bei 21% bzw. 13%.",
+		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen bzw. Beihilfen zur Gesamtheit der Beziehenden von AHV- bzw. IV-Renten per Ende Jahr. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
 			"Bundesamt für Sozialversicherungen (BSV)"
@@ -39825,23 +40169,327 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"description": "Quote der Ergänzungsleistungen und Beihilfen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09919",
 		"kennzahlenset": "Soziales",
 		"kuerzelKunde": "",
-		"stufe1": "",
+		"stufe1": "Ergänzungsleistungen und Beihilfen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:27",
+		"aktualisierungsdatum": "2024-05-02T08:42:41",
 		"id": 9919
+	},
+	{
+		"template": "line001",
+		"data-id": 9920,
+		"chart-id": 9920,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Anzahl der Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) liegt im Jahr 2023 auf ähnlichem Niveau wie im Vorjahr. Per Ende des Jahres 2023 werden 2 190 Mietverhältnisse unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2023 bei 5 435 Franken.",
+		"erlaeuterungen": "Bestand per Ende des Jahres.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09920",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Familienmietzinsbeiträge",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:42",
+		"id": 9920
+	},
+	{
+		"template": "template001",
+		"data-id": 9922,
+		"chart-id": 9922,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Übernachtungen in den Notschlafstellen nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2023 werden insgesamt 18 393 Übernachtungen in den Notschlafstellen gezählt. 4 254 entfallen auf Frauen, 14 139 auf Männer.",
+		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, diejenige für Männer maximal 75 Plätze. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt.",
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Übernachtungen in den Notschlafstellen nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.09922",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Notschlafstellen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:44",
+		"id": 9922
+	},
+	{
+		"template": "line001",
+		"data-id": 9923,
+		"chart-id": 9923,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Auslastungsquote der Notschlafstellen nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Auslastung der Notschlafstelle für Frauen liegt im Jahr 2023 bei 42%, jene der Notschlafstelle für Männer bei 52%. Die Auslastung fällt gegenüber 2022 bei beiden Geschlechtern höher aus.",
+		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, diejenige für Männer maximal 75 Plätze. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt. Die jährliche Auslastungsquote entspricht dem Verhältnis des Totals an Übernachtungen während eines Jahres zur Anzahl der maximal möglichen Übernachtungen im entsprechenden Jahr.",
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Auslastungsquote der Notschlafstellen nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Notwohnen",
+		"kuerzel": "I.13.3.09923",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Notschlafstellen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:30",
+		"id": 9923
+	},
+	{
+		"template": "line001",
+		"data-id": 9927,
+		"chart-id": 9927,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Zahlfälle und Personen in der Sozialhilfe ohne Asylbereich",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Verlauf des Jahres 2023 werden insgesamt 9 119 Personen in 6 221 Zahlfällen finanziell unterstützt. Im Jahr 2022 waren es 9 412 Personen in 6 380 Fällen. Seit 2018 ist sowohl die Zahl der beziehenden Personen als auch der Zahlfälle rückläufig.",
+		"erlaeuterungen": "Hier sind nur Zahlfälle und Personen mit Dossiertyp Sozialhilfe berücksichtigt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Ein Zahlfall kann mehrere Personen umfassen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zahlfälle und Personen in der Sozialhilfe ohne Asylbereich",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe",
+		"kuerzel": "I.13.3.09927",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Sozialhilfe",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "09_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:33",
+		"id": 9927
+	},
+	{
+		"template": "template001",
+		"data-id": 9930,
+		"chart-id": 9930,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Schülerinnen und Schüler in Tagesferien und Ferienbetreuung auf Primarstufe",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler der Primarstufe nutzen im Verlauf des Jahres 2023 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise buchbare Ferienbetreuung an den Schulen nehmen im Berichtsjahr 1 111 Schülerinnen und Schüler in Anspruch.",
+		"erlaeuterungen": "Die Ferienangebote stehen den Primarschul- und Kindergartenkindern während 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19-Pandemie lediglich während 11 Wochen angeboten.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Schülerinnen und Schüler in Tagesferien und Ferienbetreuung auf Primarstufe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09930",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesstrukturen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "11_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:34",
+		"id": 9930
+	},
+	{
+		"template": "template001",
+		"data-id": 9931,
+		"chart-id": 9931,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Kinder in Kindertagesstätten und Tagesfamilien",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "5 611 Kinder werden Ende Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Kinder in Kindertagesstätten und Tagesfamilien",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09931",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Tagesbetreuung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "10_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:35",
+		"id": 9931
+	},
+	{
+		"template": "template001",
+		"data-id": 9932,
+		"chart-id": 9932,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beziehende von Überbrückungsleistungen nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende Jahr 2023 beziehen 34 Personen Überbrückungsleistungen, 21 davon sind Männer, 13 davon sind Frauen.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Überbrückungsleistungen richten sich an arbeitslose Personen nach dem 60. Altersjahr, deren Anspruch auf Leistungen der Arbeitslosenversicherung endet. Die Leistung endet in der Regel bei Erreichen des ordentlichen Rentenalters. Die Überbrückungsleistungen wurden per 1. Juli 2021 eingeführt.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beziehende von Überbrückungsleistungen nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09932",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Überbrückungsleistungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "12_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:36",
+		"id": 9932
+	},
+	{
+		"template": "template001",
+		"data-id": 9933,
+		"chart-id": 9933,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Fälle der Alimentenhilfe nach Fallart",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2023 werden bei der Alimentenhilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Ein Fall umfasst eine Mutter oder einen Vater mit einem oder mehreren Kindern mit Anrecht auf Alimentenbevorschussung. Bei reinen Inkassofällen führt die Alimentenhilfe das Inkasso durch, leistet aber keine Bevorschussung.",
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Fälle der Alimentenhilfe nach Fallart",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09933",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "",
+		"stufe1": "Alimentenhilfe",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-05-02T08:42:24",
+		"id": 9933
 	}
 ];

@@ -4,7 +4,6 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "20",
       "data": [
         [
           2005,
@@ -77,6 +76,10 @@
         [
           2022,
           51711
+        ],
+        [
+          2023,
+          51231
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -164,9 +167,13 @@
         [
           2022,
           25.28037155
+        ],
+        [
+          2023,
+          24.8322895864436
         ]
       ],
-      "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
+      "name": "Quote der PV-Beziehenden an der Wohnbevölkerung (rechte Skala)"
     }
   ],
   "chart": {
@@ -215,10 +222,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beziehende von Prämienverbilligung"
+    "text": "Anzahl und Quote der Beziehenden von Prämienverbilligung"
   },
   "subtitle": {
-    "text": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -300,7 +307,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -28,6 +28,10 @@
         [
           "2022",
           4913
+        ],
+        [
+          "2023",
+          4722
         ]
       ],
       "name": "Schweiz",
@@ -61,6 +65,10 @@
         [
           "2022",
           380
+        ],
+        [
+          "2023",
+          356
         ]
       ],
       "name": "Deutschland",
@@ -94,6 +102,10 @@
         [
           "2022",
           362
+        ],
+        [
+          "2023",
+          368
         ]
       ],
       "name": "Italien",
@@ -127,6 +139,10 @@
         [
           "2022",
           821
+        ],
+        [
+          "2023",
+          719
         ]
       ],
       "name": "Türkei",
@@ -160,6 +176,10 @@
         [
           "2022",
           571
+        ],
+        [
+          "2023",
+          584
         ]
       ],
       "name": "EU-West + EFTA + UK",
@@ -193,6 +213,10 @@
         [
           "2022",
           323
+        ],
+        [
+          "2023",
+          325
         ]
       ],
       "name": "EU-Ost",
@@ -226,6 +250,10 @@
         [
           "2022",
           589
+        ],
+        [
+          "2023",
+          596
         ]
       ],
       "name": "Balkan",
@@ -259,6 +287,10 @@
         [
           "2022",
           264
+        ],
+        [
+          "2023",
+          231
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -292,6 +324,10 @@
         [
           "2022",
           630
+        ],
+        [
+          "2023",
+          621
         ]
       ],
       "name": "Arabische Länder",
@@ -325,6 +361,10 @@
         [
           "2022",
           676
+        ],
+        [
+          "2023",
+          689
         ]
       ],
       "name": "Afrikanische Länder",
@@ -358,6 +398,10 @@
         [
           "2022",
           496
+        ],
+        [
+          "2023",
+          536
         ]
       ],
       "name": "Übrige Länder",
@@ -507,7 +551,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -2035,7 +2035,7 @@ id | visible | visibleInPortal | indikatorenset
 9287 | true | true | 
 9289 | true | true | Soziales
 9290 | false |  | Soziales
-9291 | true | false | Soziales
+9291 | true | true | Soziales
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
 9294 | true | true | Soziales
@@ -2264,8 +2264,21 @@ id | visible | visibleInPortal | indikatorenset
 9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9915 | true | true | Soziales
+9916 | true | true | Soziales
+9917 | true | true | Soziales
+9918 | true | true | Soziales
 9919 | true | true | Soziales
+9920 | true | true | Soziales
+9922 | true | true | Soziales
+9923 | true | true | Soziales
 9924 | true | false | Wohnraumentwicklung
+9926 | true | false | Soziales
+9927 | true | true | Soziales
+9930 | true | true | Soziales
+9931 | true | true | Soziales
+9932 | true | true | Soziales
+9933 | true | true | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
@@ -2346,5 +2359,9 @@ id | visible | visibleInPortal | indikatorenset
 12516 | true | false | 
 12517 | true | false | 
 12519 | true | false | 
+12520 | true | true | Soziales
+12521 | true | true | Soziales
 12532 | true | true | Nachhaltigkeit
+12561 | true | true | Soziales
 12564 | true | true | Richtplan
+12602 | true | true | Soziales

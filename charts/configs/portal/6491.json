@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweizer",
-          22.4
+          32.86
         ],
         [
           "Ausländer",
-          28.87
+          40.31
         ]
       ],
       "name": "Diebstahl",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Schweizer",
-          14.4
+          7.14
         ],
         [
           "Ausländer",
-          9.86
+          5.24
         ]
       ],
       "name": "Sachbeschädigung",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Schweizer",
-          3.2
+          6.43
         ],
         [
           "Ausländer",
-          3.52
+          6.28
         ]
       ],
       "name": "Körperverletzung",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Schweizer",
-          4
+          1.43
         ],
         [
           "Ausländer",
-          1.41
+          1.05
         ]
       ],
       "name": "Betäubungsmittelkonsum",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Schweizer",
-          4
+          7.14
         ],
         [
           "Ausländer",
-          9.15
+          7.85
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          52
+          45
         ],
         [
           "Ausländer",
-          47.18
+          39.27
         ]
       ],
       "name": "Übrige",
@@ -183,7 +183,7 @@
     "text": "Beschuldigte Jugendliche nach Straftatbestand"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

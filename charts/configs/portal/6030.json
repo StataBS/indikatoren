@@ -77,7 +77,11 @@
         ],
         [
           2022,
-          0.059
+          0.06
+        ],
+        [
+          2023,
+          0.084
         ]
       ],
       "name": "AOX-Konzentration"
@@ -168,6 +172,10 @@
         ],
         [
           2022,
+          0.08
+        ],
+        [
+          2023,
           0.08
         ]
       ],
@@ -297,7 +305,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2023"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

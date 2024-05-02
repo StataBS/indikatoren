@@ -58,6 +58,10 @@
         [
           2022,
           7.7
+        ],
+        [
+          2023,
+          7.7
         ]
       ],
       "name": "Schweiz"
@@ -120,6 +124,10 @@
         [
           2022,
           4.7
+        ],
+        [
+          2023,
+          5.2
         ]
       ],
       "name": "Deutschland"
@@ -182,6 +190,10 @@
         [
           2022,
           11.1
+        ],
+        [
+          2023,
+          8.3
         ]
       ],
       "name": "Italien"
@@ -231,7 +243,7 @@
         ],
         [
           2019,
-          25.1
+          24.9
         ],
         [
           2020,
@@ -244,6 +256,10 @@
         [
           2022,
           19.8
+        ],
+        [
+          2023,
+          20.2
         ]
       ],
       "name": "Türkei"
@@ -306,6 +322,10 @@
         [
           2022,
           8.4
+        ],
+        [
+          2023,
+          8.1
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -368,6 +388,10 @@
         [
           2022,
           11.2
+        ],
+        [
+          2023,
+          14
         ]
       ],
       "name": "EU-Ost"
@@ -389,7 +413,7 @@
         ],
         [
           2012,
-          29.8
+          29.6
         ],
         [
           2013,
@@ -430,6 +454,10 @@
         [
           2022,
           16.7
+        ],
+        [
+          2023,
+          22.2
         ]
       ],
       "name": "Balkan"
@@ -492,6 +520,10 @@
         [
           2022,
           26.8
+        ],
+        [
+          2023,
+          21.3
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -509,7 +541,7 @@
         ],
         [
           2011,
-          260.5
+          264.6
         ],
         [
           2012,
@@ -549,11 +581,15 @@
         ],
         [
           2021,
-          82.1
+          81.2
         ],
         [
           2022,
-          95.8
+          95.7
+        ],
+        [
+          2023,
+          119.5
         ]
       ],
       "name": "Arabische Länder"
@@ -616,6 +652,10 @@
         [
           2022,
           35
+        ],
+        [
+          2023,
+          42.8
         ]
       ],
       "name": "Afrikanische Länder"
@@ -637,7 +677,7 @@
         ],
         [
           2012,
-          14.3
+          14.5
         ],
         [
           2013,
@@ -661,7 +701,7 @@
         ],
         [
           2018,
-          14.5
+          14.3
         ],
         [
           2019,
@@ -678,6 +718,10 @@
         [
           2022,
           12.1
+        ],
+        [
+          2023,
+          10.1
         ]
       ],
       "name": "Übrige Länder"
@@ -827,7 +871,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
     "shared": false,

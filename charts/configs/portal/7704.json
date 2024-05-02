@@ -17,20 +17,12 @@
           7
         ],
         [
-          " ",
-          undefined
-        ],
-        [
           "2015: Messe",
           77
         ],
         [
           "2015: Erlenmatt",
           7
-        ],
-        [
-          "  ",
-          undefined
         ],
         [
           "2016: Messe",
@@ -41,20 +33,12 @@
           7
         ],
         [
-          "   ",
-          undefined
-        ],
-        [
           "2017: Messe",
           76
         ],
         [
           "2017: Erlenmatt",
           7
-        ],
-        [
-          "    ",
-          undefined
         ],
         [
           "2018: Messe",
@@ -65,20 +49,12 @@
           7
         ],
         [
-          "     ",
-          undefined
-        ],
-        [
           "2019: Messe",
           71
         ],
         [
           "2019: Erlenmatt",
           6
-        ],
-        [
-          "      ",
-          undefined
         ],
         [
           "2020: Messe",
@@ -89,16 +65,28 @@
           5
         ],
         [
-          "       ",
-          undefined
-        ],
-        [
           "2021: Messe",
           75
         ],
         [
           "2021: Erlenmatt",
           2
+        ],
+        [
+          "2022: Messe",
+          70
+        ],
+        [
+          "2022: Erlenmatt",
+          1
+        ],
+        [
+          "2023: Messe",
+          68
+        ],
+        [
+          "2023: Erlenmatt",
+          1
         ]
       ],
       "name": "Erdgas",
@@ -121,20 +109,12 @@
           3
         ],
         [
-          " ",
-          undefined
-        ],
-        [
           "2015: Messe",
           48
         ],
         [
           "2015: Erlenmatt",
           3
-        ],
-        [
-          "  ",
-          undefined
         ],
         [
           "2016: Messe",
@@ -145,20 +125,12 @@
           3
         ],
         [
-          "   ",
-          undefined
-        ],
-        [
           "2017: Messe",
           39
         ],
         [
           "2017: Erlenmatt",
           3
-        ],
-        [
-          "    ",
-          undefined
         ],
         [
           "2018: Messe",
@@ -169,20 +141,12 @@
           3
         ],
         [
-          "     ",
-          undefined
-        ],
-        [
           "2019: Messe",
           28
         ],
         [
           "2019: Erlenmatt",
           2
-        ],
-        [
-          "      ",
-          undefined
         ],
         [
           "2020: Messe",
@@ -193,16 +157,28 @@
           2
         ],
         [
-          "       ",
-          undefined
-        ],
-        [
           "2021: Messe",
           20
         ],
         [
           "2021: Erlenmatt",
           2
+        ],
+        [
+          "2022: Messe",
+          19
+        ],
+        [
+          "2022: Erlenmatt",
+          2
+        ],
+        [
+          "2023: Messe",
+          18
+        ],
+        [
+          "2023: Erlenmatt",
+          1
         ]
       ],
       "name": "Heizöl",
@@ -225,20 +201,12 @@
           14
         ],
         [
-          " ",
-          undefined
-        ],
-        [
           "2015: Messe",
           168
         ],
         [
           "2015: Erlenmatt",
           24
-        ],
-        [
-          "  ",
-          undefined
         ],
         [
           "2016: Messe",
@@ -249,20 +217,12 @@
           25
         ],
         [
-          "   ",
-          undefined
-        ],
-        [
           "2017: Messe",
           179
         ],
         [
           "2017: Erlenmatt",
           28
-        ],
-        [
-          "    ",
-          undefined
         ],
         [
           "2018: Messe",
@@ -273,20 +233,12 @@
           31
         ],
         [
-          "     ",
-          undefined
-        ],
-        [
           "2019: Messe",
           220
         ],
         [
           "2019: Erlenmatt",
           33
-        ],
-        [
-          "      ",
-          undefined
         ],
         [
           "2020: Messe",
@@ -297,16 +249,28 @@
           34
         ],
         [
-          "       ",
-          undefined
-        ],
-        [
           "2021: Messe",
           223
         ],
         [
           "2021: Erlenmatt",
           37
+        ],
+        [
+          "2022: Messe",
+          222
+        ],
+        [
+          "2022: Erlenmatt",
+          39
+        ],
+        [
+          "2023: Messe",
+          225
+        ],
+        [
+          "2023: Erlenmatt",
+          50
         ]
       ],
       "name": "Fernwärme",
@@ -329,20 +293,12 @@
           11
         ],
         [
-          " ",
-          undefined
-        ],
-        [
           "2015: Messe",
           65
         ],
         [
           "2015: Erlenmatt",
           6
-        ],
-        [
-          "  ",
-          undefined
         ],
         [
           "2016: Messe",
@@ -353,20 +309,12 @@
           5
         ],
         [
-          "   ",
-          undefined
-        ],
-        [
           "2017: Messe",
           58
         ],
         [
           "2017: Erlenmatt",
           7
-        ],
-        [
-          "    ",
-          undefined
         ],
         [
           "2018: Messe",
@@ -377,20 +325,12 @@
           6
         ],
         [
-          "     ",
-          undefined
-        ],
-        [
           "2019: Messe",
           34
         ],
         [
           "2019: Erlenmatt",
           12
-        ],
-        [
-          "      ",
-          undefined
         ],
         [
           "2020: Messe",
@@ -401,16 +341,28 @@
           12
         ],
         [
-          "       ",
-          undefined
-        ],
-        [
           "2021: Messe",
           34
         ],
         [
           "2021: Erlenmatt",
           12
+        ],
+        [
+          "2022: Messe",
+          34
+        ],
+        [
+          "2022: Erlenmatt",
+          16
+        ],
+        [
+          "2023: Messe",
+          34
+        ],
+        [
+          "2023: Erlenmatt",
+          9
         ]
       ],
       "name": "Anderer\u002FKein Energieträger",
@@ -552,7 +504,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

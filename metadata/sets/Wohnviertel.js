@@ -9,8 +9,8 @@ var indikatorensetData = [
 			5109
 		],
 		"title": "Sozialhilfequote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Klybeck beziehen 10,6% der Bevölkerung Sozialhilfe. Das ist der höchste Wert im Kanton. Auf dem Bruderholz beziehen 1,5% der Bevölkerung Sozialhilfe. Das ist der niedrigste Wert.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen beziehen 9,8% der Bevölkerung Sozialhilfe. Auf dem Bruderholz beziehen 1,2% der Bevölkerung Sozialhilfe, was dem niedrigsten Wert aller Wohnviertel entspricht.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -24,8 +24,8 @@ var indikatorensetData = [
 		],
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "",
+		"unterthema": "Sozialhilfe",
+		"kuerzel": "I.13.3.04822",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-1.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:47",
+		"aktualisierungsdatum": "2024-05-02T08:43:05",
 		"id": 4822
 	},
 	{
@@ -91,8 +91,8 @@ var indikatorensetData = [
 			5112
 		],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2022 in der Altstadt Kleinbasel mit 37,5% am höchsten. Der niedrigste Wert wird mit 11,8% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2023 im Wohnviertel Altstadt Kleinbasel mit 35,3% am höchsten. Der niedrigste Wert wird mit 12,5% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:13",
+		"aktualisierungsdatum": "2024-05-02T08:43:06",
 		"id": 4825
 	},
 	{
@@ -594,9 +594,9 @@ var indikatorensetData = [
 			5124
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (54,0%) und im Wohnviertel Wettstein am höchsten (80,9%).",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017-2021 einen methodischen Bruch.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (55,3%) und im Wohnviertel Wettstein am höchsten (82,1%).",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gabe es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -622,7 +622,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-03T08:19:04",
+		"aktualisierungsdatum": "2024-05-02T08:43:10",
 		"id": 4837
 	},
 	{

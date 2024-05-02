@@ -1521,7 +1521,7 @@ var indikatorensetData = [
 		"description": "Heizsysteme nach Energieträger",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "",
+		"kuerzel": "I.08.1.07704",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "7.07",
 		"stufe1": "7 Raum und Umwelt",
@@ -1533,7 +1533,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2024-05-02T08:42:52",
 		"id": 7704
 	},
 	{
@@ -1833,8 +1833,8 @@ var indikatorensetData = [
 		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2021 einen negativen Umzugssaldo auf, d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt ist der Umzugssaldo 2021 ebenfalls negativ (-39). Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2022 einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -1858,7 +1858,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:09",
+		"aktualisierungsdatum": "2024-05-02T08:42:47",
 		"id": 7764
 	}
 ];

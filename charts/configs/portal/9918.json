@@ -1,0 +1,375 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2013,
+          7306
+        ],
+        [
+          2014,
+          7169
+        ],
+        [
+          2015,
+          7073
+        ],
+        [
+          2016,
+          7047
+        ],
+        [
+          2017,
+          6895
+        ],
+        [
+          2018,
+          6879
+        ],
+        [
+          2019,
+          6929
+        ],
+        [
+          2020,
+          6615
+        ],
+        [
+          2021,
+          6770
+        ],
+        [
+          2022,
+          6754
+        ],
+        [
+          2023,
+          6591
+        ]
+      ],
+      "name": "EL zur IV"
+    },
+    {
+      "color": "#FFDA80",
+      "index": 2,
+      "data": [
+        [
+          2013,
+          5469
+        ],
+        [
+          2014,
+          5397
+        ],
+        [
+          2015,
+          5317
+        ],
+        [
+          2016,
+          5390
+        ],
+        [
+          2017,
+          5254
+        ],
+        [
+          2018,
+          5241
+        ],
+        [
+          2019,
+          5264
+        ],
+        [
+          2020,
+          5051
+        ],
+        [
+          2021,
+          4029
+        ],
+        [
+          2022,
+          4341
+        ],
+        [
+          2023,
+          4183
+        ]
+      ],
+      "name": "Beihilfen zur IV"
+    },
+    {
+      "color": "#923F8D",
+      "index": 3,
+      "data": [
+        [
+          2013,
+          7200
+        ],
+        [
+          2014,
+          7398
+        ],
+        [
+          2015,
+          7623
+        ],
+        [
+          2016,
+          7834
+        ],
+        [
+          2017,
+          7984
+        ],
+        [
+          2018,
+          8262
+        ],
+        [
+          2019,
+          8606
+        ],
+        [
+          2020,
+          8488
+        ],
+        [
+          2021,
+          8722
+        ],
+        [
+          2022,
+          8741
+        ],
+        [
+          2023,
+          9036
+        ]
+      ],
+      "name": "EL zur AHV"
+    },
+    {
+      "color": "#CD9C00",
+      "index": 4,
+      "data": [
+        [
+          2013,
+          4857
+        ],
+        [
+          2014,
+          5013
+        ],
+        [
+          2015,
+          5154
+        ],
+        [
+          2016,
+          5373
+        ],
+        [
+          2017,
+          5536
+        ],
+        [
+          2018,
+          5802
+        ],
+        [
+          2019,
+          6070
+        ],
+        [
+          2020,
+          6205
+        ],
+        [
+          2021,
+          5290
+        ],
+        [
+          2022,
+          5357
+        ],
+        [
+          2023,
+          5505
+        ]
+      ],
+      "name": "Beihilfen zur AHV"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9918"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Beziehende von Ergänzungsleistungen und Beihilfen"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "x": 45,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9918"
+  }
+}

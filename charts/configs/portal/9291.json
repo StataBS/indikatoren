@@ -1,327 +1,246 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "legendIndex": 1,
+      "color": "#999999",
+      "index": 13,
+      "legendIndex": 5,
       "data": [
         [
-          2005,
-          1913
+          "2014",
+          3260
         ],
         [
-          2006,
-          1998
+          "2015",
+          3408
         ],
         [
-          2007,
-          2101
+          "2016",
+          3605
         ],
         [
-          2008,
-          2239
+          "2017",
+          3574
         ],
         [
-          2009,
-          2316
+          "2018",
+          3588
         ],
         [
-          2010,
-          2928
+          "2019",
+          3854
         ],
         [
-          2011,
-          3212
-        ],
-        [
-          2012,
-          3457
-        ],
-        [
-          2013,
-          3560
-        ],
-        [
-          2014,
-          3859
-        ],
-        [
-          2015,
+          "2020",
           3987
         ],
         [
-          2016,
-          4161
+          "2021",
+          4026
         ],
         [
-          2017,
-          4115
+          " ",
+          undefined
         ],
         [
-          2018,
-          4087
+          "2022",
+          null
         ],
         [
-          2019,
-          4269
-        ],
-        [
-          2020,
-          4373
-        ],
-        [
-          2021,
-          4409
-        ],
-        [
-          2022,
-          4389
+          "2023",
+          null
         ]
       ],
-      "name": "Tagesbetreuung"
+      "name": "Kitas",
+      "turboThreshold": 0
     },
     {
       "color": "#662673",
+      "index": 12,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2022",
+          3390
+        ],
+        [
+          "2023",
+          3629
+        ]
+      ],
+      "name": "Kitas mit Betreuungsbeiträgen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "index": 11,
       "legendIndex": 2,
       "data": [
         [
-          2005,
+          "2014",
           null
         ],
         [
-          2006,
+          "2015",
           null
         ],
         [
-          2007,
+          "2016",
           null
         ],
         [
-          2008,
+          "2017",
           null
         ],
         [
-          2009,
+          "2018",
           null
         ],
         [
-          2010,
+          "2019",
           null
         ],
         [
-          2011,
+          "2020",
           null
         ],
         [
-          2012,
-          188
+          "2021",
+          null
         ],
         [
-          2013,
-          326
+          " ",
+          undefined
         ],
         [
-          2014,
-          474
+          "2022",
+          633
         ],
         [
-          2015,
-          488
-        ],
-        [
-          2016,
-          416
-        ],
-        [
-          2017,
-          404
-        ],
-        [
-          2018,
-          416
-        ],
-        [
-          2019,
-          512
-        ],
-        [
-          2020,
-          536
-        ],
-        [
-          2021,
-          568
-        ],
-        [
-          2022,
-          656
+          "2023",
+          508
         ]
       ],
-      "name": "Frühhorte Tagesstrukturen"
+      "name": "Kitas ohne Betreuungsbeiträge",
+      "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "legendIndex": 3,
-      "data": [
-        [
-          2005,
-          603
-        ],
-        [
-          2006,
-          689
-        ],
-        [
-          2007,
-          813
-        ],
-        [
-          2008,
-          908
-        ],
-        [
-          2009,
-          1019
-        ],
-        [
-          2010,
-          1215
-        ],
-        [
-          2011,
-          1325
-        ],
-        [
-          2012,
-          1553
-        ],
-        [
-          2013,
-          1881
-        ],
-        [
-          2014,
-          2225
-        ],
-        [
-          2015,
-          2340
-        ],
-        [
-          2016,
-          2466
-        ],
-        [
-          2017,
-          2726
-        ],
-        [
-          2018,
-          2911
-        ],
-        [
-          2019,
-          3183
-        ],
-        [
-          2020,
-          3463
-        ],
-        [
-          2021,
-          3625
-        ],
-        [
-          2022,
-          3800
-        ]
-      ],
-      "name": "Mittagsmodule Tagesstrukturen"
-    },
-    {
-      "color": "#FABD24",
+      "color": "#FF8028",
+      "index": 9,
       "legendIndex": 4,
       "data": [
         [
-          2005,
+          "2014",
+          501
+        ],
+        [
+          "2015",
+          492
+        ],
+        [
+          "2016",
+          466
+        ],
+        [
+          "2017",
+          456
+        ],
+        [
+          "2018",
+          414
+        ],
+        [
+          "2019",
+          331
+        ],
+        [
+          "2020",
+          311
+        ],
+        [
+          "2021",
+          311
+        ],
+        [
+          " ",
           undefined
         ],
         [
-          2006,
-          undefined
+          "2022",
+          311
         ],
         [
-          2007,
-          undefined
-        ],
-        [
-          2008,
-          undefined
-        ],
-        [
-          2009,
-          614
-        ],
-        [
-          2010,
-          736
-        ],
-        [
-          2011,
-          879
-        ],
-        [
-          2012,
-          1082
-        ],
-        [
-          2013,
-          1474
-        ],
-        [
-          2014,
-          1779
-        ],
-        [
-          2015,
-          1937
-        ],
-        [
-          2016,
-          2085
-        ],
-        [
-          2017,
-          2329
-        ],
-        [
-          2018,
-          2551
-        ],
-        [
-          2019,
-          2815
-        ],
-        [
-          2020,
-          3086
-        ],
-        [
-          2021,
-          3227
-        ],
-        [
-          2022,
-          3450
+          "2023",
+          311
         ]
       ],
-      "name": "Nachmittagsmodule Tagesstrukturen"
+      "name": "Firmenkitas ohne Betreuungsbeiträge",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickInterval": 1
+  },
   "chart": {
-    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -332,33 +251,33 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+                    this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
+    "type": "column",
+    "spacingBottom": 55,
     "renderTo": "container-9291"
   },
   "plotOptions": {
     "series": {
-      "marker": {
-        "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
     }
   },
   "title": {
@@ -368,7 +287,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen"
+    "text": "Plätze in Kindertagesstätten"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -379,26 +298,7 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": {
-    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -414,21 +314,30 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 1000
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5,
-    "itemDistance": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "reversed": false,
+    "width": 500,
     "padding": 0,
-    "symbolPadding": 2
+    "itemWidth": 230,
+    "itemDistance": 2,
+    "itemMarginBottom": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -441,46 +350,14 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString) {
-
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
-
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
-
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "tooltip": {
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "9291"

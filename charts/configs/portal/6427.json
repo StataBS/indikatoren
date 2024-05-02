@@ -26,6 +26,10 @@
         [
           2022,
           3.87
+        ],
+        [
+          2023,
+          3.72
         ]
       ],
       "name": "Schweiz"
@@ -56,6 +60,10 @@
         [
           2022,
           2.24
+        ],
+        [
+          2023,
+          2.04
         ]
       ],
       "name": "Deutschland"
@@ -86,6 +94,10 @@
         [
           2022,
           4.1
+        ],
+        [
+          2023,
+          4.15
         ]
       ],
       "name": "Italien"
@@ -116,6 +128,10 @@
         [
           2022,
           14.49
+        ],
+        [
+          2023,
+          12.73
         ]
       ],
       "name": "Türkei"
@@ -146,6 +162,10 @@
         [
           2022,
           3.41
+        ],
+        [
+          2023,
+          3.45
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -176,6 +196,10 @@
         [
           2022,
           5.38
+        ],
+        [
+          2023,
+          5.32
         ]
       ],
       "name": "EU-Ost"
@@ -206,6 +230,10 @@
         [
           2022,
           8.86
+        ],
+        [
+          2023,
+          9.05
         ]
       ],
       "name": "Balkan"
@@ -236,6 +264,10 @@
         [
           2022,
           13.1
+        ],
+        [
+          2023,
+          11.12
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -261,11 +293,15 @@
         ],
         [
           2021,
-          33.2
+          33.13
         ],
         [
           2022,
-          34.56
+          34.48
+        ],
+        [
+          2023,
+          32.11
         ]
       ],
       "name": "Arabische Länder"
@@ -296,6 +332,10 @@
         [
           2022,
           32.41
+        ],
+        [
+          2023,
+          32.38
         ]
       ],
       "name": "Afrikanische Länder"
@@ -325,7 +365,11 @@
         ],
         [
           2022,
-          4.56
+          4.57
+        ],
+        [
+          2023,
+          4.68
         ]
       ],
       "name": "Übrige Länder"
@@ -464,7 +508,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

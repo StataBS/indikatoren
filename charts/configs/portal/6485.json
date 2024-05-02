@@ -63,6 +63,10 @@
         [
           2022,
           392
+        ],
+        [
+          2023,
+          371
         ]
       ],
       "name": "C-Bew."
@@ -130,6 +134,10 @@
         [
           2022,
           275
+        ],
+        [
+          2023,
+          305
         ]
       ],
       "name": "B-Bew."
@@ -197,6 +205,10 @@
         [
           2022,
           181
+        ],
+        [
+          2023,
+          238
         ]
       ],
       "name": "Übrige"
@@ -326,7 +338,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
