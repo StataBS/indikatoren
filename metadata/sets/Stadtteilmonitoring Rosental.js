@@ -1506,10 +1506,10 @@ var indikatorensetData = [
 		"children": [
 			7942
 		],
-		"title": "Heizsysteme nach Energieträger",
+		"title": "Gebäude nach Energieträger der Hauptheizung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
 		"lesehilfe": "Mit dem Ausbau des baselstädtischen Fernwärmenetzes nimmt auch in den Bezirken Messe und Erlenmatt der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeitig ist der Einsatz von Heizöl rückläufig.",
-		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
+		"erlaeuterungen": "Die Anzahl Gebäude nach Energieträger der Hauptheizung stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -1518,7 +1518,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Heizsysteme nach Energieträger",
+		"description": "Gebäude nach Energieträger der Hauptheizung",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.07704",
@@ -1533,7 +1533,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:52",
+		"aktualisierungsdatum": "2024-05-03T08:44:47",
 		"id": 7704
 	},
 	{
@@ -1858,7 +1858,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:47",
+		"aktualisierungsdatum": "2024-05-03T08:44:39",
 		"id": 7764
 	}
 ];

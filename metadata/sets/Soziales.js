@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:25",
+		"aktualisierungsdatum": "2024-05-03T08:43:54",
 		"id": 12520
 	},
 	{
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:27",
+		"aktualisierungsdatum": "2024-05-03T08:43:56",
 		"id": 12521
 	},
 	{
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:28",
+		"aktualisierungsdatum": "2024-05-03T08:43:59",
 		"id": 12561
 	},
 	{
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:29",
+		"aktualisierungsdatum": "2024-05-03T08:44:02",
 		"id": 12602
 	},
 	{
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:16",
+		"aktualisierungsdatum": "2024-05-03T08:43:36",
 		"id": 4152
 	},
 	{
@@ -223,7 +223,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:17",
+		"aktualisierungsdatum": "2024-05-03T08:43:39",
 		"id": 4154
 	},
 	{
@@ -262,7 +262,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:19",
+		"aktualisierungsdatum": "2024-05-03T08:43:42",
 		"id": 9289
 	},
 	{
@@ -274,7 +274,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2023 stehen in den Kindertagesstätten (Kitas) insgesamt 4 448 Plätze zur Verfügung. Davon bestehen 3 629 Plätze Kindertagesstätten mit  Betreuungsbeiträgen.",
+		"lesehilfe": "Ende Oktober 2023 stehen in den Kindertagesstätten (Kitas) insgesamt 4 448 Plätze zur Verfügung. Davon bestehen 3 629 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
 		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -299,7 +299,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:20",
+		"aktualisierungsdatum": "2024-05-03T08:43:44",
 		"id": 9291
 	},
 	{
@@ -339,7 +339,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:22",
+		"aktualisierungsdatum": "2024-05-03T08:43:46",
 		"id": 9294
 	},
 	{
@@ -413,7 +413,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:23",
+		"aktualisierungsdatum": "2024-05-03T08:43:49",
 		"id": 9915
 	},
 	{
@@ -450,7 +450,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:38",
+		"aktualisierungsdatum": "2024-05-03T08:44:17",
 		"id": 9916
 	},
 	{
@@ -487,7 +487,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:39",
+		"aktualisierungsdatum": "2024-05-03T08:44:19",
 		"id": 9917
 	},
 	{
@@ -524,7 +524,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:40",
+		"aktualisierungsdatum": "2024-05-03T08:44:21",
 		"id": 9918
 	},
 	{
@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:41",
+		"aktualisierungsdatum": "2024-05-03T08:44:23",
 		"id": 9919
 	},
 	{
@@ -601,7 +601,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:42",
+		"aktualisierungsdatum": "2024-05-03T08:44:25",
 		"id": 9920
 	},
 	{
@@ -638,7 +638,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:44",
+		"aktualisierungsdatum": "2024-05-03T08:44:26",
 		"id": 9922
 	},
 	{
@@ -675,7 +675,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:30",
+		"aktualisierungsdatum": "2024-05-03T08:44:05",
 		"id": 9923
 	},
 	{
@@ -713,7 +713,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:31",
+		"aktualisierungsdatum": "2024-05-03T08:44:07",
 		"id": 9926
 	},
 	{
@@ -750,7 +750,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:33",
+		"aktualisierungsdatum": "2024-05-03T08:44:09",
 		"id": 9927
 	},
 	{
@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:34",
+		"aktualisierungsdatum": "2024-05-03T08:44:11",
 		"id": 9930
 	},
 	{
@@ -824,7 +824,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:35",
+		"aktualisierungsdatum": "2024-05-03T08:44:13",
 		"id": 9931
 	},
 	{
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:36",
+		"aktualisierungsdatum": "2024-05-03T08:44:15",
 		"id": 9932
 	},
 	{
@@ -898,7 +898,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:42:24",
+		"aktualisierungsdatum": "2024-05-03T08:43:51",
 		"id": 9933
 	}
 ];
