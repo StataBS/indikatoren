@@ -342,7 +342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2024"
+    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

@@ -658,7 +658,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:43:07",
+		"aktualisierungsdatum": "2024-05-03T08:45:16",
 		"id": 5185
 	},
 	{
@@ -1207,7 +1207,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-02T08:43:08",
+		"aktualisierungsdatum": "2024-05-03T08:45:18",
 		"id": 6030
 	},
 	{
@@ -2052,7 +2052,7 @@ var indikatorensetData = [
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -2079,7 +2079,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-25T09:18:24",
+		"aktualisierungsdatum": "2024-05-03T08:45:20",
 		"id": 6574
 	},
 	{
