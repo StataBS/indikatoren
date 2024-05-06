@@ -2058,7 +2058,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
-			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/kronenbedeckung' target = '_blank'>Baumkronenbedeckung als Karte</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -2079,7 +2079,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:45:20",
+		"aktualisierungsdatum": "2024-05-06T07:28:46",
 		"id": 6574
 	},
 	{

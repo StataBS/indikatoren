@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          32.882404
+          33.007923
         ],
         [
           "Kleinhüningen",
-          33.380239
+          33.352875
         ],
         [
           "Rosental",
-          34.339864
-        ],
-        [
-          "Matthäus",
-          36.448492
+          35.356314
         ],
         [
           "St. Johann",
-          36.878279
+          36.766227
+        ],
+        [
+          "Matthäus",
+          36.807261
         ],
         [
           "Iselin",
-          37.311167
+          37.176426
         ],
         [
           "Clara",
-          37.86673
+          38.192867
         ],
         [
           "Hirzbrunnen",
-          39.106132
-        ],
-        [
-          "Gundeldingen",
-          39.30123
+          39.291271
         ],
         [
           "Breite",
-          39.747979
+          39.351498
+        ],
+        [
+          "Gundeldingen",
+          39.418566
         ],
         [
           "Gotthelf",
-          41.551969
+          41.311624
         ],
         [
           "Altstadt Kleinbasel",
-          44.584415
+          43.799128
         ],
         [
           "Am Ring",
-          45.033416
+          44.907467
         ],
         [
           "Wettstein",
-          45.386322
+          45.504145
         ],
         [
           "Bachletten",
-          45.936084
+          46.042694
         ],
         [
           "St. Alban",
-          47.010868
+          46.780812
         ],
         [
           "Riehen",
-          47.114794
+          46.939378
         ],
         [
           "Bruderholz",
-          48.274273
+          48.069764
         ],
         [
           "Vorstädte",
-          50.058836
+          50.651554
         ],
         [
           "Bettingen",
-          51.158279
+          51.957826
         ],
         [
           "Altstadt Grossbasel",
-          52.6
+          53.671354
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -107,11 +107,11 @@
           3
         ],
         [
-          "Matthäus",
+          "St. Johann",
           4
         ],
         [
-          "St. Johann",
+          "Matthäus",
           5
         ],
         [
@@ -127,11 +127,11 @@
           8
         ],
         [
-          "Gundeldingen",
+          "Breite",
           9
         ],
         [
-          "Breite",
+          "Gundeldingen",
           10
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
   },
   "legend": {
     "enabled": false,
