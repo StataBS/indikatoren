@@ -63,6 +63,10 @@
         [
           "2022",
           27
+        ],
+        [
+          "2023",
+          25
         ]
       ],
       "name": "Anzahl",
@@ -188,7 +192,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

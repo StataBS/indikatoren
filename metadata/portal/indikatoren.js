@@ -3012,7 +3012,7 @@ var indikatoren = [
 		],
 		"title": "Ansiedlungen von Firmen aus dem Ausland",
 		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"lesehilfe": "Im Jahr 2022 gab es 27 durch BaselArea unterstützte Firmenansiedlungen aus dem Ausland. Zusätzlich gab es 2022 acht Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind.",
+		"lesehilfe": "Im Jahr 2023 gab es 25 durch BaselArea unterstützte Firmenansiedlungen aus dem Ausland. Zusätzlich wurden 2023 neun Ansiedlungen von Unternehmen verzeichnet, die aus der übrigen Schweiz in die Region zugezogen sind.",
 		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"quellenangabe": [
 			"BaselArea"
@@ -3038,7 +3038,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:38",
+		"aktualisierungsdatum": "2024-05-06T07:28:41",
 		"id": 3086
 	},
 	{
@@ -9076,8 +9076,8 @@ var indikatoren = [
 			8554
 		],
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 54&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -9106,7 +9106,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:47",
+		"aktualisierungsdatum": "2024-05-06T07:28:47",
 		"id": 4834
 	},
 	{
@@ -19053,7 +19053,7 @@ var indikatoren = [
 		],
 		"title": "Beschuldigte Jugendliche",
 		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 14,7 einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2023 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 16,3 einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19067,7 +19067,7 @@ var indikatoren = [
 		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06487",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D5-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -19080,7 +19080,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:42",
+		"aktualisierungsdatum": "2024-05-06T07:28:45",
 		"id": 6487
 	},
 	{
@@ -20947,7 +20947,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
-			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/kronenbedeckung' target = '_blank'>Baumkronenbedeckung als Karte</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -20969,7 +20969,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:45:20",
+		"aktualisierungsdatum": "2024-05-06T07:28:46",
 		"id": 6574
 	},
 	{
@@ -36870,8 +36870,8 @@ var indikatoren = [
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2022 bei total 26 225. Den grössten Anteil macht mit 6 342 Personen (24,2%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus den Kantonen Aargau und Basel-Landschaft zugenommen.",
-		"erlaeuterungen": "Studierende der Universität Basel und der Fachhochschule Nordwestschweiz FHNW nach Wohnort vor Studienbeginn. Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2023 bei total 26 618. Den grössten Anteil macht mit 6 371 Personen (23,9%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus den Kantonen Aargau und Basel-Landschaft zugenommen.",
+		"erlaeuterungen": "Studierende der Universität Basel (Wohnort vor Studienbeginn) und der Fachhochschule Nordwestschweiz FHNW (stipendienrechtlicher Wohnsitz). Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Fachhochschule Nordwestschweiz (FHNW)"
@@ -36897,7 +36897,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:52",
+		"aktualisierungsdatum": "2024-05-06T07:28:44",
 		"id": 9379
 	},
 	{

@@ -42,6 +42,10 @@
         [
           2022,
           3689
+        ],
+        [
+          2023,
+          3745
         ]
       ],
       "name": "Basel-Stadt"
@@ -88,6 +92,10 @@
         [
           2022,
           5172
+        ],
+        [
+          2023,
+          5265
         ]
       ],
       "name": "Basel-Landschaft"
@@ -134,6 +142,10 @@
         [
           2022,
           4619
+        ],
+        [
+          2023,
+          4692
         ]
       ],
       "name": "Aargau"
@@ -180,6 +192,10 @@
         [
           2022,
           1902
+        ],
+        [
+          2023,
+          1924
         ]
       ],
       "name": "Solothurn"
@@ -226,6 +242,10 @@
         [
           2022,
           6342
+        ],
+        [
+          2023,
+          6371
         ]
       ],
       "name": "Übrige Schweiz"
@@ -272,6 +292,10 @@
         [
           2022,
           4501
+        ],
+        [
+          2023,
+          4621
         ]
       ],
       "name": "Ausland"
@@ -421,7 +445,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 27.9.2023"
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
   },
   "tooltip": {
     "shared": true,

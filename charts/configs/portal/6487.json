@@ -50,6 +50,10 @@
         [
           2022,
           14.7
+        ],
+        [
+          2023,
+          16.3
         ]
       ],
       "name": "Schweiz"
@@ -104,6 +108,10 @@
         [
           2022,
           12.9
+        ],
+        [
+          2023,
+          14.4
         ]
       ],
       "name": "Deutschland"
@@ -158,6 +166,10 @@
         [
           2022,
           31.6
+        ],
+        [
+          2023,
+          22.3
         ]
       ],
       "name": "Italien"
@@ -212,6 +224,10 @@
         [
           2022,
           41.4
+        ],
+        [
+          2023,
+          28.8
         ]
       ],
       "name": "Türkei"
@@ -266,6 +282,10 @@
         [
           2022,
           17.9
+        ],
+        [
+          2023,
+          24.8
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -320,6 +340,10 @@
         [
           2022,
           39.1
+        ],
+        [
+          2023,
+          47.5
         ]
       ],
       "name": "Balkan"
@@ -374,6 +398,10 @@
         [
           2022,
           35.4
+        ],
+        [
+          2023,
+          55
         ]
       ],
       "name": "Übrige Länder"
@@ -477,8 +505,7 @@
       },
       "format": "{value}"
     },
-    "tickInterval": 10,
-    "max": 50
+    "tickInterval": 15
   },
   "legend": {
     "enabled": true,
@@ -505,7 +532,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 24.4.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
