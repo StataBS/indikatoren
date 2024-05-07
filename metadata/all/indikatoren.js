@@ -40796,7 +40796,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im März 2024 bei 3,8% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im April 2024 bei 3,8% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -40822,7 +40822,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:45",
+		"aktualisierungsdatum": "2024-05-07T09:19:14",
 		"id": 7510
 	},
 	{
@@ -40834,7 +40834,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende März 2024 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Deutlich gesunken ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
+		"lesehilfe": "Ende April 2024 sind in Basel-Stadt fast gleich viele offene Stellen gemeldet wie ein Jahr zuvor. Deutlich gesunken ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -40860,7 +40860,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:47",
+		"aktualisierungsdatum": "2024-05-07T09:19:16",
 		"id": 7511
 	},
 	{
@@ -67138,7 +67138,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt im März 2024 bei rund 3 800. Die Zahl der Langzeitarbeitslosen ist leicht auf fast 600 Personen gestiegen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt im April 2024 bei rund 3 800. Die Zahl der Langzeitarbeitslosen ist leicht auf rund 590 Personen gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -67164,7 +67164,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:48",
+		"aktualisierungsdatum": "2024-05-07T09:19:16",
 		"id": 8980
 	},
 	{
@@ -67202,7 +67202,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:50",
+		"aktualisierungsdatum": "2024-05-07T09:19:17",
 		"id": 8981
 	},
 	{
@@ -67518,7 +67518,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:46:51",
+		"aktualisierungsdatum": "2024-05-07T09:19:18",
 		"id": 8992
 	},
 	{
