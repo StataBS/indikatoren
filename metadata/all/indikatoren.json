@@ -42423,7 +42423,7 @@
 		],
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe liegt der Altersquotient 2021 bei 15,0, im Bezirk Erlenmatt bei 9,9. Während er im Messe-Bezirk im Vergleich zum Jahr 2002 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient im selben Zeitraum von 33,3 auf 30,3 gesunken.",
+		"lesehilfe": "Im Bezirk Messe liegt der Altersquotient 2023 bei 14,9, im Bezirk Erlenmatt bei 9,9. Im Messe-Bezirk ist er im Vergleich zum Jahr 2004 gesunken, im Erlenmatt-Bezirk gestiegen. Im Gesamtkanton ist der Altersquotient im selben Zeitraum von 32,7 auf 30,1 gesunken.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42450,7 +42450,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:01",
+		"aktualisierungsdatum": "2024-05-15T12:29:52",
 		"id": 7668
 	},
 	{
@@ -67559,7 +67559,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-10T11:18:46",
+		"aktualisierungsdatum": "2024-05-15T12:29:49",
 		"id": 8995
 	},
 	{
@@ -67933,7 +67933,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-10T11:18:47",
+		"aktualisierungsdatum": "2024-05-15T12:29:50",
 		"id": 9022
 	},
 	{
@@ -67971,7 +67971,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-10T11:18:48",
+		"aktualisierungsdatum": "2024-05-15T12:29:51",
 		"id": 9023
 	},
 	{
