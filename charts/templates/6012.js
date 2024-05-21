@@ -10,7 +10,7 @@
       }
     },
     "yAxis": {
-      "max": 6000,
+      "max": 4000,
       "tickInterval": 1000,
       min: -2000,
       "labels": {

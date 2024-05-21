@@ -10,34 +10,34 @@
         ],
         [
           "Deutschland",
-          81.3
-        ],
-        [
-          "Ukraine",
-          95.7
-        ],
-        [
-          "Italien",
-          84.4
-        ],
-        [
-          "Spanien",
-          82.1
+          79.6
         ],
         [
           "Frankreich",
-          50.3
+          48.9
+        ],
+        [
+          "Italien",
+          85.5
+        ],
+        [
+          "Spanien",
+          83.8
+        ],
+        [
+          "USA",
+          60.5
         ],
         [
           "Übriges Ausland",
-          71.4
+          71
         ],
         [
           "Total",
-          66
+          65.3
         ]
       ],
-      "name": "2013",
+      "name": "2014",
       "turboThreshold": 0
     },
     {
@@ -46,38 +46,38 @@
       "data": [
         [
           "Schweiz",
-          54.5
+          56.3
         ],
         [
           "Deutschland",
-          72.6
-        ],
-        [
-          "Ukraine",
-          96.9
-        ],
-        [
-          "Italien",
-          86.3
-        ],
-        [
-          "Spanien",
-          82.1
+          76.5
         ],
         [
           "Frankreich",
-          49.3
+          50
+        ],
+        [
+          "Italien",
+          85.4
+        ],
+        [
+          "Spanien",
+          82.7
+        ],
+        [
+          "USA",
+          53.2
         ],
         [
           "Übriges Ausland",
-          68.6
+          71.2
         ],
         [
           "Total",
-          66.6
+          64.9
         ]
       ],
-      "name": "2022",
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -213,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -16,8 +16,8 @@
           48
         ],
         [
-          "Ukraine",
-          60
+          "Frankreich",
+          43.1
         ],
         [
           "Italien",
@@ -28,12 +28,12 @@
           46.5
         ],
         [
-          "Frankreich",
-          43.1
+          "USA",
+          51.9
         ],
         [
           "Übriges Ausland",
-          49.7
+          49.6
         ],
         [
           "Total",
@@ -59,8 +59,8 @@
           52
         ],
         [
-          "Ukraine",
-          40
+          "Frankreich",
+          56.9
         ],
         [
           "Italien",
@@ -71,12 +71,12 @@
           53.5
         ],
         [
-          "Frankreich",
-          56.9
+          "USA",
+          48.1
         ],
         [
           "Übriges Ausland",
-          50.3
+          50.4
         ],
         [
           "Total",
@@ -163,7 +163,7 @@
     "text": "Zugezogene nach Zuzugsland und Geschlecht"
   },
   "subtitle": {
-    "text": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
+    "text": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -221,7 +221,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

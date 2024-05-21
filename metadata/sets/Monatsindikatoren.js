@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<br>Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei. Für März 2024 sind zum Saldo der natürlichen Bevölkerungsbewegungen zurzeit keine Werte verfügbar.",
+		"lesehilfe": "<br>Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
 		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -171,10 +171,10 @@ var indikatorensetData = [
 		],
 		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"unterthema": "",
 		"kuerzel": "I.01.1.07515",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "M-01-1",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-18T08:33:22",
+		"aktualisierungsdatum": "2024-05-21T09:18:02",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Im März 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln. In neun Wohnvierteln sowie in Riehen sank sie. In den Quartieren Vorstädte und Wettstein sowie in Bettingen blieb sie gleich.",
+		"subtitle": "Basel-Stadt, April",
+		"lesehilfe": "Im April 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln und in Riehen. In sechs Wohnvierteln sowie in Bettingen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -283,8 +283,8 @@ var indikatorensetData = [
 		],
 		"description": "Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07763",
+		"unterthema": "",
+		"kuerzel": "",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-18T08:33:23",
+		"aktualisierungsdatum": "2024-05-21T09:17:43",
 		"id": 7763
 	},
 	{
