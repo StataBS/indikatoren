@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          1677632400000,
-          -8
-        ],
-        [
           1680314400000,
           -3
         ],
@@ -42,19 +38,23 @@
         ],
         [
           1701392400000,
-          -12
+          -24
         ],
         [
           1704070800000,
-          -11
+          -18
         ],
         [
           1706749200000,
-          -11
+          -5
         ],
         [
           1709254800000,
-          "..."
+          -51
+        ],
+        [
+          1711936800000,
+          -15
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -63,10 +63,6 @@
       "color": "#923F8D",
       "visible": true,
       "data": [
-        [
-          1677632400000,
-          234
-        ],
         [
           1680314400000,
           177
@@ -101,19 +97,23 @@
         ],
         [
           1701392400000,
-          -222
+          -256
         ],
         [
           1704070800000,
-          420
+          369
         ],
         [
           1706749200000,
-          213
+          227
         ],
         [
           1709254800000,
-          60
+          107
+        ],
+        [
+          1711936800000,
+          59
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -122,10 +122,6 @@
       "color": "#C8C8C8",
       "visible": true,
       "data": [
-        [
-          1677632400000,
-          145
-        ],
         [
           1680314400000,
           -153
@@ -160,19 +156,23 @@
         ],
         [
           1701392400000,
-          -7
+          39
         ],
         [
           1704070800000,
-          -641
+          -573
         ],
         [
           1706749200000,
-          716
+          696
         ],
         [
           1709254800000,
-          91
+          -40
+        ],
+        [
+          1711936800000,
+          105
         ]
       ],
       "name": "Bereinigungen"
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

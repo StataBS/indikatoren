@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -759
+          -276
         ],
         [
           "Ausland",
-          -169
+          -133
         ],
         [
           "Unbekannt",
-          -312
+          -374
         ],
         [
           "Total",
-          -1240
+          -783
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -936
+          -847
         ],
         [
           "Ausland",
-          5446
+          3749
         ],
         [
           "Unbekannt",
-          -552
+          -766
         ],
         [
           "Total",
-          3958
+          2136
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -1695
+          -1123
         ],
         [
           "Ausland",
-          5277
+          3616
         ],
         [
           "Unbekannt",
-          -864
+          -1140
         ],
         [
           "Total",
-          2718
+          1353
         ]
       ],
       "name": "Total",
@@ -149,7 +149,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -174,7 +174,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 6000,
+    "max": 4000,
     "tickInterval": 1000,
     "min": -2000,
     "plotLines": [
@@ -214,7 +214,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
