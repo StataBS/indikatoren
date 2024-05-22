@@ -6,6 +6,7 @@ var indikatorensetNames = [
 	"Richtplan",
 	"Soziales",
 	"Nachhaltigkeit",
+	"Befragungen",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",

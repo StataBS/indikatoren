@@ -2364,4 +2364,5 @@ id | visible | visibleInPortal | indikatorenset
 12532 | true | true | Nachhaltigkeit
 12561 | true | true | Soziales
 12564 | true | true | Richtplan
+12565 | true | false | Befragungen
 12602 | true | true | Soziales
