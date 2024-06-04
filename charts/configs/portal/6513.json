@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#C9D6DB",
       "index": 6,
       "legendIndex": 0,
       "data": [
@@ -31,19 +31,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          288
+          275.99836
         ],
         [
           "2013: Deutsch und weitere",
-          113
+          113.50926
         ],
         [
           "2013: Kein Deutsch",
-          33
+          32.75602
         ],
         [
           "2013: Total",
-          439
+          427.96925
         ],
         [
           "2017",
@@ -51,26 +51,46 @@
         ],
         [
           "2017: Nur Deutsch",
-          187
+          170.21177
         ],
         [
           "2017: Deutsch und weitere",
-          79
+          81.47997
         ],
         [
           "2017: Kein Deutsch",
-          29
+          28.98676
         ],
         [
           "2017: Total",
-          298
+          283.15894
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          135.40538
+        ],
+        [
+          "2022: Deutsch und weitere",
+          72.63892
+        ],
+        [
+          "2022: Kein Deutsch",
+          20.31981
+        ],
+        [
+          "2022: Total",
+          228.3641
         ]
       ],
       "name": "Ja, genutzt",
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#689199",
       "index": 5,
       "legendIndex": 1,
       "data": [
@@ -100,19 +120,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          681
+          660.63038
         ],
         [
           "2013: Deutsch und weitere",
-          344
+          351.77984
         ],
         [
           "2013: Kein Deutsch",
-          130
+          134.47158
         ],
         [
           "2013: Total",
-          1165
+          1156
         ],
         [
           "2017",
@@ -120,19 +140,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          508
+          472.60751
         ],
         [
           "2017: Deutsch und weitere",
-          252
+          270.04638
         ],
         [
           "2017: Kein Deutsch",
-          80
+          85.48225
         ],
         [
           "2017: Total",
-          860
+          846.91317
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          456.15079
+        ],
+        [
+          "2022: Deutsch und weitere",
+          318.94419
+        ],
+        [
+          "2022: Kein Deutsch",
+          48.89445
+        ],
+        [
+          "2022: Total",
+          824.7517
         ]
       ],
       "name": "Ja, nicht genutzt",
@@ -140,8 +180,8 @@
     },
     {
       "color": "#FABD24",
-      "index": 4,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2009",
@@ -169,19 +209,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          88
+          86.01361
         ],
         [
           "2013: Deutsch und weitere",
-          90
+          92.25725
         ],
         [
           "2013: Kein Deutsch",
-          47
+          47.68101
         ],
         [
           "2013: Total",
-          228
+          228.25076
         ],
         [
           "2017",
@@ -189,28 +229,48 @@
         ],
         [
           "2017: Nur Deutsch",
-          87
+          83.29966
         ],
         [
           "2017: Deutsch und weitere",
-          81
+          85.94338
         ],
         [
           "2017: Kein Deutsch",
-          50
+          50.01516
         ],
         [
           "2017: Total",
-          223
+          225.42156
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          109.33019
+        ],
+        [
+          "2022: Deutsch und weitere",
+          120.96581
+        ],
+        [
+          "2022: Kein Deutsch",
+          57.73998
+        ],
+        [
+          "2022: Total",
+          288.03598
         ]
       ],
       "name": "Nein, würde genutzt",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#FF8028",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
           "2009",
@@ -238,19 +298,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          58
+          57.4838
         ],
         [
           "2013: Deutsch und weitere",
-          56
+          58.32154
         ],
         [
           "2013: Kein Deutsch",
-          60
+          61.01296
         ],
         [
           "2013: Total",
-          174
+          176.81829
         ],
         [
           "2017",
@@ -258,19 +318,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          50
+          44.03791
         ],
         [
           "2017: Deutsch und weitere",
-          39
+          38.25656
         ],
         [
           "2017: Kein Deutsch",
-          43
+          41.20006
         ],
         [
           "2017: Total",
-          134
+          125.31677
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          89.35877
+        ],
+        [
+          "2022: Deutsch und weitere",
+          91.98649
+        ],
+        [
+          "2022: Kein Deutsch",
+          52.18762
+        ],
+        [
+          "2022: Total",
+          235.21682
         ]
       ],
       "name": "Nein, würde nicht genutzt",
@@ -307,19 +387,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          75
+          74.63719
         ],
         [
           "2013: Deutsch und weitere",
-          90
+          99.72387
         ],
         [
           "2013: Kein Deutsch",
-          59
+          65.37324
         ],
         [
           "2013: Total",
-          225
+          241.89325
         ],
         [
           "2017",
@@ -327,19 +407,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          38
+          40.52548
         ],
         [
           "2017: Deutsch und weitere",
-          65
+          85.0299
         ],
         [
           "2017: Kein Deutsch",
-          44
+          54.94656
         ],
         [
           "2017: Total",
-          150
+          184.18956
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          62.50965
+        ],
+        [
+          "2022: Deutsch und weitere",
+          104.75745
+        ],
+        [
+          "2022: Kein Deutsch",
+          35.53094
+        ],
+        [
+          "2022: Total",
+          204.6314
         ]
       ],
       "name": "Keine Angabe",
@@ -372,7 +472,7 @@
                   });
                   var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                   var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                      return accumulator + series.yData[indexOfCurrentValue];
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
                   }, 0);
                   //use N if all series are visible, otherwise use n
                   var nString =  'n=';
@@ -407,7 +507,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 493,
+    "height": 513,
     "spacing": [
       10,
       10,
@@ -498,7 +598,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "legend": {
     "layout": "horizontal",

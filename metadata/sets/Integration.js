@@ -1155,8 +1155,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 (gepoolte Daten) haben 16,5% der Schweizer und 28,8% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 (gepoolte Daten) haben 16,3% der Schweizer und 28,2% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1181,7 +1181,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:48",
+		"aktualisierungsdatum": "2024-06-04T09:07:25",
 		"id": 6088
 	},
 	{
@@ -1194,9 +1194,9 @@ var indikatorensetData = [
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2017 bis 2021",
-		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (71,5%), bei Personen aus dem Balkan (13,4%) und der Türkei (14,3%) am niedrigsten.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2018 bis 2022",
+		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (70,7%), bei Personen aus der Türkei (13,1%) und vom Balkan (14,0%) am niedrigsten.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1220,7 +1220,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:48",
+		"aktualisierungsdatum": "2024-06-04T09:07:26",
 		"id": 6090
 	},
 	{
@@ -1428,9 +1428,9 @@ var indikatorensetData = [
 			6678
 		],
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Nach Personen mit deutscher oder Schweizer Staatsangehörigkeit sprechen Personen aus der Türkei (42,6%) und dem Balkan (42,4%) am häufigsten Deutsch als Hauptsprache.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Nach Personen mit deutscher oder schweizerischer Staatsangehörigkeit sprechen Personen vom Balkan (43,1%) und aus der Türkei (41,0%) am häufigsten Deutsch als Hauptsprache.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1441,8 +1441,8 @@ var indikatorensetData = [
 		],
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.6402",
+		"unterthema": "",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1454,7 +1454,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:46",
+		"aktualisierungsdatum": "2024-06-04T09:07:20",
 		"id": 6402
 	},
 	{
@@ -1467,9 +1467,9 @@ var indikatorensetData = [
 			6679
 		],
 		"title": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (66,8%) am grössten.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (66,9%) am grössten.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1480,8 +1480,8 @@ var indikatorensetData = [
 		],
 		"description": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.6403",
+		"unterthema": "",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1493,7 +1493,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:46",
+		"aktualisierungsdatum": "2024-06-04T09:07:22",
 		"id": 6403
 	},
 	{
@@ -1506,9 +1506,9 @@ var indikatorensetData = [
 			6680
 		],
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "80,1% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2017 bis 2021 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 47,2%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "79,9% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2018 bis 2022 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 46,1%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1519,8 +1519,8 @@ var indikatorensetData = [
 		],
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.6404",
+		"unterthema": "",
+		"kuerzel": "I.01.8.06404",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-3",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1532,7 +1532,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:47",
+		"aktualisierungsdatum": "2024-06-04T09:07:23",
 		"id": 6404
 	},
 	{
@@ -1545,9 +1545,9 @@ var indikatorensetData = [
 			6681
 		],
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Bei der Arbeit sprechen 96,0% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch. In der Gruppe der Ausländerinnen und Ausländern sind es 75,7%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Bei der Arbeit sprechen 95,1% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch. In der Gruppe der Ausländerinnen und Ausländer sind es 74,1%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1558,8 +1558,8 @@ var indikatorensetData = [
 		],
 		"description": "Bei der Arbeit gesprochene Sprachen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.6405",
+		"unterthema": "",
+		"kuerzel": "I.01.8.06405",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-4",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1571,7 +1571,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:08",
+		"aktualisierungsdatum": "2024-06-04T09:07:24",
 		"id": 6405
 	},
 	{
@@ -4032,8 +4032,8 @@ var indikatorensetData = [
 		],
 		"title": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
 		"subtitle": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?», Basel-Stadt",
-		"lesehilfe": "2017 geben 93,1% der nur Deutsch sprechenden Familien an, die Mütter- und Väterberatung zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 81,2% und bei jenen, die kein Deutsch sprechen, 62,6%. 56,0% der nur Deutsch sprechenden Familien haben diese Beratung genutzt. Bei Familien, die kein Deutsch sprechen, sind es 30,1%. Die Werte der Nutzung liegen 2009 und 2017 nahe beieinander (46,0% und 46,6%). Der Bekanntheitsgrad des Angebotes hat seit 2009 zugenommen.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"lesehilfe": "2022 geben 78% der Familien an, die Mütter- und Väterberatung zu kennen. Bei nur Deutsch sprechenden Familien liegt der Anteil bei 89%. Bei Familien, die kein Deutsch sprechen, sind es 53%.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
@@ -4057,7 +4057,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:14",
+		"aktualisierungsdatum": "2024-06-04T09:07:31",
 		"id": 6512
 	},
 	{
@@ -4071,8 +4071,8 @@ var indikatorensetData = [
 		],
 		"title": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
 		"subtitle": "«Kennen oder nutzen Sie die Elternbildungsangebote bzw. würden Sie diese nutzen?», Basel-Stadt",
-		"lesehilfe": "2017 geben 79,9% der nur Deutsch sprechenden Familien an, die Elternbildungsangebote zu kennen; bei Familien mit Deutsch und einer anderen Sprache sind es 64,1% und bei jenen, die kein Deutsch sprechen, 44,3%. 21,5% der nur Deutsch sprechenden Familien haben die Beratung genutzt, bei Familien, die kein Deutsch sprechen, sind es 11,8%. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird weniger genutzt.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"lesehilfe": "2022 geben 59% der Familien an, Elternbildungsangebote zu kennen. Bei nur Deutsch sprechenden Familien liegt der Anteil bei 69%. Bei Familien, die kein Deutsch sprechen, sind es 32%. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird weniger genutzt.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
@@ -4096,7 +4096,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:15",
+		"aktualisierungsdatum": "2024-06-04T09:07:31",
 		"id": 6513
 	},
 	{
@@ -4149,8 +4149,8 @@ var indikatorensetData = [
 			6747
 		],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2022",
-		"lesehilfe": "Von den Kindern, die im August 2023 in den Kindergarten eintreten, sind 45% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 91% der Kinder aus dem Balkan und 85% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2023",
+		"lesehilfe": "Von den Kindern, die im August 2024 in den Kindergarten eintreten, sind 41% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 92% der Kinder aus dem Balkan und je 88% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern sowie Mittel- und Südamerika.",
 		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
@@ -4175,7 +4175,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-15T08:48:25",
+		"aktualisierungsdatum": "2024-06-04T09:07:27",
 		"id": 6515
 	},
 	{
@@ -4189,8 +4189,8 @@ var indikatorensetData = [
 		],
 		"title": "Beurteilung der Bildungschancen nach gesprochener Sprache",
 		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"lesehilfe": "Im Jahr 2017 stimmten 45,9% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% häufiger zu als Familien, welche nur Deutsch (42%) bzw. Deutsch sowie eine andere Sprache (49,2%) sprechen. Die Unterschiede bei der Beurteilung zwischen diesen Gruppen sind seit 2009 geringer geworden.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"lesehilfe": "Im Jahr 2022 stimmten 46% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche ausschliesslich eine andere Sprache als Deutsch sprechen, stimmen der Aussage am seltensten nicht zu.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
@@ -4214,7 +4214,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:02",
+		"aktualisierungsdatum": "2024-06-04T09:07:29",
 		"id": 6516
 	},
 	{
@@ -4228,8 +4228,8 @@ var indikatorensetData = [
 		],
 		"title": "Beurteilung der individuellen Förderung der Kinder nach gesprochener Sprache",
 		"subtitle": "«Das baselstädtische Schulsystem fördert alle Kinder und Jugendlichen so individuell wie möglich, ohne dabei die Gemeinschaftsbildung zu vernachlässigen.», Basel-Stadt",
-		"lesehilfe": "Im Jahr 2017 stimmten 45,6% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmten mit 51,6% deutlich häufiger zu als Familien, welche nur Deutsch (41,4%) bzw. Deutsch und eine andere Sprache (48,8%) sprechen. Seit 2009 wird diese Frage zunehmend positiv beurteilt.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"lesehilfe": "Im Jahr 2022 stimmten 47% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche ausschliesslich eine andere Sprache als Deutsch sprechen, stimmen der Aussage am seltensten nicht zu.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
@@ -4253,7 +4253,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:03",
+		"aktualisierungsdatum": "2024-06-04T09:07:30",
 		"id": 6517
 	},
 	{

@@ -2,7 +2,7 @@
   return {
       chart: {
           inverted: true,
-          height: 480
+          height:500,
       },
       plotOptions: {
           column: {
@@ -22,7 +22,7 @@
                   });
                   var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                   var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                      return accumulator + series.yData[indexOfCurrentValue];
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
                   }, 0);
                   //use N if all series are visible, otherwise use n
                   var nString =  'n=';
@@ -53,10 +53,11 @@
       },
 
   "series": [
-    { "color": "#007a2f", index: 6, legendIndex: 0}, // dunkelgrün
-    { "color": "#68ab2b", index: 5, legendIndex: 1}, // grün
-    { "color": "#FABD24", index: 4, legendIndex: 2}, // gelb
-    { "color": "#DC440E", index: 3, legendIndex: 3}, // orange
+    { "color": "#C9D6DB", index: 6, legendIndex: 0}, // dunkelgrün
+    { "color": "#689199", index: 5, legendIndex: 1}, // grün
+ //   { "color": "#FFBB58", index: 4, legendIndex: 2}, // gelb
+    { "color": "#FABD24", index: 3, legendIndex: 3}, // orange
+    { "color": "#FF8028", index: 1, legendIndex: 5}, // hellgrau
     { "color": "#6F6F6F", index: 0, legendIndex: 6}, // dunkelgrau
 
   ],

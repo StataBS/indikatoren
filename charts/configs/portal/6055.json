@@ -75,6 +75,10 @@
         [
           2022,
           4389
+        ],
+        [
+          2023,
+          4492
         ]
       ],
       "name": "Tagesbetreuung"
@@ -154,6 +158,10 @@
         [
           2022,
           656
+        ],
+        [
+          2023,
+          720
         ]
       ],
       "name": "Frühhorte Tagesstrukturen"
@@ -233,6 +241,10 @@
         [
           2022,
           3800
+        ],
+        [
+          2023,
+          4080
         ]
       ],
       "name": "Mittagsmodule Tagesstrukturen"
@@ -312,6 +324,10 @@
         [
           2022,
           3450
+        ],
+        [
+          2023,
+          3748
         ]
       ],
       "name": "Nachmittagsmodule Tagesstrukturen"
@@ -425,10 +441,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5,
-    "itemDistance": 0,
-    "padding": 0,
-    "symbolPadding": 2
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -443,7 +456,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

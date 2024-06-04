@@ -5,43 +5,47 @@
       "data": [
         [
           2013,
-          57.8
-        ],
-        [
-          2014,
           61.1
         ],
         [
-          2015,
+          2014,
           62.4
         ],
         [
-          2016,
+          2015,
           63.7
         ],
         [
-          2017,
+          2016,
           65.5
         ],
         [
-          2018,
+          2017,
           65.8
         ],
         [
-          2019,
+          2018,
           67.1
         ],
         [
-          2020,
+          2019,
           68.1
         ],
         [
-          2021,
+          2020,
           66.5
         ],
         [
-          2022,
+          2021,
           69
+        ],
+        [
+          2022,
+          70.3
+        ],
+        [
+          2023,
+          70.5
         ]
       ],
       "name": "EL zur IV"
@@ -51,19 +55,19 @@
       "data": [
         [
           2013,
-          42.9
-        ],
-        [
-          2014,
           45.7
         ],
         [
-          2015,
+          2014,
           47
         ],
         [
-          2016,
+          2015,
           47.9
+        ],
+        [
+          2016,
+          50.1
         ],
         [
           2017,
@@ -71,23 +75,27 @@
         ],
         [
           2018,
-          50.1
-        ],
-        [
-          2019,
           51.1
         ],
         [
-          2020,
+          2019,
           51.7
         ],
         [
-          2021,
+          2020,
           50.8
         ],
         [
-          2022,
+          2021,
           41
+        ],
+        [
+          2022,
+          45.2
+        ],
+        [
+          2023,
+          44.7
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -134,6 +142,10 @@
         [
           2022,
           20.9
+        ],
+        [
+          2023,
+          21.5
         ]
       ],
       "name": "EL zur AHV"
@@ -180,6 +192,10 @@
         [
           2022,
           12.8
+        ],
+        [
+          2023,
+          13.1
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -310,7 +326,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen (BSV).\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

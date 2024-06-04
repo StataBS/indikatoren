@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          17230.856487
+          17018.517961
         ],
         [
           "Deutschland",
-          828.02074647
+          899.47530967
         ],
         [
           "Italien",
-          2915.3718897
+          2934.5996629
         ],
         [
           "Türkei",
-          3123.1150846
+          3106.2393809
         ],
         [
           "EU-West + EFTA + UK",
-          3409.0697339
+          3315.4494171
         ],
         [
           "EU-Ost",
-          609.44721506
+          618.54438991
         ],
         [
           "Balkan",
-          2877.4757418
+          2814.7410882
         ],
         [
           "Mittel- und Südamerika",
-          583.13227473
+          533.47658525
         ],
         [
           "Arabische Länder",
-          485.70274528
+          465.71830819
         ],
         [
           "Afrikanische Länder",
-          752.21391251
+          736.04969718
         ],
         [
           "Übrige Länder",
-          1357.1127691
+          1360.4136539
         ]
       ],
       "name": "Sekundarstufe I",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          44466.089797
+          42422.016335
         ],
         [
           "Deutschland",
-          3066.8954186
+          3109.2724613
         ],
         [
           "Italien",
-          2029.8113417
+          1921.2873669
         ],
         [
           "Türkei",
-          1194.589677
+          1259.7190642
         ],
         [
           "EU-West + EFTA + UK",
-          2172.8207068
+          2094.2733958
         ],
         [
           "EU-Ost",
-          1558.2071966
+          1516.3395982
         ],
         [
           "Balkan",
-          2123.2556985
+          2011.4499928
         ],
         [
           "Mittel- und Südamerika",
-          354.16876891
+          313.99675186
         ],
         [
           "Arabische Länder",
-          323.51063091
+          370.38947462
         ],
         [
           "Afrikanische Länder",
-          312.3854237
+          386.50373879
         ],
         [
           "Übrige Länder",
-          832.88159073
+          808.35214692
         ]
       ],
       "name": "Sekundarstufe II",
@@ -113,47 +113,47 @@
       "data": [
         [
           "Schweiz",
-          42736.253716
+          44766.865703
         ],
         [
           "Deutschland",
-          9749.613911
+          9682.0653847
         ],
         [
           "Italien",
-          2129.5656541
+          2272.8289405
         ],
         [
           "Türkei",
-          719.90663869
+          658.79186763
         ],
         [
           "EU-West + EFTA + UK",
-          7138.7174372
+          7722.4755737
         ],
         [
           "EU-Ost",
-          2328.3223246
+          2335.5590526
         ],
         [
           "Balkan",
-          772.45662202
+          783.31340011
         ],
         [
           "Mittel- und Südamerika",
-          678.47419935
+          708.46050888
         ],
         [
           "Arabische Länder",
-          339.3988297
+          387.77530099
         ],
         [
           "Afrikanische Länder",
-          262.70657383
+          304.66098168
         ],
         [
           "Übrige Länder",
-          3835.2492428
+          4067.1775046
         ]
       ],
       "name": "Tertiärstufe",
@@ -235,7 +235,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2017 bis 2021"
+    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2018 bis 2022"
   },
   "navigation": {
     "menuItemStyle": {
@@ -292,7 +292,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "legend": {
     "layout": "horizontal",

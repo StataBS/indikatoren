@@ -162,7 +162,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Meldungen bei der Polizei",
 		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
-		"lesehilfe": "Im Jahr 2022 wurden bei der Polizeieinsatzzentrale 1 158 Meldungen erfasst, welche die Innenstadt betreffen.",
+		"lesehilfe": "Im Jahr 2023 wurden bei der Polizeieinsatzzentrale 1 196 Meldungen erfasst, welche die Innenstadt betreffen.",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -189,7 +189,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-22T08:41:35",
+		"aktualisierungsdatum": "2024-06-04T09:07:18",
 		"id": 9579
 	},
 	{
@@ -201,7 +201,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "In der Innenstadt war im Jahr 2022 mit 329 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (241) sowie wegen Alkohol und Drogen (148).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2023 mit 342 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (215) sowie wegen Strassenmusik (139).",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -226,7 +226,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-22T08:41:36",
+		"aktualisierungsdatum": "2024-06-04T09:07:19",
 		"id": 9580
 	},
 	{
