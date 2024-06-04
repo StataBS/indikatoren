@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#256370",
       "index": 6,
       "legendIndex": 0,
       "data": [
@@ -31,19 +31,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          81
+          78.82893
         ],
         [
           "2013: Deutsch und weitere",
-          99
+          104.66406
         ],
         [
           "2013: Kein Deutsch",
-          59
+          64.28127
         ],
         [
           "2013: Total",
-          241
+          251.08266
         ],
         [
           "2017",
@@ -51,26 +51,46 @@
         ],
         [
           "2017: Nur Deutsch",
-          79
+          74.78412
         ],
         [
           "2017: Deutsch und weitere",
-          77
+          88.91528
         ],
         [
           "2017: Kein Deutsch",
-          53
+          57.84434
         ],
         [
           "2017: Total",
-          217
+          229.46671
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          60.36799
+        ],
+        [
+          "2022: Deutsch und weitere",
+          101.56939
+        ],
+        [
+          "2022: Kein Deutsch",
+          34.36507
+        ],
+        [
+          "2022: Total",
+          198.74866
         ]
       ],
       "name": "Stimmt genau",
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#71A3B5",
       "index": 5,
       "legendIndex": 1,
       "data": [
@@ -100,19 +120,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          347
+          336.0867
         ],
         [
           "2013: Deutsch und weitere",
-          215
+          224.39218
         ],
         [
           "2013: Kein Deutsch",
-          99
+          105.20437
         ],
         [
           "2013: Total",
-          671
+          675.84671
         ],
         [
           "2017",
@@ -120,26 +140,46 @@
         ],
         [
           "2017: Nur Deutsch",
-          281
+          262.24929
         ],
         [
           "2017: Deutsch und weitere",
-          175
+          192.97647
         ],
         [
           "2017: Kein Deutsch",
-          74
+          79.05718
         ],
         [
           "2017: Total",
-          542
+          546.5314
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          328.92985
+        ],
+        [
+          "2022: Deutsch und weitere",
+          244.00484
+        ],
+        [
+          "2022: Kein Deutsch",
+          65.53151
+        ],
+        [
+          "2022: Total",
+          638.46621
         ]
       ],
       "name": "Stimmt eher",
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#FFBB58",
       "index": 4,
       "legendIndex": 2,
       "data": [
@@ -169,19 +209,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          291
+          286.57497
         ],
         [
           "2013: Deutsch und weitere",
-          118
+          122.86818
         ],
         [
           "2013: Kein Deutsch",
-          40
+          39.95855
         ],
         [
           "2013: Total",
-          451
+          450.16664
         ],
         [
           "2017",
@@ -189,26 +229,46 @@
         ],
         [
           "2017: Nur Deutsch",
-          160
+          153.82224
         ],
         [
           "2017: Deutsch und weitere",
-          71
+          81.71069
         ],
         [
           "2017: Kein Deutsch",
-          29
+          29.18088
         ],
         [
           "2017: Total",
-          264
+          268.02106
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          192.39541
+        ],
+        [
+          "2022: Deutsch und weitere",
+          128.27379
+        ],
+        [
+          "2022: Kein Deutsch",
+          27.9426
+        ],
+        [
+          "2022: Total",
+          348.61181
         ]
       ],
       "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "index": 3,
       "legendIndex": 3,
       "data": [
@@ -238,19 +298,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          89
+          88.72328
         ],
         [
           "2013: Deutsch und weitere",
-          27
+          27.95404
         ],
         [
           "2013: Kein Deutsch",
-          13
+          12.79886
         ],
         [
           "2013: Total",
-          132
+          131.52807
         ],
         [
           "2017",
@@ -258,19 +318,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          74
+          70.70474
         ],
         [
           "2017: Deutsch und weitere",
-          35
+          38.34324
         ],
         [
           "2017: Kein Deutsch",
-          3
+          2.48044
         ],
         [
           "2017: Total",
-          113
+          112.95977
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          54.45154
+        ],
+        [
+          "2022: Deutsch und weitere",
+          51.8193
+        ],
+        [
+          "2022: Kein Deutsch",
+          4.57368
+        ],
+        [
+          "2022: Total",
+          110.84451
         ]
       ],
       "name": "Stimmt gar nicht",
@@ -307,19 +387,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          333
+          316.96344
         ],
         [
           "2013: Deutsch und weitere",
-          190
+          188.89978
         ],
         [
           "2013: Kein Deutsch",
-          90
+          89.06517
         ],
         [
           "2013: Total",
-          616
+          597.9898
         ],
         [
           "2017",
@@ -327,19 +407,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          244
+          218.95741
         ],
         [
           "2017: Deutsch und weitere",
-          134
+          132.99536
         ],
         [
           "2017: Kein Deutsch",
-          72
+          73.05616
         ],
         [
           "2017: Total",
-          456
+          430.7714
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          201.50357
+        ],
+        [
+          "2022: Deutsch und weitere",
+          156.89479
+        ],
+        [
+          "2022: Kein Deutsch",
+          73.81136
+        ],
+        [
+          "2022: Total",
+          432.20972
         ]
       ],
       "name": "Weiss nicht",
@@ -376,19 +476,19 @@
         ],
         [
           "2013: Nur Deutsch",
-          49
+          47.58602
         ],
         [
           "2013: Deutsch und weitere",
-          44
+          46.81351
         ],
         [
           "2013: Kein Deutsch",
-          28
+          29.98659
         ],
         [
           "2013: Total",
-          120
+          124.38612
         ],
         [
           "2017",
@@ -396,19 +496,39 @@
         ],
         [
           "2017: Nur Deutsch",
-          32
+          30.16454
         ],
         [
           "2017: Deutsch und weitere",
-          24
+          25.81515
         ],
         [
           "2017: Kein Deutsch",
-          15
+          19.0118
         ],
         [
           "2017: Total",
-          73
+          77.24965
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2022: Nur Deutsch",
+          15.1064
+        ],
+        [
+          "2022: Deutsch und weitere",
+          26.73074
+        ],
+        [
+          "2022: Kein Deutsch",
+          8.44858
+        ],
+        [
+          "2022: Total",
+          52.11909
         ]
       ],
       "name": "Keine Angabe",
@@ -441,7 +561,7 @@
                   });
                   var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                   var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                      return accumulator + series.yData[indexOfCurrentValue];
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
                   }, 0);
                   //use N if all series are visible, otherwise use n
                   var nString =  'n=';
@@ -476,7 +596,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 493,
+    "height": 513,
     "spacing": [
       10,
       10,
@@ -567,7 +687,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "legend": {
     "layout": "horizontal",

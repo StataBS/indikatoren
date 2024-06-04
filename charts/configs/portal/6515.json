@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          25.8
+          24.8
         ],
         [
           "Deutschland",
-          19.23
+          15.11
         ],
         [
           "Italien",
-          74.6
+          65.71
         ],
         [
           "Türkei",
-          81.25
+          80.43
         ],
         [
           "EU-West + EFTA + UK",
-          64.61
+          62.42
         ],
         [
           "EU-Ost",
-          70.83
+          68.66
         ],
         [
           "Balkan",
-          91.07
+          92.16
         ],
         [
           "Mittel- und Südamerika",
-          80
+          87.5
         ],
         [
           "Arabische Länder",
-          85.29
+          87.5
         ],
         [
           "Afrikanische Länder",
-          69.77
+          69.44
         ],
         [
           "Übrige Länder",
-          89.66
+          87.88
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung"
   },
   "subtitle": {
-    "text": " nach Staatsangehörigkeit, Stadt Basel, 2022",
+    "text": " nach Staatsangehörigkeit, Stadt Basel, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2023"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
   },
   "colors": [
     "#b00000",
