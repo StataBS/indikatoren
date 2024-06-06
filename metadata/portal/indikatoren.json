@@ -14931,9 +14931,9 @@
 			6673
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2017 bis 2021",
-		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (47,6%) und Sekundarstufe I-Ausbildung (28,8%) als Schweizer (sowohl hier geborene wie eingebürgerte).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
+		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (48,7%) und Sekundarstufe I-Ausbildung (28,2%) als Schweizer (sowohl hier geborene wie eingebürgerte).",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -14958,7 +14958,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-12T08:24:13",
+		"aktualisierungsdatum": "2024-06-06T09:20:45",
 		"id": 6091
 	},
 	{
@@ -16951,9 +16951,9 @@
 			6691
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Personen mit Deutscher Staatsangehörigkeit weisen mit 85,9% (Konfidenzintervall:  84,3% bis 87,5%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, aus dem Balkan, aus arabischen und aus afrikanischen Ländern beobachtbar.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
+		"lesehilfe": "Personen mit deutscher Staatsangehörigkeit weisen mit 84,2% (Konfidenzintervall:  82,5% bis 85,9%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, dem Balkan, arabischen und afrikanischen Ländern beobachtbar.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -16978,7 +16978,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:11",
+		"aktualisierungsdatum": "2024-06-06T09:20:48",
 		"id": 6416
 	},
 	{
@@ -16991,9 +16991,9 @@
 			6692
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2017 bis 2021",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
 		"lesehilfe": "Die Erwerbstätigenquote von Schweizern ist bei den über 55-Jährigen höher als bei den ausländischen Männern. In den jüngeren Altersgruppen sind die Erwerbstätigenquoten der Schweizer und der ausländischen Männer nicht signifikant verschieden voneinander (überlappende Konfidenzintervalle).",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2018 bis 2022 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17005,7 +17005,7 @@
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kuerzel": "",
+		"kuerzel": "I.03.1.06417",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "C2-4",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
@@ -17018,7 +17018,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:12",
+		"aktualisierungsdatum": "2024-06-06T09:20:49",
 		"id": 6417
 	},
 	{
@@ -17032,8 +17032,8 @@
 		],
 		"title": "Erwerbsquote der 15- bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2017 bis 2021 liegen die Quoten der Schweizer (78,6%) und Schweizerinnen (74,9%) näher zusammen als diejenigen der Ausländer (84,5%) und Ausländerinnen (72,3%).",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
+		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2018 bis 2022 liegen die Quoten der Schweizer (77,8%) und Schweizerinnen (74,3%) näher zusammen als diejenigen der Ausländer (83,9%) und Ausländerinnen (72,2%).",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -17059,7 +17059,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-04T10:52:33",
+		"aktualisierungsdatum": "2024-06-06T09:20:47",
 		"id": 6418
 	},
 	{
@@ -19855,9 +19855,9 @@
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 wurden 3 010 (Vorjahr 2 385) Gutscheine ausgestellt und 1 294 (Vorjahr 1 422) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr zurückgegangen. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (882) ausgestellt. Personen aus arabischen Ländern erreichten die höchste Einlösequote (81,3%), Personen aus der Gruppe EU-Ost die tiefste (28,0%).",
-		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 wurden 2 830 (Vorjahr 3 010) Gutscheine ausgestellt und 1 457 (Vorjahr 1 294) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr deutlich gestiegen. Für Personen aus der Ländergruppe EU-West + EFTA + UK wurden die meisten Gutscheine (857) ausgestellt. Personen aus Mittel- und Südamerika erreichten mit 69,9% die höchste Einlösequote, Personen aus der Gruppe EU-Ost die tiefste (45,2%).",
+		"erlaeuterungen": "Im Kanton Basel-Stadt haben nicht deutschsprachige Migrantinnen und Migranten die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Sie müssen volljährig, in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton sein und über eine Aufenthaltsbewilligung B verfügen. Der entsprechende Gutschein ist ein Jahr gültig. Personen, die einen Gutschein erhalten haben, sind nicht zwingend mit jenen identisch, die ihn eingelöst haben. Personen aus dem Asylbereich sind ausgenommen. Diese werden über die Sozialhilfe im Spracherwerb gefördert.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
 			"Bevölkerungsdienste und Migration Basel-Stadt"
@@ -19883,7 +19883,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-03T08:18:59",
+		"aktualisierungsdatum": "2024-06-06T09:20:46",
 		"id": 6514
 	},
 	{
@@ -25685,8 +25685,8 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im April 2024 bei 3,8% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Mai 2024 bei 3,6% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -25711,7 +25711,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-07T09:19:14",
+		"aktualisierungsdatum": "2024-06-06T09:20:37",
 		"id": 7510
 	},
 	{
@@ -25723,7 +25723,7 @@
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende April 2024 sind in Basel-Stadt fast gleich viele offene Stellen gemeldet wie ein Jahr zuvor. Deutlich gesunken ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
+		"lesehilfe": "Ende Mai 2024 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Deutlich tiefer als im Vorjahr ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -25749,7 +25749,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-07T09:19:16",
+		"aktualisierungsdatum": "2024-06-06T09:20:38",
 		"id": 7511
 	},
 	{
@@ -35097,7 +35097,7 @@
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt im April 2024 bei rund 3 800. Die Zahl der Langzeitarbeitslosen ist leicht auf rund 590 Personen gestiegen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, ist im Mail 2024 gegenüber dem Vormonat weiter gesunken. Die Zahl der Langzeitarbeitslosen liegt bei knapp 600 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -35123,7 +35123,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-07T09:19:16",
+		"aktualisierungsdatum": "2024-06-06T09:20:39",
 		"id": 8980
 	},
 	{
@@ -35161,7 +35161,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-07T09:19:17",
+		"aktualisierungsdatum": "2024-06-06T09:20:40",
 		"id": 8981
 	},
 	{
@@ -35213,7 +35213,7 @@
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. Seit Mai 2021 sind die Zahlen deutlich zurück gegangen. Seit September 2023 wird in Basel-Stadt jeweils Kurzarbeit für rund 40 bis 90 Personen pro Monat beantragt.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. Seit Frühling 2021 geht die Zahl zurück. Seit Februar 2023 liegt sie unter 30.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. Seit Mai 2021 sind die Zahlen deutlich zurück gegangen. Seit September 2023 wird in Basel-Stadt jeweils Kurzarbeit für weniger als 100 Personen pro Monat beantragt.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. Seit Frühling 2021 geht die Zahl zurück. Seit Februar 2023 liegt sie unter 30.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit zwei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -35239,7 +35239,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-07T09:19:18",
+		"aktualisierungsdatum": "2024-06-06T09:20:41",
 		"id": 8992
 	},
 	{
@@ -35280,7 +35280,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-27T10:59:35",
+		"aktualisierungsdatum": "2024-06-06T09:20:41",
 		"id": 8995
 	},
 	{
@@ -35452,7 +35452,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-30T08:36:05",
+		"aktualisierungsdatum": "2024-06-06T09:20:42",
 		"id": 9022
 	},
 	{
@@ -35490,7 +35490,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-27T10:59:37",
+		"aktualisierungsdatum": "2024-06-06T09:20:44",
 		"id": 9023
 	},
 	{

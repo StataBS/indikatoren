@@ -11,23 +11,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.397
+          0.37
         ],
         [
           "25-34 Jahre",
-          0.822
+          0.821
         ],
         [
           "35-44 Jahre",
-          0.878
+          0.873
         ],
         [
           "45-54 Jahre",
-          0.843
+          0.825
         ],
         [
           "55-64 Jahre",
-          0.712
+          0.719
         ]
       ],
       "name": "Schweizer",
@@ -44,28 +44,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.364,
-          "high": 0.431
+          "low": 0.336,
+          "high": 0.403
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.799,
+          "low": 0.798,
           "high": 0.844
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.857,
-          "high": 0.899
+          "low": 0.851,
+          "high": 0.895
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.82,
-          "high": 0.865
+          "low": 0.801,
+          "high": 0.849
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.687,
-          "high": 0.736
+          "low": 0.694,
+          "high": 0.744
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -82,19 +82,19 @@
       "data": [
         [
           "15-24 Jahre",
-          0.41
+          0.384
         ],
         [
           "25-34 Jahre",
-          0.834
+          0.826
         ],
         [
           "35-44 Jahre",
-          0.841
+          0.832
         ],
         [
           "45-54 Jahre",
-          0.784
+          0.787
         ],
         [
           "55-64 Jahre",
@@ -115,28 +115,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.376,
-          "high": 0.444
+          "low": 0.349,
+          "high": 0.419
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.813,
-          "high": 0.855
+          "low": 0.805,
+          "high": 0.848
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.819,
-          "high": 0.863
+          "low": 0.809,
+          "high": 0.854
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.761,
-          "high": 0.806
+          "low": 0.764,
+          "high": 0.81
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.617,
-          "high": 0.666
+          "low": 0.616,
+          "high": 0.665
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -153,23 +153,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.373
+          0.387
         ],
         [
           "25-34 Jahre",
-          0.837
+          0.831
         ],
         [
           "35-44 Jahre",
-          0.875
+          0.883
         ],
         [
           "45-54 Jahre",
-          0.803
+          0.791
         ],
         [
           "55-64 Jahre",
-          0.607
+          0.614
         ]
       ],
       "name": "Ausländer",
@@ -186,28 +186,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.316,
-          "high": 0.429
+          "low": 0.331,
+          "high": 0.443
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.813,
-          "high": 0.862
+          "low": 0.806,
+          "high": 0.856
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.854,
-          "high": 0.896
+          "low": 0.863,
+          "high": 0.903
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.775,
-          "high": 0.83
+          "low": 0.761,
+          "high": 0.82
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.566,
-          "high": 0.648
+          "low": 0.573,
+          "high": 0.654
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -224,23 +224,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.356
+          0.369
         ],
         [
           "25-34 Jahre",
-          0.736
+          0.737
         ],
         [
           "35-44 Jahre",
-          0.765
+          0.76
         ],
         [
           "45-54 Jahre",
-          0.696
+          0.712
         ],
         [
           "55-64 Jahre",
-          0.488
+          0.491
         ]
       ],
       "name": "Ausländerinnen",
@@ -257,28 +257,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.304,
-          "high": 0.408
+          "low": 0.315,
+          "high": 0.423
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.708,
-          "high": 0.763
+          "low": 0.709,
+          "high": 0.765
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.739,
-          "high": 0.791
+          "low": 0.734,
+          "high": 0.786
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.663,
-          "high": 0.729
+          "low": 0.679,
+          "high": 0.745
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.443,
-          "high": 0.533
+          "low": 0.446,
+          "high": 0.535
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -362,7 +362,7 @@
     "text": "Erwerbstätigenquote"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2017 bis 2021",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -419,7 +419,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
   },
   "tooltip": {
     "shared": true
