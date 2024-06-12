@@ -66,6 +66,10 @@
         [
           "2021",
           19.4
+        ],
+        [
+          "2022",
+          20.1
         ]
       ],
       "name": "Sekundarstufe I",
@@ -137,6 +141,10 @@
         [
           "2021",
           32.2
+        ],
+        [
+          "2022",
+          31.1
         ]
       ],
       "name": "Sekundarstufe II",
@@ -208,6 +216,10 @@
         [
           "2021",
           48.4
+        ],
+        [
+          "2022",
+          48.8
         ]
       ],
       "name": "Tertiärstufe",
@@ -278,6 +290,10 @@
         ],
         [
           "2021",
+          null
+        ],
+        [
+          "2022",
           null
         ]
       ],
@@ -421,7 +437,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
