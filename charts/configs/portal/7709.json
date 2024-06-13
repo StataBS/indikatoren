@@ -63,6 +63,14 @@
         [
           2021,
           2315
+        ],
+        [
+          2022,
+          2315
+        ],
+        [
+          2023,
+          2315
         ]
       ],
       "name": "Freiraumfläche Messe"
@@ -131,6 +139,14 @@
         [
           2021,
           0.62
+        ],
+        [
+          2022,
+          0.62
+        ],
+        [
+          2023,
+          0.62
         ]
       ],
       "name": "Anteil Freiraumfläche Messe (rechte Skala)"
@@ -197,6 +213,14 @@
         ],
         [
           2021,
+          29778
+        ],
+        [
+          2022,
+          29778
+        ],
+        [
+          2023,
           29778
         ]
       ],
@@ -265,6 +289,14 @@
         ],
         [
           2021,
+          11.34
+        ],
+        [
+          2022,
+          11.34
+        ],
+        [
+          2023,
           11.34
         ]
       ],
@@ -404,7 +436,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.11.2022"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

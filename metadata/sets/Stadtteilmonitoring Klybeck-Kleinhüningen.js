@@ -1384,7 +1384,7 @@ var indikatorensetData = [
 		],
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2022 16,6% (22,36 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 26,9% (24,72 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2022: 22,5% zu 12,5%).",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2023 17,4% (23,57 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 26,9% (24,72 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2023: 19,7% zu 12,5%).",
 		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1411,7 +1411,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:06:12",
+		"aktualisierungsdatum": "2024-06-13T09:54:53",
 		"id": 8080
 	},
 	{
@@ -1425,7 +1425,7 @@ var indikatorensetData = [
 		],
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2021 ein Grossteil (rund 234 000 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 900 m<sup>2</sup> auf die Kategorie «Parkanlage/Spielplatz». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (72 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2023 ein Grossteil (rund 196 800 m<sup>2</sup>. Rückgang gegenüber 2022 aufgrund Ersatz von unbefestigten Gleisanlagen durch befestigte) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 900 m<sup>2</sup> auf die Kategorie «Parkanlage/Spielplatz». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (73 100 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1452,7 +1452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:10",
+		"aktualisierungsdatum": "2024-06-13T09:54:54",
 		"id": 8081
 	},
 	{
@@ -1715,8 +1715,8 @@ var indikatorensetData = [
 		],
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2022 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,5% (Stadt Basel: 3,0%).",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2023 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,5% (Stadt Basel: 3,1%).",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -1740,7 +1740,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-25T09:06:13",
+		"aktualisierungsdatum": "2024-06-13T09:54:58",
 		"id": 8090
 	},
 	{
