@@ -41027,7 +41027,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "112 013 Logiernächte wurden im April 2024 in den Basler Hotelbetrieben gebucht, 7 393 bzw. 7,1% mehr als im März. Im Vergleich zum April 2023 entspricht dies einem Rückgang um 6,4% bzw. 7 648 Übernachtungen. Die inländischen Gäste buchten 42 480 Logiernächte (-6,9%), die Gäste aus dem Ausland 69 533 Übernachtungen (-6,0%).",
+		"lesehilfe": "139 178 Logiernächte wurden im Mai 2024 in den Basler Hotelbetrieben gebucht, 27 165 bzw. 24,2% mehr als im April. Im Vergleich zum Mai 2023 entspricht dies einer Zunahme um 5,7% bzw. 7 459 Übernachtungen. Die inländischen Gäste buchten 52 800 Logiernächte (-2,5%), die Gäste aus dem Ausland 86 378 Übernachtungen (+11,3%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41053,7 +41053,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-15T09:31:01",
+		"aktualisierungsdatum": "2024-06-17T08:40:15",
 		"id": 7516
 	},
 	{
@@ -41064,8 +41064,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41091,7 +41091,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-15T09:31:02",
+		"aktualisierungsdatum": "2024-06-17T08:40:16",
 		"id": 7517
 	},
 	{
@@ -80499,7 +80499,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Stipendien nach Ausbildungstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlauf des Jahres 2022 werden insgesamt 1 953 Stipendien vergeben. Davon gehen 29% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. Knapp 37% der Begünstigten befinden sich in der beruflichen Grundbildung und knapp 34% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
+		"lesehilfe": "2023 werden insgesamt 1 877 Stipendien vergeben. Davon gehen 28% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 36% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Ausbildungsbeiträge Basel-Stadt"
@@ -80525,7 +80525,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:49",
+		"aktualisierungsdatum": "2024-06-17T08:40:17",
 		"id": 9915
 	},
 	{

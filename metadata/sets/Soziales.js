@@ -388,7 +388,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Stipendien nach Ausbildungstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlauf des Jahres 2022 werden insgesamt 1 953 Stipendien vergeben. Davon gehen 29% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. Knapp 37% der Begünstigten befinden sich in der beruflichen Grundbildung und knapp 34% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
+		"lesehilfe": "2023 werden insgesamt 1 877 Stipendien vergeben. Davon gehen 28% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 36% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Ausbildungsbeiträge Basel-Stadt"
@@ -413,7 +413,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:49",
+		"aktualisierungsdatum": "2024-06-17T08:40:17",
 		"id": 9915
 	},
 	{

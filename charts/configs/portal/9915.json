@@ -47,6 +47,10 @@
         [
           "2022",
           574
+        ],
+        [
+          "2023",
+          524
         ]
       ],
       "name": "Gymnasien und andere Schulen für Allgemeinbildung",
@@ -99,6 +103,10 @@
         [
           "2022",
           712
+        ],
+        [
+          "2023",
+          684
         ]
       ],
       "name": "Berufliche Grundbildung",
@@ -151,6 +159,10 @@
         [
           "2022",
           659
+        ],
+        [
+          "2023",
+          662
         ]
       ],
       "name": "Tertiärstufe",
@@ -203,6 +215,10 @@
         [
           "2022",
           8
+        ],
+        [
+          "2023",
+          7
         ]
       ],
       "name": "Übrige weiterführende Ausbildungen",
@@ -342,11 +358,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2024"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "\u003Cspan style=\"color:none\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "9915"
