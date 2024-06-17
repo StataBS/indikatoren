@@ -39,10 +39,10 @@
         ],
         [
           "Ausländer",
-          35
+          35.2
         ]
       ],
-      "name": "2022",
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -177,7 +177,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
