@@ -1,22 +1,23 @@
-﻿wohnviertel_id	Anteil Grünflächen	Rang	Wohnviertel	jahr_num
-1	0.0666591586	1	Altstadt Grossbasel	2020
-12	0.0809595313	2	Altstadt Kleinbasel	2020
-18	0.1232852931	3	Klybeck	2020
-16	0.1563106041	4	Rosental	2020
-13	0.159184092	5	Clara	2020
-17	0.1660807391	6	Matthäus	2020
-6	0.1762109013	7	Gundeldingen	2020
-2	0.1947985383	8	Vorstädte	2020
-19	0.223024617	9	Kleinhüningen	2020
-3	0.2408567116	10	Am Ring	2020
-14	0.2805539178	11	Wettstein	2020
-11	0.2821844968	12	St. Johann	2020
-9	0.3214087452	13	Gotthelf	2020
-5	0.3230578902	14	St. Alban	2020
-4	0.3581089512	15	Breite	2020
-10	0.3626791795	16	Iselin	2020
-8	0.4134138139	17	Bachletten	2020
-15	0.5959045602	18	Hirzbrunnen	2020
-7	0.7121272768	19	Bruderholz	2020
-20	0.7946988909	20	Riehen	2020
-30	0.9021220471	21	Bettingen	2020
+﻿"wohnviertel_id"	"Anteil Grünflächen"	"Wohnviertel"	"statistikjahr"	"Rang"
+1	0.067	"Altstadt Grossbasel"	2023	1
+12	0.079	"Altstadt Kleinbasel"	2023	2
+18	0.125	"Klybeck"	2023	3
+16	0.157	"Rosental"	2023	4
+13	0.159	"Clara"	2023	5
+17	0.171	"Matthäus"	2023	6
+6	0.178	"Gundeldingen"	2023	7
+2	0.197	"Vorstädte"	2023	8
+19	0.197	"Kleinhüningen"	2023	9
+3	0.246	"Am Ring"	2023	10
+14	0.282	"Wettstein"	2023	11
+11	0.303	"St. Johann"	2023	12
+5	0.317	"St. Alban"	2023	13
+9	0.325	"Gotthelf"	2023	14
+4	0.362	"Breite"	2023	15
+10	0.363	"Iselin"	2023	16
+8	0.421	"Bachletten"	2023	17
+15	0.597	"Hirzbrunnen"	2023	18
+7	0.714	"Bruderholz"	2023	19
+20	0.791	"Riehen"	2023	20
+30	0.899	"Bettingen"	2023	21
+

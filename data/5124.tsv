@@ -1,23 +1,23 @@
 ﻿"Wohnviertel_id"	"Erwerbstätigenquote"	"Rang"	"Wohnviertel"	"jahr_num"
-18	0.6299572	1	"Klybeck"	0
-19	0.6440538	2	"Kleinhüningen"	0
-13	0.6679854	3	"Clara"	0
-12	0.7018931	4	"Altstadt Kleinbasel"	0
-17	0.7027	5	"Matthäus"	0
-15	0.7065011	6	"Hirzbrunnen"	0
-11	0.708345	7	"St. Johann"	0
-16	0.710111	8	"Rosental"	0
-10	0.7167553	9	"Iselin"	0
-9	0.7341246	10	"Gotthelf"	0
-7	0.7388214	11	"Bruderholz"	0
-5	0.7434271	12	"St. Alban"	0
-20	0.7503934	13	"Riehen"	0
-30	0.7503934	14	"Bettingen"	0
-4	0.7658882	15	"Breite"	0
-6	0.7659613	16	"Gundeldingen"	0
-8	0.7690934	17	"Bachletten"	0
-2	0.7693459	18	"Vorstädte"	0
-3	0.7868671	19	"Am Ring"	0
-14	0.803164	20	"Wettstein"	0
-1	0.837441	21	"Altstadt Grossbasel"	0
+19	0.5525901	1	"Kleinhüningen"	"2018-2022"
+18	0.6352123	2	"Klybeck"	"2018-2022"
+16	0.6929327	3	"Rosental"	"2018-2022"
+20	0.6957735	4	"Riehen"	"2018-2022"
+30	0.6957735	4	"Bettingen"	"2018-2022"
+10	0.6972724	6	"Iselin"	"2018-2022"
+4	0.7047208	7	"Breite"	"2018-2022"
+17	0.7146829	8	"Matthäus"	"2018-2022"
+11	0.7151063	9	"St. Johann"	"2018-2022"
+13	0.7159412	10	"Clara"	"2018-2022"
+7	0.7167777	11	"Bruderholz"	"2018-2022"
+15	0.7228669	12	"Hirzbrunnen"	"2018-2022"
+5	0.7233697	13	"St. Alban"	"2018-2022"
+9	0.734909	14	"Gotthelf"	"2018-2022"
+8	0.7471028	15	"Bachletten"	"2018-2022"
+6	0.7519531	16	"Gundeldingen"	"2018-2022"
+2	0.7603255	17	"Vorstädte"	"2018-2022"
+3	0.7753934	18	"Am Ring"	"2018-2022"
+1	0.7813881	19	"Altstadt Grossbasel"	"2018-2022"
+12	0.8067397	20	"Altstadt Kleinbasel"	"2018-2022"
+14	0.821088	21	"Wettstein"	"2018-2022"
 

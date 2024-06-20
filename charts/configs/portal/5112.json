@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil Personen in Einpersonenhaushalten",
+      "name": "Anteil Personen in Einpersonenhh",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,87 +3238,87 @@
       "data": [
         [
           30,
-          0.1364468864
+          0.1251015435
         ],
         [
           7,
-          0.1503190224
+          0.1434469617
         ],
         [
           20,
-          0.1654124663
+          0.1663577596
         ],
         [
           15,
-          0.1854786195
+          0.1975913887
         ],
         [
           19,
-          0.1970479705
+          0.2133580705
         ],
         [
           8,
-          0.2109623493
-        ],
-        [
-          16,
-          0.2222524483
-        ],
-        [
-          18,
-          0.2287241525
+          0.2156153051
         ],
         [
           5,
-          0.2374254429
+          0.229033064
+        ],
+        [
+          16,
+          0.2345162596
         ],
         [
           11,
-          0.2387484412
+          0.2372414538
         ],
         [
-          17,
-          0.2633456749
-        ],
-        [
-          10,
-          0.27072021
+          18,
+          0.2501834189
         ],
         [
           14,
-          0.276009678
-        ],
-        [
-          13,
-          0.2765625
+          0.2664023071
         ],
         [
           3,
-          0.2779129758
+          0.2701050621
+        ],
+        [
+          10,
+          0.2778893031
+        ],
+        [
+          17,
+          0.2785967786
         ],
         [
           4,
-          0.2818738657
-        ],
-        [
-          6,
-          0.2832781187
+          0.2830188679
         ],
         [
           9,
-          0.2886567603
+          0.2914079422
         ],
         [
-          1,
-          0.2974408498
+          6,
+          0.2925081433
+        ],
+        [
+          13,
+          0.3059194566
         ],
         [
           2,
-          0.3347280335
+          0.3193005181
+        ],
+        [
+          1,
+          0.3342709798
         ],
         [
           12,
-          0.3457943925
+          0.3525054466
         ]
       ]
     },
@@ -3353,43 +3353,43 @@
         ],
         [
           7,
-          "Rosental"
-        ],
-        [
-          8,
-          "Klybeck"
-        ],
-        [
-          9,
           "St. Alban"
         ],
         [
-          10,
+          8,
+          "Rosental"
+        ],
+        [
+          9,
           "St. Johann"
         ],
         [
+          10,
+          "Klybeck"
+        ],
+        [
           11,
-          "Matthäus"
-        ],
-        [
-          12,
-          "Iselin"
-        ],
-        [
-          13,
           "Wettstein"
         ],
         [
-          14,
-          "Clara"
-        ],
-        [
-          15,
+          12,
           "Am Ring"
         ],
         [
-          16,
+          13,
+          "Iselin"
+        ],
+        [
+          14,
+          "Matthäus"
+        ],
+        [
+          15,
           "Breite"
+        ],
+        [
+          16,
+          "Gotthelf"
         ],
         [
           17,
@@ -3397,15 +3397,15 @@
         ],
         [
           18,
-          "Gotthelf"
+          "Clara"
         ],
         [
           19,
-          "Altstadt Grossbasel"
+          "Vorstädte"
         ],
         [
           20,
-          "Vorstädte"
+          "Altstadt Grossbasel"
         ],
         [
           21,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
   },
   "colorAxis": {
     "min": 0,

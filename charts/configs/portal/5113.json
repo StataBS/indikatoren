@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          0.2
+          0.1024
         ],
         [
           19,
-          0.216666667
-        ],
-        [
-          16,
-          0.231578947
-        ],
-        [
-          13,
-          0.255319149
-        ],
-        [
-          17,
-          0.259067358
-        ],
-        [
-          4,
-          0.268041237
-        ],
-        [
-          12,
-          0.269230769
+          0.2203
         ],
         [
           6,
-          0.291666667
+          0.2308
+        ],
+        [
+          12,
+          0.28
         ],
         [
           10,
-          0.297520661
+          0.2803
         ],
         [
-          11,
-          0.303703704
+          13,
+          0.2857
+        ],
+        [
+          17,
+          0.2905
+        ],
+        [
+          16,
+          0.2906
         ],
         [
           15,
-          0.339181287
+          0.2995
         ],
         [
-          30,
-          0.375
+          4,
+          0.313
+        ],
+        [
+          11,
+          0.3313
         ],
         [
           1,
-          0.4375
-        ],
-        [
-          9,
-          0.480769231
-        ],
-        [
-          14,
-          0.489361702
-        ],
-        [
-          20,
-          0.524137931
+          0.4286
         ],
         [
           5,
-          0.525179856
+          0.4404
+        ],
+        [
+          30,
+          0.4483
+        ],
+        [
+          9,
+          0.4545
+        ],
+        [
+          20,
+          0.4581
         ],
         [
           2,
-          0.529411765
+          0.4783
         ],
         [
           3,
-          0.550458716
+          0.5372
         ],
         [
           8,
-          0.564356436
+          0.5498
+        ],
+        [
+          14,
+          0.5574
         ],
         [
           7,
-          0.690322581
+          0.587
         ]
       ]
     },
@@ -3337,55 +3337,55 @@
         ],
         [
           3,
-          "Rosental"
-        ],
-        [
-          4,
-          "Clara"
-        ],
-        [
-          5,
-          "Matthäus"
-        ],
-        [
-          6,
-          "Breite"
-        ],
-        [
-          7,
-          "Altstadt Kleinbasel"
-        ],
-        [
-          8,
           "Gundeldingen"
         ],
         [
-          9,
+          4,
+          "Altstadt Kleinbasel"
+        ],
+        [
+          5,
           "Iselin"
         ],
         [
-          10,
-          "St Johann"
+          6,
+          "Clara"
         ],
         [
-          11,
+          7,
+          "Matthäus"
+        ],
+        [
+          8,
+          "Rosental"
+        ],
+        [
+          9,
           "Hirzbrunnen"
         ],
         [
-          12,
-          "Bettingen"
+          10,
+          "Breite"
         ],
         [
-          13,
+          11,
+          "St. Johann"
+        ],
+        [
+          12,
           "Altstadt Grossbasel"
         ],
         [
+          13,
+          "St. Alban"
+        ],
+        [
           14,
-          "Gotthelf"
+          "Bettingen"
         ],
         [
           15,
-          "Wettstein"
+          "Gotthelf"
         ],
         [
           16,
@@ -3393,19 +3393,19 @@
         ],
         [
           17,
-          "St. Alban"
-        ],
-        [
-          18,
           "Vorstädte"
         ],
         [
-          19,
+          18,
           "Am Ring"
         ],
         [
-          20,
+          19,
           "Bachletten"
+        ],
+        [
+          20,
+          "Wettstein"
         ],
         [
           21,
@@ -3861,7 +3861,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Gymnasialquote"
+    "text": "Sek P-Quote"
   },
   "subtitle": {
     "style": {
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
   },
   "colorAxis": {
     "min": 0,

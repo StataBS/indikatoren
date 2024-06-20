@@ -3238,87 +3238,87 @@
       "data": [
         [
           1,
-          0.0666591586
+          0.067
         ],
         [
           12,
-          0.0809595313
+          0.079
         ],
         [
           18,
-          0.1232852931
+          0.125
         ],
         [
           16,
-          0.1563106041
+          0.157
         ],
         [
           13,
-          0.159184092
+          0.159
         ],
         [
           17,
-          0.1660807391
+          0.171
         ],
         [
           6,
-          0.1762109013
+          0.178
         ],
         [
           2,
-          0.1947985383
+          0.197
         ],
         [
           19,
-          0.223024617
+          0.197
         ],
         [
           3,
-          0.2408567116
+          0.246
         ],
         [
           14,
-          0.2805539178
+          0.282
         ],
         [
           11,
-          0.2821844968
-        ],
-        [
-          9,
-          0.3214087452
+          0.303
         ],
         [
           5,
-          0.3230578902
+          0.317
+        ],
+        [
+          9,
+          0.325
         ],
         [
           4,
-          0.3581089512
+          0.362
         ],
         [
           10,
-          0.3626791795
+          0.363
         ],
         [
           8,
-          0.4134138139
+          0.421
         ],
         [
           15,
-          0.5959045602
+          0.597
         ],
         [
           7,
-          0.7121272768
+          0.714
         ],
         [
           20,
-          0.7946988909
+          0.791
         ],
         [
           30,
-          0.9021220471
+          0.899
         ]
       ]
     },
@@ -3328,91 +3328,91 @@
       "colorAxis": false,
       "data": [
         [
-          1,
-          "Altstadt Grossbasel"
+          "Altstadt Grossbasel",
+          2023
         ],
         [
-          2,
-          "Altstadt Kleinbasel"
+          "Altstadt Kleinbasel",
+          2023
         ],
         [
-          3,
-          "Klybeck"
+          "Klybeck",
+          2023
         ],
         [
-          4,
-          "Rosental"
+          "Rosental",
+          2023
         ],
         [
-          5,
-          "Clara"
+          "Clara",
+          2023
         ],
         [
-          6,
-          "Matthäus"
+          "Matthäus",
+          2023
         ],
         [
-          7,
-          "Gundeldingen"
+          "Gundeldingen",
+          2023
         ],
         [
-          8,
-          "Vorstädte"
+          "Vorstädte",
+          2023
         ],
         [
-          9,
-          "Kleinhüningen"
+          "Kleinhüningen",
+          2023
         ],
         [
-          10,
-          "Am Ring"
+          "Am Ring",
+          2023
         ],
         [
-          11,
-          "Wettstein"
+          "Wettstein",
+          2023
         ],
         [
-          12,
-          "St. Johann"
+          "St. Johann",
+          2023
         ],
         [
-          13,
-          "Gotthelf"
+          "St. Alban",
+          2023
         ],
         [
-          14,
-          "St. Alban"
+          "Gotthelf",
+          2023
         ],
         [
-          15,
-          "Breite"
+          "Breite",
+          2023
         ],
         [
-          16,
-          "Iselin"
+          "Iselin",
+          2023
         ],
         [
-          17,
-          "Bachletten"
+          "Bachletten",
+          2023
         ],
         [
-          18,
-          "Hirzbrunnen"
+          "Hirzbrunnen",
+          2023
         ],
         [
-          19,
-          "Bruderholz"
+          "Bruderholz",
+          2023
         ],
         [
-          20,
-          "Riehen"
+          "Riehen",
+          2023
         ],
         [
-          21,
-          "Bettingen"
+          "Bettingen",
+          2023
         ]
       ],
-      "name": "Wohnviertel"
+      "name": "statistikjahr"
     },
     {
       "name": "Rhein",
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-9"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
   },
   "colorAxis": {
     "min": 0,
