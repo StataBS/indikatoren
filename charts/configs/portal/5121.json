@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          32.20917147278098
+          33.007923
         ],
         [
           19,
-          32.6070110701107
+          33.352875
         ],
         [
           16,
-          34.51346572361262
-        ],
-        [
-          17,
-          35.749175361831036
-        ],
-        [
-          13,
-          36.610416666666666
-        ],
-        [
-          10,
-          36.682021600334146
+          35.356314
         ],
         [
           11,
-          36.73291010089559
+          36.766227
         ],
         [
-          4,
-          38.852427404718696
+          17,
+          36.807261
+        ],
+        [
+          10,
+          37.176426
+        ],
+        [
+          13,
+          38.192867
         ],
         [
           15,
-          38.98393748643369
+          39.291271
+        ],
+        [
+          4,
+          39.351498
         ],
         [
           6,
-          39.012817031445174
+          39.418566
         ],
         [
           9,
-          41.42121524201854
+          41.311624
         ],
         [
           12,
-          43.25678682688029
+          43.799128
         ],
         [
           3,
-          45.404458288718
+          44.907467
         ],
         [
           14,
-          45.97710776102736
+          45.504145
         ],
         [
           8,
-          46.15430135365042
-        ],
-        [
-          20,
-          47.48610913909792
+          46.042694
         ],
         [
           5,
-          48.31641285956007
+          46.780812
+        ],
+        [
+          20,
+          46.939378
         ],
         [
           7,
-          48.37687898777982
+          48.069764
         ],
         [
           2,
-          50.3673640167364
-        ],
-        [
-          1,
-          52.64847899565427
+          50.651554
         ],
         [
           30,
-          52.93681318681318
+          51.957826
+        ],
+        [
+          1,
+          53.671354
         ]
       ]
     },
@@ -3339,11 +3339,11 @@
         ],
         [
           4,
-          "Matthäus"
+          "St. Johann"
         ],
         [
           5,
-          "Clara"
+          "Matthäus"
         ],
         [
           6,
@@ -3351,15 +3351,15 @@
         ],
         [
           7,
-          "St. Johann"
+          "Clara"
         ],
         [
           8,
-          "Breite"
+          "Hirzbrunnen"
         ],
         [
           9,
-          "Hirzbrunnen"
+          "Breite"
         ],
         [
           10,
@@ -3387,11 +3387,11 @@
         ],
         [
           16,
-          "Riehen"
+          "St. Alban"
         ],
         [
           17,
-          "St. Alban"
+          "Riehen"
         ],
         [
           18,
@@ -3403,11 +3403,11 @@
         ],
         [
           20,
-          "Altstadt Grossbasel"
+          "Bettingen"
         ],
         [
           21,
-          "Bettingen"
+          "Altstadt Grossbasel"
         ]
       ],
       "name": "Wohnviertel"
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-13"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
   },
   "colorAxis": {
     "min": undefined,

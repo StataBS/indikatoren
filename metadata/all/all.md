@@ -289,22 +289,22 @@ id | visible | visibleInPortal | indikatorenset
 5041 | true | true | Legislaturplan
 5066 | false |  | Legislaturplan-2017-2021
 5109 | false |  | Wohnviertel
-5110 | false |  | Wohnviertel
+5110 | true | false | Wohnviertel
 5111 | false |  | Wohnviertel
-5112 | false |  | Wohnviertel
-5113 | false |  | Wohnviertel
-5114 | false |  | Wohnviertel
-5115 | false |  | Wohnviertel
-5116 | false |  | Wohnviertel
-5117 | false |  | Wohnviertel
-5118 | false |  | Wohnviertel
-5119 | false |  | Wohnviertel
-5120 | false |  | Wohnviertel
-5121 | false |  | Wohnviertel
+5112 | true | false | Wohnviertel
+5113 | true | false | Wohnviertel
+5114 | true | false | Wohnviertel
+5115 | true | false | Wohnviertel
+5116 | true | false | Wohnviertel
+5117 | true | false | Wohnviertel
+5118 | true | false | Wohnviertel
+5119 | true | false | Wohnviertel
+5120 | true | false | Wohnviertel
+5121 | true | false | Wohnviertel
 5122 | false |  | Wohnviertel
 5123 | false |  | Wohnviertel
-5124 | false |  | Wohnviertel
-5125 | false |  | Wohnviertel
+5124 | true | false | Wohnviertel
+5125 | true | false | Wohnviertel
 5126 | false |  | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
