@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          4303.5488173
+          4607
         ],
         [
           19,
-          5008.7700706
-        ],
-        [
-          13,
-          6316.6652961
+          4716
         ],
         [
           10,
-          6361.3300306
+          6336
         ],
         [
           17,
-          6539.7952651
+          7033
+        ],
+        [
+          13,
+          7233
         ],
         [
           11,
-          6774.0039745
-        ],
-        [
-          16,
-          7020.280251
+          7243
         ],
         [
           4,
-          7473.7566459
-        ],
-        [
-          6,
-          7492.6236362
+          7640
         ],
         [
           15,
-          7831.7899982
+          8138
         ],
         [
-          9,
-          9091.0904773
+          16,
+          8159
+        ],
+        [
+          6,
+          8220
         ],
         [
           12,
-          9272.3190416
+          9097
         ],
         [
-          14,
-          11344.566364
-        ],
-        [
-          3,
-          11861.725433
+          9,
+          9558
         ],
         [
           8,
-          12188.763138
+          12524
+        ],
+        [
+          3,
+          12813
         ],
         [
           20,
-          12931.639783
+          13467
+        ],
+        [
+          14,
+          14822
         ],
         [
           5,
-          16151.844027
-        ],
-        [
-          1,
-          16423.081464
+          17138
         ],
         [
           7,
-          16867.689036
-        ],
-        [
-          2,
-          16909.705491
+          24476
         ],
         [
           30,
-          21092.429712
+          26400
+        ],
+        [
+          1,
+          27554
+        ],
+        [
+          2,
+          34601
         ]
       ]
     },
@@ -3337,15 +3337,15 @@
         ],
         [
           3,
-          "Clara"
-        ],
-        [
-          4,
           "Iselin"
         ],
         [
-          5,
+          4,
           "Matthäus"
+        ],
+        [
+          5,
+          "Clara"
         ],
         [
           6,
@@ -3353,31 +3353,31 @@
         ],
         [
           7,
-          "Rosental"
-        ],
-        [
-          8,
           "Breite"
         ],
         [
-          9,
-          "Gundeldingen"
-        ],
-        [
-          10,
+          8,
           "Hirzbrunnen"
         ],
         [
-          11,
-          "Gotthelf"
+          9,
+          "Rosental"
         ],
         [
-          12,
+          10,
+          "Gundeldingen"
+        ],
+        [
+          11,
           "Altstadt Kleinbasel"
         ],
         [
+          12,
+          "Gotthelf"
+        ],
+        [
           13,
-          "Wettstein"
+          "Bachletten"
         ],
         [
           14,
@@ -3385,11 +3385,11 @@
         ],
         [
           15,
-          "Bachletten"
+          "Riehen"
         ],
         [
           16,
-          "Riehen"
+          "Wettstein"
         ],
         [
           17,
@@ -3397,19 +3397,19 @@
         ],
         [
           18,
-          "Altstadt Grossbasel"
-        ],
-        [
-          19,
           "Bruderholz"
         ],
         [
+          19,
+          "Bettingen"
+        ],
+        [
           20,
-          "Vorstädte"
+          "Altstadt Grossbasel"
         ],
         [
           21,
-          "Bettingen"
+          "Vorstädte"
         ]
       ],
       "name": "Wohnviertel"
@@ -3861,7 +3861,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Einkommenssteuer pro Veranlagung"
+    "text": "Einkommenssteuer in Franken pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.6.2024"
   },
   "colorAxis": {
     "min": 0,

@@ -12,11 +12,11 @@
       "data": [
         [
           "Innenstadt",
-          18.963665
+          19.093024
         ],
         [
           "Kanton Basel-Stadt",
-          17.476924
+          17.746848
         ]
       ],
       "name": "Quadratmeterpreis",
@@ -33,13 +33,13 @@
       "data": [
         {
           "name": "Innenstadt",
-          "low": 18.4754985,
-          "high": 19.4518311
+          "low": 18.590394,
+          "high": 19.5956532
         },
         {
           "name": "Kanton Basel-Stadt",
-          "low": 17.3727634,
-          "high": 17.5810854
+          "low": 17.6421251,
+          "high": 17.8515717
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -124,7 +124,7 @@
     "text": "Nettomietpreise"
   },
   "subtitle": {
-    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt und Innenstadt, 2017-2021",
+    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt und Innenstadt, 2018-2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -179,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 24.6.2024"
   },
   "tooltip": {
     "snap": 0,

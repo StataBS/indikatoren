@@ -29,7 +29,7 @@
 		},
 		"colorAxis": {
 			min: 0,
-			max: 20000,
+			max: 25000,
 			tickInterval: 5000,
 			"minColor": "#E7CEE2",
 			"maxColor": "#2E1435",
