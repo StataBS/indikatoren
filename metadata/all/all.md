@@ -301,8 +301,8 @@ id | visible | visibleInPortal | indikatorenset
 5119 | true | false | Wohnviertel
 5120 | true | false | Wohnviertel
 5121 | true | false | Wohnviertel
-5122 | false |  | Wohnviertel
-5123 | false |  | Wohnviertel
+5122 | true | false | Wohnviertel
+5123 | true | false | Wohnviertel
 5124 | true | false | Wohnviertel
 5125 | true | false | Wohnviertel
 5126 | false |  | Wohnviertel

@@ -3237,88 +3237,88 @@
       },
       "data": [
         [
-          18,
-          204
+          19,
+          232
         ],
         [
-          19,
-          221
+          18,
+          245
         ],
         [
           16,
-          276
+          372
         ],
         [
           10,
-          496
-        ],
-        [
-          13,
-          535
-        ],
-        [
-          17,
-          585
+          513
         ],
         [
           4,
-          591
+          633
         ],
         [
           11,
-          597
+          688
+        ],
+        [
+          13,
+          692
+        ],
+        [
+          17,
+          723
         ],
         [
           6,
-          618
+          750
         ],
         [
           15,
-          718
+          806
         ],
         [
           12,
-          1439
-        ],
-        [
-          14,
-          1695
+          1339
         ],
         [
           3,
-          2280
+          2313
+        ],
+        [
+          14,
+          2369
         ],
         [
           8,
-          2311
+          2606
         ],
         [
           20,
-          4072
+          3703
         ],
         [
           9,
-          4564
-        ],
-        [
-          1,
-          5759
+          4742
         ],
         [
           5,
-          5914
+          5520
         ],
         [
-          2,
-          6755
+          1,
+          6148
         ],
         [
           7,
-          7840
+          16202
         ],
         [
           30,
-          14716
+          16722
+        ],
+        [
+          2,
+          20164
         ]
       ]
     },
@@ -3327,11 +3327,11 @@
       "data": [
         [
           1,
-          "Klybeck"
+          "Kleinhüningen"
         ],
         [
           2,
-          "Kleinhüningen"
+          "Klybeck"
         ],
         [
           3,
@@ -3343,19 +3343,19 @@
         ],
         [
           5,
-          "Clara"
-        ],
-        [
-          6,
-          "Matthäus"
-        ],
-        [
-          7,
           "Breite"
         ],
         [
-          8,
+          6,
           "St. Johann"
+        ],
+        [
+          7,
+          "Clara"
+        ],
+        [
+          8,
+          "Matthäus"
         ],
         [
           9,
@@ -3371,11 +3371,11 @@
         ],
         [
           12,
-          "Wettstein"
+          "Am Ring"
         ],
         [
           13,
-          "Am Ring"
+          "Wettstein"
         ],
         [
           14,
@@ -3391,23 +3391,23 @@
         ],
         [
           17,
-          "Altstadt Grossbasel"
-        ],
-        [
-          18,
           "St. Alban"
         ],
         [
-          19,
-          "Vorstädte"
+          18,
+          "Altstadt Grossbasel"
         ],
         [
-          20,
+          19,
           "Bruderholz"
         ],
         [
-          21,
+          20,
           "Bettingen"
+        ],
+        [
+          21,
+          "Vorstädte"
         ]
       ],
       "name": "Wohnviertel"
@@ -3859,7 +3859,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Vermögenssteuer pro Veranlagung"
+    "text": "Vermögenssteuer in Franken  pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.6.2024"
   },
   "colorAxis": {
     "min": 0,
@@ -3904,7 +3904,7 @@
     "marker": {
       "color": "black"
     },
-    "max": 20000,
+    "max": 25000,
     "tickInterval": 5000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"

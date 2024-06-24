@@ -512,8 +512,8 @@ var indikatorensetData = [
 			5122
 		],
 		"title": "Vermögenssteuer in Franken  pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2020",
-		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -540,7 +540,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-03T08:19:03",
+		"aktualisierungsdatum": "2024-06-24T04:32:47",
 		"id": 4835
 	},
 	{
@@ -553,8 +553,8 @@ var indikatorensetData = [
 			5123
 		],
 		"title": "Einkommenssteuer in Franken pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2020",
-		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -581,7 +581,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-03T08:19:03",
+		"aktualisierungsdatum": "2024-06-24T04:32:48",
 		"id": 4836
 	},
 	{
@@ -1095,6 +1095,84 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-06-20T03:11:46",
 		"id": 5121
+	},
+	{
+		"template": "map001",
+		"data-id": 5122,
+		"chart-id": 5122,
+		"filter": "",
+		"parentId": "4835",
+		"children": [],
+		"title": "Vermögenssteuer in Franken  pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Vermögenssteuer in Franken  pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.05122",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-1.B",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_014",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-06-24T04:32:48",
+		"id": 5122
+	},
+	{
+		"template": "map001",
+		"data-id": 5123,
+		"chart-id": 5123,
+		"filter": "",
+		"parentId": "4836",
+		"children": [],
+		"title": "Einkommenssteuer in Franken pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Einkommenssteuer in Franken pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.05123",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-2.B",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_015",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-06-24T04:32:49",
+		"id": 5123
 	},
 	{
 		"template": "map001",

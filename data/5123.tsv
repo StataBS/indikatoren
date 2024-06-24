@@ -1,22 +1,26 @@
 ﻿wohnviertel_id	Einkommenssteuer pro Veranlagung	Rang	Wohnviertel	jahr_num
-18	4303.5488173	1	Klybeck	2017
-19	5008.7700706	2	Kleinhüningen	2017
-13	6316.6652961	3	Clara	2017
-10	6361.3300306	4	Iselin	2017
-17	6539.7952651	5	Matthäus	2017
-11	6774.0039745	6	St. Johann	2017
-16	7020.280251	7	Rosental	2017
-4	7473.7566459	8	Breite	2017
-6	7492.6236362	9	Gundeldingen	2017
-15	7831.7899982	10	Hirzbrunnen	2017
-9	9091.0904773	11	Gotthelf	2017
-12	9272.3190416	12	Altstadt Kleinbasel	2017
-14	11344.566364	13	Wettstein	2017
-3	11861.725433	14	Am Ring	2017
-8	12188.763138	15	Bachletten	2017
-20	12931.639783	16	Riehen	2017
-5	16151.844027	17	St. Alban	2017
-1	16423.081464	18	Altstadt Grossbasel	2017
-7	16867.689036	19	Bruderholz	2017
-2	16909.705491	20	Vorstädte	2017
-30	21092.429712	21	Bettingen	2017
+18	4607	1	Klybeck	2021
+19	4716	2	Kleinhüningen	2021
+10	6336	3	Iselin	2021
+17	7033	4	Matthäus	2021
+13	7233	5	Clara	2021
+11	7243	6	St. Johann	2021
+4	7640	7	Breite	2021
+15	8138	8	Hirzbrunnen	2021
+16	8159	9	Rosental	2021
+6	8220	10	Gundeldingen	2021
+12	9097	11	Altstadt Kleinbasel	2021
+9	9558	12	Gotthelf	2021
+8	12524	13	Bachletten	2021
+3	12813	14	Am Ring	2021
+20	13467	15	Riehen	2021
+14	14822	16	Wettstein	2021
+5	17138	17	St. Alban	2021
+7	24476	18	Bruderholz	2021
+30	26400	19	Bettingen	2021
+1	27554	20	Altstadt Grossbasel	2021
+2	34601	21	Vorstädte	2021
+
+
+
+
