@@ -25855,7 +25855,7 @@ var indikatoren = [
 		"unterthema": "",
 		"kuerzel": "I.01.1.07515",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzelKunde": "M-01-1",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25866,7 +25866,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:18:02",
+		"aktualisierungsdatum": "2024-06-21T10:06:10",
 		"id": 7515
 	},
 	{
@@ -29796,8 +29796,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln und in Riehen. In sechs Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln. In neun Wohnvierteln und in Riehen ging sie zurück. Im Wohnviertel Gotthelf und in der Gemeinde Riehen blieb sie stabiel.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29824,7 +29824,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:43",
+		"aktualisierungsdatum": "2024-06-21T10:06:10",
 		"id": 7763
 	},
 	{
