@@ -35280,7 +35280,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:36",
+		"aktualisierungsdatum": "2024-06-27T08:23:09",
 		"id": 8995
 	},
 	{
@@ -35452,7 +35452,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:37",
+		"aktualisierungsdatum": "2024-06-27T08:23:10",
 		"id": 9022
 	},
 	{
@@ -35490,7 +35490,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:37",
+		"aktualisierungsdatum": "2024-06-27T08:23:10",
 		"id": 9023
 	},
 	{
