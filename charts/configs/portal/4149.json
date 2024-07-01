@@ -64,6 +64,10 @@
         [
           2022,
           93.82
+        ],
+        [
+          2023,
+          95.74
         ]
       ],
       "name": "Freiräume in ha"
@@ -133,6 +137,10 @@
         [
           2022,
           2.54
+        ],
+        [
+          2023,
+          2.59
         ]
       ],
       "name": "Anteil an der Kantonsfläche (rechte Skala)"
@@ -291,7 +299,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.3.2023"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 1.7.2024"
   },
   "tooltip": {
     "shared": true,

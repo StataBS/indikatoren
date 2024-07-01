@@ -50,6 +50,10 @@
         [
           "2021",
           57.16
+        ],
+        [
+          "2022",
+          58.41
         ]
       ],
       "name": "Qualifikationsniveau",
@@ -186,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 1.7.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
