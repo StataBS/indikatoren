@@ -242,7 +242,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 2 718 Personen. Im betrachteten Zeitraum gab es nur im Jahr zuvor einen negativen Saldo. Die meisten Wegzüger des Jahres 2022 (insgesamt rund 4 600 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 9 700 Personen.",
+		"lesehilfe": "2023 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 1 353 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo. Die meisten Wegzüger des Jahres 2023 (insgesamt rund 4 500 Personen) gingen ins Ausland. Die meisten Zuzüger kamen ebenfalls aus dem Ausland nach Basel-Stadt, zuletzt ca. 8 100 Personen.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -254,8 +254,8 @@ var indikatorensetData = [
 		],
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.05155",
+		"unterthema": "",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE6",
 		"stufe1": "Bereich Bevölkerung",
@@ -267,7 +267,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-30T08:30:43",
+		"aktualisierungsdatum": "2024-07-01T08:57:37",
 		"id": 5155
 	},
 	{
