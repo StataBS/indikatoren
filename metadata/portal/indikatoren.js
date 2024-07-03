@@ -8246,7 +8246,7 @@ var indikatoren = [
 		],
 		"description": "Familienergänzendes Kinderbetreuungsangebot",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.?.04374",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
@@ -8260,7 +8260,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-18T09:03:40",
+		"aktualisierungsdatum": "2024-07-03T09:12:35",
 		"id": 4374
 	},
 	{
@@ -34846,44 +34846,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-11-04T08:12:40",
 		"id": 8692
-	},
-	{
-		"template": "template001",
-		"data-id": 8817,
-		"chart-id": 8817,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Basler Atlas: Privathaushalte nach Personenanzahl",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Basler Atlas: Privathaushalte nach Personenanzahl",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.08817",
-		"kennzahlenset": "Basler Atlas",
-		"kuerzelKunde": "01_bevhaushalte",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-05T08:34:21",
-		"id": 8817
 	},
 	{
 		"template": "befragungen001",
