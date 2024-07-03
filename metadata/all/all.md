@@ -288,7 +288,7 @@ id | visible | visibleInPortal | indikatorenset
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
 5066 | false |  | Legislaturplan-2017-2021
-5109 | false |  | Wohnviertel
+5109 | true | false | Wohnviertel
 5110 | true | false | Wohnviertel
 5111 | false |  | Wohnviertel
 5112 | true | false | Wohnviertel
@@ -1793,7 +1793,7 @@ id | visible | visibleInPortal | indikatorenset
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
 8812 | true | false | CMS Kennzahlen Soziales (Print)
-8817 | true | true | Basler Atlas
+8817 | false |  | Basler Atlas
 8842 | false |  | Stadtteilmonitoring Rosental
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
 8845 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
