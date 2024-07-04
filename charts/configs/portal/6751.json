@@ -6,100 +6,116 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Clara",
           "y": 15,
-          "Wert": 0.0598829356
+          "Wert": 0.054,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Clara",
-          "y": 17,
-          "Wert": 0.492570914
+          "y": 18,
+          "Wert": 0.5108175814,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Clara",
           "y": 18,
-          "Wert": 0.3029721956
+          "Wert": 0.3059194566,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 0.1556
+          "y": 6,
+          "Wert": 0.2857,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Clara",
           "y": 10,
-          "Wert": 0.3001675042
+          "Wert": 0.3047007102,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 0.2937865826
+          "y": 4,
+          "Wert": 0.2874060578,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Clara",
-          "y": 3,
-          "Wert": 0.1879396985
+          "y": 4,
+          "Wert": 0.1802502536,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Clara",
           "y": 7,
-          "Wert": 1929.541832669322
+          "Wert": 1929.912698412698,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Clara",
           "y": 1,
-          "Wert": 0.019920318725
+          "Wert": 0.019841269841,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 0.161
+          "Wert": 0.159,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Clara",
           "y": 3,
-          "Wert": 66.596731
+          "Wert": 66.760574,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 7,
-          "Wert": 37.86673
+          "Wert": 38.192867,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 659.9
+          "y": 7,
+          "Wert": 692,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 6830.8
+          "Wert": 7233,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 0.7071764
+          "y": 10,
+          "Wert": 0.7159412,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 11,
-          "Wert": 0.5328681
+          "Wert": 0.4957204,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

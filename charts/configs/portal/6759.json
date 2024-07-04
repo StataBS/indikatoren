@@ -5,101 +5,117 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 3,
-          "Wert": 0.0166919575
+          "y": 6,
+          "Wert": 0.024,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
-          "y": 3,
-          "Wert": 0.253414264
+          "y": 2,
+          "Wert": 0.251324754,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bettingen",
           "y": 1,
-          "Wert": 0.1176948052
+          "Wert": 0.1251015435,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bettingen",
-          "y": 12,
-          "Wert": 0.4667
+          "y": 14,
+          "Wert": 0.4483,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 0.4279835391
+          "Wert": 0.4546722455,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
-          "y": 18,
-          "Wert": 0.404870624
+          "y": 20,
+          "Wert": 0.4171732523,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
-          "y": 18,
-          "Wert": 0.3799725652
+          "y": 19,
+          "Wert": 0.3877266388,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 1965.667701863354
+          "Wert": 1965.555555555555,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.776397515527
+          "Wert": 0.774691358024,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.9
+          "Wert": 0.899,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 119.873665
+          "Wert": 120.159574,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 51.158279
+          "Wert": 51.957826,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 17009.8
+          "Wert": 16722,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bettingen",
-          "y": 20,
-          "Wert": 25886.7
+          "y": 19,
+          "Wert": 26400,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
-          "y": 8,
-          "Wert": 0.713284
+          "y": 4,
+          "Wert": 0.6957735,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 4,
-          "Wert": 0.1572824
+          "Wert": 0.1651224,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

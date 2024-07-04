@@ -5,101 +5,117 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0242159587
+          "y": 9,
+          "Wert": 0.03,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Vorstädte",
           "y": 16,
-          "Wert": 0.4337038507
+          "Wert": 0.429787234,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 0.3099552334
+          "Wert": 0.3193005181,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.4667
+          "y": 17,
+          "Wert": 0.4783,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
           "y": 14,
-          "Wert": 0.347480916
+          "Wert": 0.3381449631,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2739182215
+          "y": 3,
+          "Wert": 0.2818642351,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.1908396947
+          "y": 3,
+          "Wert": 0.1775184275,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 1899.4
+          "Wert": 1899.336996336996,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Vorstädte",
           "y": 6,
-          "Wert": 0.073394495412
+          "Wert": 0.07326007326,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Vorstädte",
           "y": 8,
-          "Wert": 0.197
+          "Wert": 0.197,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Vorstädte",
           "y": 14,
-          "Wert": 82.334487
+          "Wert": 82.224013,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 50.058836
+          "Wert": 50.651554,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 18524.5
+          "Wert": 20164,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 26994
+          "Wert": 34601,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Vorstädte",
           "y": 17,
-          "Wert": 0.7578276
+          "Wert": 0.7603255,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 4.4764512
+          "Wert": 4.622108,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

@@ -4575,23 +4575,23 @@
         ],
         [
           48,
-          -78
+          -77
         ],
         [
           49,
-          -76
+          -75
         ],
         [
           50,
-          -87
+          -86
         ],
         [
           51,
-          -89
+          -88
         ],
         [
           52,
-          -100
+          -99
         ],
         [
           53,
@@ -4795,7 +4795,7 @@
         ],
         [
           48,
-          7
+          8
         ],
         [
           49,
@@ -4867,47 +4867,47 @@
         ],
         [
           11,
-          -41
+          -40
         ],
         [
           12,
-          -41
+          -40
         ],
         [
           13,
-          -44
+          -43
         ],
         [
           14,
-          -53
+          -52
         ],
         [
           15,
-          -54
+          -53
         ],
         [
           16,
-          -65
+          -64
         ],
         [
           17,
-          -73
+          -72
         ],
         [
           18,
-          -66
+          -65
         ],
         [
           19,
-          -66
+          -65
         ],
         [
           20,
-          -68
+          -67
         ],
         [
           21,
-          -72
+          -71
         ],
         [
           22,
@@ -4915,7 +4915,7 @@
         ],
         [
           23,
-          null
+          -64
         ],
         [
           24,
@@ -5087,7 +5087,7 @@
         ],
         [
           11,
-          2
+          3
         ],
         [
           12,
@@ -5135,7 +5135,7 @@
         ],
         [
           23,
-          null
+          8
         ],
         [
           24,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
