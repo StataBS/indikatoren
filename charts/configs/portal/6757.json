@@ -5,101 +5,117 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Kleinhüningen",
-          "y": 20,
-          "Wert": 0.1034729681
+          "y": 21,
+          "Wert": 0.098,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 18,
-          "Wert": 0.4951664876
+          "y": 19,
+          "Wert": 0.5169731259,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Kleinhüningen",
           "y": 5,
-          "Wert": 0.2020958084
+          "Wert": 0.2133580705,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 0.1923
+          "Wert": 0.2203,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 11,
-          "Wert": 0.3051237766
+          "y": 13,
+          "Wert": 0.3166001141,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Kleinhüningen",
           "y": 16,
-          "Wert": 0.3684210526
+          "Wert": 0.3536067893,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Kleinhüningen",
           "y": 15,
-          "Wert": 0.3028209557
+          "Wert": 0.2966343411,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Kleinhüningen",
           "y": 17,
-          "Wert": 1948.082352941176
+          "Wert": 1948.082352941176,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Kleinhüningen",
           "y": 10,
-          "Wert": 0.15294117647
+          "Wert": 0.15294117647,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Kleinhüningen",
           "y": 9,
-          "Wert": 0.225
+          "Wert": 0.197,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 66.203236
+          "Wert": 66.547758,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 33.380239
+          "Wert": 33.352875,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 223.5
+          "y": 1,
+          "Wert": 232,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 4695.7
+          "Wert": 4716,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 1,
-          "Wert": 0.5400006
+          "Wert": 0.5525901,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
-          "y": 18,
-          "Wert": 2.0157353
+          "y": 19,
+          "Wert": 2.3079066,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

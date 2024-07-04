@@ -6,100 +6,116 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 2,
-          "Wert": 0.0156934307
+          "Wert": 0.015,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 7,
-          "Wert": 0.3244525547
+          "Wert": 0.3221206581,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 0.3105504587
+          "Wert": 0.3342709798,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 18,
-          "Wert": 0.4737
+          "y": 12,
+          "Wert": 0.4286,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 9,
-          "Wert": 0.2937763713
+          "Wert": 0.2919287212,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 6,
-          "Wert": 0.3005679336
+          "y": 8,
+          "Wert": 0.305740988,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 2,
-          "Wert": 0.151371308
+          "Wert": 0.141509434,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 1822.147637795275
+          "Wert": 1822.93359375,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.104330708661
+          "Wert": 0.1015625,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.067
+          "Wert": 0.067,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 16,
-          "Wert": 87.866917
+          "Wert": 88.222083,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 21,
-          "Wert": 52.6
+          "Wert": 53.671354,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 5644.8
+          "Wert": 6148,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 18,
-          "Wert": 18543.7
+          "y": 20,
+          "Wert": 27554,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 20,
-          "Wert": 0.7996012
+          "y": 19,
+          "Wert": 0.7813881,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 3.6446443
+          "Wert": 3.6851086,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

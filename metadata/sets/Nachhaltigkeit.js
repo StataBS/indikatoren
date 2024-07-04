@@ -2957,11 +2957,13 @@ var indikatorensetData = [
 		"chart-id": 9740,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12553
+		],
 		"title": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2023 bei 49,4%.",
-		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Der Anteil der stimm- und wahlberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch die mittlere Wohnbevölkerung des jeweiligen Jahres; ohne Bürgergemeinderatswahlen.",
+		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Nicht stimmberechtigt sind alle Kinder unter 18 Jahren sowie ausländische Erwachsene. Der Anteil der nicht stimmberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch den Mittelwert der Wohnbevölkerung am Monatsende der jeweiligen Abstimmungstermine (bis 2011 jeweils die Wohnbevölkerung am Jahresende); ohne Bürgergemeinderatswahlen.<br>Bewilligungsarten: B: Aufenthaltsbewilligung, C: Niederlassungsbewilligung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Staatskanzlei Basel-Stadt"
@@ -2972,9 +2974,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
-		"thema": "17 Politik",
-		"unterthema": "Abstimmungen",
-		"kuerzel": "I.17.2.09740",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.09740",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GZ12",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -2986,7 +2988,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:56",
+		"aktualisierungsdatum": "2024-07-04T09:05:10",
 		"id": 9740
 	},
 	{
