@@ -25761,7 +25761,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Mai 2024 auf 1,2% gestiegen; dies nach 0,8% im März und 1,1% im April.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Juni 2024 auf 1,3% gestiegen; dies nach 1,1% im April und 1,2% im Mai.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25789,7 +25789,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:14",
+		"aktualisierungsdatum": "2024-07-04T08:38:33",
 		"id": 7512
 	},
 	{
@@ -25801,7 +25801,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2023 weiter gestiegen, wenn auch etwas weniger stark als 2022. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2023 auf 2,0%. Im Januar 2024 sind die Preise gegenüber Dezember 2023 im Schnitt stabil geblieben; im Februar 2024 haben sie sich gegenüber dem Vormonat um 0,5%, im März um 0,1%, im April um 0,3% und im Mai um 04,% erhöht.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2024 jeden Monat etwas gestiegen, zuletzt im Juni gegenüber dem Vormonat um 0,1%. Im Mai betrug der Zuwachs gegenüber April 0,4%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25828,7 +25828,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:16",
+		"aktualisierungsdatum": "2024-07-04T08:38:34",
 		"id": 7513
 	},
 	{
