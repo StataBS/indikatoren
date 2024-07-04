@@ -854,7 +854,7 @@
         ],
         [
           1690855200000,
-          407
+          387
         ],
         [
           1693533600000,
@@ -891,6 +891,10 @@
         [
           1714528800000,
           61
+        ],
+        [
+          1717207200000,
+          77
         ]
       ],
       "name": "Kurzarbeit, beantragt"
@@ -1749,7 +1753,7 @@
         ],
         [
           1690855200000,
-          352
+          332
         ],
         [
           1693533600000,
@@ -1786,6 +1790,10 @@
         [
           1714528800000,
           16
+        ],
+        [
+          1717207200000,
+          28
         ]
       ],
       "name": "Kurzarbeit, genehmigt"
@@ -2480,11 +2488,11 @@
         ],
         [
           1583024400000,
-          41995
+          41953
         ],
         [
           1585706400000,
-          59581
+          59568
         ],
         [
           1588298400000,
@@ -2524,7 +2532,7 @@
         ],
         [
           1612141200000,
-          30587
+          30589
         ],
         [
           1614560400000,
@@ -2672,15 +2680,19 @@
         ],
         [
           1709254800000,
-          undefined
+          11
         ],
         [
           1711936800000,
-          undefined
+          0
         ],
         [
           1714528800000,
-          undefined
+          0
+        ],
+        [
+          1717207200000,
+          0
         ]
       ],
       "name": "Kurzarbeit, abgerechnet"
@@ -2803,7 +2815,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "symbolRadius": 0,
