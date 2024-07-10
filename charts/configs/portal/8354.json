@@ -14,15 +14,15 @@
         ],
         [
           "Jura",
-          0.0201
+          0.0192
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.003
+          0.0027
         ],
         [
           "Schweiz",
-          0.0065
+          0.0063
         ]
       ],
       "name": "Primärer Sektor",
@@ -34,11 +34,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.3899
+          0.4487
         ],
         [
           "Basel-Landschaft",
-          0.1127
+          0.1258
         ],
         [
           "Jura",
@@ -46,11 +46,11 @@
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.269
+          0.3159
         ],
         [
           "Schweiz",
-          0.0613
+          0.0719
         ]
       ],
       "name": "Chemie, Pharma",
@@ -62,23 +62,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0074
+          0.007
         ],
         [
           "Basel-Landschaft",
-          0.0921
+          0.0849
         ],
         [
           "Jura",
-          0.3571
+          0.3524
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0624
+          0.0558
         ],
         [
           "Schweiz",
-          0.0774
+          0.0742
         ]
       ],
       "name": "Investitionsgüter",
@@ -90,23 +90,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0345
+          0.0327
         ],
         [
           "Basel-Landschaft",
-          0.0585
+          0.0573
         ],
         [
           "Jura",
-          0.0752
+          0.0723
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0464
+          0.0439
         ],
         [
           "Schweiz",
-          0.0641
+          0.0612
         ]
       ],
       "name": "Sonstige Industrie",
@@ -118,23 +118,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0186
+          0.0158
         ],
         [
           "Basel-Landschaft",
-          0.0646
+          0.0629
         ],
         [
           "Jura",
-          0.0464
+          0.0449
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0358
+          0.0326
         ],
         [
           "Schweiz",
-          0.0505
+          0.0484
         ]
       ],
       "name": "Baugewerbe",
@@ -146,23 +146,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.078
+          0.0734
         ],
         [
           "Basel-Landschaft",
-          0.2007
+          0.2053
         ],
         [
           "Jura",
-          0.0925
+          0.0958
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.119
+          0.1161
         ],
         [
           "Schweiz",
-          0.1584
+          0.1619
         ]
       ],
       "name": "Handel, Reparatur",
@@ -174,23 +174,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0308
+          0.0271
         ],
         [
           "Basel-Landschaft",
-          0.0374
+          0.042
         ],
         [
           "Jura",
-          0.017
+          0.0195
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0318
+          0.0311
         ],
         [
           "Schweiz",
-          0.0342
+          0.0378
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -202,23 +202,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0083
+          0.0112
         ],
         [
           "Basel-Landschaft",
-          0.0047
+          0.006
         ],
         [
           "Jura",
-          0.0109
+          0.0108
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0073
+          0.0095
         ],
         [
           "Schweiz",
-          0.0116
+          0.015
         ]
       ],
       "name": "Gastgewerbe",
@@ -230,23 +230,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.094
+          0.0873
         ],
         [
           "Basel-Landschaft",
-          0.033
+          0.0316
         ],
         [
           "Jura",
-          0.0361
+          0.0374
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.0694
+          0.0662
         ],
         [
           "Schweiz",
-          0.0939
+          0.0933
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -258,23 +258,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0821
+          0.064
         ],
         [
           "Basel-Landschaft",
-          0.0878
+          0.0847
         ],
         [
           "Jura",
-          0.0465
+          0.0419
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.081
+          0.0688
         ],
         [
           "Schweiz",
-          0.0796
+          0.0697
         ]
       ],
       "name": "Freib., wiss., tech. DL",
@@ -286,23 +286,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0761
+          0.0667
         ],
         [
           "Basel-Landschaft",
-          0.0993
+          0.0941
         ],
         [
           "Jura",
-          0.1217
+          0.1209
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.087
+          0.079
         ],
         [
           "Schweiz",
-          0.113
+          0.1076
         ]
       ],
       "name": "Öff. Verwaltung, Bildung",
@@ -314,23 +314,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0675
+          0.0628
         ],
         [
           "Basel-Landschaft",
-          0.0808
+          0.0803
         ],
         [
           "Jura",
-          0.0844
+          0.0864
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.073
+          0.0698
         ],
         [
           "Schweiz",
-          0.0797
+          0.0802
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -342,23 +342,23 @@
       "data": [
         [
           "Basel-Stadt",
-          0.1129
+          0.1033
         ],
         [
           "Basel-Landschaft",
-          0.1242
+          0.1209
         ],
         [
           "Jura",
-          0.0922
+          0.0985
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.1149
+          0.1084
         ],
         [
           "Schweiz",
-          0.17
+          0.1724
         ]
       ],
       "name": "Sonstige DL",
@@ -441,10 +441,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteile Wertschöpfung nach Branche"
+    "text": "Nominale Wertschöpfung nach Branche"
   },
   "subtitle": {
-    "text": "Anteile an der Gesamtwertschöpfung, 2021",
+    "text": "Anteile an der Gesamtwertschöpfung, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -501,7 +501,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 20.4.2023"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2024"
   },
   "tooltip": {
     "pointFormatter": function () {

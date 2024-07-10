@@ -2,7 +2,8 @@
   "series": [
     {
       "index": 0,
-      "color": "#007A2F",
+      "color": "#D7E8D2",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -10,11 +11,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           70.2323
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           71.1421
         ],
         [
@@ -26,7 +27,7 @@
           70.3723
         ],
         [
-          "Schweiz",
+          "Suisse",
           72.276
         ]
       ],
@@ -36,6 +37,10 @@
     {
       "index": 1,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
@@ -43,12 +48,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 68.1436,
           "high": 72.3211
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 69.4624,
           "high": 72.8219
         },
@@ -63,7 +68,7 @@
           "high": 71.5508
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 72.0079,
           "high": 72.5441
         }
@@ -73,19 +78,20 @@
     },
     {
       "index": 2,
-      "color": "#68AB2B",
+      "color": "#73B97C",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-          }
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           71.3121
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           71.7832
         ],
         [
@@ -97,7 +103,7 @@
           71.4085
         ],
         [
-          "Schweiz",
+          "Suisse",
           72.2969
         ]
       ],
@@ -107,19 +113,23 @@
     {
       "index": 3,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-          }
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+            }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 69.2036,
           "high": 73.4206
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 70.1377,
           "high": 73.4287
         },
@@ -134,7 +144,7 @@
           "high": 72.6208
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 72.0204,
           "high": 72.5734
         }
@@ -144,19 +154,20 @@
     },
     {
       "index": 4,
-      "color": "#73B97C",
+      "color": "#68AB2B",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-          }
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           71.6175
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           72.1033
         ],
         [
@@ -168,7 +179,7 @@
           70.9365
         ],
         [
-          "Schweiz",
+          "Suisse",
           71.987
         ]
       ],
@@ -178,19 +189,23 @@
     {
       "index": 5,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-          }
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+            }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 69.5104,
           "high": 73.7246
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 70.4068,
           "high": 73.7998
         },
@@ -205,7 +220,7 @@
           "high": 72.1785
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 71.7095,
           "high": 72.2644
         }
@@ -215,19 +230,20 @@
     },
     {
       "index": 6,
-      "color": "#246370",
+      "color": "#007A2F",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-          }
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           72.9519
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           71.1579
         ],
         [
@@ -239,7 +255,7 @@
           71.3605
         ],
         [
-          "Schweiz",
+          "Suisse",
           72.9277
         ]
       ],
@@ -249,19 +265,23 @@
     {
       "index": 7,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-          }
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+            }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 70.9244,
           "high": 74.9795
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 69.4819,
           "high": 72.834
         },
@@ -276,7 +296,7 @@
           "high": 72.5707
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 72.6533,
           "high": 73.2022
         }
@@ -286,7 +306,8 @@
     },
     {
       "index": 8,
-      "color": "#0F7399",
+      "color": "#A8C3CA",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
               return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -294,11 +315,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           68.722
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           71.1755
         ],
         [
@@ -310,7 +331,7 @@
           70.3773
         ],
         [
-          "Schweiz",
+          "Suisse",
           70.5382
         ]
       ],
@@ -320,6 +341,10 @@
     {
       "index": 9,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
               return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
@@ -327,12 +352,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 66.5207,
           "high": 70.9234
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 69.4394,
           "high": 72.9115
         },
@@ -347,7 +372,7 @@
           "high": 71.6439
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 70.2494,
           "high": 70.827
         }
@@ -357,19 +382,20 @@
     },
     {
       "index": 10,
-      "color": "#689199",
+      "color": "#71A3B5",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-          }
+                return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+              }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           68.9921
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           70.323
         ],
         [
@@ -381,7 +407,7 @@
           69.1174
         ],
         [
-          "Schweiz",
+          "Suisse",
           71.3391
         ]
       ],
@@ -391,19 +417,23 @@
     {
       "index": 11,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-          }
+                return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+              }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 66.7889,
           "high": 71.1952
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 68.5922,
           "high": 72.0539
         },
@@ -418,7 +448,7 @@
           "high": 70.3892
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 71.0554,
           "high": 71.6227
         }
@@ -428,19 +458,20 @@
     },
     {
       "index": 12,
-      "color": "#A8C3CA",
+      "color": "#689199",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-        }
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           68.7039
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           69.3647
         ],
         [
@@ -452,7 +483,7 @@
           68.7714
         ],
         [
-          "Schweiz",
+          "Suisse",
           70.5856
         ]
       ],
@@ -462,19 +493,23 @@
     {
       "index": 13,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-        }
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+            }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 66.5462,
           "high": 70.8616
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 67.643,
           "high": 71.0865
         },
@@ -489,7 +524,7 @@
           "high": 70.0249
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 70.3134,
           "high": 70.8579
         }
@@ -499,19 +534,20 @@
     },
     {
       "index": 14,
-      "color": "#D3E2E4",
+      "color": "#0F7399",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
-      }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           69.5102
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           71.1858
         ],
         [
@@ -523,7 +559,7 @@
           70.0743
         ],
         [
-          "Schweiz",
+          "Suisse",
           71.7518
         ]
       ],
@@ -533,19 +569,23 @@
     {
       "index": 15,
       "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
-      }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+          }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 67.3388,
           "high": 71.6815
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 69.4055,
           "high": 72.966
         },
@@ -560,9 +600,85 @@
           "high": 71.3597
         },
         {
-          "name": "Schweiz",
+          "name": "Suisse",
           "low": 71.4723,
           "high": 72.0313
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 16,
+      "color": "#246370",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "Bâle-Ville",
+          71.4976
+        ],
+        [
+          "Bâle-Campagne",
+          71.5221
+        ],
+        [
+          "Jura",
+          68.3752
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.1113
+        ],
+        [
+          "Suisse",
+          72.5229
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "index": 17,
+      "type": "errorbar",
+      "zIndex": 3,
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "Bâle-Ville",
+          "low": 69.3014,
+          "high": 73.6938
+        },
+        {
+          "name": "Bâle-Campagne",
+          "low": 69.8128,
+          "high": 73.2314
+        },
+        {
+          "name": "Jura",
+          "low": 64.7936,
+          "high": 71.9569
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 69.846,
+          "high": 72.3766
+        },
+        {
+          "name": "Suisse",
+          "low": 72.2461,
+          "high": 72.7997
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -627,13 +743,13 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1.2,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0.14
     }
   },
   "title": {
@@ -705,7 +821,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2024"
   },
   "tooltip": {
     "shared": true
