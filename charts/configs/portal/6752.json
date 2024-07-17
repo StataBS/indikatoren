@@ -5,101 +5,117 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Wettstein",
-          "y": 6,
-          "Wert": 0.0240110554
+          "y": 4,
+          "Wert": 0.019,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Wettstein",
           "y": 8,
-          "Wert": 0.3380549318
+          "Wert": 0.3359266943,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Wettstein",
           "y": 11,
-          "Wert": 0.2676333691
+          "Wert": 0.2664023071,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Wettstein",
-          "y": 19,
-          "Wert": 0.4921
+          "y": 20,
+          "Wert": 0.5574,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Wettstein",
           "y": 7,
-          "Wert": 0.2808521694
+          "Wert": 0.2835199167,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Wettstein",
           "y": 14,
-          "Wert": 0.349628606
+          "Wert": 0.3447441217,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Wettstein",
-          "y": 8,
-          "Wert": 0.2231748506
+          "y": 7,
+          "Wert": 0.2223379328,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Wettstein",
           "y": 9,
-          "Wert": 1933.523272214386
+          "Wert": 1933.523272214386,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Wettstein",
-          "y": 14,
-          "Wert": 0.332863187588
+          "y": 15,
+          "Wert": 0.334273624823,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Wettstein",
           "y": 11,
-          "Wert": 0.282
+          "Wert": 0.282,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Wettstein",
           "y": 15,
-          "Wert": 82.927132
+          "Wert": 82.875776,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Wettstein",
           "y": 14,
-          "Wert": 45.386322
+          "Wert": 45.504145,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Wettstein",
           "y": 13,
-          "Wert": 2075.2
+          "Wert": 2369,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Wettstein",
           "y": 16,
-          "Wert": 12939.5
+          "Wert": 14822,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Wettstein",
           "y": 21,
-          "Wert": 0.8086169
+          "Wert": 0.821088,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Wettstein",
           "y": 17,
-          "Wert": 1.8452776
+          "Wert": 1.8331939,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

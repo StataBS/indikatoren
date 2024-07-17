@@ -6,100 +6,116 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gotthelf",
           "y": 10,
-          "Wert": 0.0375106564
+          "Wert": 0.032,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gotthelf",
           "y": 6,
-          "Wert": 0.302074453
+          "Wert": 0.3081172971,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gotthelf",
-          "y": 17,
-          "Wert": 0.2940834424
+          "y": 16,
+          "Wert": 0.2914079422,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gotthelf",
-          "y": 17,
-          "Wert": 0.4324
+          "y": 15,
+          "Wert": 0.4545,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gotthelf",
           "y": 15,
-          "Wert": 0.3549953747
+          "Wert": 0.3607888631,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gotthelf",
           "y": 15,
-          "Wert": 0.3554987212
+          "Wert": 0.3511828871,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gotthelf",
           "y": 13,
-          "Wert": 0.2726641998
+          "Wert": 0.2770301624,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gotthelf",
           "y": 6,
-          "Wert": 1925.939795918367
+          "Wert": 1926.068577277379,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 0.364285714285
+          "Wert": 0.363357215967,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gotthelf",
           "y": 14,
-          "Wert": 0.327
+          "Wert": 0.325,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 74.542309
+          "Wert": 74.560121,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 41.551969
+          "Wert": 41.311624,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 5011.5
+          "Wert": 4742,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 12,
-          "Wert": 9333.4
+          "Wert": 9558,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gotthelf",
           "y": 14,
-          "Wert": 0.7351125
+          "Wert": 0.734909,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
-          "y": 8,
-          "Wert": 0.2983025
+          "y": 9,
+          "Wert": 0.2895991,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

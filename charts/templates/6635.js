@@ -6,7 +6,7 @@
       ], 
       data: {
 		    seriesMapping: [
-		        {x: 5, Wohnviertel: 8, y: 9, Wert: 4}
+          {x: 5, Wohnviertel: 8, y: 9, Wert: 4, Jahr: 3}
         ],  
         parsed: function(columns){
           //define which wohnviertel to display

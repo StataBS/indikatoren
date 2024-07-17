@@ -5,101 +5,117 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Riehen",
-          "y": 9,
-          "Wert": 0.0267792955
+          "y": 7,
+          "Wert": 0.025,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Riehen",
           "y": 5,
-          "Wert": 0.2899442847
+          "Wert": 0.2937524941,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1658958744
+          "Wert": 0.1663577596,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 0.4646
+          "Wert": 0.4581,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.4749155405
+          "Wert": 0.4759358289,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Riehen",
           "y": 19,
-          "Wert": 0.4114976627
+          "Wert": 0.4060337178,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Riehen",
-          "y": 20,
-          "Wert": 0.4048141892
+          "y": 21,
+          "Wert": 0.408506016,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 1959.790044821891
+          "Wert": 1960.135135135135,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Riehen",
           "y": 18,
-          "Wert": 0.65534324133
+          "Wert": 0.653819036427,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.792
+          "Wert": 0.791,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Riehen",
           "y": 19,
-          "Wert": 102.449166
+          "Wert": 102.453742,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 17,
-          "Wert": 47.114794
+          "Wert": 46.939378,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Riehen",
           "y": 15,
-          "Wert": 3371.9
+          "Wert": 3703,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Riehen",
           "y": 15,
-          "Wert": 12923.2
+          "Wert": 13467,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Riehen",
-          "y": 8,
-          "Wert": 0.713284
+          "y": 4,
+          "Wert": 0.6957735,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1552417
+          "Wert": 0.1556797,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

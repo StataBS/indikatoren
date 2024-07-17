@@ -2,7 +2,8 @@
   "series": [
     {
       "index": 0,
-      "color": "#007A2F",
+      "color": "#D7E8D2",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -10,11 +11,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           94249
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           141157
         ],
         [
@@ -32,6 +33,9 @@
     {
       "index": 1,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -39,12 +43,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 91911,
           "high": 96588
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 138479,
           "high": 143835
         },
@@ -64,7 +68,8 @@
     },
     {
       "index": 2,
-      "color": "#68AB2B",
+      "color": "#73B97C",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -72,11 +77,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           94986
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           142491
         ],
         [
@@ -94,6 +99,9 @@
     {
       "index": 3,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -101,12 +109,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 92653,
           "high": 97318
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 139765,
           "high": 145218
         },
@@ -126,7 +134,8 @@
     },
     {
       "index": 4,
-      "color": "#73B97C",
+      "color": "#68AB2B",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -134,11 +143,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           96637
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           142824
         ],
         [
@@ -156,6 +165,9 @@
     {
       "index": 5,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -163,12 +175,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 94284,
           "high": 98990
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 139991,
           "high": 145657
         },
@@ -188,7 +200,8 @@
     },
     {
       "index": 6,
-      "color": "#246370",
+      "color": "#007A2F",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -196,11 +209,11 @@
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           97799
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           143229
         ],
         [
@@ -218,6 +231,9 @@
     {
       "index": 7,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -225,12 +241,12 @@
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 95459,
           "high": 100138
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 140413,
           "high": 146045
         },
@@ -250,19 +266,20 @@
     },
     {
       "index": 8,
-      "color": "#0F7399",
+      "color": "#A8C3CA",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-            }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           92726
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           141301
         ],
         [
@@ -280,19 +297,22 @@
     {
       "index": 9,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-            }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+          }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 90326,
           "high": 95125
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 138487,
           "high": 144115
         },
@@ -312,19 +332,20 @@
     },
     {
       "index": 10,
-      "color": "#689199",
+      "color": "#71A3B5",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-          }
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+            }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           95186
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           138470
         ],
         [
@@ -342,19 +363,22 @@
     {
       "index": 11,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-          }
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+            }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 92805,
           "high": 97567
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 135693,
           "high": 141247
         },
@@ -374,19 +398,20 @@
     },
     {
       "index": 12,
-      "color": "#A8C3CA",
+      "color": "#689199",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-        }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           93838
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           138226
         ],
         [
@@ -404,19 +429,22 @@
     {
       "index": 13,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-        }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+          }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 91538,
           "high": 96137
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 135434,
           "high": 141018
         },
@@ -436,19 +464,20 @@
     },
     {
       "index": 14,
-      "color": "#D3E2E4",
+      "color": "#0F7399",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-      }
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+        }
       },
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           95651
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           141156
         ],
         [
@@ -466,19 +495,22 @@
     {
       "index": 15,
       "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
       "tooltip": {
         "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
-      }
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+        }
       },
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 93267,
           "high": 98036
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 138201,
           "high": 144110
         },
@@ -491,6 +523,72 @@
           "name": "BS\u002FBL\u002FJU",
           "low": 266634,
           "high": 274724
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 16,
+      "color": "#246370",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+      }
+      },
+      "data": [
+        [
+          "Bâle-Ville",
+          97131
+        ],
+        [
+          "Bâle-Campagne",
+          142516
+        ],
+        [
+          "Jura",
+          34126
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          273773
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "index": 17,
+      "type": "errorbar",
+      "crisp": false,
+      "pointRange": 0,
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
+      }
+      },
+      "data": [
+        {
+          "name": "Bâle-Ville",
+          "low": 94712,
+          "high": 99550
+        },
+        {
+          "name": "Bâle-Campagne",
+          "low": 139640,
+          "high": 145392
+        },
+        {
+          "name": "Jura",
+          "low": 32688,
+          "high": 35564
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 269750,
+          "high": 277797
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -555,13 +653,13 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1.2,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0.13
     }
   },
   "title": {
@@ -633,7 +731,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2024"
   },
   "tooltip": {
     "shared": true

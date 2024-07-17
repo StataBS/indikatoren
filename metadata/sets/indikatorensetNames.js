@@ -38,7 +38,6 @@ var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU (Print)",
 	"CMS Kennzahlen Soziales (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-	"Basler Atlas",
 	"Nachhaltigkeit (Print)",
 	"Energiestatistik",
 	"Bevoelkerungsszenarien (Print)",

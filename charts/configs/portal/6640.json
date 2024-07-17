@@ -6,100 +6,116 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Johann",
           "y": 16,
-          "Wert": 0.0620600414
+          "Wert": 0.061,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 0.426863354
+          "Wert": 0.4290261307,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Johann",
           "y": 9,
-          "Wert": 0.2407185629
+          "Wert": 0.2372414538,
+          "Jahr": 2023
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Johann",
-          "y": 10,
-          "Wert": 0.3376
+          "y": 11,
+          "Wert": 0.3313,
+          "Jahr": 2023
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Johann",
-          "y": 5,
-          "Wert": 0.2314164415
+          "y": 4,
+          "Wert": 0.2313123561,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Johann",
-          "y": 8,
-          "Wert": 0.3059931955
+          "y": 7,
+          "Wert": 0.301350172,
+          "Jahr": 2023
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Johann",
           "y": 11,
-          "Wert": 0.2598996526
+          "Wert": 0.2636224098,
+          "Jahr": 2023
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 1934.437051532941
+          "Wert": 1934.521172638436,
+          "Jahr": 2023
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Johann",
           "y": 13,
-          "Wert": 0.245270711024
+          "Wert": 0.245602605863,
+          "Jahr": 2023
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Johann",
           "y": 12,
-          "Wert": 0.287
+          "Wert": 0.303,
+          "Jahr": 2023
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 72.060166
+          "Wert": 72.194553,
+          "Jahr": 2023
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
-          "y": 5,
-          "Wert": 36.878279
+          "y": 4,
+          "Wert": 36.766227,
+          "Jahr": 2023
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 7,
-          "Wert": 654.9
+          "y": 6,
+          "Wert": 688,
+          "Jahr": 2021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Johann",
           "y": 6,
-          "Wert": 7093
+          "Wert": 7243,
+          "Jahr": 2021
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Johann",
-          "y": 7,
-          "Wert": 0.7132521
+          "y": 9,
+          "Wert": 0.7151063,
+          "Jahr": "2018-2022"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 1.0269672
+          "Wert": 1.023927,
+          "Jahr": 2021
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +231,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2023",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -260,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "legend": {
     "enabled": false,

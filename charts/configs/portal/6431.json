@@ -82,6 +82,10 @@
         [
           2022,
           7.6
+        ],
+        [
+          2023,
+          7.3
         ]
       ],
       "name": "Schweiz"
@@ -168,6 +172,10 @@
         [
           2022,
           6.6
+        ],
+        [
+          2023,
+          6.4
         ]
       ],
       "name": "Italien"
@@ -253,6 +261,10 @@
         ],
         [
           2022,
+          2.9
+        ],
+        [
+          2023,
           2.9
         ]
       ],
@@ -340,6 +352,10 @@
         [
           2022,
           4.5
+        ],
+        [
+          2023,
+          4
         ]
       ],
       "name": "Spanien"
@@ -426,6 +442,10 @@
         [
           2022,
           11.6
+        ],
+        [
+          2023,
+          11.4
         ]
       ],
       "name": "Türkei"
@@ -512,6 +532,10 @@
         [
           2022,
           8.8
+        ],
+        [
+          2023,
+          8.5
         ]
       ],
       "name": "Ehemaliges Jugoslawien"
@@ -647,7 +671,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
