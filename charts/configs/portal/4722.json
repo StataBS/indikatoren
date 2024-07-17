@@ -12,10 +12,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2013",
-          1109
-        ],
-        [
           "2014",
           1026
         ],
@@ -50,6 +46,10 @@
         [
           "2022",
           1465
+        ],
+        [
+          "2023",
+          1328
         ]
       ],
       "name": "Eingebürgerte",
@@ -69,10 +69,6 @@
       "stacking": null,
       "legendIndex": 0,
       "data": [
-        [
-          "2013",
-          16.4
-        ],
         [
           "2014",
           14.9
@@ -108,9 +104,13 @@
         [
           "2022",
           18.9
+        ],
+        [
+          "2023",
+          16.8
         ]
       ],
-      "name": "Einbürgerungsziffer (rechte Skala)",
+      "name": "Einbürgerungsziffer",
       "turboThreshold": 0
     }
   ],
@@ -267,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.7.2024"
   },
   "tooltip": {
     "shared": true
