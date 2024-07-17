@@ -10079,12 +10079,13 @@ var indikatoren = [
 		"children": [
 			6043,
 			8385,
-			8933
+			8933,
+			10040
 		],
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 liessen sich 1 465 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 18,9 Einbürgerungen pro 1000 ausländischen Staatsangehörigen.",
-		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende.",
+		"lesehilfe": "Im Jahr 2023 liessen sich 1 328 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 16,8.",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -10096,7 +10097,7 @@ var indikatoren = [
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kuerzel": "I.01.6.4722",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.3.02",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -10109,7 +10110,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-04T10:52:30",
+		"aktualisierungsdatum": "2024-07-17T08:00:49",
 		"id": 4722
 	},
 	{
@@ -16651,7 +16652,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2003 bis 2022 stieg der Anteil der ausländischen Personen an der Bevölkerung von 29,4% auf 37,9%.",
+		"lesehilfe": "Von 2004 bis 2023 stieg der Anteil der ausländischen Personen an der Bevölkerung von 29,9% auf 38,4%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16664,7 +16665,7 @@ var indikatoren = [
 		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06057",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -16677,7 +16678,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:21",
+		"aktualisierungsdatum": "2024-07-17T08:00:51",
 		"id": 6057
 	},
 	{
@@ -81030,7 +81031,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl gewanderte Privathaushalte",
 		"subtitle": "nach Wanderungstyp, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 sind 6 814 Privathaushalte umgezogen, 4 402 zugezogen und 3 595 weggezogen. Zudem gab es 884 Zusammenzüge.",
+		"lesehilfe": "Im Jahr 2023 sind 6 616 Privathaushalte umgezogen, 4 349 zugezogen und 3 430 weggezogen. Zudem gab es 823 Zusammenzüge.",
 		"erlaeuterungen": "Einen Haushalt bilden alle Personen, die in derselben Wohnung leben. Ein Privathaushalt (PHH) gilt innerhalb eines Quartals als «gewandert», wenn für jede Person im Haushalt in den drei Monaten dieses Quartals das Ereignis Umzug, Zuzug oder Wegzug vorliegt. Bei den ausgewiesenen Zahlen zur Wanderung der PHH nach Jahr handelt es sich um summierte Quartalszahlen. Sie werden für die folgenden vier Wanderungstypen ausgewiesen: Umzug PHH, Zuzug PHH, Zusammenzug PHH und Wegzug PHH.<br>Umzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung im Kanton Basel-Stadt gemeinsam in eine andere Wohnung in Basel-Stadt umgezogen. <br>Wegzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung aus dem Kanton Basel-Stadt weggezogen. <br>Zuzug PHH: Alle Personen des Privathaushalts sind während eines Quartals in dieselbe Wohnung in Basel-Stadt zugezogen. Alle Personen hatten zuvor einen Wohnort ausserhalb von Basel-Stadt. Der Wohnort vor dem Zuzug muss nicht für alle Personen gleich gewesen sein.<br>Zusammenzug PHH: Die Personen des Privathaushalts sind in einem Quartal in dieselbe Wohnung in Basel-Stadt zusammengezogen. Vor dem Zusammenzug gab es mindestens zwei unterschiedliche Wohnorte in Basel-Stadt oder mindestens eine Person ist von ausserhalb des Kantons zugezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -81043,7 +81044,7 @@ var indikatoren = [
 		"description": "Anzahl gewanderte Privathaushalte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.09800",
+		"kuerzel": "",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -81056,7 +81057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:02",
+		"aktualisierungsdatum": "2024-07-17T08:00:46",
 		"id": 9800
 	},
 	{
