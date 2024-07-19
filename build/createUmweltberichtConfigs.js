@@ -46,7 +46,7 @@ casper.start('https://google.ch');
 
 //loop over array of urls: https://stackoverflow.com/a/25601585 
 while (ubFileList.length > 0) {
-    var id = ubFileList.pop().substr(0,4);
+    var id = ubFileList.pop().replace('.json','');//.substr(0,4);
     var idText = padLeft(id, 4);
 
     (function(id){
