@@ -3233,7 +3233,7 @@ var indikatorensetData = [
 		"description": "Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4318",
+		"kuerzel": "I.01.1.04318",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1702",
 		"stufe1": "Thema Querschnittsindikatoren",
@@ -3245,7 +3245,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:38",
+		"aktualisierungsdatum": "2024-07-19T08:16:48",
 		"id": 4318
 	},
 	{

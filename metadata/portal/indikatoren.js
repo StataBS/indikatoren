@@ -7549,7 +7549,7 @@ var indikatoren = [
 		"description": "Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4318",
+		"kuerzel": "I.01.1.04318",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1702",
 		"stufe1": "Thema Querschnittsindikatoren",
@@ -7562,7 +7562,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:38",
+		"aktualisierungsdatum": "2024-07-19T08:16:48",
 		"id": 4318
 	},
 	{
@@ -25855,7 +25855,7 @@ var indikatoren = [
 		],
 		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.07515",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzelKunde": "",
@@ -25869,7 +25869,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-21T10:06:10",
+		"aktualisierungsdatum": "2024-07-19T08:16:52",
 		"id": 7515
 	},
 	{
@@ -29799,8 +29799,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Im Mai 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln. In neun Wohnvierteln und in Riehen ging sie zurück. Im Wohnviertel Gotthelf und in der Gemeinde Riehen blieb sie stabiel.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln und in der Gemeinde Riehen. In Bettingen und den übrigen Wohnvierteln ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29813,7 +29813,7 @@ var indikatoren = [
 		],
 		"description": "Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzelKunde": "",
@@ -29827,7 +29827,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-21T10:06:10",
+		"aktualisierungsdatum": "2024-07-19T08:16:55",
 		"id": 7763
 	},
 	{
