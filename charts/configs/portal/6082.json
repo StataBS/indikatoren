@@ -69,7 +69,7 @@
         ],
         [
           2019,
-          25.1
+          25.2
         ],
         [
           2020,
@@ -82,6 +82,10 @@
         [
           2022,
           25.2
+        ],
+        [
+          2023,
+          25.7
         ]
       ],
       "name": "Schweiz"
@@ -168,6 +172,10 @@
         [
           2022,
           11.2
+        ],
+        [
+          2023,
+          10.6
         ]
       ],
       "name": "Deutschland"
@@ -254,6 +262,10 @@
         [
           2022,
           9.9
+        ],
+        [
+          2023,
+          10.5
         ]
       ],
       "name": "Italien"
@@ -340,6 +352,10 @@
         [
           2022,
           7.5
+        ],
+        [
+          2023,
+          5.8
         ]
       ],
       "name": "Türkei"
@@ -426,6 +442,10 @@
         [
           2022,
           7.9
+        ],
+        [
+          2023,
+          8.3
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -512,6 +532,10 @@
         [
           2022,
           7
+        ],
+        [
+          2023,
+          7.6
         ]
       ],
       "name": "EU-Ost"
@@ -598,6 +622,10 @@
         [
           2022,
           7
+        ],
+        [
+          2023,
+          6.3
         ]
       ],
       "name": "Balkan"
@@ -684,6 +712,10 @@
         [
           2022,
           2.3
+        ],
+        [
+          2023,
+          1.1
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -770,6 +802,10 @@
         [
           2022,
           2.1
+        ],
+        [
+          2023,
+          5.3
         ]
       ],
       "name": "Arab. Länder"
@@ -856,6 +892,10 @@
         [
           2022,
           4.5
+        ],
+        [
+          2023,
+          5.6
         ]
       ],
       "name": "Afrikan. Länder"
@@ -942,6 +982,10 @@
         [
           2022,
           9.5
+        ],
+        [
+          2023,
+          8.1
         ]
       ],
       "name": "Übrige Länder"
@@ -1072,7 +1116,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

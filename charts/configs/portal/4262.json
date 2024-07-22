@@ -170,10 +170,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 10,
+    "ceiling": 11,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -451,7 +452,8 @@
         40,
         57,
         33,
-        42
+        42,
+        30
       ],
       "visible": true
     },
@@ -476,6 +478,7 @@
       "id": "0403_2",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
+        0,
         0,
         0,
         0,
