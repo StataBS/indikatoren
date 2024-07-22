@@ -993,7 +993,7 @@ var indikatorensetData = [
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer sowie der Studierenden mit deutschem Pass ist 2022 im Vergleich zum Vorjahr gesunken. Trotzdem weisen diese beiden Staatsangehörigkeiten noch immer die höchsten Quoten auf. Auf Rang 3 folgt neu Italien.",
+		"lesehilfe": "Die höchsten Hochschulquoten weisen 2023 wie bereits im Vorjahr Studierende aus der Schweiz (25,7%), aus Deutschland (10,6%) und aus Italien (10,5%) auf.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -1020,7 +1020,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:49:32",
+		"aktualisierungsdatum": "2024-07-22T10:43:45",
 		"id": 6082
 	},
 	{

@@ -1,0 +1,478 @@
+{
+  "chart": {
+    "renderTo": "container_0614",
+    "type": "column",
+    "width": "485",
+    "height": "415",
+    "spacingBottom": 50,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "x",
+    "panning": true,
+    "panKey": "shift",
+    "resetZoomButton": {
+      "position": {
+        "x": 0,
+        "y": -30
+      }
+    },
+    "events": {
+      "redraw": function updateStacks() {
+			//console.log(this.userOptions.series[0].stacking)
+
+			//only if plot-type is column and stacking = percent
+			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
+			  var chart = this,
+				H = Highcharts,
+				label,
+				bbox,
+				i, j=0;
+
+			  for (var stackName in chart.yAxis[0].stacks) {
+				i=0;
+				for (var itemName in chart.yAxis[0].stacks[stackName]) {
+					if (chart.yAxis[0].stacks[stackName][itemName].label){
+					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
+					  bbox = label.getBBox(true); // get label's bounding box
+					  
+					  //console.log(label);
+					  
+					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
+					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
+					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
+					  
+					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
+						  if (i % 2 != 0) label.hide(); //hide every second label
+						  if (this.userOptions.series[0].stacking == 'percent') {
+							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
+							  else label.translate(4)
+						  }
+					  }
+					  
+					  // if label is outside chart (left/right + 5), hide it
+					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
+						label.hide();
+					  }
+					}
+				  i++;
+				}
+				j++;
+			  }
+			}
+		},
+      "load": function () {
+								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
+								.css({
+									cursor: 'pointer'
+								})
+								.attr({
+									'padding': 0
+								})
+								.add().on('click',function(){
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0614", "Indikator-Details";
+								});
+						
+								label.align(Highcharts.extend(label.getBBox(), {
+									align: 'left',
+									verticalAlign: 'bottom',
+									x: 0,
+									y: 100
+								}), null, 'spacingBox');
+								
+								/*add tooltip to legend items
+								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
+									(function(i) {
+										var item = this.legend.allItems[i].legendItem;
+										item.on('mouseover', function (e) {
+											//show custom tooltip here
+											console.log("mouseover" + i);
+										}).on('mouseout', function (e) {
+											//hide tooltip
+											console.log("mouseout" + i);
+										});
+									})(i);
+								}*/
+
+								
+								/* remove link from credits */
+								if (this.credits) {
+									this.credits.element.onclick = function() {
+										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+									}
+								}
+								
+								//#added 20.04.2018, copied from JB
+								//for top-left legends with no x defined: move legend to x position of first yAxis
+								//if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+								this.legend.update({ x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding});
+				
+							}
+    }
+  },
+  "title": {
+    "text": "Endenergieverbrauch (ohne Mobilität)",
+    "useHTML": true,
+    "align": "left",
+    "style": {
+      "fontSize": "1.1666em",
+      "fontWeight": "bold",
+      "color": "#000000"
+    }
+  },
+  "subtitle": {
+    "text": "Gigawattstunden, Basel-Stadt",
+    "useHTML": true,
+    "align": "left",
+    "style": {
+      "fontSize": "1em",
+      "color": "#000000"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "floating": false,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "padding": 12,
+    "itemMarginBottom": 5,
+    "borderWidth": 0,
+    "shadow": false,
+    "backgroundColor": "none",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "1em"
+    }
+  },
+  "tooltip": {
+    "style": {
+      "fontSize": "1em"
+    },
+    "hideDelay": 200,
+    "padding": 8,
+    "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E GWh",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "useHTML": true,
+    "outside": false
+  },
+  "xAxis": {
+    "categories": [
+      2000,
+      2004,
+      2010,
+      2012,
+      2014,
+      2016,
+      2018,
+      2020
+    ],
+    "floor": 2000,
+    "ceiling": 2020,
+    "tickLength": 0,
+    "title": {
+      "enabled": false,
+      "text": "Jahr"
+    },
+    "labels": {
+      "style": {
+        "fontSize": "0.91666em",
+        "color": "#000000"
+      }
+    },
+    "range": 1000,
+    "plotBands": [
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      },
+      {
+        "label": {
+          "style": {}
+        }
+      }
+    ]
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "enabled": true,
+        "text": "",
+        "style": {
+          "fontSize": "0.91666em",
+          "color": "#000000"
+        },
+        "align": "middle"
+      },
+      "labels": {
+        "enabled": true,
+        "overflow": "justify",
+        "style": {
+          "fontSize": "0.91666em",
+          "color": "#000000"
+        },
+        "formatter": function () {
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
+      },
+      "plotBands": [
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        },
+        {
+          "label": {}
+        }
+      ],
+      "index": 0
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "title": {
+        "enabled": true,
+        "text": "",
+        "style": {
+          "fontSize": "0.91666em",
+          "color": "#000000"
+        },
+        "align": "middle"
+      },
+      "labels": {
+        "enabled": true,
+        "overflow": "justify",
+        "style": {
+          "fontSize": "0.91666em",
+          "color": "#000000"
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
+      },
+      "index": 1
+    }
+  ],
+  "plotOptions": {
+    "bar": {
+      "dataLabels": {
+        "enabled": true
+      }
+    },
+    "series": {
+      "stacking": null,
+      "connectNulls": true,
+      "stickyTracking": false,
+      "borderWidth": 0,
+      "marker": {
+        "enabled": false,
+        "radius": 3
+      }
+    },
+    "column": {
+      "pointPlacement": null,
+      "minPointLength": 2
+    },
+    "arearange": {
+      "lineWidth": 0,
+      "fillOpacity": 0.2,
+      "zIndex": -1,
+      "legend": {
+        "fillOpacity": 0.2
+      },
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      }
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik",
+    "href": false,
+    "style": {
+      "color": "#000000",
+      "fontSize": "0.8333em",
+      "cursor": "default",
+      "width": "465px"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    }
+  },
+  "navigation": {
+    "buttonOptions": {
+      "theme": {
+        "stroke-width": 1,
+        "stroke": "#eee",
+        "r": 3,
+        "states": {
+          "hover": {
+            "fill": "#ddd"
+          },
+          "select": {
+            "stroke": "#444",
+            "fill": "#ddd"
+          }
+        }
+      }
+    },
+    "menuStyle": {},
+    "menuItemStyle": {
+      "padding": "3px 12px"
+    }
+  },
+  "rangeSelector": {
+    "enabled": false
+  },
+  "scrollbar": {
+    "enabled": false
+  },
+  "navigator": {
+    "enabled": false,
+    "series": {
+      "type": "column",
+      "stacking": null
+    },
+    "xAxis": {
+      "gridLineWidth": 0,
+      "labels": {
+        "enabled": false
+      }
+    }
+  },
+  "series": [
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "showInLegend": false,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Endenergieverbrauch (ohne Mobilität)",
+      "color": "#FF8028",
+      "id": "BS0614_1",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          2000,
+          4434
+        ],
+        [
+          2004,
+          4278.6
+        ],
+        [
+          2010,
+          4758.3
+        ],
+        [
+          2012,
+          4467.9
+        ],
+        [
+          2014,
+          3945.8
+        ],
+        [
+          2016,
+          3938
+        ],
+        [
+          2018,
+          3515
+        ],
+        [
+          2020,
+          3560.7
+        ]
+      ],
+      "visible": true
+    }
+  ]
+}

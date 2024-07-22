@@ -125,6 +125,10 @@
         [
           2020,
           0.533
+        ],
+        [
+          2021,
+          0.541
         ]
       ],
       "name": "Reineinkommen"
@@ -255,6 +259,10 @@
         [
           2020,
           0.921
+        ],
+        [
+          2021,
+          0.926
         ]
       ],
       "name": "Reinvermögen"
@@ -394,7 +402,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

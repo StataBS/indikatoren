@@ -2264,6 +2264,12 @@ id | visible | visibleInPortal | indikatorenset
 9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9885 | true | true | Umwelt
+9886 | true | true | Umwelt
+9887 | true | true | Umwelt
+9888 | true | true | Umwelt
+9889 | true | true | Umwelt
+9891 | true | true | Umwelt
 9915 | true | true | Soziales
 9916 | true | true | Soziales
 9917 | true | true | Soziales
@@ -2366,3 +2372,4 @@ id | visible | visibleInPortal | indikatorenset
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
+12713 | true | true | 
