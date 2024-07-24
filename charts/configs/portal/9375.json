@@ -74,7 +74,7 @@
           104.4
         ]
       ],
-      "name": "Index Median Einkommen"
+      "name": "Index Median Reineinkommen"
     }
   ],
   "chart": {
@@ -201,7 +201,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

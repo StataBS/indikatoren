@@ -70,7 +70,7 @@
         ],
         [
           2019,
-          25.1
+          25.2
         ],
         [
           2020,
@@ -83,6 +83,10 @@
         [
           2022,
           25.2
+        ],
+        [
+          2023,
+          25.7
         ]
       ],
       "name": "Schweiz"
@@ -114,15 +118,15 @@
         ],
         [
           2008,
-          20.4
+          20.3
         ],
         [
           2009,
-          20.8
+          20.7
         ],
         [
           2010,
-          20.8
+          20.7
         ],
         [
           2011,
@@ -130,7 +134,7 @@
         ],
         [
           2012,
-          22.1
+          22
         ],
         [
           2013,
@@ -171,6 +175,10 @@
         [
           2022,
           25
+        ],
+        [
+          2023,
+          25.5
         ]
       ],
       "name": "Schweizer"
@@ -206,11 +214,11 @@
         ],
         [
           2009,
-          20.8
+          20.9
         ],
         [
           2010,
-          21
+          21.1
         ],
         [
           2011,
@@ -222,7 +230,7 @@
         ],
         [
           2013,
-          23.5
+          23.6
         ],
         [
           2014,
@@ -234,7 +242,7 @@
         ],
         [
           2016,
-          25.1
+          25.2
         ],
         [
           2017,
@@ -259,6 +267,10 @@
         [
           2022,
           25.4
+        ],
+        [
+          2023,
+          25.9
         ]
       ],
       "name": "Schweizerinnen"
@@ -346,6 +358,10 @@
         [
           2022,
           8.4
+        ],
+        [
+          2023,
+          8.3
         ]
       ],
       "name": "Ausland"
@@ -433,7 +449,11 @@
         ],
         [
           2022,
-          8.7
+          8.6
+        ],
+        [
+          2023,
+          8.2
         ]
       ],
       "name": "Ausländer"
@@ -522,6 +542,10 @@
         [
           2022,
           8.2
+        ],
+        [
+          2023,
+          8.3
         ]
       ],
       "name": "Ausländerinnen"
@@ -660,7 +684,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
