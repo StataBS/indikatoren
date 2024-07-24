@@ -16667,7 +16667,7 @@
 		],
 		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "19,6% der erwerbstätigen Männer gingen 2021 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2021 bei 48,5%.",
+		"lesehilfe": "22,9% der erwerbstätigen Männer gingen 2022 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2022 bei 48,0%.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -16694,7 +16694,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-13T02:26:43",
+		"aktualisierungsdatum": "2024-07-24T08:47:20",
 		"id": 6056
 	},
 	{
@@ -17758,7 +17758,7 @@
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist 2022 im Vergleich zum Vorjahr gesunken. Bei der ausländischen Wohnbevölkerung ist die Quote 2022 mit 8,4% die höchtste in der Beobachtungsreihe. Unterschiede nach Geschlecht sind unabhängig von der Staatsangehörigkeit aktuell kaum messbar.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist 2023 im Vergleich zum Vorjahr von 25,2% auf 25,7% gestiegen. Bei der ausländischen Wohnbevölkerung ist die Quote 2023 mit 8,3% die zweithöchste in der Beobachtungsreihe.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -17786,7 +17786,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:49:33",
+		"aktualisierungsdatum": "2024-07-24T08:47:18",
 		"id": 6083
 	},
 	{
@@ -18170,7 +18170,7 @@
 		],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2023 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -18196,7 +18196,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:52",
+		"aktualisierungsdatum": "2024-07-24T08:47:17",
 		"id": 6154
 	},
 	{
@@ -41727,7 +41727,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "139 178 Logiernächte wurden im Mai 2024 in den Basler Hotelbetrieben gebucht, 27 165 bzw. 24,2% mehr als im April. Im Vergleich zum Mai 2023 entspricht dies einer Zunahme um 5,7% bzw. 7 459 Übernachtungen. Die inländischen Gäste buchten 52 800 Logiernächte (-2,5%), die Gäste aus dem Ausland 86 378 Übernachtungen (+11,3%).",
+		"lesehilfe": "146 019 Logiernächte wurden im Juni 2024 in den Basler Hotelbetrieben gebucht, 6 841 bzw. 4,9% mehr als im Mai. Im Vergleich zum Juni 2023 entspricht dies einer Zunahme um 2,4% bzw. 3 403 Übernachtungen. Die inländischen Gäste buchten 49 907 Logiernächte (+6,8%), die Gäste aus dem Ausland 96 112 Übernachtungen (+0,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41753,7 +41753,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-17T08:40:15",
+		"aktualisierungsdatum": "2024-07-24T08:47:14",
 		"id": 7516
 	},
 	{
@@ -41764,8 +41764,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 55%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -41791,7 +41791,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-17T08:40:16",
+		"aktualisierungsdatum": "2024-07-24T08:47:15",
 		"id": 7517
 	},
 	{
@@ -56483,7 +56483,7 @@
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2023 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -56496,7 +56496,7 @@
 		"description": "Verkehrsleistungsindex",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
-		"kuerzel": "I.11.6.08454",
+		"kuerzel": "I.11.16.08454",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW20",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -56504,12 +56504,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_06_00_00_00_320",
+		"orderKey": "03_07_00_00_00_320",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:53",
+		"aktualisierungsdatum": "2024-07-24T08:47:18",
 		"id": 8454
 	},
 	{
@@ -73925,7 +73925,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:01",
+		"aktualisierungsdatum": "2024-07-24T08:47:16",
 		"id": 9375
 	},
 	{
@@ -79820,7 +79820,7 @@
 		"children": [],
 		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2020 6,5 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 2,1 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
+		"lesehilfe": "Der Mietpreisindex lag 2021 7,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 3,6 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -79847,7 +79847,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-14T02:17:03",
+		"aktualisierungsdatum": "2024-07-24T08:47:16",
 		"id": 9686
 	},
 	{
@@ -79990,7 +79990,7 @@
 		"description": "Entwicklung von Krankenkassenprämien und Reineinkommen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
-		"kuerzel": "I.14.4.09732",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW4",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -80003,7 +80003,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:17",
+		"aktualisierungsdatum": "2024-07-24T08:47:19",
 		"id": 9732
 	},
 	{

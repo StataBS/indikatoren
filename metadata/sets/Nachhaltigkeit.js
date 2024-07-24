@@ -1932,7 +1932,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "19,6% der erwerbstätigen Männer gingen 2021 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2021 bei 48,5%.",
+		"lesehilfe": "22,9% der erwerbstätigen Männer gingen 2022 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2022 bei 48,0%.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-13T02:26:43",
+		"aktualisierungsdatum": "2024-07-24T08:47:20",
 		"id": 6056
 	},
 	{
@@ -2323,7 +2323,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2022 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
+		"lesehilfe": "Das Verkehrsaufkommen in Basel-Stadt hat 2023 im Vergleich zum Vorjahr bei allen Verkehrsmitteln zugenommen. Mit Ausnahme des Velovekehrs liegt das Verkehrsaufkommen aber immer noch unter dem Niveau von vor der Pandemie.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -2336,7 +2336,7 @@ var indikatorensetData = [
 		"description": "Verkehrsleistungsindex",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
-		"kuerzel": "I.11.6.08454",
+		"kuerzel": "I.11.16.08454",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW20",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -2344,11 +2344,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_06_00_00_00_320",
+		"orderKey": "03_07_00_00_00_320",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:53",
+		"aktualisierungsdatum": "2024-07-24T08:47:18",
 		"id": 8454
 	},
 	{
@@ -2657,7 +2657,7 @@ var indikatorensetData = [
 		"description": "Entwicklung von Krankenkassenprämien und Reineinkommen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
-		"kuerzel": "I.14.4.09732",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW4",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -2669,7 +2669,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:17",
+		"aktualisierungsdatum": "2024-07-24T08:47:19",
 		"id": 9732
 	},
 	{

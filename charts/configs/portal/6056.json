@@ -34,8 +34,8 @@
           21.5
         ],
         [
-          "2021",
-          19.6
+          "2022",
+          22.9
         ]
       ],
       "name": "Männer",
@@ -81,9 +81,9 @@
           "high": 23.7
         },
         {
-          "name": "2021",
-          "low": 17.4,
-          "high": 21.7
+          "name": "2022",
+          "low": 20.7,
+          "high": 25.2
         }
       ],
       "name": "Männer 95% Konfidenzintervall Untergrenze",
@@ -123,8 +123,8 @@
           49.8
         ],
         [
-          "2021",
-          48.5
+          "2022",
+          48
         ]
       ],
       "name": "Frauen",
@@ -170,9 +170,9 @@
           "high": 52.5
         },
         {
-          "name": "2021",
-          "low": 45.8,
-          "high": 51.2
+          "name": "2022",
+          "low": 45.3,
+          "high": 50.8
         }
       ],
       "name": "Frauen 95% Konfidenzintervall Untergrenze",
@@ -212,8 +212,8 @@
           35.1
         ],
         [
-          "2021",
-          33.5
+          "2022",
+          35.1
         ]
       ],
       "name": "Total",
@@ -259,9 +259,9 @@
           "high": 36.8
         },
         {
-          "name": "2021",
-          "low": 31.7,
-          "high": 35.3
+          "name": "2022",
+          "low": 33.3,
+          "high": 36.9
         }
       ],
       "name": "Total 95% Konfidenzintervall Untergrenze",
@@ -403,7 +403,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2024"
   },
   "tooltip": {
     "shared": true
