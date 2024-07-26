@@ -37,6 +37,48 @@ var indikatorensetData = [
 		"id": 12532
 	},
 	{
+		"template": "line001",
+		"data-id": 12715,
+		"chart-id": 12715,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			12716
+		],
+		"title": "Grenzwertüberschreitungen Ozon",
+		"subtitle": "Anzahl Überschreitungen des Stunden-Grenzwertes pro Jahr, Region Basel",
+		"lesehilfe": "Im Jahr 2023 lagen in Basel-Stadt 304 Stunden-Mittelwerte über dem Grenzwert für Ozon. Laut Luftreinhalte-Verordnung dürfte der Grenzwert höchstens einmal pro Jahr überschritten werden.",
+		"erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 μg/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz).<br>Ozon ist ein sekundärer Luftschadstoff, es wird bei intensiver Sonneneinstrahlung aus den Vorläuferschadstoffen Stickstoffoxiden und flüchtigen organischen Verbindungen in Kombination mit Sauerstoff gebildet. In städtischen Gebieten ist die Ozonkonzentration in der Regel tiefer als in ländlichen, da Stickstoffmonoxid aus Autoabgasen mit Ozon reagiert und dieses so abgebaut wird.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://luftqualitaet.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1986/208_208_208/de' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Grenzwertüberschreitungen Ozon",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kuerzel": "",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL10",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_410",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-07-26T09:12:53",
+		"id": 12715
+	},
+	{
 		"template": "template001",
 		"data-id": 4355,
 		"chart-id": 4355,
@@ -1774,8 +1816,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2021 insgesamt bei 72,4%. Bei den Männern lag sie mit 75,3% über derjenigen der Frauen (69,5%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Anpassungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2022 insgesamt bei 73,0%. Bei den Männern lag sie bei 74,5% und bei den Frauen bei 71,5%. Da sich die Konfidenzintervalle (schwarze Fehlerbalken) für diese beiden Quoten überlappen, gibt es keinen statistisch signifikanten Unterschied zwischen Männern und Frauen. Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Der Stichprobenumfang für Basel-Stadt beträgt rund 5 000 Personen. Somit sind die Werte seit 2010 mit einer statistischen Unsicherheit behaftet, welche durch die schwarzen Fehlerbalken dargestellt ist. Aufgrund von Anpassungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1800,7 +1842,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-13T02:26:42",
+		"aktualisierungsdatum": "2024-07-26T09:12:55",
 		"id": 6052
 	},
 	{
