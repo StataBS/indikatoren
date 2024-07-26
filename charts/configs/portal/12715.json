@@ -1,0 +1,732 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          1991,
+          660
+        ],
+        [
+          1992,
+          750.5
+        ],
+        [
+          1993,
+          688.5
+        ],
+        [
+          1994,
+          925
+        ],
+        [
+          1995,
+          853.5
+        ],
+        [
+          1996,
+          815.5
+        ],
+        [
+          1997,
+          859.5
+        ],
+        [
+          1998,
+          888.5
+        ],
+        [
+          1999,
+          684.5
+        ],
+        [
+          2000,
+          736
+        ],
+        [
+          2001,
+          775.5
+        ],
+        [
+          2002,
+          716
+        ],
+        [
+          2003,
+          1660.33
+        ],
+        [
+          2004,
+          697.33
+        ],
+        [
+          2005,
+          645.67
+        ],
+        [
+          2006,
+          712.67
+        ],
+        [
+          2007,
+          506.33
+        ],
+        [
+          2008,
+          335.67
+        ],
+        [
+          2009,
+          389.33
+        ],
+        [
+          2010,
+          602.67
+        ],
+        [
+          2011,
+          559.67
+        ],
+        [
+          2012,
+          292
+        ],
+        [
+          2013,
+          529
+        ],
+        [
+          2014,
+          286.33
+        ],
+        [
+          2015,
+          685
+        ],
+        [
+          2016,
+          338.33
+        ],
+        [
+          2017,
+          307.67
+        ],
+        [
+          2018,
+          847.33
+        ],
+        [
+          2019,
+          465.67
+        ],
+        [
+          2020,
+          402.67
+        ],
+        [
+          2021,
+          170
+        ],
+        [
+          2022,
+          428.67
+        ],
+        [
+          2023,
+          472.67
+        ]
+      ],
+      "name": "Höhenlagen"
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          1991,
+          237
+        ],
+        [
+          1992,
+          317
+        ],
+        [
+          1993,
+          209
+        ],
+        [
+          1994,
+          327
+        ],
+        [
+          1995,
+          328
+        ],
+        [
+          1996,
+          299.5
+        ],
+        [
+          1997,
+          341
+        ],
+        [
+          1998,
+          376.5
+        ],
+        [
+          1999,
+          237.5
+        ],
+        [
+          2000,
+          273.5
+        ],
+        [
+          2001,
+          223.5
+        ],
+        [
+          2002,
+          260
+        ],
+        [
+          2003,
+          766
+        ],
+        [
+          2004,
+          300.5
+        ],
+        [
+          2005,
+          285
+        ],
+        [
+          2006,
+          353.5
+        ],
+        [
+          2007,
+          238
+        ],
+        [
+          2008,
+          174
+        ],
+        [
+          2009,
+          195.5
+        ],
+        [
+          2010,
+          307
+        ],
+        [
+          2011,
+          256
+        ],
+        [
+          2012,
+          134.5
+        ],
+        [
+          2013,
+          260.5
+        ],
+        [
+          2014,
+          169
+        ],
+        [
+          2015,
+          348
+        ],
+        [
+          2016,
+          191
+        ],
+        [
+          2017,
+          189.5
+        ],
+        [
+          2018,
+          461.5
+        ],
+        [
+          2019,
+          237
+        ],
+        [
+          2020,
+          196
+        ],
+        [
+          2021,
+          109.5
+        ],
+        [
+          2022,
+          255.5
+        ],
+        [
+          2023,
+          308.5
+        ]
+      ],
+      "name": "Agglomeration"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          1991,
+          128
+        ],
+        [
+          1992,
+          83
+        ],
+        [
+          1993,
+          66
+        ],
+        [
+          1994,
+          142
+        ],
+        [
+          1995,
+          176
+        ],
+        [
+          1996,
+          109
+        ],
+        [
+          1997,
+          107
+        ],
+        [
+          1998,
+          193
+        ],
+        [
+          1999,
+          84
+        ],
+        [
+          2000,
+          109
+        ],
+        [
+          2001,
+          190
+        ],
+        [
+          2002,
+          133
+        ],
+        [
+          2003,
+          504
+        ],
+        [
+          2004,
+          167
+        ],
+        [
+          2005,
+          145
+        ],
+        [
+          2006,
+          271
+        ],
+        [
+          2007,
+          99
+        ],
+        [
+          2008,
+          78
+        ],
+        [
+          2009,
+          62
+        ],
+        [
+          2010,
+          215
+        ],
+        [
+          2011,
+          135
+        ],
+        [
+          2012,
+          85
+        ],
+        [
+          2013,
+          164
+        ],
+        [
+          2014,
+          108
+        ],
+        [
+          2015,
+          215
+        ],
+        [
+          2016,
+          81
+        ],
+        [
+          2017,
+          98
+        ],
+        [
+          2018,
+          293
+        ],
+        [
+          2019,
+          160
+        ],
+        [
+          2020,
+          253
+        ],
+        [
+          2021,
+          87
+        ],
+        [
+          2022,
+          196
+        ],
+        [
+          2023,
+          304
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#444444",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          1991,
+          1
+        ],
+        [
+          1992,
+          1
+        ],
+        [
+          1993,
+          1
+        ],
+        [
+          1994,
+          1
+        ],
+        [
+          1995,
+          1
+        ],
+        [
+          1996,
+          1
+        ],
+        [
+          1997,
+          1
+        ],
+        [
+          1998,
+          1
+        ],
+        [
+          1999,
+          1
+        ],
+        [
+          2000,
+          1
+        ],
+        [
+          2001,
+          1
+        ],
+        [
+          2002,
+          1
+        ],
+        [
+          2003,
+          1
+        ],
+        [
+          2004,
+          1
+        ],
+        [
+          2005,
+          1
+        ],
+        [
+          2006,
+          1
+        ],
+        [
+          2007,
+          1
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          1
+        ],
+        [
+          2019,
+          1
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          1
+        ]
+      ],
+      "name": "Max. zulässige Anzahl Überschreitungen gem. LRV"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 20,
+    "renderTo": "container-12715"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Grenzwertüberschreitungen Ozon"
+  },
+  "subtitle": {
+    "text": "Anzahl Überschreitungen des Stunden-Grenzwertes pro Jahr, Region Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+				var maxlabels = 10,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+			}
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemMarginBottom": 5,
+    "itemWidth": 100,
+    "width": 220
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "12715"
+  }
+}

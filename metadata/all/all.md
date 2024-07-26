@@ -2373,3 +2373,4 @@ id | visible | visibleInPortal | indikatorenset
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
 12713 | true | true | 
+12715 | true | true | Nachhaltigkeit
