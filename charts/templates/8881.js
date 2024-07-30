@@ -10,7 +10,7 @@
     ],
     xAxis: {
       type: "category",
-      reversed: false
+      reversed: true
     },
     yAxis: {
       reversedStacks: false,

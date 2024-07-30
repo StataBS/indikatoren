@@ -14545,7 +14545,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 kamen 1 791 Lebendgeborene zur Welt, davon waren  1 065 Schweizer Staatsangehörige.",
+		"lesehilfe": "2023 kamen 1 878 Lebendgeborene zur Welt, davon waren  1 056 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14571,7 +14571,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:45",
+		"aktualisierungsdatum": "2024-07-30T09:42:50",
 		"id": 6076
 	},
 	{
@@ -36775,7 +36775,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Reineinkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 lag der Index (Basis 2010) der Medianprämien bei 139,9 und jener für den Median des Reinkommens bei 104,4.",
+		"lesehilfe": "Im Jahr 2021 lag der Index (Basis 2010) der Medianprämien bei 140,2 und jener für den Median des Reinkommens bei 105,9.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -36802,7 +36802,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-24T08:47:16",
+		"aktualisierungsdatum": "2024-07-30T09:42:49",
 		"id": 9375
 	},
 	{

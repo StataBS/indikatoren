@@ -17,14 +17,37 @@
     },
     "xAxis": {
       min: 0,
-      max: 31,
+      max: 34,
       "labels": {
         //rotation: -90,
         step: 1,
         overflow: "justify",
         formatter: function () {
           //console.log(this);
-          return (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
+            //add sum of observations of visible series to the axis label
+            var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                return val.visible;
+            });
+            var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+            var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                return accumulator + series.yData[indexOfCurrentValue];
+            }, 0);
+            //use N if all series are visible, otherwise use n
+            var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+            var txt = (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
+
+            var txt = txt
+                .replace("mögl.", "m.")
+                .replace("im ", "")
+                .replace("am ", "")
+                .replace("in ", "")
+                .replace("versorgung", "vers.");
+
+            //check for value that contains only spaces
+            return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
+        
+          //return (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         },
       }
     },

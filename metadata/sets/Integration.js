@@ -759,7 +759,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 kamen 1 791 Lebendgeborene zur Welt, davon waren  1 065 Schweizer Staatsangehörige.",
+		"lesehilfe": "2023 kamen 1 878 Lebendgeborene zur Welt, davon waren  1 056 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -784,7 +784,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:45",
+		"aktualisierungsdatum": "2024-07-30T09:42:50",
 		"id": 6076
 	},
 	{

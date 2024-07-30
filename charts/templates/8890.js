@@ -1,75 +1,70 @@
-(function(){
-    return {
-    "yAxis": [{
-    "labels": {
-      "format": "{value:,.f}",
-      "style": {
-        "color": "#000000"
+(function () {
+  return {
+    plotOptions: {
+      series: {
+        marker: {
+          symbol: "circle",
+          enabled: false
+        },
       }
     },
-    "min": 0,
-    tickAmount: 6,
-    "max": undefined,
-    "title": "", 
-  },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+    yAxis: [{
+      labels: {
+        format: "{value:,.1f}‰",
+        style: {
+          color: "#000000"
+        }
       },
-      "text": null
+      min: -2.5,
+      max: 10,
+      tickAmount: 6,
+      title: ""
     },
-    "labels": {
-      "format": "{value:,.f}",
-      "style": {
-        "color": "#000000"
+    ],
+    xAxis: {
+      tickInterval: 2,
+      labels: {
+        rotation: -45
       }
     },
-    "min": 0,
-    tickAmount: 6,
-    "max": undefined,
-    "gridLineWidth": 0,
-    "opposite": true
-  }
-  ],
-  "xAxis": {
-	"tickInterval": 2,
-  },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },     
-      "color": "#008AC3",
-        "tooltip": {
-				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-		},
+    legend: {
+      enabled: true,
+      //"x": 25,
+      //"y": 55,
+      //itemWidth: 170,
+      layout: "horizontal",
+      verticalAlign: "top",
+      align: "left",
+      itemMarginBottom: 5,
+      alignColumns: false,
+      itemDistance: 10,
+      labelFormatter: function () {
+        return this.name.replace(" bis 2009","");
+      },
     },
-        {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },     
-      "color": "#68AB2B",
-        "tooltip": {
-				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-		},
-      "yAxis": 1
-    }
-  ],
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
+    },
+    series: [
+      {
+        color: "#008AC3",
+      },
+      {
+        color: "#008AC3",
+        dashStyle: 'ShortDash',
+      },
+      {
+        color: "black",
+        dashStyle: 'ShortDot',
+        id: 'gw'
+      },
+      {
+        color: "black",
+        dashStyle: 'ShortDot',
+        linkedTo: 'gw'
+      }
+    ],
 
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-}
+  }
 }());
 

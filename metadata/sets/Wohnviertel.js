@@ -702,7 +702,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-03T09:12:36",
+		"aktualisierungsdatum": "2024-07-30T09:43:02",
 		"id": 5109
 	},
 	{

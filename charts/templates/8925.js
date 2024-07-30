@@ -2,7 +2,7 @@
   return {
     "xAxis": {
       "type": "category",
-      reversed: false,
+      reversed: true,
       labels: {
         x: -5,
       }
