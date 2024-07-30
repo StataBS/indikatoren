@@ -23,11 +23,23 @@
       //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
     },
     "series": [
-      { "color": "#B00000", "legendIndex": 0 }, /* rot */
-      { "color": "#662673", "legendIndex": 3 }, /* violett */
-      { "color": "#008AC3", "legendIndex": 1 }, /* blau */
-      { "color": "#FABD24", "legendIndex": 2 }, /* gelb */
-      { "color": "#007A2F", "legendIndex": 4 }, /* grün */
+      {
+        "color": "#B00000",
+        "legendIndex": 1
+      }, /* rot */
+      {
+      "color": "#662673",
+        "legendIndex": 2
+      }, /* violett */
+      {
+      "color": "#008AC3",
+        "legendIndex": 3
+      }, /* blau */
+      {
+        "color": "#FABD24", 
+        "legendIndex": 4
+      }, /* gelb */
+        
     ],
     "legend": {
       "enabled": true,

@@ -9,8 +9,8 @@
       },
     },
     "yAxis": {
-      "min": -15000,
-      "max": 15000,
+      "min": -20000,
+      "max": 20000,
       "tickInterval": 5000,
       //gridZIndex: 3,
       /*plotLines: [{
@@ -24,6 +24,11 @@
         value: 0,
         width: 1
       }],
+      labels: {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        },
+      }
 
     },
     "xAxis": {

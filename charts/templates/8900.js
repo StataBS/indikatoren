@@ -1,9 +1,20 @@
 (function () {
   return {
-    "xAxis": {
-      "tickInterval": 1,
+    chart: {
+      marginRight: 15
+    },
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     "yAxis": {
+      tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}%"
       }
@@ -16,20 +27,10 @@
       {
         "color": "#008AC3",
       }, /* dunkelrot */
-      {
-        "color": "#007A2F",
-        visible: true,
-      }, /* dunkelgrün */
+      /* dunkelgrün */
     ],
     "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+      "enabled": false,
     },
     "plotOptions": {
       "line": {

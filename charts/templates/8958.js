@@ -1,92 +1,74 @@
-
-/* 
-global Highcharts
-global geojson_wohnviertelEPSG2056 
-*/
 (function () {
 	return {
-		"legend": {
-			useHTML: false,
-			"title": {
-				"text": "Mittlere Anzahl<br>Tropennächte",
-				style: { 'fontWeight': ' bold' }
-			},
-			"layout": "vertical",
-			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -250,
-			"y": -40,
-			itemMarginBottom: 2,
-			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
+		chart: {
+			//marginRight: 20,
+			width: 665,
+		},
+		"plotOptions": {
+			"line": {
+				"connectNulls": true,
+				"marker": {
+					"enabled": false,
+					"symbol": "circle",
+				}
 			}
 		},
-		colorAxis: {
-			dataClassColor: 'category',
-			dataClasses: [{
-				from: 0,
-				to: 9,
-				color: '#D3E2E4',
-				name: "< 10"
-			}, {
-				from: 9.5,
-				to: 10.5,
-				color: '#A8C3CA',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>10"
-			}, {
-				from: 10.6,
-				to: 11.5,
-				color: '#689199',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>11"
-			}, {
-				from: 11.6,
-				to: 12.5,
-				color: '#246370',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>12"
-			}, {
-				from: 13,
-				color: '#083038',
-				name: "≥ 13"
-			}],
+		"xAxis": {
+			tickPositioner: function () {
+				var interval = 5,
+					ext = this.getExtremes(),
+					i = ext.dataMax,
+					pos = [i];
+				while (i >= ext.dataMin) pos.unshift(i = i - interval);
+				return pos;
+			}
 		},
-		"data": {
-			"seriesMapping": [
-				{
-					x: 0, y: 3
-				}
-			]
+		"yAxis": {
+			tickInterval: 10,
+			"labels": {
+				"format": "{value:,.0f}"
+			}
+		},
+		"legend": {
+			"enabled": true,
+			"layout": "vertical",
+			"verticalAlign": "middle",
+			"align": "right",
+			"itemMarginBottom": 3,
+			//itemWidth: 200,
+			//width: 220,
+			/*itemStyle: {
+				textOverflow: "none",
+				whiteSpace: "nowrap"
+			},*/
+			labelFormatter: function () {
+				return this.name.replace(' (', '<br>(').replace('Bebauung', 'Beb.').replace('keine Beb.', 'keine Bebauung');
+			}
+		},
+		"tooltip": {
+			"shared": false,
+			"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>'
 		},
 		"series": [
 			{
-				"name": "Wohnviertel",
-				"animation": true,
-				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",
-				"joinBy": ['TXT', 'Wohnviertel Id'],
-				"keys": ['Wohnviertel Id', 'value'],
-				"states": {
-					"hover": {
-						"enabled": false,
-						"borderColor": '#BADA55',
-						"brightness": 0
-					}
-				}
-			}
+				"color": "#007a2f"
+			},
+			{
+				"color": "#2f656b"
+			},
+			{
+				"color": "#923f8d"
+			},
+			{
+				"color": "#990300"
+			},
+			{
+				"color": "#73b97c"
+			},
+			{
+				"color": "#fabd24"
+			},
 
 		],
-		/* chart: {
-			 events: {
-				 load: function (e) {
-					 this.credits.element.onclick = function() {};
-					 var chart = this;
-					 var fn = this.options.customFunctions;
-					 //define new Highcharts template "mappie"
-					 fn.addLegendRectangle(chart, 315, 250, 105, 120, '#fbfbfb');
-				 }
-			 }
-		 }*/
-	};
+	}
 }());
-
-

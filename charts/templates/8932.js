@@ -1,9 +1,13 @@
 (function () {
   return {
     "chart": {
-      //"marginBottom": 75,
-      //"marginTop": 75,
-      "type": "column"
+      "type": "column",
+      //spacingBottom: 40
+    },
+    plotOptions: {
+      column: {
+        grouping: false,
+      }
     },
     "yAxis": {
       tickInterval: 10,
@@ -20,12 +24,16 @@
         }
       }
     },
-    "legend": {
-      "enabled": false
+    legend: {
+      verticalAlign: 'top',
+      align: 'left'
     },
     "series": [
       {
         "color": "#0070C0"
+      },
+      {
+        "color": "#FABD24"
       }
     ],
     "tooltip": {

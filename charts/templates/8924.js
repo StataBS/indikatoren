@@ -12,9 +12,9 @@
             },
         },
         xAxis: {
-            min: 1961,
-            max: 2019,
-            tickInterval: 1,
+            //min: 1961,
+            //max: 2019,
+           //tickInterval: 1,
             labels: {
                 step: 1
             },

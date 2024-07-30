@@ -1,8 +1,9 @@
-﻿"Jahr"	"Vollzeit Männer"	"Teilzeit Männer"	"Vollzeit Frauen"	"Teilzeit Frauen"	"Vollzeit Total"	"Teilzeit Total"
-1970	67396	3171	31316	12983	98712	16154
-1980	54683	2972	26817	12499	81500	15471
-1990	51149	4367	22780	17192	73929	21559
-2000	38602	6235	19585	18767	58187	25002
-2010	37690	7849	21125	20593	58814	28442
-2018	38517	10129	24280	21511	62797	31640
+﻿"Jahr"	"Männer"	"Männer 95% Konfidenzintervall Untergrenze"	"Männer 95% Konfidenzintervall Obergrenze"	"Frauen"	"Frauen 95% Konfidenzintervall Untergrenze"	"Frauen 95% Konfidenzintervall Obergrenze"	"Total"	"Total 95% Konfidenzintervall Untergrenze"	"Total 95% Konfidenzintervall Obergrenze"
+1970	4.5	""	""	29.3	""	""	14.1	""	""
+1980	5.2	""	""	31.8	""	""	16.0	""	""
+1990	7.9	""	""	43.0	""	""	22.6	""	""
+2000	13.9	""	""	48.9	""	""	30.1	""	""
+2010	17.2	15.3	19.1	49.4	46.7	52.0	32.6	30.9	34.3
+2020	21.5	19.4	23.7	49.8	47.1	52.5	35.1	33.3	36.8
+2022	22.9	20.7	25.2	48.0	45.3	50.8	35.1	33.3	36.9
 

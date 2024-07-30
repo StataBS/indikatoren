@@ -2368,9 +2368,26 @@ id | visible | visibleInPortal | indikatorenset
 12520 | true | true | Soziales
 12521 | true | true | Soziales
 12532 | true | true | Nachhaltigkeit
+12544 | true | false | Nachhaltigkeit (Print)
+12546 | true | false | Nachhaltigkeit (Print)
+12547 | true | false | Nachhaltigkeit (Print)
+12548 | true | false | Nachhaltigkeit (Print)
+12549 | true | false | Nachhaltigkeit (Print)
+12550 | true | false | Nachhaltigkeit (Print)
+12551 | true | false | Nachhaltigkeit (Print)
+12552 | true | false | Nachhaltigkeit (Print)
+12553 | true | false | Nachhaltigkeit (Print)
+12554 | true | false | Nachhaltigkeit (Print)
+12555 | true | false | Nachhaltigkeit (Print)
+12556 | true | false | Nachhaltigkeit (Print)
+12557 | true | false | Nachhaltigkeit (Print)
+12558 | true | false | Nachhaltigkeit (Print)
+12559 | true | false | Nachhaltigkeit (Print)
+12560 | true | false | Nachhaltigkeit (Print)
 12561 | true | true | Soziales
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
+12716 | true | false | Nachhaltigkeit (Print)

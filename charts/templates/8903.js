@@ -6,7 +6,7 @@
         rotation: /*-45*/0
       },
       tickPositioner: function () {
-        var interval = 3,
+        var interval = 5,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];

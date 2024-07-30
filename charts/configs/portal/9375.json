@@ -34,6 +34,10 @@
         [
           2020,
           139.9
+        ],
+        [
+          2021,
+          140.2
         ]
       ],
       "name": "Index Medianprämie"
@@ -72,9 +76,13 @@
         [
           2020,
           104.4
+        ],
+        [
+          2021,
+          105.9
         ]
       ],
-      "name": "Index Median Reineinkommen"
+      "name": "Index Median Einkommen"
     }
   ],
   "chart": {
@@ -201,7 +209,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2024"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

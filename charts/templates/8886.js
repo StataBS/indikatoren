@@ -1,25 +1,28 @@
 (function () {
   return {
-    chart: {
-      marginTop: 50,
+    /*chart: {
+      marginTop: 30,
         marginRight: 10
-    },
+    },*/
     "xAxis": {
-      "tickInterval": 1,
+      "tickInterval": 2,
       labels:{
         rotation: 0
       }
     },
-    "yAxis": {
-      "tickInterval": 2,
+    yAxis: {
+      tickInterval: 2,
     },
-    "series": [
-      { visible: false, "color": "#008AC3", legendIndex: 0, }, /* grün */
-      { visible: false, "color": "#68AB2B", legendIndex: 1, }, /* blau */
-      { "color": "#3C3C3C", legendIndex: 2, }, /* scharz */
+    series: [
+      { color: "#8AB77D", zIndex: 1 },
+      { color: "#83522E", zIndex: 0 }
     ],
-    "legend": {
-      "enabled": false,
+    legend: {
+      enabled: true,
+      verticalAlign: "top",
+      align: "left",
+      layout: "horizontal"
+
     },
   };
 }());

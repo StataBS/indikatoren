@@ -4,10 +4,16 @@
       tickInterval: 10
     },
     "xAxis": {
-      tickInterval: 1,
       labels: {
-        step: 2,
         rotation: -45
+      },
+      tickPositioner: function () {
+        var interval = 3,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
       }
     },
     "series": [

@@ -20,6 +20,7 @@
         "text": null
       },
       "labels": {
+        x: 7,
         "formatter": function () {
           return Highcharts.numberFormat((this.value * 100), 0) + '%';
         },
@@ -44,6 +45,7 @@
         "text": null
       },
       "labels": {
+        x: -7,
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0) + ' Fr.';
         },
@@ -106,11 +108,10 @@
       "itemMarginBottom": 5,
       "align": "left",
       "itemStyle": {
-        "fontWeight": "normal",
         width: 300
       },
       labelFormatter: function () {
-        return this.name.replace("Verhältnis der Löhne von Frauen und Männern", "Verhältnis Frauen/Männer");
+        return this.name.replace("Lohnunterschied zwischen Frauen und Männern", "Lohnunterschied Frauen / Männer");
       }
     },
     "plotOptions": {

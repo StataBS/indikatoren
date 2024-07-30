@@ -12,7 +12,7 @@
 		},
 		"xAxis": {
 			"type": "category",
-			reversed: true,
+			reversed: false,
 			"labels": {
 				align: "left",
 				x: -80,
@@ -27,8 +27,9 @@
 					}, 0);
 					//use N if all series are visible, otherwise use n
 					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+					var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
 					//check for value that contains only spaces
-					return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+					return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
 				}
 			}
 		},
