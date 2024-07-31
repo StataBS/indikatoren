@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b375ab",
+      "color": "#b475ab",
       "data": [
         [
           1995,
@@ -113,17 +113,143 @@
         ],
         [
           2022,
-          301.1
+          null
+        ],
+        [
+          2023,
+          null
         ]
       ],
-      "name": "Anzahl Personenwagen pro 1000 Einwohner"
+      "name": "Motorisierungsgrad gemäss MFK"
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          309.9
+        ],
+        [
+          2022,
+          302.1
+        ],
+        [
+          2023,
+          300
+        ]
+      ],
+      "name": "Motorisierungsgrad gemäss IVZ"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -154,6 +280,12 @@
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -221,14 +353,15 @@
     }
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 5
   },
   "credits": {
     "enabled": true,
@@ -241,9 +374,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

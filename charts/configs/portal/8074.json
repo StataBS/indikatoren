@@ -18,8 +18,8 @@
           0.70618
         ],
         [
-          "2015-2019",
-          0.70352
+          "2018-2022",
+          0.64095
         ]
       ],
       "name": "Klybeck",
@@ -45,9 +45,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.65448,
-          "high": 0.75256
+          "name": "2018-2022",
+          "low": 0.58586,
+          "high": 0.69603
         }
       ],
       "name": "Klybeck 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.70472
         ],
         [
-          "2015-2019",
-          0.62124
+          "2018-2022",
+          0.55269
         ]
       ],
       "name": "Kleinhüningen",
@@ -98,9 +98,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.53306,
-          "high": 0.70942
+          "name": "2018-2022",
+          "low": 0.46826,
+          "high": 0.63712
         }
       ],
       "name": "Kleinhüningen 95% Konfidenzintervall Untergrenze",
@@ -124,8 +124,8 @@
           0.72436
         ],
         [
-          "2015-2019",
-          0.75398
+          "2018-2022",
+          0.74009
         ]
       ],
       "name": "Basel",
@@ -151,9 +151,9 @@
           "high": "."
         },
         {
-          "name": "2015-2019",
-          "low": 0.74474,
-          "high": 0.76322
+          "name": "2018-2022",
+          "low": 0.73058,
+          "high": 0.7496
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

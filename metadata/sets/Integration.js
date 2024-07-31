@@ -1902,8 +1902,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Die Erwerbstätigenquoten der Schweizer und Ausländer lagen in allen betrachteten Jahren nahe beieinander. Bei den Schweizerinnen und Ausländerinnen sind die Unterschiede etwas grösser. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Diese Entwicklung war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2017 bis 2021 einen methodischen Bruch.",
+		"lesehilfe": "Im Beobachtungszeitraum haben sich die Erwerbstätigenquoten der Männer und Frauen angeglichen. Im Mittel der Jahre 2018 bis 2022  gab es zwischen den Schweizerinnen und Schweizern keinen signifikanten Quotenunterschied. Die Ausländer hatten in diesen Jahren eine höhere Erwerbstätigenquote als die Schweizer und die Schweizerinnen eine höhere Quote als die Ausländerinnen.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1928,7 +1928,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-04T10:52:32",
+		"aktualisierungsdatum": "2024-07-31T10:28:22",
 		"id": 6415
 	},
 	{
@@ -3085,7 +3085,7 @@ var indikatorensetData = [
 		],
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 28,4 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten auch Personen aus dem Balkan und aus der der Türkei.",
+		"lesehilfe": "Im Jahr 2023 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 26,1 einbürgern.",
 		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1 000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3110,7 +3110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:42",
+		"aktualisierungsdatum": "2024-07-31T10:28:23",
 		"id": 6479
 	},
 	{

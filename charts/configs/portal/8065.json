@@ -51,6 +51,10 @@
         [
           2022,
           32.976040353089
+        ],
+        [
+          2023,
+          32.878867330886
         ]
       ],
       "name": "Stadt Basel"
@@ -106,6 +110,10 @@
         [
           2022,
           7.110091743119
+        ],
+        [
+          2023,
+          7.093821510297
         ]
       ],
       "name": "Klybeck"
@@ -160,6 +168,10 @@
         ],
         [
           2022,
+          15.294117647058
+        ],
+        [
+          2023,
           15.294117647058
         ]
       ],
@@ -290,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

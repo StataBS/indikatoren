@@ -12,83 +12,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          20.023317
-        ],
-        [
-          "Vorstädte",
-          19.084503
+          20.644465
         ],
         [
           "Altstadt Kleinbasel",
-          19.057298
+          19.224171
+        ],
+        [
+          "Vorstädte",
+          19.051231
         ],
         [
           "Am Ring",
-          18.795705
+          18.920144
         ],
         [
           "Rosental",
-          18.191375
-        ],
-        [
-          "Clara",
-          18.151167
+          18.603638
         ],
         [
           "St. Alban",
-          18.043576
+          18.35742
         ],
         [
-          "Gundeldingen",
-          17.744784
+          "Clara",
+          18.306883
         ],
         [
           "St. Johann",
-          17.625556
-        ],
-        [
-          "Riehen\u002FBettingen",
-          17.594236
+          17.948198
         ],
         [
           "Matthäus",
-          17.558097
+          17.881759
+        ],
+        [
+          "Gundeldingen",
+          17.88101
+        ],
+        [
+          "Riehen\u002FBettingen",
+          17.800087
         ],
         [
           "Gotthelf",
-          17.360938
+          17.610366
         ],
         [
           "Bachletten",
-          17.211254
+          17.608302
         ],
         [
           "Bruderholz",
-          17.084512
+          17.428494
         ],
         [
           "Wettstein",
-          16.990456
+          17.346007
         ],
         [
           "Breite",
-          16.906728
-        ],
-        [
-          "Iselin",
-          16.615255
-        ],
-        [
-          "Klybeck",
-          16.493375
+          17.256767
         ],
         [
           "Kleinhüningen",
-          16.466323
+          16.827789
+        ],
+        [
+          "Klybeck",
+          16.796024
+        ],
+        [
+          "Iselin",
+          16.744425
         ],
         [
           "Hirzbrunnen",
-          15.903452
+          16.319593
         ]
       ],
       "name": "Quadratmeterpreis",
@@ -105,103 +105,103 @@
       "data": [
         {
           "name": "Altstadt Grossbasel",
-          "low": 18.5634906,
-          "high": 21.4831436
-        },
-        {
-          "name": "Vorstädte",
-          "low": 18.2733065,
-          "high": 19.8956997
+          "low": 18.9140737,
+          "high": 22.3748565
         },
         {
           "name": "Altstadt Kleinbasel",
-          "low": 17.7856153,
-          "high": 20.3289802
+          "low": 17.9856698,
+          "high": 20.4626717
+        },
+        {
+          "name": "Vorstädte",
+          "low": 18.1959001,
+          "high": 19.9065626
         },
         {
           "name": "Am Ring",
-          "low": 18.1910764,
-          "high": 19.400334
+          "low": 18.3538067,
+          "high": 19.4864811
         },
         {
           "name": "Rosental",
-          "low": 17.5720206,
-          "high": 18.81073
-        },
-        {
-          "name": "Clara",
-          "low": 17.4629137,
-          "high": 18.8394208
+          "low": 17.9918813,
+          "high": 19.2153938
         },
         {
           "name": "St. Alban",
-          "low": 17.5969219,
-          "high": 18.4902292
+          "low": 17.9079529,
+          "high": 18.8068868
         },
         {
-          "name": "Gundeldingen",
-          "low": 17.4455997,
-          "high": 18.0439675
+          "name": "Clara",
+          "low": 17.6913801,
+          "high": 18.9223859
         },
         {
           "name": "St. Johann",
-          "low": 17.3484106,
-          "high": 17.902701
-        },
-        {
-          "name": "Riehen\u002FBettingen",
-          "low": 17.2772488,
-          "high": 17.9112237
+          "low": 17.6607766,
+          "high": 18.2356185
         },
         {
           "name": "Matthäus",
-          "low": 17.1847804,
-          "high": 17.9314141
+          "low": 17.4999972,
+          "high": 18.2635202
+        },
+        {
+          "name": "Gundeldingen",
+          "low": 17.5862632,
+          "high": 18.1757564
+        },
+        {
+          "name": "Riehen\u002FBettingen",
+          "low": 17.4812638,
+          "high": 18.1189099
         },
         {
           "name": "Gotthelf",
-          "low": 16.9184147,
-          "high": 17.8034604
+          "low": 17.1289106,
+          "high": 18.0918206
         },
         {
           "name": "Bachletten",
-          "low": 16.8181765,
-          "high": 17.6043314
+          "low": 17.2132325,
+          "high": 18.0033713
         },
         {
           "name": "Bruderholz",
-          "low": 16.5287851,
-          "high": 17.6402395
+          "low": 16.7903422,
+          "high": 18.0666468
         },
         {
           "name": "Wettstein",
-          "low": 16.273871,
-          "high": 17.7070407
+          "low": 16.6791213,
+          "high": 18.0128927
         },
         {
           "name": "Breite",
-          "low": 16.4801679,
-          "high": 17.3332877
-        },
-        {
-          "name": "Iselin",
-          "low": 16.3192674,
-          "high": 16.9112425
-        },
-        {
-          "name": "Klybeck",
-          "low": 15.9965668,
-          "high": 16.9901827
+          "low": 16.8035152,
+          "high": 17.7100183
         },
         {
           "name": "Kleinhüningen",
-          "low": 15.7908167,
-          "high": 17.141829
+          "low": 16.2040701,
+          "high": 17.4515074
+        },
+        {
+          "name": "Klybeck",
+          "low": 16.2774277,
+          "high": 17.3146194
+        },
+        {
+          "name": "Iselin",
+          "low": 16.4535631,
+          "high": 17.0352865
         },
         {
           "name": "Hirzbrunnen",
-          "low": 15.4939171,
-          "high": 16.3129875
+          "low": 15.9185109,
+          "high": 16.7206745
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -278,7 +278,7 @@
     "text": "Nettomietpreise nach Wohnviertel"
   },
   "subtitle": {
-    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2017-2021",
+    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2018-2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

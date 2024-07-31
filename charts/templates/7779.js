@@ -19,15 +19,32 @@
 		return pos;
 	}
   },
-  "series": [
-    {     
-      "color": "#b375ab"
-    }
-  ],
+  "legend": {
+    itemDistance: 5,
+   "enabled": true,
+   "layout": "horizontal",
+   "verticalAlign": "top",
+   "align": "left",
+   "itemStyle": {
+     "fontWeight": "normal"
+   }
+ },
+    "series": [
+			{ "color": "#b475ab"},
+			{ "color": "#662673"}
+    ],
   "tooltip": {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     "shared": false
   },
+  "plotOptions": {
+    "line": {
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
+      } 
+    }
+  }
 };
 }());
 

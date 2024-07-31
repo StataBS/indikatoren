@@ -31,6 +31,10 @@
         [
           2022,
           289
+        ],
+        [
+          2023,
+          278
         ]
       ],
       "name": "Bezüger Kleinhüningen"
@@ -66,6 +70,10 @@
         [
           2022,
           743
+        ],
+        [
+          2023,
+          685
         ]
       ],
       "name": "Bezüger Klybeck"
@@ -101,6 +109,10 @@
         [
           2022,
           10.3
+        ],
+        [
+          2023,
+          9.8
         ]
       ],
       "name": "Sozialhilfequote Kleinhüningen"
@@ -136,6 +148,10 @@
         [
           2022,
           10.6
+        ],
+        [
+          2023,
+          9.8
         ]
       ],
       "name": "Sozialhilfequote Klybeck"
@@ -171,6 +187,10 @@
         [
           2022,
           5.3
+        ],
+        [
+          2023,
+          5.1
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -322,7 +342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

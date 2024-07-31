@@ -11,9 +11,12 @@
 					var endPurple = top + 2 * Math.PI / 16 * 7;
 					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
 					var endBlue = top;
-					var centerX = 247;
-					var centerY = 212.5;
-					var radius = 136;
+					//var centerX = 247;
+					var centerX = 247.5;
+					//var centerY = 212.5;
+					var centerY = 207;
+					var radius = 142;
+					//var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
 						fill: '#923F8D',
 						stroke: '#923F8D',
@@ -192,7 +195,7 @@
 				return "" +
 					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
 					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
-					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ' ' + this.point.Jahr + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
 					'</div>';
 			}
 		},

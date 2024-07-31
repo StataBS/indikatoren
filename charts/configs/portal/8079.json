@@ -50,6 +50,10 @@
         [
           2022,
           4
+        ],
+        [
+          2023,
+          4.1
         ]
       ],
       "name": "FAMI-Quote Klybeck"
@@ -104,6 +108,10 @@
         [
           2022,
           4.8
+        ],
+        [
+          2023,
+          4.6
         ]
       ],
       "name": "FAMI-Quote Kleinhüningen"
@@ -158,6 +166,10 @@
         [
           2022,
           26.5
+        ],
+        [
+          2023,
+          26.4
         ]
       ],
       "name": "PV-Quote Klybeck"
@@ -212,6 +224,10 @@
         [
           2022,
           26.9
+        ],
+        [
+          2023,
+          25.6
         ]
       ],
       "name": "PV-Quote Kleinhüningen"
@@ -269,7 +285,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen"
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung"
   },
   "subtitle": {
     "text": "Wohnviertel Klybeck und Kleinhüningen",
@@ -341,7 +357,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -1890,10 +1890,11 @@ var indikatorensetData = [
 		],
 		"title": "Motorisierungsgrad",
 		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 301 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
-		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 300 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung. Die Auswertung basiert ab 2021 auf den Fahrzeugdaten des Informationssystems Verkehrszulassung (IVZ) des Bundesamts für Strassen (ASTRA). Leichte Differenzen zu den Zahlen der Motorfahrzeugkontrolle Basel-Stadt sind möglich.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
+			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt",
+			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
@@ -1917,7 +1918,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:11",
+		"aktualisierungsdatum": "2024-07-31T10:28:25",
 		"id": 7779
 	},
 	{

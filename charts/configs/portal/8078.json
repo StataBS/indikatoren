@@ -12,83 +12,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.6720034
+          0.6795166
         ],
         [
           "Am Ring",
-          0.5829758
+          0.5998579
         ],
         [
           "Vorstädte",
-          0.5710835
+          0.5996359
         ],
         [
           "Altstadt Kleinbasel",
-          0.5585908
+          0.5829847
         ],
         [
           "St. Alban",
-          0.5252596
+          0.5262873
         ],
         [
           "Bruderholz",
-          0.5157758
+          0.5245796
         ],
         [
           "Wettstein",
-          0.5034007
+          0.5241506
         ],
         [
           "Bachletten",
-          0.4883352
+          0.5212824
         ],
         [
           "Gotthelf",
-          0.4534465
+          0.4883393
         ],
         [
           "Gundeldingen",
-          0.4492527
-        ],
-        [
-          "St. Johann",
-          0.4252263
+          0.4639995
         ],
         [
           "Matthäus",
-          0.4200281
+          0.4393337
+        ],
+        [
+          "St. Johann",
+          0.4387425
         ],
         [
           "Riehen\u002FBettingen",
-          0.4106655
+          0.4285978
         ],
         [
           "Rosental",
-          0.3838248
+          0.3938935
         ],
         [
           "Clara",
-          0.3691522
+          0.3885443
         ],
         [
           "Iselin",
-          0.3677256
+          0.3852893
         ],
         [
           "Breite",
-          0.3332948
+          0.3501163
         ],
         [
           "Hirzbrunnen",
-          0.3176185
+          0.3467839
         ],
         [
           "Klybeck",
-          0.2337407
+          0.2419163
         ],
         [
           "Kleinhüningen",
-          0.1867569
+          0.1886581
         ]
       ],
       "name": "Anteil mit tertiärem Bildungsabschluss",
@@ -105,103 +105,103 @@
       "data": [
         {
           "name": "Altstadt Grossbasel",
-          "low": 0.6209,
-          "high": 0.7231
+          "low": 0.6269,
+          "high": 0.7321
         },
         {
           "name": "Am Ring",
-          "low": 0.5565,
-          "high": 0.6095
+          "low": 0.5734,
+          "high": 0.6263
         },
         {
           "name": "Vorstädte",
-          "low": 0.5324,
-          "high": 0.6098
+          "low": 0.5603,
+          "high": 0.639
         },
         {
           "name": "Altstadt Kleinbasel",
-          "low": 0.4995,
-          "high": 0.6176
+          "low": 0.5255,
+          "high": 0.6405
         },
         {
           "name": "St. Alban",
-          "low": 0.5001,
-          "high": 0.5504
+          "low": 0.5012,
+          "high": 0.5514
         },
         {
           "name": "Bruderholz",
-          "low": 0.4886,
-          "high": 0.543
+          "low": 0.4968,
+          "high": 0.5523
         },
         {
           "name": "Wettstein",
-          "low": 0.4677,
-          "high": 0.5391
+          "low": 0.4885,
+          "high": 0.5598
         },
         {
           "name": "Bachletten",
-          "low": 0.4656,
-          "high": 0.5111
+          "low": 0.4985,
+          "high": 0.5441
         },
         {
           "name": "Gotthelf",
-          "low": 0.422,
-          "high": 0.4849
+          "low": 0.4563,
+          "high": 0.5204
         },
         {
           "name": "Gundeldingen",
-          "low": 0.4292,
-          "high": 0.4693
-        },
-        {
-          "name": "St. Johann",
-          "low": 0.4047,
-          "high": 0.4457
+          "low": 0.4439,
+          "high": 0.4841
         },
         {
           "name": "Matthäus",
-          "low": 0.3974,
-          "high": 0.4427
+          "low": 0.4164,
+          "high": 0.4623
+        },
+        {
+          "name": "St. Johann",
+          "low": 0.4181,
+          "high": 0.4594
         },
         {
           "name": "Riehen\u002FBettingen",
-          "low": 0.3942,
-          "high": 0.4272
+          "low": 0.4118,
+          "high": 0.4454
         },
         {
           "name": "Rosental",
-          "low": 0.3499,
-          "high": 0.4178
+          "low": 0.3604,
+          "high": 0.4274
         },
         {
           "name": "Clara",
-          "low": 0.3253,
-          "high": 0.413
+          "low": 0.3453,
+          "high": 0.4318
         },
         {
           "name": "Iselin",
-          "low": 0.3475,
-          "high": 0.388
+          "low": 0.3646,
+          "high": 0.406
         },
         {
           "name": "Breite",
-          "low": 0.3068,
-          "high": 0.3598
+          "low": 0.3231,
+          "high": 0.3772
         },
         {
           "name": "Hirzbrunnen",
-          "low": 0.2924,
-          "high": 0.3428
+          "low": 0.3208,
+          "high": 0.3727
         },
         {
           "name": "Klybeck",
-          "low": 0.2053,
-          "high": 0.2621
+          "low": 0.213,
+          "high": 0.2709
         },
         {
           "name": "Kleinhüningen",
-          "low": 0.1452,
-          "high": 0.2283
+          "low": 0.1474,
+          "high": 0.2299
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -277,7 +277,7 @@
     "text": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss"
   },
   "subtitle": {
-    "text": "nach Wohnviertel, Basel-Stadt, 2017-2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018-2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
