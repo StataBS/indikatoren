@@ -4,10 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2002,
-          32.7
-        ],
-        [
           2003,
           32.6
         ],
@@ -86,6 +82,10 @@
         [
           2022,
           26.6
+        ],
+        [
+          2023,
+          26.4
         ]
       ],
       "name": "Klybeck"
@@ -93,10 +93,6 @@
     {
       "color": "#b375ab",
       "data": [
-        [
-          2002,
-          31.4
-        ],
         [
           2003,
           31.5
@@ -176,6 +172,10 @@
         [
           2022,
           30.3
+        ],
+        [
+          2023,
+          29.7
         ]
       ],
       "name": "Kleinhüningen"
@@ -183,10 +183,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2002,
-          26.6
-        ],
         [
           2003,
           26.4
@@ -266,6 +262,10 @@
         [
           2022,
           25.8
+        ],
+        [
+          2023,
+          25.9
         ]
       ],
       "name": "Stadt Basel"
@@ -395,7 +395,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

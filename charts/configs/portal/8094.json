@@ -70,6 +70,10 @@
         [
           "2022",
           9
+        ],
+        [
+          "2023",
+          -75
         ]
       ],
       "name": "Umzugssaldo Klybeck",
@@ -145,6 +149,10 @@
         [
           "2022",
           -21
+        ],
+        [
+          "2023",
+          -125
         ]
       ],
       "name": "Umzugssaldo Kleinhüningen",
@@ -287,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

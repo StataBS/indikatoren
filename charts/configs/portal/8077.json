@@ -38,6 +38,10 @@
         [
           2022,
           19.423076923
+        ],
+        [
+          2023,
+          19.449901768
         ]
       ],
       "name": "Klybeck"
@@ -80,6 +84,10 @@
         [
           2022,
           19.117647059
+        ],
+        [
+          2023,
+          19.796954315
         ]
       ],
       "name": "Kleinhüningen"
@@ -122,6 +130,10 @@
         [
           2022,
           46.60442174
+        ],
+        [
+          2023,
+          46.61896868
         ]
       ],
       "name": "Stadt Basel"
@@ -251,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

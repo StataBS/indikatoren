@@ -1,24 +1,21 @@
-﻿""	Erdgas	Heizöl	Fernwärme	Anderer/Kein Energieträger
+﻿"jahr_wv"	"Erdgas"	"Heizöl"	"Fernwärme"	"Anderer/Kein Energieträger"
 2014: Klybeck	145	59	315	196
 2014: Kleinhüningen	52	51	141	142
-.
 2015: Klybeck	145	59	313	190
 2015: Kleinhüningen	52	52	140	141
-..
 2016: Klybeck	116	62	333	197
 2016: Kleinhüningen	57	39	143	148
-...
 2017: Klybeck	121	62	327	195
 2017: Kleinhüningen	57	39	140	141
-....
 2018: Klybeck	120	59	335	192
 2018: Kleinhüningen	59	40	138	130
-.....
 2019: Klybeck	126	38	373	167
 2019: Kleinhüningen	60	36	144	161
-......
 2020: Klybeck	119	38	369	166
 2020: Kleinhüningen	59	36	146	165
-.......
 2021: Klybeck	115	27	384	163
 2021: Kleinhüningen	55	38	146	165
+2022: Klybeck	112	26	387	167
+2022: Kleinhüningen	54	37	147	166
+2023: Klybeck	112	25	388	167
+2023: Kleinhüningen	54	35	149	165
