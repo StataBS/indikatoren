@@ -138,9 +138,12 @@
 					var endPurple = top + 2 * Math.PI / 16 * 7;
 					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
 					var endBlue = top;
-					var centerX = 247;
-					var centerY = 212.5;
-					var radius = 136;
+					//var centerX = 247;
+					var centerX = 247.5;
+					//var centerY = 212.5;
+					var centerY = 207;
+					var radius = 142;
+					//var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
 						fill: '#923F8D',
 						stroke: '#923F8D',

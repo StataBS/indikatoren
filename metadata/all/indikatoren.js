@@ -42313,7 +42313,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Juni 2024 auf 1,3% gestiegen; dies nach 1,1% im April und 1,2% im Mai.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Juli 2024 auf 1,2% gesunken; dies nach 1,3% im Juni.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -42341,7 +42341,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T08:38:33",
+		"aktualisierungsdatum": "2024-08-02T09:14:28",
 		"id": 7512
 	},
 	{
@@ -42353,7 +42353,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Jahresverlauf 2024 jeden Monat etwas gestiegen, zuletzt im Juni gegenüber dem Vormonat um 0,1%. Im Mai betrug der Zuwachs gegenüber April 0,4%.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau war im laufenden Jahr 2024 gegenüber dem Vormonat im Juli mit -0,2% zum ersten Mal rückläufig. Zuletzt so tief war die Monatsteuerung im November 2023.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -42380,7 +42380,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T08:38:34",
+		"aktualisierungsdatum": "2024-08-02T09:14:29",
 		"id": 7513
 	},
 	{
@@ -68914,7 +68914,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-26T09:12:48",
+		"aktualisierungsdatum": "2024-08-02T09:14:30",
 		"id": 8995
 	},
 	{
@@ -69288,7 +69288,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-26T09:12:49",
+		"aktualisierungsdatum": "2024-08-02T09:14:31",
 		"id": 9022
 	},
 	{
@@ -69326,7 +69326,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-26T09:12:51",
+		"aktualisierungsdatum": "2024-08-02T09:14:32",
 		"id": 9023
 	},
 	{
