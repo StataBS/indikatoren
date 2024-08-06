@@ -1481,44 +1481,42 @@ var indikatorensetData = [
 		"id": 4933
 	},
 	{
+		"template": "line001",
+		"data-id": 9030,
+		"chart-id": 9030,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9035
+		],
 		"title": "Ordnungsbussen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.19.1.09030",
-		"kuerzelKunde": "3.2.05",
-		"description": "Ordnungsbussen",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Im Jahr 2022 wurden im Kanton Basel-Stadt insgesamt 229 603 Ordnungsbussen bezahlt.",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt. Infolge Nachmeldung bezahlter Ordnungsbussen sind Änderungen gegenüber bereits veröffentlichter Vorjahreszahlen möglich.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
+		"description": "Ordnungsbussen",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.09030",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.2.05",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 233 598 Ordnungsbussen bezahlt. Dies sind 11% mehr als ein Jahr zuvor.",
-		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
-		"template": "line001",
+		"orderKey": "03_02_00_00_00_059",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_059",
-		"parentId": null,
-		"children": [
-			"9035"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9030,
-		"chart-id": 9030,
-		"filter": "",
+		"aktualisierungsdatum": "2024-08-06T09:17:33",
 		"id": 9030
 	},
 	{
