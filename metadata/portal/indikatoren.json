@@ -18786,7 +18786,7 @@
 			6717
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2023",
 		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
@@ -18814,7 +18814,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-15T08:48:26",
+		"aktualisierungsdatum": "2024-08-07T09:17:30",
 		"id": 6476
 	},
 	{
@@ -25813,7 +25813,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:26",
+		"aktualisierungsdatum": "2024-08-07T09:17:18",
 		"id": 7510
 	},
 	{
@@ -25851,7 +25851,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:27",
+		"aktualisierungsdatum": "2024-08-07T09:17:20",
 		"id": 7511
 	},
 	{
@@ -35188,7 +35188,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:28",
+		"aktualisierungsdatum": "2024-08-07T09:17:21",
 		"id": 8980
 	},
 	{
@@ -35226,7 +35226,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:30",
+		"aktualisierungsdatum": "2024-08-07T09:17:22",
 		"id": 8981
 	},
 	{
@@ -35304,7 +35304,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:31",
+		"aktualisierungsdatum": "2024-08-07T09:17:24",
 		"id": 8992
 	},
 	{
@@ -35595,7 +35595,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:33",
+		"aktualisierungsdatum": "2024-08-07T09:17:28",
 		"id": 9030
 	},
 	{

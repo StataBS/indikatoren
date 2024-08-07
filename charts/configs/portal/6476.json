@@ -1,51 +1,51 @@
 {
   "series": [
     {
-      "name": "FlächeproPerson",
+      "name": "Fläche pro Person",
       "data": [
         [
           "Schweiz",
-          45.09
+          45.07
         ],
         [
           "Deutschland",
-          42.32
+          42.28
         ],
         [
           "Italien",
-          36.9
+          37.23
         ],
         [
           "Türkei",
-          28.12
+          28.84
         ],
         [
           "EU-West + EFTA + UK",
-          37.53
+          37.59
         ],
         [
           "EU-Ost",
-          32.94
+          33.43
         ],
         [
           "Balkan",
-          24.87
+          25.34
         ],
         [
           "Mittel- und Südamerika",
-          33.83
+          34.18
         ],
         [
           "Arabische Länder",
-          26.39
+          26.46
         ],
         [
           "Afrikanische Länder",
-          26.7
+          26.29
         ],
         [
           "Übrige Länder",
-          27.7
+          28.01
         ]
       ],
       "turboThreshold": 0
@@ -133,7 +133,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -189,7 +189,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
   },
   "colors": [
     "#b00000",

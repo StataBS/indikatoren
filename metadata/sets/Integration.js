@@ -2964,7 +2964,7 @@ var indikatorensetData = [
 			6717
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2023",
 		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
@@ -2991,7 +2991,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-15T08:48:26",
+		"aktualisierungsdatum": "2024-08-07T09:17:30",
 		"id": 6476
 	},
 	{

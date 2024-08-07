@@ -7,7 +7,7 @@ var indikatorensetData = [
 		"parentId": "6754",
 		"children": [],
 		"title": "Rosental - Quartierradar",
-		"subtitle": "Ausgabe 2022",
+		"subtitle": "",
 		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:49",
+		"aktualisierungsdatum": "2024-08-07T09:17:25",
 		"id": 7664
 	},
 	{

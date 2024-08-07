@@ -26938,7 +26938,7 @@ var indikatoren = [
 			6717
 		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2023",
 		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
@@ -26966,7 +26966,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-15T08:48:26",
+		"aktualisierungsdatum": "2024-08-07T09:17:30",
 		"id": 6476
 	},
 	{
@@ -42263,7 +42263,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:26",
+		"aktualisierungsdatum": "2024-08-07T09:17:18",
 		"id": 7510
 	},
 	{
@@ -42301,7 +42301,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:27",
+		"aktualisierungsdatum": "2024-08-07T09:17:20",
 		"id": 7511
 	},
 	{
@@ -43702,7 +43702,7 @@ var indikatoren = [
 		"parentId": "6754",
 		"children": [],
 		"title": "Rosental - Quartierradar",
-		"subtitle": "Ausgabe 2022",
+		"subtitle": "",
 		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
@@ -43729,7 +43729,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:18:49",
+		"aktualisierungsdatum": "2024-08-07T09:17:25",
 		"id": 7664
 	},
 	{
@@ -50383,8 +50383,8 @@ var indikatoren = [
 		"parentId": "6756",
 		"children": [],
 		"title": "Klybeck - Quartierradar",
-		"subtitle": "Ausgabe 2023",
-		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet den höchsten Anteil Sozialhilfeempfänger und zweithöchsten Ausländeranteil. Der Altersquotient und die Gymnasialquote sind dagegen niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und eine sehr geringe Erwerbstätigenquote auf.",
+		"subtitle": "",
+		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet einen sehr hohen Anteil an Sozialhilfeempfängern und an Ausländern. Der Altersquotient und die Gymnasialquote sind niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und eine sehr geringe Erwerbstätigenquote auf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -50410,7 +50410,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:07",
+		"aktualisierungsdatum": "2024-08-07T09:17:26",
 		"id": 8045
 	},
 	{
@@ -54577,8 +54577,8 @@ var indikatoren = [
 		"parentId": "6757",
 		"children": [],
 		"title": "Kleinhüningen - Quartierradar",
-		"subtitle": "Ausgabe 2023",
-		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der zweithöchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist die zweitniedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den niedrigsten im Kanton. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
+		"subtitle": "",
+		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der höchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist die zweitniedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den niedrigsten im Kanton. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -54604,7 +54604,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:08",
+		"aktualisierungsdatum": "2024-08-07T09:17:27",
 		"id": 8375
 	},
 	{
@@ -68519,7 +68519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:28",
+		"aktualisierungsdatum": "2024-08-07T09:17:21",
 		"id": 8980
 	},
 	{
@@ -68557,7 +68557,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:30",
+		"aktualisierungsdatum": "2024-08-07T09:17:22",
 		"id": 8981
 	},
 	{
@@ -68873,7 +68873,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:31",
+		"aktualisierungsdatum": "2024-08-07T09:17:24",
 		"id": 8992
 	},
 	{
@@ -69366,7 +69366,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-06T09:17:33",
+		"aktualisierungsdatum": "2024-08-07T09:17:28",
 		"id": 9030
 	},
 	{
@@ -78690,8 +78690,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
+		"lesehilfe": "2023 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 1 353 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo. Die meisten Wegzüger des Jahres 2023 (insgesamt rund 4 500 Personen) gingen ins Ausland. Die meisten Zuzüger kamen ebenfalls aus dem Ausland nach Basel-Stadt, zuletzt ca. 8 100 Personen.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -78703,7 +78703,7 @@ var indikatoren = [
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.09599",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.2-1",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
@@ -78716,7 +78716,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:05",
+		"aktualisierungsdatum": "2024-08-07T09:17:29",
 		"id": 9599
 	},
 	{
