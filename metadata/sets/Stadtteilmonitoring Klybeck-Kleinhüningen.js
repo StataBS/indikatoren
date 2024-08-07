@@ -7,8 +7,8 @@ var indikatorensetData = [
 		"parentId": "6756",
 		"children": [],
 		"title": "Klybeck - Quartierradar",
-		"subtitle": "Ausgabe 2023",
-		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet den höchsten Anteil Sozialhilfeempfänger und zweithöchsten Ausländeranteil. Der Altersquotient und die Gymnasialquote sind dagegen niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und eine sehr geringe Erwerbstätigenquote auf.",
+		"subtitle": "",
+		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet einen sehr hohen Anteil an Sozialhilfeempfängern und an Ausländern. Der Altersquotient und die Gymnasialquote sind niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und eine sehr geringe Erwerbstätigenquote auf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:07",
+		"aktualisierungsdatum": "2024-08-07T09:17:26",
 		"id": 8045
 	},
 	{
@@ -1868,8 +1868,8 @@ var indikatorensetData = [
 		"parentId": "6757",
 		"children": [],
 		"title": "Kleinhüningen - Quartierradar",
-		"subtitle": "Ausgabe 2023",
-		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der zweithöchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist die zweitniedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den niedrigsten im Kanton. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
+		"subtitle": "",
+		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der höchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist die zweitniedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den niedrigsten im Kanton. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1894,7 +1894,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-13T12:27:08",
+		"aktualisierungsdatum": "2024-08-07T09:17:27",
 		"id": 8375
 	},
 	{

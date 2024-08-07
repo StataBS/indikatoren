@@ -5,56 +5,56 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Rosental",
-          "y": 15,
-          "Wert": 0.0709023941
+          "y": 17,
+          "Wert": 0.061
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Rosental",
           "y": 21,
-          "Wert": 0.5615627466
+          "Wert": 0.576362241
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Rosental",
-          "y": 7,
-          "Wert": 0.2210640314
+          "y": 8,
+          "Wert": 0.2345162596
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Rosental",
-          "y": 9,
-          "Wert": 0.2951
+          "y": 8,
+          "Wert": 0.2906
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.13024201
+          "Wert": 0.1297365572
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.1883714812
+          "Wert": 0.1913532873
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Rosental",
           "y": 14,
-          "Wert": 0.2741548125
+          "Wert": 0.280945507
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Rosental",
           "y": 19,
-          "Wert": 1951.102564102564
+          "Wert": 1952.694006309148
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 0.067307692307
+          "Wert": 0.063091482649
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -65,38 +65,38 @@
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Rosental",
-          "y": 8,
-          "Wert": 70.538499
+          "y": 7,
+          "Wert": 70.212877
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 34.681738
+          "Wert": 35.356314
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 289.9
+          "Wert": 372
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Rosental",
-          "y": 7,
-          "Wert": 7507.1
+          "y": 9,
+          "Wert": 8159
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Rosental",
-          "y": 4,
-          "Wert": 0.7068611
+          "y": 3,
+          "Wert": 0.6929327
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 13,
-          "Wert": 0.602277
+          "Wert": 0.6296403
         }
       ],
       "name": "Wert",
@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2022",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
   },
   "legend": {
     "enabled": false,
