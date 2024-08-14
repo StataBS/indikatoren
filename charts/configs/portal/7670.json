@@ -6,60 +6,60 @@
       "legendIndex": 0,
       "data": [
         [
-          "2015: Messe",
-          336
-        ],
-        [
-          "2015: Erlenmatt",
-          194
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          352
-        ],
-        [
-          "2016: Erlenmatt",
-          233
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          350
-        ],
-        [
-          "2017: Erlenmatt",
-          224
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          360
-        ],
-        [
-          "2018: Erlenmatt",
-          243
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           353
         ],
         [
           "2019: Erlenmatt",
           320
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          360
+        ],
+        [
+          "2020: Erlenmatt",
+          331
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          395
+        ],
+        [
+          "2021: Erlenmatt",
+          335
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          406
+        ],
+        [
+          "2022: Erlenmatt",
+          340
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          392
+        ],
+        [
+          "2023: Erlenmatt",
+          374
         ]
       ],
       "name": "Deutschland",
@@ -71,60 +71,60 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015: Messe",
-          250
-        ],
-        [
-          "2015: Erlenmatt",
-          70
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          243
-        ],
-        [
-          "2016: Erlenmatt",
-          83
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          244
-        ],
-        [
-          "2017: Erlenmatt",
-          78
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          252
-        ],
-        [
-          "2018: Erlenmatt",
-          88
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           253
         ],
         [
           "2019: Erlenmatt",
           109
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          248
+        ],
+        [
+          "2020: Erlenmatt",
+          116
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          237
+        ],
+        [
+          "2021: Erlenmatt",
+          121
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          229
+        ],
+        [
+          "2022: Erlenmatt",
+          119
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          228
+        ],
+        [
+          "2023: Erlenmatt",
+          113
         ]
       ],
       "name": "Italien",
@@ -136,60 +136,60 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015: Messe",
-          354
-        ],
-        [
-          "2015: Erlenmatt",
-          27
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          337
-        ],
-        [
-          "2016: Erlenmatt",
-          25
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          313
-        ],
-        [
-          "2017: Erlenmatt",
-          36
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          302
-        ],
-        [
-          "2018: Erlenmatt",
-          33
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           298
         ],
         [
           "2019: Erlenmatt",
           55
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          293
+        ],
+        [
+          "2020: Erlenmatt",
+          56
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          281
+        ],
+        [
+          "2021: Erlenmatt",
+          53
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          294
+        ],
+        [
+          "2022: Erlenmatt",
+          56
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          276
+        ],
+        [
+          "2023: Erlenmatt",
+          63
         ]
       ],
       "name": "Türkei",
@@ -201,60 +201,60 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015: Messe",
-          413
-        ],
-        [
-          "2015: Erlenmatt",
-          191
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          459
-        ],
-        [
-          "2016: Erlenmatt",
-          225
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          459
-        ],
-        [
-          "2017: Erlenmatt",
-          214
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          502
-        ],
-        [
-          "2018: Erlenmatt",
-          208
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           497
         ],
         [
           "2019: Erlenmatt",
           274
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          527
+        ],
+        [
+          "2020: Erlenmatt",
+          296
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          534
+        ],
+        [
+          "2021: Erlenmatt",
+          289
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          543
+        ],
+        [
+          "2022: Erlenmatt",
+          318
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          552
+        ],
+        [
+          "2023: Erlenmatt",
+          327
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -266,60 +266,60 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015: Messe",
-          150
-        ],
-        [
-          "2015: Erlenmatt",
-          53
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          156
-        ],
-        [
-          "2016: Erlenmatt",
-          69
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          155
-        ],
-        [
-          "2017: Erlenmatt",
-          67
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          163
-        ],
-        [
-          "2018: Erlenmatt",
-          86
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           181
         ],
         [
           "2019: Erlenmatt",
           133
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          170
+        ],
+        [
+          "2020: Erlenmatt",
+          156
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          156
+        ],
+        [
+          "2021: Erlenmatt",
+          154
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          165
+        ],
+        [
+          "2022: Erlenmatt",
+          164
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          170
+        ],
+        [
+          "2023: Erlenmatt",
+          164
         ]
       ],
       "name": "EU-Ost",
@@ -331,60 +331,60 @@
       "legendIndex": 5,
       "data": [
         [
-          "2015: Messe",
-          431
-        ],
-        [
-          "2015: Erlenmatt",
-          89
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          443
-        ],
-        [
-          "2016: Erlenmatt",
-          106
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          440
-        ],
-        [
-          "2017: Erlenmatt",
-          136
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          428
-        ],
-        [
-          "2018: Erlenmatt",
-          152
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           440
         ],
         [
           "2019: Erlenmatt",
           200
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          429
+        ],
+        [
+          "2020: Erlenmatt",
+          204
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          399
+        ],
+        [
+          "2021: Erlenmatt",
+          212
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          378
+        ],
+        [
+          "2022: Erlenmatt",
+          203
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          372
+        ],
+        [
+          "2023: Erlenmatt",
+          185
         ]
       ],
       "name": "Balkan",
@@ -396,60 +396,60 @@
       "legendIndex": 6,
       "data": [
         [
-          "2015: Messe",
-          66
-        ],
-        [
-          "2015: Erlenmatt",
-          15
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          81
-        ],
-        [
-          "2016: Erlenmatt",
-          14
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          79
-        ],
-        [
-          "2017: Erlenmatt",
-          17
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          66
-        ],
-        [
-          "2018: Erlenmatt",
-          29
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           74
         ],
         [
           "2019: Erlenmatt",
           26
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          73
+        ],
+        [
+          "2020: Erlenmatt",
+          28
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          76
+        ],
+        [
+          "2021: Erlenmatt",
+          27
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          75
+        ],
+        [
+          "2022: Erlenmatt",
+          33
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          78
+        ],
+        [
+          "2023: Erlenmatt",
+          34
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -461,60 +461,60 @@
       "legendIndex": 7,
       "data": [
         [
-          "2015: Messe",
-          44
-        ],
-        [
-          "2015: Erlenmatt",
-          26
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          46
-        ],
-        [
-          "2016: Erlenmatt",
-          20
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          58
-        ],
-        [
-          "2017: Erlenmatt",
-          22
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          51
-        ],
-        [
-          "2018: Erlenmatt",
-          37
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           58
         ],
         [
           "2019: Erlenmatt",
           44
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          57
+        ],
+        [
+          "2020: Erlenmatt",
+          45
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          69
+        ],
+        [
+          "2021: Erlenmatt",
+          42
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          71
+        ],
+        [
+          "2022: Erlenmatt",
+          41
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          78
+        ],
+        [
+          "2023: Erlenmatt",
+          45
         ]
       ],
       "name": "Arabische Länder",
@@ -526,60 +526,60 @@
       "legendIndex": 8,
       "data": [
         [
-          "2015: Messe",
-          83
-        ],
-        [
-          "2015: Erlenmatt",
-          2
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          103
-        ],
-        [
-          "2016: Erlenmatt",
-          2
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          110
-        ],
-        [
-          "2017: Erlenmatt",
-          2
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          111
-        ],
-        [
-          "2018: Erlenmatt",
-          8
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           107
         ],
         [
           "2019: Erlenmatt",
           15
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          108
+        ],
+        [
+          "2020: Erlenmatt",
+          15
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          116
+        ],
+        [
+          "2021: Erlenmatt",
+          17
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          120
+        ],
+        [
+          "2022: Erlenmatt",
+          16
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          129
+        ],
+        [
+          "2023: Erlenmatt",
+          18
         ]
       ],
       "name": "Afrikanische Länder",
@@ -591,60 +591,60 @@
       "legendIndex": 9,
       "data": [
         [
-          "2015: Messe",
-          388
-        ],
-        [
-          "2015: Erlenmatt",
-          209
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          402
-        ],
-        [
-          "2016: Erlenmatt",
-          253
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          412
-        ],
-        [
-          "2017: Erlenmatt",
-          267
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          395
-        ],
-        [
-          "2018: Erlenmatt",
-          295
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           392
         ],
         [
           "2019: Erlenmatt",
           388
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          343
+        ],
+        [
+          "2020: Erlenmatt",
+          413
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          352
+        ],
+        [
+          "2021: Erlenmatt",
+          404
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          424
+        ],
+        [
+          "2022: Erlenmatt",
+          413
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          454
+        ],
+        [
+          "2023: Erlenmatt",
+          454
         ]
       ],
       "name": "Übrige Länder",
@@ -787,7 +787,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -795,6 +795,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 7670
+    "filename": "7670"
   }
 }
