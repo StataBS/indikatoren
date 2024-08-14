@@ -82,6 +82,22 @@
         [
           2019,
           55.7587
+        ],
+        [
+          2020,
+          55.5603
+        ],
+        [
+          2021,
+          56.2729
+        ],
+        [
+          2022,
+          57.285
+        ],
+        [
+          2023,
+          57.9283
         ]
       ],
       "name": "Messe"
@@ -168,6 +184,22 @@
         [
           2019,
           56.1782
+        ],
+        [
+          2020,
+          56.2331
+        ],
+        [
+          2021,
+          55.9729
+        ],
+        [
+          2022,
+          57.1093
+        ],
+        [
+          2023,
+          57.1934
         ]
       ],
       "name": "Erlenmatt"
@@ -303,7 +335,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -344,6 +376,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7669
+    "filename": "7669"
   }
 }

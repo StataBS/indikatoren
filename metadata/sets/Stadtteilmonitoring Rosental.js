@@ -195,85 +195,81 @@ var indikatorensetData = [
 		"id": 7668
 	},
 	{
-		"title": "Ausländeranteil",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07669",
-		"kuerzelKunde": "2.05",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
-		"stufe1": "2 Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist der Ausländeranteil seit 2000 von 49,6% auf 55,8% gestiegen. Ein anderes Bild zeigt der Bezirk Erlenmatt. Bis ca. 2008 schwankte der Anteil Ausländer von Jahr zu Jahr relativ stark, was auf die geringe Einwohnerzahl zurückzuführen ist. Danach stieg der Ausländeranteil bis 2012 auf den Höchstwert von 68,5% und sank seither wieder auf 56,2% per Ende 2019.",
-		"erlaeuterungen": "Während die Bevölkerungszahl im Bezirk Messe seit 2000 kontinuierlich von 4&nbsp;185 auf 4&nbsp;730 anstieg, veränderte sich die Anzahl Einwohner im Bezirk Erlenmatt sehr sprunghaft. Dies ist auf die starke Bautätigkeit, insbesondere in den Jahren 2009 (+233 Wohnungen) und 2015 (+574 Wohnungen), aber auch in den Jahren 2014 (+63 Wohnungen), 2017 (+80 Wohnungen) und 2018 (+43 Wohnungen) zurückzuführen. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dies zu berücksichtigen.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7907"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7669,
 		"chart-id": 7669,
 		"filter": "",
-		"id": 7669
-	},
-	{
-		"title": "Ausländer nach Staatsangehörigkeit",
+		"parentId": null,
+		"children": [
+			7907
+		],
+		"title": "Ausländeranteil",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07670",
-		"kuerzelKunde": "2.07",
-		"description": "Ausländer nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Bezirk Messe ist der Ausländeranteil seit 2000 von 49,6% auf 57,9% gestiegen. Ein anderes Bild zeigt der Bezirk Erlenmatt. Bis ca. 2008 schwankte der Anteil Ausländer von Jahr zu Jahr relativ stark, was auf die geringe Einwohnerzahl zurückzuführen ist. Danach stieg der Ausländeranteil bis 2012 auf den Höchstwert von 68,5% und sank seither wieder auf 57,2% per Ende 2023.",
+		"erlaeuterungen": "Während die Bevölkerungszahl im Bezirk Messe seit 2000 kontinuierlich anstieg, veränderte sich die Anzahl Einwohner im Bezirk Erlenmatt sehr sprunghaft. Dies ist auf die starke Bautätigkeit, insbesondere in den Jahren 2009 (+233 Wohnungen), 2015 (+537 Wohnungen) und 2019 (+400 Wohnungen), aber auch in den Jahren 2014 (+66 Wohnungen), 2017 (+82 Wohnungen) und 2018 (+129 Wohnungen) zurückzuführen. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dies zu berücksichtigen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:03.033",
+		"description": "Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.05",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt bildeten in den letzten fünf Jahren jeweils Personen aus der Kategorie \"Übrige Länder\" die grösste ausländische Bevölkerungsgruppe, gefolgt von den Deutschen. Die grösste ausländische Bevölkerungsgruppe im Bezirk Messe waren 2015 Personen aus dem Balkan und seit 2016 Personen aus den EU-17 + EFTA-Staaten.",
-		"erlaeuterungen": "Die Bevölkerungszahl entwickelte sich im Wohnviertel Rosental in den letzten Jahren sehr sprunghaft. Dies ist durch die starke Bautätigkeit im Bezirk Erlenmatt, insbesondere in den Jahren 2009 (+233 Wohnungen) und 2015 (+574 Wohnungen), aber auch den Jahren 2014 (+63 Wohnungen), 2017 (+80 Wohnungen) und 2018 (+43 Wohnungen) begründet. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dieser Hintergrund zu berücksichtigen.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"7908"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2024-08-14T09:04:52",
+		"id": 7669
+	},
+	{
+		"template": "template001",
 		"data-id": 7670,
 		"chart-id": 7670,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7908
+		],
+		"title": "Ausländer nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Erlenmatt bildeten in den letzten fünf Jahren jeweils Personen aus der Kategorie \"Übrige Länder\" die grösste ausländische Bevölkerungsgruppe, gefolgt von den Deutschen. Die grösste ausländische Bevölkerungsgruppe im Bezirk Messe waren in dieser Zeitspanne Personen aus den EU-17 + EFTA-Staaten.",
+		"erlaeuterungen": "Während die Bevölkerungszahl im Bezirk Messe seit 2000 kontinuierlich anstieg, veränderte sich die Anzahl Einwohner im Bezirk Erlenmatt sehr sprunghaft. Dies ist auf die starke Bautätigkeit, insbesondere in den Jahren 2009 (+233 Wohnungen), 2015 (+537 Wohnungen) und 2019 (+400 Wohnungen), aber auch in den Jahren 2014 (+66 Wohnungen), 2017 (+82 Wohnungen) und 2018 (+129 Wohnungen) zurückzuführen. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dies zu berücksichtigen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.07",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-14T09:04:53",
 		"id": 7670
 	},
 	{
