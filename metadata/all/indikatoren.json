@@ -19210,7 +19210,7 @@
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt steigt seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 110%. Die Staatsausgaben liegen 2021 ca. 58% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt steigt seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 125%. Die Staatsausgaben liegen 2022 ca. 62% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -19237,7 +19237,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:26",
+		"aktualisierungsdatum": "2024-08-14T10:45:20",
 		"id": 6205
 	},
 	{

@@ -110,6 +110,10 @@
         [
           "2021",
           210
+        ],
+        [
+          "2022",
+          225
         ]
       ],
       "name": "Nominales BIP BS",
@@ -226,6 +230,10 @@
         [
           "2021",
           158
+        ],
+        [
+          "2022",
+          162
         ]
       ],
       "name": "Staatsausgaben BS",
@@ -359,7 +367,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
