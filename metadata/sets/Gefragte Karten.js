@@ -717,8 +717,8 @@ var indikatorensetData = [
 		"parentId": "6379",
 		"children": [],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2023 im Wohnviertel Altstadt Grossbasel (2,2%) beobachtet, die tiefste im Wohnviertel Hirzbrunnen (0,5%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -731,7 +731,7 @@ var indikatorensetData = [
 		"description": "Leerwohnungen nach Gemeinde und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.06391",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "K9-3",
 		"stufe1": "kategoriell klassifiziert",
@@ -743,7 +743,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:45",
+		"aktualisierungsdatum": "2024-08-16T10:22:46",
 		"id": 6391
 	},
 	{
