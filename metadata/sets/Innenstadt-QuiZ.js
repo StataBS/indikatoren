@@ -580,7 +580,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2022 und 2023 von 201 600  m² auf 190 600 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Gewerbebereich von 47 000  m² auf 24 500  m² zurückzuführen. Im Bürobereich ist das Angebot gegenüber dem Vorjahr gestiegen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2023 und 2024 von 190 600 m² auf 249 200 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 134 300 m² auf 175 100 m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09590",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.3-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:42",
+		"aktualisierungsdatum": "2024-08-16T09:26:00",
 		"id": 9590
 	},
 	{

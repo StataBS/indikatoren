@@ -137,7 +137,7 @@
         tooltip: {
           headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
           pointFormatter: function () {
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>'; /*number of decimals changed from 2 to 1*/
           }
         }
       },

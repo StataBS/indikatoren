@@ -15389,7 +15389,7 @@
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote liegt 2023 bei 1,06%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022) wieder an. 2023 ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Die Leerwohnungsquote liegt 2024 bei 0,77%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022). Seit 2023 sinkt sie wieder.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -15415,7 +15415,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:24",
+		"aktualisierungsdatum": "2024-08-16T09:26:21",
 		"id": 5813
 	},
 	{
@@ -15428,8 +15428,8 @@
 			6246
 		],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2023 im Wohnviertel Altstadt Grossbasel verzeichnet (2,2%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,3% auf 2,2%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2024 im Wohnviertel Altstadt Grossbasel verzeichnet (1,3%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,1% auf 1,3%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -15455,7 +15455,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:26",
+		"aktualisierungsdatum": "2024-08-16T09:26:22",
 		"id": 5814
 	},
 	{
@@ -15586,9 +15586,9 @@
 			6250
 		],
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
-		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2020 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
+		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -15613,7 +15613,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:20",
+		"aktualisierungsdatum": "2024-08-16T09:26:21",
 		"id": 5818
 	},
 	{
@@ -15789,9 +15789,9 @@
 			6255
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2020",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2020 in den Wohnvierteln St. Alban und St. Johann.  Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF betrachtet sind es die Wohnviertel Altstadt Grossbasel und Kleinhüningen mit den höchsten Werten.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -15816,7 +15816,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:37",
+		"aktualisierungsdatum": "2024-08-16T09:26:23",
 		"id": 5825
 	},
 	{
@@ -19417,7 +19417,7 @@
 		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 beträgt die leerstehende Fläche insgesamt 190 600 m², 11 000 m²  weniger als im Vorjahr. Die Büroflächen machen mit 134 300 m² rund 70% der leerstehenden Geschäftsflächen aus.",
+		"lesehilfe": "Im Jahr 2024 beträgt die leerstehende Fläche insgesamt 249 200 m², 58 600 m²  mehr als im Vorjahr. Die Büroflächen machen mit 175 100 m² rund 70% der leerstehenden Geschäftsflächen aus.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -19443,7 +19443,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:37",
+		"aktualisierungsdatum": "2024-08-16T09:26:24",
 		"id": 6217
 	},
 	{
@@ -23758,8 +23758,8 @@
 			8546
 		],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2023 im Wohnviertel Altstadt Grossbasel (2,2%) beobachtet, die tiefste im Wohnviertel Hirzbrunnen (0,5%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -23785,7 +23785,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:43",
+		"aktualisierungsdatum": "2024-08-16T09:26:01",
 		"id": 6379
 	},
 	{
@@ -42430,7 +42430,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "146 019 Logiernächte wurden im Juni 2024 in den Basler Hotelbetrieben gebucht, 6 841 bzw. 4,9% mehr als im Mai. Im Vergleich zum Juni 2023 entspricht dies einer Zunahme um 2,4% bzw. 3 403 Übernachtungen. Die inländischen Gäste buchten 49 907 Logiernächte (+6,8%), die Gäste aus dem Ausland 96 112 Übernachtungen (+0,2%).",
+		"lesehilfe": "150 271 Logiernächte wurden im Juli 2024 in den Basler Hotelbetrieben gebucht, 4 252 bzw. 2,9% mehr als im Juni. Im Vergleich zum Juli 2023 entspricht dies einer Zunahme um 4,5% bzw. 6 432 Übernachtungen. Die inländischen Gäste buchten 55 587 Logiernächte (+6,7%), die Gäste aus dem Ausland 94 684 Übernachtungen (+3,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42456,7 +42456,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-24T08:47:14",
+		"aktualisierungsdatum": "2024-08-16T09:25:57",
 		"id": 7516
 	},
 	{
@@ -42467,8 +42467,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 55%.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42494,7 +42494,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-24T08:47:15",
+		"aktualisierungsdatum": "2024-08-16T09:25:58",
 		"id": 7517
 	},
 	{
@@ -42751,7 +42751,7 @@
 		],
 		"title": "Leerwohnungsbestand und -quote",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
-		"lesehilfe": "Die Leerstandsquote beider Basel zusammen bleibt mit 1,0% gegenüber 2022 unverändert. Insgesamt standen 2023 in den beiden Halbkantonen 2 588 Wohnungen leer, 93 weniger als 2022.",
+		"lesehilfe": "Die Leerstandsquote beider Basel zusammen ist innert Jahresfrist auf 0,7% gesunken. Insgesamt standen 2024 in den beiden Halbkantonen 1 984 Wohnungen leer, 604 weniger als 2023.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42777,7 +42777,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:45",
+		"aktualisierungsdatum": "2024-08-16T09:26:02",
 		"id": 7573
 	},
 	{
@@ -42791,7 +42791,7 @@
 		],
 		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerstandsquote im Stadtkanton sinkt 2023 auf 1,1%. Insgesamt stehen 1 229 Wohnungen leer, davon sind zwei Drittel Zwei- oder Dreizimmerwohnungen.",
+		"lesehilfe": "Die Leerstandsquote im Stadtkanton sinkt 2024 auf 0,8%. Insgesamt stehen 897 Wohnungen leer, davon sind gut zwei Drittel Zwei- oder Dreizimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42817,7 +42817,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:46",
+		"aktualisierungsdatum": "2024-08-16T09:26:03",
 		"id": 7574
 	},
 	{
@@ -42830,8 +42830,8 @@
 			9068
 		],
 		"title": "Leerwohnungsbestand nach Gemeinde",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2023",
-		"lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befindet sich Itingen mit 2,4% gefolgt von Waldenburg (1,8%) und Münchenstein (1,7%) .",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2024",
+		"lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befinden sich Waldenburg mit 1,5% und Laufen mit 1,4%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42857,7 +42857,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:47",
+		"aktualisierungsdatum": "2024-08-16T09:26:05",
 		"id": 7575
 	},
 	{
@@ -42870,8 +42870,8 @@
 			9069
 		],
 		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2023",
-		"lesehilfe": "Im Kanton Basel-Landschaft weist der Bezirk Arlesheim (1,0%) die höchste Quote auf. In den Bezirken Sissach und Waldenburg (je 0,8%) liegen die Leerwohnungsquoten hingegen leicht unter dem gesamtkantonalen Wert von 0,9%. In den Bezirken Liestal und Laufen bewegen sie sich im Kantonsdurchschnitt. Im Stadtkanton (1,1%) liegt die Quote in Grossbasel (1,1%) über jener von Riehen und Bettingen (1,0%) sowie Kleinbasel (0,9%).",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2024",
+		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Liestal und Arlesheim (je 0,8%) die höchsten Quoten auf. In den Bezirken Sissach (0,4%) und Waldenburg (0,6%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,7%. Im Bezirk Laufen bewegt sie sich im Kantonsdurchschnitt. Im Stadtkanton (0,8%) liegen die Quoten von Kleinbasel und der Landgemeinden Riehen und Bettingen (je 0,8%) über jener von Grossbasel (0,7%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42886,7 +42886,7 @@
 		"description": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "",
+		"kuerzel": "I.09.2.07576",
 		"kennzahlenset": "Leerstand",
 		"kuerzelKunde": "LEB-2-5",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
@@ -42899,7 +42899,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:47",
+		"aktualisierungsdatum": "2024-08-16T09:26:06",
 		"id": 7576
 	},
 	{
@@ -42912,8 +42912,8 @@
 			9070
 		],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Die Leerstandsquote der Dreizimmerwohnungen entspricht mit 1,1% der kantonalen Leerstandsquote. Die höchste Quote weisen mit 1,6% die Einzimmerwohnungen auf. Bei den Wohnungen mit sechs und mehr Zimmern ist sie mit 0,4% am niedrigsten.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die Leerstandsquote der Dreizimmerwohnungen entspricht mit 0,8% der kantonalen Leerstandsquote. Die höchste Quote weisen mit 1,0% die Einzimmerwohnungen auf. Bei den Wohnungen mit sechs und mehr Zimmern ist sie mit 0,2% am niedrigsten.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42939,7 +42939,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:48",
+		"aktualisierungsdatum": "2024-08-16T09:26:07",
 		"id": 7577
 	},
 	{
@@ -42952,8 +42952,8 @@
 			9071
 		],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Rund 89% der leerstehenden Wohnungen sind in den letzen zwei Jahren unverändert geblieben; 7% sind renoviert und gut 4% neu erstellt worden.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Rund 80% der leerstehenden Wohnungen sind in den letzen zwei Jahren unverändert geblieben; 18% sind renoviert und knapp 3% neu erstellt worden.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -42979,7 +42979,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:49",
+		"aktualisierungsdatum": "2024-08-16T09:26:07",
 		"id": 7578
 	},
 	{
@@ -42993,7 +42993,7 @@
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2022 1 169 Einheiten. Davon  stammen 902 aus Neu- und 405 aus Umbauten. Durch Abbrüche gehen 138 Wohnungen verloren. 2023 wird eine Nettoproduktion von rund 800 Wohnungen prognostiziert.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2023 865 Einheiten. Davon stammen 778 aus Neu- und 140 aus Umbauten. Durch Abbrüche gehen 53 Wohnungen verloren. 2024 wird eine Nettoproduktion von rund 450 Wohnungen prognostiziert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43019,7 +43019,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:49",
+		"aktualisierungsdatum": "2024-08-16T09:26:09",
 		"id": 7579
 	},
 	{
@@ -43059,7 +43059,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:50",
+		"aktualisierungsdatum": "2024-08-16T09:26:11",
 		"id": 7580
 	},
 	{
@@ -43072,8 +43072,8 @@
 			9074
 		],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Landschaft, 2023",
-		"lesehilfe": "Dreizimmerwohnungen machen rund 44% des Gesamtbestandes der leeren Wohnungen aus. Sie weisen mit einer Quote von 1,5% den höchsten Leerstand auf.",
+		"subtitle": "Basel-Landschaft, 2024",
+		"lesehilfe": "Dreizimmerwohnungen machen rund 42% des Gesamtbestandes der leeren Wohnungen aus. Sie weisen mit einer Quote von 1,1% den höchsten Leerstand auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43099,7 +43099,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:51",
+		"aktualisierungsdatum": "2024-08-16T09:26:11",
 		"id": 7581
 	},
 	{
@@ -43112,8 +43112,8 @@
 			9075
 		],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Landschaft, 2023",
-		"lesehilfe": "77% der Leerwohnungen sind in den zwei letzten Jahren unverändert geblieben; rund 8% sind neu erstellt und knapp 15% renoviert worden.",
+		"subtitle": "Basel-Landschaft, 2024",
+		"lesehilfe": "88% der Leerwohnungen sind in den zwei letzten Jahren unverändert geblieben; knapp 3% sind neu erstellt und gut 9% renoviert worden.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43139,7 +43139,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:51",
+		"aktualisierungsdatum": "2024-08-16T09:26:12",
 		"id": 7582
 	},
 	{
@@ -43153,7 +43153,7 @@
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen steigt seit dem Rückgang zwischen 2015 und 2018 wieder. Bei den Werten von 2023 handelt es sich um eine Prognose.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen stieg seit dem Rückgang zwischen 2015 und 2018 bis 2022. 2023 nahm sie wieder ab. Bei den Werten von 2024 handelt es sich um eine Prognose.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43179,7 +43179,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:52",
+		"aktualisierungsdatum": "2024-08-16T09:26:13",
 		"id": 7583
 	},
 	{
@@ -43193,7 +43193,7 @@
 		],
 		"title": "Wohnungen und Wohnbevölkerung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Der Leerwohungsbestand veränderte sich 2023 nur geringfügig. Dies bei weiterhin steigender Bevölkerung und einer Zunahme bei den belegten Wohnungen.",
+		"lesehilfe": "Der Leerwohungsbestand ist 2024 niedriger als 2023. Dies bei weiterhin steigender Bevölkerung und einer Zunahme bei den belegten Wohnungen.",
 		"erlaeuterungen": "Seit 1994 mit Bezirk Laufen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43219,7 +43219,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:53",
+		"aktualisierungsdatum": "2024-08-16T09:26:14",
 		"id": 7584
 	},
 	{
@@ -43259,7 +43259,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:53",
+		"aktualisierungsdatum": "2024-08-16T09:26:14",
 		"id": 7585
 	},
 	{
@@ -43300,7 +43300,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:54",
+		"aktualisierungsdatum": "2024-08-16T09:26:15",
 		"id": 7586
 	},
 	{
@@ -43314,7 +43314,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "in m², Basel-Stadt und Basel-Landschaft",
-		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist gegenüber dem Vorjahr um 0,8% auf 361 634 m² gesunken. In Basel-Stadt ist das Angebot um 5,5% gesunken, im Landkanton um 5% gestiegen.",
+		"lesehilfe": "Das Angebot an Geschäftsflächen ist 2024 im Kanton Basel-Landschaft um 10,6% gesunken, im Stadtkanton dagegen um 30,8% gestiegen. In den beiden Basel zusammen ist das Angebot gegenüber dem Vorjahr um 11,2% auf 402 127 m² gestiegen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -43340,7 +43340,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:54",
+		"aktualisierungsdatum": "2024-08-16T09:26:16",
 		"id": 7587
 	},
 	{
@@ -43357,7 +43357,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2022 und 2023 von 201 600  m² auf 190 600 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Gewerbebereich von 47 000  m² auf 24 500  m² zurückzuführen. Im Bürobereich ist das Angebot gegenüber dem Vorjahr gestiegen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2023 und 2024 von 190 600 m² auf 249 200 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 134 300 m² auf 175 100 m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -43383,7 +43383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:55",
+		"aktualisierungsdatum": "2024-08-16T09:26:17",
 		"id": 7588
 	},
 	{
@@ -43397,7 +43397,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Landschaft",
-		"lesehilfe": "Im Landkanton hat die Bürofläche zwischen 2022 und 2023 um rund 15 800 m² auf gut 86 500 m² zugenommen. Die Büroflächen sind mit einem Anteil von knapp 51% der grösste Bereich. Danach folgt die Gewerbefläche mit 30%.",
+		"lesehilfe": "Im Landkanton hat die Bürofläche zwischen 2023 und 2024 um rund 15 500 m² auf gut 71 000 m² abgenommen. Die Büroflächen sind mit einem Anteil von gut 46% immer noch der grösste Bereich. Danach folgt die Gewerbefläche mit 33%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -43423,7 +43423,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:55",
+		"aktualisierungsdatum": "2024-08-16T09:26:17",
 		"id": 7589
 	},
 	{
@@ -43436,8 +43436,8 @@
 			9083
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt, Anteile 2023",
-		"lesehilfe": "Rund 70% des Geschäftsleerstandes entfallen auf den Bürobereich. Auf das Gewerbe entfallen knapp 13%, auf Lager- und auf Ladenflächen jeweils rund 8%.",
+		"subtitle": "Basel-Stadt, Anteile 2024",
+		"lesehilfe": "Rund 70% des Geschäftsleerstandes entfallen auf den Bürobereich. Auf Gewerbe- und Lagerflächen entfallen jeweils knapp 13% und auf Ladenflächen gut 4%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -43463,7 +43463,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:56",
+		"aktualisierungsdatum": "2024-08-16T09:26:18",
 		"id": 7590
 	},
 	{
@@ -44136,45 +44136,43 @@
 		"id": 7674
 	},
 	{
+		"template": "template001",
+		"data-id": 7675,
+		"chart-id": 7675,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7913
+		],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.7.07675",
-		"kuerzelKunde": "2.06",
-		"description": "Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2019 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die der Römisch-katholischen Kirche angehörten.",
+		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
+		"description": "Religionszugehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.TRUN.07675",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.06",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2015 bis 2019 die Einwohner, die keiner oder einer nicht öffentliche-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die der Römisch-katholischen Kirche angehörten.",
-		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"7913"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7675,
-		"chart-id": 7675,
-		"filter": "",
+		"aktualisierungsdatum": "2024-08-16T09:25:59",
 		"id": 7675
 	},
 	{
@@ -46856,7 +46854,7 @@
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet und sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Ergebnisse sind damit nicht direkt vergleichbar mit den Vorjahren. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -46881,7 +46879,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:08",
+		"aktualisierungsdatum": "2024-08-16T09:26:20",
 		"id": 7774
 	},
 	{
@@ -70540,8 +70538,8 @@
 			9084
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Landschaft, Anteile 2023",
-		"lesehilfe": "Büroflächen (51%) weisen mit Abstand den grössten Anteil am Leerstand auf. Danach folgen Gewerbeflächen mit 30%.",
+		"subtitle": "Basel-Landschaft, Anteile 2024",
+		"lesehilfe": "Der Bürobereich erreicht nach der aktuellen Abnahme noch einen Anteil von gut 46% der leerstehenden Geschäftsflächen. Danach folgt die Gewerbefläche mit 33%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -70567,7 +70565,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:56",
+		"aktualisierungsdatum": "2024-08-16T09:26:19",
 		"id": 9064
 	},
 	{
@@ -71306,7 +71304,7 @@
 		],
 		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Im Landkanton verharrt die Leerstandsquote 2023 bei 0,9%, 1 359 Wohnungen stehen leer. Davon sind rund drei Viertel Drei- oder Vierzimmerwohnungen.",
+		"lesehilfe": "Im Landkanton ist die Leerstandsquote 2024 auf 0,7% gesunken. 1 087 Wohnungen stehen leer. Davon sind knapp drei Viertel Drei- oder Vierzimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -71332,7 +71330,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:46",
+		"aktualisierungsdatum": "2024-08-16T09:26:04",
 		"id": 9137
 	},
 	{
@@ -74188,7 +74186,7 @@
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2022 und 2023 von 201 600  m² auf 190 600 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Gewerbebereich von 47 000  m² auf 24 500  m² zurückzuführen. Im Bürobereich ist das Angebot gegenüber dem Vorjahr gestiegen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2023 und 2024 von 190 600 m² auf 249 200 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 134 300 m² auf 175 100 m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -74201,7 +74199,7 @@
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09365",
+		"kuerzel": "",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.10",
 		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
@@ -74214,7 +74212,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:40",
+		"aktualisierungsdatum": "2024-08-16T09:25:59",
 		"id": 9365
 	},
 	{
@@ -78382,7 +78380,7 @@
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2022 und 2023 von 201 600  m² auf 190 600 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Gewerbebereich von 47 000  m² auf 24 500  m² zurückzuführen. Im Bürobereich ist das Angebot gegenüber dem Vorjahr gestiegen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2023 und 2024 von 190 600 m² auf 249 200 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 134 300 m² auf 175 100 m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -78395,7 +78393,7 @@
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09590",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.3-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
@@ -78408,7 +78406,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:42",
+		"aktualisierungsdatum": "2024-08-16T09:26:00",
 		"id": 9590
 	},
 	{

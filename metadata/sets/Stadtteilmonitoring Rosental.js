@@ -430,44 +430,42 @@ var indikatorensetData = [
 		"id": 7674
 	},
 	{
+		"template": "template001",
+		"data-id": 7675,
+		"chart-id": 7675,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7913
+		],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.7.07675",
-		"kuerzelKunde": "2.06",
-		"description": "Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2019 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die der Römisch-katholischen Kirche angehörten.",
+		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
+		"description": "Religionszugehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.TRUN.07675",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.06",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2015 bis 2019 die Einwohner, die keiner oder einer nicht öffentliche-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die der Römisch-katholischen Kirche angehörten.",
-		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"7913"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7675,
-		"chart-id": 7675,
-		"filter": "",
+		"aktualisierungsdatum": "2024-08-16T09:25:59",
 		"id": 7675
 	},
 	{

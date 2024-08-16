@@ -6,10 +6,6 @@
       "legendIndex": 7,
       "data": [
         [
-          2014,
-          10
-        ],
-        [
           2015,
           20
         ],
@@ -44,6 +40,10 @@
         [
           2023,
           22
+        ],
+        [
+          2024,
+          14
         ]
       ],
       "name": "6 u.m. Zi"
@@ -53,10 +53,6 @@
       "index": 1,
       "legendIndex": 6,
       "data": [
-        [
-          2014,
-          18
-        ],
         [
           2015,
           19
@@ -92,6 +88,10 @@
         [
           2023,
           33
+        ],
+        [
+          2024,
+          29
         ]
       ],
       "name": "5 Zi"
@@ -101,10 +101,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2014,
-          48
-        ],
         [
           2015,
           79
@@ -140,6 +136,10 @@
         [
           2023,
           156
+        ],
+        [
+          2024,
+          107
         ]
       ],
       "name": "4 Zi"
@@ -149,10 +149,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          2014,
-          93
-        ],
         [
           2015,
           107
@@ -188,6 +184,10 @@
         [
           2023,
           455
+        ],
+        [
+          2024,
+          360
         ]
       ],
       "name": "3 Zi"
@@ -197,10 +197,6 @@
       "index": 1,
       "legendIndex": 3,
       "data": [
-        [
-          2014,
-          51
-        ],
         [
           2015,
           84
@@ -236,6 +232,10 @@
         [
           2023,
           369
+        ],
+        [
+          2024,
+          260
         ]
       ],
       "name": "2 Zi"
@@ -245,10 +245,6 @@
       "index": 1,
       "legendIndex": 2,
       "data": [
-        [
-          2014,
-          25
-        ],
         [
           2015,
           52
@@ -284,6 +280,10 @@
         [
           2023,
           194
+        ],
+        [
+          2024,
+          127
         ]
       ],
       "name": "1 Zi"
@@ -300,49 +300,49 @@
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function () {
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>'; /*number of decimals changed from 2 to 1*/
           }
       },
       "data": [
         [
-          2014,
-          0.0023
-        ],
-        [
           2015,
-          0.0034
+          0.003365
         ],
         [
           2016,
-          0.0042
+          0.004168
         ],
         [
           2017,
-          0.005
+          0.005004
         ],
         [
           2018,
-          0.0071
+          0.007112
         ],
         [
           2019,
-          0.0101
+          0.010114
         ],
         [
           2020,
-          0.0096
+          0.009611
         ],
         [
           2021,
-          0.011
+          0.010959
         ],
         [
           2022,
-          0.0117
+          0.011658
         ],
         [
           2023,
-          0.0106
+          0.010647
+        ],
+        [
+          2024,
+          0.007722
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)"
@@ -510,7 +510,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
   },
   "tooltip": {
     "shared": true
