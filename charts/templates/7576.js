@@ -45,7 +45,7 @@
         },
         labels: {
         	formatter: function(){
-            return Highcharts.numberFormat(this.value*100, 2) + "%";
+            return Highcharts.numberFormat(this.value*100, 1) + "%";/*number of decimals changed from 2 to 1*/
           },
             style: {
                 color: "#000000"
@@ -114,7 +114,7 @@
         shared: true,
         headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormatter: function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';/*number of decimals changed from 2 to 1*/
         }
       },
   },
@@ -140,7 +140,7 @@
       shared: true,
       headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
       pointFormatter: function(){ 
-          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';/*number of decimals changed from 2 to 1*/
       }
     }
 },

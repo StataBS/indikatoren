@@ -3,7 +3,7 @@
 	return {
 		plotOptions: {
 			pie: {
-				size: 250,
+				size: 245,
 			},
 			series: {
 				allowPointSelect: false,

@@ -6,10 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2014,
-          13958
-        ],
-        [
           2015,
           12762
         ],
@@ -44,6 +40,10 @@
         [
           2023,
           8296
+        ],
+        [
+          2024,
+          4800
         ]
       ],
       "name": "Laden"
@@ -53,10 +53,6 @@
       "index": 4,
       "legendIndex": 2,
       "data": [
-        [
-          2014,
-          64818
-        ],
         [
           2015,
           63378
@@ -92,6 +88,10 @@
         [
           2023,
           86536
+        ],
+        [
+          2024,
+          71029
         ]
       ],
       "name": "Büro"
@@ -101,10 +101,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          2014,
-          41253
-        ],
         [
           2015,
           39147
@@ -140,6 +136,10 @@
         [
           2023,
           50870
+        ],
+        [
+          2024,
+          50979
         ]
       ],
       "name": "Gewerbe"
@@ -149,10 +149,6 @@
       "index": 2,
       "legendIndex": 4,
       "data": [
-        [
-          2014,
-          7303
-        ],
         [
           2015,
           20338
@@ -188,6 +184,10 @@
         [
           2023,
           5783
+        ],
+        [
+          2024,
+          1661
         ]
       ],
       "name": "Produktion"
@@ -197,10 +197,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2014,
-          49942
-        ],
         [
           2015,
           58584
@@ -236,6 +232,10 @@
         [
           2023,
           19561
+        ],
+        [
+          2024,
+          24464
         ]
       ],
       "name": "Lager"
@@ -365,7 +365,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

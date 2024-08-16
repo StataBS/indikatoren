@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          824
+          453
         ],
         [
           "Kleinbasel",
-          388
+          353
         ],
         [
           "Riehen\u002FBettingen",
-          115
+          91
         ],
         [
           "Arlesheim",
@@ -58,21 +58,21 @@
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';/*number of decimals changed from 2 to 1*/
         }
       },
       "data": [
         [
           "Grossbasel",
-          0.0113
+          0.007243
         ],
         [
           "Kleinbasel",
-          0.0093
+          0.008371
         ],
         [
           "Riehen\u002FBettingen",
-          0.0101
+          0.007947
         ],
         [
           "Arlesheim",
@@ -119,23 +119,23 @@
         ],
         [
           "Arlesheim",
-          769
+          629
         ],
         [
           "Laufen",
-          97
+          79
         ],
         [
           "Liestal",
-          291
+          260
         ],
         [
           "Sissach",
-          136
+          71
         ],
         [
           "Waldenburg",
-          66
+          48
         ]
       ],
       "name": "Anzahl Leerwohnungen",
@@ -156,7 +156,7 @@
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';/*number of decimals changed from 2 to 1*/
       }
       },
       "data": [
@@ -174,23 +174,23 @@
         ],
         [
           "Arlesheim",
-          0.0096
+          0.007752
         ],
         [
           "Laufen",
-          0.0093
+          0.007499
         ],
         [
           "Liestal",
-          0.0094
+          0.008333
         ],
         [
           "Sissach",
-          0.0076
+          0.003914
         ],
         [
           "Waldenburg",
-          0.0083
+          0.005975
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)",
@@ -273,7 +273,7 @@
     "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Basel-Landschaft, 2023",
+    "text": "Basel-Stadt und Basel-Landschaft, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -317,7 +317,7 @@
       },
       "labels": {
         "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 2) + "%";
+            return Highcharts.numberFormat(this.value*100, 1) + "%";/*number of decimals changed from 2 to 1*/
           },
         "style": {
           "color": "#000000"
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.8.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
   },
   "tooltip": {
     "shared": true

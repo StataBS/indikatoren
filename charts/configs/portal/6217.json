@@ -8,10 +8,6 @@
       },
       "data": [
         [
-          2004,
-          7135
-        ],
-        [
           2005,
           11604
         ],
@@ -86,6 +82,10 @@
         [
           2023,
           15081
+        ],
+        [
+          2024,
+          11026
         ]
       ],
       "name": "Laden"
@@ -97,10 +97,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2004,
-          52201
-        ],
         [
           2005,
           65745
@@ -176,6 +172,10 @@
         [
           2023,
           134317
+        ],
+        [
+          2024,
+          175109
         ]
       ],
       "name": "Büro"
@@ -187,10 +187,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2004,
-          3372
-        ],
         [
           2005,
           8888
@@ -266,6 +262,10 @@
         [
           2023,
           24498
+        ],
+        [
+          2024,
+          31903
         ]
       ],
       "name": "Gewerbe"
@@ -277,10 +277,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2004,
-          10420
-        ],
         [
           2005,
           11055
@@ -356,6 +352,10 @@
         [
           2023,
           1242
+        ],
+        [
+          2024,
+          0
         ]
       ],
       "name": "Produktion"
@@ -367,10 +367,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2004,
-          11908
-        ],
         [
           2005,
           22125
@@ -446,6 +442,10 @@
         [
           2023,
           15450
+        ],
+        [
+          2024,
+          31156
         ]
       ],
       "name": "Lager"
@@ -573,7 +573,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

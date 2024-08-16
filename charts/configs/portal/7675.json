@@ -6,60 +6,60 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015: Messe",
-          374
-        ],
-        [
-          "2015: Erlenmatt",
-          84
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          339
-        ],
-        [
-          "2016: Erlenmatt",
-          101
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          310
-        ],
-        [
-          "2017: Erlenmatt",
-          111
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          295
-        ],
-        [
-          "2018: Erlenmatt",
-          124
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           296
         ],
         [
           "2019: Erlenmatt",
           164
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          291
+        ],
+        [
+          "2020: Erlenmatt",
+          166
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          272
+        ],
+        [
+          "2021: Erlenmatt",
+          163
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          270
+        ],
+        [
+          "2022: Erlenmatt",
+          156
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          272
+        ],
+        [
+          "2023: Erlenmatt",
+          160
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -71,60 +71,60 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015: Messe",
-          542
-        ],
-        [
-          "2015: Erlenmatt",
-          148
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          540
-        ],
-        [
-          "2016: Erlenmatt",
-          170
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          524
-        ],
-        [
-          "2017: Erlenmatt",
-          169
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          483
-        ],
-        [
-          "2018: Erlenmatt",
-          176
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           481
         ],
         [
           "2019: Erlenmatt",
           246
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          433
+        ],
+        [
+          "2020: Erlenmatt",
+          237
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          409
+        ],
+        [
+          "2021: Erlenmatt",
+          233
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          432
+        ],
+        [
+          "2022: Erlenmatt",
+          224
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          394
+        ],
+        [
+          "2023: Erlenmatt",
+          207
         ]
       ],
       "name": "Römisch-katholisch",
@@ -136,60 +136,60 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015: Messe",
-          29
-        ],
-        [
-          "2015: Erlenmatt",
-          6
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          23
-        ],
-        [
-          "2016: Erlenmatt",
-          6
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          21
-        ],
-        [
-          "2017: Erlenmatt",
-          8
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          20
-        ],
-        [
-          "2018: Erlenmatt",
-          5
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           22
         ],
         [
           "2019: Erlenmatt",
           16
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          28
+        ],
+        [
+          "2020: Erlenmatt",
+          14
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          30
+        ],
+        [
+          "2021: Erlenmatt",
+          13
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          45
+        ],
+        [
+          "2022: Erlenmatt",
+          17
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          51
+        ],
+        [
+          "2023: Erlenmatt",
+          18
         ]
       ],
       "name": "Christkatholisch",
@@ -201,35 +201,35 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015: Messe",
-          3
+          "2019: Messe",
+          2
         ],
         [
-          "2015: Erlenmatt",
-          null
+          "2019: Erlenmatt",
+          1
         ],
         [
           " ",
           null
         ],
         [
-          "2016: Messe",
-          5
+          "2020: Messe",
+          2
         ],
         [
-          "2016: Erlenmatt",
-          null
+          "2020: Erlenmatt",
+          1
         ],
         [
           "  ",
           null
         ],
         [
-          "2017: Messe",
-          4
+          "2021: Messe",
+          1
         ],
         [
-          "2017: Erlenmatt",
+          "2021: Erlenmatt",
           null
         ],
         [
@@ -237,23 +237,23 @@
           null
         ],
         [
-          "2018: Messe",
-          4
+          "2022: Messe",
+          2
         ],
         [
-          "2018: Erlenmatt",
-          2
+          "2022: Erlenmatt",
+          1
         ],
         [
           "    ",
           null
         ],
         [
-          "2019: Messe",
+          "2023: Messe",
           2
         ],
         [
-          "2019: Erlenmatt",
+          "2023: Erlenmatt",
           1
         ]
       ],
@@ -266,60 +266,60 @@
       "legendIndex": 5,
       "data": [
         [
-          "2015: Messe",
-          3762
-        ],
-        [
-          "2015: Erlenmatt",
-          1225
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Messe",
-          3895
-        ],
-        [
-          "2016: Erlenmatt",
-          1473
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Messe",
-          3867
-        ],
-        [
-          "2017: Erlenmatt",
-          1589
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Messe",
-          3928
-        ],
-        [
-          "2018: Erlenmatt",
-          1803
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Messe",
           3957
         ],
         [
           "2019: Erlenmatt",
           2357
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Messe",
+          3940
+        ],
+        [
+          "2020: Erlenmatt",
+          2534
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Messe",
+          3935
+        ],
+        [
+          "2021: Erlenmatt",
+          2546
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Messe",
+          3973
+        ],
+        [
+          "2022: Erlenmatt",
+          2584
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Messe",
+          3992
+        ],
+        [
+          "2023: Erlenmatt",
+          2721
         ]
       ],
       "name": "Andere, ohne oder unbek. Zugeh.",
@@ -465,13 +465,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 7675
+    "filename": "7675"
   }
 }
