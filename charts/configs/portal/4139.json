@@ -6,38 +6,6 @@
       "data": [
         [
           "bis 29 m²",
-          74
-        ],
-        [
-          "30-49 m²",
-          168
-        ],
-        [
-          "50-69 m²",
-          310
-        ],
-        [
-          "70-99 m²",
-          334
-        ],
-        [
-          "100-149 m²",
-          155
-        ],
-        [
-          "ab 150 m²",
-          32
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
           88
         ],
         [
@@ -65,7 +33,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#73B97C",
       "visible": false,
       "data": [
         [
@@ -82,7 +50,7 @@
         ],
         [
           "70-99 m²",
-          402
+          403
         ],
         [
           "100-149 m²",
@@ -97,7 +65,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0a3b19",
+      "color": "#68ab2b",
+      "visible": false,
       "data": [
         [
           "bis 29 m²",
@@ -128,6 +97,37 @@
       "turboThreshold": 0
     },
     {
+      "color": "#0a3b19",
+      "data": [
+        [
+          "bis 29 m²",
+          48
+        ],
+        [
+          "30-49 m²",
+          118
+        ],
+        [
+          "50-69 m²",
+          258
+        ],
+        [
+          "70-99 m²",
+          315
+        ],
+        [
+          "100-149 m²",
+          121
+        ],
+        [
+          "ab 150 m²",
+          37
+        ]
+      ],
+      "name": "2024",
+      "turboThreshold": 0
+    },
+    {
       "color": "#FABD24",
       "marker": {
         "enabled": false
@@ -136,47 +136,7 @@
       "type": "line",
       "visible": false,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "bis 29 m²",
-          2.35
-        ],
-        [
-          "30-49 m²",
-          1.2
-        ],
-        [
-          "50-69 m²",
-          0.96
-        ],
-        [
-          "70-99 m²",
-          0.86
-        ],
-        [
-          "100-149 m²",
-          0.91
-        ],
-        [
-          "ab 150 m²",
-          0.51
-        ]
-      ],
-      "name": "LWQ 2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ff8028",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "type": "line",
-      "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -189,11 +149,11 @@
         ],
         [
           "50-69 m²",
-          1.25
+          1.5
         ],
         [
           "70-99 m²",
-          0.89
+          0.86
         ],
         [
           "100-149 m²",
@@ -208,7 +168,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#ff8028",
       "marker": {
         "enabled": false
       },
@@ -216,7 +176,7 @@
       "type": "line",
       "visible": false,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -233,7 +193,7 @@
         ],
         [
           "70-99 m²",
-          1.02
+          1.03
         ],
         [
           "100-149 m²",
@@ -248,14 +208,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
+      "color": "#923f8d",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
       "type": "line",
+      "visible": false,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -284,6 +245,45 @@
         ]
       ],
       "name": "LWQ 2023",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          1.33
+        ],
+        [
+          "30-49 m²",
+          0.8
+        ],
+        [
+          "50-69 m²",
+          0.78
+        ],
+        [
+          "70-99 m²",
+          0.8
+        ],
+        [
+          "100-149 m²",
+          0.68
+        ],
+        [
+          "ab 150 m²",
+          0.58
+        ]
+      ],
+      "name": "LWQ 2024",
       "turboThreshold": 0
     }
   ],
@@ -440,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
