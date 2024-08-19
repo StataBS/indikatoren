@@ -48,7 +48,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreisentwicklung",
 		"subtitle": "in Franken, Wohnungen nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die Monatsmiete einer 5-Zimmer-Wohnung betrug im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2023 durchschnittlich 2 291 Franken.",
+		"lesehilfe": "Die Monatsmiete einer 5-Zimmer-Wohnung betrug im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2024 durchschnittlich 2 373 Franken.",
 		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:22",
+		"aktualisierungsdatum": "2024-08-19T01:37:05",
 		"id": 4128
 	},
 	{
@@ -479,7 +479,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2024 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -504,7 +504,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:31",
+		"aktualisierungsdatum": "2024-08-19T01:37:06",
 		"id": 4139
 	},
 	{

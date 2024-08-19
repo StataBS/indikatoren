@@ -79,6 +79,10 @@
         [
           "2023",
           721
+        ],
+        [
+          "2024",
+          760
         ]
       ],
       "name": "1 Zimmer",
@@ -163,6 +167,10 @@
         [
           "2023",
           1061
+        ],
+        [
+          "2024",
+          1102
         ]
       ],
       "name": "2 Zimmer",
@@ -247,6 +255,10 @@
         [
           "2023",
           1270
+        ],
+        [
+          "2024",
+          1309
         ]
       ],
       "name": "3 Zimmer",
@@ -331,6 +343,10 @@
         [
           "2023",
           1715
+        ],
+        [
+          "2024",
+          1781
         ]
       ],
       "name": "4 Zimmer",
@@ -415,6 +431,10 @@
         [
           "2023",
           2291
+        ],
+        [
+          "2024",
+          2373
         ]
       ],
       "name": "5 Zimmer",
@@ -551,7 +571,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
