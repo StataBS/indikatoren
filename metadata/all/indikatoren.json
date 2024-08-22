@@ -13176,8 +13176,8 @@
 		"children": [],
 		"title": "Hospitalisierungen in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Im Jahr 2022 wurden 77 269 Fälle aus einer akutsomatischen Station entlassen.",
-		"erlaeuterungen": "Gezählt werden stationäre Austritte aus einem baselstädtischen Spital innerhalb eines Jahres.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
+		"lesehilfe": "Im Jahr 2023 wurden 78 200 Fälle aus einer akutsomatischen Station entlassen.",
+		"erlaeuterungen": "Gezählt werden stationäre Austritte aus einem baselstädtischen Spital innerhalb eines Jahres. Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
@@ -13191,7 +13191,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.4947",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -13203,7 +13203,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:40",
+		"aktualisierungsdatum": "2024-08-22T09:29:54",
 		"id": 4947
 	},
 	{
@@ -34955,7 +34955,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Altstadt Grossbasel, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Schweizer und weniger Schweizerinnen.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -34967,7 +34967,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06893",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-01.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -34980,7 +34980,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:33",
+		"aktualisierungsdatum": "2024-08-22T09:30:14",
 		"id": 6893
 	},
 	{
@@ -34993,7 +34993,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Vorstädte, Basel-Stadt, 2023",
 		"lesehilfe": "Im Wohnviertel Vorstädte ist der Anteil der 55- bis 59-Jährigen sowie der 75-Jährigen und Älteren im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35005,7 +35005,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06894",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-02.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35018,7 +35018,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:35",
+		"aktualisierungsdatum": "2024-08-22T09:30:15",
 		"id": 6894
 	},
 	{
@@ -35031,7 +35031,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Am Ring, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Am Ring mehr jüngere Erwachsene. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35043,7 +35043,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06895",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-03.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35056,7 +35056,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:37",
+		"aktualisierungsdatum": "2024-08-22T09:30:16",
 		"id": 6895
 	},
 	{
@@ -35751,7 +35751,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Breite, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Breite eher wenige Kinder und Jugendliche.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35763,7 +35763,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06915",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-04.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35776,7 +35776,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:38",
+		"aktualisierungsdatum": "2024-08-22T09:30:17",
 		"id": 6915
 	},
 	{
@@ -35789,7 +35789,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Alban, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons bleibt jene des Wohnviertels St. Alban gegen oben eher breit; somit ist die Bevölkerung älter.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35801,7 +35801,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06916",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-05.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35814,7 +35814,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:40",
+		"aktualisierungsdatum": "2024-08-22T09:30:18",
 		"id": 6916
 	},
 	{
@@ -35824,10 +35824,10 @@
 		"filter": "6",
 		"parentId": null,
 		"children": [],
-		"title": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
+		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Gundeldingen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35836,10 +35836,10 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
+		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06917",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-06.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35852,7 +35852,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:43",
+		"aktualisierungsdatum": "2024-08-22T09:30:19",
 		"id": 6917
 	},
 	{
@@ -35865,7 +35865,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bruderholz, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe der 45-Jährigen und Älteren ist grösser als im Gesamtkanton.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35877,7 +35877,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06918",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-07.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35890,7 +35890,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:44",
+		"aktualisierungsdatum": "2024-08-22T09:30:20",
 		"id": 6918
 	},
 	{
@@ -35903,7 +35903,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bachletten, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 20- bis 39-Jährigen relativ niedrig, jener der 60-Jährigen und Älteren relativ hoch.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35915,7 +35915,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06919",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-08.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35928,7 +35928,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:45",
+		"aktualisierungsdatum": "2024-08-22T09:30:21",
 		"id": 6919
 	},
 	{
@@ -35941,7 +35941,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Gotthelf, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerungsgruppe der unter 45-Jährigen weniger stark vertreten.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35953,7 +35953,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06920",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-09.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -35966,7 +35966,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:46",
+		"aktualisierungsdatum": "2024-08-22T09:30:22",
 		"id": 6920
 	},
 	{
@@ -35979,7 +35979,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Iselin, Basel-Stadt, 2023",
 		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grösste Fünfjahresgruppe bilden die Personen zwischen 25 und 39 Jahren.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -35991,7 +35991,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06921",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-10.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36004,7 +36004,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:47",
+		"aktualisierungsdatum": "2024-08-22T09:30:23",
 		"id": 6921
 	},
 	{
@@ -36017,7 +36017,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Johann, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36029,7 +36029,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06922",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-11.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36042,7 +36042,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:48",
+		"aktualisierungsdatum": "2024-08-22T09:30:25",
 		"id": 6922
 	},
 	{
@@ -36055,7 +36055,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Altstadt Kleinbasel, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Altstadt Kleinbasel der Anteil der unter 20-Jährigen tief.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36067,7 +36067,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06923",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-12.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36080,7 +36080,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:49",
+		"aktualisierungsdatum": "2024-08-22T09:30:27",
 		"id": 6923
 	},
 	{
@@ -36093,7 +36093,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Clara, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Clara überdurchschnittlich viele Männer zwischen 25 und 39 Jahren.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36105,7 +36105,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06924",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-13.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36118,7 +36118,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:50",
+		"aktualisierungsdatum": "2024-08-22T09:30:28",
 		"id": 6924
 	},
 	{
@@ -36131,7 +36131,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Wettstein, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Wettstein der Anteil der ausländischen Staatsangehörigen bei den Kindern und Jugendlichen niedrig.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36143,7 +36143,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06925",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-14.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36156,7 +36156,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:51",
+		"aktualisierungsdatum": "2024-08-22T09:30:29",
 		"id": 6925
 	},
 	{
@@ -36169,7 +36169,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Hirzbrunnen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton leben im Wohnviertel Hirzbrunnen viele Kinder und Jugendliche sowie viele ältere Personen.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36181,7 +36181,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06926",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-15.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36194,7 +36194,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:52",
+		"aktualisierungsdatum": "2024-08-22T09:30:31",
 		"id": 6926
 	},
 	{
@@ -36207,7 +36207,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Rosental nach oben hin spitzer zu. Die Bevölkerung ist somit jünger.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36219,7 +36219,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06927",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-16.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36232,7 +36232,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:53",
+		"aktualisierungsdatum": "2024-08-22T09:30:32",
 		"id": 6927
 	},
 	{
@@ -36245,7 +36245,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Matthäus, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus nach oben hin spitzer zu, die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 39 Jahren ist bei Frauen und Männern stark vertreten.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36257,7 +36257,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06928",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-17.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36270,7 +36270,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:54",
+		"aktualisierungsdatum": "2024-08-22T09:30:34",
 		"id": 6928
 	},
 	{
@@ -36280,10 +36280,10 @@
 		"filter": "18",
 		"parentId": null,
 		"children": [],
-		"title": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
+		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Klybeck, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Klybeck Personen zwischen 5 und 64 Jahren stärker vertreten. Die ältere Bevölkerung ist dagegen schwächer repräsentiert.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36292,10 +36292,10 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Alterspyramide nach Geschlecht und  Staatsangehörigkeit",
+		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06929",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-18.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36308,7 +36308,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:55",
+		"aktualisierungsdatum": "2024-08-22T09:30:35",
 		"id": 6929
 	},
 	{
@@ -36321,7 +36321,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Kleinhüningen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben in Kleinhüningen überdurchschnittlich viele Kinder und Jugendliche bis 19 Jahre sowie junge Erwachsene zwischen 20 und 24 Jahren. Ebenfalls besonders gut vertreten sind Personen zwischen 60 und 64 Jahren.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36333,7 +36333,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06930",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-19.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36346,7 +36346,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:56",
+		"aktualisierungsdatum": "2024-08-22T09:30:36",
 		"id": 6930
 	},
 	{
@@ -36359,7 +36359,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Gemeinde Riehen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche zwischen 4 und 19 Jahren stärker vertreten. Zudem wohnen in Riehen vergleichsweise viele Personen ab 45 Jahren.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -36372,7 +36372,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06931",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-20.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36385,7 +36385,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:56",
+		"aktualisierungsdatum": "2024-08-22T09:30:38",
 		"id": 6931
 	},
 	{
@@ -36398,7 +36398,7 @@
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"subtitle": "Gemeinde Bettingen, Basel-Stadt, 2023",
 		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 55-Jährigen und Älteren sehr stark vertreten ist.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -36411,7 +36411,7 @@
 		"description": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06932",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-21.D",
 		"stufe1": "Teil 3: Themen-Grafiken",
@@ -36424,7 +36424,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:57",
+		"aktualisierungsdatum": "2024-08-22T09:30:39",
 		"id": 6932
 	},
 	{
@@ -38036,8 +38036,8 @@
 		"children": [],
 		"title": "Einbruchdiebstähle",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden auf 1000 Einwohnerinnen und Einwohner im Kanton Basel-Stadt 5,0 Einbruchdiebstähle polizeilich registriert.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die Basel-Städtische Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2023 wurden auf 1000 Einwohnerinnen und Einwohner im Kanton Basel-Stadt 5,3 Einbruchdiebstähle polizeilich registriert.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -38062,7 +38062,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:48",
+		"aktualisierungsdatum": "2024-08-22T09:30:03",
 		"id": 6979
 	},
 	{
@@ -38348,8 +38348,8 @@
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
 		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt",
-		"lesehilfe": "Der Verlauf der Aufenthaltsdauer nach Alter in den dargestellten Jahren ähnelt sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht, von einzelnen Ausreissern abgesehen, in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"lesehilfe": "Im Jahr 2023 hielten sich die 99-jährigen Personen mit durchschnittlich 9,1 Tagen am längsten in einem Basler Spital auf.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren werden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -38362,7 +38362,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.06991",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38374,7 +38374,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:44",
+		"aktualisierungsdatum": "2024-08-22T09:30:05",
 		"id": 6991
 	},
 	{
@@ -38385,8 +38385,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2022",
-		"lesehilfe": "Im Jahr 2022 lagen Frauen im Alter von 16 Jahren mit 11,1 Tagen im Durchschnitt am längsten in einem baselstädtischen Spital.",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2023",
+		"lesehilfe": "Im Jahr 2023 hielten sich Frauen im Alter von 13 Jahren mit 12,2 Tagen im Durchschnitt am längsten in einem baselstädtischen Spital auf.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren werden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -38399,8 +38399,8 @@
 		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
-		"kuerzel": "",
-		"kennzahlenset": "",
+		"kuerzel": "I.14.1.06992",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38412,7 +38412,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:35",
+		"aktualisierungsdatum": "2024-08-22T09:30:06",
 		"id": 6992
 	},
 	{
@@ -38424,7 +38424,7 @@
 		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern",
 		"subtitle": "nach Hauptbereich in Tagen, Basel-Stadt",
-		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2022: 38,1 Tage), während ein akutsomatischer Patient das Spital deutlich schneller verlässt (2022: 6,9 Tage).",
+		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2023: 38,5 Tage), während ein akutsomatischer Patient das Spital deutlich schneller verlässt (2023: 6,7 Tage).",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).<br>Seit 2020 werden aufgrund einer geänderten Kodierungsvorgabe die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet. Die Geriatrie wird daher nicht ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -38438,7 +38438,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.06993",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38450,7 +38450,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:35",
+		"aktualisierungsdatum": "2024-08-22T09:30:07",
 		"id": 6993
 	},
 	{
@@ -38541,7 +38541,7 @@
 		],
 		"title": "Stationär behandelte Patienten",
 		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
-		"lesehilfe": "Im Jahr 2022 wurden insgesamt 67 663 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 714 Personen im Kanton Basel-Stadt und 22 123 in Basel-Landschaft.",
+		"lesehilfe": "Im Jahr 2023 wurden insgesamt 68 957 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten u. a. 29 848 Personen im Kanton Basel-Stadt und 22 464 in Basel-Landschaft.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -38567,7 +38567,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:44",
+		"aktualisierungsdatum": "2024-08-22T09:30:13",
 		"id": 6996
 	},
 	{
@@ -38578,9 +38578,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2022",
-		"lesehilfe": "Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 50 und 78 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2023",
+		"lesehilfe": "Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 53 und 77 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren werden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -38593,7 +38593,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.06997",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38605,7 +38605,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:41",
+		"aktualisierungsdatum": "2024-08-22T09:29:55",
 		"id": 6997
 	},
 	{
@@ -38616,8 +38616,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Neugeborene nach Alter der Mutter",
-		"subtitle": "in baselstädtischen Spitälern, 2022",
-		"lesehilfe": "Im Jahr 2022 haben die 32- und 33-jährigen Mütter die meisten Babys zur Welt gebracht (jeweils 371), gefolgt von den 34-jährigen Müttern (362).",
+		"subtitle": "in baselstädtischen Spitälern, 2023",
+		"lesehilfe": "Im Jahr 2023 haben die 34-jährigen Mütter die meisten Babys zur Welt gebracht (392), gefolgt von den 33-jährigen Müttern (368).",
 		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -38631,7 +38631,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.06998",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38643,7 +38643,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:42",
+		"aktualisierungsdatum": "2024-08-22T09:29:56",
 		"id": 6998
 	},
 	{
@@ -38654,8 +38654,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Patienten nach Liege- und Altersklasse",
-		"subtitle": "in baselstädtischen Spitälern, 2022",
-		"lesehilfe": "Im Jahr 2022 wurden insgesamt 12 071 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
+		"subtitle": "in baselstädtischen Spitälern, 2023",
+		"lesehilfe": "Im Jahr 2023 wurden insgesamt 12 264 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -38670,7 +38670,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.06999",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38682,7 +38682,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:42",
+		"aktualisierungsdatum": "2024-08-22T09:29:57",
 		"id": 6999
 	},
 	{
@@ -38693,8 +38693,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Aufenthaltsorte nach dem Spitalaustritt",
-		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2022",
-		"lesehilfe": "Über 51% der Personen im Alter von mindestens 80 Jahren konnten im Jahr 2022 nach einer stationären Behandlung in einem baselstädtischen Spital wieder nach Hause. Etwa 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2023",
+		"lesehilfe": "Über 51% der Personen im Alter von mindestens 80 Jahren konnten im Jahr 2023 nach einer stationären Behandlung in einem baselstädtischen Spital wieder nach Hause. Etwa 16% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
 		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -38709,7 +38709,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.07000",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -38721,7 +38721,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:43",
+		"aktualisierungsdatum": "2024-08-22T09:29:58",
 		"id": 7000
 	},
 	{
@@ -42418,7 +42418,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-19T08:16:52",
+		"aktualisierungsdatum": "2024-08-22T09:29:59",
 		"id": 7515
 	},
 	{
@@ -45486,7 +45486,7 @@
 		],
 		"title": "Verlorene potentielle Lebensjahre",
 		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder steigen. 2022 waren es bei den Männern 5 551 VPL und bei den Frauen 2 144.",
+		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder bis 2022 gestiegen sind. 2023 waren es bei den Männern 4 193 VPL und bei den Frauen 2 607.",
 		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der baselstädtischen Bevölkerung im Jahr 2010 standardisiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -45500,7 +45500,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kuerzel": "I.14.3.07710",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
@@ -45512,7 +45512,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:43",
+		"aktualisierungsdatum": "2024-08-22T09:30:00",
 		"id": 7710
 	},
 	{
@@ -46733,8 +46733,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Im Juni 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln und in der Gemeinde Riehen. In Bettingen und den übrigen Wohnvierteln ging sie zurück.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Im Juli 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln und in Riehen. In dreizehn Wohnvierteln und in Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -46761,7 +46761,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-19T08:16:55",
+		"aktualisierungsdatum": "2024-08-22T09:30:02",
 		"id": 7763
 	},
 	{
@@ -50570,87 +50570,83 @@
 		"id": 8049
 	},
 	{
-		"title": "Ausländeranteil",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.1.07669",
-		"kuerzelKunde": "2.05",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
-		"stufe1": "2 Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2011 zwischen 48,1% und 50,7%. In den folgenden Jahren lag er zwischen 50,0% und 52,4%. Im Wohnviertel Kleinhüningen stieg der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1%. Danach bewegte er sich bis 2011 zwischen 42,6% und 45,3%. Seither stieg der Anteil Ausländer bis auf 48,0%. In der Stadt Basel stieg der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 37,8%.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8620"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8050,
 		"chart-id": 8050,
 		"filter": "",
-		"id": 8050
-	},
-	{
-		"title": "Ausländer nach Staatsangehörigkeit",
+		"parentId": null,
+		"children": [
+			8620
+		],
+		"title": "Ausländeranteil",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.1.07670",
-		"kuerzelKunde": "2.07",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2011 zwischen 48,1% und 50,7%. In den folgenden Jahren lag er zwischen 50,0% und 53,3%. Im Wohnviertel Kleinhüningen stieg der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1%. Danach bewegte er sich bis 2011 zwischen 42,7% und 45,3%. Seither stieg der Anteil Ausländer bis auf 51,7%. In der Stadt Basel stieg der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 39,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"kuerzelKunde": "2.05",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den letzten fünf Jahren bildeten im Wohnviertel Klybeck Personen aus den EU-17- und EFTA-Staaten die grösste ausländische Bevölkerungsgruppe. Während die Anzahl Personen aus der Türkei und dem Balkan gesunken ist, stieg die Zahl der Personen aus arabischen und afrikanischen Ländern von 73 auf 110 bzw. von 106 auf 170. Im Wohnviertel Kleinhüningen bildeten Personen aus dem Balkan in den letzten fünf Jahren die grösste ausländische Bevölkerungsgruppe.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"8621"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2024-08-22T09:30:10",
+		"id": 8050
+	},
+	{
+		"template": "template001",
 		"data-id": 8051,
 		"chart-id": 8051,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8621
+		],
+		"title": "Ausländer nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "In den letzten fünf Jahren bildeten im Wohnviertel Klybeck Personen aus den EU-17- und EFTA-Staaten die grösste ausländische Bevölkerungsgruppe. Im Wohnviertel Kleinhüningen stellten Personen vom Balkan in den letzten fünf Jahren die grösste ausländische Bevölkerungsgruppe.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.07",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-22T09:30:12",
 		"id": 8051
 	},
 	{
@@ -50814,45 +50810,43 @@
 		"id": 8055
 	},
 	{
+		"template": "template001",
+		"data-id": 8056,
+		"chart-id": 8056,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8626
+		],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.7.07675",
-		"kuerzelKunde": "2.06",
-		"description": "Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2019 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Deren Anteil an der Bevölkerung hat in diesem Zeitraum leicht zugenommen.",
+		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"description": "Religionszugehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.TRUN.08056",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.06",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2010 bis 2019 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Ihr Anteil an der Bevölkerung hat in diesem Zeitraum zugenommen, im Wohnviertel Klybeck von 76% auf 83% und im Wohnviertel Kleinhüningen von 76% auf 82%. Die zweitgrösste Gruppe bildeten Angehörige der römisch-katholischen Kirche. Ihr Anteil an der Bevölkerung hat zwischen 2010 und 2019 abgenommen, im Wohnviertel Klybeck von 13% auf 10% und im Wohnviertel Kleinhüningen von 13% auf 11%. In der Stadt Basel ist dieser Anteil im selben Zeitraum von 16% auf 12% gesunken.",
-		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: evangelisch-reformiert, römisch-katholisch, christkatholisch, israelitisch.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8626"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8056,
-		"chart-id": 8056,
-		"filter": "",
+		"aktualisierungsdatum": "2024-08-22T09:30:11",
 		"id": 8056
 	},
 	{
@@ -68908,7 +68902,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-14T09:04:47",
+		"aktualisierungsdatum": "2024-08-22T09:30:08",
 		"id": 8995
 	},
 	{
@@ -74828,7 +74822,7 @@
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 existieren in Basel-Stadt 100 613 Wohnungen. Den grössten Anteil machen mit 73 466 (73,0%) die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 11 093 gestiegen.",
+		"lesehilfe": "Ende 2023 existieren in Basel-Stadt 101 664 Wohnungen. Den grössten Anteil machen mit 74 072 (72,9%) die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 11 448 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -74854,7 +74848,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-26T03:45:24",
+		"aktualisierungsdatum": "2024-08-22T09:30:14",
 		"id": 9382
 	},
 	{

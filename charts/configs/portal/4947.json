@@ -63,6 +63,10 @@
         [
           "2022",
           77269
+        ],
+        [
+          "2023",
+          78200
         ]
       ],
       "name": "Akutsomatik",
@@ -130,6 +134,10 @@
         ],
         [
           "2022",
+          1
+        ],
+        [
+          "2023",
           1
         ]
       ],
@@ -199,6 +207,10 @@
         [
           "2022",
           3668
+        ],
+        [
+          "2023",
+          3770
         ]
       ],
       "name": "Psychiatrie",
@@ -267,6 +279,10 @@
         [
           "2022",
           4594
+        ],
+        [
+          "2023",
+          5101
         ]
       ],
       "name": "Rehabilitation",
@@ -335,7 +351,6 @@
           "fontSize": 10
         }
       },
-      "pointWidth": 25,
       "stacking": "normal"
     }
   },
@@ -406,7 +421,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -20,8 +20,8 @@
                     });
                 };
 
-                negateNumbersInColumn(5); 
-                negateNumbersInColumn(7); 
+                negateNumbersInColumn(9); 
+                negateNumbersInColumn(11); 
               
                 //define which wohnviertel to display
                 //var filterValue = 1;
@@ -41,23 +41,26 @@
                 
               },
     		    seriesMapping: [
-  		        {x: 3, y: 4},
-  		        {x: 3, y: 5},
-  		        {x: 3, y: 6},
-  		        {x: 3, y: 7},
+                {x: 3, y: 8, absolut: 4},
+                {x: 3, y: 9, absolut: 5},
+                {x: 3, y: 10, absolut: 6},
+                {x: 3, y: 11, absolut: 7},
   		        {x: 2, y: 1}
             ],
         },
         yAxis:[{
             //tickInterval: 6000,
             min: 0,
+            tickInterval: 1,
+            tickAmount: 15,
+            max: 7,
             title: {
                 text: null
             },
             labels: {
             	step: 1,
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + '%';
             	},
                 style: {
                     color: "#000000"
@@ -151,12 +154,15 @@
             formatter: function() { //sum values correctly
                 var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
                 var sum = 0;
+                var sum_percent = 0;
                 $.each(this.points, function(i, point) {
-                    var v = Math.sqrt(this.y*this.y); //make - to + again
-                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    var v = Math.sqrt(this.point.absolut*this.point.absolut); //make - to + again
+                    var z = Math.sqrt(this.point.y*this.point.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b>' + ' (' + Highcharts.numberFormat(z, 1) + '%)<br/>';
                     sum += v;
+                    sum_percent += z;
                 });
-                s += 'Total: <b>'+ sum + '</b>';
+                s += 'Total: <b>'+ sum + '</b>' + ' (' +  Highcharts.numberFormat(sum_percent, 1) + '%)' ;
                 return s;
             },
 

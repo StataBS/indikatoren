@@ -6,120 +6,64 @@
       "legendIndex": 1,
       "data": [
         [
-          "2010: Klybeck",
-          743
-        ],
-        [
-          "2010: Kleinhüningen",
-          272
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2011: Klybeck",
-          700
-        ],
-        [
-          "2011: Kleinhüningen",
-          257
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2012: Klybeck",
-          677
-        ],
-        [
-          "2012: Kleinhüningen",
-          264
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2013: Klybeck",
-          629
-        ],
-        [
-          "2013: Kleinhüningen",
-          268
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2014: Klybeck",
-          616
-        ],
-        [
-          "2014: Kleinhüningen",
-          243
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Klybeck",
-          599
-        ],
-        [
-          "2015: Kleinhüningen",
-          245
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          552
-        ],
-        [
-          "2016: Kleinhüningen",
-          243
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          538
-        ],
-        [
-          "2017: Kleinhüningen",
-          224
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          538
-        ],
-        [
-          "2018: Kleinhüningen",
-          227
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
           "2019: Klybeck",
           506
         ],
         [
           "2019: Kleinhüningen",
           201
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          462
+        ],
+        [
+          "2020: Kleinhüningen",
+          181
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          422
+        ],
+        [
+          "2021: Kleinhüningen",
+          183
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          414
+        ],
+        [
+          "2022: Kleinhüningen",
+          177
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          414
+        ],
+        [
+          "2023: Kleinhüningen",
+          161
+        ],
+        [
+          "     ",
+          null
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -131,120 +75,64 @@
       "legendIndex": 2,
       "data": [
         [
-          "2010: Klybeck",
-          931
-        ],
-        [
-          "2010: Kleinhüningen",
-          354
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2011: Klybeck",
-          915
-        ],
-        [
-          "2011: Kleinhüningen",
-          351
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2012: Klybeck",
-          894
-        ],
-        [
-          "2012: Kleinhüningen",
-          370
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2013: Klybeck",
-          888
-        ],
-        [
-          "2013: Kleinhüningen",
-          352
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2014: Klybeck",
-          862
-        ],
-        [
-          "2014: Kleinhüningen",
-          334
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Klybeck",
-          828
-        ],
-        [
-          "2015: Kleinhüningen",
-          335
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          781
-        ],
-        [
-          "2016: Kleinhüningen",
-          319
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          767
-        ],
-        [
-          "2017: Kleinhüningen",
-          302
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          755
-        ],
-        [
-          "2018: Kleinhüningen",
-          299
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
           "2019: Klybeck",
           724
         ],
         [
           "2019: Kleinhüningen",
           294
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          687
+        ],
+        [
+          "2020: Kleinhüningen",
+          280
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          635
+        ],
+        [
+          "2021: Kleinhüningen",
+          272
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          635
+        ],
+        [
+          "2022: Kleinhüningen",
+          261
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          593
+        ],
+        [
+          "2023: Kleinhüningen",
+          269
+        ],
+        [
+          "     ",
+          null
         ]
       ],
       "name": "Römisch-katholisch",
@@ -256,35 +144,35 @@
       "legendIndex": 3,
       "data": [
         [
-          "2010: Klybeck",
-          19
+          "2019: Klybeck",
+          25
         ],
         [
-          "2010: Kleinhüningen",
-          3
+          "2019: Kleinhüningen",
+          12
         ],
         [
           " ",
           null
         ],
         [
-          "2011: Klybeck",
-          35
+          "2020: Klybeck",
+          26
         ],
         [
-          "2011: Kleinhüningen",
-          7
+          "2020: Kleinhüningen",
+          9
         ],
         [
           "  ",
           null
         ],
         [
-          "2012: Klybeck",
-          49
+          "2021: Klybeck",
+          31
         ],
         [
-          "2012: Kleinhüningen",
+          "2021: Kleinhüningen",
           11
         ],
         [
@@ -292,11 +180,11 @@
           null
         ],
         [
-          "2013: Klybeck",
-          30
+          "2022: Klybeck",
+          40
         ],
         [
-          "2013: Kleinhüningen",
+          "2022: Kleinhüningen",
           11
         ],
         [
@@ -304,72 +192,16 @@
           null
         ],
         [
-          "2014: Klybeck",
-          31
+          "2023: Klybeck",
+          39
         ],
         [
-          "2014: Kleinhüningen",
-          10
+          "2023: Kleinhüningen",
+          16
         ],
         [
           "     ",
           null
-        ],
-        [
-          "2015: Klybeck",
-          30
-        ],
-        [
-          "2015: Kleinhüningen",
-          4
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          32
-        ],
-        [
-          "2016: Kleinhüningen",
-          4
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          30
-        ],
-        [
-          "2017: Kleinhüningen",
-          5
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          23
-        ],
-        [
-          "2018: Kleinhüningen",
-          7
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2019: Klybeck",
-          25
-        ],
-        [
-          "2019: Kleinhüningen",
-          12
         ]
       ],
       "name": "Christkatholisch",
@@ -381,11 +213,11 @@
       "legendIndex": 4,
       "data": [
         [
-          "2010: Klybeck",
-          1
+          "2019: Klybeck",
+          5
         ],
         [
-          "2010: Kleinhüningen",
+          "2019: Kleinhüningen",
           null
         ],
         [
@@ -393,11 +225,11 @@
           null
         ],
         [
-          "2011: Klybeck",
-          2
+          "2020: Klybeck",
+          8
         ],
         [
-          "2011: Kleinhüningen",
+          "2020: Kleinhüningen",
           null
         ],
         [
@@ -405,11 +237,11 @@
           null
         ],
         [
-          "2012: Klybeck",
-          2
+          "2021: Klybeck",
+          3
         ],
         [
-          "2012: Kleinhüningen",
+          "2021: Kleinhüningen",
           null
         ],
         [
@@ -417,11 +249,11 @@
           null
         ],
         [
-          "2013: Klybeck",
+          "2022: Klybeck",
           2
         ],
         [
-          "2013: Kleinhüningen",
+          "2022: Kleinhüningen",
           null
         ],
         [
@@ -429,71 +261,15 @@
           null
         ],
         [
-          "2014: Klybeck",
-          3
-        ],
-        [
-          "2014: Kleinhüningen",
-          null
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Klybeck",
-          5
-        ],
-        [
-          "2015: Kleinhüningen",
-          null
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          3
-        ],
-        [
-          "2016: Kleinhüningen",
-          null
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2017: Klybeck",
+          "2023: Klybeck",
           2
         ],
         [
-          "2017: Kleinhüningen",
-          null
+          "2023: Kleinhüningen",
+          2
         ],
         [
-          "        ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          8
-        ],
-        [
-          "2018: Kleinhüningen",
-          null
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2019: Klybeck",
-          5
-        ],
-        [
-          "2019: Kleinhüningen",
+          "     ",
           null
         ]
       ],
@@ -506,120 +282,64 @@
       "legendIndex": 5,
       "data": [
         [
-          "2010: Klybeck",
-          5455
-        ],
-        [
-          "2010: Kleinhüningen",
-          1995
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2011: Klybeck",
-          5602
-        ],
-        [
-          "2011: Kleinhüningen",
-          2084
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2012: Klybeck",
-          5646
-        ],
-        [
-          "2012: Kleinhüningen",
-          2232
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2013: Klybeck",
-          5745
-        ],
-        [
-          "2013: Kleinhüningen",
-          2247
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2014: Klybeck",
-          5836
-        ],
-        [
-          "2014: Kleinhüningen",
-          2289
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Klybeck",
-          5819
-        ],
-        [
-          "2015: Kleinhüningen",
-          2316
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          5834
-        ],
-        [
-          "2016: Kleinhüningen",
-          2327
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          5918
-        ],
-        [
-          "2017: Kleinhüningen",
-          2313
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          5969
-        ],
-        [
-          "2018: Kleinhüningen",
-          2325
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
           "2019: Klybeck",
           5977
         ],
         [
           "2019: Kleinhüningen",
           2291
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          5927
+        ],
+        [
+          "2020: Kleinhüningen",
+          2339
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          5861
+        ],
+        [
+          "2021: Kleinhüningen",
+          2283
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          5918
+        ],
+        [
+          "2022: Kleinhüningen",
+          2344
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          5946
+        ],
+        [
+          "2023: Kleinhüningen",
+          2380
+        ],
+        [
+          "     ",
+          null
         ]
       ],
       "name": "Andere, ohne oder unbek. Zugeh.",
@@ -769,12 +489,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8056
+    "filename": "8056"
   }
 }
