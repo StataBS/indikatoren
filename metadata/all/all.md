@@ -282,7 +282,7 @@ id | visible | visibleInPortal | indikatorenset
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
-4947 | true | true | 
+4947 | true | true | Gesundheit
 4948 | true | true | 
 4953 | false |  | 
 5033 | true | true | Legislaturplan
@@ -1010,16 +1010,16 @@ id | visible | visibleInPortal | indikatorenset
 6988 | true | true | Wohnviertel
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
-6991 | true | true | 
-6992 | true | true | 
-6993 | true | true | 
+6991 | true | true | Gesundheit
+6992 | true | true | Gesundheit
+6993 | true | true | Gesundheit
 6994 | true | true | 
 6995 | true | true | 
 6996 | true | true | Legislaturplan
-6997 | true | true | 
-6998 | true | true | 
-6999 | true | true | 
-7000 | true | true | 
+6997 | true | true | Gesundheit
+6998 | true | true | Gesundheit
+6999 | true | true | Gesundheit
+7000 | true | true | Gesundheit
 7003 | true | false | Arbeitsmarkt (Print)
 7004 | true | false | Arbeitsmarkt (Print)
 7005 | true | false | Arbeitsmarkt (Print)
@@ -1230,7 +1230,7 @@ id | visible | visibleInPortal | indikatorenset
 7707 | true | true | Stadtteilmonitoring Rosental
 7708 | true | true | Stadtteilmonitoring Rosental
 7709 | true | true | Stadtteilmonitoring Rosental
-7710 | true | true | 
+7710 | true | true | Gesundheit
 7711 | true | true | Stadtteilmonitoring Rosental
 7712 | true | true | Stadtteilmonitoring Rosental
 7713 | true | false | Testset

@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 25,
+      //"pointWidth": 25,
       "dataLabels": {
         "style": {
           "fontSize": 10
@@ -11,12 +11,12 @@
       "stacking": "normal"
     }
   },
-  "xAxis": {
-    "type": "category"    
+  xAxis: {
+    type: "category"    
   },  
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
+  yAxis: {
+    labels: {
+      format: "{value:,.0f}"
     },
     "reversedStacks": false
   },

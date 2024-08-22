@@ -125,11 +125,15 @@
         ],
         [
           2021,
-          2061
+          2133
         ],
         [
           2022,
-          2144
+          2174
+        ],
+        [
+          2023,
+          2607
         ]
       ],
       "name": "Frauen"
@@ -259,11 +263,15 @@
         ],
         [
           2021,
-          4609
+          4671
         ],
         [
           2022,
-          5551
+          5652
+        ],
+        [
+          2023,
+          4193
         ]
       ],
       "name": "Männer"
@@ -386,7 +394,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

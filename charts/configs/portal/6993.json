@@ -46,6 +46,10 @@
         [
           2022,
           6.9
+        ],
+        [
+          2023,
+          6.7
         ]
       ],
       "name": "Akutsomatik"
@@ -96,6 +100,10 @@
         [
           2022,
           38.1
+        ],
+        [
+          2023,
+          38.5
         ]
       ],
       "name": "Psychiatrie"
@@ -146,6 +154,10 @@
         [
           2022,
           23.6
+        ],
+        [
+          2023,
+          23.7
         ]
       ],
       "name": "Rehabilitation"
@@ -195,6 +207,10 @@
         ],
         [
           2022,
+          9.1
+        ],
+        [
+          2023,
           9.1
         ]
       ],
@@ -324,7 +340,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

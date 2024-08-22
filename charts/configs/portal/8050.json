@@ -82,6 +82,22 @@
         [
           2019,
           51.8585
+        ],
+        [
+          2020,
+          51.8565
+        ],
+        [
+          2021,
+          52.3734
+        ],
+        [
+          2022,
+          53.2744
+        ],
+        [
+          2023,
+          53.1313
         ]
       ],
       "name": "Klybeck"
@@ -168,6 +184,22 @@
         [
           2019,
           46.9979
+        ],
+        [
+          2020,
+          48.7362
+        ],
+        [
+          2021,
+          47.9811
+        ],
+        [
+          2022,
+          49.5166
+        ],
+        [
+          2023,
+          51.6973
         ]
       ],
       "name": "Kleinhüningen"
@@ -254,6 +286,22 @@
         [
           2019,
           37.8004
+        ],
+        [
+          2020,
+          38.1908
+        ],
+        [
+          2021,
+          38.088
+        ],
+        [
+          2022,
+          39.1422
+        ],
+        [
+          2023,
+          39.6034
         ]
       ],
       "name": "Stadt Basel"
@@ -382,7 +430,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -423,6 +471,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8050
+    "filename": "8050"
   }
 }

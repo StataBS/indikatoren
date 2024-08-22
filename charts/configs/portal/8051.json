@@ -6,60 +6,60 @@
       "legendIndex": 0,
       "data": [
         [
-          "2015: Klybeck",
-          430
-        ],
-        [
-          "2015: Kleinhüningen",
-          188
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          410
-        ],
-        [
-          "2016: Kleinhüningen",
-          192
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          409
-        ],
-        [
-          "2017: Kleinhüningen",
-          185
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          435
-        ],
-        [
-          "2018: Kleinhüningen",
-          184
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           430
         ],
         [
           "2019: Kleinhüningen",
           171
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          448
+        ],
+        [
+          "2020: Kleinhüningen",
+          185
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          417
+        ],
+        [
+          "2021: Kleinhüningen",
+          189
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          452
+        ],
+        [
+          "2022: Kleinhüningen",
+          188
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          492
+        ],
+        [
+          "2023: Kleinhüningen",
+          212
         ]
       ],
       "name": "Deutschland",
@@ -71,59 +71,59 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015: Klybeck",
-          576
+          "2019: Klybeck",
+          551
         ],
         [
-          "2015: Kleinhüningen",
-          199
+          "2019: Kleinhüningen",
+          202
         ],
         [
           " ",
           null
         ],
         [
-          "2016: Klybeck",
-          565
+          "2020: Klybeck",
+          553
         ],
         [
-          "2016: Kleinhüningen",
-          196
+          "2020: Kleinhüningen",
+          211
         ],
         [
           "  ",
           null
         ],
         [
-          "2017: Klybeck",
-          552
+          "2021: Klybeck",
+          540
         ],
         [
-          "2017: Kleinhüningen",
-          203
+          "2021: Kleinhüningen",
+          205
         ],
         [
           "   ",
           null
         ],
         [
-          "2018: Klybeck",
-          552
+          "2022: Klybeck",
+          572
         ],
         [
-          "2018: Kleinhüningen",
-          215
+          "2022: Kleinhüningen",
+          202
         ],
         [
           "    ",
           null
         ],
         [
-          "2019: Klybeck",
-          551
+          "2023: Klybeck",
+          553
         ],
         [
-          "2019: Kleinhüningen",
+          "2023: Kleinhüningen",
           202
         ]
       ],
@@ -136,60 +136,60 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015: Klybeck",
-          610
-        ],
-        [
-          "2015: Kleinhüningen",
-          184
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          578
-        ],
-        [
-          "2016: Kleinhüningen",
-          179
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          570
-        ],
-        [
-          "2017: Kleinhüningen",
-          174
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          528
-        ],
-        [
-          "2018: Kleinhüningen",
-          172
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           511
         ],
         [
           "2019: Kleinhüningen",
           162
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          495
+        ],
+        [
+          "2020: Kleinhüningen",
+          167
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          479
+        ],
+        [
+          "2021: Kleinhüningen",
+          155
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          443
+        ],
+        [
+          "2022: Kleinhüningen",
+          162
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          445
+        ],
+        [
+          "2023: Kleinhüningen",
+          158
         ]
       ],
       "name": "Türkei",
@@ -201,60 +201,60 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015: Klybeck",
-          732
-        ],
-        [
-          "2015: Kleinhüningen",
-          152
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          708
-        ],
-        [
-          "2016: Kleinhüningen",
-          152
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          741
-        ],
-        [
-          "2017: Kleinhüningen",
-          152
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          761
-        ],
-        [
-          "2018: Kleinhüningen",
-          162
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           741
         ],
         [
           "2019: Kleinhüningen",
           175
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          715
+        ],
+        [
+          "2020: Kleinhüningen",
+          186
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          710
+        ],
+        [
+          "2021: Kleinhüningen",
+          175
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          714
+        ],
+        [
+          "2022: Kleinhüningen",
+          187
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          710
+        ],
+        [
+          "2023: Kleinhüningen",
+          199
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -266,60 +266,60 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015: Klybeck",
-          179
-        ],
-        [
-          "2015: Kleinhüningen",
-          40
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          199
-        ],
-        [
-          "2016: Kleinhüningen",
-          64
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          230
-        ],
-        [
-          "2017: Kleinhüningen",
-          68
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          217
-        ],
-        [
-          "2018: Kleinhüningen",
-          66
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           232
         ],
         [
           "2019: Kleinhüningen",
           71
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          221
+        ],
+        [
+          "2020: Kleinhüningen",
+          81
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          232
+        ],
+        [
+          "2021: Kleinhüningen",
+          78
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          232
+        ],
+        [
+          "2022: Kleinhüningen",
+          109
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          212
+        ],
+        [
+          "2023: Kleinhüningen",
+          92
         ]
       ],
       "name": "EU-Ost",
@@ -331,60 +331,60 @@
       "legendIndex": 5,
       "data": [
         [
-          "2015: Klybeck",
-          778
-        ],
-        [
-          "2015: Kleinhüningen",
-          312
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          752
-        ],
-        [
-          "2016: Kleinhüningen",
-          288
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          749
-        ],
-        [
-          "2017: Kleinhüningen",
-          296
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          737
-        ],
-        [
-          "2018: Kleinhüningen",
-          301
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           692
         ],
         [
           "2019: Kleinhüningen",
           284
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          671
+        ],
+        [
+          "2020: Kleinhüningen",
+          284
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          665
+        ],
+        [
+          "2021: Kleinhüningen",
+          268
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          658
+        ],
+        [
+          "2022: Kleinhüningen",
+          255
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          629
+        ],
+        [
+          "2023: Kleinhüningen",
+          257
         ]
       ],
       "name": "Balkan",
@@ -396,60 +396,60 @@
       "legendIndex": 6,
       "data": [
         [
-          "2015: Klybeck",
-          82
-        ],
-        [
-          "2015: Kleinhüningen",
-          19
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          72
-        ],
-        [
-          "2016: Kleinhüningen",
-          27
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          70
-        ],
-        [
-          "2017: Kleinhüningen",
-          26
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          79
-        ],
-        [
-          "2018: Kleinhüningen",
-          28
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           73
         ],
         [
           "2019: Kleinhüningen",
           24
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          76
+        ],
+        [
+          "2020: Kleinhüningen",
+          17
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          81
+        ],
+        [
+          "2021: Kleinhüningen",
+          19
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          74
+        ],
+        [
+          "2022: Kleinhüningen",
+          20
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          67
+        ],
+        [
+          "2023: Kleinhüningen",
+          28
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -461,60 +461,60 @@
       "legendIndex": 7,
       "data": [
         [
-          "2015: Klybeck",
-          73
-        ],
-        [
-          "2015: Kleinhüningen",
-          75
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          96
-        ],
-        [
-          "2016: Kleinhüningen",
-          85
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          107
-        ],
-        [
-          "2017: Kleinhüningen",
-          71
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          102
-        ],
-        [
-          "2018: Kleinhüningen",
-          67
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           110
         ],
         [
           "2019: Kleinhüningen",
           71
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          117
+        ],
+        [
+          "2020: Kleinhüningen",
+          70
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          136
+        ],
+        [
+          "2021: Kleinhüningen",
+          70
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          134
+        ],
+        [
+          "2022: Kleinhüningen",
+          78
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          132
+        ],
+        [
+          "2023: Kleinhüningen",
+          98
         ]
       ],
       "name": "Arabische Länder",
@@ -526,60 +526,60 @@
       "legendIndex": 8,
       "data": [
         [
-          "2015: Klybeck",
-          106
-        ],
-        [
-          "2015: Kleinhüningen",
-          68
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          137
-        ],
-        [
-          "2016: Kleinhüningen",
-          59
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          155
-        ],
-        [
-          "2017: Kleinhüningen",
-          50
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          165
-        ],
-        [
-          "2018: Kleinhüningen",
-          49
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           170
         ],
         [
           "2019: Kleinhüningen",
           52
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          165
+        ],
+        [
+          "2020: Kleinhüningen",
+          52
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          159
+        ],
+        [
+          "2021: Kleinhüningen",
+          55
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          158
+        ],
+        [
+          "2022: Kleinhüningen",
+          53
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          152
+        ],
+        [
+          "2023: Kleinhüningen",
+          56
         ]
       ],
       "name": "Afrikanische Länder",
@@ -591,60 +591,60 @@
       "legendIndex": 9,
       "data": [
         [
-          "2015: Klybeck",
-          204
-        ],
-        [
-          "2015: Kleinhüningen",
-          108
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          204
-        ],
-        [
-          "2016: Kleinhüningen",
-          115
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          215
-        ],
-        [
-          "2017: Kleinhüningen",
-          124
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          231
-        ],
-        [
-          "2018: Kleinhüningen",
-          127
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
           "2019: Klybeck",
           243
         ],
         [
           "2019: Kleinhüningen",
           103
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          226
+        ],
+        [
+          "2020: Kleinhüningen",
+          116
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2021: Klybeck",
+          222
+        ],
+        [
+          "2021: Kleinhüningen",
+          105
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2022: Klybeck",
+          297
+        ],
+        [
+          "2022: Kleinhüningen",
+          129
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Klybeck",
+          324
+        ],
+        [
+          "2023: Kleinhüningen",
+          160
         ]
       ],
       "name": "Übrige Länder",
@@ -792,7 +792,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -800,6 +800,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 8051
+    "filename": "8051"
   }
 }

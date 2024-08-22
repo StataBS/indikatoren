@@ -195,85 +195,81 @@ var indikatorensetData = [
 		"id": 8049
 	},
 	{
-		"title": "Ausländeranteil",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.1.07669",
-		"kuerzelKunde": "2.05",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
-		"stufe1": "2 Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2011 zwischen 48,1% und 50,7%. In den folgenden Jahren lag er zwischen 50,0% und 52,4%. Im Wohnviertel Kleinhüningen stieg der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1%. Danach bewegte er sich bis 2011 zwischen 42,6% und 45,3%. Seither stieg der Anteil Ausländer bis auf 48,0%. In der Stadt Basel stieg der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 37,8%.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8620"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8050,
 		"chart-id": 8050,
 		"filter": "",
-		"id": 8050
-	},
-	{
-		"title": "Ausländer nach Staatsangehörigkeit",
+		"parentId": null,
+		"children": [
+			8620
+		],
+		"title": "Ausländeranteil",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.1.07670",
-		"kuerzelKunde": "2.07",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2011 zwischen 48,1% und 50,7%. In den folgenden Jahren lag er zwischen 50,0% und 53,3%. Im Wohnviertel Kleinhüningen stieg der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1%. Danach bewegte er sich bis 2011 zwischen 42,7% und 45,3%. Seither stieg der Anteil Ausländer bis auf 51,7%. In der Stadt Basel stieg der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 39,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"kuerzelKunde": "2.05",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den letzten fünf Jahren bildeten im Wohnviertel Klybeck Personen aus den EU-17- und EFTA-Staaten die grösste ausländische Bevölkerungsgruppe. Während die Anzahl Personen aus der Türkei und dem Balkan gesunken ist, stieg die Zahl der Personen aus arabischen und afrikanischen Ländern von 73 auf 110 bzw. von 106 auf 170. Im Wohnviertel Kleinhüningen bildeten Personen aus dem Balkan in den letzten fünf Jahren die grösste ausländische Bevölkerungsgruppe.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"8621"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2024-08-22T10:03:36",
+		"id": 8050
+	},
+	{
+		"template": "template001",
 		"data-id": 8051,
 		"chart-id": 8051,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8621
+		],
+		"title": "Ausländer nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "In den letzten fünf Jahren bildeten im Wohnviertel Klybeck Personen aus den EU-17- und EFTA-Staaten die grösste ausländische Bevölkerungsgruppe. Im Wohnviertel Kleinhüningen stellten Personen vom Balkan in den letzten fünf Jahren die grösste ausländische Bevölkerungsgruppe.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.07",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-22T10:03:38",
 		"id": 8051
 	},
 	{
@@ -433,44 +429,42 @@ var indikatorensetData = [
 		"id": 8055
 	},
 	{
+		"template": "template001",
+		"data-id": 8056,
+		"chart-id": 8056,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8626
+		],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.7.07675",
-		"kuerzelKunde": "2.06",
-		"description": "Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2019 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Deren Anteil an der Bevölkerung hat in diesem Zeitraum leicht zugenommen.",
+		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"description": "Religionszugehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.TRUN.08056",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.06",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2010 bis 2019 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Ihr Anteil an der Bevölkerung hat in diesem Zeitraum zugenommen, im Wohnviertel Klybeck von 76% auf 83% und im Wohnviertel Kleinhüningen von 76% auf 82%. Die zweitgrösste Gruppe bildeten Angehörige der römisch-katholischen Kirche. Ihr Anteil an der Bevölkerung hat zwischen 2010 und 2019 abgenommen, im Wohnviertel Klybeck von 13% auf 10% und im Wohnviertel Kleinhüningen von 13% auf 11%. In der Stadt Basel ist dieser Anteil im selben Zeitraum von 16% auf 12% gesunken.",
-		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: evangelisch-reformiert, römisch-katholisch, christkatholisch, israelitisch.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8626"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8056,
-		"chart-id": 8056,
-		"filter": "",
+		"aktualisierungsdatum": "2024-08-22T10:03:37",
 		"id": 8056
 	},
 	{
