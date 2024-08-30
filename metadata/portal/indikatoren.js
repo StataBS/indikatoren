@@ -35333,7 +35333,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-22T10:03:35",
+		"aktualisierungsdatum": "2024-08-30T09:10:23",
 		"id": 8995
 	},
 	{
