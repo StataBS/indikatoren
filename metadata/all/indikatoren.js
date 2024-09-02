@@ -3735,6 +3735,44 @@ var indikatoren = [
 		"id": 12602
 	},
 	{
+		"template": "mappie001",
+		"data-id": 12668,
+		"chart-id": 12668,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Übersichtskarte Gemeinden und Wohnviertel",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Übersichtskarte Gemeinden und Wohnviertel",
+		"thema": "",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "1.01",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-09-02T01:50:52",
+		"id": 12668
+	},
+	{
 		"template": "template001",
 		"data-id": 12713,
 		"chart-id": 12713,

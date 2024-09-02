@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Leerwohnungsquote (%)",
+      "name": "Gemeinde Wohnviertel",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6555,194 +6555,193 @@
       ],
       "states": {
         "hover": {
-          "enabled": false,
-          "borderColor": "#BADA55",
-          "brightness": 0
+          "enabled": true,
+          "color": "#2a9749",
+          "borderColor": "#ddecde"
         }
       },
       "tooltip": {
-        "pointFormatter": function(){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b><br/>';
+        "headerFormat": undefined,
+        "pointFormatter": function () {
+						return this.Wohnviertel_Id + ': <b>' + this.properties.LIBGEO + '</b>';
 					}
       },
       "data": [
         [
           1,
-          1.31
+          1
         ],
         [
           2,
-          1.18
+          1
         ],
         [
           3,
-          0.83
+          1
         ],
         [
           4,
-          0.79
+          1
         ],
         [
           5,
-          0.85
+          1
         ],
         [
           6,
-          0.79
+          1
         ],
         [
           7,
-          0.42
+          1
         ],
         [
           8,
-          0.32
+          1
         ],
         [
           9,
-          0.77
+          1
         ],
         [
           10,
-          0.62
+          1
         ],
         [
           11,
-          0.79
+          1
         ],
         [
           12,
-          0.95
+          1
         ],
         [
           13,
-          1.09
+          1
         ],
         [
           14,
-          0.35
+          1
         ],
         [
           15,
-          0.56
+          1
         ],
         [
           16,
-          1.26
+          1
         ],
         [
           17,
-          0.82
+          1
         ],
         [
           18,
-          0.99
+          1
         ],
         [
           19,
-          1.17
+          1
         ],
         [
           20,
-          0.83
+          2
         ],
         [
           30,
-          0.18
+          3
         ]
       ]
     },
     {
       "visible": false,
-      "showInLegend": false,
-      "colorAxis": false,
       "data": [
         [
           "Altstadt Grossbasel",
-          21
+          1
         ],
         [
           "Vorstädte",
-          41
+          1
         ],
         [
           "Am Ring",
-          55
+          1
         ],
         [
           "Breite",
-          44
+          1
         ],
         [
           "St. Alban",
-          60
+          1
         ],
         [
           "Gundeldingen",
-          92
+          1
         ],
         [
           "Bruderholz",
-          19
+          1
         ],
         [
           "Bachletten",
-          24
+          1
         ],
         [
           "Gotthelf",
-          33
+          1
         ],
         [
           "Iselin",
-          64
+          1
         ],
         [
           "St. Johann",
-          84
+          1
         ],
         [
           "Altstadt Kleinbasel",
-          16
+          1
         ],
         [
           "Clara",
-          29
+          1
         ],
         [
           "Wettstein",
-          12
+          1
         ],
         [
           "Hirzbrunnen",
-          28
+          1
         ],
         [
           "Rosental",
-          53
+          1
         ],
         [
           "Matthäus",
-          74
+          1
         ],
         [
           "Klybeck",
-          39
+          1
         ],
         [
           "Kleinhüningen",
-          18
+          1
         ],
         [
           "Riehen",
-          90
+          2
         ],
         [
           "Bettingen",
-          1
+          3
         ]
       ],
-      "name": "Anzahl leerstehende Wohnungen"
+      "name": "Gemeinde Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -7175,7 +7174,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": undefined,
     "height": 428,
     "spacingBottom": 55,
     "style": {
@@ -7183,120 +7182,129 @@
     },
     "type": "map",
     "inverted": false,
+    "marginLeft": -300,
     "events": {
       "load": function (e) {
-	            	
-	            	this.credits.element.onclick = function() {};
 
-	                var chart = this;
-	                var fn = this.userOptions.customFunctions;
-	                //define new Highcharts template "mappie"
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
-					
-					//pie diameters in px
-					var maxPieDiameter = 25; 
 
-					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
+
+					//pie diameters in px
+					//var maxPieDiameter = 40; //20
+
+					//configuration of categorical pie sizes
+					var pieSizeCatConfig =
+						[
+							{
+								name: " < \u00A0\u00A0 300",
+								from: 0,
+								to: 299,
+								diameter: 0.000001
+							},
+						];
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
-	                
-					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
-						return {
-	                        sizeFormatter: function () {
-	                            var yAxis = chart.yAxis[0];
-	                            var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-	                            //size of pies depend on zoom level
-	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
-								return size;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
-	                            }
-	                        }
-	                    };
+					var color = function (value) {
+						return (value >= 0) ? '#aaa' : '#aaa';
 					};
-					var pieSizeCatConfig;
+
+					//define chart-specific details
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
+						return {
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
+								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+							},
+							tooltip: {
+								headerFormat: undefined,
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.TXT + ': <b>' + correspondingMapSeriesItem.properties.LIBGEO + '</b>';
+								}
+							},
+							"states": {
+								"hover": {
+									"enabled": false,
+								}
+							},
+						};
+					};
+
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-	                
-					//pie values in legend
-	                var minValueInLegend = 10; 
-	                var maxValueInLegend = 70; 
-	                
-                	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
-	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
 
-					fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
-	                
-	                var zoomableLabels = [];
-	                zoomableLabels.push({
-	                	chart: chart, 
-	                	text: Highcharts.numberFormat((minValueInLegend),0,","," "), 
-	                	x: 330, 
-	                	y: 245, 
-	                	cssClass: 'pieLegendRecalculateOnZoom', 
-	                	useHtml: false, 
-	                	initialValue: minValueInLegend,
-	                	align: 'right',
-	                	legendLabelZoomFormatter: function(value){
-	                		return Highcharts.numberFormat((value), 1, ",", " ");
-	                	},					
-	                }); 
-	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
-	                //copy first label but overwrite some properties
-	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
-	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
-	                	y: 270,
-	                	initialValue: maxValueInLegend,
-	                }));
-	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);					
-					
-					//fn.addLegendSquare(chart, 270, 250, 10, '');
-					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
-					fn.addLegendLabelbold(chart, 'Anzahl leerstehende Wohnungen', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 300);
-					
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart); 
-					
-					chart.update(
-					{
-						xAxis: {
-				    		events: {
-								//recalculate and hide svg elements on zoom
-								//only care about zoom events, not pan
-								afterSetExtremes: function(e){
-									if (e.trigger != 'pan'){
-										var fn = this.chart.userOptions.customFunctions;
-										fn.recalculateOnZoom(e, zoomableLabels);
-									}
-								}
-				    		}
+					//console.log(choroplethSeries);
+					var xbase = chart.chartWidth - 200;
+					var ybase = 10;
+					var yoff = 0;
+					var xoff = 0;
+					if (chart.chartHeight > 500) {
+						xbase = 20;
+						ybase = 410;
+					}
+					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", xbase, ybase, undefined, false, 'left');
+					for (let i = 0; i < pieSizeSeries.data.length; i++) {
+						if (pieSizeSeries.data[i].Wohnviertel_Id < 10) xoff = 8; else xoff = 0;
+						if (chart.chartHeight > 500 && pieSizeSeries.data[i].Wohnviertel_Id == 13) {
+							ybase = ybase - 12 * 16;
+							xbase = 200;
 						}
-					});
-					
-	            }
+						if (pieSizeSeries.data[i].Wohnviertel_Id == 20) {
+							fn.addLegendLabel(chart, "<b>Gemeinden</b>", xbase + xoff, ybase + 20 + i * 16 + 5, undefined, false, 'left');
+							yoff = 25;
+						}
+						//console.log(pieSizeSeries.data[i]);
+						fn.addLegendLabel(chart, pieSizeSeries.data[i].Wohnviertel_Id + ': ' + pieSizeSeries.data[i].properties.LIBGEO,
+							xbase + xoff, ybase + 20 + i * 16 + yoff, undefined, false, 'left');
+					}
+
+					/*
+						//Add manually drawn legend
+						//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
+						//fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
+						fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 540, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+						fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 765, 270, undefined, true);
+	
+						fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
+						fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#662673');
+						fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#662673');
+						fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 828, 320, undefined, false, 'right');
+						fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, false, 'right');
+						fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 829, 365, undefined, false, 'right');
+	
+						//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+						//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+						//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+						//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+	
+						//make sure pies are hidden upon click onto pie legend
+						fn.AddPieLegendClickHandler(chart, '#cccccc');
+					*/
+				}
     },
-    "renderTo": "container-6379"
+    "renderTo": "container-12668"
   },
   "plotOptions": {
     "series": {
       "states": {
         "inactive": {
           "opacity": 1
+        }
+      }
+    },
+    "pie": {
+      "dataLabels": {
+        "enabled": true,
+        "color": "#ffffff",
+        "style": {
+          "fontWeight": "normal"
         }
       }
     }
@@ -7309,7 +7317,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungen nach Gemeinde und Wohnviertel"
+    "text": "Übersichtskarte Gemeinden und Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -7318,7 +7326,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2024",
+    "text": "",
     "align": "left"
   },
   "credits": {
@@ -7334,7 +7342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2024"
   },
   "colorAxis": {
     "min": 0,
@@ -7346,16 +7354,24 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#0A3B19"
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "from": 0,
+        "to": 1,
+        "color": "#7bb589"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "color": "#63a975"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -7367,7 +7383,7 @@
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "align": "right",
     "floating": true,
     "itemStyle": {
@@ -7381,10 +7397,8 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "12px"
-      },
-      "text": ""
-    },
-    "y": 5
+      }
+    }
   },
   "xAxis": {
     "events": {
@@ -7424,7 +7438,7 @@
 					}
       }
     },
-    "filename": "6379"
+    "filename": "12668"
   },
   "customFunctions": {
     "hideOnZoom": function (e, selector) {
@@ -7849,5 +7863,24 @@
 				chart.exportChart({ type: type || 'image/png' });
 				Highcharts.Chart.prototype.getSVG = origFn;
 			}
+  },
+  "responsive": {
+    "rules": [
+      {
+        "condition": {
+          "maxWidth": 796
+        },
+        "chartOptions": {
+          "chart": {
+            "height": 680,
+            "marginLeft": 0,
+            "marginBottom": 300
+          },
+          "legend": {
+            "enabled": false
+          }
+        }
+      }
+    ]
   }
 }
