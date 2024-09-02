@@ -34656,45 +34656,43 @@ var indikatoren = [
 		"id": 8456
 	},
 	{
+		"template": "line001",
+		"data-id": 8457,
+		"chart-id": 8457,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8960
+		],
 		"title": "Geschlechterverhältnis im Grossen Rat",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.17.3.08457",
-		"kuerzelKunde": "GZ7",
-		"description": "Geschlechterverhältnis im Grossen Rat",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
+		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-25T23:35:43.4343",
+		"description": "Geschlechterverhältnis im Grossen Rat",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kuerzel": "I.17.PTRA.08457",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ9",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
-		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_509",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_507",
-		"parentId": null,
-		"children": [
-			"8960"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8457,
-		"chart-id": 8457,
-		"filter": "",
+		"aktualisierungsdatum": "2024-09-02T10:15:45",
 		"id": 8457
 	},
 	{
@@ -35505,7 +35503,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-23T01:27:14",
+		"aktualisierungsdatum": "2024-09-02T10:15:43",
 		"id": 9022
 	},
 	{
@@ -35543,7 +35541,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-23T01:27:16",
+		"aktualisierungsdatum": "2024-09-02T10:15:44",
 		"id": 9023
 	},
 	{

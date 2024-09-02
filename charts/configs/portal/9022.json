@@ -4891,63 +4891,63 @@
         ],
         [
           17,
-          -61
-        ],
-        [
-          18,
-          -52
-        ],
-        [
-          19,
-          -52
-        ],
-        [
-          20,
-          -53
-        ],
-        [
-          21,
-          -51
-        ],
-        [
-          22,
-          -49
-        ],
-        [
-          23,
-          -40
-        ],
-        [
-          24,
-          -51
-        ],
-        [
-          25,
-          -56
-        ],
-        [
-          26,
           -60
         ],
         [
+          18,
+          -51
+        ],
+        [
+          19,
+          -51
+        ],
+        [
+          20,
+          -52
+        ],
+        [
+          21,
+          -50
+        ],
+        [
+          22,
+          -48
+        ],
+        [
+          23,
+          -39
+        ],
+        [
+          24,
+          -50
+        ],
+        [
+          25,
+          -55
+        ],
+        [
+          26,
+          -59
+        ],
+        [
           27,
-          -56
+          -55
         ],
         [
           28,
-          -63
+          -62
         ],
         [
           29,
-          -55
+          -54
         ],
         [
           30,
-          -55
+          -54
         ],
         [
           31,
-          null
+          -59
         ],
         [
           32,
@@ -5111,7 +5111,7 @@
         ],
         [
           17,
-          -8
+          -7
         ],
         [
           18,
@@ -5167,7 +5167,7 @@
         ],
         [
           31,
-          null
+          -4
         ],
         [
           32,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
