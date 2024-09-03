@@ -9,38 +9,50 @@
         ],
         [
           2011,
-          103.1
+          106.3
         ],
         [
           2012,
-          110.9
+          108.8
         ],
         [
           2013,
-          114.3
+          108.9
         ],
         [
           2014,
-          117.3
+          109.9
+        ],
+        [
+          2015,
+          113.9
+        ],
+        [
+          2016,
+          116.7
+        ],
+        [
+          2017,
+          121.4
         ],
         [
           2018,
-          132.3
+          126.3
         ],
         [
           2019,
-          139.2
+          126.4
         ],
         [
           2020,
-          139.9
+          126
         ],
         [
           2021,
-          140.2
+          126.6
         ]
       ],
-      "name": "Index Medianprämie"
+      "name": "Index mittlere Prämie"
     },
     {
       "color": "rgb(147,63,141)",
@@ -66,6 +78,18 @@
           102
         ],
         [
+          2015,
+          102.2
+        ],
+        [
+          2016,
+          102.6
+        ],
+        [
+          2017,
+          103.1
+        ],
+        [
           2018,
           103.3
         ],
@@ -82,7 +106,7 @@
           105.9
         ]
       ],
-      "name": "Index Median Einkommen"
+      "name": "Index Median Reineinkommen"
     }
   ],
   "chart": {
@@ -209,7 +233,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

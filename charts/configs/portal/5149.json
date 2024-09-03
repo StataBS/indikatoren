@@ -63,6 +63,10 @@
         [
           2022,
           8.8
+        ],
+        [
+          2023,
+          9.1
         ]
       ],
       "name": "Geburtenziffer"
@@ -130,6 +134,10 @@
         [
           2022,
           10.6
+        ],
+        [
+          2023,
+          10
         ]
       ],
       "name": "Sterbeziffer"
@@ -252,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
