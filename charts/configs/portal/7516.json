@@ -146,7 +146,7 @@
         ],
         [
           "Aug",
-          undefined
+          48675
         ],
         [
           "Sep",
@@ -202,7 +202,7 @@
         ],
         [
           "Aug",
-          undefined
+          95127
         ],
         [
           "Sep",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
