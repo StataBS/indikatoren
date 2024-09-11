@@ -183,7 +183,9 @@
       "formatter": function(){
           return this.value*100 + "%";
         }
-    }
+    },
+    "tickInterval": 0.1,
+    "max": 0.5
   },
   "legend": {
     "symbolRadius": 0,
@@ -215,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.9.2024"
   },
   "tooltip": {
     "pointFormatter": function(){

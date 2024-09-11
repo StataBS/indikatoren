@@ -59,10 +59,14 @@ global Highcharts
         },
       },
     yAxis: {
+      tickInterval: 0.1,
+      //tickAmount: 6,
+      max: 0.5,
       labels: {
         formatter: function(){
           return this.value*100 + "%";
         },
+
         style: {
           color: "#000000",
         },
