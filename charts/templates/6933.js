@@ -14,7 +14,7 @@ global $
       maxPadding: 0,
       labels: {
         y: 3,
-        format: "{value:,.0f}",
+        format: "{value:,.0f}%",
       },
       opposite: false,
       reversedStacks: false,
@@ -160,7 +160,7 @@ global $
             },
           },
         },
-        stacking: "normal",
+        stacking: "percent",
         lineWidth: 1,
         fillOpacity: 1,
       }

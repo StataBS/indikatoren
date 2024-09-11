@@ -8,6 +8,7 @@ var indikatorensetNames = [
 	"Nachhaltigkeit",
 	"Nachhaltigkeit (Print)",
 	"Befragungen",
+	"Stadtteilmonitoring St. Johann",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",
