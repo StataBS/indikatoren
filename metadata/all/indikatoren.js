@@ -42545,7 +42545,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "150 271 Logiernächte wurden im Juli 2024 in den Basler Hotelbetrieben gebucht, 4 252 bzw. 2,9% mehr als im Juni. Im Vergleich zum Juli 2023 entspricht dies einer Zunahme um 4,5% bzw. 6 432 Übernachtungen. Die inländischen Gäste buchten 55 587 Logiernächte (+6,7%), die Gäste aus dem Ausland 94 684 Übernachtungen (+3,2%).",
+		"lesehilfe": "143 802 Logiernächte wurden im August 2024 in den Basler Hotelbetrieben gebucht, 6 469 bzw. 4,3% weniger als im Juli. Im Vergleich zum August 2023 entspricht dies einer Zunahme um 8,0% bzw.10 653 Übernachtungen. Die inländischen Gäste buchten 48 675 Logiernächte (+9,9%), die Gäste aus dem Ausland 95 127 Übernachtungen (+7,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42571,7 +42571,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:25:57",
+		"aktualisierungsdatum": "2024-09-11T05:38:07",
 		"id": 7516
 	},
 	{
@@ -42582,7 +42582,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
+		"subtitle": "Basel-Stadt, August",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -42609,7 +42609,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:25:58",
+		"aktualisierungsdatum": "2024-09-11T05:38:09",
 		"id": 7517
 	},
 	{
