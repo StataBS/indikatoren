@@ -38,6 +38,44 @@ var indikatorensetData = [
 		"id": 4947
 	},
 	{
+		"template": "template001",
+		"data-id": 4948,
+		"chart-id": 4948,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Pflegetage in baselstädtischen Spitälern",
+		"subtitle": "nach Hauptbereich",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2023 betrug im Hauptbereich Akutsomatik 522 448.",
+		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt. Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Pflegetage in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.4948",
+		"kennzahlenset": "Gesundheit",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-09-17T09:43:24",
+		"id": 4948
+	},
+	{
 		"template": "line001",
 		"data-id": 6991,
 		"chart-id": 6991,
