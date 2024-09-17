@@ -283,7 +283,7 @@ id | visible | visibleInPortal | indikatorenset
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
 4947 | true | true | Gesundheit
-4948 | true | true | 
+4948 | true | true | Gesundheit
 4953 | false |  | 
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan

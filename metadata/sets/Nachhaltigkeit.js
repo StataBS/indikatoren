@@ -765,8 +765,8 @@ var indikatorensetData = [
 		],
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.05188",
+		"unterthema": "Strafvollzug",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW9",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -778,7 +778,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:37",
+		"aktualisierungsdatum": "2024-09-17T09:43:25",
 		"id": 5188
 	},
 	{

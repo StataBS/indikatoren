@@ -11068,8 +11068,8 @@
 		"children": [],
 		"title": "Pflegetage in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2022 betrug im Hauptbereich Akutsomatik 530 307.",
-		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2023 betrug im Hauptbereich Akutsomatik 522 448.",
+		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt. Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
@@ -11083,7 +11083,7 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.4948",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -11095,7 +11095,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:41",
+		"aktualisierungsdatum": "2024-09-17T09:43:24",
 		"id": 4948
 	},
 	{
