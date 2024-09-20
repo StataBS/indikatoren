@@ -1,240 +1,34 @@
-{
-  "series": [
-    {
-      "color": "rgb(103,39,115)",
-      "index": 2,
-      "legendIndex": 0,
-      "data": [
-        [
-          "Ausländer\u002F-innen",
-          35076.912384
-        ],
-        [
-          "Eingebürgerte Schweizer\u002F-innen",
-          14734.790437
-        ],
-        [
-          "Schweizer\u002F-innen seit Geburt",
-          23018.973695
-        ]
-      ],
-      "name": "Sekundarstufe I",
-      "turboThreshold": 0
-    },
-    {
-      "color": "rgb(180,117,171)",
-      "index": 1,
-      "legendIndex": 1,
-      "data": [
-        [
-          "Ausländer\u002F-innen",
-          27063.276335
-        ],
-        [
-          "Eingebürgerte Schweizer\u002F-innen",
-          22467.479522
-        ],
-        [
-          "Schweizer\u002F-innen seit Geburt",
-          72646.37194
-        ]
-      ],
-      "name": "Sekundarstufe II",
-      "turboThreshold": 0
-    },
-    {
-      "color": "rgb(231,207,226)",
-      "index": 0,
-      "legendIndex": 2,
-      "data": [
-        [
-          "Ausländer\u002F-innen",
-          51687.512559
-        ],
-        [
-          "Eingebürgerte Schweizer\u002F-innen",
-          17492.401431
-        ],
-        [
-          "Schweizer\u002F-innen seit Geburt",
-          58413.358056
-        ]
-      ],
-      "name": "Tertiärstufe",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "rotation": 0,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "width": 1
-      },
-      "formatter": function () {
-          return this.value.replace("Eingebürgerte","Eingebürgerte<br/>").replace("innen seit","innen<br>seit ");
-        }
-    }
-  },
-  "chart": {
-    "type": "column",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px"
-    },
-    "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for inverted charts, change labels x/y-offset
-					if (this.yAxis[0].horiz != true) {
-						this.update({
-							yAxis: {
-								labels: {
-									y: 3,
-									x: -5
-								}
-							}
-						});
-					}
-
-					//add top-margin if legend is right to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'vertical') {
-						this.update({
-							chart: {
-								marginTop: 6
-							}
-						});
-					}
-					//add right-margin if legend is top to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'horizontal') {
-						this.update({
-							chart: {
-								marginRight: 16
-							}
-						});
-					}
-
-					//square legends must be placed 3 pixels more to the left than lines, don't know why
-					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update({
-							legend: {
-								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-							}
-						});
-					}
-				}
-    },
-    "inverted": true,
-    "marginRight": 10,
-    "renderTo": "container-6673",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "percent",
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    },
-    "column": {
-      "groupPadding": 0
-    }
-  },
-  "title": {
-    "text": "Bevölkerung nach höchster abgeschlossener Ausbildung"
-  },
-  "subtitle": {
-    "text": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018"
-  },
-  "yAxis": {
-    "tickInterval": 20,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "text": null
-    },
-    "labels": {
-      "y": 18,
-      "format": "{value}%",
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "rotation": 0
-    }
-  },
-  "legend": {
-    "enabled": true,
-    "useHTML": true,
-    "layout": "horizontal",
-    "align": "left",
-    "verticalAlign": "top",
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 4,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
-    },
-    "labelFormatter": function () {
-				return this.name.replace('/ ', '/<br/>');
-			},
-    "itemDistance": 10,
-    "symbolPadding": 1
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
-  },
-  "credits": {
-    "enabled": true,
-    "position": {
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "navigation": {
-    "buttonOptions": {
-      "enabled": false
-    }
-  },
-  "exporting": {
-    "filename": "6673"
-  }
+﻿{"id":6673,
+"parentId":6091,
+"children":[],
+"template":"befragungen001_print",
+"title":"Bevölkerung nach höchster abgeschlossener Ausbildung",
+"subtitle":"Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2016 bis 2020",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.15.7.06673",
+"kuerzelKunde":"B4-3",
+"description":"Bevölkerung nach höchster abgeschlossener Ausbildung",
+"thema":"15 Bildung",
+"unterthema":"Bildungsabschlüsse",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:15:00.000",
+"stufe1":"Kapitel B Schule und Bildung",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (46,5%) und Sekundarstufe I-Ausbildung (29,4%) als Schweizer (sowohl hier geborene wie eingebürgerte).",
+"erlaeuterungen":"Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"02_00_00_00_00_403",
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6673, 
+"chart-id":6673, 
+"filter":""
 }

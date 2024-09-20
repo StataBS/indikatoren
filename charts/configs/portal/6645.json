@@ -1,177 +1,34 @@
-{
-  "series": [
-    {
-      "name": "Anzahl",
-      "data": [
-        [
-          "Deutschland",
-          16380
-        ],
-        [
-          "Italien",
-          8651
-        ],
-        [
-          "Türkei",
-          6056
-        ],
-        [
-          "EU-17 + EFTA",
-          15983
-        ],
-        [
-          "EU-Ost",
-          4462
-        ],
-        [
-          "Balkan",
-          7962
-        ],
-        [
-          "Mittel- und Südamerika",
-          1831
-        ],
-        [
-          "Arabische Länder",
-          1625
-        ],
-        [
-          "Afrikanische Länder",
-          1889
-        ],
-        [
-          "Übrige Länder",
-          8476
-        ]
-      ],
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
-  "chart": {
-    "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-              }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "pie",
-    "renderTo": "container-6645",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "pie": {
-      "borderWidth": 0,
-      "allowPointSelect": true,
-      "cursor": true,
-      "showInLegend": true,
-      "dataLabels": {
-        "enabled": false,
-        "format": "{point.percentage:.1f}%",
-        "distance": 1,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
-      },
-      "colors": [
-        "#672773",
-        "#007a2f ",
-        "#fabd24",
-        "#b475ab",
-        "#71a3b5",
-        "#b9cfd7",
-        "#ff8028 ",
-        "#73ba7c",
-        "#9f7c5a",
-        "#999999"
-      ]
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt, 2019",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "legend": {
-    "padding": 0,
-    "margin": 0,
-    "itemMarginBottom": 2,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "useHTML": true,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
-    "symbolRadius": 0,
-    "style": {
-      "fontSize": "12px"
-    },
-    "labelFormatter": function(){
-		    return this.name.replace("und", "u.");
-		}
-  },
-  "exporting": {
-    "filename": "6645"
-  }
+﻿{"id":6645,
+"parentId":6060,
+"children":[],
+"template":"pie001_print",
+"title":"Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+"subtitle":"Basel-Stadt, 2022",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.01.1.06645",
+"kuerzelKunde":"A1-6",
+"description":"Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:14:38.3838",
+"stufe1":"Kapitel A Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Ende 2022 besassen 21,8% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 78% jene eines europäischen Staates.",
+"erlaeuterungen":"",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"01_00_00_00_00_106",
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6645, 
+"chart-id":6645, 
+"filter":""
 }

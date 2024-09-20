@@ -1,302 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#cd9c00",
-      "data": [
-        [
-          2000,
-          27.55605869754
-        ],
-        [
-          2001,
-          28.02236496724
-        ],
-        [
-          2002,
-          28.86248238828
-        ],
-        [
-          2003,
-          29.43071794299
-        ],
-        [
-          2004,
-          29.93399760184
-        ],
-        [
-          2005,
-          30.4273376613
-        ],
-        [
-          2006,
-          31.13765424192
-        ],
-        [
-          2007,
-          31.26158862769
-        ],
-        [
-          2008,
-          31.72437841436
-        ],
-        [
-          2009,
-          32.45389249914
-        ],
-        [
-          2010,
-          32.64384000673
-        ],
-        [
-          2011,
-          33.36960369854
-        ],
-        [
-          2012,
-          33.87125954337
-        ],
-        [
-          2013,
-          34.56070070961
-        ],
-        [
-          2014,
-          35.00720208071
-        ],
-        [
-          2015,
-          35.28680959818
-        ],
-        [
-          2016,
-          35.72444830126
-        ],
-        [
-          2017,
-          35.98709469918
-        ],
-        [
-          2018,
-          36.4188838287
-        ],
-        [
-          2019,
-          36.58305348616
-        ]
-      ],
-      "name": "Ausländeranteil"
-    }
-  ],
-  "chart": {
-    "events": {
-      "load": function () {
-          this.credits.element.onclick = function () { };
-
-          //add rigt-margin if legend is top to allow space for axis-labels
-          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-            this.update({
-              chart: {
-                marginRight: 15
-              }
-            });
-          }
-
-          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
-            this.update({
-              chart: {
-                marginTop: 7
-              }
-            });
-          }
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            //square legends must be placed 3 pixels more to the left that lines, don't know why
-            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                }
-              }
-            );
-          }
-
-          if (this.yAxis[1]) {
-            this.update({
-                yAxis: [{
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                },
-                {
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                }]
-            });
-        }
-
-        }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "line",
-    "marginRight": 15,
-    "renderTo": "container-6642",
-    "spacingBottom": 12
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Ausländeranteil"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": 10
-      },
-      "text": ""
-    },
-    "labels": {
-      "y": 3,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "tickAmount": 5
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
-      },
-      "rotation": 0
-    },
-    "tickLength": 0,
-    "tickPositioner": function () {
-        var interval = 2,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
-      }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal"
-    },
-    "padding": 0
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
-  },
-  "exporting": {
-    "enabled": false,
-    "filename": "6642"
-  }
+﻿{"id":6642,
+"parentId":6057,
+"children":[],
+"template":"line001_print",
+"title":"Ausländeranteil",
+"subtitle":"Basel-Stadt",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.01.1.06642",
+"kuerzelKunde":"A1-1",
+"description":"Ausländeranteil",
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:14:34.3434",
+"stufe1":"Kapitel A Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von 2003 bis 2022 stieg der Anteil der ausländischen Personen an der Bevölkerung kontinuerlich von 29,4% auf 37,9%.",
+"erlaeuterungen":"",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"01_00_00_00_00_101",
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6642, 
+"chart-id":6642, 
+"filter":""
 }
