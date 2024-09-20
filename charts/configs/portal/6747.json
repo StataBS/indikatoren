@@ -1,292 +1,34 @@
-{
-  "series": [
-    {
-      "name": "Anteil",
-      "data": [
-        [
-          "Schweiz",
-          26.14
-        ],
-        [
-          "Deutschland",
-          13.79
-        ],
-        [
-          "Italien",
-          55.32
-        ],
-        [
-          "Türkei",
-          74.51
-        ],
-        [
-          "EU-17 + EFTA",
-          61.45
-        ],
-        [
-          "EU-Ost",
-          73.08
-        ],
-        [
-          "Balkan",
-          90.7
-        ],
-        [
-          "Mittel- und Südamerika",
-          60
-        ],
-        [
-          "Arabische Länder",
-          85.19
-        ],
-        [
-          "Afrikanische Länder",
-          72.73
-        ],
-        [
-          "Übrige Länder",
-          76.36
-        ]
-      ],
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "x": -5,
-      "y": 3,
-      "formatter": function () {
-          return this.value.replace("und", "u.");
-        }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
-  "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-                    //add right-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-                        this.update({
-                            chart: {
-                                marginRight: 15
-                            }
-                        });
-                    }
-                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
-                        this.update({
-                            chart: {
-                                marginTop: 7
-                            }
-                        });
-                    }
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                            }
-                        });
-                    }
-
-                    // format second y-Axis (if exists)
-                    if (this.yAxis[1]) {
-                        this.update({
-                            yAxis: [{
-                                gridLineColor: '#B9CFD7',
-                                gridLineWidth: 0.5,
-                                lineColor: '#B9CFD7',
-                                title: {
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    },
-                                    text: ''
-                                },
-                                labels: {
-                                    y: 3,
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    }
-                                }
-                            },
-                            {
-                                gridLineColor: '#B9CFD7',
-                                gridLineWidth: 0.5,
-                                lineColor: '#B9CFD7',
-                                title: {
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    },
-                                    text: ''
-                                },
-                                labels: {
-                                    y: 3,
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    }
-                                }
-                            }]
-                        });
-                    }
-                }
-    },
-    "type": "column",
-    "inverted": true,
-    "marginRight": 15,
-    "marginLeft": 117,
-    "renderTo": "container-6747",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "color": "#000000",
-          "fontFamily": "Arial",
-          "fontWeight": "normal"
-        }
-      }
-    },
-    "column": {
-      "colorByPoint": true
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "bold"
-    },
-    "align": "left",
-    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "fontFamily": "Arial"
-    },
-    "text": " nach Staatsangehörigkeit, Stadt Basel, 2019",
-    "align": "left"
-  },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "text": ""
-    },
-    "labels": {
-      "y": 15,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "max": 100,
-    "tickInterval": 20
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal"
-    },
-    "enabled": false
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "dataLabels": {
-    "enabled": false,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000"
-    }
-  },
-  "colors": [
-    "#b00000",
-    "#672773",
-    "#007a2f",
-    "#fabd24",
-    "#b475ab",
-    "#71a3b5",
-    "#b9cfd7",
-    "#ff8028",
-    "#73ba7c",
-    "#9f7c5a",
-    "#999999"
-  ],
-  "exporting": {
-    "filename": "6747"
-  }
+﻿{"id":6747,
+"parentId":6515,
+"children":[],
+"template":"template001_print",
+"title":"Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
+"subtitle":" nach Staatsangehörigkeit, Stadt Basel, 2022",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.15.6.06747",
+"kuerzelKunde":"B6-1",
+"description":"Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
+"thema":"15 Bildung",
+"unterthema":"Bildungsniveau",
+"raeumlicheGliederung":["Gemeinde"],
+"aktualisierungsdatum":"2023-01-02T08:15:02.022",
+"stufe1":"Kapitel B Schule und Bildung",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von den Kindern, die im August 2023 in den Kindergarten eintreten, sind 45% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 91% der Kinder aus dem Balkan und 85% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern.",
+"erlaeuterungen":"Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"02_00_00_00_00_601",
+"renderLink":[],
+"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6747, 
+"chart-id":6747, 
+"filter":""
 }

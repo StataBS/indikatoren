@@ -1,299 +1,34 @@
-{
-  "series": [
-    {
-      "name": "FlächeproPerson",
-      "data": [
-        [
-          "Schweiz",
-          45.21
-        ],
-        [
-          "Deutschland",
-          42.76
-        ],
-        [
-          "Italien",
-          36.22
-        ],
-        [
-          "Türkei",
-          26.51
-        ],
-        [
-          "EU-17 und EFTA",
-          37.03
-        ],
-        [
-          "EU-Ost",
-          33.02
-        ],
-        [
-          "Balkan",
-          24.59
-        ],
-        [
-          "Mittel- und Südamerika",
-          33.43
-        ],
-        [
-          "Arabische Länder",
-          24.99
-        ],
-        [
-          "Afrikanische Länder",
-          25.64
-        ],
-        [
-          "Übrige Länder",
-          33.58
-        ]
-      ],
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "padding": -100,
-      "x": -5,
-      "y": 3,
-      "step": 1,
-      "rotation": 0,
-      "formatter": function () {
-          return this.value.replace('und EFTA', '+ EFTA').replace("und","u.");
-        }
-    },
-    "tickLength": 0
-  },
-  "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-                    //add right-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-                        this.update({
-                            chart: {
-                                marginRight: 15
-                            }
-                        });
-                    }
-                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
-                        this.update({
-                            chart: {
-                                marginTop: 7
-                            }
-                        });
-                    }
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                            }
-                        });
-                    }
-
-                    // format second y-Axis (if exists)
-                    if (this.yAxis[1]) {
-                        this.update({
-                            yAxis: [{
-                                gridLineColor: '#B9CFD7',
-                                gridLineWidth: 0.5,
-                                lineColor: '#B9CFD7',
-                                title: {
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    },
-                                    text: ''
-                                },
-                                labels: {
-                                    y: 3,
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    }
-                                }
-                            },
-                            {
-                                gridLineColor: '#B9CFD7',
-                                gridLineWidth: 0.5,
-                                lineColor: '#B9CFD7',
-                                title: {
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    },
-                                    text: ''
-                                },
-                                labels: {
-                                    y: 3,
-                                    style: {
-                                        fontSize: '10px',
-                                        color: "#000000"
-                                    }
-                                }
-                            }]
-                        });
-                    }
-                }
-    },
-    "type": "column",
-    "inverted": true,
-    "renderTo": "container-6717",
-    "spacingBottom": 22
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "color": "#000000",
-          "fontFamily": "Arial",
-          "fontWeight": "normal"
-        }
-      }
-    },
-    "column": {
-      "colorByPoint": true
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "bold"
-    },
-    "align": "left",
-    "text": "Mittlere Wohnfläche pro Person"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "fontFamily": "Arial"
-    },
-    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2019",
-    "align": "left"
-  },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "text": ""
-    },
-    "labels": {
-      "y": 18,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 10
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal"
-    },
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "x": 35
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "dataLabels": {
-    "enabled": false,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000"
-    }
-  },
-  "colors": [
-    "#b00000",
-    "#672773",
-    "#007a2f",
-    "#fabd24",
-    "#b475ab",
-    "#71a3b5",
-    "#b9cfd7",
-    "#ff8028",
-    "#73ba7c",
-    "#9f7c5a",
-    "#999999"
-  ],
-  "tooltip": {
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
-  "exporting": {
-    "filename": "6717"
-  }
+﻿{"id":6717,
+"parentId":6476,
+"children":[],
+"template":"template001_print",
+"title":"Mittlere Wohnfläche pro Person",
+"subtitle":"in m² nach Staatsangehörigkeit, Basel-Stadt, 2022",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.09.1.06717",
+"kuerzelKunde":"D2-2",
+"description":"Mittlere Wohnfläche pro Person",
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Gebäude und Wohnungen",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:15:29.2929",
+"stufe1":"Kapitel D Politik und Zusammenleben",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
+"erlaeuterungen":"Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"04_00_00_00_00_202",
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6717, 
+"chart-id":6717, 
+"filter":""
 }

@@ -1,302 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#661200",
-      "data": [
-        [
-          "15-19",
-          -1.1
-        ],
-        [
-          "20-24",
-          -2.1
-        ],
-        [
-          "25-29",
-          -2.1
-        ],
-        [
-          "30-34",
-          -2
-        ],
-        [
-          "35-39",
-          -1.9
-        ],
-        [
-          "40-44",
-          -1.3
-        ],
-        [
-          "45-49",
-          -1.6
-        ],
-        [
-          "50-54",
-          -1.5
-        ],
-        [
-          "55-59",
-          -1.2
-        ],
-        [
-          "60-64",
-          -2.1
-        ]
-      ],
-      "name": "Männer",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "data": [
-        [
-          "15-19",
-          1.9
-        ],
-        [
-          "20-24",
-          1.5
-        ],
-        [
-          "25-29",
-          1.9
-        ],
-        [
-          "30-34",
-          1.9
-        ],
-        [
-          "35-39",
-          1.7
-        ],
-        [
-          "40-44",
-          1.5
-        ],
-        [
-          "45-49",
-          1.3
-        ],
-        [
-          "50-54",
-          1.2
-        ],
-        [
-          "55-59",
-          1.2
-        ],
-        [
-          "60-64",
-          1.4
-        ]
-      ],
-      "name": "Frauen",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickColor": "#FFFFFF",
-      "lineColor": "#B9CFD7",
-      "lineWidth": 0.5
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
-  "chart": {
-    "marginRight": 11,
-    "type": "bar",
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //create symmetric xAxes
-                    var fn = this.options.customFunctions;
-                    fn.createSymmetricAxis(this.yAxis[0]);
-
-                    //add rigt-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['verticalAlign'] == 'top') {
-                        this.update({
-                            chart: {
-                                marginRight: 15
-                            }
-                        });
-                    }
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') { // && this['legend']['options']['x'] == 0){
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
-    },
-    "spacingRight": 2,
-    "renderTo": "container-6684",
-    "spacingBottom": 22
-  },
-  "plotOptions": {
-    "bar": {
-      "grouping": false,
-      "minPointLength": 2
-    },
-    "series": {
-      "stacking": null,
-      "pointPadding": 0,
-      "borderWidth": 0.2,
-      "groupPadding": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Arbeitslosenquote der Schweizer"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-    "align": "left"
-  },
-  "yAxis": [
-    {
-      "max": 8,
-      "tickInterval": 2,
-      "min": 0,
-      "title": {
-        "text": null
-      },
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "labels": {
-        "rotation": 0,
-        "formatter": function () {
-                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
-                },
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 0,
-          "color": "white",
-          "width": 1,
-          "zIndex": 4
-        }
-      ],
-      "events": {
-        "afterSetExtremes": function (args) {
-                    this.chart.options.customFunctions.createSymmetricAxis(this);
-                }
-      }
-    }
-  ],
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "color": "#000000",
-      "fontSize": "10px"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "center",
-    "x": 3
-  },
-  "tooltip": {
-    "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 1, ",", " ") + '%</b><br/>';
-            }
-  },
-  "customFunctions": {
-    "createSymmetricAxis": function (axis) {
-                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
-                //console.log(axis);
-                if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
-                axis.setExtremes(-absMax, absMax);
-            }
-  },
-  "exporting": {
-    "filename": "6684"
-  }
+﻿{"id":6684,
+"parentId":6408,
+"children":[],
+"template":"populationPyramid001_print",
+"title":"Arbeitslosenquote der Schweizer Staatsangehörigen",
+"subtitle":"nach Alter und Geschlecht, Basel-Stadt, 2002",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.03.4.06684",
+"kuerzelKunde":"C1-5",
+"description":"Arbeitslosenquote der Schweizer Staatsangehörigen",
+"thema":"03 Arbeit, Erwerb",
+"unterthema":"Arbeitslose ",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:15:07.077",
+"stufe1":"Kapitel C Erwerb und Auskommen",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Jahr 2002 waren Schweizer Männer aller Altersgruppen, ausser jener der unter 20-Jährigen, stärker von Arbeitslosigkeit betroffen als Frauen.",
+"erlaeuterungen":"Die Arbeitslosenquote im Jahr 2002 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"03_00_00_00_00_105",
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6684, 
+"chart-id":6684, 
+"filter":""
 }

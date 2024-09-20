@@ -1,151 +1,34 @@
-{
-  "series": [
-    {
-      "name": "Anzahl",
-      "data": [
-        [
-          "Indien",
-          1670
-        ],
-        [
-          "Vereinigte Staaten",
-          1601
-        ],
-        [
-          "Sri Lanka",
-          811
-        ],
-        [
-          "China",
-          516
-        ],
-        [
-          "Russland",
-          443
-        ],
-        [
-          "Thailand",
-          413
-        ],
-        [
-          "Übrige",
-          3022
-        ]
-      ],
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
-  "chart": {
-    "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-              }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "pie",
-    "renderTo": "container-6646",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "pie": {
-      "borderWidth": 0,
-      "allowPointSelect": true,
-      "cursor": true,
-      "showInLegend": true,
-      "dataLabels": {
-        "enabled": false
-      },
-      "colors": [
-        "#B00000",
-        "#FF8028",
-        "#FABD24",
-        "#E6E600",
-        "#8AB77D",
-        "#68AB2B",
-        "#007A2F"
-      ]
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt, 2019",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "legend": {
-    "padding": 0,
-    "margin": 0,
-    "itemMarginBottom": 2,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "useHTML": true,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
-    "symbolRadius": 0,
-    "style": {
-      "fontSize": "12px"
-    }
-  },
-  "exporting": {
-    "filename": "6646"
-  }
+﻿{"id":6646,
+"parentId":6061,
+"children":[],
+"template":"pie001_print",
+"title":"Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+"subtitle":"Basel-Stadt, 2022",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.01.1.06646",
+"kuerzelKunde":"A1-9",
+"description":"Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:14:40.4040",
+"stufe1":"Kapitel A Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von 10 867 Personen, die Ende 2022 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
+"erlaeuterungen":"",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"01_00_00_00_00_109",
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6646, 
+"chart-id":6646, 
+"filter":""
 }

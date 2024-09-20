@@ -1,285 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#923F8D",
-      "index": 1,
-      "legendIndex": 0,
-      "data": [
-        [
-          "Schweiz",
-          98328.836465
-        ],
-        [
-          "Deutschland",
-          13569.85726
-        ],
-        [
-          "Italien",
-          2460.330491
-        ],
-        [
-          "Türkei",
-          2108.551491
-        ],
-        [
-          "EU-17 + EFTA",
-          3583.86128
-        ],
-        [
-          "EU-Ost",
-          974.562389
-        ],
-        [
-          "Balkan",
-          3019.383249
-        ],
-        [
-          "Mittel- und Südamerika",
-          362.636451
-        ],
-        [
-          "Arabische Länder",
-          335.414839
-        ],
-        [
-          "Afrikanische Länder",
-          383.627886
-        ],
-        [
-          "Übrige Länder",
-          1265.136156
-        ]
-      ],
-      "name": "Deutsch oder Schweizerdeutsch",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#E7CEE2",
-      "index": 0,
-      "legendIndex": 1,
-      "data": [
-        [
-          "Schweiz",
-          7077.763535
-        ],
-        [
-          "Deutschland",
-          102.326157
-        ],
-        [
-          "Italien",
-          4671.36951
-        ],
-        [
-          "Türkei",
-          3056.864059
-        ],
-        [
-          "EU-17 + EFTA",
-          8430.453219
-        ],
-        [
-          "EU-Ost",
-          1980.735427
-        ],
-        [
-          "Balkan",
-          3695.153533
-        ],
-        [
-          "Mittel- und Südamerika",
-          982.581368
-        ],
-        [
-          "Arabische Länder",
-          604.239079
-        ],
-        [
-          "Afrikanische Länder",
-          824.569013
-        ],
-        [
-          "Übrige Länder",
-          4535.947144
-        ]
-      ],
-      "name": "Kein Deutsch",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "rotation": 0,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "width": 1
-      },
-      "formatter": function () {
-          return this.value.replace("und", "u.");
-        }
-    }
-  },
-  "chart": {
-    "type": "column",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px"
-    },
-    "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for inverted charts, change labels x/y-offset
-					if (this.yAxis[0].horiz != true) {
-						this.update({
-							yAxis: {
-								labels: {
-									y: 3,
-									x: -5
-								}
-							}
-						});
-					}
-
-					//add top-margin if legend is right to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'vertical') {
-						this.update({
-							chart: {
-								marginTop: 6
-							}
-						});
-					}
-					//add right-margin if legend is top to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'horizontal') {
-						this.update({
-							chart: {
-								marginRight: 16
-							}
-						});
-					}
-
-					//square legends must be placed 3 pixels more to the left than lines, don't know why
-					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update({
-							legend: {
-								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-							}
-						});
-					}
-				}
-    },
-    "inverted": true,
-    "marginLeft": 120,
-    "marginRight": 10,
-    "spacingRight": 3,
-    "renderTo": "container-6678",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "percent",
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    },
-    "column": {
-      "groupPadding": 0
-    }
-  },
-  "title": {
-    "text": "Anteil Personen mit Hauptsprache Deutsch"
-  },
-  "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018"
-  },
-  "yAxis": {
-    "tickInterval": 20,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "text": null
-    },
-    "labels": {
-      "y": 18,
-      "format": "{value}%",
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "rotation": 0
-    }
-  },
-  "legend": {
-    "enabled": true,
-    "useHTML": true,
-    "layout": "horizontal",
-    "align": "left",
-    "verticalAlign": "top",
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 4,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
-    },
-    "labelFormatter": function () {
-				return this.name.replace('/ ', '/<br/>');
-			},
-    "itemDistance": 10,
-    "symbolPadding": 1
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
-  },
-  "credits": {
-    "enabled": true,
-    "position": {
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "navigation": {
-    "buttonOptions": {
-      "enabled": false
-    }
-  },
-  "exporting": {
-    "filename": "6678"
-  }
+﻿{"id":6678,
+"parentId":6402,
+"children":[],
+"template":"befragungen001_print",
+"title":"Anteil Personen mit Hauptsprache Deutsch",
+"subtitle":"nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.01.8.06678",
+"kuerzelKunde":"A6-1",
+"description":"Anteil Personen mit Hauptsprache Deutsch",
+"thema":"01 Bevölkerung",
+"unterthema":"Sprachen",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:14:52.5252",
+"stufe1":"Kapitel A Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Nach Personen mit deutscher oder Schweizer Staatsangehörigkeit sprechen Personen aus der Türkei (42,6%) und dem Balkan (42,4%) am häufigsten Deutsch als Hauptsprache.",
+"erlaeuterungen":"Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"01_00_00_00_00_601",
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6678, 
+"chart-id":6678, 
+"filter":""
 }

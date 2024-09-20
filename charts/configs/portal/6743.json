@@ -1,259 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#B00000",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2009",
-          724
-        ],
-        [
-          "2013",
-          852
-        ],
-        [
-          "2017",
-          908
-        ]
-      ],
-      "name": "Deutsch",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "index": 2,
-      "legendIndex": 2,
-      "data": [
-        [
-          "2009",
-          84
-        ],
-        [
-          "2013",
-          79
-        ],
-        [
-          "2017",
-          86
-        ]
-      ],
-      "name": "Andere Sprache",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2009",
-          61
-        ],
-        [
-          "2013",
-          99
-        ],
-        [
-          "2017",
-          136
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "rotation": 0,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "width": 1
-      },
-      "formatter": function () {
-                    //add sum of observations of visible series to the axis label
-                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-                        return val.visible;
-                    });
-                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                        return accumulator + series.yData[indexOfCurrentValue];
-                    }, 0);
-
-                    //use N if all series are visible, otherwise use n
-                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-
-                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
-                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
-
-                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-
-                    this.value = this.value.replace("und weitere", "u.a.");
-
-                    //check for value that contains only spaces
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
-                }
-    },
-    "reversed": false
-  },
-  "chart": {
-    "type": "column",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      5,
-      2,
-      2,
-      2
-    ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px"
-    },
-    "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for inverted charts, change labels x/y-offset
-					if (this.yAxis[0].horiz != true) {
-						this.update({
-							yAxis: {
-								labels: {
-									y: 3,
-									x: -5
-								}
-							}
-						});
-					}
-
-					//add top-margin if legend is right to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'vertical') {
-						this.update({
-							chart: {
-								marginTop: 6
-							}
-						});
-					}
-					//add right-margin if legend is top to allow space for axis-labels
-					if (this['legend']['options']['layout'] == 'horizontal') {
-						this.update({
-							chart: {
-								marginRight: 16
-							}
-						});
-					}
-
-					//square legends must be placed 3 pixels more to the left than lines, don't know why
-					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update({
-							legend: {
-								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-							}
-						});
-					}
-				}
-    },
-    "renderTo": "container-6743",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "percent",
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointWidth": 40
-    },
-    "column": {
-      "groupPadding": 0
-    }
-  },
-  "title": {
-    "text": "Sprachen im Freundeskreis"
-  },
-  "subtitle": {
-    "text": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt"
-  },
-  "yAxis": {
-    "tickInterval": 20,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "text": null
-    },
-    "labels": {
-      "y": 12,
-      "format": "{value}%",
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "rotation": 0
-    },
-    "max": 100
-  },
-  "legend": {
-    "enabled": true,
-    "useHTML": true,
-    "layout": "vertical",
-    "align": "right",
-    "verticalAlign": "middle",
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 4,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
-    },
-    "labelFormatter": function () {
-				return this.name.replace('/ ', '/<br/>');
-			}
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
-  },
-  "credits": {
-    "enabled": true,
-    "position": {
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "navigation": {
-    "buttonOptions": {
-      "enabled": false
-    }
-  },
-  "exporting": {
-    "filename": "6743"
-  }
+﻿{"id":6743,
+"parentId":6511,
+"children":[],
+"template":"befragungen001_print",
+"title":"Sprachen im Freundeskreis",
+"subtitle":"«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.50.3.06743",
+"kuerzelKunde":"D11-1",
+"description":"Sprachen im Freundeskreis",
+"thema":"50 Befragungen",
+"unterthema":"Jugendbefragung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:15:27.2727",
+"stufe1":"Kapitel D Politik und Zusammenleben",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Ein überwiegender Teil der Jugendlichen spricht im Freundeskreis am häufigsten Deutsch. Dieser Anteil bleibt seit Befragungsbeginn auf ähnlichem Niveau. 2021 sind es 90% bzw. 83%, wenn man den Anteil «Keine Angabe» einbezieht.",
+"erlaeuterungen":"Die kantonale Jugendbefragung wird seit 2009 alle vier Jahre durchgeführt. Die Befragung ermöglicht Aussagen über die im Kanton Basel-Stadt wohnhaften Jugendlichen im Alter von 12 bis 17 Jahren, die eine öffentliche Schule besuchen. Die Werte aus den Befragungen bis 2017 wurden aufgrund methodischer Neuerungen revidiert. Berücksichtigt werden nur Antworten von Jugendlichen, die angeben, überhaupt einen Freundeskreis zu haben.",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"04_00_00_00_00_101",
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6743, 
+"chart-id":6743, 
+"filter":""
 }

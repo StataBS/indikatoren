@@ -1,303 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#7f5f1a",
-      "data": [
-        [
-          "15-19",
-          -2.3
-        ],
-        [
-          "20-24",
-          -4
-        ],
-        [
-          "25-29",
-          -4
-        ],
-        [
-          "30-34",
-          -3.3
-        ],
-        [
-          "35-39",
-          -3.4
-        ],
-        [
-          "40-44",
-          -3.3
-        ],
-        [
-          "45-49",
-          -3
-        ],
-        [
-          "50-54",
-          -2.5
-        ],
-        [
-          "55-59",
-          -2.8
-        ],
-        [
-          "60-64",
-          -2.8
-        ]
-      ],
-      "name": "Männer",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffda80",
-      "data": [
-        [
-          "15-19",
-          3.7
-        ],
-        [
-          "20-24",
-          4.3
-        ],
-        [
-          "25-29",
-          3.6
-        ],
-        [
-          "30-34",
-          3.5
-        ],
-        [
-          "35-39",
-          2.9
-        ],
-        [
-          "40-44",
-          2.5
-        ],
-        [
-          "45-49",
-          2.1
-        ],
-        [
-          "50-54",
-          2.3
-        ],
-        [
-          "55-59",
-          2.1
-        ],
-        [
-          "60-64",
-          2.3
-        ]
-      ],
-      "name": "Frauen",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "tickColor": "#FFFFFF",
-      "lineColor": "#B9CFD7",
-      "lineWidth": 0.5
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
-  "chart": {
-    "marginRight": 11,
-    "type": "bar",
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //create symmetric xAxes
-                    var fn = this.options.customFunctions;
-                    fn.createSymmetricAxis(this.yAxis[0]);
-
-                    //add rigt-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['verticalAlign'] == 'top') {
-                        this.update({
-                            chart: {
-                                marginRight: 15
-                            }
-                        });
-                    }
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') { // && this['legend']['options']['x'] == 0){
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
-    },
-    "renderTo": "container-6683",
-    "spacingBottom": 22
-  },
-  "plotOptions": {
-    "bar": {
-      "grouping": false,
-      "minPointLength": 2
-    },
-    "series": {
-      "stacking": null,
-      "pointPadding": 0,
-      "borderWidth": 0.2,
-      "groupPadding": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Arbeitslosenquote der Ausländer"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-    "align": "left"
-  },
-  "yAxis": [
-    {
-      "min": 0,
-      "max": 8,
-      "tickInterval": 2,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "step": 1,
-        "formatter": function () {
-                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
-                },
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 0,
-          "color": "white",
-          "width": 1,
-          "zIndex": 4
-        }
-      ],
-      "events": {
-        "afterSetExtremes": function (args) {
-                    this.chart.options.customFunctions.createSymmetricAxis(this);
-                }
-      }
-    }
-  ],
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "color": "#000000",
-      "fontSize": "10px"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "center",
-    "x": 3
-  },
-  "tooltip": {
-    "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 1, ",", " ") + '%</b><br/>';
-            }
-  },
-  "customFunctions": {
-    "createSymmetricAxis": function (axis) {
-                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
-                //console.log(axis);
-                if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
-                axis.setExtremes(-absMax, absMax);
-            }
-  },
-  "exporting": {
-    "filename": "6683"
-  }
+﻿{"id":6683,
+"parentId":6407,
+"children":[],
+"template":"populationPyramid001_print",
+"title":"Arbeitslosenquote der ausländischen Staatsangehörigen",
+"subtitle":"nach Alter und Geschlecht, Basel-Stadt, 2002",
+"kennzahlenset":"Integration (Print)",
+"kuerzel":"I.03.4.06683",
+"kuerzelKunde":"C1-7",
+"description":"Arbeitslosenquote der ausländischen Staatsangehörigen",
+"thema":"03 Arbeit, Erwerb",
+"unterthema":"Arbeitslose ",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2023-01-02T08:15:08.088",
+"stufe1":"Kapitel C Erwerb und Auskommen",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Jahr 2002 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen, mit Ausnahme der Gruppe ab 60 Jahren. Bei beiden Geschlechtern weisen die jungen Erwachsenen zwischen 20 und 24 Jahren die höchste Arbeitslosenquote auf.",
+"erlaeuterungen":"Die Arbeitslosenquote im Jahr 2002 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"03_00_00_00_00_107",
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6683, 
+"chart-id":6683, 
+"filter":""
 }
