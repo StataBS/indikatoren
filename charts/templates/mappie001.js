@@ -513,9 +513,9 @@
 								}
 							],
 							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
-								enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false), //gets setting from chart-js
+								enabled: false, /*(Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false), //gets setting from chart-js
 								color: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.color : '#000000'), //gets setting from chart-js
-								distance: 0,
+								/*distance: 0,
 								padding: 2,
 								x: -10,
 								borderWidth: 0,
@@ -527,6 +527,7 @@
 									return correspondingMapSeriesItem['Wohnviertel Id'];
 									//return correspondingMapSeriesItem.properties.LIBGEO;
 								}
+								*/
 							},
 							colorAxis: false
 						};

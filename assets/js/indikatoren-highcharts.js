@@ -274,7 +274,7 @@ function getChartUrls(id, chartMetaData){
 //construct urls by chart id and render to designated div
 function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
   //fire GTM event
-  dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
+  //dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
 
   //get template for requested chart 
   (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
