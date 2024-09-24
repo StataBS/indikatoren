@@ -728,7 +728,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Parkhausauslastung Montag bis Freitag in der Innenstadt",
 		"subtitle": "nach Stunden, Innenstadt Basel",
-		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Werktagen mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
+		"lesehilfe": "2022 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Werktagen mit 73,4% zwischen 12 und 13 Uhr zu beobachten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -753,7 +753,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:04",
+		"aktualisierungsdatum": "2024-09-24T03:31:44",
 		"id": 9595
 	},
 	{
@@ -765,7 +765,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Parkhausauslastung an Samstagen in der Innenstadt",
 		"subtitle": "nach Stunden, Innenstadt Basel",
-		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Samstagen zwischen 13 und 14 Uhr zu beobachten (56,2%).",
+		"lesehilfe": "2022 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Samstagen zwischen 13 und 14 Uhr zu beobachten (67,0%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -790,7 +790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-29T11:54:05",
+		"aktualisierungsdatum": "2024-09-24T03:31:45",
 		"id": 9596
 	},
 	{
