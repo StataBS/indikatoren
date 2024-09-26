@@ -31,7 +31,7 @@
       {
         opposite: true,
         min: 0,
-        max: 11000,
+        //max: 11000,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 

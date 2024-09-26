@@ -4,10 +4,6 @@
       "color": "#45381D",
       "data": [
         [
-          2011,
-          40834118
-        ],
-        [
           2012,
           46132211
         ],
@@ -42,6 +38,10 @@
         [
           2020,
           44349089
+        ],
+        [
+          2021,
+          45029733
         ]
       ],
       "name": "Zugezogene"
@@ -49,10 +49,6 @@
     {
       "color": "#CD9C00",
       "data": [
-        [
-          2011,
-          36110391
-        ],
         [
           2012,
           32957731
@@ -88,6 +84,10 @@
         [
           2020,
           39607653
+        ],
+        [
+          2021,
+          43557607
         ]
       ],
       "name": "Weggezogene (Steuerertrag im Vorjahr)"
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

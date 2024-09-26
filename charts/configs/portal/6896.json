@@ -43,7 +43,11 @@
         ],
         [
           "2020",
-          513700000
+          525600000
+        ],
+        [
+          "2021",
+          578900000
         ]
       ],
       "name": "Übriges",
@@ -93,6 +97,10 @@
         [
           "2020",
           1161900000
+        ],
+        [
+          "2021",
+          412800000
         ]
       ],
       "name": "Finanzertrag",
@@ -141,7 +149,11 @@
         ],
         [
           "2020",
-          752100000
+          740200000
+        ],
+        [
+          "2021",
+          879200000
         ]
       ],
       "name": "Transferertrag",
@@ -191,6 +203,10 @@
         [
           "2020",
           352600000
+        ],
+        [
+          "2021",
+          333200000
         ]
       ],
       "name": "Entgelte",
@@ -240,6 +256,10 @@
         [
           "2020",
           637400000
+        ],
+        [
+          "2021",
+          588100000
         ]
       ],
       "name": "Gewinn- und Kapitalsteuern (JP)",
@@ -289,6 +309,10 @@
         [
           "2020",
           1870400000
+        ],
+        [
+          "2021",
+          1866300000
         ]
       ],
       "name": "Einkommens- und Vermögenssteuern (NP)",
@@ -345,6 +369,10 @@
         [
           "2020",
           35.4
+        ],
+        [
+          "2021",
+          40.1
         ]
       ],
       "name": "Anteil NP (rechte Skala)",
@@ -402,6 +430,10 @@
         [
           "2020",
           12.1
+        ],
+        [
+          "2021",
+          12.6
         ]
       ],
       "name": "Anteil JP (rechte Skala)",
@@ -574,7 +606,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -5,90 +5,90 @@
       "data": [
         [
           "Altstadt GB",
-          5436336
+          5750706
         ],
         [
           "Vorstädte",
-          13007394
+          12066147
         ],
         [
           "Am Ring",
-          17117993
+          17891441
         ],
         [
           "Breite",
-          7842461
+          8182039
         ],
         [
           "St. Alban",
-          25745409
+          24932935
         ],
         [
           "Gundeldingen",
-          18731181
+          18521856
         ],
         [
           "Bruderholz",
-          9692014
+          9849063
         ],
         [
           "Bachletten",
-          10906998
+          9414036
         ],
         [
           "Gotthelf",
-          6848516
+          6691078
         ],
         [
           "Iselin",
-          12684686
+          12719482
         ],
         [
           "St. Johann",
-          20053881
+          21161657
         ],
         [
           "Altstadt KB",
-          3097286
+          3126115
         ],
         [
           "Clara",
-          3731546
+          3722109
         ],
         [
           "Wettstein",
-          5988485
+          6183758
         ],
         [
           "Hirzbrunnen",
-          3073658
+          3471288
         ],
         [
           "Rosental",
-          7794136
+          7454187
         ],
         [
           "Matthäus",
-          20954021
+          22047284
         ],
         [
           "Klybeck",
-          3871988
+          3749543
         ],
         [
           "Kleinhüning.",
-          1787733
+          1859652
         ],
         [
           "Riehen",
-          18268433
+          19232967
         ],
         [
           "Bettingen",
-          1107912
+          962515
         ]
       ],
-      "name": "Quellensteuerertrag 2012",
+      "name": "Quellensteuerertrag 2013",
       "turboThreshold": 0
     },
     {
@@ -96,90 +96,90 @@
       "data": [
         [
           "Altstadt GB",
-          15327738
+          15959934
         ],
         [
           "Vorstädte",
-          19569286
+          14402858
         ],
         [
           "Am Ring",
-          27932283
+          29685796
         ],
         [
           "Breite",
-          14933131
+          11979462
         ],
         [
           "St. Alban",
-          36459391
+          34255870
         ],
         [
           "Gundeldingen",
-          29326835
+          32485203
         ],
         [
           "Bruderholz",
-          12536341
+          13270083
         ],
         [
           "Bachletten",
-          16313945
+          16263461
         ],
         [
           "Gotthelf",
-          8582496
+          8920077
         ],
         [
           "Iselin",
-          14676435
+          15557728
         ],
         [
           "St. Johann",
-          22956397
+          24016765
         ],
         [
           "Altstadt KB",
-          4682911
+          5075720
         ],
         [
           "Clara",
-          6681468
+          7899075
         ],
         [
           "Wettstein",
-          17309878
+          13174216
         ],
         [
           "Hirzbrunnen",
-          5652624
+          5853300
         ],
         [
           "Rosental",
-          18782442
+          18780046
         ],
         [
           "Matthäus",
-          22365150
+          24124786
         ],
         [
           "Klybeck",
-          4709396
+          5012317
         ],
         [
           "Kleinhüning.",
-          1288326
+          1619205
         ],
         [
           "Riehen",
-          23460412
+          24553734
         ],
         [
           "Bettingen",
-          564921
+          671606
         ]
       ],
-      "name": "Quellensteuerertrag 2021",
+      "name": "Quellensteuerertrag 2022",
       "turboThreshold": 0
     },
     {
@@ -192,51 +192,51 @@
       "data": [
         [
           "Altstadt GB",
-          267
+          272
         ],
         [
           "Vorstädte",
-          775
+          770
         ],
         [
           "Am Ring",
-          1627
+          1585
         ],
         [
           "Breite",
-          925
+          868
         ],
         [
           "St. Alban",
-          1108
+          1057
         ],
         [
           "Gundeldingen",
-          2258
+          2249
         ],
         [
           "Bruderholz",
-          541
+          508
         ],
         [
           "Bachletten",
-          791
+          801
         ],
         [
           "Gotthelf",
-          733
+          663
         ],
         [
           "Iselin",
-          1837
+          1776
         ],
         [
           "St. Johann",
-          2793
+          2784
         ],
         [
           "Altstadt KB",
-          302
+          364
         ],
         [
           "Clara",
@@ -244,38 +244,38 @@
         ],
         [
           "Wettstein",
-          617
+          575
         ],
         [
           "Hirzbrunnen",
-          437
+          466
         ],
         [
           "Rosental",
-          935
+          886
         ],
         [
           "Matthäus",
-          2717
+          2634
         ],
         [
           "Klybeck",
-          945
+          888
         ],
         [
           "Kleinhüning.",
-          320
+          313
         ],
         [
           "Riehen",
-          1250
+          1178
         ],
         [
           "Bettingen",
-          122
+          106
         ]
       ],
-      "name": "Anzahl Veranlagungen 2012 (rechte Skala)",
+      "name": "Veranlagungen 2013 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -289,90 +289,90 @@
       "data": [
         [
           "Altstadt GB",
-          363
+          374
         ],
         [
           "Vorstädte",
-          913
+          834
         ],
         [
           "Am Ring",
-          1882
+          1988
         ],
         [
           "Breite",
-          1022
+          1059
         ],
         [
           "St. Alban",
-          1413
+          1234
         ],
         [
           "Gundeldingen",
-          2552
+          2604
         ],
         [
           "Bruderholz",
-          555
+          519
         ],
         [
           "Bachletten",
-          944
+          993
         ],
         [
           "Gotthelf",
-          737
+          739
         ],
         [
           "Iselin",
-          1969
+          2099
         ],
         [
           "St. Johann",
-          2616
+          2711
         ],
         [
           "Altstadt KB",
-          380
+          435
         ],
         [
           "Clara",
-          762
+          807
         ],
         [
           "Wettstein",
-          759
+          754
         ],
         [
           "Hirzbrunnen",
-          567
+          550
         ],
         [
           "Rosental",
-          1639
+          1657
         ],
         [
           "Matthäus",
-          2861
+          3012
         ],
         [
           "Klybeck",
-          1054
+          1144
         ],
         [
           "Kleinhüning.",
-          316
+          374
         ],
         [
           "Riehen",
-          1363
+          1475
         ],
         [
           "Bettingen",
-          75
+          82
         ]
       ],
-      "name": "Anzahl Veranlagungen 2021 (rechte Skala)",
+      "name": "Veranlagungen 2022 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -463,7 +463,7 @@
     "text": "Quellensteuerertrag"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2012 und 2021",
+    "text": "in Franken, Basel-Stadt, 2013 und 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -545,7 +545,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

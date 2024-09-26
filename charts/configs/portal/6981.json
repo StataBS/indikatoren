@@ -8,10 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2010,
-          13871865
-        ],
-        [
           2011,
           15450187
         ],
@@ -46,6 +42,10 @@
         [
           2019,
           28047623
+        ],
+        [
+          2020,
+          29813663
         ]
       ],
       "name": "Ertrag Grundstücksteuern"
@@ -57,10 +57,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2010,
-          129712441
-        ],
         [
           2011,
           116370771
@@ -96,6 +92,10 @@
         [
           2019,
           92100695
+        ],
+        [
+          2020,
+          137617241
         ]
       ],
       "name": "Ertrag Kapitalsteuern"
@@ -107,10 +107,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          530571499
-        ],
         [
           2011,
           449178880
@@ -146,6 +142,10 @@
         [
           2019,
           369793655
+        ],
+        [
+          2020,
+          279049288
         ]
       ],
       "name": "Ertrag Gewinnsteuern"
@@ -163,10 +163,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          2010,
-          10335
-        ],
         [
           2011,
           10541
@@ -202,6 +198,10 @@
         [
           2019,
           12163
+        ],
+        [
+          2020,
+          12222
         ]
       ],
       "name": "Veranlagungen (rechte Skala)"
@@ -313,7 +313,6 @@
     {
       "opposite": true,
       "min": 0,
-      "max": 11000,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -364,7 +363,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "tooltip": {
     "shared": true
