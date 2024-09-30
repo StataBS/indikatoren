@@ -54,36 +54,24 @@
           295
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          305
-        ],
-        [
-          "2011: Ausland",
-          86
-        ],
-        [
-          "2011: Total",
-          391
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          284
-        ],
-        [
-          "2015: Ausland",
-          71
-        ],
-        [
-          "2015: Total",
-          355
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -91,18 +79,34 @@
         ],
         [
           "2019: Schweiz",
-          783
+          655.6322
         ],
         [
           "2019: Ausland",
-          266
+          422.26533
         ],
         [
           "2019: Total",
-          1053
+          1080.903
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          558.94653
+        ],
+        [
+          "2023: Ausland",
+          310.47778
+        ],
+        [
+          "2023: Total",
+          869.4243
         ]
       ],
-      "name": "Sehr grosse",
+      "name": "Stimmt genau",
       "turboThreshold": 0
     },
     {
@@ -159,36 +163,24 @@
           746
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          600
-        ],
-        [
-          "2011: Ausland",
-          105
-        ],
-        [
-          "2011: Total",
-          705
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          701
-        ],
-        [
-          "2015: Ausland",
-          87
-        ],
-        [
-          "2015: Total",
-          788
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -196,18 +188,34 @@
         ],
         [
           "2019: Schweiz",
-          579
+          494.95505
         ],
         [
           "2019: Ausland",
-          123
+          190.58784
         ],
         [
           "2019: Total",
-          709
+          691.5531
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          441.74977
+        ],
+        [
+          "2023: Ausland",
+          158.86589
+        ],
+        [
+          "2023: Total",
+          600.6157
         ]
       ],
-      "name": "Eher grosse",
+      "name": "Stimmt eher",
       "turboThreshold": 0
     },
     {
@@ -264,36 +272,24 @@
           303
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          284
-        ],
-        [
-          "2011: Ausland",
-          18
-        ],
-        [
-          "2011: Total",
-          302
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          249
-        ],
-        [
-          "2015: Ausland",
-          9
-        ],
-        [
-          "2015: Total",
-          258
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -301,18 +297,34 @@
         ],
         [
           "2019: Schweiz",
-          133
+          113.54451
         ],
         [
           "2019: Ausland",
-          26
+          45.1336
         ],
         [
           "2019: Total",
-          161
+          160.3713
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          107.79777
+        ],
+        [
+          "2023: Ausland",
+          37.41129
+        ],
+        [
+          "2023: Total",
+          145.2091
         ]
       ],
-      "name": "Eher nicht so grosse",
+      "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
     {
@@ -369,36 +381,24 @@
           81
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          78
-        ],
-        [
-          "2011: Ausland",
-          1
-        ],
-        [
-          "2011: Total",
-          79
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          53
-        ],
-        [
-          "2015: Ausland",
-          1
-        ],
-        [
-          "2015: Total",
-          54
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -406,18 +406,34 @@
         ],
         [
           "2019: Schweiz",
-          26
+          21.74729
         ],
         [
           "2019: Ausland",
-          1
+          1.70204
         ],
         [
           "2019: Total",
-          27
+          23.44933
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          37.76652
+        ],
+        [
+          "2023: Ausland",
+          11.24122
+        ],
+        [
+          "2023: Total",
+          49.00774
         ]
       ],
-      "name": "Gar keine",
+      "name": "Stimmt gar nicht",
       "turboThreshold": 0
     },
     {
@@ -474,36 +490,24 @@
           84
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          32
-        ],
-        [
-          "2011: Ausland",
-          4
-        ],
-        [
-          "2011: Total",
-          36
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          46
-        ],
-        [
-          "2015: Ausland",
-          4
-        ],
-        [
-          "2015: Total",
-          50
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -511,15 +515,31 @@
         ],
         [
           "2019: Schweiz",
-          61
+          56.64997
         ],
         [
           "2019: Ausland",
-          21
+          31.33221
         ],
         [
           "2019: Total",
-          83
+          88.70544
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          73.30922
+        ],
+        [
+          "2023: Ausland",
+          26.3469
+        ],
+        [
+          "2023: Total",
+          99.65612
         ]
       ],
       "name": "Weiss nicht",
@@ -579,36 +599,24 @@
           0
         ],
         [
+          "   ",
+          undefined
+        ],
+        [
           "2011",
-          null
+          undefined
         ],
         [
-          "2011: Schweiz",
-          3
-        ],
-        [
-          "2011: Ausland",
-          0
-        ],
-        [
-          "2011: Total",
-          3
+          " ",
+          undefined
         ],
         [
           "2015",
-          null
+          undefined
         ],
         [
-          "2015: Schweiz",
-          0
-        ],
-        [
-          "2015: Ausland",
-          1
-        ],
-        [
-          "2015: Total",
-          1
+          "  ",
+          undefined
         ],
         [
           "2019",
@@ -616,15 +624,31 @@
         ],
         [
           "2019: Schweiz",
-          53
+          37.42997
         ],
         [
           "2019: Ausland",
-          10
+          13.59773
         ],
         [
           "2019: Total",
-          75
+          63.01742
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          120.89851
+        ],
+        [
+          "2023: Ausland",
+          169.1886
+        ],
+        [
+          "2023: Total",
+          290.0871
         ]
       ],
       "name": "Keine Angabe",
@@ -657,19 +681,20 @@
                     });
                     var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                     var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                        return accumulator + series.yData[indexOfCurrentValue];
+                      return accumulator + series.yData[indexOfCurrentValue];
                     }, 0);
                     //use N if all series are visible, otherwise use n
                     var nString =  'n=';
                       if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-  
+                      var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
                     //delete everything before ":", including ":"
                     this.value = this.value.replace(/[^:]*:/, "");
   
                     //check for value that contains only spaces
-                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    if (formattedSum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
                     //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
                     return "<b>" + this.value + "</b>";
+                    
                 }
     }
   },
@@ -692,7 +717,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 553,
+    "height": 583,
     "spacing": [
       10,
       10,
@@ -715,7 +740,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beurteilung von gesellschaftlicher Vielfalt"
+    "text": "Beurteilung von kultureller Vielfalt"
   },
   "subtitle": {
     "style": {
@@ -783,7 +808,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
   },
   "legend": {
     "layout": "horizontal",

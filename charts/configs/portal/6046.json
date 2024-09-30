@@ -6,14 +6,6 @@
       "legendIndex": 9,
       "data": [
         [
-          "2011",
-          16912
-        ],
-        [
-          "2012",
-          17326
-        ],
-        [
           "2013",
           17772
         ],
@@ -48,6 +40,10 @@
         [
           "2021",
           17822
+        ],
+        [
+          "2022",
+          17833
         ]
       ],
       "name": "Pharmaindustrie",
@@ -58,14 +54,6 @@
       "index": 8,
       "legendIndex": 8,
       "data": [
-        [
-          "2011",
-          10281
-        ],
-        [
-          "2012",
-          9534
-        ],
         [
           "2013",
           8987
@@ -101,6 +89,10 @@
         [
           "2021",
           7366
+        ],
+        [
+          "2022",
+          7190
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -111,14 +103,6 @@
       "index": 7,
       "legendIndex": 7,
       "data": [
-        [
-          "2011",
-          8890
-        ],
-        [
-          "2012",
-          9013
-        ],
         [
           "2013",
           8994
@@ -154,6 +138,10 @@
         [
           "2021",
           8438
+        ],
+        [
+          "2022",
+          8498
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -164,14 +152,6 @@
       "index": 6,
       "legendIndex": 6,
       "data": [
-        [
-          "2011",
-          29285
-        ],
-        [
-          "2012",
-          29696
-        ],
         [
           "2013",
           28942
@@ -207,6 +187,10 @@
         [
           "2021",
           25683
+        ],
+        [
+          "2022",
+          26734
         ]
       ],
       "name": "Handel und Verkehr",
@@ -217,14 +201,6 @@
       "index": 5,
       "legendIndex": 5,
       "data": [
-        [
-          "2011",
-          9131
-        ],
-        [
-          "2012",
-          9372
-        ],
         [
           "2013",
           10050
@@ -260,6 +236,10 @@
         [
           "2021",
           9162
+        ],
+        [
+          "2022",
+          10979
         ]
       ],
       "name": "Gastgewerbe",
@@ -270,14 +250,6 @@
       "index": 4,
       "legendIndex": 4,
       "data": [
-        [
-          "2011",
-          12200
-        ],
-        [
-          "2012",
-          11978
-        ],
         [
           "2013",
           11782
@@ -313,6 +285,10 @@
         [
           "2021",
           11528
+        ],
+        [
+          "2022",
+          11768
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -323,14 +299,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          "2011",
-          34715
-        ],
-        [
-          "2012",
-          34620
-        ],
         [
           "2013",
           36400
@@ -366,6 +334,10 @@
         [
           "2021",
           38683
+        ],
+        [
+          "2022",
+          39442
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -376,14 +348,6 @@
       "index": 2,
       "legendIndex": 2,
       "data": [
-        [
-          "2011",
-          17173
-        ],
-        [
-          "2012",
-          17485
-        ],
         [
           "2013",
           18196
@@ -419,6 +383,10 @@
         [
           "2021",
           20576
+        ],
+        [
+          "2022",
+          20866
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
@@ -429,14 +397,6 @@
       "index": 1,
       "legendIndex": 1,
       "data": [
-        [
-          "2011",
-          26297
-        ],
-        [
-          "2012",
-          26563
-        ],
         [
           "2013",
           28083
@@ -472,6 +432,10 @@
         [
           "2021",
           33428
+        ],
+        [
+          "2022",
+          34903
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -482,14 +446,6 @@
       "index": 0,
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          18299
-        ],
-        [
-          "2012",
-          19138
-        ],
         [
           "2013",
           19285
@@ -525,6 +481,10 @@
         [
           "2021",
           20316
+        ],
+        [
+          "2022",
+          21524
         ]
       ],
       "name": "Übrige Branchen",
@@ -668,7 +628,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",

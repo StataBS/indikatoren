@@ -6,7 +6,7 @@ global geojson_wohnviertelEPSG2056
     return {
 		"colorAxis": {
 			min: 0,
-			max: 100000,
+			max: 110000,
 			tickAmount: 5,
 			/*tickInterval: 30000,*/
 			"minColor": "#E7CEE2",
