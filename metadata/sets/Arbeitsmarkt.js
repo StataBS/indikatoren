@@ -1654,8 +1654,8 @@ var indikatorensetData = [
 			9458
 		],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie/Pharma; -2,5%) sind dagegen rückläufig.",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In Basel-Stadt sind 2022 rund 156 200 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einem Wachstum um rund 4 800 VZÄ bzw. 3,2% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 24 700 VZÄ (+6,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+1 512 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2022 die grösste Abnahme auf (-246 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1680,7 +1680,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:46",
+		"aktualisierungsdatum": "2024-09-30T12:46:04",
 		"id": 6459
 	},
 	{

@@ -1620,7 +1620,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1633,7 +1633,7 @@ var indikatorensetData = [
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06046",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE7",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -1645,7 +1645,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:56:03",
+		"aktualisierungsdatum": "2024-09-30T12:46:30",
 		"id": 6046
 	},
 	{

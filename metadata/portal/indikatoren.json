@@ -11829,9 +11829,9 @@
 			9418
 		],
 		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
-		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?», Basel-Stadt",
-		"lesehilfe": "22,0% der Befragten gaben 2019 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 17,4% haben mehrere Kurse besucht. 57,7% gaben an, keinen Kurs besucht zu haben.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Weiterbildung oder einen Kurs besucht?», Basel-Stadt",
+		"lesehilfe": "16,8% der Bevölkerung gaben 2023 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,5% haben mehrere Kurse besucht. 56,6% gaben an, keinen Kurs besucht zu haben.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -11856,7 +11856,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:26",
+		"aktualisierungsdatum": "2024-09-30T12:46:01",
 		"id": 5192
 	},
 	{
@@ -15307,9 +15307,9 @@
 		"id": 6154
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 6161,
-		"chart-id": 9007,
+		"chart-id": 6161,
 		"filter": "",
 		"parentId": null,
 		"children": [
@@ -15319,7 +15319,7 @@
 		],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 24,6% im Jahr 2020 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 25,6% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -15345,7 +15345,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:49",
+		"aktualisierungsdatum": "2024-09-30T12:46:07",
 		"id": 6161
 	},
 	{
@@ -15575,7 +15575,7 @@
 		],
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Schultyp, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2023 bei total 0,8%. Das ist mit Abstand der tiefste Wert im Beobachtungszeitraum. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu einem unruhigen Kurvenverlauf.",
+		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2024 bei total 0,7%. Das ist der niedrigste Wert im Beobachtungszeitraum. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu unruhigen Kurvenverläufen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und -abgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Erziehungsdepartement des Kantons Basel-Stadt. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren; ohne Gymnasien. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
@@ -15601,7 +15601,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:04",
+		"aktualisierungsdatum": "2024-09-30T12:46:00",
 		"id": 6206
 	},
 	{
@@ -15829,7 +15829,7 @@
 		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -15855,7 +15855,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:35",
+		"aktualisierungsdatum": "2024-09-30T12:46:28",
 		"id": 6236
 	},
 	{
@@ -16028,9 +16028,9 @@
 			6386
 		],
 		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 21 600 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2021 wird mit rund 109 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 23 400 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -16056,7 +16056,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:05",
+		"aktualisierungsdatum": "2024-09-30T12:46:12",
 		"id": 6374
 	},
 	{
@@ -16356,9 +16356,9 @@
 			8565
 		],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2021 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 73 600 Franken. Mit ca. 37 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -16384,7 +16384,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:05",
+		"aktualisierungsdatum": "2024-09-30T12:46:11",
 		"id": 6382
 	},
 	{
@@ -17609,8 +17609,8 @@
 			6704
 		],
 		"title": "Sozialhilfequote der Schweizer Bevölkerung",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2022",
-		"lesehilfe": "In allen Altersgruppen ab 5 Jahren weisen Schweizerinnen eine tiefere Sozialhilfequote auf als Schweizer. Die höchste Sozialhilfequote im Erwachsenenalter ist bei den Frauen zwischen 35 und 39 Jahren, bei den Männern zwischen 45 und 49 Jahren zu beobachten.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2023",
+		"lesehilfe": "In allen Altersgruppen ausser jener der 10- bis 14-Jährigen weisen Schweizerinnen eine tiefere Sozialhilfequote auf als Schweizer. Die höchste Sozialhilfequote im Erwachsenenalter ist bei den Frauen zwischen 35 und 39 Jahren, bei den Männern zwischen 55 und 59 Jahren zu beobachten.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -17636,7 +17636,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:46",
+		"aktualisierungsdatum": "2024-09-30T12:46:13",
 		"id": 6429
 	},
 	{
@@ -18254,8 +18254,8 @@
 			9458
 		],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie/Pharma; -2,5%) sind dagegen rückläufig.",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In Basel-Stadt sind 2022 rund 156 200 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einem Wachstum um rund 4 800 VZÄ bzw. 3,2% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 24 700 VZÄ (+6,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+1 512 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2022 die grösste Abnahme auf (-246 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -18281,7 +18281,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:46",
+		"aktualisierungsdatum": "2024-09-30T12:46:04",
 		"id": 6459
 	},
 	{
@@ -18699,8 +18699,8 @@
 		],
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt",
-		"lesehilfe": "13,6% der im Jahr 2019 Befragten sind mit dem Angebot an Arbeitsplätzen sehr zufrieden und 35,0% eher zufrieden. Insgesamt 15,4% sind damit eher oder sehr unzufrieden. Der Anteil an sehr Zufriedenen liegt bei den ausländischen Befragten höher als bei jenen mit Schweizer Pass. Der Anteil der Kategorie «Weiss nicht» hat aufgrund des Methodenwechsels zugenommen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"lesehilfe": "15,3% der Bevölkerung sind im Jahr 2023 mit dem Angebot an Arbeitsplätzen sehr zufrieden und 36,5% eher zufrieden. Insgesamt 16,5% sind damit eher oder sehr unzufrieden. Der Anteil an Unzufriedenen liegt bei den ausländischen Befragten höher als bei jenen mit Schweizer Pass.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -18725,7 +18725,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:14",
+		"aktualisierungsdatum": "2024-09-30T12:46:14",
 		"id": 6472
 	},
 	{
@@ -18739,8 +18739,8 @@
 		],
 		"title": "Einschätzung der wirtschaftlichen Lage",
 		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
-		"lesehilfe": "17,8% der im Jahr 2019 befragten Personen schätzen ihre wirtschaftliche Lage als sehr gut und 59,0% eher gut ein. 2015 lag der Anteil an Befragten, denen es wirtschaftlich sehr gut ging bei 31,3%. 21,1% der Befragten mit ausländischer Staatsbürgerschaft geht es wirtschaftlich gesehen eher nicht oder gar nicht gut, bei den Schweizerinnen und Schweizern sind es 15,9%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. 2005, 2007 und 2015 wurde diese Frage nur einem Teil der Befragten gestellt.",
+		"lesehilfe": "20,4% der Bevölkerung schätzen 2023 ihre wirtschaftliche Lage als sehr gut und 51,4% als eher gut ein. 2019 lag der Anteil, denen es wirtschaftlich sehr gut ging, bei 17,5%.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -18765,7 +18765,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:25",
+		"aktualisierungsdatum": "2024-09-30T12:46:15",
 		"id": 6473
 	},
 	{
@@ -19473,8 +19473,8 @@
 		],
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
-		"lesehilfe": "15,0% der befragten Personen interessierten sich 2019 sehr stark für die Politik im Kanton Basel­Stadt (2015: 29,6%). 32,2% der Befragten mit ausländischer Staatsangehörigkeit interessieren sich sehr oder eher für die Politik im Kanton, während es bei Schweizerinnen und Schweizern 57,0% sind.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "13,2% der befragten Personen interessierten sich 2023 sehr stark für die Politik im Kanton Basel­Stadt (2015: 25,2%). 40,3% der Befragten mit ausländischer Staatsangehörigkeit interessieren sich sehr oder eher für die Politik im Kanton, während es bei Schweizerinnen und Schweizern 46,1% sind. 2019 war der Unterschied zwischen Schweizern und Ausländern, die sich für Politik interessieren, höher.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19499,7 +19499,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:40",
+		"aktualisierungsdatum": "2024-09-30T12:46:18",
 		"id": 6495
 	},
 	{
@@ -19511,10 +19511,10 @@
 		"children": [
 			6736
 		],
-		"title": "Beurteilung von gesellschaftlicher Vielfalt",
+		"title": "Beurteilung von kultureller Vielfalt",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
-		"lesehilfe": "83,6% der 2019 Befragten erleben die kulturelle Vielfalt im Kanton Basel­Stadt als eine sehr oder eher grosse Bereicherung für die Stadt. Während 59,5% der Befragten mit ausländischer Staatsbürgerschaft diese als sehr grosse Bereicherung empfinden, sind es bei Befragten mit Schweizer Pass 47,9%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "71,5% der Bevölkerung erlebt 2023 die kulturelle Vielfalt im Kanton Basel­Stadt als eine sehr oder eher grosse Bereicherung. Während 59,9% der Befragten mit ausländischer Staatsbürgerschaft diese 2019 als sehr grosse Bereicherung empfanden, sind es 2023 mit 43,5% weniger.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Diese Frage wurde 2011 und 2015 nicht gestellt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19523,7 +19523,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beurteilung von gesellschaftlicher Vielfalt",
+		"description": "Beurteilung von kultureller Vielfalt",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.6496",
@@ -19539,7 +19539,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:19",
+		"aktualisierungsdatum": "2024-09-30T12:46:19",
 		"id": 6496
 	},
 	{
@@ -19553,8 +19553,8 @@
 		],
 		"title": "Zufriedenheit mit dem Kulturangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt",
-		"lesehilfe": "39,6% der 2019 Befragten sind mit dem Kulturangebot sehr zufrieden und 40,8% eher zufrieden. Insgesamt 7,6% sind damit eher oder sehr unzufrieden. Nach Staatsangehörigkeit lässt sich 2019 kein signifikanter Unterschied in der Beurteilung beobachten.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"lesehilfe": "37,4% der Bevölkerung ist 2023 mit dem Kulturangebot sehr zufrieden und 41,5% eher zufrieden. Insgesamt 9,1% sind damit eher oder sehr unzufrieden. Nach Staatsangehörigkeit lässt sich 2023 kein signifikanter Unterschied in der Beurteilung beobachten.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19579,7 +19579,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:41",
+		"aktualisierungsdatum": "2024-09-30T12:46:21",
 		"id": 6499
 	},
 	{
@@ -19632,8 +19632,8 @@
 		],
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Staatsangehörigkeit",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. 2019 liegt der Anteil Zufriedener wieder über jenem von 2015. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höheren Anteil Zufriedener auf.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"lesehilfe": "Weniger als die Hälfte der Befragten ist 2023 mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Ausländerinnen und Ausländer weisen gegenüber den Befragten mit Schweizer Pass einen höheren Anteil Unzufriedener auf.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19658,7 +19658,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:20",
+		"aktualisierungsdatum": "2024-09-30T12:46:22",
 		"id": 6504
 	},
 	{
@@ -19750,10 +19750,10 @@
 		"children": [
 			6739
 		],
-		"title": "Beurteilung des Wohnorts nach Heimat",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt",
-		"lesehilfe": "75,7% der 2019 befragten Personen leben sehr gerne an ihrem Wohnort und 21,6% eher gerne. 73,2% der Befragten mit ausländischer Staatsbürgerschaft leben sehr gerne an ihrem Wohnort, bei Schweizerinnen und Schweizern sind es 76,4%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"title": "Beurteilung des Kantons Basel-Stadt als Wohnort nach Staatsangehörigkeit",
+		"subtitle": "«Wie gern wohnen Sie im Kanton Basel-Stadt?», Basel-Stadt",
+		"lesehilfe": "67,5% der 2023 befragten Personen wohnen sehr gern im Kanton Basel-Stadt und 26,1% eher gern. 70,8% der Bevölkerung mit ausländischer Staatsbürgerschaft leben sehr gern im Kanton, bei Schweizerinnen und Schweizern sind es 65,7%.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19762,7 +19762,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beurteilung des Wohnorts nach Heimat",
+		"description": "Beurteilung des Kantons Basel-Stadt als Wohnort nach Staatsangehörigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.6507",
@@ -19778,7 +19778,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:43",
+		"aktualisierungsdatum": "2024-09-30T12:46:23",
 		"id": 6507
 	},
 	{
@@ -19790,10 +19790,10 @@
 		"children": [
 			6740
 		],
-		"title": "Beurteilung des Wohnquartiers nach Heimat",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt",
-		"lesehilfe": "93,8% der 2019 Befragten wohnen sehr oder eher gerne in ihrem Wohnquartier. 57,7% der Befragten mit ausländischer Staatsbürgerschaft leben sehr gerne in ihrem Quartier, bei Schweizerinnen und Schweizern sind dies 69,7%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"title": "Beurteilung des Wohnortes nach Staatsangehörigkeit",
+		"subtitle": "«Wie gern wohnen Sie in Ihrem Wohnquartier bzw. Dorf?», Basel-Stadt",
+		"lesehilfe": "92,2% der Bevölkerung wohnt im Jahr 2023 sehr oder eher gern in ihrem Wohnquartier bzw. Dorf. 61,9% der Bevölkerung mit ausländischer Staatsbürgerschaft lebt sehr gern in ihrem Wohnquartier; bei Schweizerinnen und Schweizern sind dies 67,4%.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19802,7 +19802,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beurteilung des Wohnquartiers nach Heimat",
+		"description": "Beurteilung des Wohnortes nach Staatsangehörigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.6508",
@@ -19818,7 +19818,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:43",
+		"aktualisierungsdatum": "2024-09-30T12:46:25",
 		"id": 6508
 	},
 	{
@@ -19830,10 +19830,10 @@
 		"children": [
 			6741
 		],
-		"title": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
-		"subtitle": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartierbevölkerung?», Basel-Stadt",
-		"lesehilfe": "22,1% der im Jahr 2019 Befragten sind mit der Zusammensetzung der Quartierbevölkerung sehr zufrieden, 51,0% sind eher zufrieden. Die Einschätzung der Zusammensetzung der Quartierbevölkerung unterscheidet sich nicht signifikant nach Staatsangehörigkeit.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"title": "Beurteilung der Zusammensetzung der Quartier- bzw. der Dorfbevölkerung nach Staatsangehörigkeit",
+		"subtitle": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartier- bzw. Dorfbevölkerung?», Basel-Stadt",
+		"lesehilfe": "Rund ein Fünftel der Bevölkerung ist 2023 mit der Zusammensetzung der Quartier- bzw. Dorfbevölkerung sehr zufrieden, 50,9% sind eher zufrieden. Die Einschätzung der Zusammensetzung der Quartierbevölkerung unterscheidet sich nicht signifikant nach Staatsangehörigkeit.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19842,7 +19842,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
+		"description": "Beurteilung der Zusammensetzung der Quartier- bzw. der Dorfbevölkerung nach Staatsangehörigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.6509",
@@ -19858,7 +19858,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:44",
+		"aktualisierungsdatum": "2024-09-30T12:46:26",
 		"id": 6509
 	},
 	{
@@ -19871,9 +19871,9 @@
 			6742
 		],
 		"title": "Nicht in der Schweiz geborenen Bekannte",
-		"subtitle": "«Haben Sie Bekannte, die im Kanton Basel-Stadt leben aber nicht in der Schweiz geboren oder aufgewachsen sind?», Basel-Stadt",
-		"lesehilfe": "Der Anteil Befragter, die mehrere Bekannte haben, welche im Kanton Basel­Stadt leben, aber nicht in der Schweiz geboren oder aufgewachsen sind, ist seit 2003 von 33,4% auf 57,1% gestiegen. 2015 lag dieser Anteil noch bei 47,0%. Ausländische Befragte (91,7%) sind häufiger mit nicht in der Schweiz geborenen Personen befreundet, als Personen mit einem Schweizer Pass (77,5%).",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"subtitle": "«Haben Sie Bekannte, die im Kanton Basel-Stadt leben, aber nicht in der Schweiz geboren oder aufgewachsen sind?», Basel-Stadt",
+		"lesehilfe": "Der Anteil Befragter, die mehrere Bekannte haben, welche im Kanton Basel­Stadt leben, aber nicht in der Schweiz geboren oder aufgewachsen sind, ist seit 2003 von einem Drittel auf 52,9% gestiegen.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19898,7 +19898,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:15:25",
+		"aktualisierungsdatum": "2024-09-30T12:46:17",
 		"id": 6510
 	},
 	{
@@ -36673,7 +36673,7 @@
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2021 rund 3 800 Beschäftigte in der Branche Kultur tätig und damit rund 200 mehr als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2022 4 077 Beschäftigte in der Branche Kultur tätig, 300 mehr als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -36699,7 +36699,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:03",
+		"aktualisierungsdatum": "2024-09-30T12:45:58",
 		"id": 9368
 	},
 	{
@@ -36871,12 +36871,14 @@
 		"data-id": 9376,
 		"chart-id": 8461,
 		"filter": "",
-		"parentId": "8461",
-		"children": [],
+		"parentId": null,
+		"children": [
+			9433
+		],
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
-		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden. 50,2% haben diese Frage mit «Weiss nicht» oder gar nicht beantwortet.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kinderbetreuungsangebot?», Basel-Stadt",
+		"lesehilfe": "Insgesamt 40,5% zeigen sich 2023 sehr oder eher zufrieden mit dem Kinderbetreuungsangebot. 11,9% sind damit unzufrieden. 47,6% haben diese Frage mit «Weiss nicht» oder gar nicht beantwortet.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -36901,7 +36903,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:53",
+		"aktualisierungsdatum": "2024-09-30T12:46:05",
 		"id": 9376
 	},
 	{
@@ -37453,7 +37455,7 @@
 		],
 		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 31% auf 38% gestiegen und bei den Frauen von 75% auf 78%.",
+		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 40% gestiegen und bei den Frauen von 75% auf 78%.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -37479,7 +37481,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:52",
+		"aktualisierungsdatum": "2024-09-30T12:46:08",
 		"id": 9396
 	},
 	{
@@ -37493,7 +37495,7 @@
 		],
 		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 37,2%.",
+		"lesehilfe": "Im Jahr 2023 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 37,1%.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -37519,7 +37521,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:53",
+		"aktualisierungsdatum": "2024-09-30T12:46:10",
 		"id": 9397
 	},
 	{

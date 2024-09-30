@@ -19,15 +19,19 @@
         ],
         [
           "2011",
-          310
+          311.35588
         ],
         [
           "2015",
-          338
+          409.09734
         ],
         [
           "2019",
-          464
+          496.51848
+        ],
+        [
+          "2023",
+          345.23221
         ]
       ],
       "name": "Eine(n)",
@@ -52,15 +56,19 @@
         ],
         [
           "2011",
-          249
+          251.22689
         ],
         [
           "2015",
-          213
+          226.55421
         ],
         [
           "2019",
-          366
+          376.18468
+        ],
+        [
+          "2023",
+          297.88798
         ]
       ],
       "name": "Mehrere",
@@ -85,15 +93,19 @@
         ],
         [
           "2011",
-          956
+          951.7982
         ],
         [
           "2015",
-          953
+          868.45538
         ],
         [
           "2019",
-          1217
+          1188
+        ],
+        [
+          "2023",
+          1162
         ]
       ],
       "name": "Keine",
@@ -122,11 +134,15 @@
         ],
         [
           "2015",
-          0
+          1.89306
         ],
         [
           "2019",
-          1
+          0.84309
+        ],
+        [
+          "2023",
+          0
         ]
       ],
       "name": "Weiss nicht",
@@ -151,15 +167,19 @@
         ],
         [
           "2011",
-          1
+          1.61903
         ],
         [
           "2015",
-          2
+          0
         ],
         [
           "2019",
-          60
+          46.37792
+        ],
+        [
+          "2023",
+          248.66224
         ]
       ],
       "name": "Keine Angabe",
@@ -250,7 +270,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?», Basel-Stadt"
+    "text": "«Haben Sie in den letzten 12 Monaten eine Weiterbildung oder einen Kurs besucht?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -307,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
   },
   "legend": {
     "layout": "horizontal",

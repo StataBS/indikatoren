@@ -13,15 +13,19 @@
         ],
         [
           "2011",
-          243
+          254.16572
         ],
         [
           "2015",
-          179
+          232.16251
         ],
         [
           "2019",
-          297
+          319.2404
+        ],
+        [
+          "2023",
+          273.40471
         ]
       ],
       "name": "Sehr zufrieden",
@@ -40,15 +44,19 @@
         ],
         [
           "2011",
-          549
+          560.12434
         ],
         [
           "2015",
-          348
+          411.17705
         ],
         [
           "2019",
-          365
+          365.40493
+        ],
+        [
+          "2023",
+          417.54238
         ]
       ],
       "name": "Eher zufrieden",
@@ -67,15 +75,19 @@
         ],
         [
           "2011",
-          170
+          172.42501
         ],
         [
           "2015",
-          70
+          81.64092
         ],
         [
           "2019",
-          135
+          140.44263
+        ],
+        [
+          "2023",
+          160.61114
         ]
       ],
       "name": "Eher unzufrieden",
@@ -94,15 +106,19 @@
         ],
         [
           "2011",
-          21
+          21.41587
         ],
         [
           "2015",
-          7
+          9.06858
         ],
         [
           "2019",
-          37
+          35.8686
+        ],
+        [
+          "2023",
+          42.79819
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -121,15 +137,19 @@
         ],
         [
           "2011",
-          427
+          415.19228
         ],
         [
           "2015",
-          431
+          427.98952
         ],
         [
           "2019",
-          761
+          776.82522
+        ],
+        [
+          "2023",
+          784.18214
         ]
       ],
       "name": "Weiss nicht",
@@ -148,7 +168,7 @@
         ],
         [
           "2011",
-          14
+          14.47066
         ],
         [
           "2015",
@@ -156,7 +176,11 @@
         ],
         [
           "2019",
-          80
+          76.29982
+        ],
+        [
+          "2023",
+          29.43934
         ]
       ],
       "name": "Keine Angabe",
@@ -247,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt"
+    "text": "«Wie zufrieden sind Sie mit dem Kinderbetreuungsangebot?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -305,7 +329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
   },
   "legend": {
     "layout": "horizontal",

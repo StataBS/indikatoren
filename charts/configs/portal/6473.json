@@ -59,15 +59,15 @@
         ],
         [
           "2011: Schweiz",
-          283
+          252.65014
         ],
         [
           "2011: Ausland",
-          35
+          59.08029
         ],
         [
           "2011: Total",
-          318
+          311.7304
         ],
         [
           "2015",
@@ -75,15 +75,15 @@
         ],
         [
           "2015: Schweiz",
-          276
+          218.72591
         ],
         [
           "2015: Ausland",
-          37
+          75.66174
         ],
         [
           "2015: Total",
-          313
+          294.3876
         ],
         [
           "2019",
@@ -91,15 +91,31 @@
         ],
         [
           "2019: Schweiz",
-          297
+          246.66893
         ],
         [
           "2019: Ausland",
-          77
+          120.80888
         ],
         [
           "2019: Total",
-          376
+          369.2252
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          307.15193
+        ],
+        [
+          "2023: Ausland",
+          112.65672
+        ],
+        [
+          "2023: Total",
+          419.8086
         ]
       ],
       "name": "Sehr gut",
@@ -164,15 +180,15 @@
         ],
         [
           "2011: Schweiz",
-          485
+          436.64359
         ],
         [
           "2011: Ausland",
-          77
+          124.39707
         ],
         [
           "2011: Total",
-          562
+          561.0407
         ],
         [
           "2015",
@@ -180,15 +196,15 @@
         ],
         [
           "2015: Schweiz",
-          522
+          460.02806
         ],
         [
           "2015: Ausland",
-          63
+          135.24633
         ],
         [
           "2015: Total",
-          585
+          595.2744
         ],
         [
           "2019",
@@ -196,15 +212,31 @@
         ],
         [
           "2019: Schweiz",
-          977
+          812.00221
         ],
         [
           "2019: Ausland",
-          257
+          400.81148
         ],
         [
           "2019: Total",
-          1243
+          1220.626
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          698.25742
+        ],
+        [
+          "2023: Ausland",
+          357.85619
+        ],
+        [
+          "2023: Total",
+          1056.114
         ]
       ],
       "name": "Eher gut",
@@ -269,15 +301,15 @@
         ],
         [
           "2011: Schweiz",
-          81
+          72.85996
         ],
         [
           "2011: Ausland",
-          16
+          25.07493
         ],
         [
           "2011: Total",
-          97
+          97.93489
         ],
         [
           "2015",
@@ -285,15 +317,15 @@
         ],
         [
           "2015: Schweiz",
-          74
+          71.16955
         ],
         [
           "2015: Ausland",
-          13
+          30.98581
         ],
         [
           "2015: Total",
-          87
+          102.1554
         ],
         [
           "2019",
@@ -301,15 +333,31 @@
         ],
         [
           "2019: Schweiz",
-          209
+          186.05086
         ],
         [
           "2019: Ausland",
-          79
+          132.06332
         ],
         [
           "2019: Total",
-          293
+          322.86
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          183.61235
+        ],
+        [
+          "2023: Ausland",
+          84.00171
+        ],
+        [
+          "2023: Total",
+          267.6141
         ]
       ],
       "name": "Eher nicht so gut",
@@ -374,15 +422,15 @@
         ],
         [
           "2011: Schweiz",
-          22
+          20.21168
         ],
         [
           "2011: Ausland",
-          7
+          11.22519
         ],
         [
           "2011: Total",
-          29
+          31.43687
         ],
         [
           "2015",
@@ -390,15 +438,15 @@
         ],
         [
           "2015: Schweiz",
-          7
+          7.03685
         ],
         [
           "2015: Ausland",
-          4
+          10.44463
         ],
         [
           "2015: Total",
-          11
+          17.48148
         ],
         [
           "2019",
@@ -406,15 +454,31 @@
         ],
         [
           "2019: Schweiz",
-          51
+          48.37178
         ],
         [
           "2019: Ausland",
-          15
+          23.80799
         ],
         [
           "2019: Total",
-          66
+          72.17977
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          25.81637
+        ],
+        [
+          "2023: Ausland",
+          19.45271
+        ],
+        [
+          "2023: Total",
+          45.26908
         ]
       ],
       "name": "Gar nicht gut",
@@ -479,15 +543,15 @@
         ],
         [
           "2011: Schweiz",
-          1
+          0.75042
         ],
         [
           "2011: Ausland",
-          1
+          1.12278
         ],
         [
           "2011: Total",
-          2
+          1.873198
         ],
         [
           "2015",
@@ -495,7 +559,7 @@
         ],
         [
           "2015: Schweiz",
-          5
+          4.40283
         ],
         [
           "2015: Ausland",
@@ -503,7 +567,7 @@
         ],
         [
           "2015: Total",
-          5
+          4.40283
         ],
         [
           "2019",
@@ -511,15 +575,31 @@
         ],
         [
           "2019: Schweiz",
-          36
+          41.27721
         ],
         [
           "2019: Ausland",
-          8
+          11.56426
         ],
         [
           "2019: Total",
-          45
+          53.56474
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          37.13586
+        ],
+        [
+          "2023: Ausland",
+          13.74127
+        ],
+        [
+          "2023: Total",
+          50.87713
         ]
       ],
       "name": "Weiss nicht",
@@ -584,7 +664,7 @@
         ],
         [
           "2011: Schweiz",
-          1
+          0.75042
         ],
         [
           "2011: Ausland",
@@ -592,7 +672,7 @@
         ],
         [
           "2011: Total",
-          1
+          0.750421
         ],
         [
           "2015",
@@ -616,15 +696,31 @@
         ],
         [
           "2019: Schweiz",
-          65
+          45.58801
         ],
         [
           "2019: Ausland",
-          11
+          15.56282
         ],
         [
           "2019: Total",
-          85
+          69.54482
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2023: Schweiz",
+          88.49441
+        ],
+        [
+          "2023: Ausland",
+          125.82307
+        ],
+        [
+          "2023: Total",
+          214.3175
         ]
       ],
       "name": "Keine Angabe",
@@ -657,19 +753,20 @@
                     });
                     var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                     var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                        return accumulator + series.yData[indexOfCurrentValue];
+                      return accumulator + series.yData[indexOfCurrentValue];
                     }, 0);
                     //use N if all series are visible, otherwise use n
                     var nString =  'n=';
                       if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-  
+                      var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
                     //delete everything before ":", including ":"
                     this.value = this.value.replace(/[^:]*:/, "");
   
                     //check for value that contains only spaces
-                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    if (formattedSum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
                     //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
                     return "<b>" + this.value + "</b>";
+                    
                 }
     }
   },
@@ -692,7 +789,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 573,
     "spacing": [
       10,
       10,
@@ -783,7 +880,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
   },
   "legend": {
     "layout": "horizontal",

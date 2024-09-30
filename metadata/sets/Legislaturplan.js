@@ -207,9 +207,9 @@ var indikatorensetData = [
 			9418
 		],
 		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
-		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?», Basel-Stadt",
-		"lesehilfe": "22,0% der Befragten gaben 2019 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 17,4% haben mehrere Kurse besucht. 57,7% gaben an, keinen Kurs besucht zu haben.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Weiterbildung oder einen Kurs besucht?», Basel-Stadt",
+		"lesehilfe": "16,8% der Bevölkerung gaben 2023 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,5% haben mehrere Kurse besucht. 56,6% gaben an, keinen Kurs besucht zu haben.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -233,7 +233,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:26",
+		"aktualisierungsdatum": "2024-09-30T12:46:01",
 		"id": 5192
 	},
 	{
@@ -489,8 +489,8 @@ var indikatorensetData = [
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2020 um rund 27% abgenommen. Auf die Kategorie Wohnen (Anteil 2020: 35,2%) entfällt dabei 2020 etwa der gleiche Energieeinsatz wie 2010, während in diesem Zeitraum die Energiebezugsfläche zugenommen hat. Stark zurückgegangen ist der Verbrauch in der Kategorie Nichtwohnen (Anteil 2020: 49,7%), nämlich von 3 061 GWh auf 1 953 GWh, was einer Reduktion um etwa 36% entspricht. In der Kategorie Verkehr (Anteil 2020: 15,1%) ist 2020 gegenüber 2018 ein starker Rückgang ersichtlich, wobei dieser vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells zustandegekommen ist.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um 30,6% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt 2022 ein kleinerer Energieeinsatz als 2010; dies obwohl es eine Zunahme der Energiebezugsfläche in diesem Zeitraum gab. Der Verbrauch in der Kategorie Nichtwohnen ist zurückgegangen (Anteil 2022: 44,5%), von 2 284 GWh auf 1 633 GWh. Dies ist eine Reduktion um 28,5%, unter anderem wegen einer starken Abnahme der Energiebezugsfläche. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich. Dieser ist vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustandegekommen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden. Zum Wohnen gehören private Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt. Daher ist die Summe des Verbrauchs der drei abgebildeten Verbrauchergruppen kleiner als der totale Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -504,7 +504,7 @@ var indikatorensetData = [
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "I.08.1.06160",
+		"kuerzel": "",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "5.7",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
@@ -516,13 +516,13 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:49",
+		"aktualisierungsdatum": "2024-09-30T12:46:06",
 		"id": 6160
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 6161,
-		"chart-id": 9007,
+		"chart-id": 6161,
 		"filter": "",
 		"parentId": null,
 		"children": [
@@ -532,7 +532,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 24,6% im Jahr 2020 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 25,6% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:49",
+		"aktualisierungsdatum": "2024-09-30T12:46:07",
 		"id": 6161
 	},
 	{
@@ -695,7 +695,7 @@ var indikatorensetData = [
 		],
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Schultyp, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2023 bei total 0,8%. Das ist mit Abstand der tiefste Wert im Beobachtungszeitraum. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu einem unruhigen Kurvenverlauf.",
+		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2024 bei total 0,7%. Das ist der niedrigste Wert im Beobachtungszeitraum. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu unruhigen Kurvenverläufen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und -abgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Erziehungsdepartement des Kantons Basel-Stadt. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren; ohne Gymnasien. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
@@ -720,7 +720,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:04",
+		"aktualisierungsdatum": "2024-09-30T12:46:00",
 		"id": 6206
 	},
 	{
@@ -924,7 +924,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2021 rund 3 800 Beschäftigte in der Branche Kultur tätig und damit rund 200 mehr als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2022 4 077 Beschäftigte in der Branche Kultur tätig, 300 mehr als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -949,7 +949,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:03",
+		"aktualisierungsdatum": "2024-09-30T12:45:58",
 		"id": 9368
 	},
 	{
@@ -1230,12 +1230,14 @@ var indikatorensetData = [
 		"data-id": 9376,
 		"chart-id": 8461,
 		"filter": "",
-		"parentId": "8461",
-		"children": [],
+		"parentId": null,
+		"children": [
+			9433
+		],
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
-		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden. 50,2% haben diese Frage mit «Weiss nicht» oder gar nicht beantwortet.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kinderbetreuungsangebot?», Basel-Stadt",
+		"lesehilfe": "Insgesamt 40,5% zeigen sich 2023 sehr oder eher zufrieden mit dem Kinderbetreuungsangebot. 11,9% sind damit unzufrieden. 47,6% haben diese Frage mit «Weiss nicht» oder gar nicht beantwortet.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -1259,7 +1261,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:53",
+		"aktualisierungsdatum": "2024-09-30T12:46:05",
 		"id": 9376
 	},
 	{
@@ -1983,7 +1985,7 @@ var indikatorensetData = [
 		],
 		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 31% auf 38% gestiegen und bei den Frauen von 75% auf 78%.",
+		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 40% gestiegen und bei den Frauen von 75% auf 78%.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2008,7 +2010,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:52",
+		"aktualisierungsdatum": "2024-09-30T12:46:08",
 		"id": 9396
 	},
 	{
@@ -2022,7 +2024,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 37,2%.",
+		"lesehilfe": "Im Jahr 2023 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 37,1%.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2047,7 +2049,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:53",
+		"aktualisierungsdatum": "2024-09-30T12:46:10",
 		"id": 9397
 	},
 	{
@@ -2099,8 +2101,8 @@ var indikatorensetData = [
 		"parentId": "6459",
 		"children": [],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2021 rund 151 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig, was einem Wachstum um rund 2 800 VZÄ bzw. 1,9% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 23 200 VZÄ (+0,8%). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit über 20 600 VZÄ (+1,2%) sowie Chemie und Pharma mit rund 17 600 VZÄ (+0,0%). Das stärkste Wachstum verzeichnen die Branchen Gastgewerbe (+18,5%), Personalvermittlung und -überlassung (+10,4%) sowie Information und Kommunikation (+5,5%). Die Branchen Baugewerbe (-6,4%) und Industrie (exkl. Chemie/Pharma; -2,5%) sind dagegen rückläufig.",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In Basel-Stadt sind 2022 rund 156 200 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einem Wachstum um rund 4 800 VZÄ bzw. 3,2% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 24 700 VZÄ (+6,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+1 512 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2022 die grösste Abnahme auf (-246 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2113,7 +2115,7 @@ var indikatorensetData = [
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.09457",
+		"kuerzel": "",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.8",
 		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
@@ -2125,7 +2127,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:45",
+		"aktualisierungsdatum": "2024-09-30T12:46:03",
 		"id": 9457
 	}
 ];
