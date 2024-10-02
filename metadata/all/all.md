@@ -2096,7 +2096,7 @@ id | visible | visibleInPortal | indikatorenset
 9392 | true | true | Legislaturplan
 9393 | true | true | Legislaturplan
 9394 | true | true | Legislaturplan
-9395 | true | true | Legislaturplan
+9395 | false |  | Legislaturplan
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
