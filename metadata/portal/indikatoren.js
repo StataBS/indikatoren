@@ -25939,7 +25939,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im August 2024 auf 1,0% gesunken; dies nach 1,2% im Juli.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im September 2024 auf 0,8% gesunken; dies nach 1,0% im August.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25967,7 +25967,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:11",
+		"aktualisierungsdatum": "2024-10-03T08:52:54",
 		"id": 7512
 	},
 	{
@@ -25979,7 +25979,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau war im laufenden Jahr 2024 gegenüber dem Vormonat im August rundungsbedingt mit -0,1% bereits zum zweiten Mal in Folge rückläufig; im Juli hatte die Monatsteuerung -0,2% betragen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im September 2024 gegenüber dem Vormonat um 0,3% zurück; im August hatte die Monatsteuerung -0,1% betragen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -26006,7 +26006,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:19",
+		"aktualisierungsdatum": "2024-10-03T09:11:37",
 		"id": 7513
 	},
 	{
