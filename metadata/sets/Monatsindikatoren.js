@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im August 2024 auf 1,0% gesunken; dies nach 1,2% im Juli.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im September 2024 auf 0,8% gesunken; dies nach 1,0% im August.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:11",
+		"aktualisierungsdatum": "2024-10-03T08:52:54",
 		"id": 7512
 	},
 	{
