@@ -88,7 +88,7 @@ series: [
 ],  
 tooltip: {
   pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> m<sup>2 </sup> <br/>',
- shared: false,
+ shared: true,
  useHTML: true
 },
 };

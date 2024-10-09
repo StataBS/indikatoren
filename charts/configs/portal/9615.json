@@ -26,6 +26,10 @@
         [
           "2020",
           198.34706706
+        ],
+        [
+          "2022",
+          175.072661
         ]
       ],
       "name": "Heizöl",
@@ -57,6 +61,10 @@
         [
           "2020",
           694.91957457
+        ],
+        [
+          "2022",
+          558.40238675
         ]
       ],
       "name": "Erdgas",
@@ -88,6 +96,10 @@
         [
           "2020",
           1348.2589341
+        ],
+        [
+          "2022",
+          1239.101656
         ]
       ],
       "name": "Elektrizität",
@@ -119,6 +131,10 @@
         [
           "2020",
           1182.2252351
+        ],
+        [
+          "2022",
+          1136.0765582
         ]
       ],
       "name": "Fern-\u002FNahwärme",
@@ -149,7 +165,11 @@
         ],
         [
           "2020",
-          538.172659
+          584.289781
+        ],
+        [
+          "2022",
+          557.885621
         ]
       ],
       "name": "Treibstoffe",
@@ -181,6 +201,10 @@
         [
           "2020",
           136.91384859
+        ],
+        [
+          "2022",
+          198.43427245
         ]
       ],
       "name": "Sonstiges",
@@ -319,7 +343,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

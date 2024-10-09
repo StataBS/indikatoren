@@ -27,6 +27,10 @@
         [
           "2020",
           56.08344672
+        ],
+        [
+          "2022",
+          56.830195
         ]
       ],
       "name": "Heizöl",
@@ -59,6 +63,10 @@
         [
           "2020",
           503.42668568
+        ],
+        [
+          "2022",
+          511.40536907
         ]
       ],
       "name": "Erdgas",
@@ -91,6 +99,10 @@
         [
           "2020",
           669.79731189
+        ],
+        [
+          "2022",
+          660.336675
         ]
       ],
       "name": "Kehricht, Klärschlamm, Industrieabfall",
@@ -123,6 +135,10 @@
         [
           "2020",
           3.655
+        ],
+        [
+          "2022",
+          1.2
         ]
       ],
       "name": "Elektrizität",
@@ -155,6 +171,10 @@
         [
           "2020",
           248.083201
+        ],
+        [
+          "2022",
+          258.73117693
         ]
       ],
       "name": "Holz",
@@ -187,6 +207,10 @@
         [
           "2020",
           17.811805
+        ],
+        [
+          "2022",
+          2.26
         ]
       ],
       "name": "Umweltwärme",
@@ -219,6 +243,10 @@
         [
           "2020",
           5.043015
+        ],
+        [
+          "2022",
+          4.140542
         ]
       ],
       "name": "Import",
@@ -257,7 +285,11 @@
         ],
         [
           "2020",
-          34.020952294
+          33.669692278
+        ],
+        [
+          "2022",
+          35.392389827
         ]
       ],
       "name": "Anteil am Bruttoenergieverbrauch (rechte Skala)",
@@ -413,7 +445,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.9.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

@@ -81,7 +81,7 @@
     ],
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', 
-      footerFormat: 'Total Endverbrauch: <b>{point.total:,.0f}</b> GWh',
+      footerFormat: 'Total Endenergieverbrauch<br>von fossilen Energieträgern: <b>{point.total:,.0f}</b> GWh',
       shared: true,
       useHTML: true,
       outside: true,
