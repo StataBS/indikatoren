@@ -7747,7 +7747,7 @@
 		"children": [],
 		"title": "Stromverbrauch pro Einwohner",
 		"subtitle": "in Megawattstunden",
-		"lesehilfe": "Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sank er bis 2020 auf 6,7 MWh pro Einwohner.",
+		"lesehilfe": "Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sank er bis 2022 auf 6,1 MWh pro Einwohner.",
 		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -7776,7 +7776,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:56",
+		"aktualisierungsdatum": "2024-10-09T01:47:51",
 		"id": 4321
 	},
 	{
