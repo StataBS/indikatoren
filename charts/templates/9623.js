@@ -28,7 +28,7 @@
         var unit = ["GWh", "kWh pro CHF", "kWh pro Kopf"];
         var decimal = [0, 3, 0];
         //console.log(this.series.chart.series[index2].data);
-        return '<b>' + Highcharts.numberFormat(this.y, 0) + '</b> ('
+        return '<b>' + Highcharts.numberFormat(this.y, 0) + '%</b> ('
           + Highcharts.numberFormat(this.series.chart.series[index2].data[this.x].y, decimal[index1]) + ' ' + unit[index1] + ')<br/>';
       },
       shared: false

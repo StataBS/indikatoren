@@ -1067,9 +1067,17 @@
         [
           2020,
           10.49
+        ],
+        [
+          2021,
+          9.39
+        ],
+        [
+          2022,
+          10.13
         ]
       ],
-      "name": "Mittlere Lufttemperatur Heizperiode (Sep-Jun)"
+      "name": "Mitteltemperatur Heizperiode (Sep-Jun)"
     },
     {
       "color": "#B00000",
@@ -2084,11 +2092,11 @@
         ],
         [
           2007,
-          null
+          9.2071672599
         ],
         [
           2008,
-          null
+          9.2605005933
         ],
         [
           2009,
@@ -2137,9 +2145,17 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
         ]
       ],
-      "name": "30-jähriges gleitendes Mittel der Lufttemperatur (Heizperiode)"
+      "name": "Gleitendes Mittel der Lufttemperatur (Heizperiode)"
     },
     {
       "color": "#689199",
@@ -3192,7 +3208,7 @@
         ],
         [
           2015,
-          2596
+          3569
         ],
         [
           2016,
@@ -3213,6 +3229,14 @@
         [
           2020,
           2507
+        ],
+        [
+          2021,
+          3058
+        ],
+        [
+          2022,
+          2503
         ]
       ],
       "name": "Heizgradtage (rechte Skala)"
@@ -3349,7 +3373,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

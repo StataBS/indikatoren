@@ -27,6 +27,10 @@
         [
           "2020",
           198.34706706
+        ],
+        [
+          "2022",
+          175.072661
         ]
       ],
       "name": "Heizöl",
@@ -38,19 +42,19 @@
       "data": [
         [
           "2010",
-          1262.9277103
+          1262.5363303
         ],
         [
           "2012",
-          1157.7843572
+          1157.3573972
         ],
         [
           "2014",
-          983.79301066
+          983.33047066
         ],
         [
           "2016",
-          932.60845667
+          932.13405667
         ],
         [
           "2018",
@@ -59,6 +63,10 @@
         [
           "2020",
           694.91957457
+        ],
+        [
+          "2022",
+          558.40238675
         ]
       ],
       "name": "Erdgas",
@@ -91,6 +99,10 @@
         [
           "2020",
           224.836548
+        ],
+        [
+          "2022",
+          208.251292
         ]
       ],
       "name": "Benzin",
@@ -126,7 +138,11 @@
         ],
         [
           "2020",
-          313.336111
+          359.453233
+        ],
+        [
+          "2022",
+          349.634329
         ]
       ],
       "name": "Diesel",
@@ -145,19 +161,19 @@
       "data": [
         [
           "2010",
-          46.299649106
+          46.292625233
         ],
         [
           "2012",
-          45.119943999
+          45.111771073
         ],
         [
           "2014",
-          44.653853817
+          44.644041077
         ],
         [
           "2016",
-          41.622813203
+          41.6127322
         ],
         [
           "2018",
@@ -165,7 +181,11 @@
         ],
         [
           "2020",
-          34.923057185
+          35.647108886
+        ],
+        [
+          "2022",
+          33.411892317
         ]
       ],
       "name": "Anteil am Endenergieverbrauch (rechte Skala)",
@@ -321,11 +341,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total Endverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "footerFormat": "Total Endenergieverbrauch\u003Cbr\u003Evon fossilen Energieträgern: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
     "shared": true,
     "useHTML": true,
     "outside": true,

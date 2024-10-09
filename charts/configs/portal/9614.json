@@ -26,6 +26,10 @@
         [
           "2020",
           27.559384
+        ],
+        [
+          "2022",
+          30.24
         ]
       ],
       "name": "Biogas",
@@ -57,6 +61,10 @@
         [
           "2020",
           361.70347
+        ],
+        [
+          "2022",
+          362.592158
         ]
       ],
       "name": "Kehricht und Klärschlamm (vollständig erneuerbar)",
@@ -88,6 +96,10 @@
         [
           "2020",
           283
+        ],
+        [
+          "2022",
+          246
         ]
       ],
       "name": "Wasserkraft",
@@ -119,6 +131,10 @@
         [
           "2020",
           323.48253908
+        ],
+        [
+          "2022",
+          337.5573768
         ]
       ],
       "name": "Holz",
@@ -150,6 +166,10 @@
         [
           "2020",
           26.104851
+        ],
+        [
+          "2022",
+          39.35076
         ]
       ],
       "name": "Photovoltaik",
@@ -181,6 +201,10 @@
         [
           "2020",
           20.8669364
+        ],
+        [
+          "2022",
+          20.8373534
         ]
       ],
       "name": "Thermische Solarenergie",
@@ -212,6 +236,10 @@
         [
           "2020",
           45.03035
+        ],
+        [
+          "2022",
+          37.859697
         ]
       ],
       "name": "Umweltwärme",
@@ -290,7 +318,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bruttoenergieverbrauch Erneuerbare"
+    "text": "Bruttoenergieverbrauch erneuerbare Energieträger"
   },
   "subtitle": {
     "text": "in GWh, Basel-Stadt",
@@ -349,7 +377,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

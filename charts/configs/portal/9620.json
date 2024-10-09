@@ -27,6 +27,10 @@
         [
           "2020",
           67519.360118
+        ],
+        [
+          "2022",
+          61528.465754
         ]
       ],
       "name": "Heizöl",
@@ -59,6 +63,10 @@
         [
           "2020",
           250860.43249
+        ],
+        [
+          "2022",
+          222140.23785
         ]
       ],
       "name": "Erdgas",
@@ -91,6 +99,10 @@
         [
           "2020",
           156902.00522
+        ],
+        [
+          "2022",
+          161679.20326
         ]
       ],
       "name": "Abfall",
@@ -122,7 +134,11 @@
         ],
         [
           "2020",
-          142837.0512
+          155056.24385
+        ],
+        [
+          "2022",
+          148042.28554
         ]
       ],
       "name": "Treibstoffe",
@@ -153,18 +169,22 @@
         ],
         [
           "2016",
-          3.7469278205
+          3.7469230877
         ],
         [
           "2018",
-          3.5084863956
+          3.5084863377
         ],
         [
           "2020",
-          3.0671807613
+          3.1278145567
+        ],
+        [
+          "2022",
+          2.914082822
         ]
       ],
-      "name": "Tonnen CO₂ pro Einwohner (rechte Skala)",
+      "name": "Tonnen CO\u003Csub\u003E2 \u003C\u002Fsub\u003E pro Einwohner (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -317,7 +337,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
