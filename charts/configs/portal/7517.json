@@ -5,11 +5,11 @@
       "data": [
         [
           "1- und 2-Sterne",
-          551
+          560
         ],
         [
           "3-Sterne",
-          1549
+          1545
         ],
         [
           "4- und 5-Sterne",
@@ -36,11 +36,11 @@
         ],
         [
           "4- und 5-Sterne",
-          1977
+          1974
         ],
         [
           "Nicht klassiert",
-          623
+          625
         ]
       ],
       "name": "Verfügbare Zimmer 2024",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.542005737
+          0.625
         ],
         [
           "3-Sterne",
-          0.555301027
+          0.683663345
         ],
         [
           "4- und 5-Sterne",
-          0.544087042
+          0.642741935
         ],
         [
           "Nicht klassiert",
-          0.442642746
+          0.502792632
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2023",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.635191658
+          0.654943754
         ],
         [
           "3-Sterne",
-          0.608997059
+          0.719760479
         ],
         [
           "4- und 5-Sterne",
-          0.629040416
+          0.734228301
         ],
         [
           "Nicht klassiert",
-          0.455858748
+          0.504533333
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2024",
@@ -195,7 +195,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, August",
+    "text": "Basel-Stadt, September",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.9.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

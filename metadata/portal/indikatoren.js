@@ -7776,7 +7776,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-10-09T01:47:51",
+		"aktualisierungsdatum": "2024-10-10T07:46:48",
 		"id": 4321
 	},
 	{
@@ -26018,7 +26018,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "143 802 Logiernächte wurden im August 2024 in den Basler Hotelbetrieben gebucht, 6 469 bzw. 4,3% weniger als im Juli. Im Vergleich zum August 2023 entspricht dies einer Zunahme um 8,0% bzw.10 653 Übernachtungen. Die inländischen Gäste buchten 48 675 Logiernächte (+9,9%), die Gäste aus dem Ausland 95 127 Übernachtungen (+7,0%).",
+		"lesehilfe": "135 204 Logiernächte wurden im September 2024 in den Basler Hotelbetrieben gebucht, 8 598 bzw. 6,0% weniger als im August. Im Vergleich zum September 2023 entspricht dies einer Zunahme um 1,6% bzw.2 194 Übernachtungen. Die inländischen Gäste buchten 48 662 Logiernächte (+6,5%), die Gäste aus dem Ausland 86 542 Übernachtungen (-0,9%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26044,7 +26044,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-11T05:38:07",
+		"aktualisierungsdatum": "2024-10-10T07:46:45",
 		"id": 7516
 	},
 	{
@@ -26055,8 +26055,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26082,7 +26082,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-11T05:38:09",
+		"aktualisierungsdatum": "2024-10-10T07:46:47",
 		"id": 7517
 	},
 	{
