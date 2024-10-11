@@ -282,8 +282,8 @@ id | visible | visibleInPortal | indikatorenset
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
-4947 | true | true | Gesundheit
-4948 | true | true | Gesundheit
+4947 | false |  | Gesundheit
+4948 | false |  | Gesundheit
 4953 | false |  | 
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
@@ -633,8 +633,8 @@ id | visible | visibleInPortal | indikatorenset
 6380 | true | true | Gefragte Karten
 6381 | true | true | Gefragte Karten
 6382 | true | true | Gefragte Karten
-6383 | true | true | Gefragte Karten
-6384 | true | true | Gefragte Karten
+6383 | false |  | Gefragte Karten
+6384 | false |  | Gefragte Karten
 6385 | true | true | Gefragte Karten
 6386 | true | false | Gefragte Karten
 6387 | true | false | Gefragte Karten
@@ -644,8 +644,8 @@ id | visible | visibleInPortal | indikatorenset
 6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
 6394 | true | false | Gefragte Karten
-6395 | true | false | Gefragte Karten
-6396 | true | false | Gefragte Karten
+6395 | false |  | Gefragte Karten
+6396 | false |  | Gefragte Karten
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | false | Integration
@@ -1010,16 +1010,16 @@ id | visible | visibleInPortal | indikatorenset
 6988 | true | true | Wohnviertel
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
-6991 | true | true | Gesundheit
-6992 | true | true | Gesundheit
-6993 | true | true | Gesundheit
-6994 | true | true | 
-6995 | true | true | 
+6991 | false |  | Gesundheit
+6992 | false |  | Gesundheit
+6993 | false |  | Gesundheit
+6994 | false |  | Gesundheit
+6995 | false |  | Gesundheit
 6996 | true | true | Legislaturplan
-6997 | true | true | Gesundheit
-6998 | true | true | Gesundheit
-6999 | true | true | Gesundheit
-7000 | true | true | Gesundheit
+6997 | false |  | Gesundheit
+6998 | false |  | Gesundheit
+6999 | false |  | Gesundheit
+7000 | false |  | Gesundheit
 7003 | true | false | Arbeitsmarkt (Print)
 7004 | true | false | Arbeitsmarkt (Print)
 7005 | true | false | Arbeitsmarkt (Print)
@@ -1568,6 +1568,8 @@ id | visible | visibleInPortal | indikatorenset
 8421 | true | false | Richtplan (Print)
 8422 | true | false | Richtplan (Print)
 8423 | true | false | Richtplan (Print)
+8424 | false |  | Gesundheit
+8425 | false |  | Gesundheit
 8431 | true | true | Wirtschaftsbericht BS_BL_JU
 8432 | true | true | Wirtschaftsbericht BS_BL_JU
 8433 | true | true | Wirtschaftsbericht BS_BL_JU

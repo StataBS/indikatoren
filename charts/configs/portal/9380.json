@@ -61,6 +61,10 @@
         [
           "2021",
           1784
+        ],
+        [
+          "2022",
+          2024
         ]
       ],
       "name": "Bildung, Kultur",
@@ -126,6 +130,10 @@
         [
           "2021",
           8745
+        ],
+        [
+          "2022",
+          9277
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -192,6 +200,10 @@
         [
           "2021",
           32831
+        ],
+        [
+          "2022",
+          35142
         ]
       ],
       "name": "Alle anderen Branchen",
@@ -335,7 +347,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 9.6.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2024"
   },
   "tooltip": {
     "shared": true
