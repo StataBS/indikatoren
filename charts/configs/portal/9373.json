@@ -44,6 +44,10 @@
         [
           "2021",
           8.23792168652448
+        ],
+        [
+          "2022",
+          9.69340619392908
         ]
       ],
       "name": "Zahlungsrückstand NWCH",
@@ -102,6 +106,11 @@
           "name": "2021",
           "low": 6.25733962125794,
           "high": 10.218503751791
+        },
+        {
+          "name": "2022",
+          "low": 5.33929234308222,
+          "high": 14.0475200447759
         }
       ],
       "name": "Zahlungrückstand NWCH 95%-Konfidenzintervall Untergrenze",
@@ -152,6 +161,10 @@
         [
           "2021",
           11.5465597216593
+        ],
+        [
+          "2022",
+          11.6196938202983
         ]
       ],
       "name": "Zahlungsrückstand CH",
@@ -210,6 +223,11 @@
           "name": "2021",
           "low": 10.5673043731579,
           "high": 12.5258150701607
+        },
+        {
+          "name": "2022",
+          "low": 10.5674703120981,
+          "high": 12.6719173284986
         }
       ],
       "name": "Zahlungrückstand CH 95%-Konfidenzintervall Untergrenze",
@@ -258,6 +276,10 @@
         ],
         [
           "2021",
+          null
+        ],
+        [
+          "2022",
           null
         ]
       ],
@@ -317,6 +339,11 @@
           "name": "2021",
           "low": null,
           "high": null
+        },
+        {
+          "name": "2022",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Betreibung, Verlustschein NWCH 95%-Konfidenzintervall Untergrenze",
@@ -366,6 +393,10 @@
         ],
         [
           "2021",
+          null
+        ],
+        [
+          "2022",
           null
         ]
       ],
@@ -425,6 +456,11 @@
           "name": "2021",
           "low": null,
           "high": null
+        },
+        {
+          "name": "2022",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Betreibung, Verlustschein CH 95%-Konfidenzintervall Untergrenze",
@@ -473,6 +509,10 @@
         ],
         [
           "2021",
+          null
+        ],
+        [
+          "2022",
           null
         ]
       ],
@@ -532,6 +572,11 @@
           "name": "2021",
           "low": null,
           "high": null
+        },
+        {
+          "name": "2022",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Kontoüberziehung, Kreditkarte NWCH 95%-Konfidenzintervall Untergrenze",
@@ -581,6 +626,10 @@
         ],
         [
           "2021",
+          null
+        ],
+        [
+          "2022",
           null
         ]
       ],
@@ -638,6 +687,11 @@
         },
         {
           "name": "2021",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2022",
           "low": null,
           "high": null
         }
@@ -787,7 +841,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2024"
   },
   "tooltip": {
     "shared": true

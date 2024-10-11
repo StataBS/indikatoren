@@ -6,7 +6,7 @@
       "data": [
         [
           "2010",
-          12.9
+          12.8
         ],
         [
           "2011",
@@ -30,7 +30,7 @@
         ],
         [
           "2016",
-          19.7
+          19.6
         ],
         [
           "2017",
@@ -38,7 +38,7 @@
         ],
         [
           "2018",
-          20.3
+          20.2
         ],
         [
           "2019",
@@ -46,7 +46,7 @@
         ],
         [
           "2020",
-          24.6
+          24.4
         ],
         [
           "2021",
@@ -54,7 +54,7 @@
         ],
         [
           "2022",
-          null
+          25.4
         ],
         [
           "2023",
@@ -294,7 +294,7 @@
         ],
         [
           "2022",
-          null
+          2
         ],
         [
           "2023",
@@ -524,7 +524,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
