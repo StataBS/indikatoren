@@ -18895,7 +18895,7 @@ var indikatoren = [
 		"id": 6480
 	},
 	{
-		"template": "pie001",
+		"template": "befragungen001",
 		"data-id": 6481,
 		"chart-id": 6481,
 		"filter": "",
@@ -18904,9 +18904,9 @@ var indikatoren = [
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2017 bis 2021",
-		"lesehilfe": "Im Mittel der Jahre 2017 bis 2021 sind in Basel-Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 18% sind Schweizer mit Migrationshintergrund, 34% Ausländer der ersten und 3% Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2017 bis 2021 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2013 bis 2022",
+		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt 44% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 19% waren Schweizer mit Migrationshintergrund, 35% Ausländer der ersten und 3% Ausländer der zweiten Generation. Der Anteil der Ausländer der dritten Generation war 0%.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -18931,7 +18931,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:50",
+		"aktualisierungsdatum": "2024-10-15T11:49:15",
 		"id": 6481
 	},
 	{
