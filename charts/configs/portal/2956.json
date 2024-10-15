@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#ffbb58",
+      "color": "#FFDA80",
       "visible": true,
       "data": [
         [
@@ -37,7 +37,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
+      "color": "#FF8028",
       "visible": true,
       "data": [
         [
@@ -73,7 +73,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
+      "color": "#DC440E",
       "visible": true,
       "data": [
         [
@@ -109,28 +109,28 @@
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
+      "color": "#953735",
       "visible": true,
       "data": [
         [
           "18-29 J.",
-          96.6
+          96.7
         ],
         [
           "30-39 J.",
-          95.3
+          95.1
         ],
         [
           "40-49 J.",
-          95.8
+          95.6
         ],
         [
           "50-59 J.",
-          94.1
+          93.9
         ],
         [
           "60-69 J.",
-          96.6
+          96.8
         ],
         [
           "\u003E69 J.",
@@ -145,36 +145,36 @@
       "turboThreshold": 0
     },
     {
-      "color": "#953735",
+      "color": "#661200",
       "visible": true,
       "data": [
         [
           "18-29 J.",
-          97.9
+          96.7
         ],
         [
           "30-39 J.",
-          91.3
+          90.3
         ],
         [
           "40-49 J.",
-          97.1
+          96.7
         ],
         [
           "50-59 J.",
-          97.7
+          98.1
         ],
         [
           "60-69 J.",
-          96.3
+          96.8
         ],
         [
           "\u003E69 J.",
-          97
+          97.2
         ],
         [
           "Total",
-          96.6
+          96.2
         ]
       ],
       "name": "2015",
@@ -186,15 +186,15 @@
       "data": [
         [
           "18-29 J.",
-          88.9
+          87.7
         ],
         [
           "30-39 J.",
-          88.7
+          88.3
         ],
         [
           "40-49 J.",
-          95.1
+          94.8
         ],
         [
           "50-59 J.",
@@ -202,18 +202,54 @@
         ],
         [
           "60-69 J.",
-          97.3
+          97.5
         ],
         [
           "\u003E69 J.",
-          95.5
+          95.4
         ],
         [
           "Total",
-          93.2
+          92.2
         ]
       ],
       "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "visible": true,
+      "data": [
+        [
+          "18-29 J.",
+          89.4
+        ],
+        [
+          "30-39 J.",
+          86.7
+        ],
+        [
+          "40-49 J.",
+          92.3
+        ],
+        [
+          "50-59 J.",
+          91.7
+        ],
+        [
+          "60-69 J.",
+          95.6
+        ],
+        [
+          "\u003E69 J.",
+          96.4
+        ],
+        [
+          "Total",
+          92
+        ]
+      ],
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -351,7 +387,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 15.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
