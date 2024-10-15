@@ -25,12 +25,13 @@
     }    
   },
    "series": [
-    {"color": "#ffbb58", visible: true}, /* hellrot*/
-    {"color": "#ff8028", visible: true}, /* ... */
-    {"color": "#b00000", visible: true}, /* ...*/
-    {"color": "#661200", visible: true}, /* ... */
+    {"color": "#FFDA80", visible: true}, /* hellgelb*/
+    {"color": "#FF8028", visible: true}, /* dunkelorange...*/
+    {"color": "#DC440E", visible: true}, /* hellrot...*/
     {"color": "#953735", visible: true}, /* dunkelrot*/
+    {"color": "#661200", visible: true}, /* ... */
     {"color": "#B375AB", visible: true}, /* violet*/
+    {"color": "#672773", visible: true} /* dunktelviolet*/
     ],
     "legend": {
       "enabled": true,

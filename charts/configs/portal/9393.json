@@ -6,19 +6,23 @@
       "data": [
         [
           2014,
-          1066.2858135
+          1376.2414189
         ],
         [
           2016,
-          878.06082491
+          1253.5730309
         ],
         [
           2018,
-          576.23593859
+          956.25150671
         ],
         [
           2020,
-          580.80065914
+          907.54342359
+        ],
+        [
+          2022,
+          823.81704847
         ]
       ],
       "name": "Andere (nicht erneuerbar)"
@@ -42,6 +46,10 @@
         [
           2020,
           559.5101324
+        ],
+        [
+          2022,
+          568.23556407
         ]
       ],
       "name": "Fernwärme (nicht erneuerbar)"
@@ -65,6 +73,10 @@
         [
           2020,
           944.39033289
+        ],
+        [
+          2022,
+          926.66839393
         ]
       ],
       "name": "Fernwärme (erneuerbar)"
@@ -75,19 +87,23 @@
       "data": [
         [
           2014,
-          402.60037661
+          92.644771185
         ],
         [
           2016,
-          416.26556792
+          40.75336192
         ],
         [
           2018,
-          413.56943849
+          33.55387037
         ],
         [
           2020,
-          416.26712868
+          89.524364235
+        ],
+        [
+          2022,
+          77.38658533
         ]
       ],
       "name": "Andere (erneuerbar)"
@@ -239,7 +255,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.10.2024"
   },
   "tooltip": {
     "shared": true,

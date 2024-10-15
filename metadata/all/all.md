@@ -2371,7 +2371,7 @@ id | visible | visibleInPortal | indikatorenset
 11936 | true | false | 
 12516 | true | false | 
 12517 | true | false | 
-12519 | true | false | 
+12519 | true | true | Legislaturplan
 12520 | true | true | Soziales
 12521 | true | true | Soziales
 12532 | true | true | Nachhaltigkeit
