@@ -1557,7 +1557,7 @@ var indikatorensetData = [
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kuerzel": "I.17.3.06042",
+		"kuerzel": "I.17.PTRA.06042",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GZ11",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -1569,7 +1569,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:06",
+		"aktualisierungsdatum": "2024-10-21T11:30:56",
 		"id": 6042
 	},
 	{
@@ -2485,7 +2485,7 @@ var indikatorensetData = [
 		],
 		"title": "Geschlechterverhältnis im Grossen Rat",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2024 hat sich der Frauenanteil von 42% im Jahr 2020 auf die neue Bestmarke von 46% nochmals deutlich erhöht.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -2510,7 +2510,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-02T10:15:45",
+		"aktualisierungsdatum": "2024-10-21T11:30:58",
 		"id": 8457
 	},
 	{

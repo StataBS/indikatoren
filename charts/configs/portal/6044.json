@@ -58,6 +58,10 @@
         [
           2020,
           0.42
+        ],
+        [
+          2024,
+          0.46
         ]
       ],
       "name": "Gewählte"
@@ -120,6 +124,10 @@
         [
           2020,
           0.356060606
+        ],
+        [
+          2024,
+          0.382759
         ]
       ],
       "name": "Kandidaturen"
@@ -260,7 +268,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-25"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.10.2024"
   },
   "tooltip": {
     "pointFormatter": function(){
