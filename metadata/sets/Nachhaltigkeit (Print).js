@@ -2441,7 +2441,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-21T11:30:55",
+		"aktualisierungsdatum": "2024-10-21T01:53:51",
 		"id": 8932
 	},
 	{
@@ -3421,7 +3421,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-21T11:30:59",
+		"aktualisierungsdatum": "2024-10-21T01:53:56",
 		"id": 8960
 	},
 	{
