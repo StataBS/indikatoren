@@ -33,8 +33,12 @@
     alignColumns: false,
     //itemWidth: 95,
     itemStyle: {
-      fontWeight: "normal"
-    }
+      fontWeight: "normal",
+      textOverflow: "none",
+      whiteSpace: "nowrap"
+    },
+    width: 320,
+    itemWidth: 106
   },
   series: [
     {

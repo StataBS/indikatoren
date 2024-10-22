@@ -2397,6 +2397,11 @@ id | visible | visibleInPortal | indikatorenset
 12602 | true | true | Soziales
 12617 | true | true | Stadtteilmonitoring St. Johann
 12668 | true | false | 
+12669 | true | false | Energiestatistik (Print)
+12670 | true | false | Energiestatistik (Print)
+12671 | true | false | Energiestatistik (Print)
+12672 | true | false | Energiestatistik (Print)
+12673 | true | false | Energiestatistik (Print)
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
 12716 | true | false | Nachhaltigkeit (Print)

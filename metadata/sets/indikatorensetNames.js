@@ -9,6 +9,7 @@ var indikatorensetNames = [
 	"Nachhaltigkeit (Print)",
 	"Befragungen",
 	"Stadtteilmonitoring St. Johann",
+	"Energiestatistik (Print)",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",
@@ -46,7 +47,6 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
-	"Energiestatistik (Print)",
 	"Schluesselindikatoren",
 	"Test"
 ];
