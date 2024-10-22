@@ -1,4 +1,4 @@
-﻿"Jahr"	"Mitteltemperatur Heizperiode (Sep-Jun)"	"30-jähriges gleitendes Mittel der Lufttemperatur (Heizperiode)"	"Heizgradtage (rechte Skala)"
+﻿"Jahr"	"Mitteltemperatur Heizperiode (Sep-Jun)"	"Gleitendes Mittel der Lufttemperatur (Heizperiode)"	"Heizgradtage (rechte Skala)"
 1755			
 1756	6.95		
 1757	6.12		
@@ -251,17 +251,19 @@
 2004	8.4115446793	9.0841672599	2992
 2005	8.9334731183	9.1118339266	3041
 2006	8.24	9.1588339266	2934
-2007	11.15		2671
-2008	9.01		3006
+2007	11.15	9.2071672599	2671
+2008	9.01	9.2605005933	3006
 2009	8.59		2826
 2010	8.66		3274
 2011	9.18		2605
 2012	9.42		2927
 2013	8.24		3106
 2014	10.12		2379
-2015	9.96		2596
+2015	9.96		3569
 2016	9.58		2989
 2017	9.52		2905
 2018	9.75		2619
 2019	9.87		2708
 2020	10.49		2507
+2021	9.39		3058
+2022	10.13		2503

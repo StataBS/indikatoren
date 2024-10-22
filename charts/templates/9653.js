@@ -8,7 +8,15 @@
       tickInterval: 365 * 24 * 3600 * 1000,
       minTickInterval: 365 * 24 * 3600 * 1000,
       ordinal: false*/
-      min: 1990
+      min: 1990,
+      tickPositioner: function () {
+        var interval = 4,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     yAxis: [
       {
@@ -59,8 +67,10 @@
       verticalAlign: "top",
       //"itemMarginBottom": 5,
       align: "left",
+      itemwidth:600,
       itemStyle: {
-        fontWeight: "normal"
+        fontWeight: "normal",
+        "textoverflow": null,
       }
     },
     plotOptions: {
@@ -70,6 +80,9 @@
         "symbol": "circle",*/
         }
       }
+    },
+    exporting: {
+      enabled: true
     }/*,
     data: {
       //convert year in first column to UTC date to be used by Highstock
