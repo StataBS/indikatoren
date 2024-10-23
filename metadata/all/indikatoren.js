@@ -15355,15 +15355,15 @@ var indikatoren = [
 		"id": 5793
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 5795,
-		"chart-id": 9007,
+		"chart-id": 6161,
 		"filter": "",
 		"parentId": "6161",
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 24,6% im Jahr 2020 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,8% im Jahr 2010 auf 25,4% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -15378,18 +15378,18 @@ var indikatoren = [
 		"unterthema": "Erneuerbare",
 		"kuerzel": "I.08.3.05795",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL3",
+		"kuerzelKunde": "NL4",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_403",
+		"orderKey": "04_01_00_00_00_404",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:12",
+		"aktualisierungsdatum": "2024-10-23T03:40:56",
 		"id": 5795
 	},
 	{
@@ -42135,7 +42135,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-19T09:04:51",
+		"aktualisierungsdatum": "2024-10-23T03:40:53",
 		"id": 7515
 	},
 	{
@@ -46450,8 +46450,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fünf Wohnvierteln und in Riehen. In zwölf Wohnvierteln und in Bettingen ging sie zurück. In zwei Wohnvierteln blieb sie gleich.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen und Bettingen. Nur im Wohnviertel Bachletten ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -46478,7 +46478,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-19T09:04:52",
+		"aktualisierungsdatum": "2024-10-23T03:40:54",
 		"id": 7763
 	},
 	{
@@ -79776,7 +79776,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-11T12:59:44",
+		"aktualisierungsdatum": "2024-10-23T03:40:55",
 		"id": 9672
 	},
 	{
