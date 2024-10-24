@@ -621,7 +621,7 @@ id | visible | visibleInPortal | indikatorenset
 6368 | true | false | Legislaturplan-2017-2021 (Print)
 6369 | true | false | Legislaturplan (Print)
 6370 | true | false | Legislaturplan-2017-2021 (Print)
-6371 | true | false | Legislaturplan-2017-2021 (Print)
+6371 | false |  | Legislaturplan-2017-2021 (Print)
 6372 | true | false | Legislaturplan-2017-2021 (Print)
 6373 | true | false | Gefragte Karten
 6374 | true | true | Gefragte Karten
