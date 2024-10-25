@@ -43,6 +43,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
+    marginRight:28,
     //"spacingTop": 100
   }
 }
