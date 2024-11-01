@@ -73,8 +73,11 @@
         rotation: -45
       }
     },
+    yAxis: {
+      min: 0
+    },
     legend: {
-      enabled: true,
+      enabled: false,
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
@@ -86,7 +89,7 @@
     series: [
       {
         color: "#0091f7",
-        zIndex: 2,
+        zIndex: 2
       },
       /*{
         type: "line",

@@ -49,6 +49,10 @@
         [
           2021,
           1695.6
+        ],
+        [
+          2022,
+          2008
         ]
       ],
       "name": "Allg. Verwaltung"
@@ -102,6 +106,10 @@
         [
           2021,
           2343.5
+        ],
+        [
+          2022,
+          2410.2
         ]
       ],
       "name": "Öff. Sicherheit"
@@ -155,6 +163,10 @@
         [
           2021,
           8043.2
+        ],
+        [
+          2022,
+          8052.2
         ]
       ],
       "name": "Bildung"
@@ -208,6 +220,10 @@
         [
           2021,
           1592.9
+        ],
+        [
+          2022,
+          1581
         ]
       ],
       "name": "Kultur und Sport"
@@ -261,6 +277,10 @@
         [
           2021,
           3450.8
+        ],
+        [
+          2022,
+          3372.9
         ]
       ],
       "name": "Gesundheit"
@@ -314,6 +334,10 @@
         [
           2021,
           4814.4
+        ],
+        [
+          2022,
+          5097.7
         ]
       ],
       "name": "Soziale Sicherheit"
@@ -367,6 +391,10 @@
         [
           2021,
           1247.2
+        ],
+        [
+          2022,
+          1508.8
         ]
       ],
       "name": "Verkehr"
@@ -420,6 +448,10 @@
         [
           2021,
           736.3
+        ],
+        [
+          2022,
+          601.3
         ]
       ],
       "name": "Umweltschutz"
@@ -473,6 +505,10 @@
         [
           2021,
           1074.7
+        ],
+        [
+          2022,
+          661.5
         ]
       ],
       "name": "Volkswirtschaft"
@@ -526,6 +562,10 @@
         [
           2021,
           1299.6
+        ],
+        [
+          2022,
+          1441.4
         ]
       ],
       "name": "Finanzen, Steuern"
@@ -586,6 +626,10 @@
         [
           2021,
           26298.1
+        ],
+        [
+          2022,
+          26734.9
         ]
       ],
       "name": "Total (rechte Skala)"
@@ -742,7 +786,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2024"
   },
   "tooltip": {
     "shared": false,
