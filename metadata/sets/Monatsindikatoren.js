@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im September 2024 gegenüber dem Vormonat um 0,3% zurück; im August hatte die Monatsteuerung -0,1% betragen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im Oktober 2024 gegenüber dem Vormonat um 0,1% zurück; im September hatte die Monatsteuerung -0,3% betragen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-03T10:30:03",
+		"aktualisierungsdatum": "2024-11-01T08:13:42",
 		"id": 7513
 	},
 	{

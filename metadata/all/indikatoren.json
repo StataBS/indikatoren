@@ -14471,11 +14471,11 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8890
+			8891
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2021 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2022 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -14501,7 +14501,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-05T08:34:30",
+		"aktualisierungsdatum": "2024-11-01T08:13:47",
 		"id": 5161
 	},
 	{
@@ -19463,7 +19463,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-14T10:45:20",
+		"aktualisierungsdatum": "2024-11-01T08:13:40",
 		"id": 6205
 	},
 	{
@@ -42032,7 +42032,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im September 2024 gegenüber dem Vormonat um 0,3% zurück; im August hatte die Monatsteuerung -0,1% betragen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im Oktober 2024 gegenüber dem Vormonat um 0,1% zurück; im September hatte die Monatsteuerung -0,3% betragen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -42059,7 +42059,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-03T10:30:03",
+		"aktualisierungsdatum": "2024-11-01T08:13:42",
 		"id": 7513
 	},
 	{
@@ -68577,7 +68577,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:17",
+		"aktualisierungsdatum": "2024-11-01T08:13:43",
 		"id": 8995
 	},
 	{
@@ -68950,7 +68950,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:19",
+		"aktualisierungsdatum": "2024-11-01T08:13:44",
 		"id": 9022
 	},
 	{
@@ -68988,7 +68988,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:20",
+		"aktualisierungsdatum": "2024-11-01T08:13:44",
 		"id": 9023
 	},
 	{
@@ -79712,7 +79712,7 @@
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 25,4%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum um 16% im Vergleich zum Wert der jeweils letzten Erhebung (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 25,4%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum um 8% pro Jahr mit Referenzjahr 2019 (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -79738,7 +79738,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-23T03:40:55",
+		"aktualisierungsdatum": "2024-11-01T08:13:46",
 		"id": 9672
 	},
 	{
@@ -80060,7 +80060,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen 2019 und 2023 betrug die Nettowohnungsproduktion 3 683 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2023 betrug die Nettowohnungsproduktion 3 683 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -80086,7 +80086,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:38",
+		"aktualisierungsdatum": "2024-11-01T08:13:45",
 		"id": 9684
 	},
 	{
@@ -81315,7 +81315,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:31:01",
+		"aktualisierungsdatum": "2024-11-01T08:13:49",
 		"id": 9786
 	},
 	{
@@ -81324,10 +81324,12 @@
 		"chart-id": 9787,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12558
+		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -81353,7 +81355,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:31:00",
+		"aktualisierungsdatum": "2024-11-01T08:13:48",
 		"id": 9787
 	},
 	{
