@@ -1673,7 +1673,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:10",
+		"aktualisierungsdatum": "2024-11-04T04:07:10",
 		"id": 12564
 	},
 	{
@@ -9445,7 +9445,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:12",
+		"aktualisierungsdatum": "2024-11-04T04:07:12",
 		"id": 4838
 	},
 	{
@@ -11455,7 +11455,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:07",
+		"aktualisierungsdatum": "2024-11-04T04:07:08",
 		"id": 5180
 	},
 	{
@@ -12527,7 +12527,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:11",
+		"aktualisierungsdatum": "2024-11-04T04:07:11",
 		"id": 5823
 	},
 	{
@@ -12651,7 +12651,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:08",
+		"aktualisierungsdatum": "2024-11-04T04:07:09",
 		"id": 5901
 	},
 	{
@@ -19256,7 +19256,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:05",
+		"aktualisierungsdatum": "2024-11-04T04:07:07",
 		"id": 6492
 	},
 	{
@@ -25459,7 +25459,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:42",
+		"aktualisierungsdatum": "2024-11-04T04:06:53",
 		"id": 7512
 	},
 	{
@@ -32483,7 +32483,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:43",
+		"aktualisierungsdatum": "2024-11-04T04:06:54",
 		"id": 8348
 	},
 	{
@@ -34140,7 +34140,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:45",
+		"aktualisierungsdatum": "2024-11-04T04:06:55",
 		"id": 8451
 	},
 	{
@@ -35393,7 +35393,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:47",
+		"aktualisierungsdatum": "2024-11-04T04:06:56",
 		"id": 9186
 	},
 	{
@@ -37534,7 +37534,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:48",
+		"aktualisierungsdatum": "2024-11-04T04:06:57",
 		"id": 9575
 	},
 	{
@@ -37573,7 +37573,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:50",
+		"aktualisierungsdatum": "2024-11-04T04:06:58",
 		"id": 9576
 	},
 	{
@@ -37887,7 +37887,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:53",
+		"aktualisierungsdatum": "2024-11-04T04:07:00",
 		"id": 9584
 	},
 	{
@@ -37926,7 +37926,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:54",
+		"aktualisierungsdatum": "2024-11-04T04:07:01",
 		"id": 9585
 	},
 	{
@@ -37969,7 +37969,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:57",
+		"aktualisierungsdatum": "2024-11-04T04:07:03",
 		"id": 9587
 	},
 	{
@@ -38007,7 +38007,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:59",
+		"aktualisierungsdatum": "2024-11-04T04:07:04",
 		"id": 9588
 	},
 	{
@@ -38045,7 +38045,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:00",
+		"aktualisierungsdatum": "2024-11-04T04:07:05",
 		"id": 9589
 	},
 	{
@@ -39054,7 +39054,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:53:56",
+		"aktualisierungsdatum": "2024-11-04T04:07:02",
 		"id": 9691
 	},
 	{
