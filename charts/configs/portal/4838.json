@@ -5,87 +5,87 @@
       "data": [
         [
           "Bruderholz",
-          0.1238738
+          0.1259349
         ],
         [
           "Breite",
-          0.1370058
+          0.1335945
         ],
         [
           "Riehen",
-          0.1556797
+          0.1602415
         ],
         [
           "Bettingen",
-          0.1651224
+          0.1682024
         ],
         [
           "Iselin",
-          0.1657527
+          0.1701474
         ],
         [
           "Matthäus",
-          0.1704631
+          0.1707404
         ],
         [
           "Bachletten",
-          0.1876437
+          0.1877518
         ],
         [
           "Hirzbrunnen",
-          0.2816528
+          0.2741092
         ],
         [
           "Gotthelf",
-          0.2895991
+          0.277503
         ],
         [
           "Klybeck",
-          0.4584357
+          0.4747587
         ],
         [
           "Clara",
-          0.4957204
+          0.5112475
         ],
         [
           "Gundeldingen",
-          0.6064143
+          0.614486
         ],
         [
           "Rosental",
-          0.6296403
+          0.6423468
         ],
         [
           "Am Ring",
-          0.939805
+          0.9756945
         ],
         [
           "St. Johann",
-          1.023927
+          1.0291006
         ],
         [
           "Altstadt Kleinbasel",
-          1.8234557
+          1.723828
         ],
         [
           "Wettstein",
-          1.8331939
+          1.850965
         ],
         [
           "St. Alban",
-          2.3068373
+          2.3216055
         ],
         [
           "Kleinhüningen",
-          2.3079066
+          2.6768757
         ],
         [
           "Altstadt Grossbasel",
-          3.6851086
+          3.6268679
         ],
         [
           "Vorstädte",
-          4.622108
+          4.6147369
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "legend": {
     "enabled": false,

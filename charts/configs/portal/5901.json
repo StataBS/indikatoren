@@ -14,14 +14,6 @@
       },
       "data": [
         [
-          2011,
-          192076
-        ],
-        [
-          2012,
-          193459
-        ],
-        [
           2013,
           195459
         ],
@@ -77,52 +69,44 @@
       },
       "data": [
         [
-          2011,
+          2013,
           100
         ],
         [
-          2012,
-          100.72003
-        ],
-        [
-          2013,
-          101.76128
-        ],
-        [
           2014,
-          102.28816
+          100.51776
         ],
         [
           2015,
-          102.66978
+          100.89277
         ],
         [
           2016,
-          103.19145
+          101.40541
         ],
         [
           2017,
-          103.59858
+          101.80549
         ],
         [
           2018,
-          104.25873
+          102.45422
         ],
         [
           2019,
-          104.33735
+          102.53148
         ],
         [
           2020,
-          105.15161
+          103.33164
         ],
         [
           2021,
-          105.06518
+          103.24672
         ],
         [
           2022,
-          106.4943
+          104.6511
         ]
       ],
       "name": "Bevölkerung indexiert"
@@ -140,14 +124,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          2011,
-          183183
-        ],
-        [
-          2012,
-          184725
-        ],
         [
           2013,
           188491
@@ -186,7 +162,7 @@
         ],
         [
           2022,
-          null
+          199737
         ]
       ],
       "name": "Beschäftigte"
@@ -205,52 +181,44 @@
       },
       "data": [
         [
-          2011,
+          2013,
           100
         ],
         [
-          2012,
-          100.84178
-        ],
-        [
-          2013,
-          102.89765
-        ],
-        [
           2014,
-          104.35193
+          101.41333
         ],
         [
           2015,
-          103.9032
+          100.97723
         ],
         [
           2016,
-          103.88573
+          100.96026
         ],
         [
           2017,
-          104.00692
+          101.07804
         ],
         [
           2018,
-          103.97362
+          101.04567
         ],
         [
           2019,
-          105.05888
+          102.10037
         ],
         [
           2020,
-          103.05432
+          100.15226
         ],
         [
           2021,
-          105.36021
+          102.39322
         ],
         [
           2022,
-          null
+          105.96633
         ]
       ],
       "name": "Beschäftigte indexiert"
@@ -305,7 +273,7 @@
     "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
-    "text": "indexiert (Basis 2011 = 100), Basel-Stadt",
+    "text": "indexiert (Basis 2013 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -373,7 +341,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

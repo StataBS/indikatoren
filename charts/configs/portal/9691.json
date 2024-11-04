@@ -55,6 +55,10 @@
         [
           "2020",
           509166
+        ],
+        [
+          "2021",
+          900837
         ]
       ],
       "name": "Saldo Innenstadt",
@@ -115,6 +119,10 @@
         [
           "2020",
           4416887
+        ],
+        [
+          "2021",
+          1992001
         ]
       ],
       "name": "Saldo Kanton BS",
@@ -241,7 +249,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

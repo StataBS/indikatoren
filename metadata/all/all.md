@@ -1497,7 +1497,7 @@ id | visible | visibleInPortal | indikatorenset
 8339 | false |  | CMS Kennzahlen Soziales
 8340 | false |  | CMS Kennzahlen Soziales
 8341 | false |  | CMS Kennzahlen Soziales
-8348 | true | true | 
+8348 | true | true | Gesundheit
 8350 | true | true | Wirtschaftsbericht BS_BL_JU
 8351 | true | true | Wirtschaftsbericht BS_BL_JU
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1589,7 +1589,7 @@ id | visible | visibleInPortal | indikatorenset
 8447 | true | true | Wirtschaftsbericht BS_BL_JU
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
-8451 | true | true | 
+8451 | true | true | Gesundheit
 8452 | false |  | CMS Kennzahlen Soziales
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
@@ -2000,7 +2000,7 @@ id | visible | visibleInPortal | indikatorenset
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-9186 | true | true | 
+9186 | true | true | Gesundheit
 9192 | true | true | City-Statistics
 9193 | true | true | City-Statistics
 9194 | true | true | City-Statistics
@@ -2325,7 +2325,7 @@ id | visible | visibleInPortal | indikatorenset
 10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
-10265 | true | false | CMS Kennzahlen Soziales
+10265 | true | false | CMS Kennzahlen
 11165 | true | true | Gesundheitsversorgung
 11166 | true | true | Gesundheitsversorgung
 11167 | true | true | Gesundheitsversorgung

@@ -83,6 +83,9 @@
         rotation: -45
       }
     },
+    yAxis: {
+      min: 0
+    },
     legend: {
       enabled: true,
       layout: "horizontal",

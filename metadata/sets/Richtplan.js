@@ -693,7 +693,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -718,7 +718,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:39",
+		"aktualisierungsdatum": "2024-11-04T11:54:10",
 		"id": 12564
 	},
 	{
@@ -1205,7 +1205,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 148 633 Beschäftigte. Das entspricht einer Beschäftigtendichte von 41,4 Beschäftigten (VZÄ) pro Hektar.",
+		"lesehilfe": "Im Jahr 2022 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 44 Beschäftigte (2013: rund 40 Beschäftigte).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1230,7 +1230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:36",
+		"aktualisierungsdatum": "2024-11-04T11:54:11",
 		"id": 5823
 	},
 	{
@@ -1324,8 +1324,8 @@ var indikatorensetData = [
 			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2021 von 192 076 auf 201 805 gestiegen, was einem Anstieg von etwa 5,1% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um etwa 5,4% von 183 183 auf 193 002.",
+		"subtitle": "indexiert (Basis 2013 = 100), Basel-Stadt",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2013 und 2022 um 4,7% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 6,0%.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1351,7 +1351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:21",
+		"aktualisierungsdatum": "2024-11-04T11:54:08",
 		"id": 5901
 	},
 	{

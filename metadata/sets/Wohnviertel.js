@@ -635,8 +635,8 @@ var indikatorensetData = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -663,7 +663,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:44",
+		"aktualisierungsdatum": "2024-11-04T11:54:12",
 		"id": 4838
 	},
 	{
@@ -1260,8 +1260,8 @@ var indikatorensetData = [
 		"parentId": "4838",
 		"children": [],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1276,7 +1276,7 @@ var indikatorensetData = [
 		"description": "Arbeitsplätze pro Kopf",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.05125",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "WA-4.B",
 		"stufe1": "",
@@ -1288,7 +1288,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:47",
+		"aktualisierungsdatum": "2024-11-04T11:54:14",
 		"id": 5125
 	},
 	{

@@ -5,39 +5,39 @@
       "data": [
         [
           "Waren verschiedener Art",
-          -0.027027027
+          -0.0263157895
         ],
         [
           "Nahrungs-, Genussmitel, Tabak",
-          -0.0491803279
+          -0.046875
         ],
         [
           "Informatik und Elektronik",
-          -0.0625
+          0
         ],
         [
           "Haushaltsgeräte, Textilien, Möbel",
-          -0.037037037
+          0
         ],
         [
           "Verlagsprod., Sport- und Spielwaren",
-          -0.1764705882
+          -0.1791044776
         ],
         [
           "Bekleidung, Lederwaren",
-          -0.1797752809
+          -0.124260355
         ],
         [
           "Apotheken, Körperpflege",
-          -0.0408163265
+          -0.02
         ],
         [
           "Uhren, Schmuck",
-          -0.0975609756
+          -0.0526315789
         ],
         [
           "Antiquitäten, Gebrauchtwaren",
-          -0.1578947368
+          0.125
         ],
         [
           "Sonstiger Detailhandel",
@@ -45,10 +45,10 @@
         ],
         [
           "Total Detailhandel",
-          -0.1040650407
+          -0.07
         ]
       ],
-      "name": "Veränderung zwischen 2017 und 2021",
+      "name": "Veränderung zwischen 2018 und 2022",
       "turboThreshold": 0
     }
   ],
@@ -135,7 +135,7 @@
     "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Innenstadt Basel, 2021 gegenüber 2017",
+    "text": "Innenstadt Basel, 2022 gegenüber 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -193,7 +193,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "tooltip": {
     "pointFormatter": function () {

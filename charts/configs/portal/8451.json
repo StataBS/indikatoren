@@ -120,6 +120,10 @@
         [
           "2021\u002F22",
           null
+        ],
+        [
+          "2022\u002F23",
+          null
         ]
       ],
       "name": "Knaben",
@@ -242,6 +246,10 @@
         [
           "2021\u002F22",
           null
+        ],
+        [
+          "2022\u002F23",
+          null
         ]
       ],
       "name": "Mädchen",
@@ -362,6 +370,10 @@
         [
           "2021\u002F22",
           7
+        ],
+        [
+          "2022\u002F23",
+          7
         ]
       ],
       "name": "1. Stufe CH Knaben",
@@ -478,6 +490,10 @@
         ],
         [
           "2021\u002F22",
+          13
+        ],
+        [
+          "2022\u002F23",
           13
         ]
       ],
@@ -599,6 +615,10 @@
         [
           "2021\u002F22",
           11
+        ],
+        [
+          "2022\u002F23",
+          10
         ]
       ],
       "name": "1. Stufe Ausland Knaben",
@@ -716,6 +736,10 @@
         [
           "2021\u002F22",
           16
+        ],
+        [
+          "2022\u002F23",
+          11
         ]
       ],
       "name": "1. Stufe Ausland Mädchen",
@@ -836,6 +860,10 @@
         [
           "2021\u002F22",
           16
+        ],
+        [
+          "2022\u002F23",
+          22
         ]
       ],
       "name": "5.\u002F6. Stufe CH Knaben",
@@ -953,6 +981,10 @@
         [
           "2021\u002F22",
           21
+        ],
+        [
+          "2022\u002F23",
+          19
         ]
       ],
       "name": "5.\u002F6. Stufe CH Mädchen",
@@ -1073,6 +1105,10 @@
         [
           "2021\u002F22",
           26
+        ],
+        [
+          "2022\u002F23",
+          26
         ]
       ],
       "name": "5.\u002F6. Stufe Ausland Knaben",
@@ -1190,6 +1226,10 @@
         [
           "2021\u002F22",
           24
+        ],
+        [
+          "2022\u002F23",
+          26
         ]
       ],
       "name": "5.\u002F6. Stufe Ausland Mädchen",
@@ -1310,6 +1350,10 @@
         [
           "2021\u002F22",
           27
+        ],
+        [
+          "2022\u002F23",
+          23
         ]
       ],
       "name": "11. Stufe CH Knaben",
@@ -1427,6 +1471,10 @@
         [
           "2021\u002F22",
           17
+        ],
+        [
+          "2022\u002F23",
+          23
         ]
       ],
       "name": "11. Stufe CH Mädchen",
@@ -1547,6 +1595,10 @@
         [
           "2021\u002F22",
           33
+        ],
+        [
+          "2022\u002F23",
+          39
         ]
       ],
       "name": "11. Stufe Ausland Knaben",
@@ -1663,6 +1715,10 @@
         ],
         [
           "2021\u002F22",
+          30
+        ],
+        [
+          "2022\u002F23",
           30
         ]
       ],
@@ -1822,7 +1878,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
