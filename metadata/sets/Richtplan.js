@@ -718,7 +718,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:10",
+		"aktualisierungsdatum": "2024-11-04T04:07:10",
 		"id": 12564
 	},
 	{
@@ -1230,7 +1230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:11",
+		"aktualisierungsdatum": "2024-11-04T04:07:11",
 		"id": 5823
 	},
 	{
@@ -1351,7 +1351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T11:54:08",
+		"aktualisierungsdatum": "2024-11-04T04:07:09",
 		"id": 5901
 	},
 	{
