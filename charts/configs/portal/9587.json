@@ -85,6 +85,10 @@
         [
           2022,
           148155
+        ],
+        [
+          2023,
+          157957
         ]
       ],
       "name": "Theater"
@@ -175,6 +179,10 @@
         [
           2022,
           107875
+        ],
+        [
+          2023,
+          54918
         ]
       ],
       "name": "Kleintheater"
@@ -265,6 +273,10 @@
         [
           2022,
           539054
+        ],
+        [
+          2023,
+          673341
         ]
       ],
       "name": "Kinos"
@@ -355,6 +367,10 @@
         [
           2022,
           1294282
+        ],
+        [
+          2023,
+          1412388
         ]
       ],
       "name": "Museen"
@@ -445,6 +461,10 @@
         [
           2022,
           1770286
+        ],
+        [
+          2023,
+          1832870
         ]
       ],
       "name": "Stadtbibliothek (Ausleihen)"
@@ -574,7 +594,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Film- und Kinostatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Film- und Kinostatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

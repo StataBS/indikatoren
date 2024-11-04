@@ -1647,7 +1647,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1673,7 +1673,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:39",
+		"aktualisierungsdatum": "2024-11-04T11:54:10",
 		"id": 12564
 	},
 	{
@@ -9416,8 +9416,8 @@ var indikatoren = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
+		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -9445,7 +9445,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-11T12:43:44",
+		"aktualisierungsdatum": "2024-11-04T11:54:12",
 		"id": 4838
 	},
 	{
@@ -11429,7 +11429,7 @@ var indikatoren = [
 		],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2022 liegen bei 85,3 Jahren (Frauen) und 80,3 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2023 liegen bei 85,0 Jahren für Frauen und 80,4 Jahren für Männer.",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -11455,7 +11455,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:42",
+		"aktualisierungsdatum": "2024-11-04T11:54:07",
 		"id": 5180
 	},
 	{
@@ -12501,7 +12501,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 148 633 Beschäftigte. Das entspricht einer Beschäftigtendichte von 41,4 Beschäftigten (VZÄ) pro Hektar.",
+		"lesehilfe": "Im Jahr 2022 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 44 Beschäftigte (2013: rund 40 Beschäftigte).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -12527,7 +12527,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:36",
+		"aktualisierungsdatum": "2024-11-04T11:54:11",
 		"id": 5823
 	},
 	{
@@ -12623,8 +12623,8 @@ var indikatoren = [
 			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2021 von 192 076 auf 201 805 gestiegen, was einem Anstieg von etwa 5,1% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um etwa 5,4% von 183 183 auf 193 002.",
+		"subtitle": "indexiert (Basis 2013 = 100), Basel-Stadt",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2013 und 2022 um 4,7% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 6,0%.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -12651,7 +12651,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:21",
+		"aktualisierungsdatum": "2024-11-04T11:54:08",
 		"id": 5901
 	},
 	{
@@ -19230,10 +19230,10 @@ var indikatoren = [
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%).",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit. Bei ausländischen Staatsangehörigen sind es 3,7%.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -19256,7 +19256,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-24T09:00:28",
+		"aktualisierungsdatum": "2024-11-04T11:54:05",
 		"id": 6492
 	},
 	{
@@ -25459,7 +25459,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T09:04:10",
+		"aktualisierungsdatum": "2024-11-04T11:53:42",
 		"id": 7512
 	},
 	{
@@ -32454,14 +32454,14 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchimpfungsraten ausgewählter Krankheiten",
 		"subtitle": "nach Schuljahr für die 13- und 14-Jährigen, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2021/2022 waren 96,7% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"lesehilfe": "Im Schuljahr 2022/2023 waren 97,3% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
 		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>",
-			"<a href = 'https://www.statistik.bs.ch/dam/jcr:4a276181-aee2-4ae6-a1c3-8d2bcdc0e9cb/t14-4-02.xlsx' target = '_blank'>Webtabelle T14.4.02</a>"
+			"<a href = 'https://statistik.bs.ch/files/webtabellen/t14-4-02.xlsx' target = '_blank'>Webtabelle T14.4.02</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -32471,7 +32471,7 @@ var indikatoren = [
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kuerzel": "I.14.4.08348",
-		"kennzahlenset": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -32483,7 +32483,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-14T08:03:19",
+		"aktualisierungsdatum": "2024-11-04T11:53:43",
 		"id": 8348
 	},
 	{
@@ -34112,13 +34112,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2021/2022 waren 16% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"lesehilfe": "Im Schuljahr 2022/2023 waren 22% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse (bis 2019/20), 6. Stufe = 4. Primarklasse (ab 2021/22), 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).<br>Per Schuljahr 2020/21 wechselte die schulärztliche Untersuchung der 5. in die 6. Stufe. Da die 6. Stufe bereits 2019/20 in der 5. Stufe untersucht worden war, fand 2020/21 keine neue Untersuchung statt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.statistik.bs.ch/dam/jcr:399e86a3-af5b-436e-921f-6894e6ed0dd8/t14-4-01.xlsx' target = '_blank'>Webtabelle T14.4.01</a>"
+			"<a href = 'https://statistik.bs.ch/files/webtabellen/t14-4-01.xlsx' target = '_blank'>Webtabelle T14.4.01</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -34126,9 +34126,9 @@ var indikatoren = [
 		],
 		"description": "Übergewichtige Kinder",
 		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kuerzel": "I.14.1.08451",
-		"kennzahlenset": "",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -34140,7 +34140,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-14T08:03:19",
+		"aktualisierungsdatum": "2024-11-04T11:53:45",
 		"id": 8451
 	},
 	{
@@ -35367,7 +35367,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Kariesfreiheit der Kinder und Jugendlichen",
 		"subtitle": "Anteil der jeweiligen Altersgruppe, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 waren 75,4% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
+		"lesehilfe": "Im Jahr 2023 waren 74,5% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
 		"erlaeuterungen": "Erhebung des Universitären Zentrums für Zahnmedizin (UZB) des Kantons Basel-Stadt im Rahmen der jährlichen zahnmedizinischen Schuluntersuchungen.<br>Die Daten der 12-Jährigen werden seit 2016 statistisch ausgewertet.",
 		"quellenangabe": [
 			"Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"
@@ -35380,8 +35380,8 @@ var indikatoren = [
 		"description": "Kariesfreiheit der Kinder und Jugendlichen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
-		"kuerzel": "",
-		"kennzahlenset": "",
+		"kuerzel": "I.14.4.09186",
+		"kennzahlenset": "Gesundheit",
 		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
@@ -35393,7 +35393,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:39",
+		"aktualisierungsdatum": "2024-11-04T11:53:47",
 		"id": 9186
 	},
 	{
@@ -37507,7 +37507,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "Innenstadt und Stadt Basel",
-		"lesehilfe": "Von den 4 479 Arbeitsstätten in der Innenstadt (2021) gehören rund 21% zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 17% zum Gesundheits- und Sozialwesen und 12% zum Detailhandel (gesamte Stadt Basel: rund 8%).",
+		"lesehilfe": "Von den 4 571 Arbeitsstätten in der Innenstadt (2022) gehören 20,4% zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 17,6% zum Gesundheits- und Sozialwesen und 12,2% zum Detailhandel. In der Stadt Basel insgesamt beträgt der Anteil der Arbeitsstätten im Detailhandel 7,5%.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann, und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -37534,7 +37534,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:45",
+		"aktualisierungsdatum": "2024-11-04T11:53:48",
 		"id": 9575
 	},
 	{
@@ -37545,8 +37545,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
-		"subtitle": "Innenstadt und Stadt Basel, 2021 gegenüber 2017",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2017 und 2021 insgesamt um -0,6% abgenommen, in der Stadt Basel aber um +1,9% zugenommen. Deutliche Rückgänge in der Innenstadt waren im Grosshandel (-19,8%), im Bereich Verkehr und Lagerei (-13,3%), sowie im Detailhandel (-10,4%) zu beobachten. In der Innenstadt hat die Zahl der Arbeitsstätten im Bereich Bau, Energie und Wasser (+8,3%) am stärksten zugenommen.",
+		"subtitle": "Innenstadt und Stadt Basel, 2022 gegenüber 2018",
+		"lesehilfe": "Die Anzahl Arbeitsstätten hat zwischen 2018 und 2022 in der Innenstadt um +2,3% und in der Stadt Basel um +6,3% zugenommen. Nach Branche betrachtet gab es in der Innenstadt die deutlichsten Rückgänge im Bereich Verkehr und Lagerei (-19,6 %) sowie im verarbeitenden Gewerbe (-14,7%). In der Innenstadt hat die Zahl der Arbeitsstätten im Bereich Information und Kommunikation (+13,1%) am stärksten zugenommen.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann, und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -37573,7 +37573,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:46",
+		"aktualisierungsdatum": "2024-11-04T11:53:50",
 		"id": 9576
 	},
 	{
@@ -37860,7 +37860,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Reineinkommen pro Veranlagung",
 		"subtitle": "in Franken, Basel-Stadt und Innenstadt",
-		"lesehilfe": "2020 beträgt das durchschnittliche Reineinkommen pro Veranlagung von Personen, die in der Innenstadt wohnen, rund 94 000 Franken. Der Wert für den ganzen Kanton beträgt ca. 73 400 Franken.",
+		"lesehilfe": "2021 beträgt das durchschnittliche Reineinkommen pro Veranlagung von Personen, die in der Innenstadt wohnen, rund 109 200 Franken. Der Wert für den ganzen Kanton beträgt ca. 76 200 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -37887,7 +37887,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:09",
+		"aktualisierungsdatum": "2024-11-04T11:53:53",
 		"id": 9584
 	},
 	{
@@ -37899,7 +37899,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
 		"subtitle": "in Franken, Basel-Stadt und Innenstadt",
-		"lesehilfe": "Von Zuzügern in die Innenstadt stammten im Jahr 2020 rund 4,8 Millionen Franken Steuerertrag, von Wegzügern (Ertrag des Vorjahrs) rund 4,3 Millionen Franken.",
+		"lesehilfe": "Von Zuzügern in die Innenstadt stammten im Jahr 2021 rund 5,2 Millionen Franken Steuerertrag, von Wegzügern (Ertrag des Vorjahrs) rund 4,3 Millionen Franken.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.<br>In der Auswertung ist sowohl die Kantons- als auch die Gemeindesteuer berücksichtigt.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -37926,7 +37926,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:11",
+		"aktualisierungsdatum": "2024-11-04T11:53:54",
 		"id": 9585
 	},
 	{
@@ -37937,11 +37937,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			5194,
-			6169
+			6169,
+			8908
 		],
 		"title": "Besuche in Theater, Kinos und Museen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 540 000 im Jahr 2022. Bei den übrigen Institutionen sind die Zahlen bis 2019 vergleichsweise konstant geblieben. Im Zuge der COVID-19-Pandemie kam es zu stärkeren Rückgängen, die 2022 überwiegend wieder aufgeholt wurden.",
+		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: Von fast 1,1 Mio. im Jahr 2003 auf gut 670 000 im Jahr 2023. Bei den meisten Institutionen sind die Zahlen bis 2019 vergleichsweise konstant geblieben. Im Zuge der COVID-19-Pandemie kam es zu stärkeren Rückgängen, ab 2022 normalisierten sich die Werte wieder.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19. Bei der Stadtbibliothek sind nicht die Besuche, sondern die Ausleihen von Medien dargestellt.",
 		"quellenangabe": [
 			"Jeweilige Institutionen",
@@ -37955,7 +37956,7 @@ var indikatoren = [
 		"description": "Besuche in Theater, Kinos und Museen",
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
-		"kuerzel": "I.16.1.09587",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.1-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
@@ -37968,7 +37969,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:14",
+		"aktualisierungsdatum": "2024-11-04T11:53:57",
 		"id": 9587
 	},
 	{
@@ -37980,7 +37981,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten im Detailhandel, nach Branche",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2021 gab es in der Innenstadt 551 Arbeitsstätten im Detailhandel, das sind 140 bzw. 20,3% weniger als noch im Jahr 2011. Die meisten Arbeitsstätten gehören dem Bereich Bekleidung und Lederwaren an (146 bzw. 26,5%).",
+		"lesehilfe": "Im Jahr 2022 gab es in der Innenstadt 558 Arbeitsstätten im Detailhandel, wobei die meisten dem Bereich Bekleidung und Lederwaren angehörten (148 bzw. 26,5%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -38006,7 +38007,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-01T07:50:38",
+		"aktualisierungsdatum": "2024-11-04T11:53:59",
 		"id": 9588
 	},
 	{
@@ -38017,8 +38018,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
-		"subtitle": "Innenstadt Basel, 2021 gegenüber 2017",
-		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2017 und 2021 um 10,4% abgenommen. Der stärkste Rückgang ist mit 18,0% im Bereich Bekleidung und Lederwaren zu beobachten. Die Anzahl Arbeitsstätten in der Innenstadt konnte zwischen 2017 und 2021 in keinem Bereich des Detailhandels einen Zuwachs verzeichnen.",
+		"subtitle": "Innenstadt Basel, 2022 gegenüber 2018",
+		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2018 und 2022 um 7,0% abgenommen. Den stärksten Rückgang gab es mit -17,9% im Bereich Verlagsproduktion, Sport- und Spielwaren. Der Bereich der Antiquitäten und Gebrauchtwaren verzeichnete mit +12,5% den einzigen Zuwachs.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -38044,7 +38045,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:15",
+		"aktualisierungsdatum": "2024-11-04T11:54:00",
 		"id": 9589
 	},
 	{
@@ -39026,7 +39027,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
 		"subtitle": "in Franken, Basel-Stadt und Innenstadt",
-		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2020 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 0,5 Mio. Franken. Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von 4,4 Mio. Franken.",
+		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2021 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 0,9 Mio. Franken. Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von rund 2,0 Mio. Franken.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.<br>In der Auswertung ist sowohl die Kantons- als auch die Gemeindesteuer berücksichtigt.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -39053,7 +39054,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:11",
+		"aktualisierungsdatum": "2024-11-04T11:53:56",
 		"id": 9691
 	},
 	{

@@ -8,14 +8,6 @@
       "color": "#8b2223",
       "data": [
         [
-          2011,
-          39.369478
-        ],
-        [
-          2012,
-          39.53292
-        ],
-        [
           2013,
           40.294259
         ],
@@ -49,7 +41,11 @@
         ],
         [
           2021,
-          null
+          42.189012
+        ],
+        [
+          2022,
+          43.52405
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -185,7 +181,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -3237,88 +3237,88 @@
       },
       "data": [
         [
-          4,
-          0.1254493051
-        ],
-        [
           7,
-          0.1358121034
+          0.1259349
         ],
         [
-          10,
-          0.1559287137
+          4,
+          0.1335945
         ],
         [
           20,
-          0.1604026597
-        ],
-        [
-          17,
-          0.1833720331
-        ],
-        [
-          8,
-          0.1989834229
+          0.1602415
         ],
         [
           30,
-          0.2618170378
+          0.1682024
         ],
         [
-          9,
-          0.291090078
+          10,
+          0.1701474
+        ],
+        [
+          17,
+          0.1707404
+        ],
+        [
+          8,
+          0.1877518
         ],
         [
           15,
-          0.3237955868
+          0.2741092
+        ],
+        [
+          9,
+          0.277503
         ],
         [
           18,
-          0.4690369439
-        ],
-        [
-          6,
-          0.5766547817
+          0.4747587
         ],
         [
           13,
-          0.5891255128
+          0.5112475
+        ],
+        [
+          6,
+          0.614486
         ],
         [
           16,
-          0.6525225757
+          0.6423468
         ],
         [
           3,
-          1.0114517055
+          0.9756945
         ],
         [
           11,
-          1.0875585544
+          1.0291006
         ],
         [
           12,
-          1.5276966556
+          1.723828
         ],
         [
           14,
-          1.8792207119
-        ],
-        [
-          19,
-          2.1355715324
+          1.850965
         ],
         [
           5,
-          2.2642005383
+          2.3216055
+        ],
+        [
+          19,
+          2.6768757
         ],
         [
           1,
-          4.024306915
+          3.6268679
         ],
         [
           2,
-          4.4012966738
+          4.6147369
         ]
       ]
     },
@@ -3329,39 +3329,39 @@
       "data": [
         [
           1,
-          "Breite"
-        ],
-        [
-          2,
           "Bruderholz"
         ],
         [
-          3,
-          "Iselin"
+          2,
+          "Breite"
         ],
         [
-          4,
+          3,
           "Riehen"
         ],
         [
-          5,
-          "Matthäus"
-        ],
-        [
-          6,
-          "Bachletten"
-        ],
-        [
-          7,
+          4,
           "Bettingen"
         ],
         [
+          5,
+          "Iselin"
+        ],
+        [
+          6,
+          "Matthäus"
+        ],
+        [
+          7,
+          "Bachletten"
+        ],
+        [
           8,
-          "Gotthelf"
+          "Hirzbrunnen"
         ],
         [
           9,
-          "Hirzbrunnen"
+          "Gotthelf"
         ],
         [
           10,
@@ -3369,11 +3369,11 @@
         ],
         [
           11,
-          "Gundeldingen"
+          "Clara"
         ],
         [
           12,
-          "Clara"
+          "Gundeldingen"
         ],
         [
           13,
@@ -3397,11 +3397,11 @@
         ],
         [
           18,
-          "Kleinhüningen"
+          "St. Alban"
         ],
         [
           19,
-          "St. Alban"
+          "Kleinhüningen"
         ],
         [
           20,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, 2022",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "colorAxis": {
     "min": 0,

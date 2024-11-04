@@ -54,6 +54,10 @@
         [
           2020,
           93951
+        ],
+        [
+          2021,
+          109193
         ]
       ],
       "name": "Innenstadt"
@@ -113,6 +117,10 @@
         [
           2020,
           73376
+        ],
+        [
+          2021,
+          76202
         ]
       ],
       "name": "Kanton BS"
@@ -243,7 +251,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

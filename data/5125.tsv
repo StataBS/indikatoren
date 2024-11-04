@@ -1,22 +1,23 @@
-﻿wohnviertel_id	Arbeitsplätze pro Kopf	Rang	Wohnviertel	jahr_num
-4	0.1254493051	1	Breite	2018
-7	0.1358121034	2	Bruderholz	2018
-10	0.1559287137	3	Iselin	2018
-20	0.1604026597	4	Riehen	2018
-17	0.1833720331	5	Matthäus	2018
-8	0.1989834229	6	Bachletten	2018
-30	0.2618170378	7	Bettingen	2018
-9	0.291090078	8	Gotthelf	2018
-15	0.3237955868	9	Hirzbrunnen	2018
-18	0.4690369439	10	Klybeck	2018
-6	0.5766547817	11	Gundeldingen	2018
-13	0.5891255128	12	Clara	2018
-16	0.6525225757	13	Rosental	2018
-3	1.0114517055	14	Am Ring	2018
-11	1.0875585544	15	St. Johann	2018
-12	1.5276966556	16	Altstadt Kleinbasel	2018
-14	1.8792207119	17	Wettstein	2018
-19	2.1355715324	18	Kleinhüningen	2018
-5	2.2642005383	19	St. Alban	2018
-1	4.024306915	20	Altstadt Grossbasel	2018
-2	4.4012966738	21	Vorstädte	2018
+﻿"Wohnviertel_id"	"Arbeitsplätze pro Kopf"	"Rang"	"Wohnviertel"	"jahr_num"
+7	0.1259349	1	"Bruderholz"	2022
+4	0.1335945	2	"Breite"	2022
+20	0.1602415	3	"Riehen"	2022
+30	0.1682024	4	"Bettingen"	2022
+10	0.1701474	5	"Iselin"	2022
+17	0.1707404	6	"Matthäus"	2022
+8	0.1877518	7	"Bachletten"	2022
+15	0.2741092	8	"Hirzbrunnen"	2022
+9	0.277503	9	"Gotthelf"	2022
+18	0.4747587	10	"Klybeck"	2022
+13	0.5112475	11	"Clara"	2022
+6	0.614486	12	"Gundeldingen"	2022
+16	0.6423468	13	"Rosental"	2022
+3	0.9756945	14	"Am Ring"	2022
+11	1.0291006	15	"St. Johann"	2022
+12	1.723828	16	"Altstadt Kleinbasel"	2022
+14	1.850965	17	"Wettstein"	2022
+5	2.3216055	18	"St. Alban"	2022
+19	2.6768757	19	"Kleinhüningen"	2022
+1	3.6268679	20	"Altstadt Grossbasel"	2022
+2	4.6147369	21	"Vorstädte"	2022
+

@@ -54,6 +54,10 @@
         [
           2020,
           4788965
+        ],
+        [
+          2021,
+          5193019
         ]
       ],
       "name": "Zugezogene Innenstadt"
@@ -113,6 +117,10 @@
         [
           2020,
           4279799
+        ],
+        [
+          2021,
+          4292182
         ]
       ],
       "name": "Weggezogene Innenstadt (Steuerertrag des Vorjahres)"
@@ -171,6 +179,10 @@
         [
           2020,
           46174940
+        ],
+        [
+          2021,
+          46997977
         ]
       ],
       "name": "Zugezogene Kanton BS"
@@ -230,6 +242,10 @@
         [
           2020,
           41758053
+        ],
+        [
+          2021,
+          45005976
         ]
       ],
       "name": "Weggezogene Kanton BS (Steuerertrag des Vorjahres)"
@@ -361,7 +377,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

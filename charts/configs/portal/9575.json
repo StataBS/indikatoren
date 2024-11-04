@@ -30,6 +30,10 @@
           143
         ],
         [
+          "Innenstadt: 2022",
+          128
+        ],
+        [
           " ",
           undefined
         ],
@@ -56,6 +60,10 @@
         [
           "Stadt Basel: 2021",
           611
+        ],
+        [
+          "Stadt Basel: 2022",
+          608
         ]
       ],
       "name": "Verarbeitendes Gewerbe",
@@ -91,6 +99,10 @@
           65
         ],
         [
+          "Innenstadt: 2022",
+          70
+        ],
+        [
           " ",
           undefined
         ],
@@ -117,6 +129,10 @@
         [
           "Stadt Basel: 2021",
           757
+        ],
+        [
+          "Stadt Basel: 2022",
+          761
         ]
       ],
       "name": "Bau, Energie und Wasser",
@@ -152,6 +168,10 @@
           89
         ],
         [
+          "Innenstadt: 2022",
+          89
+        ],
+        [
           " ",
           undefined
         ],
@@ -178,6 +198,10 @@
         [
           "Stadt Basel: 2021",
           356
+        ],
+        [
+          "Stadt Basel: 2022",
+          369
         ]
       ],
       "name": "Grosshandel",
@@ -213,6 +237,10 @@
           551
         ],
         [
+          "Innenstadt: 2022",
+          558
+        ],
+        [
           " ",
           undefined
         ],
@@ -239,6 +267,10 @@
         [
           "Stadt Basel: 2021",
           1243
+        ],
+        [
+          "Stadt Basel: 2022",
+          1268
         ]
       ],
       "name": "Detailhandel",
@@ -274,6 +306,10 @@
           39
         ],
         [
+          "Innenstadt: 2022",
+          37
+        ],
+        [
           " ",
           undefined
         ],
@@ -300,6 +336,10 @@
         [
           "Stadt Basel: 2021",
           480
+        ],
+        [
+          "Stadt Basel: 2022",
+          486
         ]
       ],
       "name": "Verkehr und Lagerei",
@@ -335,6 +375,10 @@
           218
         ],
         [
+          "Innenstadt: 2022",
+          224
+        ],
+        [
           " ",
           undefined
         ],
@@ -361,6 +405,10 @@
         [
           "Stadt Basel: 2021",
           926
+        ],
+        [
+          "Stadt Basel: 2022",
+          959
         ]
       ],
       "name": "Information, Kommunikation",
@@ -396,6 +444,10 @@
           300
         ],
         [
+          "Innenstadt: 2022",
+          310
+        ],
+        [
           " ",
           undefined
         ],
@@ -422,6 +474,10 @@
         [
           "Stadt Basel: 2021",
           792
+        ],
+        [
+          "Stadt Basel: 2022",
+          797
         ]
       ],
       "name": "Gastronomie, Hotellerie",
@@ -457,6 +513,10 @@
           285
         ],
         [
+          "Innenstadt: 2022",
+          289
+        ],
+        [
           " ",
           undefined
         ],
@@ -483,6 +543,10 @@
         [
           "Stadt Basel: 2021",
           913
+        ],
+        [
+          "Stadt Basel: 2022",
+          920
         ]
       ],
       "name": "Finanzen, Versicherung, Immobilien",
@@ -518,6 +582,10 @@
           939
         ],
         [
+          "Innenstadt: 2022",
+          933
+        ],
+        [
           " ",
           undefined
         ],
@@ -544,6 +612,10 @@
         [
           "Stadt Basel: 2021",
           3337
+        ],
+        [
+          "Stadt Basel: 2022",
+          3451
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -579,6 +651,10 @@
           311
         ],
         [
+          "Innenstadt: 2022",
+          314
+        ],
+        [
           " ",
           undefined
         ],
@@ -605,6 +681,10 @@
         [
           "Stadt Basel: 2021",
           1172
+        ],
+        [
+          "Stadt Basel: 2022",
+          1216
         ]
       ],
       "name": "Sonstige DL",
@@ -640,6 +720,10 @@
           246
         ],
         [
+          "Innenstadt: 2022",
+          246
+        ],
+        [
           " ",
           undefined
         ],
@@ -666,6 +750,10 @@
         [
           "Stadt Basel: 2021",
           1033
+        ],
+        [
+          "Stadt Basel: 2022",
+          1042
         ]
       ],
       "name": "Öff. Verwaltung, Bildung",
@@ -701,6 +789,10 @@
           746
         ],
         [
+          "Innenstadt: 2022",
+          803
+        ],
+        [
           " ",
           undefined
         ],
@@ -727,6 +819,10 @@
         [
           "Stadt Basel: 2021",
           2450
+        ],
+        [
+          "Stadt Basel: 2022",
+          2583
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -762,6 +858,10 @@
           203
         ],
         [
+          "Innenstadt: 2022",
+          230
+        ],
+        [
           " ",
           undefined
         ],
@@ -788,6 +888,10 @@
         [
           "Stadt Basel: 2021",
           1291
+        ],
+        [
+          "Stadt Basel: 2022",
+          1437
         ]
       ],
       "name": "Kunst, Unterhaltung, Sport",
@@ -823,6 +927,10 @@
           338
         ],
         [
+          "Innenstadt: 2022",
+          333
+        ],
+        [
           " ",
           undefined
         ],
@@ -849,6 +957,10 @@
         [
           "Stadt Basel: 2021",
           940
+        ],
+        [
+          "Stadt Basel: 2022",
+          968
         ]
       ],
       "name": "Schönheitspflege, sonst. pers. DL",
@@ -884,6 +996,10 @@
           6
         ],
         [
+          "Innenstadt: 2022",
+          7
+        ],
+        [
           " ",
           undefined
         ],
@@ -909,6 +1025,10 @@
         ],
         [
           "Stadt Basel: 2021",
+          137
+        ],
+        [
+          "Stadt Basel: 2022",
           137
         ]
       ],
@@ -1065,7 +1185,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
   },
   "tooltip": {
     "shared": true,
