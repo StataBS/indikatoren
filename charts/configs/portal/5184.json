@@ -48,6 +48,10 @@
         [
           "2022",
           5.3
+        ],
+        [
+          "2023",
+          5.1
         ]
       ],
       "name": "Stadt Basel",
@@ -100,6 +104,10 @@
         [
           "2022",
           5.975
+        ],
+        [
+          "2023",
+          5.625
         ]
       ],
       "name": "Mittelwert Vergleichsstädte",
@@ -151,6 +159,10 @@
         ],
         [
           "2022",
+          0
+        ],
+        [
+          "2023",
           0
         ]
       ],
@@ -210,6 +222,10 @@
         [
           "2022",
           -0.4
+        ],
+        [
+          "2023",
+          -0.2
         ]
       ],
       "name": "Veränderung Stadt Basel",
@@ -268,6 +284,10 @@
         [
           "2022",
           -0.3
+        ],
+        [
+          "2023",
+          -0.35
         ]
       ],
       "name": "Veränderung Mittelwert Vergleichsstädte",
@@ -321,6 +341,10 @@
         [
           "2022",
           4.9
+        ],
+        [
+          "2023",
+          4.6
         ]
       ],
       "name": "Bern",
@@ -374,6 +398,10 @@
         [
           "2022",
           5
+        ],
+        [
+          "2023",
+          4.8
         ]
       ],
       "name": "Winterthur",
@@ -427,6 +455,10 @@
         [
           "2022",
           4.1
+        ],
+        [
+          "2023",
+          3.8
         ]
       ],
       "name": "Zürich",
@@ -480,6 +512,10 @@
         [
           "2022",
           9.9
+        ],
+        [
+          "2023",
+          9.3
         ]
       ],
       "name": "Biel",
@@ -630,7 +666,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

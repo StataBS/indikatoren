@@ -25,11 +25,15 @@
         ],
         [
           2020,
-          88.101
+          87.954
         ],
         [
           2021,
           87.787
+        ],
+        [
+          2022,
+          87.94
         ]
       ],
       "name": "In der Schweiz geborene Schweizerinnen und Schweizer"
@@ -59,11 +63,15 @@
         ],
         [
           2020,
-          80.835
+          81.355
         ],
         [
           2021,
           86.89
+        ],
+        [
+          2022,
+          84.761
         ]
       ],
       "name": "In der Schweiz geborene Ausländerinnen und Ausländer"
@@ -101,6 +109,10 @@
         [
           2021,
           null
+        ],
+        [
+          2022,
+          null
         ]
       ],
       "name": "Im Ausland geborene Schweizerinnen und Schweizer"
@@ -130,11 +142,15 @@
         ],
         [
           2020,
-          73.465
+          72.578
         ],
         [
           2021,
           76.396
+        ],
+        [
+          2022,
+          78.071
         ]
       ],
       "name": "Im Ausland geborene Ausländerinnen und Ausländer"
@@ -168,6 +184,10 @@
         ],
         [
           2021,
+          85.4
+        ],
+        [
+          2022,
           85.4
         ]
       ],
@@ -297,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -14753,10 +14753,12 @@
 		"chart-id": 5184,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			8901
+		],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2022 5,3% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2021.",
+		"lesehilfe": "In der Stadt Basel bezogen 2023 5,1% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,2 Prozentpunkte weniger als 2022. Der Mittelwert der Sozialhilfequoten der Vergleichstädte liegt 2023 bei 5,6%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -14773,16 +14775,16 @@
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW6",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Gesundheit",
+		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_306",
+		"orderKey": "03_03_00_00_00_306",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:55",
+		"aktualisierungsdatum": "2024-11-11T07:18:44",
 		"id": 5184
 	},
 	{
@@ -15157,7 +15159,7 @@
 		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Das Total der Bauausgaben ist 2022 gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben mit 57,5% höher als im Vorjahr (50,3%). Er liegt somit wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"lesehilfe": "Die Ausgaben für Umbau und Unterhalt sind 2023 stärker gestiegen als das Total der Bauausgaben. Dadurch ist der Anteil der Ausgaben für Umbau und Unterhalt am Total der Bauausgaben mit 65,4% höher als im Vorjahr (61,6%). Er übertraf auch den bisherigen Höchstwert von 2011 (63,0%).",
 		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -15178,12 +15180,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_07_00_00_00_322",
+		"orderKey": "03_08_00_00_00_322",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:42",
+		"aktualisierungsdatum": "2024-11-11T07:18:42",
 		"id": 5199
 	},
 	{
@@ -15401,7 +15403,7 @@
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2023 von 194 auf 149 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39,5%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -15427,7 +15429,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:57",
+		"aktualisierungsdatum": "2024-11-11T07:18:47",
 		"id": 5796
 	},
 	{
@@ -25873,7 +25875,7 @@
 		],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2022 bei den Männern 40% (95% Vertrauensintervall: 35% - 45%) und bei den Frauen 26% (95%-Vertrauensintervall: 21% - 30%).",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2023 bei den Männern 38% (95% Vertrauensintervall: 32% - 43%) und bei den Frauen 23% (95%-Vertrauensintervall: 19% - 27%).",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Das Vertrauensintervall (schwarzer Fehlerbalken) kann als Bereich interpretiert werden, in welchem der wahre Wert mit einer Wahrscheinlichkeit von 95% liegt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -25899,7 +25901,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-15T08:31:00",
+		"aktualisierungsdatum": "2024-11-11T07:18:45",
 		"id": 6435
 	},
 	{
@@ -80291,11 +80293,13 @@
 		"chart-id": 9733,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12546
+		],
 		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "86,9% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2021 einen Abschluss auf der Sekundarstufe II.",
-		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer ab 2016).",
+		"lesehilfe": "84,8% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2022 einen Abschluss auf der Sekundarstufe II.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer). Geringfügige rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -80318,12 +80322,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_312",
+		"orderKey": "03_05_00_00_00_312",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:42",
+		"aktualisierungsdatum": "2024-11-11T07:18:40",
 		"id": 9733
 	},
 	{
