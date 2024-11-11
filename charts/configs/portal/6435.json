@@ -70,6 +70,10 @@
         [
           "2022",
           40.0686
+        ],
+        [
+          "2023",
+          37.5138
         ]
       ],
       "name": "Männer",
@@ -162,6 +166,11 @@
           "name": "2022",
           "low": 34.8522,
           "high": 45.2849
+        },
+        {
+          "name": "2023",
+          "low": 32.2536,
+          "high": 42.774
         }
       ],
       "name": "Männer 95% Vertrauensintervall Untergrenze",
@@ -237,6 +246,10 @@
         [
           "2022",
           25.8635
+        ],
+        [
+          "2023",
+          23.0661
         ]
       ],
       "name": "Frauen",
@@ -329,6 +342,11 @@
           "name": "2022",
           "low": 21.3853,
           "high": 30.3417
+        },
+        {
+          "name": "2023",
+          "low": 18.6788,
+          "high": 27.4535
         }
       ],
       "name": "Frauen 95% Vertrauensintervall Untergrenze",
@@ -457,7 +475,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

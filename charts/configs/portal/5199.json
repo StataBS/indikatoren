@@ -81,7 +81,11 @@
         ],
         [
           2022,
-          882093
+          1050693
+        ],
+        [
+          2023,
+          1136969
         ]
       ],
       "name": "Umbau- und Unterhaltsarbeiten (UuU)"
@@ -167,7 +171,11 @@
         ],
         [
           2022,
-          1535272
+          1704828
+        ],
+        [
+          2023,
+          1739375
         ]
       ],
       "name": "Total der Bauausgaben (BA)"
@@ -255,7 +263,11 @@
         ],
         [
           2022,
-          57.5
+          61.6
+        ],
+        [
+          2023,
+          65.4
         ]
       ],
       "name": "Anteil UuU am Total der BA (rechte Skala)"
@@ -411,7 +423,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2024"
   },
   "tooltip": {},
   "exporting": {

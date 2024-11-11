@@ -100,6 +100,10 @@
         [
           "2022",
           151.9
+        ],
+        [
+          "2023",
+          149.1
         ]
       ],
       "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
@@ -205,6 +209,10 @@
         [
           "2022",
           117.6
+        ],
+        [
+          "2023",
+          112.4
         ]
       ],
       "name": "Wertstoffsammlungen",
@@ -313,6 +321,10 @@
         [
           "2022",
           40.3
+        ],
+        [
+          "2023",
+          39.5
         ]
       ],
       "name": "Recyclingquote (rechte Skala)",
@@ -462,7 +474,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2024"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2024"
   },
   "exporting": {
     "filename": "5796"
