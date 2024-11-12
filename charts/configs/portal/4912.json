@@ -203,6 +203,10 @@
         [
           2022,
           57282
+        ],
+        [
+          2023,
+          61871
         ]
       ],
       "name": "Anzahl Betreibungen"
@@ -328,7 +332,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Betreibungs- und Konkursamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Betreibungs- und Konkursamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

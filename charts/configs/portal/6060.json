@@ -5,43 +5,43 @@
       "data": [
         [
           "Deutschland",
-          16949
+          17472
         ],
         [
           "Italien",
-          8823
+          8871
         ],
         [
           "Türkei",
-          5665
+          5646
         ],
         [
           "EU-West + EFTA + UK",
-          16750
+          16917
         ],
         [
           "EU-Ost",
-          6000
+          6114
         ],
         [
           "Balkan",
-          6647
+          6585
         ],
         [
           "Mittel- und Südamerika",
-          2015
+          2077
         ],
         [
           "Arabische Länder",
-          1823
+          1934
         ],
         [
           "Afrikanische Länder",
-          2086
+          2128
         ],
         [
           "Übrige Länder",
-          10867
+          11463
         ]
       ],
       "turboThreshold": 0
@@ -104,7 +104,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit bzw. Ländergruppen"
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -113,7 +113,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2023",
     "align": "left"
   },
   "tooltip": {
@@ -134,7 +134,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "legend": {
     "layout": "vertical",

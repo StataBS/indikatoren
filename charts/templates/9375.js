@@ -14,6 +14,7 @@
     },
     "series": [
       { "color": "rgb(0,138,195)" },
+      { "color": "rgb(0,138,195)", dashStyle: "ShortDash" },
       { "color": "rgb(147,63,141)" },
     ],
     "legend": {
@@ -22,9 +23,12 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 5,
-      "x": 30,
-      //"y": 35,
-      //"itemWidth": 145,
+      itemWidth: 150,
+      width: 300,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      }
     },
     "plotOptions": {
       "line": {

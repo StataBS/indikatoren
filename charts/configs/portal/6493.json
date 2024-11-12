@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweiz",
-          23.1
+          22.6
         ],
         [
           "Deutschland",
-          13.1
+          12.6
         ],
         [
           "Italien",
@@ -23,11 +23,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          1.6
+          1.4
         ],
         [
           "EU-Ost",
-          2
+          1.7
         ],
         [
           "Balkan",
@@ -35,15 +35,15 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.4
+          2.1
         ],
         [
           "Arabische Länder",
-          0.5
+          0.3
         ],
         [
           "Afrikanische Länder",
-          4.7
+          4.6
         ],
         [
           "Übrige Länder",
@@ -60,15 +60,15 @@
       "data": [
         [
           "Schweiz",
-          16.8
+          16.5
         ],
         [
           "Deutschland",
-          17.8
+          17.4
         ],
         [
           "Italien",
-          22.6
+          22.5
         ],
         [
           "Türkei",
@@ -76,19 +76,19 @@
         ],
         [
           "EU-West + EFTA + UK",
-          12.6
+          11.6
         ],
         [
           "EU-Ost",
-          26.2
+          24.9
         ],
         [
           "Balkan",
-          1.2
+          1.1
         ],
         [
           "Mittel- und Südamerika",
-          21.4
+          20.7
         ],
         [
           "Arabische Länder",
@@ -96,11 +96,11 @@
         ],
         [
           "Afrikanische Länder",
-          13.9
+          13.2
         ],
         [
           "Übrige Länder",
-          4.9
+          4.7
         ]
       ],
       "name": "Römisch-katholisch",
@@ -117,11 +117,11 @@
         ],
         [
           "Deutschland",
-          0.5
+          0.4
         ],
         [
           "Italien",
-          2.3
+          1.4
         ],
         [
           "Türkei",
@@ -129,11 +129,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          2
+          1.2
         ],
         [
           "EU-Ost",
-          2.3
+          1.6
         ],
         [
           "Balkan",
@@ -141,19 +141,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.5
+          1.4
         ],
         [
           "Arabische Länder",
-          0.3
+          0.2
         ],
         [
           "Afrikanische Länder",
-          2.1
+          0.8
         ],
         [
           "Übrige Länder",
-          0.4
+          0.2
         ]
       ],
       "name": "Christkatholisch",
@@ -174,7 +174,7 @@
         ],
         [
           "Italien",
-          0.1
+          0
         ],
         [
           "Türkei",
@@ -186,7 +186,7 @@
         ],
         [
           "EU-Ost",
-          0.1
+          0.2
         ],
         [
           "Balkan",
@@ -219,47 +219,47 @@
       "data": [
         [
           "Schweiz",
-          59.1
+          59.9
         ],
         [
           "Deutschland",
-          68.4
+          69.3
         ],
         [
           "Italien",
-          74.7
+          75.6
         ],
         [
           "Türkei",
-          99.8
+          99.9
         ],
         [
           "EU-West + EFTA + UK",
-          83.4
+          85.5
         ],
         [
           "EU-Ost",
-          69.5
+          71.7
         ],
         [
           "Balkan",
-          98.6
+          98.8
         ],
         [
           "Mittel- und Südamerika",
-          73.6
+          75.7
         ],
         [
           "Arabische Länder",
-          98.6
+          98.9
         ],
         [
           "Afrikanische Länder",
-          79.3
+          81.4
         ],
         [
           "Übrige Länder",
-          92.5
+          93
         ]
       ],
       "name": "Andere\u002Fohne\u002Funbekannt",
@@ -346,7 +346,7 @@
     "text": "Anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2012",
+    "text": "Basel-Stadt, 2013",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -406,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

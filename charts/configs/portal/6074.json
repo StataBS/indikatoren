@@ -14,35 +14,35 @@
         ],
         [
           "Türkei",
-          19.4
+          20
         ],
         [
           "EU-West + EFTA + UK",
-          6.1
+          6.3
         ],
         [
           "EU-Ost",
-          4.5
+          4.8
         ],
         [
           "Balkan",
-          17.5
+          17.7
         ],
         [
           "Mittel- und Südamerika",
-          5.5
+          5.4
         ],
         [
           "Arabische Länder",
-          6.9
+          7.2
         ],
         [
           "Afrikanische Länder",
-          8.1
+          8.3
         ],
         [
           "Übrige Länder",
-          3.4
+          3.3
         ]
       ],
       "name": "Basel-Stadt",
@@ -54,35 +54,35 @@
       "data": [
         [
           "Deutschland",
-          8.3
+          8
         ],
         [
           "Italien",
-          15.8
+          14.5
         ],
         [
           "Türkei",
-          23.2
+          23.6
         ],
         [
           "EU-West + EFTA + UK",
-          8.5
+          8.6
         ],
         [
           "EU-Ost",
-          6.5
+          6.7
         ],
         [
           "Balkan",
-          20.5
+          21.1
         ],
         [
           "Mittel- und Südamerika",
-          7.4
+          7.1
         ],
         [
           "Arabische Länder",
-          9
+          9.4
         ],
         [
           "Afrikanische Länder",
@@ -90,7 +90,7 @@
         ],
         [
           "Übrige Länder",
-          4.2
+          4.1
         ]
       ],
       "name": "Schweiz",
@@ -175,7 +175,7 @@
     "text": "Aufenthaltsdauer der ausländischen Bevölkerung"
   },
   "subtitle": {
-    "text": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2022",
+    "text": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -230,7 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
