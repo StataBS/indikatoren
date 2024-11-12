@@ -51,7 +51,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 lebten im Kanton Basel­Stadt 126 925 Schweizerinnen und Schweizer und 77 625 Ausländerinnen und Ausländer.",
+		"lesehilfe": "Ende 2023 lebten im Kanton Basel­Stadt 127 101 Schweizerinnen und Schweizer und 79 207 Ausländerinnen und Ausländer.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -64,7 +64,7 @@ var indikatorensetData = [
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6058",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -76,7 +76,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:22",
+		"aktualisierungsdatum": "2024-11-12T02:42:57",
 		"id": 6058
 	},
 	{
@@ -129,9 +129,9 @@ var indikatorensetData = [
 		"children": [
 			6645
 		],
-		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit bzw. Ländergruppen",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 besassen 21,8% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 78% jene eines europäischen Staates.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 besassen 22,1% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen rund 78% jene eines europäischen Staates.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -141,10 +141,10 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit bzw. Ländergruppen",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6060",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-6",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:26",
+		"aktualisierungsdatum": "2024-11-12T02:43:02",
 		"id": 6060
 	},
 	{
@@ -169,8 +169,8 @@ var indikatorensetData = [
 			6646
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Von 10 867 Personen, die Ende 2022 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Von 11 463 Personen, die Ende 2023 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -183,7 +183,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6061",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-9",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:28",
+		"aktualisierungsdatum": "2024-11-12T02:43:06",
 		"id": 6061
 	},
 	{
@@ -679,8 +679,8 @@ var indikatorensetData = [
 			6659
 		],
 		"title": "Aufenthaltsdauer der ausländischen Bevölkerung",
-		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2022",
-		"lesehilfe": "Türkische Staatsangehörige weisen 2022 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,2 Jahre) als auch für jenen in Basel-Stadt (19,4 Jahre).",
+		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2023",
+		"lesehilfe": "Türkische Staatsangehörige weisen 2023 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,6 Jahre) als auch für jenen in Basel-Stadt (20,0 Jahre).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -694,7 +694,7 @@ var indikatorensetData = [
 		"description": "Aufenthaltsdauer der ausländischen Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6074",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A3-5",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -706,7 +706,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-04T08:43:06",
+		"aktualisierungsdatum": "2024-11-12T02:43:08",
 		"id": 6074
 	},
 	{
@@ -720,7 +720,7 @@ var indikatorensetData = [
 		],
 		"title": "In der Schweiz geborene ausländische Bevölkerung",
 		"subtitle": "Anteil nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Ende 2022 waren 25,0% der italienischen Staatsangehörigen in Basel-Stadt in der Schweiz gebürtig (2003: 35,8%). Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2003: 9,5% und 2022: 22,1%.",
+		"lesehilfe": "Ende 2023 waren jeweils je 24,4% der italienischen Staatsangehörigen und der Personen aus dem Balkan in Basel-Stadt in der Schweiz gebürtig. Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2004: 9,5% und 2023: 22,5%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -733,7 +733,7 @@ var indikatorensetData = [
 		"description": "In der Schweiz geborene ausländische Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06075",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A4-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -745,7 +745,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:30",
+		"aktualisierungsdatum": "2024-11-12T02:43:09",
 		"id": 6075
 	},
 	{
@@ -1272,8 +1272,8 @@ var indikatorensetData = [
 			6674
 		],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2022 und Veränderung seit 2003",
-		"lesehilfe": "Ende 2022 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental 57%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten 23%) die tiefsten Ausländeranteile auf.",
+		"subtitle": "Basel-Stadt, Stand 2023 und Veränderung seit 2004",
+		"lesehilfe": "Ende 2023 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental 58%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten 24%) die tiefsten Ausländeranteile auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1286,7 +1286,7 @@ var indikatorensetData = [
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6398",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-3",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1298,7 +1298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:23",
+		"aktualisierungsdatum": "2024-11-12T02:42:59",
 		"id": 6398
 	},
 	{
@@ -1311,8 +1311,8 @@ var indikatorensetData = [
 			6675
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2022",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2022 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2023",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2023 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1325,7 +1325,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6399",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-5",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1337,7 +1337,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:25",
+		"aktualisierungsdatum": "2024-11-12T02:43:00",
 		"id": 6399
 	},
 	{
@@ -1350,8 +1350,8 @@ var indikatorensetData = [
 			6676
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 zählten 16 750 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 zählten 16 917 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1364,7 +1364,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6400",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-7",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1376,7 +1376,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:27",
+		"aktualisierungsdatum": "2024-11-12T02:43:03",
 		"id": 6400
 	},
 	{
@@ -1389,8 +1389,8 @@ var indikatorensetData = [
 			6677
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Von 5 997 Personen, die Ende 2022 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, rumänische, ungarische und kroatische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Von 6 114 Personen, die Ende 2023 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, rumänische, koratische und ungarische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1403,7 +1403,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06401",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-8",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -1415,7 +1415,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:27",
+		"aktualisierungsdatum": "2024-11-12T02:43:05",
 		"id": 6401
 	},
 	{
@@ -3602,8 +3602,8 @@ var indikatorensetData = [
 			6733
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2012",
-		"lesehilfe": "2012 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (23,1%). Die EU-Ost-Länder hatten mit 26,2% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,8% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
+		"subtitle": "Basel-Stadt, 2013",
+		"lesehilfe": "2013 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (22,6%). Italienische Staatsangehörige hatten mit 22,5% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,9% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3615,8 +3615,8 @@ var indikatorensetData = [
 		],
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kuerzel": "I.01.7.6493",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D7-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -3628,7 +3628,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:39",
+		"aktualisierungsdatum": "2024-11-12T02:43:10",
 		"id": 6493
 	},
 	{
@@ -3641,8 +3641,8 @@ var indikatorensetData = [
 			6734
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (17,5%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (16,2%). Türkinnen und Türken haben mit 99,9% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt«.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "2023 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (16,9%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (15,5%). Türkinnen und Türken haben mit 99,9% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt».",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3654,8 +3654,8 @@ var indikatorensetData = [
 		],
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kuerzel": "I.01.7.6494",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "D7-2",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -3667,7 +3667,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:39",
+		"aktualisierungsdatum": "2024-11-12T02:43:14",
 		"id": 6494
 	},
 	{

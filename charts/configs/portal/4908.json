@@ -51,6 +51,10 @@
         [
           "2021",
           5
+        ],
+        [
+          "2022",
+          5
         ]
       ],
       "name": "Landwirtschaft etc.",
@@ -106,7 +110,11 @@
         ],
         [
           "2021",
-          19214
+          19073
+        ],
+        [
+          "2022",
+          18416
         ]
       ],
       "name": "Bau, Herstellung von Waren",
@@ -162,7 +170,11 @@
         ],
         [
           "2021",
-          2237
+          2223
+        ],
+        [
+          "2022",
+          2359
         ]
       ],
       "name": "Versorgung und Bildung",
@@ -218,7 +230,11 @@
         ],
         [
           "2021",
-          5534
+          5528
+        ],
+        [
+          "2022",
+          6378
         ]
       ],
       "name": "Fahrzeuge, Transport, IT, Gastronomie",
@@ -274,7 +290,11 @@
         ],
         [
           "2021",
-          3307
+          3231
+        ],
+        [
+          "2022",
+          3809
         ]
       ],
       "name": "Finanzen und Versicherungen",
@@ -330,7 +350,11 @@
         ],
         [
           "2021",
-          5972
+          6158
+        ],
+        [
+          "2022",
+          6401
         ]
       ],
       "name": "Wirtsch. Dienstl. u. Unterhaltung",
@@ -386,7 +410,11 @@
         ],
         [
           "2021",
-          2383
+          2390
+        ],
+        [
+          "2022",
+          2419
         ]
       ],
       "name": "Öffentliche Verwaltung",
@@ -443,6 +471,10 @@
         [
           "2021",
           50
+        ],
+        [
+          "2022",
+          56
         ]
       ],
       "name": "Private Haushalte",
@@ -584,7 +616,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

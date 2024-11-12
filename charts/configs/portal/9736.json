@@ -9,31 +9,35 @@
         ],
         [
           2004,
-          117.54864621
+          117.55552319
         ],
         [
           2010,
-          155.96542538
+          156.00103092
         ],
         [
           2012,
-          171.17587351
+          171.21495145
         ],
         [
           2014,
-          193.84066481
+          193.88491693
         ],
         [
           2016,
-          212.13034227
+          212.17876976
         ],
         [
           2018,
-          243.57501712
+          243.63062315
         ],
         [
           2020,
-          249.61872978
+          250.66968379
+        ],
+        [
+          2022,
+          303.19405412
         ]
       ],
       "name": "Energieeffizienz (BIP\u002FBruttoverbrauch)"
@@ -71,10 +75,14 @@
         ],
         [
           2020,
-          64.940785215
+          65.61828179
+        ],
+        [
+          2022,
+          60.970797383
         ]
       ],
-      "name": "kWh pro Kopf"
+      "name": "kWh\u002FKopf"
     }
   ],
   "chart": {
@@ -192,7 +200,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
