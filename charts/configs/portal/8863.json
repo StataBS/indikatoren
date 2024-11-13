@@ -4,23 +4,23 @@
       "data": [
         [
           "BS",
-          0.17954788
+          0.172971958
         ],
         [
           "BL",
-          0.158817084
+          0.157228657
         ],
         [
           "JU",
-          0.260506838
+          0.248899279
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.180686824
+          0.175745736
         ],
         [
           "CH",
-          0.075798626
+          0.076905898
         ]
       ],
       "name": "2023 Q4",
@@ -102,7 +102,7 @@
     "text": "Anteil Grenzgänger an der Beschäftigung"
   },
   "subtitle": {
-    "text": "2023, 4. Quartal",
+    "text": "2024, 2. Quartal",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -149,7 +149,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -38,6 +38,10 @@
         [
           2022,
           102.734564709937
+        ],
+        [
+          2023,
+          104.540897056289
         ]
       ],
       "name": "Basel-Stadt"
@@ -80,6 +84,10 @@
         [
           2022,
           101.034833933793
+        ],
+        [
+          2023,
+          102.415160043364
         ]
       ],
       "name": "Basel-Landschaft"
@@ -122,6 +130,10 @@
         [
           2022,
           99.0568453397064
+        ],
+        [
+          2023,
+          99.6372482075794
         ]
       ],
       "name": "Jura"
@@ -253,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

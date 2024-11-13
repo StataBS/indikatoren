@@ -4,14 +4,6 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2011",
-          4889
-        ],
-        [
-          "2012",
-          5019
-        ],
-        [
           "2013",
           5091
         ],
@@ -46,6 +38,10 @@
         [
           "2021",
           5422
+        ],
+        [
+          "2022",
+          5479
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -54,14 +50,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2011",
-          7287
-        ],
-        [
-          "2012",
-          7387
-        ],
         [
           "2013",
           7632
@@ -97,6 +85,10 @@
         [
           "2021",
           9123
+        ],
+        [
+          "2022",
+          9197
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -105,14 +97,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2011",
-          18531
-        ],
-        [
-          "2012",
-          18645
-        ],
         [
           "2013",
           19954
@@ -148,6 +132,10 @@
         [
           "2021",
           23181
+        ],
+        [
+          "2022",
+          24693
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -156,14 +144,6 @@
     {
       "color": "#2B0099",
       "data": [
-        [
-          "2011",
-          6743
-        ],
-        [
-          "2012",
-          6905
-        ],
         [
           "2013",
           6991
@@ -199,6 +179,10 @@
         [
           "2021",
           7091
+        ],
+        [
+          "2022",
+          7217
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -334,7 +318,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

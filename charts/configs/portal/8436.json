@@ -38,6 +38,10 @@
         [
           2022,
           36.4311438504248
+        ],
+        [
+          2023,
+          36.5874443151498
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -80,6 +84,10 @@
         [
           2022,
           31.5098735244849
+        ],
+        [
+          2023,
+          31.7860903545713
         ]
       ],
       "name": "Schweiz"
@@ -223,7 +231,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "tooltip": {
     "shared": false,

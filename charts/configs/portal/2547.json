@@ -4,14 +4,6 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2011",
-          145498
-        ],
-        [
-          "2012",
-          146102
-        ],
-        [
           "2013",
           148916
         ],
@@ -46,6 +38,10 @@
         [
           "2021",
           151439
+        ],
+        [
+          "2022",
+          156231
         ]
       ],
       "name": "BS",
@@ -54,14 +50,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2011",
-          113476
-        ],
-        [
-          "2012",
-          112878
-        ],
         [
           "2013",
           114481
@@ -97,6 +85,10 @@
         [
           "2021",
           120822
+        ],
+        [
+          "2022",
+          123476
         ]
       ],
       "name": "BL",
@@ -105,14 +97,6 @@
     {
       "color": "#A8C3CA",
       "data": [
-        [
-          "2011",
-          250340
-        ],
-        [
-          "2012",
-          254413
-        ],
         [
           "2013",
           257604
@@ -148,6 +132,10 @@
         [
           "2021",
           269423
+        ],
+        [
+          "2022",
+          274695
         ]
       ],
       "name": "AG",
@@ -156,14 +144,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2011",
-          744295
-        ],
-        [
-          "2012",
-          751132
-        ],
         [
           "2013",
           759398
@@ -199,6 +179,10 @@
         [
           "2021",
           837869
+        ],
+        [
+          "2022",
+          860544
         ]
       ],
       "name": "ZH",
@@ -327,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -208,8 +208,8 @@ var indikatorensetData = [
 			6647
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 bilden bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
+		"subtitle": "Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 bilden sowohl bei den Frauen als auch bei den Männern Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -222,7 +222,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6062",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-10",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:21",
+		"aktualisierungsdatum": "2024-11-13T07:03:09",
 		"id": 6062
 	},
 	{
