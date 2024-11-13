@@ -38,6 +38,10 @@
         [
           2022,
           107.251206312815
+        ],
+        [
+          2023,
+          108.906720695263
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -80,6 +84,10 @@
         [
           2022,
           108.308700298209
+        ],
+        [
+          2023,
+          109.666435642675
         ]
       ],
       "name": "Schweiz"
@@ -211,7 +219,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 25.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

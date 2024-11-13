@@ -6,23 +6,23 @@
       "data": [
         [
           "BS",
-          26
+          24
         ],
         [
           "BL",
-          966
+          947
         ],
         [
           "JU",
-          1063
+          1058
         ],
         [
           "BS\u002FBL\u002FJU",
-          2055
+          2029
         ],
         [
           "CH",
-          51666
+          51060
         ]
       ],
       "name": "Primärer Sektor",
@@ -34,11 +34,11 @@
       "data": [
         [
           "BS",
-          42
+          49
         ],
         [
           "BL",
-          65
+          59
         ],
         [
           "JU",
@@ -46,11 +46,11 @@
         ],
         [
           "BS\u002FBL\u002FJU",
-          119
+          120
         ],
         [
           "CH",
-          1273
+          1281
         ]
       ],
       "name": "Chemie, Pharma",
@@ -66,19 +66,19 @@
         ],
         [
           "BL",
-          417
+          407
         ],
         [
           "JU",
-          347
+          349
         ],
         [
           "BS\u002FBL\u002FJU",
-          866
+          858
         ],
         [
           "CH",
-          12965
+          12856
         ]
       ],
       "name": "Investitionsgüter",
@@ -90,23 +90,23 @@
       "data": [
         [
           "BS",
-          807
+          813
         ],
         [
           "BL",
-          1775
+          1799
         ],
         [
           "JU",
-          499
+          505
         ],
         [
           "BS\u002FBL\u002FJU",
-          3081
+          3117
         ],
         [
           "CH",
-          51439
+          52006
         ]
       ],
       "name": "Baugewerbe",
@@ -118,23 +118,23 @@
       "data": [
         [
           "BS",
-          530
+          516
         ],
         [
           "BL",
-          843
+          846
         ],
         [
           "JU",
-          370
+          374
         ],
         [
           "BS\u002FBL\u002FJU",
-          1743
+          1736
         ],
         [
           "CH",
-          30866
+          30936
         ]
       ],
       "name": "Sonstige Industrie",
@@ -146,23 +146,23 @@
       "data": [
         [
           "BS",
-          1816
+          1859
         ],
         [
           "BL",
-          2599
+          2604
         ],
         [
           "JU",
-          821
+          803
         ],
         [
           "BS\u002FBL\u002FJU",
-          5236
+          5266
         ],
         [
           "CH",
-          91050
+          90929
         ]
       ],
       "name": "Handel, Reparatur",
@@ -174,23 +174,23 @@
       "data": [
         [
           "BS",
-          556
+          555
         ],
         [
           "BL",
-          594
+          599
         ],
         [
           "JU",
-          133
+          128
         ],
         [
           "BS\u002FBL\u002FJU",
-          1283
+          1282
         ],
         [
           "CH",
-          17205
+          17483
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -202,7 +202,7 @@
       "data": [
         [
           "BS",
-          816
+          825
         ],
         [
           "BL",
@@ -210,15 +210,15 @@
         ],
         [
           "JU",
-          319
+          317
         ],
         [
           "BS\u002FBL\u002FJU",
-          1794
+          1801
         ],
         [
           "CH",
-          32508
+          32597
         ]
       ],
       "name": "Gastgewerbe",
@@ -230,23 +230,23 @@
       "data": [
         [
           "BS",
-          476
+          492
         ],
         [
           "BL",
-          371
+          369
         ],
         [
           "JU",
-          120
+          122
         ],
         [
           "BS\u002FBL\u002FJU",
-          967
+          983
         ],
         [
           "CH",
-          20716
+          20830
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -258,23 +258,23 @@
       "data": [
         [
           "BS",
-          3535
+          3671
         ],
         [
           "BL",
-          2757
+          2788
         ],
         [
           "JU",
-          537
+          578
         ],
         [
           "BS\u002FBL\u002FJU",
-          6829
+          7037
         ],
         [
           "CH",
-          105833
+          108046
         ]
       ],
       "name": "Freib., wiss., tech. DL",
@@ -286,23 +286,23 @@
       "data": [
         [
           "BS",
-          1120
+          1136
         ],
         [
           "BL",
-          1381
+          1413
         ],
         [
           "JU",
-          379
+          392
         ],
         [
           "BS\u002FBL\u002FJU",
-          2880
+          2941
         ],
         [
           "CH",
-          44478
+          45334
         ]
       ],
       "name": "Öff. Verwaltung, Bildung",
@@ -314,23 +314,23 @@
       "data": [
         [
           "BS",
-          2650
+          2785
         ],
         [
           "BL",
-          2745
+          2833
         ],
         [
           "JU",
-          676
+          700
         ],
         [
           "BS\u002FBL\u002FJU",
-          6071
+          6318
         ],
         [
           "CH",
-          82825
+          85262
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -342,23 +342,23 @@
       "data": [
         [
           "BS",
-          5026
+          5279
         ],
         [
           "BL",
-          4569
+          4649
         ],
         [
           "JU",
-          1305
+          1375
         ],
         [
           "BS\u002FBL\u002FJU",
-          10900
+          11303
         ],
         [
           "CH",
-          161133
+          166343
         ]
       ],
       "name": "Sonstige DL",
@@ -445,7 +445,7 @@
     "text": "Arbeitsstätten nach Branche"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -501,7 +501,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"

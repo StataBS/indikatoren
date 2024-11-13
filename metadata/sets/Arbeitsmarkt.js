@@ -912,7 +912,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in der chemischen und pharmazeutischen Industrie 17 646 Beschäftigte (in VZÄ) tätig und somit leicht mehr als im Vorjahr. In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 2,5% bzw. 6,4% reduziert.",
+		"lesehilfe": "Im Jahr 2022 sind in der chemischen und pharmazeutischen Industrie 17 541 Beschäftigte (in VZÄ) tätig und somit etwas weniger als im Vorjahr (17 646). In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe beträgt die Beschäftigung in VZÄ im gleichen Jahr 6 974 bzw. 6 654 und ist tiefer als im Vorjahr (-2,0% bzw. -0,4%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -925,7 +925,7 @@ var indikatorensetData = [
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.2528",
+		"kuerzel": "",
 		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzelKunde": "3.2.5",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
@@ -937,7 +937,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:16:02",
+		"aktualisierungsdatum": "2024-11-13T07:03:05",
 		"id": 2528
 	},
 	{
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Das Gastgewerbe verzeichnete zwischen 2020 und 2021 ein Wachstum der Beschäftigung (in VZÄ) um 18,5%. Die Branchen Information und Kommunikation (+5,5%) sowie Verkehr und Lagerei (+1,8%) verzeichneten ebenfalls eine Zunahme, die Branche Handel und Reparatur hingegen einen leichten Rückgang (-0,1%).",
+		"lesehilfe": "Im Gastgewerbe nahm die Beschäftigung im Jahr 2022 auf 8 001 VZÄ zu,  was einem Wachstum um 18,9% gegenüber dem Vorjahr entspricht. Damit wurde das Beschäftigungsniveau von 2019, vor der Pandemie, leicht übertroffen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -964,7 +964,7 @@ var indikatorensetData = [
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.02529",
+		"kuerzel": "",
 		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzelKunde": "3.2.6",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:16:03",
+		"aktualisierungsdatum": "2024-11-13T07:03:06",
 		"id": 2529
 	},
 	{
@@ -990,7 +990,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
-		"lesehilfe": "Im Jahr 2021 sind im Kanton Basel-Stadt 151 439 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Zunahme um 1,9% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,4%), Aargau (+0,9%) und Zürich (+2,1%) verzeichnen ebenfalls eine Zunahme der VZÄ.",
+		"lesehilfe": "Im Jahr 2022 sind im Kanton Basel-Stadt 156 231 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig, was einer Zunahme um 3,2% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+2,2%), Aargau (+2,0%) und Zürich (+2,7%) verzeichnen ebenfalls eine Zunahme der VZÄ.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1003,7 +1003,7 @@ var indikatorensetData = [
 		"description": "Beschäftigung nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.2547",
+		"kuerzel": "",
 		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzelKunde": "3.2.1",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
@@ -1015,7 +1015,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:16:02",
+		"aktualisierungsdatum": "2024-11-13T07:03:00",
 		"id": 2547
 	},
 	{
@@ -1497,7 +1497,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt in Vollzeitäquivalente umgerechnet 64 950 Frauen beschäftigt (92 214 Beschäftigte), was einem Zuwachs um 1 325 VZÄ bzw. 2,1% gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 1 481 VZÄ bzw. 1,7% auf 86 489 VZÄ (100 788 Beschäftigte) angewachsen.",
+		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt in Vollzeitäquivalente umgerechnet 67 115 Frauen beschäftigt (95 766 Beschäftigte), was einem Zuwachs um 2 165 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 2 627 VZÄ auf 89 116 VZÄ (103 971 Beschäftigte) gewachsen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1522,7 +1522,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T08:39:29",
+		"aktualisierungsdatum": "2024-11-13T07:03:02",
 		"id": 6454
 	},
 	{
@@ -1536,7 +1536,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 entspricht das Arbeitsvolumen der 193 002 Beschäftigten 151 439 Vollzeitäquivalenten (VZÄ). Daraus resultiert für im Kanton Basel-Stadt beschäftigte Personen ein durchschnittlicher Beschäftigungsgrad von rund 79%. Bei den Männern liegt er bei rund 86%, bei den Frauen bei rund 70%.",
+		"lesehilfe": "Der Kanton Basel-Stadt weist im Jahr 2022 einen durchschnittlichen Beschäftigungsgrad von rund 78% auf, welcher für Männer bei rund 86% und für Frauen bei rund 70% liegt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1561,7 +1561,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:58",
+		"aktualisierungsdatum": "2024-11-13T07:03:03",
 		"id": 6455
 	},
 	{
@@ -1575,7 +1575,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Branche Finanz- und Versicherungsdienstleistungen verzeichnet zwischen 2020 und 2021 einen Anstieg der Beschäftigung (in VZÄ) um 1,4%. Die Beschäftigung in den Branchen Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (+5,4%), Personalvermittlung und -überlassung (+10,4%) sowie Beratung, Planung, Forschung und Immobilien (+1,2%) hat ebenfalls zugenommen.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete 2022 einen Anstieg der Beschäftigung (in VZÄ) um 2,0% gegenüber dem Vorjahr auf 21 036. In der Branche Personalvermittlung und -überlassung hat die Beschäftigung im gleichen Zeitraum abgenommen (-3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1600,7 +1600,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:56:00",
+		"aktualisierungsdatum": "2024-11-13T07:03:07",
 		"id": 6456
 	},
 	{
@@ -1614,7 +1614,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Branche Öffentliche Verwaltung und Sozialversicherungen liegt die Beschäftigung im Jahr 2021 bei 5 422 Vollzeitäquivalenten (VZÄ) und damit um 0,3% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht (+4,8%), Gesundheits- und Sozialwesen (+0,8%) sowie Kultur, Unterhaltung und persönliche Dienstleistungen (+1,1%) hat die Beschäftigung in VZÄ im gleichen Zeitraum ebenfalls zugenommen.",
+		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen hat die Beschäftigung im Jahr 2022 um 6,5% auf 24 693 Vollzeitäquivalente (VZÄ) zugenommen. In den Branchen Erziehung und Unterricht (+0,8%), Öffentliche Verwaltung (+1,1%) sowie Kultur, Unterhaltung und persönliche Dienstleistungen (+1,8%) hat die Beschäftigung in VZÄ im gleichen Zeitraum ebenfalls zugenommen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1639,7 +1639,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:56:01",
+		"aktualisierungsdatum": "2024-11-13T07:03:08",
 		"id": 6457
 	},
 	{
@@ -2360,8 +2360,8 @@ var indikatorensetData = [
 			7064
 		],
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2021",
-		"lesehilfe": "Im Jahr 2021 sind im Kanton Basel-Stadt rund 35% der 151 439 Beschäftigten in Vollzeitäquivalenten (VZÄ) in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 15%; in den Kantonen Aargau und Zürich fällt er mit rund 18% bzw. rund 25% ebenfalls tiefer aus als in Basel-Stadt.",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2022",
+		"lesehilfe": "Im Jahr 2022 sind im Kanton Basel-Stadt rund 36% der Beschäftigten in Vollzeitäquivalenten (VZÄ) in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 16%. In den Kantonen Aargau und Zürich fällt er mit rund 19% bzw. rund 26% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2386,7 +2386,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:57",
+		"aktualisierungsdatum": "2024-11-13T07:03:01",
 		"id": 6531
 	},
 	{

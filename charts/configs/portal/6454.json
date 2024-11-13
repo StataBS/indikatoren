@@ -5,14 +5,6 @@
       "color": "#008AC3",
       "data": [
         [
-          2011,
-          97608
-        ],
-        [
-          2012,
-          98189
-        ],
-        [
           2013,
           100162
         ],
@@ -47,6 +39,10 @@
         [
           2021,
           100788
+        ],
+        [
+          2022,
+          103971
         ]
       ],
       "name": "Männer (Beschäftigte)"
@@ -55,14 +51,6 @@
       "stack": 1,
       "color": "#DC440E",
       "data": [
-        [
-          2011,
-          85575
-        ],
-        [
-          2012,
-          86536
-        ],
         [
           2013,
           88329
@@ -98,6 +86,10 @@
         [
           2021,
           92214
+        ],
+        [
+          2022,
+          95766
         ]
       ],
       "name": "Frauen (Beschäftigte)"
@@ -106,14 +98,6 @@
       "stack": 2,
       "color": "#00bAf3",
       "data": [
-        [
-          2011,
-          86097
-        ],
-        [
-          2012,
-          86212
-        ],
         [
           2013,
           87560
@@ -149,6 +133,10 @@
         [
           2021,
           86489
+        ],
+        [
+          2022,
+          89116
         ]
       ],
       "name": "Männer (VZÄ)"
@@ -157,14 +145,6 @@
       "stack": 2,
       "color": "#F05A23",
       "data": [
-        [
-          2011,
-          59401
-        ],
-        [
-          2012,
-          59891
-        ],
         [
           2013,
           61355
@@ -200,6 +180,10 @@
         [
           2021,
           64950
+        ],
+        [
+          2022,
+          67115
         ]
       ],
       "name": "Frauen (VZÄ)"
@@ -342,7 +326,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
