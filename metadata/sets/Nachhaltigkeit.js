@@ -37,6 +37,45 @@ var indikatorensetData = [
 		"id": 12532
 	},
 	{
+		"template": "template001",
+		"data-id": 12543,
+		"chart-id": 12543,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			12560
+		],
+		"title": "CO<sub>2</sub>-Emissionen",
+		"subtitle": "in Tonnen, Basel-Stadt",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2022 von 833 367 Tonnen auf 593 390 Tonnen ab. Das entspricht einer Reduktion um 29% bzw. einem Rückgang von 4,3 Tonnen auf 2,9 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres. Bis 2020 wurde der Anteil der Kategorie Nicht-Wohnen tendenziell überschätzt und jener der Kategorie Haushalte unterschätzt. Für 2022 erfolgte eine methodische Korrektur.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "CO<sub>2</sub>-Emissionen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.12543",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL12",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_02_00_00_00_412",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-11-18T07:48:05",
+		"id": 12543
+	},
+	{
 		"template": "line001",
 		"data-id": 12715,
 		"chart-id": 12715,
@@ -1462,7 +1501,7 @@ var indikatorensetData = [
 		"id": 6037
 	},
 	{
-		"template": "template001",
+		"template": "befragungen001",
 		"data-id": 6039,
 		"chart-id": 6039,
 		"filter": "",
@@ -1471,7 +1510,7 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2022/23, Basel-Stadt",
+		"subtitle": "im Schuljahr 2023/24, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -1493,11 +1532,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_313",
+		"orderKey": "03_05_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:41",
+		"aktualisierungsdatum": "2024-11-18T07:48:04",
 		"id": 6039
 	},
 	{
