@@ -2375,6 +2375,7 @@ id | visible | visibleInPortal | indikatorenset
 12520 | true | true | Soziales
 12521 | true | true | Soziales
 12532 | true | true | Nachhaltigkeit
+12543 | true | true | Nachhaltigkeit
 12544 | true | false | Nachhaltigkeit (Print)
 12546 | true | false | Nachhaltigkeit (Print)
 12547 | true | false | Nachhaltigkeit (Print)

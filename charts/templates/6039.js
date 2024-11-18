@@ -5,12 +5,12 @@
       "series": {
         //pointPadding: 0,
         borderWidth: 0,
-        pointWidth: 30,
+        pointWidth: 20,
         "stacking": "normal"
       }
     },
     "xAxis": {
-      max: 6,
+      max: 9,
       "labels": {
         align: "left",
         x: -60,
