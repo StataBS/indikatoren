@@ -2350,7 +2350,7 @@ id | visible | visibleInPortal | indikatorenset
 11899 | true | true | Richtplan
 11900 | true | true | Richtplan
 11901 | true | false | Richtplan
-11902 | true | true | Richtplan
+11902 | true | false | Richtplan
 11903 | true | false | Richtplan
 11905 | true | false | Richtplan
 11906 | true | false | Richtplan
@@ -2377,6 +2377,7 @@ id | visible | visibleInPortal | indikatorenset
 12532 | true | true | Nachhaltigkeit
 12543 | true | true | Nachhaltigkeit
 12544 | true | false | Nachhaltigkeit (Print)
+12545 | true | false | Nachhaltigkeit (Print)
 12546 | true | false | Nachhaltigkeit (Print)
 12547 | true | false | Nachhaltigkeit (Print)
 12548 | true | false | Nachhaltigkeit (Print)

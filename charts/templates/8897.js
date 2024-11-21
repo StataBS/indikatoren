@@ -1,11 +1,18 @@
 (function(){
     return {
       "xAxis": {
-        "tickInterval": 1,
         labels: { 
           style: { 
             textOverflow: 'none' // prevents ellipsis
           }
+        },
+        tickPositioner: function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
         }
       },
       "yAxis": {

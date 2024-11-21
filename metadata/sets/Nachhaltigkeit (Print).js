@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"description": "Jahresmittel Basler Index der Konsumentenpreise",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
-		"kuerzel": "I.05.1.12544",
+		"kuerzel": "I.05.R & U.12544",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE8",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -34,8 +34,46 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:38",
+		"aktualisierungsdatum": "2024-11-21T06:59:32",
 		"id": 12544
+	},
+	{
+		"template": "line001_print",
+		"data-id": 12545,
+		"chart-id": 12545,
+		"filter": "",
+		"parentId": "9375",
+		"children": [],
+		"title": "Entwicklung von Krankenkassenprämien und Reineinkommen",
+		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 lag der Index (Basis 2010) der mittleren Prämien bei 126,6 und jener für den Median des Reinkommens bei 105,9.<br>Für das Jahr 2025 wird bei den Prämien mit einen Anstieg auf 138,1 gerechnet.",
+		"erlaeuterungen": "Mittlere Prämie: Gewichteter Durchschnitt der Krankenkassenprämien aller Versicherten pro Jahr. Die Gesamtprämiensumme einer Versichertengruppe wird durch die Gesamtzahl der Versicherten der jeweiligen Gruppe geteilt.<br>Die geschätzten Prämien beruhen auf Schätzungen der Versicherer zu den Veränderungen ihres Versichertenbestandes. Der effektive Prämienanstieg wird aber gemäss BAG tiefer erwartet, da bei stärkeren Prämienanstiegen beispielsweise mehr Versicherte höhere Franchisen wählen oder in ein alternatives Versicherungsmodell wechseln. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung von Krankenkassenprämien und Reineinkommen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "GW4",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_304",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-11-21T06:58:19",
+		"id": 12545
 	},
 	{
 		"template": "line001_print",
@@ -46,8 +84,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "86,9% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2021 einen Abschluss auf der Sekundarstufe II.",
-		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer ab 2016).",
+		"lesehilfe": "84,8% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2022 einen Abschluss auf der Sekundarstufe II.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer). Geringfügige rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -62,7 +100,7 @@ var indikatorensetData = [
 		"description": "Abschlussquote auf Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "I.15.7.12546",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW12",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -74,7 +112,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:06",
+		"aktualisierungsdatum": "2024-11-21T06:57:57",
 		"id": 12546
 	},
 	{
@@ -112,7 +150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:11",
+		"aktualisierungsdatum": "2024-11-21T06:58:03",
 		"id": 12547
 	},
 	{
@@ -149,7 +187,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:01",
+		"aktualisierungsdatum": "2024-11-21T06:58:53",
 		"id": 12548
 	},
 	{
@@ -161,7 +199,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt um einen Franken zu erwirtschaften und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -177,7 +215,7 @@ var indikatorensetData = [
 		"description": "Energieeffizienz",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kuerzel": "I.08.1.12549",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "NL3",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
@@ -189,7 +227,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:03",
+		"aktualisierungsdatum": "2024-11-21T06:58:54",
 		"id": 12549
 	},
 	{
@@ -227,7 +265,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:09",
+		"aktualisierungsdatum": "2024-11-21T06:59:02",
 		"id": 12550
 	},
 	{
@@ -264,7 +302,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:53",
+		"aktualisierungsdatum": "2024-11-21T06:58:45",
 		"id": 12551
 	},
 	{
@@ -301,7 +339,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:34",
+		"aktualisierungsdatum": "2024-11-21T06:58:30",
 		"id": 12552
 	},
 	{
@@ -339,7 +377,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:32",
+		"aktualisierungsdatum": "2024-11-21T06:58:29",
 		"id": 12553
 	},
 	{
@@ -365,7 +403,7 @@ var indikatorensetData = [
 		"description": "Arbeitsproduktivität",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.12554",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE2",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -377,7 +415,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:31",
+		"aktualisierungsdatum": "2024-11-21T06:59:24",
 		"id": 12554
 	},
 	{
@@ -414,7 +452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:00",
+		"aktualisierungsdatum": "2024-11-21T06:57:52",
 		"id": 12555
 	},
 	{
@@ -451,7 +489,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:38",
+		"aktualisierungsdatum": "2024-11-21T06:58:32",
 		"id": 12556
 	},
 	{
@@ -476,7 +514,7 @@ var indikatorensetData = [
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kuerzel": "I.04.2.09786",
+		"kuerzel": "I.04.2.12557",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE4",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -488,7 +526,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:33",
+		"aktualisierungsdatum": "2024-11-21T06:59:27",
 		"id": 12557
 	},
 	{
@@ -500,7 +538,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -513,7 +551,7 @@ var indikatorensetData = [
 		"description": "Beschäftigte",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.12558",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE10",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -525,7 +563,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:20",
+		"aktualisierungsdatum": "2024-11-21T06:59:14",
 		"id": 12558
 	},
 	{
@@ -562,7 +600,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:07",
+		"aktualisierungsdatum": "2024-11-21T06:59:01",
 		"id": 12559
 	},
 	{
@@ -574,8 +612,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 833 367 Tonnen auf 618 128 Tonnen ab. Das entspricht einer Reduktion um 25% bzw. einem Rückgang von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2022 von 833 367 Tonnen auf 593 390 Tonnen ab. Das entspricht einer Reduktion um 29% bzw. einem Rückgang von 4,3 Tonnen auf 2,9 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres. Bis 2020 wurde der Anteil der Kategorie Nicht-Wohnen tendenziell überschätzt und jener der Kategorie Haushalte unterschätzt. Für 2022 erfolgte eine methodische Korrektur.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -599,7 +637,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:51",
+		"aktualisierungsdatum": "2024-11-21T06:58:43",
 		"id": 12560
 	},
 	{
@@ -639,7 +677,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:48",
+		"aktualisierungsdatum": "2024-11-21T06:58:40",
 		"id": 12716
 	},
 	{
@@ -715,7 +753,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:00",
+		"aktualisierungsdatum": "2024-11-21T06:58:52",
 		"id": 8880
 	},
 	{
@@ -752,7 +790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:16",
+		"aktualisierungsdatum": "2024-11-21T06:59:10",
 		"id": 8881
 	},
 	{
@@ -789,7 +827,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:51",
+		"aktualisierungsdatum": "2024-11-21T06:57:42",
 		"id": 8882
 	},
 	{
@@ -839,7 +877,7 @@ var indikatorensetData = [
 		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Geburtenziffer liegt 2023 bei 9,1 Lebendgeborenen und die Sterbeziffer bei 10,0 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
-		"erlaeuterungen": "Die Geburtenziffer bezeichnet die Anzahl Lebendgeborene pro 1000 Einwohner der mittleren Wohnbevölkerung, die Sterbeziffer die Anzahl Gestorbene pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -863,7 +901,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:56",
+		"aktualisierungsdatum": "2024-11-21T06:57:47",
 		"id": 8886
 	},
 	{
@@ -900,7 +938,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:58",
+		"aktualisierungsdatum": "2024-11-21T06:57:49",
 		"id": 8887
 	},
 	{
@@ -1011,7 +1049,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:11",
+		"aktualisierungsdatum": "2024-11-21T06:59:05",
 		"id": 8890
 	},
 	{
@@ -1023,7 +1061,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2021 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2022 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -1034,9 +1072,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"thema": "04 Volkswirtschaft",
+		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Volkseinkommen",
-		"kuerzel": "I.04.1.08891",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "SH2",
 		"stufe1": "Bereich Staatliches Handeln",
@@ -1048,7 +1086,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:12",
+		"aktualisierungsdatum": "2024-11-21T06:59:06",
 		"id": 8891
 	},
 	{
@@ -1085,7 +1123,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:14",
+		"aktualisierungsdatum": "2024-11-21T06:59:07",
 		"id": 8892
 	},
 	{
@@ -1122,7 +1160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:03",
+		"aktualisierungsdatum": "2024-11-21T06:57:53",
 		"id": 8893
 	},
 	{
@@ -1159,7 +1197,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:12",
+		"aktualisierungsdatum": "2024-11-21T06:58:05",
 		"id": 8896
 	},
 	{
@@ -1171,7 +1209,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2022 liegen bei 85,3 Jahren (Frauen) und 80,3 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2023 liegen bei 85,0 Jahren für Frauen und 80,4 Jahren für Männer.",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -1184,7 +1222,7 @@ var indikatorensetData = [
 		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
-		"kuerzel": "I.14.3.08897",
+		"kuerzel": "I.14.ARVF.08897",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW2",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -1196,7 +1234,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:15",
+		"aktualisierungsdatum": "2024-11-21T06:58:07",
 		"id": 8897
 	},
 	{
@@ -1221,7 +1259,7 @@ var indikatorensetData = [
 		"description": "Empfundene gesundheitliche Verfassung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.08898",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW3",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -1233,7 +1271,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:20",
+		"aktualisierungsdatum": "2024-11-21T06:58:13",
 		"id": 8898
 	},
 	{
@@ -1308,7 +1346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:22",
+		"aktualisierungsdatum": "2024-11-21T06:58:20",
 		"id": 8900
 	},
 	{
@@ -1320,7 +1358,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2022 5,3% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2021.",
+		"lesehilfe": "In der Stadt Basel bezogen 2023 5,1% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,2 Prozentpunkte weniger als 2022. Der Mittelwert der Sozialhilfequoten der Vergleichstädte liegt 2023 bei 5,6%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -1345,7 +1383,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:23",
+		"aktualisierungsdatum": "2024-11-21T06:58:21",
 		"id": 8901
 	},
 	{
@@ -1384,7 +1422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:25",
+		"aktualisierungsdatum": "2024-11-21T06:58:22",
 		"id": 8902
 	},
 	{
@@ -1421,7 +1459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:26",
+		"aktualisierungsdatum": "2024-11-21T06:58:23",
 		"id": 8903
 	},
 	{
@@ -1447,7 +1485,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.08904",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW9",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -1459,7 +1497,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:27",
+		"aktualisierungsdatum": "2024-11-21T06:58:24",
 		"id": 8904
 	},
 	{
@@ -1496,7 +1534,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:04",
+		"aktualisierungsdatum": "2024-11-21T06:57:54",
 		"id": 8905
 	},
 	{
@@ -1533,7 +1571,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:05",
+		"aktualisierungsdatum": "2024-11-21T06:57:55",
 		"id": 8906
 	},
 	{
@@ -1545,7 +1583,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2022 auf 1,2% gestiegen.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2015 mit 0,3% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und sinkt ab 2023 wieder. Aktuell liegt die Quote bei 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -1558,19 +1596,19 @@ var indikatorensetData = [
 		"description": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.08909",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
-		"kuerzelKunde": "GW16",
+		"kuerzelKunde": "GW15",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_07_00_00_00_317",
+		"orderKey": "03_06_00_00_00_315",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:29",
+		"aktualisierungsdatum": "2024-11-21T06:58:01",
 		"id": 8909
 	},
 	{
@@ -1608,7 +1646,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:10",
+		"aktualisierungsdatum": "2024-11-21T06:58:02",
 		"id": 8910
 	},
 	{
@@ -1697,7 +1735,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Das Total der Bauausgaben ist 2022 gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben mit 57,5% höher als im Vorjahr (50,3%). Er liegt somit wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"lesehilfe": "Die Ausgaben für Umbau und Unterhalt sind 2023 stärker gestiegen als das Total der Bauausgaben. Dadurch ist der Anteil der Ausgaben für Umbau und Unterhalt am Total der Bauausgaben mit 65,4% höher als im Vorjahr (61,6%). Er übertraf auch den bisherigen Höchstwert von 2011 (63,0%).",
 		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -1710,7 +1748,7 @@ var indikatorensetData = [
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kuerzel": "I.09.1.08913",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW22",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -1722,7 +1760,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:19",
+		"aktualisierungsdatum": "2024-11-21T06:58:12",
 		"id": 8913
 	},
 	{
@@ -1762,7 +1800,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:47",
+		"aktualisierungsdatum": "2024-11-21T06:58:39",
 		"id": 8914
 	},
 	{
@@ -1811,7 +1849,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 25,6% im Jahr 2022 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,8% im Jahr 2010 auf 25,4% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1836,7 +1874,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:04",
+		"aktualisierungsdatum": "2024-11-21T06:58:57",
 		"id": 8916
 	},
 	{
@@ -1848,7 +1886,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2023 von 194 auf 149 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39,5%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -1873,7 +1911,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:05",
+		"aktualisierungsdatum": "2024-11-21T06:58:58",
 		"id": 8917
 	},
 	{
@@ -1936,7 +1974,7 @@ var indikatorensetData = [
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kuerzel": "I.09.1.08919",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "NL6",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
@@ -1948,7 +1986,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:06",
+		"aktualisierungsdatum": "2024-11-21T06:59:00",
 		"id": 8919
 	},
 	{
@@ -1985,7 +2023,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:17",
+		"aktualisierungsdatum": "2024-11-21T06:58:10",
 		"id": 8920
 	},
 	{
@@ -2025,7 +2063,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:10",
+		"aktualisierungsdatum": "2024-11-21T06:59:03",
 		"id": 8921
 	},
 	{
@@ -2062,7 +2100,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:50",
+		"aktualisierungsdatum": "2024-11-21T06:58:42",
 		"id": 8922
 	},
 	{
@@ -2102,7 +2140,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:52",
+		"aktualisierungsdatum": "2024-11-21T06:58:44",
 		"id": 8923
 	},
 	{
@@ -2141,7 +2179,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:55",
+		"aktualisierungsdatum": "2024-11-21T06:58:47",
 		"id": 8924
 	},
 	{
@@ -2166,7 +2204,7 @@ var indikatorensetData = [
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.08925",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GZ1",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -2178,7 +2216,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:28",
+		"aktualisierungsdatum": "2024-11-21T06:58:25",
 		"id": 8925
 	},
 	{
@@ -2254,7 +2292,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:39",
+		"aktualisierungsdatum": "2024-11-21T06:58:33",
 		"id": 8927
 	},
 	{
@@ -2279,7 +2317,7 @@ var indikatorensetData = [
 		"description": "Lohnunterschied zwischen Frauen und Männern",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kuerzel": "I.03.3.08928",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GZ7",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -2291,7 +2329,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:42",
+		"aktualisierungsdatum": "2024-11-21T06:58:35",
 		"id": 8928
 	},
 	{
@@ -2302,7 +2340,7 @@ var indikatorensetData = [
 		"parentId": "6039",
 		"children": [],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2022/23, Basel-Stadt",
+		"subtitle": "im Schuljahr 2023/24, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -2328,7 +2366,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:08",
+		"aktualisierungsdatum": "2024-11-21T06:57:58",
 		"id": 8929
 	},
 	{
@@ -2365,7 +2403,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:29",
+		"aktualisierungsdatum": "2024-11-21T06:58:26",
 		"id": 8930
 	},
 	{
@@ -2441,7 +2479,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-22T09:39:36",
+		"aktualisierungsdatum": "2024-11-21T06:58:28",
 		"id": 8932
 	},
 	{
@@ -2517,7 +2555,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:18",
+		"aktualisierungsdatum": "2024-11-21T06:59:12",
 		"id": 8934
 	},
 	{
@@ -2529,7 +2567,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2542,7 +2580,7 @@ var indikatorensetData = [
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.08935",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE7",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -2554,7 +2592,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:37",
+		"aktualisierungsdatum": "2024-11-21T06:59:30",
 		"id": 8935
 	},
 	{
@@ -2591,7 +2629,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:36",
+		"aktualisierungsdatum": "2024-11-21T06:59:29",
 		"id": 8936
 	},
 	{
@@ -2628,7 +2666,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:34",
+		"aktualisierungsdatum": "2024-11-21T06:59:28",
 		"id": 8938
 	},
 	{
@@ -2665,7 +2703,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:32",
+		"aktualisierungsdatum": "2024-11-21T06:59:25",
 		"id": 8939
 	},
 	{
@@ -2705,7 +2743,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:39",
+		"aktualisierungsdatum": "2024-11-21T06:59:33",
 		"id": 8940
 	},
 	{
@@ -2743,7 +2781,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:21",
+		"aktualisierungsdatum": "2024-11-21T06:59:15",
 		"id": 8941
 	},
 	{
@@ -2780,7 +2818,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:22",
+		"aktualisierungsdatum": "2024-11-21T06:59:16",
 		"id": 8942
 	},
 	{
@@ -2817,7 +2855,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:24",
+		"aktualisierungsdatum": "2024-11-21T06:59:17",
 		"id": 8943
 	},
 	{
@@ -2855,7 +2893,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:26",
+		"aktualisierungsdatum": "2024-11-21T06:59:20",
 		"id": 8944
 	},
 	{
@@ -2893,7 +2931,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:28",
+		"aktualisierungsdatum": "2024-11-21T06:59:21",
 		"id": 8945
 	},
 	{
@@ -2930,7 +2968,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:57",
+		"aktualisierungsdatum": "2024-11-21T06:58:49",
 		"id": 8946
 	},
 	{
@@ -2942,7 +2980,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2022 bei den Männern 40% (95% Vertrauensintervall: 35% - 45%) und bei den Frauen 26% (95%-Vertrauensintervall: 21% - 30%).",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2023 bei den Männern 38% (95% Vertrauensintervall: 32% - 43%) und bei den Frauen 23% (95%-Vertrauensintervall: 19% - 27%).",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Das Vertrauensintervall (schwarzer Fehlerbalken) kann als Bereich interpretiert werden, in welchem der wahre Wert mit einer Wahrscheinlichkeit von 95% liegt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -2955,7 +2993,7 @@ var indikatorensetData = [
 		"description": "Arbeitnehmende in Leitungsfunktionen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kuerzel": "I.03.1.08947",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GZ8",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -2967,7 +3005,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:44",
+		"aktualisierungsdatum": "2024-11-21T06:58:37",
 		"id": 8947
 	},
 	{
@@ -3007,7 +3045,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:59",
+		"aktualisierungsdatum": "2024-11-21T06:58:50",
 		"id": 8948
 	},
 	{
@@ -3081,7 +3119,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:53",
+		"aktualisierungsdatum": "2024-11-21T06:57:43",
 		"id": 8951
 	},
 	{
@@ -3118,7 +3156,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:54",
+		"aktualisierungsdatum": "2024-11-21T06:57:45",
 		"id": 8952
 	},
 	{
@@ -3155,7 +3193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:55",
+		"aktualisierungsdatum": "2024-11-21T06:57:46",
 		"id": 8953
 	},
 	{
@@ -3194,7 +3232,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:42:59",
+		"aktualisierungsdatum": "2024-11-21T06:57:50",
 		"id": 8954
 	},
 	{
@@ -3231,7 +3269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:15",
+		"aktualisierungsdatum": "2024-11-21T06:59:09",
 		"id": 8955
 	},
 	{
@@ -3256,7 +3294,7 @@ var indikatorensetData = [
 		"description": "Zufriedenheit mit dem Kulturangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.08956",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "GW14",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -3268,7 +3306,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:09",
+		"aktualisierungsdatum": "2024-11-21T06:57:59",
 		"id": 8956
 	},
 	{
@@ -3305,7 +3343,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:16",
+		"aktualisierungsdatum": "2024-11-21T06:58:09",
 		"id": 8957
 	},
 	{
@@ -3347,7 +3385,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:56",
+		"aktualisierungsdatum": "2024-11-21T06:58:48",
 		"id": 8958
 	},
 	{
@@ -3384,7 +3422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:36",
+		"aktualisierungsdatum": "2024-11-21T06:58:31",
 		"id": 8959
 	},
 	{
@@ -3421,7 +3459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-22T09:39:38",
+		"aktualisierungsdatum": "2024-11-21T06:58:38",
 		"id": 8960
 	},
 	{
@@ -3446,7 +3484,7 @@ var indikatorensetData = [
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
-		"kuerzel": "I.03.6.08961",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE17",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -3458,7 +3496,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:29",
+		"aktualisierungsdatum": "2024-11-21T06:59:23",
 		"id": 8961
 	},
 	{
@@ -3495,7 +3533,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:41",
+		"aktualisierungsdatum": "2024-11-21T06:58:34",
 		"id": 8962
 	},
 	{
@@ -3532,7 +3570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:44:25",
+		"aktualisierungsdatum": "2024-11-21T06:59:18",
 		"id": 8963
 	},
 	{
@@ -3606,7 +3644,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-30T09:43:13",
+		"aktualisierungsdatum": "2024-11-21T06:58:06",
 		"id": 8965
 	}
 ];

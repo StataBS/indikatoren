@@ -118,14 +118,14 @@ var indikatorensetData = [
 	{
 		"template": "template001",
 		"data-id": 11902,
-		"chart-id": 11902,
+		"chart-id": 9614,
 		"filter": "",
-		"parentId": null,
+		"parentId": "9614",
 		"children": [],
-		"title": "Neue erneuerbare Energien",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wurden auf dem Kantonsgebiet Basel-Stadt 804,7 GWh an erneuerbaren Energien produziert. Der Grossteil davon in Kehrichtverbrennungs- und Abwasserreinigungsanlagen (361,7 GWh) sowie durch die thermische Nutzung von Holz (323,5 GWh)",
-		"erlaeuterungen": "Jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen. Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
+		"title": "Bruttoenergieverbrauch erneuerbare Energieträger",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2022 von 741 GWh auf 1 074 GWh zugenommen, was einem Plus von 45% entspricht. Eine starke Zunahme ist beim Holz mit 130% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 057%), der Umweltwärme (+152%) und der thermischen Solarenergie (+191%) zu beobachten, die 2022 zusammen einen Anteil von 9,1% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
+		"erlaeuterungen": "Dieser Indikator zeigt den Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton gewonnen wurden. Der Import von erneuerbaren Energien in den Kanton, insbesondere der ausserkantonale Bezug von Elektrizität, bleibt folglich unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -134,9 +134,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Neue erneuerbare Energien",
+		"description": "Bruttoenergieverbrauch erneuerbare Energieträger",
 		"thema": "08 Energie",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 2-2",
@@ -149,7 +149,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:16",
+		"aktualisierungsdatum": "2024-11-21T06:59:11",
 		"id": 11902
 	},
 	{

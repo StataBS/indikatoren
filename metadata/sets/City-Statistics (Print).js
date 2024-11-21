@@ -600,7 +600,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hotelübernachtungen",
 		"subtitle": "pro Einwohner, 2021",
-		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als im Jahr 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -613,7 +613,7 @@ var indikatorensetData = [
 		"description": "Hotelübernachtungen",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kuerzel": "I.10.1.08114",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics (Print)",
 		"kuerzelKunde": "5.2",
 		"stufe1": "5. Verkehr und Tourismus",
@@ -625,7 +625,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:24",
+		"aktualisierungsdatum": "2024-11-21T06:57:40",
 		"id": 8114
 	},
 	{

@@ -5,15 +5,19 @@
       "data": [
         [
           "2011",
-          248
+          238
         ],
         [
           "2015",
-          220
+          233
         ],
         [
           "2019",
-          183
+          187
+        ],
+        [
+          "2023",
+          176
         ]
       ],
       "name": "Sehr seniorenfreundlich",
@@ -24,15 +28,19 @@
       "data": [
         [
           "2011",
-          874
+          888
         ],
         [
           "2015",
-          782
+          777
         ],
         [
           "2019",
-          796
+          797
+        ],
+        [
+          "2023",
+          643
         ]
       ],
       "name": "Eher seniorenfreundlich",
@@ -43,15 +51,19 @@
       "data": [
         [
           "2011",
-          291
+          282
         ],
         [
           "2015",
-          228
+          215
         ],
         [
           "2019",
-          229
+          225
+        ],
+        [
+          "2023",
+          189
         ]
       ],
       "name": "Eher weniger seniorenfreundlich",
@@ -62,18 +74,68 @@
       "data": [
         [
           "2011",
-          26
+          28
         ],
         [
           "2015",
-          36
+          32
         ],
         [
           "2019",
-          27
+          29
+        ],
+        [
+          "2023",
+          21
         ]
       ],
       "name": "Gar nicht seniorenfreundlich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2023",
+          296
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2011",
+          252
+        ],
+        [
+          "2015",
+          170
+        ],
+        [
+          "2019",
+          171
+        ],
+        [
+          "2023",
+          28
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -219,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2024"
   },
   "legend": {
     "layout": "horizontal",
