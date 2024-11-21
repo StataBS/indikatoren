@@ -15,7 +15,7 @@
 		},
 		"xAxis": {
 			tickPositioner: function () {
-				var interval = 5,
+				var interval = 3,
 					ext = this.getExtremes(),
 					i = ext.dataMax,
 					pos = [i];

@@ -870,44 +870,6 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
-		"data-id": 11902,
-		"chart-id": 11902,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Neue erneuerbare Energien",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wurden auf dem Kantonsgebiet Basel-Stadt 804,7 GWh an erneuerbaren Energien produziert. Der Grossteil davon in Kehrichtverbrennungs- und Abwasserreinigungsanlagen (361,7 GWh) sowie durch die thermische Nutzung von Holz (323,5 GWh)",
-		"erlaeuterungen": "Jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen. Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Neue erneuerbare Energien",
-		"thema": "08 Energie",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "ST 2-2",
-		"stufe1": "Querschnittsthemen",
-		"stufe2": "Strategie 2: Das Klima schützen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_002",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:16",
-		"id": 11902
-	},
-	{
-		"template": "template001",
 		"data-id": 11907,
 		"chart-id": 11907,
 		"filter": "",
@@ -2944,18 +2906,18 @@ var indikatoren = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.2956",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "2.11",
+		"kuerzelKunde": "2.10",
 		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_00_00_00_00_011",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-15T09:04:19",
+		"aktualisierungsdatum": "2024-11-21T06:57:36",
 		"id": 2956
 	},
 	{
@@ -9598,18 +9560,18 @@ var indikatoren = [
 		"unterthema": "Jugendbefragung",
 		"kuerzel": "I.50.3.4850",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzelKunde": "1.1.05",
+		"kuerzelKunde": "1.1.04",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_015",
+		"orderKey": "01_01_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-08T08:13:23",
+		"aktualisierungsdatum": "2024-11-21T06:57:33",
 		"id": 4850
 	},
 	{
@@ -25552,7 +25514,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<br>Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
+		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
 		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -25578,7 +25540,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-23T03:40:53",
+		"aktualisierungsdatum": "2024-11-21T06:57:30",
 		"id": 7515
 	},
 	{
@@ -29502,8 +29464,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Im September 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen und Bettingen. Nur im Wohnviertel Bachletten ging sie zurück.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Im Oktober 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen. Nur in den Wohnvierteln Bruderholz und Hirzbrunnen sowie in der Gemeinde Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29530,7 +29492,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-23T03:40:54",
+		"aktualisierungsdatum": "2024-11-21T06:57:32",
 		"id": 7763
 	},
 	{
@@ -36451,8 +36413,8 @@ var indikatoren = [
 		],
 		"title": "Zufriedenheit mit der Seniorenfreundlichkeit im Kanton Basel-Stadt",
 		"subtitle": "«Wie seniorenfreundlich empfinden Sie den Kanton Basel-Stadt?», Basel-Stadt",
-		"lesehilfe": "14,8% der 2019 befragten Personen ab 55 Jahren empfinden den Kanton Basel-Stadt als sehr seniorenfreundlich, 64,5% als eher seniorenfreundlich. Mit 20,7% liegt der Anteil der Befragten, welcher den Kanton als eher weniger oder gar nicht seniorenfreundlich empfindet, bei einem Fünftel. Gegenüber 2015 blieb dieser Anteil konstant.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"lesehilfe": "13% der Personen ab 55 Jahren empfinden den Kanton Basel-Stadt als sehr seniorenfreundlich, 48% als eher seniorenfreundlich. Der Anteil derjenigen, welche den Kanton als eher weniger oder gar nicht seniorenfreundlich empfinden, liegt bei 16%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Da die Antwortoptionen bei der jüngsten Durchführung erweitert wurden (neu: «Weiss nicht»), lassen sich die Resultate über die Jahre nicht ohne Weiteres vergleichen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
@@ -36477,7 +36439,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:55",
+		"aktualisierungsdatum": "2024-11-21T06:57:39",
 		"id": 9377
 	},
 	{
@@ -39232,7 +39194,7 @@ var indikatoren = [
 		],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt um einen Franken zu erwirtschaften und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -39261,7 +39223,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:23",
+		"aktualisierungsdatum": "2024-11-21T06:58:55",
 		"id": 9736
 	},
 	{

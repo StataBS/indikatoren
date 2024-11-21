@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"description": "Zusammensetzung des Freundeskreises",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kuerzel": "I.50.3.08389",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
 		"kuerzelKunde": "1.1.05",
 		"stufe1": "1 Soziale Beziehungen",
@@ -345,7 +345,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-08T08:13:24",
+		"aktualisierungsdatum": "2024-11-21T06:57:35",
 		"id": 8389
 	},
 	{

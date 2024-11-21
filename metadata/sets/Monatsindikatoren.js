@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<br>Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
+		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
 		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-23T03:40:53",
+		"aktualisierungsdatum": "2024-11-21T06:57:30",
 		"id": 7515
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Im September 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen und Bettingen. Nur im Wohnviertel Bachletten ging sie zurück.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Im Oktober 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen. Nur in den Wohnvierteln Bruderholz und Hirzbrunnen sowie in der Gemeinde Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-23T03:40:54",
+		"aktualisierungsdatum": "2024-11-21T06:57:32",
 		"id": 7763
 	},
 	{

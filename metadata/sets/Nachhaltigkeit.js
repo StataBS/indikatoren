@@ -2883,7 +2883,7 @@ var indikatorensetData = [
 		],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt um einen Franken zu erwirtschaften und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -2911,7 +2911,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:23",
+		"aktualisierungsdatum": "2024-11-21T06:58:55",
 		"id": 9736
 	},
 	{

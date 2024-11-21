@@ -105,6 +105,9 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 5,
+      labelFormatter: function () {
+        return this.name.replace('Ökologischer', 'Ökolog.');
+      },
       //"x": 1,
       //"y": 55,
       //"itemWidth": 500,

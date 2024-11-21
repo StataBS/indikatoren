@@ -1,256 +1,268 @@
 {
   "series": [
     {
-      "color": "#007a00",
+      "color": "#D3E2E4",
       "data": [
         [
-          1995,
-          21.47
+          "2010",
+          7.35138
         ],
         [
-          2000,
-          22.14
+          "2012",
+          7.50696
         ],
         [
-          2002,
-          21.83
+          "2014",
+          7.51254
         ],
         [
-          2004,
-          20.78
+          "2016",
+          31.0744
         ],
         [
-          2006,
-          22.67
-        ],
-        [
-          2010,
-          147.04
-        ],
-        [
-          2012,
-          149.01
-        ],
-        [
-          2014,
-          176.55
-        ],
-        [
-          2016,
-          210.69
-        ],
-        [
-          2018,
-          198.47
-        ],
-        [
-          2020,
-          323.45
-        ]
-      ],
-      "name": "Holz"
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          1995,
-          11.75
-        ],
-        [
-          2000,
-          15.39
-        ],
-        [
-          2002,
-          18.69
-        ],
-        [
-          2004,
-          17.11
-        ],
-        [
-          2006,
-          17.36
-        ],
-        [
-          2010,
-          15.01
-        ],
-        [
-          2012,
-          20.4
-        ],
-        [
-          2014,
-          26.16
-        ],
-        [
-          2016,
-          36.37
-        ],
-        [
-          2018,
-          36.27
-        ],
-        [
-          2020,
-          45.03
-        ]
-      ],
-      "name": "Umweltwärme"
-    },
-    {
-      "color": "#ffda80",
-      "data": [
-        [
-          1995,
-          0.44
-        ],
-        [
-          2000,
-          2.19
-        ],
-        [
-          2002,
-          3.31
-        ],
-        [
-          2004,
-          3.83
-        ],
-        [
-          2006,
-          5.14
-        ],
-        [
-          2010,
-          10.57
-        ],
-        [
-          2012,
-          15.28
-        ],
-        [
-          2014,
-          24.96
-        ],
-        [
-          2016,
-          35.57
-        ],
-        [
-          2018,
-          42.78
-        ],
-        [
-          2020,
-          46.97
-        ]
-      ],
-      "name": "Sonnenenergie"
-    },
-    {
-      "color": "#d8b43f",
-      "data": [
-        [
-          1995,
-          189.78
-        ],
-        [
-          2000,
-          195.81
-        ],
-        [
-          2002,
-          198.11
-        ],
-        [
-          2004,
-          198.47
-        ],
-        [
-          2006,
-          227.86
-        ],
-        [
-          2010,
-          350.62
-        ],
-        [
-          2012,
-          365.71
-        ],
-        [
-          2014,
-          372.01
-        ],
-        [
-          2016,
-          377.48
-        ],
-        [
-          2018,
-          380.38
-        ],
-        [
-          2020,
-          361.7
-        ]
-      ],
-      "name": "Kehricht und Klärschlamm"
-    },
-    {
-      "color": "#68ab2b",
-      "data": [
-        [
-          1995,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2010,
-          6.96
-        ],
-        [
-          2012,
-          7.08
-        ],
-        [
-          2014,
-          7.05
-        ],
-        [
-          2016,
-          30.6
-        ],
-        [
-          2018,
+          "2018",
           34.01
         ],
         [
-          2020,
-          27.56
+          "2020",
+          27.559384
+        ],
+        [
+          "2022",
+          30.24
         ]
       ],
-      "name": "Deponie-, Klär-, Biogas"
+      "name": "Biogas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "2010",
+          350.623931
+        ],
+        [
+          "2012",
+          365.71107765
+        ],
+        [
+          "2014",
+          372.01287765
+        ],
+        [
+          "2016",
+          377.481412
+        ],
+        [
+          "2018",
+          380.375647
+        ],
+        [
+          "2020",
+          361.70347
+        ],
+        [
+          "2022",
+          362.592158
+        ]
+      ],
+      "name": "Kehricht und Klärschlamm (vollständig erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2010",
+          210.2
+        ],
+        [
+          "2012",
+          260.3
+        ],
+        [
+          "2014",
+          282.55
+        ],
+        [
+          "2016",
+          279.136815
+        ],
+        [
+          "2018",
+          251.1643
+        ],
+        [
+          "2020",
+          283
+        ],
+        [
+          "2022",
+          246
+        ]
+      ],
+      "name": "Wasserkraft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2F656B",
+      "data": [
+        [
+          "2010",
+          147.0414
+        ],
+        [
+          "2012",
+          149.580497
+        ],
+        [
+          "2014",
+          176.54832006
+        ],
+        [
+          "2016",
+          210.71802892
+        ],
+        [
+          "2018",
+          198.49612722
+        ],
+        [
+          "2020",
+          323.48253908
+        ],
+        [
+          "2022",
+          337.5573768
+        ]
+      ],
+      "name": "Holz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "data": [
+        [
+          "2010",
+          3.4
+        ],
+        [
+          "2012",
+          6
+        ],
+        [
+          "2014",
+          13.101795
+        ],
+        [
+          "2016",
+          20.858757
+        ],
+        [
+          "2018",
+          22.660303
+        ],
+        [
+          "2020",
+          26.104851
+        ],
+        [
+          "2022",
+          39.35076
+        ]
+      ],
+      "name": "Photovoltaik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "2010",
+          7.1650033
+        ],
+        [
+          "2012",
+          9.2759643
+        ],
+        [
+          "2014",
+          11.853544
+        ],
+        [
+          "2016",
+          14.71428493
+        ],
+        [
+          "2018",
+          20.12082614
+        ],
+        [
+          "2020",
+          20.8669364
+        ],
+        [
+          "2022",
+          20.8373534
+        ]
+      ],
+      "name": "Thermische Solarenergie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "2010",
+          15.012
+        ],
+        [
+          "2012",
+          20.4
+        ],
+        [
+          "2014",
+          26.156424
+        ],
+        [
+          "2016",
+          36.367959
+        ],
+        [
+          "2018",
+          36.273073
+        ],
+        [
+          "2020",
+          45.03035
+        ],
+        [
+          "2022",
+          37.859697
+        ]
+      ],
+      "name": "Umweltwärme",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -295,11 +307,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "stacking": "normal",
-      "borderWidth": 0
+      },
+      "stacking": "normal"
     }
   },
   "title": {
@@ -309,33 +318,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Neue erneuerbare Energien"
+    "text": "Bruttoenergieverbrauch erneuerbare Energieträger"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in GWh, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -352,10 +344,9 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0);
-        }
-    }
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": true
   },
   "legend": {
     "symbolRadius": 0,
@@ -365,8 +356,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "reversed": false
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -387,15 +377,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2024"
   },
   "tooltip": {
-    "shared": true,
-    "useHTML": true,
-    "followPointer": true,
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E\u003Ctable\u003E",
-    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:&nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
-    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E&nbsp;Total: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.1f} GWh\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "11902"
