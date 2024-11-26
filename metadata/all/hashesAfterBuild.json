@@ -447,13 +447,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
 	},
-	"4156": {
-		"metadata": "51651699b8b29c0b300fe55edd8b83dea3ba2b39",
-		"chartConfig": "601ab2e542e08bb47a06f2493a6c10dfb284f69b",
-		"data": "df52b992622356f26006d16db6281184748b144f",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
-	},
 	"4221": {
 		"metadata": "7e67eb8f86b6266d770f0cf15472789bf15235f2",
 		"chartConfig": "e048e0605b8245f5b5cd43fc0b140175249efe75",
@@ -1168,13 +1161,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
 	},
-	"4718": {
-		"metadata": "c9e51841e5e9820cc8146dab03f08ed10afd87ff",
-		"chartConfig": "00758d58ebf6c693a19ac0f86a18ab59b4d4e9db",
-		"data": "57eb72a01cf10f1a321bbdd73532292b4c892986",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
-	},
 	"4719": {
 		"metadata": "431ca9c2cbac96e01ccde441db01055e75386379",
 		"chartConfig": "c5313a7e4aadc7ee693d32bdbea8f092d23d9d50",
@@ -1487,13 +1473,6 @@
 		"metadata": "a335ae728cf6569ca6bb7a5b77016fe954731021",
 		"chartConfig": "2b14541d6188c0e18fb0efac8e5a0d96ba30de0a",
 		"data": "acd5640fbeaf5afffb4217b9b5b7238108559460",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
-	},
-	"4874": {
-		"metadata": "b9f64b9c1868251754be91ad243aeef252fb6563",
-		"chartConfig": "23ed4331bf332d59e0a81750a6f9b06f5caf3aa1",
-		"data": "87ff80ec4eb0f6c6a4079cb629b266a1263341d3",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
 	},
@@ -12386,13 +12365,6 @@
 		"metadata": "49173718ebf0f8067ba8fd0bff55a0f481d11559",
 		"chartConfig": "b358c3a9e62aca4825522706446cd5a365b2fa12",
 		"data": "e5bcf8b8e30d09372a159c26b98035d62c45aff1",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
-	},
-	"9378": {
-		"metadata": "f3b139a29683ecdad0167f2d316753ce7e648fb3",
-		"chartConfig": "33b1d88b719756c5af2b09645f10dc7ba9b150f8",
-		"data": "312447614ad928e3277168bb9f34e4bc3fe5658d",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8f9787d09eb8e1dc59c76d0570b7f6d6164964f1"
 	},

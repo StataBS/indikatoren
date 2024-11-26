@@ -41,47 +41,6 @@ var indikatorensetData = [
 		"id": 4716
 	},
 	{
-		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
-		"kuerzel": "I.50.4.4718",
-		"kuerzelKunde": "1.1.02",
-		"description": "Erhaltene materielle Hilfeleistungen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2019 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn. Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 4,1% der Befragten materielle Hilfeleistungen. 22% der Befragten gaben an, dass materielle Unterstützungen durch Arbeitskolleginnen oder -kollegen nicht möglich sind.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
-		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"8381"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4718,
-		"chart-id": 4718,
-		"filter": "",
-		"id": 4718
-	},
-	{
 		"template": "befragungen001",
 		"data-id": 4719,
 		"chart-id": 4719,
@@ -1274,47 +1233,6 @@ var indikatorensetData = [
 		"chart-id": 4872,
 		"filter": "",
 		"id": 4872
-	},
-	{
-		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
-		"kuerzel": "I.50.4.4874",
-		"kuerzelKunde": "3.3.06",
-		"description": "Politikinteresse der über 54-Jährigen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:19.1919",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 gaben 77,3% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Das sind fast gleich viele wie 2015.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_03_00_00_00_065",
-		"parentId": null,
-		"children": [
-			"8412"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4874,
-		"chart-id": 4874,
-		"filter": "",
-		"id": 4874
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
