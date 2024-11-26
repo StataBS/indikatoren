@@ -1046,43 +1046,6 @@ var indikatorensetData = [
 		"id": 4155
 	},
 	{
-		"template": "befragungen001",
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.04156",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.2.C",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_02_00_00_00_030",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:38",
-		"id": 4156
-	},
-	{
 		"template": "template001",
 		"data-id": 9292,
 		"chart-id": 4152,

@@ -69,7 +69,7 @@ id | visible | visibleInPortal | indikatorenset
 4153 | true | true | Wohnraumentwicklung
 4154 | true | true | Soziales
 4155 | true | true | Wohnraumentwicklung
-4156 | true | true | Wohnraumentwicklung
+4156 | false |  | Wohnraumentwicklung
 4200 | false |  | Integration-kompakt
 4203 | false |  | Integration-kompakt
 4211 | false |  | Cercle-Indicateurs
@@ -208,7 +208,7 @@ id | visible | visibleInPortal | indikatorenset
 4468 | false |  | Integration-kompakt
 4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
-4718 | true | true | Gesellschaftlicher-Zusammenhalt
+4718 | false |  | Gesellschaftlicher-Zusammenhalt
 4719 | true | false | Gesellschaftlicher-Zusammenhalt
 4720 | true | true | Gesellschaftlicher-Zusammenhalt
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -261,7 +261,7 @@ id | visible | visibleInPortal | indikatorenset
 4870 | false |  | Gesellschaftlicher-Zusammenhalt
 4871 | true | true | Gesellschaftlicher-Zusammenhalt
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
-4874 | true | true | Gesellschaftlicher-Zusammenhalt
+4874 | false |  | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
 4877 | false |  | Integration-kompakt
 4905 | false |  | Integration-kompakt
@@ -2082,7 +2082,7 @@ id | visible | visibleInPortal | indikatorenset
 9375 | true | true | Legislaturplan
 9376 | true | true | Legislaturplan
 9377 | true | true | Legislaturplan
-9378 | true | true | Legislaturplan
+9378 | false |  | Legislaturplan
 9379 | true | true | Legislaturplan
 9380 | true | true | Legislaturplan
 9381 | true | true | Legislaturplan

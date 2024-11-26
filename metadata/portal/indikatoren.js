@@ -4398,44 +4398,6 @@ var indikatoren = [
 		"id": 4155
 	},
 	{
-		"template": "befragungen001",
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.04156",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.2.C",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_02_00_00_00_030",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:38",
-		"id": 4156
-	},
-	{
 		"template": "template001",
 		"data-id": 4221,
 		"chart-id": 4221,
@@ -8554,48 +8516,6 @@ var indikatoren = [
 		"id": 4716
 	},
 	{
-		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
-		"kuerzel": "I.50.4.4718",
-		"kuerzelKunde": "1.1.02",
-		"description": "Erhaltene materielle Hilfeleistungen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2019 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn. Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 4,1% der Befragten materielle Hilfeleistungen. 22% der Befragten gaben an, dass materielle Unterstützungen durch Arbeitskolleginnen oder -kollegen nicht möglich sind.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
-		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"8381"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4718,
-		"chart-id": 4718,
-		"filter": "",
-		"id": 4718
-	},
-	{
 		"title": "Beurteilung des Wohnorts",
 		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt",
 		"kuerzel": "I.50.1.4720",
@@ -10459,48 +10379,6 @@ var indikatoren = [
 		"chart-id": 4872,
 		"filter": "",
 		"id": 4872
-	},
-	{
-		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
-		"kuerzel": "I.50.4.4874",
-		"kuerzelKunde": "3.3.06",
-		"description": "Politikinteresse der über 54-Jährigen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:19.1919",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 gaben 77,3% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Das sind fast gleich viele wie 2015.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_065",
-		"parentId": null,
-		"children": [
-			"8412"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4874,
-		"chart-id": 4874,
-		"filter": "",
-		"id": 4874
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -36441,46 +36319,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-11-21T06:57:39",
 		"id": 9377
-	},
-	{
-		"template": "befragungen001",
-		"data-id": 9378,
-		"chart-id": 9029,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9435
-		],
-		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.09378",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "2.10",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:37",
-		"id": 9378
 	},
 	{
 		"template": "template001",
