@@ -29,7 +29,8 @@
       { "color": "#C4AB91", "visible": true }, /* braun */
       { "color": "#67401E", "visible": true }, /* braun */
       { "color": "#73B97C", "visible": true }, /* grün */
-      { "color": "#007A2F", "visible": true } /* grün */
+      { "color": "#007A2F", "visible": true }, /* grün */
+      { "color": "#B375AB", "visible": true } /* purple */
     ],
     "legend": {
       "enabled": true,

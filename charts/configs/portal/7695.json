@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2013,
-          14.71
-        ],
-        [
           2014,
           15.63
         ],
@@ -42,6 +38,10 @@
         [
           2022,
           21.15
+        ],
+        [
+          2023,
+          27.59
         ]
       ],
       "name": "Schweiz"
@@ -49,10 +49,6 @@
     {
       "color": "#008ac3",
       "data": [
-        [
-          2013,
-          5
-        ],
         [
           2014,
           4.55
@@ -88,6 +84,10 @@
         [
           2022,
           34.18
+        ],
+        [
+          2023,
+          30.51
         ]
       ],
       "name": "Ausland"
@@ -95,10 +95,6 @@
     {
       "color": "#000",
       "data": [
-        [
-          2013,
-          9.46
-        ],
         [
           2014,
           9.21
@@ -134,6 +130,10 @@
         [
           2022,
           29.01
+        ],
+        [
+          2023,
+          29.06
         ]
       ],
       "name": "Total"
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -50,6 +50,14 @@
         [
           2020,
           38
+        ],
+        [
+          2021,
+          55
+        ],
+        [
+          2022,
+          40
         ]
       ],
       "name": "Messe"
@@ -105,6 +113,14 @@
         [
           2020,
           38
+        ],
+        [
+          2021,
+          22
+        ],
+        [
+          2022,
+          21
         ]
       ],
       "name": "Erlenmatt"
@@ -234,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

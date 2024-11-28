@@ -65,6 +65,14 @@
         [
           2019,
           637563
+        ],
+        [
+          2020,
+          507779
+        ],
+        [
+          2021,
+          722189
         ]
       ],
       "name": "Zugezogene Messe"
@@ -134,6 +142,14 @@
         [
           2019,
           -571334
+        ],
+        [
+          2020,
+          -717371
+        ],
+        [
+          2021,
+          -723283
         ]
       ],
       "name": "Weggezogene Messe"
@@ -203,6 +219,14 @@
         [
           2019,
           1259621
+        ],
+        [
+          2020,
+          1257193
+        ],
+        [
+          2021,
+          1082333
         ]
       ],
       "name": "Zugezogene Erlenmatt"
@@ -272,6 +296,14 @@
         [
           2019,
           -602830
+        ],
+        [
+          2020,
+          -678463
+        ],
+        [
+          2021,
+          -968414
         ]
       ],
       "name": "Weggezogene Erlenmatt"
@@ -350,6 +382,14 @@
         [
           2019,
           66229
+        ],
+        [
+          2020,
+          -209592
+        ],
+        [
+          2021,
+          -1094
         ]
       ],
       "name": "Saldo Messe"
@@ -432,6 +472,14 @@
         [
           2019,
           656791
+        ],
+        [
+          2020,
+          578730
+        ],
+        [
+          2021,
+          113919
         ]
       ],
       "name": "Saldo Erlenmatt"
@@ -513,7 +561,7 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": -750000,
+    "min": -1000000,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -564,7 +612,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
