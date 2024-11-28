@@ -4,10 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          "2013",
-          -44
-        ],
-        [
           "2014",
           -98
         ],
@@ -42,6 +38,10 @@
         [
           "2022",
           -104
+        ],
+        [
+          "2023",
+          -135
         ]
       ],
       "name": "Umzugssaldo Messe",
@@ -50,10 +50,6 @@
     {
       "color": "#b375ab",
       "data": [
-        [
-          "2013",
-          -68
-        ],
         [
           "2014",
           -79
@@ -89,6 +85,10 @@
         [
           "2022",
           -50
+        ],
+        [
+          "2023",
+          -21
         ]
       ],
       "name": "Umzugssaldo Erlenmatt",
@@ -226,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

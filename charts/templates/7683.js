@@ -57,8 +57,8 @@ global Highcharts
       "#73b97c",
       "#73b97c",
       "#73b97c",
-      "#007a2f",
       "#73b97c",
+      "#007a2f", //dunkelgrün für Rosental
       "#73b97c",
       "#73b97c",
       "#73b97c",

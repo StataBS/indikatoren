@@ -251,6 +251,34 @@
       ],
       "name": "2022",
       "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -67
+        ],
+        [
+          "Übrige Schweiz",
+          -1
+        ],
+        [
+          "Ausland",
+          351
+        ],
+        [
+          "Unbekannt",
+          -86
+        ],
+        [
+          "Total",
+          197
+        ]
+      ],
+      "name": "2023",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -388,7 +416,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.7.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

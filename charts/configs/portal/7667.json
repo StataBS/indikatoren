@@ -4,14 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2002,
-          30.2
-        ],
-        [
-          2003,
-          28.7
-        ],
-        [
           2004,
           28.5
         ],
@@ -82,6 +74,14 @@
         [
           2021,
           23.9
+        ],
+        [
+          2022,
+          24.4
+        ],
+        [
+          2023,
+          24.1
         ]
       ],
       "name": "Messe"
@@ -90,14 +90,6 @@
       "color": "#b375ab",
       "visible": true,
       "data": [
-        [
-          2002,
-          35.4
-        ],
-        [
-          2003,
-          34
-        ],
         [
           2004,
           29.6
@@ -169,6 +161,14 @@
         [
           2021,
           33
+        ],
+        [
+          2022,
+          34.2
+        ],
+        [
+          2023,
+          34.4
         ]
       ],
       "name": "Erlenmatt"
@@ -298,7 +298,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -5,100 +5,6 @@
       "data": [
         [
           "Forschung und Entwicklung",
-          1494
-        ],
-        [
-          "Erziehung, Unterricht",
-          517
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          572
-        ],
-        [
-          "Baunebengewerbe",
-          326
-        ],
-        [
-          "Grosshandel",
-          202
-        ],
-        [
-          "Gesundheitswesen",
-          48
-        ],
-        [
-          "Pharmazeutische Industrie",
-          212
-        ],
-        [
-          "Gastronomie",
-          181
-        ],
-        [
-          "Heime",
-          127
-        ],
-        [
-          "Sozialwesen (ohne Heime)",
-          118
-        ]
-      ],
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Forschung und Entwicklung",
-          1457
-        ],
-        [
-          "Erziehung, Unterricht",
-          649
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          490
-        ],
-        [
-          "Baunebengewerbe",
-          341
-        ],
-        [
-          "Grosshandel",
-          325
-        ],
-        [
-          "Gesundheitswesen",
-          224
-        ],
-        [
-          "Pharmazeutische Industrie",
-          217
-        ],
-        [
-          "Gastronomie",
-          172
-        ],
-        [
-          "Heime",
-          149
-        ],
-        [
-          "Sozialwesen (ohne Heime)",
-          118
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "Forschung und Entwicklung",
           1530
         ],
         [
@@ -106,39 +12,133 @@
           702
         ],
         [
-          "Sonst. wirtsch. DL",
-          420
-        ],
-        [
           "Baunebengewerbe",
           304
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          420
         ],
         [
           "Grosshandel",
           288
         ],
         [
-          "Gesundheitswesen",
-          243
-        ],
-        [
-          "Pharmazeutische Industrie",
-          212
-        ],
-        [
           "Gastronomie",
           165
         ],
         [
-          "Heime",
-          150
+          "Gesundheitswesen",
+          243
+        ],
+        [
+          "Öff. Verwaltung",
+          67
         ],
         [
           "Sozialwesen (ohne Heime)",
           131
+        ],
+        [
+          "Heime",
+          150
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1602
+        ],
+        [
+          "Erziehung, Unterricht",
+          981
+        ],
+        [
+          "Baunebengewerbe",
+          462
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          390
+        ],
+        [
+          "Grosshandel",
+          271
+        ],
+        [
+          "Gastronomie",
+          175
+        ],
+        [
+          "Gesundheitswesen",
+          224
+        ],
+        [
+          "Öff. Verwaltung",
+          69
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          141
+        ],
+        [
+          "Heime",
+          162
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1752
+        ],
+        [
+          "Erziehung, Unterricht",
+          959
+        ],
+        [
+          "Baunebengewerbe",
+          495
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          479
+        ],
+        [
+          "Grosshandel",
+          200
+        ],
+        [
+          "Gastronomie",
+          184
+        ],
+        [
+          "Gesundheitswesen",
+          171
+        ],
+        [
+          "Öff. Verwaltung",
+          162
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          153
+        ],
+        [
+          "Heime",
+          137
+        ]
+      ],
+      "name": "2022",
       "turboThreshold": 0
     }
   ],
@@ -270,7 +270,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

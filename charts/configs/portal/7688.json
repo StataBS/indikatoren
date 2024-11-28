@@ -4,14 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2011,
-          0.0315048768
-        ],
-        [
-          2012,
-          0.0301127205
-        ],
-        [
           2013,
           0.0315252792
         ],
@@ -42,6 +34,14 @@
         [
           2020,
           0.0212007014
+        ],
+        [
+          2021,
+          0.0230685667
+        ],
+        [
+          2022,
+          0.0235512286
         ]
       ],
       "name": "Messe"
@@ -50,14 +50,6 @@
       "color": "#b375ab",
       "visible": true,
       "data": [
-        [
-          2011,
-          0.0024636915
-        ],
-        [
-          2012,
-          0.0024875483
-        ],
         [
           2013,
           0.0045520121
@@ -89,6 +81,14 @@
         [
           2020,
           0.0060939083
+        ],
+        [
+          2021,
+          0.0062091294
+        ],
+        [
+          2022,
+          0.005939319
         ]
       ],
       "name": "Erlenmatt"
@@ -220,7 +220,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

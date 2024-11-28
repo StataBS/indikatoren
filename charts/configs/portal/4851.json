@@ -5,15 +5,19 @@
       "data": [
         [
           "2011",
-          674
+          648
         ],
         [
           "2015",
-          629
+          600
         ],
         [
           "2019",
-          617
+          595
+        ],
+        [
+          "2023",
+          545
         ]
       ],
       "name": "Sehr zufrieden",
@@ -24,15 +28,19 @@
       "data": [
         [
           "2011",
-          766
+          750
         ],
         [
           "2015",
-          623
+          617
         ],
         [
           "2019",
-          623
+          622
+        ],
+        [
+          "2023",
+          613
         ]
       ],
       "name": "Eher zufrieden",
@@ -43,15 +51,19 @@
       "data": [
         [
           "2011",
-          120
+          124
         ],
         [
           "2015",
-          97
+          100
         ],
         [
           "2019",
-          78
+          72
+        ],
+        [
+          "2023",
+          99
         ]
       ],
       "name": "Eher unzufrieden",
@@ -62,15 +74,19 @@
       "data": [
         [
           "2011",
-          18
+          14
         ],
         [
           "2015",
-          19
+          22
         ],
         [
           "2019",
-          22
+          24
+        ],
+        [
+          "2023",
+          15
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -81,15 +97,19 @@
       "data": [
         [
           "2011",
-          37
+          33
         ],
         [
           "2015",
-          16
+          21
         ],
         [
           "2019",
-          19
+          15
+        ],
+        [
+          "2023",
+          11
         ]
       ],
       "name": "Weiss nicht",
@@ -100,15 +120,19 @@
       "data": [
         [
           "2011",
-          74
+          48
         ],
         [
           "2015",
-          43
+          25
         ],
         [
           "2019",
-          51
+          39
+        ],
+        [
+          "2023",
+          24
         ]
       ],
       "name": "Keine Angabe",
@@ -191,7 +215,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit dem Austausch mit der Nachbarschaft"
+    "text": "Zufriedenheit mit Kontakten in der Nachbarschaft"
   },
   "subtitle": {
     "style": {
@@ -199,7 +223,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt"
+    "text": "«Wie zufrieden sind Sie mit Ihren Kontakten zu Nachbarinnen und Nachbarn am aktuellen Wohnort?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -257,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "legend": {
     "layout": "horizontal",
