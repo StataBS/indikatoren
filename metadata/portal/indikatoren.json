@@ -8446,7 +8446,7 @@
 		"children": [],
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 sind in Basel-Stadt rund 74 000 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 30 000 Personen sind Schweizer mit Migrationshintergrund. Fast 56 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas weniger als 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"lesehilfe": "2022 sind in Basel-Stadt rund 72 500 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 31 000 Personen sind Schweizer mit Migrationshintergrund. Fast 57 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas mehr als 50 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -8472,7 +8472,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:04",
+		"aktualisierungsdatum": "2024-11-29T09:06:20",
 		"id": 4462
 	},
 	{
@@ -8484,7 +8484,7 @@
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2021 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 34%.",
+		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2022 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 33%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -8497,7 +8497,7 @@
 		"description": "Zu Hause gesprochene Sprachen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.4463",
+		"kuerzel": "",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
@@ -8510,7 +8510,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:39",
+		"aktualisierungsdatum": "2024-11-29T09:06:21",
 		"id": 4463
 	},
 	{
@@ -34813,7 +34813,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:53",
+		"aktualisierungsdatum": "2024-11-29T09:06:22",
 		"id": 8995
 	},
 	{
@@ -34984,7 +34984,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:55",
+		"aktualisierungsdatum": "2024-11-29T09:06:23",
 		"id": 9022
 	},
 	{
@@ -35022,7 +35022,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:56",
+		"aktualisierungsdatum": "2024-11-29T09:06:23",
 		"id": 9023
 	},
 	{
