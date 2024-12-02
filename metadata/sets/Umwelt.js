@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:48",
+		"aktualisierungsdatum": "2024-12-02T11:33:57",
 		"id": 4221
 	},
 	{
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:45",
+		"aktualisierungsdatum": "2024-12-02T11:33:55",
 		"id": 4222
 	},
 	{
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:51",
+		"aktualisierungsdatum": "2024-12-02T11:33:59",
 		"id": 4223
 	},
 	{
@@ -126,7 +126,7 @@ var indikatorensetData = [
 		"title": "Eigenproduktion Strom",
 		"subtitle": "in Gigawattstunden",
 		"lesehilfe": "Die Eigenproduktion von Elektrizität hat von 2010 bis 2020 von 374 auf 477 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
-		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
+		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Hinweis Photovoltaik: Während ein Grossteil der durch Photovoltaik erzeugten Elektrizität ins Netz eingespeist wird, wird ein kleiner Teil direkt lokal verbraucht (Eigenverbrauch). Dieser Eigenverbrauch ist jedoch nur teilweise erfasst und bekannt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -153,7 +153,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:52",
+		"aktualisierungsdatum": "2024-12-02T11:34:01",
 		"id": 4224
 	},
 	{
@@ -166,7 +166,7 @@ var indikatorensetData = [
 		"title": "Energieimportabhängigkeit",
 		"subtitle": "in Prozent",
 		"lesehilfe": "Die Energieimportabhängigkeit hat seit 1995 kontinuiertlich von 86,4%  auf 66,4% abgenommen.",
-		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
+		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung. Hinweis: Die Energieproduktion aus der Kehrrichtverbrennung im Kanton Basel-Stadt wird als Eigenproduktion betrachtet. Es ist jedoch zu beachten, dass ein Grossteil der verwerteten Abfälle von ausserhalb des Kantons stammen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:54",
+		"aktualisierungsdatum": "2024-12-02T11:34:02",
 		"id": 4225
 	},
 	{
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:57",
+		"aktualisierungsdatum": "2024-12-02T11:34:05",
 		"id": 4226
 	},
 	{
@@ -274,7 +274,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:59",
+		"aktualisierungsdatum": "2024-12-02T11:34:07",
 		"id": 4227
 	},
 	{
@@ -314,7 +314,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:00",
+		"aktualisierungsdatum": "2024-12-02T11:34:08",
 		"id": 4228
 	},
 	{
@@ -327,7 +327,7 @@ var indikatorensetData = [
 		"title": "Energieeffizienz",
 		"subtitle": "in Indexwert (Basis 2000 = 100)",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"https://www.bs.ch/indikatoren-06-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"https://www.bs.ch/indikatoren-06-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
 		],
@@ -354,7 +354,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:02",
+		"aktualisierungsdatum": "2024-12-02T11:34:10",
 		"id": 4229
 	},
 	{
@@ -364,7 +364,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bruttoenergieverbrauch nach Energieträger",
+		"title": "Bruttoenergieverbrauch",
 		"subtitle": "in Gigawattstunden",
 		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 zurück auf 4 420 GWh im Jahr 2020. Am markantesten ist der Rückgang mit über 84% beim Heizöl.",
 		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
@@ -379,7 +379,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bruttoenergieverbrauch nach Energieträger",
+		"description": "Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.04230",
@@ -394,7 +394,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:47",
+		"aktualisierungsdatum": "2024-12-02T11:33:56",
 		"id": 4230
 	},
 	{
@@ -404,7 +404,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "AOX-Fracht Abwasser",
+		"title": "AOX Konzentration Abwasser",
 		"subtitle": "in Milligramm pro Liter",
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
@@ -419,7 +419,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "AOX-Fracht Abwasser",
+		"description": "AOX Konzentration Abwasser",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kuerzel": "I.02.19.04231",
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:17",
+		"aktualisierungsdatum": "2024-12-02T11:35:35",
 		"id": 4231
 	},
 	{
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:16",
+		"aktualisierungsdatum": "2024-12-02T11:35:33",
 		"id": 4232
 	},
 	{
@@ -514,7 +514,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:18",
+		"aktualisierungsdatum": "2024-12-02T11:35:37",
 		"id": 4233
 	},
 	{
@@ -553,7 +553,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:20",
+		"aktualisierungsdatum": "2024-12-02T11:35:39",
 		"id": 4234
 	},
 	{
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:21",
+		"aktualisierungsdatum": "2024-12-02T11:35:41",
 		"id": 4236
 	},
 	{
@@ -606,7 +606,7 @@ var indikatorensetData = [
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "in °C",
 		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
-		"erlaeuterungen": "Mittelwert der kantonalen Jahrestemperatur des Grundwassers berechnet aus Temperaturdaten von mehreren Messstellen.<br><br>Die Grundwassertemperatur wird an mehreren Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen.<br><br>Im Kanton Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen erfasst.",
+		"erlaeuterungen": "Mittelwert der kantonalen Jahrestemperatur des Grundwassers berechnet aus Temperaturdaten von mehreren Messstellen.<br><br>Die Grundwassertemperatur wird an mehreren Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen.<br><br>Im Kanton Basel-Stadt wird die Grundwassertemperatur an rund 80 Messstellen erfasst.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -633,7 +633,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:26",
+		"aktualisierungsdatum": "2024-12-02T11:35:46",
 		"id": 4237
 	},
 	{
@@ -670,7 +670,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:27",
+		"aktualisierungsdatum": "2024-12-02T11:35:48",
 		"id": 4238
 	},
 	{
@@ -711,7 +711,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:24",
+		"aktualisierungsdatum": "2024-12-02T11:35:44",
 		"id": 4240
 	},
 	{
@@ -752,7 +752,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:33",
+		"aktualisierungsdatum": "2024-12-02T11:35:55",
 		"id": 4241
 	},
 	{
@@ -793,7 +793,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:30",
+		"aktualisierungsdatum": "2024-12-02T11:35:51",
 		"id": 4243
 	},
 	{
@@ -832,7 +832,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:29",
+		"aktualisierungsdatum": "2024-12-02T11:35:49",
 		"id": 4244
 	},
 	{
@@ -872,7 +872,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:32",
+		"aktualisierungsdatum": "2024-12-02T11:35:53",
 		"id": 4245
 	},
 	{
@@ -912,7 +912,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:59",
+		"aktualisierungsdatum": "2024-12-02T11:35:14",
 		"id": 4246
 	},
 	{
@@ -994,7 +994,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:40",
+		"aktualisierungsdatum": "2024-12-02T11:33:50",
 		"id": 4249
 	},
 	{
@@ -1037,7 +1037,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:41",
+		"aktualisierungsdatum": "2024-12-02T11:33:51",
 		"id": 4250
 	},
 	{
@@ -1077,7 +1077,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:38",
+		"aktualisierungsdatum": "2024-12-02T11:33:48",
 		"id": 4252
 	},
 	{
@@ -1118,7 +1118,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:35",
+		"aktualisierungsdatum": "2024-12-02T11:33:45",
 		"id": 4253
 	},
 	{
@@ -1161,7 +1161,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:37",
+		"aktualisierungsdatum": "2024-12-02T11:33:46",
 		"id": 4254
 	},
 	{
@@ -1204,7 +1204,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:34",
+		"aktualisierungsdatum": "2024-12-02T11:33:43",
 		"id": 4255
 	},
 	{
@@ -1244,7 +1244,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:19",
+		"aktualisierungsdatum": "2024-12-02T11:33:27",
 		"id": 4257
 	},
 	{
@@ -1284,7 +1284,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:16",
+		"aktualisierungsdatum": "2024-12-02T11:33:24",
 		"id": 4258
 	},
 	{
@@ -1324,7 +1324,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:17",
+		"aktualisierungsdatum": "2024-12-02T11:33:25",
 		"id": 4259
 	},
 	{
@@ -1364,7 +1364,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:14",
+		"aktualisierungsdatum": "2024-12-02T11:33:23",
 		"id": 4260
 	},
 	{
@@ -1404,7 +1404,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:20",
+		"aktualisierungsdatum": "2024-12-02T11:33:28",
 		"id": 4261
 	},
 	{
@@ -1444,7 +1444,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:32",
+		"aktualisierungsdatum": "2024-12-02T11:33:41",
 		"id": 4262
 	},
 	{
@@ -1485,7 +1485,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:28",
+		"aktualisierungsdatum": "2024-12-02T11:33:37",
 		"id": 4263
 	},
 	{
@@ -1566,7 +1566,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:30",
+		"aktualisierungsdatum": "2024-12-02T11:33:39",
 		"id": 4265
 	},
 	{
@@ -1606,7 +1606,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:33",
+		"aktualisierungsdatum": "2024-12-02T11:34:44",
 		"id": 4266
 	},
 	{
@@ -1646,7 +1646,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:30",
+		"aktualisierungsdatum": "2024-12-02T11:34:41",
 		"id": 4267
 	},
 	{
@@ -1686,7 +1686,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:31",
+		"aktualisierungsdatum": "2024-12-02T11:34:43",
 		"id": 4268
 	},
 	{
@@ -1727,7 +1727,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:29",
+		"aktualisierungsdatum": "2024-12-02T11:34:39",
 		"id": 4269
 	},
 	{
@@ -1767,7 +1767,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:34",
+		"aktualisierungsdatum": "2024-12-02T11:34:47",
 		"id": 4270
 	},
 	{
@@ -1808,7 +1808,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:36",
+		"aktualisierungsdatum": "2024-12-02T11:34:48",
 		"id": 4272
 	},
 	{
@@ -1849,7 +1849,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:38",
+		"aktualisierungsdatum": "2024-12-02T11:34:50",
 		"id": 4273
 	},
 	{
@@ -1890,7 +1890,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:40",
+		"aktualisierungsdatum": "2024-12-02T11:34:52",
 		"id": 4274
 	},
 	{
@@ -1930,7 +1930,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:41",
+		"aktualisierungsdatum": "2024-12-02T11:34:54",
 		"id": 4275
 	},
 	{
@@ -1974,7 +1974,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:42",
+		"aktualisierungsdatum": "2024-12-02T11:34:56",
 		"id": 4276
 	},
 	{
@@ -2014,7 +2014,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:45",
+		"aktualisierungsdatum": "2024-12-02T11:34:59",
 		"id": 4277
 	},
 	{
@@ -2027,7 +2027,7 @@ var indikatorensetData = [
 		"title": "Feinstaub-Immissionen (PM10)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"https://www.bs.ch/indikatoren-11-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -2055,7 +2055,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:47",
+		"aktualisierungsdatum": "2024-12-02T11:35:01",
 		"id": 4278
 	},
 	{
@@ -2096,7 +2096,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:48",
+		"aktualisierungsdatum": "2024-12-02T11:35:03",
 		"id": 4279
 	},
 	{
@@ -2137,7 +2137,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:44",
+		"aktualisierungsdatum": "2024-12-02T11:34:58",
 		"id": 4280
 	},
 	{
@@ -2178,7 +2178,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:50",
+		"aktualisierungsdatum": "2024-12-02T11:35:05",
 		"id": 4281
 	},
 	{
@@ -2215,7 +2215,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:09",
+		"aktualisierungsdatum": "2024-12-02T11:35:24",
 		"id": 4283
 	},
 	{
@@ -2233,7 +2233,7 @@ var indikatorensetData = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung</a></a>",
+			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2255,7 +2255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:10",
+		"aktualisierungsdatum": "2024-12-02T11:35:26",
 		"id": 4284
 	},
 	{
@@ -2273,7 +2273,7 @@ var indikatorensetData = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Luftreinhalteplan beider Basel' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a></a>",
+			"<a href = 'Luftreinhalteplan beider Basel' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2295,7 +2295,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:05",
+		"aktualisierungsdatum": "2024-12-02T11:35:21",
 		"id": 4285
 	},
 	{
@@ -2313,7 +2313,7 @@ var indikatorensetData = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Waldschutz Schweiz' target = '_blank'><a href=http://www.wsl.ch/fe/walddynamik/waldschutz/index_DE?redir=1& target=_blank rel=nofollow>http://www.wsl.ch/fe/walddynamik/waldschutz/index_DE?redir=1&</a></a>",
+			"<a href = 'Waldschutz Schweiz' target = '_blank'><a href=https://waldschutz.wsl.ch/de/ target=_blank rel=nofollow>https://waldschutz.wsl.ch/de/</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2335,7 +2335,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:07",
+		"aktualisierungsdatum": "2024-12-02T11:35:22",
 		"id": 4287
 	},
 	{
@@ -2348,12 +2348,12 @@ var indikatorensetData = [
 		"title": "Waldreservate",
 		"subtitle": "in Prozent",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
+		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"https://www.bs.ch/indikatoren-15-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
 		"quellenangabe": [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald</a></a>",
+			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2375,7 +2375,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:11",
+		"aktualisierungsdatum": "2024-12-02T11:35:28",
 		"id": 4288
 	},
 	{
@@ -2393,7 +2393,7 @@ var indikatorensetData = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald</a></a>",
+			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2415,7 +2415,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:14",
+		"aktualisierungsdatum": "2024-12-02T11:35:32",
 		"id": 4290
 	},
 	{
@@ -2452,7 +2452,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:13",
+		"aktualisierungsdatum": "2024-12-02T11:35:30",
 		"id": 4291
 	},
 	{
@@ -2463,7 +2463,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
-		"subtitle": "in Kilogramm",
+		"subtitle": "in CO2-Äquivalent der Kältemittelmengen in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). In der Luft stabile Kältemittel weisen eine sehr hohe Verweildauer in der Atmosphäre auf und tragen deshalb wesentlich zum Treibhauseffekt bei. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten HFKW (synthetische Kältemittel, welche eine sehr hohe Verweildauer in der Atmosphäre aufweisen). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
@@ -2492,7 +2492,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:54",
+		"aktualisierungsdatum": "2024-12-02T11:35:08",
 		"id": 4292
 	},
 	{
@@ -2503,7 +2503,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
-		"subtitle": "in Kilogramm",
+		"subtitle": "in Kältemittelmenge in KIlogramm",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). Ozonabbauende Kältemittel tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten ozonabbauenden synthetischen Kältemittel (FCKW, HFCKW). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
@@ -2532,7 +2532,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:56",
+		"aktualisierungsdatum": "2024-12-02T11:35:10",
 		"id": 4293
 	},
 	{
@@ -2572,7 +2572,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:57",
+		"aktualisierungsdatum": "2024-12-02T11:35:12",
 		"id": 4294
 	},
 	{
@@ -2612,7 +2612,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:14",
+		"aktualisierungsdatum": "2024-12-02T11:34:22",
 		"id": 4298
 	},
 	{
@@ -2653,7 +2653,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:17",
+		"aktualisierungsdatum": "2024-12-02T11:34:25",
 		"id": 4299
 	},
 	{
@@ -2666,12 +2666,12 @@ var indikatorensetData = [
 		"title": "Hitzetage",
 		"subtitle": "in Anzahl Tage",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E), ausserhalb des Siedlungsgebiets. Aufgrund stadtklimatischer Klimaeffekte sind im Siedlungsgebiet deutlich mehr Hitzetage zu erwarten (siehe auch  Stadtklimaanalyse).",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht.<br><br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E), ausserhalb des Siedlungsgebiets. Das tägliche Maximum der Lufttemperatur wurde bis 1980 anhand von Maximum-Thermometern erfasst. Ab 1981 liegen Stundenmittel zugrunde und ab 2018 10-Minuten-Werte. <br>Aufgrund stadtklimatischer Klimaeffekte sind im Siedlungsgebiet deutlich mehr Hitzetage zu erwarten (siehe auch  Stadtklimaanalyse).",
 		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
+			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"<a href = 'Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt<br>' target = '_blank'><a href=http://www.klimabasel.ch/ target=_blank rel=nofollow>http://www.klimabasel.ch/</a><br><a href=https://www.statistik.bs.ch/dam/jcr:63db6934-99d1-4270-9a95-c7be92d0d041/t02-3-04.xlsx target=_blank rel=nofollow>https://www.statistik.bs.ch/dam/jcr:63db6934-99d1-4270-9a95-c7be92d0d041/t02-3-04.xlsx</a><br></a>",
+			"<a href = 'Stadtklimaanalyse<br>Stadtklimakonzept<br>Klimaanalyse Basel-Landschaft <br>Klimaindikatoren MeteoSchweiz<br>Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt' target = '_blank'><a href=https://www.klimaschutz.bs.ch/klimawandel/folgen-des-klimawandels/stadtklimaanalyse.html target=_blank rel=nofollow>https://www.klimaschutz.bs.ch/klimawandel/folgen-des-klimawandels/stadtklimaanalyse.html</a><br><a href=https://www.stadtklima.bs.ch/stadtklimakonzept.html target=_blank rel=nofollow>https://www.stadtklima.bs.ch/stadtklimakonzept.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klim</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -2693,7 +2693,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:10",
+		"aktualisierungsdatum": "2024-12-02T11:34:19",
 		"id": 4300
 	},
 	{
@@ -2734,7 +2734,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:12",
+		"aktualisierungsdatum": "2024-12-02T11:34:21",
 		"id": 4301
 	},
 	{
@@ -2775,7 +2775,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:15",
+		"aktualisierungsdatum": "2024-12-02T11:34:24",
 		"id": 4302
 	},
 	{
@@ -2816,7 +2816,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:23",
+		"aktualisierungsdatum": "2024-12-02T11:35:42",
 		"id": 4303
 	},
 	{
@@ -2856,7 +2856,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:22",
+		"aktualisierungsdatum": "2024-12-02T11:33:30",
 		"id": 4305
 	},
 	{
@@ -2897,7 +2897,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:24",
+		"aktualisierungsdatum": "2024-12-02T11:33:32",
 		"id": 4306
 	},
 	{
@@ -2936,7 +2936,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:27",
+		"aktualisierungsdatum": "2024-12-02T11:33:36",
 		"id": 4307
 	},
 	{
@@ -2977,7 +2977,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:25",
+		"aktualisierungsdatum": "2024-12-02T11:33:34",
 		"id": 4308
 	},
 	{
@@ -3017,7 +3017,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:26",
+		"aktualisierungsdatum": "2024-12-02T11:34:35",
 		"id": 4309
 	},
 	{
@@ -3057,7 +3057,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:27",
+		"aktualisierungsdatum": "2024-12-02T11:34:36",
 		"id": 4310
 	},
 	{
@@ -3097,7 +3097,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:24",
+		"aktualisierungsdatum": "2024-12-02T11:34:33",
 		"id": 4312
 	},
 	{
@@ -3138,7 +3138,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:06",
+		"aktualisierungsdatum": "2024-12-02T11:34:14",
 		"id": 4314
 	},
 	{
@@ -3177,7 +3177,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:08",
+		"aktualisierungsdatum": "2024-12-02T11:34:16",
 		"id": 4315
 	},
 	{
@@ -3218,7 +3218,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:09",
+		"aktualisierungsdatum": "2024-12-02T11:34:17",
 		"id": 4316
 	},
 	{
@@ -3236,7 +3236,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html</a><br><a href=http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html target=_blank rel=nofollow>http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html</a></a>",
+			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/thema/1 target=_blank rel=nofollow>https://statistik.bs.ch/thema/1</a><br><a href=https://statistik.bs.ch/unterthema/1 target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/1</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -3258,7 +3258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-19T08:16:48",
+		"aktualisierungsdatum": "2024-12-02T11:35:59",
 		"id": 4318
 	},
 	{
@@ -3298,7 +3298,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:40",
+		"aktualisierungsdatum": "2024-12-02T11:36:04",
 		"id": 4319
 	},
 	{
@@ -3339,7 +3339,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:37",
+		"aktualisierungsdatum": "2024-12-02T11:36:01",
 		"id": 4320
 	},
 	{
@@ -3379,7 +3379,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-10-10T07:46:48",
+		"aktualisierungsdatum": "2024-12-02T11:34:04",
 		"id": 4321
 	},
 	{
@@ -3419,7 +3419,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:03",
+		"aktualisierungsdatum": "2024-12-02T11:34:11",
 		"id": 4322
 	},
 	{
@@ -3459,7 +3459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:36",
+		"aktualisierungsdatum": "2024-12-02T11:35:58",
 		"id": 4323
 	},
 	{
@@ -3474,10 +3474,10 @@ var indikatorensetData = [
 		"lesehilfe": "In den letzten Jahren war eine Abnahme der Anzahl der verkehrsberechtigten Motorfahrzeuge und des Motorisierungsgrad zu beobachten. 2020 wurden erstmals seit fünf Jahren mehr Motorfahrzeuge verzeichnet. Trotzdem liegt der diesjährige Wert unter dem Mittel der letzten fünf Jahre.",
 		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohnern der mittleren Wohnbevölkerung.<br><br>Verkehrsberechtigte Fahrzeuge gemäss Register der Motorfahrzeugkontrolle (Stichdatum 30. September). Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Bundesamt für Strassen (ASTRA), Motorfahrzeugstatistik; Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html target=_blank rel=nofollow>http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html</a></a>",
+			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle target=_blank rel=nofollow>https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -3499,7 +3499,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:38",
+		"aktualisierungsdatum": "2024-12-02T11:36:02",
 		"id": 4325
 	},
 	{
@@ -3538,7 +3538,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:08",
+		"aktualisierungsdatum": "2024-12-02T11:33:16",
 		"id": 4330
 	},
 	{
@@ -3579,7 +3579,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:02",
+		"aktualisierungsdatum": "2024-12-02T11:33:10",
 		"id": 4331
 	},
 	{
@@ -3620,7 +3620,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:11",
+		"aktualisierungsdatum": "2024-12-02T11:33:19",
 		"id": 4332
 	},
 	{
@@ -3661,7 +3661,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:13",
+		"aktualisierungsdatum": "2024-12-02T11:33:21",
 		"id": 4333
 	},
 	{
@@ -3702,7 +3702,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:05",
+		"aktualisierungsdatum": "2024-12-02T11:33:13",
 		"id": 4334
 	},
 	{
@@ -3715,7 +3715,7 @@ var indikatorensetData = [
 		"title": "Deponierte Klärschlammasche",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -3739,7 +3739,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:10",
+		"aktualisierungsdatum": "2024-12-02T11:33:18",
 		"id": 4335
 	},
 	{
@@ -3752,7 +3752,7 @@ var indikatorensetData = [
 		"title": "Verbrennungsrückstände",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
@@ -3779,7 +3779,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:06",
+		"aktualisierungsdatum": "2024-12-02T11:33:15",
 		"id": 4336
 	},
 	{
@@ -3820,7 +3820,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:40:59",
+		"aktualisierungsdatum": "2024-12-02T11:33:09",
 		"id": 4337
 	},
 	{
@@ -3860,7 +3860,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:03",
+		"aktualisierungsdatum": "2024-12-02T11:33:12",
 		"id": 4338
 	},
 	{
@@ -3879,7 +3879,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"<a href = 'Nachhaltige Holznutzung' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wald-und-holz/wald-und-holz--daten--indikatoren-und-karten/wald-und-holz--indikatoren/indikator-wald-und-holz.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V0gwMDcmbG5nPWRl.html target=_blank rel=nofo</a>",
-			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung</a></a>",
+			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -3901,7 +3901,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:04",
+		"aktualisierungsdatum": "2024-12-02T11:35:19",
 		"id": 5797
 	},
 	{
@@ -3944,7 +3944,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:01",
+		"aktualisierungsdatum": "2024-12-02T11:35:16",
 		"id": 5798
 	},
 	{
@@ -3988,7 +3988,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:43",
+		"aktualisierungsdatum": "2024-12-02T11:33:53",
 		"id": 5799
 	},
 	{
@@ -4029,7 +4029,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:02",
+		"aktualisierungsdatum": "2024-12-02T11:35:17",
 		"id": 5800
 	},
 	{
@@ -4042,7 +4042,7 @@ var indikatorensetData = [
 		"title": "Feinstaub-Immissionen (PM2.5)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"https://www.bs.ch/indikatoren-11-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -4070,7 +4070,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:52",
+		"aktualisierungsdatum": "2024-12-02T11:35:06",
 		"id": 9507
 	},
 	{
@@ -4110,7 +4110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:05",
+		"aktualisierungsdatum": "2024-12-02T11:34:13",
 		"id": 9885
 	},
 	{
@@ -4150,7 +4150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:21",
+		"aktualisierungsdatum": "2024-12-02T11:34:30",
 		"id": 9886
 	},
 	{
@@ -4191,7 +4191,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:18",
+		"aktualisierungsdatum": "2024-12-02T11:34:27",
 		"id": 9887
 	},
 	{
@@ -4210,7 +4210,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"<a href = 'Indikator Tropennächte' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNjMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://ww</a>",
-			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten</a></a>",
+			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Tropennacht - MeteoSchweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html target=_blank rel=nofollow>https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blan</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -4232,7 +4232,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:23",
+		"aktualisierungsdatum": "2024-12-02T11:34:31",
 		"id": 9888
 	},
 	{
@@ -4272,7 +4272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:34",
+		"aktualisierungsdatum": "2024-12-02T11:35:56",
 		"id": 9889
 	},
 	{
@@ -4312,7 +4312,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:20",
+		"aktualisierungsdatum": "2024-12-02T11:34:28",
 		"id": 9891
 	}
 ];

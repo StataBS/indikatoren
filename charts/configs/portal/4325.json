@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-1704", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -187,10 +193,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 27,
+    "ceiling": 28,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -202,64 +209,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -391,7 +341,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+    "text": "Quelle: Bundesamt für Strassen (ASTRA), Motorfahrzeugstatistik; Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
     "href": false,
     "style": {
       "color": "#000000",
@@ -487,8 +437,9 @@
         81074,
         80588,
         81058,
-        81312,
-        80871
+        81817,
+        81409,
+        81801
       ],
       "visible": true
     },
@@ -530,8 +481,9 @@
         312.5,
         309.2,
         307.6,
-        307.1,
-        301.1
+        309.9,
+        302.1,
+        300
       ],
       "visible": true,
       "yAxis": 1

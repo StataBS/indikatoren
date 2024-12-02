@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-1514", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -172,10 +178,11 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021
     ],
     "floor": 0,
-    "ceiling": 12,
+    "ceiling": 13,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -187,64 +194,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -443,19 +393,20 @@
       "id": "BS1514_1",
       "valueSuffix": "Kilometer",
       "data": [
-        0.16,
-        0.287,
-        0.353,
-        0.467,
-        0.467,
-        0.707,
-        0.707,
-        0.747,
-        0.79,
-        0.79,
-        0.857,
-        0.89,
-        0.89
+        1.6,
+        2.87,
+        3.53,
+        4.67,
+        4.67,
+        7.07,
+        7.07,
+        7.47,
+        7.9,
+        7.9,
+        8.57,
+        8.9,
+        8.9,
+        8.9
       ],
       "visible": true
     },
@@ -469,19 +420,20 @@
       "id": "BS1514_2",
       "valueSuffix": "Kilometer",
       "data": [
-        0.093,
-        0.32,
-        0.493,
-        0.56,
-        0.56,
-        0.793,
-        0.833,
-        0.933,
-        0.973,
-        1.04,
-        1.133,
-        1.927,
-        1.927
+        0.93,
+        3.2,
+        4.93,
+        5.6,
+        5.6,
+        7.93,
+        8.33,
+        9.33,
+        9.73,
+        10.4,
+        11.33,
+        19.27,
+        19.27,
+        20.6
       ],
       "visible": true
     }
