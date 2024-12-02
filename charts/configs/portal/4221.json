@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0603", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -165,10 +171,11 @@
       2014,
       2016,
       2018,
-      2020
+      2020,
+      2022
     ],
     "floor": 0,
-    "ceiling": 5,
+    "ceiling": 6,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -180,64 +187,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -437,12 +387,13 @@
       "id": "BS0603_1",
       "valueSuffix": "Prozent",
       "data": [
-        40.9,
-        42.8,
-        45.7,
-        47,
+        40.3,
+        42.2,
+        45,
+        46.7,
         47.7,
-        50.6
+        50.6,
+        50.5
       ],
       "visible": true
     }

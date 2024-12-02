@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-1605", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -160,6 +166,21 @@
   },
   "xAxis": {
     "categories": [
+      1974,
+      1975,
+      1976,
+      1977,
+      1978,
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
       1989,
       1990,
       1991,
@@ -174,7 +195,6 @@
       2000,
       2001,
       2002,
-      2003,
       2004,
       2005,
       2006,
@@ -193,10 +213,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 33,
+    "ceiling": 48,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -208,64 +229,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -464,32 +428,46 @@
       "id": "BS1605_1",
       "valueSuffix": "Millionen Kubikmeter",
       "data": [
-        19.5,
-        20.4,
+        20.7,
+        20,
+        20.7,
+        19.1,
+        19.8,
+        20.3,
         18.9,
-        19.7,
         18.6,
-        17.5,
+        19.6,
+        19.6,
+        19.5,
+        20.1,
+        23,
+        24.3,
+        21.7,
+        22.5,
+        23,
+        22.2,
+        22.1,
+        22,
+        22.1,
+        20.9,
+        20.1,
+        20.2,
+        20.1,
+        19.1,
+        18.7,
+        18,
+        17,
+        19.2,
+        18.5,
         17.7,
+        16.8,
         17.2,
-        16.2,
-        16.6,
+        17.1,
+        16.8,
         15.9,
         15.7,
-        15.1,
-        14.3,
-        16.5,
-        15.9,
-        16.8,
-        15.5,
-        15.3,
-        15.5,
-        15.2,
-        15.1,
         15.8,
-        16,
-        15.2,
-        15.3,
+        15.4,
         12.9,
         12.8,
         12.8,
@@ -497,7 +475,8 @@
         12.7,
         12.9,
         11.9,
-        11.3
+        11.3,
+        12.2
       ],
       "visible": true
     }

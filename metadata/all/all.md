@@ -2397,6 +2397,7 @@ id | visible | visibleInPortal | indikatorenset
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
+12609 | true | false | Stadtteilmonitoring St. Johann
 12617 | true | true | Stadtteilmonitoring St. Johann
 12668 | true | false | 
 12669 | true | false | Energiestatistik (Print)

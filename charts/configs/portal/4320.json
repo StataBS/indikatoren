@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-1703", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -169,10 +175,12 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 9,
+    "ceiling": 11,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -184,64 +192,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -338,7 +289,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -420,7 +371,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -443,14 +394,52 @@
       "data": [
         42,
         42,
-        42,
+        41.7,
+        41.4,
+        41.2,
         41,
         41,
         41,
-        41,
-        41,
-        42,
-        41
+        41.5,
+        41.4,
+        41.1,
+        41.2
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Grenzwert Basel-Stadt",
+      "color": "#444444",
+      "id": "BS1703_4",
+      "valueSuffix": "Quadratmeter pro Bewohner",
+      "data": [
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4,
+        41.4
       ],
       "visible": true
     }

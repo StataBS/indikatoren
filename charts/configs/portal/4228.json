@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0611", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -318,10 +324,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 158,
+    "ceiling": 159,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -333,64 +340,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -749,7 +699,8 @@
         2707.7,
         2507.2,
         3058.2,
-        2503.2
+        2503.2,
+        2456.2
       ],
       "visible": true,
       "zIndex": 1
@@ -924,7 +875,8 @@
         193,
         182,
         213,
-        181
+        181,
+        179
       ],
       "visible": true,
       "zIndex": 0,

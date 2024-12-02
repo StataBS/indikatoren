@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0808", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -166,10 +172,11 @@
       2014,
       2016,
       2018,
-      2020
+      2020,
+      2022
     ],
     "floor": 2010,
-    "ceiling": 2020,
+    "ceiling": 2022,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -181,64 +188,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -462,7 +412,11 @@
         ],
         [
           2020,
-          618118.85
+          630338.04
+        ],
+        [
+          2022,
+          593390.19
         ]
       ],
       "visible": true
@@ -501,7 +455,11 @@
         ],
         [
           2020,
-          3.07
+          3.13
+        ],
+        [
+          2022,
+          2.91
         ]
       ],
       "visible": true,

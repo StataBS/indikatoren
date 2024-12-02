@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-1301", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -121,7 +127,7 @@
     }
   },
   "subtitle": {
-    "text": "in Kilogramm, Basel-Stadt",
+    "text": "CO2-Äquivalent in Tonnen, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,19 +159,13 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E kg",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E CO2-Äquivalent der Kältemittelmengen in Tonnen",
     "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
   "xAxis": {
     "categories": [
-      2005,
-      2006,
-      2007,
-      2008,
-      2009,
-      2010,
       2011,
       2012,
       2013,
@@ -178,10 +178,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 18,
+    "ceiling": 13,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -193,64 +194,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -448,26 +392,21 @@
       "name": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
       "color": "#FF8028",
       "id": "BS1301_1",
-      "valueSuffix": "Kilogramm",
+      "valueSuffix": "CO2-Äquivalent der Kältemittelmengen in Tonnen",
       "data": [
-        15959,
-        54579,
-        60080,
-        66805,
-        71940,
-        76076,
-        78630,
-        81295,
-        79322,
-        87175,
-        91089,
-        96396,
-        93905,
-        95265,
-        93080,
-        93031,
-        93573,
-        92418,
+        162972.8,
+        165690,
+        178456.1,
+        180040.5,
+        197370.3,
+        205948.7,
+        197694.2,
+        199714,
+        192875.9,
+        191534,
+        191610,
+        187750,
+        191607.8,
         null
       ],
       "visible": true
@@ -491,7 +430,7 @@
       "name": "Zielpfad (2036: 15% von 2017)",
       "color": "#444444",
       "id": "BS1301_3",
-      "valueSuffix": "Kilogramm",
+      "valueSuffix": "CO2-Äquivalent der Kältemittelmengen in Tonnen",
       "data": [
         null,
         null,
@@ -499,19 +438,14 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        93905,
-        89704,
-        85503,
-        81302,
-        77100.9,
-        72899.9,
-        68698.9
+        191607.8,
+        187406.8,
+        183205.8,
+        179004.8,
+        174803.7,
+        170602.7,
+        166401.7,
+        162200.7
       ],
       "visible": true
     }

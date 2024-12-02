@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0809", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0809", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -194,10 +200,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 34,
+    "ceiling": 35,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -209,75 +216,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {
-            "color": "#666666",
-            "fontSize": "11px"
-          },
-          "text": "Daten Hochwasser\u003Cbr\u003Eausstehend",
-          "rotation": -90,
-          "verticalAlign": "middle",
-          "x": -4,
-          "y": -40
-        },
-        "from": 32.5,
-        "to": 35,
-        "color": "#f0f0f0"
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -511,10 +450,10 @@
         0,
         0,
         10,
-        40
+        40,
+        4
       ],
-      "visible": true,
-      "zIndex": 1
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -523,7 +462,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "Tage mit Hochwasser ",
-      "color": "#0A3B19",
+      "color": "#68AB2B",
       "id": "BS&BL0809_2",
       "valueSuffix": "Tage",
       "data": [
@@ -559,12 +498,12 @@
         0,
         6,
         0,
+        0,
         null,
         null,
         null
       ],
-      "visible": true,
-      "zIndex": 0
+      "visible": true
     }
   ]
 }

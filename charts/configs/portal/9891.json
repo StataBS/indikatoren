@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0811", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0811", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -153,7 +159,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003EProzent (rechte Skala)",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003EAnzahl Personenwagen",
     "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
@@ -178,10 +184,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 18,
+    "ceiling": 19,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -193,64 +200,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -471,7 +421,8 @@
         478,
         599,
         871,
-        1054
+        1054,
+        null
       ],
       "visible": true
     },
@@ -507,7 +458,8 @@
         6,
         16,
         22,
-        32
+        32,
+        null
       ],
       "visible": true
     },
@@ -543,7 +495,8 @@
         587,
         902,
         1290,
-        1830
+        1830,
+        null
       ],
       "visible": true
     },
@@ -579,7 +532,8 @@
         11,
         12,
         13,
-        12
+        12,
+        null
       ],
       "visible": true
     },
@@ -613,10 +567,56 @@
         1.72,
         2.47,
         3.62,
-        4.92
+        4.92,
+        null
       ],
       "visible": true,
       "yAxis": 1
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielpfad BS (2037: 97%)",
+      "color": "#444444",
+      "id": "BS0811_11",
+      "valueSuffix": "Anzahl Personenwagen; Prozent (rechte Skala)",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3.62,
+        9.845,
+        16.071
+      ],
+      "visible": true
     }
   ]
 }

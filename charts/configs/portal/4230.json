@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0602", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -111,7 +117,7 @@
     }
   },
   "title": {
-    "text": "Bruttoenergieverbrauch nach Energieträger",
+    "text": "Bruttoenergieverbrauch",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -168,10 +174,11 @@
       2014,
       2016,
       2018,
-      2020
+      2020,
+      2022
     ],
     "floor": 1995,
-    "ceiling": 2020,
+    "ceiling": 2022,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -183,64 +190,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -435,246 +385,50 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "Heizöl (inkl. Flüssiggas)",
+      "name": "Bruttoenergieverbrauch total",
       "color": "#FF8028",
       "id": "BS0602_1",
       "valueSuffix": "Gigawattstunden",
       "data": [
         [
           1995,
-          1666
+          6262
         ],
         [
           2000,
-          1459
+          6420
         ],
         [
           2004,
-          1189
+          6376
         ],
         [
           2010,
-          549.46
+          null
         ],
         [
           2012,
-          478.83
+          null
         ],
         [
           2014,
-          394.41
+          null
         ],
         [
           2016,
-          302.8
+          null
         ],
         [
           2018,
-          273.02
+          null
         ],
         [
           2020,
-          254.43
-        ]
-      ],
-      "visible": true
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Treibstoffe",
-      "color": "#DC440E",
-      "id": "BS0602_2",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1995,
-          629
+          null
         ],
         [
-          2000,
-          726
-        ],
-        [
-          2004,
-          756
-        ],
-        [
-          2010,
-          813.84
-        ],
-        [
-          2012,
-          756.19
-        ],
-        [
-          2014,
-          767.91
-        ],
-        [
-          2016,
-          767.87
-        ],
-        [
-          2018,
-          757.82
-        ],
-        [
-          2020,
-          538.17
-        ]
-      ],
-      "visible": true
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Erdgas",
-      "color": "#B00000",
-      "id": "BS0602_3",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1995,
-          1911
-        ],
-        [
-          2000,
-          1855
-        ],
-        [
-          2004,
-          2018.61
-        ],
-        [
-          2010,
-          1960.6
-        ],
-        [
-          2012,
-          1716.9
-        ],
-        [
-          2014,
-          1419.6
-        ],
-        [
-          2016,
-          1475.3
-        ],
-        [
-          2018,
-          1336.41
-        ],
-        [
-          2020,
-          1266.69
-        ]
-      ],
-      "visible": true
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Elektrizität",
-      "color": "#661200",
-      "id": "BS0602_4",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1995,
-          1413
-        ],
-        [
-          2000,
-          1457
-        ],
-        [
-          2004,
-          1572
-        ],
-        [
-          2010,
-          1254.74
-        ],
-        [
-          2012,
-          1121.7
-        ],
-        [
-          2014,
-          978.38
-        ],
-        [
-          2016,
-          974.61
-        ],
-        [
-          2018,
-          912.03
-        ],
-        [
-          2020,
-          875.17
-        ]
-      ],
-      "visible": true
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kehricht, Industrieabfall",
-      "color": "#D3E2E4",
-      "id": "BS0602_5",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1995,
-          643
-        ],
-        [
-          2000,
-          665
-        ],
-        [
-          2004,
-          568.06
-        ],
-        [
-          2010,
-          800.15
-        ],
-        [
-          2012,
-          834.89
-        ],
-        [
-          2014,
-          845.21
-        ],
-        [
-          2016,
-          839.02
-        ],
-        [
-          2018,
-          832.66
-        ],
-        [
-          2020,
-          782.52
+          2022,
+          null
         ]
       ],
       "visible": true
@@ -686,45 +440,49 @@
       "type": "column",
       "showInNavigator": true,
       "name": "Erneuerbare Energieträger",
-      "color": "#A8C3CA",
-      "id": "BS0602_6",
+      "color": "#DC440E",
+      "id": "BS0602_2",
       "valueSuffix": "Gigawattstunden",
       "data": [
         [
           1995,
-          241.1
+          null
         ],
         [
           2000,
-          239
+          null
         ],
         [
           2004,
-          272.31
+          null
         ],
         [
           2010,
-          383.21
+          1995.1
         ],
         [
           2012,
-          445.98
+          1939.5
         ],
         [
           2014,
-          510.21
+          1867.7
         ],
         [
           2016,
-          562.27
+          1944.5
         ],
         [
           2018,
-          528.71
+          1855.1
         ],
         [
           2020,
-          698.48
+          1962.9
+        ],
+        [
+          2022,
+          1852.2
         ]
       ],
       "visible": true
@@ -735,9 +493,9 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "Fernwärme (Bezug von ausserhalb BS)",
-      "color": "#689199",
-      "id": "BS0602_7",
+      "name": "Nicht erneuerbare Energieträger",
+      "color": "#B00000",
+      "id": "BS0602_3",
       "valueSuffix": "Gigawattstunden",
       "data": [
         [
@@ -754,27 +512,31 @@
         ],
         [
           2010,
-          null
+          3766.9
         ],
         [
           2012,
-          null
+          3415
         ],
         [
           2014,
-          null
+          3048.6
         ],
         [
           2016,
-          5.37
+          2982.8
         ],
         [
           2018,
-          4.35
+          2789.9
         ],
         [
           2020,
-          5.04
+          2503.7
+        ],
+        [
+          2022,
+          2371.6
         ]
       ],
       "visible": true

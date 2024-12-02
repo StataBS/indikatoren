@@ -1,0 +1,308 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "St. Johann",
+          "y": 16,
+          "Wert": 0.061
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "St. Johann",
+          "y": 15,
+          "Wert": 0.4290261307
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 0.2372414538
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "St. Johann",
+          "y": 11,
+          "Wert": 0.3313
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "St. Johann",
+          "y": 4,
+          "Wert": 0.2313123561
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "St. Johann",
+          "y": 7,
+          "Wert": 0.301350172
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "St. Johann",
+          "y": 11,
+          "Wert": 0.2636224098
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "St. Johann",
+          "y": 10,
+          "Wert": 1934.521172638436
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "St. Johann",
+          "y": 13,
+          "Wert": 0.245602605863
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "St. Johann",
+          "y": 12,
+          "Wert": 0.303
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "St. Johann",
+          "y": 10,
+          "Wert": 72.194553
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "St. Johann",
+          "y": 4,
+          "Wert": 36.766227
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "St. Johann",
+          "y": 6,
+          "Wert": 688
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "St. Johann",
+          "y": 6,
+          "Wert": 7243
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 0.7151063
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "St. Johann",
+          "y": 15,
+          "Wert": 1.023927
+        }
+      ],
+      "name": "Wert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "useHTML": false,
+      "formatter": function () {
+					return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+				}
+    },
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+					//draw spider backgrounds
+					//colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+					var top = -Math.PI / 2; 
+					//var top = -Math.PI / 2.3; wenn Farbtrennung nicht in der Mitte sein soll. 
+					var endPurple = top + 2 * Math.PI / 16 * 7;
+					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
+					var endBlue = top;
+					var centerX = 247;
+					var centerY = 212.5;
+					var radius = 136;
+					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+						fill: '#923F8D',
+						stroke: '#923F8D',
+						'stroke-width': 0,
+						'fill-opacity': 0.5
+					}).add();
+					this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+						fill: '#68AB2B',
+						stroke: '#68AB2B',
+						'stroke-width': 0,
+						'fill-opacity': 0.5
+					}).add();
+					this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+						fill: '#689199',
+						stroke: '#689199',
+						'stroke-width': 0,
+						'fill-opacity': 0.5
+					}).add();
+				}
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "marginLeft": 20,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "area",
+    "polar": true,
+    "renderTo": "container-12609"
+  },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "pane": {},
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "St. Johann - Quartierradar"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "lineColor": "white",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
+      "style": {
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21.1,
+    "endOnTick": false,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.6.2024"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": "12609"
+  }
+}

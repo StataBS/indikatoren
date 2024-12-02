@@ -19,6 +19,12 @@
     "events": {
       "redraw": function updateStacks() {
 			//console.log(this.userOptions.series[0].stacking)
+			
+			//if not basic chart
+			if (true == true){
+				//adapt credits' width
+				if (this.credits !== 'undefined') this.credits.update({ style: {width: this.chartWidth - 20 }});
+			}			
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
@@ -70,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/indikator-0801", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -160,6 +166,70 @@
   },
   "xAxis": {
     "categories": [
+      1897,
+      1898,
+      1899,
+      1900,
+      1901,
+      1902,
+      1903,
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1909,
+      1910,
+      1911,
+      1912,
+      1913,
+      1914,
+      1915,
+      1916,
+      1917,
+      1918,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926,
+      1927,
+      1928,
+      1929,
+      1930,
+      1931,
+      1932,
+      1933,
+      1934,
+      1935,
+      1936,
+      1937,
+      1938,
+      1939,
+      1940,
+      1941,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946,
+      1947,
+      1948,
+      1949,
+      1950,
+      1951,
+      1952,
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
       1961,
       1962,
       1963,
@@ -221,10 +291,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 61,
+    "ceiling": 126,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -236,64 +307,7 @@
         "color": "#000000"
       }
     },
-    "range": 1000,
-    "plotBands": [
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      },
-      {
-        "label": {
-          "style": {}
-        }
-      }
-    ]
+    "range": 1000
   },
   "yAxis": [
     {
@@ -390,7 +404,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -425,7 +439,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Meteorologischer Verein der Region Basel",
+    "text": "Quelle: MeteoSchweiz",
     "href": false,
     "style": {
       "color": "#000000",
@@ -472,7 +486,7 @@
     "enabled": true,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -492,6 +506,70 @@
       "id": "BS&BL0801_1",
       "valueSuffix": "Anzahl Tage",
       "data": [
+        8,
+        13,
+        11,
+        13,
+        6,
+        9,
+        2,
+        22,
+        16,
+        15,
+        3,
+        4,
+        3,
+        1,
+        32,
+        2,
+        0,
+        0,
+        0,
+        1,
+        4,
+        5,
+        11,
+        2,
+        22,
+        6,
+        17,
+        4,
+        5,
+        3,
+        3,
+        14,
+        26,
+        10,
+        14,
+        14,
+        16,
+        18,
+        25,
+        12,
+        21,
+        11,
+        6,
+        3,
+        14,
+        20,
+        14,
+        22,
+        31,
+        16,
+        49,
+        15,
+        30,
+        20,
+        10,
+        29,
+        16,
+        10,
+        4,
+        4,
+        12,
+        14,
+        15,
+        6,
         18,
         20,
         9,
@@ -510,50 +588,190 @@
         23,
         1,
         2,
+        1,
+        3,
+        2,
+        7,
+        15,
         7,
         5,
-        8,
-        10,
-        23,
         9,
-        10,
-        16,
-        12,
-        8,
-        10,
-        16,
-        16,
-        22,
-        11,
-        28,
-        20,
-        6,
+        5,
+        3,
+        9,
         13,
-        18,
+        10,
+        16,
+        6,
+        20,
+        10,
+        4,
         7,
         15,
-        14,
-        12,
-        43,
-        14,
-        19,
-        25,
+        4,
+        9,
+        9,
         8,
-        9,
-        17,
-        19,
-        15,
+        41,
         13,
-        15,
-        9,
-        32,
-        13,
-        28,
-        31,
-        25,
+        18,
         22,
+        4,
         6,
-        37
+        12,
+        16,
+        12,
+        12,
+        13,
+        8,
+        28,
+        12,
+        26,
+        25,
+        23,
+        19,
+        6,
+        33,
+        26
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "30-jähriges gleitendes Mittel der Anzahl Hitzetage",
+      "color": "#68AB2B",
+      "id": "BS&BL0801_2",
+      "valueSuffix": "Anzahl Tage",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8,
+        7.83,
+        7.87,
+        8.37,
+        8.27,
+        8.53,
+        8.7,
+        9.17,
+        9.03,
+        9.33,
+        9.23,
+        9.83,
+        10.07,
+        10.17,
+        10.23,
+        9.63,
+        10.23,
+        10.7,
+        11.43,
+        12.47,
+        12.97,
+        14.47,
+        14.8,
+        15.43,
+        16.03,
+        15.63,
+        16.4,
+        16.37,
+        16.57,
+        16.53,
+        16.57,
+        16.87,
+        16.87,
+        16.5,
+        16.37,
+        16.5,
+        16.7,
+        16.47,
+        16.67,
+        16.03,
+        15.87,
+        15.57,
+        15.4,
+        15.43,
+        15.47,
+        15.47,
+        14.93,
+        14.8,
+        14.3,
+        13.63,
+        13.87,
+        12.27,
+        11.83,
+        10.87,
+        10.3,
+        10.03,
+        9.3,
+        9.27,
+        9.17,
+        9.2,
+        9.37,
+        9.13,
+        8.77,
+        8.57,
+        8.8,
+        8.53,
+        8.4,
+        8.3,
+        8.17,
+        8.3,
+        8.2,
+        8.03,
+        8.33,
+        8.23,
+        8.4,
+        8.23,
+        8.37,
+        9.4,
+        9.6,
+        9.83,
+        9.8,
+        9.9,
+        10.03,
+        10.4,
+        10.83,
+        11.17,
+        11.33,
+        11.27,
+        11.3,
+        12.07,
+        12.17,
+        12.87,
+        13.6,
+        14.07,
+        14.27,
+        14.13,
+        14.7,
+        15.37,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "visible": true
     }
