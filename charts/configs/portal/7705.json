@@ -26,6 +26,10 @@
         [
           "2020",
           53.925294
+        ],
+        [
+          "2022",
+          48.788667
         ]
       ],
       "name": "Stromverbrauch Messe",
@@ -57,6 +61,10 @@
         [
           "2020",
           6.502671
+        ],
+        [
+          "2022",
+          8.221336
         ]
       ],
       "name": "Stromverbrauch Erlenmatt",
@@ -183,7 +191,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
