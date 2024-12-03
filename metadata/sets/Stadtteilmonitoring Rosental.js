@@ -1541,7 +1541,7 @@ var indikatorensetData = [
 		],
 		"title": "Stromverbrauch",
 		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Zwischen 2016 und 2018 ist der Stromverbrauch im Bezirk Messe stabil geblieben. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
+		"lesehilfe": "Zwischen 2016 und 2022 hat der Stromverbrauch im Bezirk Messe leicht abgenommen. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
 		"erlaeuterungen": "Die kantonale Energiestatistik basiert seit 2010 auf einer neuen methodischen Grundlage und erscheint im Zweijahresrhythmus. Abgebildet ist der jeweilige Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1566,7 +1566,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:09",
+		"aktualisierungsdatum": "2024-12-03T08:42:53",
 		"id": 7705
 	},
 	{
