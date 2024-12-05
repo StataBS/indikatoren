@@ -911,6 +911,10 @@
         [
           1727748000000,
           92
+        ],
+        [
+          1730422800000,
+          64
         ]
       ],
       "name": "Kurzarbeit, beantragt"
@@ -1825,7 +1829,11 @@
         ],
         [
           1727748000000,
-          56
+          80
+        ],
+        [
+          1730422800000,
+          51
         ]
       ],
       "name": "Kurzarbeit, genehmigt"
@@ -2716,7 +2724,7 @@
         ],
         [
           1711936800000,
-          13
+          14
         ],
         [
           1714528800000,
@@ -2732,15 +2740,19 @@
         ],
         [
           1722477600000,
-          undefined
+          33
         ],
         [
           1725156000000,
-          undefined
+          null
         ],
         [
           1727748000000,
-          undefined
+          null
+        ],
+        [
+          1730422800000,
+          null
         ]
       ],
       "name": "Kurzarbeit, abgerechnet"
@@ -2863,7 +2875,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.11.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2024"
   },
   "legend": {
     "symbolRadius": 0,

@@ -522,6 +522,10 @@
         [
           "2024-10",
           690
+        ],
+        [
+          "2024-11",
+          699
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -661,7 +665,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.11.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2024"
   },
   "tooltip": {
     "valueDecimals": 0,
