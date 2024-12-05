@@ -958,6 +958,10 @@
         [
           "2024-10",
           3827
+        ],
+        [
+          "2024-11",
+          4005
         ]
       ],
       "name": "Arbeitslose",
@@ -1921,6 +1925,10 @@
         [
           "2024-10",
           701
+        ],
+        [
+          "2024-11",
+          743
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2887,6 +2895,10 @@
         [
           "2024-10",
           0.18317
+        ],
+        [
+          "2024-11",
+          0.18552
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -3032,7 +3044,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.11.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
