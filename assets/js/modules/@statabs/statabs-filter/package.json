@@ -44,4 +44,8 @@
     "run-sequence": ">= 1.0.2",
     "map-stream": "*"
   }
+
+,"_resolved": "https://registry.npmjs.org/@statabs/statabs-filter/-/statabs-filter-2.1.1.tgz"
+,"_integrity": "sha512-IsQi5mQls2XaQXk+QcOSvqxjkFGdACeuunEL6CIopOMzBpwgYjfVRo4QPU+E/jqa7Hs9N738RYZf6VBczVTfmQ=="
+,"_from": "@statabs/statabs-filter@2.1.1"
 }
