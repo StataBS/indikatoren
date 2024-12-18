@@ -762,7 +762,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

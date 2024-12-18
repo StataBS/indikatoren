@@ -1,0 +1,714 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2004",
+          22
+        ],
+        [
+          "2005",
+          21.7
+        ],
+        [
+          "2006",
+          21.5
+        ],
+        [
+          "2007",
+          20.7
+        ],
+        [
+          "2008",
+          20.6
+        ],
+        [
+          "2009",
+          20.9
+        ],
+        [
+          "2010",
+          21
+        ],
+        [
+          "2011",
+          21.3
+        ],
+        [
+          "2012",
+          22.9
+        ],
+        [
+          "2013",
+          22.9
+        ],
+        [
+          "2014",
+          23.9
+        ],
+        [
+          "2015",
+          24.5
+        ],
+        [
+          "2016",
+          23.8
+        ],
+        [
+          "2017",
+          23.8
+        ],
+        [
+          "2018",
+          23
+        ],
+        [
+          "2019",
+          22.8
+        ],
+        [
+          "2020",
+          22.6
+        ],
+        [
+          "2021",
+          23.8
+        ],
+        [
+          "2022",
+          24.7
+        ],
+        [
+          "2023",
+          24.9
+        ]
+      ],
+      "name": "Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2004",
+          30
+        ],
+        [
+          "2005",
+          30
+        ],
+        [
+          "2006",
+          30.4
+        ],
+        [
+          "2007",
+          30.4
+        ],
+        [
+          "2008",
+          30.4
+        ],
+        [
+          "2009",
+          30.1
+        ],
+        [
+          "2010",
+          30.9
+        ],
+        [
+          "2011",
+          30.2
+        ],
+        [
+          "2012",
+          29.8
+        ],
+        [
+          "2013",
+          30.7
+        ],
+        [
+          "2014",
+          30.7
+        ],
+        [
+          "2015",
+          31
+        ],
+        [
+          "2016",
+          29.5
+        ],
+        [
+          "2017",
+          30
+        ],
+        [
+          "2018",
+          30
+        ],
+        [
+          "2019",
+          29.1
+        ],
+        [
+          "2020",
+          28.9
+        ],
+        [
+          "2021",
+          30
+        ],
+        [
+          "2022",
+          28.7
+        ],
+        [
+          "2023",
+          29.7
+        ]
+      ],
+      "name": "Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "legendIndex": 4,
+      "data": [
+        [
+          "2004",
+          15.7
+        ],
+        [
+          "2005",
+          16.1
+        ],
+        [
+          "2006",
+          16
+        ],
+        [
+          "2007",
+          16.4
+        ],
+        [
+          "2008",
+          16.4
+        ],
+        [
+          "2009",
+          15.6
+        ],
+        [
+          "2010",
+          15.5
+        ],
+        [
+          "2011",
+          15.3
+        ],
+        [
+          "2012",
+          14.9
+        ],
+        [
+          "2013",
+          14.8
+        ],
+        [
+          "2014",
+          15.1
+        ],
+        [
+          "2015",
+          15.1
+        ],
+        [
+          "2016",
+          15.4
+        ],
+        [
+          "2017",
+          15.6
+        ],
+        [
+          "2018",
+          15.5
+        ],
+        [
+          "2019",
+          16.2
+        ],
+        [
+          "2020",
+          15.9
+        ],
+        [
+          "2021",
+          16.2
+        ],
+        [
+          "2022",
+          16.6
+        ],
+        [
+          "2023",
+          16.8
+        ]
+      ],
+      "name": "Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "legendIndex": 5,
+      "data": [
+        [
+          "2004",
+          10.7
+        ],
+        [
+          "2005",
+          9.8
+        ],
+        [
+          "2006",
+          9.9
+        ],
+        [
+          "2007",
+          9.5
+        ],
+        [
+          "2008",
+          9.5
+        ],
+        [
+          "2009",
+          9.1
+        ],
+        [
+          "2010",
+          8
+        ],
+        [
+          "2011",
+          7.8
+        ],
+        [
+          "2012",
+          7.5
+        ],
+        [
+          "2013",
+          8.3
+        ],
+        [
+          "2014",
+          8.2
+        ],
+        [
+          "2015",
+          8.5
+        ],
+        [
+          "2016",
+          8.7
+        ],
+        [
+          "2017",
+          8.9
+        ],
+        [
+          "2018",
+          9.9
+        ],
+        [
+          "2019",
+          9.7
+        ],
+        [
+          "2020",
+          9.3
+        ],
+        [
+          "2021",
+          9.5
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2023",
+          8.9
+        ]
+      ],
+      "name": "Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 6,
+      "data": [
+        [
+          "2004",
+          48.2
+        ],
+        [
+          "2005",
+          48.4
+        ],
+        [
+          "2006",
+          46.6
+        ],
+        [
+          "2007",
+          48.4
+        ],
+        [
+          "2008",
+          46.8
+        ],
+        [
+          "2009",
+          45.6
+        ],
+        [
+          "2010",
+          44.4
+        ],
+        [
+          "2011",
+          42.3
+        ],
+        [
+          "2012",
+          40.7
+        ],
+        [
+          "2013",
+          40.6
+        ],
+        [
+          "2014",
+          43.8
+        ],
+        [
+          "2015",
+          44.5
+        ],
+        [
+          "2016",
+          44.1
+        ],
+        [
+          "2017",
+          45.3
+        ],
+        [
+          "2018",
+          46
+        ],
+        [
+          "2019",
+          45.2
+        ],
+        [
+          "2020",
+          45.7
+        ],
+        [
+          "2021",
+          42.9
+        ],
+        [
+          "2022",
+          42.6
+        ],
+        [
+          "2023",
+          42.3
+        ]
+      ],
+      "name": "Friedmattviertel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "legendIndex": 1,
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          "2004",
+          31.4
+        ],
+        [
+          "2005",
+          31.3
+        ],
+        [
+          "2006",
+          31.2
+        ],
+        [
+          "2007",
+          31.1
+        ],
+        [
+          "2008",
+          30.7
+        ],
+        [
+          "2009",
+          30.3
+        ],
+        [
+          "2010",
+          30.2
+        ],
+        [
+          "2011",
+          29.9
+        ],
+        [
+          "2012",
+          29.6
+        ],
+        [
+          "2013",
+          29.3
+        ],
+        [
+          "2014",
+          29.2
+        ],
+        [
+          "2015",
+          29.1
+        ],
+        [
+          "2016",
+          28.9
+        ],
+        [
+          "2017",
+          28.8
+        ],
+        [
+          "2018",
+          28.6
+        ],
+        [
+          "2019",
+          28.6
+        ],
+        [
+          "2020",
+          28.3
+        ],
+        [
+          "2021",
+          28.5
+        ],
+        [
+          "2022",
+          28.3
+        ],
+        [
+          "2023",
+          28.3
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function() {
+          // `this` refers to the chart instance
+          this.series[4].update({
+              name: "Friedmatt"
+          });
+
+          this.credits.element.onclick = function () { };
+ 
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
+    },
+    "renderTo": "container-12613"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Altersquotient"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12613"
+  }
+}

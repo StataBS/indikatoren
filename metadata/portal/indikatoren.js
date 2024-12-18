@@ -1751,7 +1751,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:09",
+		"aktualisierungsdatum": "2024-12-18T11:10:53",
 		"id": 12610
 	},
 	{
@@ -1789,7 +1789,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:10",
+		"aktualisierungsdatum": "2024-12-18T11:10:54",
 		"id": 12611
 	},
 	{
@@ -1828,7 +1828,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:14",
+		"aktualisierungsdatum": "2024-12-18T11:10:58",
 		"id": 12612
 	},
 	{
@@ -1867,7 +1867,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:14",
+		"aktualisierungsdatum": "2024-12-18T11:10:58",
 		"id": 12613
 	},
 	{
@@ -1905,7 +1905,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:15",
+		"aktualisierungsdatum": "2024-12-18T11:10:59",
 		"id": 12614
 	},
 	{
@@ -1943,7 +1943,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:17",
+		"aktualisierungsdatum": "2024-12-18T11:11:01",
 		"id": 12615
 	},
 	{
@@ -1981,7 +1981,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:18",
+		"aktualisierungsdatum": "2024-12-18T11:11:02",
 		"id": 12616
 	},
 	{
@@ -2019,7 +2019,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-10T08:47:03",
+		"aktualisierungsdatum": "2024-12-18T11:11:15",
 		"id": 12617
 	},
 	{
@@ -2057,7 +2057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:18",
+		"aktualisierungsdatum": "2024-12-18T11:11:03",
 		"id": 12618
 	},
 	{
@@ -2095,7 +2095,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:20",
+		"aktualisierungsdatum": "2024-12-18T11:11:04",
 		"id": 12619
 	},
 	{
@@ -2133,7 +2133,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:16",
+		"aktualisierungsdatum": "2024-12-18T11:11:00",
 		"id": 12620
 	},
 	{
@@ -2171,7 +2171,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:27",
+		"aktualisierungsdatum": "2024-12-18T11:11:12",
 		"id": 12621
 	},
 	{
@@ -2209,7 +2209,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:27",
+		"aktualisierungsdatum": "2024-12-18T11:11:13",
 		"id": 12622
 	},
 	{
@@ -2247,7 +2247,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:28",
+		"aktualisierungsdatum": "2024-12-18T11:11:14",
 		"id": 12623
 	},
 	{
@@ -2285,7 +2285,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:31",
+		"aktualisierungsdatum": "2024-12-18T11:11:17",
 		"id": 12624
 	},
 	{
@@ -2323,7 +2323,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:32",
+		"aktualisierungsdatum": "2024-12-18T11:11:18",
 		"id": 12625
 	},
 	{
@@ -2361,7 +2361,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:31",
+		"aktualisierungsdatum": "2024-12-18T11:11:16",
 		"id": 12626
 	},
 	{
@@ -2399,7 +2399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:33",
+		"aktualisierungsdatum": "2024-12-18T11:11:19",
 		"id": 12627
 	},
 	{
@@ -2437,7 +2437,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:34",
+		"aktualisierungsdatum": "2024-12-18T11:11:20",
 		"id": 12628
 	},
 	{
@@ -2475,7 +2475,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:34",
+		"aktualisierungsdatum": "2024-12-18T11:11:20",
 		"id": 12629
 	},
 	{
@@ -2513,7 +2513,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:35",
+		"aktualisierungsdatum": "2024-12-18T11:11:21",
 		"id": 12630
 	},
 	{
@@ -2551,7 +2551,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:36",
+		"aktualisierungsdatum": "2024-12-18T11:11:22",
 		"id": 12631
 	},
 	{
@@ -2589,7 +2589,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:37",
+		"aktualisierungsdatum": "2024-12-18T11:11:23",
 		"id": 12632
 	},
 	{
@@ -2627,7 +2627,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:21",
+		"aktualisierungsdatum": "2024-12-18T11:11:05",
 		"id": 12633
 	},
 	{
@@ -2665,7 +2665,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:24",
+		"aktualisierungsdatum": "2024-12-18T11:11:09",
 		"id": 12634
 	},
 	{
@@ -2703,7 +2703,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:29",
+		"aktualisierungsdatum": "2024-12-18T11:11:14",
 		"id": 12635
 	},
 	{
@@ -2742,7 +2742,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:24",
+		"aktualisierungsdatum": "2024-12-18T11:11:09",
 		"id": 12636
 	},
 	{
@@ -2780,7 +2780,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:23",
+		"aktualisierungsdatum": "2024-12-18T11:11:06",
 		"id": 12637
 	},
 	{
@@ -2819,7 +2819,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:25",
+		"aktualisierungsdatum": "2024-12-18T11:11:10",
 		"id": 12638
 	},
 	{
@@ -2857,7 +2857,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:41",
+		"aktualisierungsdatum": "2024-12-18T11:11:27",
 		"id": 12639
 	},
 	{
@@ -2895,7 +2895,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:38",
+		"aktualisierungsdatum": "2024-12-18T11:11:25",
 		"id": 12640
 	},
 	{
@@ -2933,7 +2933,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:37",
+		"aktualisierungsdatum": "2024-12-18T11:11:24",
 		"id": 12641
 	},
 	{
@@ -2971,7 +2971,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:39",
+		"aktualisierungsdatum": "2024-12-18T11:11:25",
 		"id": 12642
 	},
 	{
@@ -3010,7 +3010,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:42",
+		"aktualisierungsdatum": "2024-12-18T11:11:28",
 		"id": 12643
 	},
 	{
@@ -3048,7 +3048,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:44",
+		"aktualisierungsdatum": "2024-12-18T11:11:31",
 		"id": 12644
 	},
 	{
@@ -3086,7 +3086,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:45",
+		"aktualisierungsdatum": "2024-12-18T11:11:32",
 		"id": 12645
 	},
 	{
@@ -3130,7 +3130,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:46",
+		"aktualisierungsdatum": "2024-12-18T11:11:33",
 		"id": 12646
 	},
 	{
@@ -3168,7 +3168,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:49",
+		"aktualisierungsdatum": "2024-12-18T11:11:36",
 		"id": 12648
 	},
 	{
@@ -3206,7 +3206,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:48",
+		"aktualisierungsdatum": "2024-12-18T11:11:35",
 		"id": 12649
 	},
 	{
@@ -3245,7 +3245,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:50",
+		"aktualisierungsdatum": "2024-12-18T11:11:37",
 		"id": 12650
 	},
 	{
@@ -3287,7 +3287,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:51",
+		"aktualisierungsdatum": "2024-12-18T11:11:38",
 		"id": 12651
 	},
 	{
@@ -3329,7 +3329,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:55",
+		"aktualisierungsdatum": "2024-12-18T11:11:42",
 		"id": 12652
 	},
 	{
@@ -3367,7 +3367,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:46",
+		"aktualisierungsdatum": "2024-12-18T11:11:33",
 		"id": 12653
 	},
 	{
@@ -3405,7 +3405,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:42",
+		"aktualisierungsdatum": "2024-12-18T11:11:29",
 		"id": 12655
 	},
 	{
@@ -3443,7 +3443,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:43",
+		"aktualisierungsdatum": "2024-12-18T11:11:30",
 		"id": 12656
 	},
 	{
@@ -3481,7 +3481,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:19",
+		"aktualisierungsdatum": "2024-12-18T11:11:03",
 		"id": 12657
 	},
 	{
@@ -3519,7 +3519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:11",
+		"aktualisierungsdatum": "2024-12-18T11:10:54",
 		"id": 12659
 	},
 	{
@@ -3638,7 +3638,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:11",
+		"aktualisierungsdatum": "2024-12-18T11:10:55",
 		"id": 12719
 	},
 	{
@@ -3676,7 +3676,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:12",
+		"aktualisierungsdatum": "2024-12-18T11:10:56",
 		"id": 12720
 	},
 	{
@@ -3714,7 +3714,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T08:59:13",
+		"aktualisierungsdatum": "2024-12-18T11:10:57",
 		"id": 12721
 	},
 	{
@@ -14175,7 +14175,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -14200,7 +14200,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:21",
+		"aktualisierungsdatum": "2024-12-18T11:11:45",
 		"id": 5818
 	},
 	{
@@ -14340,7 +14340,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -14365,7 +14365,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:23",
+		"aktualisierungsdatum": "2024-12-18T11:11:46",
 		"id": 5825
 	},
 	{
@@ -29513,7 +29513,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
 		"lesehilfe": "Die Bruttogeschossflächen Wohnen und Arbeiten haben im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 deutlich zugenommen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet, sie sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -29538,7 +29538,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-28T08:56:51",
+		"aktualisierungsdatum": "2024-12-18T11:11:07",
 		"id": 7692
 	},
 	{
@@ -29552,8 +29552,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2016 bis 2020 bei 69,8%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,1%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2018 bis 2022 bei 66,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 74,0%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2018-2022 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -29579,7 +29579,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:07",
+		"aktualisierungsdatum": "2024-12-18T11:11:11",
 		"id": 7693
 	},
 	{
@@ -29712,9 +29712,9 @@ var indikatoren = [
 			7935
 		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016-2020",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2016 bis 2020 im Mittel 37,9 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018-2022",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2018 bis 2022 im Mittel 39,4%.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -29739,7 +29739,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2024-12-18T11:11:26",
 		"id": 7697
 	},
 	{
@@ -29868,48 +29868,6 @@ var indikatoren = [
 		"id": 7700
 	},
 	{
-		"template": "map002",
-		"data-id": 7701,
-		"chart-id": 7701,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			7939,
-			8455,
-			8958
-		],
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
-		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Anzahl Tropennächte",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kuerzel": "I.02.12.07701",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzelKunde": "7.04",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "07_00_00_00_00_004",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:44",
-		"id": 7701
-	},
-	{
 		"template": "template001",
 		"data-id": 7704,
 		"chart-id": 7704,
@@ -30033,91 +29991,91 @@ var indikatoren = [
 		"id": 7706
 	},
 	{
-		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, 2015",
-		"kuerzel": "I.02.15.07707",
-		"kuerzelKunde": "7.09",
-		"description": "Feinstaubbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:42:30.3030",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental waren 2015 im Jahresmittel mit 1 407 Personen rund 23% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20 µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10 x 10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7945"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Lufthygieneamt beider Basel"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
-			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
-		],
 		"data-id": 7707,
 		"chart-id": 7707,
 		"filter": "",
-		"id": 7707
-	},
-	{
-		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, 2015",
-		"kuerzel": "I.02.15.07708",
-		"kuerzelKunde": "7.10",
-		"description": "Stickoxidbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7945
+		],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 246 Personen (3,2% der dortigen Wohnbevölkerung) an ihrem Wohnort Feinstaub-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:42:23.2323",
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07707",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.09",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental waren 2015 im Jahresmittel mit 1 980 Personen rund 32% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
-		"template": "mappie001",
+		"orderKey": "07_00_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_010",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:38",
+		"id": 7707
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7946"
+			7946
 		],
-		"renderLink": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 1 130 Personen (15% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
 			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
 		],
-		"data-id": 7708,
-		"chart-id": 7708,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07708",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:41",
 		"id": 7708
 	},
 	{
@@ -31377,7 +31335,7 @@ var indikatoren = [
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Ergebnisse sind damit nicht direkt vergleichbar mit den Vorjahren. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -31402,7 +31360,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:20",
+		"aktualisierungsdatum": "2024-12-18T11:11:44",
 		"id": 7774
 	},
 	{
@@ -33471,8 +33429,8 @@ var indikatoren = [
 		],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Daten sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm. Nach 2020 haben sich die Werte nur leicht verändert.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -33497,7 +33455,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:30",
+		"aktualisierungsdatum": "2024-12-18T11:11:08",
 		"id": 8073
 	},
 	{
@@ -33992,93 +33950,91 @@ var indikatoren = [
 		"id": 8087
 	},
 	{
-		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07707",
-		"kuerzelKunde": "7.09",
-		"description": "Feinstaubbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 456 Personen 15,7% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20&nbsp;µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck lag die Belastung für alle Einwohner unter dem Grenzwert.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20&nbsp;µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10x10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8657"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Lufthygieneamt beider Basel"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/nojy' target = '_blank'>Feinstaub-Imissionen (PM10) 2015</a> im kantonalen Geoportal",
-			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
-			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
-		],
 		"data-id": 7707,
 		"chart-id": 7707,
 		"filter": "",
-		"id": 8088
-	},
-	{
-		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07708",
-		"kuerzelKunde": "7.10",
-		"description": "Stickoxidbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"parentId": null,
+		"children": [
+			8657
+		],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 lag für alle Personen in den Wohnvierteln Kleinhüningen und Klybeck die Feinstaub-Belastung an ihrem Wohnort unter dem Jahresgrenzwert. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07707",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.09",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 1 490 Personen 51,4% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck waren es 590 Personen (8,1%).",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
-		"template": "mappie001",
+		"orderKey": "07_00_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_010",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:39",
+		"id": 8088
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8658"
+			8658
 		],
-		"renderLink": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Kleinhüningen 140 Personen (5% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Im Wohnviertel Klybeck waren es 33 Personen (0,5%). Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/5WPK' target = '_blank'>Stickstoffdioxid-Immissionsbelastung 2015</a> im kantonalen Geoportal.",
 			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
 			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
 		],
-		"data-id": 7708,
-		"chart-id": 7708,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07708",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:40",
 		"id": 8089
 	},
 	{

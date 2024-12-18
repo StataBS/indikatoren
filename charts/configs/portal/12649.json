@@ -1,0 +1,344 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "2010",
+          48.879496
+        ],
+        [
+          "2012",
+          45.526669
+        ],
+        [
+          "2014",
+          45.543815
+        ],
+        [
+          "2016",
+          49.603041
+        ],
+        [
+          "2018",
+          47.092863
+        ],
+        [
+          "2020",
+          47.123719
+        ],
+        [
+          "2022",
+          53.242351
+        ]
+      ],
+      "name": "Stromverbrauch Friedmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2010",
+          4.094429
+        ],
+        [
+          "2012",
+          3.971273
+        ],
+        [
+          "2014",
+          3.735483
+        ],
+        [
+          "2016",
+          3.670181
+        ],
+        [
+          "2018",
+          3.58165
+        ],
+        [
+          "2020",
+          3.56853
+        ],
+        [
+          "2022",
+          3.150024
+        ]
+      ],
+      "name": "Stromverbrauch Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "2010",
+          14.274184
+        ],
+        [
+          "2012",
+          13.529241
+        ],
+        [
+          "2014",
+          12.93728
+        ],
+        [
+          "2016",
+          12.725933
+        ],
+        [
+          "2018",
+          12.578078
+        ],
+        [
+          "2020",
+          12.52035
+        ],
+        [
+          "2022",
+          11.461258
+        ]
+      ],
+      "name": "Stromverbrauch Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2010",
+          17.618352
+        ],
+        [
+          "2012",
+          46.2781
+        ],
+        [
+          "2014",
+          43.764027
+        ],
+        [
+          "2016",
+          50.761581
+        ],
+        [
+          "2018",
+          37.896438
+        ],
+        [
+          "2020",
+          37.248353
+        ],
+        [
+          "2022",
+          35.413446
+        ]
+      ],
+      "name": "Stromverbrauch Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          "2010",
+          7.7497
+        ],
+        [
+          "2012",
+          7.534004
+        ],
+        [
+          "2014",
+          7.992856
+        ],
+        [
+          "2016",
+          7.921633
+        ],
+        [
+          "2018",
+          7.867822
+        ],
+        [
+          "2020",
+          7.867822
+        ],
+        [
+          "2022",
+          7.260452
+        ]
+      ],
+      "name": "Stromverbrauch Pestalozzi",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12649"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "groupPadding": 0.2,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Stromverbrauch"
+  },
+  "subtitle": {
+    "text": "in Gigawattstunden (GWh), Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "width": 460,
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12649"
+  }
+}

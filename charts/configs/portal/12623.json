@@ -1,0 +1,1457 @@
+{
+  "series": [
+    {
+      "color": "#CD9C00",
+      "stacking": "normal",
+      "stack": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          2005,
+          299154
+        ],
+        [
+          2006,
+          283248
+        ],
+        [
+          2007,
+          162378
+        ],
+        [
+          2008,
+          251802
+        ],
+        [
+          2009,
+          410273
+        ],
+        [
+          2010,
+          269465
+        ],
+        [
+          2011,
+          177960
+        ],
+        [
+          2012,
+          413546
+        ],
+        [
+          2013,
+          205055
+        ],
+        [
+          2014,
+          392266
+        ],
+        [
+          2015,
+          488346
+        ],
+        [
+          2016,
+          447329
+        ],
+        [
+          2017,
+          598496
+        ],
+        [
+          2018,
+          795941
+        ],
+        [
+          2019,
+          639736
+        ],
+        [
+          2020,
+          334846
+        ],
+        [
+          2021,
+          637764
+        ]
+      ],
+      "name": "Zugezogene Friedmattviertel"
+    },
+    {
+      "color": "#7F5F1A",
+      "stacking": "normal",
+      "stack": 0,
+      "legendIndex": 1,
+      "data": [
+        [
+          2005,
+          -396062
+        ],
+        [
+          2006,
+          -434362
+        ],
+        [
+          2007,
+          -426281
+        ],
+        [
+          2008,
+          -1881376
+        ],
+        [
+          2009,
+          -398899
+        ],
+        [
+          2010,
+          -341923
+        ],
+        [
+          2011,
+          -650631
+        ],
+        [
+          2012,
+          -551113
+        ],
+        [
+          2013,
+          -427627
+        ],
+        [
+          2014,
+          -411259
+        ],
+        [
+          2015,
+          -305969
+        ],
+        [
+          2016,
+          -599811
+        ],
+        [
+          2017,
+          -490286
+        ],
+        [
+          2018,
+          -373008
+        ],
+        [
+          2019,
+          -432873
+        ],
+        [
+          2020,
+          -484054
+        ],
+        [
+          2021,
+          -363841
+        ]
+      ],
+      "name": "Weggezogene Friedmattviertel"
+    },
+    {
+      "color": "#DC440E",
+      "stacking": "normal",
+      "stack": 1,
+      "legendIndex": 3,
+      "data": [
+        [
+          2005,
+          239297
+        ],
+        [
+          2006,
+          385161
+        ],
+        [
+          2007,
+          306012
+        ],
+        [
+          2008,
+          426257
+        ],
+        [
+          2009,
+          360027
+        ],
+        [
+          2010,
+          324966
+        ],
+        [
+          2011,
+          323017
+        ],
+        [
+          2012,
+          660585
+        ],
+        [
+          2013,
+          563571
+        ],
+        [
+          2014,
+          327400
+        ],
+        [
+          2015,
+          320927
+        ],
+        [
+          2016,
+          523255
+        ],
+        [
+          2017,
+          435962
+        ],
+        [
+          2018,
+          473894
+        ],
+        [
+          2019,
+          372419
+        ],
+        [
+          2020,
+          380316
+        ],
+        [
+          2021,
+          371493
+        ]
+      ],
+      "name": "Zugezogene Kannenfeld"
+    },
+    {
+      "color": "#661200",
+      "stacking": "normal",
+      "stack": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          2005,
+          -310652
+        ],
+        [
+          2006,
+          -305809
+        ],
+        [
+          2007,
+          -345069
+        ],
+        [
+          2008,
+          -336523
+        ],
+        [
+          2009,
+          -428445
+        ],
+        [
+          2010,
+          -226818
+        ],
+        [
+          2011,
+          -293854
+        ],
+        [
+          2012,
+          -195318
+        ],
+        [
+          2013,
+          -304127
+        ],
+        [
+          2014,
+          -494451
+        ],
+        [
+          2015,
+          -297815
+        ],
+        [
+          2016,
+          -398145
+        ],
+        [
+          2017,
+          -315668
+        ],
+        [
+          2018,
+          -465145
+        ],
+        [
+          2019,
+          -564549
+        ],
+        [
+          2020,
+          -260508
+        ],
+        [
+          2021,
+          -381945
+        ]
+      ],
+      "name": "Weggezogene Kannenfeld"
+    },
+    {
+      "color": "#B375AB",
+      "stacking": "normal",
+      "stack": 2,
+      "legendIndex": 6,
+      "data": [
+        [
+          2005,
+          870496
+        ],
+        [
+          2006,
+          781155
+        ],
+        [
+          2007,
+          852374
+        ],
+        [
+          2008,
+          738250
+        ],
+        [
+          2009,
+          771848
+        ],
+        [
+          2010,
+          1112464
+        ],
+        [
+          2011,
+          996744
+        ],
+        [
+          2012,
+          1208010
+        ],
+        [
+          2013,
+          1142410
+        ],
+        [
+          2014,
+          958423
+        ],
+        [
+          2015,
+          909865
+        ],
+        [
+          2016,
+          1303909
+        ],
+        [
+          2017,
+          1099298
+        ],
+        [
+          2018,
+          1104870
+        ],
+        [
+          2019,
+          1148156
+        ],
+        [
+          2020,
+          1247217
+        ],
+        [
+          2021,
+          1261408
+        ]
+      ],
+      "name": "Zugezogene Landskron"
+    },
+    {
+      "color": "#662673",
+      "stacking": "normal",
+      "stack": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          2005,
+          -1010188
+        ],
+        [
+          2006,
+          -845228
+        ],
+        [
+          2007,
+          -766187
+        ],
+        [
+          2008,
+          -753755
+        ],
+        [
+          2009,
+          -709053
+        ],
+        [
+          2010,
+          -818794
+        ],
+        [
+          2011,
+          -824111
+        ],
+        [
+          2012,
+          -680474
+        ],
+        [
+          2013,
+          -882407
+        ],
+        [
+          2014,
+          -876129
+        ],
+        [
+          2015,
+          -927016
+        ],
+        [
+          2016,
+          -1135091
+        ],
+        [
+          2017,
+          -1549301
+        ],
+        [
+          2018,
+          -925165
+        ],
+        [
+          2019,
+          -1060897
+        ],
+        [
+          2020,
+          -1060588
+        ],
+        [
+          2021,
+          -744791
+        ]
+      ],
+      "name": "Weggezogene Landskron"
+    },
+    {
+      "color": "#A8C3CA",
+      "stacking": "normal",
+      "stack": 3,
+      "legendIndex": 9,
+      "data": [
+        [
+          2005,
+          168834
+        ],
+        [
+          2006,
+          132058
+        ],
+        [
+          2007,
+          256352
+        ],
+        [
+          2008,
+          277904
+        ],
+        [
+          2009,
+          277177
+        ],
+        [
+          2010,
+          704312
+        ],
+        [
+          2011,
+          699700
+        ],
+        [
+          2012,
+          453991
+        ],
+        [
+          2013,
+          751259
+        ],
+        [
+          2014,
+          664367
+        ],
+        [
+          2015,
+          835021
+        ],
+        [
+          2016,
+          881337
+        ],
+        [
+          2017,
+          337635
+        ],
+        [
+          2018,
+          394847
+        ],
+        [
+          2019,
+          995927
+        ],
+        [
+          2020,
+          487207
+        ],
+        [
+          2021,
+          539941
+        ]
+      ],
+      "name": "Zugezogene Lysbüchel"
+    },
+    {
+      "color": "#246370",
+      "stacking": "normal",
+      "stack": 3,
+      "legendIndex": 10,
+      "data": [
+        [
+          2005,
+          -326242
+        ],
+        [
+          2006,
+          -206887
+        ],
+        [
+          2007,
+          -161035
+        ],
+        [
+          2008,
+          -129948
+        ],
+        [
+          2009,
+          -154133
+        ],
+        [
+          2010,
+          -176056
+        ],
+        [
+          2011,
+          -361091
+        ],
+        [
+          2012,
+          -279377
+        ],
+        [
+          2013,
+          -359380
+        ],
+        [
+          2014,
+          -397181
+        ],
+        [
+          2015,
+          -434851
+        ],
+        [
+          2016,
+          -638145
+        ],
+        [
+          2017,
+          -530442
+        ],
+        [
+          2018,
+          -453185
+        ],
+        [
+          2019,
+          -251898
+        ],
+        [
+          2020,
+          -487795
+        ],
+        [
+          2021,
+          -871916
+        ]
+      ],
+      "name": "Weggezogene Lysbüchel"
+    },
+    {
+      "color": "#C4AB91",
+      "stacking": "normal",
+      "stack": 4,
+      "legendIndex": 12,
+      "data": [
+        [
+          2005,
+          594243
+        ],
+        [
+          2006,
+          677962
+        ],
+        [
+          2007,
+          909067
+        ],
+        [
+          2008,
+          846107
+        ],
+        [
+          2009,
+          868508
+        ],
+        [
+          2010,
+          816967
+        ],
+        [
+          2011,
+          970693
+        ],
+        [
+          2012,
+          1055704
+        ],
+        [
+          2013,
+          1056529
+        ],
+        [
+          2014,
+          788123
+        ],
+        [
+          2015,
+          1012969
+        ],
+        [
+          2016,
+          1002474
+        ],
+        [
+          2017,
+          883527
+        ],
+        [
+          2018,
+          1226478
+        ],
+        [
+          2019,
+          936797
+        ],
+        [
+          2020,
+          845168
+        ],
+        [
+          2021,
+          1099135
+        ]
+      ],
+      "name": "Zugezogene Pestalozzi"
+    },
+    {
+      "color": "#67401E",
+      "stacking": "normal",
+      "stack": 4,
+      "legendIndex": 13,
+      "data": [
+        [
+          2005,
+          -784372
+        ],
+        [
+          2006,
+          -920131
+        ],
+        [
+          2007,
+          -694445
+        ],
+        [
+          2008,
+          -767421
+        ],
+        [
+          2009,
+          -591374
+        ],
+        [
+          2010,
+          -566028
+        ],
+        [
+          2011,
+          -531326
+        ],
+        [
+          2012,
+          -711756
+        ],
+        [
+          2013,
+          -824404
+        ],
+        [
+          2014,
+          -659971
+        ],
+        [
+          2015,
+          -595872
+        ],
+        [
+          2016,
+          -966144
+        ],
+        [
+          2017,
+          -630062
+        ],
+        [
+          2018,
+          -651049
+        ],
+        [
+          2019,
+          -896257
+        ],
+        [
+          2020,
+          -911073
+        ],
+        [
+          2021,
+          -857399
+        ]
+      ],
+      "name": "Weggezogene Pestalozzi"
+    },
+    {
+      "color": "#fabd24",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 2,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": -0.235,
+      "zIndex": 5,
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -96908
+        ],
+        [
+          2006,
+          -151114
+        ],
+        [
+          2007,
+          -263903
+        ],
+        [
+          2008,
+          -1629574
+        ],
+        [
+          2009,
+          11374
+        ],
+        [
+          2010,
+          -72458
+        ],
+        [
+          2011,
+          -472671
+        ],
+        [
+          2012,
+          -137567
+        ],
+        [
+          2013,
+          -222572
+        ],
+        [
+          2014,
+          -18993
+        ],
+        [
+          2015,
+          182377
+        ],
+        [
+          2016,
+          -152482
+        ],
+        [
+          2017,
+          108210
+        ],
+        [
+          2018,
+          422933
+        ],
+        [
+          2019,
+          206863
+        ],
+        [
+          2020,
+          -149208
+        ],
+        [
+          2021,
+          273923
+        ]
+      ],
+      "name": "Saldo Friedmattviertel"
+    },
+    {
+      "color": "#FF8028",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 5,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": -0.11,
+      "zIndex": 4,
+      "tooltip": {
+        "shared": true
+      },
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -71355
+        ],
+        [
+          2006,
+          79352
+        ],
+        [
+          2007,
+          -39057
+        ],
+        [
+          2008,
+          89734
+        ],
+        [
+          2009,
+          -68418
+        ],
+        [
+          2010,
+          98148
+        ],
+        [
+          2011,
+          29163
+        ],
+        [
+          2012,
+          465267
+        ],
+        [
+          2013,
+          259444
+        ],
+        [
+          2014,
+          -167051
+        ],
+        [
+          2015,
+          23112
+        ],
+        [
+          2016,
+          125110
+        ],
+        [
+          2017,
+          120294
+        ],
+        [
+          2018,
+          8749
+        ],
+        [
+          2019,
+          -192130
+        ],
+        [
+          2020,
+          119808
+        ],
+        [
+          2021,
+          -10452
+        ]
+      ],
+      "name": "Saldo Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 8,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": 0.005,
+      "zIndex": 3,
+      "tooltip": {
+        "shared": true
+      },
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -139692
+        ],
+        [
+          2006,
+          -64073
+        ],
+        [
+          2007,
+          86187
+        ],
+        [
+          2008,
+          -15505
+        ],
+        [
+          2009,
+          62795
+        ],
+        [
+          2010,
+          293670
+        ],
+        [
+          2011,
+          172633
+        ],
+        [
+          2012,
+          527536
+        ],
+        [
+          2013,
+          260003
+        ],
+        [
+          2014,
+          82294
+        ],
+        [
+          2015,
+          -17151
+        ],
+        [
+          2016,
+          168818
+        ],
+        [
+          2017,
+          -450003
+        ],
+        [
+          2018,
+          179705
+        ],
+        [
+          2019,
+          87259
+        ],
+        [
+          2020,
+          186629
+        ],
+        [
+          2021,
+          516617
+        ]
+      ],
+      "name": "Saldo Landskron"
+    },
+    {
+      "color": "#689199",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 11,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": 0.12,
+      "zIndex": 2,
+      "tooltip": {
+        "shared": true
+      },
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -157408
+        ],
+        [
+          2006,
+          -74829
+        ],
+        [
+          2007,
+          95317
+        ],
+        [
+          2008,
+          147956
+        ],
+        [
+          2009,
+          123044
+        ],
+        [
+          2010,
+          528256
+        ],
+        [
+          2011,
+          338609
+        ],
+        [
+          2012,
+          174614
+        ],
+        [
+          2013,
+          391879
+        ],
+        [
+          2014,
+          267186
+        ],
+        [
+          2015,
+          400170
+        ],
+        [
+          2016,
+          243192
+        ],
+        [
+          2017,
+          -192807
+        ],
+        [
+          2018,
+          -58338
+        ],
+        [
+          2019,
+          744029
+        ],
+        [
+          2020,
+          -588
+        ],
+        [
+          2021,
+          -331975
+        ]
+      ],
+      "name": "Saldo Lysbüchel"
+    },
+    {
+      "color": "#9E7C59",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 14,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": 0.25,
+      "zIndex": 1,
+      "tooltip": {
+        "shared": true
+      },
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -190129
+        ],
+        [
+          2006,
+          -242169
+        ],
+        [
+          2007,
+          214622
+        ],
+        [
+          2008,
+          78686
+        ],
+        [
+          2009,
+          277134
+        ],
+        [
+          2010,
+          250939
+        ],
+        [
+          2011,
+          439367
+        ],
+        [
+          2012,
+          343948
+        ],
+        [
+          2013,
+          232125
+        ],
+        [
+          2014,
+          128152
+        ],
+        [
+          2015,
+          417097
+        ],
+        [
+          2016,
+          36330
+        ],
+        [
+          2017,
+          253465
+        ],
+        [
+          2018,
+          575429
+        ],
+        [
+          2019,
+          40540
+        ],
+        [
+          2020,
+          -65905
+        ],
+        [
+          2021,
+          241736
+        ]
+      ],
+      "name": "Saldo Pestalozzi"
+    }
+  ],
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 2018
+          });
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
+                + ':<br>'
+                + this.series[3].name.split(" ").slice(-1).toString() //Kannenfeld
+                + ':<br>'
+                + this.series[5].name.split(" ").slice(-1).toString() //Landskron
+                + ':<br>'
+                + this.series[7].name.split(" ").slice(-1).toString() //Lysbüchel
+                + ':<br>'
+                + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
+                + ':'
+            })
+            .translate(-65, 93); //move -x to the left and +y down
+        }
+    },
+    "renderTo": "container-12623"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": true
+      },
+      "borderWidth": 0,
+      "showInNavigator": true
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Steuerertrag durch Zu- und Wegzüger"
+  },
+  "subtitle": {
+    "text": "in Franken, Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": -1900000,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 250000,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B6CFD7",
+        "width": 2,
+        "zIndex": 0
+      }
+    ]
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemMarginBottom": 5,
+    "x": 130,
+    "y": -100,
+    "itemWidth": 115,
+    "itemDistance": 3,
+    "width": 400,
+    "title": {
+      "text": "-\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "stacking": "normal",
+      "pointRange": null
+    },
+    "xAxis": {
+      "max": 2021.1,
+      "tickPositioner": function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        },
+      "labels": {
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "x": -3,
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "12623"
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "type": "column",
+      "legendIndex": 5,
+      "index": 9,
+      "data": [
+        [
+          2021,
+          0.3659
+        ],
+        [
+          2022,
+          0.34759
+        ],
+        [
+          2023,
+          0.33218
+        ]
+      ],
+      "name": "PW pro Haushalt Pestalozzi"
+    },
+    {
+      "color": "#9E7C59",
+      "yAxis": 1,
+      "legendIndex": 11,
+      "index": 10,
+      "data": [
+        [
+          2021,
+          197.573
+        ],
+        [
+          2022,
+          187.32
+        ],
+        [
+          2023,
+          177.86
+        ]
+      ],
+      "name": "Motorisierungsgrad Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "type": "column",
+      "legendIndex": 2,
+      "index": 3,
+      "data": [
+        [
+          2021,
+          0.41496
+        ],
+        [
+          2022,
+          0.40676
+        ],
+        [
+          2023,
+          0.41079
+        ]
+      ],
+      "name": "PW pro Haushalt Kannenfeld"
+    },
+    {
+      "color": "#FF8028",
+      "yAxis": 1,
+      "legendIndex": 8,
+      "index": 4,
+      "data": [
+        [
+          2021,
+          209.736
+        ],
+        [
+          2022,
+          201.318
+        ],
+        [
+          2023,
+          204.229
+        ]
+      ],
+      "name": "Motorisierungsgrad Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "type": "column",
+      "legendIndex": 3,
+      "index": 5,
+      "data": [
+        [
+          2021,
+          0.37036
+        ],
+        [
+          2022,
+          0.36189
+        ],
+        [
+          2023,
+          0.35599
+        ]
+      ],
+      "name": "PW pro Haushalt Landskron"
+    },
+    {
+      "color": "#923F8D",
+      "yAxis": 1,
+      "legendIndex": 9,
+      "index": 6,
+      "data": [
+        [
+          2021,
+          193.266
+        ],
+        [
+          2022,
+          186.739
+        ],
+        [
+          2023,
+          178.571
+        ]
+      ],
+      "name": "Motorisierungsgrad Landskron"
+    },
+    {
+      "color": "#689199",
+      "type": "column",
+      "legendIndex": 4,
+      "index": 7,
+      "data": [
+        [
+          2021,
+          0.4511
+        ],
+        [
+          2022,
+          0.39072
+        ],
+        [
+          2023,
+          0.36798
+        ]
+      ],
+      "name": "PW pro Haushalt Lysbüchel"
+    },
+    {
+      "color": "#689199",
+      "yAxis": 1,
+      "legendIndex": 10,
+      "index": 8,
+      "data": [
+        [
+          2021,
+          205.953
+        ],
+        [
+          2022,
+          175.958
+        ],
+        [
+          2023,
+          164.543
+        ]
+      ],
+      "name": "Motorisierungsgrad Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "type": "column",
+      "legendIndex": 1,
+      "index": 1,
+      "data": [
+        [
+          2021,
+          0.5776
+        ],
+        [
+          2022,
+          0.55291
+        ],
+        [
+          2023,
+          0.57434
+        ]
+      ],
+      "name": "PW pro Haushalt Friedmatt"
+    },
+    {
+      "color": "#FABD24",
+      "yAxis": 1,
+      "legendIndex": 7,
+      "index": 2,
+      "data": [
+        [
+          2021,
+          230.284
+        ],
+        [
+          2022,
+          219.175
+        ],
+        [
+          2023,
+          225.04
+        ]
+      ],
+      "name": "Motorisierungsgrad Friedmatt"
+    },
+    {
+      "color": "#8A8A8A",
+      "type": "column",
+      "legendIndex": 6,
+      "index": 11,
+      "data": [
+        [
+          2021,
+          0.45968
+        ],
+        [
+          2022,
+          0.45142
+        ],
+        [
+          2023,
+          0.44616
+        ]
+      ],
+      "name": "PW pro Haushalt Stadt Basel"
+    },
+    {
+      "color": "#8A8A8A",
+      "yAxis": 1,
+      "legendIndex": 12,
+      "index": 12,
+      "data": [
+        [
+          2021,
+          233.759
+        ],
+        [
+          2022,
+          227.295
+        ],
+        [
+          2023,
+          224.19
+        ]
+      ],
+      "name": "Motorisierungsgrad Stadt Basel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //move legend title
+          var title = this.legend.title.translate(-113, 75);
+        }
+    },
+    "renderTo": "container-12650"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Personenwagen pro Haushalt, Motorisierungsgrad"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "useHTML": true,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "alignColumns": true,
+    "useHTML": true,
+    "y": -75,
+    "x": 30,
+    "itemMarginBottom": 3,
+    "width": 350,
+    "itemWidth": 100,
+    "labelFormatter": function () {
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
+        //return this.name.slice(-4); //return last 4 letters
+        return this.name.split(" ").pop().replace('Basel', 'Stadt Basel'); //return only last word of legend-title
+      },
+    "title": {
+      "text": "PW pro Haushalt:\u003Cbr\u002F\u003E\u003Cbr\u002F\u003EMotorisierungsgrad:\u003Cbr\u003E(rechte Skala)",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 1.4
+      }
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12650"
+  }
+}

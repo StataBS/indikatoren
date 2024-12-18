@@ -1,11 +1,10 @@
-/*  
-	global Highcharts
-	global geojson_wohnviertelEPSG2056 
-	global $
-*/
 (function () {
-
 	return {
+		plotOptions:{
+			series: {
+				color: '#eaeaea',
+			}
+		},
 		"legend": {
 			useHTML: false,
 			"title": {
@@ -16,36 +15,38 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -136,
-			"y": -25,
+			"y": -50,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
 		colorAxis: {
 			dataClassColor: 'category',
-			dataClasses: [{
-				from: 0,
+			dataClasses: [/*{
+				//from: 0,
+				to: 0,
+				color: '#dadada',
+				name: "0"
+			}, */{
+				from: 0.000000000001,
+				to: 0.9,
+				color: '#FABD24',
+				name: "0,01 − 0,99"
+			}, {
+				from: 1,
+				to: 1.99,
+				color: '#CD9C00',
+				name: "1,00 − 1,99"
+			/*
+			}, {
+				from: 2.0,
 				to: 2.99,
-				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> < <span style='color: rgba(0,0,0,0)'>1</span>3,0"
+				color: '#7F5F1A',
+				name: "2,00 − 2,99"
+				*/
 			}, {
-				from: 3.0,
-				to: 6.99,
-				color: '#73B97C',
-				name: "<span style='color: rgba(0,0,0,0)'>1</span>3,0 − <span style='color: rgba(0,0,0,0)'>1</span>6,9"
-			}, {
-				from: 7.0,
-				to: 11.99,
-				color: '#68AB2B',
-				name: "<span style='color: rgba(0,0,0,0)'>1</span>7,0 − <span style='color: rgba(0,0,0,0)'></span>11,9"
-			}, {
-				from: 12.0,
-				to: 15.99,
-				color: '#007A2F',
-				name: "12,0 − 15,9"
-			}, {
-				from: 16.0,
-				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> ≥ 16,0"
+				from: 2.00,
+				color: '#45381D',
+				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 2,00"
 			}],
 		},
 		"data": {
@@ -58,6 +59,10 @@
 					y: 3
 				}
 			]
+		},
+		tooltip:{
+			useHTML: true,
+			outside: true
 		},
 		"series": [
 			{
@@ -77,7 +82,7 @@
 				tooltip: {
 					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 2) + '%</b><br/>';
 					}
 				}
 			},
@@ -106,20 +111,20 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: "< <span style='color: rgba(0,0,0,0)'>1 </span>300",
+								name: "< <span style='color: rgba(0,0,0,0)'>1 </span>50",
 								from: 0,
-								to: 299,
+								to: 49.9999,
 								diameter: 5
 							},
 							{
-								name: "300 − 1 299",
-								from: 300,
-								to: 1299,
+								name: "50 − 99",
+								from: 50,
+								to: 99,
 								diameter: 10
 							},
 							{
-								name: "≥ 1 300",
-								from: 1300,
+								name: "≥ 100",
+								from: 100,
 								to: 1000000000,
 								diameter: 20
 							}

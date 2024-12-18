@@ -1222,7 +1222,7 @@ id | visible | visibleInPortal | indikatorenset
 7698 | true | true | Stadtteilmonitoring Rosental
 7699 | true | true | Stadtteilmonitoring Rosental
 7700 | true | true | Stadtteilmonitoring Rosental
-7701 | true | true | Stadtteilmonitoring Rosental
+7701 | true | false | Stadtteilmonitoring Rosental
 7703 | false |  | Stadtteilmonitoring Rosental
 7704 | true | true | Stadtteilmonitoring Rosental
 7705 | true | true | Stadtteilmonitoring Rosental

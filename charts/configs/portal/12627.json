@@ -1,0 +1,270 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#83522E",
+      "data": [
+        [
+          2002,
+          1.94
+        ],
+        [
+          2003,
+          1.8
+        ],
+        [
+          2004,
+          2
+        ],
+        [
+          2005,
+          1.95
+        ],
+        [
+          2006,
+          1.76
+        ],
+        [
+          2007,
+          1.62
+        ],
+        [
+          2008,
+          1.4
+        ],
+        [
+          2009,
+          0.98
+        ],
+        [
+          2010,
+          1.02
+        ],
+        [
+          2011,
+          0.62
+        ],
+        [
+          2012,
+          0.36
+        ],
+        [
+          2013,
+          0.24
+        ],
+        [
+          2014,
+          0.19
+        ],
+        [
+          2015,
+          0.17
+        ],
+        [
+          2016,
+          0.19
+        ],
+        [
+          2017,
+          0.38
+        ],
+        [
+          2018,
+          0.81
+        ],
+        [
+          2019,
+          0.84
+        ],
+        [
+          2020,
+          0.91
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          1.18
+        ],
+        [
+          2023,
+          0.92
+        ],
+        [
+          2024,
+          0.79
+        ]
+      ],
+      "name": "Leerwohnungsquote in %"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12627"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Leerwohnungsquote"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 2
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}%"
+    },
+    "tickInterval": 0.5,
+    "max": 2.5
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' 
+        + this.series.name.replace(' in %', '') 
+        + ': <b>' + Highcharts.numberFormat(this.y, 2) + '%</b><br/>';
+      }
+  },
+  "exporting": {
+    "filename": "12627"
+  }
+}

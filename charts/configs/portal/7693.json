@@ -18,8 +18,8 @@
           0.72466
         ],
         [
-          "2016-2020",
-          0.69845
+          "2018-2022",
+          0.66749
         ]
       ],
       "name": "Rosental",
@@ -36,18 +36,18 @@
       "data": [
         {
           "name": "1990",
-          "low": null,
-          "high": null
+          "low": ".",
+          "high": "."
         },
         {
           "name": "2000",
-          "low": null,
-          "high": null
+          "low": ".",
+          "high": "."
         },
         {
-          "name": "2016-2020",
-          "low": 0.64677,
-          "high": 0.75014
+          "name": "2018-2022",
+          "low": 0.61487,
+          "high": 0.72012
         }
       ],
       "name": "Rosental 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.72436
         ],
         [
-          "2016-2020",
-          0.7506
+          "2018-2022",
+          0.74009
         ]
       ],
       "name": "Basel",
@@ -89,18 +89,18 @@
       "data": [
         {
           "name": "1990",
-          "low": null,
-          "high": null
+          "low": ".",
+          "high": "."
         },
         {
           "name": "2000",
-          "low": null,
-          "high": null
+          "low": ".",
+          "high": "."
         },
         {
-          "name": "2016-2020",
-          "low": 0.74134,
-          "high": 0.75987
+          "name": "2018-2022",
+          "low": 0.73058,
+          "high": 0.7496
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

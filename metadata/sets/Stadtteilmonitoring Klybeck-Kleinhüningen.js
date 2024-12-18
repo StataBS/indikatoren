@@ -1103,8 +1103,8 @@ var indikatorensetData = [
 		],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Daten sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm. Nach 2020 haben sich die Werte nur leicht verändert.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -1128,7 +1128,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:30",
+		"aktualisierungsdatum": "2024-12-18T11:11:08",
 		"id": 8073
 	},
 	{
@@ -1611,91 +1611,89 @@ var indikatorensetData = [
 		"id": 8087
 	},
 	{
-		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07707",
-		"kuerzelKunde": "7.09",
-		"description": "Feinstaubbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 456 Personen 15,7% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20&nbsp;µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck lag die Belastung für alle Einwohner unter dem Grenzwert.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20&nbsp;µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10x10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8657"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Lufthygieneamt beider Basel"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/nojy' target = '_blank'>Feinstaub-Imissionen (PM10) 2015</a> im kantonalen Geoportal",
-			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
-			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
-		],
 		"data-id": 7707,
 		"chart-id": 7707,
 		"filter": "",
-		"id": 8088
-	},
-	{
-		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07708",
-		"kuerzelKunde": "7.10",
-		"description": "Stickoxidbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"parentId": null,
+		"children": [
+			8657
+		],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 lag für alle Personen in den Wohnvierteln Kleinhüningen und Klybeck die Feinstaub-Belastung an ihrem Wohnort unter dem Jahresgrenzwert. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07707",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.09",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 1 490 Personen 51,4% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck waren es 590 Personen (8,1%).",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
-		"template": "mappie001",
+		"orderKey": "07_00_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_010",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:39",
+		"id": 8088
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8658"
+			8658
 		],
-		"renderLink": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Kleinhüningen 140 Personen (5% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Im Wohnviertel Klybeck waren es 33 Personen (0,5%). Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/5WPK' target = '_blank'>Stickstoffdioxid-Immissionsbelastung 2015</a> im kantonalen Geoportal.",
 			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
 			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
 		],
-		"data-id": 7708,
-		"chart-id": 7708,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07708",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:40",
 		"id": 8089
 	},
 	{

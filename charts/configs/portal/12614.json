@@ -1,0 +1,804 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "legendIndex": 2,
+      "data": [
+        [
+          2000,
+          33.4609
+        ],
+        [
+          2001,
+          33.6436
+        ],
+        [
+          2002,
+          34.0934
+        ],
+        [
+          2003,
+          33.7106
+        ],
+        [
+          2004,
+          33.8223
+        ],
+        [
+          2005,
+          34.8315
+        ],
+        [
+          2006,
+          36.3787
+        ],
+        [
+          2007,
+          36.5468
+        ],
+        [
+          2008,
+          37.1691
+        ],
+        [
+          2009,
+          37.9919
+        ],
+        [
+          2010,
+          37.6312
+        ],
+        [
+          2011,
+          37.034
+        ],
+        [
+          2012,
+          37.04
+        ],
+        [
+          2013,
+          38.9496
+        ],
+        [
+          2014,
+          39.1594
+        ],
+        [
+          2015,
+          38.7524
+        ],
+        [
+          2016,
+          38.8874
+        ],
+        [
+          2017,
+          38.1159
+        ],
+        [
+          2018,
+          38.9283
+        ],
+        [
+          2019,
+          39.2006
+        ],
+        [
+          2020,
+          38.9006
+        ],
+        [
+          2021,
+          38.6572
+        ],
+        [
+          2022,
+          39.7568
+        ],
+        [
+          2023,
+          40.0424
+        ]
+      ],
+      "name": "Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 3,
+      "data": [
+        [
+          2000,
+          29.8121
+        ],
+        [
+          2001,
+          28.7551
+        ],
+        [
+          2002,
+          29.6794
+        ],
+        [
+          2003,
+          29.2463
+        ],
+        [
+          2004,
+          29.3221
+        ],
+        [
+          2005,
+          30.33
+        ],
+        [
+          2006,
+          30.5198
+        ],
+        [
+          2007,
+          31.0078
+        ],
+        [
+          2008,
+          31.4096
+        ],
+        [
+          2009,
+          32.2199
+        ],
+        [
+          2010,
+          32.0368
+        ],
+        [
+          2011,
+          33.4877
+        ],
+        [
+          2012,
+          34.5648
+        ],
+        [
+          2013,
+          34.507
+        ],
+        [
+          2014,
+          34.8919
+        ],
+        [
+          2015,
+          34.6824
+        ],
+        [
+          2016,
+          35.996
+        ],
+        [
+          2017,
+          35.7683
+        ],
+        [
+          2018,
+          36.781
+        ],
+        [
+          2019,
+          38.3864
+        ],
+        [
+          2020,
+          38.6673
+        ],
+        [
+          2021,
+          37.3963
+        ],
+        [
+          2022,
+          37.7993
+        ],
+        [
+          2023,
+          37.7754
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "legendIndex": 4,
+      "data": [
+        [
+          2000,
+          50.1794
+        ],
+        [
+          2001,
+          50.2833
+        ],
+        [
+          2002,
+          50.917
+        ],
+        [
+          2003,
+          51.8174
+        ],
+        [
+          2004,
+          51.7131
+        ],
+        [
+          2005,
+          51.0669
+        ],
+        [
+          2006,
+          50.9677
+        ],
+        [
+          2007,
+          49.1231
+        ],
+        [
+          2008,
+          49.1004
+        ],
+        [
+          2009,
+          49.7473
+        ],
+        [
+          2010,
+          49.1614
+        ],
+        [
+          2011,
+          49.4465
+        ],
+        [
+          2012,
+          48.9467
+        ],
+        [
+          2013,
+          49.5429
+        ],
+        [
+          2014,
+          49.1615
+        ],
+        [
+          2015,
+          48.6299
+        ],
+        [
+          2016,
+          48.2993
+        ],
+        [
+          2017,
+          47.6557
+        ],
+        [
+          2018,
+          47.8168
+        ],
+        [
+          2019,
+          47.3514
+        ],
+        [
+          2020,
+          47.7681
+        ],
+        [
+          2021,
+          46.7642
+        ],
+        [
+          2022,
+          47.6793
+        ],
+        [
+          2023,
+          48.0687
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "legendIndex": 5,
+      "data": [
+        [
+          2000,
+          62.8334
+        ],
+        [
+          2001,
+          60.983
+        ],
+        [
+          2002,
+          60.7673
+        ],
+        [
+          2003,
+          57.9794
+        ],
+        [
+          2004,
+          57.5777
+        ],
+        [
+          2005,
+          57.058
+        ],
+        [
+          2006,
+          57.3489
+        ],
+        [
+          2007,
+          56.0333
+        ],
+        [
+          2008,
+          53.0881
+        ],
+        [
+          2009,
+          54.47
+        ],
+        [
+          2010,
+          53.6438
+        ],
+        [
+          2011,
+          55.2965
+        ],
+        [
+          2012,
+          56.8447
+        ],
+        [
+          2013,
+          57.4137
+        ],
+        [
+          2014,
+          56.3025
+        ],
+        [
+          2015,
+          56.9126
+        ],
+        [
+          2016,
+          56.858
+        ],
+        [
+          2017,
+          56.952
+        ],
+        [
+          2018,
+          58.1967
+        ],
+        [
+          2019,
+          56.0396
+        ],
+        [
+          2020,
+          55.1442
+        ],
+        [
+          2021,
+          52.277
+        ],
+        [
+          2022,
+          49.9584
+        ],
+        [
+          2023,
+          48.3117
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 6,
+      "visible": true,
+      "data": [
+        [
+          2000,
+          26.807
+        ],
+        [
+          2001,
+          28.4873
+        ],
+        [
+          2002,
+          30.0844
+        ],
+        [
+          2003,
+          30.2236
+        ],
+        [
+          2004,
+          30.4922
+        ],
+        [
+          2005,
+          30.92
+        ],
+        [
+          2006,
+          31.6528
+        ],
+        [
+          2007,
+          31.6246
+        ],
+        [
+          2008,
+          32.0725
+        ],
+        [
+          2009,
+          32.5161
+        ],
+        [
+          2010,
+          33.2469
+        ],
+        [
+          2011,
+          33.6556
+        ],
+        [
+          2012,
+          35.0378
+        ],
+        [
+          2013,
+          36.0124
+        ],
+        [
+          2014,
+          36.4804
+        ],
+        [
+          2015,
+          35.6468
+        ],
+        [
+          2016,
+          35.6241
+        ],
+        [
+          2017,
+          35.8567
+        ],
+        [
+          2018,
+          36.1294
+        ],
+        [
+          2019,
+          36.1181
+        ],
+        [
+          2020,
+          35.2513
+        ],
+        [
+          2021,
+          34.6208
+        ],
+        [
+          2022,
+          35.4501
+        ],
+        [
+          2023,
+          36.2529
+        ]
+      ],
+      "name": "Friedmattviertel"
+    },
+    {
+      "color": "#8A8A8A",
+      "legendIndex": 1,
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2000,
+          29.4171
+        ],
+        [
+          2001,
+          29.8282
+        ],
+        [
+          2002,
+          30.6928
+        ],
+        [
+          2003,
+          31.2406
+        ],
+        [
+          2004,
+          31.7215
+        ],
+        [
+          2005,
+          32.2189
+        ],
+        [
+          2006,
+          32.9197
+        ],
+        [
+          2007,
+          32.9627
+        ],
+        [
+          2008,
+          33.3922
+        ],
+        [
+          2009,
+          34.1011
+        ],
+        [
+          2010,
+          34.1639
+        ],
+        [
+          2011,
+          34.8611
+        ],
+        [
+          2012,
+          35.3653
+        ],
+        [
+          2013,
+          36.0134
+        ],
+        [
+          2014,
+          36.3741
+        ],
+        [
+          2015,
+          36.636
+        ],
+        [
+          2016,
+          37.0133
+        ],
+        [
+          2017,
+          37.2626
+        ],
+        [
+          2018,
+          37.6829
+        ],
+        [
+          2019,
+          37.8004
+        ],
+        [
+          2020,
+          38.1908
+        ],
+        [
+          2021,
+          38.088
+        ],
+        [
+          2022,
+          39.1422
+        ],
+        [
+          2023,
+          39.6034
+        ]
+      ],
+      "name": "Stadt Basel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function() {
+              // `this` refers to the chart instance
+              this.series[4].update({
+                  name: "Friedmatt"
+              });
+    
+              this.credits.element.onclick = function () { };
+     
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }
+            }
+    },
+    "marginRight": 20,
+    "renderTo": "container-12614"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Ausländeranteil"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "alignColumns": true
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12614"
+  }
+}

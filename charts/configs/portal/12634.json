@@ -1,0 +1,316 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          8103
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2400
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1852
+        ],
+        [
+          "Gastronomie",
+          765
+        ],
+        [
+          "Gesundheitswesen",
+          2070
+        ],
+        [
+          "Lagerei",
+          1557
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1619
+        ],
+        [
+          "Heime",
+          1213
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1084
+        ],
+        [
+          "Sonstige Produktion",
+          1025
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          8025
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2514
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1981
+        ],
+        [
+          "Gastronomie",
+          1471
+        ],
+        [
+          "Gesundheitswesen",
+          2126
+        ],
+        [
+          "Lagerei",
+          1537
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1429
+        ],
+        [
+          "Heime",
+          1204
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1138
+        ],
+        [
+          "Sonstige Produktion",
+          1053
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          7883
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2742
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          2313
+        ],
+        [
+          "Gastronomie",
+          2306
+        ],
+        [
+          "Gesundheitswesen",
+          2146
+        ],
+        [
+          "Lagerei",
+          1692
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1383
+        ],
+        [
+          "Heime",
+          1268
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1232
+        ],
+        [
+          "Sonstige Produktion",
+          985
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function() {
+            return this.value.replace("/", "<br/>")
+            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
+        }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 50,
+    "marginLeft": 200,
+    "inverted": true,
+    "renderTo": "container-12634"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Beschäftigung nach ausgewählten Branchen"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "12634"
+  }
+}

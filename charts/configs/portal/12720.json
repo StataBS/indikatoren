@@ -1,0 +1,370 @@
+{
+  "series": [
+    {
+      "color": "#008ac3",
+      "stacking": "normal",
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -125
+        ],
+        [
+          "5-9",
+          -94
+        ],
+        [
+          "10-14",
+          -67
+        ],
+        [
+          "15-19",
+          -35
+        ],
+        [
+          "20-24",
+          -66
+        ],
+        [
+          "25-29",
+          -116
+        ],
+        [
+          "30-34",
+          -174
+        ],
+        [
+          "35-39",
+          -167
+        ],
+        [
+          "40-44",
+          -146
+        ],
+        [
+          "45-49",
+          -101
+        ],
+        [
+          "50-54",
+          -88
+        ],
+        [
+          "55-59",
+          -83
+        ],
+        [
+          "60-64",
+          -63
+        ],
+        [
+          "65-69",
+          -36
+        ],
+        [
+          "70-74",
+          -29
+        ],
+        [
+          "75-79",
+          -12
+        ],
+        [
+          "80-84",
+          -7
+        ],
+        [
+          "85-89",
+          -2
+        ],
+        [
+          "90-94",
+          -1
+        ],
+        [
+          "95 u.m.",
+          null
+        ]
+      ],
+      "name": "Männer Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "stacking": "normal",
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          100
+        ],
+        [
+          "5-9",
+          87
+        ],
+        [
+          "10-14",
+          65
+        ],
+        [
+          "15-19",
+          34
+        ],
+        [
+          "20-24",
+          73
+        ],
+        [
+          "25-29",
+          140
+        ],
+        [
+          "30-34",
+          175
+        ],
+        [
+          "35-39",
+          156
+        ],
+        [
+          "40-44",
+          124
+        ],
+        [
+          "45-49",
+          88
+        ],
+        [
+          "50-54",
+          52
+        ],
+        [
+          "55-59",
+          49
+        ],
+        [
+          "60-64",
+          57
+        ],
+        [
+          "65-69",
+          35
+        ],
+        [
+          "70-74",
+          19
+        ],
+        [
+          "75-79",
+          11
+        ],
+        [
+          "80-84",
+          13
+        ],
+        [
+          "85-89",
+          3
+        ],
+        [
+          "90-94",
+          2
+        ],
+        [
+          "95 u.m.",
+          null
+        ]
+      ],
+      "name": "Frauen Lysbüchel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                }
+                            }
+                        );
+                    };
+
+            // Friedmatt anstelle Friedmattviertel
+          this.series[0].update({
+            name: "Männer"
+        });
+        this.series[1].update({
+            name: "Frauen"
+        });
+                }
+    },
+    "marginRight": 15,
+    "marginBottom": 70,
+    "renderTo": "container-12720"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnbevölkerung nach Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Bezirk Lysbüchel, 2023",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "max": 2000,
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                },
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 145,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function (i, point) {
+                    var v = Math.sqrt(this.y * this.y); //make - to + again
+                    s += '<span style="color:' + point.series.color + '">\u25CF</span> ' + point.series.name + ': <b>' + v + '</b><br/>';
+                    sum += v;
+                });
+                // s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function(axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": "12720"
+  }
+}

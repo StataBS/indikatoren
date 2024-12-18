@@ -1,0 +1,405 @@
+{
+  "series": [
+    {
+      "colorByPoint": true,
+      "index": 0,
+      "color": "#73b97c",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr.</b><br/>';
+          }
+      },
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          20.644465
+        ],
+        [
+          "Altstadt Kleinbasel",
+          19.224171
+        ],
+        [
+          "Vorstädte",
+          19.051231
+        ],
+        [
+          "Am Ring",
+          18.920144
+        ],
+        [
+          "Rosental",
+          18.603638
+        ],
+        [
+          "St. Alban",
+          18.35742
+        ],
+        [
+          "Clara",
+          18.306883
+        ],
+        [
+          "St. Johann",
+          17.948198
+        ],
+        [
+          "Matthäus",
+          17.881759
+        ],
+        [
+          "Gundeldingen",
+          17.88101
+        ],
+        [
+          "Riehen\u002FBettingen",
+          17.800087
+        ],
+        [
+          "Gotthelf",
+          17.610366
+        ],
+        [
+          "Bachletten",
+          17.608302
+        ],
+        [
+          "Bruderholz",
+          17.428494
+        ],
+        [
+          "Wettstein",
+          17.346007
+        ],
+        [
+          "Breite",
+          17.256767
+        ],
+        [
+          "Kleinhüningen",
+          16.827789
+        ],
+        [
+          "Klybeck",
+          16.796024
+        ],
+        [
+          "Iselin",
+          16.744425
+        ],
+        [
+          "Hirzbrunnen",
+          16.319593
+        ]
+      ],
+      "name": "Quadratmeterpreis",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '(95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Fr.</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr.</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Altstadt Grossbasel",
+          "low": 18.9140737,
+          "high": 22.3748565
+        },
+        {
+          "name": "Altstadt Kleinbasel",
+          "low": 17.9856698,
+          "high": 20.4626717
+        },
+        {
+          "name": "Vorstädte",
+          "low": 18.1959001,
+          "high": 19.9065626
+        },
+        {
+          "name": "Am Ring",
+          "low": 18.3538067,
+          "high": 19.4864811
+        },
+        {
+          "name": "Rosental",
+          "low": 17.9918813,
+          "high": 19.2153938
+        },
+        {
+          "name": "St. Alban",
+          "low": 17.9079529,
+          "high": 18.8068868
+        },
+        {
+          "name": "Clara",
+          "low": 17.6913801,
+          "high": 18.9223859
+        },
+        {
+          "name": "St. Johann",
+          "low": 17.6607766,
+          "high": 18.2356185
+        },
+        {
+          "name": "Matthäus",
+          "low": 17.4999972,
+          "high": 18.2635202
+        },
+        {
+          "name": "Gundeldingen",
+          "low": 17.5862632,
+          "high": 18.1757564
+        },
+        {
+          "name": "Riehen\u002FBettingen",
+          "low": 17.4812638,
+          "high": 18.1189099
+        },
+        {
+          "name": "Gotthelf",
+          "low": 17.1289106,
+          "high": 18.0918206
+        },
+        {
+          "name": "Bachletten",
+          "low": 17.2132325,
+          "high": 18.0033713
+        },
+        {
+          "name": "Bruderholz",
+          "low": 16.7903422,
+          "high": 18.0666468
+        },
+        {
+          "name": "Wettstein",
+          "low": 16.6791213,
+          "high": 18.0128927
+        },
+        {
+          "name": "Breite",
+          "low": 16.8035152,
+          "high": 17.7100183
+        },
+        {
+          "name": "Kleinhüningen",
+          "low": 16.2040701,
+          "high": 17.4515074
+        },
+        {
+          "name": "Klybeck",
+          "low": 16.2774277,
+          "high": 17.3146194
+        },
+        {
+          "name": "Iselin",
+          "low": 16.4535631,
+          "high": 17.0352865
+        },
+        {
+          "name": "Hirzbrunnen",
+          "low": 15.9185109,
+          "high": 16.7206745
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "inverted": true,
+    "renderTo": "container-12628"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0,
+      "stickyTracking": false
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Nettomietpreise nach Wohnviertel"
+  },
+  "subtitle": {
+    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2018-2022",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
+    }
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "snap": 0,
+    "shared": true
+  },
+  "colors": [
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#007a2f",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c"
+  ],
+  "exporting": {
+    "filename": "12628"
+  }
+}

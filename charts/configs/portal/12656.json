@@ -1,0 +1,486 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2009,
+          27
+        ],
+        [
+          2010,
+          24
+        ],
+        [
+          2011,
+          26
+        ],
+        [
+          2012,
+          39
+        ],
+        [
+          2013,
+          28
+        ],
+        [
+          2014,
+          30
+        ],
+        [
+          2015,
+          24
+        ],
+        [
+          2016,
+          23
+        ],
+        [
+          2017,
+          38
+        ],
+        [
+          2018,
+          24
+        ],
+        [
+          2019,
+          13
+        ],
+        [
+          2020,
+          18
+        ],
+        [
+          2021,
+          34
+        ],
+        [
+          2022,
+          27
+        ]
+      ],
+      "name": "Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2009,
+          6
+        ],
+        [
+          2010,
+          2
+        ],
+        [
+          2011,
+          8
+        ],
+        [
+          2012,
+          16
+        ],
+        [
+          2013,
+          12
+        ],
+        [
+          2014,
+          9
+        ],
+        [
+          2015,
+          16
+        ],
+        [
+          2016,
+          16
+        ],
+        [
+          2017,
+          5
+        ],
+        [
+          2018,
+          9
+        ],
+        [
+          2019,
+          11
+        ],
+        [
+          2020,
+          2
+        ],
+        [
+          2021,
+          28
+        ],
+        [
+          2022,
+          16
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2009,
+          40
+        ],
+        [
+          2010,
+          22
+        ],
+        [
+          2011,
+          31
+        ],
+        [
+          2012,
+          67
+        ],
+        [
+          2013,
+          54
+        ],
+        [
+          2014,
+          34
+        ],
+        [
+          2015,
+          37
+        ],
+        [
+          2016,
+          57
+        ],
+        [
+          2017,
+          63
+        ],
+        [
+          2018,
+          30
+        ],
+        [
+          2019,
+          42
+        ],
+        [
+          2020,
+          29
+        ],
+        [
+          2021,
+          78
+        ],
+        [
+          2022,
+          29
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2009,
+          16
+        ],
+        [
+          2010,
+          43
+        ],
+        [
+          2011,
+          20
+        ],
+        [
+          2012,
+          54
+        ],
+        [
+          2013,
+          37
+        ],
+        [
+          2014,
+          24
+        ],
+        [
+          2015,
+          29
+        ],
+        [
+          2016,
+          36
+        ],
+        [
+          2017,
+          28
+        ],
+        [
+          2018,
+          14
+        ],
+        [
+          2019,
+          15
+        ],
+        [
+          2020,
+          12
+        ],
+        [
+          2021,
+          32
+        ],
+        [
+          2022,
+          35
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2009,
+          32
+        ],
+        [
+          2010,
+          26
+        ],
+        [
+          2011,
+          34
+        ],
+        [
+          2012,
+          45
+        ],
+        [
+          2013,
+          39
+        ],
+        [
+          2014,
+          42
+        ],
+        [
+          2015,
+          42
+        ],
+        [
+          2016,
+          42
+        ],
+        [
+          2017,
+          39
+        ],
+        [
+          2018,
+          31
+        ],
+        [
+          2019,
+          13
+        ],
+        [
+          2020,
+          18
+        ],
+        [
+          2021,
+          44
+        ],
+        [
+          2022,
+          35
+        ]
+      ],
+      "name": "Friedmattviertel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function() {
+          // `this` refers to the chart instance
+          this.series[4].update({
+              name: "Friedmatt"
+          });
+
+          this.credits.element.onclick = function () { };
+ 
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
+    },
+    "renderTo": "container-12656"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Einbruch- und Einschleichdiebstähle"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12656"
+  }
+}

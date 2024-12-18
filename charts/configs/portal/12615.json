@@ -1,0 +1,924 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          434
+        ],
+        [
+          "2021: Lysbüchel",
+          159
+        ],
+        [
+          "2021: Landskron",
+          519
+        ],
+        [
+          "2021: Kannenfeld",
+          193
+        ],
+        [
+          "2021: Friedmattviertel",
+          179
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          405
+        ],
+        [
+          "2022: Lysbüchel",
+          199
+        ],
+        [
+          "2022: Landskron",
+          541
+        ],
+        [
+          "2022: Kannenfeld",
+          172
+        ],
+        [
+          "2022: Friedmattviertel",
+          197
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          382
+        ],
+        [
+          "2023: Lysbüchel",
+          256
+        ],
+        [
+          "2023: Landskron",
+          543
+        ],
+        [
+          "2023: Kannenfeld",
+          175
+        ],
+        [
+          "2023: Friedmattviertel",
+          203
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          195
+        ],
+        [
+          "2021: Lysbüchel",
+          93
+        ],
+        [
+          "2021: Landskron",
+          357
+        ],
+        [
+          "2021: Kannenfeld",
+          78
+        ],
+        [
+          "2021: Friedmattviertel",
+          182
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          214
+        ],
+        [
+          "2022: Lysbüchel",
+          92
+        ],
+        [
+          "2022: Landskron",
+          330
+        ],
+        [
+          "2022: Kannenfeld",
+          89
+        ],
+        [
+          "2022: Friedmattviertel",
+          179
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          202
+        ],
+        [
+          "2023: Lysbüchel",
+          105
+        ],
+        [
+          "2023: Landskron",
+          348
+        ],
+        [
+          "2023: Kannenfeld",
+          90
+        ],
+        [
+          "2023: Friedmattviertel",
+          184
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          66
+        ],
+        [
+          "2021: Lysbüchel",
+          77
+        ],
+        [
+          "2021: Landskron",
+          271
+        ],
+        [
+          "2021: Kannenfeld",
+          30
+        ],
+        [
+          "2021: Friedmattviertel",
+          322
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          65
+        ],
+        [
+          "2022: Lysbüchel",
+          68
+        ],
+        [
+          "2022: Landskron",
+          256
+        ],
+        [
+          "2022: Kannenfeld",
+          36
+        ],
+        [
+          "2022: Friedmattviertel",
+          306
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          64
+        ],
+        [
+          "2023: Lysbüchel",
+          64
+        ],
+        [
+          "2023: Landskron",
+          238
+        ],
+        [
+          "2023: Kannenfeld",
+          33
+        ],
+        [
+          "2023: Friedmattviertel",
+          305
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          329
+        ],
+        [
+          "2021: Lysbüchel",
+          292
+        ],
+        [
+          "2021: Landskron",
+          731
+        ],
+        [
+          "2021: Kannenfeld",
+          183
+        ],
+        [
+          "2021: Friedmattviertel",
+          294
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          309
+        ],
+        [
+          "2022: Lysbüchel",
+          315
+        ],
+        [
+          "2022: Landskron",
+          763
+        ],
+        [
+          "2022: Kannenfeld",
+          170
+        ],
+        [
+          "2022: Friedmattviertel",
+          296
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          319
+        ],
+        [
+          "2023: Lysbüchel",
+          339
+        ],
+        [
+          "2023: Landskron",
+          731
+        ],
+        [
+          "2023: Kannenfeld",
+          159
+        ],
+        [
+          "2023: Friedmattviertel",
+          304
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          105
+        ],
+        [
+          "2021: Lysbüchel",
+          60
+        ],
+        [
+          "2021: Landskron",
+          231
+        ],
+        [
+          "2021: Kannenfeld",
+          64
+        ],
+        [
+          "2021: Friedmattviertel",
+          67
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          119
+        ],
+        [
+          "2022: Lysbüchel",
+          71
+        ],
+        [
+          "2022: Landskron",
+          238
+        ],
+        [
+          "2022: Kannenfeld",
+          63
+        ],
+        [
+          "2022: Friedmattviertel",
+          79
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          126
+        ],
+        [
+          "2023: Lysbüchel",
+          66
+        ],
+        [
+          "2023: Landskron",
+          231
+        ],
+        [
+          "2023: Kannenfeld",
+          63
+        ],
+        [
+          "2023: Friedmattviertel",
+          77
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          111
+        ],
+        [
+          "2021: Lysbüchel",
+          129
+        ],
+        [
+          "2021: Landskron",
+          427
+        ],
+        [
+          "2021: Kannenfeld",
+          41
+        ],
+        [
+          "2021: Friedmattviertel",
+          199
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          107
+        ],
+        [
+          "2022: Lysbüchel",
+          127
+        ],
+        [
+          "2022: Landskron",
+          430
+        ],
+        [
+          "2022: Kannenfeld",
+          41
+        ],
+        [
+          "2022: Friedmattviertel",
+          191
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          113
+        ],
+        [
+          "2023: Lysbüchel",
+          121
+        ],
+        [
+          "2023: Landskron",
+          401
+        ],
+        [
+          "2023: Kannenfeld",
+          41
+        ],
+        [
+          "2023: Friedmattviertel",
+          193
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          30
+        ],
+        [
+          "2021: Lysbüchel",
+          28
+        ],
+        [
+          "2021: Landskron",
+          104
+        ],
+        [
+          "2021: Kannenfeld",
+          16
+        ],
+        [
+          "2021: Friedmattviertel",
+          24
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          29
+        ],
+        [
+          "2022: Lysbüchel",
+          32
+        ],
+        [
+          "2022: Landskron",
+          92
+        ],
+        [
+          "2022: Kannenfeld",
+          15
+        ],
+        [
+          "2022: Friedmattviertel",
+          27
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          29
+        ],
+        [
+          "2023: Lysbüchel",
+          34
+        ],
+        [
+          "2023: Landskron",
+          92
+        ],
+        [
+          "2023: Kannenfeld",
+          11
+        ],
+        [
+          "2023: Friedmattviertel",
+          33
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          11
+        ],
+        [
+          "2021: Lysbüchel",
+          22
+        ],
+        [
+          "2021: Landskron",
+          58
+        ],
+        [
+          "2021: Kannenfeld",
+          21
+        ],
+        [
+          "2021: Friedmattviertel",
+          53
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          13
+        ],
+        [
+          "2022: Lysbüchel",
+          25
+        ],
+        [
+          "2022: Landskron",
+          61
+        ],
+        [
+          "2022: Kannenfeld",
+          15
+        ],
+        [
+          "2022: Friedmattviertel",
+          52
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          14
+        ],
+        [
+          "2023: Lysbüchel",
+          35
+        ],
+        [
+          "2023: Landskron",
+          77
+        ],
+        [
+          "2023: Kannenfeld",
+          15
+        ],
+        [
+          "2023: Friedmattviertel",
+          58
+        ]
+      ],
+      "name": "Arabische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          30
+        ],
+        [
+          "2021: Lysbüchel",
+          41
+        ],
+        [
+          "2021: Landskron",
+          116
+        ],
+        [
+          "2021: Kannenfeld",
+          15
+        ],
+        [
+          "2021: Friedmattviertel",
+          44
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          36
+        ],
+        [
+          "2022: Lysbüchel",
+          51
+        ],
+        [
+          "2022: Landskron",
+          132
+        ],
+        [
+          "2022: Kannenfeld",
+          22
+        ],
+        [
+          "2022: Friedmattviertel",
+          47
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          35
+        ],
+        [
+          "2023: Lysbüchel",
+          53
+        ],
+        [
+          "2023: Landskron",
+          130
+        ],
+        [
+          "2023: Kannenfeld",
+          19
+        ],
+        [
+          "2023: Friedmattviertel",
+          60
+        ]
+      ],
+      "name": "Afrikanische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          163
+        ],
+        [
+          "2021: Lysbüchel",
+          201
+        ],
+        [
+          "2021: Landskron",
+          351
+        ],
+        [
+          "2021: Kannenfeld",
+          80
+        ],
+        [
+          "2021: Friedmattviertel",
+          106
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          207
+        ],
+        [
+          "2022: Lysbüchel",
+          220
+        ],
+        [
+          "2022: Landskron",
+          434
+        ],
+        [
+          "2022: Kannenfeld",
+          119
+        ],
+        [
+          "2022: Friedmattviertel",
+          150
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          226
+        ],
+        [
+          "2023: Lysbüchel",
+          229
+        ],
+        [
+          "2023: Landskron",
+          457
+        ],
+        [
+          "2023: Kannenfeld",
+          114
+        ],
+        [
+          "2023: Friedmattviertel",
+          160
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "11px"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-12615",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Ausländer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "itemMarginBottom": 7,
+    "labelFormatter": function () {
+        return this.name.replace('Länder', '<br>Länder').replace('Süd', '<br>Süd'); 
+      }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "12615"
+  }
+}

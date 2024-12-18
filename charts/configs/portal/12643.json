@@ -1,0 +1,407 @@
+{
+  "series": [
+    {
+      "color": "#67401E",
+      "data": [
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          2.3
+        ],
+        [
+          2013,
+          2.7
+        ],
+        [
+          2014,
+          3.1
+        ],
+        [
+          2015,
+          3.2
+        ],
+        [
+          2016,
+          3.5
+        ],
+        [
+          2017,
+          3.6
+        ],
+        [
+          2018,
+          3.5
+        ],
+        [
+          2019,
+          3.5
+        ],
+        [
+          2020,
+          3.6
+        ],
+        [
+          2021,
+          3.6
+        ],
+        [
+          2022,
+          3.3
+        ],
+        [
+          2023,
+          3.3
+        ]
+      ],
+      "name": "FAMI-Quote St. Johann"
+    },
+    {
+      "color": "#C4AB91",
+      "visible": true,
+      "data": [
+        [
+          2011,
+          17.3
+        ],
+        [
+          2012,
+          17.8
+        ],
+        [
+          2013,
+          18
+        ],
+        [
+          2014,
+          18.1
+        ],
+        [
+          2015,
+          17.8
+        ],
+        [
+          2016,
+          18.5
+        ],
+        [
+          2017,
+          18.7
+        ],
+        [
+          2018,
+          18.6
+        ],
+        [
+          2019,
+          20
+        ],
+        [
+          2020,
+          21.2
+        ],
+        [
+          2021,
+          21.6
+        ],
+        [
+          2022,
+          21
+        ],
+        [
+          2023,
+          20.9
+        ]
+      ],
+      "name": "PV-Quote St. Johann"
+    },
+    {
+      "color": "#67401E",
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2011,
+          1.3
+        ],
+        [
+          2012,
+          1.6
+        ],
+        [
+          2013,
+          1.8
+        ],
+        [
+          2014,
+          2
+        ],
+        [
+          2015,
+          2.1
+        ],
+        [
+          2016,
+          2.3
+        ],
+        [
+          2017,
+          2.4
+        ],
+        [
+          2018,
+          2.4
+        ],
+        [
+          2019,
+          2.4
+        ],
+        [
+          2020,
+          2.4
+        ],
+        [
+          2021,
+          2.3
+        ],
+        [
+          2022,
+          2.2
+        ],
+        [
+          2023,
+          2.2
+        ]
+      ],
+      "name": "FAMI-Quote Stadt Basel"
+    },
+    {
+      "color": "#C4AB91",
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2011,
+          14.2
+        ],
+        [
+          2012,
+          14.6
+        ],
+        [
+          2013,
+          14.7
+        ],
+        [
+          2014,
+          14.7
+        ],
+        [
+          2015,
+          14.2
+        ],
+        [
+          2016,
+          14.8
+        ],
+        [
+          2017,
+          15
+        ],
+        [
+          2018,
+          15.2
+        ],
+        [
+          2019,
+          16.6
+        ],
+        [
+          2020,
+          17
+        ],
+        [
+          2021,
+          17.2
+        ],
+        [
+          2022,
+          16.5
+        ],
+        [
+          2023,
+          16.2
+        ]
+      ],
+      "name": "PV-Quote Stadt Basel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 20,
+    "renderTo": "container-12643"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12643"
+  }
+}

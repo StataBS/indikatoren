@@ -1,0 +1,956 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2005,
+          55829
+        ],
+        [
+          2006,
+          56720
+        ],
+        [
+          2007,
+          58667
+        ],
+        [
+          2008,
+          54438
+        ],
+        [
+          2009,
+          54038
+        ],
+        [
+          2010,
+          54614
+        ],
+        [
+          2011,
+          55117
+        ],
+        [
+          2012,
+          56404
+        ],
+        [
+          2013,
+          56593
+        ],
+        [
+          2014,
+          56350
+        ],
+        [
+          2015,
+          56117
+        ],
+        [
+          2016,
+          54917
+        ],
+        [
+          2017,
+          55840
+        ],
+        [
+          2018,
+          56602
+        ],
+        [
+          2019,
+          57264
+        ],
+        [
+          2020,
+          57382
+        ],
+        [
+          2021,
+          57503
+        ]
+      ],
+      "name": "Mittelwert Friedmattviertel"
+    },
+    {
+      "color": "#FABD24",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2005,
+          46207.5
+        ],
+        [
+          2006,
+          46721.5
+        ],
+        [
+          2007,
+          47680
+        ],
+        [
+          2008,
+          44764.5
+        ],
+        [
+          2009,
+          44503.5
+        ],
+        [
+          2010,
+          44275
+        ],
+        [
+          2011,
+          44052
+        ],
+        [
+          2012,
+          45026.5
+        ],
+        [
+          2013,
+          44479
+        ],
+        [
+          2014,
+          43606
+        ],
+        [
+          2015,
+          44371
+        ],
+        [
+          2016,
+          42660
+        ],
+        [
+          2017,
+          43011
+        ],
+        [
+          2018,
+          43423
+        ],
+        [
+          2019,
+          43000
+        ],
+        [
+          2020,
+          42206
+        ],
+        [
+          2021,
+          43683
+        ]
+      ],
+      "name": "Median Friedmattviertel"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2005,
+          58437
+        ],
+        [
+          2006,
+          58106
+        ],
+        [
+          2007,
+          57293
+        ],
+        [
+          2008,
+          57637
+        ],
+        [
+          2009,
+          56846
+        ],
+        [
+          2010,
+          57537
+        ],
+        [
+          2011,
+          56995
+        ],
+        [
+          2012,
+          57993
+        ],
+        [
+          2013,
+          59536
+        ],
+        [
+          2014,
+          60195
+        ],
+        [
+          2015,
+          59641
+        ],
+        [
+          2016,
+          62042
+        ],
+        [
+          2017,
+          63662
+        ],
+        [
+          2018,
+          65621
+        ],
+        [
+          2019,
+          67364
+        ],
+        [
+          2020,
+          64448
+        ],
+        [
+          2021,
+          65377
+        ]
+      ],
+      "name": "Mittelwert Kannenfeld"
+    },
+    {
+      "color": "#FF8028",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2005,
+          49335
+        ],
+        [
+          2006,
+          48996
+        ],
+        [
+          2007,
+          48164
+        ],
+        [
+          2008,
+          46575.5
+        ],
+        [
+          2009,
+          47193.5
+        ],
+        [
+          2010,
+          46754
+        ],
+        [
+          2011,
+          47452.5
+        ],
+        [
+          2012,
+          47861
+        ],
+        [
+          2013,
+          48731
+        ],
+        [
+          2014,
+          47609
+        ],
+        [
+          2015,
+          47145.5
+        ],
+        [
+          2016,
+          48752
+        ],
+        [
+          2017,
+          48769.5
+        ],
+        [
+          2018,
+          47776
+        ],
+        [
+          2019,
+          48985
+        ],
+        [
+          2020,
+          49628
+        ],
+        [
+          2021,
+          49166.5
+        ]
+      ],
+      "name": "Median Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2005,
+          43098
+        ],
+        [
+          2006,
+          43000
+        ],
+        [
+          2007,
+          44475
+        ],
+        [
+          2008,
+          41994
+        ],
+        [
+          2009,
+          42015
+        ],
+        [
+          2010,
+          42263
+        ],
+        [
+          2011,
+          42074
+        ],
+        [
+          2012,
+          42282
+        ],
+        [
+          2013,
+          42940
+        ],
+        [
+          2014,
+          43383
+        ],
+        [
+          2015,
+          43548
+        ],
+        [
+          2016,
+          43554
+        ],
+        [
+          2017,
+          43545
+        ],
+        [
+          2018,
+          43664
+        ],
+        [
+          2019,
+          45344
+        ],
+        [
+          2020,
+          46597
+        ],
+        [
+          2021,
+          48535
+        ]
+      ],
+      "name": "Mittelwert Landskron"
+    },
+    {
+      "color": "#923F8D",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2005,
+          39450
+        ],
+        [
+          2006,
+          39450
+        ],
+        [
+          2007,
+          40919
+        ],
+        [
+          2008,
+          38792
+        ],
+        [
+          2009,
+          38312
+        ],
+        [
+          2010,
+          38125
+        ],
+        [
+          2011,
+          37057
+        ],
+        [
+          2012,
+          37293
+        ],
+        [
+          2013,
+          37636.5
+        ],
+        [
+          2014,
+          37275
+        ],
+        [
+          2015,
+          36907
+        ],
+        [
+          2016,
+          36564.5
+        ],
+        [
+          2017,
+          36402.5
+        ],
+        [
+          2018,
+          36947
+        ],
+        [
+          2019,
+          36883.5
+        ],
+        [
+          2020,
+          37963
+        ],
+        [
+          2021,
+          39469
+        ]
+      ],
+      "name": "Median Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2005,
+          38414
+        ],
+        [
+          2006,
+          38524
+        ],
+        [
+          2007,
+          40577
+        ],
+        [
+          2008,
+          39972
+        ],
+        [
+          2009,
+          40806
+        ],
+        [
+          2010,
+          46291
+        ],
+        [
+          2011,
+          49613
+        ],
+        [
+          2012,
+          51726
+        ],
+        [
+          2013,
+          57406
+        ],
+        [
+          2014,
+          59739
+        ],
+        [
+          2015,
+          64445
+        ],
+        [
+          2016,
+          65439
+        ],
+        [
+          2017,
+          63097
+        ],
+        [
+          2018,
+          67412
+        ],
+        [
+          2019,
+          64862
+        ],
+        [
+          2020,
+          64990
+        ],
+        [
+          2021,
+          63890
+        ]
+      ],
+      "name": "Mittelwert Lysbüchel"
+    },
+    {
+      "color": "#689199",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2005,
+          34787
+        ],
+        [
+          2006,
+          34907
+        ],
+        [
+          2007,
+          35801
+        ],
+        [
+          2008,
+          31757
+        ],
+        [
+          2009,
+          34606
+        ],
+        [
+          2010,
+          39721
+        ],
+        [
+          2011,
+          41874
+        ],
+        [
+          2012,
+          41860
+        ],
+        [
+          2013,
+          41629.5
+        ],
+        [
+          2014,
+          43439.5
+        ],
+        [
+          2015,
+          46717
+        ],
+        [
+          2016,
+          45124
+        ],
+        [
+          2017,
+          45529
+        ],
+        [
+          2018,
+          47289.5
+        ],
+        [
+          2019,
+          44554
+        ],
+        [
+          2020,
+          45234
+        ],
+        [
+          2021,
+          46420
+        ]
+      ],
+      "name": "Median Lysbüchel"
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2005,
+          47459
+        ],
+        [
+          2006,
+          48580
+        ],
+        [
+          2007,
+          49976
+        ],
+        [
+          2008,
+          48361
+        ],
+        [
+          2009,
+          49807
+        ],
+        [
+          2010,
+          50535
+        ],
+        [
+          2011,
+          50053
+        ],
+        [
+          2012,
+          50751
+        ],
+        [
+          2013,
+          52081
+        ],
+        [
+          2014,
+          54347
+        ],
+        [
+          2015,
+          54502
+        ],
+        [
+          2016,
+          54589
+        ],
+        [
+          2017,
+          56341
+        ],
+        [
+          2018,
+          58337
+        ],
+        [
+          2019,
+          57861
+        ],
+        [
+          2020,
+          59171
+        ],
+        [
+          2021,
+          60155
+        ]
+      ],
+      "name": "Mittelwert Pestalozzi"
+    },
+    {
+      "color": "#9E7C59",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2005,
+          43012
+        ],
+        [
+          2006,
+          43646
+        ],
+        [
+          2007,
+          44444.5
+        ],
+        [
+          2008,
+          42280
+        ],
+        [
+          2009,
+          43318.5
+        ],
+        [
+          2010,
+          43463
+        ],
+        [
+          2011,
+          43719.5
+        ],
+        [
+          2012,
+          44000
+        ],
+        [
+          2013,
+          44194
+        ],
+        [
+          2014,
+          45244
+        ],
+        [
+          2015,
+          46033
+        ],
+        [
+          2016,
+          45058
+        ],
+        [
+          2017,
+          46901
+        ],
+        [
+          2018,
+          47731
+        ],
+        [
+          2019,
+          47113.5
+        ],
+        [
+          2020,
+          46930
+        ],
+        [
+          2021,
+          47301.5
+        ]
+      ],
+      "name": "Median Pestalozzi"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          var chart = this;
+          // Extract common words from series names
+          var leftTitle = chart.series[0].name.split(" ").slice(0, 1).toString();
+          var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
+
+          // Add and move legend titles
+          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX + 7, chart.legend.group.translateY + 5)
+            // .css({ fontWeight: 'bold' })
+            .add();
+          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY + 5)
+            //.css({ fontWeight: 'bold' })
+            .add();
+          //}
+
+
+          /*load: function () {
+            //add and move legend title (get it from series names)
+            this.legend.title
+              .attr({
+                text:
+                  this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                  + ':'
+                  + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                  + ':'
+              })
+              /*.translate(-140, 8); //move -140 to the left and 8 down*/
+          //}
+
+          // rename Friedmatt
+          this.series[0].update({
+            name: "Mittelwert Friedmatt"
+          });
+          this.series[1].update({
+            name: "Median Friedmatt"
+          });
+        }
+    },
+    "renderTo": "container-12621"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Mittelwert und Median des Reineinkommens"
+  },
+  "subtitle": {
+    "text": "in Franken, Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20000
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": "50%",
+      "textOverflow": "none"
+    },
+    "itemMarginBottom": 3,
+    "x": 50,
+    "itemWidth": 180,
+    "title": {
+      "text": "\u003Cbr\u003E",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(-1).toString();  //holt z.B. 'Friedmatt' aus 'Freiraumfäche Friedmatt'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
+  },
+  "exporting": {
+    "filename": "12621"
+  }
+}

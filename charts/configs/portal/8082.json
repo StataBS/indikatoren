@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anzahl Tropennächte",
+      "name": "Lufttemperatur Nacht 2030",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          12
+          19.85
         ],
         [
           2,
-          11
+          18.74
         ],
         [
           3,
-          12
+          18.63
         ],
         [
           4,
-          9
+          18.03
         ],
         [
           5,
-          13
+          18.19
         ],
         [
           6,
-          12
+          18.74
         ],
         [
           7,
-          7
+          16.22
         ],
         [
           8,
-          11
+          17.4
         ],
         [
           9,
-          10
+          18.3
         ],
         [
           10,
-          12
+          17.97
         ],
         [
           11,
-          13
+          18.21
         ],
         [
           12,
-          14
+          19.33
         ],
         [
           13,
-          12
+          19.04
         ],
         [
           14,
-          11
+          18.34
         ],
         [
           15,
-          11
+          17.61
         ],
         [
           16,
-          14
+          19.18
         ],
         [
           17,
-          11
+          19.14
         ],
         [
           18,
-          12
+          19.1
         ],
         [
           19,
-          11
+          18.98
         ],
         [
           20,
-          7
+          16.18
         ],
         [
           30,
-          2
+          14.88
         ]
       ]
     },
@@ -7123,7 +7123,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: MCR-Lab, Universität Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: MCR-Lab, Universität Basel.\u003Cbr\u002F\u003EZuletzt geändert: 19.2.2020"
   },
   "colorAxis": {
     "min": 0,

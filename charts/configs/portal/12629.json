@@ -1,0 +1,531 @@
+{
+  "series": [
+    {
+      "color": "#999",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2013,
+          33.3
+        ],
+        [
+          2014,
+          33.3
+        ],
+        [
+          2015,
+          33.5
+        ],
+        [
+          2016,
+          33.4
+        ],
+        [
+          2017,
+          33.3
+        ],
+        [
+          2018,
+          33.3
+        ],
+        [
+          2019,
+          33.2
+        ],
+        [
+          2020,
+          33.1
+        ],
+        [
+          2021,
+          33.1
+        ],
+        [
+          2022,
+          33
+        ],
+        [
+          2023,
+          32.9
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#3c3c3c",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2013,
+          24.8
+        ],
+        [
+          2014,
+          24.8
+        ],
+        [
+          2015,
+          25
+        ],
+        [
+          2016,
+          24.8
+        ],
+        [
+          2017,
+          24.8
+        ],
+        [
+          2018,
+          24.8
+        ],
+        [
+          2019,
+          24.8
+        ],
+        [
+          2020,
+          24.8
+        ],
+        [
+          2021,
+          24.7
+        ],
+        [
+          2022,
+          24.5
+        ],
+        [
+          2023,
+          24.6
+        ]
+      ],
+      "name": "St. Johann"
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2013,
+          3.8
+        ],
+        [
+          2014,
+          3.8
+        ],
+        [
+          2015,
+          4.2
+        ],
+        [
+          2016,
+          3.5
+        ],
+        [
+          2017,
+          3.5
+        ],
+        [
+          2018,
+          3.4
+        ],
+        [
+          2019,
+          3.1
+        ],
+        [
+          2020,
+          3.1
+        ],
+        [
+          2021,
+          3.1
+        ],
+        [
+          2022,
+          3.1
+        ],
+        [
+          2023,
+          3.1
+        ]
+      ],
+      "name": "Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2013,
+          25.6
+        ],
+        [
+          2014,
+          26.1
+        ],
+        [
+          2015,
+          26.2
+        ],
+        [
+          2016,
+          26.2
+        ],
+        [
+          2017,
+          26.2
+        ],
+        [
+          2018,
+          25.6
+        ],
+        [
+          2019,
+          25.8
+        ],
+        [
+          2020,
+          25.4
+        ],
+        [
+          2021,
+          25.4
+        ],
+        [
+          2022,
+          25.1
+        ],
+        [
+          2023,
+          25.1
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2013,
+          2.5
+        ],
+        [
+          2014,
+          2.5
+        ],
+        [
+          2015,
+          2.7
+        ],
+        [
+          2016,
+          2.7
+        ],
+        [
+          2017,
+          2.7
+        ],
+        [
+          2018,
+          2.7
+        ],
+        [
+          2019,
+          2.7
+        ],
+        [
+          2020,
+          2.7
+        ],
+        [
+          2021,
+          2.7
+        ],
+        [
+          2022,
+          2.7
+        ],
+        [
+          2023,
+          2.7
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          1
+        ],
+        [
+          2019,
+          1.9
+        ],
+        [
+          2020,
+          1.9
+        ],
+        [
+          2021,
+          1.8
+        ],
+        [
+          2022,
+          1.7
+        ],
+        [
+          2023,
+          1.7
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2013,
+          60.6
+        ],
+        [
+          2014,
+          60.3
+        ],
+        [
+          2015,
+          60.5
+        ],
+        [
+          2016,
+          60.2
+        ],
+        [
+          2017,
+          60.3
+        ],
+        [
+          2018,
+          60.7
+        ],
+        [
+          2019,
+          60.7
+        ],
+        [
+          2020,
+          60.8
+        ],
+        [
+          2021,
+          60.7
+        ],
+        [
+          2022,
+          60.7
+        ],
+        [
+          2023,
+          60.7
+        ]
+      ],
+      "name": "Friedmattviertel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          // `this` refers to the chart instance
+          this.series[6].update({
+            name: "Friedmatt"
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
+    },
+    "renderTo": "container-12629"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Einfamilienhäuser"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 70,
+    "tickInterval": 10
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "x": 35
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12629"
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          "2004",
+          3681
+        ],
+        [
+          "2005",
+          3649
+        ],
+        [
+          "2006",
+          3623
+        ],
+        [
+          "2007",
+          3672
+        ],
+        [
+          "2008",
+          3702
+        ],
+        [
+          "2009",
+          3685
+        ],
+        [
+          "2010",
+          3715
+        ],
+        [
+          "2011",
+          3675
+        ],
+        [
+          "2012",
+          3696
+        ],
+        [
+          "2013",
+          3751
+        ],
+        [
+          "2014",
+          3759
+        ],
+        [
+          "2015",
+          3703
+        ],
+        [
+          "2016",
+          3685
+        ],
+        [
+          "2017",
+          3694
+        ],
+        [
+          "2018",
+          3807
+        ],
+        [
+          "2019",
+          3778
+        ],
+        [
+          "2020",
+          3802
+        ],
+        [
+          "2021",
+          3813
+        ],
+        [
+          "2022",
+          3783
+        ],
+        [
+          "2023",
+          3771
+        ]
+      ],
+      "name": "Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2004",
+          1903
+        ],
+        [
+          "2005",
+          1909
+        ],
+        [
+          "2006",
+          1943
+        ],
+        [
+          "2007",
+          1935
+        ],
+        [
+          "2008",
+          1958
+        ],
+        [
+          "2009",
+          1946
+        ],
+        [
+          "2010",
+          1954
+        ],
+        [
+          "2011",
+          1944
+        ],
+        [
+          "2012",
+          1976
+        ],
+        [
+          "2013",
+          1988
+        ],
+        [
+          "2014",
+          1989
+        ],
+        [
+          "2015",
+          1952
+        ],
+        [
+          "2016",
+          2003
+        ],
+        [
+          "2017",
+          1985
+        ],
+        [
+          "2018",
+          1982
+        ],
+        [
+          "2019",
+          1946
+        ],
+        [
+          "2020",
+          1981
+        ],
+        [
+          "2021",
+          1928
+        ],
+        [
+          "2022",
+          1963
+        ],
+        [
+          "2023",
+          1906
+        ]
+      ],
+      "name": "Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "2004",
+          6859
+        ],
+        [
+          "2005",
+          6842
+        ],
+        [
+          "2006",
+          6820
+        ],
+        [
+          "2007",
+          6785
+        ],
+        [
+          "2008",
+          6892
+        ],
+        [
+          "2009",
+          6925
+        ],
+        [
+          "2010",
+          6916
+        ],
+        [
+          "2011",
+          7046
+        ],
+        [
+          "2012",
+          7073
+        ],
+        [
+          "2013",
+          7220
+        ],
+        [
+          "2014",
+          7215
+        ],
+        [
+          "2015",
+          7189
+        ],
+        [
+          "2016",
+          7056
+        ],
+        [
+          "2017",
+          7017
+        ],
+        [
+          "2018",
+          6985
+        ],
+        [
+          "2019",
+          6796
+        ],
+        [
+          "2020",
+          6900
+        ],
+        [
+          "2021",
+          6768
+        ],
+        [
+          "2022",
+          6873
+        ],
+        [
+          "2023",
+          6757
+        ]
+      ],
+      "name": "Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2004",
+          1577
+        ],
+        [
+          "2005",
+          1516
+        ],
+        [
+          "2006",
+          1456
+        ],
+        [
+          "2007",
+          1442
+        ],
+        [
+          "2008",
+          1441
+        ],
+        [
+          "2009",
+          1566
+        ],
+        [
+          "2010",
+          1825
+        ],
+        [
+          "2011",
+          1973
+        ],
+        [
+          "2012",
+          2060
+        ],
+        [
+          "2013",
+          2057
+        ],
+        [
+          "2014",
+          2023
+        ],
+        [
+          "2015",
+          2047
+        ],
+        [
+          "2016",
+          2056
+        ],
+        [
+          "2017",
+          2021
+        ],
+        [
+          "2018",
+          1952
+        ],
+        [
+          "2019",
+          2020
+        ],
+        [
+          "2020",
+          2080
+        ],
+        [
+          "2021",
+          2108
+        ],
+        [
+          "2022",
+          2402
+        ],
+        [
+          "2023",
+          2695
+        ]
+      ],
+      "name": "Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          "2004",
+          3860
+        ],
+        [
+          "2005",
+          3826
+        ],
+        [
+          "2006",
+          3848
+        ],
+        [
+          "2007",
+          3804
+        ],
+        [
+          "2008",
+          3807
+        ],
+        [
+          "2009",
+          3875
+        ],
+        [
+          "2010",
+          3856
+        ],
+        [
+          "2011",
+          3827
+        ],
+        [
+          "2012",
+          3833
+        ],
+        [
+          "2013",
+          3857
+        ],
+        [
+          "2014",
+          3972
+        ],
+        [
+          "2015",
+          3919
+        ],
+        [
+          "2016",
+          3958
+        ],
+        [
+          "2017",
+          3963
+        ],
+        [
+          "2018",
+          3958
+        ],
+        [
+          "2019",
+          3962
+        ],
+        [
+          "2020",
+          3980
+        ],
+        [
+          "2021",
+          4246
+        ],
+        [
+          "2022",
+          4299
+        ],
+        [
+          "2023",
+          4350
+        ]
+      ],
+      "name": "Friedmattviertel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function() {
+              // `this` refers to the chart instance
+              this.series[4].update({
+                  name: "Friedmatt"
+              });
+    
+              this.credits.element.onclick = function () { };
+     
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }
+            }
+    },
+    "renderTo": "container-12610"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wohnbevölkerung"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 7500
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "alignColumns": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12610"
+  }
+}
