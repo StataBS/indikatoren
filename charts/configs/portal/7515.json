@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          1696125600000,
-          -16
-        ],
-        [
           1698800400000,
           -6
         ],
@@ -42,11 +38,11 @@
         ],
         [
           1719799200000,
-          -36
+          -35
         ],
         [
           1722477600000,
-          -41
+          -42
         ],
         [
           1725156000000,
@@ -54,7 +50,11 @@
         ],
         [
           1727748000000,
-          -50
+          -44
+        ],
+        [
+          1730422800000,
+          -30
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -63,10 +63,6 @@
       "color": "#923F8D",
       "visible": true,
       "data": [
-        [
-          1696125600000,
-          231
-        ],
         [
           1698800400000,
           156
@@ -101,19 +97,23 @@
         ],
         [
           1719799200000,
-          "-105 2"
+          "-112 8"
         ],
         [
           1722477600000,
-          274
+          131
         ],
         [
           1725156000000,
-          548
+          618
         ],
         [
           1727748000000,
-          111
+          195
+        ],
+        [
+          1730422800000,
+          -28
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -122,10 +122,6 @@
       "color": "#C8C8C8",
       "visible": true,
       "data": [
-        [
-          1696125600000,
-          42
-        ],
         [
           1698800400000,
           73
@@ -164,15 +160,19 @@
         ],
         [
           1722477600000,
-          -437
+          -293
         ],
         [
           1725156000000,
-          6
+          -64
         ],
         [
           1727748000000,
-          499
+          409
+        ],
+        [
+          1730422800000,
+          0
         ]
       ],
       "name": "Bereinigungen"
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -2398,7 +2398,53 @@ id | visible | visibleInPortal | indikatorenset
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
 12609 | true | false | Stadtteilmonitoring St. Johann
+12610 | true | true | Stadtteilmonitoring St. Johann
+12611 | true | true | Stadtteilmonitoring St. Johann
+12612 | true | true | Stadtteilmonitoring St. Johann
+12613 | true | true | Stadtteilmonitoring St. Johann
+12614 | true | true | Stadtteilmonitoring St. Johann
+12615 | true | true | Stadtteilmonitoring St. Johann
+12616 | true | true | Stadtteilmonitoring St. Johann
 12617 | true | true | Stadtteilmonitoring St. Johann
+12618 | true | true | Stadtteilmonitoring St. Johann
+12619 | true | true | Stadtteilmonitoring St. Johann
+12620 | true | true | Stadtteilmonitoring St. Johann
+12621 | true | true | Stadtteilmonitoring St. Johann
+12622 | true | true | Stadtteilmonitoring St. Johann
+12623 | true | true | Stadtteilmonitoring St. Johann
+12624 | true | true | Stadtteilmonitoring St. Johann
+12625 | true | true | Stadtteilmonitoring St. Johann
+12626 | true | true | Stadtteilmonitoring St. Johann
+12627 | true | true | Stadtteilmonitoring St. Johann
+12628 | true | true | Stadtteilmonitoring St. Johann
+12629 | true | true | Stadtteilmonitoring St. Johann
+12630 | true | true | Stadtteilmonitoring St. Johann
+12631 | true | true | Stadtteilmonitoring St. Johann
+12632 | true | true | Stadtteilmonitoring St. Johann
+12633 | true | true | Stadtteilmonitoring St. Johann
+12634 | true | true | Stadtteilmonitoring St. Johann
+12635 | true | true | Stadtteilmonitoring St. Johann
+12636 | true | true | Stadtteilmonitoring St. Johann
+12637 | true | true | Stadtteilmonitoring St. Johann
+12638 | true | true | Stadtteilmonitoring St. Johann
+12639 | true | true | Stadtteilmonitoring St. Johann
+12640 | true | true | Stadtteilmonitoring St. Johann
+12641 | true | true | Stadtteilmonitoring St. Johann
+12642 | true | true | Stadtteilmonitoring St. Johann
+12643 | true | true | Stadtteilmonitoring St. Johann
+12644 | true | true | Stadtteilmonitoring St. Johann
+12645 | true | true | Stadtteilmonitoring St. Johann
+12646 | true | true | Stadtteilmonitoring St. Johann
+12648 | true | true | Stadtteilmonitoring St. Johann
+12649 | true | true | Stadtteilmonitoring St. Johann
+12650 | true | true | Stadtteilmonitoring St. Johann
+12651 | true | true | Stadtteilmonitoring St. Johann
+12652 | true | true | Stadtteilmonitoring St. Johann
+12653 | true | true | Stadtteilmonitoring St. Johann
+12655 | true | true | Stadtteilmonitoring St. Johann
+12656 | true | true | Stadtteilmonitoring St. Johann
+12657 | true | true | Stadtteilmonitoring St. Johann
+12659 | true | true | Stadtteilmonitoring St. Johann
 12668 | true | false | 
 12669 | true | false | Energiestatistik (Print)
 12670 | true | false | Energiestatistik (Print)
@@ -2408,5 +2454,8 @@ id | visible | visibleInPortal | indikatorenset
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
 12716 | true | false | Nachhaltigkeit (Print)
+12719 | true | true | Stadtteilmonitoring St. Johann
+12720 | true | true | Stadtteilmonitoring St. Johann
+12721 | true | true | Stadtteilmonitoring St. Johann
 12722 | true | false | 
 21847 | true | true | 
