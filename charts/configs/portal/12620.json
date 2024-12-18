@@ -1,0 +1,538 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 6,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          432
+        ],
+        [
+          "2021: Lysbüchel",
+          137
+        ],
+        [
+          "2021: Landskron",
+          546
+        ],
+        [
+          "2021: Kannenfeld",
+          249
+        ],
+        [
+          "2021: Friedmatt",
+          550
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          390
+        ],
+        [
+          "2022: Lysbüchel",
+          166
+        ],
+        [
+          "2022: Landskron",
+          548
+        ],
+        [
+          "2022: Kannenfeld",
+          244
+        ],
+        [
+          "2022: Friedmatt",
+          532
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          360
+        ],
+        [
+          "2023: Lysbüchel",
+          190
+        ],
+        [
+          "2023: Landskron",
+          511
+        ],
+        [
+          "2023: Kannenfeld",
+          226
+        ],
+        [
+          "2023: Friedmatt",
+          515
+        ]
+      ],
+      "name": "Evangelisch-reformiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 5,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          430
+        ],
+        [
+          "2021: Lysbüchel",
+          180
+        ],
+        [
+          "2021: Landskron",
+          689
+        ],
+        [
+          "2021: Kannenfeld",
+          224
+        ],
+        [
+          "2021: Friedmatt",
+          521
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          431
+        ],
+        [
+          "2022: Lysbüchel",
+          205
+        ],
+        [
+          "2022: Landskron",
+          685
+        ],
+        [
+          "2022: Kannenfeld",
+          213
+        ],
+        [
+          "2022: Friedmatt",
+          521
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          416
+        ],
+        [
+          "2023: Lysbüchel",
+          207
+        ],
+        [
+          "2023: Landskron",
+          637
+        ],
+        [
+          "2023: Kannenfeld",
+          212
+        ],
+        [
+          "2023: Friedmatt",
+          507
+        ]
+      ],
+      "name": "Römisch-katholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 4,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          29
+        ],
+        [
+          "2021: Lysbüchel",
+          9
+        ],
+        [
+          "2021: Landskron",
+          27
+        ],
+        [
+          "2021: Kannenfeld",
+          13
+        ],
+        [
+          "2021: Friedmatt",
+          22
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          29
+        ],
+        [
+          "2022: Lysbüchel",
+          14
+        ],
+        [
+          "2022: Landskron",
+          27
+        ],
+        [
+          "2022: Kannenfeld",
+          13
+        ],
+        [
+          "2022: Friedmatt",
+          27
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          28
+        ],
+        [
+          "2023: Lysbüchel",
+          16
+        ],
+        [
+          "2023: Landskron",
+          37
+        ],
+        [
+          "2023: Kannenfeld",
+          11
+        ],
+        [
+          "2023: Friedmatt",
+          29
+        ]
+      ],
+      "name": "Christkatholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 3,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          7
+        ],
+        [
+          "2021: Lysbüchel",
+          1
+        ],
+        [
+          "2021: Landskron",
+          6
+        ],
+        [
+          "2021: Kannenfeld",
+          4
+        ],
+        [
+          "2021: Friedmatt",
+          15
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          9
+        ],
+        [
+          "2022: Lysbüchel",
+          1
+        ],
+        [
+          "2022: Landskron",
+          7
+        ],
+        [
+          "2022: Kannenfeld",
+          4
+        ],
+        [
+          "2022: Friedmatt",
+          13
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          9
+        ],
+        [
+          "2023: Lysbüchel",
+          1
+        ],
+        [
+          "2023: Landskron",
+          11
+        ],
+        [
+          "2023: Kannenfeld",
+          3
+        ],
+        [
+          "2023: Friedmatt",
+          11
+        ]
+      ],
+      "name": "Israelitisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          2915
+        ],
+        [
+          "2021: Lysbüchel",
+          1781
+        ],
+        [
+          "2021: Landskron",
+          5500
+        ],
+        [
+          "2021: Kannenfeld",
+          1438
+        ],
+        [
+          "2021: Friedmatt",
+          3138
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          2924
+        ],
+        [
+          "2022: Lysbüchel",
+          2016
+        ],
+        [
+          "2022: Landskron",
+          5606
+        ],
+        [
+          "2022: Kannenfeld",
+          1489
+        ],
+        [
+          "2022: Friedmatt",
+          3206
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          2958
+        ],
+        [
+          "2023: Lysbüchel",
+          2281
+        ],
+        [
+          "2023: Landskron",
+          5561
+        ],
+        [
+          "2023: Kannenfeld",
+          1454
+        ],
+        [
+          "2023: Friedmatt",
+          3288
+        ]
+      ],
+      "name": "Andere, ohne oder unbekannte Zugehörigkeit",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-12620",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "borderwidth": 0
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Religionszugehörigkeit"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 10,
+    "min": 0
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemWidth": 210,
+    "width": 420
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "12620"
+  }
+}

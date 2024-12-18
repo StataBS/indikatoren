@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anzahl Tropennächte",
+      "name": "Wärmeinseleffekt 2017",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          12
+          4.53
         ],
         [
           2,
-          11
+          3.42
         ],
         [
           3,
-          12
+          3.29
         ],
         [
           4,
-          9
+          2.73
         ],
         [
           5,
-          13
+          2.83
         ],
         [
           6,
-          12
+          3.45
         ],
         [
           7,
-          7
+          1.06
         ],
         [
           8,
-          11
+          2.05
         ],
         [
           9,
-          10
+          2.92
         ],
         [
           10,
-          12
+          2.59
         ],
         [
           11,
-          13
+          2.87
         ],
         [
           12,
-          14
+          4
         ],
         [
           13,
-          12
+          3.68
         ],
         [
           14,
-          11
+          3
         ],
         [
           15,
-          11
+          2.3
         ],
         [
           16,
-          14
+          3.9
         ],
         [
           17,
-          11
+          3.77
         ],
         [
           18,
-          12
+          3.75
         ],
         [
           19,
-          11
+          3.72
         ],
         [
           20,
-          7
+          1.1
         ],
         [
           30,
-          2
+          0.3
         ]
       ]
     },
@@ -7071,12 +7071,12 @@
   "chart": {
     "events": {
       "load": function (e) {
-					 this.credits.element.onclick = function() {};
-					 var chart = this;
-					 var fn = this.options.customFunctions;
-					 //define new Highcharts template "mappie"
-					 fn.addLegendRectangle(chart, 315, 250, 105, 120, '#fbfbfb');
-				 }
+					this.credits.element.onclick = function () { };
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
+					fn.addLegendRectangle(chart, 265, 250, 155, 120, '#fbfbfb');
+				}
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -7098,7 +7098,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Tropennächte"
+    "text": "Städtischer Wärmeinseleffekt"
   },
   "subtitle": {
     "style": {
@@ -7107,7 +7107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "im Siedlungsraum, nach Wohnviertel, Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {
@@ -7123,7 +7123,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: MCR-Lab, Universität Basel.\u003Cbr\u002F\u003EZuletzt geändert: 28.4.2022"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "colorAxis": {
     "min": 0,
@@ -7144,32 +7144,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 9,
+        "to": 0.9999999999,
         "color": "#D3E2E4",
-        "name": "\u003C 10"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.0\u003C\u002Fspan\u003E\u003C 1,00"
       },
       {
-        "from": 9.5,
-        "to": 10.5,
+        "from": 1,
+        "to": 1.9999999999,
         "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.0\u003C\u002Fspan\u003E10"
+        "name": "1 &ndash; 1,99"
       },
       {
-        "from": 10.6,
-        "to": 11.5,
+        "from": 2,
+        "to": 2.9999999999,
         "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.0\u003C\u002Fspan\u003E11"
+        "name": "2 &ndash; 2,99"
       },
       {
-        "from": 11.6,
-        "to": 12.5,
+        "from": 3,
+        "to": 3.9999999999,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.0\u003C\u002Fspan\u003E12"
+        "name": "3 &ndash; 3,99"
       },
       {
-        "from": 13,
+        "from": 4,
         "color": "#083038",
-        "name": "≥ 13"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.0\u003C\u002Fspan\u003E≥ 4,00"
       }
     ]
   },
@@ -7193,7 +7193,7 @@
         "fontWeight": " bold",
         "fontSize": "12px"
       },
-      "text": "Mittlere Anzahl\u003Cbr\u003ETropennächte"
+      "text": "Mittlerer nächtlicher\u003Cbr\u003EWärmeinseleffekt in °C"
     },
     "layout": "vertical",
     "x": -60,
@@ -7201,17 +7201,17 @@
     "symbolRadius": 0
   },
   "tooltip": {
-    "formatter": function(args){
-        		if (! this.point["Wohnviertel Id"]) {
-        		    //Rhein
-        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-        		}
-                else {
-                    //Wohnviertel
-                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
-                }
-            }
+    "formatter": function (args) {
+				if (!this.point["Wohnviertel Id"]) {
+					//Rhein
+					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+				}
+				else {
+					//Wohnviertel
+					return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
+						this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 2) + ' °C</b><br/>';
+				}
+			}
   },
   "customFunctions": {
     "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){

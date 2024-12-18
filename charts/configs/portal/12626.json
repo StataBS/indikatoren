@@ -1,0 +1,544 @@
+{
+  "series": [
+    {
+      "color": "#3c3c3c",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2013,
+          41.173648120408
+        ],
+        [
+          2014,
+          40.800706563226
+        ],
+        [
+          2015,
+          40.552646295304
+        ],
+        [
+          2016,
+          40.373649552723
+        ],
+        [
+          2017,
+          40.124307814266
+        ],
+        [
+          2018,
+          40.107651993437
+        ],
+        [
+          2019,
+          40.532168359941
+        ],
+        [
+          2020,
+          40.63706731858
+        ],
+        [
+          2021,
+          40.803152756197
+        ],
+        [
+          2022,
+          40.710723908335
+        ],
+        [
+          2023,
+          40.74751366416
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#8A8A8A",
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2013,
+          36.758753366679
+        ],
+        [
+          2014,
+          36.552248640931
+        ],
+        [
+          2015,
+          36.532477592121
+        ],
+        [
+          2016,
+          36.367556468172
+        ],
+        [
+          2017,
+          36.150491400491
+        ],
+        [
+          2018,
+          36.324678231673
+        ],
+        [
+          2019,
+          36.732910100895
+        ],
+        [
+          2020,
+          36.903147563176
+        ],
+        [
+          2021,
+          36.873281763036
+        ],
+        [
+          2022,
+          36.878279804028
+        ],
+        [
+          2023,
+          36.766227454368
+        ]
+      ],
+      "name": "Wohnviertel St. Johann"
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2013,
+          39.048584119933
+        ],
+        [
+          2014,
+          39.035034482758
+        ],
+        [
+          2015,
+          38.896165687097
+        ],
+        [
+          2016,
+          38.496230103323
+        ],
+        [
+          2017,
+          38.203864463735
+        ],
+        [
+          2018,
+          38.104505971769
+        ],
+        [
+          2019,
+          38.827472527472
+        ],
+        [
+          2020,
+          39.246548868028
+        ],
+        [
+          2021,
+          39.121584699453
+        ],
+        [
+          2022,
+          39.080894533406
+        ],
+        [
+          2023,
+          38.882369299221
+        ]
+      ],
+      "name": "Bezirk Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2013,
+          42.645348837209
+        ],
+        [
+          2014,
+          42.652653704676
+        ],
+        [
+          2015,
+          42.293897216274
+        ],
+        [
+          2016,
+          41.526123301985
+        ],
+        [
+          2017,
+          41.355870020964
+        ],
+        [
+          2018,
+          41.368143459915
+        ],
+        [
+          2019,
+          42.044228694714
+        ],
+        [
+          2020,
+          41.976089266737
+        ],
+        [
+          2021,
+          42.067604110329
+        ],
+        [
+          2022,
+          41.821428571428
+        ],
+        [
+          2023,
+          42.717271727172
+        ]
+      ],
+      "name": "Bezirk Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2013,
+          32.72033898305
+        ],
+        [
+          2014,
+          32.565624549776
+        ],
+        [
+          2015,
+          32.642132715155
+        ],
+        [
+          2016,
+          32.821518425336
+        ],
+        [
+          2017,
+          32.584661206254
+        ],
+        [
+          2018,
+          32.885487017859
+        ],
+        [
+          2019,
+          33.472634508348
+        ],
+        [
+          2020,
+          33.718817369879
+        ],
+        [
+          2021,
+          33.784660766961
+        ],
+        [
+          2022,
+          33.910708806382
+        ],
+        [
+          2023,
+          34.22959024085
+        ]
+      ],
+      "name": "Bezirk Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2013,
+          36.531746031746
+        ],
+        [
+          2014,
+          35.835164835164
+        ],
+        [
+          2015,
+          35.775600195982
+        ],
+        [
+          2016,
+          35.387175721977
+        ],
+        [
+          2017,
+          35.342629482071
+        ],
+        [
+          2018,
+          35.831175556706
+        ],
+        [
+          2019,
+          35.514967021816
+        ],
+        [
+          2020,
+          35.451932606541
+        ],
+        [
+          2021,
+          35.927945472249
+        ],
+        [
+          2022,
+          35.424872665534
+        ],
+        [
+          2023,
+          34.529456193353
+        ]
+      ],
+      "name": "Bezirk Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          2013,
+          39.227895726955
+        ],
+        [
+          2014,
+          38.824331550802
+        ],
+        [
+          2015,
+          39.022493224932
+        ],
+        [
+          2016,
+          38.641245972073
+        ],
+        [
+          2017,
+          38.390717754991
+        ],
+        [
+          2018,
+          38.421266233766
+        ],
+        [
+          2019,
+          38.355082232407
+        ],
+        [
+          2020,
+          38.404364224137
+        ],
+        [
+          2021,
+          37.882723833543
+        ],
+        [
+          2022,
+          38.257878939469
+        ],
+        [
+          2023,
+          37.680452978828
+        ]
+      ],
+      "name": "Bezirk Friedmatt"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          // `this` refers to the chart instance
+          /*this.series[5].update({
+            name: "Bezirk Friedmatt"
+          });*/
+
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
+    },
+    "marginRight": 20,
+    "renderTo": "container-12626"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wohnfläche pro Person"
+  },
+  "subtitle": {
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 30,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 45,
+    "tickInterval": 5
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemMarginBottom": 5,
+    "itemWidth": 160,
+    "width": 450,
+    "labelFormatter": function () {
+        /*return this.name.replace('Friedmattviertel', 'Friedmatt').split("Wohnviertel ").slice(-1).toString();*/
+        return this.name.split("Bezirk ").slice(-1).toString();
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "useHTML": true,
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' 
+        + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + ' m<sup>2</sup></b><br/>'
+      }
+  },
+  "exporting": {
+    "filename": "12626"
+  }
+}

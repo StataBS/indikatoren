@@ -1,0 +1,723 @@
+{
+  "series": [
+    {
+      "color": "#6B4926",
+      "data": [
+        [
+          "1995",
+          206867
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          217628
+        ],
+        [
+          "2010",
+          214130
+        ],
+        [
+          "2015",
+          214130
+        ],
+        [
+          "2020",
+          198710
+        ],
+        [
+          "2021",
+          198045
+        ],
+        [
+          "2022",
+          197501
+        ]
+      ],
+      "name": "Wohnen Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CC4D00",
+      "data": [
+        [
+          "1995",
+          122788
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          127433
+        ],
+        [
+          "2010",
+          124971
+        ],
+        [
+          "2015",
+          124557
+        ],
+        [
+          "2020",
+          118836
+        ],
+        [
+          "2021",
+          117733
+        ],
+        [
+          "2022",
+          118525
+        ]
+      ],
+      "name": "Wohnen Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#5F0C5A",
+      "data": [
+        [
+          "1995",
+          300483
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          304106
+        ],
+        [
+          "2010",
+          322492
+        ],
+        [
+          "2015",
+          323162
+        ],
+        [
+          "2020",
+          306827
+        ],
+        [
+          "2021",
+          305270
+        ],
+        [
+          "2022",
+          307378
+        ]
+      ],
+      "name": "Wohnen Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#355E66",
+      "data": [
+        [
+          "1995",
+          94705
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          73629
+        ],
+        [
+          "2010",
+          102225
+        ],
+        [
+          "2015",
+          130309
+        ],
+        [
+          "2020",
+          104989
+        ],
+        [
+          "2021",
+          104988
+        ],
+        [
+          "2022",
+          117226
+        ]
+      ],
+      "name": "Wohnen Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C78A00",
+      "data": [
+        [
+          "1995",
+          204341
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          226783
+        ],
+        [
+          "2010",
+          226944
+        ],
+        [
+          "2015",
+          235362
+        ],
+        [
+          "2020",
+          198281
+        ],
+        [
+          "2021",
+          198467
+        ],
+        [
+          "2022",
+          196345
+        ]
+      ],
+      "name": "Wohnen Friedmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#575757",
+      "visible": false,
+      "data": [
+        [
+          "1995",
+          9840504
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          10225398
+        ],
+        [
+          "2010",
+          10258081
+        ],
+        [
+          "2015",
+          10521765
+        ],
+        [
+          "2020",
+          10088260
+        ],
+        [
+          "2021",
+          10123226
+        ],
+        [
+          "2022",
+          10194081
+        ]
+      ],
+      "name": "Wohnen Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "transparent",
+      "visible": true,
+      "showInLegend": false,
+      "data": [
+        [
+          "1995",
+          null
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          "2022",
+          null
+        ]
+      ],
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D1AF8C",
+      "data": [
+        [
+          "1995",
+          27401
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          26259
+        ],
+        [
+          "2010",
+          26359
+        ],
+        [
+          "2015",
+          26359
+        ],
+        [
+          "2020",
+          46255
+        ],
+        [
+          "2021",
+          46920
+        ],
+        [
+          "2022",
+          46424
+        ]
+      ],
+      "name": "Arbeiten Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFB35B",
+      "data": [
+        [
+          "1995",
+          15839
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          16393
+        ],
+        [
+          "2010",
+          16353
+        ],
+        [
+          "2015",
+          16353
+        ],
+        [
+          "2020",
+          22672
+        ],
+        [
+          "2021",
+          23103
+        ],
+        [
+          "2022",
+          23103
+        ]
+      ],
+      "name": "Arbeiten Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C572C0",
+      "data": [
+        [
+          "1995",
+          70513
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          73264
+        ],
+        [
+          "2010",
+          71766
+        ],
+        [
+          "2015",
+          71686
+        ],
+        [
+          "2020",
+          73620
+        ],
+        [
+          "2021",
+          75177
+        ],
+        [
+          "2022",
+          75177
+        ]
+      ],
+      "name": "Arbeiten Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9BC4CC",
+      "data": [
+        [
+          "1995",
+          888322
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          778011
+        ],
+        [
+          "2010",
+          788487
+        ],
+        [
+          "2015",
+          738844
+        ],
+        [
+          "2020",
+          695035
+        ],
+        [
+          "2021",
+          693764
+        ],
+        [
+          "2022",
+          693764
+        ]
+      ],
+      "name": "Arbeiten Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFF057",
+      "data": [
+        [
+          "1995",
+          221567
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          260794
+        ],
+        [
+          "2010",
+          280111
+        ],
+        [
+          "2015",
+          284291
+        ],
+        [
+          "2020",
+          303010
+        ],
+        [
+          "2021",
+          297694
+        ],
+        [
+          "2022",
+          298901
+        ]
+      ],
+      "name": "Arbeiten Friedmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#BDBDBD",
+      "visible": false,
+      "data": [
+        [
+          "1995",
+          8094529
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          8332068
+        ],
+        [
+          "2010",
+          8441762
+        ],
+        [
+          "2015",
+          8409706
+        ],
+        [
+          "2020",
+          8706729
+        ],
+        [
+          "2021",
+          8729267
+        ],
+        [
+          "2022",
+          8862981
+        ]
+      ],
+      "name": "Arbeiten Basel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 6
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                  this.series[1].name.split(" ").slice(0, 1).toString() //Wohnen
+                + ':<br><br>'
+                + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
+                + ':<br>'
+            })
+            .translate(-65,55); //move -x to the left and +y down
+        }
+    },
+    "renderTo": "container-12637"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.15,
+      "borderWidth": 0,
+      "showInNavigator": true
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Bruttogeschossfläche Wohnen und Arbeiten"
+  },
+  "subtitle": {
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemMarginBottom": 4,
+    "x": 120,
+    "y": -60,
+    "title": {
+      "text": "-\u003Cbr\u003E\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 17
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "useHTML": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "pointRange": null
+    },
+    "xAxis": {
+      "tickInterval": 1,
+      "labels": {
+        "step": 1,
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "12637"
+  }
+}

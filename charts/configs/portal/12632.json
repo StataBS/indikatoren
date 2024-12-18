@@ -1,0 +1,903 @@
+{
+  "series": [
+    {
+      "color": "#3c3c3c",
+      "index": 0,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          590
+        ],
+        [
+          2014,
+          594
+        ],
+        [
+          2015,
+          625
+        ],
+        [
+          2016,
+          682
+        ],
+        [
+          2017,
+          684
+        ],
+        [
+          2018,
+          681
+        ],
+        [
+          2019,
+          680
+        ],
+        [
+          2020,
+          688
+        ],
+        [
+          2021,
+          832
+        ],
+        [
+          2022,
+          912
+        ],
+        [
+          2023,
+          931
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen St.Johann"
+    },
+    {
+      "color": "#3c3c3c",
+      "dashStyle": "shortDash",
+      "index": 1,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          6.4
+        ],
+        [
+          2014,
+          6.5
+        ],
+        [
+          2015,
+          6.9
+        ],
+        [
+          2016,
+          7.6
+        ],
+        [
+          2017,
+          7.7
+        ],
+        [
+          2018,
+          7.7
+        ],
+        [
+          2019,
+          7.7
+        ],
+        [
+          2020,
+          7.7
+        ],
+        [
+          2021,
+          9.2
+        ],
+        [
+          2022,
+          9.9
+        ],
+        [
+          2023,
+          10.1
+        ]
+      ],
+      "name": "Anteil am Bestand St. Johann (rechte Skala)"
+    },
+    {
+      "color": "#9E7C59",
+      "index": 2,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          87
+        ],
+        [
+          2014,
+          87
+        ],
+        [
+          2015,
+          85
+        ],
+        [
+          2016,
+          91
+        ],
+        [
+          2017,
+          91
+        ],
+        [
+          2018,
+          90
+        ],
+        [
+          2019,
+          89
+        ],
+        [
+          2020,
+          95
+        ],
+        [
+          2021,
+          94
+        ],
+        [
+          2022,
+          93
+        ],
+        [
+          2023,
+          94
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Pestalozzi"
+    },
+    {
+      "color": "#9E7C59",
+      "index": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          6.4
+        ],
+        [
+          2014,
+          6.5
+        ],
+        [
+          2015,
+          6.9
+        ],
+        [
+          2016,
+          7.6
+        ],
+        [
+          2017,
+          7.7
+        ],
+        [
+          2018,
+          7.7
+        ],
+        [
+          2019,
+          7.7
+        ],
+        [
+          2020,
+          7.7
+        ],
+        [
+          2021,
+          9.2
+        ],
+        [
+          2022,
+          9.9
+        ],
+        [
+          2023,
+          10.1
+        ]
+      ],
+      "name": "Anteil am Bestand St. Johann (rechte Skala)"
+    },
+    {
+      "visible": false,
+      "color": "#FF8028",
+      "index": 4,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Kannenfeld"
+    },
+    {
+      "visible": false,
+      "color": "#FF8028",
+      "index": 5,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ]
+      ],
+      "name": "Anteil am Bestand Kannenfeld (rechte Skala)"
+    },
+    {
+      "color": "#923F8D",
+      "index": 6,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          126
+        ],
+        [
+          2014,
+          127
+        ],
+        [
+          2015,
+          170
+        ],
+        [
+          2016,
+          179
+        ],
+        [
+          2017,
+          178
+        ],
+        [
+          2018,
+          177
+        ],
+        [
+          2019,
+          179
+        ],
+        [
+          2020,
+          173
+        ],
+        [
+          2021,
+          179
+        ],
+        [
+          2022,
+          179
+        ],
+        [
+          2023,
+          181
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Landskron"
+    },
+    {
+      "color": "#923F8D",
+      "index": 7,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          3.5
+        ],
+        [
+          2014,
+          3.6
+        ],
+        [
+          2015,
+          4.8
+        ],
+        [
+          2016,
+          5.2
+        ],
+        [
+          2017,
+          5.2
+        ],
+        [
+          2018,
+          5.2
+        ],
+        [
+          2019,
+          5.3
+        ],
+        [
+          2020,
+          5.1
+        ],
+        [
+          2021,
+          5.3
+        ],
+        [
+          2022,
+          5.2
+        ],
+        [
+          2023,
+          5.3
+        ]
+      ],
+      "name": "Anteil am Bestand Landskron (rechte Skala)"
+    },
+    {
+      "color": "#689199",
+      "index": 8,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          29
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          28
+        ],
+        [
+          2016,
+          26
+        ],
+        [
+          2017,
+          27
+        ],
+        [
+          2018,
+          34
+        ],
+        [
+          2019,
+          31
+        ],
+        [
+          2020,
+          31
+        ],
+        [
+          2021,
+          69
+        ],
+        [
+          2022,
+          128
+        ],
+        [
+          2023,
+          146
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Lysbüchel"
+    },
+    {
+      "color": "#689199",
+      "index": 9,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          2.9
+        ],
+        [
+          2014,
+          3
+        ],
+        [
+          2015,
+          2.9
+        ],
+        [
+          2016,
+          2.7
+        ],
+        [
+          2017,
+          2.9
+        ],
+        [
+          2018,
+          3.7
+        ],
+        [
+          2019,
+          3.4
+        ],
+        [
+          2020,
+          3.4
+        ],
+        [
+          2021,
+          7.2
+        ],
+        [
+          2022,
+          11.6
+        ],
+        [
+          2023,
+          12.1
+        ]
+      ],
+      "name": "Anteil am Bestand Lysbüchel (rechte Skala)"
+    },
+    {
+      "color": "#FABD24",
+      "index": 10,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          348
+        ],
+        [
+          2014,
+          351
+        ],
+        [
+          2015,
+          342
+        ],
+        [
+          2016,
+          386
+        ],
+        [
+          2017,
+          388
+        ],
+        [
+          2018,
+          380
+        ],
+        [
+          2019,
+          381
+        ],
+        [
+          2020,
+          389
+        ],
+        [
+          2021,
+          490
+        ],
+        [
+          2022,
+          512
+        ],
+        [
+          2023,
+          510
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Friedmatt"
+    },
+    {
+      "color": "#FABD24",
+      "index": 11,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          21.2
+        ],
+        [
+          2014,
+          21.7
+        ],
+        [
+          2015,
+          21.3
+        ],
+        [
+          2016,
+          24
+        ],
+        [
+          2017,
+          24.4
+        ],
+        [
+          2018,
+          23.9
+        ],
+        [
+          2019,
+          24
+        ],
+        [
+          2020,
+          24.5
+        ],
+        [
+          2021,
+          29.2
+        ],
+        [
+          2022,
+          30.1
+        ],
+        [
+          2023,
+          29.9
+        ]
+      ],
+      "name": "Anteil am Bestand Friedmatt (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 2020
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+              'St. Johann' // St. Johann
+                + ':<br>'
+                +'Pestalozzi' // Pestalozzi
+                + ':<br>'
+                + 'Kannenfeld' // Kannenfeld
+                + ':<br>'
+                + 'Landskron' // Landskron
+                + ':<br>'
+                + 'Lysbüchel' // Lysbüchel
+                + ':<br>'
+                + 'Friedmatt' // holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
+                + ':<br>'
+            })
+            .translate(-65,112); //move -x to the left and +y down
+        }
+    },
+    "type": "line",
+    "renderTo": "container-12632",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "marker": {
+        "enabled": true
+      },
+      "showInNavigator": true
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Genossenschaftswohnungen"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickInterval": 250,
+      "title": {
+        "enabled": false
+      }
+    },
+    {
+      "tickInterval": 10,
+      "gridLineColor": "#B9CFD7",
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "format": "{value:,.f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 30,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 4,
+    "x": 110,
+    "y": -120,
+    "itemWidth": 80,
+    "width": 200,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
+    "title": {
+      "text": "-\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "pointRange": null
+    },
+    "xAxis": {
+      "max": 2023.1,
+      "tickPositioner": function () {
+          var interval = 1,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        },
+      "labels": {
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "x": -3,
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "12632"
+  }
+}

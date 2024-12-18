@@ -1,0 +1,1203 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 0,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          22390.41
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          12222.04
+        ],
+        [
+          "2005: Friedmatt",
+          73817.32
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          22363.07
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          11862.71
+        ],
+        [
+          "2010: Friedmatt",
+          73931.75
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          21840.88
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          8805.12
+        ],
+        [
+          "2015: Friedmatt",
+          73932.42
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          21840.87
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          6280.38
+        ],
+        [
+          "2020: Friedmatt",
+          73438.91
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          21840.85
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          55210.94
+        ],
+        [
+          "2023: Friedmatt",
+          73438.91
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Parkanlage\u002FSpielplatz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 1,
+      "legendIndex": 1,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          24862.68
+        ],
+        [
+          "2005: Kannenfeld",
+          18672.24
+        ],
+        [
+          "2005: Landskron",
+          31096.76
+        ],
+        [
+          "2005: Lysbüchel",
+          12999.56
+        ],
+        [
+          "2005: Friedmatt",
+          246127.24
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          26720.46
+        ],
+        [
+          "2010: Kannenfeld",
+          19578.55
+        ],
+        [
+          "2010: Landskron",
+          31839.34
+        ],
+        [
+          "2010: Lysbüchel",
+          11899.21
+        ],
+        [
+          "2010: Friedmatt",
+          251539.77
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          26395.51
+        ],
+        [
+          "2015: Kannenfeld",
+          19513.04
+        ],
+        [
+          "2015: Landskron",
+          31266.31
+        ],
+        [
+          "2015: Lysbüchel",
+          16294.44
+        ],
+        [
+          "2015: Friedmatt",
+          250829.16
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          28349.09
+        ],
+        [
+          "2020: Kannenfeld",
+          19395.18
+        ],
+        [
+          "2020: Landskron",
+          31020.49
+        ],
+        [
+          "2020: Lysbüchel",
+          52427.33
+        ],
+        [
+          "2020: Friedmatt",
+          249284.26
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          28350.08
+        ],
+        [
+          "2023: Kannenfeld",
+          19423.19
+        ],
+        [
+          "2023: Landskron",
+          31582.17
+        ],
+        [
+          "2023: Lysbüchel",
+          42126.87
+        ],
+        [
+          "2023: Friedmatt",
+          251926.3
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Gartenanlage",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 2,
+      "legendIndex": 2,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          null
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          null
+        ],
+        [
+          "2005: Friedmatt",
+          6694.83
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          null
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          null
+        ],
+        [
+          "2010: Friedmatt",
+          6297.05
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          null
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          null
+        ],
+        [
+          "2015: Friedmatt",
+          null
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          null
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          null
+        ],
+        [
+          "2020: Friedmatt",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          null
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          null
+        ],
+        [
+          "2023: Friedmatt",
+          null
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Sportanlage humusiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 3,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          null
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          null
+        ],
+        [
+          "2005: Friedmatt",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          null
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          null
+        ],
+        [
+          "2010: Friedmatt",
+          null
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          null
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          null
+        ],
+        [
+          "2015: Friedmatt",
+          null
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          null
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          210.242
+        ],
+        [
+          "2020: Friedmatt",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          null
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          210.241
+        ],
+        [
+          "2023: Friedmatt",
+          null
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Gewässervorland humusiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 4,
+      "legendIndex": 4,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          null
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          18787.62
+        ],
+        [
+          "2005: Friedmatt",
+          91023.57
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          null
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          18789.31
+        ],
+        [
+          "2010: Friedmatt",
+          91023.61
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          null
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          18808.54
+        ],
+        [
+          "2015: Friedmatt",
+          90940.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          null
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          18825.89
+        ],
+        [
+          "2020: Friedmatt",
+          90872.05
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          null
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          18825.89
+        ],
+        [
+          "2023: Friedmatt",
+          81168.76
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Schrebergarten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2005: Pestalozzi",
+          null
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          null
+        ],
+        [
+          "2005: Friedmatt",
+          17625.63
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          null
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          null
+        ],
+        [
+          "2010: Friedmatt",
+          17689.64
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          null
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          null
+        ],
+        [
+          "2015: Friedmatt",
+          16559
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          null
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          null
+        ],
+        [
+          "2020: Friedmatt",
+          8988.29
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          null
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          null
+        ],
+        [
+          "2023: Friedmatt",
+          4868.71
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Acker\u002FWiese\u002FWeide",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2005: Pestalozzi",
+          null
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          null
+        ],
+        [
+          "2005: Friedmatt",
+          669.65
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          null
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          null
+        ],
+        [
+          "2010: Friedmatt",
+          669.65
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          null
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          null
+        ],
+        [
+          "2015: Friedmatt",
+          669.665
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          null
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          null
+        ],
+        [
+          "2020: Friedmatt",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          null
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          null
+        ],
+        [
+          "2023: Friedmatt",
+          null
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Reben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 7,
+      "legendIndex": 7,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2005: Pestalozzi",
+          2095.33
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          4.91
+        ],
+        [
+          "2005: Lysbüchel",
+          4601.1
+        ],
+        [
+          "2005: Friedmatt",
+          17632.23
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          2095.33
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          4.91
+        ],
+        [
+          "2010: Lysbüchel",
+          4326.73
+        ],
+        [
+          "2010: Friedmatt",
+          18236.2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          2095.31
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          1559.58
+        ],
+        [
+          "2015: Lysbüchel",
+          7850
+        ],
+        [
+          "2015: Friedmatt",
+          23638.56
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          2095.31
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          1559.62
+        ],
+        [
+          "2020: Lysbüchel",
+          7545.24
+        ],
+        [
+          "2020: Friedmatt",
+          23600.85
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          2095.31
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          2919.34
+        ],
+        [
+          "2023: Lysbüchel",
+          14045.21
+        ],
+        [
+          "2023: Friedmatt",
+          34832.65
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "übrige humusierte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -90
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-12645",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0,
+      "minPointLength": 2
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Grünflächen nach Kategorie"
+  },
+  "subtitle": {
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 2
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "tooltip": {
+    "useHTML": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "12645"
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2014,
+          47.852760736
+        ],
+        [
+          2015,
+          48.554913295
+        ],
+        [
+          2016,
+          54.938271605
+        ],
+        [
+          2017,
+          53.614457831
+        ],
+        [
+          2018,
+          58.333333333
+        ],
+        [
+          2019,
+          58.080808081
+        ],
+        [
+          2020,
+          58.571428571
+        ],
+        [
+          2021,
+          61.751152074
+        ],
+        [
+          2022,
+          60.377358491
+        ],
+        [
+          2023,
+          59.585492228
+        ]
+      ],
+      "name": "Pestalozzi"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2014,
+          21.666666667
+        ],
+        [
+          2015,
+          28.448275862
+        ],
+        [
+          2016,
+          30.769230769
+        ],
+        [
+          2017,
+          33.846153846
+        ],
+        [
+          2018,
+          32.653061224
+        ],
+        [
+          2019,
+          32.386363636
+        ],
+        [
+          2020,
+          31.147540984
+        ],
+        [
+          2021,
+          31.868131868
+        ],
+        [
+          2022,
+          40.298507463
+        ],
+        [
+          2023,
+          45.945945946
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2014,
+          29.723991507
+        ],
+        [
+          2015,
+          29.872881356
+        ],
+        [
+          2016,
+          30.885529158
+        ],
+        [
+          2017,
+          31.390134529
+        ],
+        [
+          2018,
+          31.319910515
+        ],
+        [
+          2019,
+          30.861244019
+        ],
+        [
+          2020,
+          31.100478469
+        ],
+        [
+          2021,
+          34.643734644
+        ],
+        [
+          2022,
+          34.698795181
+        ],
+        [
+          2023,
+          32.512315271
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2014,
+          61.386138614
+        ],
+        [
+          2015,
+          58.695652174
+        ],
+        [
+          2016,
+          52.808988764
+        ],
+        [
+          2017,
+          55.434782609
+        ],
+        [
+          2018,
+          53.191489362
+        ],
+        [
+          2019,
+          57.954545455
+        ],
+        [
+          2020,
+          57.547169811
+        ],
+        [
+          2021,
+          58.181818182
+        ],
+        [
+          2022,
+          52.380952381
+        ],
+        [
+          2023,
+          57.723577236
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2014,
+          33.55704698
+        ],
+        [
+          2015,
+          30.283911672
+        ],
+        [
+          2016,
+          32.721712538
+        ],
+        [
+          2017,
+          32.93768546
+        ],
+        [
+          2018,
+          35.652173913
+        ],
+        [
+          2019,
+          35.833333333
+        ],
+        [
+          2020,
+          37.150837989
+        ],
+        [
+          2021,
+          39.410187668
+        ],
+        [
+          2022,
+          42.1875
+        ],
+        [
+          2023,
+          41.755319149
+        ]
+      ],
+      "name": "Friedmatt"
+    },
+    {
+      "color": "#999",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2014,
+          45.7
+        ],
+        [
+          2015,
+          45.6
+        ],
+        [
+          2016,
+          46.1
+        ],
+        [
+          2017,
+          46.3
+        ],
+        [
+          2018,
+          46.2
+        ],
+        [
+          2019,
+          46.6
+        ],
+        [
+          2020,
+          47.4
+        ],
+        [
+          2021,
+          47.2
+        ],
+        [
+          2022,
+          46.6
+        ],
+        [
+          2023,
+          46.6
+        ]
+      ],
+      "name": "Stadt Basel"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12641"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 70,
+    "tickInterval": 10
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12641"
+  }
+}

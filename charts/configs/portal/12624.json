@@ -1,0 +1,457 @@
+{
+  "series": [
+    {
+      "color": "#DC440E",
+      "index": 5,
+      "data": [
+        [
+          "2013",
+          1083
+        ],
+        [
+          "2014",
+          1098
+        ],
+        [
+          "2015",
+          1112
+        ],
+        [
+          "2016",
+          1113
+        ],
+        [
+          "2017",
+          1121
+        ],
+        [
+          "2018",
+          1142
+        ],
+        [
+          "2019",
+          1103
+        ],
+        [
+          "2020",
+          1089
+        ],
+        [
+          "2021",
+          1137
+        ],
+        [
+          "2022",
+          1146
+        ],
+        [
+          "2023",
+          1153
+        ]
+      ],
+      "name": "1 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 4,
+      "data": [
+        [
+          "2013",
+          1083
+        ],
+        [
+          "2014",
+          1098
+        ],
+        [
+          "2015",
+          1112
+        ],
+        [
+          "2016",
+          1113
+        ],
+        [
+          "2017",
+          1121
+        ],
+        [
+          "2018",
+          1142
+        ],
+        [
+          "2019",
+          1103
+        ],
+        [
+          "2020",
+          1089
+        ],
+        [
+          "2021",
+          1137
+        ],
+        [
+          "2022",
+          1146
+        ],
+        [
+          "2023",
+          1153
+        ]
+      ],
+      "name": "2 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "index": 3,
+      "data": [
+        [
+          "2013",
+          2926
+        ],
+        [
+          "2014",
+          2943
+        ],
+        [
+          "2015",
+          2950
+        ],
+        [
+          "2016",
+          2960
+        ],
+        [
+          "2017",
+          2970
+        ],
+        [
+          "2018",
+          2979
+        ],
+        [
+          "2019",
+          2968
+        ],
+        [
+          "2020",
+          2970
+        ],
+        [
+          "2021",
+          3025
+        ],
+        [
+          "2022",
+          3094
+        ],
+        [
+          "2023",
+          3130
+        ]
+      ],
+      "name": "3 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 2,
+      "data": [
+        [
+          "2013",
+          3850
+        ],
+        [
+          "2014",
+          3844
+        ],
+        [
+          "2015",
+          3852
+        ],
+        [
+          "2016",
+          3843
+        ],
+        [
+          "2017",
+          3841
+        ],
+        [
+          "2018",
+          3872
+        ],
+        [
+          "2019",
+          3863
+        ],
+        [
+          "2020",
+          3885
+        ],
+        [
+          "2021",
+          3969
+        ],
+        [
+          "2022",
+          4024
+        ],
+        [
+          "2023",
+          4049
+        ]
+      ],
+      "name": "4 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 1,
+      "data": [
+        [
+          "2013",
+          1452
+        ],
+        [
+          "2014",
+          1464
+        ],
+        [
+          "2015",
+          1468
+        ],
+        [
+          "2016",
+          1486
+        ],
+        [
+          "2017",
+          1489
+        ],
+        [
+          "2018",
+          1494
+        ],
+        [
+          "2019",
+          1498
+        ],
+        [
+          "2020",
+          1505
+        ],
+        [
+          "2021",
+          1555
+        ],
+        [
+          "2022",
+          1583
+        ],
+        [
+          "2023",
+          1593
+        ]
+      ],
+      "name": "5 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 0,
+      "data": [
+        [
+          "2013",
+          310
+        ],
+        [
+          "2014",
+          317
+        ],
+        [
+          "2015",
+          317
+        ],
+        [
+          "2016",
+          317
+        ],
+        [
+          "2017",
+          316
+        ],
+        [
+          "2018",
+          319
+        ],
+        [
+          "2019",
+          330
+        ],
+        [
+          "2020",
+          331
+        ],
+        [
+          "2021",
+          346
+        ],
+        [
+          "2022",
+          351
+        ],
+        [
+          "2023",
+          364
+        ]
+      ],
+      "name": "6 Zimmer u.m.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 2
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "y",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-12624",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wohnungen nach Zimmerzahl"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "12624"
+  }
+}

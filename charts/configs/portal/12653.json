@@ -1,0 +1,517 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          22390
+        ],
+        [
+          "2010",
+          22363
+        ],
+        [
+          "2015",
+          21841
+        ],
+        [
+          "2020",
+          21841
+        ],
+        [
+          "2023",
+          21841
+        ]
+      ],
+      "name": "Freiraumfläche Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          11.73
+        ],
+        [
+          "2010",
+          11.71
+        ],
+        [
+          "2015",
+          11.44
+        ],
+        [
+          "2020",
+          11.44
+        ],
+        [
+          "2023",
+          11.44
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Pestalozzi (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "visible": false,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2023",
+          0
+        ]
+      ],
+      "name": "Freiraumfläche Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "visible": false,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2023",
+          0
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Kannenfeld (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "visible": false,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2023",
+          0
+        ]
+      ],
+      "name": "Freiraumfläche Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "visible": false,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2023",
+          0
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Landskron (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          12222
+        ],
+        [
+          "2010",
+          11863
+        ],
+        [
+          "2015",
+          8805
+        ],
+        [
+          "2020",
+          6280
+        ],
+        [
+          "2023",
+          55211
+        ]
+      ],
+      "name": "Freiraumfläche Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          1.68
+        ],
+        [
+          "2010",
+          1.63
+        ],
+        [
+          "2015",
+          1.21
+        ],
+        [
+          "2020",
+          0.86
+        ],
+        [
+          "2023",
+          7.59
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Lysbüchel (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          80512
+        ],
+        [
+          "2010",
+          80229
+        ],
+        [
+          "2015",
+          73932
+        ],
+        [
+          "2020",
+          73439
+        ],
+        [
+          "2023",
+          73439
+        ]
+      ],
+      "name": "Freiraumfläche Friedmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2005",
+          8.08
+        ],
+        [
+          "2010",
+          8.05
+        ],
+        [
+          "2015",
+          7.42
+        ],
+        [
+          "2020",
+          7.37
+        ],
+        [
+          "2023",
+          7.37
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Friedmatt (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" ").slice(-1).toString() //holt 'Friedmatt' aus 'Freiraumfäche Friedmatt'
+                + ':<br>'
+                + this.series[2].name.split(" ").slice(-1).toString() //Kannenfeld
+                + ':<br>'
+                + this.series[4].name.split(" ").slice(-1).toString() //Landskron
+                + ':<br>'
+                + this.series[6].name.split(" ").slice(-1).toString() //Lysbüchel
+                + ':<br>'
+                + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
+                + ':'
+            })
+            .translate(-65,90); //move -x to the left and +y down
+        }
+    },
+    "renderTo": "container-12653"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    },
+    "column": {
+      "minPointLength": 3
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Freiraumfläche"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "useHTML": true,
+        "format": "{value:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemMarginBottom": 4,
+    "x": 125,
+    "y": -100,
+    "itemWidth": 120,
+    "width": 260,
+    "title": {
+      "text": "-\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 17
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "12653"
+  }
+}

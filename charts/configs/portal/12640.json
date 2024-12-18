@@ -1,0 +1,588 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "legendIndex": 1,
+      "data": [
+        [
+          2010,
+          45.61
+        ],
+        [
+          2011,
+          40.45
+        ],
+        [
+          2012,
+          44.69
+        ],
+        [
+          2013,
+          46.55
+        ],
+        [
+          2014,
+          46.47
+        ],
+        [
+          2015,
+          47.1
+        ],
+        [
+          2016,
+          48.75
+        ],
+        [
+          2017,
+          48.97
+        ],
+        [
+          2018,
+          48.55
+        ],
+        [
+          2019,
+          47.26
+        ],
+        [
+          2020,
+          38.51
+        ],
+        [
+          2021,
+          39.55
+        ],
+        [
+          2022,
+          42.7
+        ],
+        [
+          2023,
+          41.63
+        ],
+        [
+          2024,
+          37.5
+        ]
+      ],
+      "name": "St. Johann: Schweiz"
+    },
+    {
+      "color": "#008ac3",
+      "legendIndex": 2,
+      "data": [
+        [
+          2010,
+          17.07
+        ],
+        [
+          2011,
+          16.67
+        ],
+        [
+          2012,
+          11.67
+        ],
+        [
+          2013,
+          11.11
+        ],
+        [
+          2014,
+          14.18
+        ],
+        [
+          2015,
+          13.18
+        ],
+        [
+          2016,
+          20.69
+        ],
+        [
+          2017,
+          18.87
+        ],
+        [
+          2018,
+          18.75
+        ],
+        [
+          2019,
+          21.65
+        ],
+        [
+          2020,
+          15.63
+        ],
+        [
+          2021,
+          18.69
+        ],
+        [
+          2022,
+          20.63
+        ],
+        [
+          2023,
+          17.95
+        ],
+        [
+          2024,
+          13.08
+        ]
+      ],
+      "name": "St. Johann: Ausland"
+    },
+    {
+      "color": "#000",
+      "legendIndex": 3,
+      "data": [
+        [
+          2010,
+          33.67
+        ],
+        [
+          2011,
+          31.16
+        ],
+        [
+          2012,
+          31.44
+        ],
+        [
+          2013,
+          31.07
+        ],
+        [
+          2014,
+          31.83
+        ],
+        [
+          2015,
+          31.69
+        ],
+        [
+          2016,
+          36.96
+        ],
+        [
+          2017,
+          36.25
+        ],
+        [
+          2018,
+          36.32
+        ],
+        [
+          2019,
+          37.04
+        ],
+        [
+          2020,
+          30.37
+        ],
+        [
+          2021,
+          31.69
+        ],
+        [
+          2022,
+          33.76
+        ],
+        [
+          2023,
+          33.13
+        ],
+        [
+          2024,
+          28.76
+        ]
+      ],
+      "name": "St. Johann: Total"
+    },
+    {
+      "color": "#b00000",
+      "dashStyle": "shortDash",
+      "legendIndex": 4,
+      "data": [
+        [
+          2010,
+          47.59
+        ],
+        [
+          2011,
+          47.67
+        ],
+        [
+          2012,
+          46.11
+        ],
+        [
+          2013,
+          44.99
+        ],
+        [
+          2014,
+          45.07
+        ],
+        [
+          2015,
+          45.32
+        ],
+        [
+          2016,
+          49.57
+        ],
+        [
+          2017,
+          50.85
+        ],
+        [
+          2018,
+          47.57
+        ],
+        [
+          2019,
+          45.13
+        ],
+        [
+          2020,
+          44.93
+        ],
+        [
+          2021,
+          44.23
+        ],
+        [
+          2022,
+          42.68
+        ],
+        [
+          2023,
+          41.3
+        ],
+        [
+          2024,
+          42.12
+        ]
+      ],
+      "name": "Stadt Basel: Schweiz"
+    },
+    {
+      "color": "#008ac3",
+      "dashStyle": "shortDash",
+      "legendIndex": 5,
+      "data": [
+        [
+          2010,
+          21.85
+        ],
+        [
+          2011,
+          20.05
+        ],
+        [
+          2012,
+          18.23
+        ],
+        [
+          2013,
+          18.57
+        ],
+        [
+          2014,
+          21.62
+        ],
+        [
+          2015,
+          19.97
+        ],
+        [
+          2016,
+          22.51
+        ],
+        [
+          2017,
+          25.51
+        ],
+        [
+          2018,
+          22.64
+        ],
+        [
+          2019,
+          24.9
+        ],
+        [
+          2020,
+          23.08
+        ],
+        [
+          2021,
+          21.61
+        ],
+        [
+          2022,
+          22.82
+        ],
+        [
+          2023,
+          26.88
+        ],
+        [
+          2024,
+          26.83
+        ]
+      ],
+      "name": "Stadt Basel: Ausland"
+    },
+    {
+      "color": "#000",
+      "dashStyle": "shortDash",
+      "legendIndex": 6,
+      "data": [
+        [
+          2010,
+          39.47
+        ],
+        [
+          2011,
+          38.79
+        ],
+        [
+          2012,
+          37.05
+        ],
+        [
+          2013,
+          36.24
+        ],
+        [
+          2014,
+          37.12
+        ],
+        [
+          2015,
+          36.5
+        ],
+        [
+          2016,
+          40.53
+        ],
+        [
+          2017,
+          42.68
+        ],
+        [
+          2018,
+          39.31
+        ],
+        [
+          2019,
+          38.5
+        ],
+        [
+          2020,
+          37.61
+        ],
+        [
+          2021,
+          36.11
+        ],
+        [
+          2022,
+          35.72
+        ],
+        [
+          2023,
+          36.48
+        ],
+        [
+          2024,
+          36.73
+        ]
+      ],
+      "name": "Stadt Basel: Total"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[4].name.split(": ").slice(0, 1).toString()
+                + ':'
+            })
+            .translate(-70, 42); //move -140 to the left and 8 down
+        }
+    },
+    "marginRight": 20,
+    "renderTo": "container-12640"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Sek P-Quote nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "width": 300,
+    "x": 105,
+    "y": -40,
+    "title": {
+      "text": "-\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 19
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(": ").pop();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "12640"
+  }
+}

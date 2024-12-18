@@ -1,0 +1,1067 @@
+{
+  "series": [
+    {
+      "color": "#2f656b",
+      "index": 0,
+      "data": [
+        [
+          "2012: Pestalozzi",
+          1127
+        ],
+        [
+          "2012: Kannenfeld",
+          485
+        ],
+        [
+          "2012: Landskron",
+          1749
+        ],
+        [
+          "2012: Lysbüchel",
+          430
+        ],
+        [
+          "2012: Friedmatt",
+          599
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: Pestalozzi",
+          1118
+        ],
+        [
+          "2013: Kannenfeld",
+          492
+        ],
+        [
+          "2013: Landskron",
+          1742
+        ],
+        [
+          "2013: Lysbüchel",
+          433
+        ],
+        [
+          "2013: Friedmatt",
+          602
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: Pestalozzi",
+          1109
+        ],
+        [
+          "2014: Kannenfeld",
+          488
+        ],
+        [
+          "2014: Landskron",
+          1703
+        ],
+        [
+          "2014: Lysbüchel",
+          414
+        ],
+        [
+          "2014: Friedmatt",
+          577
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          1083
+        ],
+        [
+          "2015: Kannenfeld",
+          463
+        ],
+        [
+          "2015: Landskron",
+          1693
+        ],
+        [
+          "2015: Lysbüchel",
+          410
+        ],
+        [
+          "2015: Friedmatt",
+          574
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Pestalozzi",
+          1058
+        ],
+        [
+          "2016: Kannenfeld",
+          461
+        ],
+        [
+          "2016: Landskron",
+          1697
+        ],
+        [
+          "2016: Lysbüchel",
+          393
+        ],
+        [
+          "2016: Friedmatt",
+          570
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: Pestalozzi",
+          1047
+        ],
+        [
+          "2017: Kannenfeld",
+          461
+        ],
+        [
+          "2017: Landskron",
+          1645
+        ],
+        [
+          "2017: Lysbüchel",
+          386
+        ],
+        [
+          "2017: Friedmatt",
+          561
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: Pestalozzi",
+          1032
+        ],
+        [
+          "2018: Kannenfeld",
+          464
+        ],
+        [
+          "2018: Landskron",
+          1677
+        ],
+        [
+          "2018: Lysbüchel",
+          393
+        ],
+        [
+          "2018: Friedmatt",
+          556
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: Pestalozzi",
+          1064
+        ],
+        [
+          "2019: Kannenfeld",
+          481
+        ],
+        [
+          "2019: Landskron",
+          1728
+        ],
+        [
+          "2019: Lysbüchel",
+          406
+        ],
+        [
+          "2019: Friedmatt",
+          542
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          1085
+        ],
+        [
+          "2020: Kannenfeld",
+          487
+        ],
+        [
+          "2020: Landskron",
+          1706
+        ],
+        [
+          "2020: Lysbüchel",
+          407
+        ],
+        [
+          "2020: Friedmatt",
+          547
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2021: Pestalozzi",
+          1089
+        ],
+        [
+          "2021: Kannenfeld",
+          462
+        ],
+        [
+          "2021: Landskron",
+          1715
+        ],
+        [
+          "2021: Lysbüchel",
+          423
+        ],
+        [
+          "2021: Friedmatt",
+          559
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          1111
+        ],
+        [
+          "2022: Kannenfeld",
+          467
+        ],
+        [
+          "2022: Landskron",
+          1782
+        ],
+        [
+          "2022: Lysbüchel",
+          482
+        ],
+        [
+          "2022: Friedmatt",
+          580
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          1065
+        ],
+        [
+          "2023: Kannenfeld",
+          465
+        ],
+        [
+          "2023: Landskron",
+          1772
+        ],
+        [
+          "2023: Lysbüchel",
+          521
+        ],
+        [
+          "2023: Friedmatt",
+          570
+        ]
+      ],
+      "name": "Einpersonenhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73b97c",
+      "index": 1,
+      "data": [
+        [
+          "2012: Pestalozzi",
+          604
+        ],
+        [
+          "2012: Kannenfeld",
+          372
+        ],
+        [
+          "2012: Landskron",
+          1328
+        ],
+        [
+          "2012: Lysbüchel",
+          402
+        ],
+        [
+          "2012: Friedmatt",
+          892
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: Pestalozzi",
+          613
+        ],
+        [
+          "2013: Kannenfeld",
+          374
+        ],
+        [
+          "2013: Landskron",
+          1358
+        ],
+        [
+          "2013: Lysbüchel",
+          395
+        ],
+        [
+          "2013: Friedmatt",
+          903
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: Pestalozzi",
+          622
+        ],
+        [
+          "2014: Kannenfeld",
+          369
+        ],
+        [
+          "2014: Landskron",
+          1321
+        ],
+        [
+          "2014: Lysbüchel",
+          391
+        ],
+        [
+          "2014: Friedmatt",
+          916
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          625
+        ],
+        [
+          "2015: Kannenfeld",
+          362
+        ],
+        [
+          "2015: Landskron",
+          1308
+        ],
+        [
+          "2015: Lysbüchel",
+          392
+        ],
+        [
+          "2015: Friedmatt",
+          904
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Pestalozzi",
+          619
+        ],
+        [
+          "2016: Kannenfeld",
+          370
+        ],
+        [
+          "2016: Landskron",
+          1257
+        ],
+        [
+          "2016: Lysbüchel",
+          397
+        ],
+        [
+          "2016: Friedmatt",
+          901
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: Pestalozzi",
+          623
+        ],
+        [
+          "2017: Kannenfeld",
+          359
+        ],
+        [
+          "2017: Landskron",
+          1246
+        ],
+        [
+          "2017: Lysbüchel",
+          388
+        ],
+        [
+          "2017: Friedmatt",
+          898
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: Pestalozzi",
+          646
+        ],
+        [
+          "2018: Kannenfeld",
+          356
+        ],
+        [
+          "2018: Landskron",
+          1235
+        ],
+        [
+          "2018: Lysbüchel",
+          372
+        ],
+        [
+          "2018: Friedmatt",
+          894
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: Pestalozzi",
+          625
+        ],
+        [
+          "2019: Kannenfeld",
+          356
+        ],
+        [
+          "2019: Landskron",
+          1190
+        ],
+        [
+          "2019: Lysbüchel",
+          375
+        ],
+        [
+          "2019: Friedmatt",
+          901
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          629
+        ],
+        [
+          "2020: Kannenfeld",
+          360
+        ],
+        [
+          "2020: Landskron",
+          1199
+        ],
+        [
+          "2020: Lysbüchel",
+          388
+        ],
+        [
+          "2020: Friedmatt",
+          889
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2021: Pestalozzi",
+          645
+        ],
+        [
+          "2021: Kannenfeld",
+          357
+        ],
+        [
+          "2021: Landskron",
+          1165
+        ],
+        [
+          "2021: Lysbüchel",
+          384
+        ],
+        [
+          "2021: Friedmatt",
+          928
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          625
+        ],
+        [
+          "2022: Kannenfeld",
+          357
+        ],
+        [
+          "2022: Landskron",
+          1174
+        ],
+        [
+          "2022: Lysbüchel",
+          428
+        ],
+        [
+          "2022: Friedmatt",
+          934
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          616
+        ],
+        [
+          "2023: Kannenfeld",
+          336
+        ],
+        [
+          "2023: Landskron",
+          1162
+        ],
+        [
+          "2023: Lysbüchel",
+          488
+        ],
+        [
+          "2023: Friedmatt",
+          958
+        ]
+      ],
+      "name": "Familienhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e8d2",
+      "index": 2,
+      "data": [
+        [
+          "2012: Pestalozzi",
+          296
+        ],
+        [
+          "2012: Kannenfeld",
+          138
+        ],
+        [
+          "2012: Landskron",
+          458
+        ],
+        [
+          "2012: Lysbüchel",
+          156
+        ],
+        [
+          "2012: Friedmatt",
+          144
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: Pestalozzi",
+          318
+        ],
+        [
+          "2013: Kannenfeld",
+          133
+        ],
+        [
+          "2013: Landskron",
+          467
+        ],
+        [
+          "2013: Lysbüchel",
+          163
+        ],
+        [
+          "2013: Friedmatt",
+          140
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: Pestalozzi",
+          325
+        ],
+        [
+          "2014: Kannenfeld",
+          141
+        ],
+        [
+          "2014: Landskron",
+          514
+        ],
+        [
+          "2014: Lysbüchel",
+          161
+        ],
+        [
+          "2014: Friedmatt",
+          129
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          308
+        ],
+        [
+          "2015: Kannenfeld",
+          138
+        ],
+        [
+          "2015: Landskron",
+          518
+        ],
+        [
+          "2015: Lysbüchel",
+          166
+        ],
+        [
+          "2015: Friedmatt",
+          125
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Pestalozzi",
+          321
+        ],
+        [
+          "2016: Kannenfeld",
+          144
+        ],
+        [
+          "2016: Landskron",
+          509
+        ],
+        [
+          "2016: Lysbüchel",
+          169
+        ],
+        [
+          "2016: Friedmatt",
+          137
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: Pestalozzi",
+          313
+        ],
+        [
+          "2017: Kannenfeld",
+          150
+        ],
+        [
+          "2017: Landskron",
+          532
+        ],
+        [
+          "2017: Lysbüchel",
+          163
+        ],
+        [
+          "2017: Friedmatt",
+          136
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: Pestalozzi",
+          334
+        ],
+        [
+          "2018: Kannenfeld",
+          148
+        ],
+        [
+          "2018: Landskron",
+          515
+        ],
+        [
+          "2018: Lysbüchel",
+          150
+        ],
+        [
+          "2018: Friedmatt",
+          141
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: Pestalozzi",
+          339
+        ],
+        [
+          "2019: Kannenfeld",
+          131
+        ],
+        [
+          "2019: Landskron",
+          481
+        ],
+        [
+          "2019: Lysbüchel",
+          140
+        ],
+        [
+          "2019: Friedmatt",
+          149
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          325
+        ],
+        [
+          "2020: Kannenfeld",
+          136
+        ],
+        [
+          "2020: Landskron",
+          501
+        ],
+        [
+          "2020: Lysbüchel",
+          133
+        ],
+        [
+          "2020: Friedmatt",
+          162
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2021: Pestalozzi",
+          315
+        ],
+        [
+          "2021: Kannenfeld",
+          142
+        ],
+        [
+          "2021: Landskron",
+          512
+        ],
+        [
+          "2021: Lysbüchel",
+          150
+        ],
+        [
+          "2021: Friedmatt",
+          198
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          307
+        ],
+        [
+          "2022: Kannenfeld",
+          141
+        ],
+        [
+          "2022: Landskron",
+          494
+        ],
+        [
+          "2022: Lysbüchel",
+          197
+        ],
+        [
+          "2022: Friedmatt",
+          196
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          328
+        ],
+        [
+          "2023: Kannenfeld",
+          151
+        ],
+        [
+          "2023: Landskron",
+          472
+        ],
+        [
+          "2023: Lysbüchel",
+          202
+        ],
+        [
+          "2023: Friedmatt",
+          186
+        ]
+      ],
+      "name": "Andere Haushalte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 54,
+          });
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
+    },
+    "type": "column",
+    "renderTo": "container-12617",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "groupPadding": 0,
+      "showInNavigator": true
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Haushalte nach Art des Haushalts"
+  },
+  "subtitle": {
+    "text": "Wohnviertel St. Johann, nach Bezirk",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 25
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "alignColumns": false,
+    "labelFormatter": function () {
+        return this.name.replace(" Haushalte", "");
+      }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "stacking": "percent",
+      "pointRange": null
+    },
+    "xAxis": {
+      "tickPositioner": function () {
+          var interval = 6,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift((i = i - interval));
+          return pos;
+        },
+      "labels": {
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "x": -15,
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+            // get year from chart axis label names
+            //return this.chart.xAxis[0].names[this.value].substring(0, 4);
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "12617"
+  }
+}
