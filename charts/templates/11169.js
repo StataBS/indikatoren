@@ -16,11 +16,16 @@
       }
     },
     xAxis: {
+      //      type: "category",
+      tickInterval: 1
     },
     yAxis: {
       tickAmount: 7,
       labels: {
-        format: "{value:,.0f}"
+        format: "{value:,.0f}",
+        style: {
+          color: "black",
+        },
       },
       reversedStacks: true
     },

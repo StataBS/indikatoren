@@ -39,6 +39,10 @@
         [
           "2021",
           39
+        ],
+        [
+          "2022",
+          41
         ]
       ],
       "name": "Industrie",
@@ -83,6 +87,10 @@
         [
           "2021",
           73
+        ],
+        [
+          "2022",
+          71
         ]
       ],
       "name": "Baugewerbe",
@@ -127,6 +135,10 @@
         [
           "2021",
           102
+        ],
+        [
+          "2022",
+          106
         ]
       ],
       "name": "Handel, Reparatur",
@@ -171,6 +183,10 @@
         [
           "2021",
           24
+        ],
+        [
+          "2022",
+          39
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -215,6 +231,10 @@
         [
           "2021",
           25
+        ],
+        [
+          "2022",
+          42
         ]
       ],
       "name": "Gastronomie, Beherbergung",
@@ -259,6 +279,10 @@
         [
           "2021",
           71
+        ],
+        [
+          "2022",
+          82
         ]
       ],
       "name": "Information, Kommunikation",
@@ -303,6 +327,10 @@
         [
           "2021",
           27
+        ],
+        [
+          "2022",
+          32
         ]
       ],
       "name": "Finanz- und Versicherungsdienstl.",
@@ -347,6 +375,10 @@
         [
           "2021",
           76
+        ],
+        [
+          "2022",
+          82
         ]
       ],
       "name": "Immobilien, wirtschaftliche Dienstl.",
@@ -391,6 +423,10 @@
         [
           "2021",
           307
+        ],
+        [
+          "2022",
+          364
         ]
       ],
       "name": "Freiberufl., wiss., techn. Dienstl.",
@@ -435,6 +471,10 @@
         [
           "2021",
           67
+        ],
+        [
+          "2022",
+          63
         ]
       ],
       "name": "Unterrichtswesen",
@@ -479,6 +519,10 @@
         [
           "2021",
           132
+        ],
+        [
+          "2022",
+          200
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -523,6 +567,10 @@
         [
           "2021",
           129
+        ],
+        [
+          "2022",
+          169
         ]
       ],
       "name": "Kunst, Unterhaltung, Erholung",
@@ -567,6 +615,10 @@
         [
           "2021",
           94
+        ],
+        [
+          "2022",
+          116
         ]
       ],
       "name": "Sonstige Dienstleistungen",
@@ -709,7 +761,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

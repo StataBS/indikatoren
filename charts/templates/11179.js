@@ -7,11 +7,12 @@
         labels: {
           formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
-          }
+          },
+          style: {
+            color: "black",
+          },
         },
-        style: {
-          color: "black",
-        },
+
         title: {
           text: ""
         }
@@ -20,12 +21,12 @@
         min: 0,
         tickAmount: 7,
         labels: {
+          style: {
+            color: "black",
+          },
           formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
           }
-        },
-        style: {
-          color: "black",
         },
         title: {
           text: ""
@@ -34,6 +35,7 @@
       }
     ],
     xAxis: {
+      type: "category",
       tickInterval: 1
     },
     legend: {
@@ -46,11 +48,11 @@
       labelFormatter: function () {
         // Legende manuell beschriften
         if (this.index === 0) {
-          return 'Kosten Kanton (in Mio. CHF)';
+          return 'Kosten Kanton inkl. Gemeinden (in Mio. Fr.)';
         } else if (this.index === 1) {
-          return 'Kosten Stadt Basel (in Mio. CHF)';
+          return 'Kosten Stadt Basel (in Mio. Fr.)';
         } else if (this.index === 2) {
-          return 'Durchschnittsbeitrag pro Tag Stadt Basel (in CHF, rechte Skala)';
+          return 'Durchschnittsbeitrag pro Tag Stadt Basel (in Fr., rechte Skala)';
         }
       }
     },

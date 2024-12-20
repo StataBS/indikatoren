@@ -60,7 +60,7 @@
         enabled: true,
         formatter: function () {
           // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
-          return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
+          return Math.abs(this.y) > (0.04 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
         },
         distance: -25,
         style: {

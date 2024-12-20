@@ -18,7 +18,11 @@
               },
               fillColor: 'black',
               // lineColor: 'black',
-            }
+            },
+            dataLabels:{
+//              align: "right",
+              verticalAlign: "bottom"
+            },
           });
 
         }

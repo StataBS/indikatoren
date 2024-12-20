@@ -44,6 +44,7 @@
       },
     ],
     xAxis: {
+      type: "category",
       tickInterval: 1,
       endOnTick: false,
       startOnTick: false,
@@ -52,7 +53,7 @@
       shared: true,
       useHTML: true,
       followPointer: true,
-      headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+      headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
         + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}%</b></td></tr>',
     },
@@ -146,18 +147,18 @@
           shared: true,
           useHTML: true,
           followPointer: true,
-          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+          headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
             + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
         },
-        /*
-                tooltip: {
-                  headerFormat: '<table>',
-                  pointFormatter: function () {
-                    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
-                  }
-                }
-        */
+        events: {
+          hide: function () {
+            this.chart.yAxis[1].update({ visible: false });
+          },
+          show: function () {
+            this.chart.yAxis[1].update({ visible: true });
+          }
+        }
       },
     ],
   };

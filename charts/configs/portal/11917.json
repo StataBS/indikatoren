@@ -138,6 +138,10 @@
         [
           2022,
           8.45
+        ],
+        [
+          2023,
+          7.44
         ]
       ],
       "name": "Trinkwasserbezug öffentliches Netz"
@@ -280,6 +284,10 @@
         [
           2022,
           12.42
+        ],
+        [
+          2023,
+          13.3
         ]
       ],
       "name": "Private Grundwasserförderungen"
@@ -421,7 +429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "tooltip": {
     "shared": false,

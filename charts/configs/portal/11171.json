@@ -10,55 +10,60 @@
       },
       "data": [
         [
-          2011,
+          "2011",
           0.9808
         ],
         [
-          2012,
+          "2012",
           0.9833
         ],
         [
-          2013,
+          "2013",
           0.954
         ],
         [
-          2014,
+          "2014",
           0.9309
         ],
         [
-          2015,
+          "2015",
           0.9405
         ],
         [
-          2016,
+          "2016",
           0.9579
         ],
         [
-          2017,
+          "2017",
           0.9501
         ],
         [
-          2018,
+          "2018",
           0.9573
         ],
         [
-          2019,
+          "2019",
           0.9586
         ],
         [
-          2020,
+          "2020",
           0.932
         ],
         [
-          2021,
+          "2021",
           0.893
         ],
         [
-          2022,
+          "2022",
           0.922
+        ],
+        [
+          "2023",
+          0.948
         ]
       ],
-      "name": "Auslastung"
+      "name": "Auslastung",
+      "turboThreshold": 0
     },
     {
       "index": 2,
@@ -71,57 +76,80 @@
       "yAxis": 1,
       "data": [
         [
-          2011,
+          "2011",
           1015653
         ],
         [
-          2012,
+          "2012",
           1023525
         ],
         [
-          2013,
+          "2013",
           1012269
         ],
         [
-          2014,
+          "2014",
           1047484
         ],
         [
-          2015,
+          "2015",
           1079616
         ],
         [
-          2016,
+          "2016",
           1098388
         ],
         [
-          2017,
+          "2017",
           1095822
         ],
         [
-          2018,
+          "2018",
           1097812
         ],
         [
-          2019,
+          "2019",
           1086785
         ],
         [
-          2020,
+          "2020",
           1058702
         ],
         [
-          2021,
+          "2021",
           1008730
         ],
         [
-          2022,
+          "2022",
           1017551
+        ],
+        [
+          "2023",
+          1035673
         ]
       ],
-      "name": "Pensions- und Pflegetage"
+      "name": "Pensions- und Pflegetage",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -180,23 +208,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
     }
   },
   "yAxis": [
@@ -264,7 +275,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

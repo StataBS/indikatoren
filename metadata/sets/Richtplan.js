@@ -319,7 +319,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2020 bei 2,8. Er liegt damit höher als in der Agglomeration, wo er 1,83 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		],
 		"description": "Langzeitbelastungsindex",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Lärm",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-7",
@@ -346,7 +346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:33",
+		"aktualisierungsdatum": "2024-12-20T03:23:34",
 		"id": 11908
 	},
 	{
@@ -409,7 +409,7 @@ var indikatorensetData = [
 		],
 		"description": "Revitalisierungsrate Oberflächengewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-2",
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11910
 	},
 	{
@@ -582,7 +582,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2022 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11,3 Mio. m<sup>3</sup>.",
+		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
 		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
@@ -594,7 +594,7 @@ var indikatorensetData = [
 		],
 		"description": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-1",
@@ -607,7 +607,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:30",
 		"id": 11916
 	},
 	{
@@ -619,7 +619,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2022 auf gesamthaft 20,9 Mio. m<sup>3</sup>. Davon entfielen 12,4 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
 		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
@@ -631,7 +631,7 @@ var indikatorensetData = [
 		],
 		"description": "Wasserverbrauch Gewerbe und Industrie",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-2",
@@ -644,7 +644,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:31",
 		"id": 11917
 	},
 	{
@@ -656,8 +656,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Temperatur des Grundwassers beträgt 2022 rund 14,9 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 12,7 und 17,3 °C.",
-		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell 82) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
+		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -668,7 +668,7 @@ var indikatorensetData = [
 		],
 		"description": "Wassertemperatur Grundwasser",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-3",
@@ -681,7 +681,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-27T09:25:28",
+		"aktualisierungsdatum": "2024-12-20T03:23:32",
 		"id": 11918
 	},
 	{
@@ -1604,7 +1604,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2023 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2023 gibt es in der Stadt Basel gut 90 000 Privathaushalte; gut 9 200 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1618,7 +1618,7 @@ var indikatorensetData = [
 		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.06220",
+		"kuerzel": "I.01.TRKE.06220",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -1630,7 +1630,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:31",
+		"aktualisierungsdatum": "2024-12-20T03:23:33",
 		"id": 6220
 	},
 	{

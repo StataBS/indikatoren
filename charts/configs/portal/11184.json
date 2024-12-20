@@ -4,34 +4,34 @@
       "data": [
         [
           "Basispaket Chirurgie und innere Medizin",
-          13113.245
+          13506.1
         ],
         [
           "Orthopädie",
-          5079.785
+          5130.27
         ],
         [
           "Geburtshilfe",
-          1522.708
+          1534.86
         ],
         [
           "Neugeborene",
-          773.772
+          784.52
         ],
         [
           "Urologie",
-          2017.304
+          1804.19
         ],
         [
           "Übrige",
-          15683.93
+          14642.3
         ]
       ],
       "dataLabels": {
         "enabled": true,
         "formatter": function () {
           // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
-          return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
+          return Math.abs(this.y) > (0.04 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
         },
         "distance": -25,
         "style": {
@@ -65,27 +65,27 @@
       "data": [
         [
           "Basispaket Chirurgie und innere Medizin",
-          14916
+          15233
         ],
         [
           "Orthopädie",
-          3345
+          3374
         ],
         [
           "Geburtshilfe",
-          2138
+          2194
         ],
         [
           "Neugeborene",
-          1848
+          1934
         ],
         [
           "Urologie",
-          1592
+          1732
         ],
         [
           "Übrige",
-          9462
+          8837
         ]
       ],
       "dataLabels": {
@@ -203,7 +203,7 @@
     "text": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen"
   },
   "subtitle": {
-    "text": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022",
+    "text": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -266,7 +266,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

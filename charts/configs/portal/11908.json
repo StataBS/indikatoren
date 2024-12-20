@@ -122,6 +122,18 @@
         [
           "2020",
           1.4
+        ],
+        [
+          "2021",
+          1.4
+        ],
+        [
+          "2022",
+          1.4
+        ],
+        [
+          "2023",
+          1.4
         ]
       ],
       "name": "Höhenlagen im Jura",
@@ -249,6 +261,18 @@
         [
           "2020",
           1.83
+        ],
+        [
+          "2021",
+          1.85
+        ],
+        [
+          "2022",
+          2.13
+        ],
+        [
+          "2023",
+          1.85
         ]
       ],
       "name": "Agglomeration",
@@ -376,6 +400,18 @@
         [
           "2020",
           2.8
+        ],
+        [
+          "2021",
+          2.75
+        ],
+        [
+          "2022",
+          2.75
+        ],
+        [
+          "2023",
+          2.3
         ]
       ],
       "name": "Stadt Basel",
@@ -503,6 +539,18 @@
         [
           "2020",
           3.28
+        ],
+        [
+          "2021",
+          3.13
+        ],
+        [
+          "2022",
+          3.13
+        ],
+        [
+          "2023",
+          2.98
         ]
       ],
       "name": "Stark verkehrsexponiert",
@@ -656,7 +704,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "tooltip": {
     "shared": false

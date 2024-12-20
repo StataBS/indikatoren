@@ -3604,7 +3604,7 @@
           "lon": 7.579534993,
           "id": 1,
           "name": "Adullam Pflegezentrum Basel",
-          "z": 150,
+          "z": 133,
           "address": "Mittlere Strasse 15, 4056 Basel"
         },
         {
@@ -3612,7 +3612,7 @@
           "lon": 7.655294066,
           "id": 2,
           "name": "Adullam Pflegezentrum Riehen",
-          "z": 66,
+          "z": 60,
           "address": "Schützengasse 60, 4125 Riehen"
         },
         {
@@ -3716,7 +3716,7 @@
           "lon": 7.59674348,
           "id": 15,
           "name": "dandelion",
-          "z": 62,
+          "z": 65,
           "address": "Sperrstrasse 100, 4057 Basel"
         },
         {
@@ -3764,7 +3764,7 @@
           "lon": 7.634425506,
           "id": 21,
           "name": "Alterspflegeheim Humanitas",
-          "z": 115,
+          "z": 111,
           "address": "Rauracherstrasse 111, 4125 Riehen"
         },
         {
@@ -3844,7 +3844,7 @@
           "lon": 7.679020137,
           "id": 31,
           "name": "Pflegeheim St. Chrischona",
-          "z": 36,
+          "z": 38,
           "address": "Chrischonarain 131, 4126 Bettingen"
         },
         {
@@ -4045,7 +4045,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Plätze, Basel-Stadt, 2022",
+    "text": "Anzahl Plätze, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -4061,7 +4061,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "colorAxis": {
     "min": 0,
