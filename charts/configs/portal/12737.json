@@ -1,0 +1,300 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          2018,
+          447792
+        ],
+        [
+          2019,
+          443141
+        ],
+        [
+          2020,
+          513055
+        ],
+        [
+          2021,
+          509853
+        ],
+        [
+          2022,
+          499045
+        ],
+        [
+          2023,
+          524270
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          2018,
+          57363
+        ],
+        [
+          2019,
+          64314
+        ],
+        [
+          2020,
+          58393
+        ],
+        [
+          2021,
+          76850
+        ],
+        [
+          2022,
+          79509
+        ],
+        [
+          2023,
+          70322
+        ]
+      ],
+      "name": "Riehen"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2018,
+          1506
+        ],
+        [
+          2019,
+          1185
+        ],
+        [
+          2020,
+          2928
+        ],
+        [
+          2021,
+          3381
+        ],
+        [
+          2022,
+          3675
+        ],
+        [
+          2023,
+          3644
+        ]
+      ],
+      "name": "Bettingen"
+    },
+    {
+      "type": "line",
+      "color": "#010101",
+      "data": [
+        [
+          2018,
+          506661
+        ],
+        [
+          2019,
+          508640
+        ],
+        [
+          2020,
+          574376
+        ],
+        [
+          2021,
+          590084
+        ],
+        [
+          2022,
+          582229
+        ],
+        [
+          2023,
+          598236
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12737"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "minPointLength": 3
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Pflegestunden Spitex nach Gemeinden"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 150,
+    "alignColumns": false,
+    "itemDistance": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "formatter": function () {
+        let header = `<span style="font-size: 10px"> ${this.x} </span><table>`;
+        let body = this.points
+          .filter(point => point.series.index !== 3) // Reihe mit Index 2 ignorieren
+          .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
+          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
+          <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
+          .join('');
+        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
+        return header + body + footer;
+      }
+  },
+  "exporting": {
+    "filename": "12737"
+  }
+}

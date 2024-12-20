@@ -3,70 +3,70 @@
     {
       "data": [
         {
-          "x": 1.11,
+          "x": 1.08,
           "name": "Adullam Spital",
           "name_short": "Adullam",
-          "y": 1.58
+          "y": 1.64
         },
         {
-          "x": 0.2,
+          "x": 0.18,
           "name": "Bethesda Spital",
           "name_short": "Bethesda",
-          "y": 0.68
+          "y": 0.67
         },
         {
-          "x": 1.85,
+          "x": 1.78,
           "name": "Felix Platter-Spital",
           "name_short": "Felix Platter",
-          "y": 1.54
+          "y": 1.45
         },
         {
-          "x": 0.04,
+          "x": 0.05,
           "name": "Matthea Geburtshaus",
           "name_short": "Matthea",
-          "y": 0.35
+          "y": 0.34
         },
         {
-          "x": 0.19,
+          "x": 0.17,
           "name": "Merian Iselin Klinik",
           "name_short": "Merian Iselin",
           "y": 1.04
         },
         {
-          "x": 1.81,
+          "x": 1.76,
           "name": "Palliativzentrum Hildegard",
           "name_short": "Hildegard",
-          "y": 2.37
+          "y": 2.52
         },
         {
-          "x": 0.38,
+          "x": 0.39,
           "name": "Schmerzklinik Basel",
           "name_short": "Schmerzklinik",
-          "y": 1.56
+          "y": 1.81
         },
         {
           "x": 0.96,
           "name": "St. Claraspital",
           "name_short": "St. Claraspital",
-          "y": 1.04
+          "y": 1.05
         },
         {
-          "x": 0.38,
+          "x": 0.41,
           "name": "Universitäts-Kinderspital beider Basel",
           "name_short": "UKBB",
-          "y": 1.22
+          "y": 1.26
         },
         {
-          "x": 1.16,
+          "x": 1.11,
           "name": "Universitätsspital Basel",
-          "name_short": "USB",
-          "y": 1.31
+          "name_short": "UBS",
+          "y": 1.32
         },
         {
-          "x": 0.93,
+          "x": 0.9,
           "name": "Alle Spitäler",
           "name_short": "Alle",
-          "y": 1.26
+          "y": 1.21
         }
       ],
       "name": "Spitalname lang"
@@ -100,7 +100,11 @@
               },
               fillColor: 'black',
               // lineColor: 'black',
-            }
+            },
+            dataLabels:{
+//              align: "right",
+              verticalAlign: "bottom"
+            },
           });
 
         }
@@ -152,7 +156,7 @@
     "text": "Schweregrad und Komplexität "
   },
   "subtitle": {
-    "text": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2022",
+    "text": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -237,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -41,15 +41,15 @@
       followPointer: true,
       headerFormat: '<span style="font-size: 10px"> {point.x} </span><table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f} Mio. CHF</b></td>'
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f} Mio. Fr.</b></td>'
         + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
-      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.1f} Mio. CHF</b></td><td></td></tr></table>',
+      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.1f} Mio. Fr.</b></td><td></td></tr></table>',
     },
     /*
         tooltip: {
           shared: true,
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
-          footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. Fr.</b> ({point.percentage:,.1f}%)<br/>',
+          footerFormat: 'Total: <b>{point.total:,.1f} Mio. Fr.</b>',
         },
     */
     legend: {

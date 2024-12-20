@@ -3784,7 +3784,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Spitäler"
+    "text": "Spitalstandorte"
   },
   "subtitle": {
     "style": {
@@ -3793,7 +3793,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2022, Basel-Stadt",
+    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -3809,7 +3809,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "colorAxis": {
     "min": 0,

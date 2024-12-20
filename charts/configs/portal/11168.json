@@ -35,6 +35,10 @@
         [
           2022,
           57
+        ],
+        [
+          2023,
+          55
         ]
       ],
       "name": "Organisationen"
@@ -74,6 +78,10 @@
         [
           2022,
           61
+        ],
+        [
+          2023,
+          63
         ]
       ],
       "name": "Einzelpersonen"
@@ -113,6 +121,10 @@
         ],
         [
           2022,
+          118
+        ],
+        [
+          2023,
           118
         ]
       ],
@@ -244,7 +256,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

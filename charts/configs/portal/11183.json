@@ -23,6 +23,10 @@
         [
           2022,
           5038
+        ],
+        [
+          2023,
+          4735
         ]
       ],
       "name": "Ausserkantonale Spitäler"
@@ -50,6 +54,10 @@
         [
           2022,
           38796
+        ],
+        [
+          2023,
+          38869
         ]
       ],
       "name": "Baselstädtische Spitäler"
@@ -181,7 +189,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

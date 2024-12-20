@@ -11,27 +11,31 @@
         ],
         [
           2017,
-          338
+          344
         ],
         [
           2018,
-          331
+          337
         ],
         [
           2019,
-          325
+          329
         ],
         [
           2020,
-          305
+          306
         ],
         [
           2021,
-          279
+          292
         ],
         [
           2022,
-          287
+          294
+        ],
+        [
+          2023,
+          278
         ]
       ],
       "name": "Anzahl Pflegebedürftige Stadt Basel"
@@ -67,7 +71,11 @@
         ],
         [
           2022,
-          74287
+          74598
+        ],
+        [
+          2023,
+          73521
         ]
       ],
       "name": "Erbrachte Pflegeleistungstage Stadt Basel"
@@ -216,7 +224,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -1,0 +1,407 @@
+{
+  "series": [
+    {
+      "color": "#1f5647",
+      "data": [
+        [
+          "2011",
+          15223
+        ],
+        [
+          "2012",
+          20990
+        ],
+        [
+          "2013",
+          24795
+        ],
+        [
+          "2014",
+          26601
+        ],
+        [
+          "2015",
+          26799
+        ],
+        [
+          "2016",
+          28347
+        ],
+        [
+          "2017",
+          29658
+        ],
+        [
+          "2018",
+          33238
+        ],
+        [
+          "2019",
+          34476
+        ],
+        [
+          "2020",
+          38784
+        ],
+        [
+          "2021",
+          40211
+        ],
+        [
+          "2022",
+          42649
+        ],
+        [
+          "2023",
+          45950
+        ]
+      ],
+      "name": "Bedarfsabklärung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#43b696",
+      "data": [
+        [
+          "2011",
+          99689
+        ],
+        [
+          "2012",
+          108860
+        ],
+        [
+          "2013",
+          122056
+        ],
+        [
+          "2014",
+          136282
+        ],
+        [
+          "2015",
+          140359
+        ],
+        [
+          "2016",
+          147508
+        ],
+        [
+          "2017",
+          157524
+        ],
+        [
+          "2018",
+          156102
+        ],
+        [
+          "2019",
+          157931
+        ],
+        [
+          "2020",
+          186298
+        ],
+        [
+          "2021",
+          194916
+        ],
+        [
+          "2022",
+          192448
+        ],
+        [
+          "2023",
+          193711
+        ]
+      ],
+      "name": "Behandlungspflege",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#4af1c3",
+      "data": [
+        [
+          "2011",
+          225898
+        ],
+        [
+          "2012",
+          235759
+        ],
+        [
+          "2013",
+          251286
+        ],
+        [
+          "2014",
+          277725
+        ],
+        [
+          "2015",
+          286804
+        ],
+        [
+          "2016",
+          324721
+        ],
+        [
+          "2017",
+          332554
+        ],
+        [
+          "2018",
+          317321
+        ],
+        [
+          "2019",
+          316233
+        ],
+        [
+          "2020",
+          349294
+        ],
+        [
+          "2021",
+          354957
+        ],
+        [
+          "2022",
+          347132
+        ],
+        [
+          "2023",
+          358575
+        ]
+      ],
+      "name": "Grundpflege",
+      "turboThreshold": 0
+    },
+    {
+      "type": "line",
+      "color": "#010101",
+      "data": [
+        [
+          "2011",
+          340810
+        ],
+        [
+          "2012",
+          365609
+        ],
+        [
+          "2013",
+          398137
+        ],
+        [
+          "2014",
+          440608
+        ],
+        [
+          "2015",
+          453962
+        ],
+        [
+          "2016",
+          500576
+        ],
+        [
+          "2017",
+          519736
+        ],
+        [
+          "2018",
+          506661
+        ],
+        [
+          "2019",
+          508640
+        ],
+        [
+          "2020",
+          574376
+        ],
+        [
+          "2021",
+          590084
+        ],
+        [
+          "2022",
+          582229
+        ],
+        [
+          "2023",
+          598236
+        ]
+      ],
+      "name": "Total",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12735"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Pflegestunden Spitex nach Pflegeleistungen"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 150,
+    "alignColumns": false,
+    "itemDistance": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+  },
+  "exporting": {
+    "filename": "12735"
+  }
+}

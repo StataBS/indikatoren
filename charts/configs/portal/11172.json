@@ -6,31 +6,36 @@
       "legendIndex": 1,
       "data": [
         [
-          2017,
+          "2017",
           3.16
         ],
         [
-          2018,
+          "2018",
           3.51
         ],
         [
-          2019,
+          "2019",
           3.24
         ],
         [
-          2020,
+          "2020",
           2.62
         ],
         [
-          2021,
+          "2021",
           2.21
         ],
         [
-          2022,
+          "2022",
           1.72
+        ],
+        [
+          "2023",
+          2.11
         ]
       ],
-      "name": "Stufe 1"
+      "name": "Stufe 1",
+      "turboThreshold": 0
     },
     {
       "color": "#007a2f",
@@ -38,31 +43,36 @@
       "legendIndex": 2,
       "data": [
         [
-          2017,
+          "2017",
           14.32
         ],
         [
-          2018,
+          "2018",
           13.74
         ],
         [
-          2019,
+          "2019",
           11.88
         ],
         [
-          2020,
+          "2020",
           11.38
         ],
         [
-          2021,
+          "2021",
           9.99
         ],
         [
-          2022,
+          "2022",
           9.71
+        ],
+        [
+          "2023",
+          9.84
         ]
       ],
-      "name": "Stufe 2"
+      "name": "Stufe 2",
+      "turboThreshold": 0
     },
     {
       "color": "#ffda80",
@@ -70,31 +80,36 @@
       "legendIndex": 3,
       "data": [
         [
-          2017,
+          "2017",
           6.38
         ],
         [
-          2018,
+          "2018",
           6.92
         ],
         [
-          2019,
+          "2019",
           6.73
         ],
         [
-          2020,
+          "2020",
           6.55
         ],
         [
-          2021,
+          "2021",
           6.56
         ],
         [
-          2022,
+          "2022",
           5.7
+        ],
+        [
+          "2023",
+          5.24
         ]
       ],
-      "name": "Stufe 3"
+      "name": "Stufe 3",
+      "turboThreshold": 0
     },
     {
       "color": "#fabd24",
@@ -102,31 +117,36 @@
       "legendIndex": 4,
       "data": [
         [
-          2017,
+          "2017",
           9.36
         ],
         [
-          2018,
+          "2018",
           8.91
         ],
         [
-          2019,
+          "2019",
           8.67
         ],
         [
-          2020,
+          "2020",
           9.14
         ],
         [
-          2021,
+          "2021",
           9.63
         ],
         [
-          2022,
+          "2022",
           10.88
+        ],
+        [
+          "2023",
+          11.2
         ]
       ],
-      "name": "Stufe 4"
+      "name": "Stufe 4",
+      "turboThreshold": 0
     },
     {
       "color": "#cd9c00",
@@ -134,31 +154,36 @@
       "legendIndex": 5,
       "data": [
         [
-          2017,
+          "2017",
           6.7
         ],
         [
-          2018,
+          "2018",
           5.97
         ],
         [
-          2019,
+          "2019",
           6.87
         ],
         [
-          2020,
+          "2020",
           6.8
         ],
         [
-          2021,
+          "2021",
           6.5
         ],
         [
-          2022,
+          "2022",
           6.07
+        ],
+        [
+          "2023",
+          6.62
         ]
       ],
-      "name": "Stufe 5"
+      "name": "Stufe 5",
+      "turboThreshold": 0
     },
     {
       "color": "#7f5f1a",
@@ -166,31 +191,36 @@
       "legendIndex": 6,
       "data": [
         [
-          2017,
+          "2017",
           18.33
         ],
         [
-          2018,
+          "2018",
           19.85
         ],
         [
-          2019,
+          "2019",
           20.03
         ],
         [
-          2020,
+          "2020",
           19.79
         ],
         [
-          2021,
+          "2021",
           19.46
         ],
         [
-          2022,
+          "2022",
           19.97
+        ],
+        [
+          "2023",
+          19.83
         ]
       ],
-      "name": "Stufe 6"
+      "name": "Stufe 6",
+      "turboThreshold": 0
     },
     {
       "color": "#45381d",
@@ -198,31 +228,36 @@
       "legendIndex": 7,
       "data": [
         [
-          2017,
+          "2017",
           7.61
         ],
         [
-          2018,
+          "2018",
           7.07
         ],
         [
-          2019,
+          "2019",
           6.9
         ],
         [
-          2020,
+          "2020",
           6.46
         ],
         [
-          2021,
+          "2021",
           6.75
         ],
         [
-          2022,
+          "2022",
           6.54
+        ],
+        [
+          "2023",
+          5.91
         ]
       ],
-      "name": "Stufe 7"
+      "name": "Stufe 7",
+      "turboThreshold": 0
     },
     {
       "color": "#e7cee2",
@@ -230,31 +265,36 @@
       "legendIndex": 8,
       "data": [
         [
-          2017,
+          "2017",
           16.22
         ],
         [
-          2018,
+          "2018",
           16.66
         ],
         [
-          2019,
+          "2019",
           16.35
         ],
         [
-          2020,
+          "2020",
           16.59
         ],
         [
-          2021,
+          "2021",
           16.44
         ],
         [
-          2022,
+          "2022",
           16.54
+        ],
+        [
+          "2023",
+          17.5
         ]
       ],
-      "name": "Stufe 8"
+      "name": "Stufe 8",
+      "turboThreshold": 0
     },
     {
       "color": "#b375ab",
@@ -262,31 +302,36 @@
       "legendIndex": 9,
       "data": [
         [
-          2017,
+          "2017",
           4.29
         ],
         [
-          2018,
+          "2018",
           4.37
         ],
         [
-          2019,
+          "2019",
           4.95
         ],
         [
-          2020,
+          "2020",
           4.9
         ],
         [
-          2021,
+          "2021",
           5.18
         ],
         [
-          2022,
+          "2022",
           5.24
+        ],
+        [
+          "2023",
+          5.07
         ]
       ],
-      "name": "Stufe 9"
+      "name": "Stufe 9",
+      "turboThreshold": 0
     },
     {
       "color": "#923f8d",
@@ -294,31 +339,36 @@
       "legendIndex": 10,
       "data": [
         [
-          2017,
+          "2017",
           10.24
         ],
         [
-          2018,
+          "2018",
           9.65
         ],
         [
-          2019,
+          "2019",
           11.13
         ],
         [
-          2020,
+          "2020",
           11.51
         ],
         [
-          2021,
+          "2021",
           12.57
         ],
         [
-          2022,
+          "2022",
           12.63
+        ],
+        [
+          "2023",
+          11.72
         ]
       ],
-      "name": "Stufe 10"
+      "name": "Stufe 10",
+      "turboThreshold": 0
     },
     {
       "color": "#662673",
@@ -326,31 +376,36 @@
       "legendIndex": 11,
       "data": [
         [
-          2017,
+          "2017",
           1.44
         ],
         [
-          2018,
+          "2018",
           1.58
         ],
         [
-          2019,
+          "2019",
           1.69
         ],
         [
-          2020,
+          "2020",
           2.18
         ],
         [
-          2021,
+          "2021",
           2.28
         ],
         [
-          2022,
+          "2022",
           2.35
+        ],
+        [
+          "2023",
+          2.36
         ]
       ],
-      "name": "Stufe 11"
+      "name": "Stufe 11",
+      "turboThreshold": 0
     },
     {
       "color": "#2e1435",
@@ -358,31 +413,36 @@
       "legendIndex": 12,
       "data": [
         [
-          2017,
+          "2017",
           1.94
         ],
         [
-          2018,
+          "2018",
           1.77
         ],
         [
-          2019,
+          "2019",
           1.57
         ],
         [
-          2020,
+          "2020",
           2.08
         ],
         [
-          2021,
+          "2021",
           2.44
         ],
         [
-          2022,
+          "2022",
           2.65
+        ],
+        [
+          "2023",
+          2.59
         ]
       ],
-      "name": "Stufe 12"
+      "name": "Stufe 12",
+      "turboThreshold": 0
     },
     {
       "type": "line",
@@ -393,38 +453,72 @@
         "shared": true,
         "useHTML": true,
         "followPointer": true,
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
         "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}&nbsp;&nbsp;&nbsp;\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+      },
+      "events": {
+        "hide": function () {
+            this.chart.yAxis[1].update({ visible: false });
+          },
+        "show": function () {
+            this.chart.yAxis[1].update({ visible: true });
+          }
       },
       "data": [
         [
-          2017,
-          5.8359
+          "2017",
+          5.84
         ],
         [
-          2018,
-          5.9355
+          "2018",
+          5.94
         ],
         [
-          2019,
-          6.0866
+          "2019",
+          6.09
         ],
         [
-          2020,
-          6.2039
+          "2020",
+          6.2
         ],
         [
-          2021,
-          6.3499
+          "2021",
+          6.35
         ],
         [
-          2022,
+          "2022",
           6.41
+        ],
+        [
+          "2023",
+          6.36
         ]
       ],
-      "name": "Durchschnittl. Pflegestufe"
+      "name": "Durchschnittl. Pflegestufe",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1,
+    "endOnTick": false,
+    "startOnTick": false
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -487,26 +581,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1,
-    "endOnTick": false,
-    "startOnTick": false
   },
   "yAxis": [
     {
@@ -574,7 +648,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -614,7 +688,7 @@
     "shared": true,
     "useHTML": true,
     "followPointer": true,
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
     "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
   },
   "exporting": {

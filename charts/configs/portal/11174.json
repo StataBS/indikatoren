@@ -52,6 +52,10 @@
         [
           2022,
           582229
+        ],
+        [
+          2023,
+          598236
         ]
       ],
       "name": "Total Pflegestunden"
@@ -107,6 +111,10 @@
         [
           2022,
           307168
+        ],
+        [
+          2023,
+          293844
         ]
       ],
       "name": "Spitex mit Leistungsauftrag (SML)"
@@ -162,6 +170,10 @@
         [
           2022,
           275061
+        ],
+        [
+          2023,
+          304392
         ]
       ],
       "name": "Spitex ohne Leistungsauftrag (SOL)"
@@ -291,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

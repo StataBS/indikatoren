@@ -7,14 +7,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 hatte das Adullam Pflegezentrum Basel 150 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 hatte das Adullam Pflegezentrum Basel 133 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -23,7 +23,7 @@ var indikatoren = [
 		"description": "Pflegeheime",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11165",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.1",
 		"stufe1": "1 Langzeitpflege",
@@ -36,7 +36,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:42",
+		"aktualisierungsdatum": "2024-12-20T03:23:07",
 		"id": 11165
 	},
 	{
@@ -47,14 +47,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/tagesstrukturen.html' target = '_blank'>Aktuelle Liste der Anbieter von Tagespflegeeinrichtungen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#tagespflegeeinrichtungen' target = '_blank'>Aktuelle Liste der Anbieter von Tagespflegeeinrichtungen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -63,20 +63,20 @@ var indikatoren = [
 		"description": "Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11166",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.2",
+		"kuerzelKunde": "1.9",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.1 Karten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_002",
+		"orderKey": "01_01_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:51",
+		"aktualisierungsdatum": "2024-12-20T03:23:25",
 		"id": 11166
 	},
 	{
@@ -87,14 +87,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
-		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/wohnen-mit-service.html' target = '_blank'>Angebote von Wohnungen mit Service-Angebot</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#wohnen-mit-serviceangeboten' target = '_blank'>Angebote von Wohnungen mit Service-Angebot</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -103,20 +103,20 @@ var indikatoren = [
 		"description": "Wohnungen mit Service-Angebot",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11167",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.3",
+		"kuerzelKunde": "1.23",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.1 Karten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "01_01_00_00_00_023",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:52",
+		"aktualisierungsdatum": "2024-12-20T03:23:19",
 		"id": 11167
 	},
 	{
@@ -128,13 +128,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 gab es im Kanton Basel-Stadt 57 Organisationen sowie 61 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
-		"erlaeuterungen": "Stand Ende 2022",
+		"lesehilfe": "Im Jahr 2023 gab es im Kanton Basel-Stadt 55 Organisationen sowie 63 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
+		"erlaeuterungen": "Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/Spitex.html' target = '_blank'>Liste der zugelassenen Spitex-Organisationen und -Einzelpersonen</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#spitexanbieter' target = '_blank'>Liste der zugelassenen Spitex-Organisationen und -Einzelpersonen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -143,20 +143,20 @@ var indikatoren = [
 		"description": "Anzahl Spitex-Anbieter",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11168",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.4",
+		"kuerzelKunde": "1.17",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "01_01_00_00_00_017",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:54",
+		"aktualisierungsdatum": "2024-12-20T03:23:14",
 		"id": 11168
 	},
 	{
@@ -168,13 +168,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2022 gab es 618 Plätze in speziellen Wohnformen (20,4% aller Plätze) in den Pflegeheimen und 2 228 (73,7%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2022",
+		"lesehilfe": "Im Jahr 2023 gab es 636 Plätze in speziellen Wohnformen (21,2% aller Plätze) in den Pflegeheimen und 2 203 (73,4%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -183,20 +183,20 @@ var indikatoren = [
 		"description": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11169",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.5",
+		"kuerzelKunde": "1.2",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "01_01_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:57",
+		"aktualisierungsdatum": "2024-12-20T03:23:16",
 		"id": 11169
 	},
 	{
@@ -208,13 +208,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"lesehilfe": "Ende 2023 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/tagesstrukturen.html' target = '_blank'>Aktuelle List der Anbieter von Tagespflegeeinrichtungen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#tagespflegeeinrichtungen' target = '_blank'>Aktuelle List der Anbieter von Tagespflegeeinrichtungen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -223,20 +223,20 @@ var indikatoren = [
 		"description": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11170",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.6",
+		"kuerzelKunde": "1.10",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "01_01_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:57",
+		"aktualisierungsdatum": "2024-12-20T03:23:08",
 		"id": 11170
 	},
 	{
@@ -248,7 +248,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 92,2%. Die Pensions- und Pflegetage beliefen sich 2022 auf über 1 Mio.",
+		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Million.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Pensions- und Pflegetage dividiert durch die maximal mögliche Anzahl Pensions- und Pflegetage.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -262,20 +262,20 @@ var indikatoren = [
 		"description": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11171",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.7",
+		"kuerzelKunde": "1.3",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "01_01_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:58",
+		"aktualisierungsdatum": "2024-12-20T03:23:21",
 		"id": 11171
 	},
 	{
@@ -287,7 +287,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (20%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2022 um 10,3%. Die durchschnittliche Pflegestufe lag 2022 bei 6,4.",
+		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 8,9%. Die durchschnittliche Pflegestufe lag 2023 bei 6,4.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -295,7 +295,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = ' https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/finanzierung/pflegeheim.html' target = '_blank'>Pflegeheim Tagestaxen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -304,20 +304,20 @@ var indikatoren = [
 		"description": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11172",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.8",
+		"kuerzelKunde": "1.5",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_008",
+		"orderKey": "01_01_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:59",
+		"aktualisierungsdatum": "2024-12-20T03:23:24",
 		"id": 11172
 	},
 	{
@@ -329,8 +329,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 65,2%. Gegenüber dem Vorjahr ist ein leichter Rückgang der totalen Auslastung zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 25 579.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.",
+		"lesehilfe": "Im Jahr 2023 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 71,5%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2023 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -342,85 +342,7 @@ var indikatoren = [
 		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11173",
-		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.9",
-		"stufe1": "1 Langzeitpflege",
-		"stufe2": "1.2 Kennzahlen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_009",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:01",
-		"id": 11173
-	},
-	{
-		"template": "line001",
-		"data-id": 11174,
-		"chart-id": 11174,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Anzahl Pflegestunden Spitex",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2022 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 307 168. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2022 auf total 582 229 Stunden.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Pflegestunden Spitex",
-		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11174",
-		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.10",
-		"stufe1": "1 Langzeitpflege",
-		"stufe2": "1.2 Kennzahlen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:43",
-		"id": 11174
-	},
-	{
-		"template": "line001",
-		"data-id": 11175,
-		"chart-id": 11175,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
-		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2022 verglichen mit dem Vorjahr leicht auf 287 gestiegen. Zu deren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
-		],
-		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/finanzierung/Pflegebeitraege.html' target = '_blank'>Pflegebeiträge</a>"
-		],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
-		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11175",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.11",
 		"stufe1": "1 Langzeitpflege",
@@ -433,7 +355,85 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:44",
+		"aktualisierungsdatum": "2024-12-20T03:23:09",
+		"id": 11173
+	},
+	{
+		"template": "line001",
+		"data-id": 11174,
+		"chart-id": 11174,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 293 844. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2023 auf total 598 236 Stunden.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.18",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_018",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:14",
+		"id": 11174
+	},
+	{
+		"template": "line001",
+		"data-id": 11175,
+		"chart-id": 11175,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
+		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2023 verglichen mit dem Vorjahr leicht auf 278 gesunken. Zu deren Gunsten wurden an insgesamt 73 521 Tagen Pflegeleistungen erbracht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#entschaedigung-bei-pflege-und-betreuung-zu-hause' target = '_blank'>Pflegebeiträge</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.24",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_024",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:20",
 		"id": 11175
 	},
 	{
@@ -444,8 +444,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und die kantonale Restfinanzierung 48,4 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 336,6 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354,0 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -459,20 +459,20 @@ var indikatoren = [
 		"description": "Finanzierung der Pflegeheime",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11176",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.12",
+		"kuerzelKunde": "1.8",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "01_01_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:46",
+		"aktualisierungsdatum": "2024-12-20T03:23:24",
 		"id": 11176
 	},
 	{
@@ -483,8 +483,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 blieb das Finanzierungsvolumen mit total 3,9 Mio. Franken gegenüber dem Vorjahr unverändert. Davon finanzierten der Kanton bzw. die Gemeinden 2 Mio. Franken, die Krankenversicherer 0,8 Mio. Franken und die Tagesgäste 1,1 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "2023 stieg das Finanzierungsvolumen mit total 4,2 Mio. Franken gegenüber dem Vorjahr um 0,3 Mio. Davon finanzierten der Kanton bzw. die Gemeinden 2,1 Mio. Franken, die Krankenversicherer 0,9 Mio. Franken und die Tagesgäste 1,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -497,20 +497,20 @@ var indikatoren = [
 		"description": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11177",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.13",
+		"kuerzelKunde": "1.16",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_013",
+		"orderKey": "01_01_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:48",
+		"aktualisierungsdatum": "2024-12-20T03:23:13",
 		"id": 11177
 	},
 	{
@@ -521,8 +521,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 sind die Spitex-Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt vom Kanton/von den Gemeinden mit 23,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,1 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -535,20 +535,20 @@ var indikatoren = [
 		"description": "Finanzierung der Spitex-Leistungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11178",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.14",
+		"kuerzelKunde": "1.22",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_014",
+		"orderKey": "01_01_00_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:49",
+		"aktualisierungsdatum": "2024-12-20T03:23:18",
 		"id": 11178
 	},
 	{
@@ -560,7 +560,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2023 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,2 Franken. Der Kanton zahlte im Jahr 2023 2,3 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. Franken auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -573,20 +573,20 @@ var indikatoren = [
 		"description": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11179",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.15",
+		"kuerzelKunde": "1.25",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_015",
+		"orderKey": "01_01_00_00_00_025",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:50",
+		"aktualisierungsdatum": "2024-12-20T03:23:20",
 		"id": 11179
 	},
 	{
@@ -598,7 +598,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten",
 		"subtitle": "in Basler Spitälern im zeitlichen Verlauf",
-		"lesehilfe": "Im Jahr 2022 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer Patientin bzw. eines Patienten aus dem Stadtkanton in der Akutsomatik durchschnittlich 7,0 Tage, in der Psychiatrie 32,2 Tage und in der Rehabilitation 22,9 Tage.",
+		"lesehilfe": "Im Jahr 2023 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer Patientin bzw. eines Patienten aus dem Stadtkanton in der Akutsomatik durchschnittlich 6,7 Tage, in der Psychiatrie 33,5 Tage und in der Rehabilitation 23,1 Tage.",
 		"erlaeuterungen": "Die durchschnittliche Dauer eines stationären Aufenthalts ist in Tagen angegeben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -621,12 +621,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_023",
+		"orderKey": "02_02_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:07",
+		"aktualisierungsdatum": "2024-12-20T03:23:27",
 		"id": 11182
 	},
 	{
@@ -638,7 +638,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
-		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"lesehilfe": "Im Jahr 2023 erfolgten 38 869 (89,1%) der insgesamt 43 604 Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
 		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -661,12 +661,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_024",
+		"orderKey": "02_02_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:10",
+		"aktualisierungsdatum": "2024-12-20T03:23:27",
 		"id": 11183
 	},
 	{
@@ -677,8 +677,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
-		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022",
-		"lesehilfe": "Im Jahr 2022 sind 44,8% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 34,3% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
+		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2023",
+		"lesehilfe": "Im Jahr 2023 sind 45,7% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 36,1% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
 		"erlaeuterungen": "Der Case-Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle und kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -701,12 +701,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_025",
+		"orderKey": "02_02_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:12",
+		"aktualisierungsdatum": "2024-12-20T03:23:28",
 		"id": 11184
 	},
 	{
@@ -717,9 +717,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweregrad und Komplexität",
-		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2022",
-		"lesehilfe": "Im Jahr 2022 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,26. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,93.",
-		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin Felix Platter) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z. B. das Palliativzentrum Hildegard).",
+		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2023",
+		"lesehilfe": "Im Jahr 2023 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,21. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,90.",
+		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach SwissDRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) sind für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (z. B. Universitäre Altersmedizin Felix Platter) oder Menschen mit unheilbaren, lebensbedrohlichen oder chronisch fortschreitenden Krankheiten (z. B. Palliativzentrum Hildegard) ausgerichtet sind .",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -732,8 +732,8 @@ var indikatoren = [
 		],
 		"description": "Schweregrad und Komplexität",
 		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11185",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.11185",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "2.6",
 		"stufe1": "2 Spitalversorgung",
@@ -741,12 +741,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_026",
+		"orderKey": "02_02_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11185
 	},
 	{
@@ -756,22 +756,22 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Spitäler",
-		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2022, Basel-Stadt",
-		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2022 das Universitätsspital Basel mit 40 595 von insgesamt 85 532 Austritten im Kanton Basel-Stadt.",
+		"title": "Spitalstandorte",
+		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
+		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2023 das Universitätsspital Basel mit 41 110 von insgesamt 87 072 Austritten im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Spitäler mit Standort im Kanton Basel-Stadt und deren jeweilige Anzahl an Austritten aus einer stationären Behandlung im angegebenen Jahr. <br>Zur Bestimmung der Anzahl stationärer Behandlungen eines Spitals in einem bestimmten Zeitraum wird die Anzahl der Austritte während dieses Zeitraums herangezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
 		"externalLinks": [
 			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>",
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/spitaeler/spitalplanung/spitalliste.html' target = '_blank'>Spitalliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/spitalversorgung/spitalplanung#spitalliste' target = '_blank'>Spitalliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Spitäler",
+		"description": "Spitalstandorte",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.11897",
@@ -782,12 +782,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_021",
+		"orderKey": "02_02_00_00_00_001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:05",
+		"aktualisierungsdatum": "2024-12-20T03:23:26",
 		"id": 11897
 	},
 	{
@@ -915,7 +915,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2020 bei 2,8. Er liegt damit höher als in der Agglomeration, wo er 1,83 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -929,7 +929,7 @@ var indikatoren = [
 		],
 		"description": "Langzeitbelastungsindex",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Lärm",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-7",
@@ -943,7 +943,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:33",
+		"aktualisierungsdatum": "2024-12-20T03:23:34",
 		"id": 11908
 	},
 	{
@@ -1007,7 +1007,7 @@ var indikatoren = [
 		],
 		"description": "Revitalisierungsrate Oberflächengewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-2",
@@ -1021,7 +1021,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11910
 	},
 	{
@@ -1185,7 +1185,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2022 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11,3 Mio. m<sup>3</sup>.",
+		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
 		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
@@ -1197,7 +1197,7 @@ var indikatoren = [
 		],
 		"description": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-1",
@@ -1211,7 +1211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:30",
 		"id": 11916
 	},
 	{
@@ -1223,7 +1223,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2022 auf gesamthaft 20,9 Mio. m<sup>3</sup>. Davon entfielen 12,4 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
 		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
@@ -1235,7 +1235,7 @@ var indikatoren = [
 		],
 		"description": "Wasserverbrauch Gewerbe und Industrie",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-2",
@@ -1249,7 +1249,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:31",
 		"id": 11917
 	},
 	{
@@ -1261,8 +1261,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Temperatur des Grundwassers beträgt 2022 rund 14,9 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 12,7 und 17,3 °C.",
-		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell 82) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
+		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1273,7 +1273,7 @@ var indikatoren = [
 		],
 		"description": "Wassertemperatur Grundwasser",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-3",
@@ -1287,7 +1287,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-27T09:25:28",
+		"aktualisierungsdatum": "2024-12-20T03:23:32",
 		"id": 11918
 	},
 	{
@@ -3716,6 +3716,329 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-12-18T11:10:57",
 		"id": 12721
+	},
+	{
+		"template": "line001",
+		"data-id": 12727,
+		"chart-id": 12727,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegetage nach Pflegestufen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2023: 200 652 Pflegetage) zu finden. Danach folgt die Stufe 8 (2023: 177 085 Pflegetage).<br><br>Diese Reihenfolge ist seit 2017 unverändert.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegetage nach Pflegestufen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.4",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:22",
+		"id": 12727
+	},
+	{
+		"template": "line001",
+		"data-id": 12730,
+		"chart-id": 12730,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 4 (2023: 9 221 Pflegetage) zu finden. Danach folgt die Stufe 6 (2023: 4 285 Pflegetage).",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter' target = '_blank'>Tagestaxen der Tagespflegeeinrichtungen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.12",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_012",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:10",
+		"id": 12730
+	},
+	{
+		"template": "line001",
+		"data-id": 12732,
+		"chart-id": 12732,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der grösste Anteil (37,4%) der Gäste in Tages- und Nachpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 12,9%. Die durchschnittliche Pflegestufe lag 2023 bei 3,9.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter' target = '_blank'>Tagestaxen der Tagespflegeeinrichtungen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.13",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_013",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"id": 12732
+	},
+	{
+		"template": "line001",
+		"data-id": 12733,
+		"chart-id": 12733,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450. Der Grossteil der Aufenthaltstage entfiel auf Einwohnerinnen und Einwohner der Stadt Basel (20 975).",
+		"erlaeuterungen": "Aufgrund der geringen Fallzahlen werden die Gemeinden Riehen und Bettingen gemeinsam dargestellt.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.14",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_014",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"id": 12733
+	},
+	{
+		"template": "line001",
+		"data-id": 12734,
+		"chart-id": 12734,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Mehrheit aller Aufenthaltstage fällt seit 2019 auf Plätze in allgemeinen Tages- und Nachtpflegeeinrichtungen. 2023 waren dies 17 511 von 27 450 Tagen.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.15",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_015",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:12",
+		"id": 12734
+	},
+	{
+		"template": "line001",
+		"data-id": 12735,
+		"chart-id": 12735,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br><br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.19",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_019",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:15",
+		"id": 12735
+	},
+	{
+		"template": "line001",
+		"data-id": 12736,
+		"chart-id": 12736,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung steigt seit 2011 kontinuierlich an (2023: 7,7%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre etwa 31% und bei der Grundpflege etwa 63%.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.20",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_020",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:17",
+		"id": 12736
+	},
+	{
+		"template": "line001",
+		"data-id": 12737,
+		"chart-id": 12737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Der Grossteil wird (2023: 524 270 Pflegestunden) bei Einwohnerinnen und Einwohnern der Stadt Basel erbracht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Gemeinde"
+		],
+		"description": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.21",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.1 Karten",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_021",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:17",
+		"id": 12737
 	},
 	{
 		"template": "line001",
@@ -12867,7 +13190,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2021 wurden in Basel-Stadt 1 166 neue Unternehmen gegründet, 42 mehr als im Jahr 2020. Rund ein Viertel (307 im Jahr 2021) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (132) sowie Kunst, Unterhaltung, Erholung (129).",
+		"lesehilfe": "Im Jahr 2022 wurden in Basel-Stadt 1 407 neue Unternehmen gegründet, 241 mehr als im Jahr 2021. Rund ein Viertel (364 im Jahr 2022) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (169).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -12893,7 +13216,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:40",
+		"aktualisierungsdatum": "2024-12-20T03:23:23",
 		"id": 5041
 	},
 	{
@@ -17503,7 +17826,7 @@ var indikatoren = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2023 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2023 gibt es in der Stadt Basel gut 90 000 Privathaushalte; gut 9 200 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -17517,7 +17840,7 @@ var indikatoren = [
 		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.06220",
+		"kuerzel": "I.01.TRKE.06220",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -17530,7 +17853,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:31",
+		"aktualisierungsdatum": "2024-12-20T03:23:33",
 		"id": 6220
 	},
 	{
@@ -36651,7 +36974,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-13T10:07:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:05",
 		"id": 8995
 	},
 	{
@@ -36822,7 +37145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-13T10:07:14",
+		"aktualisierungsdatum": "2024-12-20T03:23:06",
 		"id": 9022
 	},
 	{
@@ -36860,7 +37183,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-13T10:07:14",
+		"aktualisierungsdatum": "2024-12-20T03:23:07",
 		"id": 9023
 	},
 	{

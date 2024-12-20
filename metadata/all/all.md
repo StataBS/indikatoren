@@ -2458,4 +2458,12 @@ id | visible | visibleInPortal | indikatorenset
 12720 | true | true | Stadtteilmonitoring St. Johann
 12721 | true | true | Stadtteilmonitoring St. Johann
 12722 | true | false | 
+12727 | true | true | Gesundheitsversorgung
+12730 | true | true | Gesundheitsversorgung
+12732 | true | true | Gesundheitsversorgung
+12733 | true | true | Gesundheitsversorgung
+12734 | true | true | Gesundheitsversorgung
+12735 | true | true | Gesundheitsversorgung
+12736 | true | true | Gesundheitsversorgung
+12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 

@@ -34,6 +34,7 @@
       }
     ],
     xAxis: {
+      type: "category"
       //      tickInterval: 1
     },
     legend: {

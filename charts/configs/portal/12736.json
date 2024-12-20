@@ -1,0 +1,354 @@
+{
+  "series": [
+    {
+      "color": "#1f5647",
+      "data": [
+        [
+          "2011",
+          0.045
+        ],
+        [
+          "2012",
+          0.057
+        ],
+        [
+          "2013",
+          0.062
+        ],
+        [
+          "2014",
+          0.06
+        ],
+        [
+          "2015",
+          0.059
+        ],
+        [
+          "2016",
+          0.057
+        ],
+        [
+          "2017",
+          0.057
+        ],
+        [
+          "2018",
+          0.066
+        ],
+        [
+          "2019",
+          0.068
+        ],
+        [
+          "2020",
+          0.068
+        ],
+        [
+          "2021",
+          0.068
+        ],
+        [
+          "2022",
+          0.073
+        ],
+        [
+          "2023",
+          0.077
+        ]
+      ],
+      "name": "Bedarfsabklärung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#43b696",
+      "data": [
+        [
+          "2011",
+          0.293
+        ],
+        [
+          "2012",
+          0.298
+        ],
+        [
+          "2013",
+          0.307
+        ],
+        [
+          "2014",
+          0.309
+        ],
+        [
+          "2015",
+          0.309
+        ],
+        [
+          "2016",
+          0.295
+        ],
+        [
+          "2017",
+          0.303
+        ],
+        [
+          "2018",
+          0.308
+        ],
+        [
+          "2019",
+          0.31
+        ],
+        [
+          "2020",
+          0.324
+        ],
+        [
+          "2021",
+          0.33
+        ],
+        [
+          "2022",
+          0.331
+        ],
+        [
+          "2023",
+          0.324
+        ]
+      ],
+      "name": "Behandlungspflege",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#4af1c3",
+      "data": [
+        [
+          "2011",
+          0.663
+        ],
+        [
+          "2012",
+          0.645
+        ],
+        [
+          "2013",
+          0.631
+        ],
+        [
+          "2014",
+          0.63
+        ],
+        [
+          "2015",
+          0.632
+        ],
+        [
+          "2016",
+          0.649
+        ],
+        [
+          "2017",
+          0.64
+        ],
+        [
+          "2018",
+          0.626
+        ],
+        [
+          "2019",
+          0.622
+        ],
+        [
+          "2020",
+          0.608
+        ],
+        [
+          "2021",
+          0.602
+        ],
+        [
+          "2022",
+          0.596
+        ],
+        [
+          "2023",
+          0.599
+        ]
+      ],
+      "name": "Grundpflege",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12736"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Pflegestunden Spitex nach Pflegeleistungen"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 1,
+      "labels": {
+        "format": "{value:.0f}",
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value * 100), 0) + '%';
+          },
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 150,
+    "alignColumns": false,
+    "itemDistance": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "pointFormatter": function () {
+        return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+          + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+      }
+  },
+  "exporting": {
+    "filename": "12736"
+  }
+}

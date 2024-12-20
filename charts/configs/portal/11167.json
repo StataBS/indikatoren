@@ -3646,7 +3646,14 @@
           "lon": 7.600415577,
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
           "z": null,
-          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
+          "address": "Rheinfelderstrasse 35-43, 4058 Basel"
+        },
+        {
+          "lat": 47.55993695,
+          "lon": 7.600560011,
+          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
+          "z": 20,
+          "address": "Wettsteinallee 20, 4058 Basel"
         },
         {
           "lat": 47.56685161,
@@ -3818,7 +3825,14 @@
           "lon": 7.600415577,
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
           "z": 68,
-          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
+          "address": "Rheinfelderstrasse 35-43, 4058 Basel"
+        },
+        {
+          "lat": 47.55993695,
+          "lon": 7.600560011,
+          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
+          "z": null,
+          "address": "Wettsteinallee 20, 4058 Basel"
         },
         {
           "lat": 47.56685161,
@@ -4035,7 +4049,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Wohnungen, Basel-Stadt, 2022",
+    "text": "Anzahl Wohnungen, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -4051,7 +4065,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
   },
   "colorAxis": {
     "min": 0,
