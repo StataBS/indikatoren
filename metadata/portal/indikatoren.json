@@ -27669,7 +27669,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "142 593 Logiernächte wurden im Oktober 2024 in den Basler Hotelbetrieben gebucht, 7 389 bzw. 5,5% mehr als im September. Im Vergleich zum Oktober 2023 entspricht dies einer Zunahme um 10,7% bzw.13 769 Übernachtungen. Die inländischen Gäste buchten 53 361 Logiernächte (+12,4%), die Gäste aus dem Ausland 89 232 Übernachtungen (+9,7%).",
+		"lesehilfe": "134 488 Logiernächte wurden im November 2024 in den Basler Hotelbetrieben gebucht, 8 105 bzw. 5,7% weniger als im Oktober. Im Vergleich zum November 2023 entspricht dies einer Zunahme um 3,5% bzw.4 509 Übernachtungen. Die inländischen Gäste buchten 56 786 Logiernächte (+4,1%), die Gäste aus dem Ausland 77 702 Übernachtungen (+3,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -27695,7 +27695,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:02",
+		"aktualisierungsdatum": "2024-12-23T02:42:42",
 		"id": 7516
 	},
 	{
@@ -27706,8 +27706,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -27733,7 +27733,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:04",
+		"aktualisierungsdatum": "2024-12-23T02:42:43",
 		"id": 7517
 	},
 	{
