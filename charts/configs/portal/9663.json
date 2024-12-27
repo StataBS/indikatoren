@@ -74,6 +74,10 @@
         [
           2027,
           null
+        ],
+        [
+          2028,
+          null
         ]
       ],
       "name": "Nettoschuldenquote"
@@ -148,11 +152,15 @@
         ],
         [
           2026,
-          0.3
+          0.2
         ],
         [
           2027,
-          0.8
+          0.6
+        ],
+        [
+          2028,
+          1
         ]
       ],
       "name": "Budget & Planjahre"
@@ -231,6 +239,10 @@
         ],
         [
           2027,
+          6.5
+        ],
+        [
+          2028,
           6.5
         ]
       ],
@@ -311,6 +323,10 @@
         [
           2027,
           null
+        ],
+        [
+          2028,
+          undefined
         ]
       ],
       "name": "Bewertung"
@@ -470,7 +486,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
