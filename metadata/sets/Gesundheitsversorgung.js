@@ -1074,7 +1074,7 @@ var indikatorensetData = [
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.21",
 		"stufe1": "1 Langzeitpflege",
-		"stufe2": "1.1 Karten",
+		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1082,7 +1082,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:17",
+		"aktualisierungsdatum": "2024-12-31T10:43:59",
 		"id": 12737
 	}
 ];

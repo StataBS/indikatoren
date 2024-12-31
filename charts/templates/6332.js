@@ -8,7 +8,7 @@
       },
   "xAxis": {
     "type": "category", 
-    labels: {
+    /*labels: {
       formatter: function() {
           //add sum of observations of visible series to the axis label
           var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -23,7 +23,7 @@
           var formattedSum = "" + Highcharts.numberFormat(sum, 0, ",", " ");
       	  return this.value + ' (' + nString + sum + ')';
         }, 
-    },
+    },*/
   },
   yAxis: {
     tickInterval: 25,

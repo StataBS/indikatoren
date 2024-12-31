@@ -9,7 +9,7 @@
     },
     "yAxis": {
       min: 70,
-      max: 150,
+      //max: 150,
       tickInterval: 10,
       plotLines: [{
         color: '#B9CFD7',
@@ -26,7 +26,6 @@
       width: 300,
       "itemStyle": {
         textOverflow: "none",
-        "fontWeight": "normal"
       }
     },
     "tooltip": {

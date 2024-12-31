@@ -442,7 +442,7 @@
 	"6310": "template001_print",
 	"6311": "template001_print",
 	"6312": "template001_print",
-	"6313": "template001_print",
+	"6313": "line001_print",
 	"6314": "template001_print",
 	"6315": "line001_print",
 	"6316": "template001_print",
@@ -2026,6 +2026,7 @@
 	"11185": "line001",
 	"11788": "stock001",
 	"11897": "map001",
+	"11898": "stock001_print",
 	"11899": "template001",
 	"11900": "template001",
 	"11901": "template001",
@@ -2145,5 +2146,6 @@
 	"12735": "line001",
 	"12736": "line001",
 	"12737": "line001",
-	"21847": "template001"
+	"21847": "template001",
+	"22143": "befragungen001_print"
 }

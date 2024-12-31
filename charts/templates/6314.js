@@ -14,7 +14,7 @@
   },
   "xAxis": {
     "type": "category",
-	  //"tickInterval": 2	
+	  "tickInterval": 2,
 	  labels: {
 	    padding: 0,
 	    rotation: 0,

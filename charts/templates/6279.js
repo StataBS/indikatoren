@@ -55,8 +55,8 @@
 },
 "legend": {
  // x:-10,
-  itemWidth: 155,
-  width: 350,
+  itemWidth: 153,
+  width: 345,
   itemDistance: 0,
   itemStyle: {
     textOverflow: "none",
@@ -68,7 +68,10 @@
   "itemMarginBottom": 0,
   labelFormatter: function(){
    return this.name.replace("Medizinaltechnik", "Medizinaltechnik")
-    .replace("Chemische Industrie", "Chemie") .replace("Pharmazeutische Industrie", "Pharma").replace("Maschinenbau", "Maschinen");
+    .replace("Chemische Industrie", "Chemie") 
+    .replace("Pharmazeutische Industrie", "Pharma")
+    .replace("Maschinenbau", "Maschinen")
+    .replace("Sonstiges", "Sonst.");
   }
 },
   "series": [

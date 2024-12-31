@@ -2347,6 +2347,7 @@ id | visible | visibleInPortal | indikatorenset
 11185 | true | true | Gesundheitsversorgung
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
+11898 | true | false | Legislaturplan (Print)
 11899 | true | true | Richtplan
 11900 | true | true | Richtplan
 11901 | true | false | Richtplan
@@ -2467,3 +2468,4 @@ id | visible | visibleInPortal | indikatorenset
 12736 | true | true | Gesundheitsversorgung
 12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 
+22143 | true | false | Legislaturplan (Print)

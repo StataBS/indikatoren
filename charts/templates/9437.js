@@ -1,7 +1,3 @@
-/*
-global Highcharts
-*/
-
 (function () {
   return {
     //seriesMapping necessary for charts with error bars. 
@@ -22,22 +18,22 @@ global Highcharts
         {
           "x": 0
         },
-       /* {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        }*/
+        /* {
+           "x": 0
+         },
+         {
+           "x": 0
+         },
+         {
+           "x": 0
+         }*/
       ]
     },
     plotOptions: {
       series: {
-        stacking:"normal",
+        stacking: "normal",
         //pointPadding: 0.1,
-       // groupPadding: 0,
+        // groupPadding: 0,
         borderWidth: 0
       },
     },
@@ -52,7 +48,7 @@ global Highcharts
           "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           },
-          "footerFormat": '<br>Total: <b>{point.total:,.0f}</b>' 
+          "footerFormat": '<br>Total: <b>{point.total:,.0f}</b>'
 
         }
       },
@@ -67,7 +63,7 @@ global Highcharts
       },*/
       {
         "index": 2,
-        "color": "rgb(103,39,115)", 
+        "color": "rgb(103,39,115)",
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -107,6 +103,11 @@ global Highcharts
     ],
     "xAxis": {
       "type": "category",
+      tickInterval: 1,
+      labels: {
+        rotation: -45,
+        step: 1,
+      }
       /*plotLines: [{
         color: '#999999',
         dashStyle: "longDash",
@@ -128,9 +129,6 @@ global Highcharts
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
     },
     "chart": {
       "type": "column",
