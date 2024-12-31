@@ -20,8 +20,8 @@
    "tickInterval": 1,
           "labels": {
           	step: 1,
-            //"rotation": 0,
-            "rotation": -45,
+            "rotation": 0,
+            //"rotation": -45,
         }  
   },
  "legend": {
@@ -29,14 +29,14 @@
     "layout": "vertical",
     "verticalAlign": "top",
     "align": "right",
-    itemWidth: 165,
+    /*itemWidth: 165,
     labelFormatter: function(){
       return this.name.replace("Dienstl.", "DL")
       .replace("Gesundheits- und", "Gesundheits-,")
       .replace("wirtschaftliche", "wirtschaftl.")
       .replace("dienstl.", "-DL");
 
-    },
+    },*/
     "itemStyle": {
      // textOverflow: "none",
      // whiteSpace: "wrap",
@@ -62,7 +62,8 @@
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   },
   "chart": {
-  	type: "column",
+  	width: 665,
+    type: "column",
     "inverted": false,
     spacingTop: 7,
   }

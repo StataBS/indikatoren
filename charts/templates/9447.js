@@ -1,9 +1,9 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 10,
+      //tickInterval: 10,
       tickPositioner: function () {
-        var interval = 10,
+        var interval = 3,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
@@ -39,9 +39,11 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
+      //itemWidth: 200,
       "itemStyle": {
-        "fontWeight": "normal"
-      }
+         textOverflow: "none",
+         whiteSpace: "wrap",
+       }
     },
     "plotOptions": {
       "line": {

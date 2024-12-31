@@ -1,8 +1,8 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 1,
-      labels:{
+      //tickInterval: 1,
+      labels: {
         rotation: 0
       }
     },
@@ -19,7 +19,7 @@
     },
     "series": [
       { "color": "rgb(0,138,195)" },
-      { "color": "rgb(147,63,141)" },
+      { "color": "rgb(147,63,141)", dashStyle: "ShortDash" },
     ],
     "legend": {
       "enabled": true,

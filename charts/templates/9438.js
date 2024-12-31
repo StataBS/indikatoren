@@ -10,9 +10,10 @@
     },
     "xAxis": {
       "type": "category",
-      "tickInterval": 1,
-      "labels": {
-        rotation: -45
+      tickInterval: 1,
+      labels: {
+        rotation: -45,
+        step: 1,
       }
     },
     "yAxis": {
@@ -31,21 +32,22 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      labelFormatter: function(){
+      labelFormatter: function () {
         return this.name
-        .replace("aus dem Ausland", "Ausland")
-        .replace("aus der übrigen CH", "übrige CH")
-        .replace("aus der NWCH", "NWCH")
-        .replace("ins Ausland", "Ausland")
-        .replace("in die übrige CH", "übrige CH")
-        .replace("in die NWCH", "NWCH")
-        ;
-    }, 
+          .replace("aus dem Ausland", "Ausland")
+          .replace("aus der übrigen CH", "übrige CH")
+          .replace("aus der NWCH", "NWCH")
+          .replace("ins Ausland", "Ausland")
+          .replace("in die übrige CH", "übrige CH")
+          .replace("in die NWCH", "NWCH")
+          ;
+      },
       itemDistance: 0,
       itemWidth: 125,
       width: 300,
-      itemStyle:{
-        textOverflow: "none"
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap",
       }
     },
     tooltip: {
@@ -54,7 +56,7 @@
       followPointer: true,
       headerFormat: "<table>",
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}:</td>'
-      + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td></tr>',
+        + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td></tr>',
       footerFormat: '</table>',
     },
     "series": [

@@ -8,7 +8,11 @@
           pos = [i];
         while (i >= ext.dataMin) pos.unshift(i = i - interval);
         return pos;
-      }
+      },
+      "labels": {
+        step: 1,
+        "rotation": -45,
+    }  
     },
     "yAxis": {
       "min": 0,
@@ -61,6 +65,11 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
+      //itemWidth: 10,
+      "itemStyle": {
+        // textOverflow: "none",
+         whiteSpace: "nowrap",
+       }
     },
     "chart": {
       type: 'column',

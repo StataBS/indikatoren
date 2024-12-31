@@ -22,7 +22,12 @@
         align: "left",
         verticalAlign: "top",
         reversed: true,
-        itemDistance: 15
+        itemDistance: 15,
+        itemWidth: 110,
+        "itemStyle": {
+          // textOverflow: "none",
+           whiteSpace: "nowrap",
+         }
   
         /*      labelFormatter: function () {
                 return this.name.replace(' ', '<br>').replace('/', '/<br>');

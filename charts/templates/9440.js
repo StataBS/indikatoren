@@ -10,6 +10,7 @@
       },
       "yAxis": {
         tickAmount: 5,
+        max: 120000,
         "labels": {
           "format": "{value:,.0f}"
         }
@@ -26,7 +27,7 @@
           return pos;
         },
         labels:{
-          rotation: 0
+          rotation: -45
         }
       },
       "legend": {

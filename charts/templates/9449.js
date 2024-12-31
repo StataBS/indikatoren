@@ -15,7 +15,7 @@
       "type": "category",
       tickInterval: 2,
       labels: {
-      rotation: 0
+        rotation: -45
       }
     },
     "yAxis": {
