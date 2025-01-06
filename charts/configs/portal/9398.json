@@ -10,6 +10,10 @@
         [
           "17.10.2023",
           47727
+        ],
+        [
+          "31.12.2024",
+          58313
         ]
       ],
       "name": "Registrierte Benutzer",
@@ -25,6 +29,10 @@
         [
           "17.10.2023",
           25443
+        ],
+        [
+          "31.12.2024",
+          25593
         ]
       ],
       "name": "Aktive Benutzer",
@@ -163,7 +171,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.11.2023"
+    "text": "Quelle: Finanzdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 6.1.2025"
   },
   "tooltip": {
     "pointFormatter": function(){

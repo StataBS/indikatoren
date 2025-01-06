@@ -14,10 +14,6 @@
           -17150
         ],
         [
-          " ",
-          undefined
-        ],
-        [
           "2010",
           -22450
         ],
@@ -64,6 +60,10 @@
         [
           "2021",
           -20495
+        ],
+        [
+          "2022",
+          -23587
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -81,10 +81,6 @@
         [
           "2000",
           -235
-        ],
-        [
-          " ",
-          undefined
         ],
         [
           "2010",
@@ -133,6 +129,10 @@
         [
           "2021",
           -659
+        ],
+        [
+          "2022",
+          -734
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -150,10 +150,6 @@
         [
           "2000",
           54525
-        ],
-        [
-          " ",
-          undefined
         ],
         [
           "2010",
@@ -202,6 +198,10 @@
         [
           "2021",
           51719
+        ],
+        [
+          "2022",
+          55795
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -219,10 +219,6 @@
         [
           "2000",
           29785
-        ],
-        [
-          " ",
-          undefined
         ],
         [
           "2010",
@@ -270,7 +266,11 @@
         ],
         [
           "2021",
-          34744
+          34757
+        ],
+        [
+          "2022",
+          35302
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -291,10 +291,6 @@
         [
           "2000",
           66925
-        ],
-        [
-          " ",
-          undefined
         ],
         [
           "2010",
@@ -342,7 +338,11 @@
         ],
         [
           "2021",
-          65309
+          65322
+        ],
+        [
+          "2022",
+          66776
         ]
       ],
       "name": "Saldo",
@@ -491,7 +491,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 6.1.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
