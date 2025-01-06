@@ -2024,7 +2024,7 @@ var indikatorensetData = [
 		],
 		"title": "Aktive E-Government-Konten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Per Stichdatum 17.10.2023 haben sich 25 443 von 47 727 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
+		"lesehilfe": "Per 31.12.2024 haben sich 25 593 von 58 313 registrierten Benutzenden mit ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt bereits mit der neuen, verbindlichen Anmelde-Lösung AGOV (Authentifizierungsdienst der Schweizer Behörden) angemeldet. Aufgrund der Umstellung ist diese Zahl mit den Vorjahren nicht vergleichbar.",
 		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben. Konten von Benutzern, welche sich länger als zwei Jahre nicht angemeldet haben, werden nach Vorankündigung gelöscht.",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt"
@@ -2038,8 +2038,8 @@ var indikatorensetData = [
 		],
 		"description": "Aktive E-Government-Konten",
 		"thema": "17 Politik",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.17.1.09398",
+		"unterthema": "",
+		"kuerzel": "I.17.PTAN.09398",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "6.2",
 		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
@@ -2051,7 +2051,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-07T09:10:54",
+		"aktualisierungsdatum": "2025-01-06T09:57:39",
 		"id": 9398
 	},
 	{
