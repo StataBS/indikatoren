@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fruchtfolgeflächen",
 		"subtitle": "in Hektaren, Basel-Stadt",
-		"lesehilfe": "2023 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
+		"lesehilfe": "2024 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
 		"erlaeuterungen": "Fruchtfolgeflächen (FFF) sind die wertvollsten Landwirtschaftsflächen. Der vom Bund im <a href='http://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/strategie-und-planung/konzepte-und-sachplaene/sachplaene-des-bundes/sachplan-fruchtfolgeflaechen-sp-fff.html' target='_blank'>Sachplan Fruchtfolgeflächen</a> geforderte Mindestumfang an FFF von 240 ha im Kanton Basel-Stadt ist gesichert.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		],
 		"description": "Fruchtfolgeflächen",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Landwirtschaft",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 12-1",
@@ -570,7 +570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:08",
+		"aktualisierungsdatum": "2025-01-07T09:34:21",
 		"id": 11915
 	},
 	{

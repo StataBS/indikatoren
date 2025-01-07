@@ -1147,7 +1147,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fruchtfolgeflächen",
 		"subtitle": "in Hektaren, Basel-Stadt",
-		"lesehilfe": "2023 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
+		"lesehilfe": "2024 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
 		"erlaeuterungen": "Fruchtfolgeflächen (FFF) sind die wertvollsten Landwirtschaftsflächen. Der vom Bund im <a href='http://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/strategie-und-planung/konzepte-und-sachplaene/sachplaene-des-bundes/sachplan-fruchtfolgeflaechen-sp-fff.html' target='_blank'>Sachplan Fruchtfolgeflächen</a> geforderte Mindestumfang an FFF von 240 ha im Kanton Basel-Stadt ist gesichert.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
@@ -1159,7 +1159,7 @@ var indikatoren = [
 		],
 		"description": "Fruchtfolgeflächen",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Landwirtschaft",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 12-1",
@@ -1173,7 +1173,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:08",
+		"aktualisierungsdatum": "2025-01-07T09:34:21",
 		"id": 11915
 	},
 	{
@@ -3022,7 +3022,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Im Jahr 2023 sind im Bezirk Lysbüchel 17,9% der Fläche Grünflächen. 2005 waren es 6,7%.",
+		"lesehilfe": "Im Jahr 2024 sind im Bezirk Lysbüchel 17,6% der Fläche Grünflächen. 2005 waren es 6,7%.",
 		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -3048,7 +3048,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:31",
+		"aktualisierungsdatum": "2025-01-07T09:34:20",
 		"id": 12644
 	},
 	{
@@ -12864,7 +12864,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Landwirtschaft: Nutzfläche und Betriebe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 bewirtschafteten 14 Betriebe 422,3 ha landwirtschaftliche Nutzfläche.",
+		"lesehilfe": "Im Jahr 2023 bewirtschafteten 13 Betriebe 414,7 ha landwirtschaftliche Nutzfläche.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch in anderen Kantonen oder im Ausland liegen. Die Daten vor 1996 entstammen der Eidgenössischen Betriebszählung (1975, 1985) bzw. der Eidgenössischen Landwirtschafts- und Gartenbauzählung (1980, 1990) und wurden an die seit 1996 geltende Definition des landwirtschaftlichen Betriebes angepasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
@@ -12890,7 +12890,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:37",
+		"aktualisierungsdatum": "2025-01-07T09:34:18",
 		"id": 4914
 	},
 	{
