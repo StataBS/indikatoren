@@ -1619,7 +1619,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Im Bezirk Friedmatt waren 2023 7,4% der Bezirksfläche Freiraumflächen, in den Bezirken Kannenfeld und Landskron gab es keine Freiraumflächen (Stadt Basel: 3,1%).",
+		"lesehilfe": "Im Bezirk Friedmatt waren 2024 7,4% der Bezirksfläche Freiraumflächen, in den Bezirken Kannenfeld und Landskron gab es keine Freiraumflächen (Stadt Basel: 3,1%).",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1644,7 +1644,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:33",
+		"aktualisierungsdatum": "2025-01-09T09:33:14",
 		"id": 12653
 	},
 	{

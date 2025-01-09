@@ -92,7 +92,10 @@
         }
       },
       labelFormatter: function () {
-        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+        console.log(this);
+        var txt = this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+        if (txt == 'Anteil' && this.index == 1) txt += ' (rechte Skala)';
+        return txt;
       },
     },
     "series": [

@@ -8,12 +8,9 @@
 		}],
 		"data": {
 			"parsed": function (columns) {
-
-				//copy columns to the end, then remove the first 5
-
-				columns.push(columns[2]); //WVI_name
+				columns.push(columns[3]); //WVI_name
 				columns.push(columns[1]); //Anteil
-				columns.push(columns[4]); //Rang
+				columns.push(columns[2]); //Rang
 				columns.splice(0, 5);
 			}
 		}
