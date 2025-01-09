@@ -13,11 +13,11 @@
         ],
         [
           "Klybeck",
-          0.125
+          0.132
         ],
         [
           "Rosental",
-          0.157
+          0.155
         ],
         [
           "Clara",
@@ -25,11 +25,11 @@
         ],
         [
           "Matthäus",
-          0.171
+          0.169
         ],
         [
           "Gundeldingen",
-          0.178
+          0.177
         ],
         [
           "Vorstädte",
@@ -37,35 +37,35 @@
         ],
         [
           "Kleinhüningen",
-          0.197
+          0.198
         ],
         [
           "Am Ring",
-          0.246
+          0.243
         ],
         [
           "Wettstein",
-          0.282
+          0.288
         ],
         [
           "St. Johann",
-          0.303
+          0.302
         ],
         [
           "St. Alban",
-          0.317
+          0.315
         ],
         [
           "Gotthelf",
-          0.325
+          0.327
         ],
         [
           "Breite",
-          0.362
+          0.36
         ],
         [
           "Iselin",
-          0.363
+          0.372
         ],
         [
           "Bachletten",
@@ -77,11 +77,11 @@
         ],
         [
           "Bruderholz",
-          0.714
+          0.713
         ],
         [
           "Riehen",
-          0.791
+          0.793
         ],
         [
           "Bettingen",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.1.2025"
   },
   "legend": {
     "enabled": false,
