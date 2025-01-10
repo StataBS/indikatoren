@@ -3133,7 +3133,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-11"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 11.5.2020"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -3175,6 +3175,6 @@
   },
   "navigator": {},
   "exporting": {
-    "filename": 8999
+    "filename": "8999"
   }
 }

@@ -308,6 +308,109 @@
       ],
       "name": "2021",
       "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "0-1h",
+          0.18187914
+        ],
+        [
+          "1-2h",
+          0.1570656053
+        ],
+        [
+          "2-3h",
+          0.1493436272
+        ],
+        [
+          "3-4h",
+          0.1339524037
+        ],
+        [
+          "4-5h",
+          0.1492156203
+        ],
+        [
+          "5-6h",
+          0.1708627123
+        ],
+        [
+          "6-7h",
+          0.2042919872
+        ],
+        [
+          "7-8h",
+          0.253233007
+        ],
+        [
+          "8-9h",
+          0.345638043
+        ],
+        [
+          "9-10h",
+          0.4277391457
+        ],
+        [
+          "10-11h",
+          0.515417321
+        ],
+        [
+          "11-12h",
+          0.5601322971
+        ],
+        [
+          "12-13h",
+          0.5994496027
+        ],
+        [
+          "13-14h",
+          0.669933546
+        ],
+        [
+          "14-15h",
+          0.5946529241
+        ],
+        [
+          "15-16h",
+          0.5579310615
+        ],
+        [
+          "16-17h",
+          0.461579191
+        ],
+        [
+          "17-18h",
+          0.4604957441
+        ],
+        [
+          "18-19h",
+          0.4352480644
+        ],
+        [
+          "19-20h",
+          0.4378309139
+        ],
+        [
+          "20-21h",
+          0.4389003958
+        ],
+        [
+          "21-22h",
+          0.3843193406
+        ],
+        [
+          "22-23h",
+          0.3307326527
+        ],
+        [
+          "23-24h",
+          0.2684103429
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -420,8 +523,12 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
-    }
+      "formatter": function(){
+              return Highcharts.numberFormat((this.value*100),0)+'%'; 
+            }
+    },
+    "min": 0,
+    "max": 1
   },
   "legend": {
     "symbolRadius": 0,
@@ -453,11 +560,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Parkhäuser Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2022"
+    "text": "Quelle: Parkhäuser Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2024"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function(){
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+        }
   },
   "exporting": {
     "filename": "9596"

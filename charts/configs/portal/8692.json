@@ -393,7 +393,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

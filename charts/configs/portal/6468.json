@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          63798
+          63556
         ],
         [
           "Deutschland",
-          86220
+          87707
         ],
         [
           "Italien",
-          53386
+          53944
         ],
         [
           "Türkei",
-          35716
+          35527
         ],
         [
           "EU-West + EFTA + UK",
-          90651
+          93374
         ],
         [
           "EU-Ost",
-          51739
+          54091
         ],
         [
           "Balkan",
-          42782
+          42636
         ],
         [
           "Mittel- und Südamerika",
-          49001
+          50026
         ],
         [
           "Arabische Länder",
-          35138
+          37313
         ],
         [
           "Afrikanische Länder",
-          33884
+          33941
         ],
         [
           "Übrige Länder",
-          106649
+          113936
         ]
       ],
-      "name": "2011",
+      "name": "Mittelwert 2012",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          68624
+          70745
         ],
         [
           "Deutschland",
-          98152
+          95620
         ],
         [
           "Italien",
-          65617
+          77719
         ],
         [
           "Türkei",
-          38236
+          39280
         ],
         [
           "EU-West + EFTA + UK",
-          108051
+          109413
         ],
         [
           "EU-Ost",
-          83940
+          83871
         ],
         [
           "Balkan",
-          45998
+          46778
         ],
         [
           "Mittel- und Südamerika",
-          66643
+          70831
         ],
         [
           "Arabische Länder",
-          47121
+          46797
         ],
         [
           "Afrikanische Länder",
-          40814
+          43272
         ],
         [
           "Übrige Länder",
-          152959
+          176458
         ]
       ],
-      "name": "2020",
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -209,7 +209,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 140000,
     "tickInterval": 40000
   },
   "legend": {
@@ -241,7 +240,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.10.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
