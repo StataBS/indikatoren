@@ -3246,11 +3246,11 @@
         ],
         [
           18,
-          0.125
+          0.132
         ],
         [
           16,
-          0.157
+          0.155
         ],
         [
           13,
@@ -3258,11 +3258,11 @@
         ],
         [
           17,
-          0.171
+          0.169
         ],
         [
           6,
-          0.178
+          0.177
         ],
         [
           2,
@@ -3270,35 +3270,35 @@
         ],
         [
           19,
-          0.197
+          0.198
         ],
         [
           3,
-          0.246
+          0.243
         ],
         [
           14,
-          0.282
+          0.288
         ],
         [
           11,
-          0.303
+          0.302
         ],
         [
           5,
-          0.317
+          0.315
         ],
         [
           9,
-          0.325
+          0.327
         ],
         [
           4,
-          0.362
+          0.36
         ],
         [
           10,
-          0.363
+          0.372
         ],
         [
           8,
@@ -3310,11 +3310,11 @@
         ],
         [
           7,
-          0.714
+          0.713
         ],
         [
           20,
-          0.791
+          0.793
         ],
         [
           30,
@@ -3328,91 +3328,91 @@
       "colorAxis": false,
       "data": [
         [
-          "Altstadt Grossbasel",
-          2023
+          1,
+          "Altstadt Grossbasel"
         ],
         [
-          "Altstadt Kleinbasel",
-          2023
+          2,
+          "Altstadt Kleinbasel"
         ],
         [
-          "Klybeck",
-          2023
+          3,
+          "Klybeck"
         ],
         [
-          "Rosental",
-          2023
+          4,
+          "Rosental"
         ],
         [
-          "Clara",
-          2023
+          5,
+          "Clara"
         ],
         [
-          "Matthäus",
-          2023
+          6,
+          "Matthäus"
         ],
         [
-          "Gundeldingen",
-          2023
+          7,
+          "Gundeldingen"
         ],
         [
-          "Vorstädte",
-          2023
+          8,
+          "Vorstädte"
         ],
         [
-          "Kleinhüningen",
-          2023
+          9,
+          "Kleinhüningen"
         ],
         [
-          "Am Ring",
-          2023
+          10,
+          "Am Ring"
         ],
         [
-          "Wettstein",
-          2023
+          11,
+          "Wettstein"
         ],
         [
-          "St. Johann",
-          2023
+          12,
+          "St. Johann"
         ],
         [
-          "St. Alban",
-          2023
+          13,
+          "St. Alban"
         ],
         [
-          "Gotthelf",
-          2023
+          14,
+          "Gotthelf"
         ],
         [
-          "Breite",
-          2023
+          15,
+          "Breite"
         ],
         [
-          "Iselin",
-          2023
+          16,
+          "Iselin"
         ],
         [
-          "Bachletten",
-          2023
+          17,
+          "Bachletten"
         ],
         [
-          "Hirzbrunnen",
-          2023
+          18,
+          "Hirzbrunnen"
         ],
         [
-          "Bruderholz",
-          2023
+          19,
+          "Bruderholz"
         ],
         [
-          "Riehen",
-          2023
+          20,
+          "Riehen"
         ],
         [
-          "Bettingen",
-          2023
+          21,
+          "Bettingen"
         ]
       ],
-      "name": "statistikjahr"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
   },
   "colorAxis": {
     "min": 0,
