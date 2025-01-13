@@ -3060,7 +3060,7 @@
 		"children": [],
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Im Bezirk Friedmatt (mit dem Kannenfeldpark) macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2023: 252 000 m<sup>2</sup>). Im Bezirk Lysbüchel wuchs die Grünfläche seit 2005 von rund 48 600 auf 130 400 m<sup>2</sup>.",
+		"lesehilfe": "Im Bezirk Friedmatt (mit dem Kannenfeldpark) macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2024: 250 500 m<sup>2</sup>). Im Bezirk Lysbüchel wuchs die Grünfläche seit 2005 von rund 48 600 auf 128 000 m<sup>2</sup>.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -3086,7 +3086,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:32",
+		"aktualisierungsdatum": "2025-01-13T12:16:27",
 		"id": 12645
 	},
 	{
@@ -39326,7 +39326,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-29T08:32:35",
+		"aktualisierungsdatum": "2025-01-13T12:16:23",
 		"id": 9475
 	},
 	{

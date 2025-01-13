@@ -6,6 +6,30 @@
       "type": "column",
       "data": [
         [
+          2002,
+          73.21
+        ],
+        [
+          2003,
+          83.91
+        ],
+        [
+          2004,
+          84.21
+        ],
+        [
+          2005,
+          83.97
+        ],
+        [
+          2006,
+          83.63
+        ],
+        [
+          2007,
+          83.62
+        ],
+        [
           2008,
           83.99
         ],
@@ -68,6 +92,10 @@
         [
           2023,
           95.74
+        ],
+        [
+          2024,
+          95.28
         ]
       ],
       "name": "Freiräume in ha"
@@ -78,6 +106,30 @@
       "type": "line",
       "yAxis": 1,
       "data": [
+        [
+          2002,
+          1.98
+        ],
+        [
+          2003,
+          2.27
+        ],
+        [
+          2004,
+          2.28
+        ],
+        [
+          2005,
+          2.27
+        ],
+        [
+          2006,
+          2.26
+        ],
+        [
+          2007,
+          2.26
+        ],
         [
           2008,
           2.27
@@ -141,6 +193,10 @@
         [
           2023,
           2.59
+        ],
+        [
+          2024,
+          2.58
         ]
       ],
       "name": "Anteil an der Kantonsfläche (rechte Skala)"
@@ -299,7 +355,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 1.7.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
   },
   "tooltip": {
     "shared": true,

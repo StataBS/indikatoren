@@ -105,23 +105,23 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           21840.85
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           55210.94
         ],
         [
-          "2023: Friedmatt",
+          "2024: Friedmatt",
           73438.91
         ],
         [
@@ -237,24 +237,24 @@
           null
         ],
         [
-          "2023: Pestalozzi",
-          28350.08
+          "2024: Pestalozzi",
+          28346.11
         ],
         [
-          "2023: Kannenfeld",
-          19423.19
+          "2024: Kannenfeld",
+          19404.85
         ],
         [
-          "2023: Landskron",
-          31582.17
+          "2024: Landskron",
+          31529.78
         ],
         [
-          "2023: Lysbüchel",
-          42126.87
+          "2024: Lysbüchel",
+          42356.06
         ],
         [
-          "2023: Friedmatt",
-          251926.3
+          "2024: Friedmatt",
+          250482.8
         ],
         [
           "     ",
@@ -369,23 +369,23 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           null
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           null
         ],
         [
-          "2023: Friedmatt",
+          "2024: Friedmatt",
           null
         ],
         [
@@ -501,23 +501,23 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           null
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           210.241
         ],
         [
-          "2023: Friedmatt",
+          "2024: Friedmatt",
           null
         ],
         [
@@ -633,24 +633,24 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           null
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
-          18825.89
+          "2024: Lysbüchel",
+          16123.53
         ],
         [
-          "2023: Friedmatt",
-          81168.76
+          "2024: Friedmatt",
+          80850.61
         ],
         [
           "     ",
@@ -762,23 +762,23 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           null
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           null
         ],
         [
-          "2023: Friedmatt",
+          "2024: Friedmatt",
           4868.71
         ],
         [
@@ -891,23 +891,23 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           null
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           null
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           null
         ],
         [
-          "2023: Friedmatt",
+          "2024: Friedmatt",
           null
         ],
         [
@@ -1023,31 +1023,31 @@
           null
         ],
         [
-          "2023: Pestalozzi",
+          "2024: Pestalozzi",
           2095.31
         ],
         [
-          "2023: Kannenfeld",
+          "2024: Kannenfeld",
           null
         ],
         [
-          "2023: Landskron",
+          "2024: Landskron",
           2919.34
         ],
         [
-          "2023: Lysbüchel",
+          "2024: Lysbüchel",
           14045.21
         ],
         [
-          "2023: Friedmatt",
-          34832.65
+          "2024: Friedmatt",
+          36700.52
         ],
         [
           "     ",
           null
         ]
       ],
-      "name": "übrige humusierte",
+      "name": "Übrige humusierte",
       "turboThreshold": 0
     }
   ],
@@ -1189,7 +1189,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
   },
   "tooltip": {
     "useHTML": true,

@@ -503,6 +503,10 @@
         [
           1672531200000,
           13452
+        ],
+        [
+          1704067200000,
+          13744
         ]
       ],
       "name": "Total Studierende"
@@ -1011,6 +1015,10 @@
         [
           1672531200000,
           5641
+        ],
+        [
+          1704067200000,
+          5684
         ]
       ],
       "name": "Total Studenten"
@@ -1519,6 +1527,10 @@
         [
           1672531200000,
           7811
+        ],
+        [
+          1704067200000,
+          8060
         ]
       ],
       "name": "Total Studentinnen"
@@ -2029,6 +2041,10 @@
         [
           1672531200000,
           1781
+        ],
+        [
+          1704067200000,
+          1842
         ]
       ],
       "name": "Internationale Studenten"
@@ -2538,6 +2554,10 @@
         [
           1672531200000,
           3860
+        ],
+        [
+          1704067200000,
+          3842
         ]
       ],
       "name": "Schweizer Studenten"
@@ -3048,6 +3068,10 @@
         [
           1672531200000,
           2280
+        ],
+        [
+          1704067200000,
+          2449
         ]
       ],
       "name": "Internationale Studentinnen"
@@ -3557,6 +3581,10 @@
         [
           1672531200000,
           5531
+        ],
+        [
+          1704067200000,
+          5611
         ]
       ],
       "name": "Schweizer Studentinnen"
@@ -3681,7 +3709,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
   },
   "legend": {
     "symbolRadius": 0,
