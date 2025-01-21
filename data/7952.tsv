@@ -14,7 +14,9 @@
 2611	Bärschwil	2	Übrige Agglomeration CH
 2613	Breitenbach	2	Übrige Agglomeration CH
 2614	Büsserach	2	Übrige Agglomeration CH
+2615	Erschwil	2	Übrige Agglomeration CH
 2616	Fehren	2	Übrige Agglomeration CH
+2617	Grindel	2	Übrige Agglomeration CH
 2618	Himmelried	2	Übrige Agglomeration CH
 2619	Kleinlützel	2	Übrige Agglomeration CH
 2620	Meltingen	2	Übrige Agglomeration CH
@@ -44,6 +46,7 @@
 2785	Duggingen	2	Übrige Agglomeration CH
 2786	Grellingen	2	Übrige Agglomeration CH
 2787	Laufen	2	Übrige Agglomeration CH
+2788	Liesberg	2	Übrige Agglomeration CH
 2789	Nenzlingen	2	Übrige Agglomeration CH
 2791	Röschenz	2	Übrige Agglomeration CH
 2792	Wahlen	2	Übrige Agglomeration CH
@@ -74,13 +77,13 @@
 2854	Nusshof	2	Übrige Agglomeration CH
 2856	Ormalingen	2	Übrige Agglomeration CH
 2857	Rickenbach (BL)	2	Übrige Agglomeration CH
+2858	Rothenfluh	2	Übrige Agglomeration CH
 2859	Rümlingen	2	Übrige Agglomeration CH
 2860	Rünenberg	2	Übrige Agglomeration CH
 2861	Sissach	2	Übrige Agglomeration CH
 2862	Tecknau	2	Übrige Agglomeration CH
 2863	Tenniken	2	Übrige Agglomeration CH
 2864	Thürnen	2	Übrige Agglomeration CH
-2865	Wenslingen	2	Übrige Agglomeration CH
 2866	Wintersingen	2	Übrige Agglomeration CH
 2867	Wittinsburg	2	Übrige Agglomeration CH
 2869	Zunzgen	2	Übrige Agglomeration CH
@@ -91,15 +94,16 @@
 2886	Hölstein	2	Übrige Agglomeration CH
 2887	Lampenberg	2	Übrige Agglomeration CH
 2889	Lauwil	2	Übrige Agglomeration CH
+2890	Liedertswil	2	Übrige Agglomeration CH
 2891	Niederdorf	2	Übrige Agglomeration CH
 2892	Oberdorf (BL)	2	Übrige Agglomeration CH
 2893	Reigoldswil	2	Übrige Agglomeration CH
 2894	Titterten	2	Übrige Agglomeration CH
+2895	Waldenburg	2	Übrige Agglomeration CH
 4251	Hellikon	2	Übrige Agglomeration CH
 4252	Kaiseraugst	2	Übrige Agglomeration CH
 4253	Magden	2	Übrige Agglomeration CH
 4254	Möhlin	2	Übrige Agglomeration CH
-4255	Mumpf	2	Übrige Agglomeration CH
 4256	Obermumpf	2	Übrige Agglomeration CH
 4257	Olsberg	2	Übrige Agglomeration CH
 4258	Rheinfelden	2	Übrige Agglomeration CH
@@ -140,8 +144,8 @@ FR_68042	Blotzheim	4	Agglomeration F
 FR_68049	Bouxwiller	4	Agglomeration F
 FR_68054	Brinckheim	4	Agglomeration F
 FR_68061	Buschwiller	4	Agglomeration F
+FR_68072	Dietwiller	4	Agglomeration F
 FR_68075	Durmenach	4	Agglomeration F
-FR_68080	Emlingen	4	Agglomeration F
 FR_68087	Feldbach	4	Agglomeration F
 FR_68090	Ferrette	4	Agglomeration F
 FR_68092	Fislis	4	Agglomeration F
@@ -152,7 +156,6 @@ FR_68120	Hagenthal-le-Bas	4	Agglomeration F
 FR_68121	Hagenthal-le-Haut	4	Agglomeration F
 FR_68124	Hausgauen	4	Agglomeration F
 FR_68126	Hégenheim	4	Agglomeration F
-FR_68131	Heiwiller	4	Agglomeration F
 FR_68132	Helfrantzkirch	4	Agglomeration F
 FR_68135	Hésingue	4	Agglomeration F
 FR_68148	Hundsbach	4	Agglomeration F
@@ -160,9 +163,8 @@ FR_68149	Huningue	4	Agglomeration F
 FR_68158	Jettingen	4	Agglomeration F
 FR_68160	Kappelen	4	Agglomeration F
 FR_68163	Kembs	4	Agglomeration F
-FR_68168	Knœringue	4	Agglomeration F
-FR_68169	Kœstlach	4	Agglomeration F
-FR_68170	Kœtzingue	4	Agglomeration F
+FR_68168	Knoeringue	4	Agglomeration F
+FR_68170	Koetzingue	4	Agglomeration F
 FR_68182	Leymen	4	Agglomeration F
 FR_68183	Liebenswiller	4	Agglomeration F
 FR_68186	Ligsdorf	4	Agglomeration F
@@ -177,6 +179,7 @@ FR_68222	Muespach-le-Haut	4	Agglomeration F
 FR_68232	Neuwiller	4	Agglomeration F
 FR_68238	Niffer	4	Agglomeration F
 FR_68240	Illtal	4	Agglomeration F
+FR_68245	Obermorschwiller	4	Agglomeration F
 FR_68248	Oltingue	4	Agglomeration F
 FR_68254	Petit-Landau	4	Agglomeration F
 FR_68259	Raedersdorf	4	Agglomeration F
@@ -186,12 +189,12 @@ FR_68265	Rantzwiller	4	Agglomeration F
 FR_68273	Riespach	4	Agglomeration F
 FR_68284	Roppentzwiller	4	Agglomeration F
 FR_68286	Rosenau	4	Agglomeration F
+FR_68288	Ruederbach	4	Agglomeration F
 FR_68297	Saint-Louis	4	Agglomeration F
 FR_68309	Sierentz	4	Agglomeration F
 FR_68312	Sondersdorf	4	Agglomeration F
 FR_68325	Steinsoultz	4	Agglomeration F
 FR_68327	Stetten	4	Agglomeration F
-FR_68333	Tagsdorf	4	Agglomeration F
 FR_68341	Uffheim	4	Agglomeration F
 FR_68347	Vieux-Ferrette	4	Agglomeration F
 FR_68349	Village-Neuf	4	Agglomeration F
@@ -200,5 +203,6 @@ FR_68355	Waldighofen	4	Agglomeration F
 FR_68357	Waltenheim	4	Agglomeration F
 FR_68362	Wentzwiller	4	Agglomeration F
 FR_68363	Werentzhouse	4	Agglomeration F
+FR_68371	Willer	4	Agglomeration F
 FR_68380	Wolschwiller	4	Agglomeration F
 FR_68382	Zaessingue	4	Agglomeration F

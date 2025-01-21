@@ -64,6 +64,7 @@ var geojson_borderTrinat =
 };
 
 
+
 var borderDataTrinat = Highcharts.geojson(geojson_borderTrinat, 'mapline');
 
 var geojson_gemeinden =
