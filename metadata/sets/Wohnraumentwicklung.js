@@ -202,13 +202,13 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2013 und dem 31.12.2023 nahm die Bevölkerung im Kanton Basel-Stadt von 195 459 auf 206 308 Personen zu.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Zwischen dem 31.12.2014 und dem 31.12.2024 nahm die Bevölkerung im Kanton Basel-Stadt von 196 471 auf 207 515 Personen zu.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
+			"Weitere Informationen zur <a href = 'https://statistik.bs.ch/unterthema/1' target = '_blank'>Bevölkerungsstatistik</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -217,7 +217,7 @@ var indikatorensetData = [
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.04132",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "1.1.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
@@ -229,7 +229,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:24",
+		"aktualisierungsdatum": "2025-01-22T08:29:55",
 		"id": 4132
 	},
 	{

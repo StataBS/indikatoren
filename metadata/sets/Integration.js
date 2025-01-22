@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2004 bis 2023 stieg der Anteil der ausländischen Personen an der Bevölkerung von 29,9% auf 38,4%.",
+		"lesehilfe": "Von 2005 bis 2024 stieg der Anteil der ausländischen Personen an der Bevölkerung von 30,4% auf 38,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-17T08:00:51",
+		"aktualisierungsdatum": "2025-01-22T08:30:00",
 		"id": 6057
 	},
 	{
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2023 45,4 Jahre, jenes der ausländischen Staatsangehörigen 37,9 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2024 45,4 Jahre, jenes der ausländischen Staatsangehörigen 38,0 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -261,7 +261,7 @@ var indikatorensetData = [
 		"description": "Durchschnittsalter der Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06063",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A2-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:29",
+		"aktualisierungsdatum": "2025-01-22T08:30:03",
 		"id": 6063
 	},
 	{

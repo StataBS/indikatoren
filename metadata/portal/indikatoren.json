@@ -5696,13 +5696,13 @@
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2013 und dem 31.12.2023 nahm die Bevölkerung im Kanton Basel-Stadt von 195 459 auf 206 308 Personen zu.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Zwischen dem 31.12.2014 und dem 31.12.2024 nahm die Bevölkerung im Kanton Basel-Stadt von 196 471 auf 207 515 Personen zu.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
+			"Weitere Informationen zur <a href = 'https://statistik.bs.ch/unterthema/1' target = '_blank'>Bevölkerungsstatistik</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -5711,7 +5711,7 @@
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.04132",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "1.1.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
@@ -5724,7 +5724,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:24",
+		"aktualisierungsdatum": "2025-01-22T08:29:55",
 		"id": 4132
 	},
 	{
@@ -15973,7 +15973,7 @@
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2004 bis 2023 stieg der Anteil der ausländischen Personen an der Bevölkerung von 29,9% auf 38,4%.",
+		"lesehilfe": "Von 2005 bis 2024 stieg der Anteil der ausländischen Personen an der Bevölkerung von 30,4% auf 38,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15999,7 +15999,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-17T08:00:51",
+		"aktualisierungsdatum": "2025-01-22T08:30:00",
 		"id": 6057
 	},
 	{
@@ -16177,7 +16177,7 @@
 		],
 		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2023 45,4 Jahre, jenes der ausländischen Staatsangehörigen 37,9 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2024 45,4 Jahre, jenes der ausländischen Staatsangehörigen 38,0 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16190,7 +16190,7 @@
 		"description": "Durchschnittsalter der Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06063",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A2-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -16203,7 +16203,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:29",
+		"aktualisierungsdatum": "2025-01-22T08:30:03",
 		"id": 6063
 	},
 	{
@@ -31537,8 +31537,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, November",
-		"lesehilfe": "Im November 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln und in Riehen. In zwölf Wohnvierteln und in Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, Dezember",
+		"lesehilfe": "Im Dezember 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fünf Wohnvierteln und in der Gemeinde Bettingen. In zwölf Wohnvierteln und in der Gemeinde Riehen ging sie zurück. In den Wohnvierteln Altstadt Grossbasel und Gotthelf blieb die Einwohnerzahl stabil.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -31565,7 +31565,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T09:25:07",
+		"aktualisierungsdatum": "2025-01-22T08:29:46",
 		"id": 7763
 	},
 	{
@@ -36974,7 +36974,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T09:26:03",
+		"aktualisierungsdatum": "2025-01-22T08:29:48",
 		"id": 8995
 	},
 	{
@@ -37145,7 +37145,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T09:26:06",
+		"aktualisierungsdatum": "2025-01-22T08:29:50",
 		"id": 9022
 	},
 	{
@@ -37183,7 +37183,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T09:26:07",
+		"aktualisierungsdatum": "2025-01-22T08:29:52",
 		"id": 9023
 	},
 	{
