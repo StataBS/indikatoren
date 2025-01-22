@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2004,
-          46.8
-        ],
-        [
           2005,
           46.8
         ],
@@ -83,6 +79,10 @@
         [
           2023,
           45.4
+        ],
+        [
+          2024,
+          45.4
         ]
       ],
       "name": "Schweiz"
@@ -92,10 +92,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2004,
-          44
-        ],
         [
           2005,
           44.1
@@ -171,6 +167,10 @@
         [
           2023,
           43.5
+        ],
+        [
+          2024,
+          43.5
         ]
       ],
       "name": "Schweizer"
@@ -180,10 +180,6 @@
       "legendIndex": 4,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2004,
-          49.1
-        ],
         [
           2005,
           49.1
@@ -259,6 +255,10 @@
         [
           2023,
           47.1
+        ],
+        [
+          2024,
+          47
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          2004,
-          34.4
-        ],
         [
           2005,
           34.7
@@ -346,6 +342,10 @@
         [
           2023,
           37.9
+        ],
+        [
+          2024,
+          38
         ]
       ],
       "name": "Ausland"
@@ -355,10 +355,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2004,
-          35
-        ],
         [
           2005,
           35.3
@@ -434,6 +430,10 @@
         [
           2023,
           38.1
+        ],
+        [
+          2024,
+          38.1
         ]
       ],
       "name": "Ausländer"
@@ -443,10 +443,6 @@
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2004,
-          33.7
-        ],
         [
           2005,
           34.1
@@ -522,6 +518,10 @@
         [
           2023,
           37.7
+        ],
+        [
+          2024,
+          37.9
         ]
       ],
       "name": "Ausländerinnen"
@@ -659,7 +659,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
