@@ -6,31 +6,31 @@
       "data": [
         [
           "2010",
-          12.840982785
+          34.62566599
         ],
         [
           "2012",
-          15.27119905
+          36.22156173
         ],
         [
           "2014",
-          18.072050003
+          37.98959296
         ],
         [
           "2016",
-          19.571833447
+          39.46295583
         ],
         [
           "2018",
-          20.1559776
+          39.93758668
         ],
         [
           "2020",
-          24.35275836
+          43.94566436
         ],
         [
           "2022",
-          25.437691273
+          43.85167929
         ]
       ],
       "name": "Anteil erneuerbare Energie",
@@ -156,7 +156,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.1.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

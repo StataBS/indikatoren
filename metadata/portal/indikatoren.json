@@ -17361,7 +17361,7 @@
 		],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,8% im Jahr 2010 auf 25,4% im Jahr 2022 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 34,6% im Jahr 2010 auf 43,9% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -17387,7 +17387,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-11T12:59:45",
+		"aktualisierungsdatum": "2025-01-24T12:45:39",
 		"id": 6161
 	},
 	{
@@ -36974,7 +36974,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:48",
+		"aktualisierungsdatum": "2025-01-24T12:45:35",
 		"id": 8995
 	},
 	{
@@ -37145,7 +37145,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:50",
+		"aktualisierungsdatum": "2025-01-24T12:45:37",
 		"id": 9022
 	},
 	{
@@ -37183,7 +37183,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:52",
+		"aktualisierungsdatum": "2025-01-24T12:45:37",
 		"id": 9023
 	},
 	{

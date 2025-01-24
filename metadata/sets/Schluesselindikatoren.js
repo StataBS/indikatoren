@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 25,4%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum um 8% pro Jahr mit Referenzjahr 2019 (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 43,9%.<br><h2>Zielwert:</h2>85% bis 2037. Zielpfad: exponentielles Wachstum mit  Referenzjahr 2019. Mit der Zeit zunehmende Wachstumsrate, Zielbereich abnehmend von 10% unterhalb Zielwert im Jahr 2019 bis 0% unterhalb Zielwert 2037 (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert im/über Zielbereich und Wachstum gleich/stärker als Zielpfad</p><p>Wert im/über Zielbereich und Wachstum geringer als Zielpfad bzw. <br>Wert unter Zielbereich und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielbereich und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T08:13:46",
+		"aktualisierungsdatum": "2025-01-24T12:45:38",
 		"id": 9672
 	},
 	{
@@ -233,7 +233,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2023 waren 3,06% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem geringfügigen Anstieg um 0,01 Prozentpunkte gegenüber 2022.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
+		"lesehilfe": "2024 waren durchschnittlich 3,8% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,7 Prozentpunkte gegenüber 2023. Die Arbeitslosenquote der Schweiz ist um 0,5 Prozentpunkte gestiegen.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -245,8 +245,8 @@ var indikatorensetData = [
 		],
 		"description": "Arbeitslosenquote",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.09677",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
 		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "7",
 		"stufe1": "",
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-18T09:39:46",
+		"aktualisierungsdatum": "2025-01-24T12:45:40",
 		"id": 9677
 	},
 	{
