@@ -83,7 +83,7 @@
     },
     "tooltip": {
       "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + '% </b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
       },
     },
     "series": [
@@ -92,7 +92,7 @@
         legendIndex: 3,
         "tooltip": {
           "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + ' Prozentpunkte </b>'
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
           },
         },
       },
@@ -101,7 +101,7 @@
         legendIndex: 4,
         "tooltip": {
           "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + ' Prozentpunkte </b>'
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
           },
         },
       },

@@ -2,11 +2,11 @@
   "series": [
     {
       "color": "#0091f7",
-      "zIndex": 2,
+      "zIndex": 3,
       "data": [
         [
           "2010",
-          12.8
+          34.6
         ],
         [
           "2011",
@@ -14,7 +14,7 @@
         ],
         [
           "2012",
-          15.3
+          36.2
         ],
         [
           "2013",
@@ -22,7 +22,7 @@
         ],
         [
           "2014",
-          18.1
+          38
         ],
         [
           "2015",
@@ -30,7 +30,7 @@
         ],
         [
           "2016",
-          19.6
+          39.5
         ],
         [
           "2017",
@@ -38,7 +38,7 @@
         ],
         [
           "2018",
-          20.2
+          39.9
         ],
         [
           "2019",
@@ -46,7 +46,7 @@
         ],
         [
           "2020",
-          24.4
+          43.9
         ],
         [
           "2021",
@@ -54,7 +54,7 @@
         ],
         [
           "2022",
-          25.4
+          43.9
         ],
         [
           "2023",
@@ -117,12 +117,14 @@
           null
         ]
       ],
-      "name": "Anteil erneuerbarer Energie",
+      "name": "Anteil erneuerbare Energie",
       "turboThreshold": 0
     },
     {
+      "id": "Zielpfad",
       "dashStyle": "ShortDash",
       "color": "#999999",
+      "zIndex": 2,
       "data": [
         [
           "2010",
@@ -162,75 +164,75 @@
         ],
         [
           "2019",
-          22.3
+          41.9
         ],
         [
           "2020",
-          24.1
+          42.1
         ],
         [
           "2021",
-          25.9
+          42.5
         ],
         [
           "2022",
-          27.9
+          43.1
         ],
         [
           "2023",
-          30.1
+          44.1
         ],
         [
           "2024",
-          32.4
+          45.3
         ],
         [
           "2025",
-          34.9
+          46.7
         ],
         [
           "2026",
-          37.6
+          48.5
         ],
         [
           "2027",
-          40.5
+          50.4
         ],
         [
           "2028",
-          43.6
+          52.7
         ],
         [
           "2029",
-          46.9
+          55.2
         ],
         [
           "2030",
-          50.6
+          58
         ],
         [
           "2031",
-          54.5
+          61.1
         ],
         [
           "2032",
-          58.6
+          64.4
         ],
         [
           "2033",
-          63.2
-        ],
-        [
-          "2034",
           68
         ],
         [
+          "2034",
+          71.8
+        ],
+        [
           "2035",
-          73.3
+          76
         ],
         [
           "2036",
-          78.9
+          80.3
         ],
         [
           "2037",
@@ -238,6 +240,164 @@
         ]
       ],
       "name": "Zielpfad",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ccc",
+      "type": "arearange",
+      "linkedTo": "Zielpfad",
+      "showInLegend": true,
+      "zIndex": 1,
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "data": [
+        {
+          "name": "2010",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2011",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2012",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2013",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": 37.7,
+          "high": 41.9
+        },
+        {
+          "name": "2020",
+          "low": 37.9,
+          "high": 42.1
+        },
+        {
+          "name": "2021",
+          "low": 38.3,
+          "high": 42.5
+        },
+        {
+          "name": "2022",
+          "low": 39.1,
+          "high": 43.1
+        },
+        {
+          "name": "2023",
+          "low": 40.1,
+          "high": 44.1
+        },
+        {
+          "name": "2024",
+          "low": 41.4,
+          "high": 45.3
+        },
+        {
+          "name": "2025",
+          "low": 43,
+          "high": 46.7
+        },
+        {
+          "name": "2026",
+          "low": 44.9,
+          "high": 48.5
+        },
+        {
+          "name": "2027",
+          "low": 47.1,
+          "high": 50.4
+        },
+        {
+          "name": "2028",
+          "low": 49.6,
+          "high": 52.7
+        },
+        {
+          "name": "2029",
+          "low": 52.3,
+          "high": 55.2
+        },
+        {
+          "name": "2030",
+          "low": 55.4,
+          "high": 58
+        },
+        {
+          "name": "2031",
+          "low": 58.7,
+          "high": 61.1
+        },
+        {
+          "name": "2032",
+          "low": 62.4,
+          "high": 64.4
+        },
+        {
+          "name": "2033",
+          "low": 66.3,
+          "high": 68
+        },
+        {
+          "name": "2034",
+          "low": 70.6,
+          "high": 71.8
+        },
+        {
+          "name": "2035",
+          "low": 75.1,
+          "high": 76
+        },
+        {
+          "name": "2036",
+          "low": 79.9,
+          "high": 80.3
+        },
+        {
+          "name": "2037",
+          "low": 85,
+          "high": 85
+        }
+      ],
+      "name": "Zielbereich",
       "turboThreshold": 0
     },
     {
@@ -294,7 +454,7 @@
         ],
         [
           "2022",
-          2
+          0
         ],
         [
           "2023",
@@ -407,6 +567,22 @@
             );
           }
 
+/*          
+          this.series[1].points[9].update({
+            dataLabels: {
+              enabled: true,
+              y: -35,
+              x: -50,
+              format: 'Konvergierender Zielbereich<br>{key}: 0%-10% unter Zielpfad<br>2037: +/- 0%',
+              connectorColor:  "#999999",
+              connectorWidth: 2,
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+          });
+*/
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -419,14 +595,14 @@
               }
             },
             marker: {
-              enabled: true
+              enabled: true,
             }
           });
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[3].data;
           data.forEach(function (element, i) {
             if (assessed[i].y !== null) {
               element.update({
@@ -524,7 +700,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.1.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -561,7 +737,55 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function (e) {
+        //use shared tooltip for group of series only (instead of for all)
+        //source: https://jsfiddle.net/BlackLabel/gq1d1aba/
+
+        //console.log(this.point.series);
+
+        var point = this.point,
+          series = point.series,
+          chart = series.chart,
+          correspondingSeries = series.linkedSeries[0] || series.linkedParent,
+          linePoint,
+          arearangePoint,
+          correspondingPoint,
+          firstLine = '';
+
+        if (correspondingSeries === undefined) return e.defaultFormatter.call(this, e);
+        else {
+          // unselect previously selected point
+          if (chart.extraHoveredPoint) {
+            chart.extraHoveredPoint.setState('');
+          }
+
+          // find corresponding point
+          if (correspondingSeries) {
+            //console.log(correspondingSeries,  correspondingSeries.points, point.index);
+            //console.log(point.index, this.series.cropStart);
+            correspondingPoint = correspondingSeries.points[point.index - this.series.cropStart];
+            correspondingPoint.setState('hover');
+            chart.extraHoveredPoint = correspondingPoint;
+          }
+
+          // identify type of points for formatting purposes
+          if (point.low !== undefined) {
+            arearangePoint = point;
+            linePoint = correspondingPoint;
+          } else {
+            arearangePoint = correspondingPoint;
+            linePoint = point;
+          }
+          //console.log(this);
+          if (linePoint.y !== null) firstLine = "<span style='color:" + linePoint.series.color + "'>●</span> " +
+            linePoint.series.name + ": <b>" + Highcharts.numberFormat(linePoint.y, 1) + "%</b><br>";
+
+          return "<span style='font-size: 10px'>" + this.key + "</span><br>" +
+            firstLine +
+            arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + Highcharts.numberFormat(arearangePoint.low, 1) + "%</b> bis <b>" + Highcharts.numberFormat(arearangePoint.high, 1) + "%</b>";
+        }
+      }
   },
   "exporting": {
     "filename": "9672"
