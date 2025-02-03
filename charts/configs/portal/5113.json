@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Gymnasialquote",
+      "name": "Sek P-Quote",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          0.1024
-        ],
-        [
-          19,
-          0.2203
-        ],
-        [
-          6,
-          0.2308
+          0.1385
         ],
         [
           12,
-          0.28
-        ],
-        [
-          10,
-          0.2803
+          0.1538
         ],
         [
           13,
-          0.2857
+          0.2041
+        ],
+        [
+          19,
+          0.2182
+        ],
+        [
+          6,
+          0.225
         ],
         [
           17,
-          0.2905
-        ],
-        [
-          16,
-          0.2906
-        ],
-        [
-          15,
-          0.2995
+          0.2595
         ],
         [
           4,
-          0.313
+          0.265
         ],
         [
           11,
-          0.3313
+          0.2876
         ],
         [
-          1,
-          0.4286
+          16,
+          0.2927
+        ],
+        [
+          10,
+          0.3121
+        ],
+        [
+          15,
+          0.3445
         ],
         [
           5,
-          0.4404
-        ],
-        [
-          30,
-          0.4483
-        ],
-        [
-          9,
-          0.4545
+          0.4421
         ],
         [
           20,
-          0.4581
-        ],
-        [
-          2,
-          0.4783
+          0.4821
         ],
         [
           3,
-          0.5372
+          0.5034
         ],
         [
-          8,
-          0.5498
+          9,
+          0.5088
         ],
         [
-          14,
-          0.5574
+          2,
+          0.5111
+        ],
+        [
+          30,
+          0.5238
         ],
         [
           7,
-          0.587
+          0.5464
+        ],
+        [
+          1,
+          0.5789
+        ],
+        [
+          8,
+          0.6042
+        ],
+        [
+          14,
+          0.6154
         ]
       ]
     },
@@ -3333,55 +3333,55 @@
         ],
         [
           2,
-          "Kleinhüningen"
-        ],
-        [
-          3,
-          "Gundeldingen"
-        ],
-        [
-          4,
           "Altstadt Kleinbasel"
         ],
         [
-          5,
-          "Iselin"
-        ],
-        [
-          6,
+          3,
           "Clara"
         ],
         [
-          7,
+          4,
+          "Kleinhüningen"
+        ],
+        [
+          5,
+          "Gundeldingen"
+        ],
+        [
+          6,
           "Matthäus"
         ],
         [
-          8,
-          "Rosental"
-        ],
-        [
-          9,
-          "Hirzbrunnen"
-        ],
-        [
-          10,
+          7,
           "Breite"
         ],
         [
-          11,
+          8,
           "St. Johann"
         ],
         [
-          12,
-          "Altstadt Grossbasel"
+          9,
+          "Rosental"
         ],
         [
-          13,
+          10,
+          "Iselin"
+        ],
+        [
+          11,
+          "Hirzbrunnen"
+        ],
+        [
+          12,
           "St. Alban"
         ],
         [
+          13,
+          "Riehen"
+        ],
+        [
           14,
-          "Bettingen"
+          "Am Ring"
         ],
         [
           15,
@@ -3389,27 +3389,27 @@
         ],
         [
           16,
-          "Riehen"
-        ],
-        [
-          17,
           "Vorstädte"
         ],
         [
+          17,
+          "Bettingen"
+        ],
+        [
           18,
-          "Am Ring"
+          "Bruderholz"
         ],
         [
           19,
-          "Bachletten"
+          "Altstadt Grossbasel"
         ],
         [
           20,
-          "Wettstein"
+          "Bachletten"
         ],
         [
           21,
-          "Bruderholz"
+          "Wettstein"
         ]
       ],
       "name": "Wohnviertel"
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2025"
   },
   "colorAxis": {
     "min": 0,

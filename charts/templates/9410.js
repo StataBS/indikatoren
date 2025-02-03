@@ -15,19 +15,6 @@ global rheinData
 				}
 			}
 		},
-		"tooltip": {
-			useHTML: true,
-			"formatter": function (args) {
-				if (!this.point["CODGEO"]) {
-					//Grenzen, Massstab
-					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-				} else {
-					var einheit = '%';
-					return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
-						this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 1) + einheit + '</b>';
-				}
-			}
-		},
 		"colorAxis": {
 			min: 10,
 			max: 50,
@@ -52,8 +39,8 @@ global rheinData
 				"animation": true,
 				"mapData": geojson_gemeinden,
 				"borderColor": "#fbfbfb",
-				"keys": ['gemeindecode', 'value'],
-				"joinBy": ['CODGEO', 'gemeindecode'],
+				"keys": ['Gemeinde', 'value'],
+				"joinBy": ['GMDNR', 'Gemeinde'],
 				"states": {
 					"hover": {
 						"enabled": false,

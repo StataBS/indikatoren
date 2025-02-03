@@ -1,22 +1,22 @@
-﻿wohnviertel_id	Gymnasialquote	Rang	Wohnviertel	jahr_num
-18	0.1024	1	Klybeck	2023
-19	0.2203	2	Kleinhüningen	2023
-6	0.2308	3	Gundeldingen	2023
-12	0.2800	4	Altstadt Kleinbasel	2023
-10	0.2803	5	Iselin	2023
-13	0.2857	6	Clara	2023
-17	0.2905	7	Matthäus	2023
-16	0.2906	8	Rosental	2023
-15	0.2995	9	Hirzbrunnen	2023
-4	0.3130	10	Breite	2023
-11	0.3313	11	St. Johann	2023
-1	0.4286	12	Altstadt Grossbasel	2023
-5	0.4404	13	St. Alban	2023
-30	0.4483	14	Bettingen	2023
-9	0.4545	15	Gotthelf	2023
-20	0.4581	16	Riehen	2023
-2	0.4783	17	Vorstädte	2023
-3	0.5372	18	Am Ring	2023
-8	0.5498	19	Bachletten	2023
-14	0.5574	20	Wettstein	2023
-7	0.5870	21	Bruderholz	2023
+﻿wohnviertel_id	Sek P-Quote	Rang	Wohnviertel	jahr
+18	0.1385	1	Klybeck	2024
+12	0.1538	2	Altstadt Kleinbasel	2024
+13	0.2041	3	Clara	2024
+19	0.2182	4	Kleinhüningen	2024
+06	0.225	5	Gundeldingen	2024
+17	0.2595	6	Matthäus	2024
+04	0.265	7	Breite	2024
+11	0.2876	8	St. Johann	2024
+16	0.2927	9	Rosental	2024
+10	0.3121	10	Iselin	2024
+15	0.3445	11	Hirzbrunnen	2024
+05	0.4421	12	St. Alban	2024
+20	0.4821	13	Riehen	2024
+03	0.5034	14	Am Ring	2024
+09	0.5088	15	Gotthelf	2024
+02	0.5111	16	Vorstädte	2024
+30	0.5238	17	Bettingen	2024
+07	0.5464	18	Bruderholz	2024
+01	0.5789	19	Altstadt Grossbasel	2024
+08	0.6042	20	Bachletten	2024
+14	0.6154	21	Wettstein	2024

@@ -8,11 +8,11 @@ global rheinData
 		"tooltip": {
 			useHTML: true,
 			"formatter": function (args) {
-				if (!this.point["CODGEO"]) {
+				if (!this.point["GMDNR"]) {
 					//Grenzen, Massstab
 					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
 				} else {
-					return '<span style="color:' + this.color + ';">\u25CF </span>Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
+					return '<span style="color:' + this.color + ';">\u25CF </span>Gemeinde: <b>' + this.point.properties.GMDNAME + '</b>';
 				}
 			}
 		},
@@ -56,8 +56,8 @@ global rheinData
 				"animation": true,
 				"mapData": geojson_gemeinden,
 				"borderColor": "#fbfbfb",
-				"keys": ['gemeindecode', 'value'],
-				"joinBy": ['CODGEO', 'gemeindecode'],
+				"keys": ['Gemeinde', 'value'],
+				"joinBy": ['GMDNR', 'Gemeinde'],
 				"states": {
 					"hover": {
 						"enabled": false,
