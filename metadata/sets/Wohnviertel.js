@@ -132,8 +132,8 @@ var indikatorensetData = [
 			5113
 		],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-05T02:12:07",
+		"aktualisierungsdatum": "2025-02-03T12:09:46",
 		"id": 4826
 	},
 	{
@@ -791,8 +791,8 @@ var indikatorensetData = [
 		"parentId": "4826",
 		"children": [],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -807,7 +807,7 @@ var indikatorensetData = [
 		"description": "Sek P-Quote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kuerzel": "I.15.6.05113",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-5.B",
 		"stufe1": "",
@@ -819,7 +819,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:40",
+		"aktualisierungsdatum": "2025-02-03T12:09:49",
 		"id": 5113
 	},
 	{

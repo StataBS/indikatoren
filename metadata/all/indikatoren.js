@@ -13713,8 +13713,8 @@ var indikatoren = [
 			5113
 		],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -13742,7 +13742,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-05T02:12:07",
+		"aktualisierungsdatum": "2025-02-03T12:09:46",
 		"id": 4826
 	},
 	{
@@ -15992,8 +15992,8 @@ var indikatoren = [
 		"parentId": "4826",
 		"children": [],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2023/24 mit 58,7% (2022/23 58,2%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2022/23 ebenfalls unverändert - das Wohnviertel Klybeck mit 10,2% (2022/23 11,5%). Auffällig ist der grosse Abstand zwischen den beiden Wohnvierteln mit der tiefsten Sek P-Quote; dieser ist auf die ausgesprochen geringe Quote bei den ausländischen Schülerinnen und Schülern im Klybeck zurückzuführen. Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie acht städtischen Vierteln gesunken, in elf Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -16008,7 +16008,7 @@ var indikatoren = [
 		"description": "Sek P-Quote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kuerzel": "I.15.6.05113",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-5.B",
 		"stufe1": "",
@@ -16021,7 +16021,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:40",
+		"aktualisierungsdatum": "2025-02-03T12:09:49",
 		"id": 5113
 	},
 	{
@@ -51007,7 +51007,7 @@ var indikatoren = [
 		],
 		"title": "Perimeter der trinationalen Agglomeration Basel",
 		"subtitle": "",
-		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 203 Gemeinden. Sie besteht aus der Kernstadt Basel, 106 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
+		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 207 Gemeinden. Sie besteht aus der Kernstadt Basel, 110 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51018,7 +51018,7 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "01 Bevölkerung",
+		"thema": "40 Querschnittsthemen",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.07952",
 		"kennzahlenset": "City-Statistics",
@@ -51033,7 +51033,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:05",
+		"aktualisierungsdatum": "2025-02-03T12:09:21",
 		"id": 7952
 	},
 	{
@@ -51047,8 +51047,8 @@ var indikatoren = [
 		],
 		"title": "Gesamtbevölkerung",
 		"subtitle": "2021",
-		"lesehilfe": "Die trinationale Agglomeration Basel zählt 2021 rund 867 400 Einwohnerinnen und Einwohner und ist damit die drittgrösste Agglomeration der Schweiz, nach Zürich und Genf (grenzüberschreitend). Ein Fünftel der Bevölkerung wohnt in der Kernstadt Basel, 44% in den weiteren Schweizer Gemeinden, 25% in Deutschland und 11% in Frankreich. Der Anteil der in der Kernstadt wohnenden Bevölkerung ist in Basel (20%) sowie in Genf (22%) kleiner als in Zürich (30%), Bern oder Lausanne (je 32%).",
-		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung dargestellt. Die Agglomerationen sind gemäss Typologie «Raum mit städtischem Charakter 2012» des BFS definiert. Eine Agglomeration besteht aus einer Kernstadt und den übrigen Agglomerationsgemeinden. Die Agglomerationen Basel und Genf sind grenzüberschreitend.",
+		"lesehilfe": "Die trinationale Agglomeration Basel zählt 2021 rund 873 800 Einwohnerinnen und Einwohner und ist damit die drittgrösste Agglomeration der Schweiz, nach Zürich und Genf (grenzüberschreitend). Ein Fünftel der Bevölkerung wohnt in der Kernstadt Basel, 44% in den weiteren Schweizer Gemeinden, 24% in Deutschland und 12% in Frankreich. Der Anteil der in der Kernstadt wohnenden Bevölkerung ist in Basel (20%) sowie in Genf (21%) kleiner als in Zürich, Bern oder Lausanne (30% bis 32%).",
+		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung dargestellt. Die Agglomerationen sind gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS definiert. Eine Agglomeration besteht aus einer Kernstadt und den übrigen Agglomerationsgemeinden. Die Agglomerationen Basel und Genf sind grenzüberschreitend.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51060,7 +51060,7 @@ var indikatoren = [
 		"description": "Gesamtbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07953",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "2.1",
 		"stufe1": "2. Bevölkerungsstruktur",
@@ -51073,7 +51073,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:13",
+		"aktualisierungsdatum": "2025-02-03T12:09:23",
 		"id": 7953
 	},
 	{
@@ -51087,7 +51087,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerungsdichte nach Gemeinde",
 		"subtitle": "trinationale Agglomeration Basel, 2021",
-		"lesehilfe": "Mit 7 290 Einwohnerinnen und Einwohnern pro Quadratkilometer ist die Kernstadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteilen zeigen folgende Gemeinden die höchste Bevölkerungsdichte: Birsfelden (4 142) in der Schweiz; Huningue (2 372) in Frankreich; Weil am Rhein (1 542) in Deutschland.",
+		"lesehilfe": "Mit 7 256 Einwohnerinnen und Einwohnern pro Quadratkilometer ist die Kernstadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteilen zeigen folgende Gemeinden die höchste Bevölkerungsdichte: Birsfelden (4 122) in der Schweiz; Huningue (2 566) in Frankreich; Weil am Rhein (1 555) in Deutschland.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51100,7 +51100,7 @@ var indikatoren = [
 		"description": "Bevölkerungsdichte nach Gemeinde",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07954",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "2.3",
 		"stufe1": "2. Bevölkerungsstruktur",
@@ -51113,7 +51113,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:16",
+		"aktualisierungsdatum": "2025-02-03T12:09:26",
 		"id": 7954
 	},
 	{
@@ -51127,8 +51127,8 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient",
 		"subtitle": "2021",
-		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen weiteren Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (38,9) und Genf (43,2) hoch. In der gesamten Agglomeration ist der Jugendquotient in Genf am höchsten.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen weiteren Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (38,7) und Genf (43,0) hoch. In der gesamten Agglomeration ist der Jugendquotient in Genf am höchsten.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51140,7 +51140,7 @@ var indikatoren = [
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07955",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "2.4",
 		"stufe1": "2. Bevölkerungsstruktur",
@@ -51153,7 +51153,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:24",
+		"aktualisierungsdatum": "2025-02-03T12:09:28",
 		"id": 7955
 	},
 	{
@@ -51167,8 +51167,8 @@ var indikatoren = [
 		],
 		"title": "Altersquotient",
 		"subtitle": "2021",
-		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 34,6 im Jahr 2021 deutlich höher als in den Agglomerationen Genf, Lausanne oder Zürich. Dies ist auf die relativ ältere Bevölkerung in allen Teilen der Agglomeration zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (34,0).",
-		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 35,2 im Jahr 2021 deutlich höher als in den Agglomerationen Genf, Lausanne oder Zürich. Dies ist auf die relativ ältere Bevölkerung in allen Teilen der Agglomeration zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (34,5).",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51193,7 +51193,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:25",
+		"aktualisierungsdatum": "2025-02-03T12:09:31",
 		"id": 7957
 	},
 	{
@@ -51207,8 +51207,8 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "2021",
-		"lesehilfe": "Den grössten Ausländeranteil weist die Kernstadt Genf (48,3%) auf. Ausländeranteile von nur gerade rund 16% werden hingegen in den Agglomerationsgemeinden (ohne Kernstadt) von Bern sowie in den deutschen und französischen Gemeinden der Agglomeration Basel registriert. Als gesamte Agglomeration betrachtet haben nur Lausanne und Genf einen Ausländeranteil von über 30%, in Basel liegt der Anteil bei 23,8%.",
-		"erlaeuterungen": "Anteil der ständigen ausländischen Wohnbevölkerung an der gesamten ständigen Wohnbevölkerung in Prozent.",
+		"lesehilfe": "Den grössten Ausländeranteil weist die Kernstadt Genf (48,6%) auf. Ausländeranteile von nur gerade 16% bis 17% werden hingegen in den Agglomerationsgemeinden (ohne Kernstadt) von Bern sowie in den deutschen und französischen Gemeinden der Agglomeration Basel registriert. Als gesamte Agglomeration betrachtet haben nur Lausanne und Genf einen Ausländeranteil von über 30%, in Basel liegt der Anteil bei 24%.",
+		"erlaeuterungen": "Anteil der ständigen ausländischen Wohnbevölkerung an der gesamten ständigen Wohnbevölkerung in Prozent.Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51233,7 +51233,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:31",
+		"aktualisierungsdatum": "2025-02-03T12:09:35",
 		"id": 7958
 	},
 	{
@@ -51247,8 +51247,8 @@ var indikatoren = [
 		],
 		"title": "Geburten und Sterbefälle",
 		"subtitle": "Saldo (pro 1000 Einwohner), 2021",
-		"lesehilfe": "Der Saldo aus Geburten und Sterbefällen pro 1000 Einwohner ist 2021 in Basel leicht negativ (-0,2), während dieser in Bern, Genf, Lausanne und auch in Zürich positiv ausfällt. Für den tiefen Wert in der Agglomeration Basel sind insbesondere die Gemeinden in Deutschland (Saldo -1,9) verantwortlich. In den französischen Gemeinden liegt der Saldo bei 1,2. Am grössten ist der Saldo im französischen Teil der Agglomeration Genf (6,6).",
-		"erlaeuterungen": "Der ausgewiesene Saldo ergibt sich aus der Differenz von Geburten und Sterbefällen jeweils pro 1000 Einwohner.",
+		"lesehilfe": "Der Saldo aus Geburten und Sterbefällen pro 1000 Einwohner ist 2021 in Basel negativ (-0,3), während dieser in Bern, Genf, Lausanne und auch in Zürich positiv ausfällt. Für den tiefen Wert in der Agglomeration Basel sind insbesondere die Gemeinden in Deutschland (Saldo -1,9) verantwortlich. In den französischen Gemeinden liegt der Saldo bei 1,1. Am grössten ist der Saldo im französischen Teil der Agglomeration Genf (6,4).",
+		"erlaeuterungen": "Der ausgewiesene Saldo ergibt sich aus der Differenz von Geburten und Sterbefällen jeweils pro 1000 Einwohner.Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51260,7 +51260,7 @@ var indikatoren = [
 		"description": "Geburten und Sterbefälle",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
-		"kuerzel": "I.01.3.07959",
+		"kuerzel": "I.01.TRLT.07959",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "2.8",
 		"stufe1": "2. Bevölkerungsstruktur",
@@ -51273,7 +51273,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:32",
+		"aktualisierungsdatum": "2025-02-03T12:09:37",
 		"id": 7959
 	},
 	{
@@ -51287,8 +51287,8 @@ var indikatoren = [
 		],
 		"title": "Anteil der Privathaushalte mit minderjährigen Kindern",
 		"subtitle": "2021",
-		"lesehilfe": "Der Anteil der Privathaushalte mit Kindern unter 18 Jahren beträgt in der Agglomeration Basel 25,1%. Über alle Agglomerationen verglichen, ist deren Anteil in den deutschen Gemeinden der Agglomeration Basel mit 34,3% am höchsten. In jeder Agglomeration ist der Anteil der Privathaushalte mit minderjährigen Kindern in der Kernstadt kleiner als in den jeweiligen übrigen Agglomerationsgemeinden.",
-		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
+		"lesehilfe": "Der Anteil der Privathaushalte mit Kindern unter 18 Jahren beträgt in der Agglomeration Basel 25,0%. Über alle Agglomerationen verglichen, ist deren Anteil in den deutschen Gemeinden der Agglomeration Basel mit 34,3% am höchsten. In jeder Agglomeration ist der Anteil der Privathaushalte mit minderjährigen Kindern in der Kernstadt kleiner als in den jeweiligen übrigen Agglomerationsgemeinden.",
+		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51313,7 +51313,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:40",
+		"aktualisierungsdatum": "2025-02-03T12:09:39",
 		"id": 7961
 	},
 	{
@@ -51327,8 +51327,8 @@ var indikatoren = [
 		],
 		"title": "Anteil der privaten Einelternhaushalte",
 		"subtitle": "mit Kindern unter 18 Jahren, 2021",
-		"lesehilfe": "Der Anteil der Einelternhaushalte mit Kindern am Total der privaten Haushalte variiert 2021 zwischen 2,6% in der Agglomeration Bern und 5,2% in Genf. In den französischen Gemeinden der Agglomeration Genf liegt er bei 6,2%. In der Agglomeration Basel haben 3,5% der Haushalte alleinerziehende Eltern, wobei dieser Anteil in den französischen und in den deutschen Agglomerationsgemeinden grösser ist als im Schweizer Teil der Agglomeration.",
-		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
+		"lesehilfe": "Der Anteil der Einelternhaushalte mit Kindern am Total der privaten Haushalte variiert 2021 zwischen 2,6% in der Agglomeration Bern und 5,4% in Genf. In den französischen Gemeinden der Agglomeration Genf liegt er bei 6,3%. In der Agglomeration Basel haben 3,5% der Haushalte alleinerziehende Eltern, wobei dieser Anteil in den französischen und in den deutschen Agglomerationsgemeinden grösser ist als im Schweizer Teil der Agglomeration.",
+		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).Agglomerationen gemäss Typologie «Raum mit städtischem Charakter 2020» des BFS.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51353,7 +51353,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:41",
+		"aktualisierungsdatum": "2025-02-03T12:09:41",
 		"id": 7962
 	},
 	{
@@ -77420,7 +77420,7 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient nach Gemeinde",
 		"subtitle": "trinationale Agglomeration Basel, 2021",
-		"lesehilfe": "Die Anzahl Jugendlicher pro 100 Personen zwischen 20 und 64 Jahren ist in den Gemeinden der grenzüberschreitenden Agglomeration Basel mit 24 in Augst und Hemmiken (Schweiz) am tiefsten; mit 54 ist sie in Vieux-Ferrette (Frankreich) am höchsten. Die Quotienten sind in den meisten Gemeinden in Frankreich höher als in der Schweiz und in Deutschland. Den höchsten Jugendquotienten in der Schweiz weist Zullwil auf (43), in Deutschland Rümmingen (40). In der Kernstadt Basel leben 26 Jugendliche pro 100 20- bis 64-Jährige.",
+		"lesehilfe": "Die Anzahl Jugendlicher pro 100 Personen zwischen 20 und 64 Jahren ist in den Gemeinden der grenzüberschreitenden Agglomeration Basel mit 24 in Hemmiken und Maisprach (Schweiz) am tiefsten; mit 51 ist sie in Vieux-Ferrette (Frankreich) am höchsten. Die Quotienten sind in den meisten Gemeinden in Frankreich höher als in der Schweiz und in Deutschland. Den höchsten Jugendquotienten weisen in der Schweiz Zullwil (43) und in Deutschland Rümmingen sowie Schallbach (je 41) auf. In der Kernstadt Basel leben 27 Jugendliche pro 100 20- bis 64-Jährige.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -77433,7 +77433,7 @@ var indikatoren = [
 		"description": "Jugendquotient nach Gemeinde",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09407",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "2.6",
 		"stufe1": "2. Bevölkerungsstruktur",
@@ -77446,7 +77446,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:28",
+		"aktualisierungsdatum": "2025-02-03T12:09:33",
 		"id": 9407
 	},
 	{
@@ -77500,7 +77500,7 @@ var indikatoren = [
 		],
 		"title": "Anteil der Einpersonenhaushalte nach Gemeinde",
 		"subtitle": "trinationale Agglomeration Basel, 2021",
-		"lesehilfe": "Der Anteil der Haushalte mit nur einer Person ist in der Kernstadt Basel mit 48,9% bei weitem der höchste in der trinationalen Agglomeration. Anteile von über 40% verzeichnen ausser Basel nur noch Birsfelden und Augst in der Schweiz, Lörrach in Deutschland sowie Huningue, Saint-Louis und Ferrette in Frankreich.",
+		"lesehilfe": "Der Anteil der Haushalte mit nur einer Person ist in der Kernstadt Basel mit 49% bei weitem der höchste in der trinationalen Agglomeration. Anteile von 40% oder mehr verzeichnen ausser Basel noch Birsfelden, Augst, Waldenburg und Liedertswil in der Schweiz, Lörrach in Deutschland sowie Huningue, Saint-Louis und Ferrette in Frankreich.",
 		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -77526,7 +77526,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:43",
+		"aktualisierungsdatum": "2025-02-03T12:09:44",
 		"id": 9410
 	},
 	{

@@ -52,8 +52,8 @@ global rheinData
 				"animation": true,
 				"mapData": geojson_gemeinden,
 				"borderColor": "#fbfbfb",
-				"keys": ['gemeindecode', 'value'],
-				"joinBy": ['CODGEO', 'gemeindecode'],
+				"keys": ['Gemeinde', 'value'],
+				"joinBy": ['GMDNR', 'Gemeinde'],
 				"states": {
 					"hover": {
 						"enabled": false,
