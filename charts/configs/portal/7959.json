@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          -0.228
+          -0.276
         ],
         [
           "Bern",
-          1.062
+          1.096
         ],
         [
           "Genf",
-          4.916
+          4.957
         ],
         [
           "Lausanne",
-          4.614
+          4.6
         ],
         [
           "Zürich",
-          3.51
+          3.501
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          -0.047
+          -0.13
         ],
         [
           "Bern",
-          0.679
+          0.736
         ],
         [
           "Genf",
-          3.47
+          3.481
         ],
         [
           "Lausanne",
-          4.777
+          4.755
         ],
         [
           "Zürich",
-          3.057
+          3.05
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          1.23
+          1.115
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          6.588
+          6.427
         ],
         [
           "Lausanne",
@@ -274,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

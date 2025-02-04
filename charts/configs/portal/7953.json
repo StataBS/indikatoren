@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          173863
+          173064
         ],
         [
           "Bern",
-          134794
+          134290
         ],
         [
           "Genf",
-          203856
+          203401
         ],
         [
           "Lausanne",
-          140202
+          140619
         ],
         [
           "Zürich",
-          421878
+          423193
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          381663
+          386439
         ],
         [
           "Bern",
-          288737
+          297480
         ],
         [
           "Genf",
-          402892
+          397639
         ],
         [
           "Lausanne",
-          293474
+          299221
         ],
         [
           "Zürich",
-          992467
+          1013293
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          212723
+          213342
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          99169
+          100998
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          337562
+          392374
         ],
         [
           "Lausanne",
@@ -246,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
