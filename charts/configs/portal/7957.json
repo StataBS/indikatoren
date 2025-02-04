@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          34.59
+          35.17
         ],
         [
           "Bern",
-          34
+          34.54
         ],
         [
           "Genf",
-          24.54
+          24.83
         ],
         [
           "Lausanne",
-          25.17
+          25.12
         ],
         [
           "Zürich",
-          27.03
+          27.31
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          29.55
+          29.8
         ],
         [
           "Bern",
-          26.07
+          26.13
         ],
         [
           "Genf",
-          23.76
+          24.05
         ],
         [
           "Lausanne",
-          21.95
+          21.86
         ],
         [
           "Zürich",
-          21.59
+          21.55
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          37.93
+          38.62
         ],
         [
           "Bern",
-          38.2
+          38.86
         ],
         [
           "Genf",
-          27.18
+          27.48
         ],
         [
           "Lausanne",
-          26.83
+          26.77
         ],
         [
           "Zürich",
-          29.59
+          29.97
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          34.87
+          35.49
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          30.81
+          31.4
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          21.93
+          22.6
         ],
         [
           "Lausanne",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          25.09
-        ],
-        [
-          "Bern",
-          20.89
-        ],
-        [
-          "Genf",
-          29.32
-        ],
-        [
-          "Lausanne",
           24.98
         ],
         [
+          "Bern",
+          21
+        ],
+        [
+          "Genf",
+          29.4
+        ],
+        [
+          "Lausanne",
+          24.96
+        ],
+        [
           "Zürich",
-          23.25
+          23.26
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          18.34
+          18.29
         ],
         [
           "Bern",
-          18.22
+          18.21
         ],
         [
           "Genf",
-          22.01
+          21.75
         ],
         [
           "Lausanne",
-          20.86
+          20.77
         ],
         [
           "Zürich",
-          19.77
+          19.83
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          22.84
+          22.74
         ],
         [
           "Bern",
-          22.26
+          22.39
         ],
         [
           "Genf",
-          31.28
+          31.29
         ],
         [
           "Lausanne",
-          27.26
+          27.24
         ],
         [
           "Zürich",
-          24.9
+          24.87
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          27.94
+          27.63
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          31.79
+          31.76
         ],
         [
           "Lausanne",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

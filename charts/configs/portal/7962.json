@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          3.48
+          3.5
         ],
         [
           "Bern",
-          2.57
+          2.64
         ],
         [
           "Genf",
-          5.22
+          5.41
         ],
         [
           "Lausanne",
-          4.28
+          4.41
         ],
         [
           "Zürich",
-          2.74
+          2.8
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          3.08
+          3.07
         ],
         [
           "Bern",
-          2.21
+          2.58
         ],
         [
           "Genf",
-          4.37
+          4.51
         ],
         [
           "Lausanne",
-          4.8
+          4.92
         ],
         [
           "Zürich",
-          2.64
+          2.67
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          2.97
+          3.01
         ],
         [
           "Bern",
-          2.75
+          2.66
         ],
         [
           "Genf",
-          4.78
+          4.95
         ],
         [
           "Lausanne",
-          3.98
+          4.13
         ],
         [
           "Zürich",
-          2.79
+          2.86
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          4.9
+          4.93
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          6.18
+          6.27
         ],
         [
           "Lausanne",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
