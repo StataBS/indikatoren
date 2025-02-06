@@ -342,6 +342,10 @@
         [
           2023,
           64
+        ],
+        [
+          2024649291,
+          undefined
         ]
       ],
       "name": "Geöffnete Betriebe"
@@ -689,6 +693,10 @@
         [
           2023,
           9397
+        ],
+        [
+          2024649291,
+          undefined
         ]
       ],
       "name": "Verfügbare Betten (rechte Skala)"

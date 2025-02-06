@@ -1,14 +1,14 @@
-﻿"Monat"	"Meldepflichtig 2023"	"Nicht meldepflichtig 2023"	"Meldepflichtig 2024"	"Nicht meldepflichtig 2024"
-"Jan"	1312	644	739	630
-"Feb"	1294	737	611	736
-"Mrz"	1225	615	606	799
-"Apr"	931	489	607	800
-"Mai"	987	586	609	824
-"Jun"	1191	566	607	805
-"Jul"	1113	517	465	688
-"Aug"	1020	568	589	629
-"Sep"	1033	552	588	657
-"Okt"	801	441	559	707
-"Nov"	743	494	547	540
-"Dez"	822	461	412	472
+﻿"Monat"	"Meldepflichtig 2024"	"Nicht meldepflichtig 2024"	"Meldepflichtig 2025"	"Nicht meldepflichtig 2025"
+"Jan"	739	630	1007	579
+"Feb"	611	736		
+"Mrz"	606	799		
+"Apr"	607	800		
+"Mai"	609	824		
+"Jun"	607	805		
+"Jul"	465	688		
+"Aug"	589	629		
+"Sep"	588	657		
+"Okt"	559	707		
+"Nov"	547	540		
+"Dez"	412	472		
 
