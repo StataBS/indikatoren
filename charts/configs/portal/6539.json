@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          615
+          732
         ],
         [
           "3-Sterne",
-          1353
+          1389
         ],
         [
           "4- und 5-Sterne",
-          1805
+          1834
         ],
         [
           "Nicht klassiert",
-          133
+          127
         ]
       ],
-      "name": "Verfügbare Zimmer 2014",
+      "name": "Verfügbare Zimmer 2015",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          552
+          1520
         ],
         [
           "3-Sterne",
-          1546
+          1995
         ],
         [
           "4- und 5-Sterne",
-          2104
+          616
         ],
         [
           "Nicht klassiert",
-          563
+          undefined
         ]
       ],
-      "name": "Verfügbare Zimmer 2023",
+      "name": "Verfügbare Zimmer 2024  559",
       "turboThreshold": 0
     },
     {
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.523349633
+          0.507874729
         ],
         [
           "3-Sterne",
-          0.668715949
+          0.655398181
         ],
         [
           "4- und 5-Sterne",
-          0.64648954
+          0.659221735
         ],
         [
           "Nicht klassiert",
-          0.394368612
+          0.354407391
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2014",
+      "name": "Nettozimmerauslastung (rechte Skala) 2015",
       "turboThreshold": 0
     },
     {
@@ -88,22 +88,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.52590378
+          0.559284293
         ],
         [
           "3-Sterne",
-          0.605269399
+          0.619884966
         ],
         [
           "4- und 5-Sterne",
-          0.569712856
+          0.638542341
         ],
         [
           "Nicht klassiert",
-          0.462369587
+          0.465595119
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2023",
+      "name": "Nettozimmerauslastung (rechte Skala) 2024",
       "turboThreshold": 0
     }
   ],
