@@ -44,6 +44,11 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
+            itemWidth: 100,
+            "itemStyle": {
+                textOverflow: "none",
+                whiteSpace: "nowrap",
+              }
         }
     };
 }());

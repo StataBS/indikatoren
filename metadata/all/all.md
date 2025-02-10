@@ -2123,7 +2123,7 @@ id | visible | visibleInPortal | indikatorenset
 9432 | true | false | Legislaturplan (Print)
 9433 | true | false | Legislaturplan (Print)
 9434 | true | false | Legislaturplan (Print)
-9435 | true | false | Legislaturplan (Print)
+9435 | false |  | Legislaturplan (Print)
 9436 | true | false | Legislaturplan (Print)
 9437 | true | false | Legislaturplan (Print)
 9438 | true | false | Legislaturplan (Print)
@@ -2139,7 +2139,7 @@ id | visible | visibleInPortal | indikatorenset
 9449 | true | false | Legislaturplan (Print)
 9450 | true | false | Legislaturplan (Print)
 9451 | true | false | Legislaturplan (Print)
-9452 | true | false | Legislaturplan (Print)
+9452 | false |  | Legislaturplan (Print)
 9453 | true | false | Legislaturplan (Print)
 9454 | true | false | Legislaturplan (Print)
 9455 | true | false | Legislaturplan (Print)
@@ -2207,7 +2207,7 @@ id | visible | visibleInPortal | indikatorenset
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
 9624 | true | true | Energiestatistik
-9625 | true | false | 
+9625 | false |  | 
 9636 | true | false | Energiestatistik (Print)
 9641 | true | false | Energiestatistik (Print)
 9643 | true | false | Energiestatistik (Print)

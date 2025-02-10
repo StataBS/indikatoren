@@ -1311,43 +1311,6 @@ var indikatorensetData = [
 		"id": 9434
 	},
 	{
-		"template": "befragungen001_print",
-		"data-id": 9435,
-		"chart-id": 9435,
-		"filter": "",
-		"parentId": "9378",
-		"children": [],
-		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.09435",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"kuerzelKunde": "2.10",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:11",
-		"id": 9435
-	},
-	{
 		"template": "template001_print",
 		"data-id": 9436,
 		"chart-id": 9436,
@@ -1916,43 +1879,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-12-31T10:45:01",
 		"id": 9451
-	},
-	{
-		"template": "befragungen001_print",
-		"data-id": 9452,
-		"chart-id": 9452,
-		"filter": "",
-		"parentId": "9395",
-		"children": [],
-		"title": "Nutzung kantonaler Online-Dienstleistungen",
-		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
-		"lesehilfe": "54% der im Jahr 2019 Befragten haben kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen bei 29%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt (weitere Informationen: <a href=\"https://www.statistik.bs.ch/befragungen\" target=\"_blank\">www.statistik.bs.ch/befragungen</a>).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Nutzung kantonaler Online-Dienstleistungen",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.09452",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"kuerzelKunde": "6.4",
-		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "07_00_00_00_00_004",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-02T08:14:33",
-		"id": 9452
 	},
 	{
 		"template": "template001_print",
