@@ -11199,7 +11199,7 @@ var indikatoren = [
 			8547
 		],
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Den höchsten Jugendquotienten weist die Gemeinde Riehen auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -11215,7 +11215,7 @@ var indikatoren = [
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4829",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-8.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
@@ -11228,7 +11228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T01:45:11",
+		"aktualisierungsdatum": "2025-02-13T08:37:19",
 		"id": 4829
 	},
 	{
@@ -13306,8 +13306,8 @@ var indikatoren = [
 			8882
 		],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es relativ viele ältere Schweizerinnen gibt.",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2024",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass es viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) sowie viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13320,7 +13320,7 @@ var indikatoren = [
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.05142",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE1",
 		"stufe1": "Bereich Bevölkerung",
@@ -13333,7 +13333,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:05",
+		"aktualisierungsdatum": "2025-02-13T08:37:17",
 		"id": 5142
 	},
 	{
@@ -21548,8 +21548,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Das Wohnviertel Bruderholz weist mit 22,3% den höchsten Anteil Kinder und Jugendlicher unter 20 Jahren auf, das Wohnviertel St. Alban den höchsten Anteil 80- bis 99-Jähriger (10,2%).",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Kinder und Jugendlichen unter 20 Jahren am höchsten (23%). Die höchsten Anteile 80- bis 99-Jährige gibt es im Wohnviertel St. Alban und in der Gemeinde Riehen (je 10%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -21576,7 +21576,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:02",
+		"aktualisierungsdatum": "2025-02-13T08:37:08",
 		"id": 6502
 	},
 	{
@@ -27551,7 +27551,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Dezember 2024 0,4%. Für das gesamte Jahr 2024 resultiert eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Januar 2025 0,5%; dies nach 0,4% im Dezember 2024. Für das gesamte Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -27579,7 +27579,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-07T08:54:44",
+		"aktualisierungsdatum": "2025-02-13T08:37:09",
 		"id": 7512
 	},
 	{
@@ -27591,7 +27591,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Dezember 2024 gegenüber dem Vormonat um 0,1% auf 106,1 Punkte gesunken. Rundungsbedingt beträgt die Monatsteuerung des Basler Index trotzdem 0,0%.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Januar 2025 gegenüber Dezember 2024 um 0,1% auf 106,3 Punkte gestiegen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -27618,7 +27618,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-07T08:54:45",
+		"aktualisierungsdatum": "2025-02-13T08:37:11",
 		"id": 7513
 	},
 	{
@@ -36971,7 +36971,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-07T10:40:56",
+		"aktualisierungsdatum": "2025-02-13T08:37:12",
 		"id": 8995
 	},
 	{
@@ -37142,7 +37142,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-07T10:40:57",
+		"aktualisierungsdatum": "2025-02-13T08:37:14",
 		"id": 9022
 	},
 	{
@@ -37180,7 +37180,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-07T10:40:58",
+		"aktualisierungsdatum": "2025-02-13T08:37:16",
 		"id": 9023
 	},
 	{
