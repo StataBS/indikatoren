@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Kleinbasel",
-          0.1322170901
+          0.128413713
         ],
         [
           "Altstadt Grossbasel",
-          0.141509434
-        ],
-        [
-          "Vorstädte",
-          0.1775184275
+          0.151354222
         ],
         [
           "Clara",
-          0.1802502536
+          0.1823687752
+        ],
+        [
+          "Vorstädte",
+          0.186229906
         ],
         [
           "Gundeldingen",
-          0.2026996284
+          0.2026411997
         ],
         [
           "Matthäus",
-          0.205994247
+          0.2063063901
         ],
         [
           "Wettstein",
-          0.2223379328
+          0.2260327358
         ],
         [
           "Am Ring",
-          0.2271991365
+          0.2323717949
         ],
         [
           "Breite",
-          0.2316666667
-        ],
-        [
-          "Klybeck",
-          0.2636054422
+          0.2326888118
         ],
         [
           "St. Johann",
-          0.2636224098
+          0.2618719363
+        ],
+        [
+          "Klybeck",
+          0.268220962
         ],
         [
           "Iselin",
-          0.2644165536
+          0.2719865603
         ],
         [
           "Gotthelf",
-          0.2770301624
+          0.273336414
         ],
         [
           "Rosental",
-          0.280945507
+          0.2804878049
         ],
         [
           "Kleinhüningen",
-          0.2966343411
+          0.3123515439
         ],
         [
           "Bachletten",
-          0.3193659376
+          0.3219313411
         ],
         [
           "St. Alban",
-          0.3264633141
+          0.3219763812
         ],
         [
           "Hirzbrunnen",
-          0.3715393134
+          0.3718253243
         ],
         [
           "Bettingen",
-          0.3877266388
+          0.3926031294
         ],
         [
           "Bruderholz",
-          0.4047080979
+          0.4116757982
         ],
         [
           "Riehen",
-          0.408506016
+          0.4132397192
         ]
       ],
       "name": "Jugendquotient",
@@ -103,11 +103,11 @@
           2
         ],
         [
-          "Vorstädte",
+          "Clara",
           3
         ],
         [
-          "Clara",
+          "Vorstädte",
           4
         ],
         [
@@ -131,11 +131,11 @@
           9
         ],
         [
-          "Klybeck",
+          "St. Johann",
           10
         ],
         [
-          "St. Johann",
+          "Klybeck",
           11
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2025"
   },
   "legend": {
     "enabled": false,
