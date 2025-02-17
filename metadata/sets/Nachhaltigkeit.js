@@ -2213,7 +2213,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2023 bei 38,4%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2024 bei 38,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2238,7 +2238,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:07",
+		"aktualisierungsdatum": "2025-02-17T11:24:54",
 		"id": 8377
 	},
 	{
@@ -3120,10 +3120,12 @@ var indikatorensetData = [
 		"chart-id": 9784,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12555
+		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 206 308 Personen.",
+		"lesehilfe": "Ende 2024 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 207 515 Personen.",
 		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3148,7 +3150,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:13",
+		"aktualisierungsdatum": "2025-02-17T11:24:56",
 		"id": 9784
 	},
 	{

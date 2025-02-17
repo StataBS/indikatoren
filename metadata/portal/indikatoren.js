@@ -16455,12 +16455,11 @@ var indikatoren = [
 		"children": [
 			6656,
 			8255,
-			8526,
-			8952
+			8526
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2023: 42 896) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 30 302 Personen besitzen 2023 eine Aufenthaltsbewilligung.",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2024: 42 932) im Kanton Basel-Stadt besitzt eine zeitlich unbeschränkte und an keine Bedingungen geknüpfte Niederlassungsbewilligung. 31 494 Personen haben 2024 eine Aufenthaltsbewilligung.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16486,7 +16485,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:52",
+		"aktualisierungsdatum": "2025-02-17T11:24:46",
 		"id": 6071
 	},
 	{
@@ -16499,8 +16498,8 @@ var indikatoren = [
 			6657
 		],
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus der Türkei und dem Balkan (je 78,7%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,3%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (12,4%).",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil an Niederlassungsbewilligungen ist bei Personen aus dem Balkan (78,3%) und der Türkei (77,5%) am höchsten, bei jenen aus EU-Oststaaten unterdurchschnittlich (30,9%). Die arabischen Länder haben den höchsten Anteil an vorläufig Aufgenommenen (10,7%).",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16526,7 +16525,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:30",
+		"aktualisierungsdatum": "2025-02-17T11:24:48",
 		"id": 6072
 	},
 	{
@@ -16540,7 +16539,7 @@ var indikatoren = [
 		],
 		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2023 die Türkinnen und Türken sowie Personen vom Balkan (je 78,8%). Danach folgen die Italienerinnen und Italiener (69,8%). Im Vergleich zum Jahr 2004 haben die Anteile bei den Personen aus der Türkei und den Balkanländern zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese zurückgegangen.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2024 Personen aus dem Balkan (78,4%) sowie Türkinnen und Türken (77,5%). Danach folgen Italienerinnen und Italiener (68,2%). Im Vergleich zum Jahr 2005 haben die Anteile bei Personen aus der Türkei und den Balkanländern zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese zurückgegangen.",
 		"erlaeuterungen": "Bewilligungsart C: Niederlassungsbewilligung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16566,7 +16565,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:53",
+		"aktualisierungsdatum": "2025-02-17T11:24:49",
 		"id": 6073
 	},
 	{
@@ -16847,7 +16846,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-15T08:30:59",
+		"aktualisierungsdatum": "2025-02-17T11:24:52",
 		"id": 6080
 	},
 	{
@@ -16861,7 +16860,7 @@ var indikatoren = [
 		],
 		"title": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Schweizer Schülerinnen und Schüler weisen auch nach sechs Jahren mit rückläufigen Werten eine höhere Quote auf; ihr Vorsprung hat sich allerdings vor allem in den beiden letzten Jahren verringert. Ungeachtet der Staatsangehörigkeit ist die Quote der Schülerinnen höher als jene der Schüler.",
+		"lesehilfe": "Schweizer Schülerinnen und Schüler weisen höhere Quoten auf. Dieser Vorsprung hat sich im Beobachtungszeitraum verringert. Ungeachtet der Staatsangehörigkeit ist die Quote der Schülerinnen höher als jene der Schüler.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2023 in der Grafik entspricht Schuljahr 2023/24.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -16887,7 +16886,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-15T08:31:00",
+		"aktualisierungsdatum": "2025-02-17T11:24:53",
 		"id": 6081
 	},
 	{
@@ -23031,8 +23030,8 @@ var indikatoren = [
 			6750
 		],
 		"title": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (91,0%), bei den 25- bis 39-Jährigen am tiefsten (32,5%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der Niederlassungsbewilligungen ist bei den über 64-Jährigen am höchsten (90,0%), bei den 25- bis 39-Jährigen am tiefsten (31,9%).",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige: einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -23058,7 +23057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:53",
+		"aktualisierungsdatum": "2025-02-17T11:24:50",
 		"id": 6570
 	},
 	{
@@ -23154,7 +23153,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Stadt Basel",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2023 bei 182 434.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2023 bei 183 564.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -23167,7 +23166,7 @@ var indikatoren = [
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06623",
+		"kuerzel": "",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -23180,7 +23179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:03",
+		"aktualisierungsdatum": "2025-02-17T11:24:41",
 		"id": 6623
 	},
 	{
@@ -31614,7 +31613,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 206 308 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
+		"lesehilfe": "Ende 2024 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 207 515 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
 		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -31640,7 +31639,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:05",
+		"aktualisierungsdatum": "2025-02-17T11:24:57",
 		"id": 7773
 	},
 	{
@@ -35453,7 +35452,7 @@ var indikatoren = [
 		],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2023 bei 38,4%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2024 bei 38,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35479,7 +35478,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:07",
+		"aktualisierungsdatum": "2025-02-17T11:24:54",
 		"id": 8377
 	},
 	{
@@ -36971,7 +36970,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:12",
+		"aktualisierungsdatum": "2025-02-17T11:24:42",
 		"id": 8995
 	},
 	{
@@ -37142,7 +37141,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:14",
+		"aktualisierungsdatum": "2025-02-17T11:24:44",
 		"id": 9022
 	},
 	{
@@ -37180,7 +37179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:16",
+		"aktualisierungsdatum": "2025-02-17T11:24:45",
 		"id": 9023
 	},
 	{
@@ -41465,10 +41464,12 @@ var indikatoren = [
 		"chart-id": 9784,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12555
+		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 206 308 Personen.",
+		"lesehilfe": "Ende 2024 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 207 515 Personen.",
 		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -41494,7 +41495,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:13",
+		"aktualisierungsdatum": "2025-02-17T11:24:56",
 		"id": 9784
 	},
 	{
