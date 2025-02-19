@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Dezember",
-		"lesehilfe": "Im Dezember 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fünf Wohnvierteln und in der Gemeinde Bettingen. In zwölf Wohnvierteln und in der Gemeinde Riehen ging sie zurück. In den Wohnvierteln Altstadt Grossbasel und Gotthelf blieb die Einwohnerzahl stabil.",
+		"subtitle": "Basel-Stadt, Januar",
+		"lesehilfe": "Im Januar 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in 14 Wohnvierteln. In vier Wohnvierteln und in den Gemeinden Riehen und Bettingen ging sie zurück. Im Wohnviertel Vorstädte blieb der Bevölkerungsbestand unverändert.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:46",
+		"aktualisierungsdatum": "2025-02-19T05:26:53",
 		"id": 7763
 	},
 	{
