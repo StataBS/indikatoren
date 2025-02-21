@@ -4839,7 +4839,7 @@
         ],
         [
           4,
-          null
+          -1
         ],
         [
           5,
@@ -5059,7 +5059,7 @@
         ],
         [
           4,
-          null
+          0
         ],
         [
           5,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.2.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
