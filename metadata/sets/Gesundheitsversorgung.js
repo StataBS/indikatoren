@@ -14,7 +14,7 @@ var indikatorensetData = [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+			"<a href = 'https://www.bs.ch/gd/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters-und-langzeitpflege#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:07",
+		"aktualisierungsdatum": "2025-02-26T08:32:13",
 		"id": 11165
 	},
 	{

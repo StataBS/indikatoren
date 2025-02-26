@@ -56,7 +56,8 @@
       },
 	tooltip: {
            //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
+           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+           footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>'   
             }
 	};
 }());

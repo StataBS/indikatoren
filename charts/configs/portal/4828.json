@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.1913532873
+          0.1921492921
         ],
         [
           "Altstadt Kleinbasel",
-          0.2748371336
-        ],
-        [
-          "Vorstädte",
-          0.2818642351
+          0.2732868281
         ],
         [
           "Clara",
-          0.2874060578
+          0.2832199546
         ],
         [
           "Am Ring",
-          0.2899709941
+          0.2847682119
+        ],
+        [
+          "Vorstädte",
+          0.293987976
         ],
         [
           "St. Alban",
-          0.2967824556
+          0.2942251172
         ],
         [
           "St. Johann",
-          0.301350172
-        ],
-        [
-          "Altstadt Grossbasel",
-          0.305740988
-        ],
-        [
-          "Gundeldingen",
-          0.3084803042
-        ],
-        [
-          "Matthäus",
-          0.3090106124
+          0.2989469379
         ],
         [
           "Klybeck",
-          0.3144123534
+          0.3048986486
+        ],
+        [
+          "Gundeldingen",
+          0.3060757387
+        ],
+        [
+          "Matthäus",
+          0.3076872363
         ],
         [
           "Iselin",
-          0.3149606299
+          0.3095211705
+        ],
+        [
+          "Altstadt Grossbasel",
+          0.3108530594
         ],
         [
           "Breite",
-          0.3255813953
-        ],
-        [
-          "Wettstein",
-          0.3447441217
-        ],
-        [
-          "Gotthelf",
-          0.3511828871
+          0.3184645078
         ],
         [
           "Kleinhüningen",
-          0.3536067893
+          0.3484684685
+        ],
+        [
+          "Wettstein",
+          0.3516389223
+        ],
+        [
+          "Gotthelf",
+          0.3569004525
         ],
         [
           "Hirzbrunnen",
-          0.3847037927
-        ],
-        [
-          "Bachletten",
-          0.404491932
+          0.384456173
         ],
         [
           "Riehen",
-          0.4060337178
+          0.4032514579
+        ],
+        [
+          "Bachletten",
+          0.4085560721
         ],
         [
           "Bettingen",
-          0.4171732523
+          0.4230769231
         ],
         [
           "Bruderholz",
-          0.4270865814
+          0.4260145682
         ]
       ],
       "name": "Sesshaftigkeit",
@@ -103,15 +103,15 @@
           2
         ],
         [
-          "Vorstädte",
+          "Clara",
           3
         ],
         [
-          "Clara",
+          "Am Ring",
           4
         ],
         [
-          "Am Ring",
+          "Vorstädte",
           5
         ],
         [
@@ -123,7 +123,7 @@
           7
         ],
         [
-          "Altstadt Grossbasel",
+          "Klybeck",
           8
         ],
         [
@@ -135,11 +135,11 @@
           10
         ],
         [
-          "Klybeck",
+          "Iselin",
           11
         ],
         [
-          "Iselin",
+          "Altstadt Grossbasel",
           12
         ],
         [
@@ -147,15 +147,15 @@
           13
         ],
         [
-          "Wettstein",
+          "Kleinhüningen",
           14
         ],
         [
-          "Gotthelf",
+          "Wettstein",
           15
         ],
         [
-          "Kleinhüningen",
+          "Gotthelf",
           16
         ],
         [
@@ -163,11 +163,11 @@
           17
         ],
         [
-          "Bachletten",
+          "Riehen",
           18
         ],
         [
-          "Riehen",
+          "Bachletten",
           19
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
   },
   "legend": {
     "enabled": false,

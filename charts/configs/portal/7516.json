@@ -6,118 +6,6 @@
       "data": [
         [
           "Jan",
-          30060
-        ],
-        [
-          "Feb",
-          35509
-        ],
-        [
-          "Mrz",
-          37658
-        ],
-        [
-          "Apr",
-          45651
-        ],
-        [
-          "Mai",
-          54134
-        ],
-        [
-          "Jun",
-          46711
-        ],
-        [
-          "Jul",
-          52091
-        ],
-        [
-          "Aug",
-          44284
-        ],
-        [
-          "Sep",
-          45699
-        ],
-        [
-          "Okt",
-          47479
-        ],
-        [
-          "Nov",
-          54559
-        ],
-        [
-          "Dez",
-          47312
-        ]
-      ],
-      "name": "Inland 2023",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
-      "data": [
-        [
-          "Jan",
-          46209
-        ],
-        [
-          "Feb",
-          50397
-        ],
-        [
-          "Mrz",
-          69584
-        ],
-        [
-          "Apr",
-          74010
-        ],
-        [
-          "Mai",
-          77585
-        ],
-        [
-          "Jun",
-          95905
-        ],
-        [
-          "Jul",
-          91748
-        ],
-        [
-          "Aug",
-          88865
-        ],
-        [
-          "Sep",
-          87311
-        ],
-        [
-          "Okt",
-          81345
-        ],
-        [
-          "Nov",
-          75420
-        ],
-        [
-          "Dez",
-          95449
-        ]
-      ],
-      "name": "Ausland 2023",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
           36061
         ],
         [
@@ -169,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Jan",
@@ -222,6 +110,118 @@
         ]
       ],
       "name": "Ausland 2024",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          34823
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Inland 2025",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          54340
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Ausland 2025",
       "turboThreshold": 0
     }
   ],
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -391,7 +391,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "7516"

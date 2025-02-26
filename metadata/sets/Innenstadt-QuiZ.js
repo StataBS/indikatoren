@@ -162,7 +162,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Meldungen bei der Polizei",
 		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
-		"lesehilfe": "Im Jahr 2023 wurden bei der Polizeieinsatzzentrale 1 196 Meldungen erfasst, welche die Innenstadt betreffen.",
+		"lesehilfe": "Im Jahr 2024 wurden bei der Polizeieinsatzzentrale 1 146 Meldungen erfasst, welche die Innenstadt betreffen.",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -189,7 +189,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:18",
+		"aktualisierungsdatum": "2025-02-26T08:32:14",
 		"id": 9579
 	},
 	{
