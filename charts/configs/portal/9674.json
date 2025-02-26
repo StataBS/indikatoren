@@ -6,23 +6,23 @@
       "data": [
         [
           2010,
-          5.09
+          5.1
         ],
         [
           2011,
-          4.85
+          4.8
         ],
         [
           2012,
-          4.61
+          4.6
         ],
         [
           2013,
-          4.39
+          4.4
         ],
         [
           2014,
-          4.17
+          4.2
         ],
         [
           2015,
@@ -30,7 +30,7 @@
         ],
         [
           2016,
-          4.02
+          4
         ],
         [
           2017,
@@ -38,15 +38,15 @@
         ],
         [
           2018,
-          3.77
+          3.8
         ],
         [
           2019,
-          3.55
+          3.5
         ],
         [
           2020,
-          3.31
+          3.3
         ],
         [
           2021,
@@ -54,7 +54,7 @@
         ],
         [
           2022,
-          null
+          3.1
         ],
         [
           2023,
@@ -166,31 +166,31 @@
         ],
         [
           2020,
-          3.31
+          3.3
         ],
         [
           2021,
-          3.16
+          3.2
         ],
         [
           2022,
-          3.02
+          3
         ],
         [
           2023,
-          2.88
+          2.9
         ],
         [
           2024,
-          2.73
+          2.7
         ],
         [
           2025,
-          2.59
+          2.6
         ],
         [
           2026,
-          2.44
+          2.4
         ],
         [
           2027,
@@ -218,15 +218,15 @@
         ],
         [
           2033,
-          1.225
+          1.2
         ],
         [
           2034,
-          1.15
+          1.2
         ],
         [
           2035,
-          1.075
+          1.1
         ],
         [
           2036,
@@ -293,7 +293,7 @@
         ],
         [
           2022,
-          null
+          2
         ],
         [
           2023,
@@ -523,7 +523,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKlimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -560,7 +560,7 @@
 			}
   },
   "tooltip": {
-    "valueDecimals": 2,
+    "valueDecimals": 1,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {

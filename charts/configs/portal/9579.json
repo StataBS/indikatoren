@@ -46,6 +46,10 @@
         [
           2023,
           1196
+        ],
+        [
+          2024,
+          1146
         ]
       ],
       "name": "Innenstadt"
@@ -96,6 +100,10 @@
         [
           2023,
           4177
+        ],
+        [
+          2024,
+          3890
         ]
       ],
       "name": "Stadt Basel"
@@ -147,6 +155,10 @@
         [
           2023,
           4337
+        ],
+        [
+          2024,
+          4020
         ]
       ],
       "name": "Kanton BS"
@@ -277,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

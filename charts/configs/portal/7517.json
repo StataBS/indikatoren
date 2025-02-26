@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          536
+          537
         ],
         [
           "3-Sterne",
-          1426
+          1467
         ],
         [
           "4- und 5-Sterne",
-          2068
+          1990
         ],
         [
           "Nicht klassiert",
-          551
+          552
         ]
       ],
-      "name": "Verfügbare Zimmer 2023",
+      "name": "Verfügbare Zimmer 2024",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          547
+          560
         ],
         [
           "3-Sterne",
-          1414
+          1468
         ],
         [
           "4- und 5-Sterne",
-          1997
+          2009
         ],
         [
           "Nicht klassiert",
-          601
+          622
         ]
       ],
-      "name": "Verfügbare Zimmer 2024",
+      "name": "Verfügbare Zimmer 2025",
       "turboThreshold": 0
     },
     {
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.533630129
+          0.388208453
         ],
         [
           "3-Sterne",
-          0.558213211
+          0.446682204
         ],
         [
           "4- und 5-Sterne",
-          0.544380822
+          0.460941173
         ],
         [
           "Nicht klassiert",
-          0.451205242
+          0.310094748
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2023",
+      "name": "Nettozimmerauslastung (rechte Skala) 2024",
       "turboThreshold": 0
     },
     {
@@ -88,22 +88,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.537681928
+          0.335599078
         ],
         [
           "3-Sterne",
-          0.665837574
+          0.405663071
         ],
         [
           "4- und 5-Sterne",
-          0.765037564
+          0.462590933
         ],
         [
           "Nicht klassiert",
-          0.629100671
+          0.345296131
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2024",
+      "name": "Nettozimmerauslastung (rechte Skala) 2025",
       "turboThreshold": 0
     }
   ],
@@ -195,7 +195,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Dezember",
+    "text": "Basel-Stadt, Januar",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

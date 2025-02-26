@@ -1074,7 +1074,7 @@ var indikatorensetData = [
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer stagniert; auf tieferem Niveau auch jene der Deutschen. Bei Lernenden mit ausländischer Staatsangehörigkeit gibt es jedoch grosse Unterschiede: Bei Jugendlichen aus der Türkei steigt die Quote seit 2020 von Jahr zu Jahr, bei jenen aus afrikanischen Ländern 2023 gar sprunghaft.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer ist leicht rückläufig; auf tieferem Niveau auch jene der Deutschen. Zwischen den Lernenden mit ausländischer Staatsangehörigkeit gibt es grosse Unterschiede: Bei Jugendlichen aus der Türkei beispielsweise ist die Quote in den letzten Jahren leicht gestiegen, bei jenen aus afrikanischen Ländern stark.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1100,7 +1100,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:30",
+		"aktualisierungsdatum": "2025-02-26T08:32:16",
 		"id": 6084
 	},
 	{
@@ -1114,7 +1114,7 @@ var indikatorensetData = [
 		],
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist seit 2014 höher als jene ihrer Schweizer Kolleginnen und Kollegen. Zudem ist die Differenz der Quoten nach Geschlecht bei ausländischen Lernenden geringer als bei Schweizerinnen und Schweizern.",
+		"lesehilfe": "Die Lernendenquote von Lernenden mit ausländischem Pass und Wohnort Basel-Stadt, die einen Lehrvertrag mit einem baselstädtischen Betrieb abschliessen, ist im Beobachtungszeitraum höher als jene ihrer Schweizer Kolleginnen und Kollegen. Zudem ist die Differenz der Quoten nach Geschlecht bei ausländischen Lernenden geringer als bei Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1140,7 +1140,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:31",
+		"aktualisierungsdatum": "2025-02-26T08:32:17",
 		"id": 6085
 	},
 	{
