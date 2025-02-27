@@ -87,6 +87,14 @@
         [
           "2023: Erlenmatt",
           1
+        ],
+        [
+          "2024: Messe",
+          62
+        ],
+        [
+          "2024: Erlenmatt",
+          1
         ]
       ],
       "name": "Erdgas",
@@ -178,6 +186,14 @@
         ],
         [
           "2023: Erlenmatt",
+          1
+        ],
+        [
+          "2024: Messe",
+          17
+        ],
+        [
+          "2024: Erlenmatt",
           1
         ]
       ],
@@ -271,6 +287,14 @@
         [
           "2023: Erlenmatt",
           50
+        ],
+        [
+          "2024: Messe",
+          231
+        ],
+        [
+          "2024: Erlenmatt",
+          50
         ]
       ],
       "name": "Fernwärme",
@@ -362,6 +386,14 @@
         ],
         [
           "2023: Erlenmatt",
+          9
+        ],
+        [
+          "2024: Messe",
+          35
+        ],
+        [
+          "2024: Erlenmatt",
           9
         ]
       ],
@@ -504,7 +536,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

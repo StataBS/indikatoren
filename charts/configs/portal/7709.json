@@ -9,6 +9,30 @@
       },
       "data": [
         [
+          2002,
+          2068
+        ],
+        [
+          2003,
+          2271
+        ],
+        [
+          2004,
+          2278
+        ],
+        [
+          2005,
+          2306
+        ],
+        [
+          2006,
+          2306
+        ],
+        [
+          2007,
+          2308
+        ],
+        [
           2008,
           2306
         ],
@@ -70,6 +94,10 @@
         ],
         [
           2023,
+          2315
+        ],
+        [
+          2024,
           2315
         ]
       ],
@@ -85,6 +113,30 @@
       },
       "data": [
         [
+          2002,
+          0.56
+        ],
+        [
+          2003,
+          0.61
+        ],
+        [
+          2004,
+          0.61
+        ],
+        [
+          2005,
+          0.62
+        ],
+        [
+          2006,
+          0.62
+        ],
+        [
+          2007,
+          0.62
+        ],
+        [
           2008,
           0.62
         ],
@@ -147,6 +199,10 @@
         [
           2023,
           0.62
+        ],
+        [
+          2024,
+          0.62
         ]
       ],
       "name": "Anteil Freiraumfläche Messe (rechte Skala)"
@@ -159,6 +215,30 @@
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2002,
+          0
+        ],
+        [
+          2003,
+          0
+        ],
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
         [
           2008,
           0
@@ -222,6 +302,10 @@
         [
           2023,
           29778
+        ],
+        [
+          2024,
+          29778
         ]
       ],
       "name": "Freiraumfläche Erlenmatt"
@@ -235,6 +319,30 @@
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2002,
+          0
+        ],
+        [
+          2003,
+          0
+        ],
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
         [
           2008,
           0
@@ -297,6 +405,10 @@
         ],
         [
           2023,
+          11.34
+        ],
+        [
+          2024,
           11.34
         ]
       ],
@@ -436,7 +548,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.2.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
