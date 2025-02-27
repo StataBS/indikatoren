@@ -26014,8 +26014,8 @@
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Hirzbrunnen",
-		"lesehilfe": "Im Wohnviertel Hirzbrunnen bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher, Italiener und Türken etwas höher, der Anteil Portugiesen und Briten geringer. Der Ausländeranteil im Wohnviertel beträgt 27,8%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2023 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Hirzbrunnen bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher, Italiener und Türken etwas höher, der Anteil Portugiesen und Briten geringer. Der Ausländeranteil im Wohnviertel beträgt 28,2%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2024 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -26040,7 +26040,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-11T09:42:10",
+		"aktualisierungsdatum": "2025-02-27T08:15:45",
 		"id": 6948
 	},
 	{
@@ -29952,7 +29952,7 @@
 		],
 		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel Rosental mit 30,5% zum vierten Mal in Folge höher als jene der Schweizerinnen und Schweizer (27,6%). Für die Stadt Basel beträgt der Wert 2023 36,5%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"lesehilfe": "Nachdem die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass zwischen 2020 und 2023 vier Mal in Folge höher war als jene der Schweizerinnen und Schweizer, hat sich dieses Verhältnis 2024 umgedreht. Für die Stadt Basel beträgt der Wert 2024 36,7%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2023 in der Grafik entspricht Schuljahr 2023/24.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -29978,7 +29978,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-28T08:57:05",
+		"aktualisierungsdatum": "2025-02-27T08:15:38",
 		"id": 7695
 	},
 	{
@@ -29992,7 +29992,7 @@
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnete der sich im baulichen Umbruch befindliche Bezirk Erlenmatt zumindest bis 2021 eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2023 liegen die Quoten für beide Bezirke höher als im Vorjahr.",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnete der sich im baulichen Umbruch befindliche Bezirk Erlenmatt bis 2021 eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2024 liegen die Quoten für beide Bezirke leicht tiefer als im Vorjahr.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -30018,7 +30018,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-28T08:57:04",
+		"aktualisierungsdatum": "2025-02-27T08:15:36",
 		"id": 7696
 	},
 	{
@@ -30155,7 +30155,7 @@
 		],
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2022: 26 300 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>; 2022 sind es 67 100 m<sup>2</sup>.",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2024: 25 200 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>; 2024 sind es 67 100 m<sup>2</sup>.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -30183,7 +30183,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-13T09:54:55",
+		"aktualisierungsdatum": "2025-02-27T08:15:40",
 		"id": 7700
 	},
 	{
@@ -30223,7 +30223,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:47",
+		"aktualisierungsdatum": "2025-02-27T08:15:43",
 		"id": 7704
 	},
 	{
@@ -30408,8 +30408,8 @@
 		],
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2023 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 3,1%).",
-		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2024 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 3,1%).",
+		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -30434,7 +30434,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-13T09:54:57",
+		"aktualisierungsdatum": "2025-02-27T08:15:42",
 		"id": 7709
 	},
 	{

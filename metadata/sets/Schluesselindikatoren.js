@@ -384,7 +384,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2023 betrug die Nettowohnungsproduktion 3 683 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2024 betrug die Nettowohnungsproduktion 4 194 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -409,7 +409,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T08:13:45",
+		"aktualisierungsdatum": "2025-02-27T08:15:34",
 		"id": 9684
 	},
 	{
