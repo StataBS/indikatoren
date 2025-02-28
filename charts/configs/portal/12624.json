@@ -47,6 +47,10 @@
         [
           "2023",
           1153
+        ],
+        [
+          "2024",
+          1182
         ]
       ],
       "name": "1 Zimmer",
@@ -55,58 +59,6 @@
     {
       "color": "#923F8D",
       "index": 4,
-      "data": [
-        [
-          "2013",
-          1083
-        ],
-        [
-          "2014",
-          1098
-        ],
-        [
-          "2015",
-          1112
-        ],
-        [
-          "2016",
-          1113
-        ],
-        [
-          "2017",
-          1121
-        ],
-        [
-          "2018",
-          1142
-        ],
-        [
-          "2019",
-          1103
-        ],
-        [
-          "2020",
-          1089
-        ],
-        [
-          "2021",
-          1137
-        ],
-        [
-          "2022",
-          1146
-        ],
-        [
-          "2023",
-          1153
-        ]
-      ],
-      "name": "2 Zimmer",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68AB2B",
-      "index": 3,
       "data": [
         [
           "2013",
@@ -151,14 +103,18 @@
         [
           "2023",
           3130
+        ],
+        [
+          "2024",
+          3138
         ]
       ],
-      "name": "3 Zimmer",
+      "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
-      "index": 2,
+      "color": "#68AB2B",
+      "index": 3,
       "data": [
         [
           "2013",
@@ -203,14 +159,18 @@
         [
           "2023",
           4049
+        ],
+        [
+          "2024",
+          4053
         ]
       ],
-      "name": "4 Zimmer",
+      "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
-      "index": 1,
+      "color": "#689199",
+      "index": 2,
       "data": [
         [
           "2013",
@@ -255,14 +215,18 @@
         [
           "2023",
           1593
+        ],
+        [
+          "2024",
+          1605
         ]
       ],
-      "name": "5 Zimmer",
+      "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
-      "index": 0,
+      "color": "#CD9C00",
+      "index": 1,
       "data": [
         [
           "2013",
@@ -307,6 +271,66 @@
         [
           "2023",
           364
+        ],
+        [
+          "2024",
+          367
+        ]
+      ],
+      "name": "5 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 0,
+      "data": [
+        [
+          "2013",
+          335
+        ],
+        [
+          "2014",
+          336
+        ],
+        [
+          "2015",
+          341
+        ],
+        [
+          "2016",
+          341
+        ],
+        [
+          "2017",
+          340
+        ],
+        [
+          "2018",
+          342
+        ],
+        [
+          "2019",
+          349
+        ],
+        [
+          "2020",
+          349
+        ],
+        [
+          "2021",
+          353
+        ],
+        [
+          "2022",
+          356
+        ],
+        [
+          "2023",
+          361
+        ],
+        [
+          "2024",
+          360
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -444,7 +468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.2.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
