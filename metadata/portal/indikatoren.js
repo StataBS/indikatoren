@@ -2259,7 +2259,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Im Jahr 2023 gab es im Wohnviertel St. Johann 11 442 Wohnungen. 4 049 (35,4%) davon waren Vierzimmerwohnungen.",
+		"lesehilfe": "Im Jahr 2024 gab es im Wohnviertel St. Johann 10 705 Wohnungen. 4 053 (37,9%) davon waren Dreizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2285,7 +2285,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:17",
+		"aktualisierungsdatum": "2025-02-28T09:30:04",
 		"id": 12624
 	},
 	{
@@ -36970,7 +36970,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-21T02:37:58",
+		"aktualisierungsdatum": "2025-02-28T09:30:00",
 		"id": 8995
 	},
 	{
@@ -37141,7 +37141,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-21T02:38:00",
+		"aktualisierungsdatum": "2025-02-28T09:30:02",
 		"id": 9022
 	},
 	{
@@ -37179,7 +37179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-21T02:38:01",
+		"aktualisierungsdatum": "2025-02-28T09:30:03",
 		"id": 9023
 	},
 	{
