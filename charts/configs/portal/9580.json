@@ -48,6 +48,10 @@
         [
           "2023",
           4
+        ],
+        [
+          "2024",
+          1
         ]
       ],
       "name": "Abfallentsorgung",
@@ -101,6 +105,10 @@
         [
           "2023",
           129
+        ],
+        [
+          "2024",
+          176
         ]
       ],
       "name": "Alkohol\u002FDrogen",
@@ -154,6 +162,10 @@
         [
           "2023",
           116
+        ],
+        [
+          "2024",
+          161
         ]
       ],
       "name": "Bettelei\u002FObdachlosigkeit",
@@ -207,6 +219,10 @@
         [
           "2023",
           48
+        ],
+        [
+          "2024",
+          60
         ]
       ],
       "name": "Demonstration",
@@ -260,6 +276,10 @@
         [
           "2023",
           65
+        ],
+        [
+          "2024",
+          52
         ]
       ],
       "name": "Diebstahl",
@@ -313,6 +333,10 @@
         [
           "2023",
           342
+        ],
+        [
+          "2024",
+          280
         ]
       ],
       "name": "Lärm",
@@ -366,6 +390,10 @@
         [
           "2023",
           215
+        ],
+        [
+          "2024",
+          219
         ]
       ],
       "name": "Körperverletzung",
@@ -419,6 +447,10 @@
         [
           "2023",
           9
+        ],
+        [
+          "2024",
+          4
         ]
       ],
       "name": "Prostitution",
@@ -472,6 +504,10 @@
         [
           "2023",
           55
+        ],
+        [
+          "2024",
+          40
         ]
       ],
       "name": "Raub\u002FÜberfall",
@@ -525,6 +561,10 @@
         [
           "2023",
           139
+        ],
+        [
+          "2024",
+          38
         ]
       ],
       "name": "Strassenmusik",
@@ -578,6 +618,10 @@
         [
           "2023",
           74
+        ],
+        [
+          "2024",
+          115
         ]
       ],
       "name": "Sachbeschädigung\u002FVandalismus",
@@ -723,7 +767,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

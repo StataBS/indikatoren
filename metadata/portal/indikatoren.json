@@ -27550,8 +27550,8 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Januar 2025 0,5%; dies nach 0,4% im Dezember 2024. Für das gesamte Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Februar 2025 0,6%; dies nach 0,5% im Januar. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -27578,7 +27578,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:09",
+		"aktualisierungsdatum": "2025-03-05T08:35:49",
 		"id": 7512
 	},
 	{
@@ -27590,7 +27590,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Januar 2025 gegenüber Dezember 2024 um 0,1% auf 106,3 Punkte gestiegen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Februar 2025 gegenüber Januar 2025 um 0,5% auf 106,8 Punkte gestiegen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -27617,7 +27617,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:11",
+		"aktualisierungsdatum": "2025-03-05T08:35:50",
 		"id": 7513
 	},
 	{
@@ -39736,7 +39736,7 @@
 		"children": [],
 		"title": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "In der Innenstadt war im Jahr 2023 mit 342 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (215) sowie wegen Strassenmusik (139).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2024 Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale (280). Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (219) sowie wegen Alkohol und Drogen (176).",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -39762,7 +39762,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:19",
+		"aktualisierungsdatum": "2025-03-05T08:35:51",
 		"id": 9580
 	},
 	{

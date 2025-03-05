@@ -19,11 +19,12 @@
       { "color": "#B00000" },
       { "color": "#B375AB" },
       { "color": "#662673" },
-      { "color": "#2E1435",
-        marker: {
-          "enabled": true,
-          "radius": 3
-        }
+      { "color": "#2E1435"
+      //,
+        //marker: {
+          //"enabled": true,
+          //"radius": 3
+        //}
       }
     ],
     "legend": {

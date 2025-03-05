@@ -201,7 +201,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Meldungen bei der Polizei bezüglich Innenstadt nach Kategorie",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "In der Innenstadt war im Jahr 2023 mit 342 Requisitionen Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale. Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (215) sowie wegen Strassenmusik (139).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2024 Lärm der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale (280). Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (219) sowie wegen Alkohol und Drogen (176).",
 		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -226,7 +226,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:19",
+		"aktualisierungsdatum": "2025-03-05T08:35:51",
 		"id": 9580
 	},
 	{
