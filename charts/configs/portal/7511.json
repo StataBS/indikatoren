@@ -125,7 +125,7 @@
         ],
         [
           "Feb",
-          null
+          1118
         ],
         [
           "Mrz",
@@ -182,7 +182,7 @@
         ],
         [
           "Feb",
-          null
+          739
         ],
         [
           "Mrz",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
