@@ -970,6 +970,10 @@
         [
           "2025-01",
           4508
+        ],
+        [
+          "2025-02",
+          4447
         ]
       ],
       "name": "Arbeitslose",
@@ -1945,6 +1949,10 @@
         [
           "2025-01",
           826
+        ],
+        [
+          "2025-02",
+          768
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2923,6 +2931,10 @@
         [
           "2025-01",
           0.18323
+        ],
+        [
+          "2025-02",
+          0.1727
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -3068,7 +3080,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
