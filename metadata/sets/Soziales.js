@@ -237,7 +237,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2023 bei 4,8%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2023 eine Quote von 5,1% aus, Riehen eine Quote von 2,5% und Bettingen eine Quote von 2,4%.",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2024 bei 4,7%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2024 eine Quote von 5,0% aus, Riehen eine Quote von 2,6% und Bettingen eine Quote von 1,7%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -262,7 +262,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:42",
+		"aktualisierungsdatum": "2025-03-12T10:18:47",
 		"id": 9289
 	},
 	{
