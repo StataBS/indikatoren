@@ -1402,8 +1402,8 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab, der Wohnungsbestand hingegen weiterhin leicht zu. Ab 1975 wurde deshalb eine hohe Anzahl Leerwohnungen verzeichnet. In der ersten Hälfte der Neunzigerjahre nahm aufgrund der leichten Bevölkerungszunahme bei gleichzeitig stagnierendem Wohnungsbestand die Anzahl der Leerwohnungen ab. Wegen des bis 2007 folgenden Bevölkerungsrückgangs wuchs die Zahl der Leerwohnungen wieder. Danach erfolgte eine bis heute andauernde Bevölkerungszunahme. Diese führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber von 2015 bis 2022 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
+		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl Wohnungsbestand als auch Bevölkerung. Es gab kaum Leerwohnungen. In den 1970er-Jahren nahm die Bevölkerung ab, der Wohnungsbestand weiterhin zu. Dies führte Mitte der 1970er-Jahre zu einer hohen Anzahl Leerwohnungen. Die seit 2007 anhaltende Bevölkerungszunahme führte zunächst zu einem Rückgang der Anzahl Leerwohnungen. Infolge vermehrter Bautätigkeit stieg die Zahl der Leerwohnungen in den Jahren 2015 bis 2022 jedoch wieder.",
+		"erlaeuterungen": "Bis 2011 wurde die Bevölkerungszahl ermittelt, indem der Vorjahresbestand durch natürliche Ereignisse (Geburt, Tod) und räumliche Ereignisse (Zuzug, Wegzug) fortgeschrieben wurde. Seit 2012 wird die Bevölkerungszahl direkt aus dem kantonalen Einwohnerregister gewonnen. Die Leerwohnungen werden per Stichtag 1. Juni im Rahmen der Leerwohnungszählung ermittelt. Der in der Grafik dargestellte Wohnungsbestand umfasst die im Wohnungsregister erfassten Wohnungen ohne die Leerwohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1428,7 +1428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:19",
+		"aktualisierungsdatum": "2025-03-12T10:19:03",
 		"id": 6214
 	},
 	{

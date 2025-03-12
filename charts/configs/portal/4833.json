@@ -5,83 +5,83 @@
       "data": [
         [
           "Klybeck",
-          64.922508
+          64.802795
         ],
         [
           "Kleinhüningen",
-          66.547758
+          66.35332
         ],
         [
           "Clara",
-          66.760574
+          66.778986
         ],
         [
           "Matthäus",
-          67.117666
-        ],
-        [
-          "Iselin",
-          68.915029
-        ],
-        [
-          "Gundeldingen",
-          70.180675
-        ],
-        [
-          "Rosental",
-          70.212877
-        ],
-        [
-          "Breite",
-          70.770574
+          67.028175
         ],
         [
           "Altstadt Kleinbasel",
-          71.101967
+          68.982485
+        ],
+        [
+          "Iselin",
+          68.989169
+        ],
+        [
+          "Gundeldingen",
+          69.595726
+        ],
+        [
+          "Rosental",
+          70.284799
+        ],
+        [
+          "Breite",
+          70.853465
         ],
         [
           "St. Johann",
-          72.194553
+          72.172629
         ],
         [
           "Gotthelf",
-          74.560121
+          74.520576
         ],
         [
           "Hirzbrunnen",
-          80.955426
+          80.822142
         ],
         [
           "Am Ring",
-          81.782338
+          81.630359
         ],
         [
           "Vorstädte",
-          82.224013
+          82.156142
         ],
         [
           "Wettstein",
-          82.875776
+          82.784261
         ],
         [
           "Altstadt Grossbasel",
-          88.222083
+          88.126472
         ],
         [
           "St. Alban",
-          90.647359
+          90.759051
         ],
         [
           "Bachletten",
-          92.443066
+          92.35241
         ],
         [
           "Riehen",
-          102.453742
+          102.545562
         ],
         [
           "Bruderholz",
-          109.76468
+          109.906304
         ],
         [
           "Bettingen",
@@ -111,23 +111,23 @@
           4
         ],
         [
-          "Iselin",
+          "Altstadt Kleinbasel",
           5
         ],
         [
-          "Gundeldingen",
+          "Iselin",
           6
         ],
         [
-          "Rosental",
+          "Gundeldingen",
           7
         ],
         [
-          "Breite",
+          "Rosental",
           8
         ],
         [
-          "Altstadt Kleinbasel",
+          "Breite",
           9
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2025"
   },
   "legend": {
     "enabled": false,

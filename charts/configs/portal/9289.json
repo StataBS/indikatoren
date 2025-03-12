@@ -48,6 +48,10 @@
         [
           2023,
           null
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Basel (bis 2017)"
@@ -100,6 +104,10 @@
         [
           2023,
           5.1
+        ],
+        [
+          2024,
+          5
         ]
       ],
       "name": "Basel"
@@ -151,6 +159,10 @@
         [
           2023,
           2.5
+        ],
+        [
+          2024,
+          2.6
         ]
       ],
       "name": "Riehen"
@@ -202,6 +214,10 @@
         [
           2023,
           2.4
+        ],
+        [
+          2024,
+          1.7
         ]
       ],
       "name": "Bettingen"
@@ -253,6 +269,10 @@
         ],
         [
           2023,
+          null
+        ],
+        [
+          2024,
           null
         ]
       ],
@@ -306,6 +326,10 @@
         [
           2023,
           4.8
+        ],
+        [
+          2024,
+          4.7
         ]
       ],
       "name": "Kanton Basel-Stadt"
@@ -440,7 +464,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

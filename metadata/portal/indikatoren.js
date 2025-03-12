@@ -10984,8 +10984,8 @@ var indikatoren = [
 			5110
 		],
 		"title": "Anteil Ausländer",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 23,7% am tiefsten und im Wohnviertel Rosental mit 57,6% am höchsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 23,9% am tiefsten und im Wohnviertel Rosental mit 57,6% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11000,7 +11000,7 @@ var indikatoren = [
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.04823",
+		"kuerzel": "",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzelKunde": "GS-2.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
@@ -11013,7 +11013,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:36",
+		"aktualisierungsdatum": "2025-03-12T10:18:50",
 		"id": 4823
 	},
 	{
@@ -11241,7 +11241,7 @@ var indikatoren = [
 			5117
 		],
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die jüngste.",
 		"erlaeuterungen": "Ausgewiesen ist das mittlere Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel).",
 		"quellenangabe": [
@@ -11270,7 +11270,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:46",
+		"aktualisierungsdatum": "2025-03-12T10:18:55",
 		"id": 4830
 	},
 	{
@@ -11283,7 +11283,7 @@ var indikatoren = [
 			5118
 		],
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"quellenangabe": [
@@ -11312,7 +11312,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:53",
+		"aktualisierungsdatum": "2025-03-12T10:18:57",
 		"id": 4831
 	},
 	{
@@ -11369,7 +11369,7 @@ var indikatoren = [
 			5120
 		],
 		"title": "Fläche pro Wohnung",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"quellenangabe": [
@@ -11398,7 +11398,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:55",
+		"aktualisierungsdatum": "2025-03-12T10:19:00",
 		"id": 4833
 	},
 	{
@@ -12788,7 +12788,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Betreibungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 1990er-Jahren stark erhöht, mit einem Höchststand 2014. Seitdem gingen die Werte wieder etwas zurück. Im Jahr 2023 gab es rund 61 900 Betreibungen.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 1990er-Jahren stark erhöht, mit einem Höchststand 2014. Seitdem gingen die Werte wieder etwas zurück. Im Jahr 2024 gab es rund 67 500 Betreibungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Betreibungs- und Konkursamt Basel-Stadt"
@@ -12814,7 +12814,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:42:54",
+		"aktualisierungsdatum": "2025-03-12T10:18:46",
 		"id": 4912
 	},
 	{
@@ -17656,8 +17656,8 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab, der Wohnungsbestand hingegen weiterhin leicht zu. Ab 1975 wurde deshalb eine hohe Anzahl Leerwohnungen verzeichnet. In der ersten Hälfte der Neunzigerjahre nahm aufgrund der leichten Bevölkerungszunahme bei gleichzeitig stagnierendem Wohnungsbestand die Anzahl der Leerwohnungen ab. Wegen des bis 2007 folgenden Bevölkerungsrückgangs wuchs die Zahl der Leerwohnungen wieder. Danach erfolgte eine bis heute andauernde Bevölkerungszunahme. Diese führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber von 2015 bis 2022 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
+		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl Wohnungsbestand als auch Bevölkerung. Es gab kaum Leerwohnungen. In den 1970er-Jahren nahm die Bevölkerung ab, der Wohnungsbestand weiterhin zu. Dies führte Mitte der 1970er-Jahre zu einer hohen Anzahl Leerwohnungen. Die seit 2007 anhaltende Bevölkerungszunahme führte zunächst zu einem Rückgang der Anzahl Leerwohnungen. Infolge vermehrter Bautätigkeit stieg die Zahl der Leerwohnungen in den Jahren 2015 bis 2022 jedoch wieder.",
+		"erlaeuterungen": "Bis 2011 wurde die Bevölkerungszahl ermittelt, indem der Vorjahresbestand durch natürliche Ereignisse (Geburt, Tod) und räumliche Ereignisse (Zuzug, Wegzug) fortgeschrieben wurde. Seit 2012 wird die Bevölkerungszahl direkt aus dem kantonalen Einwohnerregister gewonnen. Die Leerwohnungen werden per Stichtag 1. Juni im Rahmen der Leerwohnungszählung ermittelt. Der in der Grafik dargestellte Wohnungsbestand umfasst die im Wohnungsregister erfassten Wohnungen ohne die Leerwohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -17683,7 +17683,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:19",
+		"aktualisierungsdatum": "2025-03-12T10:19:03",
 		"id": 6214
 	},
 	{
@@ -38000,7 +38000,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2023 bei 4,8%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2023 eine Quote von 5,1% aus, Riehen eine Quote von 2,5% und Bettingen eine Quote von 2,4%.",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2024 bei 4,7%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2024 eine Quote von 5,0% aus, Riehen eine Quote von 2,6% und Bettingen eine Quote von 1,7%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -38026,7 +38026,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:42",
+		"aktualisierungsdatum": "2025-03-12T10:18:47",
 		"id": 9289
 	},
 	{
@@ -38814,7 +38814,7 @@ var indikatoren = [
 		],
 		"title": "Solarenergie",
 		"subtitle": "Produktion in GWh, Basel-Stadt",
-		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 25,1 GWh im Jahr 2020. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2020 bei 20,9 GWh.",
+		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,3 GWh im Jahr 2000 auf 39,5 GWh im Jahr 2022. Die Produktion von solarthermischer Energie nahm in den letzten Jahren ebenfalls zu und lag 2022 bei 20,8 GWh.",
 		"erlaeuterungen": "Daten zur solarthermischen Energie werden seit 2010 im Rahmen der kantonalen Energiestatistik jedes zweite Jahr erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -38840,7 +38840,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-21T08:16:50",
+		"aktualisierungsdatum": "2025-03-12T10:18:49",
 		"id": 9392
 	},
 	{

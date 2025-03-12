@@ -3238,83 +3238,83 @@
       "data": [
         [
           18,
-          64.922508
+          64.802795
         ],
         [
           19,
-          66.547758
+          66.35332
         ],
         [
           13,
-          66.760574
+          66.778986
         ],
         [
           17,
-          67.117666
-        ],
-        [
-          10,
-          68.915029
-        ],
-        [
-          6,
-          70.180675
-        ],
-        [
-          16,
-          70.212877
-        ],
-        [
-          4,
-          70.770574
+          67.028175
         ],
         [
           12,
-          71.101967
+          68.982485
+        ],
+        [
+          10,
+          68.989169
+        ],
+        [
+          6,
+          69.595726
+        ],
+        [
+          16,
+          70.284799
+        ],
+        [
+          4,
+          70.853465
         ],
         [
           11,
-          72.194553
+          72.172629
         ],
         [
           9,
-          74.560121
+          74.520576
         ],
         [
           15,
-          80.955426
+          80.822142
         ],
         [
           3,
-          81.782338
+          81.630359
         ],
         [
           2,
-          82.224013
+          82.156142
         ],
         [
           14,
-          82.875776
+          82.784261
         ],
         [
           1,
-          88.222083
+          88.126472
         ],
         [
           5,
-          90.647359
+          90.759051
         ],
         [
           8,
-          92.443066
+          92.35241
         ],
         [
           20,
-          102.453742
+          102.545562
         ],
         [
           7,
-          109.76468
+          109.906304
         ],
         [
           30,
@@ -3343,23 +3343,23 @@
         ],
         [
           5,
-          "Iselin"
+          "Altstadt Kleinbasel"
         ],
         [
           6,
-          "Gundeldingen"
+          "Iselin"
         ],
         [
           7,
-          "Rosental"
+          "Gundeldingen"
         ],
         [
           8,
-          "Breite"
+          "Rosental"
         ],
         [
           9,
-          "Altstadt Kleinbasel"
+          "Breite"
         ],
         [
           10,
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2025"
   },
   "colorAxis": {
     "min": undefined,
