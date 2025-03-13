@@ -1434,7 +1434,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ereigneten sich auf den Basler Kantonsstrassen insgesamt 561 Strassenverkehrsunfälle. Das sind 59 mehr als ein Jahr zuvor. Die Zahl der verunfallten Personen lag bei 410, 66 mehr als im Vorjahr.",
+		"lesehilfe": "Im Jahr 2024 ereigneten sich auf den Basler Kantonsstrassen insgesamt 535 Verkehrsunfälle – 26 weniger als im Vorjahr. Die Zahl der verunfallten Personen sank im Vergleich zum Vorjahr um 45 auf 365.",
 		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -1459,7 +1459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:58:23",
+		"aktualisierungsdatum": "2025-03-13T11:18:38",
 		"id": 8903
 	},
 	{

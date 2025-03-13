@@ -130,6 +130,10 @@
         [
           2023,
           null
+        ],
+        [
+          2023,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -265,6 +269,10 @@
         [
           2023,
           561
+        ],
+        [
+          2023,
+          535
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -399,6 +407,10 @@
         [
           2023,
           410
+        ],
+        [
+          2023,
+          365
         ]
       ],
       "name": "Verunfallte Personen"
@@ -535,7 +547,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 14.3.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 13.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -370,6 +370,10 @@
         [
           2023,
           20
+        ],
+        [
+          2024,
+          30
         ]
       ],
       "name": "Geschwindigkeit"
@@ -744,6 +748,10 @@
         [
           2023,
           79
+        ],
+        [
+          2024,
+          80
         ]
       ],
       "name": "Alkohol"
@@ -1118,6 +1126,10 @@
         [
           2023,
           153
+        ],
+        [
+          2024,
+          121
         ]
       ],
       "name": "Vortrittsregelung"
@@ -1492,6 +1504,10 @@
         [
           2023,
           42
+        ],
+        [
+          2024,
+          31
         ]
       ],
       "name": "Signale, Zeichengebung"
@@ -1627,7 +1643,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 14.3.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 13.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
