@@ -403,6 +403,10 @@
         [
           2023,
           332
+        ],
+        [
+          2024,
+          301
         ]
       ],
       "name": "Mit Personenschaden"
@@ -809,6 +813,10 @@
         ],
         [
           2023,
+          null
+        ],
+        [
+          2024,
           null
         ]
       ],
@@ -1217,6 +1225,10 @@
         [
           2023,
           null
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Total"
@@ -1623,6 +1635,10 @@
         ],
         [
           2023,
+          null
+        ],
+        [
+          2024,
           null
         ]
       ],
@@ -2031,6 +2047,10 @@
         [
           2023,
           null
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Total"
@@ -2437,6 +2457,10 @@
         ],
         [
           2023,
+          null
+        ],
+        [
+          2024,
           null
         ]
       ],
@@ -2845,6 +2869,10 @@
         [
           2023,
           561
+        ],
+        [
+          2024,
+          535
         ]
       ],
       "name": "Total"
@@ -2982,7 +3010,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 14.3.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 13.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
