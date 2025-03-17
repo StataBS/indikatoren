@@ -7,7 +7,7 @@
       "data": [
         [
           "2017",
-          6161
+          6162
         ],
         [
           "2018",
@@ -23,7 +23,7 @@
         ],
         [
           "2021",
-          5241
+          5244
         ],
         [
           "2022",
@@ -32,6 +32,10 @@
         [
           "2023",
           4722
+        ],
+        [
+          "2024",
+          4669
         ]
       ],
       "name": "Schweiz",
@@ -69,6 +73,10 @@
         [
           "2023",
           356
+        ],
+        [
+          "2024",
+          360
         ]
       ],
       "name": "Deutschland",
@@ -106,6 +114,10 @@
         [
           "2023",
           368
+        ],
+        [
+          "2024",
+          338
         ]
       ],
       "name": "Italien",
@@ -143,6 +155,10 @@
         [
           "2023",
           719
+        ],
+        [
+          "2024",
+          680
         ]
       ],
       "name": "Türkei",
@@ -179,7 +195,11 @@
         ],
         [
           "2023",
-          584
+          585
+        ],
+        [
+          "2024",
+          610
         ]
       ],
       "name": "EU-West + EFTA + UK",
@@ -217,6 +237,10 @@
         [
           "2023",
           325
+        ],
+        [
+          "2024",
+          326
         ]
       ],
       "name": "EU-Ost",
@@ -254,6 +278,10 @@
         [
           "2023",
           596
+        ],
+        [
+          "2024",
+          550
         ]
       ],
       "name": "Balkan",
@@ -291,6 +319,10 @@
         [
           "2023",
           231
+        ],
+        [
+          "2024",
+          230
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -327,6 +359,10 @@
         ],
         [
           "2023",
+          621
+        ],
+        [
+          "2024",
           621
         ]
       ],
@@ -365,6 +401,10 @@
         [
           "2023",
           689
+        ],
+        [
+          "2024",
+          656
         ]
       ],
       "name": "Afrikanische Länder",
@@ -402,6 +442,10 @@
         [
           "2023",
           536
+        ],
+        [
+          "2024",
+          525
         ]
       ],
       "name": "Übrige Länder",
@@ -551,7 +595,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

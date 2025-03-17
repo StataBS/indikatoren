@@ -51,6 +51,10 @@
         [
           2023,
           931
+        ],
+        [
+          2024,
+          938
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen St.Johann"
@@ -111,6 +115,10 @@
         [
           2023,
           10.1
+        ],
+        [
+          2024,
+          10
         ]
       ],
       "name": "Anteil am Bestand St. Johann (rechte Skala)"
@@ -166,6 +174,10 @@
         [
           2023,
           94
+        ],
+        [
+          2024,
+          95
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Pestalozzi"
@@ -225,6 +237,10 @@
         [
           2023,
           10.1
+        ],
+        [
+          2024,
+          10
         ]
       ],
       "name": "Anteil am Bestand St. Johann (rechte Skala)"
@@ -280,6 +296,10 @@
         ],
         [
           2023,
+          0
+        ],
+        [
+          2024,
           0
         ]
       ],
@@ -341,6 +361,10 @@
         [
           2023,
           0
+        ],
+        [
+          2024,
+          0
         ]
       ],
       "name": "Anteil am Bestand Kannenfeld (rechte Skala)"
@@ -396,6 +420,10 @@
         [
           2023,
           181
+        ],
+        [
+          2024,
+          180
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Landskron"
@@ -455,6 +483,10 @@
         [
           2023,
           5.3
+        ],
+        [
+          2024,
+          5.2
         ]
       ],
       "name": "Anteil am Bestand Landskron (rechte Skala)"
@@ -509,6 +541,10 @@
         ],
         [
           2023,
+          146
+        ],
+        [
+          2024,
           146
         ]
       ],
@@ -569,6 +605,10 @@
         [
           2023,
           12.1
+        ],
+        [
+          2024,
+          11.8
         ]
       ],
       "name": "Anteil am Bestand Lysbüchel (rechte Skala)"
@@ -624,6 +664,10 @@
         [
           2023,
           510
+        ],
+        [
+          2024,
+          517
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Friedmatt"
@@ -683,6 +727,10 @@
         [
           2023,
           29.9
+        ],
+        [
+          2024,
+          30.3
         ]
       ],
       "name": "Anteil am Bestand Friedmatt (rechte Skala)"
@@ -867,7 +915,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "navigator": {
     "enabled": true,

@@ -5,10 +5,6 @@
       "legendIndex": 7,
       "data": [
         [
-          "2012",
-          177.4
-        ],
-        [
           "2013",
           170.2
         ],
@@ -43,6 +39,10 @@
         [
           "2021",
           61
+        ],
+        [
+          "2022",
+          63.1
         ]
       ],
       "name": "Lagerei",
@@ -52,10 +52,6 @@
       "color": "#FF8028",
       "legendIndex": 6,
       "data": [
-        [
-          "2012",
-          73.8
-        ],
         [
           "2013",
           72.8
@@ -91,6 +87,10 @@
         [
           "2021",
           77.8
+        ],
+        [
+          "2022",
+          75.7
         ]
       ],
       "name": "Erbringung von sonst. DL für den Landverkehr",
@@ -100,10 +100,6 @@
       "color": "#2E1435",
       "legendIndex": 5,
       "data": [
-        [
-          "2012",
-          92.3
-        ],
         [
           "2013",
           91
@@ -139,6 +135,10 @@
         [
           "2021",
           135.3
+        ],
+        [
+          "2022",
+          83.6
         ]
       ],
       "name": "Erbringung von sonst. DL für die Schifffahrt",
@@ -148,10 +148,6 @@
       "color": "#662673",
       "legendIndex": 4,
       "data": [
-        [
-          "2012",
-          534.1
-        ],
         [
           "2013",
           606.2
@@ -187,6 +183,10 @@
         [
           "2021",
           585.5
+        ],
+        [
+          "2022",
+          689.6
         ]
       ],
       "name": "Erbringung von sonst. DL für die Luftfahrt",
@@ -196,10 +196,6 @@
       "color": "#923F8D",
       "legendIndex": 3,
       "data": [
-        [
-          "2012",
-          31.6
-        ],
         [
           "2013",
           30.2
@@ -235,6 +231,10 @@
         [
           "2021",
           16.6
+        ],
+        [
+          "2022",
+          15.7
         ]
       ],
       "name": "Frachtumschlag",
@@ -244,10 +244,6 @@
       "color": "#B375AB",
       "legendIndex": 2,
       "data": [
-        [
-          "2012",
-          2448.9
-        ],
         [
           "2013",
           2327.8
@@ -283,6 +279,10 @@
         [
           "2021",
           1769.8
+        ],
+        [
+          "2022",
+          1927.6
         ]
       ],
       "name": "Erbringung von sonst. DL für den Verkehr a. n. g.",
@@ -292,10 +292,6 @@
       "color": "#E7CEE2",
       "legendIndex": 1,
       "data": [
-        [
-          "2012",
-          753.8
-        ],
         [
           "2013",
           582
@@ -331,6 +327,10 @@
         [
           "2021",
           520.7
+        ],
+        [
+          "2022",
+          544.4
         ]
       ],
       "name": "Postdienste von Universaldienstleistungsanbietern",
@@ -340,10 +340,6 @@
       "color": "#C9D6DB",
       "legendIndex": 0,
       "data": [
-        [
-          "2012",
-          754.5
-        ],
         [
           "2013",
           633
@@ -379,6 +375,10 @@
         [
           "2021",
           635.3
+        ],
+        [
+          "2022",
+          545.8
         ]
       ],
       "name": "Sonstige Post-, Kurier- und Expressdienste",
@@ -526,7 +526,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

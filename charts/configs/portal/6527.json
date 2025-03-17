@@ -4,10 +4,6 @@
       "color": "#68AB2B",
       "data": [
         [
-          "2010",
-          5379
-        ],
-        [
           "2012",
           5553
         ],
@@ -26,6 +22,10 @@
         [
           "2020",
           5821
+        ],
+        [
+          "2022",
+          6109
         ]
       ],
       "name": "Handel, Reparatur",
@@ -34,10 +34,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2010",
-          5697
-        ],
         [
           "2012",
           5885
@@ -57,6 +53,10 @@
         [
           "2020",
           5623
+        ],
+        [
+          "2022",
+          5656
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -65,10 +65,6 @@
     {
       "color": "#007A2F",
       "data": [
-        [
-          "2010",
-          4163
-        ],
         [
           "2012",
           4365
@@ -88,6 +84,10 @@
         [
           "2020",
           4638
+        ],
+        [
+          "2022",
+          4657
         ]
       ],
       "name": "Gastgewerbe",
@@ -96,10 +96,6 @@
     {
       "color": "#0A3B19",
       "data": [
-        [
-          "2010",
-          7876
-        ],
         [
           "2012",
           8156
@@ -119,6 +115,10 @@
         [
           "2020",
           8719
+        ],
+        [
+          "2022",
+          8607
         ]
       ],
       "name": "Information, Kommunikation",
@@ -257,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          "2010",
-          6219
-        ],
-        [
           "2012",
           6439
         ],
@@ -26,6 +22,10 @@
         [
           "2020",
           6665
+        ],
+        [
+          "2022",
+          6788
         ]
       ],
       "name": "Schweiz",
@@ -34,10 +34,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2010",
-          6447
-        ],
         [
           "2012",
           6653
@@ -57,6 +53,10 @@
         [
           "2020",
           6789
+        ],
+        [
+          "2022",
+          6969
         ]
       ],
       "name": "Nordwestschweiz",
@@ -65,10 +65,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2010",
-          6556
-        ],
         [
           "2012",
           6900
@@ -88,6 +84,10 @@
         [
           "2020",
           7113
+        ],
+        [
+          "2022",
+          7229
         ]
       ],
       "name": "Zürich",
@@ -225,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

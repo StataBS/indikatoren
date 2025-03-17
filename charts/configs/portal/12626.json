@@ -47,6 +47,10 @@
         [
           2023,
           40.74751366416
+        ],
+        [
+          2024,
+          40.722696783487
         ]
       ],
       "name": "Stadt Basel"
@@ -98,6 +102,10 @@
         [
           2023,
           36.766227454368
+        ],
+        [
+          2024,
+          36.942938276896
         ]
       ],
       "name": "Wohnviertel St. Johann"
@@ -148,6 +156,10 @@
         [
           2023,
           38.882369299221
+        ],
+        [
+          2024,
+          38.804858078602
         ]
       ],
       "name": "Bezirk Pestalozzi"
@@ -198,6 +210,10 @@
         [
           2023,
           42.717271727172
+        ],
+        [
+          2024,
+          43.068559185859
         ]
       ],
       "name": "Bezirk Kannenfeld"
@@ -248,6 +264,10 @@
         [
           2023,
           34.22959024085
+        ],
+        [
+          2024,
+          34.470615744349
         ]
       ],
       "name": "Bezirk Landskron"
@@ -298,6 +318,10 @@
         [
           2023,
           34.529456193353
+        ],
+        [
+          2024,
+          34.500923531584
         ]
       ],
       "name": "Bezirk Lysbüchel"
@@ -349,6 +373,10 @@
         [
           2023,
           37.680452978828
+        ],
+        [
+          2024,
+          37.993019197207
         ]
       ],
       "name": "Bezirk Friedmatt"
@@ -494,7 +522,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

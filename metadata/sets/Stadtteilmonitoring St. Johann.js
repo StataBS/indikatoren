@@ -602,7 +602,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Im Wohnviertel St. Johann überwiegt 2023 der Mietwohnungsanteil mit 78,7%. Der Anteil an Genossenschaftswohnungen betrug 10,1%, was unter dem Wert für die Stadt Basel (11,0%) lag. Selbstbewohnte Eigentümerwohnungen weisen einen Anteil von 9,7% auf.",
+		"lesehilfe": "Im Wohnviertel St. Johann überwiegt 2024 der Mietwohnungsanteil mit 78,9%. Der Anteil an Genossenschaftswohnungen beträgt 10,0%, was unter dem Wert für die Stadt Basel (11,0%) liegt. Selbstbewohnte Eigentümerwohnungen weisen einen Anteil von 9,6% auf.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -627,7 +627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:18",
+		"aktualisierungsdatum": "2025-03-17T11:06:17",
 		"id": 12625
 	},
 	{
@@ -639,7 +639,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann liegt 2023 mit 36,8 m² tiefer als in der Stadt Basel (40,7 m²). Nach Bezirk betrachtet, zeigen sich Unterschiede: Im Bezirk Kannenfeld liegt die mittlere Wohnfläche mit 42,7 m² über dem städtischen Durchschnitt, im Bezirk Landskron mit 34,2 m² darunter.",
+		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann liegt 2024 mit 36,9 m² tiefer als in der Stadt Basel (40,7 m²). Nach Bezirk betrachtet zeigen sich Unterschiede: Im Bezirk Kannenfeld liegt die mittlere Wohnfläche mit 43,1 m² über dem städtischen Durchschnitt, in den Bezirken Landskron und Lysbüchel mit 34,5 m² darunter.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -664,7 +664,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:16",
+		"aktualisierungsdatum": "2025-03-17T11:06:13",
 		"id": 12626
 	},
 	{
@@ -751,7 +751,7 @@ var indikatorensetData = [
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
 		"lesehilfe": "Der Einfamilienhausanteil im Wohnviertel St. Johann liegt unter dem städtischen Durchschnitt, die Bezirke weisen aber grosse Unterschiede auf. Im Bezirk Friedmatt ist der Anteil mit rund 60% relativ hoch. In den Bezirken Pestalozzi, Kannenfeld und Lysbüchel ist er sehr niedrig.",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Daten stamme aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirks in Prozent. Die Daten stamme aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -775,7 +775,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:20",
+		"aktualisierungsdatum": "2025-03-17T11:06:18",
 		"id": 12629
 	},
 	{
@@ -849,7 +849,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:22",
+		"aktualisierungsdatum": "2025-03-17T11:06:22",
 		"id": 12631
 	},
 	{
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Im Wohnviertel St. Johann sind 2023 10,1% der Wohnungen Genossenschaftswohnungen. Das ist nahe am städtischen Durchschnitt von 11,0%. Der Schwerpunkt des genossenschaftlichen Wohnungsbaus liegt im Wohnbezirk Friedmatt mit einem Anteil von 29,9%. Der Wohnbezirk Kannenfeld dagegen weist keine Genossenschaftswohnungen auf.",
+		"lesehilfe": "Im Wohnviertel St. Johann sind 2024 10,0% der Wohnungen Genossenschaftswohnungen. Das ist nahe am städtischen Durchschnitt von 11,2%. Der Schwerpunkt des genossenschaftlichen Wohnungsbaus liegt im Wohnbezirk Friedmatt mit einem Anteil von 30,3%. Der Wohnbezirk Kannenfeld dagegen weist keine Genossenschaftswohnungen auf.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -886,7 +886,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:23",
+		"aktualisierungsdatum": "2025-03-17T11:06:30",
 		"id": 12632
 	},
 	{
@@ -1122,7 +1122,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Der Bezirk Landskron weist 2023 mit 8,2% die höchste Sozialhilfequote im St. Johann auf. Im Bezirk Kannenfeld liegt sie mit 2,5% am tiefsten. Gegenüber 2017 ist die Sozialhilfequote in allen Bezirken des St.Johann gesunken, am stärksten im Bezirk Landskron.",
+		"lesehilfe": "Der Bezirk Landskron weist 2024 mit 7,8% die höchste Sozialhilfequote im St. Johann auf. Im Bezirk Kannenfeld liegt sie mit 2,4% am tiefsten. Gegenüber 2017 ist die Sozialhilfequote in allen Bezirken des St. Johann gesunken, am stärksten im Bezirk Landskron.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:27",
+		"aktualisierungsdatum": "2025-03-17T11:07:08",
 		"id": 12639
 	},
 	{

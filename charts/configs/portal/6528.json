@@ -4,10 +4,6 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2010",
-          7976
-        ],
-        [
           "2012",
           8411
         ],
@@ -26,6 +22,10 @@
         [
           "2020",
           9066
+        ],
+        [
+          "2022",
+          9209
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -34,10 +34,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2010",
-          7619
-        ],
         [
           "2012",
           7897
@@ -57,6 +53,10 @@
         [
           "2020",
           8166
+        ],
+        [
+          "2022",
+          8303
         ]
       ],
       "name": "Beratung, Planung, Forschung",
@@ -65,10 +65,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2010",
-          5170
-        ],
         [
           "2012",
           4727
@@ -88,6 +84,10 @@
         [
           "2020",
           5570
+        ],
+        [
+          "2022",
+          5664
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirt. DL",
@@ -96,10 +96,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          "2010",
-          5738
-        ],
         [
           "2012",
           5496
@@ -119,6 +115,10 @@
         [
           "2020",
           5633
+        ],
+        [
+          "2022",
+          5996
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -257,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 30.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
