@@ -6569,11 +6569,11 @@
       "data": [
         [
           1,
-          1.6
+          1.8
         ],
         [
           2,
-          2.4
+          3.2
         ],
         [
           3,
@@ -6581,7 +6581,7 @@
         ],
         [
           4,
-          4.4
+          4
         ],
         [
           5,
@@ -6589,11 +6589,11 @@
         ],
         [
           6,
-          5
+          4.8
         ],
         [
           7,
-          1.5
+          1.2
         ],
         [
           8,
@@ -6601,51 +6601,51 @@
         ],
         [
           9,
-          3.8
+          3.2
         ],
         [
           10,
-          7.5
+          6.6
         ],
         [
           11,
-          6.2
+          5.8
         ],
         [
           12,
-          5.4
+          5.5
         ],
         [
           13,
-          6
+          5.3
         ],
         [
           14,
-          2.4
+          1.9
         ],
         [
           15,
-          4.4
+          3.8
         ],
         [
           16,
-          6.3
+          5.8
         ],
         [
           17,
-          8.5
+          7.7
         ],
         [
           18,
-          10.6
+          9.1
         ],
         [
           19,
-          10.3
+          9.2
         ],
         [
           20,
-          2.7
+          2.6
         ],
         [
           30,
@@ -6658,83 +6658,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          43
+          50
         ],
         [
           "Vorstädte",
-          122
+          160
         ],
         [
           "Am Ring",
-          295
+          303
         ],
         [
           "Breite",
-          399
+          371
         ],
         [
           "St. Alban",
-          276
+          271
         ],
         [
           "Gundeldingen",
-          941
+          923
         ],
         [
           "Bruderholz",
-          139
+          119
         ],
         [
           "Bachletten",
-          256
+          265
         ],
         [
           "Gotthelf",
-          264
+          226
         ],
         [
           "Iselin",
-          1264
+          1198
         ],
         [
           "St. Johann",
-          1199
+          1132
         ],
         [
           "Altstadt Kleinbasel",
-          131
+          135
         ],
         [
           "Clara",
-          266
+          233
         ],
         [
           "Wettstein",
-          139
+          112
         ],
         [
           "Hirzbrunnen",
-          409
+          368
         ],
         [
           "Rosental",
-          489
+          448
         ],
         [
           "Matthäus",
-          1309
+          1175
         ],
         [
           "Klybeck",
-          743
+          646
         ],
         [
           "Kleinhüningen",
-          289
+          256
         ],
         [
           "Riehen",
-          596
+          588
         ],
         [
           "Bettingen",
@@ -7296,7 +7296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -7312,7 +7312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "colorAxis": {
     "min": 0,

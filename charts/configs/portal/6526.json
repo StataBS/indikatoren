@@ -4,10 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2010",
-          6988
-        ],
-        [
           "2012",
           7396
         ],
@@ -26,6 +22,10 @@
         [
           "2020",
           7540
+        ],
+        [
+          "2022",
+          7845
         ]
       ],
       "name": "Industrie (inkl. Chemie\u002FPharma, ohne Energie\u002FWasser)",
@@ -34,10 +34,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2010",
-          9912
-        ],
         [
           "2012",
           10832
@@ -57,6 +53,10 @@
         [
           "2020",
           11785
+        ],
+        [
+          "2022",
+          11461
         ]
       ],
       "name": "Pharma",
@@ -65,10 +65,6 @@
     {
       "color": "#923F8D",
       "data": [
-        [
-          "2010",
-          5889
-        ],
         [
           "2012",
           6105
@@ -88,6 +84,10 @@
         [
           "2020",
           6213
+        ],
+        [
+          "2022",
+          6536
         ]
       ],
       "name": "Baugewerbe",
@@ -225,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

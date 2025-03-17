@@ -24,15 +24,19 @@
         ],
         [
           2021,
-          10935
+          10937
         ],
         [
           2022,
-          10282
+          10283
         ],
         [
           2023,
           9988
+        ],
+        [
+          2024,
+          9819
         ]
       ],
       "name": "Beziehende"
@@ -76,6 +80,10 @@
         [
           2023,
           4.8
+        ],
+        [
+          2024,
+          4.7
         ]
       ],
       "name": "Sozialhilfequote (rechte Skala)"
@@ -212,7 +220,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

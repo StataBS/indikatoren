@@ -59,6 +59,10 @@
         [
           2023,
           6.309148264984
+        ],
+        [
+          2024,
+          6.269592476489
         ]
       ],
       "name": "Rosental"
@@ -121,6 +125,10 @@
         [
           2023,
           5.204460966542
+        ],
+        [
+          2024,
+          5.166051660516
         ]
       ],
       "name": "Messe"
@@ -182,6 +190,10 @@
         ],
         [
           2023,
+          12.5
+        ],
+        [
+          2024,
           12.5
         ]
       ],
@@ -312,7 +324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

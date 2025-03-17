@@ -5,10 +5,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "2012",
-          923.1
-        ],
-        [
           "2013",
           489.2
         ],
@@ -39,6 +35,14 @@
         [
           "2020",
           525.8
+        ],
+        [
+          "2021",
+          553.1
+        ],
+        [
+          "2022",
+          640.7
         ]
       ],
       "name": "Hausmeisterdienste",
@@ -48,10 +52,6 @@
       "color": "#FF8028",
       "legendIndex": 4,
       "data": [
-        [
-          "2012",
-          1994.7
-        ],
         [
           "2013",
           2759.6
@@ -83,6 +83,14 @@
         [
           "2020",
           2435.7
+        ],
+        [
+          "2021",
+          2471.1
+        ],
+        [
+          "2022",
+          2443
         ]
       ],
       "name": "Reinigung von Gebäuden, Strassen und Verkehrsmitteln",
@@ -92,10 +100,6 @@
       "color": "#FFBB58",
       "legendIndex": 3,
       "data": [
-        [
-          "2012",
-          153.3
-        ],
         [
           "2013",
           155.3
@@ -127,6 +131,14 @@
         [
           "2020",
           162.9
+        ],
+        [
+          "2021",
+          149.3
+        ],
+        [
+          "2022",
+          174.1
         ]
       ],
       "name": "Garten- und Landschaftsbau, sonst. gärtnerische DL",
@@ -274,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

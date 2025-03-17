@@ -10,22 +10,6 @@
       "type": "line",
       "data": [
         [
-          "2014-01",
-          213
-        ],
-        [
-          "2014-02",
-          233
-        ],
-        [
-          "2014-03",
-          209
-        ],
-        [
-          "2014-04",
-          212
-        ],
-        [
           "2015-01",
           218
         ],
@@ -139,35 +123,51 @@
         ],
         [
           "2022-01",
-          127
+          128
         ],
         [
           "2022-02",
-          121
+          118
         ],
         [
           "2022-03",
-          130
+          125
         ],
         [
           "2022-04",
-          115
+          120
         ],
         [
           "2023-01",
-          116
+          117
         ],
         [
           "2023-02",
-          124
+          125
         ],
         [
           "2023-03",
-          122
+          124
         ],
         [
           "2023-04",
+          125
+        ],
+        [
+          "2024-01",
           126
+        ],
+        [
+          "2024-02",
+          118
+        ],
+        [
+          "2024-03",
+          129
+        ],
+        [
+          "2024-04",
+          127
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -182,22 +182,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2014-01",
-          47
-        ],
-        [
-          "2014-02",
-          40
-        ],
-        [
-          "2014-03",
-          38
-        ],
-        [
-          "2014-04",
-          64
-        ],
         [
           "2015-01",
           54
@@ -341,6 +325,22 @@
         [
           "2023-04",
           105
+        ],
+        [
+          "2024-01",
+          55
+        ],
+        [
+          "2024-02",
+          43
+        ],
+        [
+          "2024-03",
+          47
+        ],
+        [
+          "2024-04",
+          93
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Handel, Reparatur",
@@ -473,7 +473,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
