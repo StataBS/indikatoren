@@ -5,6 +5,10 @@
       "legendIndex": 6,
       "data": [
         [
+          "2012",
+          1378.2
+        ],
+        [
           "2013",
           1409
         ],
@@ -35,14 +39,6 @@
         [
           "2020",
           1209.3
-        ],
-        [
-          "2021",
-          1080.8
-        ],
-        [
-          "2022",
-          1078.7
         ]
       ],
       "name": "Schlachten, Fleischverarbeitung",
@@ -52,6 +48,10 @@
       "color": "#B00000",
       "legendIndex": 5,
       "data": [
+        [
+          "2012",
+          111.1
+        ],
         [
           "2013",
           103.5
@@ -83,14 +83,6 @@
         [
           "2020",
           123.9
-        ],
-        [
-          "2021",
-          114.7
-        ],
-        [
-          "2022",
-          106.9
         ]
       ],
       "name": "Fischverarbeitung",
@@ -100,6 +92,10 @@
       "color": "#FF8028",
       "legendIndex": 4,
       "data": [
+        [
+          "2012",
+          320.6
+        ],
         [
           "2013",
           312.3
@@ -131,14 +127,6 @@
         [
           "2020",
           327.1
-        ],
-        [
-          "2021",
-          305.2
-        ],
-        [
-          "2022",
-          313.7
         ]
       ],
       "name": "Herstellung Back- und Teigwaren",
@@ -148,6 +136,10 @@
       "color": "#FFBB58",
       "legendIndex": 3,
       "data": [
+        [
+          "2012",
+          196
+        ],
         [
           "2013",
           194.4
@@ -179,14 +171,6 @@
         [
           "2020",
           226.7
-        ],
-        [
-          "2021",
-          156.4
-        ],
-        [
-          "2022",
-          155.6
         ]
       ],
       "name": "Sonstige Nahrungsmittelindustrie",
@@ -333,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -47,10 +47,6 @@
         [
           2023,
           35.356314
-        ],
-        [
-          2024,
-          35.253096
         ]
       ],
       "name": "Wohnviertel Rosental"
@@ -101,10 +97,6 @@
         [
           2023,
           34.448117
-        ],
-        [
-          2024,
-          34.640122
         ]
       ],
       "name": "Bezirk Messe"
@@ -155,10 +147,6 @@
         [
           2023,
           36.815049
-        ],
-        [
-          2024,
-          36.247881
         ]
       ],
       "name": "Bezirk Erlenmatt"
@@ -289,7 +277,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

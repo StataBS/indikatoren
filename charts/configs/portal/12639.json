@@ -30,10 +30,6 @@
         [
           2023,
           6
-        ],
-        [
-          2024,
-          5.9
         ]
       ],
       "name": "Friedmatt"
@@ -68,10 +64,6 @@
         [
           2023,
           2.5
-        ],
-        [
-          2024,
-          2.4
         ]
       ],
       "name": "Kannenfeld"
@@ -106,10 +98,6 @@
         [
           2023,
           8.2
-        ],
-        [
-          2024,
-          7.8
         ]
       ],
       "name": "Landskron"
@@ -144,10 +132,6 @@
         [
           2023,
           5.8
-        ],
-        [
-          2024,
-          5.6
         ]
       ],
       "name": "Lysbüchel"
@@ -182,10 +166,6 @@
         [
           2023,
           4.5
-        ],
-        [
-          2024,
-          3.9
         ]
       ],
       "name": "Pestalozzi"
@@ -221,10 +201,6 @@
         [
           2023,
           5.1
-        ],
-        [
-          2024,
-          5
         ]
       ],
       "name": "Stadt Basel"
@@ -354,7 +330,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

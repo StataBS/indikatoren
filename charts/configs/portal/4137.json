@@ -83,10 +83,6 @@
         ],
         [
           2024,
-          151
-        ],
-        [
-          2025,
           null
         ]
       ],
@@ -175,11 +171,7 @@
         ],
         [
           2024,
-          null
-        ],
-        [
-          2025,
-          250
+          600
         ]
       ],
       "name": "Neubauprognose"
@@ -270,10 +262,6 @@
         ],
         [
           2024,
-          653
-        ],
-        [
-          2025,
           undefined
         ]
       ],
@@ -409,7 +397,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

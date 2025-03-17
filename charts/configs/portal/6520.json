@@ -4,6 +4,22 @@
       "color": "#FF8028",
       "data": [
         [
+          "2014-01",
+          10
+        ],
+        [
+          "2014-02",
+          14
+        ],
+        [
+          "2014-03",
+          8
+        ],
+        [
+          "2014-04",
+          17
+        ],
+        [
           "2015-01",
           24
         ],
@@ -146,22 +162,6 @@
         [
           "2023-04",
           23
-        ],
-        [
-          "2024-01",
-          16
-        ],
-        [
-          "2024-02",
-          13
-        ],
-        [
-          "2024-03",
-          8
-        ],
-        [
-          "2024-04",
-          16
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,6 +170,22 @@
     {
       "color": "#DC440E",
       "data": [
+        [
+          "2014-01",
+          727
+        ],
+        [
+          "2014-02",
+          699
+        ],
+        [
+          "2014-03",
+          867
+        ],
+        [
+          "2014-04",
+          768
+        ],
         [
           "2015-01",
           823
@@ -313,25 +329,9 @@
         [
           "2023-04",
           866
-        ],
-        [
-          "2024-01",
-          1145
-        ],
-        [
-          "2024-02",
-          1101
-        ],
-        [
-          "2024-03",
-          802
-        ],
-        [
-          "2024-04",
-          825
         ]
       ],
-      "name": "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
+      "name": "Beratung, Planung, Forschung, Immobilien, IT, sonst. DL",
       "turboThreshold": 0
     }
   ],
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

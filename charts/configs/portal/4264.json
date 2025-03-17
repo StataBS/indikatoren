@@ -17,96 +17,96 @@
       }
     },
     "events": {
-      "redraw": function updateStacks() {
-			//console.log(this.userOptions.series[0].stacking)
-
-			//only if plot-type is column and stacking = percent
-			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
-			  var chart = this,
-				H = Highcharts,
-				label,
-				bbox,
-				i, j=0;
-
-			  for (var stackName in chart.yAxis[0].stacks) {
-				i=0;
-				for (var itemName in chart.yAxis[0].stacks[stackName]) {
-					if (chart.yAxis[0].stacks[stackName][itemName].label){
-					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
-					  bbox = label.getBBox(true); // get label's bounding box
-					  
-					  //console.log(label);
-					  
-					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
-					  var max_labels;
-					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
-					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
-					  
-					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
-						  if (i % 2 != 0) label.hide(); //hide every second label
-						  if (this.userOptions.series[0].stacking == 'percent') {
-							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
-							  else label.translate(4)
-						  }
-					  }
-					  
-					  // if label is outside chart (left/right + 5), hide it
-					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
-						label.hide();
-					  }
-					}
-				  i++;
-				}
-				j++;
-			  }
-			}
+      "redraw": function updateStacks() {
+			//console.log(this.userOptions.series[0].stacking)
+
+			//only if plot-type is column and stacking = percent
+			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
+			  var chart = this,
+				H = Highcharts,
+				label,
+				bbox,
+				i, j=0;
+
+			  for (var stackName in chart.yAxis[0].stacks) {
+				i=0;
+				for (var itemName in chart.yAxis[0].stacks[stackName]) {
+					if (chart.yAxis[0].stacks[stackName][itemName].label){
+					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
+					  bbox = label.getBBox(true); // get label's bounding box
+					  
+					  //console.log(label);
+					  
+					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
+					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
+					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
+					  
+					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
+						  if (i % 2 != 0) label.hide(); //hide every second label
+						  if (this.userOptions.series[0].stacking == 'percent') {
+							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
+							  else label.translate(4)
+						  }
+					  }
+					  
+					  // if label is outside chart (left/right + 5), hide it
+					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
+						label.hide();
+					  }
+					}
+				  i++;
+				}
+				j++;
+			  }
+			}
 		},
-      "load": function () {
-								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
-								.css({
-									cursor: 'pointer'
-								})
-								.attr({
-									'padding': 0
-								})
-								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404", "Indikator-Details";
-								});
-						
-								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
-									verticalAlign: 'bottom',
-									x: 0,
-									y: 100
-								}), null, 'spacingBox');
-								
-								/*add tooltip to legend items
-								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
-									(function(i) {
-										var item = this.legend.allItems[i].legendItem;
-										item.on('mouseover', function (e) {
-											//show custom tooltip here
-											console.log("mouseover" + i);
-										}).on('mouseout', function (e) {
-											//hide tooltip
-											console.log("mouseout" + i);
-										});
-									})(i);
-								}*/
-
-								
-								/* remove link from credits */
-								if (this.credits) {
-									this.credits.element.onclick = function() {
-										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-									}
-								}
-								
-								//#added 20.04.2018, copied from JB
-								//for top-left legends with no x defined: move legend to x position of first yAxis
-								//if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-								this.legend.update({ x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding});
-				
+      "load": function () {
+								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
+								.css({
+									cursor: 'pointer'
+								})
+								.attr({
+									'padding': 0
+								})
+								.add().on('click',function(){
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404", "Indikator-Details";
+								});
+						
+								label.align(Highcharts.extend(label.getBBox(), {
+									align: 'left',
+									verticalAlign: 'bottom',
+									x: 0,
+									y: 100
+								}), null, 'spacingBox');
+								
+								/*add tooltip to legend items
+								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
+									(function(i) {
+										var item = this.legend.allItems[i].legendItem;
+										item.on('mouseover', function (e) {
+											//show custom tooltip here
+											console.log("mouseover" + i);
+										}).on('mouseout', function (e) {
+											//hide tooltip
+											console.log("mouseout" + i);
+										});
+									})(i);
+								}*/
+
+								
+								/* remove link from credits */
+								if (this.credits) {
+									this.credits.element.onclick = function() {
+										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+									}
+								}
+								
+								//#added 20.04.2018, copied from JB
+								//for top-left legends with no x defined: move legend to x position of first yAxis
+								//if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+								this.legend.update({ x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding});
+				
 							}
     }
   },
@@ -201,9 +201,9 @@
           "fontSize": "0.91666em",
           "color": "#000000"
         },
-        "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '';
+        "formatter": function () {
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
       "index": 0
