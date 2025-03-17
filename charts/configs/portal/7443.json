@@ -5,6 +5,10 @@
       "legendIndex": 9,
       "data": [
         [
+          "2012",
+          2195.5
+        ],
+        [
           "2013",
           2172
         ],
@@ -35,14 +39,6 @@
         [
           "2020",
           1939.3
-        ],
-        [
-          "2021",
-          1911.8
-        ],
-        [
-          "2022",
-          1871.4
         ]
       ],
       "name": "Waren verschiedener Art",
@@ -52,6 +48,10 @@
       "color": "#B00000",
       "legendIndex": 8,
       "data": [
+        [
+          "2012",
+          550.8
+        ],
         [
           "2013",
           599.4
@@ -83,14 +83,6 @@
         [
           "2020",
           490.3
-        ],
-        [
-          "2021",
-          514.3
-        ],
-        [
-          "2022",
-          535.1
         ]
       ],
       "name": "Nahrung, Getränke, Tabak",
@@ -100,6 +92,10 @@
       "color": "#DC440E",
       "legendIndex": 7,
       "data": [
+        [
+          "2012",
+          95.4
+        ],
         [
           "2013",
           107.6
@@ -131,14 +127,6 @@
         [
           "2020",
           87.5
-        ],
-        [
-          "2021",
-          86.9
-        ],
-        [
-          "2022",
-          53.9
         ]
       ],
       "name": "Tankstellen",
@@ -148,6 +136,10 @@
       "color": "#FF8028",
       "legendIndex": 6,
       "data": [
+        [
+          "2012",
+          323.7
+        ],
         [
           "2013",
           292.2
@@ -179,14 +171,6 @@
         [
           "2020",
           287.8
-        ],
-        [
-          "2021",
-          275.6
-        ],
-        [
-          "2022",
-          288.8
         ]
       ],
       "name": "Elektronikgeräte",
@@ -196,6 +180,10 @@
       "color": "#2E1435",
       "legendIndex": 5,
       "data": [
+        [
+          "2012",
+          564.5
+        ],
         [
           "2013",
           485.3
@@ -227,14 +215,6 @@
         [
           "2020",
           387.5
-        ],
-        [
-          "2021",
-          413.4
-        ],
-        [
-          "2022",
-          401.8
         ]
       ],
       "name": "Haushalt, Textil, Einrichtung",
@@ -244,6 +224,10 @@
       "color": "#662673",
       "legendIndex": 4,
       "data": [
+        [
+          "2012",
+          772.4
+        ],
         [
           "2013",
           701.6
@@ -275,14 +259,6 @@
         [
           "2020",
           586.5
-        ],
-        [
-          "2021",
-          570.8
-        ],
-        [
-          "2022",
-          593.4
         ]
       ],
       "name": "Bücher, Sport, Spielwaren",
@@ -292,6 +268,10 @@
       "color": "#923F8D",
       "legendIndex": 3,
       "data": [
+        [
+          "2012",
+          1307.7
+        ],
         [
           "2013",
           1295.9
@@ -323,14 +303,6 @@
         [
           "2020",
           819.9
-        ],
-        [
-          "2021",
-          836.7
-        ],
-        [
-          "2022",
-          843.2
         ]
       ],
       "name": "Kleider, Schuhe, Lederwaren",
@@ -340,6 +312,10 @@
       "color": "#B375AB",
       "legendIndex": 2,
       "data": [
+        [
+          "2012",
+          848.6
+        ],
         [
           "2013",
           872.4
@@ -371,14 +347,6 @@
         [
           "2020",
           788.9
-        ],
-        [
-          "2021",
-          807
-        ],
-        [
-          "2022",
-          816.8
         ]
       ],
       "name": "Apotheken, Kosmetik",
@@ -388,6 +356,10 @@
       "color": "#E7CEE2",
       "legendIndex": 1,
       "data": [
+        [
+          "2012",
+          256
+        ],
         [
           "2013",
           236.9
@@ -419,14 +391,6 @@
         [
           "2020",
           167.9
-        ],
-        [
-          "2021",
-          155.6
-        ],
-        [
-          "2022",
-          140
         ]
       ],
       "name": "Uhren und Schmuck",
@@ -436,6 +400,10 @@
       "color": "#C9D6DB",
       "legendIndex": 0,
       "data": [
+        [
+          "2012",
+          756.3
+        ],
         [
           "2013",
           771
@@ -467,14 +435,6 @@
         [
           "2020",
           675.1
-        ],
-        [
-          "2021",
-          674
-        ],
-        [
-          "2022",
-          673.1
         ]
       ],
       "name": "Sonstiger Detailhandel",
@@ -623,7 +583,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

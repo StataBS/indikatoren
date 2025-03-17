@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt GB",
-          100
+          102
         ],
         [
           "Vorstädte",
-          -31
+          73
         ],
         [
           "Am Ring",
-          256
+          215
         ],
         [
           "Breite",
-          329
+          320
         ],
         [
           "St. Alban",
-          751
+          780
         ],
         [
           "Gundeldingen",
-          631
+          459
         ],
         [
           "Bruderholz",
-          170
+          160
         ],
         [
           "Bachletten",
-          117
+          116
         ],
         [
           "Gotthelf",
-          104
+          100
         ],
         [
           "Iselin",
-          628
+          672
         ],
         [
           "St. Johann",
-          593
+          543
         ],
         [
           "Altstadt KB",
-          114
+          55
         ],
         [
           "Clara",
-          298
+          319
         ],
         [
           "Wettstein",
-          91
+          187
         ],
         [
           "Hirzbrunnen",
-          540
+          533
         ],
         [
           "Rosental",
-          1261
+          1325
         ],
         [
           "Matthäus",
-          113
+          98
         ],
         [
           "Klybeck",
-          150
+          147
         ],
         [
           "Kleinhüningen",
-          206
+          193
         ],
         [
           "Riehen",
-          762
+          760
         ],
         [
           "Bettingen",
-          50
+          61
         ]
       ],
-      "name": "Nettoproduktion 2015 bis 2024",
+      "name": "Nettoproduktion 2014 bis 2023",
       "turboThreshold": 0
     }
   ],

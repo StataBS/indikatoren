@@ -4,6 +4,10 @@
       "color": "#A8C3CA",
       "data": [
         [
+          "2010",
+          7467
+        ],
+        [
           "2012",
           7411
         ],
@@ -22,10 +26,6 @@
         [
           "2020",
           7927
-        ],
-        [
-          "2022",
-          8412
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -34,6 +34,10 @@
     {
       "color": "#008AC3",
       "data": [
+        [
+          "2010",
+          8673
+        ],
         [
           "2012",
           8323
@@ -53,10 +57,6 @@
         [
           "2020",
           8807
-        ],
-        [
-          "2022",
-          8635
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -65,6 +65,10 @@
     {
       "color": "#6F6F6F",
       "data": [
+        [
+          "2010",
+          6173
+        ],
         [
           "2012",
           6187
@@ -84,10 +88,6 @@
         [
           "2020",
           6470
-        ],
-        [
-          "2022",
-          6587
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -96,6 +96,10 @@
     {
       "color": "#662673",
       "data": [
+        [
+          "2010",
+          5936
+        ],
         [
           "2012",
           5922
@@ -115,10 +119,6 @@
         [
           "2020",
           6306
-        ],
-        [
-          "2022",
-          6489
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -257,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

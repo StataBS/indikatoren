@@ -5,6 +5,22 @@
       "index": 1,
       "data": [
         [
+          "2014-01",
+          718
+        ],
+        [
+          "2014-02",
+          548
+        ],
+        [
+          "2014-03",
+          715
+        ],
+        [
+          "2014-04",
+          663
+        ],
+        [
           "2015-01",
           745
         ],
@@ -147,22 +163,6 @@
         [
           "2023-04",
           674
-        ],
-        [
-          "2024-01",
-          770
-        ],
-        [
-          "2024-02",
-          742
-        ],
-        [
-          "2024-03",
-          657
-        ],
-        [
-          "2024-04",
-          682
         ]
       ],
       "name": "Frauen",
@@ -172,6 +172,22 @@
       "color": "#008AC3",
       "index": 1,
       "data": [
+        [
+          "2014-01",
+          1095
+        ],
+        [
+          "2014-02",
+          1011
+        ],
+        [
+          "2014-03",
+          1284
+        ],
+        [
+          "2014-04",
+          1221
+        ],
         [
           "2015-01",
           1193
@@ -315,22 +331,6 @@
         [
           "2023-04",
           1007
-        ],
-        [
-          "2024-01",
-          1288
-        ],
-        [
-          "2024-02",
-          1080
-        ],
-        [
-          "2024-03",
-          956
-        ],
-        [
-          "2024-04",
-          1034
         ]
       ],
       "name": "Männer",
@@ -468,7 +468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -47,10 +47,6 @@
         [
           2023,
           32.9
-        ],
-        [
-          2024,
-          32.9
         ]
       ],
       "name": "Stadt Basel"
@@ -102,10 +98,6 @@
         [
           2023,
           24.6
-        ],
-        [
-          2024,
-          24.4
         ]
       ],
       "name": "St. Johann"
@@ -155,10 +147,6 @@
         ],
         [
           2023,
-          3.1
-        ],
-        [
-          2024,
           3.1
         ]
       ],
@@ -210,10 +198,6 @@
         [
           2023,
           25.1
-        ],
-        [
-          2024,
-          24.7
         ]
       ],
       "name": "Kannenfeld"
@@ -264,10 +248,6 @@
         [
           2023,
           2.7
-        ],
-        [
-          2024,
-          2.5
         ]
       ],
       "name": "Landskron"
@@ -318,10 +298,6 @@
         [
           2023,
           1.7
-        ],
-        [
-          2024,
-          1.7
         ]
       ],
       "name": "Lysbüchel"
@@ -371,10 +347,6 @@
         ],
         [
           2023,
-          60.7
-        ],
-        [
-          2024,
           60.7
         ]
       ],
@@ -513,7 +485,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

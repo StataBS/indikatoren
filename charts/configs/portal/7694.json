@@ -35,10 +35,6 @@
         [
           2023,
           457
-        ],
-        [
-          2024,
-          426
         ]
       ],
       "name": "Bezüger Messe"
@@ -78,10 +74,6 @@
         [
           2023,
           18
-        ],
-        [
-          2024,
-          22
         ]
       ],
       "name": "Bezüger Erlenmatt"
@@ -121,10 +113,6 @@
         [
           2023,
           9.7
-        ],
-        [
-          2024,
-          9.1
         ]
       ],
       "name": "Sozialhilfequote Messe"
@@ -164,10 +152,6 @@
         [
           2023,
           0.6
-        ],
-        [
-          2024,
-          0.7
         ]
       ],
       "name": "Sozialhilfequote Erlenmatt"
@@ -207,10 +191,6 @@
         [
           2023,
           5.1
-        ],
-        [
-          2024,
-          5
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -366,7 +346,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -423,7 +423,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen"
+    "text": "Ausländische Erwerbstätige in der Branche \u003Cbr\u003EIT-Dienstleistungen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -484,7 +484,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "shared": true,

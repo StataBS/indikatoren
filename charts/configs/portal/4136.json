@@ -66,10 +66,6 @@
         [
           2023,
           11
-        ],
-        [
-          2024,
-          280
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -140,10 +136,6 @@
         [
           2023,
           40
-        ],
-        [
-          2024,
-          98
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -214,10 +206,6 @@
         [
           2023,
           -28
-        ],
-        [
-          2024,
-          16
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -288,10 +276,6 @@
         [
           2023,
           129
-        ],
-        [
-          2024,
-          45
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -362,10 +346,6 @@
         [
           2023,
           -3
-        ],
-        [
-          2024,
-          -2
         ]
       ],
       "name": "Zweckentfremdungen von Wohnungen"
@@ -444,10 +424,6 @@
         [
           2023,
           140
-        ],
-        [
-          2024,
-          437
         ]
       ],
       "name": "Umbausaldo"

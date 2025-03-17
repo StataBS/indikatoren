@@ -1054,7 +1054,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen"
+    "text": "Arbeitslose und Arbeitslosenquote in der Branche \u003Cbr\u003EIT-Dienstleistungen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -1128,7 +1128,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

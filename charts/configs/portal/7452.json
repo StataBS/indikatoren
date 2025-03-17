@@ -5,6 +5,10 @@
       "legendIndex": 2,
       "data": [
         [
+          "2012",
+          1249.6
+        ],
+        [
           "2013",
           1281.6
         ],
@@ -35,14 +39,6 @@
         [
           "2020",
           1331.6
-        ],
-        [
-          "2021",
-          1485.3
-        ],
-        [
-          "2022",
-          1783.2
         ]
       ],
       "name": "Programmierungstätigkeiten",
@@ -52,6 +48,10 @@
       "color": "#689199",
       "legendIndex": 1,
       "data": [
+        [
+          "2012",
+          1236.1
+        ],
         [
           "2013",
           1264.2
@@ -83,14 +83,6 @@
         [
           "2020",
           1142.6
-        ],
-        [
-          "2021",
-          1207.2
-        ],
-        [
-          "2022",
-          1384.2
         ]
       ],
       "name": "IT-Beratung",
@@ -100,6 +92,10 @@
       "color": "#D3E2E4",
       "legendIndex": 0,
       "data": [
+        [
+          "2012",
+          129.9
+        ],
         [
           "2013",
           154.3
@@ -131,14 +127,6 @@
         [
           "2020",
           197
-        ],
-        [
-          "2021",
-          226.5
-        ],
-        [
-          "2022",
-          240.2
         ]
       ],
       "name": "Sonstige",
@@ -286,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
