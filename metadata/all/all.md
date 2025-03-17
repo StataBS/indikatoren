@@ -2020,10 +2020,10 @@ id | visible | visibleInPortal | indikatorenset
 9220 | true | false | Arbeitsmarkt
 9221 | true | false | Arbeitsmarkt
 9222 | true | true | Arbeitsmarkt
-9223 | true | false | Arbeitsmarkt
-9224 | true | false | Arbeitsmarkt
-9225 | true | true | Arbeitsmarkt
-9226 | true | true | Arbeitsmarkt
+9223 | false |  | Arbeitsmarkt
+9224 | false |  | Arbeitsmarkt
+9225 | false |  | Arbeitsmarkt
+9226 | false |  | Arbeitsmarkt
 9232 | true | false | Arbeitsmarkt (Print)
 9233 | true | false | Arbeitsmarkt (Print)
 9234 | true | false | Arbeitsmarkt (Print)
@@ -2245,10 +2245,10 @@ id | visible | visibleInPortal | indikatorenset
 9739 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
-9750 | true | false | Arbeitsmarkt
-9751 | true | false | Arbeitsmarkt
-9752 | true | false | Arbeitsmarkt
-9753 | true | false | Arbeitsmarkt
+9750 | false |  | Arbeitsmarkt
+9751 | false |  | Arbeitsmarkt
+9752 | false |  | Arbeitsmarkt
+9753 | false |  | Arbeitsmarkt
 9754 | true | false | Arbeitsmarkt
 9755 | true | false | Arbeitsmarkt
 9756 | false |  | Arbeitsmarkt
