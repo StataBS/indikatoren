@@ -199,7 +199,7 @@
           1292159459
         ]
       ],
-      "name": "Ertrag 2021",
+      "name": "Ertrag Basel-Stadt 2012 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -299,7 +299,7 @@
           28245169
         ]
       ],
-      "name": "Ertrag Kt. BS 2012 (rechte Skala)",
+      "name": "Ertrag 2021",
       "turboThreshold": 0
     },
     {
@@ -401,7 +401,7 @@
           1699447294
         ]
       ],
-      "name": "Ertrag Kt. BS 2021 (rechte Skala)",
+      "name": "Ertrag Basel-Stadt 2021 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -545,7 +545,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
