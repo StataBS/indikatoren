@@ -5004,7 +5004,7 @@
         ],
         [
           1733702400000,
-          4
+          5
         ],
         [
           1734307200000,
@@ -5044,7 +5044,7 @@
         ],
         [
           1739750400000,
-          null
+          2
         ],
         [
           1740355200000,
@@ -11575,7 +11575,7 @@
         {
           "x": 1745193600000,
           "low": 0,
-          "high": 10.3
+          "high": 10.4
         },
         {
           "x": 1745798400000,
@@ -11595,7 +11595,7 @@
         {
           "x": 1747612800000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1748217600000,
@@ -11640,7 +11640,7 @@
         {
           "x": 1753056000000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1753660800000,
@@ -11695,12 +11695,12 @@
         {
           "x": 1759708800000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1760313600000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1760918400000,
@@ -16792,15 +16792,15 @@
         ],
         [
           1738540800000,
-          32
+          34
         ],
         [
           1739145600000,
-          37
+          38
         ],
         [
           1739750400000,
-          null
+          37
         ],
         [
           1740355200000,
@@ -23530,7 +23530,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1744961985930,
+    "max": 1745510064201,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -23671,7 +23671,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
