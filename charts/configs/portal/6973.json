@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.10731248976354875,
-          "Anzahl": 12449
+          "y": 0.10967758527573702,
+          "Anzahl": 12794
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2398131147258355,
-          "Anzahl": 27820
+          "y": 0.23973219260872175,
+          "Anzahl": 27965
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36708129681829543,
-          "Anzahl": 42584
+          "y": 0.36572339714190194,
+          "Anzahl": 42662
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17262751385692243,
-          "Anzahl": 20026
+          "y": 0.17213740130817567,
+          "Anzahl": 20080
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06195315799908626,
-          "Anzahl": 7187
+          "y": 0.06170542901475341,
+          "Anzahl": 7198
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0512124268363116,
-          "Anzahl": 5941
+          "y": 0.05102399465071024,
+          "Anzahl": 5952
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.1175121080805506,
-          "Anzahl": 461
+          "y": 0.1181702668360864,
+          "Anzahl": 465
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.3510068824878919,
-          "Anzahl": 1377
+          "y": 0.35324015247776364,
+          "Anzahl": 1390
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.36808564873821054,
+          "y": 0.36696315120711565,
           "Anzahl": 1444
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.1274534794799898,
-          "Anzahl": 500
+          "y": 0.12655654383735704,
+          "Anzahl": 498
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.028549579403517714,
-          "Anzahl": 112
+          "y": 0.02770012706480305,
+          "Anzahl": 109
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.007392301809839409,
+          "y": 0.007369758576874206,
           "Anzahl": 29
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Klybeck, 2023",
+    "text": "Klybeck, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -217,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.9.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "pointFormatter": function(){

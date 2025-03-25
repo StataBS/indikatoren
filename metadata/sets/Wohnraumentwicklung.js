@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:23",
+		"aktualisierungsdatum": "2025-03-25T08:33:14",
 		"id": 4131
 	},
 	{
@@ -244,7 +244,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 007 im Jahr 2023 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,1% auf 7 181 bzw. +12,5% auf 27 820), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,3% auf 457).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 651 im Jahr 2024 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,3% auf 7 198 bzw. +13,1% auf 27 965), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,5% auf 5 952).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -269,7 +269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:27",
+		"aktualisierungsdatum": "2025-03-25T08:33:21",
 		"id": 4133
 	},
 	{
@@ -280,8 +280,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 sind die Wohnungen zwischen 70 und 99 Quadratmetern Wohnfläche am zahlreichsten (34%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 63% aus.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 sind die Wohnungen zwischen 70 und 99 Quadratmetern Wohnfläche am zahlreichsten (34%). 29% der Wohnungen weisen eine Wohnfläche zwischen 50 und 69 Quadratmetern auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -306,7 +306,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:27",
+		"aktualisierungsdatum": "2025-03-25T08:33:22",
 		"id": 4134
 	},
 	{
@@ -324,7 +324,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2023 bei 865 Einheiten; dies vor allem dank  hoher Neubauproduktion und Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -349,7 +349,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:28",
+		"aktualisierungsdatum": "2025-03-25T08:33:23",
 		"id": 4135
 	},
 	{
@@ -363,7 +363,7 @@ var indikatorensetData = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014 und 2019 bis 2022 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019 und 2021 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021 und 2024 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -388,7 +388,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:29",
+		"aktualisierungsdatum": "2025-03-25T08:33:24",
 		"id": 4136
 	},
 	{
@@ -402,8 +402,8 @@ var indikatorensetData = [
 		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 778 Einheiten war die Neubauproduktion 2023 wiederum hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
-		"erlaeuterungen": "Berücksichtigt werden nur neuerstellte Wohnungen in Neubauten. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
+		"lesehilfe": "Mit 151 Wohnungen war die Neubauproduktion 2024 sehr niedrig. Sie erreichte weniger als einen Viertel des neuen, gesunkenen Zehnjahresdurchschnitts von 653.",
+		"erlaeuterungen": "Berücksichtigt werden nur neuerstellte Wohnungen in Neubauten. Neue Wohnungen aus Umbauten werden nicht gezählt. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer erstellt. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der letzten zehn Jahre (ohne Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -427,7 +427,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:29",
+		"aktualisierungsdatum": "2025-03-25T08:33:25",
 		"id": 4137
 	},
 	{
@@ -521,7 +521,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2024 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -547,7 +547,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:31",
+		"aktualisierungsdatum": "2025-03-25T08:33:26",
 		"id": 4140
 	},
 	{
@@ -633,7 +633,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 11 461 Genossenschaftswohnungen, welche 2023 im Kanton bewohnt sind, entsprechen einem Anteil am Gesamtbestand von gut 11%.",
+		"lesehilfe": "Die 11 610 Genossenschaftswohnungen, welche 2024 im Kanton bewohnt sind, entsprechen einem Anteil am Gesamtbestand von gut 11%.",
 		"erlaeuterungen": "Berücksichtigt werden Wohnungen, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -658,7 +658,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:34",
+		"aktualisierungsdatum": "2025-03-25T08:33:27",
 		"id": 4143
 	},
 	{
@@ -734,7 +734,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:34",
+		"aktualisierungsdatum": "2025-03-25T08:33:28",
 		"id": 4145
 	},
 	{
@@ -746,7 +746,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Bis 2022 war ein leichter Rückgang zu verzeichnen. 2023 hat sich der Anteil stabilisiert.",
+		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seit 2015 wird ein leichter Rückgang verzeichnet.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -771,7 +771,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:35",
+		"aktualisierungsdatum": "2025-03-25T08:33:29",
 		"id": 4146
 	},
 	{

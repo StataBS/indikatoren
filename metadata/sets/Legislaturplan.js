@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2024 wurden 24 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:03",
+		"aktualisierungsdatum": "2025-03-25T08:33:34",
 		"id": 11788
 	},
 	{
@@ -654,11 +654,11 @@ var indikatorensetData = [
 		],
 		"title": "Treibhausgas-Emissionen",
 		"subtitle": "in Tonnen CO<sub>2</sub>-Äquivalente pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2020 bei 3,3 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf. Das Reduktionsziel (Netto-Null bis 2037) und der Zielpfad sind in der <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a> festgelegt.",
+		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2022 bei 3,1 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf. Das Reduktionsziel (Netto-Null bis 2037) und der Zielpfad sind in der <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a> festgelegt.",
 		"erlaeuterungen": "Direkte Emissionen (sog. Scope 1) sind CO<sub>2</sub>-Emissionen auf dem Kantonsgebiet (Territorialprinzip), die durch das Verbrennen von fossilen Energieträgern wie Heizöl, Erdgas, Benzin und Diesel sowie bei der thermischen Verwertung von Abfällen (Kehricht und Industrieabfälle) entstehen. Weitere direkte Treibhausgasemissionen (in t CO<sub>2</sub>eq) umfassen insbesondere F-Gas-Emissionen in der Industrie, Methanemissionen aus dem Erdgasverteilnetz und Lachgasemissionen aus der Abwasserreinigung.<br>Insgesamt sinken die Treibhausgasemissionen im Netto-Null-Absenkpfad um 87% im Vergleich zu 2020 und umfassen im Jahr 2037 noch 88 000 Tonnen CO<sub>2</sub>eq. Diese restlichen, schwer vermeidbaren Emissionen umfassen Emissionen aus der Mobilität, der Entsorgung und nicht-energiebedingte Emissionen. Für den Netto-Null Absenkpfad wird davon ausgegangen, dass 2037 eine Carbon Capture and Storage (CCS) Anlage zur Abscheidung von CO<sub>2</sub> an der Kehrichtverbrennungsanlage in Betrieb gehen wird, sofern dies technisch und wirtschaftlich machbar ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik",
-			"Kimaschutzstrategie Kanton Basel-Stadt"
+			"Klimaschutzstrategie Kanton Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.htm' target = '_blank'>Klimaschutzstrategie Basel-Stadt</a>"
@@ -682,7 +682,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-19T08:04:33",
+		"aktualisierungsdatum": "2025-03-25T08:33:33",
 		"id": 6165
 	},
 	{
@@ -1573,7 +1573,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:37",
+		"aktualisierungsdatum": "2025-03-25T08:33:31",
 		"id": 9384
 	},
 	{
@@ -1785,8 +1785,8 @@ var indikatorensetData = [
 			9448
 		],
 		"title": "Elektroautos",
-		"subtitle": "neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2011 von 0,2% auf 25,5% (2023) zugenommen.",
+		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2011 von 0,2% auf 23,8% (2024) zugenommen.",
 		"erlaeuterungen": "In der Kategorie der Elektrofahrzeuge werden hier neben den rein elektrisch betriebenen Fahrzeugen auch Plug-in-Hybride berücksichtigt, deren Akku sowohl über den Verbrennungsmotor als auch mit einem Stecker am Stromnetz geladen werden kann. Wasserstoffautos werden von einem Elektromotor angetrieben, deshalb zählen auch sie zu den Elektrofahrzeugen. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Halterinnen und Haltern, die an diesem Stichtag Wohnsitz im Kanton hatten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -1811,7 +1811,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T08:39:31",
+		"aktualisierungsdatum": "2025-03-25T08:33:35",
 		"id": 9391
 	},
 	{

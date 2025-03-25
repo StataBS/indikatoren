@@ -84,11 +84,11 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Treibhausgas-Emissionen",
 		"subtitle": "in Tonnen CO<sub>2</sub>-Äquivalente pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2020 bei 3,3 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf. Das Reduktionsziel (Netto-Null bis 2037) und der Zielpfad sind in der <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a> festgelegt.",
+		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2022 bei 3,1 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf. Das Reduktionsziel (Netto-Null bis 2037) und der Zielpfad sind in der <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a> festgelegt.",
 		"erlaeuterungen": "Direkte Emissionen (sog. Scope 1) sind CO<sub>2</sub>-Emissionen auf dem Kantonsgebiet (Territorialprinzip), die durch das Verbrennen von fossilen Energieträgern wie Heizöl, Erdgas, Benzin und Diesel sowie bei der thermischen Verwertung von Abfällen (Kehricht und Industrieabfälle) entstehen. Weitere direkte Treibhausgasemissionen (in t CO<sub>2</sub>eq) umfassen insbesondere F-Gas-Emissionen in der Industrie, Methanemissionen aus dem Erdgasverteilnetz und Lachgasemissionen aus der Abwasserreinigung.<br>Insgesamt sinken die Treibhausgasemissionen im Netto-Null-Absenkpfad um 87% im Vergleich zu 2020 und umfassen im Jahr 2037 noch 88 000 Tonnen CO<sub>2</sub>eq. Diese restlichen, schwer vermeidbaren Emissionen umfassen Emissionen aus der Mobilität, der Entsorgung und nicht-energiebedingte Emissionen. Für den Netto-Null Absenkpfad wird davon ausgegangen, dass 2037 eine Carbon Capture and Storage (CCS) Anlage zur Abscheidung von CO<sub>2</sub> an der Kehrichtverbrennungsanlage in Betrieb gehen wird, sofern dies technisch und wirtschaftlich machbar ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik",
-			"Kimaschutzstrategie Kanton Basel-Stadt"
+			"Klimaschutzstrategie Kanton Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.htm' target = '_blank'>Klimaschutzstrategie Basel-Stadt</a>"
@@ -112,7 +112,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:16",
+		"aktualisierungsdatum": "2025-03-25T08:34:16",
 		"id": 11901
 	},
 	{
@@ -161,7 +161,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2024 wurden 24 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -188,7 +188,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:34",
+		"aktualisierungsdatum": "2025-03-25T08:34:17",
 		"id": 11903
 	},
 	{
@@ -992,7 +992,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:24",
+		"aktualisierungsdatum": "2025-03-25T08:34:18",
 		"id": 5816
 	},
 	{
@@ -1006,8 +1006,8 @@ var indikatorensetData = [
 			7597
 		],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2023",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 18% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2024",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 17% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Wohnungsbestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1032,7 +1032,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:28",
+		"aktualisierungsdatum": "2025-03-25T08:34:19",
 		"id": 5817
 	},
 	{

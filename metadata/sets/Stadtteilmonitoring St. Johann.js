@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Wohnviertel St. Johann",
-		"lesehilfe": "Im Wohnviertel St. Johann kamen 2023 73 Wohnungen neu hinzu (Umbausaldo). Insbesondere Umnutzungen gewerblich genutzter Objekte in Wohnungen sowie Ausbauten trugen dazu bei.",
+		"lesehilfe": "Im Wohnviertel St. Johann kamen 2024 weniger Wohnungen durch Umbau neu hinzu als im Vorjahr.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -812,7 +812,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:21",
+		"aktualisierungsdatum": "2025-03-25T08:33:30",
 		"id": 12630
 	},
 	{

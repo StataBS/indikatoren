@@ -5,87 +5,87 @@
       "data": [
         [
           "Bettingen",
-          0.1251015435
+          0.131255127153404
         ],
         [
           "Bruderholz",
-          0.1434469617
+          0.143158783783784
         ],
         [
           "Riehen",
-          0.1663577596
+          0.166014834794336
         ],
         [
           "Hirzbrunnen",
-          0.1975913887
-        ],
-        [
-          "Kleinhüningen",
-          0.2133580705
+          0.198215223097113
         ],
         [
           "Bachletten",
-          0.2156153051
+          0.216490299823633
+        ],
+        [
+          "Kleinhüningen",
+          0.220111731843575
         ],
         [
           "St. Alban",
-          0.229033064
+          0.226314494299073
         ],
         [
           "Rosental",
-          0.2345162596
+          0.231960150780829
         ],
         [
           "St. Johann",
-          0.2372414538
+          0.239284183454779
         ],
         [
           "Klybeck",
-          0.2501834189
+          0.249207721117833
         ],
         [
           "Wettstein",
-          0.2664023071
+          0.265683312599964
         ],
         [
           "Am Ring",
-          0.2701050621
+          0.268872320596459
         ],
         [
           "Iselin",
-          0.2778893031
+          0.271183591123067
         ],
         [
           "Matthäus",
-          0.2785967786
+          0.279141932002159
         ],
         [
           "Breite",
-          0.2830188679
+          0.283521543690385
         ],
         [
           "Gotthelf",
-          0.2914079422
+          0.291994844622655
         ],
         [
           "Gundeldingen",
-          0.2925081433
+          0.294670347170613
         ],
         [
           "Clara",
-          0.3059194566
-        ],
-        [
-          "Vorstädte",
-          0.3193005181
+          0.311585512113217
         ],
         [
           "Altstadt Grossbasel",
-          0.3342709798
+          0.326806526806527
+        ],
+        [
+          "Vorstädte",
+          0.326923076923077
         ],
         [
           "Altstadt Kleinbasel",
-          0.3525054466
+          0.356830122591944
         ]
       ],
       "name": "Anteil Personen in Einpersonenhh",
@@ -111,11 +111,11 @@
           4
         ],
         [
-          "Kleinhüningen",
+          "Bachletten",
           5
         ],
         [
-          "Bachletten",
+          "Kleinhüningen",
           6
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           19
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           20
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "legend": {
     "enabled": false,

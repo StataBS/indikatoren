@@ -6,10 +6,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "2014",
-          3260
-        ],
-        [
           "2015",
           3408
         ],
@@ -39,7 +35,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "2022",
@@ -47,6 +43,10 @@
         ],
         [
           "2023",
+          null
+        ],
+        [
+          "2024",
           null
         ]
       ],
@@ -59,10 +59,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2014",
-          null
-        ],
-        [
           "2015",
           null
         ],
@@ -92,7 +88,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "2022",
@@ -101,6 +97,10 @@
         [
           "2023",
           3629
+        ],
+        [
+          "2024",
+          4071
         ]
       ],
       "name": "Kitas mit Betreuungsbeiträgen",
@@ -111,63 +111,6 @@
       "index": 11,
       "legendIndex": 2,
       "data": [
-        [
-          "2014",
-          null
-        ],
-        [
-          "2015",
-          null
-        ],
-        [
-          "2016",
-          null
-        ],
-        [
-          "2017",
-          null
-        ],
-        [
-          "2018",
-          null
-        ],
-        [
-          "2019",
-          null
-        ],
-        [
-          "2020",
-          null
-        ],
-        [
-          "2021",
-          null
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2022",
-          633
-        ],
-        [
-          "2023",
-          508
-        ]
-      ],
-      "name": "Kitas ohne Betreuungsbeiträge",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 9,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2014",
-          501
-        ],
         [
           "2015",
           492
@@ -198,7 +141,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "2022",
@@ -207,9 +150,66 @@
         [
           "2023",
           311
+        ],
+        [
+          "2024",
+          315
         ]
       ],
-      "name": "Firmenkitas ohne Betreuungsbeiträge",
+      "name": "Firmenkitas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 9,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022",
+          633
+        ],
+        [
+          "2023",
+          508
+        ],
+        [
+          "2024",
+          176
+        ]
+      ],
+      "name": "Kitas ohne Betreuungsbeiträge",
       "turboThreshold": 0
     }
   ],
@@ -352,7 +352,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

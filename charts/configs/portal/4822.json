@@ -8,11 +8,11 @@
           0.012
         ],
         [
-          "Altstadt Grossbasel",
-          0.015
+          "Bettingen",
+          0.017
         ],
         [
-          "Bachletten",
+          "Altstadt Grossbasel",
           0.018
         ],
         [
@@ -20,27 +20,27 @@
           0.019
         ],
         [
-          "St. Alban",
-          0.023
+          "Bachletten",
+          0.019
         ],
         [
-          "Bettingen",
-          0.024
+          "St. Alban",
+          0.022
         ],
         [
           "Riehen",
-          0.025
+          0.026
         ],
         [
           "Am Ring",
           0.026
         ],
         [
-          "Vorstädte",
-          0.03
+          "Gotthelf",
+          0.032
         ],
         [
-          "Gotthelf",
+          "Vorstädte",
           0.032
         ],
         [
@@ -49,43 +49,43 @@
         ],
         [
           "Breite",
-          0.042
+          0.04
         ],
         [
           "Gundeldingen",
-          0.046
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.053
+          0.048
         ],
         [
           "Clara",
-          0.054
+          0.053
         ],
         [
-          "St. Johann",
-          0.061
+          "Altstadt Kleinbasel",
+          0.055
         ],
         [
           "Rosental",
-          0.061
+          0.058
+        ],
+        [
+          "St. Johann",
+          0.058
         ],
         [
           "Iselin",
-          0.071
+          0.066
         ],
         [
           "Matthäus",
-          0.083
+          0.077
         ],
         [
           "Klybeck",
-          0.098
+          0.091
         ],
         [
           "Kleinhüningen",
-          0.098
+          0.092
         ]
       ],
       "name": "Sozialhilfequote",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Altstadt Grossbasel",
+          "Bettingen",
           2
         ],
         [
-          "Bachletten",
+          "Altstadt Grossbasel",
           3
         ],
         [
@@ -111,11 +111,11 @@
           4
         ],
         [
-          "St. Alban",
+          "Bachletten",
           5
         ],
         [
-          "Bettingen",
+          "St. Alban",
           6
         ],
         [
@@ -127,11 +127,11 @@
           8
         ],
         [
-          "Vorstädte",
+          "Gotthelf",
           9
         ],
         [
-          "Gotthelf",
+          "Vorstädte",
           10
         ],
         [
@@ -147,19 +147,19 @@
           13
         ],
         [
-          "Altstadt Kleinbasel",
+          "Clara",
           14
         ],
         [
-          "Clara",
+          "Altstadt Kleinbasel",
           15
         ],
         [
-          "St. Johann",
+          "Rosental",
           16
         ],
         [
-          "Rosental",
+          "St. Johann",
           17
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "legend": {
     "enabled": false,

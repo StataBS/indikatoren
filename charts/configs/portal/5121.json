@@ -3238,7 +3238,7 @@
       "data": [
         [
           18,
-          33.007923
+          33.000293
         ],
         [
           19,
@@ -3246,71 +3246,71 @@
         ],
         [
           16,
-          35.356314
+          35.380296
         ],
         [
           11,
-          36.766227
+          36.777447
         ],
         [
           17,
-          36.807261
+          36.827986
         ],
         [
           10,
-          37.176426
+          37.22344
         ],
         [
           13,
-          38.192867
+          38.216642
         ],
         [
           15,
-          39.291271
+          39.278162
         ],
         [
           4,
-          39.351498
+          39.414367
         ],
         [
           6,
-          39.418566
+          39.42054
         ],
         [
           9,
-          41.311624
+          41.346443
         ],
         [
           12,
-          43.799128
+          43.74074
         ],
         [
           3,
-          44.907467
+          44.921115
         ],
         [
           14,
-          45.504145
+          45.503785
         ],
         [
           8,
-          46.042694
+          46.038589
         ],
         [
           5,
-          46.780812
+          46.79472
         ],
         [
           20,
-          46.939378
+          46.944487
         ],
         [
           7,
-          48.069764
+          48.099438
         ],
         [
           2,
-          50.651554
+          50.682073
         ],
         [
           30,
@@ -3318,7 +3318,7 @@
         ],
         [
           1,
-          53.671354
+          53.690107
         ]
       ]
     },
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "colorAxis": {
     "min": undefined,

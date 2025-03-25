@@ -5,7 +5,7 @@
       "data": [
         [
           "Klybeck",
-          33.007923
+          33.000293
         ],
         [
           "Kleinhüningen",
@@ -13,71 +13,71 @@
         ],
         [
           "Rosental",
-          35.356314
+          35.380296
         ],
         [
           "St. Johann",
-          36.766227
+          36.777447
         ],
         [
           "Matthäus",
-          36.807261
+          36.827986
         ],
         [
           "Iselin",
-          37.176426
+          37.22344
         ],
         [
           "Clara",
-          38.192867
+          38.216642
         ],
         [
           "Hirzbrunnen",
-          39.291271
+          39.278162
         ],
         [
           "Breite",
-          39.351498
+          39.414367
         ],
         [
           "Gundeldingen",
-          39.418566
+          39.42054
         ],
         [
           "Gotthelf",
-          41.311624
+          41.346443
         ],
         [
           "Altstadt Kleinbasel",
-          43.799128
+          43.74074
         ],
         [
           "Am Ring",
-          44.907467
+          44.921115
         ],
         [
           "Wettstein",
-          45.504145
+          45.503785
         ],
         [
           "Bachletten",
-          46.042694
+          46.038589
         ],
         [
           "St. Alban",
-          46.780812
+          46.79472
         ],
         [
           "Riehen",
-          46.939378
+          46.944487
         ],
         [
           "Bruderholz",
-          48.069764
+          48.099438
         ],
         [
           "Vorstädte",
-          50.651554
+          50.682073
         ],
         [
           "Bettingen",
@@ -85,7 +85,7 @@
         ],
         [
           "Altstadt Grossbasel",
-          53.671354
+          53.690107
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "legend": {
     "enabled": false,
