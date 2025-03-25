@@ -9,8 +9,8 @@ var indikatorensetData = [
 			6385
 		],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "In den Wohnvierteln Bruderholz (43,1%) und Bachletten (41,2%) sowie den Gemeinden Riehen (41,1%) und Bettingen (40,5%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Altstadt Kleinbasel (28,0%), Vorstädte (27,4%) und Rosental (19,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "In den Wohnvierteln Bruderholz (42,6%) und Bachletten (40,9%) sowie den Gemeinden Bettingen (42,3%) und Riehen (40,3%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Clara (28,3%), Altstadt Kleinbasel (27,3%) und Rosental (19,2%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -25,7 +25,7 @@ var indikatorensetData = [
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06373",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C1-4",
 		"stufe1": "kontinuierlich klassifiziert",
@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-09T08:26:50",
+		"aktualisierungsdatum": "2025-03-25T08:33:36",
 		"id": 6373
 	},
 	{

@@ -66,6 +66,10 @@
         [
           2023,
           11
+        ],
+        [
+          2024,
+          280
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -136,6 +140,10 @@
         [
           2023,
           40
+        ],
+        [
+          2024,
+          98
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -206,6 +214,10 @@
         [
           2023,
           -28
+        ],
+        [
+          2024,
+          16
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -276,6 +288,10 @@
         [
           2023,
           129
+        ],
+        [
+          2024,
+          45
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -346,6 +362,10 @@
         [
           2023,
           -3
+        ],
+        [
+          2024,
+          -2
         ]
       ],
       "name": "Zweckentfremdungen von Wohnungen"
@@ -424,6 +444,10 @@
         [
           2023,
           140
+        ],
+        [
+          2024,
+          437
         ]
       ],
       "name": "Umbausaldo"
@@ -563,7 +587,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -6,11 +6,11 @@
       "data": [
         [
           "1 Zimmer",
-          3637
+          3872
         ],
         [
           "2 Zimmer",
-          3
+          2
         ],
         [
           "3 Zimmer",
@@ -25,12 +25,12 @@
           0
         ],
         [
-          "6 Zimmer u.m.",
+          "6 Zimmer u. m.",
           0
         ],
         [
           "Alle",
-          3640
+          3874
         ]
       ],
       "name": "bis 29 m²",
@@ -42,11 +42,11 @@
       "data": [
         [
           "1 Zimmer",
-          8018
+          8108
         ],
         [
           "2 Zimmer",
-          6688
+          6756
         ],
         [
           "3 Zimmer",
@@ -54,19 +54,19 @@
         ],
         [
           "4 Zimmer",
-          5
+          6
         ],
         [
           "5 Zimmer",
           1
         ],
         [
-          "6 Zimmer u.m.",
+          "6 Zimmer u. m.",
           0
         ],
         [
           "Alle",
-          14867
+          15026
         ]
       ],
       "name": "30-49 m²",
@@ -78,31 +78,31 @@
       "data": [
         [
           "1 Zimmer",
-          512
+          524
         ],
         [
           "2 Zimmer",
-          18999
+          19062
         ],
         [
           "3 Zimmer",
-          13582
+          13637
         ],
         [
           "4 Zimmer",
-          310
+          315
         ],
         [
           "5 Zimmer",
           25
         ],
         [
-          "6 Zimmer u.m.",
+          "6 Zimmer u. m.",
           1
         ],
         [
           "Alle",
-          33429
+          33564
         ]
       ],
       "name": "50-69 m²",
@@ -114,31 +114,31 @@
       "data": [
         [
           "1 Zimmer",
-          173
+          179
         ],
         [
           "2 Zimmer",
-          1917
+          1933
         ],
         [
           "3 Zimmer",
-          26638
+          26635
         ],
         [
           "4 Zimmer",
-          10351
+          10333
         ],
         [
           "5 Zimmer",
-          611
+          603
         ],
         [
-          "6 Zimmer u.m.",
+          "6 Zimmer u. m.",
           108
         ],
         [
           "Alle",
-          39798
+          39791
         ]
       ],
       "name": "70-99 m²",
@@ -150,31 +150,31 @@
       "data": [
         [
           "1 Zimmer",
-          92
+          94
         ],
         [
           "2 Zimmer",
-          189
+          188
         ],
         [
           "3 Zimmer",
-          2088
+          2112
         ],
         [
           "4 Zimmer",
-          8719
+          8780
         ],
         [
           "5 Zimmer",
-          4939
+          4955
         ],
         [
-          "6 Zimmer u.m.",
-          1814
+          "6 Zimmer u. m.",
+          1817
         ],
         [
           "Alle",
-          17841
+          17946
         ]
       ],
       "name": "100-149 m²",
@@ -194,23 +194,23 @@
         ],
         [
           "3 Zimmer",
-          121
+          123
         ],
         [
           "4 Zimmer",
-          641
+          646
         ],
         [
           "5 Zimmer",
-          1611
+          1614
         ],
         [
-          "6 Zimmer u.m.",
-          4018
+          "6 Zimmer u. m.",
+          4026
         ],
         [
           "Alle",
-          6432
+          6450
         ]
       ],
       "name": "150 m² u.m.",
@@ -292,7 +292,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

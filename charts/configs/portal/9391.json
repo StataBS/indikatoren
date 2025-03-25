@@ -7,10 +7,6 @@
       "type": "column",
       "data": [
         [
-          "2005",
-          0
-        ],
-        [
           "2006",
           0
         ],
@@ -81,6 +77,10 @@
         [
           "2023",
           486
+        ],
+        [
+          "2024",
+          470
         ]
       ],
       "name": "Benzin-elektrisch: Plug-in-Hybrid",
@@ -92,10 +92,6 @@
       "legendIndex": 3,
       "type": "column",
       "data": [
-        [
-          "2005",
-          0
-        ],
         [
           "2006",
           0
@@ -167,6 +163,10 @@
         [
           "2023",
           16
+        ],
+        [
+          "2024",
+          18
         ]
       ],
       "name": "Diesel-elektrisch: Plug-in-Hybrid",
@@ -178,10 +178,6 @@
       "legendIndex": 2,
       "type": "column",
       "data": [
-        [
-          "2005",
-          0
-        ],
         [
           "2006",
           0
@@ -253,6 +249,10 @@
         [
           "2023",
           652
+        ],
+        [
+          "2024",
+          705
         ]
       ],
       "name": "Elektrisch",
@@ -264,10 +264,6 @@
       "legendIndex": 4,
       "type": "column",
       "data": [
-        [
-          "2005",
-          0
-        ],
         [
           "2006",
           0
@@ -339,6 +335,10 @@
         [
           "2023",
           1
+        ],
+        [
+          "2024",
+          0
         ]
       ],
       "name": "Wasserstoff",
@@ -352,10 +352,6 @@
       "stacking": false,
       "visible": false,
       "data": [
-        [
-          "2005",
-          6627
-        ],
         [
           "2006",
           6858
@@ -427,6 +423,10 @@
         [
           "2023",
           4537
+        ],
+        [
+          "2024",
+          5008
         ]
       ],
       "name": "Total neue Inverkehrsetzungen",
@@ -445,10 +445,6 @@
       },
       "data": [
         [
-          "2005",
-          0
-        ],
-        [
           "2006",
           0
         ],
@@ -458,7 +454,7 @@
         ],
         [
           "2008",
-          0.012244398
+          0.0122443982
         ],
         [
           "2009",
@@ -470,15 +466,15 @@
         ],
         [
           "2011",
-          0.159216167
+          0.1592161666
         ],
         [
           "2012",
-          0.187178287
+          0.1871782873
         ],
         [
           "2013",
-          0.316938608
+          0.3169386078
         ],
         [
           "2014",
@@ -486,15 +482,15 @@
         ],
         [
           "2015",
-          0.736870311
+          0.7368703108
         ],
         [
           "2016",
-          1.127062928
+          1.1270629277
         ],
         [
           "2017",
-          1.328817092
+          1.3288170922
         ],
         [
           "2018",
@@ -502,23 +498,27 @@
         ],
         [
           "2019",
-          4.182606478
+          4.1826064779
         ],
         [
           "2020",
-          17.00428516
+          17.004285158
         ],
         [
           "2021",
-          14.90894537
+          14.908945367
         ],
         [
           "2022",
-          23.20042815
+          23.200428151
         ],
         [
           "2023",
-          25.45735067
+          25.457350672
+        ],
+        [
+          "2024",
+          23.821884984
         ]
       ],
       "name": "Anteil (rechte Skala)",
@@ -600,7 +600,7 @@
     "text": "Elektroautos"
   },
   "subtitle": {
-    "text": "neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
+    "text": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -667,7 +667,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "formatter": function () {

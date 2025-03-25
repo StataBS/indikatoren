@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittagsmodul der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2023 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 080 Plätze zur Verfügung. Mit durchschnittlich 3 840 Nutzenden sind diese Angebote zu 94% ausgelastet.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 240 Plätze zur Verfügung. Mit durchschnittlich 4 059 Nutzenden pro Tag sind diese Angebote zu 96% ausgelastet.",
 		"erlaeuterungen": "Stichwoche im September.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:54",
+		"aktualisierungsdatum": "2025-03-25T08:33:09",
 		"id": 12520
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nachmittagsmodule der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2023 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 3 748 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 1 859 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 706 Mal.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 3 908 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 1 933 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 707 Mal.",
 		"erlaeuterungen": "Stichwoche im September. In schuleigenen und -externen Tagesstrukturen werden am Nachmittag ein Modul 1 (von 13:30 Uhr bis 15:45 Uhr) und ein Modul 2 (zweite Nachmittagshälfte) angeboten. Modul 2 kann als langes (15:45 bis 18:00 Uhr) oder kurzes Modul (16:30 bis 18:00 Uhr) gebucht werden (je nach Unterrichtsschluss). Für eine Betreuung während des gesamten Nachmittags müssen beide Module gebucht werden. Bei den schuleigenen Tagesstrukturen ist das Platzangebot für Modul 1 und 2 identisch. Bei einigen schulexternen Tagesstrukturen unterscheiden sich die Kapazitäten der Module.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:56",
+		"aktualisierungsdatum": "2025-03-25T08:33:11",
 		"id": 12521
 	},
 	{
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 nutzen in der Stichwoche durchschnittlich 1 187 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 379 Schülerinnen und Schülern genutzt.",
+		"lesehilfe": "2024 nutzen in der Stichwoche durchschnittlich 1 326 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 422 Schülerinnen und Schülern in Anspruch genommen.",
 		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote ohne vorgängige Buchung spontan in Anspruch genommen werden können, gibt es keine feste Anzahl Plätze. Stattdessen wird die in der Stichtwoche durchschnittliche Nutzung pro Tag ausgewiesen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:59",
+		"aktualisierungsdatum": "2025-03-25T08:33:12",
 		"id": 12561
 	},
 	{
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Belegte Plätze in Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2023 werden 44 Plätze gezählt, 2014 waren es 98.",
+		"lesehilfe": "Die Anzahl belegte Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2024 werden 43 Plätze gezählt, 2015 waren es 87.",
 		"erlaeuterungen": "Stichtag ist der 31. Oktober.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:02",
+		"aktualisierungsdatum": "2025-03-25T08:33:13",
 		"id": 12602
 	},
 	{
@@ -274,8 +274,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2023 stehen in den Kindertagesstätten (Kitas) insgesamt 4 448 Plätze zur Verfügung. Davon bestehen 3 629 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"lesehilfe": "Ende Oktober 2024 stehen in den Kindertagesstätten (Kitas) insgesamt 4 562  Plätze zur Verfügung. Davon befinden sich 4 386 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören seit 2024 ebenfalls zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -299,7 +299,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:44",
+		"aktualisierungsdatum": "2025-03-25T08:33:08",
 		"id": 9291
 	},
 	{
@@ -613,8 +613,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Übernachtungen in den Notschlafstellen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 werden insgesamt 18 393 Übernachtungen in den Notschlafstellen gezählt. 4 254 entfallen auf Frauen, 14 139 auf Männer.",
-		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, diejenige für Männer maximal 75 Plätze. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt.",
+		"lesehilfe": "2024 werden insgesamt 17 532 Übernachtungen in den Notschlafstellen gezählt. 3 966 Übernachtungen entfallen auf Frauen, 13 566 auf Männer.",
+		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, ab dem Jahr 2024 sind es maximal 20 Betten. Die Notschlafstelle für Männer bietet maximal 75 Schlafplätze an. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
 		],
@@ -638,7 +638,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:26",
+		"aktualisierungsdatum": "2025-03-25T08:33:04",
 		"id": 9922
 	},
 	{
@@ -650,8 +650,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Auslastungsquote der Notschlafstellen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Auslastung der Notschlafstelle für Frauen liegt im Jahr 2023 bei 42%, jene der Notschlafstelle für Männer bei 52%. Die Auslastung fällt gegenüber 2022 bei beiden Geschlechtern höher aus.",
-		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, diejenige für Männer maximal 75 Plätze. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt. Die jährliche Auslastungsquote entspricht dem Verhältnis des Totals an Übernachtungen während eines Jahres zur Anzahl der maximal möglichen Übernachtungen im entsprechenden Jahr.",
+		"lesehilfe": "Die Auslastung der Notschlafstelle für Frauen liegt im Jahr 2024 bei 56%, jene der Notschlafstelle für Männer bei 49%. Die gegenüber 2023 höhere Auslastung bei den Frauen hängt mit der Reduktion der Bettenzahl zusammen.",
+		"erlaeuterungen": "Der Kanton Basel-Stadt betreibt zwei Notschlafstellen. Die Notschlafstelle für Frauen bot bis zum Jahr 2023 maximal 28 Betten an, ab dem Jahr 2024 sind es maximal 20 Betten. Die Notschlafstelle für Männer bietet maximal 75 Schlafplätze an. Während der COVID-19-Pandemie der Jahre 2020 bis 2022 war die Anzahl der Plätze teilweise eingeschränkt. Die jährliche Auslastungsquote entspricht dem Verhältnis des Totals an Übernachtungen während eines Jahres zur Anzahl der maximal möglichen Übernachtungen im entsprechenden Jahr.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
 		],
@@ -675,7 +675,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:05",
+		"aktualisierungsdatum": "2025-03-25T08:33:05",
 		"id": 9923
 	},
 	{
@@ -762,8 +762,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Schülerinnen und Schüler in Tagesferien und Ferienbetreuung auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler der Primarstufe nutzen im Verlauf des Jahres 2023 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise buchbare Ferienbetreuung an den Schulen nehmen im Berichtsjahr 1 111 Schülerinnen und Schüler in Anspruch.",
-		"erlaeuterungen": "Die Ferienangebote stehen den Primarschul- und Kindergartenkindern während 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19-Pandemie lediglich während 11 Wochen angeboten.",
+		"lesehilfe": "Insgesamt 3 366 Schülerinnen und Schüler der Primarstufe nutzen im Verlauf des Jahres 2024 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise buchbare Ferienbetreuung an den Schulen nehmen im Berichtsjahr 1 110 Schülerinnen und Schüler in Anspruch.",
+		"erlaeuterungen": "Die Tagesferienangebote stehen den Primarschul- und Kindergartenkindern während 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19-Pandemie lediglich während 11 Wochen angeboten.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:11",
+		"aktualisierungsdatum": "2025-03-25T08:33:07",
 		"id": 9930
 	},
 	{

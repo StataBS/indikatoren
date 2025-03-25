@@ -3241,11 +3241,11 @@
           0.012
         ],
         [
-          1,
-          0.015
+          30,
+          0.017
         ],
         [
-          8,
+          1,
           0.018
         ],
         [
@@ -3253,27 +3253,27 @@
           0.019
         ],
         [
-          5,
-          0.023
+          8,
+          0.019
         ],
         [
-          30,
-          0.024
+          5,
+          0.022
         ],
         [
           20,
-          0.025
+          0.026
         ],
         [
           3,
           0.026
         ],
         [
-          2,
-          0.03
+          9,
+          0.032
         ],
         [
-          9,
+          2,
           0.032
         ],
         [
@@ -3282,43 +3282,43 @@
         ],
         [
           4,
-          0.042
+          0.04
         ],
         [
           6,
-          0.046
-        ],
-        [
-          12,
-          0.053
+          0.048
         ],
         [
           13,
-          0.054
+          0.053
         ],
         [
-          11,
-          0.061
+          12,
+          0.055
         ],
         [
           16,
-          0.061
+          0.058
+        ],
+        [
+          11,
+          0.058
         ],
         [
           10,
-          0.071
+          0.066
         ],
         [
           17,
-          0.083
+          0.077
         ],
         [
           18,
-          0.098
+          0.091
         ],
         [
           19,
-          0.098
+          0.092
         ]
       ]
     },
@@ -3333,11 +3333,11 @@
         ],
         [
           2,
-          "Altstadt Grossbasel"
+          "Bettingen"
         ],
         [
           3,
-          "Bachletten"
+          "Altstadt Grossbasel"
         ],
         [
           4,
@@ -3345,11 +3345,11 @@
         ],
         [
           5,
-          "St. Alban"
+          "Bachletten"
         ],
         [
           6,
-          "Bettingen"
+          "St. Alban"
         ],
         [
           7,
@@ -3361,11 +3361,11 @@
         ],
         [
           9,
-          "Vorstädte"
+          "Gotthelf"
         ],
         [
           10,
-          "Gotthelf"
+          "Vorstädte"
         ],
         [
           11,
@@ -3381,19 +3381,19 @@
         ],
         [
           14,
-          "Altstadt Kleinbasel"
-        ],
-        [
-          15,
           "Clara"
         ],
         [
+          15,
+          "Altstadt Kleinbasel"
+        ],
+        [
           16,
-          "St. Johann"
+          "Rosental"
         ],
         [
           17,
-          "Rosental"
+          "St. Johann"
         ],
         [
           18,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.7.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "colorAxis": {
     "min": 0,

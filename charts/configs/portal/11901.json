@@ -54,7 +54,7 @@
         ],
         [
           2022,
-          null
+          3.1
         ],
         [
           2023,
@@ -496,7 +496,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKlimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "tooltip": {
     "valueDecimals": 2,

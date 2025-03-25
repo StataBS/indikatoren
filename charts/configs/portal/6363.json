@@ -5,11 +5,11 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          65.41
+          65.09
         ],
         [
           "Familienhaushalte",
-          32.99
+          33.04
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -49,7 +49,7 @@
         ],
         [
           "Nichtfamilienhaushalte",
-          37.11
+          36.98
         ]
       ],
       "name": "Mittlere Wohnfläche",
@@ -68,11 +68,11 @@
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          47.02
+          47.11
         ],
         [
           "Paare mit minderjährigen Kindern",
-          26.23
+          26.37
         ],
         [
           "Verheiratete Paare mit Kindern",
@@ -84,7 +84,7 @@
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          29.98
+          30.21
         ],
         [
           "Ohne weitere Personen",
@@ -100,7 +100,7 @@
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          33.64
+          33.69
         ],
         [
           "Nichtfamilienhaushalte",
@@ -131,11 +131,11 @@
         ],
         [
           "Verheiratete Paare mit Kindern",
-          26.04
+          26.18
         ],
         [
           "Unverheiratete Paare mit Kindern",
-          27.33
+          27.43
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
@@ -143,15 +143,15 @@
         ],
         [
           "Ohne weitere Personen",
-          32.58
+          32.94
         ],
         [
           "Mit Grosseltern(-teil)",
-          22.86
+          21.42
         ],
         [
           "Mit weiteren Personen",
-          26.26
+          26.42
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
   },
   "colors": [
     "#68AB2B",

@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2023 bei 865 Einheiten; dies vor allem dank  hoher Neubauproduktion und Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:39",
+		"aktualisierungsdatum": "2025-03-25T08:33:16",
 		"id": 7595
 	},
 	{
@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Fläche neuerstellter Wohnungen",
 		"subtitle": "in Quadratmeter nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2023 in allen Zimmerzahlkategorien grösser als die Werte im Gesamtbestand.",
+		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2024 in allen Zimmerzahlkategorien grösser als die Werte im Gesamtbestand.",
 		"erlaeuterungen": "Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:33",
+		"aktualisierungsdatum": "2025-03-25T08:33:17",
 		"id": 7599
 	},
 	{
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Neuerstellte Wohnungen nach Zimmerzahl",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Zwei- oder Dreizimmerwohnungen sind die häufigsten Kategorien der Neubauwohnungen. Ihr Anteil betrug knapp 60% aller neuerstellten Wohnungen.",
+		"lesehilfe": "Vier- oder Dreizimmerwohnungen waren 2024 die häufigsten Kategorien der Neubauwohnungen. Ihr Anteil betrug rund 70% aller neuerstellten Wohnungen.",
 		"erlaeuterungen": "Es werden die neuerstellten Wohnungen in Neubauten gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:33",
+		"aktualisierungsdatum": "2025-03-25T08:33:19",
 		"id": 7601
 	},
 	{
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteile von Genossenschaftswohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen an allen Wohnungen betrug seit 2013 durchschnittlich rund 11%. Die Anteile der neuerstellten Genossenschaftswohnungen war 2017, 2018, 2021 und 2023 überdurchschnittlich. Dagegen waren die Anteile 2013 bis 2016 und 2022 gering.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen an allen Wohnungen betrug seit 2013 durchschnittlich rund 11%. Die Anteile der neuerstellten Genossenschaftswohnungen war 2017, 2018, 2021,2023 und 2024 überdurchschnittlich. Dagegen waren die Anteile 2013 bis 2016 und 2022 gering.",
 		"erlaeuterungen": "Es werden beim Bestand nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:34",
+		"aktualisierungsdatum": "2025-03-25T08:33:20",
 		"id": 9465
 	}
 ];
