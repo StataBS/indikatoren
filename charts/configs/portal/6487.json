@@ -54,6 +54,10 @@
         [
           2023,
           16.3
+        ],
+        [
+          2024,
+          14.7
         ]
       ],
       "name": "Schweiz"
@@ -112,6 +116,10 @@
         [
           2023,
           14.4
+        ],
+        [
+          2024,
+          16.1
         ]
       ],
       "name": "Deutschland"
@@ -170,6 +178,10 @@
         [
           2023,
           22.3
+        ],
+        [
+          2024,
+          25.9
         ]
       ],
       "name": "Italien"
@@ -228,6 +240,10 @@
         [
           2023,
           28.8
+        ],
+        [
+          2024,
+          28.4
         ]
       ],
       "name": "Türkei"
@@ -286,6 +302,10 @@
         [
           2023,
           24.8
+        ],
+        [
+          2024,
+          20.6
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -344,6 +364,10 @@
         [
           2023,
           47.5
+        ],
+        [
+          2024,
+          24.8
         ]
       ],
       "name": "Balkan"
@@ -402,6 +426,10 @@
         [
           2023,
           55
+        ],
+        [
+          2024,
+          51
         ]
       ],
       "name": "Übrige Länder"
@@ -532,7 +560,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

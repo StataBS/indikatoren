@@ -846,7 +846,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2023 im Vergleich zu 2022 bei 3,1% unverändert geblieben. Am höchsten ist die Quote 2023 in den Branchen Baugewerbe (10,7%), Gastgewerbe (8,1%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (6,8%). Die Arbeitslosenquote war in allen Branchen im Jahr 2021 am höchsten.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist von 3,1% im Jahr 2023 auf 3,8% im Jahr 2024 gestiegen. Am höchsten ist die Quote auch im Jahr 2024 in den Branchen Baugewerbe (11,1%), Gastgewerbe (9,2%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,7%). Deutlich höher als im Vorjahr ist die Quote in den Branchen Information, Kommunikation (5,8%) sowie Finanz- und Versicherungsdienstleistungen (4,9%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -859,8 +859,8 @@ var indikatorensetData = [
 		],
 		"description": "Arbeitslosenquote nach Branche",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.09363",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.9",
 		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
@@ -872,7 +872,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:09",
+		"aktualisierungsdatum": "2025-03-31T11:05:58",
 		"id": 9363
 	},
 	{
@@ -1511,7 +1511,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 007 im Jahr 2023 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,1% auf 7 181 bzw. +12,5% auf 27 820), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,3% auf 457).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 651 im Jahr 2024 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,3% auf 7 198 bzw. +13,1% auf 27 965), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,5% auf 5 952).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1536,7 +1536,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:49",
+		"aktualisierungsdatum": "2025-03-31T11:06:02",
 		"id": 9383
 	},
 	{

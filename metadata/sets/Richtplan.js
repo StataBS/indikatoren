@@ -929,7 +929,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2024 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -943,7 +943,7 @@ var indikatorensetData = [
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kuerzel": "I.09.1.05815",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-7",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -955,7 +955,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:26",
+		"aktualisierungsdatum": "2025-03-31T11:07:11",
 		"id": 5815
 	},
 	{

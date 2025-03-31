@@ -42,6 +42,10 @@
         [
           "2023",
           5611
+        ],
+        [
+          "2024",
+          5821
         ]
       ],
       "name": "Anzahl Kinder",
@@ -187,7 +191,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

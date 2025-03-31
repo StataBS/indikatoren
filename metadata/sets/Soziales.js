@@ -799,7 +799,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "5 611 Kinder werden Ende Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
+		"lesehilfe": "5 821 Kinder werden Ende Oktober 2024 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
 		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -824,7 +824,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:13",
+		"aktualisierungsdatum": "2025-03-31T11:05:26",
 		"id": 9931
 	},
 	{

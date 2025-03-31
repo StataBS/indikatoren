@@ -59,6 +59,10 @@
         [
           2023,
           80
+        ],
+        [
+          2024,
+          82
         ]
       ],
       "name": "C-Bew."
@@ -122,6 +126,10 @@
         [
           2023,
           33
+        ],
+        [
+          2024,
+          34
         ]
       ],
       "name": "B-Bew."
@@ -185,6 +193,10 @@
         [
           2023,
           78
+        ],
+        [
+          2024,
+          60
         ]
       ],
       "name": "Übrige"
@@ -312,7 +324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
