@@ -208,8 +208,8 @@ var indikatorensetData = [
 			6390
 		],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit 153,2 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit 2,5 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -235,7 +235,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:39",
+		"aktualisierungsdatum": "2025-03-31T11:06:14",
 		"id": 6378
 	},
 	{
@@ -597,8 +597,8 @@ var indikatorensetData = [
 		"parentId": "6378",
 		"children": [],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit 153,2 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit 2,5 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
@@ -624,7 +624,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-11T08:32:40",
+		"aktualisierungsdatum": "2025-03-31T11:07:07",
 		"id": 6390
 	},
 	{

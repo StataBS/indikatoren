@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt GB",
-          102
-        ],
-        [
-          "Vorstädte",
-          73
-        ],
-        [
-          "Am Ring",
-          215
-        ],
-        [
-          "Breite",
-          320
-        ],
-        [
-          "St. Alban",
-          780
-        ],
-        [
-          "Gundeldingen",
-          459
-        ],
-        [
-          "Bruderholz",
-          160
-        ],
-        [
-          "Bachletten",
-          116
-        ],
-        [
-          "Gotthelf",
           100
         ],
         [
+          "Vorstädte",
+          -31
+        ],
+        [
+          "Am Ring",
+          256
+        ],
+        [
+          "Breite",
+          329
+        ],
+        [
+          "St. Alban",
+          751
+        ],
+        [
+          "Gundeldingen",
+          631
+        ],
+        [
+          "Bruderholz",
+          170
+        ],
+        [
+          "Bachletten",
+          117
+        ],
+        [
+          "Gotthelf",
+          104
+        ],
+        [
           "Iselin",
-          672
+          628
         ],
         [
           "St. Johann",
-          543
+          593
         ],
         [
           "Altstadt KB",
-          55
+          114
         ],
         [
           "Clara",
-          319
+          298
         ],
         [
           "Wettstein",
-          187
+          91
         ],
         [
           "Hirzbrunnen",
-          533
+          540
         ],
         [
           "Rosental",
-          1325
+          1261
         ],
         [
           "Matthäus",
-          98
+          113
         ],
         [
           "Klybeck",
-          147
+          150
         ],
         [
           "Kleinhüningen",
-          193
+          206
         ],
         [
           "Riehen",
-          760
+          762
         ],
         [
           "Bettingen",
-          61
+          50
         ]
       ],
-      "name": "Nettoproduktion 2014 bis 2023",
+      "name": "Nettoproduktion 2015 bis 2024",
       "turboThreshold": 0
     }
   ],
@@ -169,7 +169,7 @@
     "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
-    "text": "nach Wohnviertel, Basel-Stadt, 2014-2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2015-2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -225,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
