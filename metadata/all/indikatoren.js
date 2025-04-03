@@ -18193,7 +18193,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:28",
+		"aktualisierungsdatum": "2025-04-03T08:36:17",
 		"id": 5819
 	},
 	{
@@ -37293,8 +37293,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Altstadt Grossbasel, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Schweizer und weniger Schweizerinnen.",
+		"subtitle": "Wohnviertel Altstadt Grossbasel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 60- bis 64-jährigen Schweizer Männer beträgt im Wohnviertel Altstadt Grossbasel 3,3%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37320,7 +37320,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:50",
+		"aktualisierungsdatum": "2025-04-03T08:35:44",
 		"id": 6893
 	},
 	{
@@ -37331,8 +37331,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Vorstädte, Basel-Stadt, 2023",
-		"lesehilfe": "Im Wohnviertel Vorstädte ist der Anteil der 55- bis 59-Jährigen sowie der 75-Jährigen und Älteren im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
+		"subtitle": "Wohnviertel Vorstädte, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 25- bis 29-jährigen ausländischen Männer beträgt im Wohnviertel Vorstädte 2,7%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37358,7 +37358,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:10",
+		"aktualisierungsdatum": "2025-04-03T08:35:46",
 		"id": 6894
 	},
 	{
@@ -37369,8 +37369,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Am Ring, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Am Ring mehr jüngere Erwachsene. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
+		"subtitle": "Wohnviertel Am Ring, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 25- bis 29-jährigen ausländischen Frauen beträgt im Wohnviertel Am Ring 2,7%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37396,7 +37396,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:30",
+		"aktualisierungsdatum": "2025-04-03T08:35:47",
 		"id": 6895
 	},
 	{
@@ -38089,8 +38089,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Breite, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Breite eher wenige Kinder und Jugendliche.",
+		"subtitle": "Wohnviertel Breite, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen Schweizer Männer beträgt im Wohnviertel Breite 2,6%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38116,7 +38116,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:48",
+		"aktualisierungsdatum": "2025-04-03T08:35:48",
 		"id": 6915
 	},
 	{
@@ -38127,8 +38127,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel St. Alban, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons bleibt jene des Wohnviertels St. Alban gegen oben eher breit; somit ist die Bevölkerung älter.",
+		"subtitle": "Wohnviertel St. Alban, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 85- bis 89-jährigen Schweizer Frauen beträgt im Wohnviertel St. Alban 2,1%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38154,7 +38154,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:49",
+		"aktualisierungsdatum": "2025-04-03T08:35:50",
 		"id": 6916
 	},
 	{
@@ -38165,8 +38165,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Gundeldingen, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten.",
+		"subtitle": "Wohnviertel Gundeldingen, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 25- bis 29-jährigen Schweizer Frauen beträgt im Wohnviertel Gundeldingen 3,5%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38192,7 +38192,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:50",
+		"aktualisierungsdatum": "2025-04-03T08:35:51",
 		"id": 6917
 	},
 	{
@@ -38203,8 +38203,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Bruderholz, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe der 45-Jährigen und Älteren ist grösser als im Gesamtkanton.",
+		"subtitle": "Wohnviertel Bruderholz, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen ausländischen Männer beträgt im Wohnviertel Bruderholz 0,7%. Das ist niedriger als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38230,7 +38230,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:52",
+		"aktualisierungsdatum": "2025-04-03T08:35:53",
 		"id": 6918
 	},
 	{
@@ -38241,8 +38241,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Bachletten, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 20- bis 39-Jährigen relativ niedrig, jener der 60-Jährigen und Älteren relativ hoch.",
+		"subtitle": "Wohnviertel Bachletten, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 55- bis 59-jährigen Schweizer Frauen  beträgt im Wohnviertel Bachletten 3,4%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38268,7 +38268,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:53",
+		"aktualisierungsdatum": "2025-04-03T08:35:55",
 		"id": 6919
 	},
 	{
@@ -38279,8 +38279,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Gotthelf, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerungsgruppe der unter 45-Jährigen weniger stark vertreten.",
+		"subtitle": "Wohnviertel Gotthelf, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 70- bis 74-jährigen Schweizer Frauen beträgt im Wohnviertel Gotthelf 2,6%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38306,7 +38306,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:54",
+		"aktualisierungsdatum": "2025-04-03T08:35:56",
 		"id": 6920
 	},
 	{
@@ -38317,8 +38317,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Iselin, Basel-Stadt, 2023",
-		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grösste Fünfjahresgruppe bilden die Personen zwischen 25 und 39 Jahren.",
+		"subtitle": "Wohnviertel Iselin, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 20- bis 24-jährigen Schweizer Frauen beträgt im Wohnviertel Iselin 2,4%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38344,7 +38344,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:55",
+		"aktualisierungsdatum": "2025-04-03T08:35:58",
 		"id": 6921
 	},
 	{
@@ -38355,8 +38355,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel St. Johann, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
+		"subtitle": "Wohnviertel St. Johann, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 25- bis 29-jährigen ausländischen Männer beträgt im Wohnviertel St. Johann 2,1%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38382,7 +38382,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:09:58",
+		"aktualisierungsdatum": "2025-04-03T08:35:59",
 		"id": 6922
 	},
 	{
@@ -38393,8 +38393,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Altstadt Kleinbasel, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Altstadt Kleinbasel der Anteil der unter 20-Jährigen tief.",
+		"subtitle": "Wohnviertel Altstadt Kleinbasel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 70- bis 74-jährigen Schweizer Männer beträgt im Wohnviertel Altstadt Kleinbasel 2,8%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38420,7 +38420,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:04",
+		"aktualisierungsdatum": "2025-04-03T08:36:01",
 		"id": 6923
 	},
 	{
@@ -38431,8 +38431,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Clara, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Clara überdurchschnittlich viele Männer zwischen 25 und 39 Jahren.",
+		"subtitle": "Wohnviertel Clara, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen ausländischen Männer beträgt im Wohnviertel Clara 3,8%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38458,7 +38458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:06",
+		"aktualisierungsdatum": "2025-04-03T08:36:03",
 		"id": 6924
 	},
 	{
@@ -38469,8 +38469,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Wettstein, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Wettstein der Anteil der ausländischen Staatsangehörigen bei den Kindern und Jugendlichen niedrig.",
+		"subtitle": "Wohnviertel Wettstein, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 35- bis 39-jährigen Schweizer Frauen beträgt im Wohnviertel Wettstein 2,6%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38496,7 +38496,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:07",
+		"aktualisierungsdatum": "2025-04-03T08:36:04",
 		"id": 6925
 	},
 	{
@@ -38507,8 +38507,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Hirzbrunnen, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zum Gesamtkanton leben im Wohnviertel Hirzbrunnen viele Kinder und Jugendliche sowie viele ältere Personen.",
+		"subtitle": "Wohnviertel Hirzbrunnen, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 25- bis 29-jährigen ausländischen Männer beträgt im Wohnviertel Hirzbrunnen 0,8%. Das ist tiefer als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38534,7 +38534,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:09",
+		"aktualisierungsdatum": "2025-04-03T08:36:06",
 		"id": 6926
 	},
 	{
@@ -38545,8 +38545,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Rosental nach oben hin spitzer zu. Die Bevölkerung ist somit jünger.",
+		"subtitle": "Wohnviertel Rosental, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen ausländischen Männer beträgt im Wohnviertel Rosental 4,1%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38572,7 +38572,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:11",
+		"aktualisierungsdatum": "2025-04-03T08:36:07",
 		"id": 6927
 	},
 	{
@@ -38583,8 +38583,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Matthäus, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus nach oben hin spitzer zu, die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 39 Jahren ist bei Frauen und Männern stark vertreten.",
+		"subtitle": "Wohnviertel Matthäus, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen ausländischen Männer beträgt im Wohnviertel Matthäus 3,5%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38610,7 +38610,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:13",
+		"aktualisierungsdatum": "2025-04-03T08:36:09",
 		"id": 6928
 	},
 	{
@@ -38621,8 +38621,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Klybeck, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Klybeck Personen zwischen 5 und 64 Jahren stärker vertreten. Die ältere Bevölkerung ist dagegen schwächer repräsentiert.",
+		"subtitle": "Wohnviertel Klybeck, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 20- bis 24-jährigen ausländischen Männer beträgt im Wohnviertel Klybeck 1,9%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38648,7 +38648,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:15",
+		"aktualisierungsdatum": "2025-04-03T08:36:10",
 		"id": 6929
 	},
 	{
@@ -38659,8 +38659,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Kleinhüningen, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben in Kleinhüningen überdurchschnittlich viele Kinder und Jugendliche bis 19 Jahre sowie junge Erwachsene zwischen 20 und 24 Jahren. Ebenfalls besonders gut vertreten sind Personen zwischen 60 und 64 Jahren.",
+		"subtitle": "Wohnviertel Kleinhüningen, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen Schweizer Männer beträgt im Wohnviertel Kleinhüningen 1,1%. Das ist tiefer als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung des Wohnviertels.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38686,7 +38686,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:16",
+		"aktualisierungsdatum": "2025-04-03T08:36:12",
 		"id": 6930
 	},
 	{
@@ -38697,8 +38697,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Gemeinde Riehen, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche zwischen 4 und 19 Jahren stärker vertreten. Zudem wohnen in Riehen vergleichsweise viele Personen ab 45 Jahren.",
+		"subtitle": "Gemeinde Riehen, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 30- bis 34-jährigen ausländischen Männer beträgt in der Gemeinde Riehen 0,8%. Das ist tiefer als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung der Gemeinde.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -38725,7 +38725,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:17",
+		"aktualisierungsdatum": "2025-04-03T08:36:14",
 		"id": 6931
 	},
 	{
@@ -38736,8 +38736,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Alterspyramide nach Geschlecht und Staatsangehörigkeit",
-		"subtitle": "Gemeinde Bettingen, Basel-Stadt, 2023",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 55-Jährigen und Älteren sehr stark vertreten ist.",
+		"subtitle": "Gemeinde Bettingen, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der 60- bis 64-jährigen Schweizer Männer beträgt in der Gemeinde Bettingen 3,6%. Das ist höher als der kantonale Durchschnitt.",
 		"erlaeuterungen": "Die Alterspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit. Die Prozentangaben beziehen sich auf das Total der Wohnbevölkerung der Gemeinde.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38764,7 +38764,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:18",
+		"aktualisierungsdatum": "2025-04-03T08:36:15",
 		"id": 6932
 	},
 	{
@@ -44308,7 +44308,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Februar 2025 0,6%; dies nach 0,5% im Januar. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im März 2025 0,5%; dies nach 0,5% im Januar und 0,6% im Februar. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44336,7 +44336,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-05T08:35:49",
+		"aktualisierungsdatum": "2025-04-03T08:35:39",
 		"id": 7512
 	},
 	{
@@ -44348,7 +44348,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Februar 2025 gegenüber Januar 2025 um 0,5% auf 106,8 Punkte gestiegen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im März 2025 gegenüber Februar 2025 unverändert bei 106,8 Punkte geblieben.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44375,7 +44375,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-05T08:35:50",
+		"aktualisierungsdatum": "2025-04-03T08:35:41",
 		"id": 7513
 	},
 	{
@@ -76868,7 +76868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-20T07:53:09",
+		"aktualisierungsdatum": "2025-04-03T08:35:42",
 		"id": 9388
 	},
 	{
