@@ -9,93 +9,93 @@
       "data": [
         {
           "name": "0-4",
-          "y": 1.6,
-          "absolut": 154
+          "y": 1.58,
+          "absolut": 152
         },
         {
           "name": "5-9",
-          "y": 2.13,
-          "absolut": 205
+          "y": 2.26,
+          "absolut": 217
         },
         {
           "name": "10-14",
-          "y": 2.25,
-          "absolut": 216
+          "y": 2.29,
+          "absolut": 220
         },
         {
           "name": "15-19",
-          "y": 1.94,
-          "absolut": 187
+          "y": 2.17,
+          "absolut": 209
         },
         {
           "name": "20-24",
-          "y": 1.82,
-          "absolut": 175
+          "y": 1.68,
+          "absolut": 161
         },
         {
           "name": "25-29",
-          "y": 1.42,
-          "absolut": 137
+          "y": 1.38,
+          "absolut": 133
         },
         {
           "name": "30-34",
-          "y": 1.56,
-          "absolut": 150
+          "y": 1.45,
+          "absolut": 139
         },
         {
           "name": "35-39",
-          "y": 1.94,
-          "absolut": 187
-        },
-        {
-          "name": "40-44",
           "y": 2.11,
           "absolut": 203
         },
         {
+          "name": "40-44",
+          "y": 2.23,
+          "absolut": 214
+        },
+        {
           "name": "45-49",
-          "y": 2.54,
-          "absolut": 244
+          "y": 2.43,
+          "absolut": 234
         },
         {
           "name": "50-54",
-          "y": 2.59,
-          "absolut": 249
+          "y": 2.63,
+          "absolut": 253
         },
         {
           "name": "55-59",
-          "y": 2.99,
-          "absolut": 288
+          "y": 3.09,
+          "absolut": 297
         },
         {
           "name": "60-64",
-          "y": 2.74,
-          "absolut": 264
+          "y": 2.68,
+          "absolut": 258
         },
         {
           "name": "65-69",
-          "y": 2.64,
-          "absolut": 254
+          "y": 2.48,
+          "absolut": 238
         },
         {
           "name": "70-74",
-          "y": 2.39,
-          "absolut": 230
+          "y": 2.42,
+          "absolut": 233
         },
         {
           "name": "75-79",
-          "y": 2.23,
-          "absolut": 215
+          "y": 2.25,
+          "absolut": 216
         },
         {
           "name": "80-84",
-          "y": 1.94,
-          "absolut": 187
+          "y": 1.91,
+          "absolut": 184
         },
         {
           "name": "85-89",
-          "y": 1.3,
-          "absolut": 125
+          "y": 1.26,
+          "absolut": 121
         },
         {
           "name": "90-94",
@@ -104,13 +104,13 @@
         },
         {
           "name": "95-99",
-          "y": 0.23,
-          "absolut": 22
+          "y": 0.24,
+          "absolut": 23
         },
         {
           "name": "100+",
-          "y": 0.04,
-          "absolut": 4
+          "y": 0.03,
+          "absolut": 3
         }
       ],
       "name": "Schweizerinnen",
@@ -125,108 +125,108 @@
       "data": [
         {
           "name": "0-4",
-          "y": -1.67,
-          "absolut": 161
+          "y": -1.74,
+          "absolut": 167
         },
         {
           "name": "5-9",
-          "y": -2.18,
-          "absolut": 210
+          "y": -2.08,
+          "absolut": 200
         },
         {
           "name": "10-14",
-          "y": -2.22,
-          "absolut": 214
+          "y": -2.28,
+          "absolut": 219
         },
         {
           "name": "15-19",
-          "y": -2.25,
-          "absolut": 216
+          "y": -2.21,
+          "absolut": 212
         },
         {
           "name": "20-24",
-          "y": -1.71,
-          "absolut": 165
+          "y": -1.89,
+          "absolut": 182
         },
         {
           "name": "25-29",
+          "y": -1.29,
+          "absolut": 124
+        },
+        {
+          "name": "30-34",
+          "y": -1.55,
+          "absolut": 149
+        },
+        {
+          "name": "35-39",
           "y": -1.63,
           "absolut": 157
         },
         {
-          "name": "30-34",
-          "y": -1.51,
-          "absolut": 145
-        },
-        {
-          "name": "35-39",
-          "y": -1.66,
-          "absolut": 160
-        },
-        {
           "name": "40-44",
-          "y": -2.01,
-          "absolut": 193
+          "y": -2.1,
+          "absolut": 202
         },
         {
           "name": "45-49",
-          "y": -2.05,
-          "absolut": 197
+          "y": -2.02,
+          "absolut": 194
         },
         {
           "name": "50-54",
-          "y": -2.23,
-          "absolut": 215
+          "y": -2.15,
+          "absolut": 207
         },
         {
           "name": "55-59",
-          "y": -2.85,
-          "absolut": 274
+          "y": -2.83,
+          "absolut": 272
         },
         {
           "name": "60-64",
-          "y": -2.65,
-          "absolut": 255
+          "y": -2.91,
+          "absolut": 280
         },
         {
           "name": "65-69",
-          "y": -2.38,
-          "absolut": 229
+          "y": -2.21,
+          "absolut": 212
         },
         {
           "name": "70-74",
-          "y": -1.94,
-          "absolut": 187
+          "y": -1.99,
+          "absolut": 191
         },
         {
           "name": "75-79",
-          "y": -1.86,
-          "absolut": 179
+          "y": -1.95,
+          "absolut": 187
         },
         {
           "name": "80-84",
-          "y": -1.24,
-          "absolut": 119
+          "y": -1.22,
+          "absolut": 117
         },
         {
           "name": "85-89",
-          "y": -0.8,
-          "absolut": 77
+          "y": -0.89,
+          "absolut": 86
         },
         {
           "name": "90-94",
-          "y": -0.48,
-          "absolut": 46
+          "y": -0.36,
+          "absolut": 35
         },
         {
           "name": "95-99",
-          "y": -0.14,
-          "absolut": 13
+          "y": -0.15,
+          "absolut": 14
         },
         {
           "name": "100+",
-          "y": 0,
-          "absolut": 0
+          "y": -0.02,
+          "absolut": 2
         }
       ],
       "name": "Schweizer",
@@ -246,48 +246,48 @@
         },
         {
           "name": "5-9",
-          "y": 0.89,
-          "absolut": 86
+          "y": 0.91,
+          "absolut": 87
         },
         {
           "name": "10-14",
-          "y": 0.89,
-          "absolut": 86
+          "y": 0.88,
+          "absolut": 85
         },
         {
           "name": "15-19",
-          "y": 0.42,
-          "absolut": 40
+          "y": 0.48,
+          "absolut": 46
         },
         {
           "name": "20-24",
-          "y": 0.26,
-          "absolut": 25
+          "y": 0.28,
+          "absolut": 27
         },
         {
           "name": "25-29",
-          "y": 0.45,
-          "absolut": 43
+          "y": 0.48,
+          "absolut": 46
         },
         {
           "name": "30-34",
-          "y": 1.06,
-          "absolut": 102
+          "y": 0.95,
+          "absolut": 91
         },
         {
           "name": "35-39",
-          "y": 1.42,
-          "absolut": 137
+          "y": 1.33,
+          "absolut": 128
         },
         {
           "name": "40-44",
-          "y": 1.89,
-          "absolut": 182
+          "y": 1.7,
+          "absolut": 163
         },
         {
           "name": "45-49",
-          "y": 1.34,
-          "absolut": 129
+          "y": 1.63,
+          "absolut": 157
         },
         {
           "name": "50-54",
@@ -296,23 +296,23 @@
         },
         {
           "name": "55-59",
-          "y": 0.79,
-          "absolut": 76
+          "y": 0.78,
+          "absolut": 75
         },
         {
           "name": "60-64",
-          "y": 0.53,
-          "absolut": 51
+          "y": 0.48,
+          "absolut": 46
         },
         {
           "name": "65-69",
-          "y": 0.32,
-          "absolut": 31
+          "y": 0.34,
+          "absolut": 33
         },
         {
           "name": "70-74",
-          "y": 0.27,
-          "absolut": 26
+          "y": 0.24,
+          "absolut": 23
         },
         {
           "name": "75-79",
@@ -321,13 +321,13 @@
         },
         {
           "name": "80-84",
-          "y": 0.12,
-          "absolut": 12
+          "y": 0.11,
+          "absolut": 11
         },
         {
           "name": "85-89",
-          "y": 0.12,
-          "absolut": 12
+          "y": 0.15,
+          "absolut": 14
         },
         {
           "name": "90-94",
@@ -357,8 +357,8 @@
       "data": [
         {
           "name": "0-4",
-          "y": -0.7,
-          "absolut": 67
+          "y": -0.6,
+          "absolut": 58
         },
         {
           "name": "5-9",
@@ -377,83 +377,83 @@
         },
         {
           "name": "20-24",
-          "y": -0.35,
-          "absolut": 34
+          "y": -0.4,
+          "absolut": 38
         },
         {
           "name": "25-29",
-          "y": -0.49,
-          "absolut": 47
+          "y": -0.39,
+          "absolut": 37
         },
         {
           "name": "30-34",
-          "y": -0.62,
-          "absolut": 60
+          "y": -0.74,
+          "absolut": 71
         },
         {
           "name": "35-39",
-          "y": -1.29,
-          "absolut": 124
+          "y": -1.23,
+          "absolut": 118
         },
         {
           "name": "40-44",
-          "y": -1.43,
-          "absolut": 138
+          "y": -1.37,
+          "absolut": 132
         },
         {
           "name": "45-49",
-          "y": -1.51,
-          "absolut": 145
+          "y": -1.45,
+          "absolut": 139
         },
         {
           "name": "50-54",
-          "y": -1.13,
-          "absolut": 109
+          "y": -1.14,
+          "absolut": 110
         },
         {
           "name": "55-59",
-          "y": -0.99,
-          "absolut": 95
+          "y": -1.06,
+          "absolut": 102
         },
         {
           "name": "60-64",
-          "y": -0.61,
-          "absolut": 59
+          "y": -0.6,
+          "absolut": 58
         },
         {
           "name": "65-69",
-          "y": -0.31,
-          "absolut": 30
+          "y": -0.37,
+          "absolut": 36
         },
         {
           "name": "70-74",
-          "y": -0.24,
-          "absolut": 23
+          "y": -0.22,
+          "absolut": 21
         },
         {
           "name": "75-79",
-          "y": -0.2,
-          "absolut": 19
+          "y": -0.18,
+          "absolut": 17
         },
         {
           "name": "80-84",
-          "y": -0.2,
-          "absolut": 19
+          "y": -0.17,
+          "absolut": 16
         },
         {
           "name": "85-89",
-          "y": -0.07,
-          "absolut": 7
+          "y": -0.09,
+          "absolut": 9
         },
         {
           "name": "90-94",
-          "y": -0.01,
-          "absolut": 1
+          "y": 0,
+          "absolut": 0
         },
         {
           "name": "95-99",
-          "y": 0,
-          "absolut": 0
+          "y": -0.01,
+          "absolut": 1
         },
         {
           "name": "100+",
@@ -643,7 +643,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Bruderholz, Basel-Stadt, 2023",
+    "text": "Wohnviertel Bruderholz, Basel-Stadt, 2024",
     "align": "left"
   },
   "yAxis": [
@@ -698,7 +698,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.4.2025"
   },
   "legend": {
     "symbolRadius": 0,
