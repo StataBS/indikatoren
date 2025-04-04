@@ -4,54 +4,6 @@
       "color": "#B00000",
       "data": [
         [
-          "2014-01",
-          -139
-        ],
-        [
-          "2014-02",
-          -146
-        ],
-        [
-          "2014-03",
-          -136
-        ],
-        [
-          "2014-04",
-          -129
-        ],
-        [
-          "2014-05",
-          -184
-        ],
-        [
-          "2014-06",
-          -187
-        ],
-        [
-          "2014-07",
-          -214
-        ],
-        [
-          "2014-08",
-          -209
-        ],
-        [
-          "2014-09",
-          -175
-        ],
-        [
-          "2014-10",
-          -125
-        ],
-        [
-          "2014-11",
-          -27
-        ],
-        [
-          "2014-12",
-          -25
-        ],
-        [
           "2015-01",
           139
         ],
@@ -538,6 +490,10 @@
         [
           "2025-02",
           592
+        ],
+        [
+          "2025-03",
+          550
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -677,7 +633,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.4.2025"
   },
   "tooltip": {
     "valueDecimals": 0,
