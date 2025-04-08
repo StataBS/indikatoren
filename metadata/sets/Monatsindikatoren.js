@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-04T09:19:39",
+		"aktualisierungsdatum": "2025-04-08T09:47:22",
 		"id": 7510
 	},
 	{
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-04T09:19:40",
+		"aktualisierungsdatum": "2025-04-08T09:47:23",
 		"id": 7511
 	},
 	{
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-04T09:19:41",
+		"aktualisierungsdatum": "2025-04-08T09:47:24",
 		"id": 8980
 	},
 	{
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-04T09:19:42",
+		"aktualisierungsdatum": "2025-04-08T09:47:25",
 		"id": 8981
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-04T09:19:43",
+		"aktualisierungsdatum": "2025-04-08T09:47:26",
 		"id": 8992
 	}
 ];
