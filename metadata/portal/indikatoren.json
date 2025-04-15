@@ -7,9 +7,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 hatte das Adullam Pflegezentrum Basel 133 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 hatte das Adullam Pflegezentrum Basel 135 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2024",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -36,7 +36,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-26T08:32:13",
+		"aktualisierungsdatum": "2025-04-15T09:06:05",
 		"id": 11165
 	},
 	{
@@ -47,9 +47,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2025",
+		"lesehilfe": "Anfang 2025  bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -76,7 +76,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:25",
+		"aktualisierungsdatum": "2025-04-15T09:06:13",
 		"id": 11166
 	},
 	{
@@ -87,9 +87,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
-		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2025",
+		"lesehilfe": "Anfang 2025 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -116,7 +116,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:19",
+		"aktualisierungsdatum": "2025-04-15T09:06:12",
 		"id": 11167
 	},
 	{
@@ -128,8 +128,8 @@
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 gab es im Kanton Basel-Stadt 55 Organisationen sowie 63 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
-		"erlaeuterungen": "Stand Ende 2023",
+		"lesehilfe": "Im Jahr 2024 gab es im Kanton Basel-Stadt 59 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Sie alle verfügen über eine Bewilligung zu Ausübung und Abrechnung von Spitex-Leistungen.",
+		"erlaeuterungen": "Stand Ende 2024",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -156,7 +156,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:14",
+		"aktualisierungsdatum": "2025-04-15T09:06:09",
 		"id": 11168
 	},
 	{
@@ -168,8 +168,8 @@
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2023 gab es 636 Plätze in speziellen Wohnformen (21,2% aller Plätze) in den Pflegeheimen und 2 203 (73,4%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2023",
+		"lesehilfe": "Im Jahr 2024 gab es 606 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 235 (74,5%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Die Aktualisierung der Daten erfolgt jeweils am Anfang und am Ende des aktuellen Jahres.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -196,7 +196,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:16",
+		"aktualisierungsdatum": "2025-04-15T09:06:11",
 		"id": 11169
 	},
 	{
@@ -208,8 +208,8 @@
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
+		"lesehilfe": "Anfang 2025 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -236,7 +236,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:08",
+		"aktualisierungsdatum": "2025-04-15T09:06:07",
 		"id": 11170
 	},
 	{
@@ -37999,7 +37999,7 @@
 		],
 		"title": "Anzahl und Quote der Beziehenden von Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 51 231 Beziehenden erhält Ende des Jahres 2023 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung (PV).",
+		"lesehilfe": "Mit 50 795 Beziehenden erhält Ende des Jahres 2024 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung (PV).",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Die Quote der Beziehenden von Prämienverbilligung entspricht dem Verhältnis der Beziehenden von Prämienverbilligung zur Wohnbevölkerung per Ende des Jahres. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die Prämienverbilligung im Rahmen jener Leistungen ausbezahlt erhalten, sind einberechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -38026,7 +38026,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:46",
+		"aktualisierungsdatum": "2025-04-15T09:06:03",
 		"id": 9294
 	},
 	{
@@ -38605,8 +38605,8 @@
 		],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2023 betrug die Länge der Begegnungszonen in der Stadt Basel 23,5 km, jene der Fussgängerzonen 4,8 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"lesehilfe": "Im Jahr 2024 betrug die Länge der Begegnungszonen in der Stadt Basel 23,5 km, jene der Fussgängerzonen 4,8 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzonen (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -38633,7 +38633,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:11",
+		"aktualisierungsdatum": "2025-04-15T09:06:15",
 		"id": 9387
 	},
 	{
@@ -40237,7 +40237,7 @@
 		"children": [],
 		"title": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an die Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,1%, 2023 bei 7,7%.",
+		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an die Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 7,7%, 2024 bei 8,4%.",
 		"erlaeuterungen": "Die Schweiz gehört zu den Ländern mit den höchsten Anteilen des Aussenhandels am Bruttoinlandprodukt. Ein Teil des Güteraussenhandels wird per Schiff über die Schweizer Grenze transportiert. Der Indikator zeigt die Bedeutung des Schiffverkehrs für den gesamten Aussenhandel der Schweiz.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen",
@@ -40249,7 +40249,7 @@
 			"Kanton"
 		],
 		"description": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
-		"thema": "11 Verkehr",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09602",
 		"kennzahlenset": "",
@@ -40264,7 +40264,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:10",
+		"aktualisierungsdatum": "2025-04-15T09:05:36",
 		"id": 9602
 	},
 	{
@@ -40276,8 +40276,8 @@
 		"children": [],
 		"title": "Güterumschlag auf dem Rhein",
 		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
-		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Die zweitgrösste Abnahme des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2023 folgte eine leichte Erholung des Güterverkehrs: Verglichen mit dem Vorjahr wurde ein Plus von 8,1% auf knapp 5 Mio. Tonnen registriert. Die Ursache dafür dürfte in erster Linie im starken Aufbau der Lagerbestände von Mineralölprodukten liegen (+46,5%); diese waren ein Jahr zuvor durch einen massiven Preisanstieg für Mineralölprodukte im Zusammenhang mit dem Krieg in der Ukraine auf ein Minimum beschränkt, und die Lager stark abgebaut worden.",
-		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2014-2023 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2023 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
+		"lesehilfe": "Der Güterhandel über die Schweizerischen Rheinhäfen hat in den letzten zehn Jahren tendenziell abgenommen. Besonders deutlich zeigte sich der Rückgang 2018: Damals sorgte ein aussergewöhnlich niedriger Pegelstand des Rheins – der tiefste seit fast 50 Jahren – für den stärksten Umschlagsrückgang der Dekade. Die zweitgrösste Einbusse folgte 2020 infolge der COVID-19-Pandemie. Danach setzte eine allmähliche Erholung ein: 2023 ging es leicht bergauf, 2024 deutlicher. Im Vergleich zum Vorjahr legte der Güterumschlag um 8,3% zu und erreichte rund 5,4  Mio. Tonnen. Hauptverantwortlich für das jüngste Wachstum waren Mineralölprodukte und Güter der Kreislaufwirtschaft – also Materialien, die wiederverwendet oder recycelt werden.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2015-2024 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2024 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -40302,7 +40302,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-19T08:02:42",
+		"aktualisierungsdatum": "2025-04-15T09:05:41",
 		"id": 9603
 	},
 	{
@@ -40314,7 +40314,7 @@
 		"children": [],
 		"title": "Güterumschlag seit 1911",
 		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
-		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagsvolumen 9,3&nbspMio. Tonnen. Seither hat die Gütermenge abgenommen. Hauptursache ist die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene. 2022 wurden in den Schweizerischen Rheinhäfen 4,6&nbspMio. Tonnen umgeschlagen; ein Minus von 14,9% bzw. 806&nbsp745 Tonnen gegenüber dem Vorjahr. Der Ukraine-Krieg mit seinen globalen Marktverwerfungen im Energiebereich und der ungünstige Umstand der ausgeprägten Niedrigwasserperiode im Sommer brachten die Rheinschifffahrt an ihre Grenzen – so niedrig lag der Wert zuletzt vor knapp 70 Jahren.",
+		"lesehilfe": "Im Rekordjahr 1974 betrug das Umschlagsvolumen 9,3&nbspMio. Tonnen. Seitdem ist die umgeschlagene Gütermenge zurückgegangen. Die Hauptursache hierfür ist die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene. 2022 brachte der Ukraine-Krieg mit seinen globalen Marktverwerfungen im Energiebereich sowie die ausgeprägte Niedrigwasserperiode im Sommer die Rheinschifffahrt an ihre Grenzen – ein Wert, der zuletzt vor knapp 70&nbspJahren erreicht wurde. 2023 zeigte sich eine erkennbare Erholung, und 2024 folgte eine deutlichere: In den Schweizerischen Rheinhäfen wurden rund 5,4 Mio. Tonnen umgeschlagen, was einem Plus von 8,3% bzw. 415&nbsp130 Tonnen im Vergleich zum Vorjahr entspricht.",
 		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 stillgelegt wurde, aber gelegentlich weiterhin für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 war die Schifffahrt auf dem Rhein eingestellt.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -40340,7 +40340,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:03",
+		"aktualisierungsdatum": "2025-04-15T09:05:43",
 		"id": 9604
 	},
 	{
@@ -40351,9 +40351,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
-		"subtitle": "Schweizerische Rheinhäfen, 2022 und Mittelwert 2012-2021",
-		"lesehilfe": "Die Menge der Abfuhr macht rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Deren Anteil 2022 weist gegenüber dem Mittel der letzten zehn Jahre eine Abnahme um 2,1 Prozentpunkte auf.",
-		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2012 bis 2022. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie, Ukraine-Krieg etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
+		"subtitle": "Schweizerische Rheinhäfen, 2024 und Mittelwert 2014-2023",
+		"lesehilfe": "Die Abfuhrmenge macht rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil im Jahr 2024 zeigt im Vergleich zum Durchschnitt der letzten zehn Jahre eine leichte Zunahme von  0,2 Prozentpunkten.",
+		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2014 bis 2024. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie, Ukraine-Krieg etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -40378,7 +40378,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:03",
+		"aktualisierungsdatum": "2025-04-15T09:05:45",
 		"id": 9605
 	},
 	{
@@ -40390,7 +40390,7 @@
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Zufuhr, Schweizerische Rheinhäfen",
-		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte gliedern: Zum einen gibt es den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2022 entfiel knapp die Hälfte (44,6%) der rund 3,7&nbspMio. Tonnen per Schiff importierten Güter auf die Sparte Erdöl und Mineralölerzeugnisse (Vorjahr: 52,0%). Das zweitwichtigste Importgüter-Segment sind Steine, Erden und Baustoffe. Dessen Anteil lag 2022 bei 15,9%.",
+		"lesehilfe": "Der Schiffsverkehr auf dem Rhein umfasst ganz unterschiedliche Güter – grob unterteilt in flüssige und trockene Ladungen. 2024 wurden über die Schweizerischen Rheinhäfen 4,4&nbspMio.&nbspTonnen Güter eingeführt. Mehr als die Hälfte davon (58,5%) entfiel auf Erdöl und Mineralölerzeugnisse. Steine, Erden und Baustoffe kamen auf 10,6% – etwas weniger als im Jahr zuvor (12,4%).",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -40416,7 +40416,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:04",
+		"aktualisierungsdatum": "2025-04-15T09:05:48",
 		"id": 9606
 	},
 	{
@@ -40428,7 +40428,7 @@
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Abfuhr, Schweizerische Rheinhäfen",
-		"lesehilfe": "Mit 32,0% am höchsten war im vergangenen Jahr der Exportanteil der Sparte Fahrzeuge, Maschinen, Übrige Güter. Im Mittel der letzten zehn Jahre lag ihr Anteil bei 25,9%. Das zweitwichtigste Exportgüter-Segment waren Steine, Erden, Baustoffe (Anteil 2022: 27,7%).",
+		"lesehilfe": "Mit 32,7% war der Exportanteil der Sparte Steine, Erden, Baustoffe im vergangenen Jahr am höchsten. Im Durchschnitt der letzten zehn Jahre lag ihr Anteil bei rund 24%. Das zweitwichtigste Exportgütersegment waren 2024 Fahrzeuge, Maschinen und übrige Güter mit einem Anteil von 22,0%.",
 		"erlaeuterungen": "Über den Rhein wird ein vielfältiger Mix von Waren exportiert. Der Indikator veranschaulicht den Exportanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -40454,7 +40454,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:04",
+		"aktualisierungsdatum": "2025-04-15T09:05:50",
 		"id": 9607
 	},
 	{
@@ -40466,7 +40466,7 @@
 		"children": [],
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU, Schweizerische Rheinhäfen",
-		"lesehilfe": "Das Transportvolumen des Containerschiffverkehrs belief sich 2022 auf rund 125 000 TEU. Dies bedeutet gegenüber dem Vorjahr ein marginales Minus von 0,5%. Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2022 wurden Wachstumsraten um 3,1% p.a. verzeichnet.",
+		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vier Jahrzehnten dynamisch entwickelt. Bis zur Asienkrise 1997 war das Wachstum exponentiell, danach nahm es eine linearere Form an. Zwischen 1998 und 2022 lag das durchschnittliche jährliche Wachstum bei 3,1%. 2022 gab es durch pandemiebedingte Nachholeffekte einen deutlichen Anstieg. In den beiden darauffolgenden Jahren flachte die Entwicklung jedoch ab. Faktoren wie hohe Lagerbestände, politische Spannungen und die inflationäre Entwicklung in Europa führten zu einem Rückgang des Transportvolumens. Zusätzlich fehlten durch den Rückbau des Contargo Südquai-Terminals wichtige Umschlagskapazitäten, die durch bestehende Anlagen nicht vollständig ausgeglichen werden konnten. 2024 sank das Transportvolumen im Containerverkehr um 8,0% auf 100&nbsp032&nbspTEU.",
 		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU (Twenty-foot Equivalent Unit/Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen sowie zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -40492,7 +40492,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:05",
+		"aktualisierungsdatum": "2025-04-15T09:05:53",
 		"id": 9608
 	},
 	{
@@ -41461,6 +41461,44 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 9789,
+		"chart-id": 9789,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Schweizer Hochseeflotte",
+		"subtitle": "",
+		"lesehilfe": "Während des Zweiten Weltkriegs schuf der Bundesrat eine Schweizer Hochseeflotte, welche die Landesversorgung sichern sollte. Nach dem Krieg überliess der Bund die Schiffe privaten Reedereien. Er behielt sich jedoch das Recht vor, in Krisenzeiten auf die Flotte zurückzugreifen und sie bei Bedarf zu enteignen. Als Ausgleich übernahm der Bund die Bürgschaft für die Schiffe, um bei wirtschaftlichen Schwierigkeiten einer Reederei deren Fortbestand zu gewährleisten.<br>In den folgenden Jahrzehnten wuchs die Schweizer Hochseeflotte kontinuierlich, besonders nach dem Zweiten Weltkrieg, als der internationale Handel florierte. Die Flotte erreichte ihren Höchststand im Jahr 2016 mit 50 Schiffen und einer weiterhin steigenden Bruttoregistertonnage (BRT). Danach erlebte die Flotte einen Rückgang, insbesondere ab 2017, als Notverkäufe von Schiffen notwendig wurden, um die Wirtschaftlichkeit der Reedereien zu sichern und gleichzeitig finanzielle Schäden durch Bürgschaftsverpflichtungen des Bundes zu vermeiden. Bis 2024 sank die Zahl der Schiffe auf 12, bei einer Bruttoregistertonnage von 258 686 BRT. Dieser Rückgang ist eine Folge globaler wirtschaftlicher Veränderungen, des intensiven Wettbewerbs im internationalen Schifffahrtsmarkt und der Anpassung an neue Marktbedingungen.",
+		"erlaeuterungen": "BRT: Masseinheit des Volumens aller Ladungs-, Passagier-, Personal-, Maschinen- und sonstigen Räume eines Schiffes; 1 BRT = 100 Kubik-Fuss = 2,83 m<sup>3</sup>.",
+		"quellenangabe": [
+			"Schweizerisches Seeschifffahrtsamt (SSA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Schweizer Hochseeflotte",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09789",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-04-15T09:05:56",
+		"id": 9789
+	},
+	{
+		"template": "line001",
 		"data-id": 9800,
 		"chart-id": 9800,
 		"filter": "",
@@ -41906,7 +41944,7 @@
 		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 036, jene mit EL zur IV bei 6 591. Beihilfen werden an 5 505 (AHV) respektive 4 183 Personen (IV) ausbezahlt.",
+		"lesehilfe": "2024 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 237, jene mit EL zur IV bei 6 419. Beihilfen werden an 5 687 (AHV) respektive 4 178 Personen (IV) ausbezahlt.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -41932,7 +41970,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:21",
+		"aktualisierungsdatum": "2025-04-15T09:05:58",
 		"id": 9918
 	},
 	{
@@ -41985,7 +42023,7 @@
 		"children": [],
 		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) liegt im Jahr 2023 auf ähnlichem Niveau wie im Vorjahr. Per Ende des Jahres 2023 werden 2 190 Mietverhältnisse unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2023 bei 5 435 Franken.",
+		"lesehilfe": "Ende 2024 werden 2 099 Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt bei 5 743 Franken.",
 		"erlaeuterungen": "Bestand per Ende des Jahres.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
@@ -42011,7 +42049,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:25",
+		"aktualisierungsdatum": "2025-04-15T09:05:59",
 		"id": 9920
 	},
 	{
@@ -42213,7 +42251,7 @@
 		"children": [],
 		"title": "Beziehende von Überbrückungsleistungen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Jahr 2023 beziehen 34 Personen Überbrückungsleistungen, 21 davon sind Männer, 13 davon sind Frauen.",
+		"lesehilfe": "Ende Jahr 2024 beziehen 43 Personen Überbrückungsleistungen, 21  davon sind Männer, 22 sind Frauen.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Überbrückungsleistungen richten sich an arbeitslose Personen nach dem 60. Altersjahr, deren Anspruch auf Leistungen der Arbeitslosenversicherung endet. Die Leistung endet in der Regel bei Erreichen des ordentlichen Rentenalters. Die Überbrückungsleistungen wurden per 1. Juli 2021 eingeführt.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -42239,7 +42277,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:15",
+		"aktualisierungsdatum": "2025-04-15T09:06:02",
 		"id": 9932
 	},
 	{

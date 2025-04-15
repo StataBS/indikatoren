@@ -47,6 +47,10 @@
         [
           2023,
           6591
+        ],
+        [
+          2024,
+          6419
         ]
       ],
       "name": "EL zur IV"
@@ -98,6 +102,10 @@
         [
           2023,
           4183
+        ],
+        [
+          2024,
+          4178
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -149,6 +157,10 @@
         [
           2023,
           9036
+        ],
+        [
+          2024,
+          9237
         ]
       ],
       "name": "EL zur AHV"
@@ -200,6 +212,10 @@
         [
           2023,
           5505
+        ],
+        [
+          2024,
+          5687
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -329,7 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

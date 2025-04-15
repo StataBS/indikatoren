@@ -313,7 +313,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl und Quote der Beziehenden von Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 51 231 Beziehenden erhält Ende des Jahres 2023 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung (PV).",
+		"lesehilfe": "Mit 50 795 Beziehenden erhält Ende des Jahres 2024 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligung (PV).",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Die Quote der Beziehenden von Prämienverbilligung entspricht dem Verhältnis der Beziehenden von Prämienverbilligung zur Wohnbevölkerung per Ende des Jahres. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die Prämienverbilligung im Rahmen jener Leistungen ausbezahlt erhalten, sind einberechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -339,7 +339,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:46",
+		"aktualisierungsdatum": "2025-04-15T09:06:03",
 		"id": 9294
 	},
 	{
@@ -499,7 +499,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 036, jene mit EL zur IV bei 6 591. Beihilfen werden an 5 505 (AHV) respektive 4 183 Personen (IV) ausbezahlt.",
+		"lesehilfe": "2024 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 237, jene mit EL zur IV bei 6 419. Beihilfen werden an 5 687 (AHV) respektive 4 178 Personen (IV) ausbezahlt.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -524,7 +524,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:21",
+		"aktualisierungsdatum": "2025-04-15T09:05:58",
 		"id": 9918
 	},
 	{
@@ -576,7 +576,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) liegt im Jahr 2023 auf ähnlichem Niveau wie im Vorjahr. Per Ende des Jahres 2023 werden 2 190 Mietverhältnisse unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2023 bei 5 435 Franken.",
+		"lesehilfe": "Ende 2024 werden 2 099 Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt bei 5 743 Franken.",
 		"erlaeuterungen": "Bestand per Ende des Jahres.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
@@ -601,7 +601,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:25",
+		"aktualisierungsdatum": "2025-04-15T09:05:59",
 		"id": 9920
 	},
 	{
@@ -836,7 +836,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beziehende von Überbrückungsleistungen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Jahr 2023 beziehen 34 Personen Überbrückungsleistungen, 21 davon sind Männer, 13 davon sind Frauen.",
+		"lesehilfe": "Ende Jahr 2024 beziehen 43 Personen Überbrückungsleistungen, 21  davon sind Männer, 22 sind Frauen.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Überbrückungsleistungen richten sich an arbeitslose Personen nach dem 60. Altersjahr, deren Anspruch auf Leistungen der Arbeitslosenversicherung endet. Die Leistung endet in der Regel bei Erreichen des ordentlichen Rentenalters. Die Überbrückungsleistungen wurden per 1. Juli 2021 eingeführt.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:15",
+		"aktualisierungsdatum": "2025-04-15T09:06:02",
 		"id": 9932
 	},
 	{

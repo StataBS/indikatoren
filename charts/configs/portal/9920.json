@@ -49,6 +49,10 @@
         [
           2023,
           2190
+        ],
+        [
+          2024,
+          2099
         ]
       ],
       "name": "Anzahl Mietverhältnisse"
@@ -108,9 +112,13 @@
         [
           2023,
           5435
+        ],
+        [
+          2024,
+          5743
         ]
       ],
-      "name": "Durchschnittsbeitrag (rechte Skala)"
+      "name": "Durchschnittsbeitrag in Franken (rechte Skala)"
     }
   ],
   "chart": {
@@ -246,7 +254,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -175,6 +175,14 @@
         [
           "2022",
           67012
+        ],
+        [
+          "2023",
+          57028
+        ],
+        [
+          "2024",
+          51746
         ]
       ],
       "name": "Zufuhr",
@@ -355,6 +363,14 @@
         [
           "2022",
           58458
+        ],
+        [
+          "2023",
+          51690
+        ],
+        [
+          "2024",
+          48286
         ]
       ],
       "name": "Abfuhr",
@@ -534,6 +550,14 @@
         [
           "2022",
           125470
+        ],
+        [
+          "2023",
+          108718
+        ],
+        [
+          "2024",
+          100032
         ]
       ],
       "name": "Gesamt",
@@ -692,7 +716,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "tooltip": {
     "shared": false,
