@@ -3648,20 +3648,20 @@
           "address": "Luzernerring 94, 4056 Basel"
         },
         {
-          "lat": 47.56826724,
-          "lon": 7.594992633,
+          "lat": 47.55810846,
+          "lon": 7.570976082,
           "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
           "spez": "Spezialisierte Tagespflegeeinrichtung: Demenz",
           "z": null,
-          "address": "Hammerstrasse 156, 4057 Basel"
+          "address": "Schönenbuchstrasse 9, 4055 Basel"
         },
         {
-          "lat": 47.56239822,
-          "lon": 7.590687498,
-          "name": "Stiftung Rheinleben: Tagesstätte 65+",
+          "lat": 47.56218668,
+          "lon": 7.595759269,
+          "name": "Sternenhof: Tagesbetreuung T65+",
           "spez": "Spezialisierte Tagespflegeeinrichtung: Psychische Beeinträchtigung",
           "z": null,
-          "address": "Klingental 1, 4058 Basel"
+          "address": "Fasanenstrasse 221, 4058 Basel"
         }
       ]
     },
@@ -3730,20 +3730,20 @@
           "address": "Luzernerring 94, 4056 Basel"
         },
         {
-          "lat": 47.56826724,
-          "lon": 7.594992633,
+          "lat": 47.55810846,
+          "lon": 7.570976082,
           "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
           "spez": "Spezialisierte Tagespflegeeinrichtung: Demenz",
-          "z": 10,
-          "address": "Hammerstrasse 156, 4057 Basel"
+          "z": 18,
+          "address": "Schönenbuchstrasse 9, 4055 Basel"
         },
         {
-          "lat": 47.56239822,
-          "lon": 7.590687498,
-          "name": "Stiftung Rheinleben: Tagesstätte 65+",
+          "lat": 47.56218668,
+          "lon": 7.595759269,
+          "name": "Sternenhof: Tagesbetreuung T65+",
           "spez": "Spezialisierte Tagespflegeeinrichtung: Psychische Beeinträchtigung",
-          "z": 14,
-          "address": "Klingental 1, 4058 Basel"
+          "z": 19,
+          "address": "Fasanenstrasse 221, 4058 Basel"
         }
       ]
     },
@@ -3855,7 +3855,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Plätze, Basel-Stadt, 2023",
+    "text": "Anzahl Plätze, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3871,7 +3871,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "colorAxis": {
     "min": 0,

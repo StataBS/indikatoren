@@ -2264,6 +2264,7 @@ id | visible | visibleInPortal | indikatorenset
 9785 | true | false | Nachhaltigkeit
 9786 | true | false | Nachhaltigkeit
 9787 | true | true | Nachhaltigkeit
+9789 | true | true | 
 9800 | true | true | 
 9862 | true | true | 
 9885 | true | true | Umwelt

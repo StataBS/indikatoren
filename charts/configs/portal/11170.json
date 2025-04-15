@@ -55,6 +55,14 @@
         [
           2023,
           108
+        ],
+        [
+          2024,
+          108
+        ],
+        [
+          2025,
+          108
         ]
       ],
       "name": "Allgemein"
@@ -114,6 +122,14 @@
         [
           2023,
           49
+        ],
+        [
+          2024,
+          57
+        ],
+        [
+          2025,
+          62
         ]
       ],
       "name": "Spezialisiert"
@@ -174,6 +190,14 @@
         [
           2023,
           157
+        ],
+        [
+          2024,
+          165
+        ],
+        [
+          2025,
+          170
         ]
       ],
       "name": "Total Plätze"
@@ -304,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

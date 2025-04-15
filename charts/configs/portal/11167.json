@@ -3600,13 +3600,6 @@
       "showInLegend": true,
       "data": [
         {
-          "lat": 47.55940168,
-          "lon": 7.579836761,
-          "name": "Adullam Basel",
-          "z": 4,
-          "address": "Missionsstrasse 8a, 4055 Basel"
-        },
-        {
           "lat": 47.54758331,
           "lon": 7.616305358,
           "name": "Bethesda Park",
@@ -3642,6 +3635,20 @@
           "address": "Karl Jaspers-Allee 35, 4052 Basel"
         },
         {
+          "lat": 47.56065147,
+          "lon": 7.616839386,
+          "name": "BSB Wohnen mit Service im Alter - Rankhof",
+          "z": null,
+          "address": "Im Rankhof 8 und 10, 4058 Basel"
+        },
+        {
+          "lat": 47.5644755,
+          "lon": 7.564959652,
+          "name": "BSB Wohnen mit Service im Alter - Westfeld",
+          "z": 17,
+          "address": "Im Westfeld 30, 4055 Basel"
+        },
+        {
           "lat": 47.55937122,
           "lon": 7.600415577,
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
@@ -3654,6 +3661,27 @@
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
           "z": 20,
           "address": "Wettsteinallee 20, 4058 Basel"
+        },
+        {
+          "lat": 47.55701633,
+          "lon": 7.570041471,
+          "name": "BSB Wohnen mit Service im Alter - Wibrandishaus 1",
+          "z": null,
+          "address": "Allschwilerplatz 9, 4055 Basel"
+        },
+        {
+          "lat": 47.55696034,
+          "lon": 7.571077847,
+          "name": "BSB Wohnen mit Service im Alter - Wibrandishaus 2",
+          "z": null,
+          "address": "Allschwilerstrasse 73, 4055 Basel"
+        },
+        {
+          "lat": 47.56071266,
+          "lon": 7.593386108,
+          "name": "BSB Wohnen mit Service im Alter - Zum Lamm",
+          "z": 3,
+          "address": "Rebgasse 16, 4058 Basel"
         },
         {
           "lat": 47.56685161,
@@ -3779,13 +3807,6 @@
       "showInLegend": true,
       "data": [
         {
-          "lat": 47.55940168,
-          "lon": 7.579836761,
-          "name": "Adullam Basel",
-          "z": null,
-          "address": "Missionsstrasse 8a, 4055 Basel"
-        },
-        {
           "lat": 47.54758331,
           "lon": 7.616305358,
           "name": "Bethesda Park",
@@ -3821,6 +3842,20 @@
           "address": "Karl Jaspers-Allee 35, 4052 Basel"
         },
         {
+          "lat": 47.56065147,
+          "lon": 7.616839386,
+          "name": "BSB Wohnen mit Service im Alter - Rankhof",
+          "z": 76,
+          "address": "Im Rankhof 8 und 10, 4058 Basel"
+        },
+        {
+          "lat": 47.5644755,
+          "lon": 7.564959652,
+          "name": "BSB Wohnen mit Service im Alter - Westfeld",
+          "z": null,
+          "address": "Im Westfeld 30, 4055 Basel"
+        },
+        {
           "lat": 47.55937122,
           "lon": 7.600415577,
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
@@ -3833,6 +3868,27 @@
           "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
           "z": null,
           "address": "Wettsteinallee 20, 4058 Basel"
+        },
+        {
+          "lat": 47.55701633,
+          "lon": 7.570041471,
+          "name": "BSB Wohnen mit Service im Alter - Wibrandishaus 1",
+          "z": 100,
+          "address": "Allschwilerplatz 9, 4055 Basel"
+        },
+        {
+          "lat": 47.55696034,
+          "lon": 7.571077847,
+          "name": "BSB Wohnen mit Service im Alter - Wibrandishaus 2",
+          "z": 21,
+          "address": "Allschwilerstrasse 73, 4055 Basel"
+        },
+        {
+          "lat": 47.56071266,
+          "lon": 7.593386108,
+          "name": "BSB Wohnen mit Service im Alter - Zum Lamm",
+          "z": null,
+          "address": "Rebgasse 16, 4058 Basel"
         },
         {
           "lat": 47.56685161,
@@ -4049,7 +4105,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Wohnungen, Basel-Stadt, 2023",
+    "text": "Anzahl Wohnungen, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -4065,7 +4121,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "colorAxis": {
     "min": 0,

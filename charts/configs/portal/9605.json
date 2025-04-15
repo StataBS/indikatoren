@@ -4,11 +4,11 @@
       "data": [
         [
           "Zufuhr",
-          3725565.414
+          4523996.2593
         ],
         [
           "Abfuhr",
-          874955.698
+          963467.8946
         ]
       ],
       "dataLabels": {
@@ -35,18 +35,18 @@
         "#A0BEC8",
         "#FFBB58"
       ],
-      "name": "Mittel 2012-2021",
+      "name": "Mittel 2014-2023",
       "turboThreshold": 0
     },
     {
       "data": [
         [
           "Zufuhr",
-          4928377.6301
+          4429452.142
         ],
         [
           "Abfuhr",
-          1005630.2329
+          959951.23
         ]
       ],
       "dataLabels": {
@@ -72,7 +72,7 @@
         "#008ac3",
         "#FF8028"
       ],
-      "name": "2022",
+      "name": "2024",
       "turboThreshold": 0
     }
   ],
@@ -153,7 +153,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweizerische Rheinhäfen, 2022 und Mittelwert 2012-2021",
+    "text": "Schweizerische Rheinhäfen, 2024 und Mittelwert 2014-2023",
     "align": "left"
   },
   "tooltip": {
@@ -175,7 +175,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "legend": {
     "layout": "horizontal",
@@ -195,7 +195,7 @@
   "labels": {
     "items": [
       {
-        "html": "Aussen: 2022\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;2012-2021",
+        "html": "Aussen: 2024\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;2014-2023",
         "style": {
           "left": "300px",
           "top": "250px"

@@ -7,9 +7,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 hatte das Adullam Pflegezentrum Basel 133 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 hatte das Adullam Pflegezentrum Basel 135 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2024",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-26T08:32:13",
+		"aktualisierungsdatum": "2025-04-15T09:06:05",
 		"id": 11165
 	},
 	{
@@ -46,9 +46,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2025",
+		"lesehilfe": "Anfang 2025  bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:25",
+		"aktualisierungsdatum": "2025-04-15T09:06:13",
 		"id": 11166
 	},
 	{
@@ -85,9 +85,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
-		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
+		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2025",
+		"lesehilfe": "Anfang 2025 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:19",
+		"aktualisierungsdatum": "2025-04-15T09:06:12",
 		"id": 11167
 	},
 	{
@@ -125,8 +125,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 gab es im Kanton Basel-Stadt 55 Organisationen sowie 63 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
-		"erlaeuterungen": "Stand Ende 2023",
+		"lesehilfe": "Im Jahr 2024 gab es im Kanton Basel-Stadt 59 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Sie alle verfügen über eine Bewilligung zu Ausübung und Abrechnung von Spitex-Leistungen.",
+		"erlaeuterungen": "Stand Ende 2024",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:14",
+		"aktualisierungsdatum": "2025-04-15T09:06:09",
 		"id": 11168
 	},
 	{
@@ -164,8 +164,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2023 gab es 636 Plätze in speziellen Wohnformen (21,2% aller Plätze) in den Pflegeheimen und 2 203 (73,4%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2023",
+		"lesehilfe": "Im Jahr 2024 gab es 606 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 235 (74,5%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Die Aktualisierung der Daten erfolgt jeweils am Anfang und am Ende des aktuellen Jahres.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -191,7 +191,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:16",
+		"aktualisierungsdatum": "2025-04-15T09:06:11",
 		"id": 11169
 	},
 	{
@@ -203,8 +203,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
+		"lesehilfe": "Anfang 2025 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:08",
+		"aktualisierungsdatum": "2025-04-15T09:06:07",
 		"id": 11170
 	},
 	{

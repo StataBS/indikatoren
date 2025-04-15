@@ -3604,7 +3604,7 @@
           "lon": 7.579534993,
           "id": 1,
           "name": "Adullam Pflegezentrum Basel",
-          "z": 133,
+          "z": 135,
           "address": "Mittlere Strasse 15, 4056 Basel"
         },
         {
@@ -3668,7 +3668,7 @@
           "lon": 7.575497423,
           "id": 9,
           "name": "BSB Alterszentrum Weiherweg",
-          "z": 85,
+          "z": 74,
           "address": "Rudolfstrasse 43, 4054 Basel"
         },
         {
@@ -3716,7 +3716,7 @@
           "lon": 7.59674348,
           "id": 15,
           "name": "dandelion",
-          "z": 65,
+          "z": 63,
           "address": "Sperrstrasse 100, 4057 Basel"
         },
         {
@@ -3724,23 +3724,23 @@
           "lon": 7.654766762,
           "id": 16,
           "name": "Kommunität Diakonissenhaus Riehen",
-          "z": 10,
+          "z": 12,
           "address": "Schützengasse 51, 4125 Riehen"
         },
         {
-          "lat": 47.58268058,
-          "lon": 7.651642763,
+          "lat": 47.58262549,
+          "lon": 7.652433081,
           "id": 17,
           "name": "Dominikushaus",
-          "z": 62,
-          "address": "Albert Oeri-Strasse 7, 4125 Riehen"
+          "z": 55,
+          "address": "Immenbachstrasse 17, 4125 Riehen"
         },
         {
           "lat": 47.5456995,
           "lon": 7.568479893,
           "id": 18,
           "name": "Generationenhaus Neubad",
-          "z": 87,
+          "z": 88,
           "address": "Holeestrasse 119, 4054 Basel"
         },
         {
@@ -3768,12 +3768,12 @@
           "address": "Rauracherstrasse 111, 4125 Riehen"
         },
         {
-          "lat": 47.56989264,
-          "lon": 7.68482652,
+          "lat": 47.55278788,
+          "lon": 7.587515132,
           "id": 22,
           "name": "irides AG Pflegezentrum",
-          "z": 64,
-          "address": "Hohe Strasse 30, 4126 Bettingen"
+          "z": 78,
+          "address": "Kohlenberggasse 20, 4051 Basel"
         },
         {
           "lat": 47.56895662,
@@ -3796,7 +3796,7 @@
           "lon": 7.593988016,
           "id": 25,
           "name": "Marienhaus",
-          "z": 111,
+          "z": 107,
           "address": "Horburgstrasse 54, 4057 Basel"
         },
         {
@@ -3836,7 +3836,7 @@
           "lon": 7.609082943,
           "id": 30,
           "name": "Senevita Gellertblick",
-          "z": 97,
+          "z": 101,
           "address": "St. Jakobs-Strasse 201,4052 Basel"
         },
         {
@@ -3844,7 +3844,7 @@
           "lon": 7.679020137,
           "id": 31,
           "name": "Pflegeheim St. Chrischona",
-          "z": 38,
+          "z": 37,
           "address": "Chrischonarain 131, 4126 Bettingen"
         },
         {
@@ -3860,7 +3860,7 @@
           "lon": 7.619078242,
           "id": 33,
           "name": "Alters- und Pflegeheim St. Elisabethenheim",
-          "z": 70,
+          "z": 73,
           "address": "Allmendstrasse 40, 4058 Basel"
         },
         {
@@ -3908,7 +3908,7 @@
           "lon": 7.619038566,
           "id": 36,
           "name": "Tertianum AG Residenz St. Jakob-Park",
-          "z": 16,
+          "z": 24,
           "address": "St. Jakobs-Strasse 395, 4052 Basel"
         },
         {
@@ -3924,7 +3924,7 @@
           "lon": 7.592936489,
           "id": 38,
           "name": "Alterszentrum Wiesendamm",
-          "z": 67,
+          "z": 55,
           "address": "Wiesendamm 20 \u002F 22, 4057 Basel"
         },
         {
@@ -3932,7 +3932,7 @@
           "lon": 7.59770085,
           "id": 39,
           "name": "Alterszentrum Zum Wasserturm",
-          "z": 40,
+          "z": 42,
           "address": "Giornicostrasse 144, 4059 Basel"
         }
       ]
@@ -4045,7 +4045,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Plätze, Basel-Stadt, 2023",
+    "text": "Anzahl Plätze, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -4061,7 +4061,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "colorAxis": {
     "min": 0,

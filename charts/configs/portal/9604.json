@@ -450,6 +450,14 @@
         [
           "2022",
           3725.565414
+        ],
+        [
+          "2023",
+          4163.016878
+        ],
+        [
+          "2024",
+          4429.452142
         ]
       ],
       "name": "Zufuhr",
@@ -905,6 +913,14 @@
         [
           "2022",
           874.955698
+        ],
+        [
+          "2023",
+          811.256919
+        ],
+        [
+          "2024",
+          959.95123
         ]
       ],
       "name": "Abfuhr",
@@ -1360,6 +1376,14 @@
         [
           "2022",
           4600.521112
+        ],
+        [
+          "2023",
+          4974.273797
+        ],
+        [
+          "2024",
+          5389.403372
         ]
       ],
       "name": "Gesamtumschlag",
@@ -1502,7 +1526,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 20.2.2023"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

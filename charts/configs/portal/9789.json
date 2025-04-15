@@ -1,0 +1,890 @@
+{
+  "series": [
+    {
+      "color": "#67A9CF",
+      "type": "column",
+      "zIndex": 0,
+      "data": [
+        [
+          "1941",
+          8
+        ],
+        [
+          "1942",
+          11
+        ],
+        [
+          "1943",
+          12
+        ],
+        [
+          "1944",
+          13
+        ],
+        [
+          "1945",
+          10
+        ],
+        [
+          "1946",
+          6
+        ],
+        [
+          "1947",
+          9
+        ],
+        [
+          "1948",
+          12
+        ],
+        [
+          "1949",
+          16
+        ],
+        [
+          "1950",
+          20
+        ],
+        [
+          "1951",
+          27
+        ],
+        [
+          "1952",
+          36
+        ],
+        [
+          "1953",
+          34
+        ],
+        [
+          "1954",
+          31
+        ],
+        [
+          "1955",
+          25
+        ],
+        [
+          "1956",
+          23
+        ],
+        [
+          "1957",
+          22
+        ],
+        [
+          "1958",
+          23
+        ],
+        [
+          "1959",
+          27
+        ],
+        [
+          "1960",
+          26
+        ],
+        [
+          "1961",
+          29
+        ],
+        [
+          "1962",
+          33
+        ],
+        [
+          "1963",
+          32
+        ],
+        [
+          "1964",
+          30
+        ],
+        [
+          "1965",
+          31
+        ],
+        [
+          "1966",
+          32
+        ],
+        [
+          "1967",
+          33
+        ],
+        [
+          "1968",
+          31
+        ],
+        [
+          "1969",
+          31
+        ],
+        [
+          "1970",
+          31
+        ],
+        [
+          "1971",
+          32
+        ],
+        [
+          "1972",
+          30
+        ],
+        [
+          "1973",
+          27
+        ],
+        [
+          "1974",
+          26
+        ],
+        [
+          "1975",
+          27
+        ],
+        [
+          "1976",
+          27
+        ],
+        [
+          "1977",
+          25
+        ],
+        [
+          "1978",
+          29
+        ],
+        [
+          "1979",
+          32
+        ],
+        [
+          "1980",
+          30
+        ],
+        [
+          "1981",
+          31
+        ],
+        [
+          "1982",
+          33
+        ],
+        [
+          "1983",
+          33
+        ],
+        [
+          "1984",
+          34
+        ],
+        [
+          "1985",
+          34
+        ],
+        [
+          "1986",
+          29
+        ],
+        [
+          "1987",
+          28
+        ],
+        [
+          "1988",
+          22
+        ],
+        [
+          "1989",
+          20
+        ],
+        [
+          "1990",
+          22
+        ],
+        [
+          "1991",
+          23
+        ],
+        [
+          "1992",
+          22
+        ],
+        [
+          "1993",
+          21
+        ],
+        [
+          "1994",
+          18
+        ],
+        [
+          "1995",
+          20
+        ],
+        [
+          "1996",
+          20
+        ],
+        [
+          "1997",
+          20
+        ],
+        [
+          "1998",
+          17
+        ],
+        [
+          "1999",
+          20
+        ],
+        [
+          "2000",
+          20
+        ],
+        [
+          "2001",
+          24
+        ],
+        [
+          "2002",
+          26
+        ],
+        [
+          "2003",
+          26
+        ],
+        [
+          "2004",
+          23
+        ],
+        [
+          "2005",
+          25
+        ],
+        [
+          "2006",
+          28
+        ],
+        [
+          "2007",
+          32
+        ],
+        [
+          "2008",
+          35
+        ],
+        [
+          "2009",
+          35
+        ],
+        [
+          "2010",
+          37
+        ],
+        [
+          "2011",
+          40
+        ],
+        [
+          "2012",
+          40
+        ],
+        [
+          "2013",
+          44
+        ],
+        [
+          "2014",
+          46
+        ],
+        [
+          "2015",
+          47
+        ],
+        [
+          "2016",
+          50
+        ],
+        [
+          "2017",
+          35
+        ],
+        [
+          "2018",
+          30
+        ],
+        [
+          "2019",
+          27
+        ],
+        [
+          "2020",
+          18
+        ],
+        [
+          "2021",
+          18
+        ],
+        [
+          "2022",
+          14
+        ],
+        [
+          "2023",
+          14
+        ],
+        [
+          "2024",
+          12
+        ]
+      ],
+      "name": "Anzahl Schiffe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#053061",
+      "yAxis": 1,
+      "zIndex": 1,
+      "data": [
+        [
+          "1941",
+          29008
+        ],
+        [
+          "1942",
+          39469
+        ],
+        [
+          "1943",
+          41397
+        ],
+        [
+          "1944",
+          48456
+        ],
+        [
+          "1945",
+          38396
+        ],
+        [
+          "1946",
+          28075
+        ],
+        [
+          "1947",
+          39691
+        ],
+        [
+          "1948",
+          40666
+        ],
+        [
+          "1949",
+          48520
+        ],
+        [
+          "1950",
+          70705
+        ],
+        [
+          "1951",
+          89143
+        ],
+        [
+          "1952",
+          131719
+        ],
+        [
+          "1953",
+          125088
+        ],
+        [
+          "1954",
+          103874
+        ],
+        [
+          "1955",
+          86855
+        ],
+        [
+          "1956",
+          93880
+        ],
+        [
+          "1957",
+          97085
+        ],
+        [
+          "1958",
+          109405
+        ],
+        [
+          "1959",
+          138684
+        ],
+        [
+          "1960",
+          139693
+        ],
+        [
+          "1961",
+          162519
+        ],
+        [
+          "1962",
+          175401
+        ],
+        [
+          "1963",
+          169223
+        ],
+        [
+          "1964",
+          161039
+        ],
+        [
+          "1965",
+          182727
+        ],
+        [
+          "1966",
+          194172
+        ],
+        [
+          "1967",
+          204616
+        ],
+        [
+          "1968",
+          198373
+        ],
+        [
+          "1969",
+          202292
+        ],
+        [
+          "1970",
+          209151
+        ],
+        [
+          "1971",
+          218675
+        ],
+        [
+          "1972",
+          212202
+        ],
+        [
+          "1973",
+          237003
+        ],
+        [
+          "1974",
+          209602
+        ],
+        [
+          "1975",
+          243375
+        ],
+        [
+          "1976",
+          235534
+        ],
+        [
+          "1977",
+          236443
+        ],
+        [
+          "1978",
+          248904
+        ],
+        [
+          "1979",
+          279287
+        ],
+        [
+          "1980",
+          294304
+        ],
+        [
+          "1981",
+          313662
+        ],
+        [
+          "1982",
+          319831
+        ],
+        [
+          "1983",
+          355413
+        ],
+        [
+          "1984",
+          345534
+        ],
+        [
+          "1985",
+          364355
+        ],
+        [
+          "1986",
+          320333
+        ],
+        [
+          "1987",
+          355711
+        ],
+        [
+          "1988",
+          255859
+        ],
+        [
+          "1989",
+          216267
+        ],
+        [
+          "1990",
+          296517
+        ],
+        [
+          "1991",
+          367673
+        ],
+        [
+          "1992",
+          345870
+        ],
+        [
+          "1993",
+          337072
+        ],
+        [
+          "1994",
+          297046
+        ],
+        [
+          "1995",
+          380990
+        ],
+        [
+          "1996",
+          400191
+        ],
+        [
+          "1997",
+          444046
+        ],
+        [
+          "1998",
+          405730
+        ],
+        [
+          "1999",
+          423307
+        ],
+        [
+          "2000",
+          424981
+        ],
+        [
+          "2001",
+          501975
+        ],
+        [
+          "2002",
+          568915
+        ],
+        [
+          "2003",
+          614639
+        ],
+        [
+          "2004",
+          431052
+        ],
+        [
+          "2005",
+          469634
+        ],
+        [
+          "2006",
+          521026
+        ],
+        [
+          "2007",
+          581683
+        ],
+        [
+          "2008",
+          640363
+        ],
+        [
+          "2009",
+          614125
+        ],
+        [
+          "2010",
+          704799
+        ],
+        [
+          "2011",
+          774647
+        ],
+        [
+          "2012",
+          778271
+        ],
+        [
+          "2013",
+          804945
+        ],
+        [
+          "2014",
+          869563
+        ],
+        [
+          "2015",
+          929729
+        ],
+        [
+          "2016",
+          1064253
+        ],
+        [
+          "2017",
+          877084
+        ],
+        [
+          "2018",
+          743080
+        ],
+        [
+          "2019",
+          693553
+        ],
+        [
+          "2020",
+          550382
+        ],
+        [
+          "2021",
+          550382
+        ],
+        [
+          "2022",
+          484707
+        ],
+        [
+          "2023",
+          484707
+        ],
+        [
+          "2024",
+          439313
+        ]
+      ],
+      "name": "Bruttoregistertonnen (BRT, rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickPositioner": function () {
+                var maxlabels = 12,
+                    ext = this.getExtremes(),
+                    i = Math.round(ext.max),
+                    interval = Math.round((i - ext.min) / maxlabels),
+                    pos = [i];
+                while (i >= ext.min) pos.unshift(i = i - interval);
+                return pos;
+
+            }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 70,
+    "renderTo": "container-9789"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "column": {}
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Schweizer Hochseeflotte"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "tickAmount": 8,
+      "alignTicks": true,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "tickAmount": 8,
+      "alignTicks": true,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Schweizerisches Seeschifffahrtsamt (SSA).\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9789"
+  }
+}

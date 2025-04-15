@@ -5,22 +5,10 @@
       "color": "#B00000",
       "data": [
         {
-          "name": "2013",
-          "y": 6829.7,
+          "name": "2015",
+          "y": 6333.8,
           "isSum": null,
           "color": "#FABD24"
-        },
-        {
-          "name": "2013\u002F2014",
-          "y": -847.6,
-          "isSum": null,
-          "color": null
-        },
-        {
-          "name": "2014\u002F2015",
-          "y": 351.7,
-          "isSum": null,
-          "color": null
         },
         {
           "name": "2015\u002F2016",
@@ -71,8 +59,14 @@
           "color": null
         },
         {
-          "name": "2023",
-          "y": 4974.3,
+          "name": "2023\u002F2024",
+          "y": 415.1,
+          "isSum": null,
+          "color": null
+        },
+        {
+          "name": "2024",
+          "y": 5389.4,
           "isSum": true,
           "color": "#FABD24"
         }
@@ -227,7 +221,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
   },
   "tooltip": {
     "useHTML": true,
