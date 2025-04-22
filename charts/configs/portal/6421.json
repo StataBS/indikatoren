@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2004",
-          4201
-        ],
-        [
           "2005",
           4035
         ],
@@ -84,6 +80,10 @@
         [
           "2023",
           4240
+        ],
+        [
+          "2024",
+          4356
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -94,10 +94,6 @@
       "index": 8,
       "legendIndex": 1,
       "data": [
-        [
-          "2004",
-          77
-        ],
         [
           "2005",
           71
@@ -173,6 +169,10 @@
         [
           "2023",
           66
+        ],
+        [
+          "2024",
+          64
         ]
       ],
       "name": "Unteres Fachkader",
@@ -183,10 +183,6 @@
       "index": 7,
       "legendIndex": 2,
       "data": [
-        [
-          "2004",
-          143
-        ],
         [
           "2005",
           145
@@ -262,6 +258,10 @@
         [
           "2023",
           189
+        ],
+        [
+          "2024",
+          213
         ]
       ],
       "name": "Unteres Kader",
@@ -272,10 +272,6 @@
       "index": 6,
       "legendIndex": 3,
       "data": [
-        [
-          "2004",
-          65
-        ],
         [
           "2005",
           61
@@ -351,6 +347,10 @@
         [
           "2023",
           119
+        ],
+        [
+          "2024",
+          117
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -361,10 +361,6 @@
       "index": 5,
       "legendIndex": 4,
       "data": [
-        [
-          "2004",
-          146
-        ],
         [
           "2005",
           143
@@ -440,6 +436,10 @@
         [
           "2023",
           188
+        ],
+        [
+          "2024",
+          191
         ]
       ],
       "name": "Mittleres Kader",
@@ -450,10 +450,6 @@
       "index": 4,
       "legendIndex": 5,
       "data": [
-        [
-          "2004",
-          124
-        ],
         [
           "2005",
           124
@@ -529,6 +525,10 @@
         [
           "2023",
           102
+        ],
+        [
+          "2024",
+          105
         ]
       ],
       "name": "Oberes Kader",
@@ -673,7 +673,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

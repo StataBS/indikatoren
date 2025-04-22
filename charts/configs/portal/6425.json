@@ -7,11 +7,11 @@
       "data": [
         [
           "Oberes Kader",
-          186
+          176
         ],
         [
           "Mittleres Kader",
-          408
+          438
         ],
         [
           "Mittleres Fachkader",
@@ -19,11 +19,11 @@
         ],
         [
           "Unteres Kader",
-          679
+          740
         ],
         [
           "Unteres Fachkader",
-          132
+          137
         ]
       ],
       "name": "Schweiz",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Oberes Kader",
-          9
+          8
         ],
         [
           "Mittleres Kader",
-          43
+          45
         ],
         [
           "Mittleres Fachkader",
-          30
+          29
         ],
         [
           "Unteres Kader",
-          71
+          84
         ],
         [
           "Unteres Fachkader",
-          14
+          25
         ]
       ],
       "name": "Deutschland",
@@ -65,11 +65,11 @@
       "data": [
         [
           "Oberes Kader",
-          0
+          1
         ],
         [
           "Mittleres Kader",
-          0
+          2
         ],
         [
           "Mittleres Fachkader",
@@ -77,7 +77,7 @@
         ],
         [
           "Unteres Kader",
-          13
+          12
         ],
         [
           "Unteres Fachkader",
@@ -123,23 +123,23 @@
       "data": [
         [
           "Oberes Kader",
-          1
+          2
         ],
         [
           "Mittleres Kader",
-          10
+          9
         ],
         [
           "Mittleres Fachkader",
-          6
+          5
         ],
         [
           "Unteres Kader",
-          13
+          17
         ],
         [
           "Unteres Fachkader",
-          0
+          1
         ]
       ],
       "name": "EU-West + EFTA + UK",
@@ -193,7 +193,7 @@
         ],
         [
           "Unteres Kader",
-          3
+          5
         ],
         [
           "Unteres Fachkader",
@@ -214,7 +214,7 @@
         ],
         [
           "Mittleres Kader",
-          1
+          2
         ],
         [
           "Mittleres Fachkader",
@@ -222,7 +222,7 @@
         ],
         [
           "Unteres Kader",
-          1
+          0
         ],
         [
           "Unteres Fachkader",
@@ -251,7 +251,7 @@
         ],
         [
           "Unteres Kader",
-          0
+          1
         ],
         [
           "Unteres Fachkader",
@@ -410,7 +410,7 @@
     "text": "Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2023",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -434,7 +434,7 @@
         "color": "#000000"
       }
     },
-    "max": 800
+    "max": 1000
   },
   "legend": {
     "symbolRadius": 0,
@@ -467,7 +467,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2024"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2025"
   },
   "exporting": {
     "filename": "6425"
