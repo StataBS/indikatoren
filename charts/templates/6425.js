@@ -46,7 +46,7 @@
 
     },
     yAxis: {
-			max: 800
+			max: 1000
 		},
     "legend": {
       "enabled": true,

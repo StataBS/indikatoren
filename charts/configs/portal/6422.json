@@ -6,27 +6,27 @@
       "data": [
         [
           "Oberes Kader",
-          95.3
+          94.6
         ],
         [
           "Mittleres Kader",
-          94
+          94.6
         ],
         [
           "Mittleres Fachkader",
-          90.8
+          90.7
         ],
         [
           "Unteres Kader",
-          85.9
+          86.6
         ],
         [
           "Unteres Fachkader",
-          93
+          86.5
         ],
         [
           "Ohne Kaderfunktion",
-          82.7
+          82.3
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Oberes Kader",
-          55.1
+          52.3
         ],
         [
           "Mittleres Kader",
-          52.5
+          50.5
         ],
         [
           "Mittleres Fachkader",
-          38.2
+          38.8
         ],
         [
           "Unteres Kader",
-          56.4
+          54.5
         ],
         [
           "Unteres Fachkader",
-          46.5
+          45.9
         ],
         [
           "Ohne Kaderfunktion",
-          31.6
+          31
         ]
       ],
       "name": "Schweizer",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Oberes Kader",
-          40.2
+          42.3
         ],
         [
           "Mittleres Kader",
-          41.5
+          44.1
         ],
         [
           "Mittleres Fachkader",
-          52.7
+          51.9
         ],
         [
           "Unteres Kader",
-          29.5
+          32.1
         ],
         [
           "Unteres Fachkader",
-          46.5
+          40.5
         ],
         [
           "Ohne Kaderfunktion",
-          51.1
+          51.3
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,27 +102,27 @@
       "data": [
         [
           "Oberes Kader",
-          4.7
+          5.4
         ],
         [
           "Mittleres Kader",
-          6
+          5.4
         ],
         [
           "Mittleres Fachkader",
-          9.2
+          9.3
         ],
         [
           "Unteres Kader",
-          14.1
+          13.4
         ],
         [
           "Unteres Fachkader",
-          7
+          13.5
         ],
         [
           "Ohne Kaderfunktion",
-          17.3
+          17.7
         ]
       ],
       "name": "Ausland",
@@ -134,27 +134,27 @@
       "data": [
         [
           "Oberes Kader",
-          1.9
+          3.6
         ],
         [
           "Mittleres Kader",
-          4
+          3
         ],
         [
           "Mittleres Fachkader",
-          4.6
+          5.4
         ],
         [
           "Unteres Kader",
-          8.2
+          8.5
         ],
         [
           "Unteres Fachkader",
-          1.4
+          5.4
         ],
         [
           "Ohne Kaderfunktion",
-          6.4
+          6.8
         ]
       ],
       "name": "Ausländer",
@@ -166,23 +166,23 @@
       "data": [
         [
           "Oberes Kader",
-          2.8
+          1.8
         ],
         [
           "Mittleres Kader",
-          2
+          2.5
         ],
         [
           "Mittleres Fachkader",
-          4.6
+          3.9
         ],
         [
           "Unteres Kader",
-          5.9
+          4.9
         ],
         [
           "Unteres Fachkader",
-          5.6
+          8.1
         ],
         [
           "Ohne Kaderfunktion",
@@ -271,7 +271,7 @@
     "text": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2023",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2024"
+    "text": "Quelle: Human Ressources Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
