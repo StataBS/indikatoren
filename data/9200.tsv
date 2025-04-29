@@ -1,22 +1,22 @@
-cities	Beschäftigtendichte	time
-Basel	0.543	2021-01-01
-Bern	0.765	2021-01-01
-Genf	0.515	2021-01-01
-Lausanne	0.635	2021-01-01
-Zürich	0.703	2021-01-01
-Frankfurt a. M.	0.559	2021-01-01
-Freiburg i. Br.	0.499	2021-01-01
-Karlsruhe	0.586	2021-01-01
-München	0.601	2021-01-01
-Stuttgart	0.574	2021-01-01
-Lille	0.416	2020-01-01
-Lyon	0.46	2020-01-01
-Metz	0.432	2020-01-01
-Paris	0.462	2020-01-01
-Strassburg	0.439	2020-01-01
-Mailand	0.416	2020-01-01
-Bologna	0.398	2020-01-01
-Lissabon	0.46	2021-01-01
-Porto	0.43	2021-01-01
-Barcelona	0.461	2021-01-01
-Madrid	0.522	2021-01-01
+cities	Beschäftigte Dichte	time
+Basel	0.57	2021-12-31
+Bern	0.768	2021-12-31
+Genf	0.604	2021-12-31
+Lausanne	0.652	2021-12-31
+Zürich	0.713	2021-12-31
+Frankfurt a. M.	0.564	2022-01-01
+Freiburg i. Br.	0.529	2022-01-01
+Karlsruhe	0.613	2022-01-01
+München	0.61	2022-01-01
+Stuttgart	0.585	2022-01-01
+Lille	0.426	2021-01-01
+Lyon	0.47	2021-01-01
+Metz	0.439	2021-01-01
+Paris	0.468	2021-01-01
+Strassburg	0.444	2021-01-01
+Mailand	0.431	2021-01-01
+Bologna	0.407	2021-01-01
+Lissabon	0.487	2022-01-01
+Porto	0.46	2022-01-01
+Barcelona	0.462	2022-01-01
+Madrid	0.534	2022-01-01

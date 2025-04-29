@@ -36,7 +36,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:20",
+		"aktualisierungsdatum": "2025-04-30T12:02:58",
 		"id": 11165
 	},
 	{
@@ -3758,7 +3758,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:22",
+		"aktualisierungsdatum": "2025-04-30T12:02:59",
 		"id": 12727
 	},
 	{
@@ -6523,7 +6523,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:14",
+		"aktualisierungsdatum": "2025-04-30T12:02:53",
 		"id": 4152
 	},
 	{
@@ -13658,7 +13658,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:25",
+		"aktualisierungsdatum": "2025-04-30T12:03:01",
 		"id": 5183
 	},
 	{
@@ -15877,7 +15877,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:27",
+		"aktualisierungsdatum": "2025-04-30T12:03:03",
 		"id": 6053
 	},
 	{
@@ -27695,7 +27695,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:15",
+		"aktualisierungsdatum": "2025-04-30T12:02:55",
 		"id": 7516
 	},
 	{
@@ -27733,7 +27733,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-29T03:01:17",
+		"aktualisierungsdatum": "2025-04-30T12:02:56",
 		"id": 7517
 	},
 	{
@@ -31946,7 +31946,7 @@
 		],
 		"title": "Perimeter der trinationalen Agglomeration Basel",
 		"subtitle": "",
-		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 207 Gemeinden. Sie besteht aus der Kernstadt Basel, 110 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
+		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 203 Gemeinden. Sie besteht aus der Kernstadt Basel, 106 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -31957,7 +31957,7 @@
 			"Gemeinde"
 		],
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "40 Querschnittsthemen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.07952",
 		"kennzahlenset": "City-Statistics",
@@ -31972,7 +31972,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:11",
+		"aktualisierungsdatum": "2024-01-23T08:09:05",
 		"id": 7952
 	},
 	{

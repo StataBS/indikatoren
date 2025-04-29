@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2016"
   },
   "legend": {
     "enabled": false,
@@ -321,6 +321,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 4918
+    "filename": "4918"
   }
 }

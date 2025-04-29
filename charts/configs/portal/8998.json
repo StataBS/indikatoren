@@ -2764,7 +2764,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EBundesamt für Meteorologie und Klimatologie MeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-11"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EBundesamt für Meteorologie und Klimatologie MeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 11.5.2020"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -2810,6 +2810,6 @@
   },
   "navigator": {},
   "exporting": {
-    "filename": 8998
+    "filename": "8998"
   }
 }

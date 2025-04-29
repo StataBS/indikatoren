@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          0.543
+          0.549
         ],
         [
           "Bern",
-          0.765
+          0.768
         ],
         [
           "Genf",
-          0.515
+          0.513
         ],
         [
           "Lausanne",
-          0.635
+          0.652
         ],
         [
           "Zürich",
-          0.703
+          0.713
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          1.056
+          1.085
         ],
         [
           "Bern",
-          1.412
+          1.44
         ],
         [
           "Genf",
-          0.902
+          0.923
         ],
         [
           "Lausanne",
-          0.881
+          0.907
         ],
         [
           "Zürich",
-          1.174
+          1.217
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.487
+          0.493
         ],
         [
           "Bern",
-          0.463
+          0.465
         ],
         [
           "Genf",
-          0.554
+          0.572
         ],
         [
           "Lausanne",
-          0.518
+          0.533
         ],
         [
           "Zürich",
-          0.502
+          0.503
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          0.346
+          0.345
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          0.28
+          0.277
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          0.235
+          0.241
         ],
         [
           "Lausanne",
