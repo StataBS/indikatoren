@@ -130,6 +130,10 @@
         [
           "2023",
           0.030601
+        ],
+        [
+          "2024",
+          0.038127
         ]
       ],
       "name": "Total",
@@ -266,6 +270,10 @@
         [
           "2023",
           0.032068
+        ],
+        [
+          "2024",
+          0.037973
         ]
       ],
       "name": "15-24 Jahre",
@@ -402,6 +410,10 @@
         [
           "2023",
           0.027346
+        ],
+        [
+          "2024",
+          0.032283
         ]
       ],
       "name": "50 Jahre und mehr",
@@ -536,7 +548,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

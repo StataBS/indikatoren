@@ -4045,7 +4045,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Plätze, Basel-Stadt, 2024",
+    "text": "Anzahl Plätze, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -4061,7 +4061,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.4.2025"
   },
   "colorAxis": {
     "min": 0,

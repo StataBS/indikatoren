@@ -7,9 +7,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2024",
-		"lesehilfe": "Ende 2024 hatte das Adullam Pflegezentrum Basel 135 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2024",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2025",
+		"lesehilfe": "Anfang 2025 hatte das Adullam Pflegezentrum Basel 135 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:06:05",
+		"aktualisierungsdatum": "2025-04-29T03:01:20",
 		"id": 11165
 	},
 	{
@@ -777,7 +777,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegetage nach Pflegestufen",
+		"title": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2023: 200 652 Pflegetage) zu finden. Danach folgt die Stufe 8 (2023: 177 085 Pflegetage).<br><br>Diese Reihenfolge ist seit 2017 unverändert.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
@@ -793,7 +793,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Pflegetage nach Pflegestufen",
+		"description": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -808,7 +808,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:22",
+		"aktualisierungsdatum": "2025-04-29T03:01:22",
 		"id": 12727
 	},
 	{
