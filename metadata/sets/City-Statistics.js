@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Perimeter der trinationalen Agglomeration Basel",
 		"subtitle": "",
-		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 207 Gemeinden. Sie besteht aus der Kernstadt Basel, 110 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
+		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 203 Gemeinden. Sie besteht aus der Kernstadt Basel, 106 weiteren Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -21,7 +21,7 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "40 Querschnittsthemen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.07952",
 		"kennzahlenset": "City-Statistics",
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:11",
+		"aktualisierungsdatum": "2024-01-23T08:09:05",
 		"id": 7952
 	},
 	{

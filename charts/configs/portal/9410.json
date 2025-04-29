@@ -23304,13 +23304,13 @@
   "tooltip": {
     "useHTML": true,
     "formatter": function (args) {
-                if (!this.point["CODGEO"]) {
+                if (!this.point["GMDNR"]) {
                     //Grenzen, Massstab
                     return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
                 } else {
                     if (Highcharts.charts[0].legend.title != undefined) var einheit = Highcharts.charts[0].legend.title.text.textStr; else var einheit = '';
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
-                        this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 0) + ' ' + einheit + '</b>';
+                        this.point.properties.GMDNAME + ': <b>' + Highcharts.numberFormat((this.point.value), 0) + ' ' + einheit + '</b>';
                 }
             }
   },

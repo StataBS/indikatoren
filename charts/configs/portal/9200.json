@@ -6,90 +6,90 @@
       "data": [
         [
           "Basel",
-          0.543
+          0.57
         ],
         [
           "Bern",
-          0.765
+          0.768
         ],
         [
           "Genf",
-          0.515
+          0.604
         ],
         [
           "Lausanne",
-          0.635
+          0.652
         ],
         [
           "Zürich",
-          0.703
+          0.713
         ],
         [
           "Frankfurt a. M.",
-          0.559
+          0.564
         ],
         [
           "Freiburg i. Br.",
-          0.499
+          0.529
         ],
         [
           "Karlsruhe",
-          0.586
+          0.613
         ],
         [
           "München",
-          0.601
+          0.61
         ],
         [
           "Stuttgart",
-          0.574
+          0.585
         ],
         [
           "Lille",
-          0.416
+          0.426
         ],
         [
           "Lyon",
-          0.46
+          0.47
         ],
         [
           "Metz",
-          0.432
-        ],
-        [
-          "Paris",
-          0.462
-        ],
-        [
-          "Strassburg",
           0.439
         ],
         [
+          "Paris",
+          0.468
+        ],
+        [
+          "Strassburg",
+          0.444
+        ],
+        [
           "Mailand",
-          0.416
+          0.431
         ],
         [
           "Bologna",
-          0.398
+          0.407
         ],
         [
           "Lissabon",
-          0.46
+          0.487
         ],
         [
           "Porto",
-          0.43
+          0.46
         ],
         [
           "Barcelona",
-          0.461
+          0.462
         ],
         [
           "Madrid",
-          0.522
+          0.534
         ]
       ],
-      "name": "Beschäftigtendichte",
+      "name": "Beschäftigte Dichte",
       "turboThreshold": 0
     }
   ],
