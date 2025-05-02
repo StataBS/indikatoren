@@ -9096,7 +9096,7 @@ var indikatoren = [
 		],
 		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"lesehilfe": "2024 stehen 97 Notwohnungen und 104 Wohneinheiten nach WRFG bereit. Die Auslastungsquote beträgt 94%.",
 		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
@@ -9122,7 +9122,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:39",
+		"aktualisierungsdatum": "2025-05-02T08:43:07",
 		"id": 4154
 	},
 	{
@@ -19060,7 +19060,7 @@ var indikatoren = [
 		],
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Die Jahresmittelwerte liegen 2023 alle unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 13,85 μg/m<sup>3</sup> für PM10 und 9,5 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 18,9 μg/m<sup>3</sup>.",
+		"lesehilfe": "Alle Jahresmittelwerte liegen 2024 unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 12,5 μg/m<sup>3</sup> für PM10 und 8,8 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 17,4 μg/m<sup>3</sup>.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -19089,7 +19089,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:38",
+		"aktualisierungsdatum": "2025-05-02T08:43:13",
 		"id": 6029
 	},
 	{
@@ -19869,8 +19869,8 @@ var indikatoren = [
 		],
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2023 liegt die Platzzahl bei 4 492. Auch die Tagesstrukturen wurden stetig ausgebaut: 2023 bieten die Frühhorte Platz für 720 Kinder, die Mittagsmodule  4 080 und die Nachmittagsmodule 3 748 Plätze.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, gibt es keine feste Anzahl Plätze. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2024 liegt die Platzzahl bei 4 605. Auch die Tagesstrukturen wurden stetig ausgebaut: 2024 bieten die Frühhorte Platz für 720 Kinder, die Mittagsmodule 4 240 und die Nachmittagsmodule 3 908 Plätze.",
+		"erlaeuterungen": "Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober. <br>Tagesstrukturen: Schuleigene und -externe Tagesstrukturen stellen Mittags- und Nachmittagsmodule bereit. Stichwoche im September.<br>Sekundarschulen bieten ebenfalls Verpflegungsangebote an und die Möglichkeit, dass sich Schüler und Schülerinnen am Nachmittag beaufsichtigt in den Schulräumlichkeiten aufhalten. Hier besteht keine Anmeldepflicht, und es gibt keine fixe Anzahl an Plätzen. Aus diesem Grund berücksichtigen wir diese Plätze nicht in der Grafik.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -19896,7 +19896,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:32",
+		"aktualisierungsdatum": "2025-05-02T08:43:14",
 		"id": 6055
 	},
 	{
@@ -83609,8 +83609,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Kostenübernahmegarantien nach Leistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von den insgesamt 3 316 Kostenübernahmegarantien per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "Von den insgesamt 3 392 Kostenübernahmegarantien per Ende 2024 entfallen 659 auf die ambulante Wohnbegleitung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -83635,7 +83635,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:17",
+		"aktualisierungsdatum": "2025-05-02T08:43:08",
 		"id": 9916
 	},
 	{
@@ -83647,8 +83647,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Personen mit Kostenübernahmegarantien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2 254 Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KüG zugute.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "2 316 Personen werden per Ende 2024 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 392 KüG zugute.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -83673,7 +83673,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:19",
+		"aktualisierungsdatum": "2025-05-02T08:43:09",
 		"id": 9917
 	},
 	{
@@ -84107,7 +84107,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fälle der Alimentenhilfe nach Fallart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 werden bei der Alimentenhilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
+		"lesehilfe": "Ende 2024 werden bei der Alimentenhilfe insgesamt 1 167 Fälle geführt. Davon werden in 579 Fällen Alimente bevorschusst, während in 588 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle steigt aufgrund der reinen Inkassofälle gegenüber dem Vorjahr an.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ein Fall umfasst eine Mutter oder einen Vater mit einem oder mehreren Kindern mit Anrecht auf Alimentenbevorschussung. Bei reinen Inkassofällen führt die Alimentenhilfe das Inkasso durch, leistet aber keine Bevorschussung.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
@@ -84133,7 +84133,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:51",
+		"aktualisierungsdatum": "2025-05-02T08:43:12",
 		"id": 9933
 	},
 	{

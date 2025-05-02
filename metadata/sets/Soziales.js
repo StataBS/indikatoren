@@ -198,7 +198,7 @@ var indikatorensetData = [
 		],
 		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"lesehilfe": "2024 stehen 97 Notwohnungen und 104 Wohneinheiten nach WRFG bereit. Die Auslastungsquote beträgt 94%.",
 		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
@@ -223,7 +223,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:39",
+		"aktualisierungsdatum": "2025-05-02T08:43:07",
 		"id": 4154
 	},
 	{
@@ -425,8 +425,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Kostenübernahmegarantien nach Leistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von den insgesamt 3 316 Kostenübernahmegarantien per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "Von den insgesamt 3 392 Kostenübernahmegarantien per Ende 2024 entfallen 659 auf die ambulante Wohnbegleitung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -450,7 +450,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:17",
+		"aktualisierungsdatum": "2025-05-02T08:43:08",
 		"id": 9916
 	},
 	{
@@ -462,8 +462,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Personen mit Kostenübernahmegarantien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2 254 Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KüG zugute.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "2 316 Personen werden per Ende 2024 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 392 KüG zugute.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -487,7 +487,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:19",
+		"aktualisierungsdatum": "2025-05-02T08:43:09",
 		"id": 9917
 	},
 	{
@@ -873,7 +873,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fälle der Alimentenhilfe nach Fallart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 werden bei der Alimentenhilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
+		"lesehilfe": "Ende 2024 werden bei der Alimentenhilfe insgesamt 1 167 Fälle geführt. Davon werden in 579 Fällen Alimente bevorschusst, während in 588 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle steigt aufgrund der reinen Inkassofälle gegenüber dem Vorjahr an.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ein Fall umfasst eine Mutter oder einen Vater mit einem oder mehreren Kindern mit Anrecht auf Alimentenbevorschussung. Bei reinen Inkassofällen führt die Alimentenhilfe das Inkasso durch, leistet aber keine Bevorschussung.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
@@ -898,7 +898,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:51",
+		"aktualisierungsdatum": "2025-05-02T08:43:12",
 		"id": 9933
 	}
 ];
