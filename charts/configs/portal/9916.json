@@ -32,6 +32,10 @@
         [
           "2023",
           622
+        ],
+        [
+          "2024",
+          659
         ]
       ],
       "name": "Ambulante Wohnbegleitung",
@@ -69,6 +73,10 @@
         [
           "2023",
           875
+        ],
+        [
+          "2024",
+          891
         ]
       ],
       "name": "Betreutes Wohnen",
@@ -106,6 +114,10 @@
         [
           "2023",
           821
+        ],
+        [
+          "2024",
+          857
         ]
       ],
       "name": "Betreute Tagesgestaltung",
@@ -143,6 +155,10 @@
         [
           "2023",
           998
+        ],
+        [
+          "2024",
+          985
         ]
       ],
       "name": "Begleitete Arbeit",
@@ -288,7 +304,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
