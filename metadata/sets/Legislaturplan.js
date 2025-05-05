@@ -1353,7 +1353,7 @@ var indikatorensetData = [
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2023 bei total 26 618. Den grössten Anteil macht mit 6 371 Personen (23,9%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus den Kantonen Aargau und Basel-Landschaft zugenommen.",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2024 bei total 27 309. Damit wurde der Rekord vom Vorjahr noch einmal übertroffen. Den grössten Anteil macht mit 6 577 Personen (24,1%) die Kategorie «Übrige Schweiz» aus.",
 		"erlaeuterungen": "Studierende der Universität Basel (Wohnort vor Studienbeginn) und der Fachhochschule Nordwestschweiz FHNW (stipendienrechtlicher Wohnsitz). Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -1379,7 +1379,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:44",
+		"aktualisierungsdatum": "2025-05-05T08:43:16",
 		"id": 9379
 	},
 	{
