@@ -4563,35 +4563,35 @@
         ],
         [
           45,
-          0
+          1
         ],
         [
           46,
-          3
+          4
         ],
         [
           47,
-          -3
+          -2
         ],
         [
           48,
-          -9
+          -8
         ],
         [
           49,
-          -10
+          -9
         ],
         [
           50,
-          -23
+          -22
         ],
         [
           51,
-          -19
+          -17
         ],
         [
           52,
-          -14
+          -12
         ],
         [
           53,
@@ -4783,7 +4783,7 @@
         ],
         [
           45,
-          -1
+          0
         ],
         [
           46,
@@ -4807,7 +4807,7 @@
         ],
         [
           51,
-          4
+          5
         ],
         [
           52,
@@ -4851,11 +4851,11 @@
         ],
         [
           7,
-          13
+          14
         ],
         [
           8,
-          14
+          15
         ],
         [
           9,
@@ -4863,23 +4863,23 @@
         ],
         [
           10,
-          2
+          3
         ],
         [
           11,
-          4
+          5
         ],
         [
           12,
-          null
+          13
         ],
         [
           13,
-          null
+          5
         ],
         [
           14,
-          null
+          -9
         ],
         [
           15,
@@ -5071,7 +5071,7 @@
         ],
         [
           7,
-          1
+          2
         ],
         [
           8,
@@ -5091,15 +5091,15 @@
         ],
         [
           12,
-          null
+          8
         ],
         [
           13,
-          null
+          -8
         ],
         [
           14,
-          null
+          -14
         ],
         [
           15,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

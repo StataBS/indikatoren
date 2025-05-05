@@ -4,10 +4,6 @@
       "color": "rgb(111,111,111)",
       "data": [
         [
-          1709254800000,
-          0.8
-        ],
-        [
           1711936800000,
           1.1
         ],
@@ -54,6 +50,10 @@
         [
           1740790800000,
           0.5
+        ],
+        [
+          1743472800000,
+          0.2
         ]
       ],
       "name": "Basler Index"
@@ -61,10 +61,6 @@
     {
       "color": "rgb(176,0,0)",
       "data": [
-        [
-          1709254800000,
-          1
-        ],
         [
           1711936800000,
           1.4
@@ -112,6 +108,10 @@
         [
           1740790800000,
           0.3
+        ],
+        [
+          1743472800000,
+          0
         ]
       ],
       "name": "Landesindex"
@@ -251,7 +251,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 3.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

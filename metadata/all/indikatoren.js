@@ -44308,7 +44308,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im März 2025 0,5%; dies nach 0,5% im Januar und 0,6% im Februar. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im April 2025 auf 0,2% gesunken. Das ist der tiefste Stand seit gut vier Jahren: Im März 2021 hatte diese Kennzahl -0,1% betragen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44336,7 +44336,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-03T08:35:39",
+		"aktualisierungsdatum": "2025-05-05T08:43:07",
 		"id": 7512
 	},
 	{
@@ -44348,7 +44348,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im März 2025 gegenüber Februar 2025 unverändert bei 106,8 Punkte geblieben.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im April 2025 gegenüber März (und auch verglichen mit Februar) unverändert bei 106,8 Punkten geblieben.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44375,7 +44375,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-03T08:35:41",
+		"aktualisierungsdatum": "2025-05-05T08:43:09",
 		"id": 7513
 	},
 	{
@@ -70889,7 +70889,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-11T08:03:20",
+		"aktualisierungsdatum": "2025-05-05T08:43:11",
 		"id": 8995
 	},
 	{
@@ -71262,7 +71262,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-11T08:03:29",
+		"aktualisierungsdatum": "2025-05-05T08:43:13",
 		"id": 9022
 	},
 	{
@@ -71300,7 +71300,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-11T08:03:35",
+		"aktualisierungsdatum": "2025-05-05T08:43:14",
 		"id": 9023
 	},
 	{
@@ -76486,7 +76486,7 @@ var indikatoren = [
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2023 bei total 26 618. Den grössten Anteil macht mit 6 371 Personen (23,9%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus den Kantonen Aargau und Basel-Landschaft zugenommen.",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2024 bei total 27 309. Damit wurde der Rekord vom Vorjahr noch einmal übertroffen. Den grössten Anteil macht mit 6 577 Personen (24,1%) die Kategorie «Übrige Schweiz» aus.",
 		"erlaeuterungen": "Studierende der Universität Basel (Wohnort vor Studienbeginn) und der Fachhochschule Nordwestschweiz FHNW (stipendienrechtlicher Wohnsitz). Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -76513,7 +76513,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:44",
+		"aktualisierungsdatum": "2025-05-05T08:43:16",
 		"id": 9379
 	},
 	{
