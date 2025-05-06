@@ -168,7 +168,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2024 gab es 606 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 235 (74,5%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"lesehilfe": "Anfang 2025 gab es 606 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 235 (74,5%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Die Aktualisierung der Daten erfolgt jeweils am Anfang und am Ende des aktuellen Jahres.<br><br>Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -196,7 +196,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:06:11",
+		"aktualisierungsdatum": "2025-05-06T08:02:02",
 		"id": 11169
 	},
 	{
@@ -285,7 +285,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"title": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 8,9%. Die durchschnittliche Pflegestufe lag 2023 bei 6,4.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
@@ -301,7 +301,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"description": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -317,7 +317,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:24",
+		"aktualisierungsdatum": "2025-05-06T08:02:03",
 		"id": 11172
 	},
 	{
@@ -27476,7 +27476,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im März 2025 bei 4,3% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,0% und ist ebenfalls höher als im Vorjahr.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im April 2025 bei 4,3% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 3,9% und ist ebenfalls höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2018-2020 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -27502,7 +27502,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:22",
+		"aktualisierungsdatum": "2025-05-06T08:01:56",
 		"id": 7510
 	},
 	{
@@ -27514,7 +27514,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende März 2025 sind in Basel-Stadt mehr offene Stellen gemeldet als ein Jahr zuvor. Die Zahl der meldepflichtigen Stellen hat im Vergleich zum Vorjahresmonat zugenommen, während sich die Zahl der nicht meldepflichtigen Stellen verringert hat.",
+		"lesehilfe": "Ende April 2025 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Die Zahlen der meldepflichtigen sowie nicht meldepflichtigen Stellen haben im Vergleich zum Vorjahresmonat abgenommen.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -27540,7 +27540,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:23",
+		"aktualisierungsdatum": "2025-05-06T08:01:57",
 		"id": 7511
 	},
 	{
@@ -36789,7 +36789,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im März 2025 rund 4400 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im April 2025 rund 4300 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -36815,7 +36815,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:24",
+		"aktualisierungsdatum": "2025-05-06T08:01:59",
 		"id": 8980
 	},
 	{
@@ -36853,7 +36853,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:25",
+		"aktualisierungsdatum": "2025-05-06T08:02:00",
 		"id": 8981
 	},
 	{
@@ -36905,7 +36905,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 150 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit Februar 2023 liegt sie unter 40.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 160 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit Februar 2023 liegt sie unter 40.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit zwei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -36931,7 +36931,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:26",
+		"aktualisierungsdatum": "2025-05-06T08:02:01",
 		"id": 8992
 	},
 	{
