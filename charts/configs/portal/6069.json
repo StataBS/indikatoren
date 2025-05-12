@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          45.7
+          45.9
         ],
         [
           "Deutschland",
-          12.2
+          11.9
         ],
         [
           "Italien",
-          21.8
+          24.4
         ],
         [
           "Türkei",
-          2.6
+          3.1
         ],
         [
           "EU-West + EFTA + UK",
-          7.2
+          7.5
         ],
         [
           "EU-Ost",
-          3.8
+          4
         ],
         [
           "Balkan",
-          3.2
+          3.8
         ],
         [
           "Mittel- und Südamerika",
-          1.1
+          1
         ],
         [
           "Arabische Länder",
-          2.3
+          1.8
         ],
         [
           "Afrikanische Länder",
-          0.7
+          0.9
         ],
         [
           "Übrige Länder",
-          3.3
+          3.1
         ]
       ],
-      "name": "2004",
+      "name": "2005",
       "turboThreshold": 0
     },
     {
@@ -58,19 +58,19 @@
       "data": [
         [
           "Schweiz",
-          45.2
+          45.4
         ],
         [
           "Deutschland",
-          8.2
+          8.1
         ],
         [
           "Italien",
-          29.4
+          28.9
         ],
         [
           "Türkei",
-          20.3
+          22
         ],
         [
           "EU-West + EFTA + UK",
@@ -78,30 +78,30 @@
         ],
         [
           "EU-Ost",
-          5.3
+          5.6
         ],
         [
           "Balkan",
-          19.7
+          21.2
         ],
         [
           "Mittel- und Südamerika",
-          3.6
+          3.9
         ],
         [
           "Arabische Länder",
-          4.1
+          4.6
         ],
         [
           "Afrikanische Länder",
-          2.8
+          3.1
         ],
         [
           "Übrige Länder",
-          6.6
+          7.1
         ]
       ],
-      "name": "2023",
+      "name": "2024",
       "turboThreshold": 0
     }
   ],
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
