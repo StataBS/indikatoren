@@ -8853,7 +8853,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2022 auf 169 344 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2023 auf 170 874 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
 		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -8866,7 +8866,7 @@ var indikatoren = [
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4148",
+		"kuerzel": "I.01.1.04148",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "2.2.A",
 		"stufe1": "Ziel 2: Fiskalpolitik",
@@ -8879,7 +8879,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:36",
+		"aktualisierungsdatum": "2025-05-12T03:17:08",
 		"id": 4148
 	},
 	{
@@ -13680,7 +13680,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://www.basleratlas.ch/#c=indicator&i=einpersonenhaushalte.ant_einphh&s=2021&view=map2' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://www.basleratlas.ch/#c=indicator&i=01_bevhaushalte.ant_haushalt1pers&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -13702,7 +13702,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:41",
+		"aktualisierungsdatum": "2025-05-12T03:17:31",
 		"id": 4825
 	},
 	{
@@ -13937,7 +13937,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.anteile_einfamh&s=2020&view=map2' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.anteile_einfamh&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -13959,7 +13959,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:57",
+		"aktualisierungsdatum": "2025-05-12T03:17:32",
 		"id": 4831
 	},
 	{
@@ -14188,9 +14188,9 @@ var indikatoren = [
 			5124
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (55,3%) und im Wohnviertel Wettstein am höchsten (82,1%).",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gabe es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Im Mittel der Jahre 2019 bis 2023 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (56,2%) und im Wohnviertel Wettstein am höchsten (80,6%).",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gab es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -14217,7 +14217,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:45:23",
+		"aktualisierungsdatum": "2025-05-12T03:17:33",
 		"id": 4837
 	},
 	{
@@ -20234,8 +20234,8 @@ var indikatoren = [
 			6649
 		],
 		"title": "Alterspyramide der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, 2004",
-		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2004 mehr Frauen als Männer.",
+		"subtitle": "Basel-Stadt, 2005",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2005 mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20261,7 +20261,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:30",
+		"aktualisierungsdatum": "2025-05-12T03:17:24",
 		"id": 6064
 	},
 	{
@@ -20274,8 +20274,8 @@ var indikatoren = [
 			6650
 		],
 		"title": "Alterspyramide der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, 2004",
-		"lesehilfe": "2004 bilden bei den ausländischen Männern und Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
+		"subtitle": "Basel-Stadt, 2005",
+		"lesehilfe": "2005 bilden bei den ausländischen Männern und Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20301,7 +20301,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:31",
+		"aktualisierungsdatum": "2025-05-12T03:17:26",
 		"id": 6065
 	},
 	{
@@ -20314,8 +20314,8 @@ var indikatoren = [
 			6651
 		],
 		"title": "Alterspyramide der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2023 mehr Frauen als Männer. Die grössten Fünfjahresklassen bilden bei den Männern die 30- bis 34-Jährigen und bei den Frauen die 25- bis 29-Jährigen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2024 mehr Frauen als Männer. Die grössten Fünfjahresklassen bilden bei den Männern die 30- bis 34-Jährigen und bei den Frauen die 25- bis 29-Jährigen sowie die 60- bis 64-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20341,7 +20341,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:31",
+		"aktualisierungsdatum": "2025-05-12T03:17:25",
 		"id": 6066
 	},
 	{
@@ -20354,8 +20354,8 @@ var indikatoren = [
 			6652
 		],
 		"title": "Alterspyramide der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 bilden bei ausländischen Männern und Frauen die 35- bis 39-Jährigen die grösste Altersgruppe.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 bilden bei ausländischen Männern und Frauen die 35- bis 39-Jährigen die grösste Altersgruppe.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20381,7 +20381,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:32",
+		"aktualisierungsdatum": "2025-05-12T03:17:27",
 		"id": 6067
 	},
 	{
@@ -20395,7 +20395,7 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Personen aus afrikanischen Ländern den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2004 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus dem Balkan am stärksten gesunken.",
+		"lesehilfe": "2024 weisen Personen aus afrikanischen Ländern den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2005 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus dem Balkan am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20408,7 +20408,7 @@ var indikatoren = [
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6068",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A2-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -20421,7 +20421,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:28",
+		"aktualisierungsdatum": "2025-05-12T03:17:22",
 		"id": 6068
 	},
 	{
@@ -20435,7 +20435,7 @@ var indikatoren = [
 		],
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2004 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
+		"lesehilfe": "2024 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2005 ist der Altersquotient der Türkinnen und Türken am stärksten gestiegen, jener der Deutschen am stärksten gesunken.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20461,7 +20461,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:29",
+		"aktualisierungsdatum": "2025-05-12T03:17:23",
 		"id": 6069
 	},
 	{
@@ -20475,7 +20475,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,8% am höchsten.",
+		"lesehilfe": "2024 ist der Anteil der ausländischen Staatsangehörigen bei den 39-Jährigen mit 55,4% am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20501,7 +20501,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:33",
+		"aktualisierungsdatum": "2025-05-12T03:17:27",
 		"id": 6070
 	},
 	{
@@ -20798,7 +20798,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
+		"lesehilfe": "2024 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20811,7 +20811,7 @@ var indikatoren = [
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06078",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A5-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -20824,7 +20824,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:34",
+		"aktualisierungsdatum": "2025-05-12T03:17:28",
 		"id": 6078
 	},
 	{
@@ -20837,8 +20837,8 @@ var indikatoren = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023 gegenüber 2004",
-		"lesehilfe": "Zwischen 2004 und 2023 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2023 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2024 gegenüber 2005",
+		"lesehilfe": "Zwischen 2005 und 2024 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2024 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Personen aus dem Balkan.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20851,7 +20851,7 @@ var indikatoren = [
 		"description": "Veränderung des Segregationsindex",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6079",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A5-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -20864,7 +20864,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:49",
+		"aktualisierungsdatum": "2025-05-12T03:17:29",
 		"id": 6079
 	},
 	{
@@ -29198,7 +29198,7 @@ var indikatoren = [
 		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende des Jahres 2023 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2023 eine Quote von 3,4% auf, jene der gemischten Haushalte mit Schweizer und ausländischen Staatsangehörigen eine Quote von 3,6%. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsbürgerschaft bestehen, liegt die Quote bei 1,1%.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende des Jahres 2024 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,2% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -29224,7 +29224,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:36",
+		"aktualisierungsdatum": "2025-05-12T03:17:30",
 		"id": 6474
 	},
 	{
@@ -30613,8 +30613,8 @@ var indikatoren = [
 			6747
 		],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2023",
-		"lesehilfe": "Von den Kindern, die im August 2024 in den Kindergarten eintreten, sind 41% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 92% der Kinder aus dem Balkan und je 88% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern sowie Mittel- und Südamerika.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2024",
+		"lesehilfe": "Von den Kindern, die im August 2025 in den Kindergarten eintreten, sind 43% zu einer frühen Deutschförderung verpflichtet worden. Dieses Obligatorium betrifft 95% der Kinder aus der Türkei und 93% derjenigen vom Balkan.",
 		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
@@ -30640,7 +30640,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:27",
+		"aktualisierungsdatum": "2025-05-12T03:17:30",
 		"id": 6515
 	},
 	{
@@ -51364,7 +51364,7 @@ var indikatoren = [
 		],
 		"title": "Bildungsniveau der Bevölkerung",
 		"subtitle": "nach höchster abgeschlossener Ausbildung, 2021",
-		"lesehilfe": "In der Agglomeration Basel weisen 42,8% der Bevölkerung zwischen 25 und 64 Jahren im Jahr 2021 als höchste abgeschlossene Ausbildung einen Sekundarstufe II-Abschluss auf. Am höchsten ist der Anteil der Sekundarstufe II-Abschlüsse in den Agglomerationsgemeinden von Deutschland (53,9%). Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in der Agglomeration Basel (42,7%) tiefer als in den Vergleichsagglomerationen.",
+		"lesehilfe": "In der Agglomeration Basel weisen 42,1% der Bevölkerung zwischen 25 und 64 Jahren im Jahr 2021 als höchste abgeschlossene Ausbildung einen Sekundarstufe II-Abschluss auf. Am höchsten ist der Anteil der Sekundarstufe II-Abschlüsse in den Agglomerationsgemeinden in Deutschland (53,9%). Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in der Agglomeration Basel (43,7%) tiefer als in den Vergleichsagglomerationen.",
 		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufen 1 oder 2), mit Sekundarstufe II (ISCED Stufen 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51390,7 +51390,7 @@ var indikatoren = [
 		"printformat": "large",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:47",
+		"aktualisierungsdatum": "2025-05-12T03:17:09",
 		"id": 7963
 	},
 	{
@@ -51404,7 +51404,7 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbsquote der 15- bis 64-Jährigen",
 		"subtitle": "2021",
-		"lesehilfe": "Die Nettoerwerbsquote in der Agglomeration Basel liegt 2021 bei 77,7%. Am höchsten ist die Erwerbsquote in den Agglomerationen Bern (83,2%) und Zürich (82,3%). Es gibt allgemein nur kleine Unterschiede zwischen Kernstadt und Rest der Agglomeration, ausser in Genf, wo die Erwerbsquote im französischen Teil der Agglomeration höher als in der Kernstadt ist.",
+		"lesehilfe": "Die Nettoerwerbsquote in der Agglomeration Basel liegt 2021 bei 77,8%. Am höchsten ist die Erwerbsquote in den Agglomerationen Bern (82,5%) und Zürich (82,4%). Es gibt allgemein nur kleine Unterschiede zwischen Kernstadt und übriger Agglomeration, ausser in Genf, wo die Erwerbsquote im französischen Teil der Agglomeration höher als in der Kernstadt ist.",
 		"erlaeuterungen": "Die Nettoerwerbsquote enspricht der Anzahl Erwerbspersonen geteilt durch die 15- bis 64-jährige Bevölkerung, in Prozent. Die Erwerbspersonen sind die Summe der Erwerbstätigen und der Erwerbslosen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51430,7 +51430,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:53",
+		"aktualisierungsdatum": "2025-05-12T03:17:10",
 		"id": 7965
 	},
 	{
@@ -51444,8 +51444,8 @@ var indikatoren = [
 		],
 		"title": "Erwerbstätige im Alter von 20 bis 64 Jahren",
 		"subtitle": "2021",
-		"lesehilfe": "Rund 397 000 Einwohnerinnen und Einwohner der Agglomeration Basel im Alter von 20 bis 64 Jahren sind erwerbstätig, fast so viele wie in der Agglomeration Genf. Davon wohnen 36% im ausländischen Teil der Agglomeration Basel (Genf  40%). Lediglich rund ein Fünftel der Erwerbstätigen der Agglomerationen Basel und Genf wohnt in der Kernstadt, während dieser Anteil in den Agglomerationen Bern, Lausanne und Zürich zwischen 32% und 34% liegt.",
-		"erlaeuterungen": "Als Erwerbstätige werden Personen definiert, die eine entlohnte Berufstätigkeit ausüben (selbständig oder angestellt). Sie werden am Wohnort (nicht am Arbeitsort) erfasst.",
+		"lesehilfe": "Rund 403 000 Einwohnerinnen und Einwohner der Agglomeration Basel im Alter von 20 bis 64 Jahren sind erwerbstätig, fast so viele wie in der Agglomeration Genf. Davon wohnen 36% im ausländischen Teil der Agglomeration Basel (Genf  43%). Lediglich rund ein Fünftel der Erwerbstätigen der Agglomerationen Basel und Genf wohnt in der Kernstadt, während dieser Anteil in den Agglomerationen Bern, Lausanne und Zürich zwischen 31% und 33% liegt.",
+		"erlaeuterungen": "Als Erwerbstätige werden Personen definiert, die eine entlohnte Berufstätigkeit ausüben (selbstständig oder angestellt). Sie werden am Wohnort (nicht am Arbeitsort) erfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
 		],
@@ -51470,7 +51470,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:57",
+		"aktualisierungsdatum": "2025-05-12T03:17:11",
 		"id": 7966
 	},
 	{
@@ -51510,7 +51510,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:58",
+		"aktualisierungsdatum": "2025-05-12T03:17:12",
 		"id": 7967
 	},
 	{
@@ -51524,7 +51524,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "2021",
-		"lesehilfe": "Der Anteil des sekundären Sektors am Total der Beschäftigten ist in der Agglomeration Basel mit 24,7% deutlich höher als in den Vergleichsagglomerationen. Am wichtigsten ist der sekundäre Sektor im deutschen Teil der Agglomeration Basel (35,4%), aber auch in der Kernstadt ist dieser Sektor überdurchschnittlich vertreten (18,4%), was für eine Stadt aussergewöhnlich ist. Der hohe Anteil des sekundären Sektors in Basel ist auf die wichtige Rolle der pharmazeutischen Industrie zurückzuführen.",
+		"lesehilfe": "Der Anteil des sekundären Sektors am Total der Beschäftigten ist in der Agglomeration Basel mit 24,4% deutlich höher als in den Vergleichsagglomerationen. Am wichtigsten ist der sekundäre Sektor im deutschen Teil der Agglomeration Basel (35,4%), aber auch in der Kernstadt ist dieser Sektor überdurchschnittlich vertreten (17,6%), was für eine Stadt aussergewöhnlich ist. Der hohe Anteil des sekundären Sektors in Basel ist auf die wichtige Rolle der pharmazeutischen Industrie zurückzuführen.",
 		"erlaeuterungen": "Der 1. Sektor beinhaltet die Land- und Forstwirtschaft. Der 2. Sektor ist das Aggregat von verarbeitendem Gewerbe, Energie- und Wasserversorgung sowie Baugewerbe. Der 3. Sektor fasst alle Dienstleistungen zusammen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51550,7 +51550,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:18",
+		"aktualisierungsdatum": "2025-05-12T03:17:14",
 		"id": 7968
 	},
 	{
@@ -51564,7 +51564,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Beschäftigte pro Einwohner, 2021",
-		"lesehilfe": "Die Beschäftigtendichte, auch als Arbeitsstellendichte bezeichnet, ist in den Kernstädten am höchsten: Die Städte Bern (1,4), Zürich (1,2) und Basel (1,1) weisen mehr als eine Arbeitsstelle pro Einwohnerin oder Einwohner auf. In den Städten Genf und Lausanne ist der Wert leicht tiefer (0,9). In den französischen bzw. deutschen Teilen der Agglomerationen Genf und Basel ist die Beschäftigtendichte am tiefsten.",
+		"lesehilfe": "Die Beschäftigtendichte, auch als Arbeitsstellendichte bezeichnet, ist in den Kernstädten am höchsten: Die Städte Bern (1,4), Zürich (1,2) und Basel (1,1) weisen mehr als eine Arbeitsstelle pro Einwohnerin oder Einwohner auf. In den Städten Genf und Lausanne ist der Wert leicht tiefer (0,9). In den französischen Teilen der Agglomerationen Genf und Basel bzw. im deutschen Teil der Agglomeration Basel ist die Beschäftigtendichte am tiefsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51590,7 +51590,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:10",
+		"aktualisierungsdatum": "2025-05-12T03:17:13",
 		"id": 7969
 	},
 	{
@@ -51604,7 +51604,7 @@ var indikatoren = [
 		],
 		"title": "Personenwagen",
 		"subtitle": "pro 1000 Einwohner, 2021",
-		"lesehilfe": "2021 sind in der Agglomeration Basel 516 Personenwagen pro 1000 Einwohner registriert. Nur in Genf ist der Wert so hoch. Es sind deutliche Unterschiede zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (319) weist den tiefsten Wert aller Kernstädte aus. Deutlich höher ist er in den deutschen (600) und in den französischen (654) Gemeinden der Agglomeration Basel. Auch in der Agglomeration Genf ist der Motorisierungsgrad im französischen Teil höher als in den Schweizer Gemeinden.",
+		"lesehilfe": "2021 sind in der Agglomeration Basel 517 Personenwagen pro 1000 Einwohner registriert. Nur in Genf ist der Wert höher. Es sind deutliche Unterschiede zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (319) weist den tiefsten Wert aller Kernstädte aus. Deutlich höher ist er in den deutschen (600) und in den französischen (662) Gemeinden der Agglomeration Basel. Auch in der Agglomeration Genf ist der Motorisierungsgrad im französischen Teil höher als in den Schweizer Gemeinden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51630,7 +51630,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:21",
+		"aktualisierungsdatum": "2025-05-12T03:17:15",
 		"id": 7970
 	},
 	{
@@ -51645,7 +51645,7 @@ var indikatoren = [
 		],
 		"title": "Hotelübernachtungen",
 		"subtitle": "pro Einwohner, 2021",
-		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als im Jahr 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"lesehilfe": "Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -51671,7 +51671,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:23",
+		"aktualisierungsdatum": "2025-05-12T03:17:15",
 		"id": 7971
 	},
 	{
@@ -52333,7 +52333,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte",
 		"subtitle": "2021",
-		"lesehilfe": "In der trinationalen Agglomeration Basel sind 2021 insgesamt rund 471 000 Beschäftigte tätig. Fast 79% davon arbeiten in der Schweiz (je zur Hälfte in der Kernstadt und in den übrigen Gemeinden), rund 15% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist geringfügig tiefer als in Genf.",
+		"lesehilfe": "In der trinationalen Agglomeration Basel sind 2021 insgesamt rund 480 000 Beschäftigte tätig. Fast 79% davon arbeiten in der Schweiz (je zur Hälfte in der Kernstadt und in den übrigen Gemeinden), rund 15% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist geringfügig tiefer als in Genf.",
 		"erlaeuterungen": "Der Begriff Beschäftigte bezeichnet die Anzahl der besetzten Stellen. Die Erfassung erfolgt am Arbeitsort.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -52359,7 +52359,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:07",
+		"aktualisierungsdatum": "2025-05-12T03:17:12",
 		"id": 7993
 	},
 	{
@@ -70889,7 +70889,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:11",
+		"aktualisierungsdatum": "2025-05-12T03:17:06",
 		"id": 8995
 	},
 	{
@@ -71262,7 +71262,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:13",
+		"aktualisierungsdatum": "2025-05-12T03:17:07",
 		"id": 9022
 	},
 	{
@@ -71300,7 +71300,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:14",
+		"aktualisierungsdatum": "2025-05-12T03:17:08",
 		"id": 9023
 	},
 	{
@@ -73604,8 +73604,8 @@ var indikatoren = [
 		],
 		"title": "Gesamtbevölkerung und Frauenanteil",
 		"subtitle": "2021",
-		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohnerinnen und Einwohner als die europäischen Metropolen Paris, Madrid, Barcelona oder Mailand. Vergleichbar mit Basel (867 400 Personen) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%.",
-		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung in den Agglomerationen dargestellt. Unterschiedlicher Datenstand (französischer Agglomerationen: 2020).",
+		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohnerinnen und Einwohner als die europäischen Metropolen Paris, Madrid, Barcelona oder Mailand. Vergleichbar mit Basel (873 800 Personen) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung in den Agglomerationen. Unterschiedlicher Datenstand (französische Agglomerationen: 2020).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73618,7 +73618,7 @@ var indikatoren = [
 		"description": "Gesamtbevölkerung und Frauenanteil",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09192",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "6.1",
 		"stufe1": "6. Internationaler Vergleich",
@@ -73631,7 +73631,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:34",
+		"aktualisierungsdatum": "2025-05-12T03:17:17",
 		"id": 9192
 	},
 	{
@@ -73645,7 +73645,7 @@ var indikatoren = [
 		],
 		"title": "Jugend- und Altersquotient",
 		"subtitle": "2021",
-		"lesehilfe": "Die Altersstruktur der Basler Bevölkerung ist, mit einem Jugendquotienten von 32,3 und einem Altersquotienten von 34,6, vergleichbar mit Bern, den deutschen Agglomerationen und Porto. In den französischen Agglomerationen ist die Bevölkerung jünger, mit einem Jugendquotienten von 40 oder mehr (ausser in Metz). Die italienischen Agglomerationen und Lissabon zeigen im Gegensatz dazu einen hohen Altersquotienten.",
+		"lesehilfe": "Die Altersstruktur der Basler Bevölkerung ist, mit einem Jugendquotienten von 32,5 und einem Altersquotienten von 35,2, vergleichbar mit Bern, den deutschen Agglomerationen und Porto. In den französischen Agglomerationen ist die Bevölkerung jünger (Jugendquotient von 39,5 oder mehr). Die italienischen Agglomerationen und Lissabon zeigen im Gegensatz dazu einen hohen Altersquotienten.",
 		"erlaeuterungen": "Jugendquotient: Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Altersquotient: Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
@@ -73659,7 +73659,7 @@ var indikatoren = [
 		"description": "Jugend- und Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09193",
+		"kuerzel": "",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "6.2",
 		"stufe1": "6. Internationaler Vergleich",
@@ -73672,7 +73672,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:35",
+		"aktualisierungsdatum": "2025-05-12T03:17:18",
 		"id": 9193
 	},
 	{
@@ -73686,8 +73686,8 @@ var indikatoren = [
 		],
 		"title": "Geburten- und Sterberate",
 		"subtitle": "Fälle pro 1000 Einwohner, 2021",
-		"lesehilfe": "Die französischen Agglomerationen Lille, Lyon und Paris verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss. Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In den italienischen, portugiesischen und spanischen Agglomerationen gibt es hingegen mehr Sterbefälle als Geburten. In Basel sowie in Frankfurt und Metz gibt es ähnlich viel Geburte wie Todesfälle.",
-		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2020 und 2021).",
+		"lesehilfe": "Die französischen Agglomerationen Lille, Lyon und Paris verzeichnen die höchsten Geburten- und gleichzeitig tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss. Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In den italienischen Agglomerationen sowie in Porto und Barcelona gibt es hingegen deutlich mehr Sterbefälle als Geburten. In Basel sowie in Frankfurt und Metz gibt es ähnlich viele Geburten wie Todesfälle.",
+		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2019 und 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73700,7 +73700,7 @@ var indikatoren = [
 		"description": "Geburten- und Sterberate",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
-		"kuerzel": "I.01.3.09194",
+		"kuerzel": "I.01.TRLT.09194",
 		"kennzahlenset": "City-Statistics",
 		"kuerzelKunde": "6.3",
 		"stufe1": "6. Internationaler Vergleich",
@@ -73713,7 +73713,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:38",
+		"aktualisierungsdatum": "2025-05-12T03:17:19",
 		"id": 9194
 	},
 	{
@@ -73727,8 +73727,8 @@ var indikatoren = [
 		],
 		"title": "Bildungsniveau der Bevölkerung",
 		"subtitle": "nach höchster abgeschlossener Ausbildung, 2021",
-		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den deutschen Agglomerationen Frankfurt, Freiburg und Karlsruhe sowie in Mailand einen Sekundarstufe II-Anteil von über 44% auf. In der grenzüberschreitenden Agglomeration Basel ist dieser Anteil mit 43% ebenfalls relativ hoch. Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in vielen Agglomerationen grösser als 40%, in den italienischen und portugiesischen Agglomerationen allerdings deutlich tiefer. Ein hoher Bevölkerungsanteil ohne nachobligatorische Ausbildung fällt bei den portugiesischen Agglomerationen auf.",
-		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufe 1 oder 2), mit Diplom auf Sekundarstufe II (ISCED Stufe 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss. Unterschiedlicher Datenstand (2020 und 2021).",
+		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den Agglomerationen Bern, Zürich und Madrid einen Anteil von über 50% auf Tertiärstufe auf. Der Anteil der Bevölkerung mit einer höchsten Ausbildung auf Sekundarstufe II liegt in Karlsruhe und Mailand über 45%. Ein hoher Bevölkerungsanteil ohne nachobligatorische Ausbildung fällt bei den portugiesischen Agglomerationen auf.",
+		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufe 1 oder 2), mit Diplom auf Sekundarstufe II (ISCED Stufe 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73754,7 +73754,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:39",
+		"aktualisierungsdatum": "2025-05-12T03:17:19",
 		"id": 9195
 	},
 	{
@@ -73768,8 +73768,8 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "Anteile an der Gesamtbeschäftigung, 2021",
-		"lesehilfe": "Fast ein Viertel der Beschäftigten in der Agglomeration Basel ist im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. Höher ist dieser Anteil nur in Stuttgart, Mailand, Bologna und Lissabon. In der Agglomeration Paris arbeiten 87% der Beschäftigten im tertiären Sektor (Dienstleistungen).",
-		"erlaeuterungen": "Beschäftigte am Arbeitsort. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2020 und 2021; italienische Agglomerationen: 2011).",
+		"lesehilfe": "Fast ein Viertel der Beschäftigten in der Agglomeration Basel ist im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. Noch höher ist dieser Anteil in Stuttgart sowie in den italienischen und portugiesischen Agglomerationen. In Paris ist der Anteil der Beschäftigten im tertiären Sektor (Dienstleistungen) am höchsten (87,2%).",
+		"erlaeuterungen": "Beschäftigte am Arbeitsort. Dargestellt sind die Agglomerationen. Unterschiedlicher Datenstand (zwischen 2020 und 2021; italienische Agglomerationen: 2011).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73795,7 +73795,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:50",
+		"aktualisierungsdatum": "2025-05-12T03:17:21",
 		"id": 9197
 	},
 	{
@@ -73809,8 +73809,8 @@ var indikatoren = [
 		],
 		"title": "Erwerbstätigenquote nach Geschlecht",
 		"subtitle": "2021",
-		"lesehilfe": "In der trinationalen Agglomeration Basel sind 73,5% der Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 81,6%. Am höchsten ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern in Bern, Zürich und in den deutschen Agglomerationen. In Mailand und Bologna ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
-		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (zwischen 2018 und 2021; Portugal: 2011).",
+		"lesehilfe": "In der trinationalen Agglomeration Basel sind 74,3% der Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 82,4%. Am höchsten ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern in Bern. In Mailand und Bologna ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
+		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Dargestellt sind die Agglomerationen. Unterschiedlicher Datenstand (zwischen 2018 und 2021; Portugal: 2011).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73836,7 +73836,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:44",
+		"aktualisierungsdatum": "2025-05-12T03:17:20",
 		"id": 9199
 	},
 	{
@@ -73850,8 +73850,8 @@ var indikatoren = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "2021",
-		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Lausanne und Zürich am höchsten. Das heisst, hier sind am meisten Beschäftigte pro Einwohner tätig. Es folgen München, Karlsruhe und Stuttgart. Basel positioniert sich mit einem Wert von 0,54 eher im Mittelfeld.",
-		"erlaeuterungen": "Beschäftigte (am Arbeitsort) pro Einwohner. Hier sind die Agglomerationen dargestellt. Unterschiedlicher Datenstand (2020 oder 2021).",
+		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern und Zürich am höchsten. Das heisst, dort sind am meisten Beschäftigte pro Einwohner tätig. Basel positioniert sich mit einem Wert von 0,57 eher im Mittelfeld. Am tiefsten ist die Beschäftigtendichte in Bologna.",
+		"erlaeuterungen": "Beschäftigte (am Arbeitsort) pro Einwohner. Dargestellt sind die Agglomerationen. Unterschiedlicher Datenstand (2020 oder 2021).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics",
 			"Eurostat"
@@ -73877,7 +73877,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:53",
+		"aktualisierungsdatum": "2025-05-12T03:17:22",
 		"id": 9200
 	},
 	{
@@ -77376,7 +77376,7 @@ var indikatoren = [
 		],
 		"title": "Personenwagen nach Gemeinde",
 		"subtitle": "trinationale Agglomeration Basel, pro 1000 Einwohner, 2021",
-		"lesehilfe": "Die Stadt Basel weist mit 319 Personenwagen pro 1000 Einwohner mit Abstand den tiefsten Motorisierungsgrad in der Agglomeration auf. Es folgen die Nachbargemeinden Riehen und Birsfelden mit je fast 400 Autos pro 1000 Einwohner. In der gesamten Agglomeration gibt es viele Gemeinden mit mehr als 700 Autos pro 1000 Einwohner, wobei sich die grosse Mehrheit davon in Frankreich befindet. Den Rekordwert erreicht die französische Gemeinde Bettlach (810).",
+		"lesehilfe": "Die Stadt Basel weist mit 321 Personenwagen pro 1000 Einwohner mit Abstand den tiefsten Motorisierungsgrad in der Agglomeration auf. Es folgen die Nachbargemeinden Riehen und Birsfelden mit je knapp 400 Autos pro 1000 Einwohner. In der gesamten Agglomeration gibt es viele Gemeinden mit mehr als 700 Autos pro 1000 Einwohner, wobei sich die grosse Mehrheit davon in Frankreich befindet. Den Rekordwert erreicht die französische Gemeinde Bettlach (814).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -77402,7 +77402,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:25",
+		"aktualisierungsdatum": "2025-05-12T03:17:16",
 		"id": 9411
 	},
 	{

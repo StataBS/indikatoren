@@ -286,8 +286,8 @@ var indikatorensetData = [
 			6649
 		],
 		"title": "Alterspyramide der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, 2004",
-		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2004 mehr Frauen als Männer.",
+		"subtitle": "Basel-Stadt, 2005",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2005 mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -312,7 +312,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:30",
+		"aktualisierungsdatum": "2025-05-12T03:17:24",
 		"id": 6064
 	},
 	{
@@ -325,8 +325,8 @@ var indikatorensetData = [
 			6650
 		],
 		"title": "Alterspyramide der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, 2004",
-		"lesehilfe": "2004 bilden bei den ausländischen Männern und Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
+		"subtitle": "Basel-Stadt, 2005",
+		"lesehilfe": "2005 bilden bei den ausländischen Männern und Frauen die 30- bis 34-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -351,7 +351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:31",
+		"aktualisierungsdatum": "2025-05-12T03:17:26",
 		"id": 6065
 	},
 	{
@@ -364,8 +364,8 @@ var indikatorensetData = [
 			6651
 		],
 		"title": "Alterspyramide der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2023 mehr Frauen als Männer. Die grössten Fünfjahresklassen bilden bei den Männern die 30- bis 34-Jährigen und bei den Frauen die 25- bis 29-Jährigen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Bei den älteren Schweizer Staatsangehörigen gibt es 2024 mehr Frauen als Männer. Die grössten Fünfjahresklassen bilden bei den Männern die 30- bis 34-Jährigen und bei den Frauen die 25- bis 29-Jährigen sowie die 60- bis 64-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -390,7 +390,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:31",
+		"aktualisierungsdatum": "2025-05-12T03:17:25",
 		"id": 6066
 	},
 	{
@@ -403,8 +403,8 @@ var indikatorensetData = [
 			6652
 		],
 		"title": "Alterspyramide der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 bilden bei ausländischen Männern und Frauen die 35- bis 39-Jährigen die grösste Altersgruppe.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 bilden bei ausländischen Männern und Frauen die 35- bis 39-Jährigen die grösste Altersgruppe.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -429,7 +429,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:32",
+		"aktualisierungsdatum": "2025-05-12T03:17:27",
 		"id": 6067
 	},
 	{
@@ -443,7 +443,7 @@ var indikatorensetData = [
 		],
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Personen aus afrikanischen Ländern den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2004 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus dem Balkan am stärksten gesunken.",
+		"lesehilfe": "2024 weisen Personen aus afrikanischen Ländern den höchsten, Personen aus Mittel- und Südamerika den niedrigsten Jugendquotienten auf. Im Vergleich zu 2005 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen, jener der Personen aus dem Balkan am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -456,7 +456,7 @@ var indikatorensetData = [
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6068",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A2-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -468,7 +468,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:28",
+		"aktualisierungsdatum": "2025-05-12T03:17:22",
 		"id": 6068
 	},
 	{
@@ -482,7 +482,7 @@ var indikatorensetData = [
 		],
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2004 sind die Altersquotienten der Türkinnen und Türken sowie der Personen aus dem Balkan am stärksten gestiegen.",
+		"lesehilfe": "2024 weisen Schweizerinnen und Schweizer den höchsten Altersquotienten auf. Am niedrigsten ist er bei Afrikanerinnen und Afrikanern. Seit 2005 ist der Altersquotient der Türkinnen und Türken am stärksten gestiegen, jener der Deutschen am stärksten gesunken.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -507,7 +507,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:29",
+		"aktualisierungsdatum": "2025-05-12T03:17:23",
 		"id": 6069
 	},
 	{
@@ -521,7 +521,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ist der Anteil der ausländischen Staatsangehörigen bei den 37-Jährigen mit 55,8% am höchsten.",
+		"lesehilfe": "2024 ist der Anteil der ausländischen Staatsangehörigen bei den 39-Jährigen mit 55,4% am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -546,7 +546,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:33",
+		"aktualisierungsdatum": "2025-05-12T03:17:27",
 		"id": 6070
 	},
 	{
@@ -836,7 +836,7 @@ var indikatorensetData = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
+		"lesehilfe": "2024 weisen Personen aus dem Balkan und der Türkei die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -849,7 +849,7 @@ var indikatorensetData = [
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06078",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A5-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:34",
+		"aktualisierungsdatum": "2025-05-12T03:17:28",
 		"id": 6078
 	},
 	{
@@ -874,8 +874,8 @@ var indikatorensetData = [
 			6664
 		],
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023 gegenüber 2004",
-		"lesehilfe": "Zwischen 2004 und 2023 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2023 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer und italienischen Staatsangehörigen.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2024 gegenüber 2005",
+		"lesehilfe": "Zwischen 2005 und 2024 sind die Segregationsindices aller Gruppen gesunken, d. h. die Gruppen sind 2024 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Personen aus dem Balkan.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -888,7 +888,7 @@ var indikatorensetData = [
 		"description": "Veränderung des Segregationsindex",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.6079",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A5-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:49",
+		"aktualisierungsdatum": "2025-05-12T03:17:29",
 		"id": 6079
 	},
 	{
@@ -2884,7 +2884,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende des Jahres 2023 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2023 eine Quote von 3,4% auf, jene der gemischten Haushalte mit Schweizer und ausländischen Staatsangehörigen eine Quote von 3,6%. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsbürgerschaft bestehen, liegt die Quote bei 1,1%.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende des Jahres 2024 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,2% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -2909,7 +2909,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:36",
+		"aktualisierungsdatum": "2025-05-12T03:17:30",
 		"id": 6474
 	},
 	{
@@ -4148,8 +4148,8 @@ var indikatorensetData = [
 			6747
 		],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2023",
-		"lesehilfe": "Von den Kindern, die im August 2024 in den Kindergarten eintreten, sind 41% zu einer frühen Deutschförderung verpflichtet worden. Diese Obligatorium betrifft 92% der Kinder aus dem Balkan und je 88% der in der Stadt Basel wohnhaften Kinder aus arabischen Ländern sowie Mittel- und Südamerika.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2024",
+		"lesehilfe": "Von den Kindern, die im August 2025 in den Kindergarten eintreten, sind 43% zu einer frühen Deutschförderung verpflichtet worden. Dieses Obligatorium betrifft 95% der Kinder aus der Türkei und 93% derjenigen vom Balkan.",
 		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
@@ -4174,7 +4174,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:27",
+		"aktualisierungsdatum": "2025-05-12T03:17:30",
 		"id": 6515
 	},
 	{

@@ -50,6 +50,10 @@
         [
           2023,
           1.1
+        ],
+        [
+          2024,
+          1.1
         ]
       ],
       "name": "Schweiz"
@@ -104,6 +108,10 @@
         [
           2023,
           3.6
+        ],
+        [
+          2024,
+          3.2
         ]
       ],
       "name": "Gemischte Haushalte"
@@ -158,6 +166,10 @@
         [
           2023,
           3.4
+        ],
+        [
+          2024,
+          3.2
         ]
       ],
       "name": "Ausland"
@@ -212,6 +224,10 @@
         [
           2023,
           2.1
+        ],
+        [
+          2024,
+          2
         ]
       ],
       "name": "Total"
@@ -342,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
