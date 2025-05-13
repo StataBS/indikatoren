@@ -978,10 +978,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge betragen 2022 rund 11,3 Mio. Franken. Sie sind nach zuvor kontinuierlichem Anstieg das zweite Jahr in Folge gesunken.",
-		"erlaeuterungen": "Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge (FAMI) betragen 2024 insgesamt rund 12,1 Mio. Franken.",
+		"erlaeuterungen": "Familien, die in bescheidenen wirtschaftlichen Verhältnissen leben, können Beiträge an den Mietzins ihrer Wohnung erhalten. Der Bezug von Familienmietzinsbeiträgen (FAMI) setzt unter anderem voraus, dass das Einkommen eines Haushalts eine bestimmte Grenze nicht überschreitet, dass in dem Haushalt Kinder leben und dass der Wohnsitz seit mindestens fünf Jahren im Kanton Basel-Stadt liegt.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -999,11 +999,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "05_01_00_00_00_027",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:16",
+		"aktualisierungsdatum": "2025-05-13T02:46:12",
 		"id": 4153
 	},
 	{

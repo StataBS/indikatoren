@@ -15,7 +15,7 @@ global Highcharts
     "yAxis": {
       //"min": -16000,
       //"max": 16000,
-      //"tickInterval": 4000,
+      "tickInterval": 500,
       "labels": {
         "format": "{value:,.0f}",
       },
@@ -36,7 +36,7 @@ global Highcharts
       "tickInterval": 1
     },
     "legend": {
-      "enabled": true,
+      "enabled": false,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
@@ -60,7 +60,7 @@ global Highcharts
         legendIndex: 0,
         zIndex: 5 //small values: place above white plotLine
       },
-      {
+   /*   {
         "color": "#246370", //dunkelgrün -Zuzug_Schweiz. Agglomeration Basel
         //"index": 0,
         "type": "column",
