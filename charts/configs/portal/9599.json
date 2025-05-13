@@ -8,404 +8,6 @@
       "zIndex": 5,
       "data": [
         [
-          2014,
-          17
-        ],
-        [
-          2015,
-          44
-        ],
-        [
-          2016,
-          31
-        ],
-        [
-          2017,
-          25
-        ],
-        [
-          2018,
-          80
-        ],
-        [
-          2019,
-          115
-        ],
-        [
-          2020,
-          65
-        ],
-        [
-          2021,
-          71
-        ],
-        [
-          2022,
-          213
-        ],
-        [
-          2023,
-          111
-        ]
-      ],
-      "name": "Zuzugsort: unbekannt"
-    },
-    {
-      "color": "#246370",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 1,
-      "data": [
-        [
-          2014,
-          7872
-        ],
-        [
-          2015,
-          8027
-        ],
-        [
-          2016,
-          8291
-        ],
-        [
-          2017,
-          7697
-        ],
-        [
-          2018,
-          7756
-        ],
-        [
-          2019,
-          7973
-        ],
-        [
-          2020,
-          7056
-        ],
-        [
-          2021,
-          6776
-        ],
-        [
-          2022,
-          9678
-        ],
-        [
-          2023,
-          8141
-        ]
-      ],
-      "name": "Zuzugsort: Ausland"
-    },
-    {
-      "color": "#689199",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 2,
-      "data": [
-        [
-          2014,
-          2776
-        ],
-        [
-          2015,
-          3031
-        ],
-        [
-          2016,
-          3259
-        ],
-        [
-          2017,
-          3018
-        ],
-        [
-          2018,
-          3068
-        ],
-        [
-          2019,
-          2795
-        ],
-        [
-          2020,
-          3141
-        ],
-        [
-          2021,
-          3042
-        ],
-        [
-          2022,
-          3130
-        ],
-        [
-          2023,
-          3121
-        ]
-      ],
-      "name": "Zuzugsort: übrige Schweiz"
-    },
-    {
-      "color": "#A8C3CA",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 4,
-      "data": [
-        [
-          2014,
-          2855
-        ],
-        [
-          2015,
-          3177
-        ],
-        [
-          2016,
-          3268
-        ],
-        [
-          2017,
-          2996
-        ],
-        [
-          2018,
-          3165
-        ],
-        [
-          2019,
-          3130
-        ],
-        [
-          2020,
-          3218
-        ],
-        [
-          2021,
-          2925
-        ],
-        [
-          2022,
-          2776
-        ],
-        [
-          2023,
-          2910
-        ]
-      ],
-      "name": "Zuzugsort: Nordwestschweiz"
-    },
-    {
-      "color": "#007A2F",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 0,
-      "data": [
-        [
-          2014,
-          -1215
-        ],
-        [
-          2015,
-          -1372
-        ],
-        [
-          2016,
-          -1425
-        ],
-        [
-          2017,
-          -1252
-        ],
-        [
-          2018,
-          -1294
-        ],
-        [
-          2019,
-          -714
-        ],
-        [
-          2020,
-          -736
-        ],
-        [
-          2021,
-          -1231
-        ],
-        [
-          2022,
-          -1077
-        ],
-        [
-          2023,
-          -1251
-        ]
-      ],
-      "name": "Wegzugsort: unbekannt"
-    },
-    {
-      "color": "#68AB2B",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 1,
-      "data": [
-        [
-          2014,
-          -4604
-        ],
-        [
-          2015,
-          -4933
-        ],
-        [
-          2016,
-          -5004
-        ],
-        [
-          2017,
-          -4885
-        ],
-        [
-          2018,
-          -4700
-        ],
-        [
-          2019,
-          -4842
-        ],
-        [
-          2020,
-          -3984
-        ],
-        [
-          2021,
-          -4326
-        ],
-        [
-          2022,
-          -4401
-        ],
-        [
-          2023,
-          -4525
-        ]
-      ],
-      "name": "Wegzugsort: Ausland"
-    },
-    {
-      "color": "#73B97C",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 2,
-      "data": [
-        [
-          2014,
-          -2692
-        ],
-        [
-          2015,
-          -2838
-        ],
-        [
-          2016,
-          -2903
-        ],
-        [
-          2017,
-          -2773
-        ],
-        [
-          2018,
-          -3205
-        ],
-        [
-          2019,
-          -2878
-        ],
-        [
-          2020,
-          -3063
-        ],
-        [
-          2021,
-          -3070
-        ],
-        [
-          2022,
-          -2994
-        ],
-        [
-          2023,
-          -2979
-        ]
-      ],
-      "name": "Wegzugsort: übrige Schweiz"
-    },
-    {
-      "color": "#D7E8D2",
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 4,
-      "data": [
-        [
-          2014,
-          -4216
-        ],
-        [
-          2015,
-          -4424
-        ],
-        [
-          2016,
-          -4615
-        ],
-        [
-          2017,
-          -4248
-        ],
-        [
-          2018,
-          -4337
-        ],
-        [
-          2019,
-          -4365
-        ],
-        [
-          2020,
-          -4741
-        ],
-        [
-          2021,
-          -5187
-        ],
-        [
-          2022,
-          -4607
-        ],
-        [
-          2023,
-          -4175
-        ]
-      ],
-      "name": "Wegzugsort: Nordwestschweiz"
-    },
-    {
-      "color": "#000000",
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 4,
-      "data": [
-        [
-          2014,
-          793
-        ],
-        [
           2015,
           712
         ],
@@ -440,6 +42,10 @@
         [
           2023,
           1353
+        ],
+        [
+          2024,
+          1133
         ]
       ],
       "name": "Saldo"
@@ -524,7 +130,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort"
+    "text": "Wanderungssaldo"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -569,6 +175,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "tickInterval": 500,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -584,7 +191,7 @@
       "textOverflow": null,
       "whiteSpace": "nowrap"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -610,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
