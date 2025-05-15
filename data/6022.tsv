@@ -1,23 +1,23 @@
-﻿"WohnviertelId"	"Wohnviertel"	"Saldo"	"Wanderung"	"Umzug"
-1	"Altstadt Grossbasel"	0.5119	0.4753	0.0366
-2	"Vorstädte"	-2.9179	3.0800	-5.9980
-3	"Am Ring"	-0.1934	0.9141	-1.1075
-4	"Breite"	1.3629	0.6382	0.7247
-5	"St. Alban"	1.4167	0.6483	0.7684
-6	"Gundeldingen"	-0.4224	0.2851	-0.7076
-7	"Bruderholz"	1.7462	-0.2183	1.9645
-8	"Bachletten"	-0.4797	-0.7050	0.2253
-9	"Gotthelf"	0.0000	0.1700	-0.1700
-10	"Iselin"	4.0495	1.1755	2.8740
-11	"St. Johann"	0.3542	0.3440	0.0103
-12	"Altstadt Kleinbasel"	1.2215	1.1401	0.0814
-13	"Clara"	-0.5693	0.5466	-1.1159
-14	"Wettstein"	-0.3458	2.0574	-2.4032
-15	"Hirzbrunnen"	3.0404	0.6060	2.4344
-16	"Rosental"	0.5244	2.5198	-1.9954
-17	"Matthäus"	-1.8918	0.2834	-2.1752
-18	"Klybeck"	-0.1573	0.9151	-1.0723
-19	"Kleinhüningen"	0.5658	4.9859	-4.4201
-20	"Riehen"	1.5829	0.2306	1.3524
-30	"Bettingen"	-0.0757	-0.4542	0.3785
+﻿"WohnviertelId"	"Wohnviertel"	"Saldo"
+1	"Altstadt Grossbasel"	1.3459
+2	"Vorstädte"	1.3427
+3	"Am Ring"	1.3942
+4	"Breite"	1.1902
+5	"St. Alban"	0.7626
+6	"Gundeldingen"	0.9519
+7	"Bruderholz"	0.2081
+8	"Bachletten"	-0.1453
+9	"Gotthelf"	0.6646
+10	"Iselin"	0.5708
+11	"St. Johann"	0.5010
+12	"Altstadt Kleinbasel"	0.8207
+13	"Clara"	1.7007
+14	"Wettstein"	-0.0172
+15	"Hirzbrunnen"	0.8382
+16	"Rosental"	-1.6474
+17	"Matthäus"	-0.5538
+18	"Klybeck"	1.4217
+19	"Kleinhüningen"	-1.5135
+20	"Riehen"	0.9715
+30	"Bettingen"	-0.8423
 

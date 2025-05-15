@@ -2803,10 +2803,12 @@ var indikatorensetData = [
 		"chart-id": 9734,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12547
+		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende 2023 Familienmietzinsbeiträge. Diese Quote bleibt gegenüber dem Vorjahr unverändert.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2024 Familienmietzinsbeiträge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2828,11 +2830,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_317",
+		"orderKey": "03_06_00_00_00_317",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:41",
+		"aktualisierungsdatum": "2025-05-15T07:11:45",
 		"id": 9734
 	},
 	{

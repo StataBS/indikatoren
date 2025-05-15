@@ -6,85 +6,24 @@
       "pointWidth": "15",
       "data": [
         [
-          "Deutschland",
-          2360
-        ],
-        [
-          "Frankreich",
-          496
-        ],
-        [
-          "Italien",
-          467
+          "USA",
+          10
         ],
         [
           "Spanien",
-          434
-        ],
-        [
-          "USA",
-          359
-        ]
-      ],
-      "name": "Zugezogene",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#71A3B5",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "Deutschland",
-          -1079
+          179
         ],
         [
           "Frankreich",
-          -476
+          0
         ],
         [
           "Italien",
-          -240
+          232
         ],
-        [
-          "Spanien",
-          -249
-        ],
-        [
-          "USA",
-          -282
-        ]
-      ],
-      "name": "Weggezogene",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#000000",
-      "type": "scatter",
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
         [
           "Deutschland",
-          1281
-        ],
-        [
-          "Frankreich",
-          20
-        ],
-        [
-          "Italien",
-          227
-        ],
-        [
-          "Spanien",
-          185
-        ],
-        [
-          "USA",
-          77
+          1302
         ]
       ],
       "name": "Saldo",
@@ -154,6 +93,7 @@
       },
       "stacking": "normal",
       "pointPadding": 0,
+      "minPointLength": 3,
       "groupPadding": 0.5
     }
   },
@@ -164,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zugezogene, Weggezogene und Wanderungssaldo"
+    "text": "Wanderungssaldo Top 5"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2023",
+    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -192,8 +132,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "min": -1500,
-    "tickInterval": 500,
+    "min": -500,
+    "tickInterval": 250,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -207,7 +147,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -232,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.5.2025"
   },
   "exporting": {
     "filename": "6023"

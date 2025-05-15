@@ -8,47 +8,47 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          26.47
+          29.22
         ],
         [
           "Vorstädte",
-          13.19
+          19.59
         ],
         [
           "Am Ring",
-          25.66
+          32.02
         ],
         [
           "Breite",
-          31.69
+          31.56
         ],
         [
           "St. Alban",
-          26.1
+          24.19
         ],
         [
           "Gundeldingen",
-          30.69
+          34.62
         ],
         [
           "Bruderholz",
-          31.18
+          33.08
         ],
         [
           "Bachletten",
-          30.85
+          37.87
         ],
         [
           "Gotthelf",
-          28.14
+          35.07
         ],
         [
           "Iselin",
-          28.52
+          30.2
         ],
         [
           "St. Johann",
-          25.46
+          28.31
         ],
         [
           "Altstadt Kleinbasel",
@@ -56,43 +56,43 @@
         ],
         [
           "Clara",
-          26.13
+          32.58
         ],
         [
           "Wettstein",
-          26.73
+          36.53
         ],
         [
           "Hirzbrunnen",
-          43.69
+          38.83
         ],
         [
           "Rosental",
-          23.16
+          20.16
         ],
         [
           "Matthäus",
-          28.66
+          33.65
         ],
         [
           "Klybeck",
-          34.95
+          32.14
         ],
         [
           "Kleinhüningen",
-          28.29
+          30.61
         ],
         [
           "Riehen",
-          53.59
+          51.58
         ],
         [
           "Bettingen",
-          75.68
+          53.85
         ],
         [
           "Kanton BS",
-          28.99
+          31.25
         ]
       ],
       "name": "Deutschland",
@@ -106,94 +106,94 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          8.82
+          6.49
         ],
         [
           "Vorstädte",
-          4.04
+          4.28
         ],
         [
           "Am Ring",
-          5.16
+          7.44
         ],
         [
           "Breite",
-          8.1
+          4.18
         ],
         [
           "St. Alban",
-          4.78
+          4.97
         ],
         [
           "Gundeldingen",
-          5.62
+          4.9
         ],
         [
           "Bruderholz",
-          7.06
+          6.92
         ],
         [
           "Bachletten",
-          3.9
+          8.09
         ],
         [
           "Gotthelf",
-          6.53
+          6.16
         ],
         [
           "Iselin",
-          9.67
+          6.93
         ],
         [
           "St. Johann",
-          7.18
+          7.92
         ],
         [
           "Altstadt Kleinbasel",
-          11.11
+          9.09
         ],
         [
           "Clara",
-          6.53
+          4.07
         ],
         [
           "Wettstein",
-          4.4
+          3.69
         ],
         [
           "Hirzbrunnen",
-          1.94
+          6.8
         ],
         [
           "Rosental",
-          3.43
+          4.13
         ],
         [
           "Matthäus",
-          6.27
+          7.06
         ],
         [
           "Klybeck",
-          7.6
+          13.31
         ],
         [
           "Kleinhüningen",
-          10.76
+          2.04
         ],
         [
           "Riehen",
-          4.55
+          4.01
         ],
         [
           "Bettingen",
-          5.41
+          0
         ],
         [
           "Kanton BS",
-          6.09
+          6.17
         ]
       ],
-      "name": "Frankreich",
+      "name": "Italien",
       "turboThreshold": 0
     },
     {
@@ -204,83 +204,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          6.47
+          6.49
         ],
         [
           "Vorstädte",
-          3.4
+          4.05
         ],
         [
           "Am Ring",
-          7.23
+          6.98
         ],
         [
           "Breite",
-          8.45
+          3.8
         ],
         [
           "St. Alban",
-          3.86
+          10.8
         ],
         [
           "Gundeldingen",
-          6.2
+          6.24
         ],
         [
           "Bruderholz",
-          4.71
+          7.69
         ],
         [
           "Bachletten",
-          4.26
-        ],
-        [
-          "Gotthelf",
           5.53
         ],
         [
+          "Gotthelf",
+          5.21
+        ],
+        [
           "Iselin",
-          6.56
+          6.57
         ],
         [
           "St. Johann",
-          5.67
+          5.58
         ],
         [
           "Altstadt Kleinbasel",
-          5.93
+          10.1
         ],
         [
           "Clara",
-          6.53
+          4.98
         ],
         [
           "Wettstein",
-          4.72
+          4.8
         ],
         [
           "Hirzbrunnen",
-          2.91
+          4.37
         ],
         [
           "Rosental",
-          2.61
+          3.97
         ],
         [
           "Matthäus",
-          7.76
+          5.97
         ],
         [
           "Klybeck",
-          10.64
+          9.09
         ],
         [
           "Kleinhüningen",
-          9.16
+          5.1
         ],
         [
           "Riehen",
-          3.59
+          5.44
         ],
         [
           "Bettingen",
@@ -288,10 +288,10 @@
         ],
         [
           "Kanton BS",
-          5.74
+          6.05
         ]
       ],
-      "name": "Italien",
+      "name": "Frankreich",
       "turboThreshold": 0
     },
     {
@@ -302,91 +302,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          2.35
+          5.84
         ],
         [
           "Vorstädte",
-          2.34
+          2.93
         ],
         [
           "Am Ring",
-          7.52
+          5.61
         ],
         [
           "Breite",
-          3.87
+          6.46
         ],
         [
           "St. Alban",
-          2.76
+          4.97
         ],
         [
           "Gundeldingen",
-          4.76
+          5.94
         ],
         [
           "Bruderholz",
-          3.53
+          3.08
         ],
         [
           "Bachletten",
-          6.03
+          4.26
         ],
         [
           "Gotthelf",
-          5.03
+          6.16
         ],
         [
           "Iselin",
-          9.51
+          7.46
         ],
         [
           "St. Johann",
-          6.71
+          4.68
         ],
         [
           "Altstadt Kleinbasel",
-          2.22
+          4.04
         ],
         [
           "Clara",
-          6.53
+          7.24
         ],
         [
           "Wettstein",
-          2.52
+          2.58
         ],
         [
           "Hirzbrunnen",
-          2.43
+          5.34
         ],
         [
           "Rosental",
-          7.01
+          4.44
         ],
         [
           "Matthäus",
-          7.61
+          10.04
         ],
         [
           "Klybeck",
-          5.17
+          8.12
         ],
         [
           "Kleinhüningen",
-          3.98
+          6.12
         ],
         [
           "Riehen",
-          2.39
+          2.58
         ],
         [
           "Bettingen",
-          0
+          7.69
         ],
         [
           "Kanton BS",
-          5.33
+          5.67
         ]
       ],
       "name": "Spanien",
@@ -400,91 +400,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          6.47
+          7.14
         ],
         [
           "Vorstädte",
-          2.98
+          4.73
         ],
         [
           "Am Ring",
-          4.28
+          6.07
         ],
         [
           "Breite",
-          2.11
+          2.66
         ],
         [
           "St. Alban",
-          3.31
+          9.29
         ],
         [
           "Gundeldingen",
-          5.04
+          3.42
         ],
         [
           "Bruderholz",
-          8.24
+          2.31
         ],
         [
           "Bachletten",
-          6.03
+          3.4
         ],
         [
           "Gotthelf",
-          5.03
+          3.79
         ],
         [
           "Iselin",
-          3.44
+          1.95
         ],
         [
           "St. Johann",
-          5.44
+          1.95
         ],
         [
           "Altstadt Kleinbasel",
-          6.67
+          2.02
         ],
         [
           "Clara",
-          0.5
+          2.26
         ],
         [
           "Wettstein",
-          11.64
+          1.85
         ],
         [
           "Hirzbrunnen",
-          1.46
+          3.88
         ],
         [
           "Rosental",
-          2.45
+          4.92
         ],
         [
           "Matthäus",
-          4.03
+          2.17
         ],
         [
           "Klybeck",
-          3.34
+          3.25
         ],
         [
           "Kleinhüningen",
-          1.2
+          1.02
         ],
         [
           "Riehen",
-          6.94
+          2.87
         ],
         [
           "Bettingen",
-          5.41
+          0
         ],
         [
           "Kanton BS",
-          4.41
+          3.7
         ]
       ],
       "name": "USA",
@@ -498,91 +498,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          49.41
+          44.81
         ],
         [
           "Vorstädte",
-          74.04
+          64.41
         ],
         [
           "Am Ring",
-          50.15
+          41.88
         ],
         [
           "Breite",
-          45.77
+          51.33
         ],
         [
           "St. Alban",
-          59.19
+          45.79
         ],
         [
           "Gundeldingen",
-          47.69
+          44.87
         ],
         [
           "Bruderholz",
-          45.29
+          46.92
         ],
         [
           "Bachletten",
-          48.94
+          40.85
         ],
         [
           "Gotthelf",
-          49.75
+          43.6
         ],
         [
           "Iselin",
-          42.3
+          46.89
         ],
         [
           "St. Johann",
-          49.54
+          51.56
         ],
         [
           "Altstadt Kleinbasel",
-          40.74
+          41.41
         ],
         [
           "Clara",
-          53.77
+          48.87
         ],
         [
           "Wettstein",
-          50
+          50.55
         ],
         [
           "Hirzbrunnen",
-          47.57
+          40.78
         ],
         [
           "Rosental",
-          61.34
+          62.38
         ],
         [
           "Matthäus",
-          45.67
+          41.11
         ],
         [
           "Klybeck",
-          38.3
+          34.09
         ],
         [
           "Kleinhüningen",
-          46.61
+          55.1
         ],
         [
           "Riehen",
-          28.95
+          33.52
         ],
         [
           "Bettingen",
-          13.51
+          38.46
         ],
         [
           "Kanton BS",
-          49.44
+          47.16
         ]
       ],
       "name": "Übriges Ausland",
@@ -666,7 +666,7 @@
     "text": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel"
   },
   "subtitle": {
-    "text": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2023",
+    "text": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -725,7 +725,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -4,13 +4,14 @@
       series: {
         "stacking": "normal",
         pointPadding: 0,
+        minPointLength: 3,
         groupPadding: 0.5, // exaclty overlaps columns,
         borderWidth: 0
       }
     },
     "yAxis": {
-      "min": -1500,
-      "tickInterval": 500,
+      "min": -500,
+      "tickInterval": 250,
       "labels": {
         "format": "{value:,.0f}",
       },
@@ -24,7 +25,7 @@
       //"tickInterval": 1
     },
     "legend": {
-      "enabled": true,
+      "enabled": false,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
@@ -43,7 +44,7 @@
         "type": "column",
         "pointWidth": "15",
       },
-      {
+      /*{
         "color": "#71A3B5", //dunkelgrün - Wegzug in die Schweiz
         "type": "column",
         "pointWidth": "15",
@@ -55,7 +56,7 @@
           headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>'
         }
-      },
+      },*/
     ],
     "chart": {
       /*    
