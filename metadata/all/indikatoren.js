@@ -18576,8 +18576,8 @@ var indikatoren = [
 			6762
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2023",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2023. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 360 Personen). An zweiter Stelle folgt Frankreich mit einem deutlich tieferen Wert (496). Aus der Kategorie Übriges Ausland stammen 4 025 Menschen.",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2024",
+		"lesehilfe": "Die grösste Gruppe der aus dem Ausland Zugewanderten kommt im Jahr 2024 aus Deutschland (2 347 Personen). An zweiter Stelle folgt Italien mit einem deutlich tieferen Wert (463). Aus der Kategorie Übriges Ausland stammen 3 542 Menschen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18589,7 +18589,7 @@ var indikatoren = [
 		],
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-3",
@@ -18603,7 +18603,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:51",
+		"aktualisierungsdatum": "2025-05-15T07:11:42",
 		"id": 6013
 	},
 	{
@@ -18776,8 +18776,8 @@ var indikatoren = [
 			6770
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2023",
-		"lesehilfe": "2023 kamen 29% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (76%) und Riehen (54%) besonders hoch.",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2024",
+		"lesehilfe": "2024 kamen 31% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Deren Anteil ist in Bettingen (54%) und Riehen (52%) besonders hoch.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18790,7 +18790,7 @@ var indikatoren = [
 		],
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-11",
@@ -18804,11 +18804,11 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:47",
+		"aktualisierungsdatum": "2025-05-15T07:11:40",
 		"id": 6021
 	},
 	{
-		"template": "mapcolumn002",
+		"template": "map002",
 		"data-id": 6022,
 		"chart-id": 6022,
 		"filter": "",
@@ -18816,10 +18816,10 @@ var indikatoren = [
 		"children": [
 			6771
 		],
-		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen der Schweiz oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2023 verbucht das Wohnviertel Kleinhüningen den grössten relativen Wanderungsgewinn. Einen Wanderungsverlust verzeichnet beispielsweise das Viertel Bachletten. <br>Bei den innerkantonalen Umzügen weist das Wohnviertel Iselin den grössten Wert für den Umzugsgewinn pro 100 Einwohner auf. <br>Den höchsten positiven Saldo infolge sämtlicher räumlicher Bevölkerungsbewegungen pro 100 Einwohner (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) weist ebenfalls das Iselin auf. Den höchsten relativen Bevölkerungsverlust gibt es im Wohnviertel Vorstädte.",
-		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"title": "Saldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Der Saldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner illustriert die Differenz aus Zu- und Wegzügern (inner- und ausserkantonal) in den baselstädtischen Wohnvierteln und Gemeinden. Im Jahr 2024 verbucht das Wohnviertel Clara den grössten positiven Saldo pro 100 Einwohner, den grössten negativen Saldo das Wohnviertel Rosental.",
+		"erlaeuterungen": "Der Saldo räumlicher Bevölkerungsbewegungen ergibt sich aus der Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -18829,9 +18829,9 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
+		"description": "Saldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "I.01.5.00622",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-12",
@@ -18845,7 +18845,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:48",
+		"aktualisierungsdatum": "2025-05-15T07:11:41",
 		"id": 6022
 	},
 	{
@@ -18857,10 +18857,10 @@ var indikatoren = [
 		"children": [
 			6772
 		],
-		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2023",
-		"lesehilfe": "Den grössten Zuzugsüberschuss verzeichnete Basel-Stadt im Jahr 2023 gegenüber Deutschland (+1 281), gefolgt von Italien (+ 227).",
-		"erlaeuterungen": "",
+		"title": "Wanderungssaldo Top 5",
+		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2024",
+		"lesehilfe": "Den grössten Zuzugsüberschuss verzeichnete Basel-Stadt im Jahr 2024 gegenüber Deutschland (+1 302), gefolgt von Italien (+ 232).",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -18869,9 +18869,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
+		"description": "Wanderungssaldo Top 5",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-4",
@@ -18885,7 +18885,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:53",
+		"aktualisierungsdatum": "2025-05-15T07:11:43",
 		"id": 6023
 	},
 	{
@@ -18898,8 +18898,8 @@ var indikatoren = [
 			6773
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2014 = 100)",
-		"lesehilfe": "Im Jahr 2023 zogen 25% mehr Personen aus Deutschland nach Basel-Stadt als 2014. Einen deutlichen Rückgang gegenüber 2014 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-30,6%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
+		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2015 = 100)",
+		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18911,7 +18911,7 @@ var indikatoren = [
 		],
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "I.01.5.06024",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-5",
@@ -18925,7 +18925,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:54",
+		"aktualisierungsdatum": "2025-05-15T07:11:44",
 		"id": 6024
 	},
 	{
@@ -82333,10 +82333,12 @@ var indikatoren = [
 		"chart-id": 9734,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12547
+		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende 2023 Familienmietzinsbeiträge. Diese Quote bleibt gegenüber dem Vorjahr unverändert.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2024 Familienmietzinsbeiträge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -82358,12 +82360,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_317",
+		"orderKey": "03_06_00_00_00_317",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:41",
+		"aktualisierungsdatum": "2025-05-15T07:11:45",
 		"id": 9734
 	},
 	{
@@ -83878,7 +83880,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"lesehilfe": "2024 stehen 97 Notwohnungen und 104 Wohneinheiten nach WRFG bereit. Die Auslastungsquote beträgt 94%.",
 		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
@@ -83904,7 +83906,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:21",
+		"aktualisierungsdatum": "2025-05-15T07:11:39",
 		"id": 9924
 	},
 	{
