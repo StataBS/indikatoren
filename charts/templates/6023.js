@@ -40,7 +40,7 @@
     },
     "series": [
       {
-        "color": "#73B97C", // dunkelblau - Zuzug aus der Schweiz
+        "color": "#689199", // dunkelblau - Zuzug aus der Schweiz
         "type": "column",
         "pointWidth": "15",
       },
