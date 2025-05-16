@@ -52,7 +52,7 @@ global Highcharts
     },
     "series": [
       {
-        "color": "#083038", // dunkelblau -Zuzug_Unbekannt
+        "color": "#689199", // dunkelblau -Zuzug_Unbekannt
         //"color": "#83038", // dunkelblau -Zuzug_Unbekannt
         //"index": 0,
         "type": "column",
