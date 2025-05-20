@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -276
+          -254
         ],
         [
           "Ausland",
-          -133
+          -100
         ],
         [
           "Unbekannt",
-          -374
+          -357
         ],
         [
           "Total",
-          -783
+          -711
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -847
+          -538
         ],
         [
           "Ausland",
-          3749
+          3234
         ],
         [
           "Unbekannt",
-          -766
+          -852
         ],
         [
           "Total",
-          2136
+          1844
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -1123
+          -792
         ],
         [
           "Ausland",
-          3616
+          3134
         ],
         [
           "Unbekannt",
-          -1140
+          -1209
         ],
         [
           "Total",
-          1353
+          1133
         ]
       ],
       "name": "Total",
@@ -149,7 +149,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",

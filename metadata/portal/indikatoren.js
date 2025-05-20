@@ -11114,7 +11114,7 @@ var indikatoren = [
 			8591
 		],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -11143,7 +11143,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:36",
+		"aktualisierungsdatum": "2025-05-20T08:24:52",
 		"id": 4827
 	},
 	{
@@ -14830,9 +14830,9 @@ var indikatoren = [
 			6761
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 353 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -783 bei den Schweizern ein Wanderungsgewinn von +2 136 bei den Ausländern gegenübersteht. Im Jahr 2022 wurde ein Wanderungsgewinn von rund 2 700 Personen verzeichnet.",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 133 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -711 bei den Schweizern ein Wanderungsgewinn von +1 844 bei den Ausländern gegenübersteht. Im Jahr 2023 wurde ein Wanderungsgewinn von 1 353 Personen verzeichnet.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen. Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -14843,7 +14843,7 @@ var indikatoren = [
 		],
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-2",
@@ -14857,7 +14857,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:50",
+		"aktualisierungsdatum": "2025-05-20T08:24:48",
 		"id": 6012
 	},
 	{
@@ -14981,7 +14981,7 @@ var indikatoren = [
 		"id": 6017
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6018,
 		"chart-id": 6018,
 		"filter": "",
@@ -14989,10 +14989,10 @@ var indikatoren = [
 		"children": [
 			6767
 		],
-		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2014 bis 2023 zusammengefasst",
-		"lesehilfe": "Zwischen 2014 und 2023 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
-		"erlaeuterungen": "",
+		"title": "Wanderungssaldo gegenüber der Schweiz nach Alter",
+		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+		"lesehilfe": "Zwischen 2015 und 2024 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15001,9 +15001,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
+		"description": "Wanderungssaldo gegenüber der Schweiz nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-8",
@@ -15017,11 +15017,11 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:59",
+		"aktualisierungsdatum": "2025-05-20T08:24:50",
 		"id": 6018
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6019,
 		"chart-id": 6019,
 		"filter": "",
@@ -15029,10 +15029,10 @@ var indikatoren = [
 		"children": [
 			6768
 		],
-		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2014 bis 2023 zusammengefasst",
-		"lesehilfe": "In den Jahren 2014 bis 2023 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
-		"erlaeuterungen": "",
+		"title": "Wanderungssaldo gegenüber dem Ausland nach Alter",
+		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+		"lesehilfe": "In den Jahren 2015 bis 2024 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen, als aus Basel-Stadt ins Ausland weggezogen. Nur für die Altersklassen ab 60 Jahren ist der Wanderungssaldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15041,9 +15041,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
+		"description": "Wanderungssaldo gegenüber dem Ausland nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-9",
@@ -15057,7 +15057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:18:00",
+		"aktualisierungsdatum": "2025-05-20T08:24:51",
 		"id": 6019
 	},
 	{
@@ -15193,7 +15193,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
 		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2015 = 100)",
-		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
+		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Schutzsuchenden aus der Ukraine zurückzuführen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15219,7 +15219,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-15T07:11:44",
+		"aktualisierungsdatum": "2025-05-20T08:24:49",
 		"id": 6024
 	},
 	{
@@ -17491,8 +17491,8 @@ var indikatoren = [
 			8609
 		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,1%. Das Wohnviertel Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2018 gesunken.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,0%. Das Wohnviertel Kleinhüningen weist mit 4,7% die höchste Beitragsquote auf. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2019 gesunken. Im Fünfjahresvergleich resultiert im Wohnviertel Kleinhüningen ein Anstieg um 0,2 Prozentpunkte. Im Wohnviertel Rosental und in der Gemeinde Riehen zeigt sich keine Veränderung.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -17520,7 +17520,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:08",
+		"aktualisierungsdatum": "2025-05-20T08:24:28",
 		"id": 6203
 	},
 	{
@@ -17534,8 +17534,8 @@ var indikatoren = [
 			8606
 		],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Der Anteil der Haushalte mit reiner Prämienverbilligung (PV) liegt im Kanton Basel-Stadt Ende des Jahres 2023 bei 15,9%. Das Wohnviertel Klybeck weist mit 26,4% die höchste PV-Quote auf. Gegenüber dem Jahr 2018 ist die Quote mit Ausnahme der Altstadt Grossbasel sowohl in allen Wohnvierteln, als auch in Riehen und Bettingen gestiegen. Der höchste Anstieg ist mit 2,3 Prozentpunkten im Wohnviertel St. Johann zu beobachten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Der Anteil der Haushalte mit reiner Prämienverbilligung (PV) liegt im Kanton Basel-Stadt Ende des Jahres 2024 bei 15,4%. Das Wohnviertel Klybeck weist mit 25,1% die höchste PV-Quote auf. Gegenüber dem Jahr 2019 ist die PV-Quote in vier Wohnvierteln der Stadt Basel gestiegen.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -17563,7 +17563,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-19T08:02:40",
+		"aktualisierungsdatum": "2025-05-20T08:24:30",
 		"id": 6204
 	},
 	{
@@ -23074,8 +23074,8 @@ var indikatoren = [
 		],
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"lesehilfe": "Im Jahr 2024 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 24,4% der gesamten Kantonsfläche und 17,2% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16,5% respektive 15,1%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. Seit 2021 finden alle drei Jahre Befliegungen statt, um die Entwicklung der Kronenbedeckung verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -23092,18 +23092,18 @@ var indikatoren = [
 		"unterthema": "Landschaft",
 		"kuerzel": "I.02.13.6574",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL17",
+		"kuerzelKunde": "NL18",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_417",
+		"orderKey": "04_02_00_00_00_418",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:46",
+		"aktualisierungsdatum": "2025-05-20T08:24:57",
 		"id": 6574
 	},
 	{
@@ -31535,8 +31535,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Im März 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in 11 Wohnvierteln und in Riehen. In sieben Wohnvierteln und in der Gemeinde Bettingen ging sie zurück. Im Wohnviertel Matthäus veränderte sich die Einwohnerzahl nicht",
+		"subtitle": "Basel-Stadt, April",
+		"lesehilfe": "Im April 2025 sank die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln und in der Gemeinde Bettingen. In neun Wohnvierteln und in der Gemeinde Riehen stieg sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -31563,7 +31563,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-22T01:02:52",
+		"aktualisierungsdatum": "2025-05-20T08:24:31",
 		"id": 7763
 	},
 	{
@@ -39695,7 +39695,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt leben im Jahr 2023 14 517 Menschen. Dies sind 12,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,0% auf 206 308.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2024 14 586 Menschen. Dies sind 12,9% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,7% auf 207 515.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -39709,7 +39709,7 @@ var indikatoren = [
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09581",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -39722,7 +39722,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:41",
+		"aktualisierungsdatum": "2025-05-20T08:24:41",
 		"id": 9581
 	},
 	{
@@ -41026,7 +41026,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/uebertritte-verlaeufe-bildungsbereich/abschlussquoten.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -41049,7 +41049,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-11T07:18:40",
+		"aktualisierungsdatum": "2025-05-20T08:24:55",
 		"id": 9733
 	},
 	{
@@ -41986,7 +41986,7 @@ var indikatoren = [
 		],
 		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "71% der Personen mit IV erhalten zum Jahresende 2023 Ergänzungsleistungen (EL), 45% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
+		"lesehilfe": "70% der Personen mit IV erhalten zum Jahresende 2024 Ergänzungsleistungen (EL), 46% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
 		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen bzw. Beihilfen zur Gesamtheit der Beziehenden von Renten per Ende Jahr. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
@@ -42013,7 +42013,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:17",
+		"aktualisierungsdatum": "2025-05-20T08:24:34",
 		"id": 9919
 	},
 	{

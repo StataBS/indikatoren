@@ -51,9 +51,9 @@ var indikatorensetData = [
 			6761
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 353 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -783 bei den Schweizern ein Wanderungsgewinn von +2 136 bei den Ausländern gegenübersteht. Im Jahr 2022 wurde ein Wanderungsgewinn von rund 2 700 Personen verzeichnet.",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 133 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -711 bei den Schweizern ein Wanderungsgewinn von +1 844 bei den Ausländern gegenübersteht. Im Jahr 2023 wurde ein Wanderungsgewinn von 1 353 Personen verzeichnet.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen. Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -64,7 +64,7 @@ var indikatorensetData = [
 		],
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-2",
@@ -77,7 +77,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:50",
+		"aktualisierungsdatum": "2025-05-20T08:24:48",
 		"id": 6012
 	},
 	{
@@ -198,7 +198,7 @@ var indikatorensetData = [
 		"id": 6017
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6018,
 		"chart-id": 6018,
 		"filter": "",
@@ -206,10 +206,10 @@ var indikatorensetData = [
 		"children": [
 			6767
 		],
-		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2014 bis 2023 zusammengefasst",
-		"lesehilfe": "Zwischen 2014 und 2023 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
-		"erlaeuterungen": "",
+		"title": "Wanderungssaldo gegenüber der Schweiz nach Alter",
+		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+		"lesehilfe": "Zwischen 2015 und 2024 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -218,9 +218,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
+		"description": "Wanderungssaldo gegenüber der Schweiz nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-8",
@@ -233,11 +233,11 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:59",
+		"aktualisierungsdatum": "2025-05-20T08:24:50",
 		"id": 6018
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6019,
 		"chart-id": 6019,
 		"filter": "",
@@ -245,10 +245,10 @@ var indikatorensetData = [
 		"children": [
 			6768
 		],
-		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2014 bis 2023 zusammengefasst",
-		"lesehilfe": "In den Jahren 2014 bis 2023 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
-		"erlaeuterungen": "",
+		"title": "Wanderungssaldo gegenüber dem Ausland nach Alter",
+		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+		"lesehilfe": "In den Jahren 2015 bis 2024 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen, als aus Basel-Stadt ins Ausland weggezogen. Nur für die Altersklassen ab 60 Jahren ist der Wanderungssaldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -257,9 +257,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
+		"description": "Wanderungssaldo gegenüber dem Ausland nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wanderungen",
 		"kuerzelKunde": "2-9",
@@ -272,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:18:00",
+		"aktualisierungsdatum": "2025-05-20T08:24:51",
 		"id": 6019
 	},
 	{
@@ -405,7 +405,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
 		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2015 = 100)",
-		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
+		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Schutzsuchenden aus der Ukraine zurückzuführen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -430,7 +430,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-15T07:11:44",
+		"aktualisierungsdatum": "2025-05-20T08:24:49",
 		"id": 6024
 	},
 	{

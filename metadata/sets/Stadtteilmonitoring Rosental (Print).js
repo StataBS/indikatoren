@@ -354,7 +354,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "In den Jahren 2014 bis 2020 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste mit leichten Gewinnen ab.",
+		"lesehilfe": "Im Jahr 2023 weist das Rosentalviertel einen positiven Wanderungssaldo auf. Dieser ist auf Zuzüge aus dem Ausland zurückzuführen.",
 		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -367,7 +367,7 @@ var indikatorensetData = [
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.07911",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
 		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
@@ -379,7 +379,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:19:23",
+		"aktualisierungsdatum": "2025-05-20T08:24:38",
 		"id": 7911
 	},
 	{
@@ -1781,42 +1781,40 @@ var indikatorensetData = [
 		"id": 7950
 	},
 	{
+		"template": "template001_print",
+		"data-id": 7951,
+		"chart-id": 7951,
+		"filter": "",
+		"parentId": "7764",
+		"children": [],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.5.07951",
-		"kuerzelKunde": "2.10",
-		"description": "Umzugssaldo",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2023 einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:31.3131",
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2018 für jedes Jahr negative Umzugssaldi auf; d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt sind die Umzugssaldi seit 2015 positiv. Besonders hoch ist der Umzugsgewinn im Jahr 2015 (+496). Dies ist auf die Fertigstellung diverser Wohngebäude zurückzuführen.",
-		"erlaeuterungen": "",
-		"template": "template001_print",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_010",
-		"parentId": 7764,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7951,
-		"chart-id": 7951,
-		"filter": "",
+		"aktualisierungsdatum": "2025-05-20T08:24:39",
 		"id": 7951
 	},
 	{

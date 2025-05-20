@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.1297365572
+          0.133782308
         ],
         [
           "Matthäus",
-          0.2017258977
+          0.2045391126
         ],
         [
           "Klybeck",
-          0.2232142857
-        ],
-        [
-          "St. Johann",
-          0.2313123561
+          0.2239025415
         ],
         [
           "Gundeldingen",
-          0.2334116933
+          0.2316645527
+        ],
+        [
+          "St. Johann",
+          0.2364430147
         ],
         [
           "Iselin",
-          0.243385346
-        ],
-        [
-          "Wettstein",
-          0.2835199167
+          0.2436791264
         ],
         [
           "Altstadt Kleinbasel",
-          0.2857967667
+          0.2876234747
         ],
         [
-          "Altstadt Grossbasel",
-          0.2919287212
-        ],
-        [
-          "Clara",
-          0.3047007102
+          "Wettstein",
+          0.2878669784
         ],
         [
           "Am Ring",
-          0.3077441986
+          0.3002136752
+        ],
+        [
+          "Clara",
+          0.3014804845
         ],
         [
           "Breite",
-          0.3091666667
+          0.3085440423
         ],
         [
-          "Kleinhüningen",
-          0.3166001141
+          "Altstadt Grossbasel",
+          0.3085501859
         ],
         [
           "Vorstädte",
-          0.3381449631
+          0.3272672126
+        ],
+        [
+          "Kleinhüningen",
+          0.3355106888
         ],
         [
           "Gotthelf",
-          0.3607888631
+          0.3606746765
         ],
         [
           "Bachletten",
-          0.3712214303
+          0.3782415411
         ],
         [
           "St. Alban",
-          0.3902170926
+          0.3868603231
         ],
         [
           "Hirzbrunnen",
-          0.3949796973
+          0.393751142
         ],
         [
           "Bruderholz",
-          0.4071563089
+          0.4039297185
         ],
         [
           "Bettingen",
-          0.4546722455
+          0.4651493599
         ],
         [
           "Riehen",
-          0.4759358289
+          0.479521899
         ]
       ],
       "name": "Altersquotient",
@@ -107,11 +107,11 @@
           3
         ],
         [
-          "St. Johann",
+          "Gundeldingen",
           4
         ],
         [
-          "Gundeldingen",
+          "St. Johann",
           5
         ],
         [
@@ -119,15 +119,15 @@
           6
         ],
         [
-          "Wettstein",
+          "Altstadt Kleinbasel",
           7
         ],
         [
-          "Altstadt Kleinbasel",
+          "Wettstein",
           8
         ],
         [
-          "Altstadt Grossbasel",
+          "Am Ring",
           9
         ],
         [
@@ -135,19 +135,19 @@
           10
         ],
         [
-          "Am Ring",
+          "Breite",
           11
         ],
         [
-          "Breite",
+          "Altstadt Grossbasel",
           12
         ],
         [
-          "Kleinhüningen",
+          "Vorstädte",
           13
         ],
         [
-          "Vorstädte",
+          "Kleinhüningen",
           14
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2025"
   },
   "legend": {
     "enabled": false,
