@@ -14902,86 +14902,6 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
-		"data-id": 6016,
-		"chart-id": 6016,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6765
-		],
-		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt",
-		"lesehilfe": "56,3% der Personen, die 2023 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2014: 55,1%). Von jenen, die aus Deutschland zuziehen, besitzen 76,5% die deutsche Staatsangehörigkeit.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wanderungen",
-		"kuerzelKunde": "2-6",
-		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_006",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:55",
-		"id": 6016
-	},
-	{
-		"template": "template001",
-		"data-id": 6017,
-		"chart-id": 6017,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6766
-		],
-		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2023",
-		"lesehilfe": "Knapp die Hälfte (49,7%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Den höchsten Frauenanteil der abgebildeten Länder weisen die USA mit 51,9% auf, die Schweiz liegt bei 51,2%.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wanderungen",
-		"kuerzelKunde": "2-7",
-		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_007",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:57",
-		"id": 6017
-	},
-	{
-		"template": "template001",
 		"data-id": 6018,
 		"chart-id": 6018,
 		"filter": "",
@@ -15221,47 +15141,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-05-20T08:24:49",
 		"id": 6024
-	},
-	{
-		"template": "mappie002",
-		"data-id": 6025,
-		"chart-id": 6025,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6774
-		],
-		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Im Jahr 2023 kommen 43% der Neuzuzügerinnen und Neuzuzüger in Basel-Stadt aus der Schweiz, 57% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz ist der Anteil der Neuzuziehenden aus der Schweiz (57%) am höchsten. Einen hohen Anteil von Zuzügerinnen und Zuzügern aus dem Ausland gibt es beispielsweise im Wohnviertel Kleinhüningen (77%). Am meisten Zuziehende pro 100 Einwohner weist das Wohnviertel Vorstädte auf (12,6 Personen), am wenigsten Riehen (3,4).",
-		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Kanton"
-		],
-		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wanderungen",
-		"kuerzelKunde": "2-10",
-		"stufe1": "2 Kernindikatoren zu den Wanderungsbewegungen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_010",
-		"darstellungsart": "Karte",
-		"printformat": "map",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:45",
-		"id": 6025
 	},
 	{
 		"template": "befragungen001",
@@ -27623,44 +27502,6 @@ var indikatoren = [
 		"id": 7513
 	},
 	{
-		"template": "template001",
-		"data-id": 7515,
-		"chart-id": 7515,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Bilanz der Wohnbevölkerung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
-		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Bilanz der Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07515",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_003",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T09:25:06",
-		"id": 7515
-	},
-	{
 		"template": "line001",
 		"data-id": 7516,
 		"chart-id": 7516,
@@ -38028,44 +37869,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-04-15T09:06:03",
 		"id": 9294
-	},
-	{
-		"template": "line001",
-		"data-id": 9295,
-		"chart-id": 9295,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Minderjährige weisen 2022 mit 8,5% die höchste Sozialhilfequote im Kanton auf. Mit 4,8% ist die Sozialhilfequote der 26- bis 35-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Sozialhilfequote nach Altersgruppe",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kuerzel": "I.13.2.09295",
-		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-04",
-		"stufe1": "Kernindikatoren",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_004",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:40",
-		"id": 9295
 	},
 	{
 		"template": "line001",
