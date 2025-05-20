@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2023",
+      "name": "2024",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,19 +6569,19 @@
       "data": [
         [
           1,
-          0.2
+          0
         ],
         [
           2,
-          0.3
+          0.2
         ],
         [
           3,
-          0.8
+          0.9
         ],
         [
           4,
-          2.2
+          2.1
         ],
         [
           5,
@@ -6593,15 +6593,15 @@
         ],
         [
           7,
-          1.5
+          1.4
         ],
         [
           8,
-          1.1
+          1.2
         ],
         [
           9,
-          1.2
+          1.3
         ],
         [
           10,
@@ -6609,7 +6609,7 @@
         ],
         [
           11,
-          3.3
+          3
         ],
         [
           12,
@@ -6621,35 +6621,35 @@
         ],
         [
           14,
-          1.1
+          0.9
         ],
         [
           15,
-          3.2
+          3
         ],
         [
           16,
-          3.6
+          3.4
         ],
         [
           17,
-          2.6
+          2.5
         ],
         [
           18,
-          4.1
+          3.8
         ],
         [
           19,
-          4.6
+          4.7
         ],
         [
           20,
-          1.6
+          1.5
         ],
         [
           30,
-          1.1
+          0.8
         ]
       ]
     },
@@ -6658,11 +6658,11 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.2
+          -0.1
         ],
         [
           "Vorstädte",
-          -0.1
+          -0.2
         ],
         [
           "Am Ring",
@@ -6678,27 +6678,27 @@
         ],
         [
           "Gundeldingen",
-          -0.3
+          -0.2
         ],
         [
           "Bruderholz",
-          0
+          -0.1
         ],
         [
           "Bachletten",
-          -0.3
+          -0.2
         ],
         [
           "Gotthelf",
-          -0.3
+          -0.5
         ],
         [
           "Iselin",
-          -0.3
+          -0.5
         ],
         [
           "St. Johann",
-          -0.2
+          -0.4
         ],
         [
           "Altstadt Kleinbasel",
@@ -6706,31 +6706,31 @@
         ],
         [
           "Clara",
-          -0.6
-        ],
-        [
-          "Wettstein",
-          -0.1
-        ],
-        [
-          "Hirzbrunnen",
-          0.1
-        ],
-        [
-          "Rosental",
-          0.3
-        ],
-        [
-          "Matthäus",
-          -0.4
-        ],
-        [
-          "Klybeck",
           -0.8
         ],
         [
+          "Wettstein",
+          -0.2
+        ],
+        [
+          "Hirzbrunnen",
+          -0.1
+        ],
+        [
+          "Rosental",
+          0
+        ],
+        [
+          "Matthäus",
+          -0.6
+        ],
+        [
+          "Klybeck",
+          -0.6
+        ],
+        [
           "Kleinhüningen",
-          -0.5
+          0.2
         ],
         [
           "Riehen",
@@ -6738,10 +6738,10 @@
         ],
         [
           "Bettingen",
-          -0.4
+          -0.9
         ]
       ],
-      "name": "Differenz 2023 zu 2018"
+      "name": "Differenz 2024 zu 2019"
     },
     {
       "name": "Rhein",
@@ -7274,7 +7274,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -7290,7 +7290,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2025"
   },
   "colorAxis": {
     "min": 0,

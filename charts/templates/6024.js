@@ -29,7 +29,7 @@
       }, /*  */
       {
         "color": "#CD9C00",
-        visible: false,
+       // visible: false,
         "marker": {
           "enabled": false
         }

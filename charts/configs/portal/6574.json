@@ -8,11 +8,15 @@
       "data": [
         [
           "2012",
-          15.01
+          15.9
         ],
         [
           "2021",
-          16.02
+          16.99
+        ],
+        [
+          "2024",
+          16.46
         ]
       ],
       "name": "Kanton Basel-Stadt ohne Wald",
@@ -26,11 +30,15 @@
       "data": [
         [
           "2012",
-          9.49
+          8.6
         ],
         [
           "2021",
-          9.33
+          8.36
+        ],
+        [
+          "2024",
+          7.98
         ]
       ],
       "name": "Kanton Basel-Stadt Wald",
@@ -49,6 +57,10 @@
         [
           "2021",
           15.69
+        ],
+        [
+          "2024",
+          15.11
         ]
       ],
       "name": "Stadt Basel ohne Wald",
@@ -67,6 +79,10 @@
         [
           "2021",
           2.27
+        ],
+        [
+          "2024",
+          2.05
         ]
       ],
       "name": "Stadt Basel Wald",
@@ -85,6 +101,10 @@
         [
           "2021",
           20.74
+        ],
+        [
+          "2024",
+          20.34
         ]
       ],
       "name": "Riehen ohne Wald",
@@ -103,6 +123,10 @@
         [
           "2021",
           15.97
+        ],
+        [
+          "2024",
+          15.23
         ]
       ],
       "name": "Riehen Wald",
@@ -116,11 +140,15 @@
       "data": [
         [
           "2012",
-          14.71
+          14.76
         ],
         [
           "2021",
           15.79
+        ],
+        [
+          "2024",
+          15.19
         ]
       ],
       "name": "Bettingen ohne Wald",
@@ -134,11 +162,15 @@
       "data": [
         [
           "2012",
-          34.65
+          34.6
         ],
         [
           "2021",
           33.3
+        ],
+        [
+          "2024",
+          32.99
         ]
       ],
       "name": "Bettingen Wald",
@@ -280,7 +312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2024"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total Kronenbedeckung: \u003Cb\u003E{point.stackTotal:,.2f}%\u003C\u002Fb\u003E",

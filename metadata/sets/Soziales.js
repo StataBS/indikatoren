@@ -538,7 +538,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "71% der Personen mit IV erhalten zum Jahresende 2023 Ergänzungsleistungen (EL), 45% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
+		"lesehilfe": "70% der Personen mit IV erhalten zum Jahresende 2024 Ergänzungsleistungen (EL), 46% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
 		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen bzw. Beihilfen zur Gesamtheit der Beziehenden von Renten per Ende Jahr. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:17",
+		"aktualisierungsdatum": "2025-05-20T08:24:34",
 		"id": 9919
 	},
 	{

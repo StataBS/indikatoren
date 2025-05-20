@@ -238,7 +238,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt leben im Jahr 2023 14 517 Menschen. Dies sind 12,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,0% auf 206 308.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2024 14 586 Menschen. Dies sind 12,9% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,7% auf 207 515.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -252,7 +252,7 @@ var indikatorensetData = [
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09581",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -264,7 +264,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:41",
+		"aktualisierungsdatum": "2025-05-20T08:24:41",
 		"id": 9581
 	},
 	{

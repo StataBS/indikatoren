@@ -51,7 +51,6 @@
     },
     {
       "color": "#CD9C00",
-      "visible": false,
       "marker": {
         "enabled": false
       },
@@ -293,7 +292,7 @@
           86.771
         ]
       ],
-      "name": "Übrige Ausland"
+      "name": "Übriges Ausland"
     }
   ],
   "chart": {

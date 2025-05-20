@@ -175,7 +175,7 @@ var indikatorensetData = [
 			8591
 		],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -203,7 +203,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:36",
+		"aktualisierungsdatum": "2025-05-20T08:24:52",
 		"id": 4827
 	},
 	{
@@ -830,7 +830,7 @@ var indikatorensetData = [
 		"parentId": "4827",
 		"children": [],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -858,7 +858,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:40",
+		"aktualisierungsdatum": "2025-05-20T08:24:54",
 		"id": 5114
 	},
 	{

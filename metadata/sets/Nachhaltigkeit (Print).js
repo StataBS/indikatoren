@@ -90,7 +90,7 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/uebertritte-verlaeufe-bildungsbereich/abschlussquoten.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -112,7 +112,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:57",
+		"aktualisierungsdatum": "2025-05-20T08:24:56",
 		"id": 12546
 	},
 	{
