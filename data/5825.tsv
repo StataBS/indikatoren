@@ -1,9 +1,9 @@
-﻿Wohnviertelid	Wohnviertel_Name	2022	Arbeitsanteil
+﻿id	wov_name	bgfArb	anteilArbAnBGFTot
 1	Altstadt Grossbasel	579904	77.15
 2	Vorstädte	979227	73.23
 3	Am Ring	574767	45.33
 4	Breite	110290	17.53
-5	St. Alban	1214074	59.29
+5	St. Alban	1214653	59.31
 6	Gundeldingen	566010	35.63
 7	Bruderholz	77767	10.75
 8	Bachletten	152450	14.63
@@ -18,5 +18,5 @@
 17	Matthäus	199199	20.64
 18	Klybeck	634887	65.93
 19	Kleinhüningen	447367	77.45
-20	Riehen	323021	18.62
-30	Bettingen	45064	33.10
+20	Riehen	322954	18.62
+21	Bettingen	45064	33.10

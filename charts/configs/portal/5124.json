@@ -3238,87 +3238,87 @@
       "data": [
         [
           19,
-          0.5525901
+          0.5618831
         ],
         [
           18,
-          0.6352123
-        ],
-        [
-          16,
-          0.6929327
-        ],
-        [
-          20,
-          0.6957735
-        ],
-        [
-          30,
-          0.6957735
+          0.635593
         ],
         [
           10,
-          0.6972724
+          0.6930883
         ],
         [
           4,
-          0.7047208
+          0.6953152
         ],
         [
-          17,
-          0.7146829
+          20,
+          0.6957764
         ],
         [
-          11,
-          0.7151063
+          30,
+          0.6957764
         ],
         [
-          13,
-          0.7159412
+          16,
+          0.706851
         ],
         [
           7,
-          0.7167777
+          0.7159997
         ],
         [
-          15,
-          0.7228669
+          11,
+          0.7174091
+        ],
+        [
+          13,
+          0.7198746
+        ],
+        [
+          17,
+          0.7282629
         ],
         [
           5,
-          0.7233697
-        ],
-        [
-          9,
-          0.734909
-        ],
-        [
-          8,
-          0.7471028
-        ],
-        [
-          6,
-          0.7519531
+          0.7304275
         ],
         [
           2,
-          0.7603255
+          0.7422008
         ],
         [
-          3,
-          0.7753934
+          15,
+          0.7457326
+        ],
+        [
+          8,
+          0.7521343
+        ],
+        [
+          6,
+          0.7584348
+        ],
+        [
+          9,
+          0.7664509
         ],
         [
           1,
-          0.7813881
+          0.7768004
         ],
         [
           12,
-          0.8067397
+          0.7848757
+        ],
+        [
+          3,
+          0.7858827
         ],
         [
           14,
-          0.821088
+          0.8062193
         ]
       ]
     },
@@ -3337,27 +3337,27 @@
         ],
         [
           3,
-          "Rosental"
-        ],
-        [
-          4,
-          "Riehen"
-        ],
-        [
-          4,
-          "Bettingen"
-        ],
-        [
-          6,
           "Iselin"
         ],
         [
-          7,
+          4,
           "Breite"
         ],
         [
+          5,
+          "Riehen"
+        ],
+        [
+          5,
+          "Bettingen"
+        ],
+        [
+          7,
+          "Rosental"
+        ],
+        [
           8,
-          "Matthäus"
+          "Bruderholz"
         ],
         [
           9,
@@ -3369,19 +3369,19 @@
         ],
         [
           11,
-          "Bruderholz"
+          "Matthäus"
         ],
         [
           12,
-          "Hirzbrunnen"
-        ],
-        [
-          13,
           "St. Alban"
         ],
         [
+          13,
+          "Vorstädte"
+        ],
+        [
           14,
-          "Gotthelf"
+          "Hirzbrunnen"
         ],
         [
           15,
@@ -3393,19 +3393,19 @@
         ],
         [
           17,
-          "Vorstädte"
+          "Gotthelf"
         ],
         [
           18,
-          "Am Ring"
-        ],
-        [
-          19,
           "Altstadt Grossbasel"
         ],
         [
-          20,
+          19,
           "Altstadt Kleinbasel"
+        ],
+        [
+          20,
+          "Am Ring"
         ],
         [
           21,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2018 bis 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2019 bis 2023",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "colorAxis": {
     "min": undefined,

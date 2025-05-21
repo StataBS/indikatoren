@@ -143,6 +143,10 @@
         [
           2023,
           36887
+        ],
+        [
+          2024,
+          37958
         ]
       ],
       "name": "Mio. Franken"
@@ -266,7 +270,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

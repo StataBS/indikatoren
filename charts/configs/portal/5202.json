@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Bevölkerungsdichte 2023",
+      "name": "Bevölkerungsdichte 2024",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          72.505
+          59.356
         ],
         [
           2,
-          54.721
+          55.331
         ],
         [
           3,
-          124.483
+          125.566
         ],
         [
           4,
-          134.731
+          135.912
         ],
         [
           5,
-          41.938
+          42.257
         ],
         [
           6,
-          162.57
+          165.025
         ],
         [
           7,
-          37.143
+          37.1
         ],
         [
           8,
-          89.967
+          90.032
         ],
         [
           9,
-          144.877
+          145.144
         ],
         [
           10,
-          162.8
+          165.218
         ],
         [
           11,
-          86.462
+          86.83
         ],
         [
           12,
-          99.074
+          98.308
         ],
         [
           13,
-          189.732
+          190.553
         ],
         [
           14,
-          76.516
+          77.085
         ],
         [
           15,
-          30.901
+          31.198
         ],
         [
           16,
-          123.38
+          122.623
         ],
         [
           17,
-          254.769
+          254.718
         ],
         [
           18,
-          76.004
+          77.199
         ],
         [
           19,
-          20.932
+          20.539
         ],
         [
           20,
-          20.767
+          20.851
         ],
         [
           30,
-          5.932
+          5.837
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          17.6026
+          4.109
         ],
         [
           "Vorstädte",
-          4.4465
+          4.9233
         ],
         [
           "Am Ring",
-          9.563
+          10.7775
         ],
         [
           "Breite",
-          12.5914
+          14.0488
         ],
         [
           "St. Alban",
-          8.0761
+          8.4285
         ],
         [
           "Gundeldingen",
-          5.7257
+          8.3783
         ],
         [
           "Bruderholz",
-          3.1155
+          3.4166
         ],
         [
           "Bachletten",
-          3.0538
+          3.5966
         ],
         [
           "Gotthelf",
-          8.7841
+          8.9073
         ],
         [
           "Iselin",
-          16.0054
+          21.7739
         ],
         [
           "St. Johann",
-          7.0975
+          8.185
         ],
         [
           "Altstadt Kleinbasel",
-          5.7282
+          7.3418
         ],
         [
           "Clara",
-          26.012
+          28.8206
         ],
         [
           "Wettstein",
-          4.4582
+          4.9344
         ],
         [
           "Hirzbrunnen",
-          2.4408
+          3.0349
         ],
         [
           "Rosental",
-          50.8009
+          49.7593
         ],
         [
           "Matthäus",
-          -8.1615
+          -6.331
         ],
         [
           "Klybeck",
-          -0.0978
+          0.9454
         ],
         [
           "Kleinhüningen",
-          2.5758
+          1.5913
         ],
         [
           "Riehen",
-          1.7716
+          2.0193
         ],
         [
           "Bettingen",
-          0.5343
+          0.4984
         ]
       ],
-      "name": "Differenz 2023 zu 2004"
+      "name": "Differenz 2024 zu 2005"
     },
     {
       "name": "Rhein",
@@ -7279,7 +7279,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -7295,7 +7295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "colorAxis": {
     "min": 0,

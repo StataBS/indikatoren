@@ -240,8 +240,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Lufthygieneamt beider Basel",
@@ -249,7 +249,7 @@ var indikatorensetData = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:18",
+		"aktualisierungsdatum": "2025-05-21T02:31:52",
 		"id": 11906
 	},
 	{
@@ -319,7 +319,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2024 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,9 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -346,7 +346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:34",
+		"aktualisierungsdatum": "2025-05-21T02:31:55",
 		"id": 11908
 	},
 	{
@@ -358,13 +358,13 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 47 km Fliessstrecke werden 2014 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
-		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wurde eine Fliesstrecke von insgesamt 47 km bewertet. Die Daten wurden im Jahr 2014 im Rahmen der Revitalisierungsplanung aktualisiert und neu der Rhein miteinbezogen.",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
+			"<a href = 'http://www.modul-stufen-konzept.ch' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -372,7 +372,7 @@ var indikatorensetData = [
 		],
 		"description": "Strukturen der Fliessgewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-1",
@@ -385,7 +385,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:03",
+		"aktualisierungsdatum": "2025-05-21T02:31:47",
 		"id": 11909
 	},
 	{
@@ -397,7 +397,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Revitalisierungsrate Oberflächengewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen 2015 und 2023 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
+		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
 		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:29",
+		"aktualisierungsdatum": "2025-05-21T02:31:48",
 		"id": 11910
 	},
 	{
@@ -446,7 +446,7 @@ var indikatorensetData = [
 		],
 		"description": "Waldfläche",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-3",
@@ -459,7 +459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2025-05-21T02:31:50",
 		"id": 11911
 	},
 	{
@@ -772,9 +772,9 @@ var indikatorensetData = [
 			8978
 		],
 		"title": "Bevölkerungsdichte",
-		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2023 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2004 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +50,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
-		"erlaeuterungen": "",
+		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2024 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2005 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +49,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
+		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgwertet (ohne Meldeadressen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -786,7 +786,7 @@ var indikatorensetData = [
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.5202",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-3",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -798,7 +798,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:23",
+		"aktualisierungsdatum": "2025-05-21T02:31:54",
 		"id": 5202
 	},
 	{
@@ -1045,9 +1045,9 @@ var indikatorensetData = [
 			6250
 		],
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
-		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
+		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2023 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, erreichen die Wohnviertel Bruderholz und Bachletten die höchsten Werte.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1071,7 +1071,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:45",
+		"aktualisierungsdatum": "2025-05-21T02:31:53",
 		"id": 5818
 	},
 	{
@@ -1244,8 +1244,8 @@ var indikatorensetData = [
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
-		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1269,7 +1269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:46",
+		"aktualisierungsdatum": "2025-05-21T02:31:56",
 		"id": 5825
 	},
 	{
@@ -1749,7 +1749,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:44",
+		"aktualisierungsdatum": "2025-05-21T02:31:51",
 		"id": 7774
 	},
 	{

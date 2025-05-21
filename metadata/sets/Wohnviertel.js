@@ -759,7 +759,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://www.basleratlas.ch/#c=indicator&i=einpersonenhaushalte.ant_einphh&s=2021&view=map2' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://www.basleratlas.ch/#c=indicator&i=01_bevhaushalte.ant_haushalt1pers&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -780,7 +780,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:42",
+		"aktualisierungsdatum": "2025-05-21T02:31:44",
 		"id": 5112
 	},
 	{
@@ -993,7 +993,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.anteile_einfamh&s=2020&view=map2' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.anteile_einfamh&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -1014,7 +1014,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:59",
+		"aktualisierungsdatum": "2025-05-21T02:31:46",
 		"id": 5118
 	},
 	{
@@ -1221,9 +1221,9 @@ var indikatorensetData = [
 		"parentId": "4837",
 		"children": [],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (55,3%) und im Wohnviertel Wettstein am höchsten (82,1%).",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gabe es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Im Mittel der Jahre 2019 bis 2023 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (56,2%) und im Wohnviertel Wettstein am höchsten (80,6%).",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). 2018 gab es Änderungen in der Erhebungsmethode und in der Gewichtung. Folglich können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1249,7 +1249,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-20T03:11:46",
+		"aktualisierungsdatum": "2025-05-21T02:31:57",
 		"id": 5124
 	},
 	{

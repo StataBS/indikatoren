@@ -1736,14 +1736,15 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			8455,
+			8958,
 			9447,
 			10049,
 			11906
 		],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Lufthygieneamt beider Basel",
@@ -1751,7 +1752,7 @@ var indikatorensetData = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -1772,7 +1773,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T08:39:31",
+		"aktualisierungsdatum": "2025-05-21T02:31:42",
 		"id": 9390
 	},
 	{
