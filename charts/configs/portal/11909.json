@@ -10,6 +10,10 @@
         [
           "2014",
           1.98
+        ],
+        [
+          "2025",
+          1.98
         ]
       ],
       "name": "Natürlich, naturnah",
@@ -25,6 +29,10 @@
         [
           "2014",
           9.69
+        ],
+        [
+          "2025",
+          9.87
         ]
       ],
       "name": "Wenig beeinträchtigt",
@@ -40,6 +48,10 @@
         [
           "2014",
           11.87
+        ],
+        [
+          "2025",
+          13.01
         ]
       ],
       "name": "Stark beeinträchtigt",
@@ -55,6 +67,10 @@
         [
           "2014",
           14.63
+        ],
+        [
+          "2025",
+          13.38
         ]
       ],
       "name": "Künstlich, naturfremd",
@@ -70,6 +86,10 @@
         [
           "2014",
           9.27
+        ],
+        [
+          "2025",
+          9.33
         ]
       ],
       "name": "Eingedolt",
@@ -206,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} km\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

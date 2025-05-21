@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Arbeitsanteil",
+      "name": "anteilArbAnBGFTot",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6585,7 +6585,7 @@
         ],
         [
           5,
-          59.29
+          59.31
         ],
         [
           6,
@@ -6648,7 +6648,7 @@
           18.62
         ],
         [
-          30,
+          21,
           33.1
         ]
       ]
@@ -6676,7 +6676,7 @@
         ],
         [
           "St. Alban",
-          1214074
+          1214653
         ],
         [
           "Gundeldingen",
@@ -6736,14 +6736,14 @@
         ],
         [
           "Riehen",
-          323021
+          322954
         ],
         [
           "Bettingen",
           45064
         ]
       ],
-      "name": "2022"
+      "name": "bgfArb"
     },
     {
       "name": "Rhein",
@@ -7329,7 +7329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "colorAxis": {
     "min": 0,

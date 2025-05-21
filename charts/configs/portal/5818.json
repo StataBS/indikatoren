@@ -6743,7 +6743,7 @@
           91065
         ]
       ],
-      "name": "2022"
+      "name": "2023"
     },
     {
       "name": "Rhein",
@@ -7312,7 +7312,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2022",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2023",
     "align": "left",
     "useHTML": true
   },
@@ -7329,7 +7329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "colorAxis": {
     "min": 0,

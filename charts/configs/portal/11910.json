@@ -38,6 +38,14 @@
         [
           2023,
           1.62
+        ],
+        [
+          2024,
+          1.62
+        ],
+        [
+          2025,
+          1.62
         ]
       ],
       "name": "Revitalisierungsrate Oberflächengewässer"
@@ -86,6 +94,14 @@
         [
           2023,
           4
+        ],
+        [
+          2024,
+          4.5
+        ],
+        [
+          2025,
+          5
         ]
       ],
       "name": "Zielpfad (2035: 9,6 km)"
@@ -221,7 +237,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
   },
   "tooltip": {},
   "exporting": {

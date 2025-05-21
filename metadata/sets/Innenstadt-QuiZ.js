@@ -276,7 +276,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2023 bei 28,6%, im Kanton Basel-Stadt bei 33,2%.",
+		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2024 bei 29,0%, im Kanton Basel-Stadt bei 33,0%.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung eines Gebietes in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -290,7 +290,7 @@ var indikatorensetData = [
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09582",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-2",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -302,7 +302,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:43",
+		"aktualisierungsdatum": "2025-05-21T02:31:41",
 		"id": 9582
 	},
 	{
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hotelübernachtungen",
 		"subtitle": "pro Einwohner, 2021",
-		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"lesehilfe": "Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -964,7 +964,7 @@ var indikatorensetData = [
 		"description": "Hotelübernachtungen",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kuerzel": "I.10.1.09601",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.3-2",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-05T02:12:06",
+		"aktualisierungsdatum": "2025-05-21T02:31:43",
 		"id": 9601
 	},
 	{
