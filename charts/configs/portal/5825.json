@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "anteilArbAnBGFTot",
+      "name": "Arbeitsanteil",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6648,7 +6648,7 @@
           18.62
         ],
         [
-          21,
+          30,
           33.1
         ]
       ]
@@ -6743,7 +6743,7 @@
           45064
         ]
       ],
-      "name": "bgfArb"
+      "name": "2023"
     },
     {
       "name": "Rhein",
@@ -7329,7 +7329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.5.2025"
   },
   "colorAxis": {
     "min": 0,

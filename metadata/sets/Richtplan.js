@@ -5,11 +5,13 @@ var indikatorensetData = [
 		"chart-id": 11899,
 		"filter": "",
 		"parentId": null,
-		"children": [],
-		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"children": [
+			22305
+		],
+		"title": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
+		"lesehilfe": "Gemäss Referenzszenario des BFS steigt die ständige Wohnbevölkerung von 200 031 Personen im Jahr 2023 auf 212 809 Personen im Jahr 2055.",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2025) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2025) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2025) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -20,10 +22,10 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"description": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.11899",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 1-2",
 		"stufe1": "Querschnittsthemen",
@@ -35,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:07",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 11899
 	},
 	{
@@ -774,7 +776,7 @@ var indikatorensetData = [
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2024 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2005 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +49,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
-		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgwertet (ohne Meldeadressen).",
+		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgewertet (ohne Meldeadressen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -798,7 +800,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:54",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 5202
 	},
 	{
@@ -1269,7 +1271,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:56",
+		"aktualisierungsdatum": "2025-05-27T10:03:15",
 		"id": 5825
 	},
 	{
