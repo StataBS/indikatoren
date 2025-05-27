@@ -796,11 +796,13 @@ var indikatoren = [
 		"chart-id": 11899,
 		"filter": "",
 		"parentId": null,
-		"children": [],
-		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"children": [
+			22305
+		],
+		"title": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
+		"lesehilfe": "Gemäss Referenzszenario des BFS steigt die ständige Wohnbevölkerung von 200 031 Personen im Jahr 2023 auf 212 809 Personen im Jahr 2055.",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2025) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2025) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2025) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -811,10 +813,10 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"description": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.11899",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 1-2",
 		"stufe1": "Querschnittsthemen",
@@ -827,7 +829,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:07",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 11899
 	},
 	{
@@ -14079,7 +14081,7 @@ var indikatoren = [
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2024 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2005 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +49,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
-		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgwertet (ohne Meldeadressen).",
+		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgewertet (ohne Meldeadressen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -14104,7 +14106,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:54",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 5202
 	},
 	{
@@ -14690,7 +14692,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:56",
+		"aktualisierungsdatum": "2025-05-27T10:03:15",
 		"id": 5825
 	},
 	{
@@ -20824,7 +20826,7 @@ var indikatoren = [
 		],
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 26,1 einbürgern.",
+		"lesehilfe": "Im Jahr 2024 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 25,2 einbürgern.",
 		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1 000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20850,7 +20852,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:23",
+		"aktualisierungsdatum": "2025-05-27T10:03:12",
 		"id": 6479
 	},
 	{
@@ -20862,9 +20864,9 @@ var indikatoren = [
 		"children": [
 			6721
 		],
-		"title": "Anzahl Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2013 bis 2023",
-		"lesehilfe": "In der Summe der Jahre 2013 bis 2023 wurden die meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert (Total: 1 628; davon 881 Frauen und 747 Männer).",
+		"title": "Einbürgerungen",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2014 bis 2024",
+		"lesehilfe": "In der Summe der Jahre 2014 bis 2024 wurden in der Altersgruppe der 40- bis 44-Jährigen am meisten Personen eingebürgert (Total: 1 691; davon 908 Frauen und 783 Männer).",
 		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bei bis 2017 eingereichten Einbürgerungsgesuchen galten teilweise andere Bestimmungen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -20874,7 +20876,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Eingebürgerte",
+		"description": "Einbürgerungen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kuerzel": "",
@@ -20890,7 +20892,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-24T03:31:47",
+		"aktualisierungsdatum": "2025-05-27T10:03:13",
 		"id": 6480
 	},
 	{
@@ -35335,7 +35337,7 @@ var indikatoren = [
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2023 57,5, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,5 Personen, die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2024 57,8, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,8 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35348,7 +35350,7 @@ var indikatoren = [
 		"description": "Abhängigkeitsquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.08379",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE4",
 		"stufe1": "Bereich Bevölkerung",
@@ -35361,7 +35363,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:35",
+		"aktualisierungsdatum": "2025-05-27T10:03:11",
 		"id": 8379
 	},
 	{
@@ -36813,7 +36815,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-16T09:31:42",
+		"aktualisierungsdatum": "2025-05-27T10:03:08",
 		"id": 8995
 	},
 	{
@@ -36984,7 +36986,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-16T09:31:43",
+		"aktualisierungsdatum": "2025-05-27T10:03:09",
 		"id": 9022
 	},
 	{
@@ -37022,7 +37024,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-16T09:31:44",
+		"aktualisierungsdatum": "2025-05-27T10:03:10",
 		"id": 9023
 	},
 	{
