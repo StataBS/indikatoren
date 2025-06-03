@@ -1245,7 +1245,7 @@ var indikatorensetData = [
 			6255
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
 		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
@@ -1271,7 +1271,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-27T10:03:15",
+		"aktualisierungsdatum": "2025-06-03T08:37:44",
 		"id": 5825
 	},
 	{
