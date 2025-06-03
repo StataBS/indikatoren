@@ -18333,7 +18333,7 @@
 			6255
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
 		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
@@ -18360,7 +18360,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-27T10:03:15",
+		"aktualisierungsdatum": "2025-06-03T08:37:44",
 		"id": 5825
 	},
 	{
@@ -44189,7 +44189,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im April 2025 auf 0,2% gesunken. Das ist der tiefste Stand seit gut vier Jahren: Im März 2021 hatte diese Kennzahl -0,1% betragen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Mai 2025 -0,1%. Sie ist somit zum ersten Mal seit März 2021 negativ (damals ebenfalls -0,1%). Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44217,7 +44217,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:07",
+		"aktualisierungsdatum": "2025-06-03T08:37:40",
 		"id": 7512
 	},
 	{
@@ -44229,7 +44229,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im April 2025 gegenüber März (und auch verglichen mit Februar) unverändert bei 106,8 Punkten geblieben.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Mai 2025 gegenüber April um 0,1% gestiegen und beträgt 106,9 Punkte.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -44256,7 +44256,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:09",
+		"aktualisierungsdatum": "2025-06-03T08:37:42",
 		"id": 7513
 	},
 	{
@@ -81480,7 +81480,7 @@
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "2023 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,6 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
+		"lesehilfe": "2024 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,5 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -81506,7 +81506,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-27T09:10:03",
+		"aktualisierungsdatum": "2025-06-03T08:37:43",
 		"id": 9663
 	},
 	{
