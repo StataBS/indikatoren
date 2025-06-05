@@ -36,6 +36,10 @@
         [
           "2023",
           134315
+        ],
+        [
+          "2024",
+          136925
         ]
       ],
       "name": "Güteklasse A",
@@ -77,6 +81,10 @@
         [
           "2023",
           62403
+        ],
+        [
+          "2024",
+          62317
         ]
       ],
       "name": "Güteklasse B",
@@ -118,6 +126,10 @@
         [
           "2023",
           8208
+        ],
+        [
+          "2024",
+          7161
         ]
       ],
       "name": "Güteklasse C",
@@ -159,6 +171,10 @@
         [
           "2023",
           690
+        ],
+        [
+          "2024",
+          459
         ]
       ],
       "name": "Güteklasse D",
@@ -200,6 +216,10 @@
         [
           "2023",
           195
+        ],
+        [
+          "2024",
+          133
         ]
       ],
       "name": "Güteklasse E",
@@ -240,6 +260,10 @@
         ],
         [
           "2023",
+          4
+        ],
+        [
+          "2024",
           4
         ]
       ],
@@ -379,7 +403,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.6.2025"
   },
   "legend": {
     "layout": "vertical",

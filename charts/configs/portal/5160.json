@@ -97,7 +97,7 @@
         ],
         [
           2024,
-          null
+          -0.5
         ],
         [
           2025,
@@ -109,6 +109,10 @@
         ],
         [
           2027,
+          null
+        ],
+        [
+          2028,
           null
         ]
       ],
@@ -212,19 +216,23 @@
         ],
         [
           2024,
-          -0.4
+          null
         ],
         [
           2025,
-          -0.1
+          -0.2
         ],
         [
           2026,
-          0.3
+          0.1
         ],
         [
           2027,
-          0.8
+          0.5
+        ],
+        [
+          2028,
+          0.9
         ]
       ],
       "name": "Planjahre (Budgetbericht)"
@@ -328,19 +336,23 @@
         ],
         [
           2024,
-          null
+          6.5
         ],
         [
           2025,
-          null
+          6.5
         ],
         [
           2026,
-          null
+          6.5
         ],
         [
           2027,
-          null
+          6.5
+        ],
+        [
+          2028,
+          6.5
         ]
       ],
       "name": "Obergrenze gem. Schuldenbremse"
@@ -444,19 +456,23 @@
         ],
         [
           2024,
-          6.5
+          undefined
         ],
         [
           2025,
-          6.5
+          undefined
         ],
         [
           2026,
-          6.5
+          undefined
         ],
         [
           2027,
-          6.5
+          undefined
+        ],
+        [
+          2028,
+          undefined
         ]
       ],
       "name": "Obergrenze gem. Schuldenbremse ab 2010"
@@ -580,7 +596,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2024"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.6.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
