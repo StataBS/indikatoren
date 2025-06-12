@@ -123,6 +123,10 @@
         [
           2023,
           15.28
+        ],
+        [
+          2024,
+          15.29
         ]
       ],
       "name": "Wassertemperatur Grundwasser (Mittelwert)"
@@ -281,6 +285,11 @@
           "x": 2023,
           "low": 13.27,
           "high": 17.6
+        },
+        {
+          "x": 2024,
+          "low": 13.02,
+          "high": 17.5
         }
       ],
       "name": "90% aller Messstellen (5 - 95% Quantil)"
@@ -410,6 +419,10 @@
         [
           2023,
           12.71
+        ],
+        [
+          2024,
+          12.28
         ]
       ],
       "name": "Jahresmitteltemperatur der Luft"
@@ -486,7 +499,7 @@
     "text": "Wassertemperatur Grundwasser "
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in C°, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -553,7 +566,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -351,7 +351,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Stipendien nach Ausbildungstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 werden insgesamt 1 877 Stipendien vergeben. Davon gehen 28% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 36% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
+		"lesehilfe": "2024 werden insgesamt 1 822 Stipendien vergeben. Davon gehen 27% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 38% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. Zwei Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Ausbildungsbeiträge Basel-Stadt"
@@ -362,7 +362,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl Stipendien nach Ausbildungstyp",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "15 Bildung",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09915",
 		"kennzahlenset": "Soziales",
@@ -376,7 +376,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-17T08:40:17",
+		"aktualisierungsdatum": "2025-06-12T07:33:26",
 		"id": 9915
 	},
 	{

@@ -17,7 +17,7 @@
 		},
 		"tooltip": {
 			useHTML: true,
-			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} Mio m<sup>3</sup></b><br/>'
+			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} Mio. m<sup>3</sup></b><br/>'
 		},
 		"series": [
 			{ "color": "#662673" },
