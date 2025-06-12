@@ -142,6 +142,10 @@
         [
           "2023",
           null
+        ],
+        [
+          "2024",
+          null
         ]
       ],
       "name": "Wasserverbrauch Haushalte und Kleingewerbe bis 2015",
@@ -290,6 +294,10 @@
         [
           "2023",
           12.2
+        ],
+        [
+          "2024",
+          11
         ]
       ],
       "name": "Wasserverbrauch Haushalte und Kleingewerbe ab 2015",
@@ -421,7 +429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Industrielle Werke Basel (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Industrielle Werke Basel (IWB).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -459,7 +467,7 @@
   },
   "tooltip": {
     "useHTML": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Mio m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "11916"

@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          69.48
+          69.23
         ],
         [
           "Deutschland",
-          60.6
+          60.26
         ],
         [
           "Italien",
-          57.73
+          57.94
         ],
         [
           "Türkei",
-          53.66
+          53.7
         ],
         [
           "EU-West + EFTA + UK",
-          59.59
+          59.15
         ],
         [
           "EU-Ost",
-          52.34
+          52.69
         ],
         [
           "Balkan",
-          50.73
+          51.09
         ],
         [
           "Mittel- und Südamerika",
-          54.58
+          53.59
         ],
         [
           "Arabische Länder",
-          48.07
+          47.51
         ],
         [
           "Afrikanische Länder",
-          45.19
+          44.59
         ],
         [
           "Übrige Länder",
-          50.85
+          50.7
         ]
       ],
       "name": "Einpersonenhaushalt",
@@ -58,47 +58,47 @@
       "data": [
         [
           "Schweiz",
-          27.86
+          27.92
         ],
         [
           "Deutschland",
-          28.4
+          28.23
         ],
         [
           "Italien",
-          23.39
+          23.82
         ],
         [
           "Türkei",
-          20.39
+          20.49
         ],
         [
           "EU-West + EFTA + UK",
-          26.27
+          26.33
         ],
         [
           "EU-Ost",
-          22.64
+          23.06
         ],
         [
           "Balkan",
-          20.25
+          20.35
         ],
         [
           "Mittel- und Südamerika",
-          25.17
+          25.6
         ],
         [
           "Arabische Länder",
-          19.92
+          20.2
         ],
         [
           "Afrikanische Länder",
-          19.59
+          19.67
         ],
         [
           "Übrige Länder",
-          21.7
+          21.69
         ]
       ],
       "name": "Vierpersonenhaushalt",
@@ -183,7 +183,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2023",
+    "text": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
