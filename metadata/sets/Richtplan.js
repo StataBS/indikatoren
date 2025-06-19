@@ -755,7 +755,7 @@ var indikatorensetData = [
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.5201",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-2",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -767,7 +767,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:22",
+		"aktualisierungsdatum": "2025-06-19T07:43:15",
 		"id": 5201
 	},
 	{
@@ -1574,7 +1574,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2021 beträgt dieser Anteil 49%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 20% eine auf Niveau Sekundarstufe I.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2023 beträgt dieser Anteil knapp 50%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und knapp 20% eine auf Niveau Sekundarstufe I.",
 		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal obligatorische Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1592,7 +1592,7 @@ var indikatorensetData = [
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 9-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 9: Bedingugen für Wirtschaft und Bildung verbessern",
+		"stufe2": "Strategie 9: Bedingungen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1600,7 +1600,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-12T07:39:19",
+		"aktualisierungsdatum": "2025-06-19T07:43:17",
 		"id": 6218
 	},
 	{
@@ -1907,7 +1907,8 @@ var indikatorensetData = [
 			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [
-			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/fachanwendungen/ivz.html' target = '_blank'>IVZ - Informationssystem Verkehrszulassung</a>",
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/fahrzeugdaten.html' target = '_blank'>Infos zu den Fahrzeugdaten des ASTRA</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -1928,7 +1929,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:25",
+		"aktualisierungsdatum": "2025-06-19T07:43:14",
 		"id": 7779
 	},
 	{
