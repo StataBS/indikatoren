@@ -1098,7 +1098,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-24T12:45:41",
+		"aktualisierungsdatum": "2025-06-19T07:43:12",
 		"id": 5795
 	},
 	{

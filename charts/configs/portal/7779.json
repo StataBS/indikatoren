@@ -118,6 +118,10 @@
         [
           2023,
           null
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Motorisierungsgrad gemäss MFK"
@@ -240,6 +244,10 @@
         [
           2023,
           300
+        ],
+        [
+          2024,
+          299.6
         ]
       ],
       "name": "Motorisierungsgrad gemäss IVZ"
@@ -376,7 +384,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 19.6.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

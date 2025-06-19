@@ -6179,11 +6179,13 @@ var indikatoren = [
 		"chart-id": 12722,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22300
+		],
 		"title": "Bodenpreisindex",
-		"subtitle": "Basel-Stadt, Basis 2014 = 100",
+		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
 		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Das methodische Vorgehen ist im <a href='https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bodenpreisindex.pdf' target='_blank'>Methodenbericht</a> beschrieben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -6209,7 +6211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-28T10:06:03",
+		"aktualisierungsdatum": "2025-06-19T07:43:03",
 		"id": 12722
 	},
 	{
@@ -17538,7 +17540,7 @@ var indikatoren = [
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.5201",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-2",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -17551,7 +17553,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:22",
+		"aktualisierungsdatum": "2025-06-19T07:43:15",
 		"id": 5201
 	},
 	{
@@ -17717,7 +17719,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-24T12:45:41",
+		"aktualisierungsdatum": "2025-06-19T07:43:12",
 		"id": 5795
 	},
 	{
@@ -21889,7 +21891,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2021 beträgt dieser Anteil 49%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 20% eine auf Niveau Sekundarstufe I.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2023 beträgt dieser Anteil knapp 50%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und knapp 20% eine auf Niveau Sekundarstufe I.",
 		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal obligatorische Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -21907,7 +21909,7 @@ var indikatoren = [
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 9-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 9: Bedingugen für Wirtschaft und Bildung verbessern",
+		"stufe2": "Strategie 9: Bedingungen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -21916,7 +21918,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-12T07:39:19",
+		"aktualisierungsdatum": "2025-06-19T07:43:17",
 		"id": 6218
 	},
 	{
@@ -25991,8 +25993,8 @@ var indikatoren = [
 			6387
 		],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,3%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26005,7 +26007,7 @@ var indikatoren = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06375",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C1-1",
 		"stufe1": "",
@@ -26018,7 +26020,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:09",
+		"aktualisierungsdatum": "2025-06-19T07:43:06",
 		"id": 6375
 	},
 	{
@@ -26031,8 +26033,8 @@ var indikatoren = [
 			6388
 		],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Den höchsten Anteil 65-Jähriger und Älterer an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten das Wohnviertel Rosental (9,4%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,2%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26045,7 +26047,7 @@ var indikatoren = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06376",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C1-2",
 		"stufe1": "kontinuierlich klassifiziert",
@@ -26058,7 +26060,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:09",
+		"aktualisierungsdatum": "2025-06-19T07:43:08",
 		"id": 6376
 	},
 	{
@@ -26396,8 +26398,8 @@ var indikatoren = [
 		"parentId": "6375",
 		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,3%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26410,7 +26412,7 @@ var indikatoren = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06387",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "K1-1",
 		"stufe1": "kategoriell klassifiziert",
@@ -26423,7 +26425,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:11",
+		"aktualisierungsdatum": "2025-06-19T07:43:09",
 		"id": 6387
 	},
 	{
@@ -26434,8 +26436,8 @@ var indikatoren = [
 		"parentId": "6376",
 		"children": [],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Den höchsten Anteil 65-Jähriger und Älterer an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten das Wohnviertel Rosental (9,4%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,2%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26448,7 +26450,7 @@ var indikatoren = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06388",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "K1-2",
 		"stufe1": "kategoriell klassifiziert",
@@ -26461,7 +26463,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-20T08:32:11",
+		"aktualisierungsdatum": "2025-06-19T07:43:11",
 		"id": 6388
 	},
 	{
@@ -48876,7 +48878,8 @@ var indikatoren = [
 			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [
-			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/fachanwendungen/ivz.html' target = '_blank'>IVZ - Informationssystem Verkehrszulassung</a>",
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/fahrzeugdaten.html' target = '_blank'>Infos zu den Fahrzeugdaten des ASTRA</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -48898,7 +48901,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:25",
+		"aktualisierungsdatum": "2025-06-19T07:43:14",
 		"id": 7779
 	},
 	{
