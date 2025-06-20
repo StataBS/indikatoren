@@ -1,91 +1,145 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
-      "visible": true,
+      "color": "#FF8028 ",
+      "visible": false,
       "data": [
         [
-          "Italien",
-          280
+          "2014",
+          2143
         ],
         [
-          "Türkei",
-          83
+          "2015",
+          1964
         ],
         [
-          "EU-West + EFTA + UK",
-          716
+          "2016",
+          1670
         ],
         [
-          "EU-Ost",
-          312
+          "2017",
+          1920
         ],
         [
-          "Balkan",
-          82
+          "2018",
+          1958
         ],
         [
-          "Mittel- und Südamerika",
-          119
+          "2019",
+          2244
         ],
         [
-          "Arabische Länder",
-          63
+          "2020",
+          2278
         ],
         [
-          "Afrikanische Länder",
-          89
+          "2021",
+          2450
         ],
         [
-          "Übrige Länder",
-          567
+          "2022",
+          2486
+        ],
+        [
+          "2023",
+          1789
         ]
       ],
-      "name": "Ausgestellte Gutscheine",
+      "name": "Anzahl von Umbau betroffene Wohnungen",
       "turboThreshold": 0
     },
     {
-      "color": "#E6E600",
-      "visible": true,
+      "color": "#B375AB",
       "data": [
         [
-          "Italien",
-          223
+          "2014",
+          257
         ],
         [
-          "Türkei",
-          67
+          "2015",
+          281
         ],
         [
-          "EU-West + EFTA + UK",
-          373
+          "2016",
+          336
         ],
         [
-          "EU-Ost",
-          183
+          "2017",
+          472
         ],
         [
-          "Balkan",
-          67
+          "2018",
+          402
         ],
         [
-          "Mittel- und Südamerika",
-          116
+          "2019",
+          480
         ],
         [
-          "Arabische Länder",
+          "2020",
+          456
+        ],
+        [
+          "2021",
+          441
+        ],
+        [
+          "2022",
+          239
+        ],
+        [
+          "2023",
+          83
+        ]
+      ],
+      "name": "Anzahl Leerkündigungen (Wohnungen) aufgrund Umbau",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#67401E",
+      "data": [
+        [
+          "2014",
+          30
+        ],
+        [
+          "2015",
+          178
+        ],
+        [
+          "2016",
+          61
+        ],
+        [
+          "2017",
+          43
+        ],
+        [
+          "2018",
+          108
+        ],
+        [
+          "2019",
+          219
+        ],
+        [
+          "2020",
+          115
+        ],
+        [
+          "2021",
           63
         ],
         [
-          "Afrikanische Länder",
-          39
+          "2022",
+          63
         ],
         [
-          "Übrige Länder",
-          390
+          "2023",
+          19
         ]
       ],
-      "name": "Eingelöste Gutscheine",
+      "name": "Anzahl Leerkündigungen (Wohnungen) aufgrund Abbruch",
       "turboThreshold": 0
     }
   ],
@@ -141,9 +195,9 @@
                 }
     },
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "spacingBottom": 70,
-    "renderTo": "container-6514"
+    "renderTo": "container-22291"
   },
   "plotOptions": {
     "series": {
@@ -153,8 +207,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "itemWidth": 10
+      "pointPadding": 0
     }
   },
   "title": {
@@ -164,16 +217,18 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Gutscheine für Gratis-Deutschkurse"
+    "useHTML": true,
+    "text": "Leerkündigungen"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2024",
+    "text": "Anzahl betroffene Wohnungen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -202,7 +257,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 5
+    "itemDistance": 3,
+    "symbolPadding": 3,
+    "padding": 0
   },
   "navigation": {
     "menuItemStyle": {
@@ -223,13 +280,13 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.6.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "6514"
+    "filename": "22291"
   }
 }

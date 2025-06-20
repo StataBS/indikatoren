@@ -4108,8 +4108,8 @@ var indikatorensetData = [
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "Im Jahr 2023 wurden 2 830 (Vorjahr 3 010) Gutscheine ausgestellt und 1 457 (Vorjahr 1 294) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr deutlich gestiegen. Für Personen aus der Ländergruppe EU-West + EFTA + UK wurden die meisten Gutscheine (857) ausgestellt. Personen aus Mittel- und Südamerika erreichten mit 69,9% die höchste Einlösequote, Personen aus der Gruppe EU-Ost die tiefste (45,2%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2024",
+		"lesehilfe": "Im Jahr 2024 wurden 2 311 (Vorjahr 2 830) Gutscheine ausgestellt und 1 521 (Vorjahr 1 457) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr deutlich gestiegen. Für Personen aus der Ländergruppe EU-West + EFTA + UK wurden die meisten Gutscheine (716) ausgestellt. Personen aus arabischen Ländern (100%) sowie jene aus Mittel- und Südamerika (97%) erreichten die mit Abstand höchste Einlösequote, Personen aus afrikanischen Ländern (44%) die tiefste.",
 		"erlaeuterungen": "Im Kanton Basel-Stadt haben nicht deutschsprachige Migrantinnen und Migranten die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Sie müssen volljährig, in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton sein und über eine Aufenthaltsbewilligung B verfügen. Der entsprechende Gutschein ist ein Jahr gültig. Personen, die einen Gutschein erhalten haben, sind nicht zwingend mit jenen identisch, die ihn eingelöst haben. Personen aus dem Asylbereich sind ausgenommen. Diese werden über die Sozialhilfe im Spracherwerb gefördert.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -4135,7 +4135,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:46",
+		"aktualisierungsdatum": "2025-06-20T02:31:10",
 		"id": 6514
 	},
 	{

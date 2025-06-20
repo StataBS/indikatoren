@@ -2470,3 +2470,4 @@ id | visible | visibleInPortal | indikatorenset
 12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 
 22143 | true | false | Legislaturplan (Print)
+22291 | true | true | Wohnraumschutz

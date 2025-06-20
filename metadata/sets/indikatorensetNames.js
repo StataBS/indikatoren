@@ -13,6 +13,7 @@ var indikatorensetNames = [
 	"Stadtteilmonitoring St. Johann",
 	"Energiestatistik (Print)",
 	"Arbeitsmarkt",
+	"Wohnraumschutz",
 	"Wohnraumentwicklung",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
