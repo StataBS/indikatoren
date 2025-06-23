@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-20T02:31:05",
+		"aktualisierungsdatum": "2025-06-23T07:59:09",
 		"id": 7763
 	},
 	{
