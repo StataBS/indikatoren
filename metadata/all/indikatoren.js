@@ -6856,6 +6856,45 @@ var indikatoren = [
 		"id": 22143
 	},
 	{
+		"template": "template001",
+		"data-id": 22291,
+		"chart-id": 22291,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Leerkündigungen",
+		"subtitle": "Anzahl betroffene Wohnungen, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 wurden für 480 Wohnungen Leerkündigungen aufgrund eines Umbaus registriert – die Zahl ist gegen Ende des Beobachtungszeitraums deutlich rückläufig. Für 219 weitere erfolgte eine Leerkündigung aufgrund eines Abbruchs. Auch hier ist seit 2019 ein deutlicher Rückgang sichtbar.",
+		"erlaeuterungen": "Die Auswertung erfolgt anhand der im Gebäude- und Wohnungsregister (GWR) hinterlegten Bautätigkeit sowie Belegungsangaben aus dem Einwohnerregister. Um für die Auswertung berücksichtigt werden zu können, muss ein Gebäude beim <i>Umbau</i> seit mindestens 15 Jahren bestehen und zwei Jahre vor Baubeginn über mindestens vier Wohnungen verfügen. Damit die Wohnungen als von Leerkündigungen betroffen gezählt werden, müssen 90% der Mieterschaft (relativ zu den Bewohnenden zwei Jahre vor Baubeginn) ein Jahr nach Bauvollendung  weniger als 2 Jahre in der Liegenschaft angemeldet sein. Ein <i>Abbruch</i> hat stets den Auszug der kompletten Mieterschaft zur Folge, wobei hier der Wohnungsbestand drei Jahre vor Baubeginn als Grundlage dient. Die verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtigt, ob das Mietverhältnis befristet oder unbefristet war. Das Jahr bezeichnet das Jahr des Baubeginns.<br><br>Datenstand ist Mitte Juni 2025. Aufgrund der Zählweise, die sich auf ein Jahr nach Bauvollendung bezieht, werden nur Werte bis 2023 publiziert. Bei überdurchschnittlich langen Bauprojekten können sich die Werte der letzten Jahre (insbesondere die Leerkündigungen nach Umbau 2023) bei einer Aktualisierung erhöhen, da diese Projekte allenfalls hinzukommen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Bevölkerungsdienste und Migration Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Leerkündigungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnraumschutz",
+		"kuerzelKunde": "001-4",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-06-23T07:59:12",
+		"id": 22291
+	},
+	{
 		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,
@@ -30465,8 +30504,8 @@ var indikatoren = [
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "Im Jahr 2023 wurden 2 830 (Vorjahr 3 010) Gutscheine ausgestellt und 1 457 (Vorjahr 1 294) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr deutlich gestiegen. Für Personen aus der Ländergruppe EU-West + EFTA + UK wurden die meisten Gutscheine (857) ausgestellt. Personen aus Mittel- und Südamerika erreichten mit 69,9% die höchste Einlösequote, Personen aus der Gruppe EU-Ost die tiefste (45,2%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2024",
+		"lesehilfe": "Im Jahr 2024 wurden 2 311 (Vorjahr 2 830) Gutscheine ausgestellt und 1 521 (Vorjahr 1 457) eingelöst. Damit ist die Einlösequote im Vergleich zum Vorjahr deutlich gestiegen. Für Personen aus der Ländergruppe EU-West + EFTA + UK wurden die meisten Gutscheine (716) ausgestellt. Personen aus arabischen Ländern (100%) sowie jene aus Mittel- und Südamerika (97%) erreichten die mit Abstand höchste Einlösequote, Personen aus afrikanischen Ländern (44%) die tiefste.",
 		"erlaeuterungen": "Im Kanton Basel-Stadt haben nicht deutschsprachige Migrantinnen und Migranten die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Sie müssen volljährig, in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton sein und über eine Aufenthaltsbewilligung B verfügen. Der entsprechende Gutschein ist ein Jahr gültig. Personen, die einen Gutschein erhalten haben, sind nicht zwingend mit jenen identisch, die ihn eingelöst haben. Personen aus dem Asylbereich sind ausgenommen. Diese werden über die Sozialhilfe im Spracherwerb gefördert.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -30493,7 +30532,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:46",
+		"aktualisierungsdatum": "2025-06-23T07:59:12",
 		"id": 6514
 	},
 	{
@@ -48581,8 +48620,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2025 sank die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln und in der Gemeinde Bettingen. In neun Wohnvierteln und in der Gemeinde Riehen stieg sie.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2025 sank die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln. In elf Wohnvierteln und in den Gemeinden Riehen und Bettingen stieg sie. Im Klybeck blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -48609,7 +48648,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:31",
+		"aktualisierungsdatum": "2025-06-23T07:59:09",
 		"id": 7763
 	},
 	{
@@ -70743,7 +70782,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-06T09:51:38",
+		"aktualisierungsdatum": "2025-06-23T07:59:10",
 		"id": 8995
 	},
 	{
@@ -71116,7 +71155,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-06T09:51:39",
+		"aktualisierungsdatum": "2025-06-23T07:59:11",
 		"id": 9022
 	},
 	{
@@ -71154,7 +71193,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-06T09:51:40",
+		"aktualisierungsdatum": "2025-06-23T07:59:11",
 		"id": 9023
 	},
 	{

@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2025 sank die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln und in der Gemeinde Bettingen. In neun Wohnvierteln und in der Gemeinde Riehen stieg sie.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2025 sank die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln. In elf Wohnvierteln und in den Gemeinden Riehen und Bettingen stieg sie. Im Klybeck blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:31",
+		"aktualisierungsdatum": "2025-06-23T07:59:09",
 		"id": 7763
 	},
 	{
