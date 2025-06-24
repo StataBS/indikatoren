@@ -44319,7 +44319,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "123 551 Logiernächte wurden im April 2025 in den Basler Hotelbetrieben gebucht, 2 041 bzw. 1,6% weniger als im März. Im Vergleich zum April 2024 entspricht dies einer Zunahme um 10,3% bzw. 11 538 Übernachtungen. Die inländischen Gäste buchten 46 001 Logiernächte (+8,3%), die Gäste aus dem Ausland 77 550 Übernachtungen (+11,5%).",
+		"lesehilfe": "150 854 Logiernächte wurden im Mai 2025 in den Basler Hotelbetrieben gebucht, 27 303 bzw. 22,1% mehr als im April. Im Vergleich zum Mai 2024 entspricht dies einer Zunahme um 8,4% bzw. 11 676 Übernachtungen. Die inländischen Gäste buchten 60 871 Logiernächte (+15,3%), die Gäste aus dem Ausland 89 983 Übernachtungen (+4,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -44345,7 +44345,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-22T08:08:17",
+		"aktualisierungsdatum": "2025-06-24T07:16:58",
 		"id": 7516
 	},
 	{
@@ -44356,8 +44356,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien ausser den nicht klassierten Hotels über 45%.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Rund 85 Prozent der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien ausser den nicht klassierten Hotels über 55%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -44383,7 +44383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-22T08:08:18",
+		"aktualisierungsdatum": "2025-06-24T07:16:59",
 		"id": 7517
 	},
 	{
