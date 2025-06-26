@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-0901", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0901", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -167,10 +167,11 @@
   "xAxis": {
     "categories": [
       2012,
-      2017
+      2017,
+      2022
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 2,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -383,7 +384,8 @@
       "valueSuffix": "Hektaren",
       "data": [
         2112.4,
-        2094.1
+        2094.1,
+        2102.6
       ],
       "visible": true
     }

@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1108", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1108", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -166,10 +166,11 @@
   },
   "xAxis": {
     "categories": [
-      2015
+      2015,
+      2020
     ],
     "floor": 0,
-    "ceiling": 0,
+    "ceiling": 1,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -373,10 +374,6 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "type": "column",
       "showInNavigator": true,
       "name": "Stickstoffoxid",
@@ -384,17 +381,14 @@
       "id": "BS&BL1108_1",
       "valueSuffix": "Prozent",
       "data": [
-        20.7
+        20.69,
+        13.04
       ],
       "visible": true
     },
     {
       "includeInCSVExport": true,
       "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "type": "column",
       "showInNavigator": true,
       "name": "Feinstaub (PM10)",
@@ -402,17 +396,14 @@
       "id": "BS&BL1108_2",
       "valueSuffix": "Prozent",
       "data": [
-        35.7
+        35.71,
+        20.59
       ],
       "visible": true
     },
     {
       "includeInCSVExport": true,
       "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "type": "column",
       "showInNavigator": true,
       "name": "Flüchtige organische Verbindungen",
@@ -420,7 +411,23 @@
       "id": "BS&BL1108_3",
       "valueSuffix": "Prozent",
       "data": [
-        13.9
+        13.89,
+        -6.9
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Ammoniak",
+      "color": "#0A3B19",
+      "id": "BS&BL1108_4",
+      "valueSuffix": "Prozent",
+      "data": [
+        36.19,
+        32.08
       ],
       "visible": true
     },
@@ -433,12 +440,13 @@
       },
       "type": "column",
       "showInNavigator": true,
-      "name": "Ammoniak",
-      "color": "#0A3B19",
-      "id": "BS&BL1108_4",
+      "name": "Feinstaub (PM2.5)",
+      "color": "#FFDA80",
+      "id": "BS&BL1108_5",
       "valueSuffix": "Prozent",
       "data": [
-        36.2
+        null,
+        6.25
       ],
       "visible": true
     }

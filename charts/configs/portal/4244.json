@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1612", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1612", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -127,7 +127,7 @@
     }
   },
   "subtitle": {
-    "text": "Anzahl Grenzwertüberschreitungen, Basel-Stadt",
+    "text": "Anzahl Überschreitungen der Melde- und Nachforschungsschwelle von 0.1 mikrog\u002FL, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -159,7 +159,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Grenzwertüberschreitungen",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Überschreitungen der Melde- und Nachforschungsschwelle von 0.1 mikrog\u002FL",
     "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
@@ -175,10 +175,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 9,
+    "ceiling": 10,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -388,7 +389,7 @@
       "name": "Organische Spurenstoffe in Gewässern",
       "color": "#FF8028",
       "id": "BS1612_1",
-      "valueSuffix": "Anzahl Grenzwertüberschreitungen",
+      "valueSuffix": "Anzahl Überschreitungen der Melde- und Nachforschungsschwelle von 0.1 mikrog\u002FL",
       "data": [
         23,
         18,
@@ -399,7 +400,8 @@
         2,
         9,
         8,
-        5
+        5,
+        9
       ],
       "visible": true
     }

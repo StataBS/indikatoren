@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-0403", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0403", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -177,10 +177,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 11,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -402,7 +403,8 @@
         57,
         33,
         42,
-        30
+        30,
+        33
       ],
       "visible": true
     },
@@ -427,6 +429,7 @@
       "id": "0403_2",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
+        0,
         0,
         0,
         0,
