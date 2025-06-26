@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1110", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1110", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -195,10 +195,14 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 29,
+    "ceiling": 33,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -383,10 +387,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": false
+    "enabled": true
   },
   "navigator": {
-    "enabled": false,
+    "enabled": true,
     "series": {
       "type": "line",
       "stacking": false
@@ -437,7 +441,11 @@
         307.67,
         847.33,
         465.67,
-        402.67
+        402.67,
+        170,
+        428.67,
+        472.67,
+        88
       ],
       "visible": true
     },
@@ -479,7 +487,11 @@
         189.5,
         461.5,
         237,
-        196
+        196,
+        109.5,
+        255.5,
+        308.5,
+        80
       ],
       "visible": true
     },
@@ -521,7 +533,11 @@
         98,
         293,
         160,
-        253
+        253,
+        87,
+        196,
+        304,
+        79
       ],
       "visible": true
     },
@@ -546,6 +562,10 @@
       "id": "BS&BL1110_4",
       "valueSuffix": "Anzahl Grenzwertüberschreitungen",
       "data": [
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         1,

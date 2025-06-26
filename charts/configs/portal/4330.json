@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-0106", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0106", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {

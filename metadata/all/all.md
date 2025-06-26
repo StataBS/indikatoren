@@ -2471,3 +2471,5 @@ id | visible | visibleInPortal | indikatorenset
 21847 | true | true | 
 22143 | true | false | Legislaturplan (Print)
 22291 | true | true | Wohnraumschutz
+22343 | true | true | Umwelt
+22344 | true | true | Umwelt

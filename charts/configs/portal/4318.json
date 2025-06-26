@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1702", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1702", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -218,10 +218,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 52,
+    "ceiling": 53,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -484,7 +485,8 @@
         201527,
         201569,
         203628,
-        205582
+        205582,
+        206999.3
       ],
       "visible": true
     }

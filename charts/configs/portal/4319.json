@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1705", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1705", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -178,10 +178,11 @@
       2019,
       2020,
       2021,
-      2022
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 12,
+    "ceiling": 13,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -403,7 +404,8 @@
         92.3,
         77,
         81.4,
-        83.8
+        83.8,
+        84.5
       ],
       "visible": true
     },
@@ -428,7 +430,8 @@
         98.5,
         80.3,
         85.5,
-        92.2
+        92.2,
+        93.8
       ],
       "visible": true
     },
@@ -453,7 +456,8 @@
         107.7,
         72.3,
         72.9,
-        89.3
+        89.3,
+        97.8
       ],
       "visible": false
     },
@@ -478,7 +482,8 @@
         145,
         141.9,
         145.2,
-        155.4
+        155.4,
+        164.6
       ],
       "visible": false
     },
@@ -503,7 +508,8 @@
         98.4,
         83.7,
         82.7,
-        91.2
+        91.2,
+        97.6
       ],
       "visible": false
     },
@@ -540,7 +546,46 @@
         91,
         90,
         null,
+        null,
         null
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Grenzwert MIV-Stadtstrassennetz (ab 2021)",
+      "color": "#aaaaaa",
+      "id": "BS1705_7",
+      "valueSuffix": "Indexwert (Basis 2010 = 100)",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        92.3,
+        92.3,
+        92.3
       ],
       "visible": true
     }

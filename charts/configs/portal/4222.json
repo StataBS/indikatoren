@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-0601", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0601", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -204,10 +204,12 @@
       2018,
       2019,
       2020,
-      2021
+      2021,
+      2022,
+      2023
     ],
     "floor": 0,
-    "ceiling": 38,
+    "ceiling": 40,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -412,9 +414,62 @@
       "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
-      "name": "Gas",
+      "name": "Elektrizität",
       "color": "#73B97C",
       "id": "BS&BL0601_1",
+      "valueSuffix": "Indexwert (Basis Dezember 2020 = 100)",
+      "data": [
+        62.6,
+        65.2,
+        66.9,
+        68.1,
+        68.6,
+        68.9,
+        69.5,
+        70.7,
+        73.6,
+        77.2,
+        80.1,
+        81.7,
+        89.2,
+        90.1,
+        90,
+        89.7,
+        90.3,
+        89.9,
+        89.8,
+        89.1,
+        87.5,
+        86.1,
+        83.5,
+        83.3,
+        81.9,
+        83.4,
+        87.7,
+        92.1,
+        95.6,
+        92.5,
+        91.4,
+        92.4,
+        95.7,
+        96.2,
+        96.2,
+        99.1,
+        100.5,
+        100,
+        101.3,
+        103.8,
+        130.3
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Gas",
+      "color": "#68AB2B",
+      "id": "BS&BL0601_2",
       "valueSuffix": "Indexwert (Basis Dezember 2020 = 100)",
       "data": [
         59.4,
@@ -455,7 +510,9 @@
         104,
         108.9,
         102.3,
-        100.8
+        100.8,
+        152.7,
+        181.3
       ],
       "visible": true
     },
@@ -464,8 +521,8 @@
       "type": "line",
       "showInNavigator": true,
       "name": "Heizöl",
-      "color": "#68AB2B",
-      "id": "BS&BL0601_2",
+      "color": "#007A2F",
+      "id": "BS&BL0601_3",
       "valueSuffix": "Indexwert (Basis Dezember 2020 = 100)",
       "data": [
         72.7,
@@ -506,7 +563,9 @@
         137.3,
         130.4,
         99.9,
-        122.3
+        122.3,
+        199,
+        165.4
       ],
       "visible": true
     },
@@ -515,8 +574,8 @@
       "type": "line",
       "showInNavigator": true,
       "name": "Brennholz",
-      "color": "#007A2F",
-      "id": "BS&BL0601_3",
+      "color": "#0A3B19",
+      "id": "BS&BL0601_4",
       "valueSuffix": "Indexwert (Basis Dezember 2020 = 100)",
       "data": [
         null,
@@ -557,7 +616,9 @@
         102.2,
         102.4,
         102.7,
-        102.8
+        102.8,
+        127.7,
+        137.8
       ],
       "visible": true
     },
@@ -566,8 +627,8 @@
       "type": "line",
       "showInNavigator": true,
       "name": "Fernwärme",
-      "color": "#0A3B19",
-      "id": "BS&BL0601_4",
+      "color": "#FFDA80",
+      "id": "BS&BL0601_5",
       "valueSuffix": "Indexwert (Basis Dezember 2020 = 100)",
       "data": [
         null,
@@ -608,7 +669,9 @@
         103,
         106.9,
         103.8,
-        105.7
+        105.7,
+        118.6,
+        135.8
       ],
       "visible": true
     }

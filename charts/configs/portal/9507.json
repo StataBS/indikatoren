@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1112", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1112", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -168,10 +168,14 @@
     "categories": [
       2018,
       2019,
-      2020
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 6,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -383,7 +387,11 @@
       "data": [
         15.7,
         13.9,
-        12.2
+        12.2,
+        12.83,
+        14.7,
+        10.4,
+        9.9
       ],
       "visible": true
     },
@@ -398,7 +406,11 @@
       "data": [
         13.6,
         10.7,
-        10.16
+        10.16,
+        10.91,
+        11.7,
+        9.5,
+        8.8
       ],
       "visible": true
     },
@@ -413,6 +425,10 @@
       "data": [
         10.9,
         9.6,
+        8.2,
+        8.25,
+        10.25,
+        7.8,
         8.2
       ],
       "visible": true
@@ -438,6 +454,10 @@
       "id": "BS&BL1112_4",
       "valueSuffix": "Mikrogramm pro Kubikmeter",
       "data": [
+        10,
+        10,
+        10,
+        10,
         10,
         10,
         10

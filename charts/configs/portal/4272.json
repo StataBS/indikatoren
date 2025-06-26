@@ -76,7 +76,7 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 window.top.location.href = "https://www.bs.ch/indikator-1101", "Indikator-Details";
+									 window.top.location.href = "https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1101", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -171,10 +171,11 @@
       2000,
       2005,
       2010,
-      2015
+      2015,
+      2020
     ],
     "floor": 0,
-    "ceiling": 5,
+    "ceiling": 6,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -385,12 +386,13 @@
       "id": "BS&BL1101_1",
       "valueSuffix": "Tonnen",
       "data": [
-        7920,
-        6570,
-        5410,
-        4680,
-        3610,
-        2930
+        8040,
+        6504,
+        5294,
+        4651,
+        3546,
+        3389,
+        2594
       ],
       "visible": true
     },
@@ -415,6 +417,7 @@
       "id": "BS&BL1101_2",
       "valueSuffix": "Tonnen",
       "data": [
+        2300,
         2300,
         2300,
         2300,
