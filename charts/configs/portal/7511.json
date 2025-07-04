@@ -141,7 +141,7 @@
         ],
         [
           "Jun",
-          null
+          608
         ],
         [
           "Jul",
@@ -198,7 +198,7 @@
         ],
         [
           "Jun",
-          null
+          796
         ],
         [
           "Jul",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.6.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
