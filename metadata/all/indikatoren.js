@@ -44243,8 +44243,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Mai 2025 bei 4,2% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 3,9% und ist ebenfalls höher als im Vorjahr.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2018-2020 verwendet.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Juni 2025 bei 4,1% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt auch bei 4,1% und ist ebenfalls höher als im Vorjahr.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2021-2023 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -44269,7 +44269,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:31",
+		"aktualisierungsdatum": "2025-07-04T07:37:03",
 		"id": 7510
 	},
 	{
@@ -44281,7 +44281,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Mai 2025 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Die Zahlen der meldepflichtigen sowie nicht meldepflichtigen Stellen haben im Vergleich zum Vorjahresmonat abgenommen.",
+		"lesehilfe": "Ende Juni 2025 sind in Basel-Stadt ähnlich viele offene Stellen gemeldet wie ein Jahr zuvor und deutlich mehr als im Vormonat.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -44307,7 +44307,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:33",
+		"aktualisierungsdatum": "2025-07-04T07:37:03",
 		"id": 7511
 	},
 	{
@@ -70440,7 +70440,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Mai 2025 knapp 4300 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Juni 2025 weniger als 4300 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70466,7 +70466,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:34",
+		"aktualisierungsdatum": "2025-07-04T07:37:04",
 		"id": 8980
 	},
 	{
@@ -70504,7 +70504,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:35",
+		"aktualisierungsdatum": "2025-07-04T07:37:05",
 		"id": 8981
 	},
 	{
@@ -70820,7 +70820,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:36",
+		"aktualisierungsdatum": "2025-07-04T07:37:05",
 		"id": 8992
 	},
 	{
