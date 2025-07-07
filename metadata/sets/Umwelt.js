@@ -21,8 +21,8 @@ var indikatorensetData = [
 		"renderLink": [],
 		"raeumlicheGliederung": [],
 		"description": "Ammoniak-Emissionen",
-		"thema": "",
-		"unterthema": "",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
 		"kuerzel": "",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1114",
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:11",
+		"aktualisierungsdatum": "2025-07-07T01:16:30",
 		"id": 22343
 	},
 	{
@@ -59,8 +59,8 @@ var indikatorensetData = [
 		"renderLink": [],
 		"raeumlicheGliederung": [],
 		"description": "Feinstaub-Emissionen (PM2.5)",
-		"thema": "",
-		"unterthema": "",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
 		"kuerzel": "",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1113",
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:10",
+		"aktualisierungsdatum": "2025-07-07T01:16:21",
 		"id": 22344
 	},
 	{

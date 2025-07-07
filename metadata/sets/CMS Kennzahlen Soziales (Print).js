@@ -358,13 +358,13 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Betreibungen und Konkurse",
 		"kuerzel": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"kuerzelKunde": "1-07",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -372,7 +372,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:19:06",
+		"aktualisierungsdatum": "2025-07-07T01:16:13",
 		"id": 8520
 	},
 	{
