@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=951">
-    
-   		<!-- Google Tag Manager 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=951" />
+
+    <!-- Google Tag Manager 
 		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,31 +13,91 @@
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-KGK459');</script>
-		 End Google Tag Manager -->   
-    
-    <link href="assets/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">    
-    <link href="assets/css/bootstrap-multiselect.css" media="screen" rel="stylesheet" type="text/css">  
-    <link href="assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>    
-    <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/js/modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js" type="text/javascript"></script>
-    <script src="assets/js/modules/@statabs/statabs-filter/dist/filter.js" type="text/javascript"></script>
+		 End Google Tag Manager -->
+
+    <link
+      href="assets/bootstrap/css/bootstrap.min.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/bootstrap-multiselect.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/indikatoren-filter.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="assets/js/modules/jquery/dist/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/@statabs/statabs-filter/dist/filter.js"
+      type="text/javascript"
+    ></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>
-    <script src="metadata/sets/indikatorensetNames.js" type="text/javascript"></script>
+    <script
+      src="metadata/sets/indikatorensetNames.js"
+      type="text/javascript"
+    ></script>
     <script src="metadata/all/templatesById.js" type="text/javascript"></script>
-    <script src="assets/js/modules/proj4/dist/proj4.js"></script>        
-    <script src="assets/js/modules/highcharts/highcharts.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/highcharts-more.js" type="text/javascript"></script>    
-    <script src="assets/js/modules/highcharts/modules/stock.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/modules/data.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/modules/map.js" type="text/javascript"></script>
-	  <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>
+    <script src="assets/js/modules/proj4/dist/proj4.js"></script>
+    <script
+      src="assets/js/modules/highcharts/highcharts.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/highcharts-more.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/stock.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/data.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/map.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/exporting.js"
+      type="text/javascript"
+    ></script>
     <!-- if highcharts-offline-exporting is used, exporting will be done locally: http://www.highcharts.com/docs/export-module/client-side-export -->
-    <!--script src="assets/js/modules/highcharts/modules/offline-exporting.js" type="text/javascript"></script-->    
-    <script src="charts/templates/options001.js" type="text/javascript"></script>
-    <script src="assets/js/modules/seedrandom/seedrandom.min.js" type="text/javascript"></script>
-    <script src="assets/js/indikatoren-filter.js" type="text/javascript"></script>
-    <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
+    <!--script src="assets/js/modules/highcharts/modules/offline-exporting.js" type="text/javascript"></script-->
+    <script
+      src="charts/templates/options001.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/seedrandom/seedrandom.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/indikatoren-filter.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/indikatoren-highcharts.js"
+      type="text/javascript"
+    ></script>
     <script src="assets/js/customFunctions.js" type="text/javascript"></script>
     <script src="geojson/wohnviertel_EPSG_2056.js"></script>
     <script src="geojson/wohnviertel_EPSG_2056_StadtBasel.js"></script>
@@ -46,36 +105,90 @@
     <script src="geojson/UA_Gemeinden_100.js"></script>
     <script src="geojson/GemeindenBSBL_EPSG_2056.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child" type="text/javascript" async></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child"
+      type="text/javascript"
+      async
+    ></script>
   </head>
 
   <body>
-    
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGK459"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KGK459"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
-    <div id='header' class='hidden'>
+
+    <div id="header" class="hidden">
       <div id="bs-logo">
-      	<a class='bs-logo-link' style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;' href="http://www.statistik.bs.ch" title="Startseite">
-      		<img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png" alt="Logo Kanton Basel-Stadt"/>
-      		<div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons Basel-Stadt</div>
-      		<div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
-      	</a>
-    	</div>
-  
-      <div style='clear: both;'></div>
-  
-      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
-        <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
+        <a
+          class="bs-logo-link"
+          style="
+            display: block;
+            font-family: Arial, sans-serif;
+            color: black;
+            text-decoration: none;
+            padding: 10px 0px 10px 0px;
+          "
+          href="http://www.statistik.bs.ch"
+          title="Startseite"
+        >
+          <img
+            class="bs-logo-img"
+            style="float: left; padding: 0px 20px"
+            src="assets/img/logo-print.png"
+            alt="Logo Kanton Basel-Stadt"
+          />
+          <div class="bs-logo-title" style="padding-top: 17px; font-size: 11px">
+            Präsidialdepartement des Kantons Basel-Stadt
+          </div>
+          <div
+            class="bs-logo-text"
+            style="padding-top: 3px; font-weight: 700; font-size: 15px"
+          >
+            Statistisches Amt
+          </div>
+        </a>
+      </div>
+
+      <div style="clear: both"></div>
+
+      <div
+        id="bs-nav"
+        style="
+          background-color: rgb(29, 78, 44);
+          height: 45px;
+          padding: 15px 0px 10px 50px;
+          margin-bottom: 30px;
+        "
+      >
+        <a
+          style="
+            color: white;
+            font-size: 13px;
+            font-weight: 700;
+            text-shadow: rgb(23, 62, 35) 0px -1px 0px;
+            text-decoration: none;
+          "
+          href="http://www.statistik.bs.ch/zahlen/indikatoren/portal.html"
+        >
           Indikatorenportal
         </a>
       </div>
-    </div>    
-    
-    <div class="container"> 
-      <div class="modal fade carousel slide" id="lightbox" data-interval="false" data-backdrop='true'>
+    </div>
+
+    <div class="container">
+      <div
+        class="modal fade carousel slide"
+        id="lightbox"
+        data-interval="false"
+        data-backdrop="true"
+      >
         <div class="modal-dialog">
           <div class="modal-content">
             <!--
@@ -83,19 +196,39 @@
             </div>
             -->
             <div class="modal-body">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove"></span></button>
-              <div class="carousel-inner" id="carousel-inner">                
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span class="glyphicon glyphicon-remove"></span>
+              </button>
+              <div class="carousel-inner" id="carousel-inner">
                 <!-- charts are dynamically added here -->
               </div>
-              <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+              <a
+                class="left carousel-control"
+                href="#lightbox"
+                role="button"
+                data-slide="prev"
+              >
                 <span class="glyphicon glyphicon-chevron-left"></span>
               </a>
-              <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+              <a
+                class="right carousel-control"
+                href="#lightbox"
+                role="button"
+                data-slide="next"
+              >
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
             </div>
 
-            <ol class="carousel-indicators carousel-indicators-numbers" id="carousel-indicators">
+            <ol
+              class="carousel-indicators carousel-indicators-numbers"
+              id="carousel-indicators"
+            >
               <!-- dots that link to charts in search results are dynamically added here -->
             </ol>
           </div>
@@ -104,8 +237,10 @@
     </div>
 
     <!-- Hide everything until DOM creation has been finished -->
-    <script>document.body.style.display = "none";</script>
-    
+    <script>
+      document.body.style.display = "none";
+    </script>
+
     <div class="container-fluid">
       <!-- sidebar element for portal view -->
       <div id="sidebar-element">
@@ -116,148 +251,172 @@
           </div>
           -->
 
-          <div id='search'>
+          <div id="search">
             <label class="sr-only" for="searchbox">Search</label>
-            <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
+            <input
+              type="search"
+              class="form-control"
+              id="searchbox"
+              placeholder="Suche&hellip;"
+            />
           </div>
 
-          <button class="btn btn-block well" id="portal-reset-button">Zurücksetzen</button>
-          
+          <button class="btn btn-block well" id="portal-reset-button">
+            Zurücksetzen
+          </button>
 
           <div class="well" id="thema">
             <form role="form" id="thema_criteria">
-              <legend>Thema</legend>              
-              <!-- Radio Buttons are dynamically added here -->         
+              <legend>Thema</legend>
+              <!-- Radio Buttons are dynamically added here -->
             </form>
           </div>
 
-
           <div class="well" id="raeumlicheGliederung">
-            <fieldset id="raeumlicheGliederung_criteria" >
+            <fieldset id="raeumlicheGliederung_criteria">
               <legend>Räumliche Gliederung</legend>
-              <select class="form-control" id="raeumlicheGliederung_filter"  multiple="multiple">
-              </select>
+              <select
+                class="form-control"
+                id="raeumlicheGliederung_filter"
+                multiple="multiple"
+              ></select>
             </fieldset>
-          </div>       
-          
-          
+          </div>
+
           <div class="well" id="darstellungsart">
-            <fieldset id="darstellungsart_criteria" >
+            <fieldset id="darstellungsart_criteria">
               <legend>Darstellungsform</legend>
-              <select class="form-control" id="darstellungsart_filter"  multiple="multiple">
-              </select>
+              <select
+                class="form-control"
+                id="darstellungsart_filter"
+                multiple="multiple"
+              ></select>
             </fieldset>
-          </div>                 
-          
+          </div>
         </div>
       </div>
-
 
       <div class="col-xs-9" id="main-element">
         <!-- Controls for Portal view -->
         <div class="row" id="main-control-element-portal">
           <div class="content col-xs-12">
             <div class="row">
-              <div class="hidden">                          
+              <div class="hidden">
                 <select class="form-control" id="sortBy">
-                    <option value="kuerzel_asc">Sortierung: Thema &uarr;</option>
-                    <option value="kuerzel_desc">Sortierung: Thema &darr;</option>
+                  <option value="kuerzel_asc">Sortierung: Thema &uarr;</option>
+                  <option value="kuerzel_desc">Sortierung: Thema &darr;</option>
                 </select>
               </div>
-              <div class="col-xs-6" id="unterthema_criteria">                          
+              <div class="col-xs-6" id="unterthema_criteria">
                 <select class="form-control" id="unterthema_filter">
-                  <option value="all">Unterthema: Alle</option>  
+                  <option value="all">Unterthema: Alle</option>
                 </select>
-              </div>                
+              </div>
               <div class="hidden per-page">
                 Per Page: <span id="per_page" class="content"></span>
               </div>
-              <div id="pagination" class="indikatoren-pagination col-xs-6 pull-right"></div>
-            </div> 
+              <div
+                id="pagination"
+                class="indikatoren-pagination col-xs-6 pull-right"
+              ></div>
+            </div>
           </div>
         </div>
-        
+
         <!-- Controls for Indikatorenset view -->
         <div id="main-control-element-indikatorenset">
           <div class="row">
-            <div class="content col-xs-12"> 
-              <div class="well">           
+            <div class="content col-xs-12">
+              <div class="well">
                 <div class="row">
-                  <form class="form-inline" role="form">                                                                      
+                  <form class="form-inline" role="form">
                     <div class="hidden">
                       <label for="sortBy" class="sr-only">Sortierung:</label>
                       <select class="form-control" id="sortBy">
-                        <option value="orderKey_asc">Sortierung: Kapitel &uarr;</option>
-                        <option value="orderKey_desc">Sortierung: Kapitel &darr;</option>
+                        <option value="orderKey_asc">
+                          Sortierung: Kapitel &uarr;
+                        </option>
+                        <option value="orderKey_desc">
+                          Sortierung: Kapitel &darr;
+                        </option>
                       </select>
                     </div>
 
                     <!-- Invisible, only used for filtering if in Indikatorenset View -->
                     <div class="hidden" id="kennzahlenset-filter-control">
-                        <fieldset id="kennzahlenset_criteria">
-                          <select class="form-control" id="kennzahlenset_filter">
-                            <!--option value="all">Kennzahlenset</option -->    
-                          </select>
-                        </fieldset>
-                    </div>         
-                    
-                    <!-- Invisible, only used for filtering if in Indikatorenset View -->
-                    <div class="hidden" id="darstellungsart">
-                      <fieldset id="darstellungsart_criteria" >
-                        <legend>Darstellungsform</legend>
-                        <select class="form-control" id="darstellungsart_filter"  multiple="multiple">
+                      <fieldset id="kennzahlenset_criteria">
+                        <select class="form-control" id="kennzahlenset_filter">
+                          <!--option value="all">Kennzahlenset</option -->
                         </select>
                       </fieldset>
                     </div>
-                                
+
+                    <!-- Invisible, only used for filtering if in Indikatorenset View -->
+                    <div class="hidden" id="darstellungsart">
+                      <fieldset id="darstellungsart_criteria">
+                        <legend>Darstellungsform</legend>
+                        <select
+                          class="form-control"
+                          id="darstellungsart_filter"
+                          multiple="multiple"
+                        ></select>
+                      </fieldset>
+                    </div>
+
                     <div class="per-page">
                       Per Page: <span id="per_page" class="content"></span>
                     </div>
-                              
-                    <div id="pagination" class="indikatoren-pagination col-xs-12 pull-right"></div>
-                  </form>
-                </div>     
-                <div class="row" id="indikatorensetFilterControls">                
-                    <div class="col-xs-3">
-                      <label class="sr-only" for="searchbox">Search</label>
-                      <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
-                    </div>
-                  
-                    <div class="col-xs-3" id="stufe1_criteria">                          
-                      <select class="form-control" id="stufe1_filter">
-                        <option value="all">Kapitel: Alle</option>  
-                      </select>
-                    </div>
-                    
-                    <div class="col-xs-3" id="stufe2_criteria" >
-                      <select class="form-control" id="stufe2_filter">
-                        <option value="all">Unterkapitel: Alle</option>
-                      </select>
-                    </div>               
 
-                    <div class="col-xs-3" id="stufe3_criteria" >
-                      <select class="form-control" id="stufe3_filter">
-                        <option value="all">Unterkapitel: Alle</option>
-                      </select>
-                    </div>               
-                    
-                </div> 
+                    <div
+                      id="pagination"
+                      class="indikatoren-pagination col-xs-12 pull-right"
+                    ></div>
+                  </form>
+                </div>
+                <div class="row" id="indikatorensetFilterControls">
+                  <div class="col-xs-3">
+                    <label class="sr-only" for="searchbox">Search</label>
+                    <input
+                      type="search"
+                      class="form-control"
+                      id="searchbox-indikatorenset"
+                      placeholder="Suche&hellip;"
+                    />
+                  </div>
+
+                  <div class="col-xs-3" id="stufe1_criteria">
+                    <select class="form-control" id="stufe1_filter">
+                      <option value="all">Kapitel: Alle</option>
+                    </select>
+                  </div>
+
+                  <div class="col-xs-3" id="stufe2_criteria">
+                    <select class="form-control" id="stufe2_filter">
+                      <option value="all">Unterkapitel: Alle</option>
+                    </select>
+                  </div>
+
+                  <div class="col-xs-3" id="stufe3_criteria">
+                    <select class="form-control" id="stufe3_filter">
+                      <option value="all">Unterkapitel: Alle</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>          
+        </div>
         <!-- End of controls for Indikatorenset view -->
-          
+
         <div class="indikatoren content row" id="indikatoren"></div>
       </div>
     </div>
-      
-      
+
     <div class="container pull-left" id="lastUpdatedSets" style="display: none">
       <div>
-        <br/><br/>
+        <br /><br />
         <h2 class="dataTableStyle1">Zuletzt aktualisierte Datensätze</h2>
-        <br/><br/>
+        <br /><br />
       </div>
       <div>
         <table id="datenliste" class="table table-striped">
@@ -266,44 +425,80 @@
               <th class="dataTableStyle4">Datum</th>
               <th class="dataTableStyle4">Thema</th>
               <th class="dataTableStyle4">Bereich</th>
-              <th class="dataTableStyle4 text-right" >Datenstand</th>
+              <th class="dataTableStyle4 text-right">Datenstand</th>
             </tr>
           </thead>
-          <tbody>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
     </div>
 
-    
     <!-- html templates -->
     <!-- chart thumbnail template for portal view -->
-    <script id="indikator-template-carousel-portal" type="text/html">  
-      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>">
+    <script id="indikator-template-carousel-portal" type="text/html">
+      <div
+        class="col-xs-3 indikator"
+        indikator-fid-data="<%= _fid %>"
+        indikator-id-data="<%= id %>"
+        indikator-kuerzel-data="<%= kuerzel %>"
+      >
         <div class="thumbnail">
-          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
-            <div class="caption">            
-              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>                                                                                                                      
+          <a
+            id="thumbnail-lightbox-link-<%= _fid %>"
+            href="#lightbox"
+            data-toggle="modal"
+            data-slide-to="<%= getIndexByFid(_fid) %>"
+            indikator-id-data="<%= id %>"
+            indikator-kuerzel-data="<%= kuerzel %>"
+            indikator-fid-data="<%= _fid %>"
+          >
+            <div class="caption">
+              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
             </div>
-            <img src="<%= 'images/portal/' + id + '.svg' %>" alt="<%= kuerzel %>: <%= description %>" title="<%= kuerzel %>: <%= description %>"  class="img-responsive"/>
+            <img
+              src="<%= 'images/portal/' + id + '.svg' %>"
+              alt="<%= kuerzel %>: <%= description %>"
+              title="<%= kuerzel %>: <%= description %>"
+              class="img-responsive"
+            />
           </a>
         </div>
       </div>
-    </script> 
+    </script>
 
     <!-- chart thumbnail template for indikatorenset view -->
-    <script id="indikator-template-carousel-indikatorenset" type="text/html">  
-      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>">
+    <script id="indikator-template-carousel-indikatorenset" type="text/html">
+      <div
+        class="col-xs-3 indikator"
+        indikator-fid-data="<%= _fid %>"
+        indikator-id-data="<%= id %>"
+        indikator-kuerzel-data="<%= kuerzel %>"
+      >
         <div class="thumbnail">
-          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
-            <div class="caption">            
-              <h5 title="<%= kuerzelKunde %>: <%= description %>"><%= kuerzelKunde + ' ' + title %></h5>
-            </div>                                                                              
-            <img src="<%= 'images/portal/' + id + '.svg' %>" alt="<%= kuerzelKunde %>: <%= description %>" title="<%= kuerzelKunde %>: <%= description %>"  class="img-responsive"/>
+          <a
+            id="thumbnail-lightbox-link-<%= _fid %>"
+            href="#lightbox"
+            data-toggle="modal"
+            data-slide-to="<%= getIndexByFid(_fid) %>"
+            indikator-id-data="<%= id %>"
+            indikator-kuerzel-data="<%= kuerzel %>"
+            indikator-fid-data="<%= _fid %>"
+          >
+            <div class="caption">
+              <h5 title="<%= kuerzelKunde %>: <%= description %>">
+                <%= kuerzelKunde + ' ' + title %>
+              </h5>
+            </div>
+            <img
+              src="<%= 'images/portal/' + id + '.svg' %>"
+              alt="<%= kuerzelKunde %>: <%= description %>"
+              title="<%= kuerzelKunde %>: <%= description %>"
+              class="img-responsive"
+            />
           </a>
         </div>
       </div>
-    </script> 
+    </script>
 
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
@@ -315,17 +510,17 @@
           <h1>Lesehilfe</h1>
           <div class='lesehilfe'><%= lesehilfe %>
           </div>
-        </div>                      
+        </div>
         <!-- hide erlaeuterungen info if empty -->
         <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden'": "''" ) %>>
           <h1>Erläuterungen  und methodische Hinweise</h1>
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
         </div>
-        <!-- hide Links if empty -->    
+        <!-- hide Links if empty -->
         <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), 'portal') %>
       </div>
-    </script> 
+    </script>
 
     <!-- full modal chart template for indikatorenset view -->
     <script id="indikator-template-modal-indikatorenset" type="text/html">
@@ -337,23 +532,23 @@
           <h1>Lesehilfe</h1>
           <div class='lesehilfe'><%= lesehilfe %>
           </div>
-        </div>        
+        </div>
         <!-- hide erlaeuterungen info if empty -->
         <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden'": "''" ) %>>
           <h1>Erläuterungen und methodische Hinweise</h1>
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
-        </div>        
-        <!-- hide Links if empty -->    
+        </div>
+        <!-- hide Links if empty -->
         <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), 'indikatorenset', stufe1) %>
       </div>
-    </script> 
-
+    </script>
 
     <script id="checkbox-template" type="text/html">
       <div class="checkbox">
         <label>
-          <input type="checkbox" value="<%= value %>"/> <span><%= value %></span>
+          <input type="checkbox" value="<%= value %>" />
+          <span><%= value %></span>
         </label>
       </div>
     </script>
@@ -361,31 +556,36 @@
     <script id="radio-template" type="text/html">
       <div class="radio">
         <label>
-          <input type="radio" name="<%= radioGroupName %>" value="<%= value %>"/> <span><%= value %></span>
+          <input
+            type="radio"
+            name="<%= radioGroupName %>"
+            value="<%= value %>"
+          />
+          <span><%= value %></span>
         </label>
       </div>
     </script>
 
-
     <script id="option-template" type="text/html">
-        <option value="<%= key %>"><%= value %></option>
+      <option value="<%= key %>"><%= value %></option>
     </script>
 
     <!-- template for dot in carousel that links to nth chart -->
     <script id="carousel-indicator-template" type="text/html">
       <li></li>
     </script>
-    
-    
+
     <script id="datenliste-row-template" type="text/html">
       <tr>
         <td><%= Datum %></td>
-        <td><a href="<%= ThemaLink %>" target="_blank" class="dataTableStyle3"><%=  Thema %></a></td>
+        <td>
+          <a href="<%= ThemaLink %>" target="_blank" class="dataTableStyle3"
+            ><%= Thema %></a
+          >
+        </td>
         <td><%= Bereich %></td>
         <td class="text-right"><%= Datenstand %></td>
-      </tr>      
+      </tr>
     </script>
-
   </body>
-
 </html>
