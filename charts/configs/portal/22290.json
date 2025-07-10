@@ -5,28 +5,28 @@
       "color": "#FFDA80",
       "tooltip": {
         "pointFormatter": function () {
-        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' CHF/m²</b>';
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr./m²</b>';
       }
       },
       "data": [
         [
           "2020",
-          17.2
+          17.6
         ],
         [
           "2021",
-          17.5
+          17.9
         ],
         [
           "2022",
-          17.7
+          18
         ],
         [
           "2023",
-          18.2
+          18.5
         ]
       ],
-      "name": "Mietverhältnisdauer \u003E 3 Jahre",
+      "name": "Ältere Mietverhältnisse (\u003E 2 Jahre)",
       "turboThreshold": 0
     },
     {
@@ -34,29 +34,29 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' CHF/m²</b>)';
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr./m²</b>)';
       }
       },
       "data": [
         {
           "name": "2020",
-          "low": 17,
-          "high": 17.4
-        },
-        {
-          "name": "2021",
-          "low": 17.3,
+          "low": 17.4,
           "high": 17.8
         },
         {
+          "name": "2021",
+          "low": 17.7,
+          "high": 18.1
+        },
+        {
           "name": "2022",
-          "low": 17.4,
-          "high": 17.9
+          "low": 17.8,
+          "high": 18.3
         },
         {
           "name": "2023",
-          "low": 18,
-          "high": 18.5
+          "low": 18.3,
+          "high": 18.8
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -67,7 +67,7 @@
       "color": "#A0BEC8",
       "tooltip": {
         "pointFormatter": function () {
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' CHF/m²</b>';
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr./m²</b>';
       }
       },
       "data": [
@@ -77,7 +77,7 @@
         ],
         [
           "2021",
-          20.6
+          20.7
         ],
         [
           "2022",
@@ -85,10 +85,10 @@
         ],
         [
           "2023",
-          21.2
+          21.4
         ]
       ],
-      "name": "Mietverhältnisdauer kürzer als 3 Jahre",
+      "name": "Neue Mietverhältnisse (&#8804; 2 Jahre)",
       "turboThreshold": 0
     },
     {
@@ -96,29 +96,29 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' CHF/m²</b>)';
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr./m²</b>)';
       }
       },
       "data": [
         {
           "name": "2020",
-          "low": 20,
+          "low": 19.8,
           "high": 20.9
         },
         {
           "name": "2021",
-          "low": 20.2,
-          "high": 21
+          "low": 20.1,
+          "high": 21.2
         },
         {
           "name": "2022",
-          "low": 20.6,
-          "high": 21.5
+          "low": 20.5,
+          "high": 21.6
         },
         {
           "name": "2023",
-          "low": 20.7,
-          "high": 21.6
+          "low": 20.9,
+          "high": 21.9
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -133,25 +133,28 @@
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
       }
       },
+      "marker": {
+        "radius": 6
+      },
       "data": [
         [
           "2020",
-          18.6
+          15.9
         ],
         [
           "2021",
-          17.7
+          15.6
         ],
         [
           "2022",
-          18.6
+          16.7
         ],
         [
           "2023",
-          16.5
+          15.7
         ]
       ],
-      "name": "Preisdifferenz in %",
+      "name": "Preisdifferenz in % (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -241,10 +244,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Bestandes- und Einzugsmieten"
+    "text": "Mietpreise nach Dauer des Mietverhältnisses"
   },
   "subtitle": {
-    "text": "",
+    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt, 2020 - 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -261,7 +264,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f} CHF",
+        "format": "{value:,.0f}",
         "style": {
           "color": "black"
         }
@@ -328,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2025"
   },
   "tooltip": {
     "shared": true
