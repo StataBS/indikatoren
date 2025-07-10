@@ -1,0 +1,279 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2018-H1",
+          76714228
+        ],
+        [
+          "2018-H2",
+          103290999
+        ],
+        [
+          "2019-H1",
+          71552966
+        ],
+        [
+          "2019-H2",
+          52901957
+        ],
+        [
+          "2020-H1",
+          94489135
+        ],
+        [
+          "2020-H2",
+          81341630
+        ],
+        [
+          "2021-H1",
+          150604140
+        ],
+        [
+          "2021-H2",
+          182429500
+        ],
+        [
+          "2022-H1",
+          194571298
+        ],
+        [
+          "2022-H2",
+          50734661
+        ],
+        [
+          "2023-H1",
+          23787840
+        ],
+        [
+          "2023-H2",
+          109047286
+        ],
+        [
+          "2024-H1",
+          48549813
+        ],
+        [
+          "2024-H2",
+          37098595
+        ]
+      ],
+      "name": "Unter Wohnschutgesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "data": [
+        [
+          "2018-H1",
+          27358789
+        ],
+        [
+          "2018-H2",
+          35666986
+        ],
+        [
+          "2019-H1",
+          53351130
+        ],
+        [
+          "2019-H2",
+          18968322
+        ],
+        [
+          "2020-H1",
+          35566068
+        ],
+        [
+          "2020-H2",
+          19638285
+        ],
+        [
+          "2021-H1",
+          53353144
+        ],
+        [
+          "2021-H2",
+          44568710
+        ],
+        [
+          "2022-H1",
+          35467733
+        ],
+        [
+          "2022-H2",
+          24226902
+        ],
+        [
+          "2023-H1",
+          26874042
+        ],
+        [
+          "2023-H2",
+          39895892
+        ],
+        [
+          "2024-H1",
+          30428000
+        ],
+        [
+          "2024-H2",
+          21614376
+        ]
+      ],
+      "name": "Andere Umbauprojekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 60,
+    "renderTo": "container-22293"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "Sanierungsvolumen in Franken"
+  },
+  "subtitle": {
+    "text": "Projektgesamtkosten nach Datum der Baueingabe, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 3,
+    "symbolPadding": 3,
+    "padding": 0,
+    "labelFormatter": function () {
+      return this.name.split(' mit')[0];
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2025"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} CHF\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "22293"
+  }
+}

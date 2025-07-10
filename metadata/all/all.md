@@ -2470,6 +2470,20 @@ id | visible | visibleInPortal | indikatorenset
 12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 
 22143 | true | false | Legislaturplan (Print)
+22288 | true | true | Wohnraumschutz
+22289 | true | true | Wohnraumschutz
+22290 | true | true | Wohnraumschutz
 22291 | true | true | Wohnraumschutz
+22292 | true | true | Wohnraumschutz
+22293 | true | true | Wohnraumschutz
+22294 | true | false | Wohnraumschutz
+22295 | true | true | Wohnraumschutz
+22296 | true | true | Wohnraumschutz
+22297 | true | true | Wohnraumschutz
+22298 | true | true | Wohnraumschutz
+22299 | true | false | Wohnraumschutz
+22300 | true | true | Wohnraumschutz
+22301 | true | true | Wohnraumschutz
+22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
