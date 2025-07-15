@@ -32,6 +32,9 @@
           positions.push(xMax);
           return positions;
         }
+      },
+      labels: {
+        rotation: -45
       }
     },
     "series": [
