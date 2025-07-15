@@ -1,22 +1,22 @@
-﻿Wohnviertelid	Wohnviertel_Name	2020	Arbeitsanteil
-1	Altstadt GB	519483	77.22
-2	Vorstädte	928329	73.23
-3	Am Ring	517556	44.23
-4	Breite	92897	17.63
-5	St. Alban	1202464	59.58
-6	Gundeldingen	629986	35.45
-7	Bruderholz	58457	12.14
-8	Bachletten	110886	14.60
-9	Gotthelf	98852	22.11
-10	Iselin	163541	19.88
-11	St. Johann	1178768	55.15
-12	Altstadt KB	250620	64.99
-13	Clara	135777	46.57
-14	Wettstein	526004	57.70
-15	Hirzbrunnen	216817	31.99
-16	Rosental	581619	60.88
-17	Matthäus	147139	20.33
-18	Klybeck	825593	66.30
-19	Kleinhüningen	276237	76.72
-20	Riehen	207379	18.75
-30	Bettingen	29759	34.46
+﻿id	wov_name	2023	Arbeitsanteil
+1	Altstadt Grossbasel	579904	77.15
+2	Vorstädte	979227	73.23
+3	Am Ring	574767	45.33
+4	Breite	110290	17.53
+5	St. Alban	1214653	59.31
+6	Gundeldingen	566010	35.63
+7	Bruderholz	77767	10.75
+8	Bachletten	152450	14.63
+9	Gotthelf	116413	21.90
+10	Iselin	218859	19.86
+11	St. Johann	1137369	54.83
+12	Altstadt Kleinbasel	274727	65.11
+13	Clara	173394	43.51
+14	Wettstein	615810	62.88
+15	Hirzbrunnen	224132	31.48
+16	Rosental	566335	59.98
+17	Matthäus	199199	20.64
+18	Klybeck	634887	65.93
+19	Kleinhüningen	447367	77.45
+20	Riehen	322954	18.62
+30	Bettingen	45064	33.10

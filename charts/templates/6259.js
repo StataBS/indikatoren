@@ -52,8 +52,19 @@
       "opposite": true
     }
     ],
-    "xAxis": {
-      "tickInterval": 5
+    "xAxis": { //label last tick
+      tickPositioner: function () {
+				var maxlabels = 16,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max-1),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+      },
+      labels: {
+        rotation: -45
+      }
     },
     "legend": {
       "enabled": true,

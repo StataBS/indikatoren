@@ -13,7 +13,7 @@
       }
     },
     "yAxis": {
-      max: 1050,
+      max: 1350,
       tickInterval: 150,
       min: -300,
       "labels": {
@@ -27,11 +27,34 @@
         zIndex: 0
       }]
     },
-    "xAxis": {
-      "tickInterval": 1,
-      labels:{
-        rotation: -45,
-        step: 2
+    "xAxis": { //label last tick
+      tickPositioner: function () {
+        var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min) + 1;
+        var xMin_even = Math.round(ext.min);
+
+        if (xMax % 2 == 1) {
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0) {
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }
+      },
+      labels: {
+        rotation: -45
       }
     },
     "legend": {

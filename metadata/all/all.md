@@ -2484,6 +2484,25 @@ id | visible | visibleInPortal | indikatorenset
 22299 | true | false | Wohnraumschutz
 22300 | true | true | Wohnraumschutz
 22301 | true | true | Wohnraumschutz
+22305 | true | false | Richtplan (Print)
+22306 | true | false | Richtplan (Print)
+22307 | true | false | Richtplan (Print)
+22308 | true | false | Richtplan (Print)
+22309 | true | false | Richtplan (Print)
+22311 | true | false | Richtplan (Print)
+22312 | true | false | Richtplan (Print)
+22313 | true | false | Richtplan (Print)
+22314 | true | false | Richtplan (Print)
+22315 | true | false | Richtplan (Print)
+22316 | true | false | Richtplan (Print)
+22317 | true | false | Richtplan (Print)
+22318 | true | false | Richtplan (Print)
+22319 | true | false | Richtplan (Print)
+22320 | true | false | Richtplan (Print)
+22321 | true | false | Richtplan (Print)
+22322 | true | false | Richtplan (Print)
+22323 | true | false | Richtplan (Print)
+22324 | true | false | Richtplan (Print)
 22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt

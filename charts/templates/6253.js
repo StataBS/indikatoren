@@ -12,7 +12,8 @@
             labels: {
                 formatter: function () {
                     return this.value;
-                }
+                },
+                rotation: -45
             }
         },
         "series": [

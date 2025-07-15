@@ -188,8 +188,8 @@ for (i = 0; i < 2; i++) {
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+	        		fn.addLegendTitle(chart, 'Bruttogeschossfläche<br>Arbeiten in m²', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+	                fn.addLegendTitle(chart, 'Anteil Arbeiten an der<br>Gesamtbruttogeschossfläche in %', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                
 					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');

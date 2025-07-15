@@ -6,7 +6,10 @@
     legend: {
       itemMarginBottom: 4,
       verticalAlign: "top",
-      y: 10
+      y: 10,
+      labelFormatter: function () {
+        return this.name.replace('Weiss ', 'Weiss<br>').replace('Keine ', 'Keine<br>');
+      }    
     },
     yAxis: {
       reversedStacks: true,
@@ -19,8 +22,11 @@
       labels: {
         formatter: function () {
           return this.value.replace('(', '<br>(').replace('.', ',');
-        }
-      }
+        },
+        style: {
+          fontSize: "9px",
+        }  
+      },
     },
     series: [
       { "color": "#007a2f", "index": 9 }, /*grün dunkel2*/
