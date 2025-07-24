@@ -49973,8 +49973,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Im Mai 2025 sank die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln. In elf Wohnvierteln und in den Gemeinden Riehen und Bettingen stieg sie. Im Klybeck blieb sie gleich.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2025 sank die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln. In elf Wohnvierteln und in der Gemeinde Riehen stieg sie. In Bettingen blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -50001,7 +50001,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-23T07:59:09",
+		"aktualisierungsdatum": "2025-07-24T08:40:38",
 		"id": 7763
 	},
 	{
@@ -50306,8 +50306,8 @@
 			8423
 		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis 2000 = 100).",
+		"subtitle": "Indexwert (Basis Mai 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis Mai 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -50333,7 +50333,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-06T09:57:42",
+		"aktualisierungsdatum": "2025-07-24T08:40:39",
 		"id": 7782
 	},
 	{
