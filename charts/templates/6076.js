@@ -27,7 +27,7 @@
   },
   "xAxis": {
   	"type": "linear",
-  	tickInterval: 1, 
+  	tickInterval: 2, 
   	labels: {
   	  step: 1,
   	},

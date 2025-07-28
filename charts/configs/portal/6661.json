@@ -1,34 +1,906 @@
-﻿{"id":6661,
-"parentId":6076,
-"children":[],
-"template":"line001_print",
-"title":"Anzahl Geborene nach Staatsangehörigkeit",
-"subtitle":"Basel-Stadt",
-"kennzahlenset":"Integration (Print)",
-"kuerzel":"I.01.3.06661",
-"kuerzelKunde":"A4-2",
-"description":"Anzahl Geborene nach Staatsangehörigkeit",
-"thema":"01 Bevölkerung",
-"unterthema":"Geburten und Todesfälle",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2023-01-02T08:14:50.5050",
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2022 kamen 1 791 Lebendgeborene zur Welt, davon waren  1 065 Schweizer Staatsangehörige.",
-"erlaeuterungen":"Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
-"darstellungsart":"",
-"printformat":"small", 
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_00_00_00_00_402",
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"datenInChartIntegriert":false,
-"externalLinks":[""],
-"data-id":6661, 
-"chart-id":6661, 
-"filter":""
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "index": 11,
+      "legendIndex": 0,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          999
+        ],
+        [
+          2008,
+          996
+        ],
+        [
+          2009,
+          1046
+        ],
+        [
+          2010,
+          1109
+        ],
+        [
+          2011,
+          1066
+        ],
+        [
+          2012,
+          1110
+        ],
+        [
+          2013,
+          1088
+        ],
+        [
+          2014,
+          1117
+        ],
+        [
+          2015,
+          1211
+        ],
+        [
+          2016,
+          1207
+        ],
+        [
+          2017,
+          1208
+        ],
+        [
+          2018,
+          1188
+        ],
+        [
+          2019,
+          1162
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#672773",
+      "index": 10,
+      "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          90
+        ],
+        [
+          2008,
+          133
+        ],
+        [
+          2009,
+          156
+        ],
+        [
+          2010,
+          172
+        ],
+        [
+          2011,
+          184
+        ],
+        [
+          2012,
+          200
+        ],
+        [
+          2013,
+          211
+        ],
+        [
+          2014,
+          210
+        ],
+        [
+          2015,
+          196
+        ],
+        [
+          2016,
+          229
+        ],
+        [
+          2017,
+          201
+        ],
+        [
+          2018,
+          214
+        ],
+        [
+          2019,
+          197
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007a2f",
+      "index": 9,
+      "legendIndex": 2,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          54
+        ],
+        [
+          2008,
+          46
+        ],
+        [
+          2009,
+          54
+        ],
+        [
+          2010,
+          43
+        ],
+        [
+          2011,
+          56
+        ],
+        [
+          2012,
+          64
+        ],
+        [
+          2013,
+          46
+        ],
+        [
+          2014,
+          58
+        ],
+        [
+          2015,
+          53
+        ],
+        [
+          2016,
+          67
+        ],
+        [
+          2017,
+          75
+        ],
+        [
+          2018,
+          75
+        ],
+        [
+          2019,
+          73
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#fabd24",
+      "index": 8,
+      "legendIndex": 3,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          111
+        ],
+        [
+          2008,
+          107
+        ],
+        [
+          2009,
+          84
+        ],
+        [
+          2010,
+          85
+        ],
+        [
+          2011,
+          85
+        ],
+        [
+          2012,
+          70
+        ],
+        [
+          2013,
+          73
+        ],
+        [
+          2014,
+          63
+        ],
+        [
+          2015,
+          69
+        ],
+        [
+          2016,
+          75
+        ],
+        [
+          2017,
+          54
+        ],
+        [
+          2018,
+          47
+        ],
+        [
+          2019,
+          51
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#b475ab",
+      "index": 7,
+      "legendIndex": 4,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          138
+        ],
+        [
+          2008,
+          126
+        ],
+        [
+          2009,
+          128
+        ],
+        [
+          2010,
+          156
+        ],
+        [
+          2011,
+          149
+        ],
+        [
+          2012,
+          160
+        ],
+        [
+          2013,
+          178
+        ],
+        [
+          2014,
+          183
+        ],
+        [
+          2015,
+          196
+        ],
+        [
+          2016,
+          198
+        ],
+        [
+          2017,
+          201
+        ],
+        [
+          2018,
+          190
+        ],
+        [
+          2019,
+          228
+        ]
+      ],
+      "name": "EU-17 + EFTA"
+    },
+    {
+      "color": "#71a3b5",
+      "index": 6,
+      "legendIndex": 5,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          15
+        ],
+        [
+          2008,
+          22
+        ],
+        [
+          2009,
+          23
+        ],
+        [
+          2010,
+          34
+        ],
+        [
+          2011,
+          25
+        ],
+        [
+          2012,
+          40
+        ],
+        [
+          2013,
+          41
+        ],
+        [
+          2014,
+          39
+        ],
+        [
+          2015,
+          44
+        ],
+        [
+          2016,
+          71
+        ],
+        [
+          2017,
+          54
+        ],
+        [
+          2018,
+          68
+        ],
+        [
+          2019,
+          78
+        ]
+      ],
+      "name": "EU-Ost"
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 5,
+      "legendIndex": 6,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          154
+        ],
+        [
+          2008,
+          138
+        ],
+        [
+          2009,
+          153
+        ],
+        [
+          2010,
+          135
+        ],
+        [
+          2011,
+          123
+        ],
+        [
+          2012,
+          117
+        ],
+        [
+          2013,
+          129
+        ],
+        [
+          2014,
+          123
+        ],
+        [
+          2015,
+          113
+        ],
+        [
+          2016,
+          107
+        ],
+        [
+          2017,
+          99
+        ],
+        [
+          2018,
+          99
+        ],
+        [
+          2019,
+          95
+        ]
+      ],
+      "name": "Balkan"
+    },
+    {
+      "color": "#ff8028",
+      "index": 4,
+      "legendIndex": 7,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          8
+        ],
+        [
+          2008,
+          19
+        ],
+        [
+          2009,
+          14
+        ],
+        [
+          2010,
+          23
+        ],
+        [
+          2011,
+          17
+        ],
+        [
+          2012,
+          11
+        ],
+        [
+          2013,
+          22
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          19
+        ],
+        [
+          2016,
+          13
+        ],
+        [
+          2017,
+          9
+        ],
+        [
+          2018,
+          17
+        ],
+        [
+          2019,
+          16
+        ]
+      ],
+      "name": "Mittel- u. Südamerika"
+    },
+    {
+      "color": "#73ba7c",
+      "index": 3,
+      "legendIndex": 8,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          14
+        ],
+        [
+          2008,
+          17
+        ],
+        [
+          2009,
+          16
+        ],
+        [
+          2010,
+          18
+        ],
+        [
+          2011,
+          25
+        ],
+        [
+          2012,
+          19
+        ],
+        [
+          2013,
+          20
+        ],
+        [
+          2014,
+          16
+        ],
+        [
+          2015,
+          16
+        ],
+        [
+          2016,
+          41
+        ],
+        [
+          2017,
+          32
+        ],
+        [
+          2018,
+          33
+        ],
+        [
+          2019,
+          39
+        ]
+      ],
+      "name": "Arabische Länder"
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 2,
+      "legendIndex": 9,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          10
+        ],
+        [
+          2008,
+          15
+        ],
+        [
+          2009,
+          20
+        ],
+        [
+          2010,
+          26
+        ],
+        [
+          2011,
+          27
+        ],
+        [
+          2012,
+          35
+        ],
+        [
+          2013,
+          45
+        ],
+        [
+          2014,
+          31
+        ],
+        [
+          2015,
+          39
+        ],
+        [
+          2016,
+          39
+        ],
+        [
+          2017,
+          47
+        ],
+        [
+          2018,
+          45
+        ],
+        [
+          2019,
+          39
+        ]
+      ],
+      "name": "Afrikanische Länder"
+    },
+    {
+      "color": "#999999",
+      "index": 1,
+      "legendIndex": 10,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          74
+        ],
+        [
+          2008,
+          76
+        ],
+        [
+          2009,
+          81
+        ],
+        [
+          2010,
+          109
+        ],
+        [
+          2011,
+          111
+        ],
+        [
+          2012,
+          104
+        ],
+        [
+          2013,
+          109
+        ],
+        [
+          2014,
+          104
+        ],
+        [
+          2015,
+          109
+        ],
+        [
+          2016,
+          125
+        ],
+        [
+          2017,
+          103
+        ],
+        [
+          2018,
+          103
+        ],
+        [
+          2019,
+          89
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "area",
+    "renderTo": "container-6661",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Geborene nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "padding": 1,
+    "itemDistance": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": "6661"
+  }
 }

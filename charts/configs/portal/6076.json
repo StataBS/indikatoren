@@ -75,6 +75,10 @@
         [
           2023,
           1056
+        ],
+        [
+          2024,
+          986
         ]
       ],
       "name": "Schweiz"
@@ -154,6 +158,10 @@
         [
           2023,
           159
+        ],
+        [
+          2024,
+          130
         ]
       ],
       "name": "Deutschland"
@@ -233,6 +241,10 @@
         [
           2023,
           63
+        ],
+        [
+          2024,
+          53
         ]
       ],
       "name": "Italien"
@@ -312,6 +324,10 @@
         [
           2023,
           31
+        ],
+        [
+          2024,
+          21
         ]
       ],
       "name": "Türkei"
@@ -391,6 +407,10 @@
         [
           2023,
           175
+        ],
+        [
+          2024,
+          125
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -470,6 +490,10 @@
         [
           2023,
           69
+        ],
+        [
+          2024,
+          60
         ]
       ],
       "name": "EU-Ost"
@@ -549,6 +573,10 @@
         [
           2023,
           52
+        ],
+        [
+          2024,
+          60
         ]
       ],
       "name": "Balkan"
@@ -628,6 +656,10 @@
         [
           2023,
           25
+        ],
+        [
+          2024,
+          21
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -707,6 +739,10 @@
         [
           2023,
           33
+        ],
+        [
+          2024,
+          25
         ]
       ],
       "name": "Arabische Länder"
@@ -786,6 +822,10 @@
         [
           2023,
           34
+        ],
+        [
+          2024,
+          29
         ]
       ],
       "name": "Afrikanische Länder"
@@ -865,6 +905,10 @@
         [
           2023,
           181
+        ],
+        [
+          2024,
+          266
         ]
       ],
       "name": "Übrige Länder"
@@ -948,7 +992,7 @@
       "step": 1
     },
     "type": "linear",
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": {
     "min": 0,
@@ -996,7 +1040,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.7.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
