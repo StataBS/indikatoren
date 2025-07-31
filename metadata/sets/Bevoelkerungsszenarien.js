@@ -139,7 +139,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+			"Detaillierte Informationen finden Sie im <a href = 'https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bevoelkerungsprognose-2011.pdf' target = '_blank'>Methodenbericht</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:44",
+		"aktualisierungsdatum": "2025-07-31T09:26:14",
 		"id": 7725
 	},
 	{
