@@ -45593,7 +45593,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juni 2025 0,0%. Das Preisniveau ist damit gegenüber Juni 2024 insgesamt unverändert geblieben. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juli 2025 0,1%. Das Preisniveau ist damit gegenüber Juli 2024 leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -45621,7 +45621,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-03T08:52:27",
+		"aktualisierungsdatum": "2025-08-04T08:34:52",
 		"id": 7512
 	},
 	{
@@ -45633,7 +45633,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juni 2025 gegenüber Mai um 0,2% gestiegen und beträgt 107,1 Punkte.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juli 2025 gegenüber Juni unverändert geblieben und beträgt 107,1 Punkte.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -45660,7 +45660,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-03T08:52:28",
+		"aktualisierungsdatum": "2025-08-04T08:34:53",
 		"id": 7513
 	},
 	{
