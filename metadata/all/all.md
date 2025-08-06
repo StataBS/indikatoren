@@ -1390,7 +1390,7 @@ id | visible | visibleInPortal | indikatorenset
 8079 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8080 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8081 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
-8082 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8082 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8085 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8086 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8087 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
@@ -2312,7 +2312,7 @@ id | visible | visibleInPortal | indikatorenset
 10038 | true | false | CMS Kennzahlen Soziales
 10039 | true | false | CMS Kennzahlen Soziales
 10040 | true | false | CMS Kennzahlen Soziales
-10041 | true | false | CMS Kennzahlen Soziales
+10041 | true | false | CMS Kennzahlen
 10043 | false |  | CMS Kennzahlen Soziales
 10044 | true | false | CMS Kennzahlen Soziales
 10045 | true | false | CMS Kennzahlen Soziales

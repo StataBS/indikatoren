@@ -1450,44 +1450,46 @@ var indikatorensetData = [
 		"id": 8081
 	},
 	{
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"kuerzel": "I.02.12.08082",
-		"kuerzelKunde": "7.04",
-		"description": "Anzahl Tropennächte",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"template": "map002",
+		"data-id": 8082,
+		"chart-id": 12646,
+		"filter": "",
+		"parentId": "12646",
+		"children": [
+			8652
+		],
+		"title": "Städtischer Wärmeinseleffekt",
+		"subtitle": "im Siedlungsraum, nach Wohnviertel, Basel-Stadt, 2017",
+		"lesehilfe": "Die dichtbebauten innenstädtischen Wohnviertel sind am stärksten vom städtischen Wärmeinseleffekt betroffen: In der Altstadt Grossbasel liegt die berechnete nächtliche (4 Uhr) Lufttemperatur im Mittel 4,5 °C über der mittleren Temperatur im unbebauten Umland (14,2 °C). Aber auch im Siedlungsraum der Gemeinde Riehen ist die Temperatur noch um 1,1 °C erhöht.",
+		"erlaeuterungen": "Die Daten stammen aus der 2019 publizierten Stadtklimaanalyse Basel-Stadt und wurden räumlich für den Siedlungsraum gemäss Zonenplan gemittelt. Es handelt sich um mit einem numerischen Modell berechnete Temperaturwerte in 2 m über Grund für eine stabile sommerliche Hochdruckwetterlage mit wolkenlosem Himmel und geringen Windgeschwindigkeiten.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>https://www.stadtklima.bs.ch</a>",
+			"<a href = 'https://map.geo.bs.ch/file_proxy/KL_Stadtklima_Windstroemungsfeld/Endbericht_Basel_Klimaanalyse_Rev09_ohne_Anhang.pdf' target = '_blank'>Bericht Stadtklimaanalyse Kanton Basel-Stadt 2019</a>",
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_Stadtklima%20Basel-Stadt=KL_Stadtklima_Waermeinseleffekt&tree_groups=Stadtklima%20Basel-Stadt' target = '_blank'>Detailierte Klimaanalysekarte im Geoportal Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:49.4949",
+		"description": "Städtischer Wärmeinseleffekt",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08082",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.04",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen traten 2018 12 resp. 11 Tropennächte auf (gemittelt über das gesamte Wohnviertel).",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B.Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
-		"template": "map002",
+		"orderKey": "07_00_00_00_00_004",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8652"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7701,
-		"chart-id": 7701,
-		"filter": "",
+		"aktualisierungsdatum": "2025-08-06T07:44:20",
 		"id": 8082
 	},
 	{

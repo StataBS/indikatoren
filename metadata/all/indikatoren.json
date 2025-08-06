@@ -546,9 +546,9 @@
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2024",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 206 308 am Ende des Jahres 2023 um 9,2% auf rund 225 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2024. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -563,7 +563,7 @@
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kennzahlenset": "CMS Kennzahlen",
 		"kuerzelKunde": "2.1.4",
 		"stufe1": "Zusammenhalt",
 		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
@@ -575,7 +575,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-15T08:14:07",
+		"aktualisierungsdatum": "2025-08-06T07:44:19",
 		"id": 10041
 	},
 	{
@@ -22042,8 +22042,8 @@
 			6662
 		],
 		"title": "Zusammengefasste Geburtenziffer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2014 bis 2023",
-		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2014 bis 2023 die höchsten zusammengefassten Geburtenziffern auf.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2015 bis 2024",
+		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2015 bis 2024 die höchsten zusammengefassten Geburtenziffern auf.",
 		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -22069,7 +22069,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-26T09:12:52",
+		"aktualisierungsdatum": "2025-08-06T07:44:21",
 		"id": 6077
 	},
 	{
@@ -22243,7 +22243,7 @@
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die höchsten Hochschulquoten weisen 2023 wie bereits im Vorjahr Studierende aus der Schweiz (25,7%), aus Deutschland (10,6%) und aus Italien (10,5%) auf.",
+		"lesehilfe": "Die höchste Hochschulquote weisen 2024 wie schon im Vorjahr Studierende aus der Schweiz (27,0%) auf. Es folgen – ebenfalls wie im Vorjahr – jene aus Italien (10,5%) und aus Deutschland (9,0%).",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -22271,7 +22271,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:45",
+		"aktualisierungsdatum": "2025-08-06T07:44:23",
 		"id": 6082
 	},
 	{
@@ -22285,7 +22285,7 @@
 		],
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist 2023 im Vergleich zum Vorjahr von 25,2% auf 25,7% gestiegen. Bei der ausländischen Wohnbevölkerung ist die Quote 2023 mit 8,3% die zweithöchste in der Beobachtungsreihe.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist 2024 im Vergleich zum Vorjahr von 25,7% auf den neuen Höchstwert 27,0% gestiegen. Bei der ausländischen Wohnbevölkerung ist die Quote 2024 die dritthöchste in der Beobachtungsreihe und erreicht wie bereits 2021 8,0%.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe. Rückwirkend sind vereinzelte Korrekturen möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -22313,7 +22313,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-24T08:47:18",
+		"aktualisierungsdatum": "2025-08-06T07:44:24",
 		"id": 6083
 	},
 	{
@@ -29312,8 +29312,8 @@
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,4%). Gegenüber 2003 ist die IV-Quote von Italienerinnen und Italienern um 10,3 Prozentpunkte gesunken.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen ab 2003 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"lesehilfe": "2024 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,1%). Gegenüber 2004 ist die IV-Quote von Italienerinnen und Italienern um 10,6 Prozentpunkte gesunken.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen 2004 die 18- bis 62-Jährigen, zwischen 2005 und 2023 die 18- bis 63-Jährigen und seit 2024 die 18- bis 64-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es durchgehend die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -29339,7 +29339,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T09:05:08",
+		"aktualisierungsdatum": "2025-08-06T07:44:25",
 		"id": 6430
 	},
 	{
@@ -29353,8 +29353,8 @@
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Top 6 der IV-Bezüger, Basel-Stadt",
-		"lesehilfe": "2023 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,4%). Gegenüber dem Jahr 2003 hat sich die IV-Quote der  Italienerinnen und Italiener mehr als halbiert.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen ab 2003 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"lesehilfe": "2024 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,1%). Gegenüber dem Jahr 2004 hat sich die IV-Quote der  Italienerinnen und Italiener mehr als halbiert.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen 2004 die 18- bis 62-Jährigen, zwischen 2005 und 2023 die 18- bis 63-Jährigen und seit 2024 die 18- bis 64-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es durchgehend die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -29380,7 +29380,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T09:05:08",
+		"aktualisierungsdatum": "2025-08-06T07:44:26",
 		"id": 6431
 	},
 	{
@@ -29393,9 +29393,9 @@
 			6707
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 59 Jahren tiefer als jene der Schweizer Bevölkerung. Bei den 60- bis 64-Jährigen beträgt die IV-Quote bei den ausländischen Staatsangehörigen 15,7%, bei den Schweizer Staatsangehörigen 15,0%. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den ausländischen Staatsangehörigen immer stärker zu. Bei den Schweizer Staatsangehörigen ist das Wachstum der IV-Quote eher linear.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Bezügerinnen und -Bezüger einer Invalidenversicherungsrente an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist ausser bei den 20- bis 24-Jährigen tiefer als jene der Schweizer Bevölkerung. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den ausländischen Staatsangehörigen immer stärker zu. Bei den Schweizer Staatsangehörigen ist das Wachstum der IV-Quote mit dem Alter eher linear.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Bezügerinnen und -Bezüger einer Invalidenversicherungsrente an der Wohnbevölkerung im erwerbsfähigen Alter. Die 18- bis 64-Jährigen gelten als Personen im erwerbsfähigen Alter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -29421,7 +29421,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T09:05:09",
+		"aktualisierungsdatum": "2025-08-06T07:44:27",
 		"id": 6432
 	},
 	{
@@ -55096,45 +55096,47 @@
 		"id": 8081
 	},
 	{
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"kuerzel": "I.02.12.08082",
-		"kuerzelKunde": "7.04",
-		"description": "Anzahl Tropennächte",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"template": "map002",
+		"data-id": 8082,
+		"chart-id": 12646,
+		"filter": "",
+		"parentId": "12646",
+		"children": [
+			8652
+		],
+		"title": "Städtischer Wärmeinseleffekt",
+		"subtitle": "im Siedlungsraum, nach Wohnviertel, Basel-Stadt, 2017",
+		"lesehilfe": "Die dichtbebauten innenstädtischen Wohnviertel sind am stärksten vom städtischen Wärmeinseleffekt betroffen: In der Altstadt Grossbasel liegt die berechnete nächtliche (4 Uhr) Lufttemperatur im Mittel 4,5 °C über der mittleren Temperatur im unbebauten Umland (14,2 °C). Aber auch im Siedlungsraum der Gemeinde Riehen ist die Temperatur noch um 1,1 °C erhöht.",
+		"erlaeuterungen": "Die Daten stammen aus der 2019 publizierten Stadtklimaanalyse Basel-Stadt und wurden räumlich für den Siedlungsraum gemäss Zonenplan gemittelt. Es handelt sich um mit einem numerischen Modell berechnete Temperaturwerte in 2 m über Grund für eine stabile sommerliche Hochdruckwetterlage mit wolkenlosem Himmel und geringen Windgeschwindigkeiten.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>https://www.stadtklima.bs.ch</a>",
+			"<a href = 'https://map.geo.bs.ch/file_proxy/KL_Stadtklima_Windstroemungsfeld/Endbericht_Basel_Klimaanalyse_Rev09_ohne_Anhang.pdf' target = '_blank'>Bericht Stadtklimaanalyse Kanton Basel-Stadt 2019</a>",
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_Stadtklima%20Basel-Stadt=KL_Stadtklima_Waermeinseleffekt&tree_groups=Stadtklima%20Basel-Stadt' target = '_blank'>Detailierte Klimaanalysekarte im Geoportal Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:49.4949",
+		"description": "Städtischer Wärmeinseleffekt",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08082",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.04",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen traten 2018 12 resp. 11 Tropennächte auf (gemittelt über das gesamte Wohnviertel).",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B.Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
-		"template": "map002",
+		"orderKey": "07_00_00_00_00_004",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8652"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
-		],
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7701,
-		"chart-id": 7701,
-		"filter": "",
+		"aktualisierungsdatum": "2025-08-06T07:44:20",
 		"id": 8082
 	},
 	{
@@ -77024,7 +77026,7 @@
 		"children": [],
 		"title": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
 		"subtitle": "ausgestellt durch das Hauptzollamt Lörrach (D), nach Quartal",
-		"lesehilfe": "Im 4. Quartal 2023 wurden 764 670 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der COVID-19-Pandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen",
+		"lesehilfe": "Im 4. Quartal 2024 wurden 784 890 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt",
 		"erlaeuterungen": "Das Hautptzollamt Lörrach umfasst alle Grenzübergangsstellen von Weil am Rhein im Westen bis Rheinfelden im Osten. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland unter folgenden Bedingungen umsatzsteuerfrei einkaufen: Das Verkaufsunternehmen nimmt an diesem Verfahren teil; die Ware wird aus Deutschland ausgeführt; eine deutsche Grenzzollstelle bestätigt auf dem dafür vorgesehenen Beleg die Ausfuhr sowie den Wohnsitz der Käuferin oder des Käufers in einem Drittland. Seit dem 1. Januar 2020 wird eine Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt.",
 		"quellenangabe": [
 			"Hauptzollamt Lörrach"
@@ -77050,7 +77052,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-12T07:39:18",
+		"aktualisierungsdatum": "2025-08-06T07:44:18",
 		"id": 9346
 	},
 	{

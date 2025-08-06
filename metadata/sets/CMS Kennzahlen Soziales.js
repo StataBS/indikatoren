@@ -371,45 +371,6 @@ var indikatorensetData = [
 		"id": 10040
 	},
 	{
-		"template": "template001",
-		"data-id": 10041,
-		"chart-id": 6215,
-		"filter": "",
-		"parentId": "6215",
-		"children": [],
-		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2024",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 206 308 am Ende des Jahres 2023 um 9,2% auf rund 225 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2024. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
-		],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2.1.4",
-		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_01_00_00_00_405",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-15T08:14:07",
-		"id": 10041
-	},
-	{
 		"template": "befragungen001",
 		"data-id": 10044,
 		"chart-id": 4872,
