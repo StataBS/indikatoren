@@ -1,22 +1,22 @@
-WOV_ID	WOV_NAME	Jahr	Anzahl Tropennächte 
-1	Altstadt Grossbasel	2018	12
-2	Vorstädte	2018	11
-3	Am Ring	2018	12
-4	Breite	2018	9
-5	St. Alban	2018	13
-6	Gundeldingen	2018	12
-7	Bruderholz	2018	7
-8	Bachletten	2018	11
-9	Gotthelf	2018	10
-10	Iselin	2018	12
-11	St. Johann	2018	13
-12	Altstadt Kleinbasel	2018	14
-13	Clara	2018	12
-14	Wettstein	2018	11
-15	Hirzbrunnen	2018	11
-16	Rosental	2018	14
-17	Matthäus	2018	11
-18	Klybeck	2018	12
-19	Kleinhüningen	2018	11
-20	Riehen	2018	7
-30	Bettingen	2018	2
+﻿WOV_ID	WOV_NAME	Lufttemperatur Nacht 2017	Lufttemperatur Nacht 2030	Wärmeinseleffekt 2017	Wärmeinseleffekt 2030
+1	Altstadt Grossbasel	18.68	19.85	4.53	5.10
+2	Vorstädte	17.57	18.74	3.42	3.98
+3	Am Ring	17.44	18.63	3.29	3.87
+4	Breite	16.87	18.03	2.73	3.27
+5	St. Alban	16.97	18.19	2.83	3.43
+6	Gundeldingen	17.60	18.74	3.45	3.98
+7	Bruderholz	15.13	16.22	1.06	1.50
+8	Bachletten	16.18	17.40	2.05	2.65
+9	Gotthelf	17.07	18.30	2.92	3.55
+10	Iselin	16.74	17.97	2.59	3.21
+11	St. Johann	17.02	18.21	2.87	3.45
+12	Altstadt Kleinbasel	18.15	19.33	4.00	4.57
+13	Clara	17.83	19.04	3.68	4.28
+14	Wettstein	17.15	18.34	3.00	3.58
+15	Hirzbrunnen	16.45	17.61	2.30	2.85
+16	Rosental	18.05	19.18	3.90	4.43
+17	Matthäus	17.92	19.14	3.77	4.39
+18	Klybeck	17.90	19.10	3.75	4.34
+19	Kleinhüningen	17.87	18.98	3.72	4.23
+20	Riehen	14.98	16.18	1.10	1.57
+30	Bettingen	13.88	14.88	0.30	0.52

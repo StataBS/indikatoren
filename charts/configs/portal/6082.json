@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2003,
-          17.2
-        ],
-        [
           2004,
           18.2
         ],
@@ -65,7 +61,7 @@
         ],
         [
           2018,
-          24.7
+          24.8
         ],
         [
           2019,
@@ -86,6 +82,10 @@
         [
           2023,
           25.7
+        ],
+        [
+          2024,
+          27
         ]
       ],
       "name": "Schweiz"
@@ -93,10 +93,6 @@
     {
       "color": "#672773",
       "data": [
-        [
-          2003,
-          9.4
-        ],
         [
           2004,
           8.4
@@ -163,11 +159,11 @@
         ],
         [
           2020,
-          12.1
+          12
         ],
         [
           2021,
-          12.8
+          12.6
         ],
         [
           2022,
@@ -175,7 +171,11 @@
         ],
         [
           2023,
-          10.6
+          10.4
+        ],
+        [
+          2024,
+          9
         ]
       ],
       "name": "Deutschland"
@@ -183,10 +183,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          2003,
-          5.8
-        ],
         [
           2004,
           6.3
@@ -266,6 +262,10 @@
         [
           2023,
           10.5
+        ],
+        [
+          2024,
+          10.5
         ]
       ],
       "name": "Italien"
@@ -273,10 +273,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          2003,
-          1.7
-        ],
         [
           2004,
           2.5
@@ -356,6 +352,10 @@
         [
           2023,
           5.8
+        ],
+        [
+          2024,
+          6.6
         ]
       ],
       "name": "Türkei"
@@ -363,10 +363,6 @@
     {
       "color": "#b475ab",
       "data": [
-        [
-          2003,
-          5.8
-        ],
         [
           2004,
           5.2
@@ -429,23 +425,27 @@
         ],
         [
           2019,
-          6.2
+          6.1
         ],
         [
           2020,
-          7.4
+          7.3
         ],
         [
           2021,
-          7.1
+          7
         ],
         [
           2022,
-          7.9
+          7.7
         ],
         [
           2023,
-          8.3
+          8.2
+        ],
+        [
+          2024,
+          8.2
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -453,10 +453,6 @@
     {
       "color": "#71a3b5",
       "data": [
-        [
-          2003,
-          8.3
-        ],
         [
           2004,
           8.2
@@ -536,6 +532,10 @@
         [
           2023,
           7.6
+        ],
+        [
+          2024,
+          8.7
         ]
       ],
       "name": "EU-Ost"
@@ -543,10 +543,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2003,
-          0.7
-        ],
         [
           2004,
           0.4
@@ -626,6 +622,10 @@
         [
           2023,
           6.3
+        ],
+        [
+          2024,
+          5.5
         ]
       ],
       "name": "Balkan"
@@ -633,10 +633,6 @@
     {
       "color": "#ff8028",
       "data": [
-        [
-          2003,
-          1.1
-        ],
         [
           2004,
           0.9
@@ -716,6 +712,10 @@
         [
           2023,
           1.1
+        ],
+        [
+          2024,
+          2.3
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -723,10 +723,6 @@
     {
       "color": "#73ba7c",
       "data": [
-        [
-          2003,
-          0
-        ],
         [
           2004,
           0
@@ -806,6 +802,10 @@
         [
           2023,
           5.3
+        ],
+        [
+          2024,
+          6.6
         ]
       ],
       "name": "Arab. Länder"
@@ -813,10 +813,6 @@
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          2003,
-          1
-        ],
         [
           2004,
           1
@@ -896,6 +892,10 @@
         [
           2023,
           5.6
+        ],
+        [
+          2024,
+          4.6
         ]
       ],
       "name": "Afrikan. Länder"
@@ -903,10 +903,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2003,
-          5
-        ],
         [
           2004,
           4
@@ -986,6 +982,10 @@
         [
           2023,
           8.1
+        ],
+        [
+          2024,
+          7.6
         ]
       ],
       "name": "Übrige Länder"
@@ -1116,7 +1116,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.8.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
