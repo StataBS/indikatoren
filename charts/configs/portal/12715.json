@@ -134,6 +134,10 @@
         [
           2023,
           472.67
+        ],
+        [
+          2024,
+          88
         ]
       ],
       "name": "Höhenlagen"
@@ -272,6 +276,10 @@
         [
           2023,
           308.5
+        ],
+        [
+          2024,
+          80
         ]
       ],
       "name": "Agglomeration"
@@ -410,6 +418,10 @@
         [
           2023,
           304
+        ],
+        [
+          2024,
+          79
         ]
       ],
       "name": "Stadt Basel"
@@ -548,6 +560,10 @@
         ],
         [
           2023,
+          1
+        ],
+        [
+          2024,
           1
         ]
       ],
@@ -690,7 +706,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2024"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 11.8.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

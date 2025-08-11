@@ -509,10 +509,12 @@ var indikatorensetData = [
 		"chart-id": 11914,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22319
+		],
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 20,13% Biodiversitätsförderflächen.",
+		"lesehilfe": "2024 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 21,05% Biodiversitätsförderflächen.",
 		"erlaeuterungen": "Anteil der Biodiversitätsförderflächen (BFF) an der gesamten Landwirtschaftlichen Nutzfäche (LN). Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet. Die Biodiversitätsförderflächen dienen dem Erhalt und der Förderung der Arten und der ökologisch wertvollen Lebensräume.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -524,7 +526,7 @@ var indikatorensetData = [
 		],
 		"description": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Biodiversität",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-2",
@@ -537,7 +539,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-08-11T03:06:11",
 		"id": 11914
 	},
 	{
