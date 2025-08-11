@@ -2437,10 +2437,12 @@ var indikatoren = [
 		"chart-id": 11914,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22319
+		],
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 20,13% Biodiversitätsförderflächen.",
+		"lesehilfe": "2024 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 21,05% Biodiversitätsförderflächen.",
 		"erlaeuterungen": "Anteil der Biodiversitätsförderflächen (BFF) an der gesamten Landwirtschaftlichen Nutzfäche (LN). Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet. Die Biodiversitätsförderflächen dienen dem Erhalt und der Förderung der Arten und der ökologisch wertvollen Lebensräume.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -2452,7 +2454,7 @@ var indikatoren = [
 		],
 		"description": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Biodiversität",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-2",
@@ -2466,7 +2468,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-08-11T02:52:53",
 		"id": 11914
 	},
 	{
@@ -5986,7 +5988,7 @@ var indikatoren = [
 		],
 		"title": "Grenzwertüberschreitungen Ozon",
 		"subtitle": "Anzahl Überschreitungen des Stunden-Grenzwertes pro Jahr, Region Basel",
-		"lesehilfe": "Im Jahr 2023 lagen in Basel-Stadt 304 Stunden-Mittelwerte über dem Grenzwert für Ozon. Laut Luftreinhalte-Verordnung dürfte der Grenzwert höchstens einmal pro Jahr überschritten werden.",
+		"lesehilfe": "Im Jahr 2024 lagen in der Stadt Basel 79 Stunden-Mittelwerte über dem Grenzwert für Ozon. Laut Luftreinhalte-Verordnung dürfte der Grenzwert höchstens einmal pro Jahr überschritten werden.",
 		"erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 μg/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz).<br>Ozon ist ein sekundärer Luftschadstoff, es wird bei intensiver Sonneneinstrahlung aus den Vorläuferschadstoffen Stickstoffoxiden und flüchtigen organischen Verbindungen in Kombination mit Sauerstoff gebildet. In städtischen Gebieten ist die Ozonkonzentration in der Regel tiefer als in ländlichen, da Stickstoffmonoxid aus Autoabgasen mit Ozon reagiert und dieses so abgebaut wird.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -6015,7 +6017,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-26T09:12:53",
+		"aktualisierungsdatum": "2025-08-11T02:52:51",
 		"id": 12715
 	},
 	{
@@ -20388,7 +20390,7 @@ var indikatoren = [
 		],
 		"title": "Wasserqualität: AOX-Konzentration",
 		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
-		"lesehilfe": "Die mittlere AOX-Konzentration betrug im Jahr 2023 0,084 mg pro Liter gereinigtem Abwasser. Sie lag damit leicht über dem Grenzwert von 0,080 mg/l. Der Anstieg ist wahrscheinlich darauf zurückzuführen, dass seit 2023 der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen ist, wodurch mehr industrielle Abwässer mit höheren AOX-Werten in die ARA Basel gelangen.",
+		"lesehilfe": "Die mittlere AOX-Konzentration betrug im Jahr 2024 0,078 mg pro Liter gereinigtem Abwasser. Sie lag damit leicht unter dem Grenzwert von 0,080 mg/l. Seit 2023 ist der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen, wodurch mehr industrielle Abwässer mit höheren AOX-Werten in die ARA Basel gelangen.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert. Seit 2023 ist der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen.<br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -20403,18 +20405,18 @@ var indikatoren = [
 		"unterthema": "Wasser",
 		"kuerzel": "I.02.19.06030",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL10",
+		"kuerzelKunde": "NL11",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_410",
+		"orderKey": "04_01_00_00_00_411",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:45:18",
+		"aktualisierungsdatum": "2025-08-11T02:52:52",
 		"id": 6030
 	},
 	{
@@ -20872,7 +20874,7 @@ var indikatoren = [
 		],
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2022 bei rund 45% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2022).",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2023 bei 39% (im Jahr 2000 lag er noch bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf knapp 10% im Jahr 2023).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -20898,7 +20900,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:35",
+		"aktualisierungsdatum": "2025-08-11T02:52:55",
 		"id": 6047
 	},
 	{
