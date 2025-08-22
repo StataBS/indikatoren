@@ -86,6 +86,10 @@
         [
           2024,
           11026
+        ],
+        [
+          2025,
+          12223
         ]
       ],
       "name": "Laden"
@@ -176,6 +180,10 @@
         [
           2024,
           175109
+        ],
+        [
+          2025,
+          132740
         ]
       ],
       "name": "Büro"
@@ -266,6 +274,10 @@
         [
           2024,
           31903
+        ],
+        [
+          2025,
+          37804
         ]
       ],
       "name": "Gewerbe"
@@ -356,6 +368,10 @@
         [
           2024,
           0
+        ],
+        [
+          2025,
+          100
         ]
       ],
       "name": "Produktion"
@@ -446,6 +462,10 @@
         [
           2024,
           31156
+        ],
+        [
+          2025,
+          17572
         ]
       ],
       "name": "Lager"
@@ -573,7 +593,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

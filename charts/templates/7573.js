@@ -95,17 +95,36 @@
         enabled: false
       }, 
       legendIndex: 3,
-      tooltip: {
-        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-        pointFormatter: function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>'; /* number of decimals adjusted from 2 to 1 */
-        }
-      }
     },
   ],  
-  tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total beider Basel: <b>{point.total:,.0f}</b>',
-    shared: true
-  },
+tooltip: {
+  formatter() {
+    if (this.series.userOptions.index === 0) { 
+      const series = this.series.chart.series;
+      let tooltip = "";
+      let s = 0;
+      
+      series.forEach(series => {
+        // Skip series with index 1 (the line series)
+        if (series.userOptions.index !== 1) {
+          series.setState('hover'); 
+          series.points.forEach(point => {
+            if (point.x === this.x) {
+              tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
+              s += point.y;
+            }
+          });
+        }
+      });
+      
+      return '<span style="font-size: 10px">Jahr: ' + this.x +
+        '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total beider Basel: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+    } else {
+      return '<span style="font-size: 10px">Jahr: ' + this.x +
+        '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+        + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+    }
+  }
+}
 };
 }());

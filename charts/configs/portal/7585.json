@@ -2,129 +2,7 @@
   "series": [
     {
       "color": "#E7CEE2",
-      "data": [
-        [
-          "CH",
-          1.72
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "BS",
-          0.96
-        ],
-        [
-          "BL",
-          1.13
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "ZH",
-          0.91
-        ],
-        [
-          "BE",
-          1.86
-        ],
-        [
-          "LU",
-          1.5
-        ],
-        [
-          "UR",
-          1.43
-        ],
-        [
-          "SZ",
-          1.3
-        ],
-        [
-          "OW",
-          0.92
-        ],
-        [
-          "NW",
-          1.78
-        ],
-        [
-          "GL",
-          1.83
-        ],
-        [
-          "ZG",
-          0.7
-        ],
-        [
-          "FR",
-          1.89
-        ],
-        [
-          "SO",
-          3.22
-        ],
-        [
-          "SH",
-          2.03
-        ],
-        [
-          "AR",
-          1.64
-        ],
-        [
-          "AI",
-          2.15
-        ],
-        [
-          "SG",
-          2.41
-        ],
-        [
-          "GR",
-          1.4
-        ],
-        [
-          "AG",
-          2.65
-        ],
-        [
-          "TG",
-          2.48
-        ],
-        [
-          "TI",
-          2.71
-        ],
-        [
-          "VD",
-          1.37
-        ],
-        [
-          "VS",
-          2.4
-        ],
-        [
-          "NE",
-          2.35
-        ],
-        [
-          "GE",
-          0.49
-        ],
-        [
-          "JU",
-          2.52
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
+      "visible": false,
       "data": [
         [
           "CH",
@@ -247,7 +125,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
+      "color": "#B375AB",
+      "visible": false,
       "data": [
         [
           "CH",
@@ -370,7 +249,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
+      "visible": false,
       "data": [
         [
           "CH",
@@ -493,11 +373,11 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2E1435",
+      "color": "#662673",
       "data": [
         [
           "CH",
-          null
+          1.08
         ],
         [
           " ",
@@ -517,7 +397,130 @@
         ],
         [
           "ZH",
+          0.56
+        ],
+        [
+          "BE",
+          1.21
+        ],
+        [
+          "LU",
+          0.82
+        ],
+        [
+          "UR",
+          0.76
+        ],
+        [
+          "SZ",
+          0.57
+        ],
+        [
+          "OW",
+          0.44
+        ],
+        [
+          "NW",
+          0.89
+        ],
+        [
+          "GL",
+          0.85
+        ],
+        [
+          "ZG",
+          0.39
+        ],
+        [
+          "FR",
+          1.16
+        ],
+        [
+          "SO",
+          2.37
+        ],
+        [
+          "SH",
+          1.12
+        ],
+        [
+          "AR",
+          1.3
+        ],
+        [
+          "AI",
+          0.99
+        ],
+        [
+          "SG",
+          1.39
+        ],
+        [
+          "GR",
+          0.57
+        ],
+        [
+          "AG",
+          1.3
+        ],
+        [
+          "TG",
+          1.42
+        ],
+        [
+          "TI",
+          2.08
+        ],
+        [
+          "VD",
+          0.96
+        ],
+        [
+          "VS",
+          1.43
+        ],
+        [
+          "NE",
+          1.68
+        ],
+        [
+          "GE",
+          0.48
+        ],
+        [
+          "JU",
+          2.98
+        ]
+      ],
+      "name": "2024",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2E1435",
+      "data": [
+        [
+          "CH",
           null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "BS",
+          0.92
+        ],
+        [
+          "BL",
+          0.79
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "ZH",
+          0.48
         ],
         [
           "BE",
@@ -593,7 +596,7 @@
         ],
         [
           "VD",
-          null
+          0.89
         ],
         [
           "VS",
@@ -605,14 +608,14 @@
         ],
         [
           "GE",
-          0.48
+          0.34
         ],
         [
           "JU",
           null
         ]
       ],
-      "name": "2024",
+      "name": "2025",
       "turboThreshold": 0
     }
   ],
@@ -750,7 +753,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

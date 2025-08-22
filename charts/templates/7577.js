@@ -43,7 +43,7 @@
 				enabled: true,
 				useHTML: true,
 				formatter: function () {
-					return this.point.name.replace(".", ",");
+					return this.point.name.replace("Zimmer", "Zi.<br>");
 
 				},
 				distance: 15,

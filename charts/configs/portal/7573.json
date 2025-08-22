@@ -8,10 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2015,
-          361
-        ],
-        [
           2016,
           452
         ],
@@ -46,6 +42,10 @@
         [
           2024,
           897
+        ],
+        [
+          2025,
+          1079
         ]
       ],
       "name": "Basel-Stadt"
@@ -57,10 +57,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2015,
-          528
-        ],
         [
           2016,
           645
@@ -96,6 +92,10 @@
         [
           2024,
           1087
+        ],
+        [
+          2025,
+          1196
         ]
       ],
       "name": "Basel-Landschaft"
@@ -109,17 +109,7 @@
         "enabled": false
       },
       "legendIndex": 3,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>'; /* number of decimals adjusted from 2 to 1 */
-        }
-      },
       "data": [
-        [
-          2015,
-          0.003673
-        ],
         [
           2016,
           0.004472
@@ -155,6 +145,10 @@
         [
           2024,
           0.007481
+        ],
+        [
+          2025,
+          0.008502
         ]
       ],
       "name": "Leerstandsquote beider Basel (rechte Skala)"
@@ -319,12 +313,36 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total beider Basel: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+    "formatter": formatter() {
+    if (this.series.userOptions.index === 0) { 
+      const series = this.series.chart.series;
+      let tooltip = "";
+      let s = 0;
+      
+      series.forEach(series => {
+        // Skip series with index 1 (the line series)
+        if (series.userOptions.index !== 1) {
+          series.setState('hover'); 
+          series.points.forEach(point => {
+            if (point.x === this.x) {
+              tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
+              s += point.y;
+            }
+          });
+        }
+      });
+      
+      return '<span style="font-size: 10px">Jahr: ' + this.x +
+        '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total beider Basel: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+    } else {
+      return '<span style="font-size: 10px">Jahr: ' + this.x +
+        '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+        + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
+    }
+  }
   },
   "exporting": {
     "filename": "7573"

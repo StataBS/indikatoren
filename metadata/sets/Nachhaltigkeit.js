@@ -913,7 +913,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2015 mit 0,3% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und sinkt ab 2023 wieder. Aktuell liegt die Quote bei 0,8%.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2016 mit 0,4% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen. Aktuell liegt die Quote bei 0,9%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -938,7 +938,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:10:20",
+		"aktualisierungsdatum": "2025-08-22T08:38:45",
 		"id": 5195
 	},
 	{

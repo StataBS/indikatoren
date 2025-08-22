@@ -44,9 +44,14 @@
       }
     },
     series: [
-      { color: "#E7CEE2" },
-      { color: "#B375AB" },
-      { color: "#923F8D" },
+      { color: "#E7CEE2",
+        visible: false
+       },
+      { color: "#B375AB",
+        visible: false
+       },
+      { color: "#923F8D",
+        visible: false },
       { color: "#662673" },
       { color: "#2E1435" } 
     ],
