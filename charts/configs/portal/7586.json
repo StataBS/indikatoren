@@ -86,6 +86,10 @@
         [
           2024,
           0.77
+        ],
+        [
+          2025,
+          0.95
         ]
       ],
       "name": "Basel"
@@ -175,6 +179,10 @@
         ],
         [
           2024,
+          0.44
+        ],
+        [
+          2025,
           0.44
         ]
       ],
@@ -266,6 +274,10 @@
         [
           2024,
           0.54
+        ],
+        [
+          2025,
+          0.36
         ]
       ],
       "name": "Genf"
@@ -355,6 +367,10 @@
         ],
         [
           2024,
+          0.55
+        ],
+        [
+          2025,
           null
         ]
       ],
@@ -445,7 +461,11 @@
         ],
         [
           2024,
-          null
+          0.14
+        ],
+        [
+          2025,
+          0.18
         ]
       ],
       "name": "Winterthur"
@@ -535,7 +555,11 @@
         ],
         [
           2024,
-          null
+          0.07
+        ],
+        [
+          2025,
+          0.1
         ]
       ],
       "name": "Zürich"
@@ -625,7 +649,11 @@
         ],
         [
           2024,
-          null
+          1.08
+        ],
+        [
+          2025,
+          undefined
         ]
       ],
       "name": "Schweiz"
@@ -757,7 +785,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

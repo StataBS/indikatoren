@@ -16,7 +16,7 @@
         "enabled": true,
         "useHTML": true,
         "formatter": function () {
-					return this.point.name.replace(".", ",").replace("4 Zimmer (", "4 Zimmer<br>(");
+					return this.point.name.replace("Zimmer", "Zi.<br>");
 
 				},
         "distance": 15,
@@ -32,28 +32,28 @@
       },
       "data": [
         [
-          "1 Zimmer (0,5%)",
-          22
+          "1 Zimmer (0,7%)",
+          34
         ],
         [
           "2 Zimmer (0,8%)",
-          139
+          132
         ],
         [
-          "3 Zimmer (1,1%)",
-          458
+          "3 Zimmer (1,2%)",
+          504
         ],
         [
-          "4 Zimmer (0,8%)",
-          342
+          "4 Zimmer (0,9%)",
+          390
         ],
         [
           "5 Zimmer (0,3%)",
-          79
+          86
         ],
         [
-          "6 Zimmer (0,3%)",
-          47
+          "6 u.m. Zimmer (0,3%)",
+          50
         ]
       ],
       "name": "Leerwohnungen",
@@ -126,7 +126,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2024",
+    "text": "Basel-Landschaft, 2025",
     "align": "left"
   },
   "tooltip": {
@@ -147,7 +147,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "legend": {
     "layout": "vertical",

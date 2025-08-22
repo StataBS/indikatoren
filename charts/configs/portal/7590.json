@@ -26,23 +26,23 @@
       "data": [
         [
           "Laden",
-          11026
+          12223
         ],
         [
           "Büro",
-          175109
+          132740
         ],
         [
           "Gewerbe",
-          31903
+          37804
         ],
         [
           "Produktion",
-          0
+          100
         ],
         [
           "Lager",
-          31156
+          17572
         ]
       ],
       "name": "Anzahl",
@@ -114,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Anteile 2024",
+    "text": "Basel-Stadt, Anteile 2025",
     "align": "left"
   },
   "tooltip": {
@@ -137,7 +137,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.8.2024"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "legend": {
     "layout": "vertical",

@@ -9,10 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2013",
-          797
-        ],
-        [
           "2014",
           735
         ],
@@ -51,6 +47,14 @@
         [
           "2023",
           1020
+        ],
+        [
+          "2024",
+          1049
+        ],
+        [
+          "2025",
+          1065
         ]
       ],
       "name": "1 Zimmer Mittelwert",
@@ -64,10 +68,6 @@
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2013",
-          1218
-        ],
         [
           "2014",
           1133
@@ -107,6 +107,14 @@
         [
           "2023",
           1302
+        ],
+        [
+          "2024",
+          1374
+        ],
+        [
+          "2025",
+          1413
         ]
       ],
       "name": "2 Zimmer Mittelwert",
@@ -120,10 +128,6 @@
       "index": 2,
       "color": "#68AB2B",
       "data": [
-        [
-          "2013",
-          1570
-        ],
         [
           "2014",
           1632
@@ -163,6 +167,14 @@
         [
           "2023",
           1538
+        ],
+        [
+          "2024",
+          1655
+        ],
+        [
+          "2025",
+          1732
         ]
       ],
       "name": "3 Zimmer Mittelwert",
@@ -176,10 +188,6 @@
       "index": 1,
       "color": "#689199",
       "data": [
-        [
-          "2013",
-          2187
-        ],
         [
           "2014",
           2147
@@ -219,6 +227,14 @@
         [
           "2023",
           2023
+        ],
+        [
+          "2024",
+          2416
+        ],
+        [
+          "2025",
+          2270
         ]
       ],
       "name": "4 Zimmer Mittelwert",
@@ -233,12 +249,8 @@
       "color": "#008AC3",
       "data": [
         [
-          "2013",
-          2751
-        ],
-        [
           "2014",
-          "."
+          null
         ],
         [
           "2015",
@@ -275,6 +287,14 @@
         [
           "2023",
           2899
+        ],
+        [
+          "2024",
+          3161
+        ],
+        [
+          "2025",
+          3084
         ]
       ],
       "name": "5 Zimmer Mittelwert",
@@ -410,7 +430,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 11.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -419,7 +419,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungsquote in Grossstädten und in der Schweiz",
 		"subtitle": "",
-		"lesehilfe": "Mit dem vor gut zehn Jahren einsetzenden Anstieg der Wohnbevölkerung ging auch die Basler Leerwohnungsquote bis 2017 auf Werte im Bereich der anderen grösseren Schweizer Städte zurück. Seit 2019 hat die Stadt Basel die anderen Grossstädte bezüglich der Leerwohnungsziffer deutlich überholt.",
+		"lesehilfe": "Mit dem vor rund 20 Jahren einsetzenden Anstieg der Wohnbevölkerung sank auch die Basler Leerwohnungsquote bis 2017 auf das Niveau der anderen grösseren Schweizer Städte. Seit 2019 weist die Stadt Basel die höhere Leerwohnungsquote auf als die anderen Grossstädte.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -445,7 +445,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:05:01",
+		"aktualisierungsdatum": "2025-08-22T08:38:39",
 		"id": 22299
 	},
 	{

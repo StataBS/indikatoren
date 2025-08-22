@@ -97,7 +97,7 @@
     series: [
       {
         color: '#7F5F1A',
-        index: 0,
+        index: 1,
         legendIndex: 7
       },
       {
@@ -128,7 +128,7 @@
       {
         yAxis: 1,
         color: "#B375AB",
-        index: 1,
+        index: 0,
         type: "line",
         marker: {
           enabled: false
@@ -143,7 +143,38 @@
       },
     ],
     tooltip: {
-      shared: true
-    },
+      formatter() {
+        // If the current series is index 0, show a separate tooltip
+        if (this.series.userOptions.index === 0) {
+          return '<span style="font-size: 10px">Jahr: ' + this.x +
+            '</span><br><span style="color:' + this.color + '">●</span> ' + 
+            this.series.name + ': <b>' + Highcharts.numberFormat(this.y*100, 2, ",", " ") + '%</b><br/>';
+        } 
+        // For all other series (index 1+), show a shared tooltip
+        else {
+          const series = this.series.chart.series;
+          let tooltip = "";
+          let s = 0;
+          
+          series.forEach(series => {
+            // Skip series with index 0 (we want it separate)
+            if (series.userOptions.index !== 0) {
+              series.setState('hover');
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}: <b>${Highcharts.numberFormat(point.y, 0, ",", " ")}</b><br>`;
+                  s += point.y;
+                }
+              });
+            }
+          });
+          
+          return '<span style="font-size: 10px">Jahr: ' + this.x +
+            '</span><br>' + tooltip + 
+            '<span style="opacity: 0">\u25CF</span> Total: <b>' + 
+            Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+        }
+      }
+    }
   };
 }());
