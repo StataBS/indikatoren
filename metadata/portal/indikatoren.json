@@ -6654,7 +6654,7 @@
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2023 mehr als 47% aus, 40% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2024 rund 48% aus, 39% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Kategorie Andere Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -6667,7 +6667,7 @@
 		"description": "Haushalte nach Art des Haushalts",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.4141",
+		"kuerzel": "I.01.TRKE.04141",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "1.4.A1",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
@@ -6680,7 +6680,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:35",
+		"aktualisierungsdatum": "2025-08-25T11:38:07",
 		"id": 4141
 	},
 	{
@@ -12976,7 +12976,7 @@
 		],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden pro 1000 Einwohner 138,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2024 wurden pro 1000 Einwohner 149,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -12990,7 +12990,7 @@
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.4866",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.2.01",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -13003,7 +13003,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:26",
+		"aktualisierungsdatum": "2025-08-25T11:38:08",
 		"id": 4866
 	},
 	{
@@ -37365,7 +37365,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-15T03:31:17",
+		"aktualisierungsdatum": "2025-08-25T11:38:03",
 		"id": 8995
 	},
 	{
@@ -37536,7 +37536,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-15T03:31:19",
+		"aktualisierungsdatum": "2025-08-25T11:38:04",
 		"id": 9022
 	},
 	{
@@ -37574,7 +37574,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-15T03:31:20",
+		"aktualisierungsdatum": "2025-08-25T11:38:06",
 		"id": 9023
 	},
 	{

@@ -5,10 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2011",
-          46280
-        ],
-        [
           "2012",
           47194
         ],
@@ -55,6 +51,10 @@
         [
           "2023",
           48574
+        ],
+        [
+          "2024",
+          49173
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -64,10 +64,6 @@
       "color": "#73b97c",
       "index": 1,
       "data": [
-        [
-          "2011",
-          39996
-        ],
         [
           "2012",
           40193
@@ -115,6 +111,10 @@
         [
           "2023",
           40536
+        ],
+        [
+          "2024",
+          40748
         ]
       ],
       "name": "Familienhaushalte",
@@ -124,10 +124,6 @@
       "color": "#cd9c00",
       "index": 2,
       "data": [
-        [
-          "2011",
-          10908
-        ],
         [
           "2012",
           10807
@@ -175,6 +171,10 @@
         [
           "2023",
           13090
+        ],
+        [
+          "2024",
+          13570
         ]
       ],
       "name": "Andere Haushalte",
@@ -313,7 +313,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.8.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
