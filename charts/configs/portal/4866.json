@@ -62,6 +62,10 @@
         [
           2023,
           138.5
+        ],
+        [
+          2024,
+          149.1
         ]
       ],
       "name": "Anzahl Anzeigen"
@@ -193,7 +197,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 25.8.2025"
   },
   "tooltip": {
     "valueDecimals": 1,
