@@ -472,10 +472,12 @@ var indikatorensetData = [
 		"chart-id": 11912,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22318
+		],
 		"title": "Kantonale Unterschutzstellungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "0,2% der Kantonsfläche galten 2021 als geschützte Flächen.",
+		"lesehilfe": "4,47% der Kantonsfläche galten 2024 als geschützte Flächen.",
 		"erlaeuterungen": "Zu den kantonalen Unterschutzstellungen werden Naturschutzgebiete (inkl. Waldreservate) mit effektivem Flächenschutz (grundeigentümerverbindlicher Schutz oder Schutz durch Vertrag mit dem Eigentümer) gezählt. Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -487,7 +489,7 @@ var indikatorensetData = [
 		],
 		"description": "Kantonale Unterschutzstellungen",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-1",
@@ -500,7 +502,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-09-02T10:25:44",
 		"id": 11912
 	},
 	{

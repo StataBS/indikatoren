@@ -12,14 +12,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2013",
-          1109
-        ],
-        [
-          "2014",
-          1026
-        ],
-        [
           "2015",
           1209
         ],
@@ -50,6 +42,14 @@
         [
           "2022",
           1465
+        ],
+        [
+          "2023",
+          1328
+        ],
+        [
+          "2024",
+          1330
         ]
       ],
       "name": "Eingebürgerte",
@@ -69,14 +69,6 @@
       "stacking": null,
       "legendIndex": 0,
       "data": [
-        [
-          "2013",
-          16.4
-        ],
-        [
-          "2014",
-          14.9
-        ],
         [
           "2015",
           17.4
@@ -108,9 +100,17 @@
         [
           "2022",
           18.9
+        ],
+        [
+          "2023",
+          16.8
+        ],
+        [
+          "2024",
+          16.6
         ]
       ],
-      "name": "Einbürgerungsziffer (rechte Skala)",
+      "name": "Einbürgerungsziffer",
       "turboThreshold": 0
     }
   ],
@@ -187,7 +187,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer"
+    "text": "Einbürgerungen und Einbürgerungsziffer"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -267,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.4.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
   },
   "tooltip": {
     "shared": true

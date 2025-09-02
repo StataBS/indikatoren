@@ -46,6 +46,10 @@
         [
           2023,
           6616
+        ],
+        [
+          2024,
+          6100
         ]
       ],
       "name": "Umzug PHH"
@@ -96,6 +100,10 @@
         [
           2023,
           3430
+        ],
+        [
+          2024,
+          3481
         ]
       ],
       "name": "Wegzug PHH"
@@ -146,6 +154,10 @@
         [
           2023,
           823
+        ],
+        [
+          2024,
+          816
         ]
       ],
       "name": "Zusammenzug PHH"
@@ -196,6 +208,10 @@
         [
           2023,
           4349
+        ],
+        [
+          2024,
+          4153
         ]
       ],
       "name": "Zuzug PHH"
@@ -246,6 +262,10 @@
         [
           2023,
           41
+        ],
+        [
+          2024,
+          42
         ]
       ],
       "name": "Keine Zuordnung möglich"
@@ -376,7 +396,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.7.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

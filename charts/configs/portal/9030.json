@@ -25,11 +25,19 @@
         ],
         [
           2021,
-          226828
+          227347
         ],
         [
           2022,
-          229603
+          233160
+        ],
+        [
+          2023,
+          184676
+        ],
+        [
+          2024,
+          187449
         ]
       ],
       "name": "Anzahl bezahlte Ordnungsbussen"
@@ -151,7 +159,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
