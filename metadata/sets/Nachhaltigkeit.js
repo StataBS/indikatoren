@@ -288,7 +288,7 @@ var indikatorensetData = [
 		],
 		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Geburtenziffer liegt 2023 bei 9,1 Lebendgeborenen und die Sterbeziffer bei 10,0 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die Geburtenziffer liegt 2024 bei 8,6 Lebendgeborenen und die Sterbeziffer bei 10,2 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -313,7 +313,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:40",
+		"aktualisierungsdatum": "2025-09-02T10:25:41",
 		"id": 5149
 	},
 	{
@@ -1901,7 +1901,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,1% im Jahr 2023 auf 3,8% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,0% im Jahr 2023 auf 3,7% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1926,7 +1926,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:03:03",
+		"aktualisierungsdatum": "2025-09-02T10:25:46",
 		"id": 6053
 	},
 	{

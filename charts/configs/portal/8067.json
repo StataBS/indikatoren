@@ -86,6 +86,10 @@
         [
           2023,
           0
+        ],
+        [
+          2024,
+          0
         ]
       ],
       "name": "Neubau"
@@ -175,6 +179,10 @@
         ],
         [
           2023,
+          0
+        ],
+        [
+          2024,
           0
         ]
       ],
@@ -266,6 +274,10 @@
         [
           2023,
           10
+        ],
+        [
+          2024,
+          16
         ]
       ],
       "name": "Umbausaldo"
@@ -361,6 +373,10 @@
         [
           2023,
           10
+        ],
+        [
+          2024,
+          16
         ]
       ],
       "name": "Nettowohnungsproduktion"
@@ -505,7 +521,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
   },
   "tooltip": {
     "shared": true

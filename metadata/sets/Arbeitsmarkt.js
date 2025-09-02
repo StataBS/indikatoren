@@ -441,7 +441,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2024 liegt sie mit 4,3% knapp über der durchschnittlichen Quote (4,2%). Die Quote der Personen ab 50 liegt Ende 2024 bei 3,5%.",
+		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2024 liegt sie mit 4,3% knapp über der durchschnittlichen Quote (4,2%). Die Quote der Personen ab 50 liegt Ende 2024 bei 3,4%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:20",
+		"aktualisierungsdatum": "2025-09-02T10:25:34",
 		"id": 2423
 	},
 	{
@@ -482,7 +482,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,3% im September auf 6,6% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,6% gestiegen, den höchsten Wert der letzten zehn Jahre.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,2% im September auf 6,4% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,1% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -507,7 +507,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:22",
+		"aktualisierungsdatum": "2025-09-02T10:25:35",
 		"id": 2424
 	},
 	{
@@ -664,7 +664,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:19",
+		"aktualisierungsdatum": "2025-09-02T10:25:33",
 		"id": 2459
 	},
 	{

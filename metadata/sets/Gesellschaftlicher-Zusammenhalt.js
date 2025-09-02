@@ -174,9 +174,9 @@ var indikatorensetData = [
 			8933,
 			10040
 		],
-		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"title": "Einbürgerungen und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 liessen sich 1 328 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 16,8.",
+		"lesehilfe": "Im Jahr 2024 erwarben 1 330 Personen das Schweizer Bürgerrecht. Dies entspricht einer Einbürgerungsziffer von 16,6.",
 		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"description": "Einbürgerungen und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kuerzel": "",
@@ -201,7 +201,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-17T08:00:49",
+		"aktualisierungsdatum": "2025-09-02T10:25:32",
 		"id": 4722
 	},
 	{
@@ -1079,7 +1079,7 @@ var indikatorensetData = [
 		],
 		"title": "Angezeigte Straftaten betreffend Diebstahl",
 		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 41,8 Anzeigen wegen Diebstahl erstattet.",
+		"lesehilfe": "Im Jahr 2024 wurden pro 1000 Einwohner 48,0 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1093,7 +1093,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.4868",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.2.03",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -1105,7 +1105,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:34",
+		"aktualisierungsdatum": "2025-09-02T10:25:28",
 		"id": 4868
 	},
 	{
@@ -1119,7 +1119,7 @@ var indikatorensetData = [
 		],
 		"title": "Angezeigte Straftaten betreffend Körperverletzung",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 2,0 Anzeigen wegen Körperverletzung erstattet.",
+		"lesehilfe": "Im Jahr 2024 wurden pro 1000 Einwohner 1,8 Anzeigen wegen Körperverletzung erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1133,7 +1133,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.4869",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.2.04",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -1145,7 +1145,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:35",
+		"aktualisierungsdatum": "2025-09-02T10:25:29",
 		"id": 4869
 	},
 	{
@@ -1403,7 +1403,7 @@ var indikatorensetData = [
 		],
 		"title": "Ordnungsbussen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden im Kanton Basel-Stadt insgesamt 229 603 Ordnungsbussen bezahlt.",
+		"lesehilfe": "Im Jahr 2024 wurden im Kanton Basel-Stadt insgesamt 187 449 Ordnungsbussen bezahlt.",
 		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt. Infolge Nachmeldung bezahlter Ordnungsbussen sind Änderungen gegenüber bereits veröffentlichter Vorjahreszahlen möglich.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -1428,7 +1428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-07T09:17:28",
+		"aktualisierungsdatum": "2025-09-02T10:25:30",
 		"id": 9030
 	},
 	{

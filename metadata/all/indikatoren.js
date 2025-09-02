@@ -507,10 +507,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "4722",
 		"children": [],
-		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"title": "Einbürgerungen und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 liessen sich 1 465 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 18,9 Einbürgerungen pro 1000 ausländischen Staatsangehörigen.",
-		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende.",
+		"lesehilfe": "Im Jahr 2024 erwarben 1 330 Personen das Schweizer Bürgerrecht. Dies entspricht einer Einbürgerungsziffer von 16,6.",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -519,11 +519,11 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"description": "Einbürgerungen und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kuerzel": "I.01.6.10040",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen",
 		"kuerzelKunde": "2.1.3",
 		"stufe1": "Zusammenhalt",
 		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
@@ -535,7 +535,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-12T12:04:52",
+		"aktualisierungsdatum": "2025-09-02T10:25:23",
 		"id": 10040
 	},
 	{
@@ -2399,10 +2399,12 @@ var indikatoren = [
 		"chart-id": 11912,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22318
+		],
 		"title": "Kantonale Unterschutzstellungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "0,2% der Kantonsfläche galten 2021 als geschützte Flächen.",
+		"lesehilfe": "4,47% der Kantonsfläche galten 2024 als geschützte Flächen.",
 		"erlaeuterungen": "Zu den kantonalen Unterschutzstellungen werden Naturschutzgebiete (inkl. Waldreservate) mit effektivem Flächenschutz (grundeigentümerverbindlicher Schutz oder Schutz durch Vertrag mit dem Eigentümer) gezählt. Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -2414,7 +2416,7 @@ var indikatoren = [
 		],
 		"description": "Kantonale Unterschutzstellungen",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-1",
@@ -2428,7 +2430,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-09-02T10:25:44",
 		"id": 11912
 	},
 	{
@@ -8462,7 +8464,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2024 liegt sie mit 4,3% knapp über der durchschnittlichen Quote (4,2%). Die Quote der Personen ab 50 liegt Ende 2024 bei 3,5%.",
+		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt hatte im Juli 2020 mit 6,2% einen Höchstwert erreicht. Am Jahresende 2024 liegt sie mit 4,3% knapp über der durchschnittlichen Quote (4,2%). Die Quote der Personen ab 50 liegt Ende 2024 bei 3,4%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -8488,7 +8490,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:20",
+		"aktualisierungsdatum": "2025-09-02T10:25:34",
 		"id": 2423
 	},
 	{
@@ -8504,7 +8506,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,3% im September auf 6,6% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,6% gestiegen, den höchsten Wert der letzten zehn Jahre.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,2% im September auf 6,4% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,1% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -8530,7 +8532,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:22",
+		"aktualisierungsdatum": "2025-09-02T10:25:35",
 		"id": 2424
 	},
 	{
@@ -8691,7 +8693,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:19",
+		"aktualisierungsdatum": "2025-09-02T10:25:33",
 		"id": 2459
 	},
 	{
@@ -9345,7 +9347,7 @@ var indikatoren = [
 		],
 		"title": "Ansiedlungen von Firmen aus dem Ausland",
 		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"lesehilfe": "Im Jahr 2023 gab es 25 durch BaselArea unterstützte Firmenansiedlungen aus dem Ausland. Zusätzlich wurden 2023 neun Ansiedlungen von Unternehmen verzeichnet, die aus der übrigen Schweiz in die Region zugezogen sind.",
+		"lesehilfe": "Im Jahr 2023 gab es 30 durch BaselArea unterstützte Firmenansiedlungen aus dem Ausland. Zusätzlich wurden 2024 fünf Ansiedlungen von Unternehmen verzeichnet, die aus der übrigen Schweiz in die Region gezogen sind.",
 		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"quellenangabe": [
 			"BaselArea"
@@ -9371,7 +9373,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:41",
+		"aktualisierungsdatum": "2025-09-02T10:25:09",
 		"id": 3086
 	},
 	{
@@ -14909,9 +14911,9 @@ var indikatoren = [
 			8933,
 			10040
 		],
-		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"title": "Einbürgerungen und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 liessen sich 1 328 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 16,8.",
+		"lesehilfe": "Im Jahr 2024 erwarben 1 330 Personen das Schweizer Bürgerrecht. Dies entspricht einer Einbürgerungsziffer von 16,6.",
 		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14921,7 +14923,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"description": "Einbürgerungen und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kuerzel": "",
@@ -14937,7 +14939,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-17T08:00:49",
+		"aktualisierungsdatum": "2025-09-02T10:25:32",
 		"id": 4722
 	},
 	{
@@ -16519,7 +16521,7 @@ var indikatoren = [
 		],
 		"title": "Angezeigte Straftaten betreffend Diebstahl",
 		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 41,8 Anzeigen wegen Diebstahl erstattet.",
+		"lesehilfe": "Im Jahr 2024 wurden pro 1000 Einwohner 48,0 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -16533,7 +16535,7 @@ var indikatoren = [
 		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.4868",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.2.03",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -16546,7 +16548,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:34",
+		"aktualisierungsdatum": "2025-09-02T10:25:28",
 		"id": 4868
 	},
 	{
@@ -16560,7 +16562,7 @@ var indikatoren = [
 		],
 		"title": "Angezeigte Straftaten betreffend Körperverletzung",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden pro 1000 Einwohner 2,0 Anzeigen wegen Körperverletzung erstattet.",
+		"lesehilfe": "Im Jahr 2024 wurden pro 1000 Einwohner 1,8 Anzeigen wegen Körperverletzung erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die Basler Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -16574,7 +16576,7 @@ var indikatoren = [
 		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.4869",
+		"kuerzel": "",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.2.04",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -16587,7 +16589,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:35",
+		"aktualisierungsdatum": "2025-09-02T10:25:29",
 		"id": 4869
 	},
 	{
@@ -18079,7 +18081,7 @@ var indikatoren = [
 		],
 		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Geburtenziffer liegt 2023 bei 9,1 Lebendgeborenen und die Sterbeziffer bei 10,0 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die Geburtenziffer liegt 2024 bei 8,6 Lebendgeborenen und die Sterbeziffer bei 10,2 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18105,7 +18107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-03T09:08:40",
+		"aktualisierungsdatum": "2025-09-02T10:25:41",
 		"id": 5149
 	},
 	{
@@ -21076,7 +21078,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,1% im Jahr 2023 auf 3,8% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,0% im Jahr 2023 auf 3,7% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -21102,7 +21104,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:03:03",
+		"aktualisierungsdatum": "2025-09-02T10:25:46",
 		"id": 6053
 	},
 	{
@@ -27631,8 +27633,8 @@ var indikatoren = [
 			6778
 		],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (54%) und Kleinhüningen (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). Im Wohnviertel Klybeck bildeten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -27646,7 +27648,7 @@ var indikatoren = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06381",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C1-3",
 		"stufe1": "kontinuierlich klassifiziert",
@@ -27659,7 +27661,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:32",
+		"aktualisierungsdatum": "2025-09-02T10:25:43",
 		"id": 6381
 	},
 	{
@@ -54368,7 +54370,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:11",
+		"aktualisierungsdatum": "2025-09-02T10:25:37",
 		"id": 8063
 	},
 	{
@@ -54502,7 +54504,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 und 157 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -54528,7 +54530,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:15",
+		"aktualisierungsdatum": "2025-09-02T10:25:38",
 		"id": 8067
 	},
 	{
@@ -56324,7 +56326,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 4,5% im Sommer auf 6,1% im Dezember 2023 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2023 auf 4,5% gestiegen.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,2% im September auf 6,4% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,1% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -56336,9 +56338,9 @@ var indikatoren = [
 		],
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.08252",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen",
 		"kuerzelKunde": "1.1.7",
 		"stufe1": "Leben",
 		"stufe2": "1.1 Armut",
@@ -56350,7 +56352,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-12T12:04:35",
+		"aktualisierungsdatum": "2025-09-02T10:25:18",
 		"id": 8252
 	},
 	{
@@ -57120,16 +57122,11 @@ var indikatoren = [
 		"data-id": 8355,
 		"chart-id": 8355,
 		"filter": "",
-		"parentId": null,
-		"children": [
-			8472,
-			9361,
-			9420,
-			9586
-		],
+		"parentId": "9361",
+		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 fast verdreifacht, diejenige in der Chemie hat sich verdoppelt. Das Gastgewerbe hat während der COVID-19-Pandemie erhebliche Wertschöpfungseinbussen erlitten. Inzwischen liegt die Wertschöpfung im Gastgewerbe fast wieder auf dem Niveau von 2019.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -57153,9 +57150,9 @@ var indikatoren = [
 		"orderKey": "01_02_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-10T04:59:48",
+		"aktualisierungsdatum": "2025-09-02T10:25:20",
 		"id": 8355
 	},
 	{
@@ -72142,7 +72139,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-25T11:38:03",
+		"aktualisierungsdatum": "2025-09-02T10:25:11",
 		"id": 8995
 	},
 	{
@@ -72515,7 +72512,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-25T11:38:04",
+		"aktualisierungsdatum": "2025-09-02T10:25:12",
 		"id": 9022
 	},
 	{
@@ -72553,7 +72550,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-25T11:38:06",
+		"aktualisierungsdatum": "2025-09-02T10:25:14",
 		"id": 9023
 	},
 	{
@@ -72567,7 +72564,7 @@ var indikatoren = [
 		],
 		"title": "Ordnungsbussen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden im Kanton Basel-Stadt insgesamt 229 603 Ordnungsbussen bezahlt.",
+		"lesehilfe": "Im Jahr 2024 wurden im Kanton Basel-Stadt insgesamt 187 449 Ordnungsbussen bezahlt.",
 		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt. Infolge Nachmeldung bezahlter Ordnungsbussen sind Änderungen gegenüber bereits veröffentlichter Vorjahreszahlen möglich.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -72593,7 +72590,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-07T09:17:28",
+		"aktualisierungsdatum": "2025-09-02T10:25:30",
 		"id": 9030
 	},
 	{
@@ -77139,11 +77136,16 @@ var indikatoren = [
 		"data-id": 9361,
 		"chart-id": 8355,
 		"filter": "",
-		"parentId": "8355",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8355,
+			8472,
+			9420,
+			9586
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 fast verdreifacht, diejenige in der Chemie hat sich verdoppelt. Das Gastgewerbe hat während der COVID-19-Pandemie erhebliche Wertschöpfungseinbussen erlitten. Inzwischen liegt die Wertschöpfung im Gastgewerbe fast wieder auf dem Niveau von 2019.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -77167,9 +77169,9 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-12T08:23:59",
+		"aktualisierungsdatum": "2025-09-02T10:25:21",
 		"id": 9361
 	},
 	{
@@ -81106,11 +81108,11 @@ var indikatoren = [
 		"data-id": 9586,
 		"chart-id": 9586,
 		"filter": "",
-		"parentId": "8355",
+		"parentId": "9361",
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 fast verdreifacht, diejenige in der Chemie hat sich verdoppelt. Das Gastgewerbe hat während der COVID-19-Pandemie erhebliche Wertschöpfungseinbussen erlitten. Inzwischen liegt die Wertschöpfung im Gastgewerbe fast wieder auf dem Niveau von 2019.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -81136,7 +81138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-12T08:24:01",
+		"aktualisierungsdatum": "2025-09-02T10:25:26",
 		"id": 9586
 	},
 	{
@@ -84465,7 +84467,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl gewanderte Privathaushalte",
 		"subtitle": "nach Wanderungstyp, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind 6 616 Privathaushalte umgezogen, 4 349 zugezogen und 3 430 weggezogen. Zudem gab es 823 Zusammenzüge.",
+		"lesehilfe": "Im Jahr 2024 sind 6 100 Privathaushalte umgezogen, 4 153 zugezogen und 3 481 weggezogen. Zudem gab es 816 Zusammenzüge.",
 		"erlaeuterungen": "Einen Haushalt bilden alle Personen, die in derselben Wohnung leben. Ein Privathaushalt (PHH) gilt innerhalb eines Quartals als «gewandert», wenn für jede Person im Haushalt in den drei Monaten dieses Quartals das Ereignis Umzug, Zuzug oder Wegzug vorliegt. Bei den ausgewiesenen Zahlen zur Wanderung der PHH nach Jahr handelt es sich um summierte Quartalszahlen. Sie werden für die folgenden vier Wanderungstypen ausgewiesen: Umzug PHH, Zuzug PHH, Zusammenzug PHH und Wegzug PHH.<br>Umzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung im Kanton Basel-Stadt gemeinsam in eine andere Wohnung in Basel-Stadt umgezogen. <br>Wegzug PHH: Alle Personen des Privathaushalts sind während eines Quartals aus derselben Wohnung aus dem Kanton Basel-Stadt weggezogen. <br>Zuzug PHH: Alle Personen des Privathaushalts sind während eines Quartals in dieselbe Wohnung in Basel-Stadt zugezogen. Alle Personen hatten zuvor einen Wohnort ausserhalb von Basel-Stadt. Der Wohnort vor dem Zuzug muss nicht für alle Personen gleich gewesen sein.<br>Zusammenzug PHH: Die Personen des Privathaushalts sind in einem Quartal in dieselbe Wohnung in Basel-Stadt zusammengezogen. Vor dem Zusammenzug gab es mindestens zwei unterschiedliche Wohnorte in Basel-Stadt oder mindestens eine Person ist von ausserhalb des Kantons zugezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -84491,7 +84493,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-17T08:00:46",
+		"aktualisierungsdatum": "2025-09-02T10:25:16",
 		"id": 9800
 	},
 	{

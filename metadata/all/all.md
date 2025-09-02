@@ -1430,7 +1430,7 @@ id | visible | visibleInPortal | indikatorenset
 8249 | false |  | CMS Kennzahlen Soziales
 8250 | false |  | CMS Kennzahlen Soziales
 8251 | true | false | CMS Kennzahlen Soziales
-8252 | true | false | CMS Kennzahlen Soziales
+8252 | true | false | CMS Kennzahlen
 8253 | false |  | CMS Kennzahlen Soziales
 8254 | false |  | CMS Kennzahlen Soziales
 8255 | true | false | CMS Kennzahlen Soziales
@@ -1503,7 +1503,7 @@ id | visible | visibleInPortal | indikatorenset
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
 8354 | true | true | Wirtschaftsbericht BS_BL_JU
-8355 | true | true | Wirtschaftsbericht BS_BL_JU
+8355 | true | false | Wirtschaftsbericht BS_BL_JU
 8356 | true | true | Wirtschaftsbericht BS_BL_JU
 8357 | true | true | Wirtschaftsbericht BS_BL_JU
 8358 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -2068,7 +2068,7 @@ id | visible | visibleInPortal | indikatorenset
 9346 | true | true | 
 9359 | true | false | 
 9360 | true | false | 
-9361 | true | false | Legislaturplan
+9361 | true | true | Legislaturplan
 9363 | true | false | Legislaturplan
 9365 | true | false | Legislaturplan
 9366 | true | true | Legislaturplan
@@ -2311,7 +2311,7 @@ id | visible | visibleInPortal | indikatorenset
 10037 | true | false | CMS Kennzahlen Soziales
 10038 | true | false | CMS Kennzahlen Soziales
 10039 | true | false | CMS Kennzahlen Soziales
-10040 | true | false | CMS Kennzahlen Soziales
+10040 | true | false | CMS Kennzahlen
 10041 | true | false | CMS Kennzahlen
 10043 | false |  | CMS Kennzahlen Soziales
 10044 | true | false | CMS Kennzahlen Soziales

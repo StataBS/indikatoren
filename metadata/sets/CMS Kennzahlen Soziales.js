@@ -334,43 +334,6 @@ var indikatorensetData = [
 		"id": 10039
 	},
 	{
-		"template": "template001",
-		"data-id": 10040,
-		"chart-id": 4722,
-		"filter": "",
-		"parentId": "4722",
-		"children": [],
-		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 liessen sich 1 465 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 18,9 Einbürgerungen pro 1000 ausländischen Staatsangehörigen.",
-		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Einbürgerungen",
-		"kuerzel": "I.01.6.10040",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2.1.3",
-		"stufe1": "Zusammenhalt",
-		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_01_00_00_00_404",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-12T12:04:52",
-		"id": 10040
-	},
-	{
 		"template": "befragungen001",
 		"data-id": 10044,
 		"chart-id": 4872,
@@ -858,43 +821,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-04-12T12:04:34",
 		"id": 8251
-	},
-	{
-		"template": "line001",
-		"data-id": 8252,
-		"chart-id": 8252,
-		"filter": "",
-		"parentId": "2424",
-		"children": [],
-		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 4,5% im Sommer auf 6,1% im Dezember 2023 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2023 auf 4,5% gestiegen.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.08252",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1.1.7",
-		"stufe1": "Leben",
-		"stufe2": "1.1 Armut",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_108",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-12T12:04:35",
-		"id": 8252
 	},
 	{
 		"template": "template001",

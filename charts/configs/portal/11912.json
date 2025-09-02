@@ -49,7 +49,19 @@
         ],
         [
           "2021",
-          0.2
+          3.22
+        ],
+        [
+          "2022",
+          3.34
+        ],
+        [
+          "2023",
+          4.47
+        ],
+        [
+          "2024",
+          4.47
         ]
       ],
       "name": "Kantonale Unterschutzstellungen",
@@ -153,7 +165,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.2f}%"
+      "format": "{value:,.0f}%"
     }
   },
   "legend": {
@@ -182,10 +194,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "11912"
