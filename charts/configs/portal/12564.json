@@ -5,10 +5,6 @@
       "zIndex": 2,
       "data": [
         [
-          2013,
-          188491
-        ],
-        [
           2014,
           191155
         ],
@@ -46,7 +42,7 @@
         ],
         [
           2023,
-          null
+          199745
         ],
         [
           2024,
@@ -104,10 +100,6 @@
       "dashStyle": "ShortDash",
       "color": "#999999",
       "data": [
-        [
-          2013,
-          null
-        ],
         [
           2014,
           null
@@ -203,10 +195,6 @@
       "visible": false,
       "showInLegend": false,
       "data": [
-        [
-          2013,
-          null
-        ],
         [
           2014,
           null
@@ -481,7 +469,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2025"
   },
   "tooltip": {
     "valueDecimals": 0,
