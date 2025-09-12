@@ -3237,88 +3237,88 @@
       },
       "data": [
         [
-          7,
-          0.1259349
+          4,
+          0.1234472
         ],
         [
-          4,
-          0.1335945
+          7,
+          0.1248319
         ],
         [
           20,
-          0.1602415
-        ],
-        [
-          30,
-          0.1682024
+          0.1581902
         ],
         [
           10,
-          0.1701474
+          0.1702679
+        ],
+        [
+          30,
+          0.1733211
         ],
         [
           17,
-          0.1707404
+          0.1812646
         ],
         [
           8,
-          0.1877518
-        ],
-        [
-          15,
-          0.2741092
+          0.1879078
         ],
         [
           9,
-          0.277503
+          0.2271224
+        ],
+        [
+          15,
+          0.2573189
         ],
         [
           18,
-          0.4747587
+          0.477894
         ],
         [
           13,
-          0.5112475
+          0.5085811
         ],
         [
           6,
-          0.614486
+          0.5826957
         ],
         [
           16,
-          0.6423468
+          0.6843255
         ],
         [
           3,
-          0.9756945
+          0.9830061
         ],
         [
           11,
-          1.0291006
+          1.0093294
         ],
         [
           12,
-          1.723828
+          1.6487677
         ],
         [
           14,
-          1.850965
+          1.8951598
         ],
         [
           5,
-          2.3216055
+          2.2428013
         ],
         [
           19,
-          2.6768757
+          2.9111784
         ],
         [
           1,
-          3.6268679
+          3.4463677
         ],
         [
           2,
-          4.6147369
+          4.78085
         ]
       ]
     },
@@ -3329,11 +3329,11 @@
       "data": [
         [
           1,
-          "Bruderholz"
+          "Breite"
         ],
         [
           2,
-          "Breite"
+          "Bruderholz"
         ],
         [
           3,
@@ -3341,11 +3341,11 @@
         ],
         [
           4,
-          "Bettingen"
+          "Iselin"
         ],
         [
           5,
-          "Iselin"
+          "Bettingen"
         ],
         [
           6,
@@ -3357,11 +3357,11 @@
         ],
         [
           8,
-          "Hirzbrunnen"
+          "Gotthelf"
         ],
         [
           9,
-          "Gotthelf"
+          "Hirzbrunnen"
         ],
         [
           10,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "colorAxis": {
     "min": 0,

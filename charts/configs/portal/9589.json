@@ -5,50 +5,50 @@
       "data": [
         [
           "Waren verschiedener Art",
-          -0.0263157895
+          0.0857142857
         ],
         [
           "Nahrungs-, Genussmitel, Tabak",
-          -0.046875
+          -0.0333333333
         ],
         [
           "Informatik und Elektronik",
-          0
+          -0.0625
         ],
         [
           "Haushaltsgeräte, Textilien, Möbel",
-          0
+          -0.0212765957
         ],
         [
           "Verlagsprod., Sport- und Spielwaren",
-          -0.1791044776
+          -0.1515151515
         ],
         [
           "Bekleidung, Lederwaren",
-          -0.124260355
+          -0.156626506
         ],
         [
           "Apotheken, Körperpflege",
-          -0.02
+          -0.1153846154
         ],
         [
           "Uhren, Schmuck",
-          -0.0526315789
+          -0.1794871795
         ],
         [
           "Antiquitäten, Gebrauchtwaren",
-          0.125
+          -0.0555555556
         ],
         [
           "Sonstiger Detailhandel",
-          -0.0434782609
+          -0.0322580645
         ],
         [
           "Total Detailhandel",
-          -0.07
+          -0.0912162162
         ]
       ],
-      "name": "Veränderung zwischen 2018 und 2022",
+      "name": "Veränderung zwischen 2019 und 2023",
       "turboThreshold": 0
     }
   ],
@@ -135,7 +135,7 @@
     "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Innenstadt Basel, 2022 gegenüber 2018",
+    "text": "Innenstadt Basel, 2023 gegenüber 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -193,7 +193,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "tooltip": {
     "pointFormatter": function () {

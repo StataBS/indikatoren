@@ -5,10 +5,6 @@
       "index": 12,
       "data": [
         [
-          "2013",
-          28
-        ],
-        [
           "2014",
           29
         ],
@@ -43,6 +39,10 @@
         [
           "2022",
           37
+        ],
+        [
+          "2023",
+          38
         ]
       ],
       "name": "Waren verschiedener Art",
@@ -52,10 +52,6 @@
       "color": "#B6CFD7",
       "index": 11,
       "data": [
-        [
-          "2013",
-          63
-        ],
         [
           "2014",
           65
@@ -91,6 +87,10 @@
         [
           "2022",
           61
+        ],
+        [
+          "2023",
+          58
         ]
       ],
       "name": "Nahrungs-, Genussmitel, Tabak",
@@ -100,10 +100,6 @@
       "color": "#007A2F",
       "index": 10,
       "data": [
-        [
-          "2013",
-          16
-        ],
         [
           "2014",
           18
@@ -139,6 +135,10 @@
         [
           "2022",
           15
+        ],
+        [
+          "2023",
+          15
         ]
       ],
       "name": "Informatik und Elektronik",
@@ -148,10 +148,6 @@
       "color": "#FFDA80",
       "index": 9,
       "data": [
-        [
-          "2013",
-          66
-        ],
         [
           "2014",
           60
@@ -187,6 +183,10 @@
         [
           "2022",
           51
+        ],
+        [
+          "2023",
+          46
         ]
       ],
       "name": "Haushaltsgeräte, Textilien, Möbel",
@@ -196,10 +196,6 @@
       "color": "#FFBB58",
       "index": 8,
       "data": [
-        [
-          "2013",
-          70
-        ],
         [
           "2014",
           64
@@ -235,6 +231,10 @@
         [
           "2022",
           55
+        ],
+        [
+          "2023",
+          56
         ]
       ],
       "name": "Verlagsprod., Sport- und Spielwaren",
@@ -244,10 +244,6 @@
       "color": "#689199",
       "index": 6,
       "data": [
-        [
-          "2013",
-          214
-        ],
         [
           "2014",
           203
@@ -283,6 +279,10 @@
         [
           "2022",
           148
+        ],
+        [
+          "2023",
+          140
         ]
       ],
       "name": "Bekleidung, Lederwaren",
@@ -292,10 +292,6 @@
       "color": "#008AC3",
       "index": 3,
       "data": [
-        [
-          "2013",
-          44
-        ],
         [
           "2014",
           44
@@ -331,6 +327,10 @@
         [
           "2022",
           49
+        ],
+        [
+          "2023",
+          46
         ]
       ],
       "name": "Apotheken, Körperpflege",
@@ -340,10 +340,6 @@
       "color": "#C8C8C8",
       "index": 2,
       "data": [
-        [
-          "2013",
-          39
-        ],
         [
           "2014",
           37
@@ -379,6 +375,10 @@
         [
           "2022",
           36
+        ],
+        [
+          "2023",
+          32
         ]
       ],
       "name": "Uhren, Schmuck",
@@ -388,10 +388,6 @@
       "color": "#2B0099",
       "index": 1,
       "data": [
-        [
-          "2013",
-          26
-        ],
         [
           "2014",
           23
@@ -427,6 +423,10 @@
         [
           "2022",
           18
+        ],
+        [
+          "2023",
+          17
         ]
       ],
       "name": "Antiquitäten, Gebrauchtwaren",
@@ -436,10 +436,6 @@
       "color": "#8A8A8A",
       "index": 0,
       "data": [
-        [
-          "2013",
-          107
-        ],
         [
           "2014",
           111
@@ -475,6 +471,10 @@
         [
           "2022",
           88
+        ],
+        [
+          "2023",
+          90
         ]
       ],
       "name": "Sonstiger Detailhandel",
@@ -624,7 +624,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "tooltip": {
     "shared": true,

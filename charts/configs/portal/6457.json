@@ -4,10 +4,6 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2013",
-          5091
-        ],
-        [
           "2014",
           5173
         ],
@@ -42,6 +38,10 @@
         [
           "2022",
           5479
+        ],
+        [
+          "2023",
+          5621
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -50,10 +50,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2013",
-          7632
-        ],
         [
           "2014",
           7932
@@ -89,6 +85,10 @@
         [
           "2022",
           9197
+        ],
+        [
+          "2023",
+          9188
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -97,10 +97,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2013",
-          19954
-        ],
         [
           "2014",
           20402
@@ -136,6 +132,10 @@
         [
           "2022",
           24693
+        ],
+        [
+          "2023",
+          25306
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -144,10 +144,6 @@
     {
       "color": "#2B0099",
       "data": [
-        [
-          "2013",
-          6991
-        ],
         [
           "2014",
           7088
@@ -183,6 +179,10 @@
         [
           "2022",
           7217
+        ],
+        [
+          "2023",
+          7317
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -318,7 +318,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

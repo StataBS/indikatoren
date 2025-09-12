@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Bruderholz",
-          0.1259349
+          "Breite",
+          0.1234472
         ],
         [
-          "Breite",
-          0.1335945
+          "Bruderholz",
+          0.1248319
         ],
         [
           "Riehen",
-          0.1602415
-        ],
-        [
-          "Bettingen",
-          0.1682024
+          0.1581902
         ],
         [
           "Iselin",
-          0.1701474
+          0.1702679
+        ],
+        [
+          "Bettingen",
+          0.1733211
         ],
         [
           "Matthäus",
-          0.1707404
+          0.1812646
         ],
         [
           "Bachletten",
-          0.1877518
-        ],
-        [
-          "Hirzbrunnen",
-          0.2741092
+          0.1879078
         ],
         [
           "Gotthelf",
-          0.277503
+          0.2271224
+        ],
+        [
+          "Hirzbrunnen",
+          0.2573189
         ],
         [
           "Klybeck",
-          0.4747587
+          0.477894
         ],
         [
           "Clara",
-          0.5112475
+          0.5085811
         ],
         [
           "Gundeldingen",
-          0.614486
+          0.5826957
         ],
         [
           "Rosental",
-          0.6423468
+          0.6843255
         ],
         [
           "Am Ring",
-          0.9756945
+          0.9830061
         ],
         [
           "St. Johann",
-          1.0291006
+          1.0093294
         ],
         [
           "Altstadt Kleinbasel",
-          1.723828
+          1.6487677
         ],
         [
           "Wettstein",
-          1.850965
+          1.8951598
         ],
         [
           "St. Alban",
-          2.3216055
+          2.2428013
         ],
         [
           "Kleinhüningen",
-          2.6768757
+          2.9111784
         ],
         [
           "Altstadt Grossbasel",
-          3.6268679
+          3.4463677
         ],
         [
           "Vorstädte",
-          4.6147369
+          4.78085
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Bruderholz",
+          "Breite",
           1
         ],
         [
-          "Breite",
+          "Bruderholz",
           2
         ],
         [
@@ -107,11 +107,11 @@
           3
         ],
         [
-          "Bettingen",
+          "Iselin",
           4
         ],
         [
-          "Iselin",
+          "Bettingen",
           5
         ],
         [
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Hirzbrunnen",
+          "Gotthelf",
           8
         ],
         [
-          "Gotthelf",
+          "Hirzbrunnen",
           9
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, 2023",
     "align": "left"
   },
   "plotOptions": {
@@ -288,7 +288,8 @@
       }
     },
     "min": 0,
-    "text": ""
+    "text": "",
+    "max": 5
   },
   "credits": {
     "enabled": true,
@@ -303,7 +304,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "legend": {
     "enabled": false,

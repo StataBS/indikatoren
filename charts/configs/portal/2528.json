@@ -4,10 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2013",
-          7972
-        ],
-        [
           "2014",
           7940
         ],
@@ -42,6 +38,10 @@
         [
           "2022",
           6974
+        ],
+        [
+          "2023",
+          7287
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -50,10 +50,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2013",
-          18079
-        ],
         [
           "2014",
           18192
@@ -89,6 +85,10 @@
         [
           "2022",
           17541
+        ],
+        [
+          "2023",
+          17514
         ]
       ],
       "name": "Chemie, Pharma",
@@ -97,10 +97,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2013",
-          7308
-        ],
         [
           "2014",
           7686
@@ -136,6 +132,10 @@
         [
           "2022",
           6654
+        ],
+        [
+          "2023",
+          6671
         ]
       ],
       "name": "Baugewerbe",
@@ -265,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

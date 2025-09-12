@@ -5,73 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          7301
-        ],
-        [
-          "Chemie, Pharma",
-          17638
-        ],
-        [
-          "Baugewerbe",
-          7134
-        ],
-        [
-          "Handel, Reparatur",
-          11362
-        ],
-        [
-          "Verkehr, Lagerei",
-          9317
-        ],
-        [
-          "Gastgewerbe",
-          5678
-        ],
-        [
-          "Information, Kommunikation",
-          4406
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          9890
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          20389
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5051
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6270
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5408
-        ],
-        [
-          "Erziehung, Unterricht",
-          8706
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          23001
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7015
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           7119
         ],
         [
@@ -135,7 +68,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -199,6 +132,73 @@
         ]
       ],
       "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          7287
+        ],
+        [
+          "Chemie, Pharma",
+          17514
+        ],
+        [
+          "Baugewerbe",
+          6671
+        ],
+        [
+          "Handel, Reparatur",
+          11589
+        ],
+        [
+          "Verkehr, Lagerei",
+          9944
+        ],
+        [
+          "Gastgewerbe",
+          7814
+        ],
+        [
+          "Information, Kommunikation",
+          5127
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          10434
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          20185
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5293
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6282
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5621
+        ],
+        [
+          "Erziehung, Unterricht",
+          9188
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          25306
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7317
+        ]
+      ],
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -342,7 +342,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 30.9.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -18,6 +18,7 @@
 	},
 	"yAxis": {
 		"text": "",
+        max: 5,
         "labels": {
             "formatter": function(){
                 return Highcharts.numberFormat((this.value),0);                
