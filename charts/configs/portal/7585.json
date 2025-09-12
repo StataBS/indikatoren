@@ -500,7 +500,7 @@
       "data": [
         [
           "CH",
-          null
+          1
         ],
         [
           " ",
@@ -524,75 +524,75 @@
         ],
         [
           "BE",
-          null
+          1.12
         ],
         [
           "LU",
-          null
+          0.78
         ],
         [
           "UR",
-          null
+          0.64
         ],
         [
           "SZ",
-          null
+          0.52
         ],
         [
           "OW",
-          null
+          0.5
         ],
         [
           "NW",
-          null
+          0.68
         ],
         [
           "GL",
-          null
+          0.61
         ],
         [
           "ZG",
-          null
+          0.42
         ],
         [
           "FR",
-          null
+          1.11
         ],
         [
           "SO",
-          null
+          2.05
         ],
         [
           "SH",
-          null
+          0.83
         ],
         [
           "AR",
-          null
+          1.12
         ],
         [
           "AI",
-          null
+          0.93
         ],
         [
           "SG",
-          null
+          1.37
         ],
         [
           "GR",
-          null
+          0.57
         ],
         [
           "AG",
-          null
+          1.18
         ],
         [
           "TG",
-          null
+          1.41
         ],
         [
           "TI",
-          null
+          1.92
         ],
         [
           "VD",
@@ -600,11 +600,11 @@
         ],
         [
           "VS",
-          null
+          1.18
         ],
         [
           "NE",
-          null
+          1.82
         ],
         [
           "GE",
@@ -612,7 +612,7 @@
         ],
         [
           "JU",
-          null
+          3.03
         ]
       ],
       "name": "2025",
@@ -753,7 +753,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -83,6 +83,10 @@
         [
           2023,
           74.5
+        ],
+        [
+          2024,
+          75.6
         ]
       ],
       "name": "5-Jährige"
@@ -170,6 +174,10 @@
         [
           2023,
           69.2
+        ],
+        [
+          2024,
+          67.8
         ]
       ],
       "name": "6-Jährige"
@@ -257,6 +265,10 @@
         [
           2023,
           63.2
+        ],
+        [
+          2024,
+          55.6
         ]
       ],
       "name": "12-Jährige"
@@ -344,6 +356,10 @@
         [
           2023,
           51.5
+        ],
+        [
+          2024,
+          52.3
         ]
       ],
       "name": "16-Jährige"
@@ -474,7 +490,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

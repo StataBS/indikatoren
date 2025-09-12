@@ -371,7 +371,7 @@
         ],
         [
           2025,
-          null
+          0.58
         ]
       ],
       "name": "Lausanne"
@@ -653,7 +653,7 @@
         ],
         [
           2025,
-          undefined
+          1
         ]
       ],
       "name": "Schweiz"
@@ -785,7 +785,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

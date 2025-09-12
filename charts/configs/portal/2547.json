@@ -4,10 +4,6 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2013",
-          148916
-        ],
-        [
           "2014",
           150866
         ],
@@ -42,6 +38,10 @@
         [
           "2022",
           156231
+        ],
+        [
+          "2023",
+          155657
         ]
       ],
       "name": "BS",
@@ -50,10 +50,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2013",
-          114481
-        ],
         [
           "2014",
           116700
@@ -89,6 +85,10 @@
         [
           "2022",
           123476
+        ],
+        [
+          "2023",
+          125282
         ]
       ],
       "name": "BL",
@@ -97,10 +97,6 @@
     {
       "color": "#A8C3CA",
       "data": [
-        [
-          "2013",
-          257604
-        ],
         [
           "2014",
           260480
@@ -136,6 +132,10 @@
         [
           "2022",
           274695
+        ],
+        [
+          "2023",
+          278394
         ]
       ],
       "name": "AG",
@@ -144,10 +144,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2013",
-          759398
-        ],
         [
           "2014",
           769834
@@ -183,6 +179,10 @@
         [
           "2022",
           860544
+        ],
+        [
+          "2023",
+          875865
         ]
       ],
       "name": "ZH",
@@ -311,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

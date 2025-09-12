@@ -4,10 +4,6 @@
       "color": "#008AC3",
       "data": [
         [
-          2013,
-          0.8741883
-        ],
-        [
           2014,
           0.8733403
         ],
@@ -42,6 +38,10 @@
         [
           2022,
           0.8571246
+        ],
+        [
+          2023,
+          0.8519744
         ]
       ],
       "name": "Männer"
@@ -49,10 +49,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          2013,
-          0.6946241
-        ],
         [
           2014,
           0.6938479
@@ -88,6 +84,10 @@
         [
           2022,
           0.7008205
+        ],
+        [
+          2023,
+          0.7008484
         ]
       ],
       "name": "Frauen"
@@ -95,10 +95,6 @@
     {
       "color": "#474747",
       "data": [
-        [
-          2013,
-          0.7900425
-        ],
         [
           2014,
           0.789236
@@ -134,6 +130,10 @@
         [
           2022,
           0.782183
+        ],
+        [
+          2023,
+          0.77928
         ]
       ],
       "name": "Total"
@@ -267,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

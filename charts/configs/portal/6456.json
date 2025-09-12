@@ -4,10 +4,6 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2013",
-          10292
-        ],
-        [
           "2014",
           10308
         ],
@@ -42,6 +38,10 @@
         [
           "2022",
           10245
+        ],
+        [
+          "2023",
+          10434
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -50,10 +50,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2013",
-          18513
-        ],
         [
           "2014",
           19099
@@ -89,6 +85,10 @@
         [
           "2022",
           21036
+        ],
+        [
+          "2023",
+          20185
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -97,10 +97,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2013",
-          5519
-        ],
         [
           "2014",
           5684
@@ -136,6 +132,10 @@
         [
           "2022",
           5570
+        ],
+        [
+          "2023",
+          5293
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -144,10 +144,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          "2013",
-          6471
-        ],
         [
           "2014",
           6470
@@ -183,6 +179,10 @@
         [
           "2022",
           6673
+        ],
+        [
+          "2023",
+          6282
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -322,7 +322,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
