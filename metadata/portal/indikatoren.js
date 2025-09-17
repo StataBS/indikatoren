@@ -3737,6 +3737,47 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
+		"data-id": 12722,
+		"chart-id": 12722,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			22300
+		],
+		"title": "Bodenpreisindex",
+		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
+		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
+		"erlaeuterungen": "Das methodische Vorgehen ist im <a href='https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bodenpreisindex.pdf' target='_blank'>Methodenbericht</a> beschrieben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bodenpreisindex",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Grundstückhandel",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-17T11:05:30",
+		"id": 12722
+	},
+	{
+		"template": "line001",
 		"data-id": 12727,
 		"chart-id": 12727,
 		"filter": "",
@@ -4721,45 +4762,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-07-10T08:04:56",
 		"id": 22298
-	},
-	{
-		"template": "line001",
-		"data-id": 22300,
-		"chart-id": 12722,
-		"filter": "",
-		"parentId": "12722",
-		"children": [],
-		"title": "Bodenpreisindex",
-		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
-		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
-		"erlaeuterungen": "Das methodische Vorgehen ist im <a href='https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bodenpreisindex.pdf' target='_blank'>Methodenbericht</a> beschrieben.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Bodenpreisindex",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Grundstückhandel",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "002-10",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_014",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:31",
-		"id": 22300
 	},
 	{
 		"template": "template001",

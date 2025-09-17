@@ -2459,7 +2459,7 @@ id | visible | visibleInPortal | indikatorenset
 12719 | true | true | Stadtteilmonitoring St. Johann
 12720 | true | true | Stadtteilmonitoring St. Johann
 12721 | true | true | Stadtteilmonitoring St. Johann
-12722 | true | false | 
+12722 | true | true | 
 12727 | true | true | Gesundheitsversorgung
 12730 | true | true | Gesundheitsversorgung
 12732 | true | true | Gesundheitsversorgung
@@ -2482,7 +2482,7 @@ id | visible | visibleInPortal | indikatorenset
 22297 | true | true | Wohnraumschutz
 22298 | true | true | Wohnraumschutz
 22299 | true | false | Wohnraumschutz
-22300 | true | true | Wohnraumschutz
+22300 | true | false | Wohnraumschutz
 22301 | true | true | Wohnraumschutz
 22305 | true | false | Richtplan (Print)
 22306 | true | false | Richtplan (Print)
