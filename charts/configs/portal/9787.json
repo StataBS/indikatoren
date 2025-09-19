@@ -5,6 +5,14 @@
       "zIndex": 2,
       "data": [
         [
+          2011,
+          183183
+        ],
+        [
+          2012,
+          184725
+        ],
+        [
           2013,
           188491
         ],
@@ -43,6 +51,10 @@
         [
           2022,
           199737
+        ],
+        [
+          2023,
+          199745
         ]
       ],
       "name": "Beschäftigte"
@@ -219,7 +231,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.9.2025"
   },
   "tooltip": {
     "valueDecimals": 0,
