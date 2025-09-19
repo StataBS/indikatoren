@@ -9,103 +9,103 @@
         ],
         [
           "BS",
-          99.2
+          94.2
         ],
         [
           "ZH",
-          93.6
-        ],
-        [
-          "AG",
-          81.2
-        ],
-        [
-          "SZ",
-          77.9
-        ],
-        [
-          "BL",
-          76.8
+          91.1
         ],
         [
           "VD",
-          75.5
+          77.6
+        ],
+        [
+          "AG",
+          76.7
         ],
         [
           "GE",
-          73.6
+          73.2
         ],
         [
-          "SH",
-          73.2
+          "BL",
+          73.1
         ],
         [
           "LU",
           72.4
         ],
         [
-          "TG",
-          70.4
+          "SZ",
+          71.2
         ],
         [
-          "NW",
-          68.8
+          "SH",
+          67.6
         ],
         [
           "SG",
-          67.1
+          65
+        ],
+        [
+          "TG",
+          64.9
+        ],
+        [
+          "NW",
+          62.7
         ],
         [
           "SO",
-          66.7
+          61
         ],
         [
           "FR",
-          61.1
-        ],
-        [
-          "AI",
-          60.7
+          59.1
         ],
         [
           "OW",
-          60.3
-        ],
-        [
-          "GL",
-          59.8
+          56.8
         ],
         [
           "AR",
-          56.4
+          54.3
         ],
         [
           "BE",
-          55.1
-        ],
-        [
-          "TI",
           54.2
         ],
         [
+          "AI",
+          53.4
+        ],
+        [
+          "TI",
+          51.6
+        ],
+        [
+          "GL",
+          51.1
+        ],
+        [
           "NE",
-          52.5
+          49.5
         ],
         [
           "UR",
-          49
+          46.8
         ],
         [
           "GR",
-          44.7
+          44.2
         ],
         [
           "VS",
-          39.6
+          44.1
         ],
         [
           "JU",
-          34.6
+          33.3
         ]
       ],
       "turboThreshold": 0
@@ -190,7 +190,7 @@
     "text": "Kantonaler Wettbewerbsindikator (KWI)"
   },
   "subtitle": {
-    "text": "Basel-Stadt im kantonalen Vergleich, 2023",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 1.11.2024"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 19.9.2025"
   },
   "colors": [
     "#A8C3CA",
