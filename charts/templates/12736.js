@@ -37,10 +37,16 @@
       followPointer: true,
       headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
       pointFormatter: function () {
+        var value = (this.y * 100).toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
         return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
-          + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+          + '<td style="text-align:right">&nbsp;<b>' + value + '%</b></td></tr>';
       },
     },
+    //      pointFormatter: function () {
+    //        return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+    //          + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+    //      },
+    //    },
     legend: {
       itemWidth: 150,
       itemStyle: {

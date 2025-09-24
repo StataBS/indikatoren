@@ -26,6 +26,10 @@
         [
           2023,
           524270
+        ],
+        [
+          2024,
+          562355
         ]
       ],
       "name": "Stadt Basel"
@@ -56,6 +60,10 @@
         [
           2023,
           70322
+        ],
+        [
+          2024,
+          66835
         ]
       ],
       "name": "Riehen"
@@ -86,6 +94,10 @@
         [
           2023,
           3644
+        ],
+        [
+          2024,
+          4192
         ]
       ],
       "name": "Bettingen"
@@ -117,6 +129,10 @@
         [
           2023,
           598236
+        ],
+        [
+          2024,
+          633382
         ]
       ],
       "name": "Total"
@@ -172,7 +188,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegestunden Spitex nach Gemeinden"
+    "text": "Anzahl Pflegestunden Spitex nach Gemeinde"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -242,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 31.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -287,10 +303,10 @@
         let body = this.points
           .filter(point => point.series.index !== 3) // Reihe mit Index 2 ignorieren
           .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
-          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
+          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Stunden</b></td>
           <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
           .join('');
-        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
+        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Stunden</b></td><td></td></tr></table>`;
         return header + body + footer;
       }
   },

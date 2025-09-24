@@ -23,6 +23,10 @@
         [
           2023,
           20975
+        ],
+        [
+          2024,
+          23785
         ]
       ],
       "name": "Stadt Basel"
@@ -50,6 +54,10 @@
         [
           2023,
           5479
+        ],
+        [
+          2024,
+          6407
         ]
       ],
       "name": "Gemeinden Riehen\u002FBettingen"
@@ -77,6 +85,10 @@
         [
           2023,
           996
+        ],
+        [
+          2024,
+          1036
         ]
       ],
       "name": "Ausserkantonal"
@@ -106,6 +118,10 @@
         [
           2023,
           27450
+        ],
+        [
+          2024,
+          31228
         ]
       ],
       "name": "Total"
@@ -160,7 +176,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden"
+    "text": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinde"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -230,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -40,10 +40,10 @@
         let body = this.points
           .filter(point => point.series.index !== 3) // Reihe mit Index 2 ignorieren
           .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
-          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
+          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Stunden</b></td>
           <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
           .join('');
-        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
+        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Stunden</b></td><td></td></tr></table>`;
         return header + body + footer;
       },
       /*

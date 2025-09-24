@@ -158,9 +158,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2023",
-		"lesehilfe": "Im Jahr 2023 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 99,2 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 6.<br><h2>Zielwert:</h2>Mindestens zweiter Platz im Kantonsvergleich (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>1. und 2. Platz</p><p>3. Platz</p><p>4. Platz oder schlechter</p></div>",
-		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht thematischen Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2025",
+		"lesehilfe": "Im Jahr 2025 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 94,2 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><h2>Zielwert:</h2>Mindestens zweiter Platz im Kantonsvergleich (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>1. und 2. Platz</p><p>3. Platz</p><p>4. Platz oder schlechter</p></div>",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Aktuell erscheint er alle zwei Jahre, zuletzt 2025. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht thematischen Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-15T09:04:24",
+		"aktualisierungsdatum": "2025-09-24T08:41:49",
 		"id": 9675
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2022 um 9,0% von 183 183 auf 199 737.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2023 um 9,0% von 183 183 auf 199 745.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-09T01:31:23",
+		"aktualisierungsdatum": "2025-09-24T08:41:50",
 		"id": 9676
 	},
 	{

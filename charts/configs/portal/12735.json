@@ -54,6 +54,10 @@
         [
           "2023",
           45950
+        ],
+        [
+          "2024",
+          49151
         ]
       ],
       "name": "Bedarfsabklärung",
@@ -113,6 +117,10 @@
         [
           "2023",
           193711
+        ],
+        [
+          "2024",
+          197561
         ]
       ],
       "name": "Behandlungspflege",
@@ -172,6 +180,10 @@
         [
           "2023",
           358575
+        ],
+        [
+          "2024",
+          386670
         ]
       ],
       "name": "Grundpflege",
@@ -232,6 +244,10 @@
         [
           "2023",
           598236
+        ],
+        [
+          "2024",
+          633382
         ]
       ],
       "name": "Total",
@@ -305,7 +321,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegestunden Spitex nach Pflegeleistungen"
+    "text": "Anzahl Pflegestunden Spitex nach Pflegeleistung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -358,7 +374,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

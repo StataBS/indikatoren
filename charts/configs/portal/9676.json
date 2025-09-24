@@ -54,7 +54,7 @@
         ],
         [
           2023,
-          null
+          199745
         ],
         [
           2024,
@@ -269,7 +269,7 @@
         ],
         [
           2023,
-          null
+          1
         ],
         [
           2024,
@@ -503,7 +503,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "tooltip": {
     "valueDecimals": 0,
