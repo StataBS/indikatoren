@@ -54,9 +54,13 @@
         [
           2023,
           3.2
+        ],
+        [
+          2024,
+          3.3
         ]
       ],
-      "name": "Eigenbeitrag Klient \u002F Klientin"
+      "name": "Eigenbeitrag Klient\u002F-in"
     },
     {
       "color": "#246370",
@@ -112,6 +116,10 @@
         [
           2023,
           34.5
+        ],
+        [
+          2024,
+          36.6
         ]
       ],
       "name": "Beiträge Krankenversicherer"
@@ -170,6 +178,10 @@
         [
           2023,
           24.6
+        ],
+        [
+          2024,
+          25.6
         ]
       ],
       "name": "Kanton\u002FGemeinde: Restfinanzierung"
@@ -302,7 +314,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

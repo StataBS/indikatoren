@@ -36,9 +36,13 @@
         [
           "2023",
           2.3
+        ],
+        [
+          "2024",
+          2.4
         ]
       ],
-      "name": "Kosten Kanton inkl. Gemeinden (in Mio. Fr.)",
+      "name": "Kosten Kanton (in Mio. CHF)",
       "turboThreshold": 0
     },
     {
@@ -77,9 +81,13 @@
         [
           "2023",
           1.6
+        ],
+        [
+          "2024",
+          1.7
         ]
       ],
-      "name": "Kosten Stadt Basel (in Mio. Fr.)",
+      "name": "Kosten Stadt Basel (in Mio. CHF)",
       "turboThreshold": 0
     },
     {
@@ -117,10 +125,14 @@
         ],
         [
           "2023",
-          22.21
+          22.05
+        ],
+        [
+          "2024",
+          22.8
         ]
       ],
-      "name": "Durchschnittsbeitrag pro Tag Stadt Basel (in Fr.)",
+      "name": "Durchschnittsbeitrag pro Tag Stadt Basel (in CHF)",
       "turboThreshold": 0
     }
   ],
@@ -271,7 +283,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

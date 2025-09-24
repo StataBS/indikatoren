@@ -50,6 +50,10 @@
         [
           2023,
           1.2
+        ],
+        [
+          2024,
+          1.4
         ]
       ],
       "name": "Beitrag Tagesgäste"
@@ -104,6 +108,10 @@
         [
           2023,
           0.9
+        ],
+        [
+          2024,
+          1
         ]
       ],
       "name": "Beiträge Krankenversicherer"
@@ -158,6 +166,10 @@
         [
           2023,
           2.1
+        ],
+        [
+          2024,
+          2.7
         ]
       ],
       "name": "Kanton\u002FGemeinde"
@@ -277,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -11,103 +11,103 @@
         ],
         [
           "\u003Cb\u003EBS\u003C\u002Fb\u003E",
-          99.2
+          94.2
         ],
         [
           "ZH",
-          93.6
-        ],
-        [
-          "AG",
-          81.2
-        ],
-        [
-          "SZ",
-          77.9
-        ],
-        [
-          "BL",
-          76.8
+          91.1
         ],
         [
           "VD",
-          75.5
+          77.6
+        ],
+        [
+          "AG",
+          76.7
         ],
         [
           "GE",
-          73.6
+          73.2
         ],
         [
-          "SH",
-          73.2
+          "BL",
+          73.1
         ],
         [
           "LU",
           72.4
         ],
         [
-          "TG",
-          70.4
+          "SZ",
+          71.2
         ],
         [
-          "NW",
-          68.8
+          "SH",
+          67.6
         ],
         [
           "SG",
-          67.1
+          65
+        ],
+        [
+          "TG",
+          64.9
+        ],
+        [
+          "NW",
+          62.7
         ],
         [
           "SO",
-          66.7
+          61
         ],
         [
           "FR",
-          61.1
-        ],
-        [
-          "AI",
-          60.7
+          59.1
         ],
         [
           "OW",
-          60.3
-        ],
-        [
-          "GL",
-          59.8
+          56.8
         ],
         [
           "AR",
-          56.4
+          54.3
         ],
         [
           "BE",
-          55.1
-        ],
-        [
-          "TI",
           54.2
         ],
         [
+          "AI",
+          53.4
+        ],
+        [
+          "TI",
+          51.6
+        ],
+        [
+          "GL",
+          51.1
+        ],
+        [
           "NE",
-          52.5
+          49.5
         ],
         [
           "UR",
-          49
+          46.8
         ],
         [
           "GR",
-          44.7
+          44.2
         ],
         [
           "VS",
-          39.6
+          44.1
         ],
         [
           "JU",
-          34.6
+          33.3
         ]
       ],
       "turboThreshold": 0
@@ -126,95 +126,95 @@
         ],
         [
           "ZH",
-          null
-        ],
-        [
-          "AG",
-          null
-        ],
-        [
-          "SZ",
-          null
-        ],
-        [
-          "BL",
-          null
+          undefined
         ],
         [
           "VD",
-          null
+          undefined
+        ],
+        [
+          "AG",
+          undefined
         ],
         [
           "GE",
-          null
+          undefined
         ],
         [
-          "SH",
-          null
+          "BL",
+          undefined
         ],
         [
           "LU",
-          null
+          undefined
         ],
         [
-          "TG",
-          null
+          "SZ",
+          undefined
         ],
         [
-          "NW",
-          null
+          "SH",
+          undefined
         ],
         [
           "SG",
-          null
+          undefined
+        ],
+        [
+          "TG",
+          undefined
+        ],
+        [
+          "NW",
+          undefined
         ],
         [
           "SO",
-          null
+          undefined
         ],
         [
           "FR",
-          null
-        ],
-        [
-          "AI",
-          null
+          undefined
         ],
         [
           "OW",
-          null
-        ],
-        [
-          "GL",
-          null
+          undefined
         ],
         [
           "AR",
-          null
+          undefined
         ],
         [
           "BE",
-          null
+          undefined
+        ],
+        [
+          "AI",
+          undefined
         ],
         [
           "TI",
-          null
+          undefined
+        ],
+        [
+          "GL",
+          undefined
         ],
         [
           "NE",
-          null
+          undefined
         ],
         [
           "UR",
-          null
+          undefined
         ],
         [
           "GR",
-          null
+          undefined
         ],
         [
           "VS",
-          null
+          undefined
         ],
         [
           "JU",
@@ -365,7 +365,7 @@
     "text": "Kantonaler Wettbewerbsindikator (KWI)"
   },
   "subtitle": {
-    "text": "Basel-Stadt im kantonalen Vergleich, 2023",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -422,7 +422,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 15.10.2024"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

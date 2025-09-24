@@ -56,6 +56,10 @@
         [
           2023,
           69.9
+        ],
+        [
+          2024,
+          77.2
         ]
       ],
       "name": "Auslastung"
@@ -116,6 +120,10 @@
         [
           2023,
           27450
+        ],
+        [
+          2024,
+          31228
         ]
       ],
       "name": "Mit ausserkantonalen Tagesgästen"
@@ -176,6 +184,10 @@
         [
           2023,
           26454
+        ],
+        [
+          2024,
+          30192
         ]
       ],
       "name": "Ohne ausserkantonale Tagesgäste"
@@ -327,7 +339,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

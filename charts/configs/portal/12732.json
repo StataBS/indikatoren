@@ -16,6 +16,10 @@
         [
           "2023",
           0.117
+        ],
+        [
+          "2024",
+          0.133
         ]
       ],
       "name": "Stufe 1",
@@ -37,6 +41,10 @@
         [
           "2023",
           0.137
+        ],
+        [
+          "2024",
+          0.108
         ]
       ],
       "name": "Stufe 2",
@@ -58,6 +66,10 @@
         [
           "2023",
           0.1
+        ],
+        [
+          "2024",
+          0.111
         ]
       ],
       "name": "Stufe 3",
@@ -79,6 +91,10 @@
         [
           "2023",
           0.374
+        ],
+        [
+          "2024",
+          0.392
         ]
       ],
       "name": "Stufe 4",
@@ -100,6 +116,10 @@
         [
           "2023",
           0.038
+        ],
+        [
+          "2024",
+          0.028
         ]
       ],
       "name": "Stufe 5",
@@ -121,6 +141,10 @@
         [
           "2023",
           0.174
+        ],
+        [
+          "2024",
+          0.177
         ]
       ],
       "name": "Stufe 6",
@@ -142,6 +166,10 @@
         [
           "2023",
           0.003
+        ],
+        [
+          "2024",
+          0.007
         ]
       ],
       "name": "Stufe 7",
@@ -162,6 +190,10 @@
         ],
         [
           "2023",
+          0.035
+        ],
+        [
+          "2024",
           0.035
         ]
       ],
@@ -184,6 +216,10 @@
         [
           "2023",
           0
+        ],
+        [
+          "2024",
+          0.001
         ]
       ],
       "name": "Stufe 9",
@@ -205,6 +241,10 @@
         [
           "2023",
           0.022
+        ],
+        [
+          "2024",
+          0.007
         ]
       ],
       "name": "Stufe 10",
@@ -226,6 +266,10 @@
         [
           "2023",
           0
+        ],
+        [
+          "2024",
+          0
         ]
       ],
       "name": "Stufe 11",
@@ -246,6 +290,10 @@
         ],
         [
           "2023",
+          0
+        ],
+        [
+          "2024",
           0
         ]
       ],
@@ -276,6 +324,10 @@
         [
           "2023",
           3.94
+        ],
+        [
+          "2024",
+          3.86
         ]
       ],
       "name": "Durchschnittl. Pflegestufe",
@@ -435,7 +487,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -478,13 +530,16 @@
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
     "pointFormatter": function () {
         if (this.series.index === 12) {
-          // Absolutwert für die letzte Reihe
+          // Absolutwert für die letzte Reihe, mit Komma
+          var value = this.y.toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
           return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(this.y, 1) + '</b></td></tr>';
+            + '<td style="text-align:right">&nbsp;<b>' + value + '</b></td></tr>';
+
         } else {
-          // Prozentwert für die anderen Reihen
+          // Prozentwert für die anderen Reihen, mit Komma
+          var value = (this.y * 100).toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
           return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+            + '<td style="text-align:right">&nbsp;<b>' + value + '%</b></td></tr>';
         }
       }
   },

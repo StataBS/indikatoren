@@ -59,13 +59,16 @@
       headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
       pointFormatter: function () {
         if (this.series.index === 12) {
-          // Absolutwert für die letzte Reihe
+          // Absolutwert für die letzte Reihe, mit Komma
+          var value = this.y.toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
           return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(this.y, 1) + '</b></td></tr>';
+            + '<td style="text-align:right">&nbsp;<b>' + value + '</b></td></tr>';
+
         } else {
-          // Prozentwert für die anderen Reihen
+          // Prozentwert für die anderen Reihen, mit Komma
+          var value = (this.y * 100).toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
           return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+            + '<td style="text-align:right">&nbsp;<b>' + value + '%</b></td></tr>';
         }
       },
     },
