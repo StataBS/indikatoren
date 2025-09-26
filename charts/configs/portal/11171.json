@@ -60,6 +60,10 @@
         [
           "2023",
           0.948
+        ],
+        [
+          "2024",
+          0.956
         ]
       ],
       "name": "Auslastung",
@@ -126,6 +130,10 @@
         [
           "2023",
           1035673
+        ],
+        [
+          "2024",
+          1051491
         ]
       ],
       "name": "Pensions- und Pflegetage",
@@ -275,7 +283,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

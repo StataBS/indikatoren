@@ -4891,79 +4891,79 @@
         ],
         [
           17,
-          -18
+          -17
         ],
         [
           18,
-          -20
+          -19
         ],
         [
           19,
-          -22
+          -21
         ],
         [
           20,
-          -23
+          -22
         ],
         [
           21,
-          -23
+          -22
         ],
         [
           22,
-          -26
+          -25
         ],
         [
           23,
-          -27
+          -26
         ],
         [
           24,
-          -28
+          -27
         ],
         [
           25,
-          -27
+          -26
         ],
         [
           26,
-          -27
+          -26
         ],
         [
           27,
-          -30
+          -29
         ],
         [
           28,
-          -30
+          -29
         ],
         [
           29,
-          -30
+          -29
         ],
         [
           30,
-          -32
+          -31
         ],
         [
           31,
-          -32
+          -31
         ],
         [
           32,
-          -33
+          -32
         ],
         [
           33,
-          -36
+          -35
         ],
         [
           34,
-          null
+          -36
         ],
         [
           35,
-          null
+          -40
         ],
         [
           36,
@@ -5111,7 +5111,7 @@
         ],
         [
           17,
-          -1
+          0
         ],
         [
           18,
@@ -5179,11 +5179,11 @@
         ],
         [
           34,
-          null
+          -1
         ],
         [
           35,
-          null
+          -4
         ],
         [
           36,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

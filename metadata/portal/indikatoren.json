@@ -248,7 +248,7 @@
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Million.",
+		"lesehilfe": "2024 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 95,6%. Die Pensions- und Pflegetage beliefen sich 2024 auf über 1 Million.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Pensions- und Pflegetage dividiert durch die maximal mögliche Anzahl Pensions- und Pflegetage.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -275,7 +275,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:21",
+		"aktualisierungsdatum": "2025-09-26T08:47:46",
 		"id": 11171
 	},
 	{
@@ -445,7 +445,7 @@
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354,0 Mio. Franken.",
+		"lesehilfe": "Im Jahr 2024 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 65,9 Mio. Franken, derjenige der Krankenversicherer 63,5 Mio. Franken und die kantonale Restfinanzierung 57,3 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 366,5 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -472,7 +472,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:24",
+		"aktualisierungsdatum": "2025-09-26T08:47:49",
 		"id": 11176
 	},
 	{
@@ -3783,10 +3783,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
+		"title": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2023: 200 652 Pflegetage) zu finden. Danach folgt die Stufe 8 (2023: 177 085 Pflegetage).<br><br>Diese Reihenfolge ist seit 2017 unverändert.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2024: 203 551 Pflegetage) zu finden. Danach folgt Stufe 8 (2024: 187 422 Pflegetage). Diese Reihenfolge ist seit 2017 unverändert.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -3799,7 +3799,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
+		"description": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -3815,7 +3815,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:02:59",
+		"aktualisierungsdatum": "2025-09-26T08:47:48",
 		"id": 12727
 	},
 	{
@@ -37328,7 +37328,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:07",
+		"aktualisierungsdatum": "2025-09-26T08:47:42",
 		"id": 8995
 	},
 	{
@@ -37499,7 +37499,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:08",
+		"aktualisierungsdatum": "2025-09-26T08:47:44",
 		"id": 9022
 	},
 	{
@@ -37537,7 +37537,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:09",
+		"aktualisierungsdatum": "2025-09-26T08:47:45",
 		"id": 9023
 	},
 	{
