@@ -54,6 +54,10 @@
         [
           2023,
           152.8
+        ],
+        [
+          2024,
+          157.2
         ]
       ],
       "name": "Eigenbeitrag Bewohnende Pensions- und Betreuungstaxe"
@@ -112,6 +116,10 @@
         [
           2023,
           21.9
+        ],
+        [
+          2024,
+          22.6
         ]
       ],
       "name": "Eigenbeitrag Bewohnende Pflegetaxe (gemäss KVG)"
@@ -170,6 +178,10 @@
         [
           2023,
           61.7
+        ],
+        [
+          2024,
+          63.5
         ]
       ],
       "name": "Beiträge Krankenversicherer (gemäss KVG)"
@@ -228,6 +240,10 @@
         [
           2023,
           55.1
+        ],
+        [
+          2024,
+          57.3
         ]
       ],
       "name": "Kanton\u002FGemeinde: Restfinanzierung (gemäss KVG)"
@@ -286,6 +302,10 @@
         [
           2023,
           62.5
+        ],
+        [
+          2024,
+          65.9
         ]
       ],
       "name": "Kanton\u002FGemeinde: Ergänzungsleistungen"
@@ -415,7 +435,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

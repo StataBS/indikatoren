@@ -32,6 +32,10 @@
         [
           2023,
           21337
+        ],
+        [
+          2024,
+          18703
         ]
       ],
       "name": "Stufe 1"
@@ -68,6 +72,10 @@
         [
           2023,
           99546
+        ],
+        [
+          2024,
+          93001
         ]
       ],
       "name": "Stufe 2"
@@ -104,6 +112,10 @@
         [
           2023,
           52972
+        ],
+        [
+          2024,
+          58809
         ]
       ],
       "name": "Stufe 3"
@@ -140,6 +152,10 @@
         [
           2023,
           113355
+        ],
+        [
+          2024,
+          111527
         ]
       ],
       "name": "Stufe 4"
@@ -176,6 +192,10 @@
         [
           2023,
           66983
+        ],
+        [
+          2024,
+          69113
         ]
       ],
       "name": "Stufe 5"
@@ -212,6 +232,10 @@
         [
           2023,
           200652
+        ],
+        [
+          2024,
+          203551
         ]
       ],
       "name": "Stufe 6"
@@ -248,6 +272,10 @@
         [
           2023,
           59822
+        ],
+        [
+          2024,
+          56832
         ]
       ],
       "name": "Stufe 7"
@@ -284,6 +312,10 @@
         [
           2023,
           177085
+        ],
+        [
+          2024,
+          187422
         ]
       ],
       "name": "Stufe 8"
@@ -320,6 +352,10 @@
         [
           2023,
           51333
+        ],
+        [
+          2024,
+          53450
         ]
       ],
       "name": "Stufe 9"
@@ -356,6 +392,10 @@
         [
           2023,
           118566
+        ],
+        [
+          2024,
+          121681
         ]
       ],
       "name": "Stufe 10"
@@ -392,6 +432,10 @@
         [
           2023,
           23848
+        ],
+        [
+          2024,
+          23896
         ]
       ],
       "name": "Stufe 11"
@@ -428,6 +472,10 @@
         [
           2023,
           26254
+        ],
+        [
+          2024,
+          29827
         ]
       ],
       "name": "Stufe 12"
@@ -466,6 +514,10 @@
         [
           2023,
           1011753
+        ],
+        [
+          2024,
+          1027812
         ]
       ],
       "name": "Total Pflegetage"
@@ -523,7 +575,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen"
+    "text": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -608,7 +660,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 30.4.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
