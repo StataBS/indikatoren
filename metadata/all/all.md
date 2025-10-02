@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | true | true | 
+4374 | false |  | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -1257,8 +1257,8 @@ id | visible | visibleInPortal | indikatorenset
 7742 | true | true | Bevoelkerungsszenarien
 7743 | true | true | Bevoelkerungsszenarien
 7744 | true | true | Bevoelkerungsszenarien
-7745 | true | false | 
-7746 | true | false | 
+7745 | false |  | 
+7746 | false |  | 
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
