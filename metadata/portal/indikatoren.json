@@ -11201,47 +11201,6 @@
 	},
 	{
 		"template": "template001",
-		"data-id": 4374,
-		"chart-id": 4374,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Familienergänzendes Kinderbetreuungsangebot",
-		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren in der Stadt Basel",
-		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel liegt 2021 bei 183,05 pro 1000 Kinder im Vorschulalter. 2019 erreichte die Anzahl Plätze pro 1000 Kinder mit 191,66 den höchsten Wert im beobachteten Zeitraum.",
-		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0 bis 3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht-institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
-		],
-		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
-		],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Gemeinde"
-		],
-		"description": "Familienergänzendes Kinderbetreuungsangebot",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe",
-		"kuerzel": "I.13.?.04374",
-		"kennzahlenset": "",
-		"kuerzelKunde": "",
-		"stufe1": "Gesellschaft",
-		"stufe2": "G11: Chancengleichheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "03_50_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-03T09:12:35",
-		"id": 4374
-	},
-	{
-		"template": "template001",
 		"data-id": 4462,
 		"chart-id": 4462,
 		"filter": "",
@@ -28029,7 +27988,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im August 2025 0,1%. Das Preisniveau ist damit gegenüber August 2024 leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im September 2025 0,2%. Das Preisniveau ist damit gegenüber August 2024 leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28057,7 +28016,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-04T08:53:45",
+		"aktualisierungsdatum": "2025-10-02T08:35:08",
 		"id": 7512
 	},
 	{
@@ -28069,7 +28028,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im August 2025 gegenüber Juli um 0,1% auf 107,0 Punkte gesunken.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im September 2025 gegenüber August um 0,2% auf 106,7 Punkte gesunken.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28096,7 +28055,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-04T08:53:47",
+		"aktualisierungsdatum": "2025-10-02T08:35:10",
 		"id": 7513
 	},
 	{
@@ -33950,7 +33909,7 @@
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 enstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -33976,7 +33935,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-02T10:25:38",
+		"aktualisierungsdatum": "2025-10-02T08:35:14",
 		"id": 8067
 	},
 	{
