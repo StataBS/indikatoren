@@ -514,6 +514,10 @@
         [
           "2025-08",
           575
+        ],
+        [
+          "2025-09",
+          656
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -653,7 +657,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.10.2025"
   },
   "tooltip": {
     "valueDecimals": 0,
