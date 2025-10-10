@@ -768,7 +768,7 @@
 	"6895": "populationPyramid001",
 	"6896": "line001",
 	"6897": "line001",
-	"6898": "line001",
+	"6898": "pie001",
 	"6899": "line001",
 	"6900": "line001",
 	"6901": "line001",
@@ -2165,5 +2165,13 @@
 	"22324": "template001_print",
 	"22326": "template001",
 	"22343": "template001",
-	"22344": "template001"
+	"22344": "template001",
+	"22357": "template001",
+	"22358": "template001",
+	"22359": "template001",
+	"22421": "template001",
+	"22422": "template001",
+	"22423": "template001",
+	"22424": "template001",
+	"22425": "template001"
 }

@@ -7,11 +7,11 @@
       "data": [
         [
           "Veranlagungen",
-          81064
+          82708
         ],
         [
           "Summe Vermögenssteuer",
-          836
+          214
         ]
       ],
       "name": "0",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          16133
+          15894
         ],
         [
           "Summe Vermögenssteuer",
-          4396825
+          4251173
         ]
       ],
       "name": "1 bis 199 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          8395
+          7880
         ],
         [
           "Summe Vermögenssteuer",
-          11499949
+          10607952
         ]
       ],
       "name": "200 000 bis 499 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          5568
+          5152
         ],
         [
           "Summe Vermögenssteuer",
-          18969476
+          17445945
         ]
       ],
       "name": "500 000 bis 999 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          3947
+          3615
         ],
         [
           "Summe Vermögenssteuer",
-          28289140
+          26390098
         ]
       ],
       "name": "1 bis 1,999 Mio.",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          3761
+          3347
         ],
         [
           "Summe Vermögenssteuer",
-          294872694
+          274600141
         ]
       ],
       "name": "2 Mio. u.m.",
@@ -189,7 +189,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2021"
+    "text": "in Franken, Basel-Stadt, 2022"
   },
   "navigation": {
     "menuItemStyle": {
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
   },
   "legend": {
     "layout": "vertical",

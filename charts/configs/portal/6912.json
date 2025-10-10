@@ -1,277 +1,73 @@
 {
   "series": [
     {
-      "id": "dummy0",
-      "color": "#FABD24",
-      "grouping": false,
+      "color": "#FFBB58",
       "data": [
         [
           "Erwerb",
-          undefined
+          260404948
         ],
         [
           "Versicherung",
-          undefined
+          1676524
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          undefined
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          undefined
+          87589311
         ],
         [
           "Künstler, Sport",
-          undefined
+          1643226
         ],
         [
           "Verwaltungsräte",
-          undefined
+          4753746
         ],
         [
           "Renten",
-          undefined
+          3011396
         ],
         [
           "Kapitalleistungen",
-          undefined
+          21813115
         ]
       ],
-      "name": "Quellensteuerertrag 2013",
+      "name": "Quellensteuerertrag 2014",
       "turboThreshold": 0
     },
     {
-      "linkedTo": "dummy0",
-      "colors": [
-        "#FABD24",
-        "#FABD24",
-        "#FABD24",
-        "rgba(250,189,36,0.3)",
-        "#FABD24",
-        "#FABD24",
-        "#FABD24",
-        "#FABD24"
-      ],
-      "colorByPoint": true,
+      "color": "#DC440E",
       "data": [
         [
           "Erwerb",
-          246377275
+          397186986
         ],
         [
           "Versicherung",
-          1591104
+          3271462
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          87232515
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          73860769
+          87053788
         ],
         [
           "Künstler, Sport",
-          1635868
+          996198
         ],
         [
           "Verwaltungsräte",
-          5695505
+          10337424
         ],
         [
           "Renten",
-          3175223
+          3579920
         ],
         [
           "Kapitalleistungen",
-          19568201
+          43372012
         ]
       ],
-      "name": "Quellensteuerertrag 2013",
-      "turboThreshold": 0
-    },
-    {
-      "id": "dummy1",
-      "color": "#7F5F1A",
-      "grouping": false,
-      "data": [
-        [
-          "Erwerb",
-          undefined
-        ],
-        [
-          "Versicherung",
-          undefined
-        ],
-        [
-          "Grenzgänger Deutschland u.a.",
-          undefined
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          undefined
-        ],
-        [
-          "Künstler, Sport",
-          undefined
-        ],
-        [
-          "Verwaltungsräte",
-          undefined
-        ],
-        [
-          "Renten",
-          undefined
-        ],
-        [
-          "Kapitalleistungen",
-          undefined
-        ]
-      ],
-      "name": "Quellensteuerertrag 2022",
-      "turboThreshold": 0
-    },
-    {
-      "linkedTo": "dummy1",
-      "colors": [
-        "#7F5F1A",
-        "#7F5F1A",
-        "#7F5F1A",
-        "rgba(127,95,26,0.3)",
-        "#7F5F1A",
-        "#7F5F1A",
-        "#7F5F1A",
-        "#7F5F1A"
-      ],
-      "colorByPoint": true,
-      "data": [
-        [
-          "Erwerb",
-          390096682
-        ],
-        [
-          "Versicherung",
-          2932637
-        ],
-        [
-          "Grenzgänger Deutschland u.a.",
-          87655292
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          74237618
-        ],
-        [
-          "Künstler, Sport",
-          1150027
-        ],
-        [
-          "Verwaltungsräte",
-          12358638
-        ],
-        [
-          "Renten",
-          3540702
-        ],
-        [
-          "Kapitalleistungen",
-          41033541
-        ]
-      ],
-      "name": "Quellensteuerertrag 2022",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "type": "scatter",
-      "marker": {
-        "enabled": true,
-        "symbol": "circle",
-        "radius": 3
-      },
-      "pointPlacement": -0.15,
-      "data": [
-        [
-          "Erwerb",
-          26732
-        ],
-        [
-          "Versicherung",
-          1736
-        ],
-        [
-          "Grenzgänger Deutschland u.a.",
-          24432
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          23166
-        ],
-        [
-          "Künstler, Sport",
-          1743
-        ],
-        [
-          "Verwaltungsräte",
-          183
-        ],
-        [
-          "Renten",
-          1541
-        ],
-        [
-          "Kapitalleistungen",
-          6205
-        ]
-      ],
-      "name": "Anzahl Veranlagungen 2013 (rechte Skala)",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68AB2B",
-      "type": "scatter",
-      "marker": {
-        "enabled": true,
-        "symbol": "circle",
-        "radius": 3
-      },
-      "pointPlacement": 0.15,
-      "data": [
-        [
-          "Erwerb",
-          39113
-        ],
-        [
-          "Versicherung",
-          2711
-        ],
-        [
-          "Grenzgänger Deutschland u.a.",
-          25547
-        ],
-        [
-          "Grenzgänger aus Frankreich",
-          22692
-        ],
-        [
-          "Künstler, Sport",
-          1811
-        ],
-        [
-          "Verwaltungsräte",
-          428
-        ],
-        [
-          "Renten",
-          1839
-        ],
-        [
-          "Kapitalleistungen",
-          9553
-        ]
-      ],
-      "name": "Anzahl Veranlagungen 2022 (rechte Skala)",
+      "name": "Quellensteuerertrag 2023",
       "turboThreshold": 0
     }
   ],
@@ -289,9 +85,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45
+      }
     }
   },
   "chart": {
@@ -328,6 +122,7 @@
                 }
     },
     "type": "column",
+    "inverted": false,
     "renderTo": "container-6912",
     "spacingBottom": 40
   },
@@ -339,15 +134,8 @@
           "fontSize": "10px"
         }
       },
-      "minPointLength": 2,
-      "stacking": null,
       "pointPadding": 0,
-      "column": {
-        "colorByPoint": true
-      }
-    },
-    "scatter": {
-      "yAxis": 1
+      "minPointLength": 2
     }
   },
   "title": {
@@ -360,7 +148,7 @@
     "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2013 und 2022",
+    "text": "in Franken, Basel-Stadt, 2014 und 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -368,46 +156,24 @@
       "color": "#000000"
     }
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
+      "text": null
     },
-    {
-      "opposite": true,
-      "min": 0,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -416,13 +182,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "width": 450,
-    "itemWidth": 180,
-    "itemDistance": 0,
-    "labelFormatter": function(){
-    	return this.name.replace(' (', '<br/>(');
-  	}
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -446,8 +206,7 @@
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "tooltip": {
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
