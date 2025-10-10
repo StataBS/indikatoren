@@ -8,10 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2011,
-          15450187
-        ],
-        [
           2012,
           16666516
         ],
@@ -46,21 +42,21 @@
         [
           2020,
           29813663
+        ],
+        [
+          2021,
+          28758590
         ]
       ],
       "name": "Ertrag Grundstücksteuern"
     },
     {
-      "color": "#DC440E",
+      "color": "#FFDA80",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2011,
-          116370771
-        ],
         [
           2012,
           108317154
@@ -96,21 +92,21 @@
         [
           2020,
           137617241
+        ],
+        [
+          2021,
+          90849643
         ]
       ],
       "name": "Ertrag Kapitalsteuern"
     },
     {
-      "color": "#B00000",
+      "color": "#DC440E",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2011,
-          449178880
-        ],
         [
           2012,
           509340739
@@ -146,65 +142,13 @@
         [
           2020,
           279049288
+        ],
+        [
+          2021,
+          503480171
         ]
       ],
       "name": "Ertrag Gewinnsteuern"
-    },
-    {
-      "yAxis": 1,
-      "color": "#ffbb58",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          2011,
-          10541
-        ],
-        [
-          2012,
-          10803
-        ],
-        [
-          2013,
-          10782
-        ],
-        [
-          2014,
-          10959
-        ],
-        [
-          2015,
-          11033
-        ],
-        [
-          2016,
-          11330
-        ],
-        [
-          2017,
-          11697
-        ],
-        [
-          2018,
-          11949
-        ],
-        [
-          2019,
-          12163
-        ],
-        [
-          2020,
-          12222
-        ]
-      ],
-      "name": "Veranlagungen (rechte Skala)"
     }
   ],
   "chart": {
@@ -293,26 +237,6 @@
   },
   "yAxis": [
     {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "opposite": true,
-      "min": 0,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",

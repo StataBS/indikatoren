@@ -1,0 +1,362 @@
+{
+  "series": [
+    {
+      "color": "#FFDA80",
+      "index": 0,
+      "type": "column",
+      "yAxis": 0,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1628
+        ],
+        [
+          "Vorstädte",
+          2963
+        ],
+        [
+          "Am Ring",
+          6332
+        ],
+        [
+          "Breite",
+          5414
+        ],
+        [
+          "St. Alban",
+          6425
+        ],
+        [
+          "Gundeldingen",
+          11497
+        ],
+        [
+          "Bruderholz",
+          5043
+        ],
+        [
+          "Bachletten",
+          7999
+        ],
+        [
+          "Gotthelf",
+          4218
+        ],
+        [
+          "Iselin",
+          9693
+        ],
+        [
+          "St. Johann",
+          10718
+        ],
+        [
+          "Altstadt KB",
+          1540
+        ],
+        [
+          "Clara",
+          2529
+        ],
+        [
+          "Wettstein",
+          3321
+        ],
+        [
+          "Hirzbrunnen",
+          5150
+        ],
+        [
+          "Rosental",
+          2781
+        ],
+        [
+          "Matthäus",
+          9154
+        ],
+        [
+          "Klybeck",
+          4147
+        ],
+        [
+          "Kleinhüning",
+          1603
+        ],
+        [
+          "Riehen",
+          11809
+        ],
+        [
+          "Bettingen",
+          638
+        ]
+      ],
+      "name": "2013",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7F5F1A",
+      "index": 0,
+      "type": "column",
+      "yAxis": 0,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1761
+        ],
+        [
+          "Vorstädte",
+          2894
+        ],
+        [
+          "Am Ring",
+          6315
+        ],
+        [
+          "Breite",
+          5661
+        ],
+        [
+          "St. Alban",
+          6979
+        ],
+        [
+          "Gundeldingen",
+          11641
+        ],
+        [
+          "Bruderholz",
+          5225
+        ],
+        [
+          "Bachletten",
+          8112
+        ],
+        [
+          "Gotthelf",
+          4238
+        ],
+        [
+          "Iselin",
+          10019
+        ],
+        [
+          "St. Johann",
+          11275
+        ],
+        [
+          "Altstadt KB",
+          1607
+        ],
+        [
+          "Clara",
+          2644
+        ],
+        [
+          "Wettstein",
+          3566
+        ],
+        [
+          "Hirzbrunnen",
+          5327
+        ],
+        [
+          "Rosental",
+          3936
+        ],
+        [
+          "Matthäus",
+          8864
+        ],
+        [
+          "Klybeck",
+          3945
+        ],
+        [
+          "Kleinhüning",
+          1541
+        ],
+        [
+          "Riehen",
+          12357
+        ],
+        [
+          "Bettingen",
+          689
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "alignTicks": false,
+    "renderTo": "container-22357",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Veranlagungen natürlicher Personen"
+  },
+  "subtitle": {
+    "text": "in Franken, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "tickAmount": 5,
+      "min": 0,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "tickAmount": 5,
+      "min": 0,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {},
+  "exporting": {
+    "filename": "22357"
+  }
+}

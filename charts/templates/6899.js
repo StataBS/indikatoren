@@ -18,15 +18,13 @@
   {"color":  "#FABD24"}, /**/
   {"color": "#A8C3CA"}, /**/
   {"color": "#662673"}, /**/
-  {"color": "#67401E", legendIndex: 4}, /**/
-  {"color": "#DC440E"}, /**/
   ],
    "legend": {
     "enabled": true,
     itemDistance: 5, 
-    labelFormatter: function(){
+    /*labelFormatter: function(){
       return this.name.replace("und ", "und<br/>");
-    },
+    },*/
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

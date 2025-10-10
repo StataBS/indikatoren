@@ -5,87 +5,87 @@
       "data": [
         [
           "Kleinhüningen",
-          232
+          191
         ],
         [
           "Klybeck",
-          245
+          192
         ],
         [
           "Rosental",
-          372
+          362
         ],
         [
           "Iselin",
-          513
+          445
         ],
         [
           "Breite",
-          633
-        ],
-        [
-          "St. Johann",
-          688
+          581
         ],
         [
           "Clara",
-          692
+          631
+        ],
+        [
+          "St. Johann",
+          636
         ],
         [
           "Matthäus",
-          723
+          658
         ],
         [
           "Gundeldingen",
-          750
+          671
         ],
         [
           "Hirzbrunnen",
-          806
+          690
         ],
         [
           "Altstadt Kleinbasel",
-          1339
-        ],
-        [
-          "Am Ring",
-          2313
+          1224
         ],
         [
           "Wettstein",
-          2369
+          2051
+        ],
+        [
+          "Am Ring",
+          2211
         ],
         [
           "Bachletten",
-          2606
-        ],
-        [
-          "Riehen",
-          3703
+          2324
         ],
         [
           "Gotthelf",
-          4742
+          4713
+        ],
+        [
+          "Riehen",
+          4724
         ],
         [
           "St. Alban",
-          5520
+          5146
         ],
         [
           "Altstadt Grossbasel",
-          6148
+          5368
         ],
         [
           "Bruderholz",
-          16202
+          10773
         ],
         [
           "Bettingen",
-          16722
+          16210
         ],
         [
           "Vorstädte",
-          20164
+          21990
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "St. Johann",
+          "Clara",
           6
         ],
         [
-          "Clara",
+          "St. Johann",
           7
         ],
         [
@@ -139,11 +139,11 @@
           11
         ],
         [
-          "Am Ring",
+          "Wettstein",
           12
         ],
         [
-          "Wettstein",
+          "Am Ring",
           13
         ],
         [
@@ -151,11 +151,11 @@
           14
         ],
         [
-          "Riehen",
+          "Gotthelf",
           15
         ],
         [
-          "Gotthelf",
+          "Riehen",
           16
         ],
         [
@@ -249,7 +249,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
   },
   "legend": {
     "enabled": false,
