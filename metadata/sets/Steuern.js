@@ -453,45 +453,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6900,
-		"chart-id": 6900,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9319
-		],
-		"title": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
-		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Vor allem der Median des Reineinkommens pro Veranlagung bewegt sich relativ konstant. Im Jahr 2021 beträgt der Mittelwert rund 76 200 Franken (+16,9% seit 2012, +3,9% gegenüber 2020), der Median ca. 50 900 Franken (+5,2% seit 2012, +1,5% gegenüber 2020). Der Ertrag aus Einkommenssteuer 2021 beträgt einschliesslich Gemeindesteuer 1,3 Mrd. Franken (+26,5% gegenüber 2012 und +7,0% gegenüber 2020).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06900",
-		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "2.2.3",
-		"stufe1": "2 Kernindikatoren",
-		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_203",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-26T04:48:36",
-		"id": 6900
-	},
-	{
-		"template": "line001",
 		"data-id": 6901,
 		"chart-id": 6901,
 		"filter": "",
@@ -567,45 +528,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-10-10T09:02:27",
 		"id": 6902
-	},
-	{
-		"template": "line001",
-		"data-id": 6903,
-		"chart-id": 6903,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9322
-		],
-		"title": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
-		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist seit 2012 relativ stetig gestiegen und beträgt 2021 rund 23 400 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen im Zeitverlauf etwas grössere Schwankungen. Im Vergleich zum Vorjahr stieg der Ertrag um 7,5%, der Mittelwert des Reinvermögens um 14,0%, der Median um 8,4%. Der Anstieg des Medians über die Jahre ist ein Indikator dafür, dass sich die tieferen Vermögen allgemein insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau. Ein Teil der stärkeren Veränderungen kannn auch im Bearbeitungsstand der Veranlagungen begründet sein - in den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports für jedes Steuerjahr 98% der gesamten Veranlagungen im Kanton berücksichtigt.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06903",
-		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "2.2.6",
-		"stufe1": "2 Kernindikatoren",
-		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_206",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-26T04:48:41",
-		"id": 6903
 	},
 	{
 		"template": "line001",
@@ -686,45 +608,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-10-10T09:02:30",
 		"id": 6905
-	},
-	{
-		"template": "line001",
-		"data-id": 6906,
-		"chart-id": 6906,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9325
-		],
-		"title": "Ertrag aus  Einkommens- und Vermögensssteuer",
-		"subtitle": "in Franken, Basel-Stadt, 2012 und 2021",
-		"lesehilfe": "Die einzelnen Wohnviertel und Gemeinden tragen unterschiedlich zum Steuerertrag des Kantons bei. Dies liegt einerseits an der grösseren Anzahl an Steuerpflichtigen (zum Beispiel Gundeldingen, St. Johann, Riehen), andererseits am höheren durchschnittlichen Ertrag pro Veranlagung (zum Beispiel Bruderholz oder St. Alban). In den meisten Wohnvierteln bzw. Gemeinden fällt der Steuerertrag beider Steuerarten 2021 höher aus als 2012. Der höchste Betrag an Einkommenssteuer liegt 2021 in Riehen vor (einschliesslich Gemeindesteuer), er beträgt rund 165 Mio. Franken. Der höchste Wert für die Vermögenssteuer liegt mit ca. 85 Mio. Franken im Wohnviertel Bruderholz vor.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Ertrag aus  Einkommens- und Vermögensssteuer",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06906",
-		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "2.2.9",
-		"stufe1": "2 Kernindikatoren",
-		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_209",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-26T04:48:45",
-		"id": 6906
 	},
 	{
 		"template": "befragungen001",
@@ -884,45 +767,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "template001",
-		"data-id": 6911,
-		"chart-id": 6911,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9330
-		],
-		"title": "Quellensteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2013 und 2022",
-		"lesehilfe": "Bei der Quellensteuer liegen die Daten bereits für das Jahr 2022 vor. Im Vergleich mit dem Jahr 2013 hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. 2022 beträgt der Quellensteuerertrag rund 539 Mio. Franken (einschliesslich Auswärtige sowie der Anteil, der an den Bund fliesst). Die meisten Veranlagungen in Basel-Stadt liegen 2022 von Personen vor, die im Wohnviertel Matthäus wohnen (ca. 3 000). Der höchste Ertrag wird im Wohnviertel St. Alban mit 34,3 Mio. Franken verzeichnet. Von Personen, die nicht im Kanton Basel-Stadt wohnen, stammen rund 215 Mio. Franken Quellensteuern.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2022 rund 105 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2021 betrifft dies 6 626 Veranlagungen (5,6% der rund 119 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2021 enthalten waren.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Quellensteuerertrag",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06911",
-		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "2.4.1",
-		"stufe1": "2 Kernindikatoren",
-		"stufe2": "2.4 Quellensteuer",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_04_00_00_00_401",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-26T04:48:47",
-		"id": 6911
-	},
-	{
-		"template": "template001",
 		"data-id": 6912,
 		"chart-id": 6912,
 		"filter": "",
@@ -959,45 +803,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-10-10T09:02:39",
 		"id": 6912
-	},
-	{
-		"template": "mappie002",
-		"data-id": 6980,
-		"chart-id": 6980,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9332
-		],
-		"title": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2021",
-		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2021 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. St. Alban, Bruderholz und Riehen tragen die höchsten Summen zum Gesamtertrag des Kantons bei. Die Grösse der Kreise symbolisiert jeweils die Höhe des Steuerertrags. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus. Der Anteil an Vermögenssteuer ist zum Beispiel in den Wohnvierteln Vorstädte und Bruderholz besonders ausgeprägt.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06980",
-		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "2.2.13",
-		"stufe1": "2 Kernindikatoren",
-		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_02_00_00_00_213",
-		"darstellungsart": "Karte",
-		"printformat": "map",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-26T04:48:34",
-		"id": 6980
 	},
 	{
 		"template": "template001",

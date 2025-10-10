@@ -929,18 +929,18 @@ id | visible | visibleInPortal | indikatorenset
 6897 | true | true | Steuern
 6898 | true | true | Steuern
 6899 | true | true | Steuern
-6900 | true | true | Steuern
+6900 | false |  | Steuern
 6901 | true | true | Steuern
 6902 | true | true | Steuern
-6903 | true | true | Steuern
+6903 | false |  | Steuern
 6904 | true | true | Steuern
 6905 | true | true | Steuern
-6906 | true | true | Steuern
+6906 | false |  | Steuern
 6907 | true | true | Steuern
 6908 | true | true | Steuern
 6909 | true | true | Steuern
 6910 | true | true | Steuern
-6911 | true | true | Steuern
+6911 | false |  | Steuern
 6912 | true | true | Steuern
 6915 | true | true | Wohnviertel
 6916 | true | true | Wohnviertel
@@ -1003,7 +1003,7 @@ id | visible | visibleInPortal | indikatorenset
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
 6979 | true | true | 
-6980 | true | true | Steuern
+6980 | false |  | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
 6983 | true | true | Steuern
