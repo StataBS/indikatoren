@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Vorstädte",
-          "y": 9,
-          "Wert": 0.03,
-          "Jahr": 2023
+          "y": 10,
+          "Wert": 0.032,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Vorstädte",
           "y": 16,
-          "Wert": 0.429787234,
-          "Jahr": 2023
+          "Wert": 0.4396793587,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.3193005181,
-          "Jahr": 2023
+          "y": 20,
+          "Wert": 0.326923076923077,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.4783,
-          "Jahr": 2023
+          "y": 16,
+          "Wert": 0.5111,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 0.3381449631,
-          "Jahr": 2023
+          "y": 13,
+          "Wert": 0.3272672126,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.2818642351,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 0.293987976,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.1775184275,
-          "Jahr": 2023
+          "y": 4,
+          "Wert": 0.186229906,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Vorstädte",
           "y": 3,
           "Wert": 1899.336996336996,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Vorstädte",
           "y": 6,
           "Wert": 0.07326007326,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Vorstädte",
           "y": 8,
           "Wert": 0.197,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Vorstädte",
           "y": 14,
-          "Wert": 82.224013,
-          "Jahr": 2023
+          "Wert": 82.156142,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 50.651554,
-          "Jahr": 2023
+          "Wert": 50.682073,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 20164,
-          "Jahr": 2021
+          "Wert": 21990,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 34601,
-          "Jahr": 2021
+          "Wert": 31172,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7603255,
-          "Jahr": "2018-2022"
+          "y": 13,
+          "Wert": 0.7422008,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 4.622108,
-          "Jahr": 2021
+          "Wert": 4.78085,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Vorstädte",
+          "y": 6,
+          "Wert": 3.1,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -279,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "legend": {
     "enabled": false,

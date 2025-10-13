@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Rosental",
-          "y": 17,
-          "Wert": 0.061,
-          "Jahr": 2023
+          "y": 16,
+          "Wert": 0.058,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Rosental",
           "y": 21,
-          "Wert": 0.576362241,
-          "Jahr": 2023
+          "Wert": 0.5756756757,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Rosental",
           "y": 8,
-          "Wert": 0.2345162596,
-          "Jahr": 2023
+          "Wert": 0.231960150780829,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Rosental",
-          "y": 8,
-          "Wert": 0.2906,
-          "Jahr": 2023
+          "y": 9,
+          "Wert": 0.2927,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.1297365572,
-          "Jahr": 2023
+          "Wert": 0.133782308,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.1913532873,
-          "Jahr": 2023
+          "Wert": 0.1921492921,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Rosental",
           "y": 14,
-          "Wert": 0.280945507,
-          "Jahr": 2023
+          "Wert": 0.2804878049,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Rosental",
           "y": 19,
-          "Wert": 1952.694006309148,
-          "Jahr": 2023
+          "Wert": 1952.539184952978,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 0.063091482649,
-          "Jahr": 2023
+          "Wert": 0.062695924764,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Rosental",
           "y": 4,
-          "Wert": 0.157,
-          "Jahr": 2023
+          "Wert": 0.155,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Rosental",
-          "y": 7,
-          "Wert": 70.212877,
-          "Jahr": 2023
+          "y": 8,
+          "Wert": 70.284799,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 35.356314,
-          "Jahr": 2023
+          "Wert": 35.380296,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 372,
-          "Jahr": 2021
+          "Wert": 362,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Rosental",
-          "y": 9,
-          "Wert": 8159,
-          "Jahr": 2021
+          "y": 10,
+          "Wert": 8587,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Rosental",
-          "y": 3,
-          "Wert": 0.6929327,
-          "Jahr": "2018-2022"
+          "y": 7,
+          "Wert": 0.706851,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 13,
-          "Wert": 0.6296403,
-          "Jahr": 2021
+          "Wert": 0.6843255,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Rosental",
+          "y": 16,
+          "Wert": 5.1,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

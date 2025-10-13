@@ -285,10 +285,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"title": "Anteil Pflegetage nach Pflegestufe in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 8,9%. Die durchschnittliche Pflegestufe lag 2023 bei 6,4.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2024 um 10,2%. Die durchschnittliche Pflegestufe lag 2024 bei 6,4.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -301,7 +301,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"description": "Anteil Pflegetage nach Pflegestufe in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -317,7 +317,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-06T08:02:03",
+		"aktualisierungsdatum": "2025-10-13T12:35:14",
 		"id": 11172
 	},
 	{
@@ -510,7 +510,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:39",
+		"aktualisierungsdatum": "2025-10-13T12:35:12",
 		"id": 11177
 	},
 	{
@@ -11550,7 +11550,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2022 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 33%.",
+		"lesehilfe": "92% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2023 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es 96%, bei jenen aus anderen Herkunftsländern knapp 34%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -11576,7 +11576,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-29T09:06:21",
+		"aktualisierungsdatum": "2025-10-13T12:35:10",
 		"id": 4463
 	},
 	{
@@ -23959,7 +23959,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:34",
+		"aktualisierungsdatum": "2025-10-13T12:35:16",
 		"id": 6630
 	},
 	{
@@ -23997,7 +23997,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:36",
+		"aktualisierungsdatum": "2025-10-13T12:35:17",
 		"id": 6631
 	},
 	{
@@ -24009,7 +24009,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Am Ring - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
+		"lesehilfe": "Im Wohnviertel Am Ring liegt die Gymnasialquote im mittleren Bereich. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist die zweithöchste im Kanton.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -24035,7 +24035,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:37",
+		"aktualisierungsdatum": "2025-10-13T12:35:19",
 		"id": 6632
 	},
 	{
@@ -24047,7 +24047,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Breite - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über relativ wenig Arbeitsplätze pro Kopf.",
+		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über die wenigsten Arbeitsplätze pro Kopf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -24073,7 +24073,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:38",
+		"aktualisierungsdatum": "2025-10-13T12:35:21",
 		"id": 6633
 	},
 	{
@@ -24085,7 +24085,7 @@ var indikatoren = [
 		"children": [],
 		"title": "St. Alban - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel St. Alban sticht der Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"lesehilfe": "Im Wohnviertel St. Alban stechen der Alters- und Jugendquotient etwas hervor. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -24111,7 +24111,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:39",
+		"aktualisierungsdatum": "2025-10-13T12:35:23",
 		"id": 6634
 	},
 	{

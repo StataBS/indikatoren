@@ -6,113 +6,120 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gundeldingen",
           "y": 13,
-          "Wert": 0.046,
-          "Jahr": 2023
+          "Wert": 0.048,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gundeldingen",
           "y": 14,
-          "Wert": 0.4143520963,
-          "Jahr": 2023
+          "Wert": 0.4226487724,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gundeldingen",
           "y": 17,
-          "Wert": 0.2925081433,
-          "Jahr": 2023
+          "Wert": 0.294670347170613,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gundeldingen",
-          "y": 3,
-          "Wert": 0.2308,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 0.225,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gundeldingen",
-          "y": 5,
-          "Wert": 0.2334116933,
-          "Jahr": 2023
+          "y": 4,
+          "Wert": 0.2316645527,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gundeldingen",
           "y": 9,
-          "Wert": 0.3084803042,
-          "Jahr": 2023
+          "Wert": 0.3060757387,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gundeldingen",
           "y": 5,
-          "Wert": 0.2026996284,
-          "Jahr": 2023
+          "Wert": 0.2026411997,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gundeldingen",
           "y": 8,
-          "Wert": 1933.05156794425,
-          "Jahr": 2023
+          "Wert": 1933.126044568245,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gundeldingen",
           "y": 2,
-          "Wert": 0.027874564459,
-          "Jahr": 2023
+          "Wert": 0.027855153203,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gundeldingen",
           "y": 7,
-          "Wert": 0.178,
-          "Jahr": 2023
+          "Wert": 0.177,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gundeldingen",
-          "y": 6,
-          "Wert": 70.180675,
-          "Jahr": 2023
+          "y": 7,
+          "Wert": 69.595726,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
           "y": 10,
-          "Wert": 39.418566,
-          "Jahr": 2023
+          "Wert": 39.42054,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gundeldingen",
           "y": 9,
-          "Wert": 750,
-          "Jahr": 2021
+          "Wert": 671,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gundeldingen",
-          "y": 10,
-          "Wert": 8220,
-          "Jahr": 2021
+          "y": 9,
+          "Wert": 8542,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gundeldingen",
           "y": 16,
-          "Wert": 0.7519531,
-          "Jahr": "2018-2022"
+          "Wert": 0.7584348,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
           "y": 12,
-          "Wert": 0.6064143,
-          "Jahr": 2021
+          "Wert": 0.5826957,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Gundeldingen",
+          "y": 10,
+          "Wert": 3.7,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

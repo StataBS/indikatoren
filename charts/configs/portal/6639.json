@@ -6,113 +6,120 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Iselin",
           "y": 18,
-          "Wert": 0.071,
-          "Jahr": 2023
+          "Wert": 0.066,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Iselin",
           "y": 11,
-          "Wert": 0.401856018,
-          "Jahr": 2023
+          "Wert": 0.4058412769,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Iselin",
           "y": 13,
-          "Wert": 0.2778893031,
-          "Jahr": 2023
+          "Wert": 0.271183591123067,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Iselin",
-          "y": 5,
-          "Wert": 0.2803,
-          "Jahr": 2023
+          "y": 10,
+          "Wert": 0.3121,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 0.243385346,
-          "Jahr": 2023
+          "Wert": 0.2436791264,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Iselin",
-          "y": 12,
-          "Wert": 0.3149606299,
-          "Jahr": 2023
+          "y": 11,
+          "Wert": 0.3095211705,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Iselin",
           "y": 12,
-          "Wert": 0.2644165536,
-          "Jahr": 2023
+          "Wert": 0.2719865603,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Iselin",
           "y": 13,
-          "Wert": 1938.680384087791,
-          "Jahr": 2023
+          "Wert": 1939.092592592592,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Iselin",
           "y": 11,
-          "Wert": 0.164609053497,
-          "Jahr": 2023
+          "Wert": 0.165294924554,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Iselin",
           "y": 16,
-          "Wert": 0.363,
-          "Jahr": 2023
+          "Wert": 0.372,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Iselin",
-          "y": 5,
-          "Wert": 68.915029,
-          "Jahr": 2023
+          "y": 6,
+          "Wert": 68.989169,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 37.176426,
-          "Jahr": 2023
+          "Wert": 37.22344,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Iselin",
           "y": 4,
-          "Wert": 513,
-          "Jahr": 2021
+          "Wert": 445,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Iselin",
           "y": 3,
-          "Wert": 6336,
-          "Jahr": 2021
+          "Wert": 6660,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Iselin",
-          "y": 6,
-          "Wert": 0.6972724,
-          "Jahr": "2018-2022"
+          "y": 3,
+          "Wert": 0.6930883,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
-          "y": 5,
-          "Wert": 0.1657527,
-          "Jahr": 2021
+          "y": 4,
+          "Wert": 0.1702679,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Iselin",
+          "y": 15,
+          "Wert": 4.6,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

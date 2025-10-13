@@ -5,114 +5,114 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 6,
-          "Wert": 0.024,
-          "Jahr": 2023
+          "y": 2,
+          "Wert": 0.017,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
           "y": 2,
-          "Wert": 0.251324754,
-          "Jahr": 2023
+          "Wert": 0.2473200613,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bettingen",
           "y": 1,
-          "Wert": 0.1251015435,
-          "Jahr": 2023
+          "Wert": 0.131255127153404,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bettingen",
-          "y": 14,
-          "Wert": 0.4483,
-          "Jahr": 2023
+          "y": 17,
+          "Wert": 0.5238,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 0.4546722455,
-          "Jahr": 2023
+          "Wert": 0.4651493599,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 0.4171732523,
-          "Jahr": 2023
+          "Wert": 0.4230769231,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
           "y": 19,
-          "Wert": 0.3877266388,
-          "Jahr": 2023
+          "Wert": 0.3926031294,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
           "Wert": 1965.555555555555,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
           "Wert": 0.774691358024,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bettingen",
           "y": 21,
           "Wert": 0.899,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
           "Wert": 120.159574,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 20,
           "Wert": 51.957826,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bettingen",
           "y": 20,
-          "Wert": 16722,
-          "Jahr": 2021
+          "Wert": 16210,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bettingen",
-          "y": 19,
-          "Wert": 26400,
-          "Jahr": 2021
+          "y": 20,
+          "Wert": 25169,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
-          "y": 4,
-          "Wert": 0.6957735,
-          "Jahr": "2018-2022"
+          "y": 5,
+          "Wert": 0.6957764,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
-          "y": 4,
-          "Wert": 0.1651224,
-          "Jahr": 2021
+          "y": 5,
+          "Wert": 0.1733211,
+          "Jahr": 2022
         }
       ],
       "name": "jahr_char",
