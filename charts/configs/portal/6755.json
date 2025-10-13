@@ -6,113 +6,120 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.083,
-          "Jahr": 2023
+          "Wert": 0.077,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Matthäus",
           "y": 17,
-          "Wert": 0.5033946345,
-          "Jahr": 2023
+          "Wert": 0.5062631857,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Matthäus",
           "y": 14,
-          "Wert": 0.2785967786,
-          "Jahr": 2023
+          "Wert": 0.279141932002159,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Matthäus",
-          "y": 7,
-          "Wert": 0.2905,
-          "Jahr": 2023
+          "y": 6,
+          "Wert": 0.2595,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Matthäus",
           "y": 2,
-          "Wert": 0.2017258977,
-          "Jahr": 2023
+          "Wert": 0.2045391126,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Matthäus",
           "y": 10,
-          "Wert": 0.3090106124,
-          "Jahr": 2023
+          "Wert": 0.3076872363,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.205994247,
-          "Jahr": 2023
+          "Wert": 0.2063063901,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 1925.735472679965,
-          "Jahr": 2023
+          "Wert": 1925.827288428324,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Matthäus",
-          "y": 4,
-          "Wert": 0.068516912402,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 0.069948186528,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.171,
-          "Jahr": 2023
+          "Wert": 0.169,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 67.117666,
-          "Jahr": 2023
+          "Wert": 67.028175,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 36.807261,
-          "Jahr": 2023
+          "Wert": 36.827986,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Matthäus",
           "y": 8,
-          "Wert": 723,
-          "Jahr": 2021
+          "Wert": 658,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 7033,
-          "Jahr": 2021
+          "Wert": 7231,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Matthäus",
-          "y": 8,
-          "Wert": 0.7146829,
-          "Jahr": "2018-2022"
+          "y": 11,
+          "Wert": 0.7282629,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.1704631,
-          "Jahr": 2021
+          "Wert": 0.1812646,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Matthäus",
+          "y": 17,
+          "Wert": 5.1,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

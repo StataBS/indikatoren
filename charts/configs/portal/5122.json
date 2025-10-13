@@ -3238,87 +3238,87 @@
       "data": [
         [
           19,
-          232
+          191
         ],
         [
           18,
-          245
+          192
         ],
         [
           16,
-          372
+          362
         ],
         [
           10,
-          513
+          445
         ],
         [
           4,
-          633
-        ],
-        [
-          11,
-          688
+          581
         ],
         [
           13,
-          692
+          631
+        ],
+        [
+          11,
+          636
         ],
         [
           17,
-          723
+          658
         ],
         [
           6,
-          750
+          671
         ],
         [
           15,
-          806
+          690
         ],
         [
           12,
-          1339
-        ],
-        [
-          3,
-          2313
+          1224
         ],
         [
           14,
-          2369
+          2051
+        ],
+        [
+          3,
+          2211
         ],
         [
           8,
-          2606
-        ],
-        [
-          20,
-          3703
+          2324
         ],
         [
           9,
-          4742
+          4713
+        ],
+        [
+          20,
+          4724
         ],
         [
           5,
-          5520
+          5146
         ],
         [
           1,
-          6148
+          5368
         ],
         [
           7,
-          16202
+          10773
         ],
         [
           30,
-          16722
+          16210
         ],
         [
           2,
-          20164
+          21990
         ]
       ]
     },
@@ -3347,11 +3347,11 @@
         ],
         [
           6,
-          "St. Johann"
+          "Clara"
         ],
         [
           7,
-          "Clara"
+          "St. Johann"
         ],
         [
           8,
@@ -3371,11 +3371,11 @@
         ],
         [
           12,
-          "Am Ring"
+          "Wettstein"
         ],
         [
           13,
-          "Wettstein"
+          "Am Ring"
         ],
         [
           14,
@@ -3383,11 +3383,11 @@
         ],
         [
           15,
-          "Riehen"
+          "Gotthelf"
         ],
         [
           16,
-          "Gotthelf"
+          "Riehen"
         ],
         [
           17,
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "colorAxis": {
     "min": 0,

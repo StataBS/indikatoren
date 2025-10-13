@@ -6,113 +6,113 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Riehen",
           "y": 7,
-          "Wert": 0.025,
-          "Jahr": 2023
+          "Wert": 0.026,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Riehen",
           "y": 5,
-          "Wert": 0.2937524941,
-          "Jahr": 2023
+          "Wert": 0.2961360124,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1663577596,
-          "Jahr": 2023
+          "Wert": 0.166014834794336,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Riehen",
-          "y": 16,
-          "Wert": 0.4581,
-          "Jahr": 2023
+          "y": 13,
+          "Wert": 0.4821,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.4759358289,
-          "Jahr": 2023
+          "Wert": 0.479521899,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Riehen",
-          "y": 19,
-          "Wert": 0.4060337178,
-          "Jahr": 2023
+          "y": 18,
+          "Wert": 0.4032514579,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.408506016,
-          "Jahr": 2023
+          "Wert": 0.4132397192,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 1960.135135135135,
-          "Jahr": 2023
+          "Wert": 1960.445509822263,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Riehen",
           "y": 18,
-          "Wert": 0.653819036427,
-          "Jahr": 2023
+          "Wert": 0.655285313376,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.791,
-          "Jahr": 2023
+          "Wert": 0.793,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Riehen",
           "y": 19,
-          "Wert": 102.453742,
-          "Jahr": 2023
+          "Wert": 102.545562,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 17,
-          "Wert": 46.939378,
-          "Jahr": 2023
+          "Wert": 46.944487,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Riehen",
-          "y": 15,
-          "Wert": 3703,
-          "Jahr": 2021
+          "y": 16,
+          "Wert": 4724,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Riehen",
-          "y": 15,
-          "Wert": 13467,
-          "Jahr": 2021
+          "y": 16,
+          "Wert": 14522,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Riehen",
-          "y": 4,
-          "Wert": 0.6957735,
-          "Jahr": "2018-2022"
+          "y": 5,
+          "Wert": 0.6957764,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1556797,
-          "Jahr": 2021
+          "Wert": 0.1581902,
+          "Jahr": 2022
         }
       ],
       "name": "jahr_char",

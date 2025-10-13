@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Johann",
-          "y": 16,
-          "Wert": 0.061,
-          "Jahr": 2023
+          "y": 17,
+          "Wert": 0.058,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 0.4290261307,
-          "Jahr": 2023
+          "Wert": 0.4303240977,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Johann",
           "y": 9,
-          "Wert": 0.2372414538,
-          "Jahr": 2023
+          "Wert": 0.239284183454779,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Johann",
-          "y": 11,
-          "Wert": 0.3313,
-          "Jahr": 2023
+          "y": 8,
+          "Wert": 0.2876,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Johann",
-          "y": 4,
-          "Wert": 0.2313123561,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 0.2364430147,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Johann",
           "y": 7,
-          "Wert": 0.301350172,
-          "Jahr": 2023
+          "Wert": 0.2989469379,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Johann",
-          "y": 11,
-          "Wert": 0.2636224098,
-          "Jahr": 2023
+          "y": 10,
+          "Wert": 0.2618719363,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 1934.521172638436,
-          "Jahr": 2023
+          "Wert": 1934.638256343526,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Johann",
           "y": 13,
-          "Wert": 0.245602605863,
-          "Jahr": 2023
+          "Wert": 0.243981782693,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Johann",
           "y": 12,
-          "Wert": 0.303,
-          "Jahr": 2023
+          "Wert": 0.302,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 72.194553,
-          "Jahr": 2023
+          "Wert": 72.172629,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
           "y": 4,
-          "Wert": 36.766227,
-          "Jahr": 2023
+          "Wert": 36.777447,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 6,
-          "Wert": 688,
-          "Jahr": 2021
+          "y": 7,
+          "Wert": 636,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 6,
-          "Wert": 7243,
-          "Jahr": 2021
+          "y": 5,
+          "Wert": 7419,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Johann",
           "y": 9,
-          "Wert": 0.7151063,
-          "Jahr": "2018-2022"
+          "Wert": 0.7174091,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 1.023927,
-          "Jahr": 2021
+          "Wert": 1.0093294,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "St.Johann",
+          "y": 13,
+          "Wert": 4.2,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

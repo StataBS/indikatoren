@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Clara",
-          "y": 15,
-          "Wert": 0.054,
-          "Jahr": 2023
+          "y": 14,
+          "Wert": 0.053,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Clara",
-          "y": 18,
-          "Wert": 0.5108175814,
-          "Jahr": 2023
+          "y": 19,
+          "Wert": 0.5163265306,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Clara",
           "y": 18,
-          "Wert": 0.3059194566,
-          "Jahr": 2023
+          "Wert": 0.311585512113217,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Clara",
-          "y": 6,
-          "Wert": 0.2857,
-          "Jahr": 2023
+          "y": 3,
+          "Wert": 0.2041,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Clara",
           "y": 10,
-          "Wert": 0.3047007102,
-          "Jahr": 2023
+          "Wert": 0.3014804845,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 0.2874060578,
-          "Jahr": 2023
+          "y": 3,
+          "Wert": 0.2832199546,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 0.1802502536,
-          "Jahr": 2023
+          "y": 3,
+          "Wert": 0.1823687752,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Clara",
           "y": 7,
           "Wert": 1929.912698412698,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Clara",
           "y": 1,
           "Wert": 0.019841269841,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Clara",
           "y": 5,
           "Wert": 0.159,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Clara",
           "y": 3,
-          "Wert": 66.760574,
-          "Jahr": 2023
+          "Wert": 66.778986,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 7,
-          "Wert": 38.192867,
-          "Jahr": 2023
+          "Wert": 38.216642,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Clara",
-          "y": 7,
-          "Wert": 692,
-          "Jahr": 2021
+          "y": 6,
+          "Wert": 631,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 7233,
-          "Jahr": 2021
+          "y": 7,
+          "Wert": 7918,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Clara",
           "y": 10,
-          "Wert": 0.7159412,
-          "Jahr": "2018-2022"
+          "Wert": 0.7198746,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 11,
-          "Wert": 0.4957204,
-          "Jahr": 2021
+          "Wert": 0.5085811,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Clara",
+          "y": 11,
+          "Wert": 4,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

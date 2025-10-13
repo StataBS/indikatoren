@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Alban",
-          "y": 5,
-          "Wert": 0.023,
-          "Jahr": 2023
+          "y": 6,
+          "Wert": 0.022,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Alban",
           "y": 10,
-          "Wert": 0.3849047543,
-          "Jahr": 2023
+          "Wert": 0.3877194376,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Alban",
           "y": 7,
-          "Wert": 0.229033064,
-          "Jahr": 2023
+          "Wert": 0.226314494299073,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Alban",
-          "y": 13,
-          "Wert": 0.4404,
-          "Jahr": 2023
+          "y": 12,
+          "Wert": 0.4421,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 0.3902170926,
-          "Jahr": 2023
+          "Wert": 0.3868603231,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Alban",
           "y": 6,
-          "Wert": 0.2967824556,
-          "Jahr": 2023
+          "Wert": 0.2942251172,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 0.3264633141,
-          "Jahr": 2023
+          "Wert": 0.3219763812,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 1940.9942004971,
-          "Jahr": 2023
+          "Wert": 1940.98178807947,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Alban",
-          "y": 14,
-          "Wert": 0.332228666114,
-          "Jahr": 2023
+          "y": 15,
+          "Wert": 0.333609271523,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Alban",
           "y": 13,
-          "Wert": 0.317,
-          "Jahr": 2023
+          "Wert": 0.315,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 90.647359,
-          "Jahr": 2023
+          "Wert": 90.759051,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 16,
-          "Wert": 46.780812,
-          "Jahr": 2023
+          "Wert": 46.79472,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 5520,
-          "Jahr": 2021
+          "Wert": 5146,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 17138,
-          "Jahr": 2021
+          "Wert": 17648,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Alban",
-          "y": 13,
-          "Wert": 0.7233697,
-          "Jahr": "2018-2022"
+          "y": 12,
+          "Wert": 0.7304275,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 18,
-          "Wert": 2.3068373,
-          "Jahr": 2021
+          "Wert": 2.2428013,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "St.Alban",
+          "y": 9,
+          "Wert": 3.4,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -279,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "legend": {
     "enabled": false,

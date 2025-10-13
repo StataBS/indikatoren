@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 2,
-          "Wert": 0.015,
-          "Jahr": 2023
+          "y": 3,
+          "Wert": 0.018,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 7,
-          "Wert": 0.3221206581,
-          "Jahr": 2023
+          "Wert": 0.3182975628,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 20,
-          "Wert": 0.3342709798,
-          "Jahr": 2023
+          "y": 19,
+          "Wert": 0.326806526806527,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 12,
-          "Wert": 0.4286,
-          "Jahr": 2023
+          "y": 19,
+          "Wert": 0.5789,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 9,
-          "Wert": 0.2919287212,
-          "Jahr": 2023
+          "y": 12,
+          "Wert": 0.3085501859,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 8,
-          "Wert": 0.305740988,
-          "Jahr": 2023
+          "y": 12,
+          "Wert": 0.3108530594,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 2,
-          "Wert": 0.141509434,
-          "Jahr": 2023
+          "Wert": 0.151354222,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 1822.93359375,
-          "Jahr": 2023
+          "Wert": 1823.236893203883,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.1015625,
-          "Jahr": 2023
+          "Wert": 0.099029126213,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
           "Wert": 0.067,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 16,
-          "Wert": 88.222083,
-          "Jahr": 2023
+          "Wert": 88.126472,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 21,
-          "Wert": 53.671354,
-          "Jahr": 2023
+          "Wert": 53.690107,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 6148,
-          "Jahr": 2021
+          "Wert": 5368,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 20,
-          "Wert": 27554,
-          "Jahr": 2021
+          "y": 18,
+          "Wert": 20622,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 19,
-          "Wert": 0.7813881,
-          "Jahr": "2018-2022"
+          "y": 18,
+          "Wert": 0.7768004,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 3.6851086,
-          "Jahr": 2021
+          "Wert": 3.4463677,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Grossbasel Altstadt",
+          "y": 7,
+          "Wert": 3.2,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -279,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "legend": {
     "enabled": false,

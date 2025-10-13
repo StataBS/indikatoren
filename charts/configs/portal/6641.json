@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 14,
-          "Wert": 0.053,
-          "Jahr": 2023
+          "y": 15,
+          "Wert": 0.055,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 0.4026872964,
-          "Jahr": 2023
+          "y": 13,
+          "Wert": 0.4103405827,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 21,
-          "Wert": 0.3525054466,
-          "Jahr": 2023
+          "Wert": 0.356830122591944,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 4,
-          "Wert": 0.28,
-          "Jahr": 2023
+          "y": 2,
+          "Wert": 0.1538,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 8,
-          "Wert": 0.2857967667,
-          "Jahr": 2023
+          "y": 7,
+          "Wert": 0.2876234747,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.2748371336,
-          "Jahr": 2023
+          "Wert": 0.2732868281,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 1,
-          "Wert": 0.1322170901,
-          "Jahr": 2023
+          "Wert": 0.128413713,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 1881.503472222222,
-          "Jahr": 2023
+          "Wert": 1881.782758620689,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.097222222222,
-          "Jahr": 2023
+          "Wert": 0.096551724137,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
           "Wert": 0.079,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 9,
-          "Wert": 71.101967,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 68.982485,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 43.799128,
-          "Jahr": 2023
+          "Wert": 43.74074,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 11,
-          "Wert": 1339,
-          "Jahr": 2021
+          "Wert": 1224,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 11,
-          "Wert": 9097,
-          "Jahr": 2021
+          "y": 12,
+          "Wert": 9722,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 20,
-          "Wert": 0.8067397,
-          "Jahr": "2018-2022"
+          "y": 19,
+          "Wert": 0.7848757,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 16,
-          "Wert": 1.8234557,
-          "Jahr": 2021
+          "Wert": 1.6487677,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Kleinbasel Altstadt",
+          "y": 12,
+          "Wert": 4.1,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

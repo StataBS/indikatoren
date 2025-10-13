@@ -7,112 +7,119 @@
           "Wohnviertel": "Am Ring",
           "y": 8,
           "Wert": 0.026,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Am Ring",
-          "y": 13,
-          "Wert": 0.4030939615,
-          "Jahr": 2023
+          "y": 12,
+          "Wert": 0.4059776926,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Am Ring",
           "y": 12,
-          "Wert": 0.2701050621,
-          "Jahr": 2023
+          "Wert": 0.268872320596459,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Am Ring",
-          "y": 18,
-          "Wert": 0.5372,
-          "Jahr": 2023
+          "y": 14,
+          "Wert": 0.5034,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Am Ring",
-          "y": 11,
-          "Wert": 0.3077441986,
-          "Jahr": 2023
+          "y": 9,
+          "Wert": 0.3002136752,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Am Ring",
-          "y": 5,
-          "Wert": 0.2899709941,
-          "Jahr": 2023
+          "y": 4,
+          "Wert": 0.2847682119,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Am Ring",
           "y": 8,
-          "Wert": 0.2271991365,
-          "Jahr": 2023
+          "Wert": 0.2323717949,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Am Ring",
           "y": 4,
-          "Wert": 1921.088926174496,
-          "Jahr": 2023
+          "Wert": 1921.081239530988,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Am Ring",
           "y": 12,
-          "Wert": 0.19043624161,
-          "Jahr": 2023
+          "Wert": 0.192629815745,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Am Ring",
           "y": 10,
-          "Wert": 0.246,
-          "Jahr": 2023
+          "Wert": 0.243,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Am Ring",
           "y": 13,
-          "Wert": 81.782338,
-          "Jahr": 2023
+          "Wert": 81.630359,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
           "y": 13,
-          "Wert": 44.907467,
-          "Jahr": 2023
+          "Wert": 44.921115,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Am Ring",
-          "y": 12,
-          "Wert": 2313,
-          "Jahr": 2021
+          "y": 13,
+          "Wert": 2211,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Am Ring",
-          "y": 14,
-          "Wert": 12813,
-          "Jahr": 2021
+          "y": 13,
+          "Wert": 13301,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Am Ring",
-          "y": 18,
-          "Wert": 0.7753934,
-          "Jahr": "2018-2022"
+          "y": 20,
+          "Wert": 0.7858827,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
           "y": 14,
-          "Wert": 0.939805,
-          "Jahr": 2021
+          "Wert": 0.9830061,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Am Ring",
+          "y": 8,
+          "Wert": 3.3,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -279,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "legend": {
     "enabled": false,

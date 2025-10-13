@@ -7,112 +7,119 @@
           "Wohnviertel": "Bruderholz",
           "y": 1,
           "Wert": 0.012,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bruderholz",
           "y": 3,
-          "Wert": 0.2530921942,
-          "Jahr": 2023
+          "Wert": 0.2513007284,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bruderholz",
           "y": 2,
-          "Wert": 0.1434469617,
-          "Jahr": 2023
+          "Wert": 0.143158783783784,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bruderholz",
-          "y": 21,
-          "Wert": 0.587,
-          "Jahr": 2023
+          "y": 18,
+          "Wert": 0.5464,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bruderholz",
           "y": 19,
-          "Wert": 0.4071563089,
-          "Jahr": 2023
+          "Wert": 0.4039297185,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bruderholz",
           "y": 21,
-          "Wert": 0.4270865814,
-          "Jahr": 2023
+          "Wert": 0.4260145682,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 0.4047080979,
-          "Jahr": 2023
+          "Wert": 0.4116757982,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bruderholz",
           "y": 18,
-          "Wert": 1950.195168166745,
-          "Jahr": 2023
+          "Wert": 1950.297963050686,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 0.722406442444,
-          "Jahr": 2023
+          "Wert": 0.721459024159,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bruderholz",
           "y": 19,
-          "Wert": 0.714,
-          "Jahr": 2023
+          "Wert": 0.713,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 109.76468,
-          "Jahr": 2023
+          "Wert": 109.906304,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bruderholz",
           "y": 18,
-          "Wert": 48.069764,
-          "Jahr": 2023
+          "Wert": 48.099438,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bruderholz",
           "y": 19,
-          "Wert": 16202,
-          "Jahr": 2021
+          "Wert": 10773,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bruderholz",
-          "y": 18,
-          "Wert": 24476,
-          "Jahr": 2021
+          "y": 19,
+          "Wert": 21825,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bruderholz",
-          "y": 11,
-          "Wert": 0.7167777,
-          "Jahr": "2018-2022"
+          "y": 8,
+          "Wert": 0.7159997,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bruderholz",
+          "y": 2,
+          "Wert": 0.1248319,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Bruderholz",
           "y": 1,
-          "Wert": 0.1238738,
-          "Jahr": 2021
+          "Wert": 2.4,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",

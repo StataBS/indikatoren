@@ -60,6 +60,10 @@
         [
           "2022",
           0.9148
+        ],
+        [
+          "2023",
+          0.9235
         ]
       ],
       "name": "Schweiz",
@@ -138,6 +142,11 @@
           "name": "2022",
           "low": 0.9046,
           "high": 0.925
+        },
+        {
+          "name": "2023",
+          "low": 0.9137,
+          "high": 0.9334
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -203,6 +212,10 @@
         [
           "2022",
           0.9649
+        ],
+        [
+          "2023",
+          0.9581
         ]
       ],
       "name": "Österreich, Deutschland, Liechtenstein",
@@ -281,6 +294,11 @@
           "name": "2022",
           "low": 0.9467,
           "high": 0.9831
+        },
+        {
+          "name": "2023",
+          "low": 0.9392,
+          "high": 0.977
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -346,6 +364,10 @@
         [
           "2022",
           0.3315
+        ],
+        [
+          "2023",
+          0.3354
         ]
       ],
       "name": "Übriges Ausland",
@@ -424,6 +446,11 @@
           "name": "2022",
           "low": 0.3037,
           "high": 0.3592
+        },
+        {
+          "name": "2023",
+          "low": 0.3087,
+          "high": 0.3621
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -554,7 +581,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

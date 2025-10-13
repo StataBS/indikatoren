@@ -1143,8 +1143,8 @@ var indikatorensetData = [
 		"parentId": "4835",
 		"children": [],
 		"title": "Vermögenssteuer in Franken  pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
-		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Kleinhüningen ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -1171,7 +1171,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:48",
+		"aktualisierungsdatum": "2025-10-13T12:35:25",
 		"id": 5122
 	},
 	{
@@ -1182,7 +1182,7 @@ var indikatorensetData = [
 		"parentId": "4836",
 		"children": [],
 		"title": "Einkommenssteuer in Franken pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
 		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
 		"quellenangabe": [
@@ -1210,7 +1210,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:49",
+		"aktualisierungsdatum": "2025-10-13T12:35:26",
 		"id": 5123
 	},
 	{
@@ -1325,7 +1325,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:34",
+		"aktualisierungsdatum": "2025-10-13T12:35:16",
 		"id": 6630
 	},
 	{
@@ -1362,7 +1362,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:36",
+		"aktualisierungsdatum": "2025-10-13T12:35:17",
 		"id": 6631
 	},
 	{
@@ -1374,7 +1374,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Am Ring - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
+		"lesehilfe": "Im Wohnviertel Am Ring liegt die Gymnasialquote im mittleren Bereich. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist die zweithöchste im Kanton.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1399,7 +1399,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:37",
+		"aktualisierungsdatum": "2025-10-13T12:35:19",
 		"id": 6632
 	},
 	{
@@ -1411,7 +1411,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Breite - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über relativ wenig Arbeitsplätze pro Kopf.",
+		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über die wenigsten Arbeitsplätze pro Kopf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1436,7 +1436,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:38",
+		"aktualisierungsdatum": "2025-10-13T12:35:21",
 		"id": 6633
 	},
 	{
@@ -1448,7 +1448,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "St. Alban - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel St. Alban sticht der Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"lesehilfe": "Im Wohnviertel St. Alban stechen der Alters- und Jugendquotient etwas hervor. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1473,7 +1473,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:39",
+		"aktualisierungsdatum": "2025-10-13T12:35:23",
 		"id": 6634
 	},
 	{
