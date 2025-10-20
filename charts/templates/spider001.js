@@ -6,8 +6,8 @@
           this.credits.element.onclick = function () {};
           //draw spider backgrounds
           var top = -Math.PI / 2;
-          var endPurple = top + ((2 * Math.PI) / 18) * 7;
-          var endGreen = endPurple + ((2 * Math.PI) / 18) * 6;
+          var endPurple = top + ((2 * Math.PI) / 17) * 7;
+          var endGreen = endPurple + ((2 * Math.PI) / 17) * 5;
           var endBlue = top;
           var centerX = 242.5;
           var centerY = 207;
