@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "159 418 Logiernächte wurden im August 2025 in den Basler Hotelbetrieben gebucht, 7 960 bzw. 4,8% weniger als im Juli. Im Vergleich zum August 2024 entspricht dies einer Zunahme um 10,9% bzw. 15 616 Übernachtungen. Die inländischen Gäste buchten 51 137 Logiernächte (+5,1%), die Gäste aus dem Ausland 108 281 Übernachtungen (+13,8%).",
+		"lesehilfe": "150 341 Logiernächte wurden im September 2025 in den Basler Hotelbetrieben gebucht, 9 077 bzw. 5,7% weniger als im August. Im Vergleich zum September 2024 entspricht dies einer Zunahme um 11,2% bzw. 15 137 Übernachtungen. Die inländischen Gäste buchten 56 799 Logiernächte (+16,7%), die Gäste aus dem Ausland 93 542 Übernachtungen (+8,1%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-17T08:40:36",
+		"aktualisierungsdatum": "2025-10-27T08:05:54",
 		"id": 7516
 	},
 	{
@@ -195,8 +195,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 60%.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 70%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-17T08:40:38",
+		"aktualisierungsdatum": "2025-10-27T08:05:56",
 		"id": 7517
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2025 sank die Einwohnerzahl gegenüber dem Vormonat in vier Wohnvierteln. In 14 Wohnvierteln, sowie in Riehen und Bettingen stieg sie. Im Wohnviertel Altstadt Grossbasel blieb sie gleich.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2025 sank die Einwohnerzahl gegenüber dem Vormonat im Wohnviertel Bachletten. In den restlichen Wohnvierteln, sowie in Riehen und Bettingen stieg sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-17T08:40:40",
+		"aktualisierungsdatum": "2025-10-27T08:05:57",
 		"id": 7763
 	},
 	{

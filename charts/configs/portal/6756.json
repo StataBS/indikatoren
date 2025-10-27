@@ -6,116 +6,106 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Klybeck",
           "y": 20,
-          "Wert": 0.098,
-          "Jahr": 2023
+          "Wert": 0.091
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Klybeck",
           "y": 20,
-          "Wert": 0.5313125536,
-          "Jahr": 2023
+          "Wert": 0.544481982
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Klybeck",
           "y": 10,
-          "Wert": 0.2501834189,
-          "Jahr": 2023
+          "Wert": 0.249207721117833
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 0.1024,
-          "Jahr": 2023
+          "Wert": 0.1385
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.2232142857,
-          "Jahr": 2023
+          "Wert": 0.2239025415
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Klybeck",
-          "y": 11,
-          "Wert": 0.3144123534,
-          "Jahr": 2023
+          "y": 8,
+          "Wert": 0.3048986486
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Klybeck",
-          "y": 10,
-          "Wert": 0.2636054422,
-          "Jahr": 2023
+          "y": 11,
+          "Wert": 0.268220962
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Klybeck",
           "y": 12,
-          "Wert": 1938.066361556064,
-          "Jahr": 2023
+          "Wert": 1938.248858447488
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Klybeck",
-          "y": 5,
-          "Wert": 0.070938215102,
-          "Jahr": 2023
+          "y": 4,
+          "Wert": 0.068493150684
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.125,
-          "Jahr": 2023
+          "Wert": 0.132
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 64.922508,
-          "Jahr": 2023
+          "Wert": 64.802795
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 33.007923,
-          "Jahr": 2023
+          "Wert": 33.000293
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Klybeck",
           "y": 2,
-          "Wert": 245,
-          "Jahr": 2021
+          "Wert": 192
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 4607,
-          "Jahr": 2021
+          "Wert": 4693
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Klybeck",
           "y": 2,
-          "Wert": 0.6352123,
-          "Jahr": "2018-2022"
+          "Wert": 0.635593
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
           "y": 10,
-          "Wert": 0.4584357,
-          "Jahr": 2021
+          "Wert": 0.477894
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Klybeck",
+          "y": 18,
+          "Wert": 5.6
         }
       ],
-      "name": "jahr_char",
+      "name": "Wert",
       "turboThreshold": 0
     }
   ],
@@ -134,8 +124,8 @@
       },
       "useHTML": false,
       "formatter": function () {
-					return (this.value + "").replace(/&nbsp;/g, "\u00A0");
-				}
+          return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+        }
     },
     "tickLength": 0,
     "tickmarkPlacement": "on",
@@ -146,39 +136,44 @@
   "chart": {
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-					//draw spider backgrounds
-					//colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
-					var top = -Math.PI / 2; 
-					//var top = -Math.PI / 2.3; wenn Farbtrennung nicht in der Mitte sein soll. 
-					var endPurple = top + 2 * Math.PI / 16 * 7;
-					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
-					var endBlue = top;
-					//var centerX = 247;
-					var centerX = 247.5;
-					//var centerY = 212.5;
-					var centerY = 207;
-					var radius = 142;
-					//var radius = 136;
-					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
-						fill: '#923F8D',
-						stroke: '#923F8D',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-					this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
-						fill: '#68AB2B',
-						stroke: '#68AB2B',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-					this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
-						fill: '#689199',
-						stroke: '#689199',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-				}
+          this.credits.element.onclick = function () {};
+          //draw spider backgrounds
+          var top = -Math.PI / 2;
+          var endPurple = top + ((2 * Math.PI) / 17) * 7;
+          var endGreen = endPurple + ((2 * Math.PI) / 17) * 5;
+          var endBlue = top;
+          var centerX = 242.5;
+          var centerY = 207;
+          var radius = 142;
+
+          this.renderer
+            .arc(centerX, centerY, radius, 0, top, endPurple)
+            .attr({
+              fill: "#923F8D",
+              stroke: "#923F8D",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+          this.renderer
+            .arc(centerX, centerY, radius, 0, endPurple, endGreen)
+            .attr({
+              fill: "#68AB2B",
+              stroke: "#68AB2B",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+          this.renderer
+            .arc(centerX, centerY, radius, 0, endGreen, endBlue)
+            .attr({
+              fill: "#689199",
+              stroke: "#689199",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -279,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2025"
   },
   "legend": {
     "enabled": false,
@@ -288,37 +283,13 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function () {
-
-				//individual units and numberFormat in tooltips, depending on series name
-				var w, d = undefined, e = '', f = 1, t = ' ';
-				switch (this.point.name) {
-					case 'Altersquotient':
-					case 'Jugendquotient':
-						d = 1; f = 100; break;
-					case 'Baujahr&nbsp;Wohngebäude':
-						d = 0; t = ''; break;
-					case 'Fläche&nbsp;pro&nbsp;Wohnung':
-					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
-						d = 1; e = ' m²'; break;
-					case 'Vermögenssteuer':
-					case 'Einkommenssteuer':
-						d = 0; e = ' Fr.'; break;
-					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
-						d = 2; break;
-					case (this.point.name.match(/anteil|quote/i) || {}).input:
-						d = 1; e = '%'; f = 100; break;
-				}
-				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
-
-				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
-				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
-				return "" +
-					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
-					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
-					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ' ' + this.point.Jahr + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
-					'</div>';
-			}
+    "formatter": function() {
+            return "" + 
+            '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+              '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+              '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+            '</div>';
+        }
   },
   "exporting": {
     "allowHTML": false,
