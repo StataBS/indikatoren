@@ -1,22 +1,22 @@
-﻿wohnviertel_id	Arbeitslosenquote	Rang	wohnviertel	jahr_num
-20	0.0193855888	1	Riehen	2016
-30	0.0193855888	1	Bettingen	2016
-8	0.0241987109	3	Bachletten	2016
-2	0.0242808282	4	VorstÃ¤dte	2016
-7	0.0251482114	5	Bruderholz	2016
-1	0.0257474605	6	Altstadt Grossbasel	2016
-5	0.0295674895	7	St. Alban	2016
-3	0.0313845067	8	Am Ring	2016
-9	0.0344512819	9	Gotthelf	2016
-14	0.038280833	10	Wettstein	2016
-15	0.0404742079	11	Hirzbrunnen	2016
-6	0.0418457558	12	Gundeldingen	2016
-4	0.0492950163	13	Breite	2016
-10	0.0501539147	14	Iselin	2016
-11	0.050458782	15	St. Johann	2016
-13	0.0539961926	16	Clara	2016
-12	0.0542989532	17	Altstadt Kleinbasel	2016
-17	0.0555946177	18	MatthÃ¤us	2016
-19	0.0631074121	19	KleinhÃ¼ningen	2016
-16	0.0654724892	20	Rosental	2016
-18	0.0719648949	21	Klybeck	2016
+wohnviertel_id	Arbeitslosenquote	Rang	wohnviertel	Jahr
+7	0.024	1	Bruderholz	2024
+8	0.026	2	Bachletten	2024
+14	0.027	3	Wettstein	2024
+20	0.028	4	Riehen	2024
+30	0.028	4	Bettingen	2024
+15	0.029	6	Hirzbrunnen	2024
+9	0.03	7	Gotthelf	2024
+2	0.031	8	Vorstädte	2024
+1	0.033	9	Altstadt Grossbasel	2024
+3	0.033	9	Am Ring	2024
+5	0.034	11	St. Alban	2024
+6	0.037	12	Gundeldingen	2024
+13	0.04	13	Clara	2024
+11	0.041	14	St. Johann	2024
+12	0.041	14	Altstadt Kleinbasel	2024
+4	0.043	16	Breite	2024
+10	0.046	17	Iselin	2024
+16	0.051	18	Rosental	2024
+17	0.051	18	Matthäus	2024
+18	0.056	20	Klybeck	2024
+19	0.058	21	Kleinhüningen	2024

@@ -667,6 +667,46 @@ var indikatorensetData = [
 		"id": 4838
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4839,
+		"chart-id": 4839,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5126
+		],
+		"title": "Arbeitslosenquote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet die niedrigste Arbeitslosenquote, das Wohnviertel Kleinhüningen die höchste.",
+		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2024. Erwerbspersonen aus der Strukturerhebung vom BFS, Pooling 2021-2023. Riehen und Bettingen haben den gleichen Wert, weil die Ergebnisse für Bettingen aufgrund zu weniger Beobachtungen in der Strukturerhebung allein nicht aussagekräftig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Arbeitslosenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.04839",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-5.A",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_018",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-10-28T10:24:57",
+		"id": 4839
+	},
+	{
 		"template": "map001",
 		"data-id": 5109,
 		"chart-id": 5109,
@@ -1290,6 +1330,44 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-09-12T11:18:38",
 		"id": 5125
+	},
+	{
+		"template": "map001",
+		"data-id": 5126,
+		"chart-id": 5126,
+		"filter": "",
+		"parentId": "4839",
+		"children": [],
+		"title": "Arbeitslosenquote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet die niedrigste Arbeitslosenquote, das Wohnviertel Kleinhüningen die höchste.",
+		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2024. Erwerbspersonen aus der Strukturerhebung vom BFS, Pooling 2021-2023. Riehen und Bettingen haben den gleichen Wert, weil die Ergebnisse für Bettingen aufgrund zu weniger Beobachtungen in der Strukturerhebung allein nicht aussagekräftig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Arbeitslosenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.05126",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-5.B",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_018",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-10-28T10:25:01",
+		"id": 5126
 	},
 	{
 		"template": "spider001",
@@ -2014,7 +2092,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Riehen - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafte sind in der Gemeinde Riehen stark ausgeprägt. Der Anteil Einpersonenhaushalte dagegen ist vergleichsweise gering. Die Gemeinde verfügt über einen hohen Anteil an Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Die Erträge aus Einkommens- und Vermögenssteuer liegen im oberen Drittel.",
+		"lesehilfe": "Die Gemeinde Riehen hat den höchsten Alters- und Jugendquotienten im Kanton. Der Anteil Einpersonenhaushalte dagegen ist vergleichsweise gering. Die Gemeinde verfügt über einen hohen Anteil an Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Im Wohnviertel gibt es wenige Arbeitsplätze. Die Arbeitslosenquote ist niedrig.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -2039,7 +2117,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:51",
+		"aktualisierungsdatum": "2025-10-28T10:24:49",
 		"id": 6758
 	},
 	{
@@ -2076,7 +2154,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:52",
+		"aktualisierungsdatum": "2025-10-28T10:24:53",
 		"id": 6759
 	},
 	{

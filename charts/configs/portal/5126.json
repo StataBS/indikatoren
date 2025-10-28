@@ -3237,88 +3237,88 @@
       },
       "data": [
         [
-          20,
-          0.0193855888
-        ],
-        [
-          30,
-          0.0193855888
+          7,
+          0.024
         ],
         [
           8,
-          0.0241987109
-        ],
-        [
-          2,
-          0.0242808282
-        ],
-        [
-          7,
-          0.0251482114
-        ],
-        [
-          1,
-          0.0257474605
-        ],
-        [
-          5,
-          0.0295674895
-        ],
-        [
-          3,
-          0.0313845067
-        ],
-        [
-          9,
-          0.0344512819
+          0.026
         ],
         [
           14,
-          0.038280833
+          0.027
+        ],
+        [
+          20,
+          0.028
+        ],
+        [
+          30,
+          0.028
         ],
         [
           15,
-          0.0404742079
+          0.029
+        ],
+        [
+          9,
+          0.03
+        ],
+        [
+          2,
+          0.031
+        ],
+        [
+          1,
+          0.033
+        ],
+        [
+          3,
+          0.033
+        ],
+        [
+          5,
+          0.034
         ],
         [
           6,
-          0.0418457558
-        ],
-        [
-          4,
-          0.0492950163
-        ],
-        [
-          10,
-          0.0501539147
-        ],
-        [
-          11,
-          0.050458782
+          0.037
         ],
         [
           13,
-          0.0539961926
+          0.04
+        ],
+        [
+          11,
+          0.041
         ],
         [
           12,
-          0.0542989532
+          0.041
         ],
         [
-          17,
-          0.0555946177
+          4,
+          0.043
         ],
         [
-          19,
-          0.0631074121
+          10,
+          0.046
         ],
         [
           16,
-          0.0654724892
+          0.051
+        ],
+        [
+          17,
+          0.051
         ],
         [
           18,
-          0.0719648949
+          0.056
+        ],
+        [
+          19,
+          0.058
         ]
       ]
     },
@@ -3329,47 +3329,47 @@
       "data": [
         [
           1,
-          "Riehen"
-        ],
-        [
-          1,
-          "Bettingen"
-        ],
-        [
-          3,
-          "Bachletten"
-        ],
-        [
-          4,
-          "VorstÃ¤dte"
-        ],
-        [
-          5,
           "Bruderholz"
         ],
         [
-          6,
-          "Altstadt Grossbasel"
+          2,
+          "Bachletten"
         ],
         [
-          7,
-          "St. Alban"
-        ],
-        [
-          8,
-          "Am Ring"
-        ],
-        [
-          9,
-          "Gotthelf"
-        ],
-        [
-          10,
+          3,
           "Wettstein"
         ],
         [
-          11,
+          4,
+          "Riehen"
+        ],
+        [
+          4,
+          "Bettingen"
+        ],
+        [
+          6,
           "Hirzbrunnen"
+        ],
+        [
+          7,
+          "Gotthelf"
+        ],
+        [
+          8,
+          "Vorstädte"
+        ],
+        [
+          9,
+          "Altstadt Grossbasel"
+        ],
+        [
+          9,
+          "Am Ring"
+        ],
+        [
+          11,
+          "St. Alban"
         ],
         [
           12,
@@ -3377,39 +3377,39 @@
         ],
         [
           13,
-          "Breite"
-        ],
-        [
-          14,
-          "Iselin"
-        ],
-        [
-          15,
-          "St. Johann"
-        ],
-        [
-          16,
           "Clara"
         ],
         [
-          17,
+          14,
+          "St. Johann"
+        ],
+        [
+          14,
           "Altstadt Kleinbasel"
         ],
         [
+          16,
+          "Breite"
+        ],
+        [
+          17,
+          "Iselin"
+        ],
+        [
           18,
-          "MatthÃ¤us"
-        ],
-        [
-          19,
-          "KleinhÃ¼ningen"
-        ],
-        [
-          20,
           "Rosental"
         ],
         [
-          21,
+          18,
+          "Matthäus"
+        ],
+        [
+          20,
           "Klybeck"
+        ],
+        [
+          21,
+          "Kleinhüningen"
         ]
       ],
       "name": "wohnviertel"
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.10.2025"
   },
   "colorAxis": {
     "min": 0,

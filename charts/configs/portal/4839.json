@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Riehen",
-          0.0193855888
-        ],
-        [
-          "Bettingen",
-          0.0193855888
+          "Bruderholz",
+          0.024
         ],
         [
           "Bachletten",
-          0.0241987109
-        ],
-        [
-          "VorstÃ¤dte",
-          0.0242808282
-        ],
-        [
-          "Bruderholz",
-          0.0251482114
-        ],
-        [
-          "Altstadt Grossbasel",
-          0.0257474605
-        ],
-        [
-          "St. Alban",
-          0.0295674895
-        ],
-        [
-          "Am Ring",
-          0.0313845067
-        ],
-        [
-          "Gotthelf",
-          0.0344512819
+          0.026
         ],
         [
           "Wettstein",
-          0.038280833
+          0.027
+        ],
+        [
+          "Riehen",
+          0.028
+        ],
+        [
+          "Bettingen",
+          0.028
         ],
         [
           "Hirzbrunnen",
-          0.0404742079
+          0.029
+        ],
+        [
+          "Gotthelf",
+          0.03
+        ],
+        [
+          "Vorstädte",
+          0.031
+        ],
+        [
+          "Altstadt Grossbasel",
+          0.033
+        ],
+        [
+          "Am Ring",
+          0.033
+        ],
+        [
+          "St. Alban",
+          0.034
         ],
         [
           "Gundeldingen",
-          0.0418457558
-        ],
-        [
-          "Breite",
-          0.0492950163
-        ],
-        [
-          "Iselin",
-          0.0501539147
-        ],
-        [
-          "St. Johann",
-          0.050458782
+          0.037
         ],
         [
           "Clara",
-          0.0539961926
+          0.04
+        ],
+        [
+          "St. Johann",
+          0.041
         ],
         [
           "Altstadt Kleinbasel",
-          0.0542989532
+          0.041
         ],
         [
-          "MatthÃ¤us",
-          0.0555946177
+          "Breite",
+          0.043
         ],
         [
-          "KleinhÃ¼ningen",
-          0.0631074121
+          "Iselin",
+          0.046
         ],
         [
           "Rosental",
-          0.0654724892
+          0.051
+        ],
+        [
+          "Matthäus",
+          0.051
         ],
         [
           "Klybeck",
-          0.0719648949
+          0.056
+        ],
+        [
+          "Kleinhüningen",
+          0.058
         ]
       ],
       "name": "Arbeitslosenquote",
@@ -95,47 +95,47 @@
       "visible": false,
       "data": [
         [
-          "Riehen",
-          1
-        ],
-        [
-          "Bettingen",
+          "Bruderholz",
           1
         ],
         [
           "Bachletten",
-          3
-        ],
-        [
-          "VorstÃ¤dte",
-          4
-        ],
-        [
-          "Bruderholz",
-          5
-        ],
-        [
-          "Altstadt Grossbasel",
-          6
-        ],
-        [
-          "St. Alban",
-          7
-        ],
-        [
-          "Am Ring",
-          8
-        ],
-        [
-          "Gotthelf",
-          9
+          2
         ],
         [
           "Wettstein",
-          10
+          3
+        ],
+        [
+          "Riehen",
+          4
+        ],
+        [
+          "Bettingen",
+          4
         ],
         [
           "Hirzbrunnen",
+          6
+        ],
+        [
+          "Gotthelf",
+          7
+        ],
+        [
+          "Vorstädte",
+          8
+        ],
+        [
+          "Altstadt Grossbasel",
+          9
+        ],
+        [
+          "Am Ring",
+          9
+        ],
+        [
+          "St. Alban",
           11
         ],
         [
@@ -143,39 +143,39 @@
           12
         ],
         [
-          "Breite",
+          "Clara",
           13
         ],
         [
-          "Iselin",
+          "St. Johann",
           14
         ],
         [
-          "St. Johann",
-          15
+          "Altstadt Kleinbasel",
+          14
         ],
         [
-          "Clara",
+          "Breite",
           16
         ],
         [
-          "Altstadt Kleinbasel",
+          "Iselin",
           17
         ],
         [
-          "MatthÃ¤us",
+          "Rosental",
           18
         ],
         [
-          "KleinhÃ¼ningen",
-          19
-        ],
-        [
-          "Rosental",
-          20
+          "Matthäus",
+          18
         ],
         [
           "Klybeck",
+          20
+        ],
+        [
+          "Kleinhüningen",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.10.2025"
   },
   "legend": {
     "enabled": false,
