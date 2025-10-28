@@ -235,7 +235,7 @@ id | visible | visibleInPortal | indikatorenset
 4836 | true | true | Wohnviertel
 4837 | true | true | Wohnviertel
 4838 | true | true | Wohnviertel
-4839 | false |  | Wohnviertel
+4839 | true | true | Wohnviertel
 4848 | true | true | Gesellschaftlicher-Zusammenhalt
 4849 | true | true | Gesellschaftlicher-Zusammenhalt
 4850 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -305,7 +305,7 @@ id | visible | visibleInPortal | indikatorenset
 5123 | true | false | Wohnviertel
 5124 | true | false | Wohnviertel
 5125 | true | false | Wohnviertel
-5126 | false |  | Wohnviertel
+5126 | true | false | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
 5138 | true | false | Nachhaltigkeit
