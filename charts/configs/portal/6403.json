@@ -7,19 +7,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          2018.838567
+          2061.254074
         ],
         [
           "40-64 Jahre",
-          11394.432893
+          11817.479091
         ],
         [
           "25-39 Jahre",
-          10796.724535
+          10631.548397
         ],
         [
           "15-24 Jahre",
-          3301.696148
+          3154.720548
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -32,19 +32,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          3688.361433
+          3839.545926
         ],
         [
           "40-64 Jahre",
-          14336.466804
+          14714.747415
         ],
         [
           "25-39 Jahre",
-          12328.375768
+          12484.425097
         ],
         [
           "15-24 Jahre",
-          1634.503852
+          1807.279452
         ]
       ],
       "name": "Kein Deutsch",
@@ -125,7 +125,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Basel-Stadt, gepoolte Daten 2018 bis 2022"
+    "text": "Basel-Stadt, gepoolte Daten 2019 bis 2023"
   },
   "navigation": {
     "menuItemStyle": {
@@ -182,7 +182,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 30.10.2025"
   },
   "legend": {
     "layout": "horizontal",
