@@ -17849,8 +17849,8 @@ var indikatoren = [
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 (gepoolte Daten) haben 16,3% der Schweizer und 28,2% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"lesehilfe": "Im Mittel der Jahre 2019 bis 2023 (gepoolte Daten) haben 16,0% der Schweizer und 27,2% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -17876,7 +17876,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:25",
+		"aktualisierungsdatum": "2025-11-03T03:26:05",
 		"id": 6088
 	},
 	{
@@ -17889,9 +17889,9 @@ var indikatoren = [
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2018 bis 2022",
-		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (70,7%), bei Personen aus der Türkei (13,1%) und vom Balkan (14,0%) am niedrigsten.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2019 bis 2023",
+		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (72,1%), bei Personen aus der Türkei (14,4%) und vom Balkan (13,6%) am niedrigsten.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17916,7 +17916,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:26",
+		"aktualisierungsdatum": "2025-11-03T03:26:07",
 		"id": 6090
 	},
 	{
@@ -17929,9 +17929,9 @@ var indikatoren = [
 			6673
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
-		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (48,7%) und Sekundarstufe I-Ausbildung (28,2%) als Schweizer (sowohl hier geborene wie eingebürgerte).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2019 bis 2023",
+		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (50,3%) und Sekundarstufe I-Ausbildung (27,2%) als Schweizerinnen und Schweizer (sowohl hier geborene wie eingebürgerte).",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17956,7 +17956,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:45",
+		"aktualisierungsdatum": "2025-11-03T03:26:09",
 		"id": 6091
 	},
 	{
@@ -21279,7 +21279,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 weisen die rund 2 800 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 176 500 Franken) auf. Die ungefähr 3 200 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 39 300 Franken den niedrigsten Mittelwert auf.",
+		"lesehilfe": "2022 weisen die rund 2 800 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 173  600 Franken) auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -21305,7 +21305,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:34",
+		"aktualisierungsdatum": "2025-11-03T03:26:11",
 		"id": 6468
 	},
 	{
@@ -21319,7 +21319,7 @@ var indikatoren = [
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 85 900 Franken; rund 2 800 Veranlagungen), der tiefste bei jenen aus der Türkei (ca. 31 700 Franken;  rund 3 200 Veranlagungen).",
+		"lesehilfe": "2022 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 91 100 Franken; rund 2 800 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -21345,7 +21345,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:35",
+		"aktualisierungsdatum": "2025-11-03T03:26:13",
 		"id": 6469
 	},
 	{
@@ -21358,8 +21358,8 @@ var indikatoren = [
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2021",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2021 Personen aus Kanada auf, der Wert beträgt rund 670 000 Franken. Von ihnen liegen für dieses Steuerjahr126 Veranlagungen vor.",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2022",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2022 Personen aus China auf, der Wert beträgt rund 404 000 Franken. Von ihnen liegen für dieses Steuerjahr140 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -21385,7 +21385,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:37",
+		"aktualisierungsdatum": "2025-11-03T03:26:14",
 		"id": 6470
 	},
 	{
@@ -21399,7 +21399,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2021 für die Gruppe der Schweizer vor. Er beträgt rund 760 000 Franken pro Veranlagung. Den niedrigsten Wert verzeichnen 2021 Personen aus den Balkanländern mit rund 20 000 Franken.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2022 für die Gruppe der Schweizer vor. Er beträgt rund 680 100 Franken pro Veranlagung.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -21425,7 +21425,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:39",
+		"aktualisierungsdatum": "2025-11-03T03:26:16",
 		"id": 6471
 	},
 	{
@@ -21671,7 +21671,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:18",
+		"aktualisierungsdatum": "2025-11-03T03:26:18",
 		"id": 6477
 	},
 	{
@@ -21805,8 +21805,8 @@ var indikatoren = [
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2013 bis 2022",
-		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt 44% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 19% waren Schweizer mit Migrationshintergrund, 35% Ausländer der ersten und 3% Ausländer der zweiten Generation. Der Anteil der Ausländer der dritten Generation war 0%.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2014 bis 2023",
+		"lesehilfe": "Im Jahr 2023 waren in Basel-Stadt 43% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 19% waren Schweizer mit Migrationshintergrund, 36% Ausländer der ersten und 2% Ausländer der zweiten Generation. Der Anteil der Ausländer der dritten Generation war 0%.",
 		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -21832,7 +21832,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-17T08:49:33",
+		"aktualisierungsdatum": "2025-11-03T03:26:20",
 		"id": 6481
 	},
 	{
@@ -24654,7 +24654,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:44",
+		"aktualisierungsdatum": "2025-11-03T03:26:22",
 		"id": 6756
 	},
 	{

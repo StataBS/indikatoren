@@ -2,13 +2,13 @@ var indikatorensetData = [
 	{
 		"template": "spider001",
 		"data-id": 7664,
-		"chart-id": 7664,
+		"chart-id": 6754,
 		"filter": "",
 		"parentId": "6754",
 		"children": [],
 		"title": "Rosental - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
+		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Ausländeranteil dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit dem Erlenmatt-Quartier über vergleichsweise viele Neubauten. Die Erträge aus der Vermögenssteuer sind gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-06T10:58:48",
+		"aktualisierungsdatum": "2025-11-03T03:25:58",
 		"id": 7664
 	},
 	{

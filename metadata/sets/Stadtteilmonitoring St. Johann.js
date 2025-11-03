@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "St. Johann - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote im mittleren Drittel.",
+		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Sozialhilfeempfänger und Ausländer. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote im mittleren Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:10:52",
+		"aktualisierungsdatum": "2025-11-03T03:26:02",
 		"id": 12609
 	},
 	{
