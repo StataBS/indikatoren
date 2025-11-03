@@ -19368,7 +19368,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-30T09:07:21",
+		"aktualisierungsdatum": "2025-11-03T08:34:17",
 		"id": 6402
 	},
 	{
@@ -19408,7 +19408,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-30T09:07:24",
+		"aktualisierungsdatum": "2025-11-03T08:34:18",
 		"id": 6403
 	},
 	{
@@ -19448,7 +19448,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-30T09:07:25",
+		"aktualisierungsdatum": "2025-11-03T08:34:20",
 		"id": 6404
 	},
 	{
@@ -19488,7 +19488,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-30T09:07:27",
+		"aktualisierungsdatum": "2025-11-03T08:34:22",
 		"id": 6405
 	},
 	{
@@ -28133,7 +28133,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im September 2025 0,2%. Das Preisniveau ist damit gegenüber August 2024 leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Oktober 2025 wie bereits im September 0,2%. Das Preisniveau ist damit gegenüber der Vorjahresperiode erneut leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28161,7 +28161,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-02T08:35:08",
+		"aktualisierungsdatum": "2025-11-03T08:34:07",
 		"id": 7512
 	},
 	{
@@ -28173,7 +28173,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im September 2025 gegenüber August um 0,2% auf 106,7 Punkte gesunken.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Oktober 2025 gegenüber September um 0,2% auf 106,6 Punkte gesunken.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28200,7 +28200,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-02T08:35:10",
+		"aktualisierungsdatum": "2025-11-03T08:34:09",
 		"id": 7513
 	},
 	{
@@ -37432,7 +37432,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-27T08:05:59",
+		"aktualisierungsdatum": "2025-11-03T08:34:11",
 		"id": 8995
 	},
 	{
@@ -37603,7 +37603,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-27T08:06:00",
+		"aktualisierungsdatum": "2025-11-03T08:34:13",
 		"id": 9022
 	},
 	{
@@ -37641,7 +37641,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-27T08:06:02",
+		"aktualisierungsdatum": "2025-11-03T08:34:15",
 		"id": 9023
 	},
 	{
