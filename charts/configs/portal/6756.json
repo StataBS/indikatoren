@@ -6,106 +6,123 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Klybeck",
           "y": 20,
-          "Wert": 0.091
+          "Wert": 0.091,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Klybeck",
           "y": 20,
-          "Wert": 0.544481982
+          "Wert": 0.544481982,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Klybeck",
           "y": 10,
-          "Wert": 0.249207721117833
+          "Wert": 0.249207721117833,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 0.1385
+          "Wert": 0.1385,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.2239025415
+          "Wert": 0.2239025415,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Klybeck",
           "y": 8,
-          "Wert": 0.3048986486
+          "Wert": 0.3048986486,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Klybeck",
           "y": 11,
-          "Wert": 0.268220962
+          "Wert": 0.268220962,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Klybeck",
           "y": 12,
-          "Wert": 1938.248858447488
+          "Wert": 1938.248858447488,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Klybeck",
           "y": 4,
-          "Wert": 0.068493150684
+          "Wert": 0.068493150684,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.132
+          "Wert": 0.132,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 64.802795
+          "Wert": 64.802795,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 33.000293
+          "Wert": 33.000293,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Klybeck",
           "y": 2,
-          "Wert": 192
+          "Wert": 192,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 4693
+          "Wert": 4693,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Klybeck",
           "y": 2,
-          "Wert": 0.635593
+          "Wert": 0.635593,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
           "y": 10,
-          "Wert": 0.477894
+          "Wert": 0.477894,
+          "Jahr": 2022
         },
         {
           "name": "Arbeitslosenquote",
           "Wohnviertel": "Klybeck",
           "y": 18,
-          "Wert": 5.6
+          "Wert": 5.6,
+          "Jahr": 2024
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -274,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2025"
   },
   "legend": {
     "enabled": false,
@@ -283,13 +300,63 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-            return "" + 
-            '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-              '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-              '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-            '</div>';
+    "formatter": function () {
+        //individual units and numberFormat in tooltips, depending on series name
+        var w,
+          d = undefined,
+          e = "",
+          f = 1,
+          t = " ";
+        switch (this.point.name) {
+          case "Altersquotient":
+          case "Jugendquotient":
+            d = 1;
+            f = 100;
+            break;
+          case "Baujahr&nbsp;Wohngebäude":
+            d = 0;
+            t = "";
+            break;
+          case "Fläche&nbsp;pro&nbsp;Wohnung":
+          case "Wohnfläche&nbsp;pro&nbsp;Kopf":
+            d = 1;
+            e = " m²";
+            break;
+          case "Vermögenssteuer":
+          case "Einkommenssteuer":
+            d = 0;
+            e = " Fr.";
+            break;
+          case "Arbeitsplätze&nbsp;pro&nbsp;Kopf":
+            d = 2;
+            break;
+          case (this.point.name.match(/anteil|quote/i) || {}).input:
+            d = 1;
+            e = "%";
+            f = 100;
+            break;
         }
+        w = Highcharts.numberFormat(this.point.Wert * f, d, ",", t) + e;
+
+        //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/
+        //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+        return (
+          "" +
+          '<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+          '<span style="font-size: 10px">' +
+          this.point.Wohnviertel +
+          "</span><br/>" +
+          this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") +
+          " " +
+          this.point.Jahr +
+          ": <b>" +
+          w +
+          " </b> (Rang <b>" +
+          this.point.y +
+          "</b>)<br/>" +
+          "</div>"
+        );
+      }
   },
   "exporting": {
     "allowHTML": false,

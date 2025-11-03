@@ -5,101 +5,124 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Rosental",
-          "y": 17,
-          "Wert": 0.061
+          "y": 16,
+          "Wert": 0.058,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Rosental",
           "y": 21,
-          "Wert": 0.576362241
+          "Wert": 0.5756756757,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Rosental",
           "y": 8,
-          "Wert": 0.2345162596
+          "Wert": 0.231960150780829,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Rosental",
-          "y": 8,
-          "Wert": 0.2906
+          "y": 9,
+          "Wert": 0.2927,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.1297365572
+          "Wert": 0.133782308,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Rosental",
           "y": 1,
-          "Wert": 0.1913532873
+          "Wert": 0.1921492921,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Rosental",
           "y": 14,
-          "Wert": 0.280945507
+          "Wert": 0.2804878049,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Rosental",
           "y": 19,
-          "Wert": 1952.694006309148
+          "Wert": 1952.539184952978,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 0.063091482649
+          "Wert": 0.062695924764,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Rosental",
           "y": 4,
-          "Wert": 0.157
+          "Wert": 0.155,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Rosental",
-          "y": 7,
-          "Wert": 70.212877
+          "y": 8,
+          "Wert": 70.284799,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 35.356314
+          "Wert": 35.380296,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Rosental",
           "y": 3,
-          "Wert": 372
+          "Wert": 362,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Rosental",
-          "y": 9,
-          "Wert": 8159
+          "y": 10,
+          "Wert": 8587,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Rosental",
-          "y": 3,
-          "Wert": 0.6929327
+          "y": 7,
+          "Wert": 0.706851,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Rosental",
           "y": 13,
-          "Wert": 0.6296403
+          "Wert": 0.6843255,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Rosental",
+          "y": 18,
+          "Wert": 0.051,
+          "Jahr": 2024
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -268,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 6.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2025"
   },
   "legend": {
     "enabled": false,
@@ -278,11 +301,61 @@
     "padding": 0,
     "useHTML": true,
     "formatter": function () {
-        return "" +
-          '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
-          '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>' +
-          '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' +
-          '</div>';
+        //individual units and numberFormat in tooltips, depending on series name
+        var w,
+          d = undefined,
+          e = "",
+          f = 1,
+          t = " ";
+        switch (this.point.name) {
+          case "Altersquotient":
+          case "Jugendquotient":
+            d = 1;
+            f = 100;
+            break;
+          case "Baujahr&nbsp;Wohngebäude":
+            d = 0;
+            t = "";
+            break;
+          case "Fläche&nbsp;pro&nbsp;Wohnung":
+          case "Wohnfläche&nbsp;pro&nbsp;Kopf":
+            d = 1;
+            e = " m²";
+            break;
+          case "Vermögenssteuer":
+          case "Einkommenssteuer":
+            d = 0;
+            e = " Fr.";
+            break;
+          case "Arbeitsplätze&nbsp;pro&nbsp;Kopf":
+            d = 2;
+            break;
+          case (this.point.name.match(/anteil|quote/i) || {}).input:
+            d = 1;
+            e = "%";
+            f = 100;
+            break;
+        }
+        w = Highcharts.numberFormat(this.point.Wert * f, d, ",", t) + e;
+
+        //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/
+        //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+        return (
+          "" +
+          '<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+          '<span style="font-size: 10px">' +
+          this.point.Wohnviertel +
+          "</span><br/>" +
+          this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") +
+          " " +
+          this.point.Jahr +
+          ": <b>" +
+          w +
+          " </b> (Rang <b>" +
+          this.point.y +
+          "</b>)<br/>" +
+          "</div>"
+        );
       }
   },
   "exporting": {

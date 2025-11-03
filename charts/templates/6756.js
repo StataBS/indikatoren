@@ -6,7 +6,7 @@
     ], 
     data: {
       seriesMapping: [
-          {x: 5, Wohnviertel: 8, y: 9, Wert: 4}
+        {x: 5, Wohnviertel: 8, y: 9, Wert: 4, Jahr: 3}
       ],  
       parsed: function(columns){
         //define which wohnviertel to display
@@ -25,7 +25,7 @@
         }
       },
     },
-    tooltip: {
+   /* tooltip: {
         padding: 0,
         useHTML: true,
         //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
@@ -37,6 +37,7 @@
               '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
             '</div>';
         }
-    },      
+    },  */    
   };
 }());
+

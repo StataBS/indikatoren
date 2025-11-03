@@ -6,44 +6,44 @@
       "yAxis": 0,
       "data": [
         [
-          "Kanada",
-          670681
+          "China",
+          404151
         ],
         [
-          "Dänemark",
-          357452
+          "Kanada",
+          344371
         ],
         [
           "USA",
-          341061
-        ],
-        [
-          "Irland",
-          189619
-        ],
-        [
-          "Belgien",
-          189441
+          326713
         ],
         [
           "Australien",
-          184507
+          198003
+        ],
+        [
+          "Irland",
+          187479
+        ],
+        [
+          "Belgien",
+          179878
         ],
         [
           "UK",
-          173195
+          174533
         ],
         [
           "Indien",
-          161780
+          165526
         ],
         [
-          "Niederlande",
-          133131
+          "Dänemark",
+          145734
         ],
         [
-          "Frankreich",
-          132096
+          "Schweden",
+          144213
         ]
       ],
       "name": "Mittelwert",
@@ -55,44 +55,44 @@
       "yAxis": 0,
       "data": [
         [
-          "Kanada",
-          162199
+          "China",
+          76464
         ],
         [
-          "Dänemark",
-          91723
+          "Kanada",
+          171728
         ],
         [
           "USA",
-          177105
-        ],
-        [
-          "Irland",
-          143729
-        ],
-        [
-          "Belgien",
-          122426
+          184105
         ],
         [
           "Australien",
-          169856
+          179456
+        ],
+        [
+          "Irland",
+          142201
+        ],
+        [
+          "Belgien",
+          112144
         ],
         [
           "UK",
-          130701
+          133766
         ],
         [
           "Indien",
-          139704
+          143437
         ],
         [
-          "Niederlande",
-          95351
+          "Dänemark",
+          89285
         ],
         [
-          "Frankreich",
-          92098
+          "Schweden",
+          107498
         ]
       ],
       "name": "Median",
@@ -108,44 +108,44 @@
       },
       "data": [
         [
-          "Kanada",
-          126
+          "China",
+          140
         ],
         [
-          "Dänemark",
-          88
+          "Kanada",
+          123
         ],
         [
           "USA",
-          597
+          592
+        ],
+        [
+          "Australien",
+          83
         ],
         [
           "Irland",
-          163
+          174
         ],
         [
           "Belgien",
           135
         ],
         [
-          "Australien",
-          80
-        ],
-        [
           "UK",
-          1078
+          1051
         ],
         [
           "Indien",
-          438
+          458
         ],
         [
-          "Niederlande",
-          427
+          "Dänemark",
+          83
         ],
         [
-          "Frankreich",
-          1092
+          "Schweden",
+          148
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -230,7 +230,7 @@
     "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
-    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2021",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -301,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

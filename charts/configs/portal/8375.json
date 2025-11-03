@@ -6,100 +6,123 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Kleinhüningen",
           "y": 21,
-          "Wert": 0.098
+          "Wert": 0.092,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 19,
-          "Wert": 0.5169731259
+          "y": 18,
+          "Wert": 0.5113513514,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Kleinhüningen",
-          "y": 5,
-          "Wert": 0.2133580705
+          "y": 6,
+          "Wert": 0.220111731843575,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 0.2203
+          "y": 4,
+          "Wert": 0.2182,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 13,
-          "Wert": 0.3166001141
+          "y": 14,
+          "Wert": 0.3355106888,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Kleinhüningen",
-          "y": 16,
-          "Wert": 0.3536067893
+          "y": 14,
+          "Wert": 0.3484684685,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Kleinhüningen",
           "y": 15,
-          "Wert": 0.2966343411
+          "Wert": 0.3123515439,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Kleinhüningen",
           "y": 17,
-          "Wert": 1948.082352941176
+          "Wert": 1947.96449704142,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Kleinhüningen",
           "y": 10,
-          "Wert": 0.15294117647
+          "Wert": 0.153846153846,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Kleinhüningen",
           "y": 9,
-          "Wert": 0.197
+          "Wert": 0.198,
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 66.547758
+          "Wert": 66.35332,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 33.352875
+          "Wert": 33.352875,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 1,
-          "Wert": 232
+          "Wert": 191,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 4716
+          "Wert": 4940,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 1,
-          "Wert": 0.5525901
+          "Wert": 0.5618831,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 19,
-          "Wert": 2.3079066
+          "Wert": 2.9111784,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 21,
+          "Wert": 0.058,
+          "Jahr": 2024
         }
       ],
-      "name": "Wert",
+      "name": "jahr_char",
       "turboThreshold": 0
     }
   ],
@@ -268,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2025"
   },
   "legend": {
     "enabled": false,
@@ -277,13 +300,63 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+        //individual units and numberFormat in tooltips, depending on series name
+        var w,
+          d = undefined,
+          e = "",
+          f = 1,
+          t = " ";
+        switch (this.point.name) {
+          case "Altersquotient":
+          case "Jugendquotient":
+            d = 1;
+            f = 100;
+            break;
+          case "Baujahr&nbsp;Wohngebäude":
+            d = 0;
+            t = "";
+            break;
+          case "Fläche&nbsp;pro&nbsp;Wohnung":
+          case "Wohnfläche&nbsp;pro&nbsp;Kopf":
+            d = 1;
+            e = " m²";
+            break;
+          case "Vermögenssteuer":
+          case "Einkommenssteuer":
+            d = 0;
+            e = " Fr.";
+            break;
+          case "Arbeitsplätze&nbsp;pro&nbsp;Kopf":
+            d = 2;
+            break;
+          case (this.point.name.match(/anteil|quote/i) || {}).input:
+            d = 1;
+            e = "%";
+            f = 100;
+            break;
+        }
+        w = Highcharts.numberFormat(this.point.Wert * f, d, ",", t) + e;
+
+        //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/
+        //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+        return (
+          "" +
+          '<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+          '<span style="font-size: 10px">' +
+          this.point.Wohnviertel +
+          "</span><br/>" +
+          this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") +
+          " " +
+          this.point.Jahr +
+          ": <b>" +
+          w +
+          " </b> (Rang <b>" +
+          this.point.y +
+          "</b>)<br/>" +
+          "</div>"
+        );
+      }
   },
   "exporting": {
     "allowHTML": false,

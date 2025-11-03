@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2013",
-          78586
-        ],
-        [
           "2014",
           76573
         ],
@@ -44,6 +40,10 @@
         [
           "2022",
           72545
+        ],
+        [
+          "2023",
+          71265
         ]
       ],
       "name": "Schweizer ohne Migrationshintergrund",
@@ -54,10 +54,6 @@
       "index": 13,
       "legendIndex": 1,
       "data": [
-        [
-          "2013",
-          26636
-        ],
         [
           "2014",
           28708
@@ -93,6 +89,10 @@
         [
           "2022",
           30945
+        ],
+        [
+          "2023",
+          31598
         ]
       ],
       "name": "Schweizer mit Migrationshintergrund",
@@ -103,10 +103,6 @@
       "index": 12,
       "legendIndex": 2,
       "data": [
-        [
-          "2013",
-          49017
-        ],
         [
           "2014",
           50542
@@ -142,6 +138,10 @@
         [
           "2022",
           56797
+        ],
+        [
+          "2023",
+          59366
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (1. Generation)",
@@ -152,10 +152,6 @@
       "index": 11,
       "legendIndex": 3,
       "data": [
-        [
-          "2013",
-          4355
-        ],
         [
           "2014",
           4317
@@ -191,6 +187,10 @@
         [
           "2022",
           4060
+        ],
+        [
+          "2023",
+          3958
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (2. Generation)",
@@ -201,10 +201,6 @@
       "index": 10,
       "legendIndex": 4,
       "data": [
-        [
-          "2013",
-          190
-        ],
         [
           "2014",
           223
@@ -240,6 +236,10 @@
         [
           "2022",
           74
+        ],
+        [
+          "2023",
+          137
         ]
       ],
       "name": "Ausländer ohne Migrationshintergrund (3. Generation)",
@@ -320,7 +320,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2013 bis 2022"
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2014 bis 2023"
   },
   "navigation": {
     "menuItemStyle": {
@@ -381,7 +381,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2025"
   },
   "legend": {
     "layout": "vertical",
