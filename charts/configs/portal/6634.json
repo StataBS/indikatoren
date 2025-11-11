@@ -116,9 +116,9 @@
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "St.Alban",
-          "y": 9,
-          "Wert": 3.4,
+          "Wohnviertel": "St. Alban",
+          "y": 11,
+          "Wert": 0.034,
           "Jahr": 2024
         }
       ],
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2025"
   },
   "legend": {
     "enabled": false,

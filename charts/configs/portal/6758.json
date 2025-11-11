@@ -113,6 +113,13 @@
           "y": 3,
           "Wert": 0.1581902,
           "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Riehen",
+          "y": 4,
+          "Wert": 0.028,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -284,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2025"
   },
   "legend": {
     "enabled": false,

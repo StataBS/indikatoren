@@ -118,7 +118,7 @@
           "name": "Arbeitslosenquote",
           "Wohnviertel": "Bruderholz",
           "y": 1,
-          "Wert": 2.4,
+          "Wert": 0.024,
           "Jahr": 2024
         }
       ],
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2025"
   },
   "legend": {
     "enabled": false,
