@@ -116,9 +116,9 @@
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Grossbasel Altstadt",
-          "y": 7,
-          "Wert": 3.2,
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 9,
+          "Wert": 0.033,
           "Jahr": 2024
         }
       ],
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.11.2025"
   },
   "legend": {
     "enabled": false,
