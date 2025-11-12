@@ -22,9 +22,10 @@
             }     
         },
         yAxis:[{
-            max:6,
+            max:5,
             tickInterval: 1,
-            min:0,
+            tickAmount: 11,
+            min:-5,
             title: {
                 text: null
             },

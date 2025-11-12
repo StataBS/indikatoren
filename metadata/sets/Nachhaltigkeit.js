@@ -679,7 +679,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2023 5,1% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,2 Prozentpunkte weniger als 2022. Der Mittelwert der Sozialhilfequoten der Vergleichstädte liegt 2023 bei 5,6%.",
+		"lesehilfe": "In der Stadt Basel bezogen 2024 5,0% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,1 Prozentpunkte weniger als 2023. Der Mittelwert der Sozialhilfequoten der Vergleichsstädte liegt 2024 bei 5,7%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -704,7 +704,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-11T07:18:44",
+		"aktualisierungsdatum": "2025-11-12T10:28:10",
 		"id": 5184
 	},
 	{

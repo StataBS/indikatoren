@@ -7,15 +7,15 @@
       "data": [
         [
           "Schweiz",
-          22.6
+          22
         ],
         [
           "Deutschland",
-          12.6
+          11.7
         ],
         [
           "Italien",
-          0.5
+          0.4
         ],
         [
           "Türkei",
@@ -23,11 +23,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          1.4
+          1.3
         ],
         [
           "EU-Ost",
-          1.7
+          1.5
         ],
         [
           "Balkan",
@@ -43,11 +43,11 @@
         ],
         [
           "Afrikanische Länder",
-          4.6
+          3.7
         ],
         [
           "Übrige Länder",
-          1
+          0.9
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -60,15 +60,15 @@
       "data": [
         [
           "Schweiz",
-          16.5
+          16.1
         ],
         [
           "Deutschland",
-          17.4
+          17.2
         ],
         [
           "Italien",
-          22.5
+          22.3
         ],
         [
           "Türkei",
@@ -76,11 +76,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          11.6
+          10.9
         ],
         [
           "EU-Ost",
-          24.9
+          24.5
         ],
         [
           "Balkan",
@@ -88,19 +88,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          20.7
+          20.5
         ],
         [
           "Arabische Länder",
-          0.5
+          0.9
         ],
         [
           "Afrikanische Länder",
-          13.2
+          12.3
         ],
         [
           "Übrige Länder",
-          4.7
+          4.9
         ]
       ],
       "name": "Römisch-katholisch",
@@ -121,7 +121,7 @@
         ],
         [
           "Italien",
-          1.4
+          1.1
         ],
         [
           "Türkei",
@@ -129,11 +129,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          1.2
+          1
         ],
         [
           "EU-Ost",
-          1.6
+          1.4
         ],
         [
           "Balkan",
@@ -141,7 +141,7 @@
         ],
         [
           "Mittel- und Südamerika",
-          1.4
+          0.9
         ],
         [
           "Arabische Länder",
@@ -149,7 +149,7 @@
         ],
         [
           "Afrikanische Länder",
-          0.8
+          0.6
         ],
         [
           "Übrige Länder",
@@ -182,7 +182,7 @@
         ],
         [
           "EU-West + EFTA + UK",
-          0.4
+          0.3
         ],
         [
           "EU-Ost",
@@ -206,7 +206,7 @@
         ],
         [
           "Übrige Länder",
-          1.1
+          1
         ]
       ],
       "name": "Israelitisch",
@@ -219,15 +219,15 @@
       "data": [
         [
           "Schweiz",
-          59.9
+          60.8
         ],
         [
           "Deutschland",
-          69.3
+          70.4
         ],
         [
           "Italien",
-          75.6
+          76.2
         ],
         [
           "Türkei",
@@ -235,11 +235,11 @@
         ],
         [
           "EU-West + EFTA + UK",
-          85.5
+          86.6
         ],
         [
           "EU-Ost",
-          71.7
+          72.4
         ],
         [
           "Balkan",
@@ -247,15 +247,15 @@
         ],
         [
           "Mittel- und Südamerika",
-          75.7
+          76.4
         ],
         [
           "Arabische Länder",
-          98.9
+          98.6
         ],
         [
           "Afrikanische Länder",
-          81.4
+          83.4
         ],
         [
           "Übrige Länder",
@@ -346,7 +346,7 @@
     "text": "Anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2013",
+    "text": "Basel-Stadt, 2014",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -406,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

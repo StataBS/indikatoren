@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Ausländeranteil 2023 in %",
+      "name": "Ausländeranteil 2024 in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          32.2121
+          31.8298
         ],
         [
           2,
-          42.9787
+          43.9679
         ],
         [
           3,
-          40.3094
+          40.5978
         ],
         [
           4,
-          37.5987
+          38.2694
         ],
         [
           5,
-          38.4905
+          38.7719
         ],
         [
           6,
-          41.4352
+          42.2649
         ],
         [
           7,
-          25.3092
+          25.1301
         ],
         [
           8,
-          23.7316
+          23.9178
         ],
         [
           9,
-          30.8117
+          30.5006
         ],
         [
           10,
-          40.1856
+          40.5841
         ],
         [
           11,
-          42.9026
+          43.0324
         ],
         [
           12,
-          40.2687
+          41.0341
         ],
         [
           13,
-          51.0818
+          51.6327
         ],
         [
           14,
-          33.5927
+          33.9454
         ],
         [
           15,
-          27.7609
+          28.1797
         ],
         [
           16,
-          57.6362
+          57.5676
         ],
         [
           17,
-          50.3395
+          50.6263
         ],
         [
           18,
-          53.1313
+          54.4482
         ],
         [
           19,
-          51.6973
+          51.1351
         ],
         [
           20,
-          29.3752
+          29.6136
         ],
         [
           30,
-          25.1325
+          24.732
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt GB",
-          11.3526
+          9.4689
         ],
         [
           "Vorstädte",
-          18.8218
+          18.248
         ],
         [
           "Am Ring",
-          13.5488
+          13.0733
         ],
         [
           "Breite",
-          11.4355
+          11.3739
         ],
         [
           "St. Alban",
-          17.2678
+          16.1574
         ],
         [
           "Gundeldingen",
-          1.7251
+          2.8412
         ],
         [
           "Bruderholz",
-          10.1419
+          8.7977
         ],
         [
           "Bachletten",
-          8.038
+          7.5625
         ],
         [
           "Gotthelf",
-          9.2948
+          8.6449
         ],
         [
           "Iselin",
-          9.8213
+          9.753
         ],
         [
           "St. Johann",
-          1.3245
+          1.3709
         ],
         [
           "Altstadt KB",
-          13.3374
+          13.9951
         ],
         [
           "Clara",
-          8.3792
+          8.245
         ],
         [
           "Wettstein",
-          10.8404
+          10.705
         ],
         [
           "Hirzbrunnen",
-          10.5102
+          10.6668
         ],
         [
           "Rosental",
-          5.9188
+          5.4021
         ],
         [
           "Matthäus",
-          0.365
+          0.8796
         ],
         [
           "Klybeck",
-          3.1527
+          3.7506
         ],
         [
           "Kleinhüningen",
-          8.3505
+          5.9008
         ],
         [
           "Riehen",
-          13.3339
+          13.1839
         ],
         [
           "Bettingen",
-          5.4985
+          3.829
         ]
       ],
-      "name": "Veränderung seit 2004 in Prozentpunkten"
+      "name": "Veränderung seit 2005 in Prozentpunkten"
     },
     {
       "name": "Rhein",
@@ -7276,7 +7276,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Stand 2023 und Veränderung seit 2004",
+    "text": "Basel-Stadt, Stand 2024 und Veränderung seit 2005",
     "align": "left"
   },
   "credits": {
@@ -7292,7 +7292,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2025"
   },
   "colorAxis": {
     "min": 20,

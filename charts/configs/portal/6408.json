@@ -5,43 +5,43 @@
       "data": [
         [
           "15-19",
-          -3.5
+          -4.4
         ],
         [
           "20-24",
-          -6.6
+          -6.9
         ],
         [
           "25-29",
-          -5
+          -5.8
         ],
         [
           "30-34",
-          -4.1
+          -4.2
         ],
         [
           "35-39",
-          -3.9
+          -3.8
         ],
         [
           "40-44",
-          -3.9
+          -3.8
         ],
         [
           "45-49",
-          -2.9
+          -3
         ],
         [
           "50-54",
-          -2.5
+          -3.1
         ],
         [
           "55-59",
-          -2.6
+          -2.8
         ],
         [
           "60-64",
-          -4.7
+          -4.8
         ]
       ],
       "name": "Männer",
@@ -52,43 +52,43 @@
       "data": [
         [
           "15-19",
-          3.7
+          5.4
         ],
         [
           "20-24",
-          4.4
+          5.3
         ],
         [
           "25-29",
-          4.2
+          4.6
         ],
         [
           "30-34",
-          3.1
-        ],
-        [
-          "35-39",
           2.9
         ],
         [
+          "35-39",
+          3.1
+        ],
+        [
           "40-44",
-          2.6
+          2.9
         ],
         [
           "45-49",
-          2.6
+          2.9
         ],
         [
           "50-54",
-          1.9
+          2.5
         ],
         [
           "55-59",
-          1.9
+          2.1
         ],
         [
           "60-64",
-          2.4
+          3.3
         ]
       ],
       "name": "Frauen",
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2003",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2004",
     "align": "left"
   },
   "yAxis": [
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.10.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2025"
   },
   "legend": {
     "symbolRadius": 0,

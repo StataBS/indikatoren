@@ -7,15 +7,15 @@
       "data": [
         [
           "Männer",
-          22.86
+          23.34
         ],
         [
           "Frauen",
-          21.22
+          21.4
         ],
         [
           "Total",
-          22.06
+          22.4
         ]
       ],
       "name": "Deutschland",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Männer",
-          11.91
+          11.77
         ],
         [
           "Frauen",
-          10.45
+          10.51
         ],
         [
           "Total",
-          11.2
+          11.15
         ]
       ],
       "name": "Italien",
@@ -49,15 +49,15 @@
       "data": [
         [
           "Männer",
-          7.15
+          7.04
         ],
         [
           "Frauen",
-          7.11
+          6.99
         ],
         [
           "Total",
-          7.13
+          7.01
         ]
       ],
       "name": "Türkei",
@@ -70,7 +70,7 @@
       "data": [
         [
           "Männer",
-          22.53
+          22.31
         ],
         [
           "Frauen",
@@ -78,7 +78,7 @@
         ],
         [
           "Total",
-          21.36
+          21.25
         ]
       ],
       "name": "EU-West + EFTA + UK",
@@ -91,15 +91,15 @@
       "data": [
         [
           "Männer",
-          7.03
+          6.94
         ],
         [
           "Frauen",
-          8.44
+          8.32
         ],
         [
           "Total",
-          7.72
+          7.61
         ]
       ],
       "name": "EU-Ost",
@@ -112,15 +112,15 @@
       "data": [
         [
           "Männer",
-          8.11
+          7.81
         ],
         [
           "Frauen",
-          8.53
+          8.38
         ],
         [
           "Total",
-          8.31
+          8.09
         ]
       ],
       "name": "Balkan",
@@ -133,11 +133,11 @@
       "data": [
         [
           "Männer",
-          2.13
+          2.17
         ],
         [
           "Frauen",
-          3.14
+          3.09
         ],
         [
           "Total",
@@ -154,15 +154,15 @@
       "data": [
         [
           "Männer",
-          2.64
+          2.67
         ],
         [
           "Frauen",
-          2.23
+          2.32
         ],
         [
           "Total",
-          2.44
+          2.5
         ]
       ],
       "name": "Arabische Länder",
@@ -175,15 +175,15 @@
       "data": [
         [
           "Männer",
-          2.81
+          2.87
         ],
         [
           "Frauen",
-          2.55
+          2.62
         ],
         [
           "Total",
-          2.69
+          2.75
         ]
       ],
       "name": "Afrikanische Länder",
@@ -196,15 +196,15 @@
       "data": [
         [
           "Männer",
-          12.82
+          13.09
         ],
         [
           "Frauen",
-          16.2
+          16.23
         ],
         [
           "Total",
-          14.47
+          14.62
         ]
       ],
       "name": "Übrige Länder",
@@ -292,7 +292,7 @@
     "text": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -350,7 +350,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
