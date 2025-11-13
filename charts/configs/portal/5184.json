@@ -702,7 +702,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -14600,7 +14600,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:10",
+		"aktualisierungsdatum": "2025-11-13T08:46:39",
 		"id": 5184
 	},
 	{
@@ -16824,7 +16824,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:13",
+		"aktualisierungsdatum": "2025-11-13T08:45:56",
 		"id": 6058
 	},
 	{
@@ -16866,7 +16866,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:18",
+		"aktualisierungsdatum": "2025-11-13T08:46:00",
 		"id": 6059
 	},
 	{
@@ -16906,7 +16906,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:23",
+		"aktualisierungsdatum": "2025-11-13T08:46:04",
 		"id": 6060
 	},
 	{
@@ -16946,7 +16946,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:09",
+		"aktualisierungsdatum": "2025-11-13T08:45:54",
 		"id": 6062
 	},
 	{
@@ -17389,7 +17389,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:31",
+		"aktualisierungsdatum": "2025-11-13T08:46:11",
 		"id": 6074
 	},
 	{
@@ -17429,7 +17429,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:33",
+		"aktualisierungsdatum": "2025-11-13T08:46:12",
 		"id": 6075
 	},
 	{
@@ -19288,7 +19288,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:16",
+		"aktualisierungsdatum": "2025-11-13T08:45:58",
 		"id": 6398
 	},
 	{
@@ -19328,7 +19328,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:21",
+		"aktualisierungsdatum": "2025-11-13T08:46:02",
 		"id": 6399
 	},
 	{
@@ -19529,7 +19529,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:35",
+		"aktualisierungsdatum": "2025-11-13T08:46:14",
 		"id": 6406
 	},
 	{
@@ -19570,7 +19570,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:47",
+		"aktualisierungsdatum": "2025-11-13T08:46:25",
 		"id": 6407
 	},
 	{
@@ -19611,7 +19611,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:43",
+		"aktualisierungsdatum": "2025-11-13T08:46:21",
 		"id": 6408
 	},
 	{
@@ -19652,7 +19652,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:48",
+		"aktualisierungsdatum": "2025-11-13T08:46:27",
 		"id": 6409
 	},
 	{
@@ -19693,7 +19693,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:45",
+		"aktualisierungsdatum": "2025-11-13T08:46:23",
 		"id": 6410
 	},
 	{
@@ -19733,7 +19733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:37",
+		"aktualisierungsdatum": "2025-11-13T08:46:16",
 		"id": 6411
 	},
 	{
@@ -19773,7 +19773,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:39",
+		"aktualisierungsdatum": "2025-11-13T08:46:18",
 		"id": 6412
 	},
 	{
@@ -19813,7 +19813,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:41",
+		"aktualisierungsdatum": "2025-11-13T08:46:20",
 		"id": 6413
 	},
 	{
@@ -19854,7 +19854,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:51",
+		"aktualisierungsdatum": "2025-11-13T08:46:29",
 		"id": 6415
 	},
 	{
@@ -19894,7 +19894,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:58",
+		"aktualisierungsdatum": "2025-11-13T08:46:32",
 		"id": 6416
 	},
 	{
@@ -19934,7 +19934,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:00",
+		"aktualisierungsdatum": "2025-11-13T08:46:34",
 		"id": 6417
 	},
 	{
@@ -19975,7 +19975,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:56",
+		"aktualisierungsdatum": "2025-11-13T08:46:30",
 		"id": 6418
 	},
 	{
@@ -22199,7 +22199,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:06",
+		"aktualisierungsdatum": "2025-11-13T08:46:37",
 		"id": 6494
 	},
 	{
@@ -24000,7 +24000,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:12",
+		"aktualisierungsdatum": "2025-11-13T08:46:42",
 		"id": 6630
 	},
 	{
@@ -24038,7 +24038,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:16",
+		"aktualisierungsdatum": "2025-11-13T08:46:43",
 		"id": 6631
 	},
 	{
@@ -24076,7 +24076,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:19",
+		"aktualisierungsdatum": "2025-11-13T08:46:45",
 		"id": 6632
 	},
 	{
@@ -24114,7 +24114,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:21",
+		"aktualisierungsdatum": "2025-11-13T08:46:47",
 		"id": 6633
 	},
 	{
@@ -24152,7 +24152,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:23",
+		"aktualisierungsdatum": "2025-11-13T08:46:49",
 		"id": 6634
 	},
 	{
@@ -24190,7 +24190,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:25",
+		"aktualisierungsdatum": "2025-11-13T08:46:50",
 		"id": 6635
 	},
 	{
@@ -24228,7 +24228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:27",
+		"aktualisierungsdatum": "2025-11-13T08:46:52",
 		"id": 6636
 	},
 	{
@@ -24266,7 +24266,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:29",
+		"aktualisierungsdatum": "2025-11-13T08:46:54",
 		"id": 6637
 	},
 	{
@@ -24304,7 +24304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:32",
+		"aktualisierungsdatum": "2025-11-13T08:46:56",
 		"id": 6638
 	},
 	{
@@ -24342,7 +24342,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:35",
+		"aktualisierungsdatum": "2025-11-13T08:46:58",
 		"id": 6639
 	},
 	{
@@ -24382,7 +24382,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:37",
+		"aktualisierungsdatum": "2025-11-13T08:46:59",
 		"id": 6640
 	},
 	{
@@ -24420,7 +24420,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:40",
+		"aktualisierungsdatum": "2025-11-13T08:47:01",
 		"id": 6641
 	},
 	{
@@ -24458,7 +24458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:45",
+		"aktualisierungsdatum": "2025-11-13T08:47:03",
 		"id": 6751
 	},
 	{
@@ -24496,7 +24496,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:47",
+		"aktualisierungsdatum": "2025-11-13T08:47:05",
 		"id": 6752
 	},
 	{
@@ -24534,7 +24534,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:48",
+		"aktualisierungsdatum": "2025-11-13T08:47:06",
 		"id": 6753
 	},
 	{
@@ -24575,7 +24575,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:51",
+		"aktualisierungsdatum": "2025-11-13T08:47:08",
 		"id": 6754
 	},
 	{
@@ -24613,7 +24613,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:53",
+		"aktualisierungsdatum": "2025-11-13T08:47:10",
 		"id": 6755
 	},
 	{
@@ -24654,7 +24654,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:28:57",
+		"aktualisierungsdatum": "2025-11-13T08:47:12",
 		"id": 6756
 	},
 	{
@@ -24695,7 +24695,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:29:00",
+		"aktualisierungsdatum": "2025-11-13T08:47:13",
 		"id": 6757
 	},
 	{
@@ -24733,7 +24733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:29:01",
+		"aktualisierungsdatum": "2025-11-13T08:47:15",
 		"id": 6758
 	},
 	{
@@ -24771,7 +24771,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:29:03",
+		"aktualisierungsdatum": "2025-11-13T08:47:17",
 		"id": 6759
 	},
 	{
@@ -28212,7 +28212,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "150 341 Logiernächte wurden im September 2025 in den Basler Hotelbetrieben gebucht, 9 077 bzw. 5,7% weniger als im August. Im Vergleich zum September 2024 entspricht dies einer Zunahme um 11,2% bzw. 15 137 Übernachtungen. Die inländischen Gäste buchten 56 799 Logiernächte (+16,7%), die Gäste aus dem Ausland 93 542 Übernachtungen (+8,1%).",
+		"lesehilfe": "150 466 Logiernächte wurden im Oktober 2025 in den Basler Hotelbetrieben gebucht, 125 mehr als im September. Im Vergleich zum Oktober 2024 entspricht dies einer Zunahme um 5,5% bzw. 7 873 Übernachtungen. Die inländischen Gäste buchten 59 469 Logiernächte (+11,4%), die Gäste aus dem Ausland 90 997 Übernachtungen (+2,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28238,7 +28238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-27T08:05:54",
+		"aktualisierungsdatum": "2025-11-13T08:45:39",
 		"id": 7516
 	},
 	{
@@ -28249,8 +28249,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 70%.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28276,7 +28276,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-27T08:05:56",
+		"aktualisierungsdatum": "2025-11-13T08:45:41",
 		"id": 7517
 	},
 	{
@@ -32355,7 +32355,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:29:05",
+		"aktualisierungsdatum": "2025-11-13T08:47:19",
 		"id": 7778
 	},
 	{
@@ -37432,7 +37432,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:26:49",
+		"aktualisierungsdatum": "2025-11-13T08:45:43",
 		"id": 8995
 	},
 	{
@@ -37603,7 +37603,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:26:51",
+		"aktualisierungsdatum": "2025-11-13T08:45:45",
 		"id": 9022
 	},
 	{
@@ -37641,7 +37641,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:26:54",
+		"aktualisierungsdatum": "2025-11-13T08:45:47",
 		"id": 9023
 	},
 	{
@@ -38607,7 +38607,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:26:58",
+		"aktualisierungsdatum": "2025-11-13T08:45:49",
 		"id": 9366
 	},
 	{
@@ -39056,7 +39056,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-12T10:27:02",
+		"aktualisierungsdatum": "2025-11-13T08:45:51",
 		"id": 9382
 	},
 	{
