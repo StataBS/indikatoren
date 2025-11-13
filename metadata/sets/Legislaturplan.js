@@ -928,7 +928,7 @@ var indikatorensetData = [
 		],
 		"title": "Angebotsquote bei Büroflächen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2023 waren 5,5% aller Büroflächen auf dem Markt verfügbar.",
+		"lesehilfe": "Die Angebotsquote bei Büroflächen hat seit 2018 stark zugenommen. 2024 waren 6,4% aller Büroflächen auf dem Markt verfügbar.",
 		"erlaeuterungen": "Die Angebotsquote drückt das Angebot leerstehender und angebotener Büroflächen gemessen an der Gesamtfläche der Büroflächen aus.",
 		"quellenangabe": [
 			"JLL Büromarkt Schweiz"
@@ -953,7 +953,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-24T03:31:42",
+		"aktualisierungsdatum": "2025-11-13T08:45:49",
 		"id": 9366
 	},
 	{
@@ -1479,7 +1479,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 existieren in Basel-Stadt 101 664 Wohnungen. Den grössten Anteil machen mit 74 072 (72,9%) die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 11 448 gestiegen.",
+		"lesehilfe": "Ende 2024 existieren in Basel-Stadt 102 970 Wohnungen. Den grössten Anteil machen mit 75 195 (73,0%) die Mietwohnungen aus. Seit 2014 ist der Bestand von Genossenschaftswohnungen von 10 368 auf 11 598 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1504,7 +1504,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-22T10:03:39",
+		"aktualisierungsdatum": "2025-11-13T08:45:51",
 		"id": 9382
 	},
 	{

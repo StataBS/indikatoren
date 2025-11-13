@@ -4,43 +4,43 @@
       "data": [
         [
           "Spanien",
-          4366
+          4470
         ],
         [
           "Portugal",
-          3518
+          3539
         ],
         [
           "Frankreich",
-          2511
+          2518
         ],
         [
           "Vereinigtes Königreich",
-          1917
+          1844
         ],
         [
           "Österreich",
-          1285
-        ],
-        [
-          "Niederlande",
-          829
+          1279
         ],
         [
           "Griechenland",
-          741
+          820
+        ],
+        [
+          "Niederlande",
+          817
         ],
         [
           "Irland",
-          427
+          454
         ],
         [
           "Schweden",
-          351
+          373
         ],
         [
           "Belgien",
-          328
+          316
         ],
         [
           "Übrige",
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left"
   },
   "tooltip": {
@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "legend": {
     "layout": "vertical",

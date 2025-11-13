@@ -6,39 +6,39 @@
       "data": [
         [
           "Deutschland",
-          5.5
-        ],
-        [
-          "Italien",
-          9.8
-        ],
-        [
-          "Türkei",
-          20
-        ],
-        [
-          "EU-West + EFTA + UK",
-          6.3
-        ],
-        [
-          "EU-Ost",
-          4.8
-        ],
-        [
-          "Balkan",
-          17.7
-        ],
-        [
-          "Mittel- und Südamerika",
           5.4
         ],
         [
+          "Italien",
+          9.7
+        ],
+        [
+          "Türkei",
+          20.4
+        ],
+        [
+          "EU-West + EFTA + UK",
+          6.4
+        ],
+        [
+          "EU-Ost",
+          5.3
+        ],
+        [
+          "Balkan",
+          17.9
+        ],
+        [
+          "Mittel- und Südamerika",
+          5.7
+        ],
+        [
           "Arabische Länder",
-          7.2
+          7.5
         ],
         [
           "Afrikanische Länder",
-          8.3
+          8.5
         ],
         [
           "Übrige Länder",
@@ -54,39 +54,39 @@
       "data": [
         [
           "Deutschland",
-          8
+          7.4
         ],
         [
           "Italien",
-          14.5
+          12.5
         ],
         [
           "Türkei",
-          23.6
+          24
         ],
         [
           "EU-West + EFTA + UK",
-          8.6
+          8.3
         ],
         [
           "EU-Ost",
-          6.7
+          6.5
         ],
         [
           "Balkan",
-          21.1
+          21.5
         ],
         [
           "Mittel- und Südamerika",
-          7.1
+          7.2
         ],
         [
           "Arabische Länder",
-          9.4
+          9.2
         ],
         [
           "Afrikanische Länder",
-          10.5
+          10.6
         ],
         [
           "Übrige Länder",
@@ -175,7 +175,7 @@
     "text": "Aufenthaltsdauer der ausländischen Bevölkerung"
   },
   "subtitle": {
-    "text": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2023",
+    "text": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -230,7 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

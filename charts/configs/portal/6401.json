@@ -5,35 +5,35 @@
       "data": [
         [
           "Polen",
-          1253
+          1262
         ],
         [
           "Rumänien",
-          1014
+          1033
         ],
         [
           "Kroatien",
-          928
+          953
         ],
         [
           "Ungarn",
-          919
+          911
         ],
         [
           "Slowakei",
-          561
+          546
         ],
         [
           "Bulgarien",
-          525
+          508
         ],
         [
           "Tschechien",
-          299
+          300
         ],
         [
           "Slowenien",
-          274
+          259
         ],
         [
           "Litauen",
@@ -41,11 +41,11 @@
         ],
         [
           "Lettland",
-          98
+          107
         ],
         [
           "Estland",
-          37
+          32
         ]
       ],
       "turboThreshold": 0
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left"
   },
   "tooltip": {
@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "legend": {
     "layout": "vertical",

@@ -5,43 +5,43 @@
       "data": [
         [
           "Deutschland",
-          17472
+          17996
         ],
         [
           "Italien",
-          8871
+          8963
         ],
         [
           "Türkei",
-          5646
+          5634
         ],
         [
           "EU-West + EFTA + UK",
-          16917
+          17074
         ],
         [
           "EU-Ost",
-          6114
+          6117
         ],
         [
           "Balkan",
-          6585
+          6497
         ],
         [
           "Mittel- und Südamerika",
-          2077
+          2103
         ],
         [
           "Arabische Länder",
-          1934
+          2011
         ],
         [
           "Afrikanische Länder",
-          2128
+          2209
         ],
         [
           "Übrige Länder",
-          11463
+          11751
         ]
       ],
       "turboThreshold": 0
@@ -113,7 +113,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2024",
     "align": "left"
   },
   "tooltip": {
@@ -134,7 +134,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "legend": {
     "layout": "vertical",

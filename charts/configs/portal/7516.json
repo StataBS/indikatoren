@@ -154,7 +154,7 @@
         ],
         [
           "Okt",
-          undefined
+          59469
         ],
         [
           "Nov",
@@ -210,7 +210,7 @@
         ],
         [
           "Okt",
-          undefined
+          90997
         ],
         [
           "Nov",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

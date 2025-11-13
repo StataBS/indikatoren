@@ -11,23 +11,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.37
+          0.371
         ],
         [
           "25-34 Jahre",
-          0.821
+          0.82
         ],
         [
           "35-44 Jahre",
-          0.873
+          0.877
         ],
         [
           "45-54 Jahre",
-          0.825
+          0.816
         ],
         [
           "55-64 Jahre",
-          0.719
+          0.731
         ]
       ],
       "name": "Schweizer",
@@ -44,28 +44,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.336,
-          "high": 0.403
+          "low": 0.337,
+          "high": 0.404
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.798,
-          "high": 0.844
+          "low": 0.797,
+          "high": 0.843
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.851,
-          "high": 0.895
+          "low": 0.856,
+          "high": 0.899
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.801,
-          "high": 0.849
+          "low": 0.791,
+          "high": 0.841
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.694,
-          "high": 0.744
+          "low": 0.706,
+          "high": 0.756
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -86,15 +86,15 @@
         ],
         [
           "25-34 Jahre",
-          0.826
-        ],
-        [
-          "35-44 Jahre",
           0.832
         ],
         [
+          "35-44 Jahre",
+          0.835
+        ],
+        [
           "45-54 Jahre",
-          0.787
+          0.795
         ],
         [
           "55-64 Jahre",
@@ -115,27 +115,27 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.349,
+          "low": 0.348,
           "high": 0.419
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.805,
-          "high": 0.848
+          "low": 0.811,
+          "high": 0.853
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.809,
-          "high": 0.854
+          "low": 0.813,
+          "high": 0.857
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.764,
-          "high": 0.81
+          "low": 0.772,
+          "high": 0.819
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.616,
+          "low": 0.617,
           "high": 0.665
         }
       ],
@@ -153,15 +153,15 @@
       "data": [
         [
           "15-24 Jahre",
-          0.387
+          0.38
         ],
         [
           "25-34 Jahre",
-          0.831
+          0.849
         ],
         [
           "35-44 Jahre",
-          0.883
+          0.89
         ],
         [
           "45-54 Jahre",
@@ -169,7 +169,7 @@
         ],
         [
           "55-64 Jahre",
-          0.614
+          0.636
         ]
       ],
       "name": "Ausländer",
@@ -186,28 +186,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.331,
-          "high": 0.443
+          "low": 0.325,
+          "high": 0.435
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.806,
-          "high": 0.856
+          "low": 0.824,
+          "high": 0.873
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.863,
-          "high": 0.903
+          "low": 0.871,
+          "high": 0.908
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.761,
+          "low": 0.762,
           "high": 0.82
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.573,
-          "high": 0.654
+          "low": 0.598,
+          "high": 0.674
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -224,23 +224,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.369
+          0.36
         ],
         [
           "25-34 Jahre",
-          0.737
+          0.747
         ],
         [
           "35-44 Jahre",
-          0.76
+          0.742
         ],
         [
           "45-54 Jahre",
-          0.712
+          0.729
         ],
         [
           "55-64 Jahre",
-          0.491
+          0.525
         ]
       ],
       "name": "Ausländerinnen",
@@ -257,28 +257,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.315,
-          "high": 0.423
+          "low": 0.305,
+          "high": 0.414
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.709,
-          "high": 0.765
+          "low": 0.719,
+          "high": 0.774
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.734,
-          "high": 0.786
+          "low": 0.716,
+          "high": 0.769
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.679,
-          "high": 0.745
+          "low": 0.697,
+          "high": 0.761
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.446,
-          "high": 0.535
+          "low": 0.481,
+          "high": 0.569
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -362,7 +362,7 @@
     "text": "Erwerbstätigenquote"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2019 bis 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -419,7 +419,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "tooltip": {
     "shared": true

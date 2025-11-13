@@ -52,6 +52,10 @@
         [
           "2023",
           5.1
+        ],
+        [
+          "2024",
+          5
         ]
       ],
       "name": "Stadt Basel",
@@ -108,6 +112,10 @@
         [
           "2023",
           4.7
+        ],
+        [
+          "2024",
+          4.8
         ]
       ],
       "name": "Mittelwert Vergleichsstädte",
@@ -163,6 +171,10 @@
         ],
         [
           "2023",
+          0
+        ],
+        [
+          "2024",
           0
         ]
       ],
@@ -226,6 +238,10 @@
         [
           "2023",
           -0.2
+        ],
+        [
+          "2024",
+          -0.1
         ]
       ],
       "name": "Veränderung Stadt Basel",
@@ -288,6 +304,10 @@
         [
           "2023",
           -0.2
+        ],
+        [
+          "2024",
+          0.1
         ]
       ],
       "name": "Veränderung Mittelwert Vergleichsstädte",
@@ -345,6 +365,10 @@
         [
           "2023",
           4.6
+        ],
+        [
+          "2024",
+          5
         ]
       ],
       "name": "Bern",
@@ -402,6 +426,10 @@
         [
           "2023",
           4.8
+        ],
+        [
+          "2024",
+          5.2
         ]
       ],
       "name": "Winterthur",
@@ -459,6 +487,10 @@
         [
           "2023",
           3.8
+        ],
+        [
+          "2024",
+          3.5
         ]
       ],
       "name": "Zürich",
@@ -516,6 +548,10 @@
         [
           "2023",
           4.1
+        ],
+        [
+          "2024",
+          3.8
         ]
       ],
       "name": "St. Gallen",
@@ -573,6 +609,10 @@
         [
           "2023",
           4.2
+        ],
+        [
+          "2024",
+          3.9
         ]
       ],
       "name": "Luzern",
@@ -630,6 +670,10 @@
         [
           "2023",
           6.8
+        ],
+        [
+          "2024",
+          7.2
         ]
       ],
       "name": "Lausanne",
@@ -789,7 +833,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

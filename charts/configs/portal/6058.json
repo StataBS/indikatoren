@@ -9,10 +9,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2004,
-          56419
-        ],
-        [
           2005,
           57040
         ],
@@ -87,6 +83,10 @@
         [
           2023,
           79207
+        ],
+        [
+          2024,
+          80355
         ]
       ],
       "name": "Ausländer"
@@ -99,10 +99,6 @@
       },
       "legendIndex": 0,
       "data": [
-        [
-          2004,
-          132059
-        ],
         [
           2005,
           130423
@@ -178,6 +174,10 @@
         [
           2023,
           127101
+        ],
+        [
+          2024,
+          127160
         ]
       ],
       "name": "Schweizer"
@@ -313,7 +313,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

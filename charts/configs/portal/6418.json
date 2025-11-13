@@ -18,8 +18,8 @@
           0.831
         ],
         [
-          "2018-2022",
-          0.778
+          "2019-2023",
+          0.781
         ]
       ],
       "name": "Schweizer",
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2018-2022",
-          "low": 0.766,
-          "high": 0.789
+          "name": "2019-2023",
+          "low": 0.77,
+          "high": 0.793
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.709
         ],
         [
-          "2018-2022",
-          0.743
+          "2019-2023",
+          0.744
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,7 +98,7 @@
           "high": null
         },
         {
-          "name": "2018-2022",
+          "name": "2019-2023",
           "low": 0.732,
           "high": 0.755
         }
@@ -124,8 +124,8 @@
           0.837
         ],
         [
-          "2018-2022",
-          0.839
+          "2019-2023",
+          0.842
         ]
       ],
       "name": "Ausländer",
@@ -151,9 +151,9 @@
           "high": null
         },
         {
-          "name": "2018-2022",
-          "low": 0.827,
-          "high": 0.852
+          "name": "2019-2023",
+          "low": 0.83,
+          "high": 0.854
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -177,8 +177,8 @@
           0.729
         ],
         [
-          "2018-2022",
-          0.722
+          "2019-2023",
+          0.731
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2018-2022",
-          "low": 0.708,
-          "high": 0.737
+          "name": "2019-2023",
+          "low": 0.716,
+          "high": 0.745
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -349,7 +349,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "tooltip": {
     "shared": true
