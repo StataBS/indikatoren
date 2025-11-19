@@ -86,8 +86,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2025",
-		"lesehilfe": "Anfang 2025 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand Anfang 2025",
+		"lesehilfe": "Im September 2025 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand September 2025.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -103,17 +103,17 @@ var indikatorensetData = [
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.23",
+		"kuerzelKunde": "1.28",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.1 Karten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_023",
+		"orderKey": "01_01_00_00_00_028",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:06:12",
+		"aktualisierungsdatum": "2025-11-19T09:38:12",
 		"id": 11167
 	},
 	{
@@ -939,8 +939,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit aller Aufenthaltstage fällt seit 2019 auf Plätze in allgemeinen Tages- und Nachtpflegeeinrichtungen. 2023 waren dies 17 511 von 27 450 Tagen.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Die Mehrheit aller Aufenthaltstage fällt seit 2019 auf Plätze in allgemeinen Tages- und Nachtpflegeeinrichtungen. 2024 waren dies 19 380 von 31 228 Tagen.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -964,7 +964,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:12",
+		"aktualisierungsdatum": "2025-11-19T09:38:10",
 		"id": 12734
 	},
 	{
