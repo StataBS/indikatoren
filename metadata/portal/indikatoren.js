@@ -24980,7 +24980,7 @@ var indikatoren = [
 		"title": "Veranlagungen natürlicher Personen",
 		"subtitle": "Basel-Stadt, 2022",
 		"lesehilfe": "Im Jahr 2022 gibt es insgesamt 118 596 Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen und wohnhaften Personen. Nicht berücksichtigt sind Veranlagungen von Auswärtigen (insgesamt rund 8 500 Veranlagungen) und von Unterjährigen (ca. 4 800 Veranlagungen). Nach Tarif betrachtet stammen rund 81 000 Veranlagungen von Alleinstehenden, 31 000 von Verheirateten und ca. 7 000 von Alleinstehenden mit Kind oder einer anderen unterstützten Person.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25005,7 +25005,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:19",
+		"aktualisierungsdatum": "2025-11-27T12:26:53",
 		"id": 6898
 	},
 	{
@@ -25020,7 +25020,7 @@ var indikatoren = [
 		"title": "Summe von Reineinkommen, -vermögen und Steuerertrag",
 		"subtitle": "indexiert (2013 = 100), Basel-Stadt",
 		"lesehilfe": "Die grössten Schwankungen seit 2013 zeigt das Reinvermögen, das seitdem nominal um rund 25% gewachsen ist. Das Reineinkommen stieg um rund 18%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2022 um ca. 23% über dem Wert von 2013. Der in manchen Jahren grössere Anstieg des Reinvermögens liegt unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein. In den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports 98% der gesamten Veranlagungen berücksichtigt.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25045,7 +25045,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:25",
+		"aktualisierungsdatum": "2025-11-27T12:26:59",
 		"id": 6899
 	},
 	{
@@ -25060,7 +25060,7 @@ var indikatoren = [
 		"title": "Mittelwert des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt, 2013 und 2022",
 		"lesehilfe": "In den meisten Wohnvierteln ist ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2013 zu verzeichnen. Am relativ stärksten fällt er im Wohnviertel Vorstädte und in der Gemeinde Bettingen aus, mit jeweils über 50%. Der Mittelwert des Reineinkommens aller Veranlagungen im Kanton stieg um rund 14%.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber einem anderen Jahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25085,7 +25085,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:26",
+		"aktualisierungsdatum": "2025-11-27T12:27:01",
 		"id": 6901
 	},
 	{
@@ -25100,7 +25100,7 @@ var indikatoren = [
 		"title": "Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt, 2013 und 2022",
 		"lesehilfe": "Der Median des Reineinkommens pro Veranlagung ist zwischen 2013 und 2022 in fast allen Wohnvierteln gestiegen. Den stärksten relativen Zuwachs gibt es im Wohnviertel Rosental (+20,3%). Den grössten Rückgang verzeichnet das Wohnviertel Kleinhüningen (-2,5%). Der Median des Reineinkommens aller Veranlagungen im gesamten Kanton stieg um 6,0%.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber einem anderen Jahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25125,7 +25125,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:27",
+		"aktualisierungsdatum": "2025-11-27T12:27:02",
 		"id": 6902
 	},
 	{
@@ -25222,7 +25222,7 @@ var indikatoren = [
 		"title": "Veranlagungen und Summe Einkommenssteuer nach Stufen des steuerbaren Einkommens",
 		"subtitle": "in Franken, Basel-Stadt, 2022",
 		"lesehilfe": "Bei rund 28 300 aller Veranlagungen (ca. 24%) im Steuerjahr 2022 beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (ca. 4 400 oder rund 4% aller Veranlagungen) stammt ein Einkommenssteuerertrag von rund 465 Mio. Franken (ca. 35% des Einkommenssteuertrags).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25247,7 +25247,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:21",
+		"aktualisierungsdatum": "2025-11-27T12:26:55",
 		"id": 6907
 	},
 	{
@@ -25262,7 +25262,7 @@ var indikatoren = [
 		"title": "Veranlagungen und Summe Vermögenssteuer nach Stufen des steuerbaren Vermögens",
 		"subtitle": "in Franken, Basel-Stadt, 2022",
 		"lesehilfe": "Bei der Vermögenssteuer sind die Anteile der Vermögensklassen weniger gleichmässig verteilt als bei der Einkommenssteuer. Bei rund 82 700 aller Veranlagungen (rund 70%) im Steuerjahr 2022 beträgt das steuerbare Vermögen 0 Franken, somit muss keine Vermögenssteuer bezahlt werden. Bei rund 3 300 Veranlagungen (ca. 3%) mit einem steuerbaren Vermögen von 2 Mio. Franken und mehr beträgt die Vermögenssteuer insgesamt rund 275 Mio. Franken (82% des gesamten Vermögenssteuerertrags).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25287,7 +25287,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:22",
+		"aktualisierungsdatum": "2025-11-27T12:26:56",
 		"id": 6908
 	},
 	{
@@ -25302,7 +25302,7 @@ var indikatoren = [
 		"title": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
 		"subtitle": "in Franken, Basel-Stadt, 2013 und 2022",
 		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2022 verzeichnet die Gemeinde Riehen mit rund 238 Mio. Franken (ca. +27% gegenüber 2013), gefolgt vom Wohnviertel Bruderholz mit ca. 170 Mio. Franken (ca. -13%). Den kleinsten Ertrag steuert Kleinhüningen mit rund 8 Mio. Franken bei (ca. -8%). Im Jahr 2022 beträgt der Wert für den gesamten Kanton rund 1,7 Mrd. Franken, ca. 23% mehr als 2013.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber einem anderen Jahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -25327,7 +25327,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:23",
+		"aktualisierungsdatum": "2025-11-27T12:26:58",
 		"id": 6909
 	},
 	{
