@@ -39084,8 +39084,8 @@
 		],
 		"title": "Entwicklung des Ertrags aus Steuern",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Grössere Schwankungen liegen vor allem bei der Gewinnsteuer der juristischen Personen vor, zwischen 2013 und 2021 ist dieser Wert nominal um rund 12% gesunken. Bei den natürlichen Personen ist der Ertrag aus Einkommenssteuer von 2013 bis 2022 um 24% gestiegen, der Ertrag aus Vermögenssteuer um 19%. Der Ertrag aus Quellenbesteuerung (2023) stieg seit 2014 im Zehnjahresvergleich um 43%.",
-		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrunde liegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, in welchem Jahr die Steuer verbucht oder bezahlt worden ist. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind gewöhnlich rund 98% der Veranlagungen von natürlichen Personen bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.   Unterschiedlicher Datenstand!",
+		"lesehilfe": "Grössere Schwankungen liegen vor allem bei der Gewinnsteuer der juristischen Personen vor, zwischen 2013 und 2021 ist dieser Wert nominal um rund 12% gesunken. Bei den natürlichen Personen ist der Ertrag aus Einkommenssteuer von 2013 bis 2022 um 24% gestiegen, der Ertrag aus Vermögenssteuer um 19%. Der Ertrag aus Quellenbesteuerung (2024) stieg seit 2015 im Zehnjahresvergleich um 34%.",
+		"erlaeuterungen": "Bei der Steuerstatistik Basel-Stadt liegen Veranlagungsdaten zugrunde, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, in welchem Jahr die Steuer verbucht oder bezahlt worden ist. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen. Das jeweils neuste zur Verfügung stehende Jahr unterscheidet sich je nach Steuerart.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -39110,7 +39110,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:18",
+		"aktualisierungsdatum": "2025-11-28T11:26:56",
 		"id": 6897
 	},
 	{
@@ -39164,7 +39164,7 @@
 		],
 		"title": "Summe von Reineinkommen, -vermögen und Steuerertrag",
 		"subtitle": "indexiert (2013 = 100), Basel-Stadt",
-		"lesehilfe": "Die grössten Schwankungen seit 2013 zeigt das Reinvermögen, das seitdem nominal um rund 25% gewachsen ist. Das Reineinkommen stieg um rund 18%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2022 um ca. 23% über dem Wert von 2013. Der in manchen Jahren grössere Anstieg des Reinvermögens liegt unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein. In den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports 98% der gesamten Veranlagungen berücksichtigt.",
+		"lesehilfe": "Die grössten Schwankungen seit 2013 zeigt das Reinvermögen, das seitdem nominal um rund 25% gewachsen ist. Das Reineinkommen stieg um rund 18%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2022 um ca. 23% über dem Wert von 2013. Der in manchen Jahren grössere Anstieg des Reinvermögens liegt unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein (siehe Erläuterungen und methodische Hinweise).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter. Zum Zeitpunkt des Exports der Steuerdaten für statistische Zwecke sind in der Regel mindestens rund 98% der Veranlagungen von natürlichen Personen des Steuerjahres bearbeitet. Veränderungen gegenüber dem Vorjahr können zu einem Teil auch aufgrund des unterschiedlichen Bearbeitungsstandes entstehen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -39190,7 +39190,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-27T12:26:59",
+		"aktualisierungsdatum": "2025-11-28T11:26:58",
 		"id": 6899
 	},
 	{
@@ -72204,7 +72204,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-17T12:26:32",
+		"aktualisierungsdatum": "2025-11-28T11:26:50",
 		"id": 8995
 	},
 	{
@@ -72577,7 +72577,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-17T12:26:34",
+		"aktualisierungsdatum": "2025-11-28T11:26:53",
 		"id": 9022
 	},
 	{
@@ -72615,7 +72615,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-17T12:26:36",
+		"aktualisierungsdatum": "2025-11-28T11:26:54",
 		"id": 9023
 	},
 	{
