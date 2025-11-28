@@ -46,6 +46,10 @@
         [
           2023,
           null
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Einkommenssteuer"
@@ -95,6 +99,10 @@
         ],
         [
           2023,
+          null
+        ],
+        [
+          2024,
           null
         ]
       ],
@@ -146,6 +154,10 @@
         [
           2023,
           545797789
+        ],
+        [
+          2024,
+          541955885
         ]
       ],
       "name": "Quellensteuer"
@@ -195,7 +207,11 @@
         ],
         [
           2023,
-          null
+          undefined
+        ],
+        [
+          2024,
+          undefined
         ]
       ],
       "name": "Gewinnsteuer"
@@ -245,7 +261,11 @@
         ],
         [
           2023,
-          null
+          undefined
+        ],
+        [
+          2024,
+          undefined
         ]
       ],
       "name": "Kapitalsteuer"
@@ -375,7 +395,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
