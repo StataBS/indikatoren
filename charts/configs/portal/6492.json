@@ -29,6 +29,10 @@
           0.197
         ],
         [
+          "institutionalisiert: 2024",
+          0.243
+        ],
+        [
           " ",
           null
         ],
@@ -55,6 +59,10 @@
         [
           "informell: 2020",
           0.375
+        ],
+        [
+          "informell: 2024",
+          0.282
         ]
       ],
       "name": "Schweizer",
@@ -89,6 +97,10 @@
           0.037
         ],
         [
+          "institutionalisiert: 2024",
+          0.106
+        ],
+        [
           " ",
           null
         ],
@@ -115,6 +127,10 @@
         [
           "informell: 2020",
           0.207
+        ],
+        [
+          "informell: 2024",
+          0.112
         ]
       ],
       "name": "Ausländer",
@@ -256,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 3.12.2025"
   },
   "tooltip": {
     "pointFormatter": function(){

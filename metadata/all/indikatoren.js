@@ -2722,8 +2722,8 @@ var indikatoren = [
 		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Schweiz",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person in der Schweiz durchschnittlich 24,0 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,1 Stunden",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+		"lesehilfe": "Im Jahr 2024 wendete eine Person in der Schweiz durchschnittlich 27,2 Stunden pro Woche für Haus- und Familienarbeit auf.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 18 000 Personen im Jahr 2024 für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
@@ -2748,7 +2748,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:49",
+		"aktualisierungsdatum": "2025-12-03T08:34:36",
 		"id": 11932
 	},
 	{
@@ -21015,7 +21015,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-01T03:48:06",
+		"aktualisierungsdatum": "2025-12-03T08:34:39",
 		"id": 6039
 	},
 	{
@@ -31528,8 +31528,8 @@ var indikatoren = [
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit. Bei ausländischen Staatsangehörigen sind es 3,7%.",
-		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
+		"lesehilfe": "2024 leisten 24,3% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit. Bei ausländischen Staatsangehörigen sind es 10,6%.",
+		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 und der SAKE 2024 überarbeitet, weshalb es einen Reihenbruch zwischen 2013 und 2016 als auch zwischen 2020 und 2024 gibt und Zeitvergleiche deshalb nur bedingt möglich sind. Aufgrund der kleinen Stichprobe (2024 rund 300 Personen) sollten die Ergebnisse mit Vorsicht interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
@@ -31554,7 +31554,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:07",
+		"aktualisierungsdatum": "2025-12-03T08:34:38",
 		"id": 6492
 	},
 	{
@@ -45742,7 +45742,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Oktober 2025 wie bereits im September 0,2%. Das Preisniveau ist damit gegenüber der Vorjahresperiode erneut leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im November 2025 noch 0,1%. Das Preisniveau ist damit gegenüber der Vorjahresperiode nur leicht gestiegen. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -45770,7 +45770,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-03T08:34:07",
+		"aktualisierungsdatum": "2025-12-03T08:34:32",
 		"id": 7512
 	},
 	{
@@ -45782,7 +45782,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Oktober 2025 gegenüber September um 0,2% auf 106,6 Punkte gesunken.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im November 2025 gegenüber Oktober um 0,2% auf 106,3 Punkte gesunken.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -45809,7 +45809,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-03T08:34:09",
+		"aktualisierungsdatum": "2025-12-03T08:34:34",
 		"id": 7513
 	},
 	{
@@ -60639,14 +60639,15 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			8961,
-			10027
+			10027,
+			11187
 		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 500 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"lesehilfe": "Im Jahr 2024 wendete eine Person im Kanton Basel-Stadt durchschnittlich 26,6 Stunden pro Woche für Haus- und Familienarbeit auf.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis einer kleinen Stichprobe (2024: etwa 300 Personen) und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -60669,7 +60670,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-17T10:34:50",
+		"aktualisierungsdatum": "2025-12-03T08:34:41",
 		"id": 8458
 	},
 	{

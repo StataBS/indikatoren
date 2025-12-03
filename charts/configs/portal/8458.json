@@ -32,6 +32,10 @@
         [
           "2020",
           18.7534
+        ],
+        [
+          "2024",
+          23.4007
         ]
       ],
       "name": "Männer",
@@ -75,6 +79,11 @@
           "name": "2020",
           "low": 16.1316,
           "high": 21.3752
+        },
+        {
+          "name": "2024",
+          "low": 18.1375,
+          "high": 28.664
         }
       ],
       "name": "Männer 95% Vertrauensintervall Untergrenze",
@@ -112,6 +121,10 @@
         [
           "2020",
           28.2801
+        ],
+        [
+          "2024",
+          29.1923
         ]
       ],
       "name": "Frauen",
@@ -155,6 +168,11 @@
           "name": "2020",
           "low": 24.9128,
           "high": 31.6474
+        },
+        {
+          "name": "2024",
+          "low": 25.514,
+          "high": 32.8706
         }
       ],
       "name": "Frauen 95% Vertrauensintervall Untergrenze",
@@ -192,6 +210,10 @@
         [
           "2020",
           23.355
+        ],
+        [
+          "2024",
+          26.5561
         ]
       ],
       "name": "Total",
@@ -235,6 +257,11 @@
           "name": "2020",
           "low": 21.1304,
           "high": 25.5797
+        },
+        {
+          "name": "2024",
+          "low": 23.4342,
+          "high": 29.678
         }
       ],
       "name": "Total 95% Vertrauensintervall Untergrenze",
@@ -363,7 +390,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 3.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -242,8 +242,8 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Schweiz",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person in der Schweiz durchschnittlich 24,0 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,1 Stunden",
-		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+		"lesehilfe": "Im Jahr 2024 wendete eine Person in der Schweiz durchschnittlich 27,2 Stunden pro Woche für Haus- und Familienarbeit auf.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 18 000 Personen im Jahr 2024 für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
@@ -267,7 +267,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:49",
+		"aktualisierungsdatum": "2025-12-03T08:34:36",
 		"id": 11932
 	},
 	{
