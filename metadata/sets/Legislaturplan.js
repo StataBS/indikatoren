@@ -206,7 +206,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2022 wurden in Basel-Stadt 1 407 neue Unternehmen gegründet, 241 mehr als im Jahr 2021. Rund ein Viertel (364 im Jahr 2022) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (169).",
+		"lesehilfe": "Im Jahr 2023 wurden in Basel-Stadt 1 389 neue Unternehmen gegründet, 18 weniger als im Jahr 2022. Rund ein Viertel (378 im Jahr 2023) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (192).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -231,7 +231,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:23",
+		"aktualisierungsdatum": "2025-12-04T08:36:26",
 		"id": 5041
 	},
 	{
