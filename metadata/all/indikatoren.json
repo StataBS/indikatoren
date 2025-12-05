@@ -17551,7 +17551,7 @@
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2022 wurden in Basel-Stadt 1 407 neue Unternehmen gegründet, 241 mehr als im Jahr 2021. Rund ein Viertel (364 im Jahr 2022) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (169).",
+		"lesehilfe": "Im Jahr 2023 wurden in Basel-Stadt 1 389 neue Unternehmen gegründet, 18 weniger als im Jahr 2022. Rund ein Viertel (378 im Jahr 2023) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (192).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -17577,7 +17577,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:23",
+		"aktualisierungsdatum": "2025-12-04T08:36:26",
 		"id": 5041
 	},
 	{
@@ -39512,7 +39512,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-10T09:02:35",
+		"aktualisierungsdatum": "2025-12-04T08:36:29",
 		"id": 6910
 	},
 	{
@@ -45666,7 +45666,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2025 bei 4,3% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,8% und ist damit ebenfalls höher als im Vorjahr.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im November 2025 bei 4,4% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,8% und ist damit ebenfalls höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2021-2023 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -45692,7 +45692,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-06T08:22:48",
+		"aktualisierungsdatum": "2025-12-04T08:36:13",
 		"id": 7510
 	},
 	{
@@ -45704,7 +45704,7 @@
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2025 sind in Basel-Stadt weniger meldepflichtige und mehr nicht meldepflichtige offene Stellen gemeldet als im Vorjahr.",
+		"lesehilfe": "Ende November 2025 sind in Basel-Stadt mehr offene Stellen gemeldet als im Vorjahr.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -45730,7 +45730,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-06T08:22:50",
+		"aktualisierungsdatum": "2025-12-04T08:36:16",
 		"id": 7511
 	},
 	{
@@ -71784,7 +71784,7 @@
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Oktober 2025 rund 4400 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im November 2025 mehr als 4500 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -71810,7 +71810,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-06T08:22:51",
+		"aktualisierungsdatum": "2025-12-04T08:36:18",
 		"id": 8980
 	},
 	{
@@ -71848,7 +71848,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-06T08:22:53",
+		"aktualisierungsdatum": "2025-12-04T08:36:21",
 		"id": 8981
 	},
 	{
@@ -72138,7 +72138,7 @@
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 160 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen und abgerechnet? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit November 2022 liegt sie unter 50.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 160 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen und abgerechnet? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit Ende 2022 liegt sie unter 50.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit zwei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -72164,7 +72164,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-06T08:22:54",
+		"aktualisierungsdatum": "2025-12-04T08:36:23",
 		"id": 8992
 	},
 	{
@@ -83579,7 +83579,7 @@
 		],
 		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "84,8% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2022 einen Abschluss auf der Sekundarstufe II.",
+		"lesehilfe": "84,5% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2023 im Kanton Basel-Stadt einen Abschluss auf der Sekundarstufe II.",
 		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer). Geringfügige rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -83608,7 +83608,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:55",
+		"aktualisierungsdatum": "2025-12-04T08:36:32",
 		"id": 9733
 	},
 	{
