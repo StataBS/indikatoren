@@ -403,7 +403,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2022 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2023 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -428,7 +428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T08:13:47",
+		"aktualisierungsdatum": "2025-12-15T04:55:01",
 		"id": 5161
 	},
 	{
@@ -1460,7 +1460,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:49",
+		"aktualisierungsdatum": "2025-12-15T04:54:58",
 		"id": 6036
 	},
 	{
@@ -2612,7 +2612,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 23 400 Franken im Jahr 2021. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau. Der Mittelwert des Reinvermögens pro Veranlagung hat in den letzten Jahren deutlich zugenommen.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 21 100 Franken im Jahr 2022. Im Vergleich zum Mittelwert liegt der Median auf einem deutlich niedrigeren Niveau. Der Mittelwert des Reinvermögens pro Veranlagung hat seit 2007 deutlich zugenommen.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -2637,7 +2637,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:50",
+		"aktualisierungsdatum": "2025-12-15T04:55:00",
 		"id": 8459
 	},
 	{

@@ -1043,7 +1043,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 23 400 Franken im Jahr 2021. Die Werte des Medians liegen im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau. Der Mittelwert des Reinvermögens pro Veranlagung hat in den letzten Jahren deutlich zugenommen.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 von rund 11 400 auf 21 100 Franken im Jahr 2022. Im Vergleich zum Mittelwert liegt der Median auf einem deutlich niedrigeren Niveau. Der Mittelwert des Reinvermögens pro Veranlagung hat seit 2007 deutlich zugenommen.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -1068,7 +1068,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:42",
+		"aktualisierungsdatum": "2025-12-15T04:54:55",
 		"id": 9370
 	},
 	{
@@ -1107,7 +1107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:44",
+		"aktualisierungsdatum": "2025-12-15T04:54:57",
 		"id": 9371
 	},
 	{
