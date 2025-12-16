@@ -62,6 +62,10 @@
         [
           2021,
           610678
+        ],
+        [
+          2022,
+          542649
         ]
       ],
       "name": "Mittelwert Reinvermögen"
@@ -128,6 +132,10 @@
         [
           2021,
           23369
+        ],
+        [
+          2022,
+          21084
         ]
       ],
       "name": "Median Reinvermögen"
@@ -254,7 +262,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

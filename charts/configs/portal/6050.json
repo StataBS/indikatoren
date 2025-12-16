@@ -10,7 +10,7 @@
         ],
         [
           "Innovation",
-          89
+          88
         ],
         [
           "Humankapital",
@@ -18,7 +18,7 @@
         ],
         [
           "Arbeitsmarkt",
-          43
+          40
         ],
         [
           "Erreichbarkeit",
@@ -26,7 +26,7 @@
         ],
         [
           "Einzugsgebiet",
-          100
+          91
         ],
         [
           "Kostenumfeld",
@@ -34,7 +34,7 @@
         ],
         [
           "Staatsfinanzen",
-          48
+          62
         ]
       ],
       "name": "Basel-Stadt",
@@ -46,19 +46,19 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          67
+          60
         ],
         [
           "Innovation",
-          29
+          33
         ],
         [
           "Humankapital",
-          31.5
+          30
         ],
         [
           "Arbeitsmarkt",
-          72
+          68.5
         ],
         [
           "Erreichbarkeit",
@@ -66,15 +66,15 @@
         ],
         [
           "Einzugsgebiet",
-          31.5
+          34
         ],
         [
           "Kostenumfeld",
-          69
+          70.5
         ],
         [
           "Staatsfinanzen",
-          70.5
+          74.5
         ]
       ],
       "name": "Mediankanton",
@@ -159,7 +159,7 @@
     "text": "Kantonales Wettbewerbsprofil"
   },
   "subtitle": {
-    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2023",
+    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

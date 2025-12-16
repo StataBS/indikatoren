@@ -73,7 +73,11 @@
         ],
         [
           2023,
-          2162.8
+          2162.9
+        ],
+        [
+          2024,
+          2083.4
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
@@ -151,7 +155,11 @@
         ],
         [
           2023,
-          936
+          935.9
+        ],
+        [
+          2024,
+          710.6
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -281,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

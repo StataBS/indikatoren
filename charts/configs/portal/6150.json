@@ -129,7 +129,11 @@
         ],
         [
           2021,
-          76202.1
+          76202.4
+        ],
+        [
+          2022,
+          76396.4
         ]
       ],
       "name": "Mittelwert"
@@ -264,6 +268,10 @@
         [
           2021,
           50905
+        ],
+        [
+          2022,
+          51769
         ]
       ],
       "name": "Median"
@@ -398,6 +406,10 @@
         [
           2021,
           215959.3
+        ],
+        [
+          2022,
+          214007.4
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -532,6 +544,10 @@
         [
           2021,
           6884.1
+        ],
+        [
+          2022,
+          6997.2
         ]
       ],
       "name": "Mittelwert unterstes Quintil"
@@ -662,7 +678,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
