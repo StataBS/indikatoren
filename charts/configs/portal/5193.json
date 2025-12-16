@@ -56,6 +56,10 @@
         [
           2022,
           499
+        ],
+        [
+          2023,
+          505
         ]
       ],
       "name": "Kulturerbe"
@@ -116,9 +120,13 @@
         [
           2022,
           550
+        ],
+        [
+          2023,
+          502
         ]
       ],
-      "name": "Kultur, übrige"
+      "name": "Übrige Kultur"
     }
   ],
   "chart": {
@@ -254,7 +262,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2024"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
