@@ -591,6 +591,7 @@ function renderDropdownFromJson(
   sortKey,
   filterQueryString
 ) {
+  console.log("render dropdown From JSON");
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== "undefined") {
@@ -766,6 +767,7 @@ var afterFilter = function (result, jQ) {
   //deep copy so that changes have no effect on filtering charts, only dropdowns
   var baseQueryCopy = $.extend(true, {}, baseQuery);
   //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
+  console.log("ju here?");
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe3" + ".$in"];
   }
