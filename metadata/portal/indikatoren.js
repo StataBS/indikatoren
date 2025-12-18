@@ -28212,7 +28212,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "150 466 Logiernächte wurden im Oktober 2025 in den Basler Hotelbetrieben gebucht, 125 mehr als im September. Im Vergleich zum Oktober 2024 entspricht dies einer Zunahme um 5,5% bzw. 7 873 Übernachtungen. Die inländischen Gäste buchten 59 469 Logiernächte (+11,4%), die Gäste aus dem Ausland 90 997 Übernachtungen (+2,0%).",
+		"lesehilfe": "142 421 Logiernächte wurden im November 2025 in den Basler Hotelbetrieben gebucht, 8 045 weniger als im Oktober. Im Vergleich zum November 2024 entspricht dies einer Zunahme um 5,9% bzw. 7 933 Übernachtungen. Die inländischen Gäste buchten 60 452 Logiernächte (+6,5%), die Gäste aus dem Ausland 81 969 Übernachtungen (+5,5%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28238,7 +28238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-13T08:45:39",
+		"aktualisierungsdatum": "2025-12-18T12:26:53",
 		"id": 7516
 	},
 	{
@@ -28249,7 +28249,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
+		"subtitle": "Basel-Stadt, November",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -28276,7 +28276,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-13T08:45:41",
+		"aktualisierungsdatum": "2025-12-18T12:27:00",
 		"id": 7517
 	},
 	{
