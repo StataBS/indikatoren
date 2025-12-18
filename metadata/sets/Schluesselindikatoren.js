@@ -233,7 +233,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2024 waren durchschnittlich 3,8% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,7 Prozentpunkte gegenüber 2023. Die Arbeitslosenquote der Schweiz ist um 0,5 Prozentpunkte gestiegen.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
+		"lesehilfe": "2024 waren durchschnittlich 3,7% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,7 Prozentpunkte gegenüber 2023. Die Arbeitslosenquote der Schweiz ist um 0,4 Prozentpunkte gestiegen.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-24T12:45:40",
+		"aktualisierungsdatum": "2025-12-18T12:27:21",
 		"id": 9677
 	},
 	{
@@ -344,8 +344,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bildungsabschluss Sekundarstufe II",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2022 in Basel-Stadt wie bereits 2021 unverändert bei 85,4%.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2023 in Basel-Stadt bei 87,5%. 2022 hatte dieser Wert noch 85,4% betragen.<br><h2>Zielwert:</h2>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert ≥ 95%</p><p>Wert = 90 bis 94,9%</p><p>Wert < 90%</p></div>",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -372,7 +372,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:36",
+		"aktualisierungsdatum": "2025-12-18T12:27:06",
 		"id": 9682
 	},
 	{
@@ -421,7 +421,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2021 7,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 3,6 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
+		"lesehilfe": "Der Mietpreisindex lag 2022 8,7 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 5,3 Indexpunkte.<br><h2>Zielwert:</h2>Mietpreise steigen weniger stark als Median des Reineinkommens (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Mietpreise steigen weniger stark als Median des Reineinkommens</p><p>Mietpreise und Median des Reineinkommens steigen gleich stark</p><p>Mietpreise steigen stärker als Median des Reineinkommens</p></div>",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -447,7 +447,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-06T09:57:37",
+		"aktualisierungsdatum": "2025-12-18T12:27:11",
 		"id": 9686
 	},
 	{
@@ -459,7 +459,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex MIV im Stadtstrassennetz",
 		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"lesehilfe": "Der Verkehrsleistungsindex des motorisierten Individualverkehrs (MIV) im Stadtstrassennetz liegt 2023 bei 84,5 Punkten.<br><h2>Zielwert:</h2>Wert ist nicht grösser als Indexwert 2019 (Grundlage: USG §13 bzw. VuV §5).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert steigt nicht und bleibt gleich/unter Indexwert 2019</p><p>Wert steigt und bleibt gleich/unter Indexwert 2019<br>bzw. Wert steigt nicht und ist über Indexwert 2019</p><p>Wert steigt und ist über Indexwert 2019</p></div>",
+		"lesehilfe": "Der Verkehrsleistungsindex des motorisierten Individualverkehrs (MIV) im Stadtstrassennetz liegt 2024 bei 86,8 Punkten.<br><h2>Zielwert:</h2>Wert ist nicht grösser als Indexwert 2019 (Grundlage: USG §13 bzw. VuV §5).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert steigt nicht und bleibt gleich/unter Indexwert 2019</p><p>Wert steigt und bleibt gleich/unter Indexwert 2019<br>bzw. Wert steigt nicht und ist über Indexwert 2019</p><p>Wert steigt und ist über Indexwert 2019</p></div>",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Er basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) im Stadtstrassennetz (exkl. Autobahnen) berechnet sich anhand von verschiedenen Dauerzählstellen des Kantons Basel-Stadt und des Kantons Basel-Landschaft. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -484,7 +484,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-09T01:31:22",
+		"aktualisierungsdatum": "2025-12-18T12:27:16",
 		"id": 9687
 	},
 	{

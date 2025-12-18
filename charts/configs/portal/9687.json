@@ -58,6 +58,10 @@
         [
           2023,
           84.5
+        ],
+        [
+          2024,
+          86.8
         ]
       ],
       "name": "MIV Stadtstrassennetz"
@@ -121,6 +125,10 @@
         [
           2023,
           92.3
+        ],
+        [
+          2024,
+          92.3
         ]
       ],
       "name": "Referenzwert"
@@ -183,6 +191,10 @@
         ],
         [
           2023,
+          1
+        ],
+        [
+          2024,
           1
         ]
       ],
@@ -365,7 +377,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 9.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2025"
   },
   "tooltip": {
     "valueDecimals": 1,
