@@ -8368,6 +8368,469 @@ var indikatoren = [
 		"id": 22359
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 22408,
+		"chart-id": 22408,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Stadt Basel",
+		"lesehilfe": "84,4% der Bevölkerung in der Stadt Basel sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.1.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:22",
+		"id": 22408
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 22409,
+		"chart-id": 22409,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Zufriedenheit mit Wohnumfeld",
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Stadt Basel",
+		"lesehilfe": "Mit 46,9% ist beinahe die Hälfte der befragten Familien in der Stadt Basel sehr zufrieden mit dem Wohnumfeld. 2,4% zeigen sich sehr unzufrieden.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Zufriedenheit mit Wohnumfeld",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.1.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:24",
+		"id": 22409
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 22410,
+		"chart-id": 22410,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Empfinden Hitzetage Sommer",
+		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 °C und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023",
+		"lesehilfe": "22,2% der Bevölkerung in der Stadt Basel empfinden Hitzetage als unangenehm und 27,1% als eher unangenehm. Demgegenüber finden 10,0% Hitzetage angenehm und 23,4% eher angenehm.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Die Ergebnisse sind gewichtet nach Geschlecht, Staatsangehörigkeit und Altersgruppen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Empfinden Hitzetage Sommer",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.1.3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:25",
+		"id": 22410
+	},
+	{
+		"template": "template001",
+		"data-id": 22411,
+		"chart-id": 22411,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Erreichbare Freiraumfläche",
+		"subtitle": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
+		"lesehilfe": "Im Jahr 2024 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
+		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel» 2022. Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
+		"quellenangabe": [
+			"Städtebau & Architektur Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Erreichbare Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.2.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:27",
+		"id": 22411
+	},
+	{
+		"template": "template001",
+		"data-id": 22412,
+		"chart-id": 22412,
+		"filter": "",
+		"parentId": "6574",
+		"children": [],
+		"title": "Baumkronenbedeckung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2024 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 24,4% der gesamten Kantonsfläche und 17,2% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16,5% respektive 15,1%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. Seit 2021 finden alle drei Jahre Befliegungen statt, um die Entwicklung der Kronenbedeckung verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"quellenangabe": [
+			"Stadtgärtnerei Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/kronenbedeckung' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Baumkronenbedeckung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.2.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:29",
+		"id": 22412
+	},
+	{
+		"template": "template001",
+		"data-id": 22413,
+		"chart-id": 22413,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
+		"subtitle": "Stadt Basel, 2024",
+		"lesehilfe": "Ende 2024 lebten im Kanton Basel-Stadt 109 916 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
+		"erlaeuterungen": "Im <a href='https://www.bs.ch/schwerpunkte/klima/stadtklima#strategie-stadtklimakonzept' target='_blank'>Stadtklimakonzept Basel-Stadt</a> sind, basierend auf der Klimaanalyse für das Jahr 2030, für die Priorisierung von Massnahmen zur Reduktion der bioklimatischen Belastung sogenannte Fokusgebiete eingegrenzt worden, in denen die Betroffenheit besonders gross ist.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch' target = '_blank'>Stadtklima Basel-Stadt</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.3.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:31",
+		"id": 22413
+	},
+	{
+		"template": "template001",
+		"data-id": 22414,
+		"chart-id": 11910,
+		"filter": "",
+		"parentId": "11910",
+		"children": [],
+		"title": "Revitalisierungsrate Oberflächengewässer",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
+		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Revitalisierungsrate Oberflächengewässer",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.4.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:33",
+		"id": 22414
+	},
+	{
+		"template": "template001",
+		"data-id": 22415,
+		"chart-id": 11909,
+		"filter": "",
+		"parentId": "11909",
+		"children": [],
+		"title": "Strukturen der Fliessgewässer",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'http://www.modul-stufen-konzept.ch' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Strukturen der Fliessgewässer",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.4.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:35",
+		"id": 22415
+	},
+	{
+		"template": "template001",
+		"data-id": 22417,
+		"chart-id": 22417,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bodenversiegelung",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Bei der letzten Datenerhebung 2014 waren in der Stadt Basel gemäss Arealstatistik 1 428 ha versiegelt.",
+		"erlaeuterungen": "Fläche an versiegelten Böden (absolut und pro Einwohner). Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird nahezu verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien.<br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien gezählt:<br>- Befestigte Flächen (z. B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100 m).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Arealstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Bodenversiegelung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.5.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:36",
+		"id": 22417
+	},
+	{
+		"template": "template001",
+		"data-id": 22418,
+		"chart-id": 22418,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil der Gebäudeflächen an der Siedlungsfläche",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Ein Viertel (2024: 25,3%) der <a href='https://map.geo.bs.ch/?lang=de&baselayer_ref=blank&tree_groups=Richtplankarte&tree_group_layers_Richtplankarte=RP_Ausgangslage_Siedlung_Siedlungsgebiet&map_x=2614535&map_y=1267844&map_zoom=2&tree_group_opacity_Richtplankarte=1' target='_blank'>Siedlungsfläche</a> der Stadt Basel sind Gebäudeflächen.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Anteil der Gebäudeflächen an der Siedlungsfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.5.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:38",
+		"id": 22418
+	},
+	{
+		"template": "template001",
+		"data-id": 22418,
+		"chart-id": 22419,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil der Verkehrsflächen an der Siedlungsfläche",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Ein Viertel (2024: 24,4%) der <a href='https://map.geo.bs.ch/?lang=de&baselayer_ref=blank&tree_groups=Richtplankarte&tree_group_layers_Richtplankarte=RP_Ausgangslage_Siedlung_Siedlungsgebiet&map_x=2614535&map_y=1267844&map_zoom=2&tree_group_opacity_Richtplankarte=1' target='_blank'>Siedlungsfläche</a> der Stadt Basel sind Verkehrsflächen.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Anteil der Verkehrsflächen an der Siedlungsfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.5.3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:40",
+		"id": 22419
+	},
+	{
+		"template": "template001",
+		"data-id": 22420,
+		"chart-id": 22420,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil der Freiflächen an den Arealentwicklungsflächen",
+		"subtitle": "in m<sup>2</sup>, Stadt Basel",
+		"lesehilfe": "In den Jahren 2025-2030 sind in grösseren Arealentwicklungsgebieten in der Stadt Basel neue Freiraumflächen von insgesamt 17 900 m<sup>2</sup> geplant. Für 2045-2050 sind bisher noch keine zusätzlichen Freiraumflächen vorgesehen.",
+		"erlaeuterungen": "Stand November 2025, gemäss Städtebau & Architektur Basel-Stadt.",
+		"quellenangabe": [
+			"Städtebau & Architektur Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Anteil der Freiflächen an den Arealentwicklungsflächen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtklimakonzept",
+		"kuerzelKunde": "3.6.1.",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-12-19T11:16:41",
+		"id": 22420
+	},
+	{
 		"template": "template001",
 		"data-id": 22421,
 		"chart-id": 22421,
@@ -10529,7 +10992,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"subtitle": "Basel-Stadt, in Mio. Franken",
-		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Zuletzt betrug der Wert 4,7 Mio. Franken.",
+		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Zuletzt betrug der Wert 1,4 Mio. Franken.",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -10550,12 +11013,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_01_00_00_00_000",
+		"orderKey": "03_01_00_00_00_021",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:13",
+		"aktualisierungsdatum": "2025-12-19T11:16:12",
 		"id": 4147
 	},
 	{
@@ -53848,7 +54311,7 @@ var indikatoren = [
 		],
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck liegt der Altersquotient 2023 bei 22,3, im Wohnviertel Kleinhüningen bei 31,7 und in der Stadt Basel bei 28,3.",
+		"lesehilfe": "Im Wohnviertel Klybeck liegt der Altersquotient 2024 bei 22,4, im Wohnviertel Kleinhüningen bei 33,6 und in der Stadt Basel bei 28,3.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -53875,7 +54338,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:00",
+		"aktualisierungsdatum": "2025-12-19T11:16:05",
 		"id": 8049
 	},
 	{
@@ -53889,7 +54352,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2011 zwischen 48,1% und 50,7%. In den folgenden Jahren lag er zwischen 50,0% und 53,3%. Im Wohnviertel Kleinhüningen stieg der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1%. Danach bewegte er sich bis 2011 zwischen 42,7% und 45,3%. Seither stieg der Anteil Ausländer bis auf 51,7%. In der Stadt Basel stieg der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 39,6%.",
+		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2010 zwischen 48,1% und 50,7%. Seither ist dieser bis auf 54,4% gestiegen. Im Wohnviertel Kleinhüningen nahm der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1% zu. Danach bewegte er sich bis 2011 zwischen 42,7% und 45,3%. Seither stieg der Anteil Ausländer bis auf über 51%. In der Stadt Basel wuchs der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 39,9%.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -53915,7 +54378,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-22T10:03:36",
+		"aktualisierungsdatum": "2025-12-19T11:16:07",
 		"id": 8050
 	},
 	{
@@ -53955,7 +54418,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-22T10:03:38",
+		"aktualisierungsdatum": "2025-12-19T11:16:10",
 		"id": 8051
 	},
 	{
@@ -54129,7 +54592,7 @@ var indikatoren = [
 		],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2019 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Deren Anteil an der Bevölkerung hat in diesem Zeitraum leicht zugenommen.",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen bildeten in den Jahren 2020 bis 2024 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Deren Anteil an der Bevölkerung hat in diesem Zeitraum leicht zugenommen.",
 		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -54155,7 +54618,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-22T10:03:37",
+		"aktualisierungsdatum": "2025-12-19T11:16:09",
 		"id": 8056
 	},
 	{
@@ -54448,9 +54911,9 @@ var indikatoren = [
 			8634
 		],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2018-2022",
-		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Klybeck und im Wohnvierteil Kleinhüningen bei je 16,8 Franken.",
-		"erlaeuterungen": "Der Quadratmeter-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2019-2023",
+		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Klybeck und im Wohnvierteil Kleinhüningen bei je 16,9 Franken.",
+		"erlaeuterungen": "Der Quadratmeter-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -54475,7 +54938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:12",
+		"aktualisierungsdatum": "2025-12-19T11:16:43",
 		"id": 8064
 	},
 	{
@@ -54649,7 +55112,7 @@ var indikatoren = [
 		],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Jahr 2022 arbeiten im Wohnviertel Klybeck 2,1% und im Wohnviertel Kleinhüningen 4,9% der Beschäftigten der Stadt Basel. Insgesamt entfallen 7,0% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
+		"lesehilfe": "Im Jahr 2023 arbeiten im Wohnviertel Klybeck 2,2% und im Wohnviertel Kleinhüningen 5,4% der Beschäftigten der Stadt Basel. Insgesamt entfallen 7,6% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -54675,7 +55138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:46",
+		"aktualisierungsdatum": "2025-12-19T11:16:13",
 		"id": 8069
 	},
 	{
@@ -54689,7 +55152,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung nach ausgewählten Branchen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen 2022 die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 246 Beschäftigten, gefolgt von den Branchen Gastronomie (1 830) sowie Schiff- und Luftfahrt (1 388).",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen 2023 die Branche Gastronomie mit 2 219 Beschäftigten, gefolgt von den Branchen Sonstige wirtschaftliche Dienstleistungen (2 129) sowie Schiff- und Luftfahrt (1 459).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann, und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -54715,7 +55178,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:48",
+		"aktualisierungsdatum": "2025-12-19T11:16:15",
 		"id": 8070
 	},
 	{
@@ -54729,7 +55192,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2023 zwei Rotlichtsalons, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2023 in der Stadt Basel 130 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2024 zwei Rotlichtsalons, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2024 in der Stadt Basel 116 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -54755,7 +55218,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:52",
+		"aktualisierungsdatum": "2025-12-19T11:16:20",
 		"id": 8071
 	},
 	{
@@ -54769,8 +55232,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2018 bis 2022 bei 63,5% und im Wohnviertel Kleinhüningen bei 55,3%. Die Quote liegt in beiden Wohnvierteln unter der Quote der Stadt Basel (72,4%).",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2019 bis 2023 bei 63,6% und im Wohnviertel Kleinhüningen bei 56,2%. Die Quote liegt in beiden Wohnvierteln unter der Quote der Stadt Basel (72,9%).",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -54796,7 +55259,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:04",
+		"aktualisierungsdatum": "2025-12-19T11:16:17",
 		"id": 8072
 	},
 	{
@@ -54850,8 +55313,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2018 bis 2022 bei 64,1%, im Wohnviertel Kleinhüningen bei 55,3%. Zum Vergleich: Die Quote für die Stadt Basel betrug 74,0%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2019 bis 2023 bei 64,6%, im Wohnviertel Kleinhüningen bei 55,9%. Zum Vergleich: Die Quote für die Stadt Basel betrug 74,3%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -54877,7 +55340,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:05",
+		"aktualisierungsdatum": "2025-12-19T11:16:18",
 		"id": 8074
 	},
 	{
@@ -55010,9 +55473,9 @@ var indikatoren = [
 			8648
 		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018-2022",
-		"lesehilfe": "Die Wohnviertel Klybeck und Kleinhüningen haben verglichen mit den anderen städtischen Wohnvierteln den tiefsten Anteil von Personen mit tertiärem Bildungsabschluss. Im Mittel des Zeitraums von 2018 bis 2022 lag der Anteil im Wohnviertel Klybeck bei 24% (Konfidenzintervall: 21-27%), im Wohnviertel Kleinhüningen bei rund 19% (Konfidenzintervall: 15-23%).",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss «Tertiärstufe» an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die Frage zur höchsten abgeschlossenen Ausbildung wurde im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019-2023",
+		"lesehilfe": "Die Wohnviertel Klybeck und Kleinhüningen haben verglichen mit den anderen städtischen Wohnvierteln den tiefsten Anteil von Personen mit tertiärem Bildungsabschluss. Im Mittel des Zeitraums von 2019 bis 2023 lag der Anteil im Wohnviertel Klybeck bei 26% (Konfidenzintervall: 23-29%), im Wohnviertel Kleinhüningen bei rund 19% (Konfidenzintervall: 15-24%).",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss «Tertiärstufe» an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die Frage zur höchsten abgeschlossenen Ausbildung wurde im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -55037,7 +55500,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:18",
+		"aktualisierungsdatum": "2025-12-19T11:16:45",
 		"id": 8078
 	},
 	{

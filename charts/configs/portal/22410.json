@@ -1,0 +1,883 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "index": 6,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Total",
+          156.30263
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          20.73164
+        ],
+        [
+          "3 000-7 499 Fr.",
+          64.44139
+        ],
+        [
+          "\u003E7 499 Fr.",
+          86.81038
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          54.48166
+        ],
+        [
+          "Grossbasel West",
+          69.09451
+        ],
+        [
+          "Kleinbasel",
+          45.35033
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          79.30375
+        ],
+        [
+          "Weiblich",
+          88.19233
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          20.72943
+        ],
+        [
+          "30-39 Jahre",
+          34.06078
+        ],
+        [
+          "40-49 Jahre",
+          27.73076
+        ],
+        [
+          "50-59 Jahre",
+          28.86058
+        ],
+        [
+          "60-69 Jahre",
+          32.13802
+        ],
+        [
+          "\u003E69 Jahre",
+          25.40694
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          121.88227
+        ],
+        [
+          "Ausland",
+          47.04424
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          51.84053
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          88.9625
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          28.12348
+        ]
+      ],
+      "name": "Angenehm",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Total",
+          367.336
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          41.71743
+        ],
+        [
+          "3 000-7 499 Fr.",
+          150.78835
+        ],
+        [
+          "\u003E7 499 Fr.",
+          205.92706
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          136.15591
+        ],
+        [
+          "Grossbasel West",
+          156.26613
+        ],
+        [
+          "Kleinbasel",
+          92.0711
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          180.92534
+        ],
+        [
+          "Weiblich",
+          203.5678
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          47.72997
+        ],
+        [
+          "30-39 Jahre",
+          54.03965
+        ],
+        [
+          "40-49 Jahre",
+          81.16103
+        ],
+        [
+          "50-59 Jahre",
+          58.68337
+        ],
+        [
+          "60-69 Jahre",
+          67.77696
+        ],
+        [
+          "\u003E69 Jahre",
+          75.10217
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          274.18355
+        ],
+        [
+          "Ausland",
+          110.3096
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          101.94749
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          191.26098
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          91.28468
+        ]
+      ],
+      "name": "Eher angenehm",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Total",
+          424.08791
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          57.15992
+        ],
+        [
+          "3 000-7 499 Fr.",
+          216.95803
+        ],
+        [
+          "\u003E7 499 Fr.",
+          203.45919
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          149.40669
+        ],
+        [
+          "Grossbasel West",
+          217.47201
+        ],
+        [
+          "Kleinbasel",
+          110.66177
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          225.41231
+        ],
+        [
+          "Weiblich",
+          250.49181
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          58.74193
+        ],
+        [
+          "30-39 Jahre",
+          82.20378
+        ],
+        [
+          "40-49 Jahre",
+          84.62659
+        ],
+        [
+          "50-59 Jahre",
+          62.64423
+        ],
+        [
+          "60-69 Jahre",
+          82.55817
+        ],
+        [
+          "\u003E69 Jahre",
+          106.76578
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          343.31989
+        ],
+        [
+          "Ausland",
+          134.22059
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          155.88071
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          232.16542
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          89.49434
+        ]
+      ],
+      "name": "Eher unangenehm",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Total",
+          347.19357
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          59.41924
+        ],
+        [
+          "3 000-7 499 Fr.",
+          186.81818
+        ],
+        [
+          "\u003E7 499 Fr.",
+          146.38599
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          120.37458
+        ],
+        [
+          "Grossbasel West",
+          181.82826
+        ],
+        [
+          "Kleinbasel",
+          120.75063
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          169.16527
+        ],
+        [
+          "Weiblich",
+          246.36402
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          66.43838
+        ],
+        [
+          "30-39 Jahre",
+          65.44483
+        ],
+        [
+          "40-49 Jahre",
+          83.49505
+        ],
+        [
+          "50-59 Jahre",
+          63.7731
+        ],
+        [
+          "60-69 Jahre",
+          78.03819
+        ],
+        [
+          "\u003E69 Jahre",
+          65.76392
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          281.79451
+        ],
+        [
+          "Ausland",
+          141.15896
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          129.64783
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          204.32556
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          88.98008
+        ]
+      ],
+      "name": "Unangenehm",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Total",
+          16.85595
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          8.29616
+        ],
+        [
+          "3 000-7 499 Fr.",
+          4.12443
+        ],
+        [
+          "\u003E7 499 Fr.",
+          5.24804
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          6.23696
+        ],
+        [
+          "Grossbasel West",
+          6.22341
+        ],
+        [
+          "Kleinbasel",
+          16.70922
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          15.94933
+        ],
+        [
+          "Weiblich",
+          12.50504
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          10.10681
+        ],
+        [
+          "30-39 Jahre",
+          6.88837
+        ],
+        [
+          "40-49 Jahre",
+          4.3327
+        ],
+        [
+          "50-59 Jahre",
+          0.78107
+        ],
+        [
+          "60-69 Jahre",
+          3.13829
+        ],
+        [
+          "\u003E69 Jahre",
+          3.92234
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          17.95841
+        ],
+        [
+          "Ausland",
+          11.21118
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          9.90761
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          11.4255
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          7.83648
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Total",
+          255.19853
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "Nettohaushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          5.97062
+        ],
+        [
+          "3 000-7 499 Fr.",
+          8.50927
+        ],
+        [
+          "\u003E7 499 Fr.",
+          9.7786
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          87.18544
+        ],
+        [
+          "Grossbasel West",
+          126.39669
+        ],
+        [
+          "Kleinbasel",
+          101.48236
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          188.0248
+        ],
+        [
+          "Weiblich",
+          127.0397
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          83.68962
+        ],
+        [
+          "30-39 Jahre",
+          89.55303
+        ],
+        [
+          "40-49 Jahre",
+          65.3063
+        ],
+        [
+          "50-59 Jahre",
+          35.59642
+        ],
+        [
+          "60-69 Jahre",
+          18.36828
+        ],
+        [
+          "\u003E69 Jahre",
+          22.55085
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          119.66676
+        ],
+        [
+          "Ausland",
+          195.39773
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          68.9034
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          146.73425
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          99.42685
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          //add sum of observations of visible series to the axis label
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          var nString = 'n=';
+          if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+          //delete everything before ":", including ":"
+          this.value = this.value.replace(/[^:]*:/, "");
+
+          //check for value that contains only spaces
+          if (formattedSum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
+          //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+          return "<b>" + this.value + "</b>";
+
+        }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 713,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-22410",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Empfinden Hitzetage Sommer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie empfinden Sie die Hitzetage (Temperatur 30 °C und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true,
+    "itemWidth": 140,
+    "width": 280
+  },
+  "exporting": {
+    "filename": "22410"
+  }
+}

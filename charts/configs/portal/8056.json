@@ -6,18 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2019: Klybeck",
-          506
-        ],
-        [
-          "2019: Kleinhüningen",
-          201
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2020: Klybeck",
           462
         ],
@@ -26,7 +14,7 @@
           181
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -38,7 +26,7 @@
           183
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -50,7 +38,7 @@
           177
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,6 +48,18 @@
         [
           "2023: Kleinhüningen",
           161
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2024: Klybeck",
+          412
+        ],
+        [
+          "2024: Kleinhüningen",
+          164
         ],
         [
           "     ",
@@ -75,18 +75,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2019: Klybeck",
-          724
-        ],
-        [
-          "2019: Kleinhüningen",
-          294
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2020: Klybeck",
           687
         ],
@@ -95,7 +83,7 @@
           280
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -107,7 +95,7 @@
           272
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -119,7 +107,7 @@
           261
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -129,6 +117,18 @@
         [
           "2023: Kleinhüningen",
           269
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2024: Klybeck",
+          569
+        ],
+        [
+          "2024: Kleinhüningen",
+          252
         ],
         [
           "     ",
@@ -144,18 +144,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2019: Klybeck",
-          25
-        ],
-        [
-          "2019: Kleinhüningen",
-          12
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2020: Klybeck",
           26
         ],
@@ -164,7 +152,7 @@
           9
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -176,7 +164,7 @@
           11
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -188,7 +176,7 @@
           11
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -198,6 +186,18 @@
         [
           "2023: Kleinhüningen",
           16
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2024: Klybeck",
+          46
+        ],
+        [
+          "2024: Kleinhüningen",
+          14
         ],
         [
           "     ",
@@ -213,18 +213,6 @@
       "legendIndex": 4,
       "data": [
         [
-          "2019: Klybeck",
-          5
-        ],
-        [
-          "2019: Kleinhüningen",
-          null
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2020: Klybeck",
           8
         ],
@@ -233,7 +221,7 @@
           null
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -245,7 +233,7 @@
           null
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -257,7 +245,7 @@
           null
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -266,6 +254,18 @@
         ],
         [
           "2023: Kleinhüningen",
+          2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2024: Klybeck",
+          3
+        ],
+        [
+          "2024: Kleinhüningen",
           2
         ],
         [
@@ -282,18 +282,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "2019: Klybeck",
-          5977
-        ],
-        [
-          "2019: Kleinhüningen",
-          2291
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2020: Klybeck",
           5927
         ],
@@ -302,7 +290,7 @@
           2339
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -314,7 +302,7 @@
           2283
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -326,7 +314,7 @@
           2344
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -336,6 +324,18 @@
         [
           "2023: Kleinhüningen",
           2380
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2024: Klybeck",
+          6074
+        ],
+        [
+          "2024: Kleinhüningen",
+          2343
         ],
         [
           "     ",
@@ -489,7 +489,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"

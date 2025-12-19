@@ -1,0 +1,282 @@
+{
+  "series": [
+    {
+      "color": "#490200",
+      "data": [
+        [
+          "2022",
+          25651
+        ],
+        [
+          "2023",
+          25592
+        ],
+        [
+          "2024",
+          25734
+        ]
+      ],
+      "name": "0 bis 1,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9b0200",
+      "data": [
+        [
+          "2022",
+          31039
+        ],
+        [
+          "2023",
+          30778
+        ],
+        [
+          "2024",
+          31343
+        ]
+      ],
+      "name": "1,5 bis 2,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#f20003",
+      "data": [
+        [
+          "2022",
+          28475
+        ],
+        [
+          "2023",
+          28416
+        ],
+        [
+          "2024",
+          28436
+        ]
+      ],
+      "name": "3,0 bis 4,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fe4400",
+      "data": [
+        [
+          "2022",
+          26581
+        ],
+        [
+          "2023",
+          26441
+        ],
+        [
+          "2024",
+          26377
+        ]
+      ],
+      "name": "4,5 bis 5,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff7f00",
+      "data": [
+        [
+          "2022",
+          19709
+        ],
+        [
+          "2023",
+          19784
+        ],
+        [
+          "2024",
+          19733
+        ]
+      ],
+      "name": "6,0 bis 7,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffca01",
+      "data": [
+        [
+          "2022",
+          16695
+        ],
+        [
+          "2023",
+          17055
+        ],
+        [
+          "2024",
+          17223
+        ]
+      ],
+      "name": "7,5 bis 8,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fffd03",
+      "data": [
+        [
+          "2022",
+          32367
+        ],
+        [
+          "2023",
+          33831
+        ],
+        [
+          "2024",
+          34225
+        ]
+      ],
+      "name": "≥ 9,0 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "normal",
+        "textOverflow": "none",
+        "textAlign": "left"
+      },
+      "rotation": 0,
+      "useHTML": true
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-22411",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Erreichbare Freiraumfläche"
+  },
+  "subtitle": {
+    "text": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "useHTML": true
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+  },
+  "tooltip": {
+    "useHTML": true
+  },
+  "exporting": {
+    "filename": "22411"
+  }
+}

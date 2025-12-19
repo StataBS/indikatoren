@@ -1,0 +1,328 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "stack": "BS",
+      "index": 2,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2012",
+          15.9
+        ],
+        [
+          "2021",
+          16.99
+        ],
+        [
+          "2024",
+          16.46
+        ]
+      ],
+      "name": "Kanton Basel-Stadt ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d095db",
+      "stack": "BS",
+      "index": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2012",
+          8.6
+        ],
+        [
+          "2021",
+          8.36
+        ],
+        [
+          "2024",
+          7.98
+        ]
+      ],
+      "name": "Kanton Basel-Stadt Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "stack": "Ba",
+      "index": 4,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2012",
+          14.76
+        ],
+        [
+          "2021",
+          15.69
+        ],
+        [
+          "2024",
+          15.11
+        ]
+      ],
+      "name": "Stadt Basel ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fde5a7",
+      "stack": "Ba",
+      "index": 3,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2012",
+          2.31
+        ],
+        [
+          "2021",
+          2.27
+        ],
+        [
+          "2024",
+          2.05
+        ]
+      ],
+      "name": "Stadt Basel Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "stack": "Ri",
+      "index": 6,
+      "legendIndex": 5,
+      "visible": false,
+      "data": [
+        [
+          "2012",
+          19.2
+        ],
+        [
+          "2021",
+          20.74
+        ],
+        [
+          "2024",
+          20.34
+        ]
+      ],
+      "name": "Riehen ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c7e3cb",
+      "stack": "Ri",
+      "index": 5,
+      "legendIndex": 6,
+      "visible": false,
+      "data": [
+        [
+          "2012",
+          16.52
+        ],
+        [
+          "2021",
+          15.97
+        ],
+        [
+          "2024",
+          15.23
+        ]
+      ],
+      "name": "Riehen Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "stack": "Be",
+      "index": 8,
+      "legendIndex": 7,
+      "visible": false,
+      "data": [
+        [
+          "2012",
+          14.76
+        ],
+        [
+          "2021",
+          15.79
+        ],
+        [
+          "2024",
+          15.19
+        ]
+      ],
+      "name": "Bettingen ohne Wald",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#e1c8dd",
+      "stack": "Be",
+      "index": 7,
+      "legendIndex": 8,
+      "visible": false,
+      "data": [
+        [
+          "2012",
+          34.6
+        ],
+        [
+          "2021",
+          33.3
+        ],
+        [
+          "2024",
+          32.99
+        ]
+      ],
+      "name": "Bettingen Wald",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 50,
+    "renderTo": "container-22412"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Baumkronenbedeckung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "min": 0,
+    "max": 100
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total Kronenbedeckung: \u003Cb\u003E{point.stackTotal:,.2f}%\u003C\u002Fb\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "22412"
+  }
+}
