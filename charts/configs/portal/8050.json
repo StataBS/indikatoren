@@ -98,6 +98,10 @@
         [
           2023,
           53.1313
+        ],
+        [
+          2024,
+          54.4482
         ]
       ],
       "name": "Klybeck"
@@ -200,6 +204,10 @@
         [
           2023,
           51.6973
+        ],
+        [
+          2024,
+          51.1351
         ]
       ],
       "name": "Kleinhüningen"
@@ -302,6 +310,10 @@
         [
           2023,
           39.6034
+        ],
+        [
+          2024,
+          39.9457
         ]
       ],
       "name": "Stadt Basel"
@@ -430,7 +442,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

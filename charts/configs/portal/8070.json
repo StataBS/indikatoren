@@ -4,99 +4,9 @@
       "color": "#A8C3CA",
       "data": [
         [
-          "Sonst. wirtsch. DL",
-          2196
-        ],
-        [
-          "Schifffahrt, Luftfahrt",
-          1110
-        ],
-        [
           "Gastronomie",
-          1325
+          1032
         ],
-        [
-          "Architektur- und Ingenieurbüros",
-          569
-        ],
-        [
-          "Baunebengewerbe",
-          489
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          269
-        ],
-        [
-          "Chemie",
-          585
-        ],
-        [
-          "Öff. Verwaltung",
-          411
-        ],
-        [
-          "Lagerei",
-          461
-        ],
-        [
-          "Landverkehr",
-          613
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Sonst. wirtsch. DL",
-          2052
-        ],
-        [
-          "Schifffahrt, Luftfahrt",
-          1012
-        ],
-        [
-          "Gastronomie",
-          326
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          544
-        ],
-        [
-          "Baunebengewerbe",
-          499
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          457
-        ],
-        [
-          "Chemie",
-          509
-        ],
-        [
-          "Öff. Verwaltung",
-          493
-        ],
-        [
-          "Lagerei",
-          422
-        ],
-        [
-          "Landverkehr",
-          595
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
         [
           "Sonst. wirtsch. DL",
           2168
@@ -106,39 +16,129 @@
           1090
         ],
         [
-          "Gastronomie",
-          1032
-        ],
-        [
           "Architektur- und Ingenieurbüros",
           591
+        ],
+        [
+          "Pharmazeutische Industrie",
+          69
         ],
         [
           "Baunebengewerbe",
           536
         ],
         [
-          "Personalvermittlung, -überlassung",
-          516
-        ],
-        [
-          "Chemie",
-          497
-        ],
-        [
-          "Öff. Verwaltung",
-          454
-        ],
-        [
           "Lagerei",
           450
         ],
         [
-          "Landverkehr",
-          383
+          "Post-, Kurier-, Expressdienste",
+          57
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          516
+        ],
+        [
+          "Heime",
+          325
         ]
       ],
       "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Gastronomie",
+          1830
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2246
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1388
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          608
+        ],
+        [
+          "Pharmazeutische Industrie",
+          68
+        ],
+        [
+          "Baunebengewerbe",
+          528
+        ],
+        [
+          "Lagerei",
+          499
+        ],
+        [
+          "Post-, Kurier-, Expressdienste",
+          489
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          504
+        ],
+        [
+          "Heime",
+          385
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Gastronomie",
+          2219
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2129
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1459
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          672
+        ],
+        [
+          "Pharmazeutische Industrie",
+          554
+        ],
+        [
+          "Baunebengewerbe",
+          525
+        ],
+        [
+          "Lagerei",
+          468
+        ],
+        [
+          "Post-, Kurier-, Expressdienste",
+          466
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          464
+        ],
+        [
+          "Heime",
+          438
+        ]
+      ],
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -271,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
