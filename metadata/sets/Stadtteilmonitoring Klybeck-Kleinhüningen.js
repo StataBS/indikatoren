@@ -1571,45 +1571,43 @@ var indikatorensetData = [
 		"id": 8086
 	},
 	{
+		"template": "line001",
+		"data-id": 8087,
+		"chart-id": 8087,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8656
+		],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.11.1.07706",
-		"kuerzelKunde": "7.08",
-		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "2024 waren im Wohnviertel Klybeck im Schnitt 0,46 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 226,9 privaten Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1000 Einwohner (Motorisierungsgrad). Räumliche Zuordnung der Personenwagen anhand der Wohnadresse des Fahrzeughalters oder anhand der im Fahrzeugausweis eingetragenen Angabe zum Fahrzeugstandort, falls abweichend von der Halteradresse. Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Strassen (ASTRA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.07706",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.08",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 waren im Wohnviertel Klybeck im Schnitt 0,46 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 219,8 privaten Personenwagen pro 1 000 Einwohnern. Im Wohnviertel Kleinhüningen waren die entsprechenden Werte 0,57 und 256,3, in der Stadt Basel 0,46 und 232,2.",
-		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Jahresendbestand der Personenwagen und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
-		"template": "line001",
+		"orderKey": "07_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"8656"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8087,
-		"chart-id": 8087,
-		"filter": "",
+		"aktualisierungsdatum": "2025-12-22T03:22:28",
 		"id": 8087
 	},
 	{
