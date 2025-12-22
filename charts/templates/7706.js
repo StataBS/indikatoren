@@ -5,7 +5,7 @@
       events: {
         load: function () {
           //move legend title
-          var title = this.legend.title.translate(-203, 46);
+          var title = this.legend.title.translate(-190, 46);
         }
       }
     },
@@ -26,12 +26,13 @@
         },
         "labels": {
           useHTML: true,
-          //"format": "{value:,.2f}",
+          "format": "{value:,.1f}",
           "style": {
             "color": "#000000"
           }
         },
-        "min": 0
+        "min": 0,
+        max: 0.8
       },
       {
         gridLineColor: '#B9CFD7',
@@ -46,67 +47,90 @@
           }
         },
         "min": 0,
+        max: 240,
         "opposite": true
       }
     ],
     "xAxis": {
       "tickInterval": 1
     },
-    "legend": {
+  "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      //"align": "left",
+      align: "right",
       alignColumns: true,
-      //itemWidth: 200
       useHTML: true,
       y: -50,
-      x: -20,
+      x: 0,
       itemMarginBottom: 5,
-      align: "right",
-      width: 200,
+      width: 240,
       itemWidth: 80,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      },
       labelFormatter: function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").slice(-1); //return only last word of legend-title
+        return this.name.split(" ").pop().replace('Basel', 'Stadt Basel').replace('Kleinhüningen', 'Kleinh.'); //return only last word of legend-title
       },
       title: {
-        text: 'Personenwagen pro Haushalt:<br/>Motorisierungsgrad (rechte Skala):',
+        text: 'PW pro Haushalt:<br/>Motorisierungsgrad (rechte Skala):',
         style: {
           fontWeight: 'normal',
           lineHeight: 1.7
         }
       }
-
+    },
+    tooltip:{
+      outside:true,
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>'
     },
     "series": [
       {
+       //Klybeck
         "color": "#cd9c00",
         "index": 0,
-        //legendIndex: 0,
+        legendIndex: 0,
         "type": "column",
-       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
         },
       {
         "color": "#7f5f1a",
         "index": 2,
-        //legendIndex: 1,
+        legendIndex: 3,
         "type": "line",
         "yAxis": 1,
-       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
       },
       {
+        //Kleinhüningen
         "color": "#b375ab",
         "index": 1,
-        //legendIndex: 2,
+        legendIndex: 1,
         "type": "column",
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
       },
       {
         "color": "#923f8d",
         "index": 3,
-        //legendIndex: 3,
+        legendIndex: 4,
+        "type": "line",
+        "yAxis": 1,
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
+      },
+      {
+        "color": "#8A8A8A",
+        "index": 4,
+        legendIndex: 2,
+        "type": "column",
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
+      },
+      {
+        "color": "#777777",
+        "index": 5,
+        legendIndex: 5,
         "type": "line",
         "yAxis": 1,
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
