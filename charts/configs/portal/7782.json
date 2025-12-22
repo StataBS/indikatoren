@@ -122,6 +122,10 @@
         [
           "2024",
           138.2
+        ],
+        [
+          "2025",
+          139.2
         ]
       ],
       "name": "Index",
@@ -204,7 +208,7 @@
     "text": "Mietpreisindex Basel-Stadt"
   },
   "subtitle": {
-    "text": "Indexwert (Basis Mai 2000 = 100)",
+    "text": "indexiert (Basis Mai 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -254,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

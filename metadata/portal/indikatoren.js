@@ -18952,7 +18952,7 @@ var indikatoren = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2023 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2023 gibt es in der Stadt Basel gut 90 000 Privathaushalte; gut 9 200 liegen in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2024 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2024 gab es in der Stadt Basel knapp 93 000 Privathaushalte; knapp 9 600 lagen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18979,7 +18979,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:33",
+		"aktualisierungsdatum": "2025-12-22T02:51:02",
 		"id": 6220
 	},
 	{
@@ -32756,8 +32756,8 @@ var indikatoren = [
 			8423
 		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis Mai 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis Mai 2000 = 100).",
+		"subtitle": "indexiert (Basis Mai 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme des Jahres 1997 ist der Basler Mietpreisindex zwischen 1995 und 2025 kontinuierlich gestiegen. Im November 2025 beträgt er 139,2 Punkte (Basis Mai 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -32783,7 +32783,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-24T08:40:39",
+		"aktualisierungsdatum": "2025-12-22T02:51:03",
 		"id": 7782
 	},
 	{
@@ -37777,7 +37777,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-16T01:01:09",
+		"aktualisierungsdatum": "2025-12-22T02:50:57",
 		"id": 8995
 	},
 	{
@@ -37948,7 +37948,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-16T01:01:11",
+		"aktualisierungsdatum": "2025-12-22T02:50:59",
 		"id": 9022
 	},
 	{
@@ -37986,7 +37986,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-16T01:01:13",
+		"aktualisierungsdatum": "2025-12-22T02:51:00",
 		"id": 9023
 	},
 	{
