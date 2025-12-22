@@ -1373,8 +1373,8 @@
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 77,2%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2024 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Im Jahr 2024 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 76,3%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2024 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet und berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1399,7 +1399,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:32",
+		"aktualisierungsdatum": "2025-12-22T03:09:25",
 		"id": 11173
 	},
 	{
@@ -5411,8 +5411,8 @@
 		"children": [],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "2023 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 177,9 privaten Personenwagen pro 1 000 Einwohnern.",
-		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"lesehilfe": "2024 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 175,4 privaten Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1000 Einwohner (Motorisierungsgrad). Räumliche Zuordnung der Personenwagen anhand der Wohnadresse des Fahrzeughalters oder anhand der im Fahrzeugausweis eingetragenen Angabe zum Fahrzeugstandort, falls abweichend von der Halteradresse. Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Strassen (ASTRA)"
@@ -5438,7 +5438,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:37",
+		"aktualisierungsdatum": "2025-12-22T03:09:29",
 		"id": 12650
 	},
 	{
@@ -6432,7 +6432,7 @@
 		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Mit Ausnahme von 2018 und 2022 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt seit 2011 stetig gestiegen. Im Jahr 2024 betrug die Anzahl Pflegestunden 633 382 Stunden. Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
-		"erlaeuterungen": "- Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>- Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>- Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei der Handhabung von Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -6459,7 +6459,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:41",
+		"aktualisierungsdatum": "2025-12-22T03:09:26",
 		"id": 12735
 	},
 	{
@@ -6471,8 +6471,8 @@
 		"children": [],
 		"title": "Anteil Pflegestunden Spitex nach Pflegeleistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung ist seit 2011 gestiegen (2024: 7,8%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre knapp 31% und bei der Grundpflege 61%.",
-		"erlaeuterungen": "- Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>- Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>- Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
+		"lesehilfe": "Der Anteil der Bedarfsabklärung an der gesamten Pflegeleistung ist seit 2011 gestiegen (2024: 7,8%). Der Anteil der Leistungen der Behandlungspflege beträgt über die Jahre knapp 31% und jener der Grundpflege 61%.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei der Handhabung von Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -6499,7 +6499,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:43",
+		"aktualisierungsdatum": "2025-12-22T03:09:28",
 		"id": 12736
 	},
 	{
