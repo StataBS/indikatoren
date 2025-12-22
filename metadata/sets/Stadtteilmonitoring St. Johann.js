@@ -1499,8 +1499,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "2023 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 177,9 privaten Personenwagen pro 1 000 Einwohnern.",
-		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"lesehilfe": "2024 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 175,4 privaten Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1000 Einwohner (Motorisierungsgrad). Räumliche Zuordnung der Personenwagen anhand der Wohnadresse des Fahrzeughalters oder anhand der im Fahrzeugausweis eingetragenen Angabe zum Fahrzeugstandort, falls abweichend von der Halteradresse. Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Strassen (ASTRA)"
@@ -1525,7 +1525,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:37",
+		"aktualisierungsdatum": "2025-12-22T03:09:29",
 		"id": 12650
 	},
 	{

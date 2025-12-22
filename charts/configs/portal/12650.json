@@ -17,6 +17,10 @@
         [
           2023,
           0.33218
+        ],
+        [
+          2024,
+          0.32726
         ]
       ],
       "name": "PW pro Haushalt Pestalozzi"
@@ -38,6 +42,10 @@
         [
           2023,
           177.86
+        ],
+        [
+          2024,
+          175.415
         ]
       ],
       "name": "Motorisierungsgrad Pestalozzi"
@@ -59,6 +67,10 @@
         [
           2023,
           0.41079
+        ],
+        [
+          2024,
+          0.40577
         ]
       ],
       "name": "PW pro Haushalt Kannenfeld"
@@ -80,6 +92,10 @@
         [
           2023,
           204.229
+        ],
+        [
+          2024,
+          204.039
         ]
       ],
       "name": "Motorisierungsgrad Kannenfeld"
@@ -101,6 +117,10 @@
         [
           2023,
           0.35599
+        ],
+        [
+          2024,
+          0.35546
         ]
       ],
       "name": "PW pro Haushalt Landskron"
@@ -122,6 +142,10 @@
         [
           2023,
           178.571
+        ],
+        [
+          2024,
+          179.127
         ]
       ],
       "name": "Motorisierungsgrad Landskron"
@@ -143,6 +167,10 @@
         [
           2023,
           0.36798
+        ],
+        [
+          2024,
+          0.38021
         ]
       ],
       "name": "PW pro Haushalt Lysbüchel"
@@ -164,6 +192,10 @@
         [
           2023,
           164.543
+        ],
+        [
+          2024,
+          169.77
         ]
       ],
       "name": "Motorisierungsgrad Lysbüchel"
@@ -185,6 +217,10 @@
         [
           2023,
           0.57434
+        ],
+        [
+          2024,
+          0.56583
         ]
       ],
       "name": "PW pro Haushalt Friedmatt"
@@ -206,6 +242,10 @@
         [
           2023,
           225.04
+        ],
+        [
+          2024,
+          223.12
         ]
       ],
       "name": "Motorisierungsgrad Friedmatt"
@@ -227,9 +267,13 @@
         [
           2023,
           0.44616
+        ],
+        [
+          2024,
+          0.44214
         ]
       ],
-      "name": "PW pro Haushalt Stadt Basel"
+      "name": "PW pro Haushalt Basel"
     },
     {
       "color": "#8A8A8A",
@@ -248,9 +292,13 @@
         [
           2023,
           224.19
+        ],
+        [
+          2024,
+          223.174
         ]
       ],
-      "name": "Motorisierungsgrad Stadt Basel"
+      "name": "Motorisierungsgrad Basel"
     }
   ],
   "chart": {
@@ -393,7 +441,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
