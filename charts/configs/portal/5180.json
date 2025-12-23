@@ -78,6 +78,10 @@
         [
           2023,
           85
+        ],
+        [
+          2024,
+          84.8
         ]
       ],
       "name": "Frauen"
@@ -160,6 +164,10 @@
         [
           2023,
           80.4
+        ],
+        [
+          2024,
+          80.9
         ]
       ],
       "name": "Männer"
@@ -290,7 +298,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
