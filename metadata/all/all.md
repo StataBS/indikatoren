@@ -643,7 +643,7 @@ id | visible | visibleInPortal | indikatorenset
 6390 | true | false | Gefragte Karten
 6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
-6394 | true | false | Gefragte Karten
+6394 | false |  | Gefragte Karten
 6395 | false |  | Gefragte Karten
 6396 | false |  | Gefragte Karten
 6398 | true | true | Integration
