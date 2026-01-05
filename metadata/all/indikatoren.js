@@ -860,7 +860,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -874,7 +874,7 @@ var indikatoren = [
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kuerzel": "I.02.6.10052",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kennzahlenset": "CMS Kennzahlen",
 		"kuerzelKunde": "1.4.6",
 		"stufe1": "Leben",
 		"stufe2": "1.4 Erhalt der Lebensgrundlagen",
@@ -886,7 +886,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-12T12:04:49",
+		"aktualisierungsdatum": "2026-01-05T10:20:48",
 		"id": 10052
 	},
 	{
@@ -8493,6 +8493,7 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2024 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
 		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel» 2022. Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Städtebau & Architektur Basel-Stadt"
 		],
 		"externalLinks": [],
@@ -8516,7 +8517,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:27",
+		"aktualisierungsdatum": "2026-01-05T10:20:50",
 		"id": 22411
 	},
 	{
@@ -17688,7 +17689,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Landwirtschaft: Nutzfläche und Betriebe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 bewirtschafteten 13 Betriebe 414,7 ha landwirtschaftliche Nutzfläche.",
+		"lesehilfe": "Im Jahr 2024 bewirtschafteten 13 Betriebe 422,9 ha landwirtschaftliche Nutzfläche.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch in anderen Kantonen oder im Ausland liegen. Die Daten vor 1996 entstammen der Eidgenössischen Betriebszählung (1975, 1985) bzw. der Eidgenössischen Landwirtschafts- und Gartenbauzählung (1980, 1990) und wurden an die seit 1996 geltende Definition des landwirtschaftlichen Betriebes angepasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
@@ -17714,7 +17715,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-07T09:34:18",
+		"aktualisierungsdatum": "2026-01-05T10:20:43",
 		"id": 4914
 	},
 	{
@@ -19935,7 +19936,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2023 von 194 auf 149 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39,5%.",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -19961,7 +19962,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-11T07:18:47",
+		"aktualisierungsdatum": "2026-01-05T10:20:55",
 		"id": 5796
 	},
 	{
@@ -23638,7 +23639,7 @@ var indikatoren = [
 		],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2023 von 194 auf 149 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39,5%.",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -23664,7 +23665,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-11T12:59:44",
+		"aktualisierungsdatum": "2026-01-05T10:20:52",
 		"id": 6163
 	},
 	{
@@ -50875,9 +50876,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Franken pro m<sup>2</sup>, 2018-2022",
-		"lesehilfe": "Die durchschnittliche Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei 18,6 Franken. Das 95%-Konfidenzintervall reicht von 18,0 bis 19,2 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "in Franken pro m<sup>2</sup>, 2019-2023",
+		"lesehilfe": "Die durchschnittliche Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei 19,0 Franken. Das 95%-Konfidenzintervall reicht von 18,5 bis 19,4 Franken.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Im Jahr 2018 gab es Änderungen in der Erhebungsmethode und der Gewichtung.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -50888,7 +50889,7 @@ var indikatoren = [
 		],
 		"description": "Nettomietpreise nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
+		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.07901",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
@@ -50902,7 +50903,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-01T08:57:33",
+		"aktualisierungsdatum": "2026-01-05T10:20:45",
 		"id": 7901
 	},
 	{
@@ -72664,7 +72665,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-22T02:50:57",
+		"aktualisierungsdatum": "2026-01-05T10:20:47",
 		"id": 8995
 	},
 	{
@@ -83688,7 +83689,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lebenserwartung",
 		"subtitle": "bei Geburt in Jahren, Basel-Stadt",
-		"lesehilfe": "Eine im Jahr 2023 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 83,1 Jahren (95%-Konfidenzintervall: 82,6 - 83,7).<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
+		"lesehilfe": "Eine im Jahr 2024 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,6 Jahren (95%-Konfidenzintervall: 82,1 - 83,2).<h2>Zielwert:</h2>Mindestens stabile Lebenserwartung BS und mindestens stabiles Verhältnis zur Lebenserwartung CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS steigt/bleibt gleich und Wert BS entwickelt sich schlechter als in der CH<br>bzw. Wert BS fällt und Wert BS entwickelt sich besser/gleich als in der CH</p><p>Wert BS fällt und Wert BS entwickelt sich schlechter als in der CH</p></div>",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Das Konfidenzintervall (Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Schweizerisches Gesundheitsobervatorium (Obsan)"
@@ -83714,7 +83715,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-09T09:33:15",
+		"aktualisierungsdatum": "2026-01-05T10:20:53",
 		"id": 9679
 	},
 	{

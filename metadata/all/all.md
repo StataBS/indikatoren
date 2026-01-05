@@ -2322,7 +2322,7 @@ id | visible | visibleInPortal | indikatorenset
 10049 | true | false | CMS Kennzahlen
 10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
-10052 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen
 10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
