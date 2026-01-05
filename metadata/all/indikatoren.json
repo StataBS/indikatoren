@@ -28148,47 +28148,6 @@
 		"id": 6373
 	},
 	{
-		"template": "map002",
-		"data-id": 6374,
-		"chart-id": 6374,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6386
-		],
-		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2021 wird mit rund 109 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 23 400 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Reinvermögen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06374",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "C18-2",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_012",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-30T12:46:12",
-		"id": 6374
-	},
-	{
 		"template": "mappie001",
 		"data-id": 6375,
 		"chart-id": 6375,
@@ -28475,49 +28434,6 @@
 	},
 	{
 		"template": "map002",
-		"data-id": 6382,
-		"chart-id": 6382,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6394,
-			8294,
-			8565
-		],
-		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2021 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 73 600 Franken. Mit ca. 37 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Reineinkommen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06382",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "C18-1",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_011",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-30T12:46:11",
-		"id": 6382
-	},
-	{
-		"template": "map002",
 		"data-id": 6385,
 		"chart-id": 6385,
 		"filter": "",
@@ -28555,45 +28471,6 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-05-09T08:26:59",
 		"id": 6385
-	},
-	{
-		"template": "map002",
-		"data-id": 6386,
-		"chart-id": 6386,
-		"filter": "",
-		"parentId": "6374",
-		"children": [],
-		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 21 600 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Reinvermögen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06386",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "K18-2",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_012",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": false,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:06",
-		"id": 6386
 	},
 	{
 		"template": "mappie001",
