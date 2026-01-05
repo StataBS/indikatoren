@@ -114,6 +114,10 @@
         [
           2023,
           83.1
+        ],
+        [
+          2024,
+          82.6
         ]
       ],
       "name": "Basel-Stadt"
@@ -261,6 +265,11 @@
           "x": 2023,
           "low": 82.6,
           "high": 83.7
+        },
+        {
+          "x": 2024,
+          "low": 82.1,
+          "high": 83.2
         }
       ],
       "name": "Konfidenz von"
@@ -378,6 +387,10 @@
         [
           2023,
           84
+        ],
+        [
+          2024,
+          84.1
         ]
       ],
       "name": "Schweiz"
@@ -525,6 +538,11 @@
           "x": 2023,
           "low": 83.9,
           "high": 84.1
+        },
+        {
+          "x": 2024,
+          "low": 84.1,
+          "high": 84.2
         }
       ],
       "name": "Konfidenz von"
@@ -636,6 +654,10 @@
         [
           2023,
           0
+        ],
+        [
+          2024,
+          2
         ]
       ],
       "name": "Bewertung"
@@ -784,7 +806,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 9.1.2025"
+    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 5.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
