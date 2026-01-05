@@ -624,7 +624,7 @@ id | visible | visibleInPortal | indikatorenset
 6371 | false |  | Legislaturplan-2017-2021 (Print)
 6372 | true | false | Legislaturplan-2017-2021 (Print)
 6373 | true | false | Gefragte Karten
-6374 | true | true | Gefragte Karten
+6374 | false |  | Gefragte Karten
 6375 | true | true | Gefragte Karten
 6376 | true | true | Gefragte Karten
 6377 | true | true | Gefragte Karten
@@ -632,11 +632,11 @@ id | visible | visibleInPortal | indikatorenset
 6379 | true | true | Gefragte Karten
 6380 | true | true | Gefragte Karten
 6381 | true | true | Gefragte Karten
-6382 | true | true | Gefragte Karten
+6382 | false |  | Gefragte Karten
 6383 | false |  | Gefragte Karten
 6384 | false |  | Gefragte Karten
 6385 | true | true | Gefragte Karten
-6386 | true | false | Gefragte Karten
+6386 | false |  | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | false | Gefragte Karten
 6389 | true | false | Gefragte Karten
