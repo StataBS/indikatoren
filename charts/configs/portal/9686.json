@@ -307,7 +307,7 @@
     "text": "Mietpreise und Reineinkommen"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
+    "text": "Basel-Stadt, indexiert (Basis 2015 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -375,7 +375,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 6.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
