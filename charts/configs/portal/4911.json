@@ -102,6 +102,10 @@
         [
           2024,
           0.9
+        ],
+        [
+          2025,
+          0.2
         ]
       ],
       "name": "Basler Index"
@@ -208,6 +212,10 @@
         [
           2024,
           1.1
+        ],
+        [
+          2025,
+          0.2
         ]
       ],
       "name": "Landesindex"
@@ -345,7 +353,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 7.1.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
