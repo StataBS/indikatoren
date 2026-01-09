@@ -165,7 +165,7 @@
         ],
         [
           "Dez",
-          null
+          609
         ]
       ],
       "name": "Meldepflichtig 2025",
@@ -222,7 +222,7 @@
         ],
         [
           "Dez",
-          null
+          465
         ]
       ],
       "name": "Nicht meldepflichtig 2025",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.12.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 9.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

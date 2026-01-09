@@ -1901,7 +1901,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,0% im Jahr 2023 auf 3,7% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat im Jahr 2025 auf 4,3% zugenommen und ist damit so hoch wie seit 2004 nicht mehr. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2025 auf 4,5% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,6% im Jahr 2025 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1913,7 +1913,7 @@ var indikatorensetData = [
 		],
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"unterthema": "Arbeitslose",
 		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE12",
@@ -1926,7 +1926,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-02T10:25:46",
+		"aktualisierungsdatum": "2026-01-09T07:59:26",
 		"id": 6053
 	},
 	{
