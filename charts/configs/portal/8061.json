@@ -4,18 +4,6 @@
       "color": "#ffbb58",
       "data": [
         [
-          "2014: Klybeck",
-          2915
-        ],
-        [
-          "2014: Kleinhüningen",
-          935
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Klybeck",
           2878
         ],
@@ -24,7 +12,7 @@
           937
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -36,7 +24,7 @@
           937
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -48,7 +36,7 @@
           935
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,7 +48,7 @@
           900
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -72,7 +60,7 @@
           897
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -84,7 +72,7 @@
           900
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -96,7 +84,7 @@
           916
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -108,7 +96,7 @@
           910
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -118,6 +106,18 @@
         [
           "2023: Kleinhüningen",
           936
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          2932
+        ],
+        [
+          "2024: Kleinhüningen",
+          941
         ]
       ],
       "name": "Mietwohnungen",
@@ -127,18 +127,6 @@
       "color": "#008AC3",
       "data": [
         [
-          "2014: Klybeck",
-          491
-        ],
-        [
-          "2014: Kleinhüningen",
-          307
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Klybeck",
           486
         ],
@@ -147,7 +135,7 @@
           304
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -159,7 +147,7 @@
           303
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -171,7 +159,7 @@
           300
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -183,7 +171,7 @@
           303
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -195,7 +183,7 @@
           294
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -207,7 +195,7 @@
           281
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -219,7 +207,7 @@
           279
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -231,7 +219,7 @@
           284
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -241,6 +229,18 @@
         [
           "2023: Kleinhüningen",
           289
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          472
+        ],
+        [
+          "2024: Kleinhüningen",
+          292
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -250,18 +250,6 @@
       "color": "#73B97C",
       "data": [
         [
-          "2014: Klybeck",
-          80
-        ],
-        [
-          "2014: Kleinhüningen",
-          39
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Klybeck",
           80
         ],
@@ -270,7 +258,7 @@
           40
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -282,7 +270,7 @@
           39
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -294,7 +282,7 @@
           36
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -306,7 +294,7 @@
           36
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -318,7 +306,7 @@
           37
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -330,7 +318,7 @@
           37
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -342,7 +330,7 @@
           37
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -354,7 +342,7 @@
           40
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -364,6 +352,18 @@
         [
           "2023: Kleinhüningen",
           40
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          81
+        ],
+        [
+          "2024: Kleinhüningen",
+          41
         ]
       ],
       "name": "Selbstbewohnte Eigentümerwohnungen",
@@ -373,18 +373,6 @@
       "color": "#662673",
       "data": [
         [
-          "2014: Klybeck",
-          17
-        ],
-        [
-          "2014: Kleinhüningen",
-          8
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2015: Klybeck",
           17
         ],
@@ -393,7 +381,7 @@
           7
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -405,7 +393,7 @@
           6
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -417,7 +405,7 @@
           6
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -429,7 +417,7 @@
           31
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -441,7 +429,7 @@
           30
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -453,7 +441,7 @@
           26
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -465,7 +453,7 @@
           23
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -477,7 +465,7 @@
           35
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -487,6 +475,18 @@
         [
           "2023: Kleinhüningen",
           38
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          30
+        ],
+        [
+          "2024: Kleinhüningen",
+          37
         ]
       ],
       "name": "Sonstige Wohnungen",
@@ -644,7 +644,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
