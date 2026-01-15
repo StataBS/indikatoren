@@ -33578,7 +33578,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:41",
+		"aktualisierungsdatum": "2026-01-15T09:47:10",
 		"id": 8048
 	},
 	{
@@ -33739,7 +33739,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:42",
+		"aktualisierungsdatum": "2026-01-15T09:47:13",
 		"id": 8052
 	},
 	{
@@ -33779,7 +33779,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:53",
+		"aktualisierungsdatum": "2026-01-15T09:47:26",
 		"id": 8053
 	},
 	{
@@ -33819,7 +33819,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:43",
+		"aktualisierungsdatum": "2026-01-15T09:47:15",
 		"id": 8054
 	},
 	{
@@ -33859,7 +33859,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:45",
+		"aktualisierungsdatum": "2026-01-15T09:47:19",
 		"id": 8055
 	},
 	{
@@ -34059,7 +34059,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:55",
+		"aktualisierungsdatum": "2026-01-15T09:47:31",
 		"id": 8060
 	},
 	{
@@ -34099,7 +34099,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:56",
+		"aktualisierungsdatum": "2026-01-15T09:47:33",
 		"id": 8061
 	},
 	{
@@ -34139,7 +34139,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:54",
+		"aktualisierungsdatum": "2026-01-15T09:47:29",
 		"id": 8062
 	},
 	{
@@ -34233,7 +34233,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Einfamilienhausanteil liegt deutlich unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering.",
+		"lesehilfe": "Der Einfamilienhausanteil liegt deutlich unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering, 2024 lag er dort bei 6,8%.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Werte von 2011 und 2012 beruhen auf der jährlichen Fortschreibung der Volkszählung 2000. Ab 2013 stammen die Daten aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -34259,7 +34259,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:58",
+		"aktualisierungsdatum": "2026-01-15T09:47:35",
 		"id": 8065
 	},
 	{
@@ -34299,7 +34299,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:59",
+		"aktualisierungsdatum": "2026-01-15T09:47:37",
 		"id": 8066
 	},
 	{
@@ -34313,7 +34313,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 in beiden Wohnvierteln zusammen bei 16 Wohnungen welche alle durch Umbau zustande kamen. 2005, 2011 und 2020 wurden massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -34339,7 +34339,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-02T08:35:14",
+		"aktualisierungsdatum": "2026-01-15T09:47:39",
 		"id": 8067
 	},
 	{
@@ -34353,7 +34353,7 @@ var indikatoren = [
 		],
 		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen deutlich höher als im Wohnviertel Klybeck.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen (2024: 22,3%) deutlich höher als im Wohnviertel Klybeck (13,5%).",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -34379,7 +34379,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:00",
+		"aktualisierungsdatum": "2026-01-15T09:47:41",
 		"id": 8068
 	},
 	{
@@ -34499,7 +34499,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:20",
+		"aktualisierungsdatum": "2026-01-15T09:47:24",
 		"id": 8071
 	},
 	{
@@ -34580,7 +34580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:47",
+		"aktualisierungsdatum": "2026-01-15T09:47:22",
 		"id": 8073
 	},
 	{
@@ -34661,7 +34661,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:03",
+		"aktualisierungsdatum": "2026-01-15T09:47:48",
 		"id": 8075
 	},
 	{
@@ -34675,7 +34675,7 @@ var indikatoren = [
 		],
 		"title": "Sek P-Quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Sek P-Quote des Wohnviertels Klybeck hat sich in den vergangenen zehn Jahren auf tiefem Niveau tendenziell rückläufig entwickelt. In Kleinhüningen hat sie sich seit 2020 auf gut 19% bis 22% eingependelt. Für die Stadt Basel beträgt der Wert 2024 36,7%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"lesehilfe": "Die Sek P-Quoten der Wohnviertel Klybeck und Kleinhüningen bewegt sich bereits seit Jahren auf tiefem Niveau. Für die Stadt Basel beträgt der Wert 2025 37,4%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -34701,7 +34701,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:02",
+		"aktualisierungsdatum": "2026-01-15T09:47:46",
 		"id": 8076
 	},
 	{
@@ -34741,7 +34741,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:01",
+		"aktualisierungsdatum": "2026-01-15T09:47:44",
 		"id": 8077
 	},
 	{
@@ -35275,7 +35275,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:44",
+		"aktualisierungsdatum": "2026-01-15T09:47:17",
 		"id": 8094
 	},
 	{

@@ -4,10 +4,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2014,
-          18.029739777
-        ],
-        [
           2015,
           15.873015873
         ],
@@ -42,6 +38,10 @@
         [
           2023,
           19.449901768
+        ],
+        [
+          2024,
+          19.560878244
         ]
       ],
       "name": "Klybeck"
@@ -49,10 +49,6 @@
     {
       "color": "#b375ab",
       "data": [
-        [
-          2014,
-          22.666666667
-        ],
         [
           2015,
           22.457627119
@@ -88,6 +84,10 @@
         [
           2023,
           19.796954315
+        ],
+        [
+          2024,
+          20.792079208
         ]
       ],
       "name": "Kleinhüningen"
@@ -95,10 +95,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2014,
-          45.68055991
-        ],
         [
           2015,
           45.59120258
@@ -134,6 +130,10 @@
         [
           2023,
           46.61896868
+        ],
+        [
+          2024,
+          46.952209968
         ]
       ],
       "name": "Stadt Basel"
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

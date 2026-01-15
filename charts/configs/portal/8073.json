@@ -36,6 +36,10 @@
         [
           "2022",
           328028
+        ],
+        [
+          "2023",
+          361930
         ]
       ],
       "name": "Wohnen Klybeck",
@@ -77,6 +81,10 @@
         [
           "2022",
           130231
+        ],
+        [
+          "2023",
+          132316
         ]
       ],
       "name": "Wohnen Kleinhüningen",
@@ -119,6 +127,10 @@
         [
           "2022",
           10194081
+        ],
+        [
+          "2023",
+          10543736
         ]
       ],
       "name": "Wohnen Basel",
@@ -160,6 +172,10 @@
         [
           "2022",
           634887
+        ],
+        [
+          "2023",
+          711664
         ]
       ],
       "name": "Arbeiten Klybeck",
@@ -201,6 +217,10 @@
         [
           "2022",
           447367
+        ],
+        [
+          "2023",
+          459451
         ]
       ],
       "name": "Arbeiten Kleinhüningen",
@@ -243,6 +263,10 @@
         [
           "2022",
           8862981
+        ],
+        [
+          "2023",
+          9554235
         ]
       ],
       "name": "Arbeiten Basel",
@@ -370,7 +394,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

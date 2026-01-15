@@ -5,84 +5,6 @@
       "data": [
         [
           2005,
-          3
-        ],
-        [
-          2006,
-          3
-        ],
-        [
-          2007,
-          1
-        ],
-        [
-          2009,
-          null
-        ],
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          3
-        ],
-        [
-          2019,
-          null
-        ],
-        [
-          2020,
-          null
-        ],
-        [
-          2021,
-          null
-        ],
-        [
-          2022,
-          null
-        ],
-        [
-          2023,
-          null
-        ],
-        [
-          2024,
-          null
-        ]
-      ],
-      "name": "Kleinhüningen"
-    },
-    {
-      "color": "#b375ab",
-      "data": [
-        [
-          2005,
           null
         ],
         [
@@ -155,6 +77,84 @@
         ]
       ],
       "name": "Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          3
+        ],
+        [
+          2006,
+          3
+        ],
+        [
+          2007,
+          1
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          3
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ]
+      ],
+      "name": "Kleinhüningen"
     }
   ],
   "chart": {
@@ -288,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "exporting": {
     "filename": "8071"
