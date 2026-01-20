@@ -5153,9 +5153,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Erreichbare Freiraumfläche",
+		"title": "Erreichbare öffentliche Freiraumfläche",
 		"subtitle": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
-		"lesehilfe": "Im Jahr 2024 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
+		"lesehilfe": "Im Jahr 2022 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
 		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel» 2022. Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -5166,7 +5166,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Erreichbare Freiraumfläche",
+		"description": "Erreichbare öffentliche Freiraumfläche",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kuerzel": "",
@@ -5182,7 +5182,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:45:04",
+		"aktualisierungsdatum": "2026-01-20T11:25:25",
 		"id": 22411
 	},
 	{
@@ -7068,7 +7068,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -7094,7 +7094,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:23",
+		"aktualisierungsdatum": "2026-01-20T11:25:14",
 		"id": 4135
 	},
 	{
@@ -7108,7 +7108,7 @@ var indikatoren = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021 und 2024 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 bis 2025 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021, 2024 und 2025 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbausaldo beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -7134,7 +7134,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:24",
+		"aktualisierungsdatum": "2026-01-20T11:25:16",
 		"id": 4136
 	},
 	{
@@ -33578,7 +33578,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:10",
+		"aktualisierungsdatum": "2026-01-20T11:25:17",
 		"id": 8048
 	},
 	{
@@ -33739,7 +33739,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:13",
+		"aktualisierungsdatum": "2026-01-20T11:25:19",
 		"id": 8052
 	},
 	{
@@ -33819,7 +33819,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:15",
+		"aktualisierungsdatum": "2026-01-20T11:25:21",
 		"id": 8054
 	},
 	{
@@ -33993,7 +33993,7 @@ var indikatoren = [
 		],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2021 ergab sich für Klybeck rechnerisch ein Verlust von rund 204 000 Franken (bei 130 Weg- und 117 Zuzügern), in Kleinhüningen ein Verlust von ca. 143 000 Franken (bei 63 Weg- und 38 Zuzügern).",
+		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2022 ergab sich für Klybeck rechnerisch ein Verlust von rund 108 000 Franken (bei 161 Weg- und 166 Zuzügern), in Kleinhüningen ein Verlust von ca. 170 000 Franken (bei 59 Weg- und 46 Zuzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -34019,7 +34019,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:51",
+		"aktualisierungsdatum": "2026-01-20T11:25:24",
 		"id": 8059
 	},
 	{
@@ -35275,7 +35275,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:17",
+		"aktualisierungsdatum": "2026-01-20T11:25:22",
 		"id": 8094
 	},
 	{
@@ -37690,7 +37690,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:53",
+		"aktualisierungsdatum": "2026-01-20T11:25:08",
 		"id": 8995
 	},
 	{
@@ -37861,7 +37861,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:55",
+		"aktualisierungsdatum": "2026-01-20T11:25:09",
 		"id": 9022
 	},
 	{
@@ -37899,7 +37899,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:57",
+		"aktualisierungsdatum": "2026-01-20T11:25:11",
 		"id": 9023
 	},
 	{

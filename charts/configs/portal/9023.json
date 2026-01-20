@@ -4995,39 +4995,39 @@
         ],
         [
           43,
-          -26
+          -25
         ],
         [
           44,
-          -27
-        ],
-        [
-          45,
-          -28
-        ],
-        [
-          46,
-          -30
-        ],
-        [
-          47,
-          -29
-        ],
-        [
-          48,
-          -29
-        ],
-        [
-          49,
           -26
         ],
         [
-          50,
+          45,
+          -27
+        ],
+        [
+          46,
+          -29
+        ],
+        [
+          47,
           -28
         ],
         [
+          48,
+          -28
+        ],
+        [
+          49,
+          -25
+        ],
+        [
+          50,
+          -27
+        ],
+        [
           51,
-          null
+          -31
         ],
         [
           52,
@@ -5215,7 +5215,7 @@
         ],
         [
           43,
-          0
+          1
         ],
         [
           44,
@@ -5247,7 +5247,7 @@
         ],
         [
           51,
-          null
+          -4
         ],
         [
           52,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.1.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

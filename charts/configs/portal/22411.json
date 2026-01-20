@@ -6,14 +6,6 @@
         [
           "2022",
           25651
-        ],
-        [
-          "2023",
-          25592
-        ],
-        [
-          "2024",
-          25734
         ]
       ],
       "name": "0 bis 1,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -25,14 +17,6 @@
         [
           "2022",
           31039
-        ],
-        [
-          "2023",
-          30778
-        ],
-        [
-          "2024",
-          31343
         ]
       ],
       "name": "1,5 bis 2,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -44,14 +28,6 @@
         [
           "2022",
           28475
-        ],
-        [
-          "2023",
-          28416
-        ],
-        [
-          "2024",
-          28436
         ]
       ],
       "name": "3,0 bis 4,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -63,14 +39,6 @@
         [
           "2022",
           26581
-        ],
-        [
-          "2023",
-          26441
-        ],
-        [
-          "2024",
-          26377
         ]
       ],
       "name": "4,5 bis 5,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -82,14 +50,6 @@
         [
           "2022",
           19709
-        ],
-        [
-          "2023",
-          19784
-        ],
-        [
-          "2024",
-          19733
         ]
       ],
       "name": "6,0 bis 7,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -101,14 +61,6 @@
         [
           "2022",
           16695
-        ],
-        [
-          "2023",
-          17055
-        ],
-        [
-          "2024",
-          17223
         ]
       ],
       "name": "7,5 bis 8,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
@@ -120,17 +72,9 @@
         [
           "2022",
           32367
-        ],
-        [
-          "2023",
-          33831
-        ],
-        [
-          "2024",
-          34225
         ]
       ],
-      "name": "\u003E= 9,0 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "name": "≥ 9,0 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     }
   ],
@@ -192,7 +136,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-22411",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -212,7 +156,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Erreichbare Freiraumfläche"
+    "text": "Erreichbare öffentliche Freiraumfläche"
   },
   "subtitle": {
     "text": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
@@ -269,9 +213,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStädtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.1.2026"
   },
   "tooltip": {
     "useHTML": true
