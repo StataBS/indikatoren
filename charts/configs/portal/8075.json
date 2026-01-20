@@ -10,45 +10,6 @@
       "data": [
         [
           2017,
-          318
-        ],
-        [
-          2018,
-          303
-        ],
-        [
-          2019,
-          263
-        ],
-        [
-          2020,
-          262
-        ],
-        [
-          2021,
-          293
-        ],
-        [
-          2022,
-          289
-        ],
-        [
-          2023,
-          278
-        ]
-      ],
-      "name": "Bezüger Kleinhüningen"
-    },
-    {
-      "color": "#b375ab",
-      "index": 1,
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          2017,
           920
         ],
         [
@@ -74,52 +35,60 @@
         [
           2023,
           685
+        ],
+        [
+          2024,
+          646
         ]
       ],
       "name": "Bezüger Klybeck"
     },
     {
-      "color": "#7f5f1a",
-      "index": 2,
-      "yAxis": 1,
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
           2017,
-          11.2
+          318
         ],
         [
           2018,
-          10.6
+          303
         ],
         [
           2019,
-          9.4
+          263
         ],
         [
           2020,
-          9.3
+          262
         ],
         [
           2021,
-          10.7
+          293
         ],
         [
           2022,
-          10.3
+          289
         ],
         [
           2023,
-          9.8
+          278
+        ],
+        [
+          2024,
+          256
         ]
       ],
-      "name": "Sozialhilfequote Kleinhüningen"
+      "name": "Bezüger Kleinhüningen"
     },
     {
-      "color": "#923f8d",
-      "index": 3,
+      "color": "#7f5f1a",
+      "index": 2,
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -152,9 +121,56 @@
         [
           2023,
           9.8
+        ],
+        [
+          2024,
+          9.1
         ]
       ],
       "name": "Sozialhilfequote Klybeck"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2017,
+          11.2
+        ],
+        [
+          2018,
+          10.6
+        ],
+        [
+          2019,
+          9.4
+        ],
+        [
+          2020,
+          9.3
+        ],
+        [
+          2021,
+          10.7
+        ],
+        [
+          2022,
+          10.3
+        ],
+        [
+          2023,
+          9.8
+        ],
+        [
+          2024,
+          9.2
+        ]
+      ],
+      "name": "Sozialhilfequote Kleinhüningen"
     },
     {
       "color": "#999999",
@@ -191,6 +207,10 @@
         [
           2023,
           5.1
+        ],
+        [
+          2024,
+          5
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -342,7 +362,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -1553,7 +1553,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1578,7 +1578,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:31",
+		"aktualisierungsdatum": "2026-01-20T11:25:27",
 		"id": 9384
 	},
 	{

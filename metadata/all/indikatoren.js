@@ -8488,9 +8488,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Erreichbare Freiraumfläche",
+		"title": "Erreichbare öffentliche Freiraumfläche",
 		"subtitle": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
-		"lesehilfe": "Im Jahr 2024 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
+		"lesehilfe": "Im Jahr 2022 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
 		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel» 2022. Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -8501,7 +8501,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Erreichbare Freiraumfläche",
+		"description": "Erreichbare öffentliche Freiraumfläche",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kuerzel": "",
@@ -8517,7 +8517,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:45:04",
+		"aktualisierungsdatum": "2026-01-20T11:25:25",
 		"id": 22411
 	},
 	{
@@ -10522,7 +10522,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -10548,7 +10548,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:23",
+		"aktualisierungsdatum": "2026-01-20T11:25:14",
 		"id": 4135
 	},
 	{
@@ -10562,7 +10562,7 @@ var indikatoren = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021 und 2024 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 bis 2025 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021, 2024 und 2025 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbausaldo beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -10588,7 +10588,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:24",
+		"aktualisierungsdatum": "2026-01-20T11:25:16",
 		"id": 4136
 	},
 	{
@@ -20267,7 +20267,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -20293,7 +20293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:34:18",
+		"aktualisierungsdatum": "2026-01-20T11:25:29",
 		"id": 5816
 	},
 	{
@@ -47167,7 +47167,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -47193,7 +47193,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:16",
+		"aktualisierungsdatum": "2026-01-20T11:25:13",
 		"id": 7595
 	},
 	{
@@ -54134,7 +54134,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:41",
+		"aktualisierungsdatum": "2026-01-20T11:25:17",
 		"id": 8048
 	},
 	{
@@ -54295,7 +54295,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:42",
+		"aktualisierungsdatum": "2026-01-20T11:25:19",
 		"id": 8052
 	},
 	{
@@ -54335,7 +54335,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:53",
+		"aktualisierungsdatum": "2026-01-15T09:47:26",
 		"id": 8053
 	},
 	{
@@ -54375,7 +54375,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:43",
+		"aktualisierungsdatum": "2026-01-20T11:25:21",
 		"id": 8054
 	},
 	{
@@ -54415,7 +54415,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:45",
+		"aktualisierungsdatum": "2026-01-15T09:47:19",
 		"id": 8055
 	},
 	{
@@ -54549,7 +54549,7 @@ var indikatoren = [
 		],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2021 ergab sich für Klybeck rechnerisch ein Verlust von rund 204 000 Franken (bei 130 Weg- und 117 Zuzügern), in Kleinhüningen ein Verlust von ca. 143 000 Franken (bei 63 Weg- und 38 Zuzügern).",
+		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2022 ergab sich für Klybeck rechnerisch ein Verlust von rund 108 000 Franken (bei 161 Weg- und 166 Zuzügern), in Kleinhüningen ein Verlust von ca. 170 000 Franken (bei 59 Weg- und 46 Zuzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -54575,7 +54575,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:51",
+		"aktualisierungsdatum": "2026-01-20T11:25:24",
 		"id": 8059
 	},
 	{
@@ -54615,7 +54615,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:55",
+		"aktualisierungsdatum": "2026-01-15T09:47:31",
 		"id": 8060
 	},
 	{
@@ -54655,7 +54655,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:56",
+		"aktualisierungsdatum": "2026-01-15T09:47:33",
 		"id": 8061
 	},
 	{
@@ -54695,7 +54695,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:54",
+		"aktualisierungsdatum": "2026-01-15T09:47:29",
 		"id": 8062
 	},
 	{
@@ -54789,7 +54789,7 @@ var indikatoren = [
 		],
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Einfamilienhausanteil liegt deutlich unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering.",
+		"lesehilfe": "Der Einfamilienhausanteil liegt deutlich unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering, 2024 lag er dort bei 6,8%.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Werte von 2011 und 2012 beruhen auf der jährlichen Fortschreibung der Volkszählung 2000. Ab 2013 stammen die Daten aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -54815,7 +54815,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:58",
+		"aktualisierungsdatum": "2026-01-15T09:47:35",
 		"id": 8065
 	},
 	{
@@ -54855,7 +54855,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:59",
+		"aktualisierungsdatum": "2026-01-15T09:47:37",
 		"id": 8066
 	},
 	{
@@ -54869,7 +54869,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion wurde 2005, 2011 und 2020 massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 in beiden Wohnvierteln zusammen bei 16 Wohnungen welche alle durch Umbau zustande kamen. 2005, 2011 und 2020 wurden massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -54895,7 +54895,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-02T08:35:14",
+		"aktualisierungsdatum": "2026-01-15T09:47:39",
 		"id": 8067
 	},
 	{
@@ -54909,7 +54909,7 @@ var indikatoren = [
 		],
 		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen deutlich höher als im Wohnviertel Klybeck.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen (2024: 22,3%) deutlich höher als im Wohnviertel Klybeck (13,5%).",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -54935,7 +54935,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:00",
+		"aktualisierungsdatum": "2026-01-15T09:47:41",
 		"id": 8068
 	},
 	{
@@ -55055,7 +55055,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:20",
+		"aktualisierungsdatum": "2026-01-15T09:47:24",
 		"id": 8071
 	},
 	{
@@ -55136,7 +55136,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:47",
+		"aktualisierungsdatum": "2026-01-15T09:47:22",
 		"id": 8073
 	},
 	{
@@ -55217,7 +55217,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:03",
+		"aktualisierungsdatum": "2026-01-15T09:47:48",
 		"id": 8075
 	},
 	{
@@ -55231,7 +55231,7 @@ var indikatoren = [
 		],
 		"title": "Sek P-Quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Sek P-Quote des Wohnviertels Klybeck hat sich in den vergangenen zehn Jahren auf tiefem Niveau tendenziell rückläufig entwickelt. In Kleinhüningen hat sie sich seit 2020 auf gut 19% bis 22% eingependelt. Für die Stadt Basel beträgt der Wert 2024 36,7%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"lesehilfe": "Die Sek P-Quoten der Wohnviertel Klybeck und Kleinhüningen bewegt sich bereits seit Jahren auf tiefem Niveau. Für die Stadt Basel beträgt der Wert 2025 37,4%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -55257,7 +55257,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:02",
+		"aktualisierungsdatum": "2026-01-15T09:47:46",
 		"id": 8076
 	},
 	{
@@ -55297,7 +55297,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:01",
+		"aktualisierungsdatum": "2026-01-15T09:47:44",
 		"id": 8077
 	},
 	{
@@ -55875,7 +55875,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:44",
+		"aktualisierungsdatum": "2026-01-20T11:25:22",
 		"id": 8094
 	},
 	{
@@ -72503,7 +72503,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:53",
+		"aktualisierungsdatum": "2026-01-20T11:25:08",
 		"id": 8995
 	},
 	{
@@ -72876,7 +72876,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:55",
+		"aktualisierungsdatum": "2026-01-20T11:25:09",
 		"id": 9022
 	},
 	{
@@ -72914,7 +72914,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:44:57",
+		"aktualisierungsdatum": "2026-01-20T11:25:11",
 		"id": 9023
 	},
 	{
@@ -78267,7 +78267,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 bei 511 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2025 bei 540 Einheiten; dies vor allem dank sehr hoher Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -78293,7 +78293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:31",
+		"aktualisierungsdatum": "2026-01-20T11:25:27",
 		"id": 9384
 	},
 	{

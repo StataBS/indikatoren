@@ -117,9 +117,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Erreichbare Freiraumfläche",
+		"title": "Erreichbare öffentliche Freiraumfläche",
 		"subtitle": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
-		"lesehilfe": "Im Jahr 2024 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
+		"lesehilfe": "Im Jahr 2022 wohnen in der Stadt Basel gemäss Freiraumversorgungsmodell rund 25 700 Einwohnerinnen und Einwohner in Gebieten, von denen aus im Schnitt nur 0 bis 1,5 m<sup>2</sup> Freiraumfläche pro Person erreichbar sind.",
 		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel» 2022. Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -130,7 +130,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Erreichbare Freiraumfläche",
+		"description": "Erreichbare öffentliche Freiraumfläche",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kuerzel": "",
@@ -145,7 +145,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:45:04",
+		"aktualisierungsdatum": "2026-01-20T11:25:25",
 		"id": 22411
 	},
 	{
