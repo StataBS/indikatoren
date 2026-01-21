@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, November",
-		"lesehilfe": "Im November 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen. In sechs Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, Dezember",
+		"lesehilfe": "Im Dezember 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in Riehen. In zwölf Wohnvierteln sank sie, in Bettingen veränderte sie sich nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-17T11:46:18",
+		"aktualisierungsdatum": "2026-01-21T05:06:49",
 		"id": 7763
 	},
 	{

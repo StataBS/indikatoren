@@ -57,30 +57,30 @@
     },
     "series": [
       {
-        "color": "#cd9c00",
-        "index": 0,
-        //legendIndex: 0,
-        "type": "column",
-        tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
-        },
-      {
-        "color": "#7f5f1a",
-        "index": 2,
-        //legendIndex: 1,
-        "type": "line",
-        "yAxis": 1,
-        tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
-      },
-      {
         "color": "#b375ab",
         "index": 1,
         //legendIndex: 2,
         "type": "column",
         tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
-      },
+        },
       {
         "color": "#923f8d",
         "index": 3,
+        //legendIndex: 4,
+        "type": "line",
+        "yAxis": 1,
+        tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
+      },
+      {
+        "color": "#cd9c00",
+        "index": 0,
+        //legendIndex: 2,
+        "type": "column",
+        tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
+      },
+      {
+        "color": "#7f5f1a",
+        "index": 2,
         //legendIndex: 3,
         "type": "line",
         "yAxis": 1,

@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2005 bis 2024 stieg der Anteil der ausländischen Personen an der Bevölkerung von 30,4% auf 38,7%.",
+		"lesehilfe": "Von 2006 bis 2025 stieg der Anteil der ausländischen Personen an der Bevölkerung von 31,1% auf 39,2%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:00",
+		"aktualisierungsdatum": "2026-01-21T05:07:07",
 		"id": 6057
 	},
 	{
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2024 45,4 Jahre, jenes der ausländischen Staatsangehörigen 38,0 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2025 45,3 Jahre, jenes der ausländischen Staatsangehörigen 38,1 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:03",
+		"aktualisierungsdatum": "2026-01-21T05:07:09",
 		"id": 6063
 	},
 	{
