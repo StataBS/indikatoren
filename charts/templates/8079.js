@@ -14,16 +14,31 @@
     },
     "series": [
       {
-        "color": "#cd9c00"
+        "color": "#cd9c00",
+        legendIndex: 1
       },
       {
-        "color": "#b375ab"
+        "color": "#b375ab",
+        legendIndex: 3
       },
       {
-        "color": "#7f5f1a",
+        "color": "#cd9c00",
+        legendIndex: 2,
+        dashStyle: "ShortDash"
       },
       {
-        "color": "#923f8d",
+        "color": "#b375ab",
+        legendIndex: 4,
+        dashStyle: "ShortDash"
+      },
+      {
+        "color": "#999",
+        legendIndex: 5
+      },
+      {
+        "color": "#999",
+        legendIndex: 6,
+        dashStyle: "ShortDash"
       }
     ],
     "legend": {

@@ -84,6 +84,14 @@
         [
           "2023: Kleinhüningen",
           54
+        ],
+        [
+          "2024: Klybeck",
+          111
+        ],
+        [
+          "2024: Kleinhüningen",
+          54
         ]
       ],
       "name": "Erdgas",
@@ -173,6 +181,14 @@
         [
           "2023: Kleinhüningen",
           35
+        ],
+        [
+          "2024: Klybeck",
+          23
+        ],
+        [
+          "2024: Kleinhüningen",
+          33
         ]
       ],
       "name": "Heizöl",
@@ -261,6 +277,14 @@
         ],
         [
           "2023: Kleinhüningen",
+          149
+        ],
+        [
+          "2024: Klybeck",
+          391
+        ],
+        [
+          "2024: Kleinhüningen",
           149
         ]
       ],
@@ -351,6 +375,14 @@
         [
           "2023: Kleinhüningen",
           165
+        ],
+        [
+          "2024: Klybeck",
+          159
+        ],
+        [
+          "2024: Kleinhüningen",
+          163
         ]
       ],
       "name": "Anderer\u002FKein Energieträger",
@@ -495,7 +527,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

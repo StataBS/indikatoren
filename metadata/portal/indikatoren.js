@@ -6938,12 +6938,11 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			6143,
-			6297,
-			8417
+			6297
 		],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2014 und dem 31.12.2024 nahm die Bevölkerung im Kanton Basel-Stadt von 196 471 auf 207 515 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2015 und dem 31.12.2025 nahm die Bevölkerung im Kanton Basel-Stadt von 197 204 auf 210 529 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -6971,7 +6970,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:55",
+		"aktualisierungsdatum": "2026-01-21T05:06:51",
 		"id": 4132
 	},
 	{
@@ -14553,7 +14552,7 @@ var indikatoren = [
 			8882
 		],
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2024",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2025",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass es viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) sowie viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -14580,7 +14579,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:17",
+		"aktualisierungsdatum": "2026-01-21T05:07:11",
 		"id": 5142
 	},
 	{
@@ -17101,7 +17100,7 @@ var indikatoren = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2005 bis 2024 stieg der Anteil der ausländischen Personen an der Bevölkerung von 30,4% auf 38,7%.",
+		"lesehilfe": "Von 2006 bis 2025 stieg der Anteil der ausländischen Personen an der Bevölkerung von 31,1% auf 39,2%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -17127,7 +17126,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:00",
+		"aktualisierungsdatum": "2026-01-21T05:07:07",
 		"id": 6057
 	},
 	{
@@ -17305,7 +17304,7 @@ var indikatoren = [
 		],
 		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2024 45,4 Jahre, jenes der ausländischen Staatsangehörigen 38,0 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2025 45,3 Jahre, jenes der ausländischen Staatsangehörigen 38,1 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -17331,7 +17330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:03",
+		"aktualisierungsdatum": "2026-01-21T05:07:09",
 		"id": 6063
 	},
 	{
@@ -32338,8 +32337,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, November",
-		"lesehilfe": "Im November 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen. In sechs Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, Dezember",
+		"lesehilfe": "Im Dezember 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in Riehen. In zwölf Wohnvierteln sank sie, in Bettingen veränderte sie sich nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32366,7 +32365,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-17T11:46:18",
+		"aktualisierungsdatum": "2026-01-21T05:06:49",
 		"id": 7763
 	},
 	{
@@ -34822,7 +34821,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:05",
+		"aktualisierungsdatum": "2026-01-21T05:06:54",
 		"id": 8079
 	},
 	{
@@ -34864,7 +34863,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:06",
+		"aktualisierungsdatum": "2026-01-21T05:06:56",
 		"id": 8080
 	},
 	{
@@ -34906,7 +34905,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:07",
+		"aktualisierungsdatum": "2026-01-21T05:06:58",
 		"id": 8081
 	},
 	{
@@ -34946,7 +34945,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:10",
+		"aktualisierungsdatum": "2026-01-21T05:07:05",
 		"id": 8085
 	},
 	{
@@ -34986,7 +34985,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:09",
+		"aktualisierungsdatum": "2026-01-21T05:07:02",
 		"id": 8086
 	},
 	{
@@ -35155,7 +35154,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:14:08",
+		"aktualisierungsdatum": "2026-01-21T05:07:00",
 		"id": 8090
 	},
 	{

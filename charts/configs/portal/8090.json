@@ -1,6 +1,213 @@
 {
   "series": [
     {
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2002,
+          2075
+        ],
+        [
+          2003,
+          5673
+        ],
+        [
+          2004,
+          4840
+        ],
+        [
+          2005,
+          4840
+        ],
+        [
+          2006,
+          4840
+        ],
+        [
+          2007,
+          4837
+        ],
+        [
+          2008,
+          4840
+        ],
+        [
+          2009,
+          4840
+        ],
+        [
+          2010,
+          4885
+        ],
+        [
+          2011,
+          4885
+        ],
+        [
+          2012,
+          4885
+        ],
+        [
+          2013,
+          4885
+        ],
+        [
+          2014,
+          4885
+        ],
+        [
+          2015,
+          4885
+        ],
+        [
+          2016,
+          4885
+        ],
+        [
+          2017,
+          4885
+        ],
+        [
+          2018,
+          4885
+        ],
+        [
+          2019,
+          4885
+        ],
+        [
+          2020,
+          4885
+        ],
+        [
+          2021,
+          4885
+        ],
+        [
+          2022,
+          4886
+        ],
+        [
+          2023,
+          4886
+        ],
+        [
+          2024,
+          4886
+        ]
+      ],
+      "name": "Freiraumfläche Kleinhüningen"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2002,
+          0.15
+        ],
+        [
+          2003,
+          0.42
+        ],
+        [
+          2004,
+          0.36
+        ],
+        [
+          2005,
+          0.36
+        ],
+        [
+          2006,
+          0.36
+        ],
+        [
+          2007,
+          0.36
+        ],
+        [
+          2008,
+          0.36
+        ],
+        [
+          2009,
+          0.36
+        ],
+        [
+          2010,
+          0.36
+        ],
+        [
+          2011,
+          0.36
+        ],
+        [
+          2012,
+          0.36
+        ],
+        [
+          2013,
+          0.36
+        ],
+        [
+          2014,
+          0.36
+        ],
+        [
+          2015,
+          0.36
+        ],
+        [
+          2016,
+          0.36
+        ],
+        [
+          2017,
+          0.36
+        ],
+        [
+          2018,
+          0.36
+        ],
+        [
+          2019,
+          0.36
+        ],
+        [
+          2020,
+          0.36
+        ],
+        [
+          2021,
+          0.36
+        ],
+        [
+          2022,
+          0.36
+        ],
+        [
+          2023,
+          0.36
+        ],
+        [
+          2024,
+          0.36
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Kleinhüningen (rechte Skala)"
+    },
+    {
       "color": "#cd9c00",
       "index": 0,
       "type": "column",
@@ -9,156 +216,29 @@
       },
       "data": [
         [
-          2008,
-          4840
+          2002,
+          25709
         ],
         [
-          2009,
-          4840
+          2003,
+          25708
         ],
         [
-          2010,
-          4885
+          2004,
+          29279
         ],
         [
-          2011,
-          4885
+          2005,
+          29279
         ],
         [
-          2012,
-          4885
+          2006,
+          29343
         ],
         [
-          2013,
-          4885
+          2007,
+          29344
         ],
-        [
-          2014,
-          4885
-        ],
-        [
-          2015,
-          4885
-        ],
-        [
-          2016,
-          4885
-        ],
-        [
-          2017,
-          4885
-        ],
-        [
-          2018,
-          4885
-        ],
-        [
-          2019,
-          4885
-        ],
-        [
-          2020,
-          4885
-        ],
-        [
-          2021,
-          4885
-        ],
-        [
-          2022,
-          4886
-        ],
-        [
-          2023,
-          4886
-        ]
-      ],
-      "name": "Freiraumfläche Kleinhüningen"
-    },
-    {
-      "color": "#7f5f1a",
-      "index": 2,
-      "type": "line",
-      "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          2008,
-          0.36
-        ],
-        [
-          2009,
-          0.36
-        ],
-        [
-          2010,
-          0.36
-        ],
-        [
-          2011,
-          0.36
-        ],
-        [
-          2012,
-          0.36
-        ],
-        [
-          2013,
-          0.36
-        ],
-        [
-          2014,
-          0.36
-        ],
-        [
-          2015,
-          0.36
-        ],
-        [
-          2016,
-          0.36
-        ],
-        [
-          2017,
-          0.36
-        ],
-        [
-          2018,
-          0.36
-        ],
-        [
-          2019,
-          0.36
-        ],
-        [
-          2020,
-          0.36
-        ],
-        [
-          2021,
-          0.36
-        ],
-        [
-          2022,
-          0.36
-        ],
-        [
-          2023,
-          0.36
-        ]
-      ],
-      "name": "Anteil Freiraumfläche Kleinhüningen (rechte Skala)"
-    },
-    {
-      "color": "#b375ab",
-      "index": 1,
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
         [
           2008,
           29428
@@ -222,19 +302,47 @@
         [
           2023,
           23407
+        ],
+        [
+          2024,
+          23448
         ]
       ],
       "name": "Freiraumfläche Klybeck"
     },
     {
-      "color": "#923f8d",
-      "index": 3,
+      "color": "#7f5f1a",
+      "index": 2,
       "type": "line",
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2002,
+          2.79
+        ],
+        [
+          2003,
+          2.79
+        ],
+        [
+          2004,
+          3.18
+        ],
+        [
+          2005,
+          3.18
+        ],
+        [
+          2006,
+          3.19
+        ],
+        [
+          2007,
+          3.19
+        ],
         [
           2008,
           3.2
@@ -298,6 +406,10 @@
         [
           2023,
           2.54
+        ],
+        [
+          2024,
+          2.55
         ]
       ],
       "name": "Anteil Freiraumfläche Klybeck (rechte Skala)"
@@ -436,7 +548,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

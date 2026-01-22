@@ -541,6 +541,10 @@
         [
           1735603200000,
           207515
+        ],
+        [
+          1767139200000,
+          210529
         ]
       ],
       "name": "Bevölkerung"
@@ -668,7 +672,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.1.2026"
   },
   "legend": {
     "symbolRadius": 0,

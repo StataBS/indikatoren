@@ -8,10 +8,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          2005,
-          30.4273376613
-        ],
-        [
           2006,
           31.13765424192
         ],
@@ -86,6 +82,10 @@
         [
           2024,
           38.72250198781
+        ],
+        [
+          2025,
+          39.19460026885
         ]
       ],
       "name": "Ausländeranteil"
@@ -207,7 +207,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
