@@ -2008,6 +2008,7 @@ id | visible | visibleInPortal | indikatorenset
 9197 | true | true | City-Statistics
 9199 | true | true | City-Statistics
 9200 | true | true | City-Statistics
+9201 | false |  | City-Statistics
 9203 | true | false | City-Statistics (Print)
 9204 | true | false | City-Statistics (Print)
 9205 | true | false | City-Statistics (Print)
@@ -2102,9 +2103,9 @@ id | visible | visibleInPortal | indikatorenset
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
-9406 | true | true | City-Statistics
+9406 | false |  | City-Statistics
 9407 | true | true | City-Statistics
-9409 | true | true | City-Statistics
+9409 | false |  | City-Statistics
 9410 | true | true | City-Statistics
 9411 | true | true | City-Statistics
 9418 | true | false | Legislaturplan (Print)

@@ -78787,46 +78787,6 @@ var indikatoren = [
 		"id": 9398
 	},
 	{
-		"template": "template001",
-		"data-id": 9406,
-		"chart-id": 9406,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9481
-		],
-		"title": "Entwicklung der Gesamtbevölkerung",
-		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2016 bis 2021",
-		"lesehilfe": "Zwischen 2016 und 2021 ist die Gesamtbevölkerung der Agglomeration Basel (+0,5% pro Jahr) deutlich weniger gewachsen als die Bevölkerung in den Vergleichsagglomerationen Genf, Lausanne und Zürich. Am tiefsten ist das Bevölkerungswachstum in den Agglomerationsgemeinden in Deutschland, am höchsten in den französischen Gemeinden.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Entwicklung der Gesamtbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09406",
-		"kennzahlenset": "City-Statistics",
-		"kuerzelKunde": "2.2",
-		"stufe1": "2. Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "99_00_00_00_00_003",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:09:14",
-		"id": 9406
-	},
-	{
 		"template": "map_gemeinden",
 		"data-id": 9407,
 		"chart-id": 9407,
@@ -78865,46 +78825,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2026-01-27T08:35:38",
 		"id": 9407
-	},
-	{
-		"template": "template001",
-		"data-id": 9409,
-		"chart-id": 9409,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9483
-		],
-		"title": "Entwicklung der Beschäftigtenzahl",
-		"subtitle": "durchschnittliche jährliche Veränderungsrate, 2016 bis 2021",
-		"lesehilfe": "Zwischen 2016 und 2021 war das Wachstum der Beschäftigtenzahl in der Agglomeration Basel (+0,3% im Jahresdurchschnitt) geringer als in den Vergleichsagglomerationen. Innerhalb der Agglomeration Basel gab es grosse Unterschiede: Während im französischen Teil ein Wachstum verzeichnet wurde (+0,7% pro Jahr), ging die Beschäftigung in der Kernstadt leicht zurück (-0,2% pro Jahr).",
-		"erlaeuterungen": "Der Begriff Beschäftigte bezeichnet die Anzahl der besetzten Stellen. Die Erfassung erfolgt am Arbeitsort.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Entwicklung der Beschäftigtenzahl",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.09409",
-		"kennzahlenset": "City-Statistics",
-		"kuerzelKunde": "4.5",
-		"stufe1": "4. Arbeitsmarkt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "99_00_00_00_00_018",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-23T08:10:09",
-		"id": 9409
 	},
 	{
 		"template": "map_gemeinden",
