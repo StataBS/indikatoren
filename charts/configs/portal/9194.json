@@ -6,87 +6,87 @@
       "data": [
         [
           "Basel",
-          9.28618414632886
+          8.67547145196563
         ],
         [
           "Bern",
-          10.2648145740868
+          9.09048799129166
         ],
         [
           "Genf",
-          10.8693335606658
+          10.5394125711939
         ],
         [
           "Lausanne",
-          11.3572395221826
+          10.4660841562317
         ],
         [
           "Zürich",
-          11.1263228806745
+          9.80448121318273
         ],
         [
           "Frankfurt a. M.",
-          10
+          10.42
         ],
         [
           "Freiburg i. Br.",
-          10
+          10.1
         ],
         [
           "Karlsruhe",
-          9
+          9.28
         ],
         [
           "München",
-          11
+          10.87
         ],
         [
           "Stuttgart",
-          10
+          10.16
         ],
         [
           "Lille",
-          12
+          11.35
         ],
         [
           "Lyon",
-          13
+          12.05
         ],
         [
           "Metz",
-          10
+          9.76
         ],
         [
           "Paris",
-          13
+          13.01
         ],
         [
           "Strassburg",
-          11
+          10.24
         ],
         [
           "Mailand",
-          7
+          6.71
         ],
         [
           "Bologna",
-          7
+          6.5
         ],
         [
           "Lissabon",
-          12
+          6.74
         ],
         [
           "Porto",
-          6
+          6.48
         ],
         [
           "Barcelona",
-          7
+          6.79
         ],
         [
           "Madrid",
-          8
+          7.33
         ]
       ],
       "name": "Geburtenrate",
@@ -98,87 +98,87 @@
       "data": [
         [
           "Basel",
-          9.56170450670949
+          10.0040854020688
         ],
         [
           "Bern",
-          9.16915820163791
+          9.31051254139936
         ],
         [
           "Genf",
-          5.91267388650224
+          6.37901217417914
         ],
         [
           "Lausanne",
-          6.75736221621261
+          7.23437933528312
         ],
         [
           "Zürich",
-          7.62551287147036
+          7.6325143440312
         ],
         [
           "Frankfurt a. M.",
-          10
+          9.61
         ],
         [
           "Freiburg i. Br.",
-          9
+          9.3
         ],
         [
           "Karlsruhe",
-          10
+          10.26
         ],
         [
           "München",
-          8
+          8.32
         ],
         [
           "Stuttgart",
-          9
+          9.41
         ],
         [
           "Lille",
-          8
+          8.34
         ],
         [
           "Lyon",
-          7
+          7.19
         ],
         [
           "Metz",
-          10
+          9.72
         ],
         [
           "Paris",
-          7
+          6.8
         ],
         [
           "Strassburg",
-          8
+          8.94
         ],
         [
           "Mailand",
-          11
+          9.97
         ],
         [
           "Bologna",
-          12
+          11.35
         ],
         [
           "Lissabon",
-          11
+          10.44
         ],
         [
           "Porto",
-          10
+          9.73
         ],
         [
           "Barcelona",
-          9
+          8.38
         ],
         [
           "Madrid",
-          7
+          6.99
         ]
       ],
       "name": "Sterberate",
@@ -261,7 +261,7 @@
     "text": "Geburten- und Sterberate"
   },
   "subtitle": {
-    "text": "Fälle pro 1000 Einwohner, 2021",
+    "text": "Fälle pro 1000 Einwohner, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

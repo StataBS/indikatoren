@@ -47,7 +47,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck lebten Ende 2024 7 104 Einwohnerinnen und Einwohner, 1,3% mehr als im Jahr 2004. Im Wohnviertel Kleinhüningen lag die Einwohnerzahl Ende 2024 bei 2 775, 15,2% mehr als im Jahr 2004. Dieses vergleichsweise starke Wachstum ist wohl auch auf den Neubau von Wohnungen im Densapark (2011) zurückzuführen. In der Stadt Basel hat die Bevölkerungszahl zwischen 2004 und 2024 um 10,2% zugenommen.",
+		"lesehilfe": "Im Wohnviertel Klybeck lebten Ende 2024 7 104 Einwohnerinnen und Einwohner, 1,3% mehr als im Jahr 2004. Im Wohnviertel Kleinhüningen lag die Einwohnerzahl Ende 2024 bei 2 775, 15,2% mehr als im Jahr 2004. In der Stadt Basel hat die Bevölkerungszahl zwischen 2004 und 2024 um 10,2% zugenommen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:37",
+		"aktualisierungsdatum": "2026-01-27T08:35:21",
 		"id": 8046
 	},
 	{
@@ -203,9 +203,9 @@ var indikatorensetData = [
 		"children": [
 			8620
 		],
-		"title": "Ausländeranteil",
+		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Der Ausländeranteil schwankte im Wohnviertel Klybeck in den Jahren 2000 bis 2010 zwischen 48,1% und 50,7%. Seither ist dieser bis auf 54,4% gestiegen. Im Wohnviertel Kleinhüningen nahm der Ausländeranteil zwischen 2000 und 2006 von 39,9% auf 46,1% zu. Danach bewegte er sich bis 2011 zwischen 42,7% und 45,3%. Seither stieg der Anteil Ausländer bis auf über 51%. In der Stadt Basel wuchs der Ausländeranteil über den gesamten Beobachtungszeitraum von 29,4% auf 39,9%.",
+		"lesehilfe": "Der Anteil der ausländischen Wohnbevölkerung lag im Wohnviertel Klybeck im Jahr 2024 bei 54,4%, in Kleinhüningen bei 51,1% und in der Stadt Basel bei 39,9%.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -215,7 +215,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Ausländeranteil",
+		"description": "Anteil ausländische Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:07",
+		"aktualisierungsdatum": "2026-01-27T08:35:24",
 		"id": 8050
 	},
 	{
@@ -269,7 +269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:10",
+		"aktualisierungsdatum": "2026-01-27T08:35:26",
 		"id": 8051
 	},
 	{
@@ -1246,7 +1246,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:46",
+		"aktualisierungsdatum": "2026-01-27T08:36:10",
 		"id": 8076
 	},
 	{

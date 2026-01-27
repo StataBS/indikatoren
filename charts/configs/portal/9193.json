@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          32.5
+          32.8
         ],
         [
           "Bern",
-          31.2
+          31.3
         ],
         [
           "Genf",
-          37.8
+          37.7
         ],
         [
           "Lausanne",
-          33.9
+          33.7
         ],
         [
           "Zürich",
-          31.3
+          31.1
         ],
         [
           "Frankfurt a. M.",
@@ -98,23 +98,23 @@
       "data": [
         [
           "Basel",
-          35.2
+          35.6
         ],
         [
           "Bern",
-          34.5
+          35
         ],
         [
           "Genf",
-          24.8
-        ],
-        [
-          "Lausanne",
           25.1
         ],
         [
+          "Lausanne",
+          25.2
+        ],
+        [
           "Zürich",
-          27.3
+          27.4
         ],
         [
           "Frankfurt a. M.",
@@ -261,7 +261,7 @@
     "text": "Jugend- und Altersquotient"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#cd9c00",
+      "dashStyle": "shortDash",
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -71,8 +73,9 @@
       "name": "Klybeck: Schweiz"
     },
     {
-      "color": "#b375ab",
-      "visible": true,
+      "color": "#cd9c00",
+      "dashStyle": "shortDot",
+      "legendIndex": 2,
       "data": [
         [
           2010,
@@ -142,7 +145,8 @@
       "name": "Klybeck: Ausland"
     },
     {
-      "color": "#999999",
+      "color": "#cd9c00",
+      "legendIndex": 3,
       "data": [
         [
           2010,
@@ -210,6 +214,439 @@
         ]
       ],
       "name": "Klybeck: Total"
+    },
+    {
+      "color": "#b375ab",
+      "dashStyle": "shortDash",
+      "legendIndex": 4,
+      "data": [
+        [
+          2010,
+          17.14
+        ],
+        [
+          2011,
+          8.82
+        ],
+        [
+          2012,
+          3.57
+        ],
+        [
+          2013,
+          13.33
+        ],
+        [
+          2014,
+          17.14
+        ],
+        [
+          2015,
+          11.54
+        ],
+        [
+          2016,
+          23.33
+        ],
+        [
+          2017,
+          37.84
+        ],
+        [
+          2018,
+          33.33
+        ],
+        [
+          2019,
+          28
+        ],
+        [
+          2020,
+          34.48
+        ],
+        [
+          2021,
+          41.38
+        ],
+        [
+          2022,
+          33.33
+        ],
+        [
+          2023,
+          28.13
+        ],
+        [
+          2024,
+          26.67
+        ],
+        [
+          2025,
+          27.78
+        ]
+      ],
+      "name": "Kleinhüningen: Schweiz"
+    },
+    {
+      "color": "#b375ab",
+      "dashStyle": "shortDot",
+      "legendIndex": 5,
+      "data": [
+        [
+          2010,
+          25
+        ],
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          9.52
+        ],
+        [
+          2013,
+          16.67
+        ],
+        [
+          2014,
+          16.67
+        ],
+        [
+          2015,
+          14.29
+        ],
+        [
+          2016,
+          20
+        ],
+        [
+          2017,
+          33.33
+        ],
+        [
+          2018,
+          19.05
+        ],
+        [
+          2019,
+          4.17
+        ],
+        [
+          2020,
+          9.68
+        ],
+        [
+          2021,
+          3.33
+        ],
+        [
+          2022,
+          4
+        ],
+        [
+          2023,
+          14.81
+        ],
+        [
+          2024,
+          16
+        ],
+        [
+          2025,
+          7.69
+        ]
+      ],
+      "name": "Kleinhüningen: Ausland"
+    },
+    {
+      "color": "#b375ab",
+      "legendIndex": 6,
+      "data": [
+        [
+          2010,
+          20
+        ],
+        [
+          2011,
+          9.26
+        ],
+        [
+          2012,
+          6.12
+        ],
+        [
+          2013,
+          14.58
+        ],
+        [
+          2014,
+          17.02
+        ],
+        [
+          2015,
+          12.5
+        ],
+        [
+          2016,
+          22.22
+        ],
+        [
+          2017,
+          36.73
+        ],
+        [
+          2018,
+          27.08
+        ],
+        [
+          2019,
+          16.33
+        ],
+        [
+          2020,
+          21.67
+        ],
+        [
+          2021,
+          22.03
+        ],
+        [
+          2022,
+          19.23
+        ],
+        [
+          2023,
+          22.03
+        ],
+        [
+          2024,
+          21.82
+        ],
+        [
+          2025,
+          15.91
+        ]
+      ],
+      "name": "Kleinhüningen: Total"
+    },
+    {
+      "color": "#999",
+      "dashStyle": "shortDash",
+      "legendIndex": 7,
+      "visible": false,
+      "data": [
+        [
+          2010,
+          47.59
+        ],
+        [
+          2011,
+          47.67
+        ],
+        [
+          2012,
+          46.11
+        ],
+        [
+          2013,
+          44.99
+        ],
+        [
+          2014,
+          45.07
+        ],
+        [
+          2015,
+          45.32
+        ],
+        [
+          2016,
+          49.57
+        ],
+        [
+          2017,
+          50.85
+        ],
+        [
+          2018,
+          47.57
+        ],
+        [
+          2019,
+          45.13
+        ],
+        [
+          2020,
+          44.93
+        ],
+        [
+          2021,
+          44.23
+        ],
+        [
+          2022,
+          42.68
+        ],
+        [
+          2023,
+          41.3
+        ],
+        [
+          2024,
+          42.12
+        ],
+        [
+          2025,
+          44.15
+        ]
+      ],
+      "name": "Stadt Basel: Schweiz"
+    },
+    {
+      "color": "#999",
+      "dashStyle": "shortDot",
+      "legendIndex": 8,
+      "visible": false,
+      "data": [
+        [
+          2010,
+          21.85
+        ],
+        [
+          2011,
+          20.05
+        ],
+        [
+          2012,
+          18.23
+        ],
+        [
+          2013,
+          18.57
+        ],
+        [
+          2014,
+          21.62
+        ],
+        [
+          2015,
+          19.97
+        ],
+        [
+          2016,
+          22.51
+        ],
+        [
+          2017,
+          25.51
+        ],
+        [
+          2018,
+          22.64
+        ],
+        [
+          2019,
+          24.9
+        ],
+        [
+          2020,
+          23.08
+        ],
+        [
+          2021,
+          21.61
+        ],
+        [
+          2022,
+          22.82
+        ],
+        [
+          2023,
+          26.88
+        ],
+        [
+          2024,
+          26.83
+        ],
+        [
+          2025,
+          25.59
+        ]
+      ],
+      "name": "Stadt Basel: Ausland"
+    },
+    {
+      "color": "#999",
+      "legendIndex": 9,
+      "visible": false,
+      "data": [
+        [
+          2010,
+          39.47
+        ],
+        [
+          2011,
+          38.79
+        ],
+        [
+          2012,
+          37.05
+        ],
+        [
+          2013,
+          36.24
+        ],
+        [
+          2014,
+          37.12
+        ],
+        [
+          2015,
+          36.5
+        ],
+        [
+          2016,
+          40.53
+        ],
+        [
+          2017,
+          42.68
+        ],
+        [
+          2018,
+          39.31
+        ],
+        [
+          2019,
+          38.5
+        ],
+        [
+          2020,
+          37.61
+        ],
+        [
+          2021,
+          36.11
+        ],
+        [
+          2022,
+          35.72
+        ],
+        [
+          2023,
+          36.48
+        ],
+        [
+          2024,
+          36.73
+        ],
+        [
+          2025,
+          37.39
+        ]
+      ],
+      "name": "Stadt Basel: Total"
     }
   ],
   "chart": {
@@ -227,21 +664,21 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[4].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[8].name.split(": ").slice(0, 1).toString()
+                + ':'
+            })
+            .translate(-90, 42); //move -140 to the left and 8 down
+        }
     },
-    "marginRight": 15,
+    "marginRight": 20,
     "renderTo": "container-8076"
   },
   "plotOptions": {
@@ -311,7 +748,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickInterval": 10
   },
   "legend": {
     "enabled": true,
@@ -322,7 +760,20 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "width": 300,
+    "x": 125,
+    "y": -40,
+    "title": {
+      "text": "-\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 19
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(": ").pop();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      }
   },
   "credits": {
     "enabled": true,
@@ -337,7 +788,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

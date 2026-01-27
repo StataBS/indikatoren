@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          83244
+          83772
         ],
         [
           "Bern",
-          71640
+          73099
         ],
         [
           "Genf",
-          81315
+          82340
         ],
         [
           "Lausanne",
-          67734
+          67904
         ],
         [
           "Zürich",
-          230829
+          235517
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          175557
+          178466
         ],
         [
           "Bern",
-          145781
+          142667
         ],
         [
           "Genf",
-          162192
+          164000
         ],
         [
           "Lausanne",
-          137409
+          143227
         ],
         [
           "Zürich",
-          507277
+          514963
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          99370
+          99120
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          44843
+          45415
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          183953
+          188008
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Erwerbstätige im Alter von 20 bis 64 Jahren"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

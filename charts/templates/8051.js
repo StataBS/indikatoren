@@ -57,5 +57,15 @@
       "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
       "shared": true
     },
+    tooltip: {
+      shared: true,
+      useHTML: true,
+      followPointer: true,
+      headerFormat: "<table>",
+      pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}:</td>'
+        + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td>'
+        + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
+      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f}</b></td><td></td></tr></table>',
+    },
   }
 }());

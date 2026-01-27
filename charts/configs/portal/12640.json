@@ -63,6 +63,10 @@
         [
           2024,
           37.5
+        ],
+        [
+          2025,
+          45.05
         ]
       ],
       "name": "St. Johann: Schweiz"
@@ -130,6 +134,10 @@
         [
           2024,
           13.08
+        ],
+        [
+          2025,
+          14.56
         ]
       ],
       "name": "St. Johann: Ausland"
@@ -197,6 +205,10 @@
         [
           2024,
           28.76
+        ],
+        [
+          2025,
+          34.75
         ]
       ],
       "name": "St. Johann: Total"
@@ -265,6 +277,10 @@
         [
           2024,
           42.12
+        ],
+        [
+          2025,
+          44.15
         ]
       ],
       "name": "Stadt Basel: Schweiz"
@@ -333,6 +349,10 @@
         [
           2024,
           26.83
+        ],
+        [
+          2025,
+          25.59
         ]
       ],
       "name": "Stadt Basel: Ausland"
@@ -401,6 +421,10 @@
         [
           2024,
           36.73
+        ],
+        [
+          2025,
+          37.39
         ]
       ],
       "name": "Stadt Basel: Total"
@@ -542,7 +566,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
