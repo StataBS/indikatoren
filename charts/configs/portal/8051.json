@@ -792,12 +792,15 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
   },
   "exporting": {
     "filename": "8051"

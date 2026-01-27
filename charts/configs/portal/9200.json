@@ -6,51 +6,51 @@
       "data": [
         [
           "Basel",
-          0.57
+          0.557
         ],
         [
           "Bern",
-          0.768
+          0.777
         ],
         [
           "Genf",
-          0.604
+          0.522
         ],
         [
           "Lausanne",
-          0.652
+          0.664
         ],
         [
           "Zürich",
-          0.713
+          0.73
         ],
         [
           "Frankfurt a. M.",
-          0.564
+          0.555
         ],
         [
           "Freiburg i. Br.",
-          0.529
+          0.52
         ],
         [
           "Karlsruhe",
-          0.613
+          0.606
         ],
         [
           "München",
-          0.61
+          0.6
         ],
         [
           "Stuttgart",
-          0.585
+          0.578
         ],
         [
           "Lille",
-          0.426
+          0.429
         ],
         [
           "Lyon",
-          0.47
+          0.473
         ],
         [
           "Metz",
@@ -58,35 +58,35 @@
         ],
         [
           "Paris",
-          0.468
+          0.471
         ],
         [
           "Strassburg",
-          0.444
+          0.447
         ],
         [
           "Mailand",
-          0.431
+          0.454
         ],
         [
           "Bologna",
-          0.407
+          0.452
         ],
         [
           "Lissabon",
-          0.487
+          0.528
         ],
         [
           "Porto",
-          0.46
+          0.493
         ],
         [
           "Barcelona",
-          0.462
+          0.479
         ],
         [
           "Madrid",
-          0.534
+          0.544
         ]
       ],
       "name": "Beschäftigte Dichte",
@@ -169,7 +169,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -225,7 +225,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

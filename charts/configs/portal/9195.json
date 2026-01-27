@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          66429.659527611
+          71355.946180924
         ],
         [
           "Bern",
-          25275.99811891
+          23672.673739502
         ],
         [
           "Genf",
-          87938.6904073381
+          88935.027603517
         ],
         [
           "Lausanne",
-          44158.9460175539
+          43352.7583051909
         ],
         [
           "Zürich",
-          102641.715464753
+          98465.931341214
         ],
         [
           "Frankfurt a. M.",
@@ -46,31 +46,31 @@
         ],
         [
           "Lille",
-          134096
+          128888
         ],
         [
           "Lyon",
-          166771
+          163770
         ],
         [
           "Metz",
-          29962
+          29067
         ],
         [
           "Paris",
-          1187215
+          1166261
         ],
         [
           "Strassburg",
-          64733
+          63111
         ],
         [
           "Mailand",
-          698460
+          709222
         ],
         [
           "Bologna",
-          102544
+          113988
         ],
         [
           "Lissabon",
@@ -82,11 +82,11 @@
         ],
         [
           "Barcelona",
-          799615
+          785941
         ],
         [
           "Madrid",
-          1048859
+          1032322
         ]
       ],
       "name": "Obligatorische Schule",
@@ -98,23 +98,23 @@
       "data": [
         [
           "Basel",
-          197680.853730402
+          190342.75980005
         ],
         [
           "Bern",
-          92000.2339311769
+          87243.014276504
         ],
         [
           "Genf",
-          188217.392610725
+          185448.693062763
         ],
         [
           "Lausanne",
-          83244.3617762189
+          84732.999088188
         ],
         [
           "Zürich",
-          271729.0703748
+          271278.73289173
         ],
         [
           "Frankfurt a. M.",
@@ -138,31 +138,31 @@
         ],
         [
           "Lille",
-          281134
+          278883
         ],
         [
           "Lyon",
-          408830
+          405777
         ],
         [
           "Metz",
-          81807
+          80630
         ],
         [
           "Paris",
-          2187032
+          2165747
         ],
         [
           "Strassburg",
-          176997
+          174424
         ],
         [
           "Mailand",
-          1225878
+          1250773
         ],
         [
           "Bologna",
-          181790
+          202627
         ],
         [
           "Lissabon",
@@ -174,11 +174,11 @@
         ],
         [
           "Barcelona",
-          676385
+          686374
         ],
         [
           "Madrid",
-          921710
+          938261
         ]
       ],
       "name": "Sekundarstufe II",
@@ -190,23 +190,23 @@
       "data": [
         [
           "Basel",
-          205161.904400336
+          215611.57039994
         ],
         [
           "Bern",
-          122796.651175658
+          123920.658215996
         ],
         [
           "Genf",
-          252715.12062016
+          260203.832897601
         ],
         [
           "Lausanne",
-          115777.166140573
+          120260.730259463
         ],
         [
           "Zürich",
-          454493.903365123
+          469139.928511206
         ],
         [
           "Frankfurt a. M.",
@@ -230,31 +230,31 @@
         ],
         [
           "Lille",
-          326185
+          335675
         ],
         [
           "Lyon",
-          549014
+          565887
         ],
         [
           "Metz",
-          77623
+          79687
         ],
         [
           "Paris",
-          3342722
+          3414830
         ],
         [
           "Strassburg",
-          186973
+          191817
         ],
         [
           "Mailand",
-          771211
+          800344
         ],
         [
           "Bologna",
-          144133
+          155103
         ],
         [
           "Lissabon",
@@ -266,11 +266,11 @@
         ],
         [
           "Barcelona",
-          1360122
+          1415202
         ],
         [
           "Madrid",
-          1999555
+          2069610
         ]
       ],
       "name": "Tertiärstufe",
@@ -353,7 +353,7 @@
     "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2021",
+    "text": "nach höchster abgeschlossener Ausbildung, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -411,7 +411,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

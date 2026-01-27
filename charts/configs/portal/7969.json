@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          0.549
+          0.557
         ],
         [
           "Bern",
-          0.768
+          0.777
         ],
         [
           "Genf",
-          0.513
+          0.522
         ],
         [
           "Lausanne",
-          0.652
+          0.664
         ],
         [
           "Zürich",
-          0.713
+          0.73
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          1.085
+          1.119
         ],
         [
           "Bern",
-          1.44
+          1.467
         ],
         [
           "Genf",
-          0.923
+          0.947
         ],
         [
           "Lausanne",
-          0.907
+          0.926
         ],
         [
           "Zürich",
-          1.217
+          1.255
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.493
+          0.502
         ],
         [
           "Bern",
-          0.465
+          0.467
         ],
         [
           "Genf",
-          0.572
+          0.59
         ],
         [
           "Lausanne",
-          0.533
+          0.541
         ],
         [
           "Zürich",
-          0.503
+          0.511
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          0.345
+          0.339
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          0.241
+          0.235
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "Beschäftigte pro Einwohner, 2021",
+    "text": "Beschäftigte pro Einwohner, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

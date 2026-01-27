@@ -1159,7 +1159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2024 im Wohnviertel St. Johann mit 13,1% tiefer als jene der Schweizerinnen und Schweizer (37,5%). Für die Stadt Basel beträgt das Total 2024 36,7%.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt auch 2025 im Wohnviertel St. Johann mit 14,6% tiefer als jene der Schweizerinnen und Schweizer (45,1%). Für die Stadt Basel beträgt das Total 2025 37,4%.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1184,7 +1184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:25",
+		"aktualisierungsdatum": "2026-01-27T08:36:13",
 		"id": 12640
 	},
 	{

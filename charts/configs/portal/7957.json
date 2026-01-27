@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          35.17
+          35.58
         ],
         [
           "Bern",
-          34.54
+          35
         ],
         [
           "Genf",
-          24.83
+          25.06
         ],
         [
           "Lausanne",
-          25.12
+          25.22
         ],
         [
           "Zürich",
-          27.31
+          27.4
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          29.8
+          29.72
         ],
         [
           "Bern",
-          26.13
+          26.17
         ],
         [
           "Genf",
-          24.05
+          24.03
         ],
         [
           "Lausanne",
-          21.86
+          21.67
         ],
         [
           "Zürich",
-          21.55
+          21.18
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          38.62
+          39.24
         ],
         [
           "Bern",
-          38.86
+          39.55
         ],
         [
           "Genf",
-          27.48
+          27.61
         ],
         [
           "Lausanne",
-          26.77
+          27.03
         ],
         [
           "Zürich",
-          29.97
+          30.3
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          35.49
+          35.93
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          31.4
+          31.97
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          22.6
+          23.07
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Altersquotient"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
