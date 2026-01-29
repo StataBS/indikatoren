@@ -18,7 +18,7 @@
           0.70618
         ],
         [
-          "2018-2022",
+          "2019-2023",
           0.64618
         ]
       ],
@@ -45,7 +45,7 @@
           "high": "."
         },
         {
-          "name": "2018-2022",
+          "name": "2019-2023",
           "low": 0.59135,
           "high": 0.70101
         }
@@ -71,7 +71,7 @@
           0.70472
         ],
         [
-          "2018-2022",
+          "2019-2023",
           0.55913
         ]
       ],
@@ -98,7 +98,7 @@
           "high": "."
         },
         {
-          "name": "2018-2022",
+          "name": "2019-2023",
           "low": 0.47237,
           "high": 0.64588
         }
@@ -124,7 +124,7 @@
           0.72436
         ],
         [
-          "2018-2022",
+          "2019-2023",
           0.7432
         ]
       ],
@@ -151,7 +151,7 @@
           "high": "."
         },
         {
-          "name": "2018-2022",
+          "name": "2019-2023",
           "low": 0.73371,
           "high": 0.75269
         }
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
