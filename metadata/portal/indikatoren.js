@@ -33536,7 +33536,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:39",
+		"aktualisierungsdatum": "2026-01-29T11:16:24",
 		"id": 8047
 	},
 	{
@@ -33912,7 +33912,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Steuerjahr 2021 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 44 600 Franken (Median: 39 100), der Mittelwert für Klybeck liegt bei 43 400 Franken (Median: 37 500). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2021 rund 73 200 Franken (Median: 49 700).",
+		"lesehilfe": "Im Steuerjahr 2022 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 45 700 Franken (Median: 40 400), der Mittelwert für Klybeck liegt bei 43 800 Franken (Median: 38 000). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2022 rund 73 100 Franken (Median: 50 500).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -33938,7 +33938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:49",
+		"aktualisierungsdatum": "2026-01-29T11:16:30",
 		"id": 8057
 	},
 	{
@@ -33952,7 +33952,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind in den Wohnvierteln Kleinhüningen und Klybeck über die Jahre überwiegend gestiegen. 2021 beträgt der Mittelwert für Kleinhüningen rund 76 400 Franken, der Median ca. 3 400 Franken. Im Wohnviertel Klybeck beträgt der Mittelwert 75 300 Franken, der Median 3 500 Franken. Für die Stadt Basel liegt der Mittelwert bei 565 200 und der Median bei 20 900 Franken.",
+		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind in den Wohnvierteln Kleinhüningen und Klybeck über die Jahre überwiegend gestiegen. 2022 beträgt der Mittelwert für Kleinhüningen rund 66 200 Franken, der Median ca. 3 300 Franken. Im Wohnviertel Klybeck beträgt der Mittelwert 66 100 Franken, der Median 3 400 Franken. Für die Stadt Basel liegt der Mittelwert bei 470 300 und der Median bei 19 100 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -33978,7 +33978,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:50",
+		"aktualisierungsdatum": "2026-01-29T11:16:32",
 		"id": 8058
 	},
 	{
@@ -34620,7 +34620,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:18",
+		"aktualisierungsdatum": "2026-01-29T11:16:29",
 		"id": 8074
 	},
 	{
@@ -37227,8 +37227,8 @@ var indikatoren = [
 		],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnviertel Kleinhüningen, 2024",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen. In der Stadt Basel ist es ebenso.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -37253,7 +37253,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-19T02:13:40",
+		"aktualisierungsdatum": "2026-01-29T11:16:27",
 		"id": 8614
 	},
 	{
