@@ -54828,7 +54828,7 @@ var indikatoren = [
 		],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "In den beiden Wohnvierteln gab es 2024 keinen Neubau. Allerdings verzeichnete das Wohnviertel Kleinviertel Kleinhüningen viele Dachstockausbauten.",
+		"lesehilfe": "In den beiden Wohnvierteln gab es 2024 keinen Neubau. Allerdings verzeichnete das Wohnviertel Kleinhüningen viele Dachstockausbauten.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -54854,7 +54854,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:37",
+		"aktualisierungsdatum": "2026-01-30T08:56:28",
 		"id": 8066
 	},
 	{
@@ -54868,7 +54868,7 @@ var indikatoren = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 in beiden Wohnvierteln zusammen bei 16 Wohnungen welche alle durch Umbau zustande kamen. 2005, 2011 und 2020 wurden massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2024 in beiden Wohnvierteln zusammen bei 16 Wohnungen, welche alle durch Umbau zustande kamen. 2005, 2011 und 2020 wurden massgeblich von grossen Neubauprojekten beeinflusst. 2019 entstand aus einem Büro- und 2022 aus einem Hotelgebäude ein Wohngebäude mit 80 bzw. 157 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -54894,7 +54894,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-15T09:47:39",
+		"aktualisierungsdatum": "2026-01-30T08:56:30",
 		"id": 8067
 	},
 	{
