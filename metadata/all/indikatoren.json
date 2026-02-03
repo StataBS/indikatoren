@@ -1172,8 +1172,8 @@
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 gab es im Kanton Basel-Stadt 59 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Sie alle verfügen über eine Bewilligung zu Ausübung und Abrechnung von Spitex-Leistungen.",
-		"erlaeuterungen": "Stand Ende 2024",
+		"lesehilfe": "Anfang 2025 gab es im Kanton Basel-Stadt 65 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Alle verfügen über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen.",
+		"erlaeuterungen": "Stand Anfang 2025",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1200,7 +1200,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:06:09",
+		"aktualisierungsdatum": "2026-02-03T07:01:22",
 		"id": 11168
 	},
 	{
@@ -1212,8 +1212,8 @@
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Anfang 2025 gab es 606 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 235 (74,5%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Die Aktualisierung der Daten erfolgt jeweils am Anfang und am Ende des aktuellen Jahres.<br><br>Stand Anfang 2025",
+		"lesehilfe": "Anfang 2026 gab es 604 Plätze in speziellen Wohnformen (20,2% aller Plätze) in den Pflegeheimen und 2 234 (74,6%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Die Aktualisierung der Daten erfolgt jeweils am Anfang und am Ende des aktuellen Jahres.<br><br>Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1240,7 +1240,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-06T08:02:02",
+		"aktualisierungsdatum": "2026-02-03T07:01:26",
 		"id": 11169
 	},
 	{
@@ -1252,8 +1252,8 @@
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Anfang 2025 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2025",
+		"lesehilfe": "Anfang 2026 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1280,7 +1280,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:06:07",
+		"aktualisierungsdatum": "2026-02-03T07:01:16",
 		"id": 11170
 	},
 	{
@@ -6264,6 +6264,92 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 12728,
+		"chart-id": 12728,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen",
+		"subtitle": "nach Herkunft der Bewohnenden",
+		"lesehilfe": "Die weitaus meisten Pflegetage in Pflegeheimen werden für Bewohnende aus der Stadt Basel erbracht. Im Jahr 2023 waren dies 843 844 Pflegetage.",
+		"erlaeuterungen": "Die Herkunft bezeichnet den Wohnort der Pflegeheimbewohnenden vor ihrem Eintritt in ein Pflegeheim im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Gemeinde",
+			"Grossregion"
+		],
+		"description": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.6",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:47",
+		"id": 12728
+	},
+	{
+		"template": "line001",
+		"data-id": 12729,
+		"chart-id": 12729,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Pflegestufen-Durchschnitt in Pflegeheimen",
+		"subtitle": "nach Herkunft der Bewohnenden",
+		"lesehilfe": "Die durchschnittliche Pflegestufe von Personen aus der Stadt Basel ist tendenziell höher als von Personen aus den Gemeinden Riehen und Bettingen. Im Jahr 2023 betrug der Pflegstufendurchschnitt in der Stadt Basel 6,4.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Aufgrund der etwas kleineren Fallzahl bei Bewohnenden aus der Gemeinde Bettingen kann es zu höheren Schwankungen kommen.<br>Die Y-Achse ist zur besseren Vergleichbarkeit des Pflegestufendurchschnitts nicht ab dem Nullpunkt dargestellt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Gemeinde",
+			"Grossregion"
+		],
+		"description": "Pflegestufen-Durchschnitt in Pflegeheimen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.7",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:51",
+		"id": 12729
+	},
+	{
+		"template": "line001",
 		"data-id": 12730,
 		"chart-id": 12730,
 		"filter": "",
@@ -9020,6 +9106,206 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-10-10T09:02:47",
 		"id": 22425
+	},
+	{
+		"template": "line001",
+		"data-id": 22432,
+		"chart-id": 22432,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex in der Stadt Basel",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden in der Stadt Basel 562 355.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung.<br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Anzahl Pflegestunden Spitex in der Stadt Basel",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.22",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_022",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:29",
+		"id": 22432
+	},
+	{
+		"template": "line001",
+		"data-id": 22433,
+		"chart-id": 22433,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex in der Gemeinde Riehen",
+		"subtitle": "Gemeinde Riehen",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden in Riehen 66 835.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung.<br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex in der Gemeinde Riehen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.23",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_023",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:33",
+		"id": 22433
+	},
+	{
+		"template": "line001",
+		"data-id": 22434,
+		"chart-id": 22434,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex in der Gemeinde Bettingen",
+		"subtitle": "Gemeinde Bettingen",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden in der Gemeinde Bettingen 4 192.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung.<br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Anzahl Pflegestunden Spitex in der Gemeinde Bettingen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.24",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_024",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:36",
+		"id": 22434
+	},
+	{
+		"template": "line001",
+		"data-id": 22435,
+		"chart-id": 22435,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex der Spitex-Anbieter mit Leistungsauftrag",
+		"subtitle": "Spitex-Anbieter mit Leistungsauftrag (SML)",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden der Spitex-Organisationen mit einem Leistungsauftrag insgesamt 284 132.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung.<br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex der Spitex-Anbieter mit Leistungsauftrag",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.25",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_025",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:39",
+		"id": 22435
+	},
+	{
+		"template": "line001",
+		"data-id": 22436,
+		"chart-id": 22436,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex der Spitex-Anbieter ohne Leistungsauftrag",
+		"subtitle": "Spitex-Anbieter ohne Leistungsauftrag (SOL)",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden der Spitex-Organisationen ohne einen Leistungsauftrag insgesamt 349 250.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>Die Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung.<br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex der Spitex-Anbieter ohne Leistungsauftrag",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.26",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_026",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-02-03T07:01:42",
+		"id": 22436
 	},
 	{
 		"template": "line001",
@@ -15851,8 +16137,8 @@
 			5113
 		],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2025/26 mit 71,4% nicht wie im Vorjahr im Wettsteinquartier erreicht, sondern in der Altstadt Grossbasel. Am anderen Ende der Skala rangieren aktuell die Wohnviertel Altstadt Kleinbasel mit 11,1% und Kleinhüningen mit 15,9%. Die Zahl der Beobachtungen ist allerdings gerade in den beiden Altstadtvierteln klein.",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -15880,7 +16166,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:25",
+		"aktualisierungsdatum": "2026-02-03T07:02:00",
 		"id": 4826
 	},
 	{
@@ -18171,8 +18457,8 @@
 		"parentId": "4826",
 		"children": [],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2025/26 mit 71,4% nicht wie im Vorjahr im Wettsteinquartier erreicht, sondern in der Altstadt Grossbasel. Am anderen Ende der Skala rangieren aktuell die Wohnviertel Altstadt Kleinbasel mit 11,1% und Kleinhüningen mit 15,9%. Die Zahl der Beobachtungen ist allerdings gerade in den beiden Altstadtvierteln klein.",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -18200,7 +18486,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:26",
+		"aktualisierungsdatum": "2026-02-03T07:02:03",
 		"id": 5113
 	},
 	{
@@ -72502,7 +72788,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-27T08:35:11",
+		"aktualisierungsdatum": "2026-02-03T07:00:56",
 		"id": 8995
 	},
 	{
@@ -72875,7 +73161,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-27T08:35:14",
+		"aktualisierungsdatum": "2026-02-03T07:01:00",
 		"id": 9022
 	},
 	{
@@ -72913,7 +73199,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-27T08:35:17",
+		"aktualisierungsdatum": "2026-02-03T07:01:04",
 		"id": 9023
 	},
 	{
@@ -80404,7 +80690,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-13T12:16:23",
+		"aktualisierungsdatum": "2026-02-03T07:01:08",
 		"id": 9475
 	},
 	{
@@ -83253,7 +83539,7 @@
 		"children": [],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 207 515 Personen (+1 207 gegenüber 2023). <br><h2>Zielwert:</h2>220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: lineares Wachstum um 1 225 Personen pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen (+3 014 gegenüber 2024). <br><h2>Zielwert:</h2>220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: lineares Wachstum um 1 225 Personen pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -83279,7 +83565,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:29:54",
+		"aktualisierungsdatum": "2026-02-03T07:01:13",
 		"id": 9673
 	},
 	{
@@ -83408,7 +83694,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2024 waren durchschnittlich 3,7% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,7 Prozentpunkte gegenüber 2023. Die Arbeitslosenquote der Schweiz ist um 0,4 Prozentpunkte gestiegen.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
+		"lesehilfe": "2025 waren durchschnittlich 4,3% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,6 Prozentpunkte gegenüber 2024. Die Arbeitslosenquote der Schweiz ist im gleichen Zeitraum um 0,4 Prozentpunkte gestiegen.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -83420,7 +83706,7 @@
 		],
 		"description": "Arbeitslosenquote",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"unterthema": "Arbeitslose",
 		"kuerzel": "",
 		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "7",
@@ -83434,7 +83720,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-18T12:27:21",
+		"aktualisierungsdatum": "2026-02-03T07:01:57",
 		"id": 9677
 	},
 	{
@@ -83563,7 +83849,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2024 betrug die Nettowohnungsproduktion 4 194 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2025 betrug die Nettowohnungsproduktion 4 734 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum um ca. 600 Wohnungen pro Jahr (Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnerinnen und Einwohner bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -83589,7 +83875,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-27T08:15:34",
+		"aktualisierungsdatum": "2026-02-03T07:01:54",
 		"id": 9684
 	},
 	{

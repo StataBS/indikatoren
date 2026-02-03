@@ -2112,6 +2112,8 @@ var templatesById = {
 	"12721": "populationPyramid001",
 	"12722": "line001",
 	"12727": "line001",
+	"12728": "line001",
+	"12729": "line001",
 	"12730": "line001",
 	"12732": "line001",
 	"12733": "line001",
@@ -2176,5 +2178,10 @@ var templatesById = {
 	"22422": "template001",
 	"22423": "template001",
 	"22424": "template001",
-	"22425": "template001"
+	"22425": "template001",
+	"22432": "line001",
+	"22433": "line001",
+	"22434": "line001",
+	"22435": "line001",
+	"22436": "line001"
 };

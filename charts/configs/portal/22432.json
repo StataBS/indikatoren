@@ -1,0 +1,330 @@
+{
+  "series": [
+    {
+      "color": "#1f5647",
+      "stacking": true,
+      "data": [
+        [
+          2018,
+          29669
+        ],
+        [
+          2019,
+          30536
+        ],
+        [
+          2020,
+          34153
+        ],
+        [
+          2021,
+          34638
+        ],
+        [
+          2022,
+          37536
+        ],
+        [
+          2023,
+          41133
+        ],
+        [
+          2024,
+          43688
+        ]
+      ],
+      "name": "Bedarfsabklärung"
+    },
+    {
+      "color": "#43b696",
+      "stacking": true,
+      "data": [
+        [
+          2018,
+          141783
+        ],
+        [
+          2019,
+          138237
+        ],
+        [
+          2020,
+          166100
+        ],
+        [
+          2021,
+          169260
+        ],
+        [
+          2022,
+          165214
+        ],
+        [
+          2023,
+          174438
+        ],
+        [
+          2024,
+          179802
+        ]
+      ],
+      "name": "Behandlungspflege"
+    },
+    {
+      "color": "#4af1c3",
+      "stacking": true,
+      "data": [
+        [
+          2018,
+          276340
+        ],
+        [
+          2019,
+          274368
+        ],
+        [
+          2020,
+          312802
+        ],
+        [
+          2021,
+          305955
+        ],
+        [
+          2022,
+          296295
+        ],
+        [
+          2023,
+          308699
+        ],
+        [
+          2024,
+          338865
+        ]
+      ],
+      "name": "Grundpflege"
+    },
+    {
+      "type": "line",
+      "color": "#010101",
+      "stacking": false,
+      "data": [
+        [
+          2018,
+          447792
+        ],
+        [
+          2019,
+          443141
+        ],
+        [
+          2020,
+          513055
+        ],
+        [
+          2021,
+          509853
+        ],
+        [
+          2022,
+          499045
+        ],
+        [
+          2023,
+          524270
+        ],
+        [
+          2024,
+          562355
+        ]
+      ],
+      "name": "Anzahl Pflegestunden Spitex"
+    }
+  ],
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-22432"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Pflegestunden Spitex der Stadt Basel"
+  },
+  "subtitle": {
+    "text": "Stadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 150,
+    "alignColumns": false,
+    "itemDistance": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2025"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "useHTML": true,
+    "formatter": formatter() {
+        if (this.series.userOptions.stacking == true) { // nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = "<table>";
+          let s = 0;
+          series.forEach(series => {
+            if (series.userOptions.stacking == true) { // nur für series mit stacking: true
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>`
+                    + `<td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Stunden</b></td>`
+                    + `<td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1, ",", " ")}%)</td></tr>`;
+                  s += point.y;
+                }
+              });
+            }
+          });
+          tooltip += `<tr><td>Total:</td><td style="text-align:right"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Stunden</b></td></tr></table>`;
+          return `<span style="font-size: 10px">${this.x}</span><br>${tooltip}`;
+        } else {
+          return `<span style="font-size: 10px">${this.x}</span><br><span style="color:${this.color}">●</span> ${this.series.name}: <b>`
+            + `${Highcharts.numberFormat(this.y, 0, ",", " ")}</b><br/>`;
+        }
+      }
+  },
+  "exporting": {
+    "filename": "22432"
+  }
+}

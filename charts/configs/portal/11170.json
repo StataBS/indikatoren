@@ -63,6 +63,10 @@
         [
           2025,
           108
+        ],
+        [
+          2026,
+          108
         ]
       ],
       "name": "Allgemein"
@@ -129,6 +133,10 @@
         ],
         [
           2025,
+          62
+        ],
+        [
+          2026,
           62
         ]
       ],
@@ -197,6 +205,10 @@
         ],
         [
           2025,
+          170
+        ],
+        [
+          2026,
           170
         ]
       ],
@@ -328,7 +340,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
