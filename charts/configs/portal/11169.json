@@ -41,7 +41,11 @@
         ],
         [
           2025,
-          2235
+          2244
+        ],
+        [
+          2026,
+          2234
         ]
       ],
       "name": "Allgemeine Pflegeheimplätze"
@@ -88,6 +92,10 @@
         [
           2025,
           606
+        ],
+        [
+          2026,
+          604
         ]
       ],
       "name": "Spezielle Wohnformen (inkl. Entlastungsplätze)"
@@ -133,7 +141,11 @@
         ],
         [
           2025,
-          161
+          151
+        ],
+        [
+          2026,
+          155
         ]
       ],
       "name": "Nichttarifplätze"
@@ -264,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -3237,88 +3237,88 @@
       },
       "data": [
         [
-          18,
-          0.1385
-        ],
-        [
           12,
-          0.1538
-        ],
-        [
-          13,
-          0.2041
+          0.1111
         ],
         [
           19,
-          0.2182
+          0.1591
         ],
         [
-          6,
-          0.225
+          18,
+          0.169
         ],
         [
-          17,
-          0.2595
+          13,
+          0.2
         ],
         [
           4,
-          0.265
+          0.2523
         ],
         [
-          11,
-          0.2876
-        ],
-        [
-          16,
-          0.2927
+          17,
+          0.2634
         ],
         [
           10,
-          0.3121
+          0.2646
         ],
         [
-          15,
-          0.3445
+          6,
+          0.269
         ],
         [
-          5,
-          0.4421
+          16,
+          0.28
         ],
         [
-          20,
-          0.4821
-        ],
-        [
-          3,
-          0.5034
-        ],
-        [
-          9,
-          0.5088
-        ],
-        [
-          2,
-          0.5111
+          11,
+          0.3475
         ],
         [
           30,
+          0.36
+        ],
+        [
+          15,
+          0.4087
+        ],
+        [
+          5,
+          0.4219
+        ],
+        [
+          9,
+          0.4787
+        ],
+        [
+          3,
+          0.5132
+        ],
+        [
+          20,
+          0.5165
+        ],
+        [
+          2,
           0.5238
         ],
         [
-          7,
-          0.5464
+          14,
+          0.549
         ],
         [
-          1,
-          0.5789
+          7,
+          0.5522
         ],
         [
           8,
-          0.6042
+          0.5789
         ],
         [
-          14,
-          0.6154
+          1,
+          0.7143
         ]
       ]
     },
@@ -3329,23 +3329,23 @@
       "data": [
         [
           1,
-          "Klybeck"
-        ],
-        [
-          2,
           "Altstadt Kleinbasel"
         ],
         [
-          3,
-          "Clara"
-        ],
-        [
-          4,
+          2,
           "Kleinhüningen"
         ],
         [
+          3,
+          "Klybeck"
+        ],
+        [
+          4,
+          "Clara"
+        ],
+        [
           5,
-          "Gundeldingen"
+          "Breite"
         ],
         [
           6,
@@ -3353,11 +3353,11 @@
         ],
         [
           7,
-          "Breite"
+          "Iselin"
         ],
         [
           8,
-          "St. Johann"
+          "Gundeldingen"
         ],
         [
           9,
@@ -3365,43 +3365,43 @@
         ],
         [
           10,
-          "Iselin"
+          "St. Johann"
         ],
         [
           11,
-          "Hirzbrunnen"
-        ],
-        [
-          12,
-          "St. Alban"
-        ],
-        [
-          13,
-          "Riehen"
-        ],
-        [
-          14,
-          "Am Ring"
-        ],
-        [
-          15,
-          "Gotthelf"
-        ],
-        [
-          16,
-          "Vorstädte"
-        ],
-        [
-          17,
           "Bettingen"
         ],
         [
+          12,
+          "Hirzbrunnen"
+        ],
+        [
+          13,
+          "St. Alban"
+        ],
+        [
+          14,
+          "Gotthelf"
+        ],
+        [
+          15,
+          "Am Ring"
+        ],
+        [
+          16,
+          "Riehen"
+        ],
+        [
+          17,
+          "Vorstädte"
+        ],
+        [
           18,
-          "Bruderholz"
+          "Wettstein"
         ],
         [
           19,
-          "Altstadt Grossbasel"
+          "Bruderholz"
         ],
         [
           20,
@@ -3409,7 +3409,7 @@
         ],
         [
           21,
-          "Wettstein"
+          "Altstadt Grossbasel"
         ]
       ],
       "name": "Wohnviertel"
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
   },
   "colorAxis": {
     "min": 0,

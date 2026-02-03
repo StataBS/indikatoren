@@ -132,8 +132,8 @@ var indikatorensetData = [
 			5113
 		],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2025/26 mit 71,4% nicht wie im Vorjahr im Wettsteinquartier erreicht, sondern in der Altstadt Grossbasel. Am anderen Ende der Skala rangieren aktuell die Wohnviertel Altstadt Kleinbasel mit 11,1% und Kleinhüningen mit 15,9%. Die Zahl der Beobachtungen ist allerdings gerade in den beiden Altstadtvierteln klein.",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -160,7 +160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:25",
+		"aktualisierungsdatum": "2026-02-03T07:02:00",
 		"id": 4826
 	},
 	{
@@ -831,8 +831,8 @@ var indikatorensetData = [
 		"parentId": "4826",
 		"children": [],
 		"title": "Sek P-Quote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2024/25 mit 61,5% nicht wie in den Vorjahren auf dem Bruderholz erreicht, sondern im Wettsteinquartier. Am anderen Ende der Skala rangiert hingegen weiterhin das Wohnviertel Klybeck mit 13,9% (2023/24 10,2%). Auffällig ist der grosse Abstand zwischen dem Wohnviertel Hirzbrunnen (Rang 11 mit 34,4%) und dem Wohnviertel St. Alban (Rang 12 mit 44,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2025/26 mit 71,4% nicht wie im Vorjahr im Wettsteinquartier erreicht, sondern in der Altstadt Grossbasel. Am anderen Ende der Skala rangieren aktuell die Wohnviertel Altstadt Kleinbasel mit 11,1% und Kleinhüningen mit 15,9%. Die Zahl der Beobachtungen ist allerdings gerade in den beiden Altstadtvierteln klein.",
 		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Wohnort Basel-Stadt; ersetzt den früheren Indikator zur Gymnasialquote.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -859,7 +859,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-04T10:13:26",
+		"aktualisierungsdatum": "2026-02-03T07:02:03",
 		"id": 5113
 	},
 	{
