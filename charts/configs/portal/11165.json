@@ -3612,7 +3612,7 @@
           "lon": 7.655294066,
           "id": 2,
           "name": "Adullam Pflegezentrum Riehen",
-          "z": 60,
+          "z": 49,
           "address": "Schützengasse 60, 4125 Riehen"
         },
         {
@@ -3724,7 +3724,7 @@
           "lon": 7.654766762,
           "id": 16,
           "name": "Kommunität Diakonissenhaus Riehen",
-          "z": 12,
+          "z": 14,
           "address": "Schützengasse 51, 4125 Riehen"
         },
         {
@@ -3772,7 +3772,7 @@
           "lon": 7.587515132,
           "id": 22,
           "name": "irides AG Pflegezentrum",
-          "z": 78,
+          "z": 75,
           "address": "Kohlenberggasse 20, 4051 Basel"
         },
         {
@@ -3780,7 +3780,7 @@
           "lon": 7.581788301,
           "id": 23,
           "name": "Johanniter Alters- und Pflegeheim",
-          "z": 132,
+          "z": 129,
           "address": "Mülhauserstrasse 35, 4056 Basel"
         },
         {
@@ -3788,7 +3788,7 @@
           "lon": 7.600782774,
           "id": 24,
           "name": "Ländli Basel",
-          "z": 48,
+          "z": 49,
           "address": "St. Alban-Vorstadt 85, 4052 Basel"
         },
         {
@@ -3804,7 +3804,7 @@
           "lon": 7.56488082,
           "id": 26,
           "name": "Neues Marthastift",
-          "z": 109,
+          "z": 111,
           "address": "Friedrich Miescher-Str. 1, 4056 Basel"
         },
         {
@@ -3908,7 +3908,7 @@
           "lon": 7.619038566,
           "id": 36,
           "name": "Tertianum AG Residenz St. Jakob-Park",
-          "z": 24,
+          "z": 29,
           "address": "St. Jakobs-Strasse 395, 4052 Basel"
         },
         {
@@ -3924,7 +3924,7 @@
           "lon": 7.592936489,
           "id": 38,
           "name": "Alterszentrum Wiesendamm",
-          "z": 55,
+          "z": 53,
           "address": "Wiesendamm 20 \u002F 22, 4057 Basel"
         },
         {
@@ -4045,7 +4045,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Plätze, Basel-Stadt, 2025",
+    "text": "Anzahl Plätze, Basel-Stadt, 2026",
     "align": "left"
   },
   "credits": {
@@ -4061,7 +4061,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.4.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.2.2026"
   },
   "colorAxis": {
     "min": 0,

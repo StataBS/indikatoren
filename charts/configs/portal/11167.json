@@ -3642,6 +3642,13 @@
           "address": "Im Rankhof 8 und 10, 4058 Basel"
         },
         {
+          "lat": 47.55399091,
+          "lon": 7.575004653,
+          "name": "BSB Wohnen mit Service im Alter - Weiherweg",
+          "z": null,
+          "address": "Rudolfstrasse 46, 4054 Basel"
+        },
+        {
           "lat": 47.5644755,
           "lon": 7.564959652,
           "name": "BSB Wohnen mit Service im Alter - Westfeld",
@@ -3849,6 +3856,13 @@
           "address": "Im Rankhof 8 und 10, 4058 Basel"
         },
         {
+          "lat": 47.55399091,
+          "lon": 7.575004653,
+          "name": "BSB Wohnen mit Service im Alter - Weiherweg",
+          "z": 10,
+          "address": "Rudolfstrasse 46, 4054 Basel"
+        },
+        {
           "lat": 47.5644755,
           "lon": 7.564959652,
           "name": "BSB Wohnen mit Service im Alter - Westfeld",
@@ -3922,7 +3936,7 @@
           "lat": 47.55273281,
           "lon": 7.586971886,
           "name": "irides",
-          "z": 30,
+          "z": 44,
           "address": "Steinengraben 75, 4051 Basel"
         },
         {
@@ -4105,7 +4119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Wohnungen, Basel-Stadt, 2025",
+    "text": "Anzahl Wohnungen, Basel-Stadt, 2026",
     "align": "left"
   },
   "credits": {
@@ -4121,7 +4135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.11.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.2.2026"
   },
   "colorAxis": {
     "min": 0,
