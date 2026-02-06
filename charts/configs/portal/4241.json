@@ -162,10 +162,11 @@
       2002,
       2007,
       2012,
-      2017
+      2017,
+      2022
     ],
     "floor": 0,
-    "ceiling": 5,
+    "ceiling": 6,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -382,6 +383,7 @@
         48,
         null,
         53.7,
+        null,
         null
       ],
       "visible": true
@@ -423,6 +425,10 @@
         [
           null,
           null
+        ],
+        [
+          null,
+          null
         ]
       ],
       "visible": true
@@ -442,7 +448,8 @@
         40.8,
         46.3,
         48.6,
-        50.3
+        50.3,
+        55
       ],
       "visible": true
     },
@@ -479,6 +486,10 @@
         [
           49.5,
           51.1
+        ],
+        [
+          54.2,
+          55.8
         ]
       ],
       "visible": true

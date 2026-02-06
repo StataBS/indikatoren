@@ -201,10 +201,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 35,
+    "ceiling": 36,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -451,7 +452,8 @@
         0,
         10,
         40,
-        4
+        4,
+        0
       ],
       "visible": true
     },
@@ -462,7 +464,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "Tage mit Hochwasser ",
-      "color": "#68AB2B",
+      "color": "#FF8028",
       "id": "BS&BL0809_2",
       "valueSuffix": "Tage",
       "data": [
@@ -499,6 +501,7 @@
         6,
         0,
         0,
+        null,
         null,
         null,
         null

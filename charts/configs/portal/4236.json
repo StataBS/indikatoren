@@ -182,10 +182,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 16,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -413,7 +414,8 @@
         9,
         10,
         12,
-        9
+        9,
+        8
       ],
       "visible": true
     },
@@ -438,6 +440,7 @@
       "id": "BS&BL1607_4",
       "valueSuffix": "Milligramm pro Liter",
       "data": [
+        10,
         10,
         10,
         10,

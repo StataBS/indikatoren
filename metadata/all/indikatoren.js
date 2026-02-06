@@ -8297,7 +8297,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-07-07T01:16:30",
+		"aktualisierungsdatum": "2026-02-06T08:30:52",
 		"id": 22343
 	},
 	{
@@ -8336,7 +8336,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-07-07T01:16:21",
+		"aktualisierungsdatum": "2026-02-06T08:30:50",
 		"id": 22344
 	},
 	{
@@ -11663,7 +11663,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:29",
+		"aktualisierungsdatum": "2026-02-06T08:29:45",
 		"id": 4221
 	},
 	{
@@ -11704,7 +11704,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:26",
+		"aktualisierungsdatum": "2026-02-06T08:29:42",
 		"id": 4222
 	},
 	{
@@ -11722,7 +11722,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11745,7 +11745,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:30",
+		"aktualisierungsdatum": "2026-02-06T08:29:47",
 		"id": 4223
 	},
 	{
@@ -11763,7 +11763,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11786,7 +11786,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:31",
+		"aktualisierungsdatum": "2026-02-06T08:29:48",
 		"id": 4224
 	},
 	{
@@ -11804,7 +11804,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik-bs.ch/tabellen/t08 target=_blank rel=nofollow>http://www.statistik-bs.ch/tabellen/t08</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11827,7 +11827,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:32",
+		"aktualisierungsdatum": "2026-02-06T08:29:50",
 		"id": 4225
 	},
 	{
@@ -11845,8 +11845,7 @@ var indikatoren = [
 			"Verein Minergie<sup>®</sup>"
 		],
 		"externalLinks": [
-			"<a href = 'Gebäude mit Minergie-Standard' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNjkmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/</a>",
-			"<a href = 'Verein Minergie<sup>®</sup><br>Gebäude und Energie (AUE BS)' target = '_blank'><a href=http://www.minergie.ch/ target=_blank rel=nofollow>http://www.minergie.ch/</a><br><a href=http://www.aue.bs.ch/energie/gebaeude-energie.html target=_blank rel=nofollow>http://www.aue.bs.ch/energie/gebaeude-energie.html</a></a>",
+			"<a href = 'Verein Minergie<sup>®</sup><br>Gebäude und Energie (AUE BS)' target = '_blank'><a href=http://www.minergie.ch/ target=_blank rel=nofollow>http://www.minergie.ch/</a><br><a href=https://www.bs.ch/wsu/aue/abteilung-energie target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/abteilung-energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11869,7 +11868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:34",
+		"aktualisierungsdatum": "2026-02-06T08:29:53",
 		"id": 4226
 	},
 	{
@@ -11882,12 +11881,12 @@ var indikatoren = [
 		"title": "Spezifischer Heizwärmebedarf von neuen Bauten",
 		"subtitle": "in Kilowattstunden pro Quadratmeter",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Durchschnittlicher spezifischer Heizwärmebedarf aller in einem Jahr bewilligten Neubauten.<br><br>Die Daten werden im Rahmen des Baugesuchsverfahrens erhoben. Der Heizwärmebedarf ist die auf die Energiebezugsfläche bezogene Wärmemenge, die pro Jahr erforderlich ist, um die Gebäudewärme auf einer gewünschten Temperatur zu halten.",
+		"erlaeuterungen": "Durchschnittlicher spezifischer Heizwärmebedarf von Neubauten. <br><br>Die Daten werden im Rahmen des Baugesuchsverfahrens erhoben. Ein Gebäude wird dabei immer dem Jahr zugeteilt, in welchen das zugehörige Baugesuch eingereicht wurde. Der Heizwärmebedarf ist die auf die Energiebezugsfläche bezogene Wärmemenge, die pro Jahr erforderlich ist, um die Gebäudewärme auf einer gewünschten Temperatur zu halten.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Gebäude und Energie (AUE BS)' target = '_blank'><a href=http://www.aue.bs.ch/energie/gebaeude-energie.html target=_blank rel=nofollow>http://www.aue.bs.ch/energie/gebaeude-energie.html</a></a>",
+			"<a href = 'Gebäude und Energie (AUE BS)' target = '_blank'><a href=https://www.bs.ch/wsu/aue/abteilung-energie target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/abteilung-energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11910,7 +11909,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:35",
+		"aktualisierungsdatum": "2026-02-06T08:29:55",
 		"id": 4227
 	},
 	{
@@ -11951,7 +11950,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:36",
+		"aktualisierungsdatum": "2026-02-06T08:29:56",
 		"id": 4228
 	},
 	{
@@ -11969,7 +11968,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energieeffizienz Schweiz (BFS)' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html</a></a>",
+			"<a href = 'Energieeffizienz Schweiz (BFS)' target = '_blank'><a href=https://www.bfe.admin.ch/bfe/de/home/versorgung/energieeffizienz.html target=_blank rel=nofollow>https://www.bfe.admin.ch/bfe/de/home/versorgung/energieeffizienz.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11992,7 +11991,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:37",
+		"aktualisierungsdatum": "2026-02-06T08:29:58",
 		"id": 4229
 	},
 	{
@@ -12010,7 +12009,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12033,7 +12032,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:28",
+		"aktualisierungsdatum": "2026-02-06T08:29:44",
 		"id": 4230
 	},
 	{
@@ -12074,7 +12073,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:29",
+		"aktualisierungsdatum": "2026-02-06T08:31:17",
 		"id": 4231
 	},
 	{
@@ -12116,7 +12115,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:28",
+		"aktualisierungsdatum": "2026-02-06T08:31:15",
 		"id": 4232
 	},
 	{
@@ -12156,7 +12155,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:30",
+		"aktualisierungsdatum": "2026-02-06T08:31:18",
 		"id": 4233
 	},
 	{
@@ -12196,7 +12195,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:31",
+		"aktualisierungsdatum": "2026-02-06T08:31:20",
 		"id": 4234
 	},
 	{
@@ -12237,7 +12236,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:32",
+		"aktualisierungsdatum": "2026-02-06T08:31:22",
 		"id": 4236
 	},
 	{
@@ -12278,7 +12277,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:35",
+		"aktualisierungsdatum": "2026-02-06T08:31:26",
 		"id": 4237
 	},
 	{
@@ -12316,7 +12315,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:35",
+		"aktualisierungsdatum": "2026-02-06T08:31:28",
 		"id": 4238
 	},
 	{
@@ -12334,7 +12333,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Temperatur von Fliessgewässern' target = '_blank'><a href=https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2613 target=_blank rel=nofollow>https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2613</a></a>",
+			"<a href = 'Temperatur von Fliessgewässern' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MxMDUmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
 			"<a href = 'BAFU Messstation Rhein, Palmrainbrücke (ID: 2613)' target = '_blank'><a href=https://www.hydrodaten.admin.ch/de/2613.html target=_blank rel=nofollow>https://www.hydrodaten.admin.ch/de/2613.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -12358,7 +12357,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:34",
+		"aktualisierungsdatum": "2026-02-06T08:31:25",
 		"id": 4240
 	},
 	{
@@ -12400,7 +12399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:39",
+		"aktualisierungsdatum": "2026-02-06T08:31:34",
 		"id": 4241
 	},
 	{
@@ -12442,7 +12441,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:37",
+		"aktualisierungsdatum": "2026-02-06T08:31:31",
 		"id": 4243
 	},
 	{
@@ -12460,7 +12459,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Organische Spurenstoffe in Gewässern' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/wasser/fachinformationen/zustand-der-gewaesser/zustand-der-fliessgewaesser/wasserqualitaet-der-fliessgewaesser/mikroverunreinigungen-in-fliessgewaessern.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu/de/home/themen/wasser/fa</a>"
+			"<a href = 'Nährstoffe in Fliessgewässer' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwMjUmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -12482,7 +12481,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:36",
+		"aktualisierungsdatum": "2026-02-06T08:31:29",
 		"id": 4244
 	},
 	{
@@ -12523,7 +12522,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:38",
+		"aktualisierungsdatum": "2026-02-06T08:31:33",
 		"id": 4245
 	},
 	{
@@ -12564,7 +12563,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:17",
+		"aktualisierungsdatum": "2026-02-06T08:30:58",
 		"id": 4246
 	},
 	{
@@ -12648,7 +12647,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:23",
+		"aktualisierungsdatum": "2026-02-06T08:29:38",
 		"id": 4249
 	},
 	{
@@ -12692,7 +12691,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:24",
+		"aktualisierungsdatum": "2026-02-06T08:29:39",
 		"id": 4250
 	},
 	{
@@ -12733,7 +12732,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:22",
+		"aktualisierungsdatum": "2026-02-06T08:29:36",
 		"id": 4252
 	},
 	{
@@ -12775,7 +12774,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:20",
+		"aktualisierungsdatum": "2026-02-06T08:29:33",
 		"id": 4253
 	},
 	{
@@ -12819,7 +12818,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:21",
+		"aktualisierungsdatum": "2026-02-06T08:29:34",
 		"id": 4254
 	},
 	{
@@ -12839,7 +12838,6 @@ var indikatoren = [
 			"Bundesamt für Statistik, Arealstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Siedlungsfläche' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-biodiversitaet/biodiversitaet--daten--indikatoren-und-karten/biodiversitaet--indikatoren/indikator-biodiversitaet.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9UVUwMDYmbG5nPWRl.html target=_blank rel=</a>",
 			"<a href = 'Arealstatistik Schweiz (Methode)' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/erhebungen/area.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/erhebungen/area.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -12863,7 +12861,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:19",
+		"aktualisierungsdatum": "2026-02-06T08:29:31",
 		"id": 4255
 	},
 	{
@@ -12904,7 +12902,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:11",
+		"aktualisierungsdatum": "2026-02-06T08:29:20",
 		"id": 4257
 	},
 	{
@@ -12945,7 +12943,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:09",
+		"aktualisierungsdatum": "2026-02-06T08:29:17",
 		"id": 4258
 	},
 	{
@@ -12986,7 +12984,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:10",
+		"aktualisierungsdatum": "2026-02-06T08:29:19",
 		"id": 4259
 	},
 	{
@@ -13027,7 +13025,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:08",
+		"aktualisierungsdatum": "2026-02-06T08:29:16",
 		"id": 4260
 	},
 	{
@@ -13045,7 +13043,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Kanton Basel-Stadt: Bauen auf belasteten Standorten' target = '_blank'><a href=https://www.aue.bs.ch/altlasten/bauen-auf-belasteten-standorten.html target=_blank rel=nofollow>https://www.aue.bs.ch/altlasten/bauen-auf-belasteten-standorten.html</a></a>",
+			"<a href = 'Kanton Basel-Stadt: Bauen auf belasteten Standorten' target = '_blank'><a href=https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie#bauen-auf-belasteten-standorten target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie#bauen-auf-belasteten-standorten</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13068,7 +13066,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:12",
+		"aktualisierungsdatum": "2026-02-06T08:29:22",
 		"id": 4261
 	},
 	{
@@ -13109,7 +13107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:18",
+		"aktualisierungsdatum": "2026-02-06T08:29:30",
 		"id": 4262
 	},
 	{
@@ -13128,7 +13126,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Hochsicherheitslaboratorien in Biotechnologiebetrieben' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-biotechnologie/biotechnologie--daten--indikatoren-und-karten/biotechnologie--indikatoren/indikator-biotechnologie.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QlQwMTEmbG5nPWRl.html target=_blank rel=</a>",
-			"<a href = 'Gefahrenkataster BS (Kataster der Störfallverordnung)' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612950&map_y=1267191&map_zoom=2&tree_group_layers_Risikokataster%20 target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612950&map_y=1267191&map_zoom=2&tree_group_layers_Risikokataster%20</a>(Kataster%20der%20St%C3%B6rfallverordnung)=GE_BiologischeGefahrenKlasse2_B2Text%2CGE_BiologischeGefahrenKlasse2_BiologischeGefahrKl2%2CGE_BiologischeGefahrenKlasse3_B3Text%2CGE_Bio</a>",
+			"<a href = 'Gefahrenkataster BS (Kataster der Störfallverordnung)' target = '_blank'><a href=https://geoview.bl.ch/?map_x=2614470&map_y=1264954.9537904&map_zoom=4&tree_group_layers_Risiken%20Chemie=stoerfallvorsorge_kons_bereich_schifffahrtsweg_rhein%2Cstoerfallvorsorge_kons_bereich_strassen_bund%2Cstoerfallvorsorge_kons_bereich_strassen_bl%2Cstoerfallvorsorge_kons_bereich_bahn%2Cstoerfallvorsorge_kons_bereich_erdgasleitungen%2Cstoerfallvorsorge_kons_bereich_betriebe%2Cstoerfallbetriebe%2Cstrasse_transportangaben%2Crisiko_wasser%2Crisiko_luft%2Crisiko_boden%2Cpersonenrisiken%2C</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13151,7 +13149,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:16",
+		"aktualisierungsdatum": "2026-02-06T08:29:27",
 		"id": 4263
 	},
 	{
@@ -13234,7 +13232,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:17",
+		"aktualisierungsdatum": "2026-02-06T08:29:28",
 		"id": 4265
 	},
 	{
@@ -13252,7 +13250,7 @@ var indikatoren = [
 			"EuroAirport Basel-Mulhouse"
 		],
 		"externalLinks": [
-			"<a href = 'Flughafen Basel-Mulhouse<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html target=_blank rel=nofollow>https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html</a><br><a href=https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5</a></a>",
+			"<a href = 'Flughafen Basel-Mulhouse<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.euroairport.com/de target=_blank rel=nofollow>https://www.euroairport.com/de</a><br><a href=https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13275,7 +13273,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:59",
+		"aktualisierungsdatum": "2026-02-06T08:30:31",
 		"id": 4266
 	},
 	{
@@ -13316,7 +13314,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:57",
+		"aktualisierungsdatum": "2026-02-06T08:30:28",
 		"id": 4267
 	},
 	{
@@ -13357,7 +13355,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:58",
+		"aktualisierungsdatum": "2026-02-06T08:30:30",
 		"id": 4268
 	},
 	{
@@ -13375,7 +13373,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Lärmbelastung durch Verkehr nach WHO' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-laerm/laerm--daten--indikatoren-und-karten/laerm--indikatoren/indikator-laerm.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFIwMDcmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/</a>",
+			"<a href = 'Lärmbelastung durch Verkehr nach WHO' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-laerm/laerm--daten--indikatoren-und-karten/laerm--indikatoren/indikator-laerm.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFIwMDQmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://ww</a>",
 			"<a href = 'Strassenlärmkataster BS' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_L%C3%A4rmkataster=LA_Strassenlaerm_aktuell_LaermbelastungTag%2CLA_Strassenlaerm_aktuell_LaermbelastungNacht&tree_groups=L%C3%A4rmkataster%2CGew%C3%A4ssernetz%2CGew%C3%A4sserschutzkarte%2CGrundwasservorkommen&tree_group_layers_Gew%C3%A4ssernetz=&tree_group_layers_Gew%C3%A4sserschutzkarte=&tree_group_layers_Grundwasservorkommen= target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grun</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -13399,7 +13397,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:56",
+		"aktualisierungsdatum": "2026-02-06T08:30:27",
 		"id": 4269
 	},
 	{
@@ -13417,7 +13415,7 @@ var indikatoren = [
 			"Tiefbauamt Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Bundesamt für Umwelt (BAFU), Strassenlärm' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/laerm/fachinformationen/massnahmen-gegen-laerm/massnahmen-gegen-strassenlaerm.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu/de/home/themen/laerm/fachinformationen/massnahmen-gegen-laerm/massnahmen-gegen-strassenlaerm.html</a></a>",
+			"<a href = 'Bundesamt für Umwelt (BAFU), Strassenlärm' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/laerm/massnahmen-gegen-strassenlaerm.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu/de/home/themen/laerm/massnahmen-gegen-strassenlaerm.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1008' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13440,7 +13438,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:00",
+		"aktualisierungsdatum": "2026-02-06T08:30:33",
 		"id": 4270
 	},
 	{
@@ -13482,7 +13480,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:01",
+		"aktualisierungsdatum": "2026-02-06T08:30:35",
 		"id": 4272
 	},
 	{
@@ -13524,7 +13522,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:02",
+		"aktualisierungsdatum": "2026-02-06T08:30:36",
 		"id": 4273
 	},
 	{
@@ -13566,7 +13564,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:03",
+		"aktualisierungsdatum": "2026-02-06T08:30:38",
 		"id": 4274
 	},
 	{
@@ -13607,7 +13605,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:03",
+		"aktualisierungsdatum": "2026-02-06T08:30:39",
 		"id": 4275
 	},
 	{
@@ -13652,7 +13650,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:04",
+		"aktualisierungsdatum": "2026-02-06T08:30:41",
 		"id": 4276
 	},
 	{
@@ -13693,7 +13691,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:05",
+		"aktualisierungsdatum": "2026-02-06T08:30:42",
 		"id": 4277
 	},
 	{
@@ -13735,7 +13733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:06",
+		"aktualisierungsdatum": "2026-02-06T08:30:44",
 		"id": 4278
 	},
 	{
@@ -13777,7 +13775,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:07",
+		"aktualisierungsdatum": "2026-02-06T08:30:45",
 		"id": 4279
 	},
 	{
@@ -13861,7 +13859,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:08",
+		"aktualisierungsdatum": "2026-02-06T08:30:47",
 		"id": 4281
 	},
 	{
@@ -13899,7 +13897,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:24",
+		"aktualisierungsdatum": "2026-02-06T08:31:08",
 		"id": 4283
 	},
 	{
@@ -13912,7 +13910,7 @@ var indikatoren = [
 		"title": "Biotopwert",
 		"subtitle": "in Anzahl Stichproben",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Strukturvielfalt, Artenvielfalt und Naturnähe. Er ist somit eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für Tiere und Pflanzen. Der Biotopwert wird in die vier Klassen «Hoch», «Eher hoch», «Eher tief» und «Tief» eingeteilt.<br><br>Die Kontrollstichproben werden in den beiden Basel im Rahmen der Waldentwicklungspläne aufgenommen. Die Stichprobenflächen können je nach Aufnahmeperiode variieren. In den beiden Aufnahmeperioden wurden Stichprobeflächen der folgenden Gemeinden berücksichtigt:<br><br>Aufnahmeperiode 2 (2002 bis 2014): Allschwil, Aesch, Arboldswil, Arisdorf, Arlesheim, Augst, Basel, Bennwil, Bettingen, Biel-Benken, Binningen, Blauen, Böckten, Bottmingen, Bretzwil, Brislach, Buckten, Burg im Leimental, Buus, Diegten, Diepflingen, Dittingen, Duggingen, Eptingen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Giebenach, Grellingen, Häfelfingen, Hersberg, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kilchberg, Lampenberg, Langenbruck, Läufelfingen,Laufen, Lausen, Lauwil, Liedertswil, Liesberg, Liestal, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nusshof, Oberdorf, Oberwil, Olsberg, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rickenbach, Riehen, Roggenburg, Röschenz, Rümlingen, Rünenberg, Sissach, Tecknau, Tenniken, Therwil, Thürnen, Titterten, Wahlen, Waldenburg, Wintersingen, Wittinsburg, Zeglingen, Zunzgen, Zwingen.<br><br>Aufnahmeperiode 1 (1987 bis 2000): Aesch, Anwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bennwil, Böckten, Bretzwil, Bubendorf, Buckten, Buus, Diegten, Diepflingen, Duggingen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Giebenach, Häfelfingen, Hemmiken, Hersberg, Itingen, Kaiseraugst, Känerkinden, Langenbruck, Läufelfingen, Lausen, Lauwil, Liedertswil, Liestal, Lupsingen, Münchenstein, Muttenz, Muttenz, Niederdorf, Nusshof, Oberdorf, Olsberg, Oltingen, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Rickenbach, Rothenfluh, Rothenfluh, Rümlingen, Rünenberg, Seewen, Seltisberg, Sissach, Tecknau, Tenniken, Thürnen, Titterten, Waldenburg, Waldenburg, Wenslingen, Wintersingen, Wittinsburg",
+		"erlaeuterungen": "Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Strukturvielfalt, Artenvielfalt und Naturnähe. Er ist somit eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für Tiere und Pflanzen. Der Biotopwert wird in die vier Klassen «Hoch», «Eher hoch», «Eher tief» und «Tief» eingeteilt.<br><br>Die Kontrollstichproben werden in den beiden Basel im Rahmen der Waldentwicklungspläne aufgenommen. Die Stichprobenflächen können je nach Aufnahmeperiode variieren. In den drei Aufnahmeperioden wurden Stichprobeflächen der folgenden Gemeinden berücksichtigt:<br><br>Aufnahmeperiode 3 (2017 bis 2024): Aesch, Allschwil, Anwil, Basel-Stadt, Bettingen, Biel-Benken, Binningen, Bottmingen, Bubendorf, Buckten, Diepflingen, Duggingen, Ettingen, Gelterkinden, Grellingen, Häfelfingen, Hemmiken, Kilchberg, Langenbruck, Läufelfingen, Lupsingen, Oberwil, Oltingen, Ormalingen, Pfeffingen, Reinach, Riehen, Rothenfluh, Rümlingen, Rünenberg, Seltisberg, Tecknau, Therwil, Wenslingen, Wittinsburg, Zeglingen, Ziefen.<br><br>Aufnahmeperiode 2 (2002 bis 2014): Allschwil, Aesch, Arboldswil, Arisdorf, Arlesheim, Augst, Basel, Bennwil, Bettingen, Biel-Benken, Binningen, Blauen, Böckten, Bottmingen, Bretzwil, Brislach, Buckten, Burg im Leimental, Buus, Diegten, Diepflingen, Dittingen, Duggingen, Eptingen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Giebenach, Grellingen, Häfelfingen, Hersberg, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kilchberg, Lampenberg, Langenbruck, Läufelfingen,Laufen, Lausen, Lauwil, Liedertswil, Liesberg, Liestal, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nusshof, Oberdorf, Oberwil, Olsberg, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rickenbach, Riehen, Roggenburg, Röschenz, Rümlingen, Rünenberg, Sissach, Tecknau, Tenniken, Therwil, Thürnen, Titterten, Wahlen, Waldenburg, Wintersingen, Wittinsburg, Zeglingen, Zunzgen, Zwingen.<br><br>Aufnahmeperiode 1 (1987 bis 2000): Aesch, Anwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bennwil, Böckten, Bretzwil, Bubendorf, Buckten, Buus, Diegten, Diepflingen, Duggingen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Giebenach, Häfelfingen, Hemmiken, Hersb",
 		"quellenangabe": [
 			"Amt für Wald beider Basel"
 		],
@@ -13940,7 +13938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:25",
+		"aktualisierungsdatum": "2026-02-06T08:31:09",
 		"id": 4284
 	},
 	{
@@ -13981,7 +13979,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:21",
+		"aktualisierungsdatum": "2026-02-06T08:31:05",
 		"id": 4285
 	},
 	{
@@ -14022,7 +14020,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:22",
+		"aktualisierungsdatum": "2026-02-06T08:31:06",
 		"id": 4287
 	},
 	{
@@ -14063,7 +14061,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:25",
+		"aktualisierungsdatum": "2026-02-06T08:31:11",
 		"id": 4288
 	},
 	{
@@ -14104,7 +14102,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:27",
+		"aktualisierungsdatum": "2026-02-06T08:31:14",
 		"id": 4290
 	},
 	{
@@ -14142,7 +14140,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:26",
+		"aktualisierungsdatum": "2026-02-06T08:31:12",
 		"id": 4291
 	},
 	{
@@ -14183,7 +14181,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:12",
+		"aktualisierungsdatum": "2026-02-06T08:30:53",
 		"id": 4292
 	},
 	{
@@ -14224,7 +14222,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:13",
+		"aktualisierungsdatum": "2026-02-06T08:30:55",
 		"id": 4293
 	},
 	{
@@ -14265,7 +14263,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:15",
+		"aktualisierungsdatum": "2026-02-06T08:30:56",
 		"id": 4294
 	},
 	{
@@ -14306,7 +14304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:44",
+		"aktualisierungsdatum": "2026-02-06T08:30:11",
 		"id": 4298
 	},
 	{
@@ -14348,7 +14346,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:46",
+		"aktualisierungsdatum": "2026-02-06T08:30:14",
 		"id": 4299
 	},
 	{
@@ -14366,7 +14364,7 @@ var indikatoren = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"<a href = 'Stadtklimaanalyse<br>Stadtklimakonzept<br>Klimaanalyse Basel-Landschaft <br>Klimaindikatoren MeteoSchweiz<br>Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt' target = '_blank'><a href=https://www.klimaschutz.bs.ch/klimawandel/folgen-des-klimawandels/stadtklimaanalyse.html target=_blank rel=nofollow>https://www.klimaschutz.bs.ch/klimawandel/folgen-des-klimawandels/stadtklimaanalyse.html</a><br><a href=https://www.stadtklima.bs.ch/stadtklimakonzept.html target=_blank rel=nofollow>https://www.stadtklima.bs.ch/stadtklimakonzept.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klim</a>",
+			"<a href = 'Stadtklimaanalyse<br>Stadtklimakonzept<br>Klimaanalyse Basel-Landschaft <br>Klimaindikatoren MeteoSchweiz<br>Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612051&map_y=1267218&map_zoom=2&tree_group_layers_Stadtklima%20Basel-Stadt=FS_FokusgebieteStadtklimakonzept%2CKL_Windstroemungsfeld%2CKL_Waermeinseleffekt%2CKL_Lufttemperatur%2CKL_Kaltluftvolumenstromdichte%2CKL_Kaltluftvolumenstrom%2CKL_HumanbioklimaSituation%2CKL_Arealentwicklung_2030%2CKL_Windstroemungsfeld_2030%2CKL_Waermeinseleffekt_2030%2CKL_Lufttemperatur_2030%2CKL_Kaltluftvolumenstromdichte_2030%2CKL_Kaltluftv</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14389,7 +14387,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:43",
+		"aktualisierungsdatum": "2026-02-06T08:30:08",
 		"id": 4300
 	},
 	{
@@ -14402,13 +14400,13 @@ var indikatoren = [
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr gemessenen Lufttemperatur. Das 30-jährige gleitende Mittel der Lufttemperatur ist ein Indikator für den längerfristigen Entwicklungstrend der Lufttemperatur.<br><br>Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Der Wert des 30-jährigen gleitenden Mittels eines Jahres ist der Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren und zeigt die längerfristige, geglättete Entwicklung. <br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33' N / 7°35' E; seit 1929). Die historischen Messungen vor 1929 fanden an verschiedenen Orten in und um Basel statt, u.a. am Heuberg 16 (1755-1804) oder beim Bernoullianum (1874-1941), und wurden auf den heutigen Standort reduziert, d.h. statistisch angeglichen (siehe M. Bider, H. Schüepp & H. von Rudloff (1958): Die Reduktion der 200jährigen Basler Temperaturreihe. Archiv für Meteorologie, Geophysik und Bioklimatologie, Serie B, Band 9, Heft 3/4, S. 360-412. Springer-Verlag, Wien).",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr gemessenen Lufttemperatur. Das 30-jährige gleitende Mittel der Lufttemperatur ist ein Indikator für den längerfristigen Entwicklungstrend der Lufttemperatur. Es entspricht dem Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren.<br><br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33' N / 7°35' E; seit 1929). Die historischen Messungen vor 1929 fanden an verschiedenen Orten in und um Basel statt, u.a. am Heuberg 16 (1755-1804) oder beim Bernoullianum (1874-1941), und wurden auf den heutigen Standort reduziert, d.h. statistisch angeglichen (siehe M. Bider, H. Schüepp & H. von Rudloff (1958): Die Reduktion der 200jährigen Basler Temperaturreihe. Archiv für Meteorologie, Geophysik und Bioklimatologie, Serie B, Band 9, Heft 3/4, S. 360-412. Springer-Verlag, Wien).",
 		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
+			"MeteoSchweiz"
 		],
 		"externalLinks": [
 			"<a href = 'Jahresmitteltemperatur' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwMjImbG5nPWRlJlN1Ymo9Tg%3D%3D.html target=_blank rel=nofollow>https://ww</a>",
-			"<a href = 'Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt' target = '_blank'><a href=http://www.klimabasel.ch/ target=_blank rel=nofollow>http://www.klimabasel.ch/</a><br><a href=https://www.statistik.bs.ch/dam/jcr:63db6934-99d1-4270-9a95-c7be92d0d041/t02-3-04.xlsx target=_blank rel=nofollow>https://www.statistik.bs.ch/dam/jcr:63db6934-99d1-4270-9a95-c7be92d0d041/t02-3-04.xlsx</a></a>",
+			"<a href = 'Meteorologischer Verein der Region Basel<br>Meteorologische Beobachtungen, Statistisches Amt Basel-Stadt' target = '_blank'><a href=http://www.klimabasel.ch/ target=_blank rel=nofollow>http://www.klimabasel.ch/</a><br><a href=https://statistik.bs.ch/files/webtabellen/t02-3-04.xlsx target=_blank rel=nofollow>https://statistik.bs.ch/files/webtabellen/t02-3-04.xlsx</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14431,7 +14429,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:43",
+		"aktualisierungsdatum": "2026-02-06T08:30:09",
 		"id": 4301
 	},
 	{
@@ -14473,7 +14471,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:45",
+		"aktualisierungsdatum": "2026-02-06T08:30:12",
 		"id": 4302
 	},
 	{
@@ -14515,7 +14513,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:33",
+		"aktualisierungsdatum": "2026-02-06T08:31:23",
 		"id": 4303
 	},
 	{
@@ -14533,7 +14531,7 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Naturschutz BS' target = '_blank'><a href=https://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/lebensraueme/schutzgebiete.html target=_blank rel=nofollow>https://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/lebensraueme/schutzgebiete.html</a></a>",
+			"<a href = 'Naturschutz BS' target = '_blank'><a href=https://www.bs.ch/bvd/stadtgaertnerei/biodiversitaet/lebensraeume target=_blank rel=nofollow>https://www.bs.ch/bvd/stadtgaertnerei/biodiversitaet/lebensraeume</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14556,7 +14554,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:13",
+		"aktualisierungsdatum": "2026-02-06T08:29:23",
 		"id": 4305
 	},
 	{
@@ -14611,7 +14609,7 @@ var indikatoren = [
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"subtitle": "in Prozent",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Entwicklung des Anteils der Biodiversitätsförderflächen (BFF) im Vergleich zur gesamten Landwirtschaftlichen Nutzfäche (LN).<br><br>Jährliche Auswertung der Vertragsflächen (Biodiversitätsförderflächen) im Landwirtschaftsgebiet (Vereinbarungen mit den Landwirten).",
+		"erlaeuterungen": "Entwicklung des Anteils der Biodiversitätsförderflächen (BFF) im Vergleich zur gesamten Landwirtschaftlichen Nutzfläche (LN).<br><br>Jährliche Auswertung der Vertragsflächen (Biodiversitätsförderflächen) im Landwirtschaftsgebiet (Vereinbarungen mit den Landwirten).",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -14638,7 +14636,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:15",
+		"aktualisierungsdatum": "2026-02-06T08:29:25",
 		"id": 4307
 	},
 	{
@@ -14695,7 +14693,7 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Fläche der Bauzone, welche pro Einwohner und Beschäftigten beansprucht wird. Der Indikator zeigt somit die Entwicklung der inneren Verdichtung innerhalb der bestehenden überbauten Wohnbauzonen.<br><br>Berechnungsart auf Grundlage der technischen Richtlinien Bauzonen vom 17.März 2014 (UVEK). Allerdings werden nicht die Gemeindewerte differenziert nach Wohn- Misch- und Zentrumszonen verwendet, sondern ein Wert für den Kanton für alle bebauten Wohn- Misch - und Zentrumszonen (Hauptnutzungen 11,13,14). Zur Berechnung der Fläche pro Einwohner wird die überbaute Fläche der Wohn-, Misch- und Zentrumszonen dividiert durch die Anzahl der Einwohner und Beschäftigten (Vollzeitäquivalente) innerhalb dieser Zonen.",
 		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
+			"Bauzonenstatistik, Bundesamt für Raumentwicklung ARE"
 		],
 		"externalLinks": [
 			"<a href = 'Kantonaler Richtplan BS' target = '_blank'><a href=https://www.richtplan.bs.ch/download/richtplan/geltender-richtplan.html target=_blank rel=nofollow>https://www.richtplan.bs.ch/download/richtplan/geltender-richtplan.html</a></a>",
@@ -14721,7 +14719,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:54",
+		"aktualisierungsdatum": "2026-02-06T08:30:24",
 		"id": 4309
 	},
 	{
@@ -14736,10 +14734,10 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Der Indikator misst den Freiraumanteil der Landschaft. Er ermittelt dabei für einen beliebigen Punkt (Rasterzelle) im Kantonsgebiet die Distanz zum nächstgelegenen Gebäude. Ausgewiesen wird die Anzahl Zellen, bei welchen die Distanz zum nächstgelegenen Gebäude mehr als 500 Meter beträgt. Je kleiner die Anzahl dieser Zellen ist, desto geringer ist auch der Freiraumanteil der Landschaft.<br><br>Für ein über das jeweilige Kantonsgebiet gelegte Analyseraster (50x50 Meter) wird die Entfernung zwischen jedem Zellmittelpunkt zum jeweils nächstgelegenen Gebäude berechnet. Als Grundlage für die Berechnung dienen die kantonalen Gebäudedatenbanken. Für die Grenzgebiete zu den Nachbarkantonen und zum Ausland wurden passende Gebäudepunkte digitalisiert. Abschliessend wird die Anzahl bzw. der Anteil Zellen ermittelt, bei welchen die Distanz zum nächstgelegenen Gebäude mehr als 500 Meter beträgt.",
 		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
+			"Amt für Raumplanung Basel-Landschaft"
 		],
 		"externalLinks": [
-			"<a href = 'Freiraumkonzept BS' target = '_blank'><a href=http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html target=_blank rel=nofollow>http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html</a></a>",
+			"<a href = 'Freiraumkonzept BS' target = '_blank'><a href=https://www.bs.ch/bvd/staedtebau-architektur/raumplanung/freiraeume-landschaften/teilrichtplan-freiraeume target=_blank rel=nofollow>https://www.bs.ch/bvd/staedtebau-architektur/raumplanung/freiraeume-landschaften/teilrichtplan-freiraeume</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14762,7 +14760,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:55",
+		"aktualisierungsdatum": "2026-02-06T08:30:25",
 		"id": 4310
 	},
 	{
@@ -14777,10 +14775,10 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Fläche der Bauzone in Hektaren. Es werden sämtliche überbauten wie auch nicht überbauten Bauzonen ausgewiesen. <br><br>Fläche der Bauzonen gemäss dem minimalen Geodatenmodell Bauzonen (Hauptnutzung 11 - 19, ohne Strassenareale).",
 		"quellenangabe": [
-			"Planungsamt Basel-Stadt"
+			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Raumplanungsgesetz (RPG)<br>Zonenplan BS (MapBS)<br>Kantonaler Richtplan BS' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19790171/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19790171/index.html</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20farbig&tree_groups=Zonenplan%20Bettingen%2CZonenplan%20Riehen%2CZonenplan%20Stadt%20Basel&map_x=2610927&map_y=1266922&map_zoom=5&tree_group_layers_Zonenplan%20Bettingen=NB_Nutzungsplanung_Rekurs%2CNB_Nutzungsplanung_Linien%2CNB_Nutzungsplanung</a>",
+			"<a href = 'Raumplanungsgesetz (RPG)<br>Zonenplan BS (MapBS)<br>Kantonaler Richtplan BS' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20farbig&map_x=2610927&map_y=1266922&map_zoom=5&tree_group_layers_Zonenplan%20Bettingen=NB_Nutzungsplanung_Rekurs%2CNB_Nutzungsplanung_Linien%2CNB_Nutzungsplanung_Bebauungsplan%2CNB_Nutzungsplanung_Orientierend%2CNB_Nutzungsplanung_Grundnutzung&tree_group_layers_Zonenpla</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14803,7 +14801,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:53",
+		"aktualisierungsdatum": "2026-02-06T08:30:22",
 		"id": 4312
 	},
 	{
@@ -14821,8 +14819,8 @@ var indikatoren = [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			"<a href = 'Hochwasser' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/wasser.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu/de/home/themen/wasser.html</a></a>",
-			"<a href = 'Hochwasserschutz Basel-Stadt<br>Gefahrenkarte Basel-Stadt<br>Hochwasserstatistik BAFU' target = '_blank'><a href=https://www.tiefbauamt.bs.ch/abwasser/naturgefahren.html target=_blank rel=nofollow>https://www.tiefbauamt.bs.ch/abwasser/naturgefahren.html</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612970&map_y=1267896&map_zoom=3&tree_groups=Erdbebenmikrozonierung%2CNaturgefahren%2CRadonpotential&tree_group_layers_Naturgefahren=NG_Gefahrenkarten_ProzessWasser target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&</a>",
+			"<a href = 'Umweltbericht Schweiz (BAFU): Hochwasser' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwMTcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
+			"<a href = 'Hochwasserschutz Basel-Stadt<br>Gefahrenkarte Basel-Stadt<br>Hochwasserstatistik BAFU' target = '_blank'><a href=https://www.bs.ch/bvd/tiefbauamt/abwasser-gewaesser/hochwassergefahr#uferpflege-hochwasserschutz target=_blank rel=nofollow>https://www.bs.ch/bvd/tiefbauamt/abwasser-gewaesser/hochwassergefahr#uferpflege-hochwasserschutz</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612970&map_y=1267896&map_zoom=3&tree_group_layers_Naturgefahren=NG_Gefahrenkarten_ProzessWasser&tree_groups=Erdbebenmikrozonierung%2CNaturgefahren&tree_group_layers_Erdbebenmikroz</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14845,7 +14843,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:40",
+		"aktualisierungsdatum": "2026-02-06T08:30:03",
 		"id": 4314
 	},
 	{
@@ -14863,7 +14861,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel<br>Tiefbauamt Basel-Statd Gewässer und Naturgefahren"
 		],
 		"externalLinks": [
-			"<a href = 'Investitionen für den Schutz vor Naturgefahren' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-naturgefahren/naturgefahren--daten--indikatoren-und-karten/naturgefahren--indikatoren/indikator-naturgefahren.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9R0UwMjQmbG5nPWRl.html target=_blank rel=nofo</a>"
+			"<a href = 'Umweltbericht Schweiz (BAFU): Investitionen für den Schutz vor Naturgefahren ' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-naturgefahren/naturgefahren--daten--indikatoren-und-karten/naturgefahren--indikatoren/indikator-naturgefahren.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9R0UwNjYmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -14885,7 +14883,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:41",
+		"aktualisierungsdatum": "2026-02-06T08:30:05",
 		"id": 4315
 	},
 	{
@@ -14904,7 +14902,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Schäden durch Hochwasser, Murgänge, Rutschungen und Sturzprozesse' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-naturgefahren/naturgefahren--daten--indikatoren-und-karten/naturgefahren--indikatoren/indikator-naturgefahren.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9R0UwMTcmbG5nPWRl.html target=_blank rel=nofo</a>",
-			"<a href = 'Gebäudeversicherung Basel-Stadt<br>Gebäudeversicherungsgesetz Basel-Stadt' target = '_blank'><a href=https://www.gvbs.ch/ target=_blank rel=nofollow>https://www.gvbs.ch/</a><br><a href=https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/695.100/versions/3977 target=_blank rel=nofollow>https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/695.100/versions/3977</a></a>",
+			"<a href = 'Gebäudeversicherung Basel-Stadt<br>Gebäudeversicherungsgesetz Basel-Stadt' target = '_blank'><a href=https://www.gvbs.ch/ target=_blank rel=nofollow>https://www.gvbs.ch/</a><br><a href=https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/695.100/versions/5786 target=_blank rel=nofollow>https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/695.100/versions/5786</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14927,7 +14925,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:42",
+		"aktualisierungsdatum": "2026-02-06T08:30:06",
 		"id": 4316
 	},
 	{
@@ -14945,7 +14943,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/thema/1 target=_blank rel=nofollow>https://statistik.bs.ch/thema/1</a><br><a href=https://statistik.bs.ch/unterthema/1 target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/1</a></a>",
+			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/thema/bev%C3%B6lkerung target=_blank rel=nofollow>https://statistik.bs.ch/thema/bev%C3%B6lkerung</a><br><a href=https://statistik.bs.ch/unterthema/einwohner target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/einwohner</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -14968,7 +14966,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:44",
+		"aktualisierungsdatum": "2026-02-06T08:31:39",
 		"id": 4318
 	},
 	{
@@ -14986,7 +14984,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Verkehrsindex Amt für Mobilität Kanton Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/bvd/amt-fuer-mobilitaet target=_blank rel=nofollow>https://www.bs.ch/bvd/amt-fuer-mobilitaet</a></a>",
+			"<a href = 'Zahlen und Fakten zur Mobilität in Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/bvd/mobilitaet/grundlagen-und-strategien/zahlen-und-fakten target=_blank rel=nofollow>https://www.bs.ch/bvd/mobilitaet/grundlagen-und-strategien/zahlen-und-fakten</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15009,7 +15007,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:47",
+		"aktualisierungsdatum": "2026-02-06T08:31:43",
 		"id": 4319
 	},
 	{
@@ -15027,7 +15025,6 @@ var indikatoren = [
 			"Bundesamt für Statistik, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Wohnfläche' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9UVUwMDkmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/</a>",
 			"<a href = 'Wohnverhältnisse Schweiz (BFS)' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -15051,7 +15048,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:45",
+		"aktualisierungsdatum": "2026-02-06T08:31:40",
 		"id": 4320
 	},
 	{
@@ -15069,7 +15066,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15092,7 +15089,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:33",
+		"aktualisierungsdatum": "2026-02-06T08:29:51",
 		"id": 4321
 	},
 	{
@@ -15110,7 +15107,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15133,7 +15130,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:38",
+		"aktualisierungsdatum": "2026-02-06T08:29:59",
 		"id": 4322
 	},
 	{
@@ -15174,7 +15171,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:43",
+		"aktualisierungsdatum": "2026-02-06T08:31:37",
 		"id": 4323
 	},
 	{
@@ -15192,7 +15189,7 @@ var indikatoren = [
 			"Bundesamt für Strassen (ASTRA), Motorfahrzeugstatistik; Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle target=_blank rel=nofollow>https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle</a></a>",
+			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/jsd/polizei/fuer-ihre-sicherheit/im-verkehr/im-strassenverkehr/motorfahrzeugkontrolle target=_blank rel=nofollow>https://www.bs.ch/jsd/polizei/fuer-ihre-sicherheit/im-verkehr/im-strassenverkehr/motorfahrzeugkontrolle</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15215,7 +15212,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:46",
+		"aktualisierungsdatum": "2026-02-06T08:31:42",
 		"id": 4325
 	},
 	{
@@ -15255,7 +15252,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:05",
+		"aktualisierungsdatum": "2026-02-06T08:29:10",
 		"id": 4330
 	},
 	{
@@ -15274,7 +15271,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Recyclingquote' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMzEmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin</a>",
-			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/wsu/aue target=_blank rel=nofollow>https://www.bs.ch/wsu/aue</a></a>",
+			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit target=_blank rel=nofollow>https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15297,7 +15294,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:01",
+		"aktualisierungsdatum": "2026-02-06T08:29:04",
 		"id": 4331
 	},
 	{
@@ -15307,7 +15304,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bauabfälle",
+		"title": "Inertstoffe",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Jährliche Menge an Inertstoffen (ohne unverschmutzen Aushub), welche auf Deponien vom Typ B entsorgt werden. <br><br>Unter Inertstoffen subsumiert man nicht verwertbare, mineralische Bauabfälle wie beispielsweise Mauerabbruch und schwach belastetes Aushubmaterial sowie mengenmässig untergeordnet gewisse betriebliche Abfälle.<br>Als chemisch inert (lat. für untätig, unbeteiligt, träge) bezeichnet man Substanzen, die mit potenziellen Reaktionspartnern (Luft, Wasser) nicht oder nur in verschwindend geringem Masse reagieren. Inertstoffe lösen sich nicht auf, sind nicht brennbar und bauen sich nicht biologisch ab. Sie beeinträchtigen andere Materialien, mit denen sie in Berührung kommen nicht in einer Weise, die zu Umweltverschmutzung führt oder sich negativ auf die menschliche Gesundheit auswirken könnte.<br><br>Summe der jährlich auf Deponien vom Typ B (bis 2015 Inertstoffdeponien) abgelagerten Inertstoffe. Unverschmutztes Aushubmaterial, welches auf Deponien vom Typ B abgelagert wird, wird dabei nicht berücksichtigt. Die Inerstoffmengen umfassen einen Anteil von rund 20 % an Abfällen von ausserhalb der Kantone Basel-Landschaft und Basel-Stadt. Datengrundlage bildet die Deponiestatistik Kanton Basel-Landschaft.",
@@ -15323,7 +15320,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bauabfälle",
+		"description": "Inertstoffe",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kuerzel": "I.02.6.4332",
@@ -15339,7 +15336,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:07",
+		"aktualisierungsdatum": "2026-02-06T08:29:13",
 		"id": 4332
 	},
 	{
@@ -15358,7 +15355,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'In der Schweiz anfallende Sonderabfälle ' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMDMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie</a></a>",
+			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit/industrie-und-gewerbeabfaelle/bauabfaelle-recyceln-und-entsorgen target=_blank rel=nofollow>https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit/industrie-und-gewerbeabfaelle/bauabfaelle-recyceln-und-entsorgen</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15381,7 +15378,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:07",
+		"aktualisierungsdatum": "2026-02-06T08:29:14",
 		"id": 4333
 	},
 	{
@@ -15423,7 +15420,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:03",
+		"aktualisierungsdatum": "2026-02-06T08:29:07",
 		"id": 4334
 	},
 	{
@@ -15461,7 +15458,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:06",
+		"aktualisierungsdatum": "2026-02-06T08:29:11",
 		"id": 4335
 	},
 	{
@@ -15502,7 +15499,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:04",
+		"aktualisierungsdatum": "2026-02-06T08:29:08",
 		"id": 4336
 	},
 	{
@@ -15521,7 +15518,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Siedlungsabfälle' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMDUmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/wsu/aue target=_blank rel=nofollow>https://www.bs.ch/wsu/aue</a></a>",
+			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit target=_blank rel=nofollow>https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15544,7 +15541,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:00",
+		"aktualisierungsdatum": "2026-02-06T08:29:02",
 		"id": 4337
 	},
 	{
@@ -15562,7 +15559,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Bau- und Wohnungswesen BS' target = '_blank'><a href=https://statistik.bs.ch/thema/3 target=_blank rel=nofollow>https://statistik.bs.ch/thema/3</a></a>",
+			"<a href = 'Bau- und Wohnungswesen BS' target = '_blank'><a href=https://statistik.bs.ch/unterthema/bautaetigkeit target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/bautaetigkeit</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -15585,7 +15582,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:02",
+		"aktualisierungsdatum": "2026-02-06T08:29:05",
 		"id": 4338
 	},
 	{
@@ -20260,7 +20257,7 @@ var indikatoren = [
 		"title": "Nachhaltige Holznutzung",
 		"subtitle": "in Prozent",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Verhältnis zwischen nachwachsender und genutzter Holzmenge.<br><br>Die Werte berechnen sich aus dem Verhältnis zwischen der effektiven Nutzung (angezeichnete Holzmenge im Bestand) und dem Hiebsatz (nachhaltig nutzbarer Zuwachs im bewirtschafteten Wald).<br>Datengrundlage: Die Zuwachsdaten stammen vom Stichprobennetz (Amt für Wald beider Basel) und Waldentwicklungsplänen, die Nutzungsdaten werden durch die Forstbetriebe erhoben (Anzeichnung im stehenden, bewirtschafteten Wald).",
+		"erlaeuterungen": "Verhältnis zwischen nachwachsender und genutzter Holzmenge.<br><br>Die Werte berechnen sich aus dem Verhältnis zwischen der effektiven Nutzung (angezeichnete Holzmenge im Bestand) und dem Hiebsatz (nachhaltig nutzbarer Zuwachs im bewirtschafteten Wald).<br>Datengrundlage: Die Zuwachsdaten stammen vom Stichprobennetz (Amt für Wald beider Basel) und Waldentwicklungsplänen, die Nutzungsdaten werden durch die Forstbetriebe erhoben (Anzeichnung im stehenden, bewirtschafteten Wald in Silven (nicht m3)).",
 		"quellenangabe": [
 			"Amt für Wald beider Basel"
 		],
@@ -20289,7 +20286,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:20",
+		"aktualisierungsdatum": "2026-02-06T08:31:03",
 		"id": 5797
 	},
 	{
@@ -20333,7 +20330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:18",
+		"aktualisierungsdatum": "2026-02-06T08:31:00",
 		"id": 5798
 	},
 	{
@@ -20378,7 +20375,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:25",
+		"aktualisierungsdatum": "2026-02-06T08:29:41",
 		"id": 5799
 	},
 	{
@@ -20420,7 +20417,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:19",
+		"aktualisierungsdatum": "2026-02-06T08:31:02",
 		"id": 5800
 	},
 	{
@@ -46253,7 +46250,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Dezember 2025 bei 4,6% und ist damit höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Januar 2026 bei 4,8% und ist damit höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) sowie die Quote bei den Personen ab 50 Jahren sind höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2021-2023 verwendet. Aufgrund einer Änderung im Erfassungssystem zeigen die Arbeitslosenzahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -46279,7 +46276,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-09T07:59:15",
+		"aktualisierungsdatum": "2026-02-06T08:28:54",
 		"id": 7510
 	},
 	{
@@ -46291,7 +46288,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Stand 22.12.2025 sind in Basel-Stadt mehr offene Stellen gemeldet als Ende Dezember 2024. Die Zahl per Ende November 2025 war ebenfalls höher als im Vorjahr.",
+		"lesehilfe": "Ende Januar 2025 sind in Basel-Stadt mehr meldepflichtige und weniger nicht meldepflichtige offene Stellen gemeldet als im Vorjahresmonat.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -46317,7 +46314,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-09T07:59:18",
+		"aktualisierungsdatum": "2026-02-06T08:28:56",
 		"id": 7511
 	},
 	{
@@ -72367,7 +72364,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Dezember 2025 fast 4800 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Januar 2026 rund 4 900 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 900 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -72393,7 +72390,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-09T07:59:20",
+		"aktualisierungsdatum": "2026-02-06T08:28:57",
 		"id": 8980
 	},
 	{
@@ -72431,7 +72428,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-09T07:59:21",
+		"aktualisierungsdatum": "2026-02-06T08:28:59",
 		"id": 8981
 	},
 	{
@@ -72747,7 +72744,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-09T07:59:23",
+		"aktualisierungsdatum": "2026-02-06T08:29:00",
 		"id": 8992
 	},
 	{
@@ -81084,7 +81081,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:09",
+		"aktualisierungsdatum": "2026-02-06T08:30:48",
 		"id": 9507
 	},
 	{
@@ -85118,7 +85115,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/unterthema/energie target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0614' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -85141,7 +85138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:39",
+		"aktualisierungsdatum": "2026-02-06T08:30:01",
 		"id": 9885
 	},
 	{
@@ -85182,7 +85179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:50",
+		"aktualisierungsdatum": "2026-02-06T08:30:19",
 		"id": 9886
 	},
 	{
@@ -85201,7 +85198,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Mittlerer Abfluss Station Rhein-Basel ' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwMTkmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Aktuelle Pegel Basel<br>Aktueller Pegel Kaub<br>Daten Abfluss und Wasserstand Basel, Rheinhalle<br>Zentralkommission für die Rheinschifffahrt<br>Wasserstrassen im Bundesverkehrswegeplan 2030<br>Auswirkungen des Klimawandels auf die Abflussanteile aus' target = '_blank'><a href=https://port-of-switzerland.ch/hafenservice/pegel/ target=_blank rel=nofollow>https://port-of-switzerland.ch/hafenservice/pegel/</a><br><a href=https://www.elwis.de/DE/dynamisch/gewaesserkunde/wasserstaende/index.php?target=2&pegelId=1d26e504-7f9e-480a-b52c-5932be6549ab target=_blank rel=nofollow>https://www.elwis.de/DE/dynamisch/gewaesserkunde/wasserstaende/index.php?target=2&pegelId=1d26e504-7f9e-480a-b52c-5932be6549ab</a><br><a href=https://www.hydrodaten.admin.ch/de/2289</a>",
+			"<a href = 'Aktuelle Pegel Basel<br>Aktueller Pegel Kaub<br>Daten Abfluss und Wasserstand Basel, Rheinhalle<br>Zentralkommission für die Rheinschifffahrt<br>Wasserstrassen im Bundesverkehrswegeplan 2030<br>Auswirkungen des Klimawandels auf die Abflussanteile aus' target = '_blank'><a href=https://port-of-switzerland.ch/hafenservice/pegel/ target=_blank rel=nofollow>https://port-of-switzerland.ch/hafenservice/pegel/</a><br><a href=https://www.elwis.de/DE/dynamisch/Wasserstaende/Pegelvorhersage:KAUB target=_blank rel=nofollow>https://www.elwis.de/DE/dynamisch/Wasserstaende/Pegelvorhersage:KAUB</a><br><a href=https://www.hydrodaten.admin.ch/de/2289.html target=_blank rel=nofollow>https://www.hydrodaten.admin.ch/de/2289.html</a><br><a href=https://www.ccr-z</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0809' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -85224,7 +85221,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:47",
+		"aktualisierungsdatum": "2026-02-06T08:30:16",
 		"id": 9887
 	},
 	{
@@ -85243,7 +85240,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Indikator Tropennächte' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNjMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://ww</a>",
-			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Tropennacht - MeteoSchweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html target=_blank rel=nofollow>https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blan</a>",
+			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Tropennacht - MeteoSchweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html target=_blank rel=nofollow>https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/copy_of_klima/klimaanalysekarten target=</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -85266,7 +85263,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:52",
+		"aktualisierungsdatum": "2026-02-06T08:30:20",
 		"id": 9888
 	},
 	{
@@ -85307,7 +85304,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:09:41",
+		"aktualisierungsdatum": "2026-02-06T08:31:35",
 		"id": 9889
 	},
 	{
@@ -85348,7 +85345,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2025-06-26T11:08:48",
+		"aktualisierungsdatum": "2026-02-06T08:30:17",
 		"id": 9891
 	},
 	{
