@@ -167,10 +167,11 @@
   "xAxis": {
     "categories": [
       2006,
-      2014
+      2014,
+      2025
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 2,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -383,6 +384,7 @@
       "valueSuffix": "Kilometer",
       "data": [
         1,
+        1.98,
         1.98
       ],
       "visible": true,
@@ -402,7 +404,8 @@
       "valueSuffix": "Kilometer",
       "data": [
         4.54,
-        9.69
+        9.69,
+        9.87
       ],
       "visible": true,
       "tooltip": {
@@ -421,7 +424,8 @@
       "valueSuffix": "Kilometer",
       "data": [
         13.19,
-        11.87
+        11.87,
+        13.01
       ],
       "visible": true,
       "tooltip": {
@@ -440,7 +444,8 @@
       "valueSuffix": "Kilometer",
       "data": [
         6.77,
-        14.63
+        14.63,
+        13.38
       ],
       "visible": true,
       "tooltip": {
@@ -459,7 +464,8 @@
       "valueSuffix": "Kilometer",
       "data": [
         9.52,
-        9.27
+        9.27,
+        9.33
       ],
       "visible": true,
       "tooltip": {

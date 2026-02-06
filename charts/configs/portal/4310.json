@@ -168,10 +168,12 @@
     "categories": [
       2015,
       2017,
-      2019
+      2019,
+      2021,
+      2023
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 4,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -315,7 +317,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Planungsamt Basel-Stadt",
+    "text": "Quelle: Amt für Raumplanung Basel-Landschaft",
     "href": false,
     "style": {
       "color": "#000000",
@@ -385,6 +387,8 @@
       "data": [
         16,
         16,
+        18,
+        18,
         18
       ],
       "visible": true

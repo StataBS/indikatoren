@@ -187,10 +187,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 29,
+    "ceiling": 30,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -375,10 +376,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": false
+    "enabled": true
   },
   "navigator": {
-    "enabled": false,
+    "enabled": true,
     "series": {
       "type": "line",
       "stacking": false
@@ -429,7 +430,8 @@
         15.09,
         14.99,
         14.94,
-        15.28
+        15.28,
+        15.29
       ],
       "visible": true
     },
@@ -561,6 +563,10 @@
         [
           13.27,
           17.6
+        ],
+        [
+          13.02,
+          17.5
         ]
       ],
       "visible": true
@@ -603,7 +609,8 @@
         12.22,
         10.73,
         12.63,
-        12.71
+        12.71,
+        12.28
       ],
       "visible": true
     }

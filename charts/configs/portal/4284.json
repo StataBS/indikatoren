@@ -167,10 +167,11 @@
   "xAxis": {
     "categories": [
       "Periode 1: 1984-2000",
-      "Periode 2: 2002-2014"
+      "Periode 2: 2002-2014",
+      "Periode 3: 2016-2024"
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 2,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -382,8 +383,9 @@
       "id": "BS&BL1509_1",
       "valueSuffix": "Anzahl Stichproben",
       "data": [
-        487,
-        2242
+        503,
+        2259,
+        1083
       ],
       "visible": true,
       "tooltip": {
@@ -401,8 +403,9 @@
       "id": "BS&BL1509_2",
       "valueSuffix": "Anzahl Stichproben",
       "data": [
-        2050,
-        5062
+        2046,
+        5065,
+        1556
       ],
       "visible": true,
       "tooltip": {
@@ -420,8 +423,9 @@
       "id": "BS&BL1509_3",
       "valueSuffix": "Anzahl Stichproben",
       "data": [
-        1281,
-        2287
+        1608,
+        2751,
+        710
       ],
       "visible": true,
       "tooltip": {
@@ -439,8 +443,9 @@
       "id": "BS&BL1509_4",
       "valueSuffix": "Anzahl Stichproben",
       "data": [
-        587,
-        1005
+        248,
+        521,
+        91
       ],
       "visible": true,
       "tooltip": {
@@ -459,7 +464,8 @@
       "valueSuffix": "Anzahl Stichproben",
       "data": [
         14,
-        126
+        126,
+        82
       ],
       "visible": true,
       "tooltip": {

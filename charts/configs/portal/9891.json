@@ -159,7 +159,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003EAnzahl Personenwagen",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003EProzent (rechte Skala)",
     "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
@@ -185,10 +185,11 @@
       2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "floor": 0,
-    "ceiling": 19,
+    "ceiling": 20,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -422,6 +423,7 @@
         599,
         871,
         1054,
+        1324,
         null
       ],
       "visible": true
@@ -459,6 +461,7 @@
         16,
         22,
         32,
+        55,
         null
       ],
       "visible": true
@@ -496,6 +499,7 @@
         902,
         1290,
         1830,
+        2378,
         null
       ],
       "visible": true
@@ -533,6 +537,7 @@
         12,
         13,
         12,
+        12,
         null
       ],
       "visible": true
@@ -568,6 +573,7 @@
         2.47,
         3.62,
         4.92,
+        6.43,
         null
       ],
       "visible": true,
@@ -576,7 +582,7 @@
     {
       "includeInCSVExport": true,
       "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E% \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
         "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
       },
       "dashStyle": "ShortDash",
@@ -590,7 +596,7 @@
       },
       "type": "line",
       "showInNavigator": true,
-      "name": "Zielpfad BS (2037: 97%)",
+      "name": "Zielpfad BS (2037: 97% emissionsfreie Personenwagen; rechte Skala)",
       "color": "#444444",
       "id": "BS0811_11",
       "valueSuffix": "Anzahl Personenwagen; Prozent (rechte Skala)",
@@ -610,13 +616,15 @@
         null,
         null,
         null,
-        null,
-        null,
-        3.62,
-        9.845,
-        16.071
+        0.8,
+        1.2,
+        1.6,
+        2,
+        2.5,
+        2.9
       ],
-      "visible": true
+      "visible": true,
+      "yAxis": 1
     }
   ]
 }
