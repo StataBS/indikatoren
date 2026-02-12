@@ -4,6 +4,22 @@
       "color": "rgb(255, 128, 40)",
       "data": [
         [
+          1935,
+          42
+        ],
+        [
+          1936,
+          42
+        ],
+        [
+          1937,
+          42
+        ],
+        [
+          1938,
+          42
+        ],
+        [
           1939,
           42
         ],
@@ -344,8 +360,12 @@
           64
         ],
         [
-          2024649291,
-          undefined
+          2024,
+          64
+        ],
+        [
+          2025,
+          63
         ]
       ],
       "name": "Geöffnete Betriebe"
@@ -354,6 +374,22 @@
       "color": "rgb(0, 122, 47)",
       "yAxis": 1,
       "data": [
+        [
+          1935,
+          2225
+        ],
+        [
+          1936,
+          2225
+        ],
+        [
+          1937,
+          2164
+        ],
+        [
+          1938,
+          2162
+        ],
         [
           1939,
           2137
@@ -695,8 +731,12 @@
           9397
         ],
         [
-          2024649291,
-          undefined
+          2024,
+          9291
+        ],
+        [
+          2025,
+          9493
         ]
       ],
       "name": "Verfügbare Betten (rechte Skala)"
@@ -782,7 +822,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
           return this.value;
         }
       }
@@ -857,7 +897,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

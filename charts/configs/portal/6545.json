@@ -6,54 +6,54 @@
       "data": [
         [
           "Jan",
-          27114.9
+          29207
         ],
         [
           "Feb",
-          27340.5
+          28799
         ],
         [
           "Mrz",
-          34301.8
+          36153.3
         ],
         [
           "Apr",
-          33260.3
+          36628.7
         ],
         [
           "Mai",
-          37928.4
+          43172.7
         ],
         [
           "Jun",
-          34505
+          38670.7
         ],
         [
           "Jul",
-          40886.7
+          45246.6
         ],
         [
           "Aug",
-          37894.3
+          41881.2
         ],
         [
           "Sep",
-          37576.6
+          41780
         ],
         [
           "Okt",
-          42224.4
+          46480.2
         ],
         [
           "Nov",
-          40224.9
+          44353
         ],
         [
           "Dez",
-          35369.1
+          41007.6
         ]
       ],
-      "name": "Inland Ø 2014-2023",
+      "name": "Inland Ø 2016-2025",
       "turboThreshold": 0
     },
     {
@@ -62,54 +62,54 @@
       "data": [
         [
           "Jan",
-          41948.6
+          42856.9
         ],
         [
           "Feb",
-          47740.7
+          48303.8
         ],
         [
           "Mrz",
-          59588.6
+          58849
         ],
         [
           "Apr",
-          53830.1
+          56714
         ],
         [
           "Mai",
-          62828.9
+          67159.3
         ],
         [
           "Jun",
-          76521.9
+          79420.6
         ],
         [
           "Jul",
-          73920.3
+          78998.8
         ],
         [
           "Aug",
-          74428.8
+          79814.4
         ],
         [
           "Sep",
-          73821.2
+          76947
         ],
         [
           "Okt",
-          68343.9
+          71937.5
         ],
         [
           "Nov",
-          59591
+          63373.9
         ],
         [
           "Dez",
-          61512.9
+          72496.6
         ]
       ],
-      "name": "Ausland Ø 2014-2023",
+      "name": "Ausland Ø 2016-2025",
       "turboThreshold": 0
     },
     {
@@ -118,54 +118,54 @@
       "data": [
         [
           "Jan",
-          30060
+          34823
         ],
         [
           "Feb",
-          35509
+          31759
         ],
         [
           "Mrz",
-          37658
+          51255
         ],
         [
           "Apr",
-          45651
+          46001
         ],
         [
           "Mai",
-          54134
+          60871
         ],
         [
           "Jun",
-          46711
+          51114
         ],
         [
           "Jul",
-          52091
+          62050
         ],
         [
           "Aug",
-          44284
+          51137
         ],
         [
           "Sep",
-          45699
+          56799
         ],
         [
           "Okt",
-          47479
+          59469
         ],
         [
           "Nov",
-          54559
+          60452
         ],
         [
           "Dez",
-          47312
+          61537
         ]
       ],
-      "name": "Inland 2023",
+      "name": "Inland 2025",
       "turboThreshold": 0
     },
     {
@@ -174,54 +174,54 @@
       "data": [
         [
           "Jan",
-          46209
+          54340
         ],
         [
           "Feb",
-          50397
+          65831
         ],
         [
           "Mrz",
-          69584
+          74337
         ],
         [
           "Apr",
-          74010
+          77550
         ],
         [
           "Mai",
-          77585
+          89983
         ],
         [
           "Jun",
-          95905
+          102441
         ],
         [
           "Jul",
-          91748
+          105328
         ],
         [
           "Aug",
-          88865
+          108281
         ],
         [
           "Sep",
-          87311
+          93542
         ],
         [
           "Okt",
-          81345
+          90997
         ],
         [
           "Nov",
-          75420
+          81969
         ],
         [
           "Dez",
-          95449
+          114423
         ]
       ],
-      "name": "Ausland 2023",
+      "name": "Ausland 2025",
       "turboThreshold": 0
     }
   ],
@@ -361,10 +361,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "6545"

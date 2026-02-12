@@ -4,6 +4,18 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
+          1935,
+          1.84307021
+        ],
+        [
+          1936,
+          1.816065743
+        ],
+        [
+          1937,
+          1.793760906
+        ],
+        [
           1938,
           1.82877129
         ],
@@ -346,6 +358,14 @@
         [
           2023,
           1.64396425
+        ],
+        [
+          2024,
+          1.618343294
+        ],
+        [
+          2025,
+          1.671423889
         ]
       ],
       "name": "Inland"
@@ -353,6 +373,18 @@
     {
       "color": "rgb(105, 146, 155)",
       "data": [
+        [
+          1935,
+          1.466729663
+        ],
+        [
+          1936,
+          1.452496727
+        ],
+        [
+          1937,
+          1.34582531
+        ],
         [
           1938,
           1.445486354
@@ -696,6 +728,14 @@
         [
           2023,
           1.966897795
+        ],
+        [
+          2024,
+          1.961232534
+        ],
+        [
+          2025,
+          1.990844935
         ]
       ],
       "name": "Ausland"
@@ -781,7 +821,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
           return this.value;
         }
       }
@@ -832,7 +872,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
