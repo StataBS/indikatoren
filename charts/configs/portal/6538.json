@@ -5,26 +5,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          66.54221669
+          72.27759563
         ],
         [
           "3-Sterne",
-          55.57731507
+          56.66656158
         ],
         [
           "4- und 5-Sterne",
-          101.9147641
+          95.88615665
         ],
         [
           "Nicht klassiert",
-          15.82294521
+          20.78333333
         ],
         [
           "Total",
-          65.84591251
+          64.52954235
         ]
       ],
-      "name": "2015",
+      "name": "2016",
       "turboThreshold": 0
     },
     {
@@ -32,26 +32,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          69.851434426
+          69.337671233
         ],
         [
           "3-Sterne",
-          69.101838053
+          71.223874755
         ],
         [
           "4- und 5-Sterne",
-          99.741530055
+          104.749531363
         ],
         [
           "Nicht klassiert",
-          43.981459797
+          45.699178082
         ],
         [
           "Total",
-          73.275358607
+          75.017960426
         ]
       ],
-      "name": "2024",
+      "name": "2025",
       "turboThreshold": 0
     },
     {
@@ -68,26 +68,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          70.242523323
+          70.441034924
         ],
         [
           "3-Sterne",
-          63.469787302
+          65.151880885
         ],
         [
           "4- und 5-Sterne",
-          95.12219562
+          95.950122083
         ],
         [
           "Nicht klassiert",
-          31.268684025
+          33.877750374
         ],
         [
           "Total",
-          67.936447439
+          68.971223391
         ]
       ],
-      "name": "Ø 2015-2024",
+      "name": "Ø 2016-2025",
       "turboThreshold": 0
     }
   ],
@@ -222,7 +222,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -6,44 +6,44 @@
       "legendIndex": 0,
       "data": [
         [
-          "VR China",
-          2572
-        ],
-        [
           "Indien",
-          2250
+          2969
         ],
         [
-          "Spanien",
-          6141
+          "VR China",
+          2630
         ],
         [
           "Niederlande",
-          8264
+          8451
+        ],
+        [
+          "Spanien",
+          8049
         ],
         [
           "Italien",
-          8029
+          8908
         ],
         [
           "Frankreich",
-          7238
+          8414
         ],
         [
           "UK",
-          8324
+          12760
         ],
         [
           "USA",
-          4368
+          5300
         ],
         [
           "Deutschland",
-          23467
+          29171
         ],
         [
           "Schweiz",
-          53236
+          64397
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -55,44 +55,44 @@
       "legendIndex": 1,
       "data": [
         [
-          "VR China",
-          3538
-        ],
-        [
           "Indien",
-          6334
+          6580
         ],
         [
-          "Spanien",
-          13986
+          "VR China",
+          4876
         ],
         [
           "Niederlande",
-          12319
+          12289
+        ],
+        [
+          "Spanien",
+          17215
         ],
         [
           "Italien",
-          15223
+          16380
         ],
         [
           "Frankreich",
-          17052
+          17667
         ],
         [
           "UK",
-          24866
+          27017
         ],
         [
           "USA",
-          22460
+          26152
         ],
         [
           "Deutschland",
-          73458
+          72287
         ],
         [
           "Schweiz",
-          190221
+          205753
         ]
       ],
       "name": "3-Sterne",
@@ -104,44 +104,44 @@
       "legendIndex": 2,
       "data": [
         [
-          "VR China",
-          8869
-        ],
-        [
           "Indien",
-          7502
+          9257
         ],
         [
-          "Spanien",
-          12430
+          "VR China",
+          9650
         ],
         [
           "Niederlande",
-          17200
+          16494
+        ],
+        [
+          "Spanien",
+          14468
         ],
         [
           "Italien",
-          17298
+          18645
         ],
         [
           "Frankreich",
-          24096
+          24083
         ],
         [
           "UK",
-          49023
+          50309
         ],
         [
           "USA",
-          112924
+          116165
         ],
         [
           "Deutschland",
-          78239
+          72759
         ],
         [
           "Schweiz",
-          225934
+          265266
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -153,44 +153,44 @@
       "legendIndex": 3,
       "data": [
         [
-          "VR China",
-          975
-        ],
-        [
           "Indien",
-          964
+          1400
         ],
         [
-          "Spanien",
-          2717
+          "VR China",
+          1712
         ],
         [
           "Niederlande",
-          3734
+          6157
+        ],
+        [
+          "Spanien",
+          5899
         ],
         [
           "Italien",
-          4385
+          7931
         ],
         [
           "Frankreich",
-          5893
+          8715
         ],
         [
           "UK",
-          6077
+          11407
         ],
         [
           "USA",
-          6103
+          10000
         ],
         [
           "Deutschland",
-          30927
+          50069
         ],
         [
           "Schweiz",
-          71756
+          91851
         ]
       ],
       "name": "Nicht klassiert",
@@ -276,7 +276,7 @@
     "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -334,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
     "shared": false,

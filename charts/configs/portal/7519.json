@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          0.366885540432889
+          0.371980722
         ],
         [
           "Deutschland",
-          0.139725080086103
+          0.133005671
         ],
         [
           "Vereinigte Staaten",
-          0.098886421803759
+          0.093469743
         ],
         [
           "Vereinigtes Königreich",
-          0.059858641671893
+          0.060187192
         ],
         [
           "Frankreich",
-          0.036799945761793
+          0.034916316
         ],
         [
           "Italien",
-          0.03046492313429
-        ],
-        [
-          "Niederlande",
-          0.028147595721961
+          0.030756294
         ],
         [
           "Spanien",
-          0.023914981609858
+          0.027060012
+        ],
+        [
+          "Niederlande",
+          0.025731651
         ],
         [
           "Indien",
-          0.011559517957932
+          0.011982525
         ],
         [
           "China, Hongkong, Taiwan",
-          0.010816454516178
+          0.011189067
         ],
         [
           "Übrige Länder",
-          0.192940897303344
+          0.199720807
         ]
       ],
       "turboThreshold": 0
@@ -119,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "tooltip": {
@@ -140,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "legend": {
     "layout": "vertical",

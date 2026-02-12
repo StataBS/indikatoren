@@ -724,7 +724,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 17
+    "tickInterval": 10
   },
   "chart": {
     "type": "area",

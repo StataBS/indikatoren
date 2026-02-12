@@ -260,7 +260,7 @@ var indikatorensetData = [
 			8547
 		],
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
 		"lesehilfe": "Den höchsten Jugendquotienten weist die Gemeinde Riehen auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -288,7 +288,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:19",
+		"aktualisierungsdatum": "2026-02-12T09:18:25",
 		"id": 4829
 	},
 	{
@@ -948,7 +948,7 @@ var indikatorensetData = [
 		"parentId": "4829",
 		"children": [],
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
 		"lesehilfe": "Den höchsten Jugendquotienten weist die Gemeinde Riehen auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-13T08:37:20",
+		"aktualisierungsdatum": "2026-02-12T09:18:27",
 		"id": 5116
 	},
 	{

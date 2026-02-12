@@ -5,50 +5,50 @@
       "data": [
         [
           "Schweiz",
-          363756
+          406196
         ],
         [
           "Deutschland",
-          176308
+          167768
         ],
         [
           "Vereinigte Staaten",
-          112834
+          123366
         ],
         [
           "Vereinigtes Königreich",
-          92842
+          101277
         ],
         [
           "Frankreich",
-          50443
+          52631
         ],
         [
           "Italien",
-          46114
-        ],
-        [
-          "Niederlande",
-          28322
+          48749
         ],
         [
           "Spanien",
-          23691
+          27206
+        ],
+        [
+          "Niederlande",
+          26061
         ],
         [
           "Indien",
-          12230
+          14627
         ],
         [
           "VR China",
-          23944
+          19629
         ],
         [
           "Übrige Länder",
-          232454
+          230167
         ]
       ],
-      "name": "Logiernächte 2014",
+      "name": "Logiernächte 2016",
       "turboThreshold": 0
     },
     {
@@ -56,50 +56,50 @@
       "data": [
         [
           "Schweiz",
-          541147
+          627267
         ],
         [
           "Deutschland",
-          206091
+          224286
         ],
         [
           "Vereinigte Staaten",
-          145855
+          157617
         ],
         [
           "Vereinigtes Königreich",
-          88290
+          101493
         ],
         [
           "Frankreich",
-          54279
+          58879
         ],
         [
           "Italien",
-          44935
-        ],
-        [
-          "Niederlande",
-          41517
+          51864
         ],
         [
           "Spanien",
-          35274
+          45631
+        ],
+        [
+          "Niederlande",
+          43391
         ],
         [
           "Indien",
-          17050
+          20206
         ],
         [
           "VR China",
-          15954
+          18868
         ],
         [
           "Übrige Länder",
-          284583
+          336787
         ]
       ],
-      "name": "Logiernächte 2023",
+      "name": "Logiernächte 2025",
       "turboThreshold": 0
     },
     {
@@ -114,50 +114,50 @@
       "data": [
         [
           "Schweiz",
-          0.312790535694938
+          0.333582715284924
         ],
         [
           "Deutschland",
-          0.151605674593143
+          0.137777095239542
         ],
         [
           "Vereinigte Staaten",
-          0.097024948879476
+          0.101312581251021
         ],
         [
           "Vereinigtes Königreich",
-          0.07983400662804
+          0.0831723026713981
         ],
         [
           "Frankreich",
-          0.043375485193536
+          0.0432224637568091
         ],
         [
           "Italien",
-          0.039653016755837
-        ],
-        [
-          "Niederlande",
-          0.0243538348562
+          0.0400344262066213
         ],
         [
           "Spanien",
-          0.020371679315664
+          0.0223425423983536
+        ],
+        [
+          "Niederlande",
+          0.0214022273558587
         ],
         [
           "Indien",
-          0.010516467773862
+          0.0120122167044298
         ],
         [
           "VR China",
-          0.020589231756121
+          0.0161200384009881
         ],
         [
           "Übrige Länder",
-          0.199885118553182
+          0.189021390730054
         ]
       ],
-      "name": "Marktanteile (rechte Skala) 2014",
+      "name": "Marktanteile (rechte Skala) 2016",
       "turboThreshold": 0
     },
     {
@@ -172,50 +172,50 @@
       "data": [
         [
           "Schweiz",
-          0.366885540432889
+          0.371980722165655
         ],
         [
           "Deutschland",
-          0.139725080086103
+          0.133005671032664
         ],
         [
           "Vereinigte Staaten",
-          0.098886421803759
+          0.09346974332395
         ],
         [
           "Vereinigtes Königreich",
-          0.059858641671893
+          0.060187192112384
         ],
         [
           "Frankreich",
-          0.036799945761793
+          0.034916316242352
         ],
         [
           "Italien",
-          0.03046492313429
-        ],
-        [
-          "Niederlande",
-          0.028147595721961
+          0.030756293849987
         ],
         [
           "Spanien",
-          0.023914981609858
+          0.027060011658737
+        ],
+        [
+          "Niederlande",
+          0.025731650980348
         ],
         [
           "Indien",
-          0.011559517957932
+          0.011982524940861
         ],
         [
           "VR China",
-          0.010816454516178
+          0.011189066642788
         ],
         [
           "Übrige Länder",
-          0.192940897303344
+          0.199720807050274
         ]
       ],
-      "name": "Marktanteile (rechte Skala) 2023",
+      "name": "Marktanteile (rechte Skala) 2025",
       "turboThreshold": 0
     }
   ],
@@ -408,7 +408,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

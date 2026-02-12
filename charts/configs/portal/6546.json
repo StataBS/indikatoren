@@ -6,6 +6,18 @@
       "legendIndex": 0,
       "data": [
         [
+          "1935",
+          144458
+        ],
+        [
+          "1936",
+          126627
+        ],
+        [
+          "1937",
+          126444
+        ],
+        [
           "1938",
           132286
         ],
@@ -348,6 +360,14 @@
         [
           "2023",
           541147
+        ],
+        [
+          "2024",
+          582199
+        ],
+        [
+          "2025",
+          627267
         ]
       ],
       "name": "Logiernächte Inland",
@@ -358,6 +378,18 @@
       "index": 0,
       "legendIndex": 1,
       "data": [
+        [
+          "1935",
+          159875
+        ],
+        [
+          "1936",
+          155330
+        ],
+        [
+          "1937",
+          208288
+        ],
         [
           "1938",
           206560
@@ -701,6 +733,14 @@
         [
           "2023",
           933828
+        ],
+        [
+          "2024",
+          971726
+        ],
+        [
+          "2025",
+          1059022
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -724,7 +764,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 17
+    "tickInterval": 10
   },
   "chart": {
     "type": "area",
@@ -804,8 +844,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 1500000,
-    "tickInterval": 300000
+    "max": 1750000,
+    "tickInterval": 250000
   },
   "legend": {
     "enabled": true,
@@ -836,7 +876,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -873,7 +913,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "6546"
