@@ -5,6 +5,7 @@
     },
     "yAxis": {
       "min": undefined,
+      tickInterval: 0.5,
       "labels": {
         "format": "{value:,.1f}"
       }
@@ -15,17 +16,23 @@
     },
     "series": [
       { "color": "#FFBB58" },
-      { "color": "#FF8028" },
-      { "color": "#B00000" },
-      { "color": "#B375AB" },
-      { "color": "#662673" },
-      { "color": "#2E1435"
+      //{ "color": "#FF8028" },
+      { "color": "#B00000",
+        marker: {
+          "enabled": true,
+          "radius": 3
+        }
+      } 
+      //,
+      //{ "color": "#B375AB" },
+      //{ "color": "#662673" },
+      //{ "color": "#2E1435"
       //,
         //marker: {
           //"enabled": true,
           //"radius": 3
         //}
-      }
+      //}
     ],
     "legend": {
       "enabled": true,
