@@ -4,10 +4,6 @@
       "color": "rgb(111,111,111)",
       "data": [
         [
-          1733014800000,
-          0.4
-        ],
-        [
           1735693200000,
           0.5
         ],
@@ -53,6 +49,10 @@
         ],
         [
           1764550800000,
+          0.1
+        ],
+        [
+          1767229200000,
           0.1
         ]
       ],
@@ -62,10 +62,6 @@
       "color": "rgb(176,0,0)",
       "data": [
         [
-          1733014800000,
-          0.6
-        ],
-        [
           1735693200000,
           0.4
         ],
@@ -111,6 +107,10 @@
         ],
         [
           1764550800000,
+          0.1
+        ],
+        [
+          1767229200000,
           0.1
         ]
       ],
@@ -251,7 +251,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

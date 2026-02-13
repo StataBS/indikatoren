@@ -28677,8 +28677,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Dezember 2025 0,1%. Das Preisniveau ist damit gegenüber der Vorjahresperiode nur leicht gestiegen. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Dezember 2025 und Dezember 2024.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Januar 2026 0,1%. Das Preisniveau ist damit gegenüber der Vorjahresperiode nur leicht gestiegen. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -28705,7 +28705,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-08T08:51:07",
+		"aktualisierungsdatum": "2026-02-13T08:34:55",
 		"id": 7512
 	},
 	{
@@ -28716,8 +28716,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Basler Index",
-		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Dezember 2025 gegenüber November unverändert bei 106,3 Punkten geblieben.",
+		"subtitle": "Basis Dezember 2025 = 100",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Januar 2026 gegenüber Dezember unverändert bei 100,0 Punkten geblieben.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28744,7 +28744,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-08T08:51:10",
+		"aktualisierungsdatum": "2026-02-13T08:34:57",
 		"id": 7513
 	},
 	{
