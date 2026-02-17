@@ -14,8 +14,9 @@
       }
     },
     "yAxis": {
-      tickAmount: 5,
-      max: 40,
+      tickInterval: 10,
+     // tickAmount: 5,
+      max: 50,
       "labels": {
         "format": "{value:,.0f}"
       }

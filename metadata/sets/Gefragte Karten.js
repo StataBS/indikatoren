@@ -50,8 +50,8 @@ var indikatorensetData = [
 			6387
 		],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,3%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,7%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,0%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -76,7 +76,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:06",
+		"aktualisierungsdatum": "2026-02-17T07:21:58",
 		"id": 6375
 	},
 	{
@@ -89,8 +89,8 @@ var indikatorensetData = [
 			6388
 		],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,2%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,4%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,7%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -115,7 +115,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:08",
+		"aktualisierungsdatum": "2026-02-17T07:21:59",
 		"id": 6376
 	},
 	{

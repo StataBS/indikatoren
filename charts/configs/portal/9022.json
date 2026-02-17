@@ -4531,67 +4531,67 @@
         ],
         [
           37,
-          -70
+          -69
         ],
         [
           38,
-          -82
+          -81
         ],
         [
           39,
-          -73
+          -72
         ],
         [
           40,
-          -74
+          -73
         ],
         [
           41,
-          -79
+          -78
         ],
         [
           42,
-          -68
+          -67
         ],
         [
           43,
-          -79
+          -78
         ],
         [
           44,
-          -85
+          -84
         ],
         [
           45,
-          -88
+          -87
         ],
         [
           46,
-          -93
+          -92
         ],
         [
           47,
-          -105
+          -104
         ],
         [
           48,
-          -105
+          -104
         ],
         [
           49,
-          -113
+          -112
         ],
         [
           50,
-          -115
+          -114
         ],
         [
           51,
-          -131
+          -129
         ],
         [
           52,
-          -143
+          -141
         ],
         [
           53,
@@ -4751,7 +4751,7 @@
         ],
         [
           37,
-          -17
+          -16
         ],
         [
           38,
@@ -4807,7 +4807,7 @@
         ],
         [
           51,
-          -16
+          -15
         ],
         [
           52,
@@ -4835,7 +4835,7 @@
         ],
         [
           3,
-          null
+          33
         ],
         [
           4,
@@ -5055,7 +5055,7 @@
         ],
         [
           3,
-          null
+          7
         ],
         [
           4,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

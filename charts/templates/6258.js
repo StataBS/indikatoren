@@ -20,34 +20,25 @@
       }]
     },
     "series": [
-      {
-        "color": "#b00000 ",
-      }, /* rot */
-      {
-        "color": "#672773",
-      }, /* violett */
-      {
-        "color": "#007a2f",
-      },/* grün  */
-      {
-        "color": "#7F5F1A",
-      },/* braun  */
-      {
-        "color": "#E6E600",
-      },/* gelb  */
-      /*{
-        "color": "#008AC3",
-      },*//* blau  */
+      { "color": "#ff8028", legendIndex: 2 },
+      { "color": "#dc440e", legendIndex: 1, visible: true },
+      { "color": "#b00000", legendIndex: 3, visible: true },
+      { "color": "#661200", legendIndex: 4, visible: true },
+      { "color": "#672773", legendIndex: 5, visible: true },
+      { "color": "#999999", legendIndex: 6, "dashStyle": "ShortDash" }
     ],
     "legend": {
       "enabled": true,
       "layout": "horizontal",
-      itemDistance: 10,
+      //itemDistance: 10,
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
+      //"itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
+      itemWidth: 90,
+      width: 250,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
       }
     },
     "plotOptions": {

@@ -21,7 +21,7 @@
       }
     },
     "yAxis": {
-      max: 80000,
+      max: 100000,
       tickInterval: 20000,
       "labels": {
         y: 10,
