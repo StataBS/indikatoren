@@ -28,6 +28,7 @@
     },
     "yAxis": {
       tickInterval: 10,
+      max: 60,
       labels: {
         "format": "{value:,.0f}",
         y: 18

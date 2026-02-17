@@ -710,7 +710,7 @@
 	"6719": "template001_print",
 	"6720": "line001_print",
 	"6721": "template001_print",
-	"6722": "pie001_print",
+	"6722": "befragungen001_print",
 	"6723": "template001_print",
 	"6724": "template001_print",
 	"6725": "template001_print",
@@ -2183,5 +2183,12 @@
 	"22433": "line001",
 	"22434": "line001",
 	"22435": "line001",
-	"22436": "line001"
+	"22436": "line001",
+	"22462": "line001_print",
+	"22463": "line001_print",
+	"22464": "template001_print",
+	"22465": "template001_print",
+	"22466": "template001_print",
+	"22467": "template001_print",
+	"22468": "befragungen001_print"
 }

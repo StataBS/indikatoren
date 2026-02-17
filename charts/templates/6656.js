@@ -24,8 +24,8 @@
 	  }
   },
   "yAxis": {
-     tickInterval: 15000,
-     max: 75000,
+     tickInterval: 20000,
+     max: 100000,
     "labels": {
       //y: 10,
       "format": "{value:,.0f}",

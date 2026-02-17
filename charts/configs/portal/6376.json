@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          21.13
+          21.2
         ],
         [
           2,
-          21.62
+          21.8
         ],
         [
           3,
-          19.59
+          19.6
         ],
         [
           4,
-          20.02
+          20.1
         ],
         [
           5,
-          22.64
-        ],
-        [
-          6,
-          16.15
-        ],
-        [
-          7,
-          22.25
-        ],
-        [
-          8,
-          22.25
-        ],
-        [
-          9,
-          22.07
-        ],
-        [
-          10,
-          16.08
-        ],
-        [
-          11,
-          15.78
-        ],
-        [
-          12,
-          20.31
-        ],
-        [
-          13,
-          20.32
-        ],
-        [
-          14,
-          19.01
-        ],
-        [
-          15,
           22.3
         ],
         [
+          6,
+          16.2
+        ],
+        [
+          7,
+          22.1
+        ],
+        [
+          8,
+          22.6
+        ],
+        [
+          9,
+          21.9
+        ],
+        [
+          10,
+          16.1
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          12,
+          19.7
+        ],
+        [
+          13,
+          20.3
+        ],
+        [
+          14,
+          18.9
+        ],
+        [
+          15,
+          21.6
+        ],
+        [
           16,
-          9.46
+          9.7
         ],
         [
           17,
-          14.5
+          14.6
         ],
         [
           18,
-          15.01
+          14.9
         ],
         [
           19,
-          20.36
+          20.1
         ],
         [
           20,
-          25.33
+          25.4
         ],
         [
           30,
-          25.04
+          25.2
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          581
+          572
         ],
         [
           "Vorstädte",
-          1079
+          1113
         ],
         [
           "Am Ring",
-          2248
+          2280
         ],
         [
           "Breite",
-          1867
+          1879
         ],
         [
           "St. Alban",
-          2850
+          2843
         ],
         [
           "Gundeldingen",
-          3105
+          3157
         ],
         [
           "Bruderholz",
-          2138
+          2145
         ],
         [
           "Bachletten",
-          3063
+          3146
         ],
         [
           "Gotthelf",
-          1561
+          1589
         ],
         [
           "Iselin",
-          2901
+          2932
         ],
         [
           "St. Johann",
-          3087
+          3178
         ],
         [
           "Altstadt Kleinbasel",
-          495
+          499
         ],
         [
           "Clara",
-          896
+          916
         ],
         [
           "Wettstein",
-          1108
+          1118
         ],
         [
           "Hirzbrunnen",
-          2155
+          2160
         ],
         [
           "Rosental",
-          735
+          764
         ],
         [
           "Matthäus",
-          2199
+          2241
         ],
         [
           "Klybeck",
-          1066
+          1090
         ],
         [
           "Kleinhüningen",
-          565
+          581
         ],
         [
           "Riehen",
-          5737
+          5805
         ],
         [
           "Bettingen",
-          327
+          330
         ]
       ],
       "name": "Anzahl Personen über 64 Jahre"
@@ -7309,7 +7309,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2024",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -7325,7 +7325,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.6.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.2.2026"
   },
   "colorAxis": {
     "min": 0,

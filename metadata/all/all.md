@@ -2534,3 +2534,10 @@ id | visible | visibleInPortal | indikatorenset
 22434 | true | true | Gesundheitsversorgung
 22435 | true | true | Gesundheitsversorgung
 22436 | true | true | Gesundheitsversorgung
+22462 | true | false | Richtplan (Print)
+22463 | true | false | Richtplan (Print)
+22464 | true | false | Richtplan (Print)
+22465 | true | false | Richtplan (Print)
+22466 | true | false | Richtplan (Print)
+22467 | true | false | Richtplan (Print)
+22468 | true | false | Richtplan (Print)
