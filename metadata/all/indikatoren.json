@@ -18166,7 +18166,7 @@
 		"children": [],
 		"title": "Anzahl Betreibungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 1990er-Jahren stark erhöht, mit einem Höchststand 2014. Seitdem gingen die Werte wieder etwas zurück. Im Jahr 2024 gab es rund 67 500 Betreibungen.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich im Vergleich zu den 1990er-Jahren stark erhöht, mit einem Höchststand 2014. Seitdem gingen die Werte wieder etwas zurück. Im Jahr 2025 gab es rund 61 200 Betreibungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Betreibungs- und Konkursamt Basel-Stadt"
@@ -18192,7 +18192,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:46",
+		"aktualisierungsdatum": "2026-02-18T03:53:58",
 		"id": 4912
 	},
 	{
@@ -50896,8 +50896,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Dezember",
-		"lesehilfe": "Im Dezember 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in Riehen. In zwölf Wohnvierteln sank sie, in Bettingen veränderte sie sich nicht.",
+		"subtitle": "Basel-Stadt, Januar",
+		"lesehilfe": "Im Januar 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen. In fünf Wohnvierteln sowie in Bettingen sank sie, im Wohnviertel Gotthelf veränderte sie sich nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -50924,7 +50924,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-21T05:06:49",
+		"aktualisierungsdatum": "2026-02-18T03:54:00",
 		"id": 7763
 	},
 	{
