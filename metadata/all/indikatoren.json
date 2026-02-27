@@ -46676,7 +46676,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "175 960 Logiernächte wurden im Dezember 2025 in den Basler Hotelbetrieben gebucht, 33 539 mehr als im November. Im Vergleich zum Dezember 2024 entspricht dies einer Zunahme um 2,7% bzw. 4 552 Übernachtungen. Die inländischen Gäste buchten 61 537 Logiernächte (+2,8%), die Gäste aus dem Ausland 114 423 Übernachtungen (+2,6%).",
+		"lesehilfe": "99 534 Logiernächte wurden im Januar 2026 in den Basler Hotelbetrieben gebucht, 76 426 weniger als im Dezember. Im Vergleich zum Januar 2025 entspricht dies einer Zunahme um 11,6% bzw. 10 371 Übernachtungen. Die inländischen Gäste buchten 42 362 Logiernächte (+21,6%), die Gäste aus dem Ausland 57 172 Übernachtungen (+5,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -46702,7 +46702,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-12T09:17:55",
+		"aktualisierungsdatum": "2026-02-27T08:36:31",
 		"id": 7516
 	},
 	{
@@ -46713,8 +46713,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Dezember",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 65%.",
+		"subtitle": "Basel-Stadt, Januar",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 40%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -46740,7 +46740,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-12T09:17:57",
+		"aktualisierungsdatum": "2026-02-27T08:36:32",
 		"id": 7517
 	},
 	{
