@@ -118,6 +118,14 @@
         [
           "2023",
           15.6
+        ],
+        [
+          "2024",
+          15.7
+        ],
+        [
+          "2025",
+          15.7
         ]
       ],
       "name": "Kinder unter 18",
@@ -240,7 +248,15 @@
         ],
         [
           "2023",
-          12.2
+          12.4
+        ],
+        [
+          "2024",
+          13
+        ],
+        [
+          "2025",
+          13.4
         ]
       ],
       "name": "B-Bewilligung",
@@ -363,7 +379,15 @@
         ],
         [
           "2023",
-          17.3
+          17.2
+        ],
+        [
+          "2024",
+          17.1
+        ],
+        [
+          "2025",
+          17
         ]
       ],
       "name": "C-Bewilligung",
@@ -487,6 +511,14 @@
         [
           "2023",
           2.4
+        ],
+        [
+          "2024",
+          2.3
+        ],
+        [
+          "2025",
+          2.3
         ]
       ],
       "name": "Übrige Ausländer",
@@ -609,6 +641,14 @@
         ],
         [
           "2023",
+          1.8
+        ],
+        [
+          "2024",
+          1.8
+        ],
+        [
+          "2025",
           1.9
         ]
       ],
@@ -745,7 +785,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.7.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
