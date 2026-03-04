@@ -17,11 +17,12 @@
     "series": [
       { "color": "#FFBB58" },
       //{ "color": "#FF8028" },
-      { "color": "#B00000",
-        marker: {
-          "enabled": true,
-          "radius": 3
-        }
+      { "color": "#B00000"
+        // ,
+        // marker: {
+        //   "enabled": true,
+        //   "radius": 3
+        // }
       } 
       //,
       //{ "color": "#B375AB" },

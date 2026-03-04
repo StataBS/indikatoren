@@ -3549,8 +3549,8 @@
 		"children": [],
 		"title": "Neu zugelassene Personenwagen",
 		"subtitle": "nach Treibstoffart",
-		"lesehilfe": "Im Jahr 2024 waren von den 2 808 neu zugelassenen Personenwagen 1 172 bzw. 42% hybrid unterwegs. Rein elektrisch betrieben waren 651 bzw. 23%. Andere alternative Antriebe wie beispielsweise Gas oder Wasserstoff spielten hingegen kaum eine Rolle.",
-		"erlaeuterungen": "In der Schweiz erstmals in Verkehr gesetzte Strassenfahrzeuge mit Nummernschild des Kantons Basel-Stadt. Grösstenteils handelt es sich dabei um Neufahrzeuge, zu einem geringen Teil aber auch um aus dem Ausland importierte Occasionen (Gebrauchtfahrzeuge).",
+		"lesehilfe": "Im Jahr 2025 waren von den 2 652 neu zugelassenen Personenwagen 1 236 bzw. 47% hybrid unterwegs. Rein elektrisch betrieben waren 660 bzw. 25%. Antriebe wie Gas oder Wasserstoff waren nicht vertreten.",
+		"erlaeuterungen": "In der Schweiz erstmals in Verkehr gesetzte Strassenfahrzeuge mit Nummernschild des Kantons Basel-Stadt. Grösstenteils handelt es sich dabei um Neufahrzeuge, zu einem geringen Teil um aus dem Ausland importierte Occasionen (Gebrauchtfahrzeuge).",
 		"quellenangabe": [
 			"Bundesamt für Strassen (ASTRA)"
 		],
@@ -3575,7 +3575,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:39",
+		"aktualisierungsdatum": "2026-03-04T10:12:54",
 		"id": 12713
 	},
 	{
@@ -28677,7 +28677,7 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Januar 2026 0,1%. Das Preisniveau ist damit gegenüber der Vorjahresperiode nur leicht gestiegen. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Februar 2026 0,1%. Das Preisniveau ist damit gegenüber der Vorjahresperiode nur leicht gestiegen. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28705,7 +28705,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-13T08:34:55",
+		"aktualisierungsdatum": "2026-03-04T10:12:52",
 		"id": 7512
 	},
 	{
@@ -28717,7 +28717,7 @@
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Januar 2026 gegenüber Dezember unverändert bei 100,0 Punkten geblieben.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Februar 2026 gegenüber Januar um 0,6% auf 100,6 Punkte gestiegen.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28744,7 +28744,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-13T08:34:57",
+		"aktualisierungsdatum": "2026-03-04T10:12:53",
 		"id": 7513
 	},
 	{
@@ -42237,7 +42237,7 @@
 		],
 		"title": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2023 bei 49,4%.",
+		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2025 bei 50,3%.",
 		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Nicht stimmberechtigt sind alle Kinder unter 18 Jahren sowie ausländische Erwachsene. Der Anteil der nicht stimmberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch den Mittelwert der Wohnbevölkerung am Monatsende der jeweiligen Abstimmungstermine (bis 2011 jeweils die Wohnbevölkerung am Jahresende); ohne Bürgergemeinderatswahlen.<br>Bewilligungsarten: B: Aufenthaltsbewilligung, C: Niederlassungsbewilligung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -42264,7 +42264,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T09:05:10",
+		"aktualisierungsdatum": "2026-03-04T10:12:56",
 		"id": 9740
 	},
 	{
