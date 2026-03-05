@@ -5,36 +5,44 @@
       "legendIndex": 2,
       "data": [
         [
-          "2011",
-          587.7
-        ],
-        [
-          "2012",
-          632.3
-        ],
-        [
-          "2013",
-          716.3
-        ],
-        [
           "2014",
-          708.9
+          687.7
         ],
         [
           "2015",
-          788.1
+          805.5
         ],
         [
           "2016",
-          832.7
+          854.7
         ],
         [
           "2017",
-          795.6
+          814
         ],
         [
           "2018",
-          809.7
+          838.3
+        ],
+        [
+          "2019",
+          810.7
+        ],
+        [
+          "2020",
+          823
+        ],
+        [
+          "2021",
+          968.9
+        ],
+        [
+          "2022",
+          1040.3
+        ],
+        [
+          "2023",
+          1005.1
         ]
       ],
       "name": "Private Wach- und Sicherheitsdienste",
@@ -45,24 +53,12 @@
       "legendIndex": 1,
       "data": [
         [
-          "2011",
-          2
-        ],
-        [
-          "2012",
-          1.9
-        ],
-        [
-          "2013",
-          1
-        ],
-        [
           "2014",
-          40.5
+          39.7
         ],
         [
           "2015",
-          2
+          1.9
         ],
         [
           "2016",
@@ -75,6 +71,26 @@
         [
           "2018",
           3.9
+        ],
+        [
+          "2019",
+          1.7
+        ],
+        [
+          "2020",
+          7.2
+        ],
+        [
+          "2021",
+          10.9
+        ],
+        [
+          "2022",
+          9.1
+        ],
+        [
+          "2023",
+          34.7
         ]
       ],
       "name": "Sicherheitsdienste mithilfe von Überwachungs-\u003Cbr\u003EAlarmsystemen",
@@ -84,18 +100,6 @@
       "color": "#D3E2E4",
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          1
-        ],
-        [
-          "2012",
-          0.7
-        ],
-        [
-          "2013",
-          0.7
-        ],
         [
           "2014",
           0.7
@@ -115,6 +119,26 @@
         [
           "2018",
           0.8
+        ],
+        [
+          "2019",
+          0.7
+        ],
+        [
+          "2020",
+          0.5
+        ],
+        [
+          "2021",
+          0.6
+        ],
+        [
+          "2022",
+          0.6
+        ],
+        [
+          "2023",
+          null
         ]
       ],
       "name": "Detekteien",
@@ -184,7 +208,7 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointWidth": 18,
       "stacking": "normal"
     }
   },
@@ -231,7 +255,7 @@
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null,
-      "width": 180
+      "width": 120
     },
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -257,11 +281,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false,
+    "shared": true,
     "valueDecimals": 0
   },
   "exporting": {

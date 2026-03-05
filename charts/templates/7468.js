@@ -24,10 +24,10 @@
   },
   "series": [
   {"color": "#923F8D", "visible": true}, /* violett (hell)*/
-  {"color": "#662673", "visible": true}, /*violett (dunkel)*/
+ // {"color": "#662673", "visible": true}, /*violett (dunkel)*/
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
