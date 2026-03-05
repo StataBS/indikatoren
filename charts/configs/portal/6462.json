@@ -5,58 +5,58 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.036
+          0.034
         ],
         [
           "Chemie, Pharma",
-          0.052
+          0.066
         ],
         [
           "Baugewerbe",
-          0.022
+          0.035
         ],
         [
           "Handel, Reparatur",
-          0.02
+          0.026
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
-          0.013
+          0.029
         ],
         [
           "Gastgewerbe",
-          0.016
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.004
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
-          0.054
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.004
-        ],
-        [
-          "Erziehung, Unterricht",
           0.019
         ],
         [
+          "Finanz-, Versicherungs-DL",
+          0.006
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
+          0.093
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.007
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.022
+        ],
+        [
           "Gesundheits-, Sozialwesen",
-          0.01
+          0.013
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.023
+          0.034
         ],
         [
           "Total",
-          0.028
+          0.041
         ]
       ],
-      "name": "2021",
+      "name": "2023",
       "turboThreshold": 0
     },
     {
@@ -64,43 +64,43 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.036
+          0.035
         ],
         [
           "Chemie, Pharma",
-          0.057
+          0.051
         ],
         [
           "Baugewerbe",
-          0.027
+          0.021
         ],
         [
           "Handel, Reparatur",
-          0.021
+          0.024
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
-          0.015
+          0.013
         ],
         [
           "Gastgewerbe",
-          0.018
+          0.02
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.005
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
-          0.075
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
           0.004
         ],
         [
+          "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
+          0.087
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.006
+        ],
+        [
           "Erziehung, Unterricht",
-          0.021
+          0.019
         ],
         [
           "Gesundheits-, Sozialwesen",
@@ -108,14 +108,14 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.03
+          0.035
         ],
         [
           "Total",
-          0.035
+          0.036
         ]
       ],
-      "name": "2022",
+      "name": "2024",
       "turboThreshold": 0
     },
     {
@@ -123,58 +123,58 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.035
+          0.032
         ],
         [
           "Chemie, Pharma",
-          0.065
+          0.058
         ],
         [
           "Baugewerbe",
-          0.035
+          0.012
         ],
         [
           "Handel, Reparatur",
-          0.027
+          0.022
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
-          0.031
+          0.011
         ],
         [
           "Gastgewerbe",
-          0.023
+          0.021
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.007
+          0.004
         ],
         [
           "Beratung, Planung, Forschung, Immobilien, IT, sonstige DL",
-          0.092
+          0.089
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.007
+          0.008
         ],
         [
           "Erziehung, Unterricht",
-          0.023
+          0.018
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.014
+          0.011
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.036
+          0.031
         ],
         [
           "Total",
-          0.043
+          0.036
         ]
       ],
-      "name": "2023",
+      "name": "2025",
       "turboThreshold": 0
     }
   ],
@@ -322,7 +322,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 12.8.2024"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "tooltip": {
     "pointFormatter": function(){
