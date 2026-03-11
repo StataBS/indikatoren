@@ -5,87 +5,87 @@
       "data": [
         [
           "Bruderholz",
-          0.024
-        ],
-        [
-          "Bachletten",
-          0.026
-        ],
-        [
-          "Wettstein",
-          0.027
-        ],
-        [
-          "Riehen",
-          0.028
-        ],
-        [
-          "Bettingen",
-          0.028
-        ],
-        [
-          "Hirzbrunnen",
           0.029
         ],
         [
-          "Gotthelf",
-          0.03
-        ],
-        [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           0.031
         ],
         [
-          "Altstadt Grossbasel",
+          "Bachletten",
+          0.031
+        ],
+        [
+          "Wettstein",
           0.033
         ],
         [
-          "Am Ring",
+          "Riehen",
           0.033
         ],
         [
-          "St. Alban",
-          0.034
+          "Bettingen",
+          0.033
         ],
         [
-          "Gundeldingen",
+          "Hirzbrunnen",
+          0.035
+        ],
+        [
+          "Gotthelf",
           0.037
         ],
         [
-          "Clara",
+          "Am Ring",
+          0.038
+        ],
+        [
+          "Vorstädte",
+          0.039
+        ],
+        [
+          "St.Alban",
           0.04
         ],
         [
-          "St. Johann",
-          0.041
-        ],
-        [
           "Altstadt Kleinbasel",
-          0.041
+          0.04
         ],
         [
-          "Breite",
+          "Gundeldingen",
           0.043
         ],
         [
-          "Iselin",
-          0.046
+          "St.Johann",
+          0.048
         ],
         [
-          "Rosental",
-          0.051
+          "Breite",
+          0.05
+        ],
+        [
+          "Iselin",
+          0.05
+        ],
+        [
+          "Clara",
+          0.053
         ],
         [
           "Matthäus",
-          0.051
+          0.053
+        ],
+        [
+          "Rosental",
+          0.055
         ],
         [
           "Klybeck",
-          0.056
+          0.064
         ],
         [
           "Kleinhüningen",
-          0.058
+          0.069
         ]
       ],
       "name": "Arbeitslosenquote",
@@ -99,12 +99,16 @@
           1
         ],
         [
+          "Altstadt Grossbasel",
+          2
+        ],
+        [
           "Bachletten",
           2
         ],
         [
           "Wettstein",
-          3
+          4
         ],
         [
           "Riehen",
@@ -116,59 +120,55 @@
         ],
         [
           "Hirzbrunnen",
-          6
-        ],
-        [
-          "Gotthelf",
           7
         ],
         [
-          "Vorstädte",
+          "Gotthelf",
           8
-        ],
-        [
-          "Altstadt Grossbasel",
-          9
         ],
         [
           "Am Ring",
           9
         ],
         [
-          "St. Alban",
+          "Vorstädte",
+          10
+        ],
+        [
+          "St.Alban",
+          11
+        ],
+        [
+          "Altstadt Kleinbasel",
           11
         ],
         [
           "Gundeldingen",
-          12
-        ],
-        [
-          "Clara",
           13
         ],
         [
-          "St. Johann",
-          14
-        ],
-        [
-          "Altstadt Kleinbasel",
+          "St.Johann",
           14
         ],
         [
           "Breite",
-          16
+          15
         ],
         [
           "Iselin",
+          15
+        ],
+        [
+          "Clara",
+          17
+        ],
+        [
+          "Matthäus",
           17
         ],
         [
           "Rosental",
-          18
-        ],
-        [
-          "Matthäus",
-          18
+          19
         ],
         [
           "Klybeck",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.10.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2026"
   },
   "legend": {
     "enabled": false,
