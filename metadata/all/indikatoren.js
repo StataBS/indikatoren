@@ -8656,9 +8656,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
-		"subtitle": "Stadt Basel, 2024",
-		"lesehilfe": "Ende 2024 lebten im Kanton Basel-Stadt 109 916 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
+		"title": "Betroffene Personen in Stadtklimakonzept-Fokusgebieten",
+		"subtitle": "Stadt Basel, 2021",
+		"lesehilfe": "Ende 2021 lebten und arbeiteten im Kanton Basel-Stadt 229 253 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
 		"erlaeuterungen": "Im <a href='https://www.bs.ch/schwerpunkte/klima/stadtklima#strategie-stadtklimakonzept' target='_blank'>Stadtklimakonzept Basel-Stadt</a> sind, basierend auf der Klimaanalyse für das Jahr 2030, für die Priorisierung von Massnahmen zur Reduktion der bioklimatischen Belastung sogenannte Fokusgebiete eingegrenzt worden, in denen die Betroffenheit besonders gross ist.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur"
@@ -8670,7 +8670,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
+		"description": "Betroffene Personen in Stadtklimakonzept-Fokusgebieten",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
@@ -8686,7 +8686,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:31",
+		"aktualisierungsdatum": "2026-03-11T09:57:11",
 		"id": 22413
 	},
 	{
@@ -16962,9 +16962,9 @@ var indikatoren = [
 			5126
 		],
 		"title": "Arbeitslosenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
 		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet die niedrigste Arbeitslosenquote, das Wohnviertel Kleinhüningen die höchste.",
-		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2024. Erwerbspersonen aus der Strukturerhebung vom BFS, Pooling 2021-2023. Riehen und Bettingen haben den gleichen Wert, weil die Ergebnisse für Bettingen aufgrund zu weniger Beobachtungen in der Strukturerhebung allein nicht aussagekräftig sind.",
+		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2025. Erwerbspersonen aus der Strukturerhebung, Pooling 2021-2023. Für Riehen und Bettingen wird derselbe Wert ausgewiesen. Die Zahl der Beobachtungen aus Bettingen ist zu gering.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -16990,7 +16990,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-28T10:24:57",
+		"aktualisierungsdatum": "2026-03-11T09:57:16",
 		"id": 4839
 	},
 	{
@@ -34264,7 +34264,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Stadt Basel",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen und lag am Jahresende 2023 bei 183 564.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 ist sie überwiegend gestiegen. Ende des Jahres 2025 lag die Einwohnerzahl bei 186 332.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; seit 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34290,7 +34290,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:41",
+		"aktualisierungsdatum": "2026-03-11T09:57:06",
 		"id": 6623
 	},
 	{
@@ -42927,7 +42927,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-21T05:07:14",
+		"aktualisierungsdatum": "2026-03-11T09:57:14",
 		"id": 6989
 	},
 	{
@@ -51134,11 +51134,13 @@ var indikatoren = [
 		"chart-id": 7773,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			8417
+		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 207 515 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
-		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
+		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -51163,7 +51165,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:57",
+		"aktualisierungsdatum": "2026-03-11T09:57:15",
 		"id": 7773
 	},
 	{
@@ -58922,7 +58924,7 @@ var indikatoren = [
 		],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2024 bei 38,7%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung des Kantons Basel-Stadt liegt Ende des Jahres 2025 bei 39,2%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -58948,7 +58950,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:54",
+		"aktualisierungsdatum": "2026-03-11T09:57:12",
 		"id": 8377
 	},
 	{
@@ -73217,7 +73219,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-04T07:21:19",
+		"aktualisierungsdatum": "2026-03-11T09:57:08",
 		"id": 8995
 	},
 	{
@@ -73590,7 +73592,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-04T07:21:20",
+		"aktualisierungsdatum": "2026-03-11T09:57:09",
 		"id": 9022
 	},
 	{
@@ -73628,7 +73630,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-04T07:21:22",
+		"aktualisierungsdatum": "2026-03-11T09:57:10",
 		"id": 9023
 	},
 	{
@@ -85273,8 +85275,8 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 207 515 Personen.",
-		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"lesehilfe": "Ende des Jahres 2025 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 210 529 Personen.",
+		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -85299,7 +85301,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:56",
+		"aktualisierungsdatum": "2026-03-11T09:57:13",
 		"id": 9784
 	},
 	{

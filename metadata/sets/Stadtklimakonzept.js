@@ -195,9 +195,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
-		"subtitle": "Stadt Basel, 2024",
-		"lesehilfe": "Ende 2024 lebten im Kanton Basel-Stadt 109 916 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
+		"title": "Betroffene Personen in Stadtklimakonzept-Fokusgebieten",
+		"subtitle": "Stadt Basel, 2021",
+		"lesehilfe": "Ende 2021 lebten und arbeiteten im Kanton Basel-Stadt 229 253 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
 		"erlaeuterungen": "Im <a href='https://www.bs.ch/schwerpunkte/klima/stadtklima#strategie-stadtklimakonzept' target='_blank'>Stadtklimakonzept Basel-Stadt</a> sind, basierend auf der Klimaanalyse für das Jahr 2030, für die Priorisierung von Massnahmen zur Reduktion der bioklimatischen Belastung sogenannte Fokusgebiete eingegrenzt worden, in denen die Betroffenheit besonders gross ist.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur"
@@ -209,7 +209,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
+		"description": "Betroffene Personen in Stadtklimakonzept-Fokusgebieten",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
@@ -224,7 +224,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:31",
+		"aktualisierungsdatum": "2026-03-11T09:57:11",
 		"id": 22413
 	},
 	{
