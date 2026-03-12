@@ -5,45 +5,22 @@
       "data": [
         [
           "Hoher Handlungsbedarf - Fokusgebiet",
-          107610
+          109916
         ],
         [
           "Situation Verbessern",
-          58473
+          60222
         ],
         [
           "Situation Erhalten",
-          34313
+          35922
         ],
         [
           "übriges Gebiet",
-          1409
+          1455
         ]
       ],
       "name": "Anzahl Einwohner",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#e9aef4",
-      "data": [
-        [
-          "Hoher Handlungsbedarf - Fokusgebiet",
-          121643
-        ],
-        [
-          "Situation Verbessern",
-          40926
-        ],
-        [
-          "Situation Erhalten",
-          14786
-        ],
-        [
-          "übriges Gebiet",
-          12210
-        ]
-      ],
-      "name": "Anzahl Beschäftigte",
       "turboThreshold": 0
     }
   ],
@@ -118,9 +95,6 @@
         }
       },
       "pointPadding": 0
-    },
-    "column": {
-      "stacking": "normal"
     }
   },
   "title": {
@@ -130,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Betroffene Personen in Stadtklimakonzept-Fokusgebieten"
+    "text": "Bevölkerung in Stadtklimakonzept-Fokusgebieten"
   },
   "subtitle": {
-    "text": "Stadt Basel, 2021",
+    "text": "Stadt Basel, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -164,7 +138,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
@@ -188,16 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur.\u003Cbr\u002F\u003EZuletzt geändert: 11.3.2026"
-  },
-  "tooltip": {
-    "shared": true,
-    "useHTML": true,
-    "followPointer": true,
-    "outside": true,
-    "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:&nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
-    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "exporting": {
     "filename": "22413"
