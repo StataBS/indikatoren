@@ -6,20 +6,12 @@
       "legendIndex": 0,
       "data": [
         [
-          "2014",
-          462
+          "2016",
+          526
         ],
         [
           "2015",
           527
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016",
-          526
         ],
         [
           "2017",
@@ -48,6 +40,14 @@
         [
           "2023",
           359
+        ],
+        [
+          "2024",
+          413
+        ],
+        [
+          "2025",
+          392
         ]
       ],
       "name": "Bis 3 Monate",
@@ -59,20 +59,12 @@
       "legendIndex": 1,
       "data": [
         [
-          "2014",
-          884
+          "2016",
+          1066
         ],
         [
           "2015",
           1001
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016",
-          1066
         ],
         [
           "2017",
@@ -101,6 +93,14 @@
         [
           "2023",
           739
+        ],
+        [
+          "2024",
+          786
+        ],
+        [
+          "2025",
+          922
         ]
       ],
       "name": "4 bis 12 Monate",
@@ -112,20 +112,12 @@
       "legendIndex": 2,
       "data": [
         [
-          "2014",
-          1521
+          "2016",
+          1662
         ],
         [
           "2015",
           1477
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016",
-          1662
         ],
         [
           "2017",
@@ -154,6 +146,14 @@
         [
           "2023",
           993
+        ],
+        [
+          "2024",
+          1121
+        ],
+        [
+          "2025",
+          1217
         ]
       ],
       "name": "13 bis 36 Monate",
@@ -165,20 +165,12 @@
       "legendIndex": 3,
       "data": [
         [
-          "2014",
-          2381
+          "2016",
+          2785
         ],
         [
           "2015",
           2509
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2016",
-          2785
         ],
         [
           "2017",
@@ -207,6 +199,14 @@
         [
           "2023",
           2456
+        ],
+        [
+          "2024",
+          2353
+        ],
+        [
+          "2025",
+          2259
         ]
       ],
       "name": "Über 36 Monate",
@@ -295,7 +295,7 @@
     "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
   },
   "subtitle": {
-    "text": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
+    "text": "per Ende Jahr, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -351,7 +351,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2026"
   },
   "tooltip": {
     "valueDecimals": 0,
