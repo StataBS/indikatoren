@@ -48,6 +48,10 @@
         [
           "2024",
           null
+        ],
+        [
+          "2025",
+          null
         ]
       ],
       "name": "Kitas",
@@ -101,6 +105,10 @@
         [
           "2024",
           4071
+        ],
+        [
+          "2025",
+          4093
         ]
       ],
       "name": "Kitas mit Betreuungsbeiträgen",
@@ -154,6 +162,10 @@
         [
           "2024",
           315
+        ],
+        [
+          "2025",
+          305
         ]
       ],
       "name": "Firmenkitas",
@@ -207,6 +219,10 @@
         [
           "2024",
           176
+        ],
+        [
+          "2025",
+          111
         ]
       ],
       "name": "Kitas ohne Betreuungsbeiträge",
@@ -352,7 +368,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
