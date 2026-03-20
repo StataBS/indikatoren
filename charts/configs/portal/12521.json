@@ -43,6 +43,10 @@
         [
           2024,
           3892
+        ],
+        [
+          2025,
+          4166
         ]
       ],
       "name": "Maximales Platzangebot"
@@ -90,6 +94,10 @@
         [
           2024,
           1933
+        ],
+        [
+          2025,
+          2053
         ]
       ],
       "name": "Modul 1: Durchschnittliche Anzahl Buchungen pro Tag"
@@ -137,6 +145,10 @@
         [
           2024,
           1707
+        ],
+        [
+          2025,
+          1854
         ]
       ],
       "name": "Modul 2: Durchschnittliche Anzahl Buchungen pro Tag"
@@ -275,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2025"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 20.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
