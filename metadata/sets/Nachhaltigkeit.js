@@ -797,7 +797,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden pro 1000 Einwohner 138,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2025 wurden pro 1000 Einwohner 141,2 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -810,7 +810,7 @@ var indikatorensetData = [
 		],
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Strafvollzug",
+		"unterthema": "Polizei",
 		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW9",
@@ -823,7 +823,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-17T09:43:25",
+		"aktualisierungsdatum": "2026-03-25T03:47:49",
 		"id": 5188
 	},
 	{

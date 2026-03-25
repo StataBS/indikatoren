@@ -3201,7 +3201,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,3 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2025 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 6,9 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3227,7 +3227,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:23",
+		"aktualisierungsdatum": "2026-03-25T03:47:48",
 		"id": 6482
 	},
 	{
