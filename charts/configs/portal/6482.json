@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2009,
-          9.2
-        ],
-        [
           2010,
           9
         ],
@@ -66,6 +62,10 @@
         [
           2024,
           7.3
+        ],
+        [
+          2025,
+          6.9
         ]
       ],
       "name": "Schweiz"
@@ -73,10 +73,6 @@
     {
       "color": "#672773",
       "data": [
-        [
-          2009,
-          5.1
-        ],
         [
           2010,
           5.2
@@ -136,6 +132,10 @@
         [
           2024,
           5.7
+        ],
+        [
+          2025,
+          5.9
         ]
       ],
       "name": "Deutschland"
@@ -143,10 +143,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          2009,
-          15.1
-        ],
         [
           2010,
           12.8
@@ -206,6 +202,10 @@
         [
           2024,
           10.3
+        ],
+        [
+          2025,
+          8.7
         ]
       ],
       "name": "Italien"
@@ -213,10 +213,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          2009,
-          31.1
-        ],
         [
           2010,
           34.8
@@ -276,6 +272,10 @@
         [
           2024,
           22
+        ],
+        [
+          2025,
+          20.6
         ]
       ],
       "name": "Türkei"
@@ -283,10 +283,6 @@
     {
       "color": "#b475ab",
       "data": [
-        [
-          2009,
-          13.6
-        ],
         [
           2010,
           12.4
@@ -346,6 +342,10 @@
         [
           2024,
           8.9
+        ],
+        [
+          2025,
+          8.9
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -353,10 +353,6 @@
     {
       "color": "#71a3b5",
       "data": [
-        [
-          2009,
-          16.9
-        ],
         [
           2010,
           13.9
@@ -416,6 +412,10 @@
         [
           2024,
           17.1
+        ],
+        [
+          2025,
+          16.3
         ]
       ],
       "name": "EU-Ost"
@@ -423,10 +423,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2009,
-          25.9
-        ],
         [
           2010,
           30.2
@@ -486,6 +482,10 @@
         [
           2024,
           22.2
+        ],
+        [
+          2025,
+          23.5
         ]
       ],
       "name": "Balkan"
@@ -493,10 +493,6 @@
     {
       "color": "#ff8028",
       "data": [
-        [
-          2009,
-          28.4
-        ],
         [
           2010,
           37.8
@@ -556,6 +552,10 @@
         [
           2024,
           25
+        ],
+        [
+          2025,
+          19.7
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -563,10 +563,6 @@
     {
       "color": "#73ba7c",
       "data": [
-        [
-          2009,
-          84.8
-        ],
         [
           2010,
           77.7
@@ -626,6 +622,10 @@
         [
           2024,
           155.6
+        ],
+        [
+          2025,
+          78.8
         ]
       ],
       "name": "Arabische Länder"
@@ -633,10 +633,6 @@
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          2009,
-          71.7
-        ],
         [
           2010,
           85.2
@@ -696,6 +692,10 @@
         [
           2024,
           32.3
+        ],
+        [
+          2025,
+          32.2
         ]
       ],
       "name": "Afrikanische Länder"
@@ -703,10 +703,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2009,
-          18.9
-        ],
         [
           2010,
           16.8
@@ -766,6 +762,10 @@
         [
           2024,
           11.3
+        ],
+        [
+          2025,
+          9.7
         ]
       ],
       "name": "Übrige Länder"
@@ -915,7 +915,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2026"
   },
   "tooltip": {
     "shared": false,
