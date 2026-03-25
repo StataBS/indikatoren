@@ -19318,15 +19318,15 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2024",
-		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen in Einpersonenhaushalten am höchsten (65,1 m²) und bei jenen in Einelternhaushalten mit minderjährigen Kindern mit Grosseltern(-teil) am tiefsten (21,4 m²).",
+		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2025",
+		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen in Einpersonenhaushalten am höchsten (65,1 m²) und bei jenen in Einelternhaushalten mit minderjährigen Kindern mit Grosseltern(-teil) am tiefsten (22,0 m²).",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche einer Wohnung  durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Die bewohnbare Fläche wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahren; volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"Weitere  Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
+			"Weitere  Informationen zu den <a href = 'https://statistik.bs.ch/interaktiv/glossar#Haushalte' target = '_blank'>Haushaltstypen</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -19348,7 +19348,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:00",
+		"aktualisierungsdatum": "2026-03-25T03:33:38",
 		"id": 6363
 	},
 	{
@@ -19357,17 +19357,20 @@ var indikatoren = [
 		"chart-id": 6364,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22460,
+			22467
+		],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2024",
-		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 65,1&nbsp;m², in einem Familienhaushalt mit 5 und mehr Personen 21,1&nbsp;m².",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2025",
+		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 65,1&nbsp;m², in einem Familienhaushalt mit 5 und mehr Personen 21,0&nbsp;m².",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche der Wohnung durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Die bewohnbare Fläche wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
+			"Informationen zu den <a href = 'https://statistik.bs.ch/interaktiv/glossar#Haushalte' target = '_blank'>Haushaltstypen</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -19389,7 +19392,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:01",
+		"aktualisierungsdatum": "2026-03-25T03:33:40",
 		"id": 6364
 	},
 	{
@@ -19400,8 +19403,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2024",
-		"lesehilfe": "Schweizerinnen und Schweizer weisen pro Kopf einen rund 10&nbsp;m² höheren Wohnflächenverbrauch auf als ausländische Staatsangehörige. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person ist bei Personen mit Schweizer Pass (Männer: 43,5&nbsp;m², Frauen: 46,8&nbsp;m²), jedoch nicht bei ausländischen Staatsangehörigen feststellbar.",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2025",
+		"lesehilfe": "Schweizerinnen und Schweizer weisen pro Kopf einen rund 10&nbsp;m² höheren Wohnflächenverbrauch auf als ausländische Staatsangehörige. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person ist bei Personen mit Schweizer Pass (Männer: 43,3&nbsp;m², Frauen: 46,5&nbsp;m²), jedoch nicht bei ausländischen Staatsangehörigen feststellbar.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche einer Wohnung  durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Sie wird in Quadratmetern berechnet und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19428,7 +19431,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:00",
+		"aktualisierungsdatum": "2026-03-25T03:33:42",
 		"id": 6365
 	},
 	{
@@ -19439,8 +19442,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2024",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab einem Alter von 55 Jahren haben einen um gut 2 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2025",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab einem Alter von 55 Jahren haben einen um gut 2 bis 9&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die gesamte bewohnbare Fläche einer Wohnung  durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Sie wird in Quadratmetern angegeben und setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19467,7 +19470,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:02",
+		"aktualisierungsdatum": "2026-03-25T03:33:44",
 		"id": 6366
 	},
 	{
@@ -28249,7 +28252,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Einbruchdiebstähle",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden auf 1000 Einwohnerinnen und Einwohner im Kanton Basel-Stadt 7,3 Einbruchdiebstähle polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2025 wurden auf 1000 Einwohnerinnen und Einwohner im Kanton Basel-Stadt 7,2 Einbruchdiebstähle polizeilich registriert.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -28275,7 +28278,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:04:57",
+		"aktualisierungsdatum": "2026-03-25T03:33:46",
 		"id": 6979
 	},
 	{
@@ -37975,7 +37978,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-16T11:02:12",
+		"aktualisierungsdatum": "2026-03-25T03:33:47",
 		"id": 8995
 	},
 	{
@@ -38146,7 +38149,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-16T11:02:16",
+		"aktualisierungsdatum": "2026-03-25T03:33:49",
 		"id": 9022
 	},
 	{
@@ -38184,7 +38187,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-16T11:02:18",
+		"aktualisierungsdatum": "2026-03-25T03:33:50",
 		"id": 9023
 	},
 	{
