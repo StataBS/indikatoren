@@ -9,9 +9,9 @@ var indikatorensetData = [
 			5109
 		],
 		"title": "Sozialhilfequote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen beziehen 9,2% der Bevölkerung Sozialhilfe. Auf dem Bruderholz sind es 1,2%, was dem niedrigsten Wert aller Wohnviertel entspricht.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Im Wohnviertel Klybeck beziehen 9,3% der Bevölkerung Sozialhilfe. In der Gemeinde Bettingen sind es 0,8%. Das ist der tiefste Wert aller Gemeinden und Wohnviertel in Basel-Stadt.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe per Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:38",
+		"aktualisierungsdatum": "2026-03-19T08:43:01",
 		"id": 4822
 	},
 	{
@@ -91,8 +91,8 @@ var indikatorensetData = [
 			5112
 		],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2024 im Wohnviertel Altstadt Kleinbasel mit 35,7% am höchsten. Der niedrigste Wert wird mit 13,1% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2025 im Wohnviertel Altstadt Kleinbasel mit 34,1% am höchsten. Der niedrigste Wert wird mit 13,0% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-12T03:17:31",
+		"aktualisierungsdatum": "2026-03-20T09:29:48",
 		"id": 4825
 	},
 	{
@@ -792,8 +792,8 @@ var indikatorensetData = [
 		"parentId": "4825",
 		"children": [],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2024 im Wohnviertel Altstadt Kleinbasel mit 35,7% am höchsten. Der niedrigste Wert wird mit 13,1% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2025 im Wohnviertel Altstadt Kleinbasel mit 34,1% am höchsten. Der niedrigste Wert wird mit 13,0% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -820,7 +820,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:44",
+		"aktualisierungsdatum": "2026-03-20T09:29:49",
 		"id": 5112
 	},
 	{

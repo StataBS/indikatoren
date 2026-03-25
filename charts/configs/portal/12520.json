@@ -44,6 +44,10 @@
         [
           2024,
           4224
+        ],
+        [
+          2025,
+          4515
         ]
       ],
       "name": "Anzahl Plätze"
@@ -92,6 +96,10 @@
         [
           2024,
           4059
+        ],
+        [
+          2025,
+          4327
         ]
       ],
       "name": "Durchschnitt der Anzahl Nutzerinnen und Nutzer pro Tag"
@@ -147,6 +155,10 @@
         [
           2024,
           96.1
+        ],
+        [
+          2025,
+          95.8
         ]
       ],
       "name": "Auslastungsquote (rechte Skala)"
@@ -298,7 +310,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2025"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 20.3.2026"
   },
   "tooltip": {
     "shared": true

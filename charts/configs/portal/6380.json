@@ -6569,11 +6569,11 @@
       "data": [
         [
           1,
-          1.5
+          3
         ],
         [
           2,
-          3
+          3.2
         ],
         [
           3,
@@ -6581,75 +6581,75 @@
         ],
         [
           4,
-          4.2
+          4.3
         ],
         [
           5,
-          2.3
-        ],
-        [
-          6,
-          4.6
-        ],
-        [
-          7,
-          1.2
-        ],
-        [
-          8,
-          1.8
-        ],
-        [
-          9,
-          3.2
-        ],
-        [
-          10,
-          7.1
-        ],
-        [
-          11,
-          6.1
-        ],
-        [
-          12,
-          5.3
-        ],
-        [
-          13,
-          5.4
-        ],
-        [
-          14,
-          1.9
-        ],
-        [
-          15,
-          3.8
-        ],
-        [
-          16,
-          6.1
-        ],
-        [
-          17,
-          8.3
-        ],
-        [
-          18,
-          9.8
-        ],
-        [
-          19,
-          9.8
-        ],
-        [
-          20,
           2.5
         ],
         [
-          30,
+          6,
+          4.8
+        ],
+        [
+          7,
+          1.4
+        ],
+        [
+          8,
+          2.1
+        ],
+        [
+          9,
+          3.1
+        ],
+        [
+          10,
+          6.5
+        ],
+        [
+          11,
+          5.6
+        ],
+        [
+          12,
+          5.5
+        ],
+        [
+          13,
+          5.2
+        ],
+        [
+          14,
+          2.2
+        ],
+        [
+          15,
+          3.6
+        ],
+        [
+          16,
+          5.4
+        ],
+        [
+          17,
+          7.2
+        ],
+        [
+          18,
+          9.3
+        ],
+        [
+          19,
+          8.1
+        ],
+        [
+          20,
           2.4
+        ],
+        [
+          30,
+          0.8
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          40
+          82
         ],
         [
           "Vorstädte",
-          149
+          161
         ],
         [
           "Am Ring",
-          293
+          307
         ],
         [
           "Breite",
-          390
+          400
         ],
         [
           "St. Alban",
-          285
+          314
         ],
         [
           "Gundeldingen",
-          874
+          935
         ],
         [
           "Bruderholz",
-          118
+          131
         ],
         [
           "Bachletten",
-          248
+          288
         ],
         [
           "Gotthelf",
-          223
+          224
         ],
         [
           "Iselin",
-          1271
+          1183
         ],
         [
           "St. Johann",
-          1181
+          1122
         ],
         [
           "Altstadt Kleinbasel",
-          129
+          139
         ],
         [
           "Clara",
-          237
+          233
         ],
         [
           "Wettstein",
-          112
+          127
         ],
         [
           "Hirzbrunnen",
-          365
+          361
         ],
         [
           "Rosental",
-          475
+          424
         ],
         [
           "Matthäus",
-          1254
+          1096
         ],
         [
           "Klybeck",
-          685
+          680
         ],
         [
           "Kleinhüningen",
-          278
+          235
         ],
         [
           "Riehen",
-          561
+          559
         ],
         [
           "Bettingen",
-          32
+          11
         ]
       ],
       "name": "Anzahl Sozialhilfebeziehende"
@@ -7318,7 +7318,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -7334,7 +7334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2026"
   },
   "colorAxis": {
     "min": 0,

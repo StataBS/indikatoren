@@ -2912,7 +2912,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittagsmodul der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 224 Plätze zur Verfügung. Mit durchschnittlich 4 059 Nutzenden pro Tag sind diese Angebote zu 96% ausgelastet.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2025 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 515 Plätze zur Verfügung. Mit durchschnittlich 4 327 Nutzenden pro Tag sind diese Angebote zu 96% ausgelastet.",
 		"erlaeuterungen": "Stichwoche im September.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -2938,7 +2938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:23",
+		"aktualisierungsdatum": "2026-03-20T09:29:43",
 		"id": 12520
 	},
 	{
@@ -2950,7 +2950,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nachmittagsmodule der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 3 892 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 1 933 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 707 Mal.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2025 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 4 166 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 2 053 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 854 Mal.",
 		"erlaeuterungen": "Stichwoche im September. In schuleigenen und -externen Tagesstrukturen werden am Nachmittag ein Modul 1 (von 13:30 Uhr bis 15:45 Uhr) und ein Modul 2 (zweite Nachmittagshälfte) angeboten. Modul 2 kann als langes (15:45 bis 18:00 Uhr) oder kurzes Modul (16:30 bis 18:00 Uhr) gebucht werden (je nach Unterrichtsschluss). Für eine Betreuung während des gesamten Nachmittags müssen beide Module gebucht werden. Bei den schuleigenen Tagesstrukturen ist das Platzangebot für Modul 1 und 2 identisch. Bei einigen schulexternen Tagesstrukturen unterscheiden sich die Kapazitäten der Module.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -2976,7 +2976,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:24",
+		"aktualisierungsdatum": "2026-03-20T09:29:44",
 		"id": 12521
 	},
 	{
@@ -3726,7 +3726,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 nutzen in der Stichwoche durchschnittlich 1 326 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 422 Schülerinnen und Schülern in Anspruch genommen.",
+		"lesehilfe": "2025 nutzen in der Stichwoche durchschnittlich 1 448 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 527 Schülerinnen und Schülern in Anspruch genommen.",
 		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote ohne vorgängige Buchung spontan in Anspruch genommen werden können, gibt es keine feste Anzahl Plätze. Stattdessen wird die in der Stichtwoche durchschnittliche Nutzung pro Tag ausgewiesen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -3752,7 +3752,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:12",
+		"aktualisierungsdatum": "2026-03-20T09:29:45",
 		"id": 12561
 	},
 	{
@@ -3842,7 +3842,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Belegte Plätze in Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl belegte Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2024 werden 43 Plätze gezählt, 2015 waren es 87.",
+		"lesehilfe": "Die Anzahl der belegten Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2025 werden 46 Plätze gezählt, 2015 waren es 87.",
 		"erlaeuterungen": "Stichtag ist der 31. Oktober.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -3868,7 +3868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:13",
+		"aktualisierungsdatum": "2026-03-19T08:42:58",
 		"id": 12602
 	},
 	{
@@ -9308,6 +9308,160 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2026-02-03T07:01:42",
 		"id": 22436
+	},
+	{
+		"template": "line001",
+		"data-id": 22455,
+		"chart-id": 12722,
+		"filter": "",
+		"parentId": "12722",
+		"children": [],
+		"title": "Bodenpreisindex",
+		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
+		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
+		"erlaeuterungen": "Das methodische Vorgehen ist im <a href='https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bodenpreisindex.pdf' target='_blank'>Methodenbericht</a> beschrieben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bodenpreisindex",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Grundstückhandel",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-03-19T08:43:07",
+		"id": 22455
+	},
+	{
+		"template": "line001",
+		"data-id": 22456,
+		"chart-id": 7586,
+		"filter": "",
+		"parentId": "7586",
+		"children": [],
+		"title": "Leerwohnungsquote in Grossstädten und in der Schweiz",
+		"subtitle": "",
+		"lesehilfe": "Mit der vor rund 20 Jahren einsetzenden Zunahme der Wohnbevölkerung sank auch die Basler Leerwohnungsquote bis 2017 auf das Niveau der anderen grossen Schweizer Städte. Seit 2019 weist die Stadt Basel eine höhere Leerwohnungsquote auf als die anderen Grossstädte.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde",
+			"Schweiz"
+		],
+		"description": "Leerwohnungsquote in Grossstädten und in der Schweiz",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-03-19T08:43:08",
+		"id": 22456
+	},
+	{
+		"template": "template001",
+		"data-id": 22458,
+		"chart-id": 9608,
+		"filter": "",
+		"parentId": "9608",
+		"children": [],
+		"title": "Wasserseitiger Containerumschlag",
+		"subtitle": "in TEU, Schweizerische Rheinhäfen",
+		"lesehilfe": "Der wasserseitige Containerumschlag in Basel zeigt über die vergangenen vier Jahrzehnte eine überwiegend steigende Entwicklung des Umschlagsvolumens. Bis zur Asienkrise 1997 verlief das Wachstum exponentiell, seit 1998 zeigt sich eine annähernd lineare Entwicklung. Zwischen 1998 und 2022 betrug das durchschnittliche jährliche Wachstum 3,1%. Im Jahr 2022 wurde im Zusammenhang mit pandemiebedingten Nachholeffekten ein überdurchschnittlicher Anstieg verzeichnet. In den Jahren 2023 und 2024 verringerte sich das Umschlagsvolumen. Hierzu trugen insbesondere hohe Lagerbestände, geopolitische Spannungen sowie die Inflation in Europa bei. Zusätzlich reduzierten sich die Umschlagskapazitäten infolge des Rückbaus des Contargo Südquai-Terminals; eine vollständige Kompensation durch bestehende Anlagen erfolgte nicht. Im Jahr 2025 wurden wasserseitig 112 620 TEU umgeschlagen. Gegenüber dem Vorjahr entspricht dies einer Zunahme um 12,6%.",
+		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU (Twenty-foot Equivalent Unit/Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen sowie zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wasserseitiger Containerumschlag",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-03-19T08:43:09",
+		"id": 22458
+	},
+	{
+		"template": "template001",
+		"data-id": 22459,
+		"chart-id": 6163,
+		"filter": "",
+		"parentId": "6163",
+		"children": [],
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
+		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-03-19T08:43:11",
+		"id": 22459
 	},
 	{
 		"template": "line001_print",
@@ -16279,9 +16433,9 @@ var indikatoren = [
 			5109
 		],
 		"title": "Sozialhilfequote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen beziehen 9,2% der Bevölkerung Sozialhilfe. Auf dem Bruderholz sind es 1,2%, was dem niedrigsten Wert aller Wohnviertel entspricht.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 angepasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Im Wohnviertel Klybeck beziehen 9,3% der Bevölkerung Sozialhilfe. In der Gemeinde Bettingen sind es 0,8%. Das ist der tiefste Wert aller Gemeinden und Wohnviertel in Basel-Stadt.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe per Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. Die Berechnungsmethode wurde 2022 angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -16308,7 +16462,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:38",
+		"aktualisierungsdatum": "2026-03-19T08:43:01",
 		"id": 4822
 	},
 	{
@@ -16363,8 +16517,8 @@ var indikatoren = [
 			5112
 		],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2024 im Wohnviertel Altstadt Kleinbasel mit 35,7% am höchsten. Der niedrigste Wert wird mit 13,1% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2025 im Wohnviertel Altstadt Kleinbasel mit 34,1% am höchsten. Der niedrigste Wert wird mit 13,0% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16392,7 +16546,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-12T03:17:31",
+		"aktualisierungsdatum": "2026-03-20T09:29:48",
 		"id": 4825
 	},
 	{
@@ -18685,8 +18839,8 @@ var indikatoren = [
 		"parentId": "4825",
 		"children": [],
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2024 im Wohnviertel Altstadt Kleinbasel mit 35,7% am höchsten. Der niedrigste Wert wird mit 13,1% in Bettingen verzeichnet.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Anteil von Personen an der gesamten Wohnbevölkerung einer Gemeinde bzw. eines Wohnviertels, die in einem Einpersonenhaushalt leben, ist im Jahr 2025 im Wohnviertel Altstadt Kleinbasel mit 34,1% am höchsten. Der niedrigste Wert wird mit 13,0% in Bettingen verzeichnet.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten der Gemeinde bzw. des Wohnviertels in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18714,7 +18868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:44",
+		"aktualisierungsdatum": "2026-03-20T09:29:49",
 		"id": 5112
 	},
 	{
@@ -19883,9 +20037,9 @@ var indikatoren = [
 			8902
 		],
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
-		"lesehilfe": "Von den 4 673 aktiven Sozialhilfedossiers Ende 2024 weisen 2 353 (50,4%) eine Unterstützungsdauer von über 36 Monaten auf. 413 Fälle (8,8%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, seit 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"subtitle": "per Ende Jahr, Basel-Stadt",
+		"lesehilfe": "Von den 4 790 aktiven Sozialhilfedossiers per Ende 2025 weisen 2 259 (47,2%) eine Unterstützungsdauer von über 36 Monaten auf. 392 Fälle (8,2%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"erlaeuterungen": "Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Sozialhilfe Stadt Basel",
@@ -19912,7 +20066,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:18",
+		"aktualisierungsdatum": "2026-03-19T08:43:03",
 		"id": 5185
 	},
 	{
@@ -19927,7 +20081,7 @@ var indikatoren = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 ereigneten sich auf den Basler Kantonsstrassen insgesamt 535 Verkehrsunfälle – 26 weniger als im Vorjahr. Die Zahl der verunfallten Personen sank im Vergleich zum Vorjahr um 45 auf 365.",
+		"lesehilfe": "Im Jahr 2025 ereigneten sich auf den Basler Kantonsstrassen insgesamt 500 Verkehrsunfälle – 35 weniger als im Vorjahr. Die Zahl der verunfallten Personen sank im Vergleich zum Vorjahr um 25 auf 340.",
 		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -19953,7 +20107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-13T01:30:43",
+		"aktualisierungsdatum": "2026-03-19T08:43:04",
 		"id": 5186
 	},
 	{
@@ -21966,7 +22120,7 @@ var indikatoren = [
 		],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 251 Franken, während der Medianlohn der Männer bei 7 100 Franken liegt. Der Lohnunterschied hat sich gegenüber 2020 kaum verändert und liegt 2022 bei 12,0%. Im Jahr 2002 lag er bei 20,7%.",
+		"lesehilfe": "Im Jahr 2024 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 495 Franken, während der Medianlohn der Männer bei 7 190 Franken liegt. Der Lohnunterschied liegt 2024 zum ersten Mal unter 10%. Im Jahr 2004 lag er bei 20,0%.",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -21992,7 +22146,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:59",
+		"aktualisierungsdatum": "2026-03-19T08:43:05",
 		"id": 6037
 	},
 	{
@@ -23979,7 +24133,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 251 Franken, während der Medianlohn der Männer bei 7 100 Franken liegt. Der Lohnunterschied hat sich gegenüber 2020 kaum verändert und liegt 2022 bei 12,0%. Im Jahr 2002 lag er bei 20,7%.",
+		"lesehilfe": "Im Jahr 2024 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 495 Franken, während der Medianlohn der Männer bei 7 190 Franken liegt. Der Lohnunterschied liegt 2024 zum ersten Mal unter 10%. Im Jahr 2004 lag er bei 20,0%.",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -24005,7 +24159,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:38",
+		"aktualisierungsdatum": "2026-03-19T08:42:59",
 		"id": 6147
 	},
 	{
@@ -28917,9 +29071,9 @@ var indikatoren = [
 			6392
 		],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,2% auf.  Kleinhüningen und Klybeck sind mit 9,2% bzw. 9,1% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Gemeinde Bettingen mit 0,8% auf. Das Klybeck ist mit 9,3% das Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe per Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -28944,7 +29098,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:11",
+		"aktualisierungsdatum": "2026-03-19T08:43:00",
 		"id": 6380
 	},
 	{
@@ -29230,9 +29384,9 @@ var indikatoren = [
 			8512
 		],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,2% auf.  Kleinhüningen und Klybeck sind mit 9,2% bzw. 9,1% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Gemeinde Bettingen mit 0,8% auf. Das Klybeck ist mit 9,3% das Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe per Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -29257,7 +29411,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:20",
+		"aktualisierungsdatum": "2026-03-19T08:43:06",
 		"id": 6392
 	},
 	{
@@ -51060,8 +51214,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Im Januar 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen. In fünf Wohnvierteln sowie in Bettingen sank sie, im Wohnviertel Gotthelf veränderte sie sich nicht.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Im Februar 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in Riehen. In acht Wohnvierteln sowie in Bettingen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -51088,7 +51242,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-18T03:54:00",
+		"aktualisierungsdatum": "2026-03-19T08:42:49",
 		"id": 7763
 	},
 	{
@@ -76964,7 +77118,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Strassenverkehrsunfälle",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 wurden auf den baselstädtischen Strassen 535 Unfälle durch die Polizei rapportiert, davon 301 Unfälle mit Personenschaden.",
+		"lesehilfe": "2025 wurden auf den baselstädtischen Strassen 500 Unfälle durch die Polizei rapportiert, davon 273 Unfälle mit Personenschaden.",
 		"erlaeuterungen": "Seit 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Seit 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Seit 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -76990,7 +77144,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-13T11:18:31",
+		"aktualisierungsdatum": "2026-03-19T08:42:50",
 		"id": 9274
 	},
 	{
@@ -77002,7 +77156,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Verletzte und Verkehrstote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 sind auf den baselstädtischen Strassen insgesamt 365 Personen verunfallt. Davon wurden 247 leicht und 113 schwer verletzt; 5 verloren dabei ihr Leben.",
+		"lesehilfe": "Im Jahr 2025 sind auf den baselstädtischen Strassen insgesamt 340 Personen verunfallt. Davon wurden 234 leicht und 101 schwer verletzt; 5 verloren dabei ihr Leben.",
 		"erlaeuterungen": "Verkehrstote: Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -77028,7 +77182,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-13T01:30:42",
+		"aktualisierungsdatum": "2026-03-19T08:42:51",
 		"id": 9283
 	},
 	{
@@ -77040,7 +77194,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Verkehrsteilnehmende an Strassenverkehrsunfällen nach ausgewählter Unfallursache",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 waren in Basel-Stadt 30 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen waren u. a. Alkohol (80 Personen), Missachtung der Vortrittsregelung (121) sowie Missachten von Signalen und Zeichengebung (31).",
+		"lesehilfe": "Im Jahr 2025 waren in Basel-Stadt 10 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen waren u. a. Alkohol (79 Personen), Missachtung der Vortrittsregelung (112) sowie Missachten von Signalen und Zeichengebung (17).",
 		"erlaeuterungen": "An Verkehrsunfällen beteiligte Fussgänger oder Fahrzeuglenker (ohne Mitfahrer), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.). Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro Beteiligten) können mehrere mutmassliche Ursachen gemeldet werden.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -77066,7 +77220,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-13T11:18:35",
+		"aktualisierungsdatum": "2026-03-19T08:42:52",
 		"id": 9287
 	},
 	{
@@ -77080,7 +77234,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2024 bei 4,7%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2024 eine Quote von 5,0% aus, Riehen eine Quote von 2,6% und Bettingen eine Quote von 1,7%.",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2025 bei 4,7%. Sie sank seit dem Jahr 2018 kontinuierlich und ist nun erstmals wieder stabil gegenüber dem Vorjahr. Die Stadt Basel weist für das Jahr 2025 eine Quote von 5,0% aus, Riehen eine Quote von 2,4% und Bettingen eine Quote von 0,8%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -77106,7 +77260,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:47",
+		"aktualisierungsdatum": "2026-03-19T08:42:53",
 		"id": 9289
 	},
 	{
@@ -77118,8 +77272,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2024 stehen in den Kindertagesstätten (Kitas) insgesamt 4 562  Plätze zur Verfügung. Davon befinden sich 4 386 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören seit 2024 ebenfalls zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"lesehilfe": "Ende Oktober 2025 stehen in den Kindertagesstätten (Kitas) insgesamt 4 509  Plätze zur Verfügung. Davon befinden sich 4 093 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören seit 2024 zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -77144,7 +77298,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:08",
+		"aktualisierungsdatum": "2026-03-19T08:42:54",
 		"id": 9291
 	},
 	{
@@ -78544,8 +78698,8 @@ var indikatoren = [
 		],
 		"title": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "Im Verlaufe des Jahres 2024 wurden insgesamt 9 819 Personen finanziell durch die Sozialhilfe unterstützt. Die kantonale Sozialhilfequote liegt bei 4,7%. Sie sinkt seit dem Jahr 2017 kontinuierlich.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
+		"lesehilfe": "Im Verlaufe des Jahres 2025 wurden insgesamt 9 889 Personen durch die Sozialhilfe finanziell unterstützt. Die kantonale Sozialhilfequote liegt bei 4,7%. Die Quote ging zwischen 2017 und 2024 zurück. 2025 blieb sie gegenüber dem Vorjahr stabil.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe per Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -78570,7 +78724,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:06",
+		"aktualisierungsdatum": "2026-03-20T09:29:46",
 		"id": 9372
 	},
 	{
@@ -78869,8 +79023,8 @@ var indikatoren = [
 		],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2022 pendelten etwas mehr als 91 100 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen – rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 24 300 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 66 800 Personen.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
+		"lesehilfe": "Im Jahr 2023 pendelten rund 93 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen – rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen rund 25 100 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 900 Personen.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden. Die Zahl der Zupendler aus dem Ausland basiert auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -78896,7 +79050,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-11T12:59:43",
+		"aktualisierungsdatum": "2026-03-20T09:29:47",
 		"id": 9381
 	},
 	{
@@ -82916,10 +83070,13 @@ var indikatoren = [
 		"chart-id": 9608,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22458,
+			22465
+		],
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU, Schweizerische Rheinhäfen",
-		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vier Jahrzehnten dynamisch entwickelt. Bis zur Asienkrise 1997 war das Wachstum exponentiell, danach nahm es eine linearere Form an. Zwischen 1998 und 2022 lag das durchschnittliche jährliche Wachstum bei 3,1%. 2022 gab es durch pandemiebedingte Nachholeffekte einen deutlichen Anstieg. In den beiden darauffolgenden Jahren flachte die Entwicklung jedoch ab. Faktoren wie hohe Lagerbestände, politische Spannungen und die inflationäre Entwicklung in Europa führten zu einem Rückgang des Transportvolumens. Zusätzlich fehlten durch den Rückbau des Contargo Südquai-Terminals wichtige Umschlagskapazitäten, die durch bestehende Anlagen nicht vollständig ausgeglichen werden konnten. 2024 sank das Transportvolumen im Containerverkehr um 8,0% auf 100&nbsp032&nbspTEU.",
+		"lesehilfe": "Der wasserseitige Containerumschlag in Basel zeigt über die vergangenen vier Jahrzehnte eine überwiegend steigende Entwicklung des Umschlagsvolumens. Bis zur Asienkrise 1997 verlief das Wachstum exponentiell, seit 1998 zeigt sich eine annähernd lineare Entwicklung. Zwischen 1998 und 2022 betrug das durchschnittliche jährliche Wachstum 3,1%. Im Jahr 2022 wurde im Zusammenhang mit pandemiebedingten Nachholeffekten ein überdurchschnittlicher Anstieg verzeichnet. In den Jahren 2023 und 2024 verringerte sich das Umschlagsvolumen. Hierzu trugen insbesondere hohe Lagerbestände, geopolitische Spannungen sowie die Inflation in Europa bei. Zusätzlich reduzierten sich die Umschlagskapazitäten infolge des Rückbaus des Contargo Südquai-Terminals; eine vollständige Kompensation durch bestehende Anlagen erfolgte nicht. Im Jahr 2025 wurden wasserseitig 112 620 TEU umgeschlagen. Gegenüber dem Vorjahr entspricht dies einer Zunahme um 12,6%.",
 		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU (Twenty-foot Equivalent Unit/Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen sowie zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -82945,7 +83102,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-15T09:05:53",
+		"aktualisierungsdatum": "2026-03-19T08:42:56",
 		"id": 9608
 	},
 	{
@@ -86254,8 +86411,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "5 821 Kinder werden Ende Oktober 2024 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
+		"lesehilfe": "6 126 Kinder werden Ende Oktober 2025 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt werden nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -86280,7 +86437,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:05:26",
+		"aktualisierungsdatum": "2026-03-19T08:42:57",
 		"id": 9931
 	},
 	{

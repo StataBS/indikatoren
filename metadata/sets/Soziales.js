@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittagsmodul der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 224 Plätze zur Verfügung. Mit durchschnittlich 4 059 Nutzenden pro Tag sind diese Angebote zu 96% ausgelastet.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2025 stehen im Rahmen des Mittagsmoduls schulintern und -extern insgesamt 4 515 Plätze zur Verfügung. Mit durchschnittlich 4 327 Nutzenden pro Tag sind diese Angebote zu 96% ausgelastet.",
 		"erlaeuterungen": "Stichwoche im September.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:23",
+		"aktualisierungsdatum": "2026-03-20T09:29:43",
 		"id": 12520
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nachmittagsmodule der Tagesstrukturen auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2024 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 3 892 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 1 933 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 707 Mal.",
+		"lesehilfe": "Das Platzangebot der Tagesstrukturen wird stetig erhöht. 2025 stehen im Rahmen der Nachmittagsmodule schulintern und -extern insgesamt 4 166 Plätze zur Verfügung. Modul 1 wird pro Tag durchschnittlich 2 053 Mal gebucht, Modul 2 pro Tag durchschnittlich 1 854 Mal.",
 		"erlaeuterungen": "Stichwoche im September. In schuleigenen und -externen Tagesstrukturen werden am Nachmittag ein Modul 1 (von 13:30 Uhr bis 15:45 Uhr) und ein Modul 2 (zweite Nachmittagshälfte) angeboten. Modul 2 kann als langes (15:45 bis 18:00 Uhr) oder kurzes Modul (16:30 bis 18:00 Uhr) gebucht werden (je nach Unterrichtsschluss). Für eine Betreuung während des gesamten Nachmittags müssen beide Module gebucht werden. Bei den schuleigenen Tagesstrukturen ist das Platzangebot für Modul 1 und 2 identisch. Bei einigen schulexternen Tagesstrukturen unterscheiden sich die Kapazitäten der Module.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:24",
+		"aktualisierungsdatum": "2026-03-20T09:29:44",
 		"id": 12521
 	},
 	{
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 nutzen in der Stichwoche durchschnittlich 1 326 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 422 Schülerinnen und Schülern in Anspruch genommen.",
+		"lesehilfe": "2025 nutzen in der Stichwoche durchschnittlich 1 448 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 527 Schülerinnen und Schülern in Anspruch genommen.",
 		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote ohne vorgängige Buchung spontan in Anspruch genommen werden können, gibt es keine feste Anzahl Plätze. Stattdessen wird die in der Stichtwoche durchschnittliche Nutzung pro Tag ausgewiesen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:12",
+		"aktualisierungsdatum": "2026-03-20T09:29:45",
 		"id": 12561
 	},
 	{
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Belegte Plätze in Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl belegte Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2024 werden 43 Plätze gezählt, 2015 waren es 87.",
+		"lesehilfe": "Die Anzahl der belegten Plätze in Tagesfamilien hat im Verlauf der letzten zehn Jahre abgenommen. 2025 werden 46 Plätze gezählt, 2015 waren es 87.",
 		"erlaeuterungen": "Stichtag ist der 31. Oktober.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:13",
+		"aktualisierungsdatum": "2026-03-19T08:42:58",
 		"id": 12602
 	},
 	{
@@ -237,7 +237,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2024 bei 4,7%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2024 eine Quote von 5,0% aus, Riehen eine Quote von 2,6% und Bettingen eine Quote von 1,7%.",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2025 bei 4,7%. Sie sank seit dem Jahr 2018 kontinuierlich und ist nun erstmals wieder stabil gegenüber dem Vorjahr. Die Stadt Basel weist für das Jahr 2025 eine Quote von 5,0% aus, Riehen eine Quote von 2,4% und Bettingen eine Quote von 0,8%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -262,7 +262,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:47",
+		"aktualisierungsdatum": "2026-03-19T08:42:53",
 		"id": 9289
 	},
 	{
@@ -274,8 +274,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2024 stehen in den Kindertagesstätten (Kitas) insgesamt 4 562  Plätze zur Verfügung. Davon befinden sich 4 386 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören seit 2024 ebenfalls zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"lesehilfe": "Ende Oktober 2025 stehen in den Kindertagesstätten (Kitas) insgesamt 4 509  Plätze zur Verfügung. Davon befinden sich 4 093 Plätze in Kindertagesstätten mit Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Am 1. Januar 2022 trat das neue kantonale Gesetz betreffend Tagesbetreuung von Kindern (Tagesbetreuungsgesetz, TBG) in Kraft. Seither gibt es zwei Kategorien von Kindertagesstätten: Solche mit und solche ohne Betreuungsbeiträge. Die Firmenkitas gehören seit 2024 zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt (grau). Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -299,7 +299,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:08",
+		"aktualisierungsdatum": "2026-03-19T08:42:54",
 		"id": 9291
 	},
 	{
@@ -762,8 +762,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "5 821 Kinder werden Ende Oktober 2024 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
+		"lesehilfe": "6 126 Kinder werden Ende Oktober 2025 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt werden nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:05:26",
+		"aktualisierungsdatum": "2026-03-19T08:42:57",
 		"id": 9931
 	},
 	{

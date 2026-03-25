@@ -67,6 +67,10 @@
         [
           "2022",
           -734
+        ],
+        [
+          "2023",
+          -313
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -139,6 +143,10 @@
         [
           "2022",
           -5186
+        ],
+        [
+          "2023",
+          -5257
         ]
       ],
       "name": "Wegpendler in die übrige CH",
@@ -211,6 +219,10 @@
         [
           "2022",
           -18401
+        ],
+        [
+          "2023",
+          -19536
         ]
       ],
       "name": "Wegpendler in die NWCH",
@@ -282,7 +294,11 @@
         ],
         [
           "2022",
-          35302
+          35404
+        ],
+        [
+          "2023",
+          35271
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -355,6 +371,10 @@
         [
           "2022",
           9419
+        ],
+        [
+          "2023",
+          9841
         ]
       ],
       "name": "Zupendler aus der übrigen CH",
@@ -427,6 +447,10 @@
         [
           "2022",
           46377
+        ],
+        [
+          "2023",
+          47903
         ]
       ],
       "name": "Zupendler aus der NWCH",
@@ -502,7 +526,11 @@
         ],
         [
           "2022",
-          66777
+          66879
+        ],
+        [
+          "2023",
+          67909
         ]
       ],
       "name": "Saldo",
@@ -651,7 +679,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 11.10.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.3.2026"
   },
   "tooltip": {
     "shared": true,
