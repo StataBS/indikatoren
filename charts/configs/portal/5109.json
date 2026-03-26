@@ -3237,40 +3237,40 @@
       },
       "data": [
         [
-          7,
-          0.012
-        ],
-        [
           30,
-          0.017
+          0.008
         ],
         [
-          1,
-          0.018
-        ],
-        [
-          14,
-          0.019
+          7,
+          0.014
         ],
         [
           8,
-          0.019
+          0.021
         ],
         [
-          5,
+          14,
           0.022
         ],
         [
           20,
-          0.026
+          0.024
+        ],
+        [
+          5,
+          0.025
         ],
         [
           3,
           0.026
         ],
         [
+          1,
+          0.03
+        ],
+        [
           9,
-          0.032
+          0.031
         ],
         [
           2,
@@ -3278,11 +3278,11 @@
         ],
         [
           15,
-          0.038
+          0.036
         ],
         [
           4,
-          0.04
+          0.043
         ],
         [
           6,
@@ -3290,35 +3290,35 @@
         ],
         [
           13,
-          0.053
+          0.052
+        ],
+        [
+          16,
+          0.054
         ],
         [
           12,
           0.055
         ],
         [
-          16,
-          0.058
-        ],
-        [
           11,
-          0.058
+          0.056
         ],
         [
           10,
-          0.066
+          0.065
         ],
         [
           17,
-          0.077
-        ],
-        [
-          18,
-          0.091
+          0.072
         ],
         [
           19,
-          0.092
+          0.081
+        ],
+        [
+          18,
+          0.093
         ]
       ]
     },
@@ -3329,15 +3329,15 @@
       "data": [
         [
           1,
-          "Bruderholz"
-        ],
-        [
-          2,
           "Bettingen"
         ],
         [
+          2,
+          "Bruderholz"
+        ],
+        [
           3,
-          "Altstadt Grossbasel"
+          "Bachletten"
         ],
         [
           4,
@@ -3345,7 +3345,7 @@
         ],
         [
           5,
-          "Bachletten"
+          "Riehen"
         ],
         [
           6,
@@ -3353,11 +3353,11 @@
         ],
         [
           7,
-          "Riehen"
+          "Am Ring"
         ],
         [
           8,
-          "Am Ring"
+          "Altstadt Grossbasel"
         ],
         [
           9,
@@ -3385,11 +3385,11 @@
         ],
         [
           15,
-          "Altstadt Kleinbasel"
+          "Rosental"
         ],
         [
           16,
-          "Rosental"
+          "Altstadt Kleinbasel"
         ],
         [
           17,
@@ -3405,11 +3405,11 @@
         ],
         [
           20,
-          "Klybeck"
+          "Kleinhüningen"
         ],
         [
           21,
-          "Kleinhüningen"
+          "Klybeck"
         ]
       ],
       "name": "wohnviertel"
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "colorAxis": {
     "min": 0,

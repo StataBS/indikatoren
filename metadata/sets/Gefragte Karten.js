@@ -128,7 +128,7 @@ var indikatorensetData = [
 			6389
 		],
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
+		"subtitle": "Basel-Stadt, 2025",
 		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:47",
+		"aktualisierungsdatum": "2026-03-26T08:55:28",
 		"id": 6377
 	},
 	{
@@ -168,7 +168,7 @@ var indikatorensetData = [
 			6390
 		],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
+		"subtitle": "Basel-Stadt, 2025",
 		"lesehilfe": "Das Wohnviertel Matthäus weist mit 153,2 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit 2,5 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:14",
+		"aktualisierungsdatum": "2026-03-26T08:55:30",
 		"id": 6378
 	},
 	{
@@ -365,8 +365,8 @@ var indikatorensetData = [
 		"parentId": "6375",
 		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,3%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,7%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,0%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -391,7 +391,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:09",
+		"aktualisierungsdatum": "2026-03-26T08:55:34",
 		"id": 6387
 	},
 	{
@@ -402,8 +402,8 @@ var indikatorensetData = [
 		"parentId": "6376",
 		"children": [],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,3%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,2%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Den höchsten Anteil von Personan im Alter von 65 Jahren und älter an der Gesamtbevölkerung weist die Gemeinde Riehen (25,4%) auf, den niedrigsten Anteil das Wohnviertel Rosental (9,7%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -428,7 +428,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:11",
+		"aktualisierungsdatum": "2026-03-26T08:55:36",
 		"id": 6388
 	},
 	{
@@ -439,7 +439,7 @@ var indikatorensetData = [
 		"parentId": "6377",
 		"children": [],
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
+		"subtitle": "Basel-Stadt, 2025",
 		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-23T08:27:52",
+		"aktualisierungsdatum": "2026-03-26T08:55:37",
 		"id": 6389
 	},
 	{
@@ -477,7 +477,7 @@ var indikatorensetData = [
 		"parentId": "6378",
 		"children": [],
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
+		"subtitle": "Basel-Stadt, 2025",
 		"lesehilfe": "Das Wohnviertel Matthäus weist mit 153,2 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist die Dichte mit 2,5 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -504,7 +504,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:07:07",
+		"aktualisierungsdatum": "2026-03-26T08:55:39",
 		"id": 6390
 	},
 	{

@@ -3238,87 +3238,87 @@
       "data": [
         [
           7,
-          0.024
-        ],
-        [
-          8,
-          0.026
-        ],
-        [
-          14,
-          0.027
-        ],
-        [
-          20,
-          0.028
-        ],
-        [
-          30,
-          0.028
-        ],
-        [
-          15,
           0.029
         ],
         [
-          9,
-          0.03
-        ],
-        [
-          2,
+          1,
           0.031
         ],
         [
-          1,
+          8,
+          0.031
+        ],
+        [
+          14,
           0.033
         ],
         [
-          3,
+          30,
           0.033
         ],
         [
-          5,
-          0.034
+          20,
+          0.033
         ],
         [
-          6,
+          15,
+          0.035
+        ],
+        [
+          9,
           0.037
         ],
         [
-          13,
+          3,
+          0.038
+        ],
+        [
+          2,
+          0.039
+        ],
+        [
+          5,
           0.04
         ],
         [
-          11,
-          0.041
-        ],
-        [
           12,
-          0.041
+          0.04
         ],
         [
-          4,
+          6,
           0.043
         ],
         [
-          10,
-          0.046
+          11,
+          0.048
         ],
         [
-          16,
-          0.051
+          4,
+          0.05
+        ],
+        [
+          10,
+          0.05
+        ],
+        [
+          13,
+          0.053
         ],
         [
           17,
-          0.051
+          0.053
+        ],
+        [
+          16,
+          0.055
         ],
         [
           18,
-          0.056
+          0.064
         ],
         [
           19,
-          0.058
+          0.069
         ]
       ]
     },
@@ -3333,10 +3333,14 @@
         ],
         [
           2,
+          "Altstadt Grossbasel"
+        ],
+        [
+          2,
           "Bachletten"
         ],
         [
-          3,
+          4,
           "Wettstein"
         ],
         [
@@ -3348,60 +3352,56 @@
           "Bettingen"
         ],
         [
-          6,
+          7,
           "Hirzbrunnen"
         ],
         [
-          7,
-          "Gotthelf"
-        ],
-        [
           8,
-          "Vorstädte"
-        ],
-        [
-          9,
-          "Altstadt Grossbasel"
+          "Gotthelf"
         ],
         [
           9,
           "Am Ring"
         ],
         [
+          10,
+          "Vorstädte"
+        ],
+        [
           11,
-          "St. Alban"
+          "St.Alban"
         ],
         [
-          12,
-          "Gundeldingen"
-        ],
-        [
-          13,
-          "Clara"
-        ],
-        [
-          14,
-          "St. Johann"
-        ],
-        [
-          14,
+          11,
           "Altstadt Kleinbasel"
         ],
         [
-          16,
+          13,
+          "Gundeldingen"
+        ],
+        [
+          14,
+          "St.Johann"
+        ],
+        [
+          15,
           "Breite"
         ],
         [
-          17,
+          15,
           "Iselin"
         ],
         [
-          18,
-          "Rosental"
+          17,
+          "Clara"
         ],
         [
-          18,
+          17,
           "Matthäus"
+        ],
+        [
+          19,
+          "Rosental"
         ],
         [
           20,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.10.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "colorAxis": {
     "min": 0,

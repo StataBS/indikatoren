@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          33.000293
+          33.044223
         ],
         [
           19,
-          33.352875
+          33.997765
         ],
         [
           16,
-          35.380296
-        ],
-        [
-          11,
-          36.777447
+          35.326648
         ],
         [
           17,
-          36.827986
+          36.803036
         ],
         [
           10,
-          37.22344
+          36.829653
+        ],
+        [
+          11,
+          36.947492
         ],
         [
           13,
-          38.216642
+          38.179462
         ],
         [
           15,
-          39.278162
-        ],
-        [
-          4,
-          39.414367
+          39.231916
         ],
         [
           6,
-          39.42054
+          39.442032
+        ],
+        [
+          4,
+          39.635486
         ],
         [
           9,
-          41.346443
+          41.478447
         ],
         [
           12,
-          43.74074
+          44.087204
         ],
         [
           3,
-          44.921115
+          44.799142
         ],
         [
           14,
-          45.503785
+          45.360405
         ],
         [
           8,
-          46.038589
+          46.221078
         ],
         [
           5,
-          46.79472
+          46.254162
         ],
         [
           20,
-          46.944487
+          46.767297
         ],
         [
           7,
-          48.099438
+          48.132073
         ],
         [
           2,
-          50.682073
+          50.746917
         ],
         [
           30,
-          51.957826
+          51.800819
         ],
         [
           1,
-          53.690107
+          53.286181
         ]
       ]
     },
@@ -3339,15 +3339,15 @@
         ],
         [
           4,
-          "St. Johann"
-        ],
-        [
-          5,
           "Matthäus"
         ],
         [
-          6,
+          5,
           "Iselin"
+        ],
+        [
+          6,
+          "St. Johann"
         ],
         [
           7,
@@ -3359,11 +3359,11 @@
         ],
         [
           9,
-          "Breite"
+          "Gundeldingen"
         ],
         [
           10,
-          "Gundeldingen"
+          "Breite"
         ],
         [
           11,
@@ -3868,7 +3868,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3884,7 +3884,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "colorAxis": {
     "min": undefined,

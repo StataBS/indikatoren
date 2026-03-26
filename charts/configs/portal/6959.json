@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.10967758527573702,
-          "Anzahl": 12794
+          "y": 0.11006208849316003,
+          "Anzahl": 12905
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.23973219260872175,
-          "Anzahl": 27965
+          "y": 0.24075495513935796,
+          "Anzahl": 28229
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.36572339714190194,
-          "Anzahl": 42662
+          "y": 0.3651025142428274,
+          "Anzahl": 42809
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17213740130817567,
-          "Anzahl": 20080
+          "y": 0.17170709241633406,
+          "Anzahl": 20133
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.06170542901475341,
-          "Anzahl": 7198
+          "y": 0.061551188892300344,
+          "Anzahl": 7217
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.05102399465071024,
-          "Anzahl": 5952
+          "y": 0.050822160816020194,
+          "Anzahl": 5959
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.057245724572457246,
-          "Anzahl": 318
+          "y": 0.057415406767458606,
+          "Anzahl": 319
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.28064806480648063,
-          "Anzahl": 1559
+          "y": 0.28041756659467243,
+          "Anzahl": 1558
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.49558955895589557,
-          "Anzahl": 2753
+          "y": 0.4956803455723542,
+          "Anzahl": 2754
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.12637263726372638,
+          "y": 0.1263498920086393,
           "Anzahl": 702
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.0288028802880288,
-          "Anzahl": 160
+          "y": 0.028617710583153346,
+          "Anzahl": 159
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Breite",
-          "y": 0.01134113411341134,
-          "Anzahl": 63
+          "y": 0.011519078473722102,
+          "Anzahl": 64
         }
       ],
       "name": "Breite",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Breite, 2024",
+    "text": "Breite, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -217,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "pointFormatter": function(){

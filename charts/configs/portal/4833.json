@@ -5,83 +5,83 @@
       "data": [
         [
           "Klybeck",
-          64.802795
+          64.791086
         ],
         [
           "Kleinhüningen",
-          66.35332
+          66.197103
         ],
         [
           "Clara",
-          66.778986
+          66.336944
         ],
         [
           "Matthäus",
-          67.028175
+          67.136199
         ],
         [
           "Altstadt Kleinbasel",
-          68.982485
+          68.92169
         ],
         [
           "Iselin",
-          68.989169
+          68.937946
         ],
         [
           "Gundeldingen",
-          69.595726
+          69.618999
         ],
         [
           "Rosental",
-          70.284799
+          70.30288
         ],
         [
           "Breite",
-          70.853465
+          70.890568
         ],
         [
           "St. Johann",
-          72.172629
+          72.177657
         ],
         [
           "Gotthelf",
-          74.520576
+          74.710726
         ],
         [
           "Hirzbrunnen",
-          80.822142
-        ],
-        [
-          "Am Ring",
-          81.630359
+          80.886058
         ],
         [
           "Vorstädte",
-          82.156142
+          81.311475
+        ],
+        [
+          "Am Ring",
+          81.577677
         ],
         [
           "Wettstein",
-          82.784261
+          82.780854
         ],
         [
           "Altstadt Grossbasel",
-          88.126472
+          88.011699
         ],
         [
           "St. Alban",
-          90.759051
+          90.733049
         ],
         [
           "Bachletten",
-          92.35241
+          92.307661
         ],
         [
           "Riehen",
-          102.545562
+          102.473093
         ],
         [
           "Bruderholz",
-          109.906304
+          109.754458
         ],
         [
           "Bettingen",
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Am Ring",
+          "Vorstädte",
           13
         ],
         [
-          "Vorstädte",
+          "Am Ring",
           14
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "legend": {
     "enabled": false,

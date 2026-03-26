@@ -268,6 +268,10 @@
         [
           2024,
           115754
+        ],
+        [
+          2025,
+          116173
         ]
       ],
       "name": "Wohnungsbestand (ohne Leerwohnungen)"
@@ -540,6 +544,10 @@
         [
           2024,
           897
+        ],
+        [
+          2025,
+          1079
         ]
       ],
       "name": "Leerwohnungen"
@@ -813,7 +821,11 @@
         ],
         [
           2024,
-          207537
+          207515
+        ],
+        [
+          2025,
+          210529
         ]
       ],
       "name": "Wohnbevölkerung (rechte Skala)"
@@ -971,7 +983,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "shared": true

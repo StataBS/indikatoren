@@ -30,9 +30,13 @@
         [
           "2023",
           708140
+        ],
+        [
+          "2024",
+          842160
         ]
       ],
-      "name": "Einfamilienhäuser",
+      "name": "Einfamilienhaus",
       "turboThreshold": 0
     },
     {
@@ -65,9 +69,13 @@
         [
           "2023",
           2683990
+        ],
+        [
+          "2024",
+          2436300
         ]
       ],
-      "name": "Mehrfamilienhäuser",
+      "name": "Mehrfamilienhaus",
       "turboThreshold": 0
     }
   ],
@@ -208,7 +216,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gebäudeprogramm.\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2025"
+    "text": "Quelle: Gebäudeprogramm.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "useHTML": true,

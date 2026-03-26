@@ -1707,7 +1707,7 @@ var indikatorensetData = [
 		],
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2024 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,6% (Stadt Basel: 3,1%).",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2025 0,4% der Gesamtfläche Freiraumflächen, im Wohnviertel Klybeck deren 2,6% (Stadt Basel: 3,1%).",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1732,7 +1732,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-21T05:07:00",
+		"aktualisierungsdatum": "2026-03-26T08:55:26",
 		"id": 8090
 	},
 	{

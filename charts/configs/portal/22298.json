@@ -58,9 +58,13 @@
         [
           "2024",
           15
+        ],
+        [
+          "2025",
+          43
         ]
       ],
-      "name": "Bewilligte Gebäude",
+      "name": "bewilligte Gebäude",
       "turboThreshold": 0
     },
     {
@@ -121,9 +125,13 @@
         [
           "2024",
           442
+        ],
+        [
+          "2025",
+          189
         ]
       ],
-      "name": "Bewilligte Wohnungen",
+      "name": "bewilligte Wohnungen",
       "turboThreshold": 0
     }
   ],
@@ -264,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

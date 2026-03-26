@@ -271,7 +271,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
 		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung, in Franken, Basel-Stadt",
-		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf knapp 3,4 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
+		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf knapp 3,3 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
 		"erlaeuterungen": "Gemäss Gebäudeprogramm von Kanton und Bund ausbezahlte Förderbeiträge nach Gebäudekategorie. Die Auszahlung der Fördergelder erfolgt nach Abschluss der Sanierung, zwischen Förderzusage und Auszahlung können mehrere Jahre vergehen. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:42",
+		"aktualisierungsdatum": "2026-03-26T08:54:44",
 		"id": 22295
 	},
 	{
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Abgebrochene Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In den letzten 10 Jahren wurden im Durchschnitt jährlich rund 110 Wohnungen abgebrochen. Im Jahr 2024 war die Anzahl abgebrochener Wohnungen mit 77 unterdurchschnittlich.",
+		"lesehilfe": "In den letzten 10 Jahren wurden im Durchschnitt jährlich rund 100 Wohnungen abgebrochen. Im Jahr 2025 war die Anzahl abgebrochener Wohnungen mit 34 unterdurchschnittlich.",
 		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruchs.Zwischen Bewilligung für den Abbruch und erfolgtem Abbruch können mehrere Jahre liegen. Bei den Zahlen der Jahre 2023 und 2024 handelt es sich somit auch um Abbruchprojekte, die noch vor der Inkraftsetzung der Wohnraumschutzbestimmungen am 28. Mai 2022 bewilligt wurden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:48",
+		"aktualisierungsdatum": "2026-03-26T08:54:47",
 		"id": 22296
 	},
 	{
@@ -345,7 +345,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungsneubau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der neugebauten Wohnungen lag 2024 bei 151 Einheiten und damit deutlich unter dem Wert der Vorjahre. Vor allem aus Arealentwicklungen resultierten nur sehr wenige neue Wohnungen.",
+		"lesehilfe": "Die Anzahl der neugebauten Wohnungen lag 2025 bei 263 Einheiten und damit deutlich unter dem Wert der Vorjahre. Aus Arealentwicklungen resultierten keine neuen Wohnungen.",
 		"erlaeuterungen": "Als Arealentwicklungen werden Areale bezeichnet, auf denen ein massgeblicher Gewinn an Wohnraum im Vergleich zur vorherigen Nutzung resultiert. Zu den grössten Arealentwicklungen der letzten Jahre gehören beispielsweise Projekte auf den Arealen Erlenmatt, Westfeld und Lysbüchel (Volta Nord) sowie das Meret Oppenheim Hochhaus. Grössere Ersatzneubauten (z.B. der Claraturm) werden hier ebenfalls zu den Arealentwicklungen gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:52",
+		"aktualisierungsdatum": "2026-03-26T08:54:48",
 		"id": 22297
 	},
 	{
@@ -382,7 +382,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Baubewilligte Wohnungen und Gebäude",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden 442 Neubauwohnungen bewilligt. Nach einer Phase mit weniger Bewilligungen (2021–2023) liegt dieser Wert im Durchschnitt der vorangegangenen zehn Jahre.",
+		"lesehilfe": "Im Jahr 2025 wurden 189 Neubauwohnungen bewilligt. Im Vorjahr waren es 442 gewesen.  Der Wert von 2025 liegt wieder im Bereich der Jahre 2021 bis 2023 mit Werten zwischen 120 und 240.",
 		"erlaeuterungen": "Gezählt werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten, nach Jahr der Baubewilligung. Umbauprojekte mit Wohnungszuwachs werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:56",
+		"aktualisierungsdatum": "2026-03-26T08:54:50",
 		"id": 22298
 	},
 	{
@@ -532,7 +532,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Förderzusagen Gebäudeprogramm",
 		"subtitle": "Verpflichtungen pro Jahr für Wärmedämmung, indexiert (Basis 2017 = 100), Basel-Stadt",
-		"lesehilfe": "Zwischen 2017 und 2023 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 13% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, nahmen 2023 aber wieder deutlich zu.",
+		"lesehilfe": "Zwischen 2017 und 2024 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 8% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, nahmen danach aber wieder zu.",
 		"erlaeuterungen": "Gemäss <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a> zugesagte Förderbeiträge, indexiert auf das Jahr 2017.",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-10T08:04:45",
+		"aktualisierungsdatum": "2026-03-26T08:54:45",
 		"id": 22326
 	}
 ];
