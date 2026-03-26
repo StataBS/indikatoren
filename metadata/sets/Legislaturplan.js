@@ -1479,7 +1479,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 existieren in Basel-Stadt 102 970 Wohnungen. Den grössten Anteil machen mit 75 195 (73,0%) die Mietwohnungen aus. Seit 2014 ist der Bestand von Genossenschaftswohnungen von 10 368 auf 11 598 gestiegen.",
+		"lesehilfe": "Ende 2025 existieren in Basel-Stadt 103 900 belegte Wohnungen. Den grössten Anteil machen mit 76 014 (73,2%) die Mietwohnungen aus. Seit 2014 ist der Bestand von Genossenschaftswohnungen von 10 368 auf 11 613 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1504,7 +1504,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-13T08:45:51",
+		"aktualisierungsdatum": "2026-03-26T08:55:22",
 		"id": 9382
 	},
 	{
@@ -1516,7 +1516,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 651 im Jahr 2024 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,3% auf 7 198 bzw. +13,1% auf 27 965), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,5% auf 5 952).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 117 252 im Jahr 2025 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Zwei- und den Fünfzimmerwohnungen (+14,1% bzw. +13,6%), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,7%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1541,7 +1541,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:02",
+		"aktualisierungsdatum": "2026-03-26T08:55:23",
 		"id": 9383
 	},
 	{
@@ -1578,7 +1578,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-20T11:25:27",
+		"aktualisierungsdatum": "2026-03-26T08:55:25",
 		"id": 9384
 	},
 	{

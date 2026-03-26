@@ -83,6 +83,10 @@
         [
           "2024",
           12794
+        ],
+        [
+          "2025",
+          12905
         ]
       ],
       "name": "1 Zimmer",
@@ -171,6 +175,10 @@
         [
           "2024",
           27965
+        ],
+        [
+          "2025",
+          28229
         ]
       ],
       "name": "2 Zimmer",
@@ -259,6 +267,10 @@
         [
           "2024",
           42662
+        ],
+        [
+          "2025",
+          42809
         ]
       ],
       "name": "3 Zimmer",
@@ -347,6 +359,10 @@
         [
           "2024",
           20080
+        ],
+        [
+          "2025",
+          20133
         ]
       ],
       "name": "4 Zimmer",
@@ -435,6 +451,10 @@
         [
           "2024",
           7198
+        ],
+        [
+          "2025",
+          7217
         ]
       ],
       "name": "5 Zimmer",
@@ -523,6 +543,10 @@
         [
           "2024",
           5952
+        ],
+        [
+          "2025",
+          5959
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -660,7 +684,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 31.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "shared": true,

@@ -99,6 +99,10 @@
         [
           2024,
           4886
+        ],
+        [
+          2025,
+          4886
         ]
       ],
       "name": "Freiraumfläche Kleinhüningen"
@@ -203,6 +207,10 @@
         [
           2024,
           0.36
+        ],
+        [
+          2025,
+          0.36
         ]
       ],
       "name": "Anteil Freiraumfläche Kleinhüningen (rechte Skala)"
@@ -305,6 +313,10 @@
         ],
         [
           2024,
+          23448
+        ],
+        [
+          2025,
           23448
         ]
       ],
@@ -409,6 +421,10 @@
         ],
         [
           2024,
+          2.55
+        ],
+        [
+          2025,
           2.55
         ]
       ],
@@ -548,7 +564,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.1.2026"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

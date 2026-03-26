@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Gebäude pro Hektare",
+      "name": "Gebäude pro Hektar",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          13.47
+          13.65263027
         ],
         [
           2,
-          6.04
+          6.043195006
         ],
         [
           3,
-          13.03
+          13.07527046
         ],
         [
           4,
-          9.74
+          9.662177344
         ],
         [
           5,
-          4.03
+          4.044761649
         ],
         [
           6,
-          12.34
+          12.36143019
         ],
         [
           7,
-          8.09
+          8.16896524
         ],
         [
           8,
-          16.41
+          16.41351737
         ],
         [
           9,
-          20.11
+          20.11321771
         ],
         [
           10,
-          13.3
+          13.37747565
         ],
         [
           11,
-          6.8
+          6.831189193
         ],
         [
           12,
-          11.54
+          11.73882115
         ],
         [
           13,
-          10.85
+          10.88874404
         ],
         [
           14,
-          9.38
+          9.39257068
         ],
         [
           15,
-          5.15
+          5.146444018
         ],
         [
           16,
-          4.96
+          5.034324546
         ],
         [
           17,
-          19.31
+          19.51361984
         ],
         [
           18,
-          4.74
+          4.770607978
         ],
         [
           19,
-          1.29
+          1.258271786
         ],
         [
           20,
-          3.9
+          3.944658783
         ],
         [
           30,
-          1.45
+          1.454859541
         ]
       ]
     },
@@ -6658,7 +6658,7 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          508
+          515
         ],
         [
           "Vorstädte",
@@ -6666,23 +6666,23 @@
         ],
         [
           "Am Ring",
-          1191
+          1195
         ],
         [
           "Breite",
-          668
+          663
         ],
         [
           "St. Alban",
-          1201
+          1205
         ],
         [
           "Gundeldingen",
-          1437
+          1440
         ],
         [
           "Bruderholz",
-          2096
+          2116
         ],
         [
           "Bachletten",
@@ -6694,39 +6694,39 @@
         ],
         [
           "Iselin",
-          1452
+          1461
         ],
         [
           "St. Johann",
-          1533
+          1539
         ],
         [
           "Altstadt Kleinbasel",
-          286
+          291
         ],
         [
           "Clara",
-          251
+          252
         ],
         [
           "Wettstein",
-          709
+          710
         ],
         [
           "Hirzbrunnen",
-          1595
+          1594
         ],
         [
           "Rosental",
-          314
+          319
         ],
         [
           "Matthäus",
-          1150
+          1162
         ],
         [
           "Klybeck",
-          436
+          439
         ],
         [
           "Kleinhüningen",
@@ -6734,11 +6734,11 @@
         ],
         [
           "Riehen",
-          4239
+          4284
         ],
         [
           "Bettingen",
-          322
+          324
         ]
       ],
       "name": "Anzahl Gebäude"
@@ -7295,7 +7295,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2022",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -7311,7 +7311,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 23.3.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "colorAxis": {
     "min": 0,

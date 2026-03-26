@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-20T11:25:13",
+		"aktualisierungsdatum": "2026-03-26T08:54:51",
 		"id": 7595
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021 und 2024 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbaugewinn beitrugen.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 bis 2022 und 2024 bis 2025 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2014, 2019, 2021, 2024 und 2025 wurden vor allem Bürogebäude umgenutzt, während 2020 Dachstockausbauten und 2022 die Umnutzung eines Hotels und eines Spitals wesentlich zum hohen Umbausaldo beitrugen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:05:34",
+		"aktualisierungsdatum": "2026-03-26T08:54:53",
 		"id": 7596
 	},
 	{
@@ -81,8 +81,8 @@ var indikatorensetData = [
 		"parentId": "5817",
 		"children": [],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2024",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 17% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Wohnungsbestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016-2025",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel St. Alban und in Riehen am höchsten. Auf diese Wohnviertel entfielen je 11% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Wohnungsbestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:05:43",
+		"aktualisierungsdatum": "2026-03-26T08:54:54",
 		"id": 7597
 	},
 	{
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 151 Wohnungen war die Neubauproduktion 2024 sehr niedrig. Sie erreichte weniger als einen Viertel des neuen, gesunkenen Zehnjahresdurchschnitts von 653.",
+		"lesehilfe": "Mit 263 Wohnungen war die Neubauproduktion 2025 sehr niedrig. Sie erreichte weniger als die Hälfte des neuen, gesunkenen Zehnjahresdurchschnitts von 599.",
 		"erlaeuterungen": "Berücksichtigt werden nur neuerstellte Wohnungen in Neubauten. Neue Wohnungen aus Umbauten werden nicht gezählt. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer erstellt. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der letzten zehn Jahre (ohne Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:05:54",
+		"aktualisierungsdatum": "2026-03-26T08:54:56",
 		"id": 7598
 	},
 	{
@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Fläche neuerstellter Wohnungen",
 		"subtitle": "in Quadratmeter nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2024 in allen Zimmerzahlkategorien grösser als die Werte im Gesamtbestand.",
+		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2025 in Zimmerzahlkategorien ab 3 und mehr Zimmer grösser als die Werte im Gesamtbestand. Bei den Ein- und Zweizimmerwohnungen ist der Unterschied minim.",
 		"erlaeuterungen": "Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:17",
+		"aktualisierungsdatum": "2026-03-26T08:54:58",
 		"id": 7599
 	},
 	{
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Neuerstellte Wohnungen nach Zimmerzahl",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Vier- oder Dreizimmerwohnungen waren 2024 die häufigsten Kategorien der Neubauwohnungen. Ihr Anteil betrug rund 70% aller neuerstellten Wohnungen.",
+		"lesehilfe": "Zwei- oder Dreizimmerwohnungen waren 2025 die häufigsten Kategorien der Neubauwohnungen. Ihr Anteil betrug knapp 60% aller neuerstellten Wohnungen.",
 		"erlaeuterungen": "Es werden die neuerstellten Wohnungen in Neubauten gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:19",
+		"aktualisierungsdatum": "2026-03-26T08:54:59",
 		"id": 7601
 	},
 	{
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteile von Genossenschaftswohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen an allen Wohnungen betrug seit 2013 durchschnittlich rund 11%. Die Anteile der neuerstellten Genossenschaftswohnungen war 2017, 2018, 2021,2023 und 2024 überdurchschnittlich. Dagegen waren die Anteile 2013 bis 2016 und 2022 gering.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am gesamten Wohnungsbestand betrug seit 2013 durchschnittlich rund 11%. Bei den neuerstellten Wohnungen lag der Anteil der Genossenschaftswohnungen 2025 mit 14,4% leicht über diesem Durchschnitt.",
 		"erlaeuterungen": "Es werden beim Bestand nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:20",
+		"aktualisierungsdatum": "2026-03-26T08:55:01",
 		"id": 9465
 	}
 ];

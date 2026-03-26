@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:14",
+		"aktualisierungsdatum": "2026-03-26T08:54:42",
 		"id": 4131
 	},
 	{
@@ -243,7 +243,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 116 651 im Jahr 2024 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Zweizimmerwohnungen (+13,3% auf 7 198 bzw. +13,1% auf 27 965), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,5% auf 5 952).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 117 252 im Jahr 2025 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Zwei- und den Fünfzimmerwohnungen (+14,1% bzw. +13,6%), am geringsten bei den Wohnungen mit sechs und mehr Zimmern (+8,7%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -268,7 +268,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:21",
+		"aktualisierungsdatum": "2026-03-26T08:55:02",
 		"id": 4133
 	},
 	{
@@ -279,8 +279,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "2024 sind die Wohnungen zwischen 70 und 99 Quadratmetern Wohnfläche am zahlreichsten (34%). 29% der Wohnungen weisen eine Wohnfläche zwischen 50 und 69 Quadratmetern auf.",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "2025 sind die Wohnungen zwischen 70 und 99 Quadratmetern Wohnfläche am zahlreichsten (34%). 29% der Wohnungen weisen eine Wohnfläche zwischen 50 und 69 Quadratmetern auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -305,7 +305,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:22",
+		"aktualisierungsdatum": "2026-03-26T08:55:04",
 		"id": 4134
 	},
 	{
@@ -348,7 +348,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-20T11:25:14",
+		"aktualisierungsdatum": "2026-03-26T08:55:05",
 		"id": 4135
 	},
 	{
@@ -387,7 +387,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-20T11:25:16",
+		"aktualisierungsdatum": "2026-03-26T08:55:07",
 		"id": 4136
 	},
 	{
@@ -401,7 +401,7 @@ var indikatorensetData = [
 		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit 151 Wohnungen war die Neubauproduktion 2024 sehr niedrig. Sie erreichte weniger als einen Viertel des neuen, gesunkenen Zehnjahresdurchschnitts von 653.",
+		"lesehilfe": "Mit 263 Wohnungen war die Neubauproduktion 2025 sehr niedrig. Sie erreichte weniger als die Hälfte des neuen, gesunkenen Zehnjahresdurchschnitts von 599.",
 		"erlaeuterungen": "Berücksichtigt werden nur neuerstellte Wohnungen in Neubauten. Neue Wohnungen aus Umbauten werden nicht gezählt. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer erstellt. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der letzten zehn Jahre (ohne Neubauprognose).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -426,7 +426,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:25",
+		"aktualisierungsdatum": "2026-03-26T08:55:09",
 		"id": 4137
 	},
 	{
@@ -520,7 +520,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2024 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2025 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,2 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -546,7 +546,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:26",
+		"aktualisierungsdatum": "2026-03-26T08:55:11",
 		"id": 4140
 	},
 	{
@@ -558,7 +558,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2024 rund 48% aus, 39% sind Familienhaushalte und 13% werden der Kategorie Andere Haushalte zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2025 rund 47% aus, 39% sind Familienhaushalte und 14% werden der Kategorie Andere Haushalte zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Kategorie Andere Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -583,7 +583,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-25T11:38:07",
+		"aktualisierungsdatum": "2026-03-26T08:55:13",
 		"id": 4141
 	},
 	{
@@ -595,8 +595,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Familienhaushalte nach Zusammensetzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 42% im Jahr 2011 auf 36% im Jahr 2023.",
-		"erlaeuterungen": "Personen, die in derselben Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 41% im Jahr 2013 auf 35% im Jahr 2025.",
+		"erlaeuterungen": "Personen, die in derselben Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird innerhalb der Privathaushalte nur die Untergruppe der Familienhaushalte betrachtet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -608,7 +608,7 @@ var indikatorensetData = [
 		"description": "Familienhaushalte nach Zusammensetzung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.4142",
+		"kuerzel": "I.01.2.04142",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "1.4.A2",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
@@ -620,7 +620,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:37",
+		"aktualisierungsdatum": "2026-03-26T08:55:15",
 		"id": 4142
 	},
 	{
@@ -632,7 +632,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 11 610 Genossenschaftswohnungen, welche 2024 im Kanton bewohnt sind, entsprechen einem Anteil am Gesamtbestand von gut 11%.",
+		"lesehilfe": "Die 11 623 Genossenschaftswohnungen, welche 2025 im Kanton bewohnt sind, entsprechen einem Anteil am Gesamtbestand von gut 11%.",
 		"erlaeuterungen": "Berücksichtigt werden Wohnungen, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -657,7 +657,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:27",
+		"aktualisierungsdatum": "2026-03-26T08:55:17",
 		"id": 4143
 	},
 	{
@@ -733,7 +733,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:28",
+		"aktualisierungsdatum": "2026-03-26T08:55:19",
 		"id": 4145
 	},
 	{
@@ -770,7 +770,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:29",
+		"aktualisierungsdatum": "2026-03-26T08:55:20",
 		"id": 4146
 	},
 	{

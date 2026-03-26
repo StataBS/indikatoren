@@ -2538,6 +2538,8 @@ id | visible | visibleInPortal | indikatorenset
 22456 | true | false | Richtplan
 22458 | true | false | Richtplan
 22459 | true | false | Richtplan
+22460 | true | false | Richtplan
+22461 | true | true | Richtplan
 22462 | true | false | Richtplan (Print)
 22463 | true | false | Richtplan (Print)
 22464 | true | false | Richtplan (Print)

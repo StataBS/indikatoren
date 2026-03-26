@@ -9,7 +9,7 @@
         ],
         [
           "Gundeldingen",
-          0.027855153203
+          0.028472222222
         ],
         [
           "Rosental",
@@ -17,19 +17,19 @@
         ],
         [
           "Klybeck",
-          0.068493150684
+          0.06833712984
         ],
         [
           "Matthäus",
-          0.069948186528
+          0.07056798623
         ],
         [
           "Vorstädte",
-          0.07326007326
+          0.073394495412
         ],
         [
           "Altstadt Kleinbasel",
-          0.096551724137
+          0.096219931271
         ],
         [
           "Altstadt Grossbasel",
@@ -37,51 +37,51 @@
         ],
         [
           "Breite",
-          0.129518072289
+          0.129713423831
         ],
         [
           "Kleinhüningen",
-          0.153846153846
+          0.15294117647
         ],
         [
           "Iselin",
-          0.165294924554
+          0.165639972621
         ],
         [
           "Am Ring",
-          0.192629815745
+          0.189958158995
         ],
         [
           "St. Johann",
-          0.243981782693
-        ],
-        [
-          "Wettstein",
-          0.332863187588
+          0.243664717348
         ],
         [
           "St. Alban",
-          0.333609271523
+          0.332780082987
+        ],
+        [
+          "Wettstein",
+          0.333802816901
         ],
         [
           "Gotthelf",
-          0.363357215967
+          0.362244897959
         ],
         [
           "Bachletten",
-          0.557239728759
+          0.556175298804
         ],
         [
           "Riehen",
-          0.655285313376
+          0.654528478057
         ],
         [
           "Hirzbrunnen",
-          0.693274670018
+          0.691969887076
         ],
         [
           "Bruderholz",
-          0.721459024159
+          0.719754253308
         ],
         [
           "Bettingen",
@@ -147,11 +147,11 @@
           13
         ],
         [
-          "Wettstein",
+          "St. Alban",
           14
         ],
         [
-          "St. Alban",
+          "Wettstein",
           15
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "legend": {
     "enabled": false,

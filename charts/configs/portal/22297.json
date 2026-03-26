@@ -46,7 +46,7 @@
         ],
         [
           2014,
-          200
+          114
         ],
         [
           2015,
@@ -62,7 +62,7 @@
         ],
         [
           2018,
-          337
+          336
         ],
         [
           2019,
@@ -74,7 +74,7 @@
         ],
         [
           2021,
-          617
+          616
         ],
         [
           2022,
@@ -82,11 +82,15 @@
         ],
         [
           2023,
-          669
+          605
         ],
         [
           2024,
           27
+        ],
+        [
+          2025,
+          0
         ]
       ],
       "name": "Neubau innerhalb Arealentwicklungen"
@@ -138,7 +142,7 @@
         ],
         [
           2014,
-          169
+          255
         ],
         [
           2015,
@@ -154,7 +158,7 @@
         ],
         [
           2018,
-          470
+          471
         ],
         [
           2019,
@@ -166,7 +170,7 @@
         ],
         [
           2021,
-          234
+          237
         ],
         [
           2022,
@@ -174,11 +178,15 @@
         ],
         [
           2023,
-          109
+          173
         ],
         [
           2024,
           124
+        ],
+        [
+          2025,
+          225
         ]
       ],
       "name": "Neubau ausserhalb Arealentwicklungen"
@@ -221,7 +229,7 @@
         ],
         [
           2011,
-          0
+          21
         ],
         [
           2012,
@@ -274,6 +282,10 @@
         [
           2024,
           41
+        ],
+        [
+          2025,
+          38
         ]
       ],
       "name": "Neubau von Genossenschaften (in- und ausserhalb Areale)"
@@ -418,7 +430,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "shared": true
