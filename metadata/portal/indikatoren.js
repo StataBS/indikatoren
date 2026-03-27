@@ -28606,8 +28606,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Privatschulquote",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2023 werden 8,1% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 5,9%, bei den Ausländern bei 11,2%. Seit 2020 ist die Privatschulquote rückläufig.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schülern (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
+		"lesehilfe": "2024 werden 7,8% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 5,9%, bei den Ausländern bei 10,4%. Seit 2020 ist die Privatschulquote rückläufig.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schülern (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
 		],
@@ -28632,7 +28632,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:03",
+		"aktualisierungsdatum": "2026-03-27T08:27:32",
 		"id": 7432
 	},
 	{
