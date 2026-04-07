@@ -11,7 +11,7 @@
 
     },
     xAxis: {
-//      type: "category",
+      //      type: "category",
       tickInterval: 1
     },
     legend: {
@@ -42,10 +42,17 @@
     ],
     tooltip: {
       pointFormatter: function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' +
+          this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/>';
       },
-      "shared": false
+      shared: false
     },
+    /*
+    tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+        shared: false
+    },
+    */
     chart: {
     },
     plotOptions: {

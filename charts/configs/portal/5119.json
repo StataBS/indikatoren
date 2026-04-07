@@ -3246,11 +3246,11 @@
         ],
         [
           18,
-          0.132
+          0.135
         ],
         [
           16,
-          0.155
+          0.154
         ],
         [
           13,
@@ -3266,7 +3266,7 @@
         ],
         [
           2,
-          0.197
+          0.196
         ],
         [
           19,
@@ -3286,19 +3286,19 @@
         ],
         [
           5,
-          0.315
+          0.316
         ],
         [
           9,
-          0.327
+          0.329
         ],
         [
           4,
-          0.36
+          0.362
         ],
         [
           10,
-          0.372
+          0.369
         ],
         [
           8,
@@ -3306,11 +3306,11 @@
         ],
         [
           15,
-          0.597
+          0.596
         ],
         [
           7,
-          0.713
+          0.712
         ],
         [
           20,
@@ -3870,7 +3870,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "credits": {
@@ -3886,7 +3886,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.4.2026"
   },
   "colorAxis": {
     "min": 0,

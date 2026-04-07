@@ -3705,6 +3705,13 @@
           "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
         },
         {
+          "lat": 47.56875558,
+          "lon": 7.591559125,
+          "name": "GGG Alterssiedlung Bläsistift",
+          "z": null,
+          "address": "Bläsiring 95, 4057 Basel"
+        },
+        {
           "lat": 47.56401106,
           "lon": 7.597315332,
           "name": "Gustav Benz Haus",
@@ -3917,6 +3924,13 @@
           "name": "Casavita Lehenmatt",
           "z": 25,
           "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
+        },
+        {
+          "lat": 47.56875558,
+          "lon": 7.591559125,
+          "name": "GGG Alterssiedlung Bläsistift",
+          "z": 31,
+          "address": "Bläsiring 95, 4057 Basel"
         },
         {
           "lat": 47.56401106,
@@ -4135,7 +4149,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.2.2026"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.4.2026"
   },
   "colorAxis": {
     "min": 0,

@@ -65,7 +65,7 @@
         ],
         [
           2025,
-          null
+          -0.3
         ],
         [
           2026,
@@ -77,6 +77,10 @@
         ],
         [
           2028,
+          null
+        ],
+        [
+          2029,
           null
         ]
       ],
@@ -148,7 +152,7 @@
         ],
         [
           2025,
-          -0.2
+          null
         ],
         [
           2026,
@@ -160,7 +164,11 @@
         ],
         [
           2028,
-          0.9
+          0.8
+        ],
+        [
+          2029,
+          1.2
         ]
       ],
       "name": "Budget & Planjahre"
@@ -244,6 +252,10 @@
         [
           2028,
           6.5
+        ],
+        [
+          2029,
+          6.5
         ]
       ],
       "name": "Zielwert"
@@ -314,7 +326,7 @@
         ],
         [
           2025,
-          null
+          0
         ],
         [
           2026,
@@ -326,6 +338,10 @@
         ],
         [
           2028,
+          null
+        ],
+        [
+          2029,
           null
         ]
       ],
@@ -486,7 +502,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.6.2025"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.4.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

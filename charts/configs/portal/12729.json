@@ -18,6 +18,10 @@
         [
           2023,
           6.41
+        ],
+        [
+          2024,
+          6.47
         ]
       ],
       "name": "Stadt Basel"
@@ -40,6 +44,10 @@
         [
           2023,
           6.01
+        ],
+        [
+          2024,
+          6.23
         ]
       ],
       "name": "Riehen"
@@ -62,6 +70,10 @@
         [
           2023,
           5.89
+        ],
+        [
+          2024,
+          5.8
         ]
       ],
       "name": "Bettingen"
@@ -84,6 +96,10 @@
         [
           2023,
           6.36
+        ],
+        [
+          2024,
+          6.43
         ]
       ],
       "name": "Kanton Basel-Stadt"
@@ -106,9 +122,13 @@
         [
           2023,
           6.38
+        ],
+        [
+          2024,
+          6.4
         ]
       ],
-      "name": "Ausserkantonal\u002FAusland"
+      "name": "Wohnsitz ausserkantonal\u002Fim Ausland"
     }
   ],
   "chart": {
@@ -235,7 +255,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -273,7 +293,8 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' +
+          this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/>';
       },
     "shared": false
   },
