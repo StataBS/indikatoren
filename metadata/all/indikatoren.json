@@ -47078,7 +47078,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "92 081 Logiernächte wurden im Februar 2026 in den Basler Hotelbetrieben gebucht, 7 453 weniger als im Januar. Im Vergleich zum Februar 2025 entspricht dies einem Rückgang um 5,6% bzw. 5 509 Übernachtungen. Die inländischen Gäste buchten 42 715 Logiernächte (+34,5%), die Gäste aus dem Ausland 49 366 Übernachtungen (-25,0%).",
+		"lesehilfe": "117 820 Logiernächte wurden im März 2026 in den Basler Hotelbetrieben gebucht, 25 739 weniger als im Februar. Im Vergleich zum März 2025 entspricht dies einem Rückgang um 6,2% bzw. 7 772 Übernachtungen. Die inländischen Gäste buchten 43 644 Logiernächte (-14,8%), die Gäste aus dem Ausland 74 176 Übernachtungen (-0,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -47104,7 +47104,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-12T07:27:37",
+		"aktualisierungsdatum": "2026-04-10T07:59:29",
 		"id": 7516
 	},
 	{
@@ -47115,8 +47115,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 45%.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -47142,7 +47142,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-12T07:27:39",
+		"aktualisierungsdatum": "2026-04-10T07:59:30",
 		"id": 7517
 	},
 	{
@@ -86417,9 +86417,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zahlfälle und Personen in der Sozialhilfe, ohne Asylbereich",
+		"title": "Zahlfälle und Personen in der Sozialhilfe (ohne Asylbereich)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlauf des Jahres 2024 werden insgesamt 9 013 Personen in 6 201 Zahlfällen finanziell unterstützt. Seit 2018 ist sowohl die Zahl der beziehenden Personen als auch der Zahlfälle rückläufig.",
+		"lesehilfe": "Im Verlauf des Jahres 2025 wurden insgesamt 9101 Personen in 6 365 Zahlfällen finanziell unterstützt. Nach einem stetigem Rückgang der beiden Kennzahlen seit 2018 ist 2025 nun erstmals wieder ein Anstieg gegenüber dem Vorjahr zu beobachten.",
 		"erlaeuterungen": "Hier sind nur Zahlfälle und Personen mit Dossiertyp Sozialhilfe berücksichtigt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Ein Zahlfall kann mehrere Personen umfassen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -86429,7 +86429,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zahlfälle und Personen in der Sozialhilfe, ohne Asylbereich",
+		"description": "Zahlfälle und Personen in der Sozialhilfe (ohne Asylbereich)",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.09927",
@@ -86445,7 +86445,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:04:48",
+		"aktualisierungsdatum": "2026-04-10T07:59:32",
 		"id": 9927
 	},
 	{

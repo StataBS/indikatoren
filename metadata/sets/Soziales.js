@@ -686,9 +686,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zahlfälle und Personen in der Sozialhilfe, ohne Asylbereich",
+		"title": "Zahlfälle und Personen in der Sozialhilfe (ohne Asylbereich)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlauf des Jahres 2024 werden insgesamt 9 013 Personen in 6 201 Zahlfällen finanziell unterstützt. Seit 2018 ist sowohl die Zahl der beziehenden Personen als auch der Zahlfälle rückläufig.",
+		"lesehilfe": "Im Verlauf des Jahres 2025 wurden insgesamt 9101 Personen in 6 365 Zahlfällen finanziell unterstützt. Nach einem stetigem Rückgang der beiden Kennzahlen seit 2018 ist 2025 nun erstmals wieder ein Anstieg gegenüber dem Vorjahr zu beobachten.",
 		"erlaeuterungen": "Hier sind nur Zahlfälle und Personen mit Dossiertyp Sozialhilfe berücksichtigt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Ein Zahlfall kann mehrere Personen umfassen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -698,7 +698,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zahlfälle und Personen in der Sozialhilfe, ohne Asylbereich",
+		"description": "Zahlfälle und Personen in der Sozialhilfe (ohne Asylbereich)",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.09927",
@@ -713,7 +713,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:04:48",
+		"aktualisierungsdatum": "2026-04-10T07:59:32",
 		"id": 9927
 	},
 	{
