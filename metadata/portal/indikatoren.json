@@ -3825,16 +3825,18 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen",
+		"title": "Anzahl Pflegetage in Pflegeheimen",
 		"subtitle": "nach Herkunft der Bewohnenden",
-		"lesehilfe": "Die weitaus meisten Pflegetage in Pflegeheimen werden für Bewohnende aus der Stadt Basel erbracht. Im Jahr 2023 waren dies 843 844 Pflegetage.",
+		"lesehilfe": "Die meisten Pflegetage in Pflegeheimen werden für Personen aus der Stadt Basel erbracht. Im Jahr 2024 waren dies 847 812 Pflegetage.",
 		"erlaeuterungen": "Die Herkunft bezeichnet den Wohnort der Pflegeheimbewohnenden vor ihrem Eintritt in ein Pflegeheim im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100377/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Tagesgäste von Tages- und Nachtpflegeeinrichtungen (TNP)</a>",
+			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100378/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Pflegebedürftige im Bereich der Pflege zu Hause (PzH)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -3842,7 +3844,7 @@
 			"Gemeinde",
 			"Grossregion"
 		],
-		"description": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen",
+		"description": "Anzahl Pflegetage in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -3858,7 +3860,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-03T07:01:47",
+		"aktualisierungsdatum": "2026-04-17T11:00:23",
 		"id": 12728
 	},
 	{
@@ -15733,8 +15735,8 @@
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2022 3,74 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,13 globale Hektaren pro Kopf betrug. Die letzten drei Datenjahre sind Schätzungen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2024 4,15 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,06 globale Hektaren pro Kopf betrug. Die letzten zwei Datenjahre sind Schätzungen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. So wurden z. B. in der Ausgabe 2025 methodische Änderungen insbesondere in der Klassifizierung und Erfassung von Kohlenstoffemissionen im Handel eingeführt, welche u. a. zu höheren Schätzungen des in Importen und Exporten enthaltenen Kohlenstoffs geführt haben. Was wiederum dazu führt, dass der Fussabdruck der Schweiz im Vergleich zu früheren Ausgaben höher liegt.",
 		"quellenangabe": [
 			"Global Footprint Network"
 		],
@@ -15762,7 +15764,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-09T12:32:45",
+		"aktualisierungsdatum": "2026-04-17T11:00:25",
 		"id": 5793
 	},
 	{
@@ -38021,7 +38023,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-13T04:31:03",
+		"aktualisierungsdatum": "2026-04-17T11:00:17",
 		"id": 8995
 	},
 	{
@@ -38192,7 +38194,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-13T04:31:05",
+		"aktualisierungsdatum": "2026-04-17T11:00:19",
 		"id": 9022
 	},
 	{
@@ -38230,7 +38232,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-13T04:31:07",
+		"aktualisierungsdatum": "2026-04-17T11:00:21",
 		"id": 9023
 	},
 	{

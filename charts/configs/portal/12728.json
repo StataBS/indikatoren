@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#68ab2b",
+      "stacking": "true",
       "data": [
         [
           2020,
@@ -18,12 +19,17 @@
         [
           2023,
           843844
+        ],
+        [
+          2024,
+          847812
         ]
       ],
       "name": "Stadt Basel"
     },
     {
       "color": "#ffda80",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -40,12 +46,17 @@
         [
           2023,
           122544
+        ],
+        [
+          2024,
+          128553
         ]
       ],
       "name": "Riehen"
     },
     {
       "color": "#FF8028",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -62,12 +73,17 @@
         [
           2023,
           5828
+        ],
+        [
+          2024,
+          5833
         ]
       ],
       "name": "Bettingen"
     },
     {
       "color": "#7f5f1a",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -84,12 +100,17 @@
         [
           2023,
           39523
+        ],
+        [
+          2024,
+          45614
         ]
       ],
       "name": "Ausserkantonal"
     },
     {
       "color": "#671a7f",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -106,6 +127,10 @@
         [
           2023,
           14
+        ],
+        [
+          2024,
+          null
         ]
       ],
       "name": "Ausland"
@@ -113,6 +138,7 @@
     {
       "type": "line",
       "color": "#010101",
+      "stacking": false,
       "data": [
         [
           2020,
@@ -129,6 +155,10 @@
         [
           2023,
           1011753
+        ],
+        [
+          2024,
+          1027812
         ]
       ],
       "name": "Total"
@@ -262,7 +292,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -299,10 +329,29 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + " Tage" + '</b><br/><b>'
-      },
-    "shared": false
+    "shared": true,
+    "useHTML": true,
+    "formatter": function () {
+        let tooltip = `<span style="font-size: 10px">${this.x}</span><br/>`;
+        tooltip += `<table style="min-width: 150px">`; // Tabelle für Ausrichtung
+
+        let s = 0;
+        this.points.forEach(point => {
+          if (point.series.userOptions.stacking == true) {
+            tooltip += `<tr>`
+              + `<td><span style="color:${point.color}">\u25CF</span> ${point.series.name}:&nbsp;</td>`
+              + `<td style="text-align:right"><b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Tage</b></td>`
+              + `<td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1, ",", " ")}%)</td>`
+              + `</tr>`;
+            s += point.y;
+          }
+        });
+
+        tooltip += `<tr><td style="border-top: 1px solid #ccc">Total:</td>`
+          + `<td style="text-align:right; border-top: 1px solid #ccc"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Tage</b></td>`
+          + `<td></td></tr></table>`;
+        return tooltip;
+      }
   },
   "exporting": {
     "filename": "12728"

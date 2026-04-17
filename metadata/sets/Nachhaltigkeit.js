@@ -1033,8 +1033,8 @@ var indikatorensetData = [
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2022 3,74 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,13 globale Hektaren pro Kopf betrug. Die letzten drei Datenjahre sind Schätzungen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2024 4,15 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,06 globale Hektaren pro Kopf betrug. Die letzten zwei Datenjahre sind Schätzungen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. So wurden z. B. in der Ausgabe 2025 methodische Änderungen insbesondere in der Klassifizierung und Erfassung von Kohlenstoffemissionen im Handel eingeführt, welche u. a. zu höheren Schätzungen des in Importen und Exporten enthaltenen Kohlenstoffs geführt haben. Was wiederum dazu führt, dass der Fussabdruck der Schweiz im Vergleich zu früheren Ausgaben höher liegt.",
 		"quellenangabe": [
 			"Global Footprint Network"
 		],
@@ -1061,7 +1061,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-09T12:32:45",
+		"aktualisierungsdatum": "2026-04-17T11:00:25",
 		"id": 5793
 	},
 	{
