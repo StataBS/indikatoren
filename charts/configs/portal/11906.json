@@ -122,6 +122,10 @@
         [
           2024,
           2
+        ],
+        [
+          2025,
+          6
         ]
       ],
       "name": "Basel-Binningen (vorstädtisch, keine Bebauung)"
@@ -247,6 +251,10 @@
         ],
         [
           2024,
+          21
+        ],
+        [
+          2025,
           21
         ]
       ],
@@ -374,6 +382,10 @@
         [
           2024,
           23
+        ],
+        [
+          2025,
+          16
         ]
       ],
       "name": "St. Johann, Basel (Stadtzentrum, offene Bebauung)"
@@ -500,6 +512,10 @@
         [
           2024,
           13
+        ],
+        [
+          2025,
+          null
         ]
       ],
       "name": "Klingelbergstrasse, Basel (Stadtzentrum, 38 m über Grund)"
@@ -626,6 +642,10 @@
         [
           2024,
           3
+        ],
+        [
+          2025,
+          2
         ]
       ],
       "name": "Sissach (vorstädtisch, offene Bebauung)"
@@ -752,6 +772,10 @@
         [
           2024,
           4
+        ],
+        [
+          2025,
+          null
         ]
       ],
       "name": "Dornach (vorstädtisch, offene Bebauung)"
@@ -894,7 +918,7 @@
       "x": 10,
       "y": -55
     },
-    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EMeteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EMeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2025"
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EMeteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EMeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 23.4.2026"
   },
   "tooltip": {
     "shared": false,

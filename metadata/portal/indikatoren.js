@@ -3860,7 +3860,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-17T11:00:23",
+		"aktualisierungsdatum": "2026-04-23T07:42:19",
 		"id": 12728
 	},
 	{
@@ -7906,7 +7906,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2023 auf 170 874 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2025 auf 171 114 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
 		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -7932,7 +7932,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-12T03:17:08",
+		"aktualisierungsdatum": "2026-04-23T07:42:20",
 		"id": 4148
 	},
 	{
@@ -12688,8 +12688,8 @@ var indikatoren = [
 			6373
 		],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "In den Wohnvierteln Bruderholz (42,6%) und Bachletten (40,9%) sowie den Gemeinden Bettingen (42,3%) und Riehen (40,3%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Clara (28,3%), Altstadt Kleinbasel (27,3%) und Rosental (19,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Im Wohnviertel Bruderholz (42,9%) ist der höchste Anteile sesshafter Personen zu finden, im Wohnviertel Rosental (21,4%) der tiefste.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12717,7 +12717,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-26T08:32:37",
+		"aktualisierungsdatum": "2026-04-23T07:42:25",
 		"id": 4828
 	},
 	{
@@ -14961,7 +14961,7 @@ var indikatoren = [
 		],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2024 liegt sie mit -0,5 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2025 liegt sie mit -0,3 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -14987,7 +14987,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:39",
+		"aktualisierungsdatum": "2026-04-23T07:42:38",
 		"id": 5160
 	},
 	{
@@ -15369,7 +15369,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 sind bei der Chemiefachberatung des Kantons 13 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2025 sind bei der Chemiefachberatung des Kantons 14 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als «Störfall» gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -15395,7 +15395,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:17",
+		"aktualisierungsdatum": "2026-04-23T07:42:29",
 		"id": 5189
 	},
 	{
@@ -15529,7 +15529,7 @@ var indikatoren = [
 		],
 		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, indexiert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2021 7,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 3,6 Indexpunkte.",
+		"lesehilfe": "Der Mietpreisindex lag 2022 8,7 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 5,3 Indexpunkte.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -15556,7 +15556,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:47",
+		"aktualisierungsdatum": "2026-04-23T07:42:30",
 		"id": 5196
 	},
 	{
@@ -15764,7 +15764,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-17T11:00:25",
+		"aktualisierungsdatum": "2026-04-23T07:42:32",
 		"id": 5793
 	},
 	{
@@ -17221,8 +17221,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt um 143,3% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2024 um 26,9% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt lag 2023 um 139,5% höher.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
 			"Global Footprint Network"
@@ -17250,7 +17250,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-08T09:18:26",
+		"aktualisierungsdatum": "2026-04-23T07:42:43",
 		"id": 6051
 	},
 	{
@@ -21105,7 +21105,7 @@ var indikatoren = [
 		],
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2024 12,3 °C. Der bislang höchste Wert seit Messbeginn im Jahr 1755 wurde 2023 mit 12,7 °C erreicht.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2025 11,9 °C. Der bislang höchste Wert seit Messbeginn im Jahr 1755 wurde 2023 mit 12,7 °C erreicht.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -21131,7 +21131,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:47",
+		"aktualisierungsdatum": "2026-04-23T07:42:36",
 		"id": 6434
 	},
 	{
@@ -32669,8 +32669,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Im Februar 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in Riehen. In acht Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Im März 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in zwölf Wohnvierteln sowie in Riehen und Bettingen. In sieben Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32697,7 +32697,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-19T08:42:49",
+		"aktualisierungsdatum": "2026-04-23T07:42:16",
 		"id": 7763
 	},
 	{
@@ -38023,7 +38023,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-17T11:00:17",
+		"aktualisierungsdatum": "2026-04-27T08:18:36",
 		"id": 8995
 	},
 	{
@@ -38194,7 +38194,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-17T11:00:19",
+		"aktualisierungsdatum": "2026-04-27T08:18:38",
 		"id": 9022
 	},
 	{
@@ -38232,7 +38232,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-17T11:00:21",
+		"aktualisierungsdatum": "2026-04-27T08:18:39",
 		"id": 9023
 	},
 	{
@@ -39703,11 +39703,12 @@ var indikatoren = [
 			8958,
 			9447,
 			10049,
-			11906
+			11906,
+			22312
 		],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -39738,7 +39739,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:42",
+		"aktualisierungsdatum": "2026-04-23T07:42:22",
 		"id": 9390
 	},
 	{

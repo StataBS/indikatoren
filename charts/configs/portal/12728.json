@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#68ab2b",
-      "stacking": "true",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -217,7 +217,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen"
+    "text": "Anzahl Pflegetage in Pflegeheimen"
   },
   "subtitle": {
     "text": "nach Herkunft der Bewohnenden",
@@ -292,7 +292,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2026"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 23.4.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

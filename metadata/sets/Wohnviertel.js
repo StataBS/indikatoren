@@ -217,8 +217,8 @@ var indikatorensetData = [
 			6373
 		],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "In den Wohnvierteln Bruderholz (42,6%) und Bachletten (40,9%) sowie den Gemeinden Bettingen (42,3%) und Riehen (40,3%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Clara (28,3%), Altstadt Kleinbasel (27,3%) und Rosental (19,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Im Wohnviertel Bruderholz (42,9%) ist der höchste Anteile sesshafter Personen zu finden, im Wohnviertel Rosental (21,4%) der tiefste.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-26T08:32:37",
+		"aktualisierungsdatum": "2026-04-23T07:42:25",
 		"id": 4828
 	},
 	{
@@ -909,8 +909,8 @@ var indikatorensetData = [
 		"parentId": "4828",
 		"children": [],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "In den Wohnvierteln Bruderholz (42,6%) und Bachletten (40,9%) sowie den Gemeinden Bettingen (42,3%) und Riehen (40,3%) sind die grössten Anteile sesshafter Personen zu finden. Die kleinsten Anteile gibt es  in den Wohnvierteln Clara (28,3%), Altstadt Kleinbasel (27,3%) und Rosental (19,2%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Im Wohnviertel Bruderholz (42,9%) ist der höchste Anteile sesshafter Personen zu finden, im Wohnviertel Rosental (21,4%) der tiefste.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -937,7 +937,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:18:53",
+		"aktualisierungsdatum": "2026-04-23T07:42:27",
 		"id": 5115
 	},
 	{

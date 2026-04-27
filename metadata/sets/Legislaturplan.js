@@ -1744,11 +1744,12 @@ var indikatorensetData = [
 			8958,
 			9447,
 			10049,
-			11906
+			11906,
+			22312
 		],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -1778,7 +1779,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:42",
+		"aktualisierungsdatum": "2026-04-23T07:42:22",
 		"id": 9390
 	},
 	{
