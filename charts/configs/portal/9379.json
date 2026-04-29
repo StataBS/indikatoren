@@ -4,10 +4,6 @@
       "color": "#6F6F6F",
       "data": [
         [
-          2015,
-          3493
-        ],
-        [
           2016,
           3575
         ],
@@ -42,6 +38,10 @@
         [
           2024,
           3819
+        ],
+        [
+          2025,
+          3864
         ]
       ],
       "name": "Basel-Stadt"
@@ -49,10 +49,6 @@
     {
       "color": "#990300",
       "data": [
-        [
-          2015,
-          4508
-        ],
         [
           2016,
           4631
@@ -88,6 +84,10 @@
         [
           2024,
           5382
+        ],
+        [
+          2025,
+          5440
         ]
       ],
       "name": "Basel-Landschaft"
@@ -95,10 +95,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          2015,
-          4316
-        ],
         [
           2016,
           4470
@@ -134,6 +130,10 @@
         [
           2024,
           4736
+        ],
+        [
+          2025,
+          4884
         ]
       ],
       "name": "Aargau"
@@ -141,10 +141,6 @@
     {
       "color": "#CD9C00",
       "data": [
-        [
-          2015,
-          1912
-        ],
         [
           2016,
           1976
@@ -180,6 +176,10 @@
         [
           2024,
           1931
+        ],
+        [
+          2025,
+          1927
         ]
       ],
       "name": "Solothurn"
@@ -187,10 +187,6 @@
     {
       "color": "#68AB2B",
       "data": [
-        [
-          2015,
-          5709
-        ],
         [
           2016,
           5991
@@ -226,6 +222,10 @@
         [
           2024,
           6577
+        ],
+        [
+          2025,
+          6786
         ]
       ],
       "name": "Übrige Schweiz"
@@ -233,10 +233,6 @@
     {
       "color": "#246370",
       "data": [
-        [
-          2015,
-          4053
-        ],
         [
           2016,
           4097
@@ -272,6 +268,10 @@
         [
           2024,
           4864
+        ],
+        [
+          2025,
+          5333
         ]
       ],
       "name": "Ausland"
@@ -421,7 +421,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2025"
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 29.4.2026"
   },
   "tooltip": {
     "shared": true,

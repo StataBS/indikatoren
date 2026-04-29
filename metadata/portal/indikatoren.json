@@ -18945,8 +18945,8 @@
 			8609
 		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Ende 2024 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,0%. Das Wohnviertel Kleinhüningen weist mit 4,7% die höchste Beitragsquote auf. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2019 gesunken. Im Fünfjahresvergleich resultiert im Wohnviertel Kleinhüningen ein Anstieg um 0,2 Prozentpunkte. Im Wohnviertel Rosental und in der Gemeinde Riehen zeigt sich keine Veränderung.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Ende 2025 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,0%. Das Wohnviertel Kleinhüningen weist mit 4,4% die höchste Beitragsquote auf. In der Mehrheit der Wohnviertel ist die FAMI-Quote gegenüber 2020 gesunken.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -18974,7 +18974,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:28",
+		"aktualisierungsdatum": "2026-04-29T12:06:22",
 		"id": 6203
 	},
 	{
@@ -18988,8 +18988,8 @@
 			8606
 		],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
-		"lesehilfe": "Der Anteil der Haushalte mit reiner Prämienverbilligung (PV) liegt im Kanton Basel-Stadt Ende des Jahres 2024 bei 15,4%. Das Wohnviertel Klybeck weist mit 25,1% die höchste PV-Quote auf. Gegenüber dem Jahr 2019 ist die PV-Quote in vier Wohnvierteln der Stadt Basel gestiegen.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
+		"lesehilfe": "Der Anteil der Haushalte mit reiner Prämienverbilligung (PV) liegt im Kanton Basel-Stadt Ende des Jahres 2024 bei 14,7%. Das Wohnviertel Klybeck weist mit 23,8% die höchste PV-Quote auf. Gegenüber dem Jahr 2020 ist die PV-Quote in drei Wohnvierteln der Stadt Basel gestiegen.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -19017,7 +19017,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:30",
+		"aktualisierungsdatum": "2026-04-29T12:06:24",
 		"id": 6204
 	},
 	{
@@ -39497,7 +39497,7 @@
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2024 bei total 27 309. Damit wurde der Rekord vom Vorjahr noch einmal übertroffen. Den grössten Anteil macht mit 6 577 Personen (24,1%) die Kategorie «Übrige Schweiz» aus.",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2025 bei total 28 234. Damit wurde der Rekord vom Vorjahr noch einmal übertroffen. Den grössten Anteil macht mit 6 786 Personen (24,0%) die Kategorie «Übrige Schweiz» aus.",
 		"erlaeuterungen": "Studierende der Universität Basel (Wohnort vor Studienbeginn) und der Fachhochschule Nordwestschweiz FHNW (stipendienrechtlicher Wohnsitz). Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -39524,7 +39524,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-05T08:43:16",
+		"aktualisierungsdatum": "2026-04-29T12:06:25",
 		"id": 9379
 	},
 	{
