@@ -96,6 +96,10 @@
         [
           2024,
           95.28
+        ],
+        [
+          2025,
+          95.28
         ]
       ],
       "name": "Freiräume in ha"
@@ -105,6 +109,9 @@
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "tooltip": {
+        "valueSuffix": "%"
+      },
       "data": [
         [
           2002,
@@ -196,6 +203,10 @@
         ],
         [
           2024,
+          2.58
+        ],
+        [
+          2025,
           2.58
         ]
       ],
@@ -355,7 +366,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2025"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2026"
   },
   "tooltip": {
     "shared": true,

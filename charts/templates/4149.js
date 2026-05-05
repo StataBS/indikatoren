@@ -71,16 +71,20 @@
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+    tooltip: {
+      valueSuffix: '%'
     }
-  ],  "tooltip": {
-    "shared": true, 
-    valueDecimals: 2
-  },
+    }
+  ],  
   "chart": {
     "zoomType": "xy",
     "marginTop": 85,
     "type": "line"
-  }
+  },
+      tooltip: {
+      "shared": true,
+      valueDecimals: 2
+    }
 	}
 }());

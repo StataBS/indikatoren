@@ -639,7 +639,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In 15,4% der Haushalte bezieht Ende des Jahres 2024 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im dritten Jahr in Folge.",
+		"lesehilfe": "In 14,7% der Haushalte bezieht Ende des Jahres 2025 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im vierten Jahr in Folge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:03:01",
+		"aktualisierungsdatum": "2026-05-05T09:02:31",
 		"id": 5183
 	},
 	{
@@ -2812,7 +2812,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2024 Familienmietzinsbeiträge.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2025 Familienmietzinsbeiträge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2838,7 +2838,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-15T07:11:45",
+		"aktualisierungsdatum": "2026-05-05T09:02:30",
 		"id": 9734
 	},
 	{
