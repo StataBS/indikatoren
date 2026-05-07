@@ -133,7 +133,7 @@
         ],
         [
           "Apr",
-          null
+          1176
         ],
         [
           "Mai",
@@ -190,7 +190,7 @@
         ],
         [
           "Apr",
-          null
+          686
         ],
         [
           "Mai",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 8.4.2026"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.5.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
