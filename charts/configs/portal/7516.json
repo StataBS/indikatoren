@@ -130,7 +130,7 @@
         ],
         [
           "Apr",
-          undefined
+          46250
         ],
         [
           "Mai",
@@ -186,7 +186,7 @@
         ],
         [
           "Apr",
-          undefined
+          69898
         ],
         [
           "Mai",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.5.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

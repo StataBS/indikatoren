@@ -62,10 +62,6 @@
         [
           "2024",
           4.8
-        ],
-        [
-          "2025",
-          4.8
         ]
       ],
       "name": "Fussgängerzonen",
@@ -133,10 +129,6 @@
         [
           "2024",
           23.5
-        ],
-        [
-          "2025",
-          24
         ]
       ],
       "name": "Begegnungszonen",
@@ -194,7 +186,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9387",
+    "renderTo": "container-22457",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -288,6 +280,6 @@
   },
   "exporting": {
     "allowHTML": true,
-    "filename": "9387"
+    "filename": "22457"
   }
 }
