@@ -143,6 +143,10 @@
         [
           2024,
           12.5
+        ],
+        [
+          2025,
+          13.6
         ]
       ],
       "name": "Feinstaub (PM10)"
@@ -292,6 +296,10 @@
         [
           2024,
           30
+        ],
+        [
+          2025,
+          30
         ]
       ],
       "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
@@ -439,6 +447,10 @@
         ],
         [
           2024,
+          20
+        ],
+        [
+          2025,
           20
         ]
       ],
@@ -588,6 +600,10 @@
         [
           2024,
           17.4
+        ],
+        [
+          2025,
+          null
         ]
       ],
       "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
@@ -735,6 +751,10 @@
         [
           2024,
           8.8
+        ],
+        [
+          2025,
+          10.1
         ]
       ],
       "name": "Feinstaub (PM2,5)"
@@ -884,6 +904,10 @@
         [
           2024,
           10
+        ],
+        [
+          2025,
+          10
         ]
       ],
       "name": "Langzeitgrenzwert PM2,5"
@@ -1025,7 +1049,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2025"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
