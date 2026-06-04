@@ -1,75 +1,75 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#689199",
       "data": [
         [
           "0-4",
-          -2442
+          -2303
         ],
         [
           "5-9",
-          -1290
+          -1280
         ],
         [
           "10-14",
-          -769
+          -766
         ],
         [
           "15-19",
-          731
+          760
         ],
         [
           "20-24",
-          5469
+          5365
         ],
         [
           "25-29",
-          -362
+          -263
         ],
         [
           "30-34",
-          -3859
+          -3615
         ],
         [
           "35-39",
-          -3756
+          -3841
         ],
         [
           "40-44",
-          -2479
+          -2427
         ],
         [
           "45-49",
-          -1514
+          -1445
         ],
         [
           "50-54",
-          -848
+          -816
         ],
         [
           "55-59",
-          -725
+          -695
         ],
         [
           "60-64",
-          -665
+          -686
         ],
         [
           "65-69",
-          -350
+          -348
         ],
         [
           "70-74",
-          -139
+          -123
         ],
         [
           "75-79",
-          12
+          23
         ],
         [
           "\u003E79",
-          117
+          175
         ]
       ],
       "name": "Saldo",
@@ -91,7 +91,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "width": 485,
@@ -128,6 +129,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 30,
     "renderTo": "container-6018",
     "spacingBottom": 40
   },
@@ -152,7 +154,7 @@
     "text": "Wanderungssaldo gegenüber der Schweiz nach Alter"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+    "text": "Basel-Stadt, 2016 bis 2025 zusammengefasst",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -174,7 +176,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
     "min": -4000,
     "max": 6000,
@@ -214,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

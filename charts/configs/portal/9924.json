@@ -60,6 +60,10 @@
         [
           2024,
           97
+        ],
+        [
+          2025,
+          63
         ]
       ],
       "name": "Notwohnungen"
@@ -124,6 +128,10 @@
         [
           2024,
           104
+        ],
+        [
+          2025,
+          141
         ]
       ],
       "name": "Wohnungen und Einzelzimmer nach WRFG"
@@ -195,6 +203,10 @@
         [
           2024,
           94
+        ],
+        [
+          2025,
+          95.6
         ]
       ],
       "name": "Auslastungsquote (rechte Skala)"
@@ -358,7 +370,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Wohnen.\u003Cbr\u002F\u003EZuletzt geändert: 15.5.2025"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Wohnen.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2026"
   },
   "tooltip": {
     "shared": false
