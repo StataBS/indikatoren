@@ -7,23 +7,23 @@
       "data": [
         [
           "USA",
-          10
-        ],
-        [
-          "Spanien",
-          179
-        ],
-        [
-          "Frankreich",
-          0
+          78
         ],
         [
           "Italien",
-          232
+          123
+        ],
+        [
+          "Spanien",
+          226
+        ],
+        [
+          "Frankreich",
+          139
         ],
         [
           "Deutschland",
-          1302
+          1549
         ]
       ],
       "name": "Saldo",
@@ -107,7 +107,7 @@
     "text": "Wanderungssaldo Top 5"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2024",
+    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -172,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.5.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2026"
   },
   "exporting": {
     "filename": "6023"

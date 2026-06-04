@@ -60,6 +60,10 @@
         [
           2024,
           2092
+        ],
+        [
+          2025,
+          2052
         ]
       ],
       "name": "Anzahl Haushalte"
@@ -130,6 +134,10 @@
         ],
         [
           2024,
+          2
+        ],
+        [
+          2025,
           2
         ]
       ],
@@ -287,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 30.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2026"
   },
   "tooltip": {
     "shared": false

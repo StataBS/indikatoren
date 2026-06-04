@@ -35,6 +35,10 @@
         [
           2024,
           2316
+        ],
+        [
+          2025,
+          2292
         ]
       ],
       "name": "Anzahl Personen mit KüG"
@@ -74,6 +78,10 @@
         [
           2024,
           3392
+        ],
+        [
+          2025,
+          3346
         ]
       ],
       "name": "Anzahl KüG"
@@ -213,7 +221,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2025"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe.\u003Cbr\u002F\u003EZuletzt geändert: 4.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
