@@ -1449,7 +1449,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahr leicht auf 279 gesunken. Zu deren Gunsten wurden an insgesamt 76 165 Tagen Pflegeleistungen erbracht.",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahrauf 279 leicht gesunken. Zu deren Gunsten wurden an insgesamt 76 165 Tagen Pflegeleistungen erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -1466,18 +1466,18 @@ var indikatoren = [
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.24",
+		"kuerzelKunde": "1.29",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_024",
+		"orderKey": "01_01_00_00_00_029",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:46",
+		"aktualisierungsdatum": "2026-06-12T08:52:31",
 		"id": 11175
 	},
 	{
@@ -1619,18 +1619,18 @@ var indikatoren = [
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.25",
+		"kuerzelKunde": "1.30",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_025",
+		"orderKey": "01_01_00_00_00_030",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:48",
+		"aktualisierungsdatum": "2026-06-12T08:52:32",
 		"id": 11179
 	},
 	{
@@ -2194,7 +2194,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:55",
+		"aktualisierungsdatum": "2026-06-12T08:53:15",
 		"id": 11906
 	},
 	{
@@ -11101,7 +11101,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:33",
+		"aktualisierungsdatum": "2026-06-12T08:52:29",
 		"id": 4128
 	},
 	{
@@ -12057,7 +12057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:00",
+		"aktualisierungsdatum": "2026-06-12T08:52:05",
 		"id": 4152
 	},
 	{
@@ -12135,7 +12135,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:02",
+		"aktualisierungsdatum": "2026-06-12T08:52:07",
 		"id": 4154
 	},
 	{
@@ -18667,7 +18667,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:03",
+		"aktualisierungsdatum": "2026-06-12T08:52:08",
 		"id": 4919
 	},
 	{
@@ -19786,7 +19786,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:52",
+		"aktualisierungsdatum": "2026-06-12T08:53:13",
 		"id": 5155
 	},
 	{
@@ -21409,7 +21409,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:57",
+		"aktualisierungsdatum": "2026-06-12T08:53:17",
 		"id": 5825
 	},
 	{
@@ -21574,7 +21574,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:35",
+		"aktualisierungsdatum": "2026-06-12T08:52:35",
 		"id": 6011
 	},
 	{
@@ -21614,7 +21614,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:40",
+		"aktualisierungsdatum": "2026-06-12T08:52:43",
 		"id": 6012
 	},
 	{
@@ -21654,7 +21654,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:41",
+		"aktualisierungsdatum": "2026-06-12T08:52:46",
 		"id": 6013
 	},
 	{
@@ -21694,7 +21694,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:46",
+		"aktualisierungsdatum": "2026-06-12T08:52:54",
 		"id": 6018
 	},
 	{
@@ -21734,7 +21734,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:47",
+		"aktualisierungsdatum": "2026-06-12T08:52:56",
 		"id": 6019
 	},
 	{
@@ -21775,7 +21775,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:36",
+		"aktualisierungsdatum": "2026-06-12T08:52:37",
 		"id": 6021
 	},
 	{
@@ -21816,7 +21816,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:38",
+		"aktualisierungsdatum": "2026-06-12T08:52:40",
 		"id": 6022
 	},
 	{
@@ -21856,7 +21856,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:43",
+		"aktualisierungsdatum": "2026-06-12T08:52:49",
 		"id": 6023
 	},
 	{
@@ -21896,7 +21896,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:44",
+		"aktualisierungsdatum": "2026-06-12T08:52:52",
 		"id": 6024
 	},
 	{
@@ -31648,7 +31648,7 @@ var indikatoren = [
 		],
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
-		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2022 mit einem monatlichen Bruttolohn von 11 461 Franken in der Pharmazeutischen Industrie bezahlt, der tiefste im Gastgewerbe mit 4 657 Franken brutto. Letzterer beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 969 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der drei Branchen Verkehr und Lagerei, Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie Personalvermittlung und -überlassung.",
+		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2024 mit einem monatlichen Bruttolohn von knapp 11 800 Franken in der Pharmazeutischen Industrie bezahlt, der tiefste im Gastgewerbe mit rund 4 700 Franken brutto. Letzterer beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der drei Branchen Verkehr und Lagerei, Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -31674,7 +31674,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:08",
+		"aktualisierungsdatum": "2026-06-12T08:52:34",
 		"id": 6464
 	},
 	{
@@ -33586,7 +33586,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"subtitle": "in Franken",
-		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2022 bei 6 969 Franken pro Monat und ist damit im Vergleich zu 2020 um 180 Franken gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (6 788 Franken), aber tiefer als im Kanton Zürich (7 229 Franken).",
+		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2024 bei 7 156 Franken pro Monat und ist damit im Vergleich zu 2022 um 187 Franken gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (7 024 Franken), aber tiefer als im Kanton Zürich (7 502 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33612,7 +33612,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:59",
+		"aktualisierungsdatum": "2026-06-12T08:52:58",
 		"id": 6522
 	},
 	{
@@ -33626,7 +33626,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn nach Geschlecht",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2022 bei 6 561 Franken brutto pro Monat, während der Medianlohn der Männer bei 7 269 Franken liegt. Damit beträgt 2022 das Verhältnis zwischen dem Medianlohn der Frauen und der Männer 0,90. Der Lohnunterschied war zehn Jahre zuvor grösser: Das Lohnverhältnis Frauen/Männer betrug damals 0,84.",
+		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2024 bei 6 848 Franken brutto pro Monat, während der Medianlohn der Männer bei 7 391 Franken liegt. Damit beträgt 2024 das Verhältnis zwischen dem Medianlohn der Frauen und der Männer 0,93. Der Lohnunterschied war zehn Jahre zuvor grösser: Das Lohnverhältnis Frauen/Männer betrug damals 0,87.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33652,7 +33652,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:01",
+		"aktualisierungsdatum": "2026-06-12T08:53:00",
 		"id": 6523
 	},
 	{
@@ -33666,7 +33666,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn nach Alter",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Jüngere Angestellte verdienen weniger als ältere. 2022 beträgt der Medianlohn pro Monat in der Altersgruppe bis 29 Jahre 5 362 Franken und in jener über 50 Jahre 7 743 Franken.",
+		"lesehilfe": "Jüngere Angestellte verdienen weniger als ältere. 2024 beträgt der Medianlohn pro Monat in der Altersgruppe bis 29 Jahre rund 5 600 Franken und in jener über 50 Jahre fast 8 000 Franken.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33692,7 +33692,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:02",
+		"aktualisierungsdatum": "2026-06-12T08:53:02",
 		"id": 6524
 	},
 	{
@@ -33705,8 +33705,8 @@ var indikatoren = [
 			7058
 		],
 		"title": "Medianlohn nach Bewilligungsart",
-		"subtitle": "in Franken, Nordwestschweiz, 2099",
-		"lesehilfe": "Die monatlichen Bruttomedianlöhne der Schweizerinnen und Schweizer (7 218 Franken) sowie der Grenzgängerinnen und Grenzgänger (7 150 Franken) liegen 2022 über dem Durchschnitt, während die Medianlöhne von ausländischen Arbeitnehmern mit einer Bewilligung C, B oder L unter dem Durchschnitt liegen.",
+		"subtitle": "in Franken, Nordwestschweiz, 2024",
+		"lesehilfe": "Die monatlichen Bruttomedianlöhne der Schweizerinnen und Schweizer (7 530 Franken) liegen 2024 über dem Durchschnitt, diejenige der Grenzgängerinnen und Grenzgänger (7 062 Franken) liegen knapp darunter. Die tiefsten Medianlöhne weisen die ausländischen Arbeitnehmende mit einer Bewilligung für Kurzaufenthalter (L) auf.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33732,7 +33732,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:04",
+		"aktualisierungsdatum": "2026-06-12T08:53:03",
 		"id": 6525
 	},
 	{
@@ -33746,7 +33746,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn in Industrie und Baugewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2022 bei 7 845 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 461 Franken). In der Bauwirtschaft ist der Medianlohn 2022 auf 6 536 Franken leicht gestiegen.",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2024 bei 8 090 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 790 Franken). In der Bauwirtschaft liegt der Medianlohn 2024 bei rund 6 800 Franken.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33772,7 +33772,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:05",
+		"aktualisierungsdatum": "2026-06-12T08:53:04",
 		"id": 6526
 	},
 	{
@@ -33786,7 +33786,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (I)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "2022 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 657 Franken weiterhin am tiefsten. Im Bereich Verkehr und Lagerei liegt der Medianlohn unter 6 000 Franken, in der Branche Information und Kommunikation über 8 500 Franken monatlich.",
+		"lesehilfe": "2024 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 726 Franken weiterhin am tiefsten. Im Bereich Verkehr und Lagerei liegt der Medianlohn unter 6 000 Franken, in der Branche Information und Kommunikation über 8 600 Franken monatlich.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33812,7 +33812,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:07",
+		"aktualisierungsdatum": "2026-06-12T08:53:06",
 		"id": 6527
 	},
 	{
@@ -33826,7 +33826,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Bruttomedianlohn 2022 liegt bei den Finanz- und Versicherungsdienstleistungen bei 9 209 Franken, im Bereich Beratung, Planung und Forschung bei 8 303 Franken. Unter 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
+		"lesehilfe": "Der Bruttomedianlohn 2024 liegt bei den Finanz- und Versicherungsdienstleistungen über 9 600 Franken, im Bereich Beratung, Planung und Forschung knapp unter 8 500 Franken. Unter 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33852,7 +33852,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:08",
+		"aktualisierungsdatum": "2026-06-12T08:53:07",
 		"id": 6528
 	},
 	{
@@ -33866,7 +33866,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (III)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Bruttomedianlohn liegt 2022 im Bereich Erziehung und Unterricht bei rund 8 600 Franken und in der öffentlichen Verwaltung bei rund 8 400 Franken. Rund 6 600 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 489 Franken).",
+		"lesehilfe": "Der Bruttomedianlohn liegt 2024 im Bereich Erziehung und Unterricht bei rund 9 100 Franken und in der öffentlichen Verwaltung bei rund 8 900 Franken. Rund 6 800 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp unter 6 600 Franken liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -33892,7 +33892,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:10",
+		"aktualisierungsdatum": "2026-06-12T08:53:09",
 		"id": 6529
 	},
 	{
@@ -46991,7 +46991,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:05",
+		"aktualisierungsdatum": "2026-06-12T08:52:09",
 		"id": 7510
 	},
 	{
@@ -47029,7 +47029,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:07",
+		"aktualisierungsdatum": "2026-06-12T08:52:10",
 		"id": 7511
 	},
 	{
@@ -47069,7 +47069,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:09",
+		"aktualisierungsdatum": "2026-06-12T08:52:11",
 		"id": 7512
 	},
 	{
@@ -47108,7 +47108,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:11",
+		"aktualisierungsdatum": "2026-06-12T08:52:12",
 		"id": 7513
 	},
 	{
@@ -61845,7 +61845,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:54",
+		"aktualisierungsdatum": "2026-06-12T08:53:14",
 		"id": 8455
 	},
 	{
@@ -73107,7 +73107,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:13",
+		"aktualisierungsdatum": "2026-06-12T08:52:13",
 		"id": 8980
 	},
 	{
@@ -73145,7 +73145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:15",
+		"aktualisierungsdatum": "2026-06-12T08:52:14",
 		"id": 8981
 	},
 	{
@@ -73461,7 +73461,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:17",
+		"aktualisierungsdatum": "2026-06-12T08:52:16",
 		"id": 8992
 	},
 	{
@@ -73502,7 +73502,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:18",
+		"aktualisierungsdatum": "2026-06-12T08:52:19",
 		"id": 8995
 	},
 	{
@@ -73875,7 +73875,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:20",
+		"aktualisierungsdatum": "2026-06-12T08:52:20",
 		"id": 9022
 	},
 	{
@@ -73913,7 +73913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:22",
+		"aktualisierungsdatum": "2026-06-12T08:52:21",
 		"id": 9023
 	},
 	{
@@ -77462,7 +77462,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:49",
+		"aktualisierungsdatum": "2026-06-12T08:53:10",
 		"id": 9292
 	},
 	{
@@ -82885,7 +82885,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:51",
+		"aktualisierungsdatum": "2026-06-12T08:53:11",
 		"id": 9599
 	},
 	{
@@ -86184,7 +86184,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:23",
+		"aktualisierungsdatum": "2026-06-12T08:52:22",
 		"id": 9917
 	},
 	{
@@ -86222,7 +86222,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:25",
+		"aktualisierungsdatum": "2026-06-12T08:52:23",
 		"id": 9918
 	},
 	{
@@ -86301,7 +86301,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:27",
+		"aktualisierungsdatum": "2026-06-12T08:52:24",
 		"id": 9920
 	},
 	{
@@ -86377,7 +86377,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:28",
+		"aktualisierungsdatum": "2026-06-12T08:52:26",
 		"id": 9923
 	},
 	{
@@ -86415,7 +86415,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:30",
+		"aktualisierungsdatum": "2026-06-12T08:52:27",
 		"id": 9924
 	},
 	{
@@ -86606,7 +86606,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-04T08:35:31",
+		"aktualisierungsdatum": "2026-06-12T08:52:28",
 		"id": 9932
 	},
 	{

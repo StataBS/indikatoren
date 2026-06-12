@@ -4,10 +4,6 @@
       "color": "#0A3B19",
       "data": [
         [
-          "2012",
-          4988
-        ],
-        [
           "2014",
           4965
         ],
@@ -22,6 +18,14 @@
         [
           "2020",
           5261
+        ],
+        [
+          "2022",
+          5362
+        ],
+        [
+          "2024",
+          5607
         ]
       ],
       "name": "Bis 29 Jahre",
@@ -30,10 +34,6 @@
     {
       "color": "#68AB2B",
       "data": [
-        [
-          "2012",
-          6982
-        ],
         [
           "2014",
           6821
@@ -49,6 +49,14 @@
         [
           "2020",
           7030
+        ],
+        [
+          "2022",
+          7184
+        ],
+        [
+          "2024",
+          7355
         ]
       ],
       "name": "30-49 Jahre",
@@ -57,10 +65,6 @@
     {
       "color": "#8A8A8A",
       "data": [
-        [
-          "2012",
-          7487
-        ],
         [
           "2014",
           7464
@@ -76,6 +80,14 @@
         [
           "2020",
           7564
+        ],
+        [
+          "2022",
+          7743
+        ],
+        [
+          "2024",
+          7959
         ]
       ],
       "name": "50 Jahre u.m.",
@@ -213,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 30.3.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
