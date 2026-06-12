@@ -1854,7 +1854,7 @@ var indikatorensetData = [
 		],
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
-		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2022 mit einem monatlichen Bruttolohn von 11 461 Franken in der Pharmazeutischen Industrie bezahlt, der tiefste im Gastgewerbe mit 4 657 Franken brutto. Letzterer beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 969 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der drei Branchen Verkehr und Lagerei, Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie Personalvermittlung und -überlassung.",
+		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2024 mit einem monatlichen Bruttolohn von knapp 11 800 Franken in der Pharmazeutischen Industrie bezahlt, der tiefste im Gastgewerbe mit rund 4 700 Franken brutto. Letzterer beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der drei Branchen Verkehr und Lagerei, Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -1879,7 +1879,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:08",
+		"aktualisierungsdatum": "2026-06-12T08:52:34",
 		"id": 6464
 	},
 	{
@@ -2049,7 +2049,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"subtitle": "in Franken",
-		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2022 bei 6 969 Franken pro Monat und ist damit im Vergleich zu 2020 um 180 Franken gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (6 788 Franken), aber tiefer als im Kanton Zürich (7 229 Franken).",
+		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2024 bei 7 156 Franken pro Monat und ist damit im Vergleich zu 2022 um 187 Franken gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (7 024 Franken), aber tiefer als im Kanton Zürich (7 502 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2074,7 +2074,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:05:59",
+		"aktualisierungsdatum": "2026-06-12T08:52:58",
 		"id": 6522
 	},
 	{
@@ -2088,7 +2088,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn nach Geschlecht",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2022 bei 6 561 Franken brutto pro Monat, während der Medianlohn der Männer bei 7 269 Franken liegt. Damit beträgt 2022 das Verhältnis zwischen dem Medianlohn der Frauen und der Männer 0,90. Der Lohnunterschied war zehn Jahre zuvor grösser: Das Lohnverhältnis Frauen/Männer betrug damals 0,84.",
+		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2024 bei 6 848 Franken brutto pro Monat, während der Medianlohn der Männer bei 7 391 Franken liegt. Damit beträgt 2024 das Verhältnis zwischen dem Medianlohn der Frauen und der Männer 0,93. Der Lohnunterschied war zehn Jahre zuvor grösser: Das Lohnverhältnis Frauen/Männer betrug damals 0,87.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2113,7 +2113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:01",
+		"aktualisierungsdatum": "2026-06-12T08:53:00",
 		"id": 6523
 	},
 	{
@@ -2127,7 +2127,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn nach Alter",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Jüngere Angestellte verdienen weniger als ältere. 2022 beträgt der Medianlohn pro Monat in der Altersgruppe bis 29 Jahre 5 362 Franken und in jener über 50 Jahre 7 743 Franken.",
+		"lesehilfe": "Jüngere Angestellte verdienen weniger als ältere. 2024 beträgt der Medianlohn pro Monat in der Altersgruppe bis 29 Jahre rund 5 600 Franken und in jener über 50 Jahre fast 8 000 Franken.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2152,7 +2152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:02",
+		"aktualisierungsdatum": "2026-06-12T08:53:02",
 		"id": 6524
 	},
 	{
@@ -2165,8 +2165,8 @@ var indikatorensetData = [
 			7058
 		],
 		"title": "Medianlohn nach Bewilligungsart",
-		"subtitle": "in Franken, Nordwestschweiz, 2099",
-		"lesehilfe": "Die monatlichen Bruttomedianlöhne der Schweizerinnen und Schweizer (7 218 Franken) sowie der Grenzgängerinnen und Grenzgänger (7 150 Franken) liegen 2022 über dem Durchschnitt, während die Medianlöhne von ausländischen Arbeitnehmern mit einer Bewilligung C, B oder L unter dem Durchschnitt liegen.",
+		"subtitle": "in Franken, Nordwestschweiz, 2024",
+		"lesehilfe": "Die monatlichen Bruttomedianlöhne der Schweizerinnen und Schweizer (7 530 Franken) liegen 2024 über dem Durchschnitt, diejenige der Grenzgängerinnen und Grenzgänger (7 062 Franken) liegen knapp darunter. Die tiefsten Medianlöhne weisen die ausländischen Arbeitnehmende mit einer Bewilligung für Kurzaufenthalter (L) auf.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2191,7 +2191,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:04",
+		"aktualisierungsdatum": "2026-06-12T08:53:03",
 		"id": 6525
 	},
 	{
@@ -2205,7 +2205,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in Industrie und Baugewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2022 bei 7 845 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 461 Franken). In der Bauwirtschaft ist der Medianlohn 2022 auf 6 536 Franken leicht gestiegen.",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2024 bei 8 090 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 790 Franken). In der Bauwirtschaft liegt der Medianlohn 2024 bei rund 6 800 Franken.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2230,7 +2230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:05",
+		"aktualisierungsdatum": "2026-06-12T08:53:04",
 		"id": 6526
 	},
 	{
@@ -2244,7 +2244,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (I)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "2022 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 657 Franken weiterhin am tiefsten. Im Bereich Verkehr und Lagerei liegt der Medianlohn unter 6 000 Franken, in der Branche Information und Kommunikation über 8 500 Franken monatlich.",
+		"lesehilfe": "2024 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 726 Franken weiterhin am tiefsten. Im Bereich Verkehr und Lagerei liegt der Medianlohn unter 6 000 Franken, in der Branche Information und Kommunikation über 8 600 Franken monatlich.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2269,7 +2269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:07",
+		"aktualisierungsdatum": "2026-06-12T08:53:06",
 		"id": 6527
 	},
 	{
@@ -2283,7 +2283,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Bruttomedianlohn 2022 liegt bei den Finanz- und Versicherungsdienstleistungen bei 9 209 Franken, im Bereich Beratung, Planung und Forschung bei 8 303 Franken. Unter 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
+		"lesehilfe": "Der Bruttomedianlohn 2024 liegt bei den Finanz- und Versicherungsdienstleistungen über 9 600 Franken, im Bereich Beratung, Planung und Forschung knapp unter 8 500 Franken. Unter 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2308,7 +2308,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:08",
+		"aktualisierungsdatum": "2026-06-12T08:53:07",
 		"id": 6528
 	},
 	{
@@ -2322,7 +2322,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Dienstleistungssektor (III)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Bruttomedianlohn liegt 2022 im Bereich Erziehung und Unterricht bei rund 8 600 Franken und in der öffentlichen Verwaltung bei rund 8 400 Franken. Rund 6 600 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 489 Franken).",
+		"lesehilfe": "Der Bruttomedianlohn liegt 2024 im Bereich Erziehung und Unterricht bei rund 9 100 Franken und in der öffentlichen Verwaltung bei rund 8 900 Franken. Rund 6 800 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp unter 6 600 Franken liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2347,7 +2347,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:06:10",
+		"aktualisierungsdatum": "2026-06-12T08:53:09",
 		"id": 6529
 	},
 	{

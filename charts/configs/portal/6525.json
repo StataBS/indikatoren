@@ -5,28 +5,28 @@
       "visible": true,
       "data": [
         [
-          "Grenzgänger (G)",
-          6798
-        ],
-        [
           "Schweizer",
-          6733
+          7530
         ],
         [
           "Total",
-          6575
+          7156
+        ],
+        [
+          "Grenzgänger (G)",
+          7062
         ],
         [
           "Niedergelassene (C)",
-          6208
+          6769
         ],
         [
           "Aufenthalter (B)",
-          5956
+          6009
         ],
         [
           "Kurzaufenthalter (L)",
-          5490
+          4986
         ]
       ],
       "name": "Medianlohn",
@@ -102,10 +102,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Medianlohn in der Privatwirtschaft nach Bewilligungsart"
+    "text": "Medianlohn nach Bewilligungsart"
   },
   "subtitle": {
-    "text": "in Franken, Nordwestschweiz, 2020",
+    "text": "in Franken, Nordwestschweiz, 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -156,7 +156,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
