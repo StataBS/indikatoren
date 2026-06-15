@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "116 148 Logiernächte wurden im April 2026 in den Basler Hotelbetrieben gebucht, 1 672 weniger als im März. Im Vergleich zum April 2025 entspricht dies einem Rückgang um 6,0% bzw. 7 403 Übernachtungen. Die inländischen Gäste buchten 46 250 Logiernächte (+0,5%), die Gäste aus dem Ausland 69 898 Übernachtungen (-9,9%).",
+		"lesehilfe": "137 595 Logiernächte wurden im Mai 2026 in den Basler Hotelbetrieben gebucht, 21 447 mehr als im April. Im Vergleich zum Mail 2025 entspricht dies einem Rückgang um 8,8% bzw. 13 259 Übernachtungen. Die inländischen Gäste buchten 54 845 Logiernächte (-9,9%), die Gäste aus dem Ausland 82 750 Übernachtungen (-8,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-05-13T07:37:06",
+		"aktualisierungsdatum": "2026-06-15T07:59:43",
 		"id": 7516
 	},
 	{
@@ -195,8 +195,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 50%.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-05-13T07:37:08",
+		"aktualisierungsdatum": "2026-06-15T07:59:44",
 		"id": 7517
 	},
 	{
