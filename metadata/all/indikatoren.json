@@ -6883,12 +6883,12 @@
 		"title": "Hitzebedingte Todesfälle",
 		"subtitle": "in Abhängigkeit der Lufttemperatur, Basel-Stadt",
 		"lesehilfe": "Die grösste Anzahl hitzebedingter Todesfälle wird in Basel-Stadt im dargestellten Zeitraum für den bisher wärmsten Sommer 2003 geschätzt: Rund 80 Todesfälle (95%-Konfidenzintervall: 69,9-94,6) werden der Hitze zugeschrieben.",
-		"erlaeuterungen": "Das Bundesamt für Umwelt (BAFU) schätzt mittels <a href='https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNzcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html#chart16366' target='_blank'>attributabler Fallberechnung</a> schweizweit die Anzahl Todesfälle, die statistisch auf die Hitzebelastung in der Schweiz zwischen Mai und September zurückzuführen sind. Hohe Temperaturen und Hitzewellen stellen ein Risiko für die menschliche Gesundheit dar. Hitze kann Erschöpfung und Hitzschlag auslösen sowie bestehende Erkrankungen wie Herz-Kreislauf‑, Atemwegs-, Nieren- oder psychische Erkrankungen verschlimmern.",
+		"erlaeuterungen": "Das Bundesamt für Umwelt (BAFU) schätzt mittels attributabler Fallberechnung (siehe Link) schweizweit die Anzahl Todesfälle, die statistisch auf die Hitzebelastung in der Schweiz zwischen Mai und September zurückzuführen sind. Hohe Temperaturen und Hitzewellen stellen ein Risiko für die menschliche Gesundheit dar. Hitze kann Erschöpfung und Hitzschlag auslösen sowie bestehende Erkrankungen wie Herz-Kreislauf‑, Atemwegs-, Nieren- oder psychische Erkrankungen verschlimmern.",
 		"quellenangabe": [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNzcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html#chart16366' target = '_blank'>Hitzebedingte Todesfälle Schweiz</a>"
+			"<a href = 'https://www.indikatoren.admin.ch/public/v2/detail?ind=KL077&lng=de' target = '_blank'>Hitzebedingte Todesfälle Schweiz</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -6910,7 +6910,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-28T08:56:42",
+		"aktualisierungsdatum": "2026-06-17T10:14:13",
 		"id": 21847
 	},
 	{
@@ -45824,7 +45824,7 @@
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2022 bei rund 5 100 Franken brutto und damit höher als 2020.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2024 bei rund 5 200 Franken brutto und damit höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -45850,7 +45850,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:34",
+		"aktualisierungsdatum": "2026-06-17T10:14:17",
 		"id": 7446
 	},
 	{
@@ -45985,7 +45985,7 @@
 		],
 		"title": "Medianlohn im Landverkehr",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 liegt der Medianlohn für den Landverkehr in der Nordwestschweiz bei brutto 5 500 Franken und damit deutlich tiefer als 2014 mit brutto 6 600 Franken.",
+		"lesehilfe": "Im Jahr 2024 liegt der Medianlohn für den Landverkehr in der Nordwestschweiz bei brutto 6 000 Franken und damit tiefer als 2014 mit brutto 6 600 Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -46011,7 +46011,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:39",
+		"aktualisierungsdatum": "2026-06-17T10:14:18",
 		"id": 7450
 	},
 	{
@@ -46146,7 +46146,7 @@
 		],
 		"title": "Medianlohn in der Branche IT-Dienstleistungen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2022 bei rund 9 100 Franken brutto und damit leicht tiefer als 2020.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2024 bei rund 9 200 Franken brutto und damit leicht höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -46172,7 +46172,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:45",
+		"aktualisierungsdatum": "2026-06-17T10:14:19",
 		"id": 7455
 	},
 	{
@@ -46307,7 +46307,7 @@
 		],
 		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2022 bei rund 4 700 Franken brutto.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2024 bei rund 4 900 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -46333,7 +46333,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:16",
+		"aktualisierungsdatum": "2026-06-17T10:14:14",
 		"id": 7468
 	},
 	{
@@ -50175,7 +50175,7 @@
 		],
 		"title": "Verlorene potentielle Lebensjahre",
 		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder steigen. 2024 waren es bei den Männern 4 352 VPL und bei den Frauen 2 411.",
+		"lesehilfe": "Im Jahr 2025 betrug die Anzahl der verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt bei den Männern 4 172 VPL und bei den Frauen 2 409 VPL.",
 		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der baselstädtischen Bevölkerung im Jahr 2010 standardisiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -50201,7 +50201,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:03",
+		"aktualisierungsdatum": "2026-06-17T10:14:11",
 		"id": 7710
 	},
 	{
@@ -69095,7 +69095,7 @@
 		],
 		"title": "Medianlohn in der Branche Lagerei und Zustelldienste",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei sowie sonstige Dienstleistungen für den Verkehr (NOGA 52) liegt im Jahr 2022 bei rund 5 700 Franken brutto, im Bereich Post-, Kurier- und Expressdienste (NOGA 53) ebenfalls bei knapp 5 700 Franken brutto.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei sowie sonstige Dienstleistungen für den Verkehr (NOGA 52) liegt im Jahr 2024 bei rund 5 800 Franken brutto, im Bereich Post-, Kurier- und Expressdienste (NOGA 53) bei knapp 6 000 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -69121,7 +69121,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:27",
+		"aktualisierungsdatum": "2026-06-17T10:14:16",
 		"id": 8696
 	},
 	{
@@ -81733,7 +81733,7 @@
 		],
 		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 100 Franken brutto und damit etwas höher als 2020.",
+		"lesehilfe": "Im Jahr 2024 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 300 Franken brutto und damit etwas höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -81759,7 +81759,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:22",
+		"aktualisierungsdatum": "2026-06-17T10:14:15",
 		"id": 9493
 	},
 	{
@@ -85257,7 +85257,7 @@
 		],
 		"title": "Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau ist im Vergleich zu 2012 deutlich gestiegen und liegt 2022 bei rund 5 500 Franken brutto.",
+		"lesehilfe": "Der Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau ist im Vergleich zu 2014 gestiegen und liegt 2024 bei rund 5 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -85283,7 +85283,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:49",
+		"aktualisierungsdatum": "2026-06-17T10:14:20",
 		"id": 9757
 	},
 	{
