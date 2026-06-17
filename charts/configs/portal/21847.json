@@ -178,7 +178,11 @@
         ],
         [
           "2023",
-          10.2
+          10.8
+        ],
+        [
+          "2024",
+          7.2
         ]
       ],
       "name": "Moderat (\u003C25 °C)",
@@ -362,7 +366,11 @@
         ],
         [
           "2023",
-          5.4
+          5.6
+        ],
+        [
+          "2024",
+          4.5
         ]
       ],
       "name": "Heiss (25 bis \u003C27°C)",
@@ -547,6 +555,10 @@
         [
           "2023",
           2.3
+        ],
+        [
+          "2024",
+          1.7
         ]
       ],
       "name": "Sehr heiss (ab 27°C)",
@@ -779,8 +791,13 @@
         },
         {
           "name": "2023",
-          "low": 12.2,
-          "high": 24.2
+          "low": 12.8,
+          "high": 26.6
+        },
+        {
+          "name": "2024",
+          "low": 9,
+          "high": 18.5
         }
       ],
       "name": "Unteres Vertrauensintervall (Anzahl)",
@@ -921,7 +938,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Umwelt (BAFU).\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2024"
+    "text": "Quelle: Bundesamt für Umwelt (BAFU).\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2026"
   },
   "tooltip": {
     "shared": true,

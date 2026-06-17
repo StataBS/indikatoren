@@ -2518,7 +2518,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2022 bei rund 5 100 Franken brutto und damit höher als 2020.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2024 bei rund 5 200 Franken brutto und damit höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2543,7 +2543,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:34",
+		"aktualisierungsdatum": "2026-06-17T10:14:17",
 		"id": 7446
 	},
 	{
@@ -2675,7 +2675,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Landverkehr",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 liegt der Medianlohn für den Landverkehr in der Nordwestschweiz bei brutto 5 500 Franken und damit deutlich tiefer als 2014 mit brutto 6 600 Franken.",
+		"lesehilfe": "Im Jahr 2024 liegt der Medianlohn für den Landverkehr in der Nordwestschweiz bei brutto 6 000 Franken und damit tiefer als 2014 mit brutto 6 600 Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2700,7 +2700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:39",
+		"aktualisierungsdatum": "2026-06-17T10:14:18",
 		"id": 7450
 	},
 	{
@@ -2832,7 +2832,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche IT-Dienstleistungen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2022 bei rund 9 100 Franken brutto und damit leicht tiefer als 2020.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2024 bei rund 9 200 Franken brutto und damit leicht höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2857,7 +2857,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:45",
+		"aktualisierungsdatum": "2026-06-17T10:14:19",
 		"id": 7455
 	},
 	{
@@ -2989,7 +2989,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2022 bei rund 4 700 Franken brutto.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2024 bei rund 4 900 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3014,7 +3014,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:16",
+		"aktualisierungsdatum": "2026-06-17T10:14:14",
 		"id": 7468
 	},
 	{
@@ -3225,7 +3225,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche Lagerei und Zustelldienste",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei sowie sonstige Dienstleistungen für den Verkehr (NOGA 52) liegt im Jahr 2022 bei rund 5 700 Franken brutto, im Bereich Post-, Kurier- und Expressdienste (NOGA 53) ebenfalls bei knapp 5 700 Franken brutto.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei sowie sonstige Dienstleistungen für den Verkehr (NOGA 52) liegt im Jahr 2024 bei rund 5 800 Franken brutto, im Bereich Post-, Kurier- und Expressdienste (NOGA 53) bei knapp 6 000 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3250,7 +3250,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:27",
+		"aktualisierungsdatum": "2026-06-17T10:14:16",
 		"id": 8696
 	},
 	{
@@ -3541,7 +3541,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 100 Franken brutto und damit etwas höher als 2020.",
+		"lesehilfe": "Im Jahr 2024 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 300 Franken brutto und damit etwas höher als 2022.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3566,7 +3566,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:22",
+		"aktualisierungsdatum": "2026-06-17T10:14:15",
 		"id": 9493
 	},
 	{
@@ -3659,7 +3659,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau ist im Vergleich zu 2012 deutlich gestiegen und liegt 2022 bei rund 5 500 Franken brutto.",
+		"lesehilfe": "Der Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau ist im Vergleich zu 2014 gestiegen und liegt 2024 bei rund 5 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3684,7 +3684,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-05T07:04:49",
+		"aktualisierungsdatum": "2026-06-17T10:14:20",
 		"id": 9757
 	}
 ];

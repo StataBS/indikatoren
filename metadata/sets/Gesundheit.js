@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Verlorene potentielle Lebensjahre",
 		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit 1993 sind die verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt gesunken, wobei die VPL der Männer seit 2017 tendenziell wieder steigen. 2024 waren es bei den Männern 4 352 VPL und bei den Frauen 2 411.",
+		"lesehilfe": "Im Jahr 2025 betrug die Anzahl der verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt bei den Männern 4 172 VPL und bei den Frauen 2 409 VPL.",
 		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100 000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein. Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der baselstädtischen Bevölkerung im Jahr 2010 standardisiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:03",
+		"aktualisierungsdatum": "2026-06-17T10:14:11",
 		"id": 7710
 	},
 	{
