@@ -51340,8 +51340,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen und Bettingen. In acht Wohnvierteln sank sie. In zwei blieb sie gleich.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen und Bettingen. In zehn Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -51368,7 +51368,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-05-21T09:24:47",
+		"aktualisierungsdatum": "2026-06-24T09:55:54",
 		"id": 7763
 	},
 	{
@@ -73502,7 +73502,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:45",
+		"aktualisierungsdatum": "2026-06-24T09:55:55",
 		"id": 8995
 	},
 	{
@@ -73875,7 +73875,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:46",
+		"aktualisierungsdatum": "2026-06-24T09:55:57",
 		"id": 9022
 	},
 	{
@@ -73913,7 +73913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:47",
+		"aktualisierungsdatum": "2026-06-24T09:55:58",
 		"id": 9023
 	},
 	{
