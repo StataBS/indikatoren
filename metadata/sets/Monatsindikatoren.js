@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Mai 2026 0,7%. Das Preisniveau ist damit gegenüber der Vorjahresperiode so stark gestiegen wie seit September 2024 nicht mehr. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juni 2026 0,5%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:11",
+		"aktualisierungsdatum": "2026-07-02T08:34:35",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Mai 2026 gegenüber April um 0,1% auf 101,3 Punkte gestiegen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juni 2026 gegenüber Mai unverändert bei 101,3 Punkten geblieben.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:12",
+		"aktualisierungsdatum": "2026-07-02T08:34:36",
 		"id": 7513
 	},
 	{
