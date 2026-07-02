@@ -638,7 +638,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
-		"lesehilfe": "Im Jahr 2023 erfolgten 38 869 (89,1%) der insgesamt 43 604 Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"lesehilfe": "Im Jahr 2024 erfolgten 39 359 (89,4%) der insgesamt 44 020 Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
 		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -666,7 +666,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:27",
+		"aktualisierungsdatum": "2026-07-02T08:34:42",
 		"id": 11183
 	},
 	{
@@ -677,15 +677,13 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
-		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2023",
-		"lesehilfe": "Im Jahr 2023 sind 45,7% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 36,1% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
+		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2024",
+		"lesehilfe": "Im Jahr 2024 sind 45,9% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 35,9% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
 		"erlaeuterungen": "Der Case-Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle und kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [
-			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
-		],
+		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -706,7 +704,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:28",
+		"aktualisierungsdatum": "2026-07-02T08:34:43",
 		"id": 11184
 	},
 	{
@@ -717,15 +715,13 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweregrad und Komplexität",
-		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2023",
-		"lesehilfe": "Im Jahr 2023 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,21. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,90.",
+		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2024",
+		"lesehilfe": "Im Jahr 2024 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,24. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,98.",
 		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach SwissDRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) sind für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (z. B. Universitäre Altersmedizin Felix Platter) oder Menschen mit unheilbaren, lebensbedrohlichen oder chronisch fortschreitenden Krankheiten (z. B. Palliativzentrum Hildegard) ausgerichtet sind .",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [
-			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
-		],
+		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -746,7 +742,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:29",
+		"aktualisierungsdatum": "2026-07-02T08:34:44",
 		"id": 11185
 	},
 	{
@@ -757,14 +753,13 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Spitalstandorte",
-		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
-		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2023 das Universitätsspital Basel mit 41 110 von insgesamt 87 072 Austritten im Kanton Basel-Stadt.",
+		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2024, Basel-Stadt",
+		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2024 das Universitätsspital Basel mit 42 282 von insgesamt 89 349 Austritten im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Spitäler mit Standort im Kanton Basel-Stadt und deren jeweilige Anzahl an Austritten aus einer stationären Behandlung im angegebenen Jahr. <br>Zur Bestimmung der Anzahl stationärer Behandlungen eines Spitals in einem bestimmten Zeitraum wird die Anzahl der Austritte während dieses Zeitraums herangezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
 		"externalLinks": [
-			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>",
 			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/spitalversorgung/spitalplanung#spitalliste' target = '_blank'>Spitalliste</a>"
 		],
 		"renderLink": [],
@@ -787,7 +782,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:26",
+		"aktualisierungsdatum": "2026-07-02T08:34:41",
 		"id": 11897
 	},
 	{
@@ -829,7 +824,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-27T10:03:14",
+		"aktualisierungsdatum": "2026-07-02T08:34:45",
 		"id": 11899
 	},
 	{
@@ -4466,7 +4461,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-17T10:14:13",
+		"aktualisierungsdatum": "2026-07-02T08:34:40",
 		"id": 21847
 	},
 	{
@@ -28725,7 +28720,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Mai 2026 0,7%. Das Preisniveau ist damit gegenüber der Vorjahresperiode so stark gestiegen wie seit September 2024 nicht mehr. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juni 2026 0,5%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28753,7 +28748,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:11",
+		"aktualisierungsdatum": "2026-07-02T08:34:35",
 		"id": 7512
 	},
 	{
@@ -28765,7 +28760,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Mai 2026 gegenüber April um 0,1% auf 101,3 Punkte gestiegen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juni 2026 gegenüber Mai unverändert bei 101,3 Punkten geblieben.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28792,7 +28787,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:12",
+		"aktualisierungsdatum": "2026-07-02T08:34:36",
 		"id": 7513
 	},
 	{
@@ -38023,7 +38018,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-24T09:55:55",
+		"aktualisierungsdatum": "2026-07-02T08:34:37",
 		"id": 8995
 	},
 	{
@@ -38194,7 +38189,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-24T09:55:57",
+		"aktualisierungsdatum": "2026-07-02T08:34:38",
 		"id": 9022
 	},
 	{
@@ -38232,7 +38227,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-24T09:55:58",
+		"aktualisierungsdatum": "2026-07-02T08:34:39",
 		"id": 9023
 	},
 	{

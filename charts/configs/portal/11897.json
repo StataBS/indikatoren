@@ -3600,88 +3600,88 @@
       "showInLegend": true,
       "data": [
         {
-          "lat": 47.56256073,
-          "lon": 7.583231614,
+          "lat": 47.56256072992121,
+          "lon": 7.583231613532838,
           "name": "Universitätsspital Basel (USB)",
-          "z": 40595
+          "z": 42282
         },
         {
-          "lat": 47.56655928,
-          "lon": 7.614203736,
+          "lat": 47.566559284535565,
+          "lon": 7.614203735547821,
           "name": "St. Claraspital",
-          "z": 11681
+          "z": 11945
         },
         {
-          "lat": 47.55552511,
-          "lon": 7.570044281,
+          "lat": 47.5555251052925,
+          "lon": 7.570044281131091,
           "name": "Merian Iselin Klinik",
-          "z": 7247
+          "z": 7712
         },
         {
-          "lat": 47.54818372,
-          "lon": 7.617299436,
+          "lat": 47.548183719135636,
+          "lon": 7.617299435836332,
           "name": "Bethesda Spital AG",
-          "z": 6533
+          "z": 6842
         },
         {
-          "lat": 47.56380773,
-          "lon": 7.581864226,
+          "lat": 47.56380772895372,
+          "lon": 7.581864225978405,
           "name": "Universitäts-Kinderspital beider Basel (UKBB)",
-          "z": 6075
+          "z": 6256
         },
         {
-          "lat": 47.56550086,
-          "lon": 7.565326414,
+          "lat": 47.56550086039521,
+          "lon": 7.565326413811343,
           "name": "Felix Platter-Spital",
-          "z": 5630
+          "z": 5857
         },
         {
-          "lat": 47.57126038,
-          "lon": 7.565914732,
+          "lat": 47.571260378399245,
+          "lon": 7.565914732488717,
           "name": "Universitäre Psychiatrische Kliniken Basel (UPK)",
-          "z": 2831
+          "z": 2755
         },
         {
-          "lat": 47.56015005,
-          "lon": 7.579577192,
+          "lat": 47.56015005377136,
+          "lon": 7.579577191607747,
           "name": "Adullam Spital",
-          "z": 2472
+          "z": 2739
         },
         {
-          "lat": 47.56582348,
-          "lon": 7.591269217,
+          "lat": 47.56582348350639,
+          "lon": 7.591269216725412,
           "name": "Matthea Geburtshaus",
-          "z": 716
+          "z": 850
         },
         {
-          "lat": 47.57274387,
-          "lon": 7.559156843,
+          "lat": 47.57274386924855,
+          "lon": 7.559156843389897,
           "name": "REHAB Basel",
-          "z": 552
+          "z": 573
         },
         {
-          "lat": 47.58479468,
-          "lon": 7.65703335,
+          "lat": 47.584794684903706,
+          "lon": 7.657033350321054,
           "name": "Klinik Sonnenhalde",
-          "z": 469
+          "z": 488
         },
         {
-          "lat": 47.55045916,
-          "lon": 7.610654987,
-          "name": "Palliativzentrum Hildegard",
-          "z": 437
-        },
-        {
-          "lat": 47.55117618,
-          "lon": 7.593281111,
-          "name": "SMN-Schmerzklinik Basel",
-          "z": 193
-        },
-        {
-          "lat": 47.56657366,
-          "lon": 7.615025113,
+          "lat": 47.566573660933834,
+          "lon": 7.615025112792847,
           "name": "Zurzach Care AG",
-          "z": 101
+          "z": 466
+        },
+        {
+          "lat": 47.55045916383189,
+          "lon": 7.610654986824123,
+          "name": "Palliativzentrum Hildegard",
+          "z": 399
+        },
+        {
+          "lat": 47.55117617569023,
+          "lon": 7.593281111227076,
+          "name": "SMN-Schmerzklinik Basel",
+          "z": 185
         }
       ]
     },
@@ -3793,7 +3793,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
+    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2024, Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -3809,7 +3809,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.7.2026"
   },
   "colorAxis": {
     "min": 0,
