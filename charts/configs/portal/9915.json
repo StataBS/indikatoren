@@ -55,6 +55,10 @@
         [
           "2024",
           500
+        ],
+        [
+          "2025",
+          485
         ]
       ],
       "name": "Gymnasien und andere Schulen für Allgemeinbildung",
@@ -115,6 +119,10 @@
         [
           "2024",
           686
+        ],
+        [
+          "2025",
+          742
         ]
       ],
       "name": "Berufliche Grundbildung",
@@ -175,6 +183,10 @@
         [
           "2024",
           634
+        ],
+        [
+          "2025",
+          703
         ]
       ],
       "name": "Tertiärstufe",
@@ -235,6 +247,10 @@
         [
           "2024",
           2
+        ],
+        [
+          "2025",
+          3
         ]
       ],
       "name": "Übrige weiterführende Ausbildungen",
@@ -374,7 +390,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2025"
+    "text": "Quelle: Amt für Ausbildungsbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

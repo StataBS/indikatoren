@@ -1,271 +1,127 @@
 {
   "series": [
     {
-      "color": "#b475ab",
+      "color": "#b375ab",
       "data": [
         [
-          1995,
-          298.9
-        ],
-        [
-          1996,
-          299.4
-        ],
-        [
-          1997,
-          299.9
-        ],
-        [
-          1998,
-          306.6
-        ],
-        [
-          1999,
-          311.3
-        ],
-        [
-          2000,
-          315.7
-        ],
-        [
-          2001,
-          318.9
-        ],
-        [
-          2002,
-          317.6
-        ],
-        [
-          2003,
-          314.9
-        ],
-        [
-          2004,
-          331.6
-        ],
-        [
-          2005,
-          329.5
-        ],
-        [
-          2006,
-          327.5
-        ],
-        [
-          2007,
-          325.6
-        ],
-        [
-          2008,
-          322.8
-        ],
-        [
-          2009,
-          319.1
-        ],
-        [
-          2010,
-          319.3
-        ],
-        [
-          2011,
-          320.8
-        ],
-        [
-          2012,
-          325
-        ],
-        [
-          2013,
-          320.2
-        ],
-        [
-          2014,
-          319.4
-        ],
-        [
           2015,
-          316.6
+          14.9
         ],
         [
           2016,
-          320
+          15
         ],
         [
           2017,
-          318.6
+          13.3
         ],
         [
           2018,
-          312.5
+          12.6
         ],
         [
           2019,
-          309.2
+          12.5
         ],
         [
           2020,
-          307.6
+          13.1
         ],
         [
           2021,
-          307.1
+          13.1
         ],
         [
           2022,
-          null
-        ],
-        [
-          2023,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
-          null
+          13.1
         ]
       ],
-      "name": "Motorisierungsgrad gemäss MFK"
+      "name": "Staatsquote"
     },
     {
-      "color": "#662673",
+      "color": "#b00000",
+      "visible": false,
       "data": [
         [
-          1995,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          1997,
-          null
-        ],
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2001,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2007,
-          null
-        ],
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
           2015,
-          null
+          4892670439
         ],
         [
           2016,
-          null
+          5267276273
         ],
         [
           2017,
-          null
+          4900305619
         ],
         [
           2018,
-          null
+          4793966331
         ],
         [
           2019,
-          null
+          4786767510
         ],
         [
           2020,
-          null
+          4946529279
         ],
         [
           2021,
-          309.9
+          5232638671
         ],
         [
           2022,
-          302.1
-        ],
-        [
-          2023,
-          300
-        ],
-        [
-          2024,
-          299.6
-        ],
-        [
-          2025,
-          293.9
+          5378486075
         ]
       ],
-      "name": "Motorisierungsgrad gemäss IVZ"
+      "name": "Gesamtausgaben in Fr."
+    },
+    {
+      "color": "#cd9c00",
+      "visible": false,
+      "data": [
+        [
+          2015,
+          32764400000
+        ],
+        [
+          2016,
+          35204000000
+        ],
+        [
+          2017,
+          36876200000
+        ],
+        [
+          2018,
+          38110200000
+        ],
+        [
+          2019,
+          38316700000
+        ],
+        [
+          2020,
+          37705600000
+        ],
+        [
+          2021,
+          40025808930
+        ],
+        [
+          2022,
+          41203459090
+        ]
+      ],
+      "name": "Bruttoinlandprodukt in Fr."
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -290,7 +146,7 @@
 					}
 				}
     },
-    "renderTo": "container-7779"
+    "renderTo": "container-22540"
   },
   "plotOptions": {
     "series": {
@@ -312,10 +168,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Motorisierungsgrad"
+    "text": "Staatsquote"
   },
   "subtitle": {
-    "text": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -337,17 +193,9 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": -45
+      }
     },
-    "tickPositioner": function () {
-		var interval = 2,
-			ext = this.getExtremes(),
-			i = ext.dataMax,
-			pos = [i];
-		while (i >= ext.dataMin) pos.unshift(i = i - interval);
-		return pos;
-	}
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -365,11 +213,11 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value}%"
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -377,7 +225,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5
+    "itemWidth": 140,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -390,9 +239,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Finanzverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -429,10 +278,11 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "7779"
+    "filename": "22540"
   }
 }

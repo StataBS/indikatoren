@@ -5,87 +5,87 @@
       "data": [
         [
           "Kleinhüningen",
-          0.5618831
+          0.5984475
         ],
         [
           "Klybeck",
-          0.635593
-        ],
-        [
-          "Iselin",
-          0.6930883
-        ],
-        [
-          "Breite",
-          0.6953152
+          0.6472757
         ],
         [
           "Riehen",
-          0.6957764
+          0.6900056
         ],
         [
           "Bettingen",
-          0.6957764
+          0.6900056
         ],
         [
-          "Rosental",
-          0.706851
+          "Iselin",
+          0.6966912
+        ],
+        [
+          "Breite",
+          0.7002193
         ],
         [
           "Bruderholz",
-          0.7159997
+          0.7045874
+        ],
+        [
+          "Rosental",
+          0.7139125
         ],
         [
           "St. Johann",
-          0.7174091
-        ],
-        [
-          "Clara",
-          0.7198746
+          0.7205765
         ],
         [
           "Matthäus",
-          0.7282629
+          0.7277203
         ],
         [
           "St. Alban",
-          0.7304275
+          0.7396277
+        ],
+        [
+          "Clara",
+          0.7401277
         ],
         [
           "Vorstädte",
-          0.7422008
+          0.7478035
         ],
         [
           "Hirzbrunnen",
-          0.7457326
+          0.7486733
         ],
         [
           "Bachletten",
-          0.7521343
+          0.7529054
         ],
         [
           "Gundeldingen",
-          0.7584348
+          0.7554374
         ],
         [
           "Gotthelf",
-          0.7664509
+          0.7706995
         ],
         [
           "Altstadt Grossbasel",
-          0.7768004
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.7848757
+          0.7724746
         ],
         [
           "Am Ring",
-          0.7858827
+          0.7776336
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7934427
         ],
         [
           "Wettstein",
-          0.8062193
+          0.8095096
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -103,27 +103,27 @@
           2
         ],
         [
-          "Iselin",
+          "Riehen",
           3
         ],
         [
-          "Breite",
-          4
-        ],
-        [
-          "Riehen",
-          5
-        ],
-        [
           "Bettingen",
+          3
+        ],
+        [
+          "Iselin",
           5
         ],
         [
-          "Rosental",
-          7
+          "Breite",
+          6
         ],
         [
           "Bruderholz",
+          7
+        ],
+        [
+          "Rosental",
           8
         ],
         [
@@ -131,15 +131,15 @@
           9
         ],
         [
-          "Clara",
+          "Matthäus",
           10
         ],
         [
-          "Matthäus",
+          "St. Alban",
           11
         ],
         [
-          "St. Alban",
+          "Clara",
           12
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Altstadt Kleinbasel",
+          "Am Ring",
           19
         ],
         [
-          "Am Ring",
+          "Altstadt Kleinbasel",
           20
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2019 bis 2023",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2020 bis 2024",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
   },
   "legend": {
     "enabled": false,
