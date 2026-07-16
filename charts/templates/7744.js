@@ -76,7 +76,7 @@ data: {
 rangeSelector: {
     //enabled:  false,
   buttonTheme: {
-    width: null
+    width: 80 //null
   },         
 buttons: 
 [

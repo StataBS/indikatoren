@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "137 595 Logiernächte wurden im Mai 2026 in den Basler Hotelbetrieben gebucht, 21 447 mehr als im April. Im Vergleich zum Mail 2025 entspricht dies einem Rückgang um 8,8% bzw. 13 259 Übernachtungen. Die inländischen Gäste buchten 54 845 Logiernächte (-9,9%), die Gäste aus dem Ausland 82 750 Übernachtungen (-8,0%).",
+		"lesehilfe": "152 737 Logiernächte wurden im Juni 2026 in den Basler Hotelbetrieben gebucht, 15 142 mehr als im Mai. Im Vergleich zum Juni 2025 entspricht dies einem Rückgang um 0,5% bzw. 818 Übernachtungen. Die inländischen Gäste buchten 58 717 Logiernächte (+14,9%), die Gäste aus dem Ausland 94 020 Übernachtungen (-8,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:43",
+		"aktualisierungsdatum": "2026-07-16T09:55:34",
 		"id": 7516
 	},
 	{
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
+		"subtitle": "Basel-Stadt, Juni",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:44",
+		"aktualisierungsdatum": "2026-07-16T09:55:35",
 		"id": 7517
 	},
 	{

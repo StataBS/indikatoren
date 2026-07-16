@@ -5,15 +5,15 @@
       "data": [
         [
           "1- und 2-Sterne",
-          553
+          554
         ],
         [
           "3-Sterne",
-          1520
+          1519
         ],
         [
           "4- und 5-Sterne",
-          1973
+          2003
         ],
         [
           "Nicht klassiert",
@@ -32,15 +32,15 @@
         ],
         [
           "3-Sterne",
-          1404
+          1405
         ],
         [
           "4- und 5-Sterne",
-          2000
+          2004
         ],
         [
           "Nicht klassiert",
-          628
+          692
         ]
       ],
       "name": "Verfügbare Zimmer 2026",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.677361022
+          0.699939831
         ],
         [
           "3-Sterne",
-          0.727758913
+          0.747311827
         ],
         [
           "4- und 5-Sterne",
-          0.742998218
+          0.797819936
         ],
         [
           "Nicht klassiert",
-          0.556731307
+          0.732129094
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2025",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.614136431
+          0.601945003
         ],
         [
           "3-Sterne",
-          0.650892467
+          0.795919335
         ],
         [
           "4- und 5-Sterne",
-          0.637693548
+          0.81086161
         ],
         [
           "Nicht klassiert",
-          0.699660982
+          0.768111753
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2026",
@@ -195,7 +195,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Mai",
+    "text": "Basel-Stadt, Juni",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.7.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

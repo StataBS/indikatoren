@@ -546,9 +546,9 @@ var indikatoren = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -575,7 +575,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-06T07:44:19",
+		"aktualisierungsdatum": "2026-07-16T09:55:37",
 		"id": 10041
 	},
 	{
@@ -24832,7 +24832,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-13T03:44:38",
+		"aktualisierungsdatum": "2026-07-16T09:56:13",
 		"id": 6215
 	},
 	{
@@ -47115,7 +47115,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "137 595 Logiernächte wurden im Mai 2026 in den Basler Hotelbetrieben gebucht, 21 447 mehr als im April. Im Vergleich zum Mail 2025 entspricht dies einem Rückgang um 8,8% bzw. 13 259 Übernachtungen. Die inländischen Gäste buchten 54 845 Logiernächte (-9,9%), die Gäste aus dem Ausland 82 750 Übernachtungen (-8,0%).",
+		"lesehilfe": "152 737 Logiernächte wurden im Juni 2026 in den Basler Hotelbetrieben gebucht, 15 142 mehr als im Mai. Im Vergleich zum Juni 2025 entspricht dies einem Rückgang um 0,5% bzw. 818 Übernachtungen. Die inländischen Gäste buchten 58 717 Logiernächte (+14,9%), die Gäste aus dem Ausland 94 020 Übernachtungen (-8,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -47141,7 +47141,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:43",
+		"aktualisierungsdatum": "2026-07-16T09:55:34",
 		"id": 7516
 	},
 	{
@@ -47152,7 +47152,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
+		"subtitle": "Basel-Stadt, Juni",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 60%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -47179,7 +47179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-15T07:59:44",
+		"aktualisierungsdatum": "2026-07-16T09:55:35",
 		"id": 7517
 	},
 	{
@@ -50329,9 +50329,9 @@ var indikatoren = [
 			9038
 		],
 		"title": "Zusätzliche Wohnfläche nach Prognosezeitraum",
-		"subtitle": "in m², Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario 247 372 m².",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
+		"subtitle": "in m², Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im mittleren Szenario 275 944 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Wohnfläche in m² basierend auf Schätzungen von Städtebau & Architektur Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50358,7 +50358,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:41",
+		"aktualisierungsdatum": "2026-07-16T09:55:38",
 		"id": 7722
 	},
 	{
@@ -50371,9 +50371,9 @@ var indikatoren = [
 			9039
 		],
 		"title": "Wohnflächenverbrauch pro Person",
-		"subtitle": "in m² pro Kopf, Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der Wohnflächenverbrauch steigt im Mittleren Szenario von 41,5 m² auf 42,5 m² pro Kopf.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Der Wohnflächenverbrauch pro Kopf in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die ständige und nichtständige Bevölkerung Basel-Stadts.",
+		"subtitle": "in m² pro Kopf, Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der Wohnflächenverbrauch steigt im mittleren Szenario von 41,3 m² auf 42,1 m² pro Kopf.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Der Wohnflächenverbrauch pro Kopf in m² berechnet sich als gesamte Wohnfläche in Basel-Stadt dividiert durch die ständige und nichtständige Bevölkerung von Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50400,7 +50400,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:42",
+		"aktualisierungsdatum": "2026-07-16T09:55:39",
 		"id": 7723
 	},
 	{
@@ -50413,9 +50413,9 @@ var indikatoren = [
 			9040
 		],
 		"title": "Leerwohnungsquote",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Leehrwohnungsquote entwickelt sich von 1,1% im Jahr 2023 je nach Szenario zu 0,2%, 1,0% oder 1,8%.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Die Leerwohnungsquote berechnet sich als Leerwohnungsbestand dividiert durch den Gesamtwohnungsbestand.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Leehrwohnungsquote entwickelt sich von 0,9% im Jahr 2025 je nach Szenario zu 0,2%, 1,0% oder 1,8%.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Die Leerwohnungsquote berechnet sich als Leerwohnungsbestand dividiert durch den Gesamtwohnungsbestand.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50442,7 +50442,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:43",
+		"aktualisierungsdatum": "2026-07-16T09:55:40",
 		"id": 7724
 	},
 	{
@@ -50455,9 +50455,9 @@ var indikatoren = [
 			9041
 		],
 		"title": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 83,8 auf 85,2 Jahre im Jahr 2045. Die Lebenserwartung von Schweizern (M) steigt von 79.8 auf 81,7 Jahre im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen, startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im mittleren Szenario von 83,9 im Jahr 2026 auf 85,4 Jahre im Jahr 2050. Die Lebenserwartung von Schweizern (M) steigt von 80,0 auf 82,0 Jahre im Jahr 2050.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen, startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50484,7 +50484,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-31T09:26:14",
+		"aktualisierungsdatum": "2026-07-16T09:55:42",
 		"id": 7725
 	},
 	{
@@ -50497,9 +50497,9 @@ var indikatoren = [
 			9042
 		],
 		"title": "Lebenserwartung bei Geburt: Ausländerinnen und Ausländer",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Ausländern (M) steigt im Mittleren Szenario von 81,1 auf 83,1 Jahre im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Ausländern (M) steigt im mittleren Szenario von 81,2 im Jahr 2026 auf 83,3 Jahre im Jahr 2050.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50526,7 +50526,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:44",
+		"aktualisierungsdatum": "2026-07-16T09:55:43",
 		"id": 7726
 	},
 	{
@@ -50539,9 +50539,9 @@ var indikatoren = [
 			9043
 		],
 		"title": "Zusammengefasste Geburtenziffer nach Herkunft",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) liegt im Mittleren Szenario relativ konstant bei 0,97 Kindern pro Frau. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) beträgt im selben Szenario 1,26 Kinder pro Frau im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) liegt im mittleren Szenario relativ konstant bei 0,94 Kindern pro Frau. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) beträgt im selben Szenario 1,24 Kinder pro Frau im Jahr 2050.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50568,7 +50568,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:45",
+		"aktualisierungsdatum": "2026-07-16T09:55:44",
 		"id": 7727
 	},
 	{
@@ -50581,9 +50581,9 @@ var indikatoren = [
 			9044
 		],
 		"title": "Einbürgerungsquoten nach Geschlecht",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Im Mittleren Szenario steigt die Einbürgerungsquote von in Basel-Stadt wohnhaften Männern (M) von 1,5% im Jahr 2024 auf 1,6% bis im Jahr 2045.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2025. Die Einbürgerungsquote berechnet sich als Quotient der Anzahl Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario beträgt die Einbürgerungsquote von in Basel-Stadt wohnhaften Männern (M) 1,6% im Jahr 2050.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2026. Die Einbürgerungsquote berechnet sich als Quotient der Anzahl Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50610,7 +50610,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:46",
+		"aktualisierungsdatum": "2026-07-16T09:55:46",
 		"id": 7728
 	},
 	{
@@ -50623,9 +50623,9 @@ var indikatoren = [
 			9045
 		],
 		"title": "Bevölkerung Grossbasel-Ost",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Bevölkerung von Grossbasel-Ost wächst gemäss Mittlerem Szenario von etwa 56 900 im Jahr 2024 auf knapp 62 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Bevölkerung von Grossbasel-Ost wächst gemäss mittlerem Szenario von etwa 57 500 im Jahr 2025 auf etwa 63 200 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50652,7 +50652,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:46",
+		"aktualisierungsdatum": "2026-07-16T09:55:48",
 		"id": 7729
 	},
 	{
@@ -50665,9 +50665,9 @@ var indikatoren = [
 			9046
 		],
 		"title": "Bevölkerung Grossbasel-West",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Bevölkerung von Grossbasel-West wächst gemäss Mittlerem Szenario von knapp 71 600 im Jahr 2024 auf rund 73 300 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Bevölkerung von Grossbasel-West wächst gemäss mittlerem Szenario von circa 72 500 im Jahr 2025 auf rund 75 000 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50694,7 +50694,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:47",
+		"aktualisierungsdatum": "2026-07-16T09:55:49",
 		"id": 7730
 	},
 	{
@@ -50707,9 +50707,9 @@ var indikatoren = [
 			9047
 		],
 		"title": "Bevölkerung Kleinbasel",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 55 200 auf rund 65 700 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss mittlerem Szenario von etwa 56 300 auf rund 67 600 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen mit Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50736,7 +50736,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:48",
+		"aktualisierungsdatum": "2026-07-16T09:55:50",
 		"id": 7731
 	},
 	{
@@ -50749,9 +50749,9 @@ var indikatoren = [
 			9048
 		],
 		"title": "Bevölkerung Riehen und Bettingen",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von knapp 24 000 Einwohner Ende 2024 auf über 26 000 Einwohner bis im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss mittlerem Szenario von knapp 24 200 Einwohner Ende 2025 auf über 26 800 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50778,7 +50778,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:49",
+		"aktualisierungsdatum": "2026-07-16T09:55:52",
 		"id": 7732
 	},
 	{
@@ -50791,9 +50791,9 @@ var indikatoren = [
 			9049
 		],
 		"title": "Bevölkerung zwischen 0 und 19 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 0 und 19 Jahren wächst gemäss Mittlerem Szenario von rund 36 200 auf knapp 37 300 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 0 und 19 Jahren wächst gemäss mittlerem Szenario von rund 36 600 auf circa 37 700 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50820,7 +50820,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:49",
+		"aktualisierungsdatum": "2026-07-16T09:55:53",
 		"id": 7733
 	},
 	{
@@ -50833,9 +50833,9 @@ var indikatoren = [
 			9050
 		],
 		"title": "Bevölkerung ab 65 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 65 Jahren wächst gemäss Mittlerem Szenario von fast 40 000 auf über 44 000 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 65 Jahren wächst gemäss mittlerem Szenario von rund 40 300 auf über 46 200 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50862,7 +50862,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:50",
+		"aktualisierungsdatum": "2026-07-16T09:55:54",
 		"id": 7734
 	},
 	{
@@ -50875,9 +50875,9 @@ var indikatoren = [
 			9051
 		],
 		"title": "Bevölkerung ab 80 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von rund 13 300 auf rund 16 300 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss mittlerem Szenario von rund 13 400 auf rund 17 100 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50904,7 +50904,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:51",
+		"aktualisierungsdatum": "2026-07-16T09:55:56",
 		"id": 7735
 	},
 	{
@@ -50917,9 +50917,9 @@ var indikatoren = [
 			9052
 		],
 		"title": "Bevölkerung zwischen 20 und 64 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 20 und 64 Jahren wächst gemäss Mittlerem Szenario von 131 500 im Jahr 2024 auf gut 145 800 Einwohner im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 20 und 64 Jahren wächst gemäss mittlerem Szenario von circa 133 600 im Jahr 2025 auf rund 148 700 Einwohner im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50946,7 +50946,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:51",
+		"aktualisierungsdatum": "2026-07-16T09:55:57",
 		"id": 7736
 	},
 	{
@@ -50959,9 +50959,9 @@ var indikatoren = [
 			9053
 		],
 		"title": "Jugendquotient",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der Jugendquotient sinkt gemäss Mittlerem Szenario von 27,5 im Jahr 2024 auf 25,6 im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der Jugendquotient sinkt gemäss mittlerem Szenario von 27,4 im Jahr 2025 auf 25,4 im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -50989,7 +50989,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:52",
+		"aktualisierungsdatum": "2026-07-16T09:55:58",
 		"id": 7737
 	},
 	{
@@ -51002,9 +51002,9 @@ var indikatoren = [
 			9054
 		],
 		"title": "Altersquotient",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,2 im Jahr 2024 auf 30,4 im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der Altersquotient wächst gemäss mittlerem Szenario von 30,2 im Jahr 2025 auf 31,1 im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51032,7 +51032,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:53",
+		"aktualisierungsdatum": "2026-07-16T09:56:00",
 		"id": 7738
 	},
 	{
@@ -51045,9 +51045,9 @@ var indikatoren = [
 			9055
 		],
 		"title": "Geburten",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung beträgt im Mittleren Szenario rund 1 950 im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Anzahl Lebendgeburten.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Anzahl Geburten unter der im Kanton Basel-Stadt wohnhaften Bevölkerung beträgt im mittleren Szenario rund 1 940 im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Anzahl Lebendgeburten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51074,7 +51074,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:53",
+		"aktualisierungsdatum": "2026-07-16T09:56:01",
 		"id": 7739
 	},
 	{
@@ -51087,9 +51087,9 @@ var indikatoren = [
 			9056
 		],
 		"title": "Sterbefälle",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Die Anzahl Sterbefälle unter der Wohnbevölkerung von Basel-Stadt sinkt im Mittleren Szenario auf rund 2 000 im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Die Anzahl Sterbefälle unter der Wohnbevölkerung von Basel-Stadt beträgt im mittleren Szenario rund 2 100 im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51116,7 +51116,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:54",
+		"aktualisierungsdatum": "2026-07-16T09:56:02",
 		"id": 7740
 	},
 	{
@@ -51129,9 +51129,9 @@ var indikatoren = [
 			9057
 		],
 		"title": "Geburtenüberschuss",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der Saldo aus Geburten und Todesfällen bleibt im Mittleren Szenario im gesamten Prognosezeitraum negativ und beträgt rund -90 im Jahr 2045.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Der Geburtenüberschuss entspricht den Geburten abzüglich der Sterbefälle.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der Saldo aus Geburten und Todesfällen bleibt im mittleren Szenario im gesamten Prognosezeitraum negativ und beträgt -165 im Jahr 2050.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Der Geburtenüberschuss entspricht der Anzahl Geburten abzüglich der Anzahl Sterbefälle.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51158,7 +51158,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:55",
+		"aktualisierungsdatum": "2026-07-16T09:56:04",
 		"id": 7741
 	},
 	{
@@ -51171,9 +51171,9 @@ var indikatoren = [
 			9058
 		],
 		"title": "Wanderungssaldo international",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der internationale Wanderungssaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2045 rund 1 900 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Der internationale Wanderungssaldo entspricht den aus dem Ausland eingewanderten abzüglich den ins Ausland ausgewanderten Personen.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der internationale Wanderungssaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im mittleren Szenario im Jahr 2050 rund 2 200 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Der internationale Wanderungssaldo entspricht den aus dem Ausland eingewanderten abzüglich den ins Ausland ausgewanderten Personen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51200,7 +51200,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:55",
+		"aktualisierungsdatum": "2026-07-16T09:56:07",
 		"id": 7742
 	},
 	{
@@ -51213,9 +51213,9 @@ var indikatoren = [
 			9059
 		],
 		"title": "Wanderungssaldo interkantonal",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2045 über 1 400 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Der interkantonale Wanderungssaldo entspricht den aus anderen Kantonen zugezogenen abzüglich den in andere Kantone weggezogenen Personen.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im mittleren Szenario im Jahr 2050 rund 1 300 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Der interkantonale Wanderungssaldo entspricht den aus anderen Kantonen zugezogenen abzüglich den in andere Kantone weggezogenen Personen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51242,7 +51242,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:56",
+		"aktualisierungsdatum": "2026-07-16T09:56:09",
 		"id": 7743
 	},
 	{
@@ -51255,9 +51255,9 @@ var indikatoren = [
 			9060
 		],
 		"title": "Wanderungssaldo total",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2045 noch über 400 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo entspricht den aus dem Ausland eingewanderten abzüglich den ins Ausland ausgewanderten Personen. Der interkantonale Wanderungssaldo entspricht den aus anderen Kantonen zugezogenen abzüglich den in andere Kantone weggezogenen Personen.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im mittleren Szenario im Jahr 2050 900 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo entspricht den aus dem Ausland eingewanderten abzüglich den ins Ausland ausgewanderten Personen. Der interkantonale Wanderungssaldo entspricht den aus anderen Kantonen zugezogenen abzüglich den in andere Kantone weggezogenen Personen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51284,7 +51284,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:01:57",
+		"aktualisierungsdatum": "2026-07-16T09:56:10",
 		"id": 7744
 	},
 	{
@@ -51295,9 +51295,9 @@ var indikatoren = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -51324,7 +51324,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:28:38",
+		"aktualisierungsdatum": "2026-07-16T09:55:47",
 		"id": 7747
 	},
 	{
@@ -61610,9 +61610,9 @@ var indikatoren = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -61639,7 +61639,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:28:38",
+		"aktualisierungsdatum": "2026-07-16T09:56:12",
 		"id": 8448
 	},
 	{

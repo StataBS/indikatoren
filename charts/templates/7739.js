@@ -10,7 +10,7 @@
       }
     },
     "xAxis": {
-      //"tickInterval": 1
+      "tickInterval": 10
     },
     "yAxis": {
       "min": 0,

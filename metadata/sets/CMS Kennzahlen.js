@@ -44,9 +44,9 @@ var indikatorensetData = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-06T07:44:19",
+		"aktualisierungsdatum": "2026-07-16T09:55:37",
 		"id": 10041
 	},
 	{
