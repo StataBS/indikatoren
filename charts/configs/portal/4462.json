@@ -55,6 +55,14 @@
         [
           "2022",
           72545
+        ],
+        [
+          "2023",
+          71265
+        ],
+        [
+          "2024",
+          70201
         ]
       ],
       "name": "Schweizer ohne Migrationshintergrund",
@@ -115,6 +123,14 @@
         [
           "2022",
           30945
+        ],
+        [
+          "2023",
+          31598
+        ],
+        [
+          "2024",
+          32692
         ]
       ],
       "name": "Schweizer mit Migrationshintergrund",
@@ -175,6 +191,14 @@
         [
           "2022",
           56797
+        ],
+        [
+          "2023",
+          59366
+        ],
+        [
+          "2024",
+          60990
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (1. Generation)",
@@ -235,6 +259,14 @@
         [
           "2022",
           4060
+        ],
+        [
+          "2023",
+          3958
+        ],
+        [
+          "2024",
+          3657
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (2. Generation)",
@@ -295,6 +327,14 @@
         [
           "2022",
           74
+        ],
+        [
+          "2023",
+          137
+        ],
+        [
+          "2024",
+          143
         ]
       ],
       "name": "Ausländer ohne Migrationshintergrund (3. Generation)",
@@ -436,7 +476,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 29.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

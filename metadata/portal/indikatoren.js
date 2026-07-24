@@ -5894,6 +5894,44 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
+		"data-id": 22540,
+		"chart-id": 22540,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Staatsquote",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Staatsquote ist in den vergangenen Jahren insgesamt relativ stabil geblieben. 2022 beträgt sie 13,1%.",
+		"erlaeuterungen": "Die Staatsquote entspricht den «konsolidierten Gesamtausgaben» in Prozent des kantonalen Bruttoinlandprodukts (BIP). Die «konsolidierten Gesamtausgaben» umfassen die Ausgaben (Aufwand ohne Abschreibungen, Einlagen in Bestandeskonti von Fonds im Eigen- und Fremdkapital, durchlaufende Beiträge und interne Verrechnungen) plus Bruttoinvestitionen. Die konsolidierten Gesamtausgaben werden durch die Eidgenössischen Finanzverwaltung (EFV) berechnet. Das BIP des Kantons Basel-Stadt wird vom Bundesamt für Statistik (BFS) berechnet. Beide Wirtschaftsindikatoren werden mit einer zeitlichen Verzögerung von zwei Jahren veröffentlicht. Vorliegend wird die Staatsquote des Kantons ohne Gemeinden ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Finanzverwaltung Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Staatsquote",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "3.08",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-07-24T09:35:50",
+		"id": 22540
+	},
+	{
+		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,
 		"filter": "",
@@ -12179,7 +12217,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2022 sind in Basel-Stadt rund 72 500 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 31 000 Personen sind Schweizer mit Migrationshintergrund. Fast 57 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas mehr als 50 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"lesehilfe": "2024 sind in Basel-Stadt rund 70 200 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 32 700 Personen sind Schweizer mit Migrationshintergrund. Fast 61 000 Personen sind Ausländer der ersten Generation, knapp 4 000 sind Ausländer der zweiten Generation und rund 150 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -12205,7 +12243,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-29T09:06:20",
+		"aktualisierungsdatum": "2026-07-24T09:35:47",
 		"id": 4462
 	},
 	{
@@ -12217,7 +12255,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "92% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2023 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es 96%, bei jenen aus anderen Herkunftsländern knapp 34%.",
+		"lesehilfe": "91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2024 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es 96%, bei jenen aus anderen Herkunftsländern knapp 34%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -12243,7 +12281,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-13T12:35:10",
+		"aktualisierungsdatum": "2026-07-24T09:35:49",
 		"id": 4463
 	},
 	{
@@ -12640,7 +12678,7 @@ var indikatoren = [
 			8591
 		],
 		"title": "Altersquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2025",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am niedrigsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
@@ -12669,7 +12707,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-20T08:24:52",
+		"aktualisierungsdatum": "2026-07-24T09:35:51",
 		"id": 4827
 	},
 	{
@@ -32869,18 +32907,15 @@ var indikatoren = [
 			8420
 		],
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
-		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2021 rund 24%. Das bedeutet, dass eine durchschnittliche Reise 24% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. Nach dem deutlichen Rückgang zwischen 2019 und 2020, ist im Jahr 2021 in allen betrachteten Städten wieder ein Anstieg zu beobachten.",
+		"subtitle": "Stadt Basel im Vergleich, 2025",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2025 rund 45%. Das bedeutet, dass Fahrten im Durchschnitt rund 45% länger dauern als bei freiem Verkehrsfluss.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"quellenangabe": [
 			"TomTom International"
 		],
 		"externalLinks": [
 			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
-			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
+			"Die Werte für die <a href = 'https://www.tomtom.com/traffic-index/country/switzerland/' target = '_blank'>Schweiz</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -32902,7 +32937,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:10",
+		"aktualisierungsdatum": "2026-07-24T09:35:53",
 		"id": 7777
 	},
 	{

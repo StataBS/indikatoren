@@ -64,6 +64,10 @@
         [
           "2023",
           0.9235
+        ],
+        [
+          "2024",
+          0.9066
         ]
       ],
       "name": "Schweiz",
@@ -147,6 +151,11 @@
           "name": "2023",
           "low": 0.9137,
           "high": 0.9334
+        },
+        {
+          "name": "2024",
+          "low": 0.8958,
+          "high": 0.9174
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -215,6 +224,10 @@
         ],
         [
           "2023",
+          0.9581
+        ],
+        [
+          "2024",
           0.9581
         ]
       ],
@@ -299,6 +312,11 @@
           "name": "2023",
           "low": 0.9392,
           "high": 0.977
+        },
+        {
+          "name": "2024",
+          "low": 0.9402,
+          "high": 0.976
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -368,6 +386,10 @@
         [
           "2023",
           0.3354
+        ],
+        [
+          "2024",
+          0.3388
         ]
       ],
       "name": "Übriges Ausland",
@@ -451,6 +473,11 @@
           "name": "2023",
           "low": 0.3087,
           "high": 0.3621
+        },
+        {
+          "name": "2024",
+          "low": 0.3107,
+          "high": 0.3668
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -581,7 +608,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

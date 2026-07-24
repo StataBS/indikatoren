@@ -1,260 +1,132 @@
 {
   "series": [
     {
-      "color": "#6F6F6F",
-      "legendIndex": 2,
+      "color": "#71a3b5",
       "data": [
         [
-          2008,
-          20
+          "Basel",
+          44.9
         ],
         [
-          2009,
-          22
+          "Genf",
+          53.3
         ],
         [
-          2010,
-          23
+          "Zürich",
+          48.9
         ],
         [
-          2011,
-          22
+          "Lugano",
+          42.9
         ],
         [
-          2012,
-          24
+          "Lausanne",
+          40.7
         ],
         [
-          2013,
-          26
+          "Bern",
+          28.9
+        ]
+      ],
+      "name": "Städte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": "",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Basel",
+          30.4
         ],
         [
-          2014,
-          26
+          "Genf",
+          30.4
         ],
         [
-          2015,
+          "Zürich",
+          30.4
+        ],
+        [
+          "Lugano",
+          30.4
+        ],
+        [
+          "Lausanne",
+          30.4
+        ],
+        [
+          "Bern",
+          30.4
+        ]
+      ],
+      "name": "Durchschnitt Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": "",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Basel",
           25
         ],
         [
-          2016,
-          27
+          "Genf",
+          25
         ],
         [
-          2017,
-          27
+          "Zürich",
+          25
         ],
         [
-          2018,
-          26
+          "Lugano",
+          25
         ],
         [
-          2019,
-          26
+          "Lausanne",
+          25
         ],
         [
-          2020,
-          22
-        ],
-        [
-          2021,
-          24
+          "Bern",
+          25
         ]
       ],
-      "name": "Basel"
-    },
-    {
-      "color": "#923F8D",
-      "legendIndex": 2,
-      "data": [
-        [
-          2008,
-          29
-        ],
-        [
-          2009,
-          33
-        ],
-        [
-          2010,
-          36
-        ],
-        [
-          2011,
-          36
-        ],
-        [
-          2012,
-          36
-        ],
-        [
-          2013,
-          37
-        ],
-        [
-          2014,
-          36
-        ],
-        [
-          2015,
-          33
-        ],
-        [
-          2016,
-          36
-        ],
-        [
-          2017,
-          34
-        ],
-        [
-          2018,
-          33
-        ],
-        [
-          2019,
-          33
-        ],
-        [
-          2020,
-          29
-        ],
-        [
-          2021,
-          30
-        ]
-      ],
-      "name": "Genf"
-    },
-    {
-      "color": "#008AC3",
-      "legendIndex": 2,
-      "data": [
-        [
-          2008,
-          26
-        ],
-        [
-          2009,
-          28
-        ],
-        [
-          2010,
-          29
-        ],
-        [
-          2011,
-          29
-        ],
-        [
-          2012,
-          29
-        ],
-        [
-          2013,
-          30
-        ],
-        [
-          2014,
-          30
-        ],
-        [
-          2015,
-          29
-        ],
-        [
-          2016,
-          31
-        ],
-        [
-          2017,
-          31
-        ],
-        [
-          2018,
-          31
-        ],
-        [
-          2019,
-          32
-        ],
-        [
-          2020,
-          27
-        ],
-        [
-          2021,
-          30
-        ]
-      ],
-      "name": "Zürich"
-    },
-    {
-      "color": "#007A2F",
-      "legendIndex": 0,
-      "data": [
-        [
-          2008,
-          17
-        ],
-        [
-          2009,
-          20
-        ],
-        [
-          2010,
-          30
-        ],
-        [
-          2011,
-          31
-        ],
-        [
-          2012,
-          22
-        ],
-        [
-          2013,
-          18
-        ],
-        [
-          2014,
-          18
-        ],
-        [
-          2015,
-          18
-        ],
-        [
-          2016,
-          20
-        ],
-        [
-          2017,
-          20
-        ],
-        [
-          2018,
-          20
-        ],
-        [
-          2019,
-          20
-        ],
-        [
-          2020,
-          18
-        ],
-        [
-          2021,
-          20
-        ]
-      ],
-      "name": "Bern"
+      "name": "Durchschnitt weltweit",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -289,12 +161,6 @@
       "marker": {
         "enabled": false
       }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "title": {
@@ -307,31 +173,13 @@
     "text": "Jährlich durch Stau generierte Verzögerungszeit"
   },
   "subtitle": {
-    "text": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
+    "text": "Stadt Basel im Vergleich, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -349,7 +197,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value:,.0f}%"
     }
   },
   "legend": {
@@ -360,9 +208,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemWidth": 150,
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -377,7 +223,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -415,7 +261,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "7777"
