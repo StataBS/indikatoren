@@ -4863,75 +4863,75 @@
         ],
         [
           10,
-          46
+          47
         ],
         [
           11,
-          34
+          35
         ],
         [
           12,
-          32
+          33
         ],
         [
           13,
-          46
+          47
         ],
         [
           14,
-          37
+          38
         ],
         [
           15,
-          31
+          32
         ],
         [
           16,
-          24
-        ],
-        [
-          17,
-          27
-        ],
-        [
-          18,
           25
         ],
         [
-          19,
+          17,
           28
+        ],
+        [
+          18,
+          26
+        ],
+        [
+          19,
+          29
         ],
         [
           20,
-          28
+          29
         ],
         [
           21,
-          38
+          39
         ],
         [
           22,
-          36
+          37
         ],
         [
           23,
-          38
+          40
         ],
         [
           24,
-          33
+          35
         ],
         [
           25,
-          33
+          35
         ],
         [
           26,
-          46
+          48
         ],
         [
           27,
-          null
+          62
         ],
         [
           28,
@@ -5083,7 +5083,7 @@
         ],
         [
           10,
-          -1
+          0
         ],
         [
           11,
@@ -5135,7 +5135,7 @@
         ],
         [
           23,
-          2
+          3
         ],
         [
           24,
@@ -5151,7 +5151,7 @@
         ],
         [
           27,
-          null
+          15
         ],
         [
           28,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
