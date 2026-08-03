@@ -464,10 +464,11 @@
 						// Handle lat/lon support
 						if (options.center.lat !== undefined) {
 							var point = chart.fromLatLonToPoint(options.center);
-							options.center = [
-								chart.xAxis[0].toPixels(point.x, true),
-								chart.yAxis[0].toPixels(point.y, true)
-							];
+							// HC12: map charts position via chart.mapView, not xAxis/yAxis.toPixels()
+							var pixelPoint = chart.mapView
+								? chart.mapView.projectedUnitsToPixels(point)
+								: { x: chart.xAxis[0].toPixels(point.x, true), y: chart.yAxis[0].toPixels(point.y, true) };
+							options.center = [pixelPoint.x, pixelPoint.y];
 						}
 						// Handle dynamic size
 						if (options.sizeFormatter) {
