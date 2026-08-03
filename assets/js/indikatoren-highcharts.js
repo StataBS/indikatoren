@@ -373,11 +373,23 @@ function injectMetadataToChartConfig(
   // Wrap the chart load event to reposition manually-drawn pieLegend elements.
   // These were positioned for the old fixed 485px width; we shift them so they
   // stay right-aligned at the actual chart width.
-  var originalLoad =
-    options["chart"]["events"] && options["chart"]["events"]["load"];
-  if (originalLoad) {
+  // Store the previous load handler (if any) as a sibling property instead of
+  // capturing it in a closure variable: serialize-javascript (used by
+  // build/createChartConfigs.js) only serializes a function's own source text, so a
+  // reference to an outer-scope variable like "originalLoad" survives the round-trip
+  // as dead text and throws "originalLoad is not defined" once the config is
+  // deserialized in a fresh context (e.g. during highcharts-export-server rendering) -
+  // silently skipping the original handler (e.g. a spider chart's background arcs).
+  if (options["chart"]["events"] && options["chart"]["events"]["load"]) {
+    options["chart"]["events"]["loadBase"] = options["chart"]["events"]["load"];
+  }
+  if (options["chart"]["events"] && options["chart"]["events"]["loadBase"]) {
     options["chart"]["events"]["load"] = function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
