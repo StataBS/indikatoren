@@ -52,6 +52,20 @@ if (
   });
 }
 
+// HC12 Compatibility: series.xData wurde durch series.getColumn('x') ersetzt.
+if (
+  Highcharts.Series &&
+  !Object.getOwnPropertyDescriptor(Highcharts.Series.prototype, "xData")
+) {
+  Object.defineProperty(Highcharts.Series.prototype, "xData", {
+    get: function () {
+      return this.dataTable && this.getColumn ? this.getColumn("x") : [];
+    },
+    set: function () {}, // HC12 setzt xData intern – ignorieren
+    configurable: true,
+  });
+}
+
 Highcharts.wrap(
   Highcharts.Chart.prototype,
   "init",
