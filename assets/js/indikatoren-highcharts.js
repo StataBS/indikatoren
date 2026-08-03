@@ -37,6 +37,21 @@ Highcharts.setOptions({
   },
 });
 
+// HC12 Compatibility: series.yData wurde durch series.getColumn('y') ersetzt.
+// Viele Chart-Templates greifen noch direkt auf series.yData zu.
+if (
+  Highcharts.Series &&
+  !Object.getOwnPropertyDescriptor(Highcharts.Series.prototype, "yData")
+) {
+  Object.defineProperty(Highcharts.Series.prototype, "yData", {
+    get: function () {
+      return this.dataTable && this.getColumn ? this.getColumn("y") : [];
+    },
+    set: function () {}, // HC12 setzt yData intern – ignorieren
+    configurable: true,
+  });
+}
+
 Highcharts.wrap(
   Highcharts.Chart.prototype,
   "init",
