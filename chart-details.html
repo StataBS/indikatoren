@@ -197,7 +197,11 @@
             var html = $("#indikator-template-modal-portal").html();
             var templateFunction = templateBuilder(html);
             //append generated html
-            var container = $("body");
+            //hideHeader=false means this page is used standalone (not embedded)
+            //-> constrain width like the rest of the site; embedded use stays full-width
+            var container = hideHeader
+              ? $("body")
+              : $("<div class='container'></div>").appendTo("body");
             container.append(templateFunction(chartMetadata));
             //render chart. if header is hidden, remove left margin in callback
             lazyRenderChartById(id, chartMetadata, view, true);
