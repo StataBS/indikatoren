@@ -66,6 +66,27 @@ if (
   });
 }
 
+// HC12 Compatibility: axis.names kann undefined sein (z.B. in Navigator-Achsen)
+// Sicherstellt, dass axis.names immer ein Array ist, damit Formatter nicht crashen.
+Highcharts.addEvent(Highcharts.Axis, "afterInit", function () {
+  if (!this.names) {
+    this.names = [];
+  }
+});
+
+// HC12 Compatibility: Tick-Label-Formatter können crashen wenn names[i] undefined ist
+// (z.B. this.chart.xAxis[0].names[this.value].slice(0,4) bevor Namen befüllt sind).
+// Globaler Schutz: Tick.addLabel mit try/catch umhüllen; Fallback: leerer Label-Text.
+if (Highcharts.Tick && Highcharts.Tick.prototype && Highcharts.Tick.prototype.addLabel) {
+  Highcharts.wrap(Highcharts.Tick.prototype, "addLabel", function (proceed) {
+    try {
+      return proceed.apply(this, Array.prototype.slice.call(arguments, 1));
+    } catch (e) {
+      // Formatter crashed – Tick ohne Label-Text rendern
+    }
+  });
+}
+
 Highcharts.wrap(
   Highcharts.Chart.prototype,
   "init",
