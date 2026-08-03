@@ -739,7 +739,7 @@ function renderLinksHTML(
       ) {
         //we're in carousel mode, slide to other chart
         returnText +=
-          "<div class='mt-30'><a <a class='button' href='javascript:javascript:slideToLinkedChart(" +
+          "<div class='mt-30'><a class='' href='javascript:javascript:slideToLinkedChart(" +
           renderLink[0] +
           ", window.FJS, " +
           isIndikatorensetView(view) +
@@ -747,7 +747,7 @@ function renderLinksHTML(
       } else {
         //we're in chart-detail.html, open link to other chart
         returnText +=
-          "<div class='mt-30'><a class='button' href='chart-details.html?id=" +
+          "<div class='mt-30'><a class='' href='chart-details.html?id=" +
           renderLink[0] +
           "'>Andere Darstellungsform</a> dieser Daten.</div>";
       }
