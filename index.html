@@ -304,11 +304,11 @@
             id="table-view-header"
             class="hidden w-full flex gap-10 text-xs font-bold text-gray-600 border-b pb-6 mb-6"
           >
-            <div class="w-4/12 min-w-0 truncate">Titel</div>
-            <div class="w-4/12 min-w-0 truncate">Untertitel</div>
-            <div class="w-1/12 min-w-0 truncate">Thema</div>
-            <div class="w-2/12 min-w-0 truncate">Unterthema</div>
-            <div class="w-1/12 min-w-0 truncate">Publikation</div>
+            <div class="w-1/2 md:w-4/12 min-w-0 truncate">Titel</div>
+            <div class="w-1/2 md:w-4/12 min-w-0 truncate">Untertitel</div>
+            <div class="hidden md:block md:w-1/12 min-w-0 truncate">Thema</div>
+            <div class="hidden md:block md:w-2/12 min-w-0 truncate">Unterthema</div>
+            <div class="hidden md:block md:w-1/12 min-w-0 truncate">Publikation</div>
           </div>
 
           <div class="indikatoren flex flex-wrap" id="indikatoren"></div>
@@ -523,16 +523,16 @@
           indikator-kuerzel-data="<%= kuerzel %>"
         >
           <div
-            class="w-4/12 min-w-0 break-words font-bold text-blue-900"
+            class="w-1/2 md:w-4/12 min-w-0 break-words font-bold text-blue-900"
             title="<%= title %>"
           >
             <%= title %>
           </div>
-          <div class="w-4/12 min-w-0 break-words text-sm"><%= subtitle %></div>
-          <div class="w-1/12 min-w-0 text-sm truncate"><%= thema %></div>
-          <div class="w-2/12 min-w-0 text-sm truncate"><%= unterthema %></div>
+          <div class="w-1/2 md:w-4/12 min-w-0 break-words text-sm"><%= subtitle %></div>
+          <div class="hidden md:block md:w-1/12 min-w-0 text-sm truncate"><%= thema %></div>
+          <div class="hidden md:block md:w-2/12 min-w-0 text-sm truncate"><%= unterthema %></div>
           <!-- prettier-ignore -->
-          <div class="w-1/12 min-w-0 text-sm truncate">
+          <div class="hidden md:block md:w-1/12 min-w-0 text-sm truncate">
             <%= (function(d){if(!d) return '';var x=new Date(d);return ('0'+x.getDate()).slice(-2)+'.'+('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear();})(aktualisierungsdatum) %>
           </div>
         </div>
