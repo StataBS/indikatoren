@@ -54,6 +54,13 @@ legend {
 
 .thumbnail .caption {
   padding: 0px;
+  position: relative;
+  /* Verhindert, dass das Vorschaubild nach oben springt, wenn der Titel beim
+     Hover aus dem normalen Fluss genommen wird (position: absolute). */
+  min-height: 26px;
+  /* Verhindert Margin-Collapsing zwischen .caption und dem h5-Titel, das
+     sonst zu einer minimalen Höhenverschiebung beim Hover führt. */
+  display: flow-root;
 }
 
 /**.thumbnail img {
@@ -108,7 +115,17 @@ ul.pagination {
 }
 
 .caption > h5:hover {
-  color: #079bca;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  white-space: normal;
+  overflow: visible;
+  background: #ffffff;
+  padding: 2px 4px;
+  margin: 2px -4px 0;
+  border-radius: 4px;
 }
 
 /* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */
