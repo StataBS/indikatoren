@@ -1203,9 +1203,11 @@ var afterFilter = function (result, jQ) {
     });
   }
 
-  if (window.attachLightboxTriggers) {
-    window.attachLightboxTriggers();
-  }
+  // Note: window.attachLightboxTriggers is already called with the full
+  // result set inside renderCardsSlice() above. Calling it again here
+  // without arguments would fall back to building window.slides from only
+  // the currently rendered (itemsToShow-limited) DOM cards, breaking
+  // lightbox navigation/count beyond the initial page size.
 }; //afterFilter
 
 // https://tc39.github.io/ecma262/#sec-array.prototype.find
