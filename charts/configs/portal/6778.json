@@ -7702,7 +7702,11 @@
     "inverted": false,
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -7737,6 +7741,81 @@
         }
       });
     },
+      "loadBase": function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+					fn.defineTemplate();
+					
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
+					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7], chart.series[8]];
+
+					//pie diameters in px
+					var maxPieDiameter = 15;
+
+					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+
+					//define chart-specific details
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
+	                            pointFormatter: function () {
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v*100),1) + '% </b><br/>';
+	                            }
+	                        },
+	                    };
+					};
+					var pieSizeCatConfig;
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
+	               
+	              
+					//pie values in legend
+	                var minValueInLegend = 0.001; 
+	                var maxValueInLegend = 0.1; 
+	                
+                	//Add manually drawn legend	
+	                fn.addLegendRectangle(chart, 250, 210, 100, 160, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 210, 125, 160, '#ffffff');
+	                fn.addLegendTitle(chart,"Ausländeranteil <br/> in %", 253, 215);
+	                fn.addLegendTitle(chart, 'Staatsangehörigkeit', 355, 215);
+
+	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
+	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+					
+					//fn.addLegendSquare(chart, 254, 251, 12, '#B00000 '); // Checking alignment with right legend boxes
+					//fn.addLegendSquare(chart, 254, 267, 12, '#FABD24'); //Checking alignment with right legend boxes
+					
+					fn.addLegendSquare(chart, 359, 251, 12, '#B00000');
+					fn.addLegendLabel(chart, 'Deutschland', 375, 245);
+					fn.addLegendSquare(chart, 359, 267, 12, '#FABD24'); // !!!! Orange is behind green
+					fn.addLegendLabel(chart, 'Italien', 375, 262);
+					fn.addLegendSquare(chart, 359, 283, 12, '#E6E600');
+					fn.addLegendLabel(chart, 'Türkei', 375, 279);
+					fn.addLegendSquare(chart, 359, 299, 12, ' #A8C3CA');
+					fn.addLegendLabel(chart, 'Übrige', 375, 295);
+					fn.addLegendSquare(chart, 359, 315, 12, '#923F8D');
+					fn.addLegendLabel(chart, 'Spanien', 375, 310);
+					fn.addLegendSquare(chart, 359, 331, 12, '#68AB2B');
+					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro, Kosovo', 375, 327);
+			
+					
+					//make sure pies are hidden upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
+	            },
       "render": function () {
       var originalRender =
         this.options && this.options.chart && this.options.chart.events
@@ -8025,10 +8104,11 @@
 					        // Handle lat/lon support
 					        if (options.center.lat !== undefined) {
 					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
+					            // HC12: map charts position via chart.mapView, not xAxis/yAxis.toPixels()
+					            var pixelPoint = chart.mapView
+					            	? chart.mapView.projectedUnitsToPixels(point)
+					            	: { x: chart.xAxis[0].toPixels(point.x, true), y: chart.yAxis[0].toPixels(point.y, true) };
+					            options.center = [pixelPoint.x, pixelPoint.y];
 					        }
 					        // Handle dynamic size
 					        if (options.sizeFormatter) {

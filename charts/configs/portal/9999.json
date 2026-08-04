@@ -7012,7 +7012,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -7047,6 +7051,9 @@
         }
       });
     },
+      "loadBase": function() {                
+                    this.credits.element.onclick = function() {};
+                },
       "render": function () {
       var originalRender =
         this.options && this.options.chart && this.options.chart.events

@@ -7140,7 +7140,11 @@
     "inverted": false,
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -7175,6 +7179,89 @@
         }
       });
     },
+      "loadBase": function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+					fn.defineTemplate();
+					
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
+					
+					//pie diameters in px
+					var maxPieDiameter = 20;
+					
+					//configuration of categorical pie sizes
+					var pieSizeCatConfig = 
+					[
+						{
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 1 000",
+							from: 0,
+							to: 999.9, 
+							diameter: 5
+						},
+						{
+							name: '1 000 − 2 299',
+							from: 1000,
+							to: 2299.9,
+							diameter: 10
+						},
+						{
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  2 300",
+							from: 2300,							
+							to: 1000000000,
+							diameter: 20
+						}
+					];
+					
+					//define different colors for positive and negative values
+	                var color = function(value){
+					return (value >= 0) ? '#C9D6DB' : '#C9D6DB';	                };					
+					
+					//define chart-specific details
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                            pointFormatter: function () {
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
+	                            }
+	                        }
+	                    };
+					};
+					
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+
+	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 212, 115, 125, '#ffffff');
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ü",  "<br/>ü").replace("in", "<br/>in")/*"Anteil über <br/>  64-Jähriger in %"*/, 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ü",  "<br/>ü")/*"Anzahl über <br/>  64-Jähriger"*/, 355, 210);
+	                
+	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#C9D6DB');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#C9D6DB');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300, undefined, false, 'right');
+					
+					
+					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+				
+					//make sure pies are hidden upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
+	            },
       "render": function () {
       var originalRender =
         this.options && this.options.chart && this.options.chart.events
@@ -7485,10 +7572,11 @@
 						// Handle lat/lon support
 						if (options.center.lat !== undefined) {
 							var point = chart.fromLatLonToPoint(options.center);
-							options.center = [
-								chart.xAxis[0].toPixels(point.x, true),
-								chart.yAxis[0].toPixels(point.y, true)
-							];
+							// HC12: map charts position via chart.mapView, not xAxis/yAxis.toPixels()
+							var pixelPoint = chart.mapView
+								? chart.mapView.projectedUnitsToPixels(point)
+								: { x: chart.xAxis[0].toPixels(point.x, true), y: chart.yAxis[0].toPixels(point.y, true) };
+							options.center = [pixelPoint.x, pixelPoint.y];
 						}
 						// Handle dynamic size
 						if (options.sizeFormatter) {

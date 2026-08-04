@@ -7012,7 +7012,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -7047,6 +7051,13 @@
         }
       });
     },
+      "loadBase": function (e) {
+	            	this.credits.element.onclick = function() {};
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+	                fn.addLegendRectangle(chart, 220, 285, 260, 75, '#ffffff');
+	            },
       "render": function () {
       var originalRender =
         this.options && this.options.chart && this.options.chart.events

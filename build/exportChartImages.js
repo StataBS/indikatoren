@@ -7,6 +7,19 @@ const customFunctionsJs = fs.readFileSync(
   "utf8"
 );
 
+// highcharts-export-server injects customLogic.resources.files (e.g. proj4.js)
+// only AFTER the chart has already been constructed (see triggerExport() in
+// highcharts-export-server/lib/highcharts.js vs. addPageResources() in
+// export.js, called after setAsConfig()). mapbubble series with lat/lon data
+// need proj4 available DURING construction to project points, otherwise
+// Highcharts silently drops them (warning #21) - the points exist but get no
+// graphic. Embedding proj4's source directly in customCode (which runs
+// before chart creation) makes it available in time.
+const proj4Js = fs.readFileSync(
+  path.join(__dirname, "../node_modules/proj4/dist/proj4.js"),
+  "utf8"
+);
+
 // Serializes a Highcharts config object (containing JS functions) to a string
 // that can be reconstructed with new Function('return ' + str)().
 //
@@ -217,6 +230,7 @@ async function createSvgImages(chartDetails) {
         customLogic: {
           allowCodeExecution: true,
           customCode: `
+          ${proj4Js}
           (function () {
               // The export pool reuses the same browser page/Highcharts instance across
               // multiple chart exports (see pool.workLimit below). Everything in this block
@@ -409,7 +423,9 @@ async function createSvgImages(chartDetails) {
           `,
           resources: {
             files: [
-              "node_modules/proj4/dist/proj4.js",
+              // proj4 is embedded directly in customCode above (see comment
+              // near proj4Js) since resources.files loads too late for
+              // mapbubble lat/lon projection during chart construction.
               "node_modules/jquery/dist/jquery.min.js",
             ],
           },
