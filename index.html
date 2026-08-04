@@ -200,10 +200,14 @@
         <div class="flex items-center ml-auto">
           <div id="pagination" class="indikatoren-pagination"></div>
           <div id="portal-view-toggle" class="flex items-center gap-10 m-[4px]">
-            <div class="underline cursor-pointer" data-view-mode="grid">Kachelansicht</div>
+            <div class="underline cursor-pointer" data-view-mode="grid">
+              Kachelansicht
+            </div>
             <!-- Listenansicht wird vorerst nicht mehr benötigt; Funktionalität bleibt erhalten -->
             <!-- <div class="underline cursor-pointer" data-view-mode="list">Listenansicht</div> -->
-            <div class="underline cursor-pointer" data-view-mode="table">Tabellenansicht</div>
+            <div class="underline cursor-pointer" data-view-mode="table">
+              Tabellenansicht
+            </div>
           </div>
           <div
             id="portal-reset-button"
@@ -226,7 +230,11 @@
             <div class="content">
               <div class="">
                 <div class="hidden">
-                  <select class="form-control" id="sortBy" aria-label="Sortierung">
+                  <select
+                    class="form-control"
+                    id="sortBy"
+                    aria-label="Sortierung"
+                  >
                     <option value="kuerzel_asc">
                       Sortierung: Thema &uarr;
                     </option>
@@ -296,11 +304,11 @@
             id="table-view-header"
             class="hidden w-full flex gap-10 text-xs font-bold text-gray-600 border-b pb-6 mb-6"
           >
-            <div class="w-3/12 min-w-0 truncate">Titel</div>
+            <div class="w-4/12 min-w-0 truncate">Titel</div>
             <div class="w-4/12 min-w-0 truncate">Untertitel</div>
-            <div class="w-2/12 min-w-0 truncate">Thema</div>
+            <div class="w-1/12 min-w-0 truncate">Thema</div>
             <div class="w-2/12 min-w-0 truncate">Unterthema</div>
-            <div class="w-1/12 min-w-0 truncate">Publikationsdatum</div>
+            <div class="w-1/12 min-w-0 truncate">Publikation</div>
           </div>
 
           <div class="indikatoren flex flex-wrap" id="indikatoren"></div>
@@ -460,7 +468,9 @@
           data-index="<%= getIndexByFid(_fid) %>"
         >
           <!-- SVG Thumbnail left -->
-          <h5 class="font-bold text-xl text-blue-900 group-hover:text-blue-500 mb-10">
+          <h5
+            class="font-bold text-xl text-blue-900 group-hover:text-blue-500 mb-10"
+          >
             <%= title %>
           </h5>
 
@@ -476,7 +486,11 @@
             <!-- Text right -->
             <div class="flex flex-col justify-between w-4/5 min-h-[180px]">
               <!-- Lesehilfe ALWAYS at top -->
-              <div class="text-base leading-relaxed pr-5 group-hover:text-blue-500"><%= lesehilfe %></div>
+              <div
+                class="text-base leading-relaxed pr-5 group-hover:text-blue-500"
+              >
+                <%= lesehilfe %>
+              </div>
 
               <!-- META BLOCK ALWAYS AT BOTTOM -->
               <div class="flex flex-wrap text-gray-500 text-xs gap-y-2 mt-10">
@@ -508,13 +522,14 @@
           indikator-id-data="<%= id %>"
           indikator-kuerzel-data="<%= kuerzel %>"
         >
-          <div class="w-3/12 min-w-0 break-words font-bold text-blue-900" title="<%= title %>">
+          <div
+            class="w-4/12 min-w-0 break-words font-bold text-blue-900"
+            title="<%= title %>"
+          >
             <%= title %>
           </div>
-          <div class="w-4/12 min-w-0 break-words text-sm text-gray-700">
-            <%= subtitle %>
-          </div>
-          <div class="w-2/12 min-w-0 text-sm truncate"><%= thema %></div>
+          <div class="w-4/12 min-w-0 break-words text-sm"><%= subtitle %></div>
+          <div class="w-1/12 min-w-0 text-sm truncate"><%= thema %></div>
           <div class="w-2/12 min-w-0 text-sm truncate"><%= unterthema %></div>
           <!-- prettier-ignore -->
           <div class="w-1/12 min-w-0 text-sm truncate">
