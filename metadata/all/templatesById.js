@@ -2201,5 +2201,6 @@ var templatesById = {
 	"22465": "template001_print",
 	"22466": "template001_print",
 	"22467": "template001_print",
-	"22468": "befragungen001_print"
+	"22468": "befragungen001_print",
+	"22540": "line001"
 };

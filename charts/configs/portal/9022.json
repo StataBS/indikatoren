@@ -4885,79 +4885,79 @@
         ],
         [
           10,
-          46
+          47
         ],
         [
           11,
-          34
+          35
         ],
         [
           12,
-          32
+          33
         ],
         [
           13,
-          46
+          47
         ],
         [
           14,
-          37
+          38
         ],
         [
           15,
-          31
+          32
         ],
         [
           16,
-          24
-        ],
-        [
-          17,
-          27
-        ],
-        [
-          18,
           25
         ],
         [
-          19,
+          17,
           28
+        ],
+        [
+          18,
+          26
+        ],
+        [
+          19,
+          29
         ],
         [
           20,
-          28
+          29
         ],
         [
           21,
-          37
+          39
         ],
         [
           22,
-          35
+          37
         ],
         [
           23,
-          35
+          40
         ],
         [
           24,
-          30
+          35
         ],
         [
           25,
-          30
+          35
         ],
         [
           26,
-          null
+          48
         ],
         [
           27,
-          null
+          62
         ],
         [
           28,
-          null
+          66
         ],
         [
           29,
@@ -5106,7 +5106,7 @@
         ],
         [
           10,
-          -1
+          0
         ],
         [
           11,
@@ -5150,7 +5150,7 @@
         ],
         [
           21,
-          9
+          10
         ],
         [
           22,
@@ -5158,7 +5158,7 @@
         ],
         [
           23,
-          0
+          3
         ],
         [
           24,
@@ -5170,15 +5170,15 @@
         ],
         [
           26,
-          null
+          13
         ],
         [
           27,
-          null
+          15
         ],
         [
           28,
-          null
+          3
         ],
         [
           29,
@@ -5478,7 +5478,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -1,120 +1,130 @@
 {
   "series": [
     {
-      "color": "#71a3b5",
+      "color": "#b375ab",
       "data": [
         [
-          "Basel",
-          44.9
+          2015,
+          14.9
         ],
         [
-          "Genf",
-          53.3
+          2016,
+          15
         ],
         [
-          "Zürich",
-          48.9
+          2017,
+          13.3
         ],
         [
-          "Lugano",
-          42.9
+          2018,
+          12.6
         ],
         [
-          "Lausanne",
-          40.7
+          2019,
+          12.5
         ],
         [
-          "Bern",
-          28.9
+          2020,
+          13.1
+        ],
+        [
+          2021,
+          13.1
+        ],
+        [
+          2022,
+          13.1
         ]
       ],
-      "pointStart": 0,
-      "name": "Städte",
-      "turboThreshold": 0
+      "pointStart": 2015,
+      "name": "Staatsquote"
     },
     {
-      "color": "#DC440E",
-      "type": "line",
-      "tooltip": {
-        "shared": false,
-        "headerFormat": "",
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#b00000",
+      "visible": false,
       "data": [
         [
-          "Basel",
-          30.4
+          2015,
+          4892670439
         ],
         [
-          "Genf",
-          30.4
+          2016,
+          5267276273
         ],
         [
-          "Zürich",
-          30.4
+          2017,
+          4900305619
         ],
         [
-          "Lugano",
-          30.4
+          2018,
+          4793966331
         ],
         [
-          "Lausanne",
-          30.4
+          2019,
+          4786767510
         ],
         [
-          "Bern",
-          30.4
+          2020,
+          4946529279
+        ],
+        [
+          2021,
+          5232638671
+        ],
+        [
+          2022,
+          5378486075
         ]
       ],
-      "pointStart": 0,
-      "name": "Durchschnitt Schweiz",
-      "turboThreshold": 0
+      "pointStart": 2015,
+      "name": "Gesamtausgaben in Fr."
     },
     {
       "color": "#cd9c00",
-      "type": "line",
-      "tooltip": {
-        "shared": false,
-        "headerFormat": "",
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "visible": false,
       "data": [
         [
-          "Basel",
-          25
+          2015,
+          32764400000
         ],
         [
-          "Genf",
-          25
+          2016,
+          35204000000
         ],
         [
-          "Zürich",
-          25
+          2017,
+          36876200000
         ],
         [
-          "Lugano",
-          25
+          2018,
+          38110200000
         ],
         [
-          "Lausanne",
-          25
+          2019,
+          38316700000
         ],
         [
-          "Bern",
-          25
+          2020,
+          37705600000
+        ],
+        [
+          2021,
+          40025808930
+        ],
+        [
+          2022,
+          41203459090
         ]
       ],
-      "pointStart": 0,
-      "name": "Durchschnitt weltweit",
-      "turboThreshold": 0
+      "pointStart": 2015,
+      "name": "Bruttoinlandprodukt in Fr."
     }
   ],
   "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -129,7 +139,7 @@
     "tickInterval": 1
   },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": null,
     "height": 428,
     "spacingBottom": 55,
@@ -199,12 +209,18 @@
           }
         }
     },
-    "renderTo": "container-7777"
+    "renderTo": "container-22540"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -215,10 +231,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Jährlich durch Stau generierte Verzögerungszeit"
+    "text": "Staatsquote"
   },
   "subtitle": {
-    "text": "Stadt Basel im Vergleich, 2025",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -242,18 +258,20 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value}%"
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 140,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -268,7 +286,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Finanzverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -313,10 +331,11 @@
       }
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "7777"
+    "filename": "22540"
   }
 }

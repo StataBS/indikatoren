@@ -1,56 +1,53 @@
 (function(){
     return {
-  "xAxis": {
-    "tickInterval": 1,
-  },
   "yAxis": {
-    "min": 0, 
-	  "labels": {
-		  "format": "{value}%"
-	  }
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+    "labels": {
+      "format": "{value:,.0f}%",
+    },
   },
- "series": [
-    {
-		"color": "#6F6F6F",
-    	"legendIndex": 2
-    }, /* Basel */
-    {
-		"color": "#923F8D",
-    	"legendIndex": 2
-    }, /* Genf */
-    {
-		"color": "#008AC3",
-    	"legendIndex": 2
-    }, /* blau */
-    {
-    	"color": "#007A2F", 
-    	"legendIndex": 0
-    }, /* grün */
-  ],
-   "legend": {
+  "xAxis": {
+    "tickInterval": 1
+  },
+  "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
+  "series": [
+    {
+    "color": "#71a3b5"
+    },
+    {
+      "color": "#DC440E",
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": '',
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}%</b><br/>'
+      },
+    },
+    {
+      "color": "#cd9c00",
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": '',
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}%</b><br/>'
+      },
     }
+
+  ],
+  "tooltip": {
+    "shared": false,
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}%</b><br/>'
+  },
+  "chart": {
+    "type": "column",
   }
-}
+  };
 }());

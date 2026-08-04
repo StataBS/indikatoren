@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juni 2026 0,5%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Juli 2026 0,3%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-02T08:34:35",
+		"aktualisierungsdatum": "2026-08-03T08:34:47",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juni 2026 gegenüber Mai unverändert bei 101,3 Punkten geblieben.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Juli 2026 gegenüber Juni um 0,2% gesunken und liegt nun bei 101,1 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-02T08:34:36",
+		"aktualisierungsdatum": "2026-08-03T08:34:48",
 		"id": 7513
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"lesehilfe": "Im Mai 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen und Bettingen. In zehn Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln sowie in Riehen. In zwölf Wohnvierteln sowie in Bettingen sank sie. Im Wohnviertel Breite blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-24T09:55:54",
+		"aktualisierungsdatum": "2026-08-03T08:34:49",
 		"id": 7763
 	},
 	{
