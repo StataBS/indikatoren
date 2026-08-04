@@ -62,12 +62,65 @@
         [
           2024,
           86.8
+        ],
+        [
+          2025,
+          91.4
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
       "name": "MIV Stadtstrassennetz"
     },
     {
       "color": "#dc440e",
+      "visible": true,
       "data": [
         [
           2010,
@@ -128,12 +181,65 @@
         [
           2024,
           95.7
+        ],
+        [
+          2025,
+          92.6
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
       "name": "MIV Total"
     },
     {
       "color": "#b00000",
+      "visible": true,
       "data": [
         [
           2010,
@@ -194,12 +300,65 @@
         [
           2024,
           99.7
+        ],
+        [
+          2025,
+          101.2
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
       "name": "ÖV"
     },
     {
       "color": "#661200",
+      "visible": true,
       "data": [
         [
           2010,
@@ -260,12 +419,65 @@
         [
           2024,
           164.8
+        ],
+        [
+          2025,
+          174.8
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
       "name": "Velo (wetterbereinigt)"
     },
     {
       "color": "#672773",
+      "visible": true,
       "data": [
         [
           2010,
@@ -326,9 +538,180 @@
         [
           2024,
           101.1
+        ],
+        [
+          2025,
+          100.7
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
         ]
       ],
       "name": "Fussgänger"
+    },
+    {
+      "color": "#999999",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          92.3
+        ],
+        [
+          2020,
+          90.59074074
+        ],
+        [
+          2021,
+          88.88148148
+        ],
+        [
+          2022,
+          87.17222222
+        ],
+        [
+          2023,
+          85.46296296
+        ],
+        [
+          2024,
+          83.7537037
+        ],
+        [
+          2025,
+          82.04444444
+        ],
+        [
+          2026,
+          80.33518519
+        ],
+        [
+          2027,
+          78.62592593
+        ],
+        [
+          2028,
+          76.91666667
+        ],
+        [
+          2029,
+          75.20740741
+        ],
+        [
+          2030,
+          73.49814815
+        ],
+        [
+          2031,
+          71.78888889
+        ],
+        [
+          2032,
+          70.07962963
+        ],
+        [
+          2033,
+          68.37037037
+        ],
+        [
+          2034,
+          66.66111111
+        ],
+        [
+          2035,
+          64.95185185
+        ],
+        [
+          2036,
+          63.24259259
+        ],
+        [
+          2037,
+          61.53333333
+        ]
+      ],
+      "name": "Zielpfad MIV Stadtstrassennetz 2037"
     }
   ],
   "chart": {
@@ -447,11 +830,13 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "x": 30,
-    "itemWidth": 200,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemWidth": 200
   },
   "credits": {
     "enabled": true,
@@ -466,7 +851,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 16.12.2025"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
