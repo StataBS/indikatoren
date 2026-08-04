@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=951" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       href="assets/css/tailwind.css"
@@ -115,7 +115,6 @@
               class="bg-white text-gray-600 focus:outline-none h-[60px] col-span-4 pl-20 w-full"
               spellcheck="false"
               role="searchbox"
-              aria-owns="searchterm-suggestions"
               aria-label="Search input"
               placeholder="Suchbegriff eingeben"
             />
@@ -227,7 +226,7 @@
             <div class="content">
               <div class="">
                 <div class="hidden">
-                  <select class="form-control" id="sortBy">
+                  <select class="form-control" id="sortBy" aria-label="Sortierung">
                     <option value="kuerzel_asc">
                       Sortierung: Thema &uarr;
                     </option>
@@ -257,6 +256,7 @@
                           <select
                             class="form-control"
                             id="kennzahlenset_filter"
+                            aria-label="Kennzahlenset"
                           >
                             <!--option value="all">Kennzahlenset</option -->
                           </select>
@@ -271,6 +271,7 @@
                             class="form-control"
                             id="darstellungsart_filter"
                             multiple="multiple"
+                            aria-label="Darstellungsform"
                           ></select>
                         </fieldset>
                       </div>
