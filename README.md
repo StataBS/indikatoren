@@ -1,282 +1,319 @@
-# Indikatorenportal Statistisches Amt Basel-Stadt 
-Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/). 
+# Indikatorenportal Statistisches Amt Basel-Stadt
 
-## Update charts from ftp server
-- Run the following command in a terminal window: 
-```javascript
-npm run deployNewCharts
-npm run build
-```
-- Build, commit and push as explained further down. 
+Statistische Indikatoren des Kantons Basel-Stadt finden und darstellen. Live-Version: [statistik.bs.ch/indikatorenportal](https://statistik.bs.ch/indikatorenportal/).
 
-## Create png/pdf files of each chart within an indikatorenset
-- In Chrome, open print.html?Indikatorenset=indikatorensetname or print.html?Indikatorenset=indikatorensetname&type=pdf
-    - use keyword `view` to decide if indicator-title is included
-        - &view=print: no title
-        - &view=portal: title
-        - &view=indikatorenset: number and title
-- Chrome will download a png/pdf file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder.
-- It uses a [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server) deployed on the StatA-Server [pdstatasvpapp05](highcharts-export.stata.pd.intranet.bs.ch)  
-- To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
-- To download a single chart as pn/pdfg, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://highcharts-export.stata.pd.intranet.bs.ch/&id=[chart-id]&thumbnailType=[pdf/png]
+## Inhalt
 
+- [Ansichten und Seiten](#ansichten-und-seiten)
+- [Lokale Installation](#lokale-installation)
+- [Entwicklung starten](#entwicklung-starten)
+- [Projektstruktur](#projektstruktur)
+- [Daten, Metadaten und Charts pflegen](#daten-metadaten-und-charts-pflegen)
+- [Neue Charts erstellen](#neue-charts-erstellen)
+- [Anwendung lokal bauen](#anwendung-lokal-bauen)
+- [Was macht der Build-Prozess?](#was-macht-der-build-prozess)
+- [Charts vom FTP-Server aktualisieren](#charts-vom-ftp-server-aktualisieren)
+- [Charts aus dem "Umweltbericht beider Basel" übernehmen](#charts-aus-dem-umweltbericht-beider-basel-übernehmen)
+- [PNG/PDF-Export pro Indikatorenset](#pngpdf-export-pro-indikatorenset)
+- [Vorschaubilder manuell erzeugen](#vorschaubilder-manuell-erzeugen)
+- [URL-Parameter](#url-parameter)
+- [Bekannte Highcharts-12-Kompatibilitätsthemen](#bekannte-highcharts-12-kompatibilitätsthemen)
+- [Abhängigkeiten aktualisieren](#abhängigkeiten-aktualisieren)
+- [Entwicklung in einem privaten GitHub-Repository](#entwicklung-in-einem-privaten-github-repository)
+- [Entwicklung mit Cloud9](#entwicklung-mit-cloud9)
+- [Lizenzierung](#lizenzierung)
 
-## Manually create svg thumbnails 
-- For the portal view: In Chrome, open thumbnails.html
-- For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
-This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
+## Ansichten und Seiten
 
+- **`index.html`** – Das Portal: durchsuchbare, filterbare Übersicht aller Indikatoren. Bietet drei Ansichtsoptionen (oben rechts umschaltbar): **Kachelansicht**, **Tabellenansicht** (Titel, Untertitel, Thema, Unterthema, Publikationsdatum ohne Vorschaubild) sowie eine **Listenansicht**, die aktuell im UI ausgeblendet ist, deren Funktionalität aber vollständig erhalten bleibt (siehe `assets/js/indikatoren-filter.js`, `portalViewMode`).
+  - Standardmässig werden 32 Indikatoren geladen; über den Button "Alle anzeigen" werden weitere nachgeladen. Alle Metadaten sind dabei bereits vollständig im Browser vorhanden – die Begrenzung betrifft nur die gerenderten Kacheln, nicht die in der Lightbox verfügbaren Indikatoren.
+  - Klick auf einen Indikator öffnet die **Lightbox** (`assets/js/lightbox.js`) mit Chart, Lesehilfe, Erläuterungen und Links; Navigation mit Pfeiltasten oder den Pfeil-Buttons durch alle gefilterten Indikatoren.
+  - Mit dem Parameter `Indikatorenset` wechselt die Seite in die **Indikatorenset-Ansicht** (siehe [URL-Parameter](#url-parameter)).
+- **`chart-details.html`** – Einzelner Indikator als eigenständige oder eingebettete Seite (`?id=…`). Mit `hideHeader=false` erscheint der Kopfbereich und der Inhalt wird wie der Rest der Seite in einem `.container` dargestellt (für die eigenständige Nutzung); mit `hideHeader=true` (Standard für Einbettung via iframe) nimmt der Inhalt die volle Breite ein.
+- **`chart.html`** – Ähnlich wie `chart-details.html`, dient v. a. als Einbettungsziel innerhalb der Portal-/Indikatorenset-Ansicht und für den Vorschaubild-Export.
+- **`chart-dev.html`** – Minimalseite zum isolierten Entwickeln/Testen eines einzelnen Charts, ohne den restlichen Portal-Code zu laden.
+- **`print.html`** – Erzeugt PNG/PDF-Dateien aller Charts eines Indikatorensets zum Download (siehe [PNG/PDF-Export](#pngpdf-export-pro-indikatorenset)).
+- **`thumbnails.html`, `all.html`** – Hilfsseiten zum manuellen Erzeugen bzw. Durchblättern aller Vorschaubilder im Browser.
 
-## Local Installation
-Install [node.js](https://nodejs.org), then run the following command in the console: 
-```javascript
+## Lokale Installation
+
+[Node.js](https://nodejs.org) installieren, danach im Projektverzeichnis:
+
+```shell
 npm install
 ```
 
+## Entwicklung starten
 
-## Getting Started
-Locally build, start http server, open browser:
-```javascript
-npm start
+Lokalen Server starten (Port 8084, zeigt den aktuellen, bereits gebauten Stand):
+
+```shell
+npm run local-server
 ```
 
+Für Änderungen an Layout/Styling zusätzlich in einem zweiten Terminal den Tailwind-Watcher laufen lassen – er kompiliert `tailwind/tailwind.css` fortlaufend nach `assets/css/tailwind.css`. Dieser Schritt ist **nicht** Teil von `npm run build` und muss während der Entwicklung separat laufen:
 
-## Get Charts from "Umweltbericht beider Basel"
-- In Indikatoren-App (Access) go to > "Spezialtabellen" > "Umweltbericht Indikatoren" and run:
-    - Metadaten einlesen (gets Metadaten of all Indicators from UB-Webpage)
-    - Metadaten abgleichen (Imports Metadata to local Indicators DB)
-- Set all indicators to status "Bereit für Live" and click "publizieren" to export all JSONs with correct "zuletzt geändert" date
-- Github: Create new [issue](https://github.com/statabs/indikatoren/) and [branch](https://github.com/statabs-test/indikatoren/)
-- VS Studio: pull, checkout branch
-- Copy metadata (JSON) and tsv files (only for incdicators where data is not copied from Umweltbericht) to branch as described above in section "Update charts from ftp server".
-- In the command line: run 
-```javascript
-npm run build:create_umwelt_charts
-npm run build:clean_umwelt_charts
+```shell
+npm run build:tailwind:watch
 ```
-This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/configs/portal. 
-If a Umwelt chart metadata's datenInChartIntegriert is:
-1) false, the chart's Highcharts config is cleaned and saved as js file in charts/templates/[id].js (This allows using a Umwelt chart Higcharts configuration with data from an externally provided tsv (manually uploaded, default for all other indicators)).
-2) undefined or true: its tsv file is downloaded ftom UB-website and saved to data/[id].tsv (This allows retrieving the tsv file from the Highcharts hamburger menu.)
 
-- Create svg files by running the command 
-```javascript
-npm run build
-```
-- run local-server, [check everything](http://127.0.0.1:8084/?Indikatorenset=Umwelt)
-- add, commit, push
-- add branch/issue-nr to all indicators in the umwelt-set via StatApp
-- set all indicators to status "bereit für Live" in Indikatoren-App
-- (inform git-admin about update)
+Nach Änderungen an Daten, Metadaten oder Chart-Konfigurationen die Anwendung neu bauen (siehe [Anwendung lokal bauen](#anwendung-lokal-bauen)).
 
-## URL Parameters
+## Projektstruktur
 
-- Most of the URL Paramaters outlined below can be used in combination. 
-- Use ? to separate server + document from the list of parameters, then & before 2nd, 3rd (and so on) oparameter in the URL. See examples for stufe below. 
-- Filter parameters can be used even if the respective filter element is hidden. 
-- Url encoding of filter parameter values is automatically performed by the browser, just type in the value in the browser's url bar and hit enter. 
+| Pfad | Inhalt |
+| --- | --- |
+| `metadata/single/[id].json` | Metadaten eines Indikators (Titel, Untertitel, Lesehilfe, Erläuterungen, Quellenangabe, Thema/Unterthema, Kennzahlenset, Template, …). Quelle der Wahrheit – wird von Hand oder per Import gepflegt. |
+| `data/[id].tsv` | Rohdaten des Indikators als Tab-separierte Datei. |
+| `charts/templates/[id].js` | Chart-spezifische Highcharts-Optionen eines einzelnen Indikators (Serienfarben, Tooltips, individuelle Legenden-Positionierung usw.), zusammengeführt mit dem Basis-Template. |
+| `charts/templates/[template].js` | Basis-Templates (z. B. `line001`, `map001`, `mappie001`, `spider001`, …), gemeinsam genutzt von mehreren Indikatoren. Siehe [Neue Charts erstellen](#neue-charts-erstellen) für die vollständige Übersicht. |
+| `charts/configs/portal/[id].json` | **Generiert** durch `npm run build:charts` – fertig zusammengeführte Highcharts-Konfiguration pro Indikator. Nicht von Hand bearbeiten, sondern die Quelldateien (Daten/Metadaten/Template) anpassen und neu bauen. |
+| `images/portal/[id].svg` | **Generiert** durch `npm run build:images` – statisches Vorschaubild für Kachel-/Listenansicht. Nicht von Hand bearbeiten. |
+| `metadata/all/`, `metadata/portal/`, `metadata/sets/` | **Generiert** durch `npm run build:database` / `build:partial_databases` – aggregierte Metadaten-Datenbanken für Portal- bzw. Indikatorenset-Ansicht. |
+| `assets/js/indikatoren-highcharts.js` | Zentrale Rendering-Logik: lädt Template + Chart-Konfiguration + Daten, merged sie und erstellt den Highcharts-Chart. Enthält auch die Highcharts-12-Kompatibilitäts-Patches (siehe unten). |
+| `assets/js/indikatoren-filter.js` | Filter-, Such-, Sortier- und Ansichtslogik des Portals (basiert auf `FilterJS`). |
+| `assets/js/lightbox.js` | Lightbox-/Detailansicht im Portal inkl. Navigation zwischen Indikatoren. |
+| `tailwind/` | Tailwind-Quell-CSS und Komponenten; wird zu `assets/css/tailwind.css` kompiliert. |
+| `build/` | Node.js-Build-Skripte, siehe [Was macht der Build-Prozess?](#was-macht-der-build-prozess). |
+| `tmp/chartsToBuild.json` | Von `build:find_changed_charts` befüllte bzw. manuell setzbare Liste von Indikator-IDs, die beim nächsten `build:charts`/`build:images`-Lauf verarbeitet werden. Nicht versioniert. |
 
-| Parameter | View | Example | Default | Description | 
-|---------- | ---- | ------- | ------- | ----------- |
-| indikatorenset | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Wohnviertel) | | Switches to Indikatorenset view: Hides sidebar, thema filter, räumliche Gliederung filter, but adds stufe1 and stufe2 filter. Additionally, kuerzelKunde is displayed instead of kuerzel.  
-| stufe | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3) | 2 | Sets the maximum stufe ('Kapitel' / 'Unterkapitel') to be displayed as a dropdown filter control. 
-| showHeader | Portal | [Example](https://statabs.github.io/indikatoren/?showHeader=true) | false | Displays header containing bs.ch logo, StatA text and Link to Indikatorenportal. 
-| PerPage | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?PerPage=32) | 16 | Sets the number of charts to be displayd per page. 
-| search | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?search=nominal) |  | Pre-populates the full-text search field. 
-| thema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) |  | Pre-populates the thema filter. 
-| unterthema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) |  | Pre-populates the thema filter. 
-| raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
-| darstellungsart | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?darstellungsart=Karte) |  | Pre-populates the Darstellungsart filter.  
-| stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
-| sort | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?sort=aktualisierungsdatum_desc) | orderKey_asc | Sorts charts by a metadata property. Currently supports sorting by kuerzel, kuerzelKunde, orderKey, aktualisierungsdatum. 
-| hideSidebar | Portal | [Example](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
-| hideSearch | Portal | [Example](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Hides the full text search text box. 
-| hideResetButton | Portal | [Example](https://statabs.github.io/indikatoren/?hideResetButton=true) | false | Hides the filter reset button. 
-| hideThema | Portal | [Example](https://statabs.github.io/indikatoren/?hideThema=true) | false | Hides the Thema filter control. 
-| hideUnterthema | Portal | [Example](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Hides the Unterthema filter control. 
-| hideRaeumlicheGliederung | Portal | [Example](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
-| hideDarstellungsart | Portal | [Example](https://statabs.github.io/indikatoren/?hideDarstellungsart=true) | false | Hides the Darstellungsart filter control. 
-| showLastUpdatedSets | Portal | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&showLastUpdatedSets=true) | false | Shows the table containing the last few updated indikatorensets. 
-| id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
-| hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
-| hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 
-| hideLesehilfe | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfe=true) | false | Hides the Lesehilfe title and text. 
-| hideLesehilfeTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfeTitle=true) | false | Hides the Lesehilfe Title but leaves the Lesehilfe text. 
-| hideErlaeuterungen | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungen=true) | false | Hides the Erlaeuterungen title and text. 
-| hideErlaeuterungenTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungenTitle=true) | false | Hides the Erlaeuterungen Title but leaves the Lesehilfe text. 
-| hideLinks | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinks=true) | false | Hides the Links title and list. 
-| hideLinksTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinksTitle=true) | false | Hides the Links Title but leaves the Link list. 
+## Daten, Metadaten und Charts pflegen
 
+### Daten hinzufügen/aktualisieren
 
+TSV-Datei mit dem Namen `[id].tsv` in den Ordner `data/` kopieren.
 
-## Development
-### Add or Update Data
-Copy the data as tab-separated tsv file named _id_.tsv into the folder 'data'. Refresh browser.  
+### Metadaten hinzufügen/aktualisieren
 
-### Add or Update Metadata
-- Copy the json file named _id_.json into the folder 'metadata/single'. 
-- On test system (https://github.com/statabs-test/indikatoren), the master branch is automatically built and deployed to [github pages](https://statabs-test.github.io/indikatoren/) via [travis-ci](https://travis-ci.org/statabs-test/indikatoren) - thus no local build necessary. 
-- For a local build: Rebuild the project to regenerate the json databases for indikatorensets (in folder 'metadata/sets') and for all indikatoren (file metadata/portal/indikatoren.js): 
-```javascript
-npm run build
-``` 
+JSON-Datei mit dem Namen `[id].json` in den Ordner `metadata/single/` kopieren, danach lokal bauen (siehe unten), damit die aggregierten Metadaten-Datenbanken aktualisiert werden.
 
-### Add or Update Chart Configurations
-- Copy the chart configuration file named _id_.js into the folder 'charts/templates'. The file needs to contain a self-calling function that returns the Highchart configuration details that differ from the chart's template. At least the "series" node is required. 
-- On test system (https://github.com/statabs-test/indikatoren), the master branch is automatically built and deployed to [github pages](https://statabs-test.github.io/indikatoren/) via [travis-ci](https://travis-ci.org/statabs-test/indikatoren) - thus no local build necessary. 
-- For a local build: Rebuild the project to regenerate metadata databases, final chart configurations, and svg thumbnail images for all indicators: 
-```javascript
-npm run build
-``` 
+### Chart-Konfiguration hinzufügen/aktualisieren
 
-### Create Kennzahlensets for Print: Copy Data and Chart Configurations
-- If a new kennzahlenset is created for print, it can be initialized with data and chart configurations of their respective parent kennzahlenset. 
-- To do this, first upload the metadata files to metadata/single. 
-- Then run 
-```javascript
-npm run build:init_print_charts
-```
-- This will check each metadata file for matching data/[id].tsv and charts/templates/[id].js. If tsv or js file is missing, it will be copied from the parent chart's file. 
-- This is an excellent starting point to refine charts for printing. 
+Datei `[id].js` in den Ordner `charts/templates/` kopieren. Sie muss eine [self-invoking function](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) enthalten, die ein JavaScript-Objekt mit den Abweichungen vom Basis-Template zurückgibt – mindestens der Knoten `series` wird benötigt.
 
+### Kennzahlensets für Print initialisieren
 
-### Build Application Locally
-To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 
-```javascript
+Für ein neues Print-Kennzahlenset können Daten und Chart-Konfigurationen vom jeweiligen Eltern-Kennzahlenset übernommen werden:
+
+1. Metadaten-Dateien nach `metadata/single/` hochladen.
+2. Ausführen:
+   ```shell
+   npm run build:init_print_charts
+   ```
+   Prüft für jede Metadaten-Datei, ob passende `data/[id].tsv`- und `charts/templates/[id].js`-Dateien existieren. Falls nicht, werden sie vom Eltern-Chart kopiert – ein guter Ausgangspunkt, um die Print-Darstellung zu verfeinern.
+
+## Neue Charts erstellen
+
+1. Metadaten-JSON nach `metadata/single/[id].json` hochladen.
+2. TSV-Datei nach `data/[id].tsv` hochladen.
+3. Eine bestehende Chart-Definition nach `charts/templates/[id].js` kopieren oder neu erstellen. Die Datei muss eine self-invoking function enthalten, die zurückgibt:
+   - ein Array `series` mit einem Objekt pro Datenspalte, die im Chart verwendet werden soll (ab der 2. Spalte der TSV-Datei; für die erste Spalte ist kein Objekt nötig),
+   - alle Abweichungen vom Basis-Template, das in den Metadaten des Charts festgelegt ist (`template`-Feld).
+4. `chart-dev.html` anpassen (Chart-ID und Template-Datei) und im Browser laden, um das Ergebnis zu prüfen.
+5. Bei Bedarf die Chart-Definition anhand der [Highcharts-API-Dokumentation](https://api.highcharts.com/) verfeinern.
+6. In `metadata/all/templatesById.json` lässt sich nachschauen, welche Charts auf welchem Template basieren.
+7. Um den Chart im Portal bzw. in der Indikatorenset-Ansicht anzuzeigen: [Anwendung lokal bauen](#anwendung-lokal-bauen).
+
+Verfügbare Basis-Templates (Klick auf das Bild öffnet den interaktiven Chart):
+
+- **area001** – z. B. 6548: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
+- **befragungen001** – Umfrageergebnisse als absolute Zahlen: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>
+- **befragungenProzent001** – Umfrageergebnisse in Prozent: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
+- **bubble001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
+- **dotplot**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>
+- **line001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
+- **map001** – Wohnviertel-Choroplethenkarte mit Rängen aus der Datendatei im Tooltip: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
+- **map002** – einfache Wohnviertel-Choroplethenkarte ohne Ränge, mit einfachem Tooltip: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a>
+- **mapcolumn002**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a>
+- **mappie001** – Kreise/Kuchendiagramme auf einer Karte: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
+- **pie001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a>
+- **populationPyramid001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
+- **spider001** – Netz-/Radardiagramm ("Quartierradar"): <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6630" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6630.svg"></a>
+- **stock001** – Zeitachse mit Mini-Chart zum Filtern, z. B. 4132: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
+- **template001** – Allzweck-Template; die meisten Balken-, Säulen- und Kombinationscharts basieren darauf: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
+
+## Anwendung lokal bauen
+
+Metadaten-Datenbanken, Chart-Konfigurationen und SVG-Vorschaubilder aller **seit dem letzten Build geänderten** Charts neu erzeugen:
+
+```shell
 npm run build
 ```
 
-To build the application and rebuild all json config files and all chart's svg images: 
-```javascript
+Alles neu bauen, unabhängig von Änderungen:
+
+```shell
 npm run rebuild
 ```
 
-Manually create svg thumbnails: 
-- For the portal view: In Chrome, open thumbnails.html.
-- For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
-This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
+Statt eines vollständigen Builds können auch gezielt einzelne Indikatoren neu gebaut werden: gewünschte IDs in `tmp/chartsToBuild.json` eintragen (z. B. `["6630","6631"]`), dann:
 
+```shell
+npm run build:charts
+npm run build:images
+```
 
-### What does the build script do?
-The build script does the following things: 
-- npm run build:database: Creates metadata database files to be used in portal view: 
-    - Loads each chart's metadata file from metadata/single/[id].json and evaluates if it is visible (visible == true) and/or visible in portal view (visibleInPortal == true). 
-    - Metadata of each charts that has property visible == true gets copied into the file metadata/all/indikatoren.json
-    - A chart gets the property visibleInPortal set to true if it: 
-        - has property visibleInPortal set to true or undefined, and
-        - is not member of kennzahlenset "Test", "-print", and
-        - has no parent chart of which the metadata file is present or has a parent chart and links to that chart because it is e.g. the same data but presented differently.
-    - Metadata of each chart with metadata visibleInPortal == true gets copied into the file metadata/portal/indikatoren.json. 
-    - Files metadata/all/kuerzelById.json, idByKuerzel.json, templateById.json, all.md are created. Those can be used by humans to quickly look up id, kuerzel, kennzahlenset, visible, visibleInPortal and template of each chart. 
-- npm run build:find_changed_charts: Checks which charts must be rebuilt since last build: 
-    - Calculates hash code of each file in data/, metadata/single/, charts/templates/ and compares it to the hash code after the previous build (created by npm run build:save_checksums). If a chart's data, metadata, config file or template config have changed since last build, its id is added to file tmp/chartsToBuild.json. 
-- npm run build:partial_databases: Creates a json database for each kennzahlenset: 
-    - Runs through all files metadata/single/*.json and adds charts that have property visible == true or visible == undefined to a file metadata/sets/[kennzahlenset].json. This file is loaded by index.html when parameter ?indikatorenset is specified, instead of the larger file metadata/portal/indikatoren.json. 
-- npm run build:charts: Creates Highcharts config file for each chart: 
-    - Runs through each chart in tmp/chartsToBuild.json to create a highchart config file charts/configs/portal/[id].json by combining the chart's from data/[id].tsv, metadata from metadata/single/[id].json, template from charts/templates/[id].js and template's config from charts/templates/[template].js. 
-- npm run build:images: Creates the svg file for each chart to be used as a preview: 
-    - Runs through each chart in tmp/chartsToBuild.json to create a file images/portal/[id].svg from its Highcharts config file charts/config/[id].json. 
-- npm run build:images_viewbox: Adds viewbox to the generated svg files so that IE displays them nicely. 
-- npm run build:optimize_images: Optimizes svg files so that they are smaller. 
-- npm run build:save_checksums: Saves checksums of all files to metadata/all/hasesAfterBuild.json so that during next build, npm run build:find_changed_charts can find changes. 
-- npm run build:copy_modules: Copies npm modules that are required for the live website (defined in packages.json, key "dependencies") to assets/js/modules. 
-- npm run build:copy_data_per_set: Copies tsv files to a folder defined by the chart's kennzahlenset (data/sets/[kennzahlenset]/[id].tsv)
-- npm run build:deployNewCharts: Downloads data, metadata and config for charts that are ready to be updated: 
-    - It downloads the file https://indikatoren.statabs.ch/verzeichnis.txt which contains all charts that are ready to be updated in csv format with columns "indikator", "branch". 
-    - For each chart that is ready to be updated, it downloads its respective tsv and metadata json file from https://indikatoren.statabs.ch/
-    - If a branch name ist given for a chart, it retrieves that chart's js file through git from origin/[branch name]. 
-### Update dependencies
-Update version numbers in package.json, then run the following command to do a clean reinstall: 
-```javascript
+## Was macht der Build-Prozess?
+
+- **`build:database`** – Erstellt die Metadaten-Datenbanken für die Portal-Ansicht: liest jede Datei `metadata/single/[id].json`, ermittelt Sichtbarkeit (`visible`) und Portal-Sichtbarkeit (`visibleInPortal`), schreibt sichtbare Indikatoren nach `metadata/all/indikatoren.json`, portal-sichtbare nach `metadata/portal/indikatoren.json`. Erzeugt zudem `metadata/all/kuerzelById.json`, `idByKuerzel.json`, `templatesById.json` und `all.md` als menschenlesbare Nachschlagehilfen.
+- **`build:find_changed_charts`** – Vergleicht Prüfsummen von `data/`, `metadata/single/`, `charts/templates/` mit dem Stand des letzten Builds (`metadata/all/hashesAfterBuild.json`) und trägt geänderte IDs in `tmp/chartsToBuild.json` ein.
+- **`build:partial_databases`** – Erstellt pro Kennzahlenset eine JSON-Datenbank unter `metadata/sets/[kennzahlenset].json`, die in der Indikatorenset-Ansicht anstelle der grösseren Datei `metadata/portal/indikatoren.json` geladen wird.
+- **`build:charts`** – Erzeugt für jeden Chart in `tmp/chartsToBuild.json` die zusammengeführte Highcharts-Konfiguration `charts/configs/portal/[id].json` aus `data/[id].tsv`, `metadata/single/[id].json`, `charts/templates/[id].js` und dem zugehörigen Basis-Template.
+- **`build:images`** – Erzeugt für jeden Chart in `tmp/chartsToBuild.json` das Vorschaubild `images/portal/[id].svg` aus der jeweiligen Highcharts-Konfiguration (via `highcharts-export-server`). Bei Karten-Charts werden Legende, Zoom-Buttons und Massstabsleiste für die Vorschau ausgeblendet.
+- **`build:images_viewbox`** – Ergänzt die generierten SVGs um ein `viewBox`-Attribut für eine saubere Darstellung.
+- **`build:optimize_images`** – Optimiert die SVG-Dateien (kleinere Dateigrösse).
+- **`build:save_checksums`** – Speichert Prüfsummen aller Dateien in `metadata/all/hashesAfterBuild.json`, damit `build:find_changed_charts` beim nächsten Lauf Änderungen erkennt.
+- **`build:copy_modules`** – Kopiert die für die Live-Website benötigten npm-Module (siehe `package.json`, Schlüssel `dependencies`) nach `assets/js/modules`.
+- **`build:copy_data_per_set`** – Kopiert TSV-Dateien in einen nach Kennzahlenset benannten Ordner (`data/sets/[kennzahlenset]/[id].tsv`).
+- **`deployNewCharts`** – Lädt Daten, Metadaten und Konfiguration für Charts herunter, die laut FTP-Server bereit zur Aktualisierung sind (siehe [Charts vom FTP-Server aktualisieren](#charts-vom-ftp-server-aktualisieren)).
+
+## Charts vom FTP-Server aktualisieren
+
+```shell
+npm run deployNewCharts
+npm run build
+```
+
+Danach wie gewohnt bauen, committen und pushen.
+
+## Charts aus dem "Umweltbericht beider Basel" übernehmen
+
+1. In der Indikatoren-App (Access) unter "Spezialtabellen" → "Umweltbericht Indikatoren": "Metadaten einlesen" (holt Metadaten aller Indikatoren von der UB-Webseite), dann "Metadaten abgleichen" (importiert die Metadaten in die lokale Indikatoren-DB).
+2. Alle betroffenen Indikatoren auf Status "Bereit für Live" setzen und "publizieren", um die JSON-Dateien mit korrektem "zuletzt geändert"-Datum zu exportieren.
+3. GitHub: neues [Issue](https://github.com/statabs/indikatoren/) und dazugehörigen Branch anlegen.
+4. Branch auschecken, Metadaten (JSON) und TSV-Dateien (nur für Indikatoren, deren Daten nicht aus dem Umweltbericht übernommen werden) wie oben beschrieben in den Branch kopieren.
+5. Ausführen:
+   ```shell
+   npm run build:create_umwelt_charts
+   npm run build:clean_umwelt_charts
+   ```
+   Dies öffnet mit CasperJS/PhantomJS alle Charts des Kennzahlensets "Umwelt" und speichert ihre Highcharts-Konfiguration in `charts/configs/portal`. Ist `datenInChartIntegriert` eines Umwelt-Charts:
+   - `false`: wird die Highcharts-Konfiguration bereinigt und als `charts/templates/[id].js` gespeichert (ermöglicht die Verwendung mit extern bereitgestellten, manuell hochgeladenen TSV-Daten – Standardverhalten für alle anderen Indikatoren).
+   - `undefined` oder `true`: wird die TSV-Datei von der UB-Website heruntergeladen und als `data/[id].tsv` gespeichert (ermöglicht das Abrufen der TSV-Datei über das Highcharts-Hamburger-Menü).
+6. SVG-Dateien erzeugen:
+   ```shell
+   npm run build
+   ```
+7. Lokalen Server starten und [alles prüfen](http://127.0.0.1:8084/?Indikatorenset=Umwelt).
+8. Committen, pushen.
+9. Branch-/Issue-Nummer aller Indikatoren des Umwelt-Sets in der StatApp ergänzen, dort Status auf "Bereit für Live" setzen.
+10. Git-Admin über das Update informieren.
+
+## PNG/PDF-Export pro Indikatorenset
+
+- In Chrome `print.html?Indikatorenset=indikatorensetname` bzw. `print.html?Indikatorenset=indikatorensetname&type=pdf` öffnen.
+  - Parameter `view` steuert, ob der Indikator-Titel enthalten ist:
+    - `view=print`: kein Titel
+    - `view=portal`: Titel
+    - `view=indikatorenset`: Nummer und Titel
+- Chrome lädt für jeden Chart des Indikatorensets eine PNG-/PDF-Datei in den lokalen Downloads-Ordner herunter; von dort manuell in den Zielordner verschieben.
+- Verwendet einen [Highcharts Node.js Export Server](https://github.com/highcharts/node-export-server), der auf dem StatA-Server `pdstatasvpapp05` (`highcharts-export.stata.pd.intranet.bs.ch`) läuft.
+- Einzelne Charts in der Druckansicht prüfen: `chart.html?view=print&id=5824`.
+- Einzelnen Chart als PNG/PDF herunterladen: `chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://highcharts-export.stata.pd.intranet.bs.ch/&id=[chart-id]&thumbnailType=[pdf/png]`.
+
+## Vorschaubilder manuell erzeugen
+
+- Portal-Ansicht: `thumbnails.html` in Chrome öffnen.
+- Indikatorenset-Ansicht: `thumbnails.html?view=indikatorenset` öffnen.
+
+Lädt alle SVG-Dateien in den lokalen Downloads-Ordner herunter; von dort manuell in den jeweiligen Zielordner unter `/images/` verschieben.
+
+## URL-Parameter
+
+Die meisten der folgenden Parameter lassen sich kombinieren. `?` trennt Server/Dokument von der Parameterliste, `&` trennt weitere Parameter. Filter-Parameter funktionieren auch, wenn das zugehörige Filterelement ausgeblendet ist. Die URL-Kodierung der Parameterwerte übernimmt der Browser automatisch.
+
+| Parameter | Ansicht | Beispiel | Standard | Beschreibung |
+| --- | --- | --- | --- | --- |
+| `Indikatorenset` | Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?Indikatorenset=Wohnviertel) | – | Wechselt in die Indikatorenset-Ansicht: blendet Seitenleiste, Thema- und Räumliche-Gliederung-Filter aus, ergänzt Filter für Stufe 1 und Stufe 2. Zusätzlich wird `kuerzelKunde` statt `kuerzel` angezeigt. |
+| `stufe` | Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3) | 2 | Legt die maximale Stufe ("Kapitel"/"Unterkapitel") fest, die als Dropdown-Filter angezeigt wird. |
+| `showHeader` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?showHeader=true) | false | Zeigt den Kopfbereich mit bs.ch-Logo, StatA-Schriftzug und Link zum Indikatorenportal. |
+| `PerPage` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?PerPage=32) | 16 | Anzahl der pro Seite angezeigten Charts. |
+| `search` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?search=nominal) | – | Befüllt das Volltextsuchfeld vor. |
+| `thema` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) | – | Befüllt den Thema-Filter vor. |
+| `unterthema` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) | – | Befüllt den Unterthema-Filter vor. |
+| `raeumlicheGliederung` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) | – | Befüllt den Filter für die räumliche Gliederung vor. |
+| `darstellungsart` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?darstellungsart=Karte) | – | Befüllt den Darstellungsart-Filter vor. |
+| `stufe1`, `stufe2`, `stufe3` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) | – | Befüllt die Filter für Stufe 1, Stufe 2 und Stufe 3 vor. |
+| `sort` | Portal, Indikatorenset | [Beispiel](https://statabs.github.io/indikatoren/?sort=aktualisierungsdatum_desc) | orderKey_asc | Sortiert Charts nach einer Metadaten-Eigenschaft. Unterstützt aktuell `kuerzel`, `kuerzelKunde`, `orderKey`, `aktualisierungsdatum`. |
+| `hideSidebar` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Blendet die Seitenleiste (Volltextsuche, Reset-Button, Thema- und Räumliche-Gliederung-Filter) aus. |
+| `hideSearch` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Blendet das Volltextsuchfeld aus. |
+| `hideResetButton` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideResetButton=true) | false | Blendet den Filter-Reset-Button aus. |
+| `hideThema` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideThema=true) | false | Blendet den Thema-Filter aus. |
+| `hideUnterthema` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Blendet den Unterthema-Filter aus. |
+| `hideRaeumlicheGliederung` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Blendet den Filter für die räumliche Gliederung aus. |
+| `hideDarstellungsart` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?hideDarstellungsart=true) | false | Blendet den Darstellungsart-Filter aus. |
+| `showLastUpdatedSets` | Portal | [Beispiel](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&showLastUpdatedSets=true) | false | Zeigt die Tabelle der zuletzt aktualisierten Indikatorensets. |
+| `id` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401) | – | Legt die ID des anzuzeigenden Charts fest. |
+| `hideHeader` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Blendet den Kopfbereich (bs.ch-Logo, StatA-Schriftzug, Link zum Indikatorenportal) aus, verringert den linken Abstand. Bei `false` wird der Inhalt zusätzlich in einen `.container` eingefasst (eigenständige Nutzung). |
+| `hideTitle` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Blendet den Chart-Titel im HTML-Text unterhalb des Charts aus. |
+| `hideLesehilfe` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfe=true) | false | Blendet Titel und Text der Lesehilfe aus. |
+| `hideLesehilfeTitle` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfeTitle=true) | false | Blendet den Lesehilfe-Titel aus, lässt aber den Text stehen. |
+| `hideErlaeuterungen` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungen=true) | false | Blendet Titel und Text der Erläuterungen aus. |
+| `hideErlaeuterungenTitle` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungenTitle=true) | false | Blendet den Erläuterungen-Titel aus, lässt aber den Text stehen. |
+| `hideLinks` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinks=true) | false | Blendet Titel und Liste der Links aus. |
+| `hideLinksTitle` | chart-details.html | [Beispiel](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinksTitle=true) | false | Blendet den Links-Titel aus, lässt aber die Liste stehen. |
+
+## Bekannte Highcharts-12-Kompatibilitätsthemen
+
+Das Projekt wurde von einer älteren Highcharts-Version auf Highcharts 12 migriert. Einige Templates verwenden noch API-Muster, die es in dieser Form nicht mehr gibt. Damit ältere Chart-Templates trotzdem unverändert funktionieren, patcht `assets/js/indikatoren-highcharts.js` beim Laden global:
+
+- **`series.yData` / `series.xData`** – in Highcharts 12 durch `series.getColumn('y')`/`getColumn('x')` ersetzt; wird per `Object.defineProperty` als Getter nachgebildet.
+- **`axis.names` / `Tick.addLabel`** – `axis.names` kann bei manchen Achsen (z. B. Navigator) undefined sein; wird per `afterInit`-Event auf `[]` initialisiert. `Tick.addLabel` ist zusätzlich mit try/catch abgesichert, damit ein fehlerhafter Label-Formatter nur das eine Tick-Label statt den gesamten Chart zum Absturz bringt.
+- **`chart.events.load` / `chart.events.render` mit "Wrapper"-Pattern** – Wenn `indikatoren-highcharts.js` einen bestehenden `load`- oder `render`-Handler "einpackt" (um z. B. Legenden nachträglich zu positionieren), wird der ursprüngliche Handler **nicht** in einer Closure-Variable gespeichert, sondern als Property (`options.chart.events.loadBase` bzw. `renderBase`) auf dem serialisierbaren Options-Objekt abgelegt. Grund: `build/createChartConfigs.js` serialisiert Funktionen nur als reinen Quelltext – eine Referenz auf eine Closure-Variable geht dabei verloren und wirft beim erneuten Auswerten (z. B. während des Vorschaubild-Exports) einen `ReferenceError`, wodurch der komplette ursprüngliche Handler stillschweigend übersprungen wird.
+- **`mappie`-Serien (Kreise/Kuchendiagramme auf Karten)** – positionieren sich über `chart.mapView.projectedUnitsToPixels()` statt über die früher verwendeten `chart.xAxis[0].toPixels()`/`chart.yAxis[0].toPixels()`, die bei Karten-Charts in Highcharts 12 keine gültigen Werte mehr liefern.
+
+Wer ein neues Chart-Template auf Basis eines alten Beispiels erstellt: Diese Muster nach Möglichkeit meiden bzw. bei Problemen mit fehlenden Chart-Elementen (insbesondere in exportierten Vorschaubildern, aber ohne sichtbaren Fehler) zuerst hier nachschauen.
+
+## Abhängigkeiten aktualisieren
+
+Versionsnummern in `package.json` anpassen, danach für eine saubere Neuinstallation:
+
+```shell
 npm run reinstall
 ```
 
-### Develop in a private github repository
-- Develop in a private github repositoriy as you would do in the public repo: Create an issue, create a branch called 'issue-XXX' with XXX being the id of the issue. 
-- When it's time to release the new functionality onto the public repository: 
-    - In the private repo, define the public repo as a remote repo named "upstream" (of course use the correct https url, not the following dummy url. Use e.g. the address from the browser and add '.git' at the end): 
+## Entwicklung in einem privaten GitHub-Repository
+
+- Im privaten Repository wie gewohnt entwickeln: Issue anlegen, Branch `issue-XXX` erstellen (XXX = Issue-Nummer).
+- Sobald die neue Funktionalität ins öffentliche Repository übernommen werden soll:
+  - Im privaten Repo das öffentliche Repo als Remote `upstream` definieren (korrekte HTTPS-URL verwenden):
     ```shell
     git remote add upstream https://github.com/user/indikatoren.git
     ```
-    - Add, commit and push your changes to the private repo as usual. 
-    - Create a branch with the same name on the public github repository ('upstream'). 
-    - Pull the latest commits from the public branch to the private branch: 
+  - Änderungen wie gewohnt committen und ins private Repo pushen.
+  - Branch mit gleichem Namen im öffentlichen Repository (`upstream`) anlegen.
+  - Neueste Commits vom öffentlichen in den privaten Branch holen:
     ```shell
     git checkout issue-XXX
     git pull upstream issue-XXX
     ```
-    - If there are conflicts (public and private branch have changes in common files), manually resolve the conflicts, then add, commit and push the resolved conflicts to the private branch. 
+  - Bei Konflikten (gemeinsame Dateien in beiden Branches geändert): manuell auflösen, dann committen und ins private Repo pushen:
     ```shell
     git add .
-    git commit -m"Merge upstream"
+    git commit -m "Merge upstream"
     git push
     ```
-    - Push your changes to the branch 'issue-XXX' on the public repo: 
+  - Änderungen in den Branch `issue-XXX` des öffentlichen Repos pushen:
     ```shell
     git push upstream issue-XXX
     ```
 
+## Entwicklung mit Cloud9
 
-### Develop using [cloud9](https://c9.io)
-- Create new hosted workspace based on the node.js template and the correct github repo. Use the SSH repo path. 
-- Run the following command. This will set node.js version to 6, install true type fonts, and install the application.
-```shell
-./c9-setup.sh
-```
-- Close the bash terminal and open a new one: click on the + symbol, choose "New Terminal"
-- Enter the following command in terminal and press enter: 
-```shell
-npm run reinstall
-```
-- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache httpd" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
-- To make this runner configuration the default, right-click the green "Run" button in the menu bar, click "Manage...", click "Set as Default". Now, this runner is always invoked when you click the green "Run" button.
+- Neuen gehosteten Workspace basierend auf dem Node.js-Template und dem korrekten GitHub-Repo erstellen (SSH-Repo-Pfad verwenden).
+- Folgenden Befehl ausführen (setzt Node.js-Version auf 6, installiert TrueType-Fonts und die Anwendung):
+  ```shell
+  ./c9-setup.sh
+  ```
+- Bash-Terminal schliessen und ein neues öffnen (Plus-Symbol → "New Terminal").
+- Im Terminal ausführen:
+  ```shell
+  npm run reinstall
+  ```
+- Anwendung in Cloud9 starten: "Run" → "New Run Configuration…" → "Runner" → "Apache httpd" wählen, Feld "Run Config Name" mit z. B. "Apache httpd" benennen. "Run" klicken, danach die im Konsolen-Log angezeigte URL öffnen: `https://<c9-vm-name>-<c9-username>.c9users.io`.
+- Um diese Runner-Konfiguration zur Standardkonfiguration zu machen: Rechtsklick auf den grünen "Run"-Button → "Manage…" → "Set as Default". Ab dann wird dieser Runner bei jedem Klick auf den grünen "Run"-Button verwendet.
 
+## Lizenzierung
 
-## How to create new charts
-- Upload the new metadata json file to metadata/single/[id].json
-- Upload the tsv file to data/[id].json
-- Copy an existing chart definition file to charts/templates/[id].js, or create a new chart definition file that contains:
-    - a [self-invoking javascript function](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) that returns a javascript object, which contains:
-    - an array named "series" which contains one object for each column in the tsv that needs to be used in the chart (starting with the 2nd column in the data file, no object necessary for the first column),
-    - all deviations from the chart template file that is defined in the chart's metadata file. 
-- Edit chart-dev.html to use the chart id and template file for your current chart
-- Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
-- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/). 
-- To get ideas check e.g. [this book](https://www.amazon.com/Learning-Highcharts-Joe-Kuan/dp/1849519080). 
-- To see which charts are based on which templates: check metadata/all/templatesById.json
-- To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
-- If you decide not to copy and adapt an existing chart, choose from the following existing templates (click onto image to open interactive chart): 
-    - area001: e.g. 6548: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
-    - befragungen001: Use for survey results if numbers are given as counts:
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>  
-    - befragungenProzent001: Use for survey results if numbers are given in percentages:
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
-    - bubble001: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
-    - dotplot: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>  
-    - line001: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
-    - map001: Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
-    - map002: Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a> 
-    - mapcolumn002: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a> 
-    - mappie001: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
-    - pie001: 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a> 
-    - populationPyramid001
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
-    - stock001: Time axis, mini chart to filter, e.g. 4132:
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
-    - template001: General Purpose template to create your own charts. Most bar, column or combination charts are based on this template. 
-        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
-
-
-
-## Licensing
-[Highcharts](http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
-For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing](http://shop.highsoft.com/highcharts.html).
+[Highcharts](http://www.highcharts.com/) ist für private, schulische oder Non-Profit-Projekte unter der Creative-Commons-Lizenz "Attribution – Non Commercial 3.0" kostenlos.
+Für kommerzielle und behördliche Websites/Projekte ist eine Lizenz erforderlich, siehe [License and Pricing](http://shop.highsoft.com/highcharts.html).
