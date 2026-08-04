@@ -2730,6 +2730,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   cursor: pointer;
 }
 
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -2815,6 +2821,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .break-words {
   overflow-wrap: break-word;
+}
+
+.rounded {
+  border-radius: 4px;
 }
 
 .rounded-\[30px\] {
@@ -2949,6 +2959,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   font-size: 0.59em;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .text-base {
   font-size: 16px;
   line-height: 22px;
@@ -2983,6 +2997,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .text-blue-900 {
   color: #1E4557;
+}
+
+.text-gray-400 {
+  color: #A5A5A5;
 }
 
 .text-gray-500 {
@@ -3149,6 +3167,10 @@ body {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:w-1\/12 {

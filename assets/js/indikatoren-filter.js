@@ -430,6 +430,22 @@ function preparePortalView() {
   $("#thema").on("change", function () {
     const val = $(this).val();
     localStorage.setItem("portal_thema", val);
+    //Unterthema-Optionen auf das gewählte Thema einschränken (bzw. bei "Alle" wieder alle zeigen)
+    var unterthemaQuery = val && val !== "all" ? { thema: val } : {};
+    renderDropdownFromJson(
+      indikatoren,
+      "unterthema",
+      "#unterthema_filter",
+      "unterthema",
+      unterthemaQuery,
+    );
+    renderDropdownFromJson(
+      indikatoren,
+      "unterthema",
+      "#table-filter-unterthema",
+      "unterthema",
+      unterthemaQuery,
+    );
     if (val && val !== "all") {
       $("#unterthema_filter_container").removeClass("hidden");
     } else {
@@ -477,6 +493,55 @@ function preparePortalView() {
     "unterthema",
     baseQuery,
   );
+
+  //Tabellenansicht: Thema-/Unterthema-Dropdowns im Spaltenkopf spiegeln die
+  //Haupt-Filter und werden bidirektional mit ihnen synchronisiert
+  renderDropdownFromJson(indikatoren, "thema", "#table-filter-thema", "thema");
+  renderDropdownFromJson(
+    indikatoren,
+    "unterthema",
+    "#table-filter-unterthema",
+    "unterthema",
+    baseQuery,
+  );
+
+  $("#table-filter-thema").on("change", function () {
+    $("#thema").val($(this).val()).trigger("change");
+  });
+  $("#thema").on("change", function () {
+    $("#table-filter-thema").val($(this).val());
+  });
+
+  $("#table-filter-unterthema").on("change", function () {
+    $("#unterthema_filter").val($(this).val()).trigger("change");
+  });
+  $("#unterthema_filter").on("change", function () {
+    $("#table-filter-unterthema").val($(this).val());
+  });
+
+  //Tabellenansicht: Titel-/Untertitel-Filter im Spaltenkopf. Wirkt nur auf die
+  //gerenderten Zeilen (und die Lightbox-Slides), nicht auf die
+  //FJS-Trefferzahl/Dropdown-Zähler, da FilterJS pro Instanz nur ein
+  //Volltextsuchfeld unterstützt.
+  $("#table-filter-title, #table-filter-subtitle").on("input", function () {
+    renderCardsSlice(getLastFjsResult());
+  });
+
+  //Tabellenansicht: Sortierung per Klick auf Spaltenkopf. Sortiert das Array
+  //direkt in JS statt über FilterJS' query.order(), da deren "shortResult"-
+  //Callback-Rückgabewert nicht übernommen wird (bereits bestehendes Verhalten,
+  //nicht durch diese Änderung verursacht).
+  $("#table-view-header [data-sort-field]").on("click", function () {
+    var field = $(this).data("sort-field");
+    if (tableSort.field === field) {
+      tableSort.dir = tableSort.dir === "asc" ? "desc" : "asc";
+    } else {
+      tableSort.field = field;
+      tableSort.dir = "asc";
+    }
+    updateTableSortIndicators();
+    renderCardsSlice(getLastFjsResult());
+  });
 
   // hier!
 
@@ -888,6 +953,51 @@ function updateViewToggleActiveState() {
   });
 }
 
+// Tabellenansicht: aktuell aktive Spalten-Sortierung
+var tableSort = { field: null, dir: "asc" };
+
+function updateTableSortIndicators() {
+  $("#table-view-header [data-sort-field]").each(function () {
+    var isActive = $(this).data("sort-field") === tableSort.field;
+    $(this)
+      .find(".table-sort-icon")
+      .text(isActive ? (tableSort.dir === "asc" ? "▲" : "▼") : "⇅")
+      .toggleClass("text-gray-700", isActive)
+      .toggleClass("text-gray-400", !isActive);
+  });
+}
+
+// Tabellenansicht: Titel-/Untertitel-Freitextfilter aus dem Spaltenkopf auf ein Ergebnis anwenden
+function applyTableColumnFilters(result) {
+  var titleQuery = ($("#table-filter-title").val() || "").trim().toLowerCase();
+  var subtitleQuery = ($("#table-filter-subtitle").val() || "")
+    .trim()
+    .toLowerCase();
+  if (!titleQuery && !subtitleQuery) return result;
+  return result.filter(function (item) {
+    var titleOk =
+      !titleQuery || (item.title || "").toLowerCase().indexOf(titleQuery) > -1;
+    var subtitleOk =
+      !subtitleQuery ||
+      (item.subtitle || "").toLowerCase().indexOf(subtitleQuery) > -1;
+    return titleOk && subtitleOk;
+  });
+}
+
+// Tabellenansicht: aktuelle Spalten-Sortierung auf ein Ergebnis anwenden.
+// aktualisierungsdatum ist ein ISO-8601-String, der sich auch als reiner
+// String-Vergleich korrekt chronologisch sortieren lässt.
+function applyTableSort(result) {
+  if (!tableSort.field) return result;
+  var field = tableSort.field;
+  var dir = tableSort.dir === "desc" ? -1 : 1;
+  return result.slice().sort(function (a, b) {
+    var av = (a[field] || "").toString();
+    var bv = (b[field] || "").toString();
+    return av.localeCompare(bv, "de") * dir;
+  });
+}
+
 function getCardTemplateId() {
   if (portalViewMode === "table") {
     return "#indikator-template-table-portal";
@@ -921,13 +1031,25 @@ function renderCardsSlice(result) {
   var $container = $("#indikatoren");
   $container.empty();
 
-  var count = Math.min(itemsToShow, result.length);
+  // Tabellenansicht: Spalten-Textfilter und -Sortierung anwenden, dann immer
+  // alle Treffer zeigen, kein "Alle anzeigen" nötig
+  if (templateId === "#indikator-template-table-portal") {
+    result = applyTableColumnFilters(result);
+    result = applyTableSort(result);
+    // Trefferzahl auf die durch Spaltenfilter reduzierte Menge aktualisieren
+    // (afterFilter() hat sie zuvor auf Basis der FJS-Trefferzahl gesetzt)
+    $("#result-count").text(result.length + " Indikatoren gefunden");
+  }
+  var count =
+    portalViewMode === "table"
+      ? result.length
+      : Math.min(itemsToShow, result.length);
   for (var i = 0; i < count; i++) {
     $container.append(tpl(result[i]));
   }
 
   // Button ein-/ausblenden
-  if (itemsToShow < result.length) {
+  if (portalViewMode !== "table" && itemsToShow < result.length) {
     $("#load-more-container").removeClass("hidden");
   } else {
     $("#load-more-container").addClass("hidden");
