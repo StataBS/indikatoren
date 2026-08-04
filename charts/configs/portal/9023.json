@@ -5320,7 +5320,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -5354,7 +5358,25 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          //add and move legend title (get it from series names)
+          var chart = this;
+          var legendTransform =
+            chart.legend.group.element.getAttribute("transform") || "";
+          var match = legendTransform.match(/translate\(([^,)]+)/);
+          var legendGroupX = match ? parseFloat(match[1]) : 0;
+          var xOffset = 5 - legendGroupX;
+          chart.legend.title
+            .attr({
+              text:
+                chart.series[0].name.split(" ").slice(-1).toString() +
+                ":<br>" +
+                chart.series[13].name.split(" ").slice(-1).toString() +
+                " (rechte Skala):",
+            })
+            .translate(xOffset, 60);
+        }
     },
     "alignThresholds": true,
     "alignTicks": true,
@@ -5478,7 +5500,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
