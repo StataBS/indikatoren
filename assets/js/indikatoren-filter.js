@@ -972,7 +972,7 @@ function updateViewToggleActiveState() {
 }
 
 // Tabellenansicht: aktuell aktive Spalten-Sortierung
-var tableSort = { field: null, dir: "asc" };
+var tableSort = { field: "aktualisierungsdatum", dir: "desc" };
 
 function updateTableSortIndicators() {
   $("#table-view-header [data-sort-field]").each(function () {
@@ -1054,6 +1054,7 @@ function renderCardsSlice(result) {
   if (templateId === "#indikator-template-table-portal") {
     result = applyTableColumnFilters(result);
     result = applyTableSort(result);
+    updateTableSortIndicators();
     // Trefferzahl auf die durch Spaltenfilter reduzierte Menge aktualisieren
     // (afterFilter() hat sie zuvor auf Basis der FJS-Trefferzahl gesetzt)
     $("#result-count").text(result.length + " Indikatoren gefunden");
