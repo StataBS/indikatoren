@@ -341,6 +341,11 @@
                 <span class="table-sort-icon text-gray-400">⇅</span>
               </div>
             </div>
+            <!-- Spalten-Filter (Titel/Untertitel-Freitext, Thema-/Unterthema-Dropdown)
+                 vorerst auskommentiert: redundant zu den bestehenden Filtern in der
+                 Suchleiste. JS-Logik (applyTableColumnFilters, Thema/Unterthema-Sync)
+                 bleibt unverändert bestehen und wird einfach nicht mehr angesteuert,
+                 da diese Elemente nicht mehr im DOM sind.
             <div class="w-full flex gap-10">
               <div class="w-1/2 md:w-4/12 min-w-0">
                 <input
@@ -376,6 +381,7 @@
               </div>
               <div class="hidden md:block md:w-1/12 min-w-0"></div>
             </div>
+            -->
           </div>
 
           <div class="indikatoren flex flex-wrap" id="indikatoren"></div>
