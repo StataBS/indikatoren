@@ -935,6 +935,24 @@ function getIndexByFid(fid) {
   }
 }
 
+// Wie getIndexByFid, aber sucht direkt in window.slides statt im
+// unsortierten FJS-Ergebnis. Nötig für die Tabellenansicht, da dort
+// Sortierung/Spaltenfilter die Reihenfolge lokal verändern (siehe
+// applyTableSort/applyTableColumnFilters) - die Lightbox navigiert durch
+// window.slides, dessen Reihenfolge dann von der FJS-Reihenfolge abweicht.
+function getSlideIndexById(id) {
+  try {
+    for (var i = 0; i < window.slides.length; i++) {
+      if (window.slides[i].id == id) {
+        return i;
+      }
+    }
+    return undefined;
+  } catch (e) {
+    return undefined;
+  }
+}
+
 // Portal view mode: "grid" (Kacheln), "list" (Liste) or "table" (Tabelle) - freely switchable
 // Migrates the old boolean value ("true"/"false") stored under the same key.
 var portalViewMode = (function () {
@@ -1039,6 +1057,13 @@ function renderCardsSlice(result) {
     // Trefferzahl auf die durch Spaltenfilter reduzierte Menge aktualisieren
     // (afterFilter() hat sie zuvor auf Basis der FJS-Trefferzahl gesetzt)
     $("#result-count").text(result.length + " Indikatoren gefunden");
+    // window.slides schon vor dem Rendern auf die finale (sortierte/gefilterte)
+    // Reihenfolge setzen, da getSlideIndexById() im Template pro Zeile bereits
+    // während dieser Schleife dagegen nachschlägt - attachLightboxTriggers()
+    // (das window.slides sonst setzt) läuft erst danach.
+    window.slides = result.map(function (item) {
+      return { id: item.id, kuerzel: item.kuerzel };
+    });
   }
   var count =
     portalViewMode === "table"
