@@ -1038,6 +1038,10 @@
         [
           "2026-06",
           4660
+        ],
+        [
+          "2026-07",
+          4760
         ]
       ],
       "pointStart": 0,
@@ -2082,6 +2086,10 @@
         [
           "2026-06",
           925
+        ],
+        [
+          "2026-07",
+          941
         ]
       ],
       "pointStart": 0,
@@ -3129,6 +3137,10 @@
         [
           "2026-06",
           0.1985
+        ],
+        [
+          "2026-07",
+          0.19769
         ]
       ],
       "pointStart": 0,
@@ -3173,7 +3185,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -3207,7 +3223,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-8980"
   },
@@ -3297,7 +3329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2026"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
