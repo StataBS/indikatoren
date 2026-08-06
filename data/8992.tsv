@@ -1,4 +1,4 @@
-﻿"Datum"	"Kurzarbeit, beantragt"	"Kurzarbeit, genehmigt"	"Kurzarbeit, abgerechnet"
+"Datum"	"Kurzarbeit, beantragt"	"Kurzarbeit, genehmigt"	"Kurzarbeit, abgerechnet"
 "2006-01"	219	217	123
 "2006-02"	228	221	164
 "2006-03"	237	231	5
@@ -242,7 +242,7 @@
 "2026-01"	67	32	2
 "2026-02"	72	32	0
 "2026-03"	59	32	0
-"2026-04"	1139	824	
+"2026-04"	1139	824	0
 "2026-05"	1235	824	
 "2026-06"	978	875	
-
+"2026-07"	148	59	

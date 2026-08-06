@@ -554,6 +554,10 @@
         [
           "2026-06",
           406
+        ],
+        [
+          "2026-07",
+          342
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -693,7 +697,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2026"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.8.2026"
   },
   "tooltip": {
     "valueDecimals": 0,
