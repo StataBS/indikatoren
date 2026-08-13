@@ -116,21 +116,36 @@ Für ein neues Print-Kennzahlenset können Daten und Chart-Konfigurationen vom j
 
 Verfügbare Basis-Templates (Klick auf das Bild öffnet den interaktiven Chart):
 
-- **area001** – z. B. 6548: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
-- **befragungen001** – Umfrageergebnisse als absolute Zahlen: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>
-- **befragungenProzent001** – Umfrageergebnisse in Prozent: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
-- **bubble001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
-- **dotplot**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>
-- **line001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
-- **map001** – Wohnviertel-Choroplethenkarte mit Rängen aus der Datendatei im Tooltip: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
-- **map002** – einfache Wohnviertel-Choroplethenkarte ohne Ränge, mit einfachem Tooltip: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a>
-- **mapcolumn002**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a>
-- **mappie001** – Kreise/Kuchendiagramme auf einer Karte: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
-- **pie001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a>
-- **populationPyramid001**: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
-- **spider001** – Netz-/Radardiagramm ("Quartierradar"): <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6630" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6630.svg"></a>
-- **stock001** – Zeitachse mit Mini-Chart zum Filtern, z. B. 4132: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
-- **template001** – Allzweck-Template; die meisten Balken-, Säulen- und Kombinationscharts basieren darauf: <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
+- **area001** – z. B. 6548:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="images/portal/6548.svg" width="30%"></a>
+- **befragungen001** – Umfrageergebnisse als absolute Zahlen:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="images/portal/6266.svg" width="30%"></a>
+- **befragungenProzent001** – Umfrageergebnisse in Prozent:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="images/portal/5821.svg" width="30%"></a>
+- **bubble001**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="images/portal/6549.svg" width="30%"></a>
+- **dotplot**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="images/portal/4839.svg" width="30%"></a>
+- **line001**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="images/portal/5813.svg" width="30%"></a>
+- **map001** – Wohnviertel-Choroplethenkarte mit Rängen aus der Datendatei im Tooltip:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="images/portal/5109.svg" width="30%"></a>
+- **map002** – einfache Wohnviertel-Choroplethenkarte ohne Ränge, mit einfachem Tooltip:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="images/portal/9999.svg" width="30%"></a>
+- **mapcolumn002**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="images/portal/6022.svg" width="30%"></a>
+- **mappie001** – Kreise/Kuchendiagramme auf einer Karte:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="images/portal/6009.svg" width="30%"></a>
+- **pie001**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="images/portal/6013.svg" width="30%"></a>
+- **populationPyramid001**:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="images/portal/6018.svg" width="30%"></a>
+- **spider001** – Netz-/Radardiagramm ("Quartierradar"):<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6630" target="_blank"><img src="images/portal/6630.svg" width="30%"></a>
+- **stock001** – Zeitachse mit Mini-Chart zum Filtern, z. B. 4132:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="images/portal/4132.svg" width="30%"></a>
+- **template001** – Allzweck-Template; die meisten Balken-, Säulen- und Kombinationscharts basieren darauf:<br>
+  <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="images/portal/6011.svg" width="30%"></a>
 
 ## Anwendung lokal bauen
 
