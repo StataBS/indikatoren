@@ -1123,11 +1123,6 @@ hr {
   }
 }
 
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 .page {
   display: flex;
   flex-direction: column;
