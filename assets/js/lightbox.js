@@ -190,6 +190,49 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Mobile: links/rechts wischen navigiert wie die Pfeil-Buttons
+  let touchStartX = null;
+  let touchStartY = null;
+  const swipeThreshold = 50; // px, minimale horizontale Distanz
+
+  lightboxContent.addEventListener(
+    "touchstart",
+    function (e) {
+      if (e.touches.length !== 1) return;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    },
+    { passive: true },
+  );
+
+  lightboxContent.addEventListener(
+    "touchend",
+    function (e) {
+      if (touchStartX === null) return;
+      const touch = e.changedTouches[0];
+      const deltaX = touch.clientX - touchStartX;
+      const deltaY = touch.clientY - touchStartY;
+      touchStartX = null;
+      touchStartY = null;
+
+      // Nur auslösen, wenn die Bewegung überwiegend horizontal war -
+      // vertikales Wischen (Scrollen) soll nicht als Swipe zählen
+      if (
+        Math.abs(deltaX) < swipeThreshold ||
+        Math.abs(deltaX) < Math.abs(deltaY)
+      ) {
+        return;
+      }
+
+      if (deltaX < 0) {
+        nextBtn.click();
+      } else {
+        prevBtn.click();
+      }
+    },
+    { passive: true },
+  );
+
   function waitForElements(selector, callback) {
     const elements = document.querySelectorAll(selector);
     if (elements.length > 0) {
